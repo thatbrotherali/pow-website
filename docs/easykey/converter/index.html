@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EasyKey Converter (beta)</title>
+  <meta name="description" content="Turn a MIDI file into EasyKey visual music notation in your browser. Free while in beta." />
+  <link rel="icon" href="../../assets/favicon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>EasyKey Music Converter</h1>
+    <p class="subtitle"><a href="../../easykey.html">← EasyKey Music</a> · Beta v0.80, free while in testing · Your file stays on your device</p>
+
+    <div class="actions">
+      <label class="mode view" title="Beginner: the full keyboard. Pro: one compact grid per measure with only the keys played.">
+        View:
+        <select id="viewMode">
+          <option value="beginner" selected>Beginner</option>
+          <option value="pro">Pro</option>
+        </select>
+      </label>
+
+      <label class="file-btn">
+        <input id="fileInput" type="file" accept=".mid,.midi" />
+        Load MIDI (.mid / .midi)
+      </label>
+
+      <label class="mode" title="Auto: tidies notation files lightly and played-in files firmly. Quantized: snaps to the grid you choose. Expressive: no snapping.">
+        Timing:
+        <select id="timingMode">
+          <option value="auto" selected>Auto</option>
+          <option value="quantized">Quantized</option>
+          <option value="expressive">Expressive (no snapping)</option>
+        </select>
+      </label>
+
+      <label class="mode" title="Smallest step that note starts and ends are snapped to, in Quantized mode">
+        Snap to:
+        <select id="snapGrid">
+          <option value="2">1/2 beat</option>
+          <option value="4" selected>1/4 beat</option>
+          <option value="3">1/3 beat (triplets)</option>
+          <option value="8">1/8 beat</option>
+        </select>
+      </label>
+
+      <label class="mode" title="What one row of the grid stands for. Auto uses the beat of the time signature (quarter note for 4/4 and 2/2, eighth note for 6/8).">
+        One row =
+        <select id="cellUnit">
+          <option value="auto" selected>Auto (one beat)</option>
+          <option value="1">Quarter note</option>
+          <option value="0.5">Eighth note</option>
+          <option value="2">Half note</option>
+        </select>
+      </label>
+
+      <label class="mode" title="Length of a lead-in (pickup) before the first full bar, in rows. Use this if the bar lines look shifted.">
+        Pickup rows:
+        <input id="pickup" type="number" min="0" max="16" step="0.5" value="0" />
+      </label>
+
+      <label class="mode" title="How the stacked triangles of a triplet point">
+        Triplets:
+        <select id="tripletStyle">
+          <option value="group" selected>Follow group start (▼▼▼)</option>
+          <option value="half">Half-beat rule (▼▼▲)</option>
+          <option value="alt">Alternate (▼▲▼)</option>
+        </select>
+      </label>
+
+      <label class="mode"><input id="octaves" type="checkbox" /> Octave numbers</label>
+
+      <button id="printBtn" type="button">Print</button>
+      <button id="svgBtn" type="button">Download SVG</button>
+      <button id="debugBtn" type="button" data-on="false">Debug (off)</button>
+      <button id="clearBtn" type="button">Clear</button>
+    </div>
+
+    <div id="tracks" class="tracks" hidden></div>
+    <div id="status" class="status">Ready. Load a MIDI file to begin.</div>
+  </header>
+
+  <main>
+    <h2 id="songTitle" class="song-title" hidden></h2>
+    <div id="svgWrap" class="svg-wrap"></div>
+    <pre id="debugPanel" class="debug" hidden></pre>
+  </main>
+
+  <footer>
+    <p>Created using the <strong>Visual Music Notation System</strong> developed by Shareef Ali Rashada · © EasyKey Music</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

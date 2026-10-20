@@ -505,15 +505,13 @@ def build_reader():
 
 
 PLACEHOLDERS = {
-    "easykey": ("EasyKey Music", "Learn piano by seeing it.",
-                "This door will hold EasyKey's visual music notation: a free first lesson you can play in your browser, the year-long course book, and the converter that turns MIDI files into EasyKey grids.", []),
     "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
            "This door will hold the Open Data Gateway for AI systems and developers. The current gateway is already online.",
            [("Open the current gateway", "https://thatbrotherali.github.io/ai-portal/")]),
 }
 
 
-PLACEHOLDER_COVERS = {"easykey": ("cover-easykey", "Learning to Play the EasyKey Way", 496, 701)}
+PLACEHOLDER_COVERS = {}
 
 
 def build_placeholders():
@@ -714,6 +712,145 @@ def build_science():
     page("science.html", "Graviton Pressure Theory", "Graviton Pressure Theory: gravity as a push from a medium outside, not a pull from within. Free papers, the book, and where the work stands.", body, "science")
 
 
+def ek_icon(kind):
+    """A one-column EasyKey cell drawing for the symbol legend (white key, two beat rows)."""
+    w, r = 30, 28
+    cx, hw = w / 2, w * .42
+    lines = f'<line x1="0" y1="{r}" x2="{w}" y2="{r}" stroke="#9A9AA2" stroke-width=".8"/>'
+    if kind == "quarter":
+        shape = f'<polygon points="{cx},2 {cx+hw},{r/2} {cx},{r-2} {cx-hw},{r/2}"/>'
+    elif kind == "half":
+        shape = f'<polygon points="{cx},2 {cx+hw},{r} {cx},{2*r-2} {cx-hw},{r}"/>'
+    elif kind == "eighths":
+        shape = f'<polygon points="{cx-hw},1 {cx+hw},1 {cx},{r/2-1}"/><polygon points="{cx-hw},{r-1} {cx+hw},{r-1} {cx},{r/2+1}"/>'
+    else:  # held across the bar line
+        lines += f'<line x1="0" y1="{2*r}" x2="{w}" y2="{2*r}" stroke="#1B1B1F" stroke-width="3"/>'
+        shape = f'<polygon points="{cx},2 {cx+hw},{r/2} {cx+hw},{2*r} {cx-hw},{2*r} {cx-hw},{r/2}"/>'
+    return f'<svg width="{w}" height="{2*r}" viewBox="0 0 {w} {2*r}" aria-hidden="true" fill="#1B1B1F">{lines}{shape}</svg>'
+
+
+def ek_hero_svg():
+    """Two bars of Twinkle Twinkle on an EasyKey grid; notes appear in order (CSS animation)."""
+    WW, BW, ROW, HEAD = 30, 20, 22, 34
+    black = {1, 3, 6, 8, 10}
+    cols, x = [], 0
+    for m in range(60, 73):
+        b = (m % 12) in black
+        cols.append((m, b, x, BW if b else WW)); x += BW if b else WW
+    gw, rows = x, 8
+    names = {0: "C", 2: "D", 4: "E", 5: "F", 7: "G", 9: "A", 11: "B"}
+    song = [(60, 0, 1), (60, 1, 1), (67, 2, 1), (67, 3, 1), (69, 4, 1), (69, 5, 1), (67, 6, 2)]
+    colx = {m: (cx, w) for m, b, cx, w in cols}
+    out = [f'<svg viewBox="0 0 {gw} {HEAD + rows * ROW + 2}" role="img" aria-label="Twinkle Twinkle Little Star in EasyKey notation">']
+    for m, b, cx, w in cols:
+        out.append(f'<rect x="{cx}" y="0" width="{w}" height="{HEAD}" fill="{"#1B1B1F" if b else "#FFFFFF"}" stroke="#1B1B1F"/>')
+        out.append(f'<rect x="{cx}" y="{HEAD}" width="{w}" height="{rows * ROW}" fill="{"#D9D9DE" if b else "#FFFFFF"}"/>')
+    for i, (m, a, ln) in enumerate(song):
+        cx, w = colx[m]
+        out.append(f'<rect class="k-on" style="--d:{a * .75:.2f}s" x="{cx + 1}" y="1" width="{w - 2}" height="{HEAD - 2}"/>')
+    for m, b, cx, w in cols:
+        if not b:
+            out.append(f'<text x="{cx + w / 2}" y="{HEAD - 10}" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="13" fill="#1B1B1F">{names[m % 12]}</text>')
+    for r in range(rows + 1):
+        y = HEAD + r * ROW
+        out.append(f'<line x1="0" y1="{y}" x2="{gw}" y2="{y}" stroke="{"#1B1B1F" if r % 4 == 0 else "#9A9AA2"}" stroke-width="{2 if r % 4 == 0 else .6}"/>')
+    for m, b, cx, w in cols:
+        out.append(f'<line x1="{cx}" y1="{HEAD}" x2="{cx}" y2="{HEAD + rows * ROW}" stroke="#9A9AA2" stroke-width=".6"/>')
+    for m, a, ln in song:
+        cx, w = colx[m]
+        c, hw = cx + w / 2, w * .42
+        y0, y1 = HEAD + a * ROW + 1.5, HEAD + (a + ln) * ROW - 1.5
+        out.append(f'<polygon class="n" style="--d:{a * .75:.2f}s" points="{c},{y0} {c + hw},{(y0 + y1) / 2} {c},{y1} {c - hw},{(y0 + y1) / 2}"/>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def build_easykey():
+    legend = [("quarter", "One beat", "A diamond fills one row. Press the key for one beat."),
+              ("half", "Two beats", "A longer diamond stretches over two rows. Hold the key down for as long as the diamond lasts."),
+              ("eighths", "Half beats", "A triangle pointing down starts on the beat. A triangle pointing up starts halfway through it."),
+              ("held", "Keep holding", "A filled bar means the key stays down, here across the bold bar line into the next bar.")]
+    legend_html = "".join(f'<li>{ek_icon(k)}<span><strong>{esc(t)}</strong><span class="muted" style="font-size:15px">{esc(d)}</span></span></li>' for k, t, d in legend)
+    months = ["A", "B♭", "B", "C", "D♭", "D", "E♭", "E", "F", "F♯", "G", "A♭"]
+    months_html = "".join(f"<li><span>Month {i}</span><b>{m}</b></li>" for i, m in enumerate(months, 1))
+    body = f"""{header("EasyKey Music", "Visual music notation by People of the World", [("Try it", "#lesson", False, None), ("How to read it", "#read", False, None),
+                        ("The course", "#course", False, None), ("Converter", "easykey/converter/", True, None)])}
+<main>
+<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 64px">
+<div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
+<p class="eyebrow accent">EasyKey Music</p>
+<h1 class="h-xl">See the key. Press the key.</h1>
+<p class="lead muted" style="max-width:620px">EasyKey writes music as a picture of the piano. Each column is a key, each row is a beat, and you read from top to bottom. If you can find a key, you can play a song, with no staff, clefs or note names to learn first.</p>
+<div class="actions"><a class="btn btn-door" href="#lesson">Play your first song</a><a class="btn btn-ghost" href="#read">How to read it</a></div>
+</div>
+<div class="ek-paper ek-hero" aria-hidden="true">{ek_hero_svg()}</div>
+</div></section>
+
+<section id="lesson" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:36px 64px;align-items:flex-start">
+<div class="stack" style="flex:1 1 320px;min-width:0">
+<p class="eyebrow muted">Free lesson · two minutes</p>
+<h2 class="h-lg">Play Twinkle Twinkle now.</h2>
+<p class="lead muted">Press <strong>Listen</strong> to hear it and watch the grid. Then press <strong>Play along</strong> and play it yourself: tap the keys, or use your computer keyboard.</p>
+<p class="muted">The grid waits for you, so go as slowly as you like. The key you need next glows.</p>
+<p class="note">On a computer, <strong>A S D F G H J K</strong> are the white keys from C to C, and <strong>W E T Y U</strong> are the black keys.</p>
+</div>
+<div id="ek-lesson" class="ek-paper ek-lesson" style="flex:1 1 360px">
+<div class="ek-keys-wrap"></div>
+<div class="ek-scroll"></div>
+<div class="ek-controls">
+<button class="btn btn-door" type="button" data-ek="listen">Listen</button>
+<button class="btn btn-outline" type="button" data-ek="play" style="color:#1B1B1F;border-color:#1B1B1F">Play along</button>
+<label>Speed <input class="ek-tempo" type="range" min="50" max="140" value="90" aria-label="Speed in beats per minute"></label>
+</div>
+<p class="ek-status" aria-live="polite">Press Listen to hear the song.</p>
+</div>
+</div></section>
+
+<section id="read" class="section band-alt"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">How to read EasyKey</h2>
+<p class="lead muted">The keyboard sits at the top of the page. Shaded columns are the black keys. Bold lines mark the bars. The shape in a column tells you how long to hold that key.</p></div>
+<ul class="ek-legend">{legend_html}</ul>
+</div></section>
+
+<section id="course" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 56px">
+<img class="cover-img" style="flex:0 1 220px;width:220px" src="assets/cover-easykey.webp" alt="Cover of Learning to Play the EasyKey Way" width="496" height="701" loading="lazy">
+<div class="stack" style="flex:999 1 440px;min-width:0;gap:18px">
+<p class="eyebrow muted">The year-one course</p>
+<h2 class="h-lg">Learning to Play the EasyKey Way</h2>
+<p class="lead muted">A full year of lessons in one book. Each month takes one major key, in four weekly steps: the scale, the arpeggio, the chords, and three common chord patterns, with new songs every week. It includes 26 well-known songs from beginner to advanced.</p>
+<ol class="months" aria-label="One major key each month">{months_html}</ol>
+<p class="muted" style="font-family:var(--mono);font-size:13px">ISBN 978-1-008-98579-7 · EasyKey Music</p>
+<div class="actions"><a class="btn btn-door" href="#" data-link="easykeyBook">Buy the book</a><a class="btn btn-outline" href="books.html">All books</a></div>
+</div>
+</div></section>
+
+<section id="convert" class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">The EasyKey converter · beta</p>
+<h2 class="h-lg">Any song, in EasyKey.</h2>
+<p class="lead muted">Load a MIDI file and the converter draws it as an EasyKey grid you can print. It runs in your browser, so your file never leaves your device. Pro view shows compact grids with only the keys you play, for more advanced music.</p>
+<p class="muted">Converting MIDI files is free while the converter is in testing. Converting sheet-music PDFs and other formats, per song or by subscription, is coming next.</p>
+<div class="actions"><a class="btn btn-door" href="easykey/converter/">Open the converter</a></div>
+</div>
+<div class="card" style="flex:1 1 300px"><span class="h-md" style="font-family:var(--display)">Teachers and schools</span>
+<span class="muted" style="font-size:15px">Families and learners use EasyKey freely. If you teach paid lessons or run classes with it, ask about a teaching licence and class sets of the book.</span>
+<span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<h2 class="h-lg" style="flex:1 1 300px">Why it exists</h2>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead muted">Shareef Ali Rashada taught himself piano from library books and found traditional notation slow going, even as a friend played beautifully by ear without reading a note. He started drawing songs on graph paper as pictures of the keys, and the drawings became EasyKey.</p>
+<p><a href="music.html" style="font-weight:600">Hear the music that came out of it →</a></p>
+</div></div></section>
+
+{signup_band("New songs and lessons.", "An email when new EasyKey songs, lessons or converter features arrive. Nothing else unless you ask.", "Send me new songs", "easykey", "easykey")}
+</main>
+{footer("easykey")}
+<script src="assets/easykey-lesson.js" defer></script>"""
+    page("easykey.html", "EasyKey Music", "EasyKey visual music notation: see the key, press the key. Play your first song free in the browser, learn to read the grid, and convert MIDI files to EasyKey.", body, "easykey")
+
+
 def build_builders():
     instruments = [
         ("Civic Credits", "Pay for the work a community needs",
@@ -873,7 +1010,7 @@ def build_books():
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
 <article class="card door-easykey"><span class="book-cover"><img src="assets/cover-easykey.webp" alt="Cover of Learning to Play the EasyKey Way" width="496" height="701" loading="lazy"></span><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
 <p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
-<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="easykeyBook">Buy the book</a><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
 </div></div></section>
 </main>
 {footer()}"""
@@ -887,6 +1024,7 @@ if __name__ == "__main__":
     sections, nsteps = build_reader()
     build_placeholders()
     build_science()
+    build_easykey()
     build_music()
     build_builders()
     build_support()

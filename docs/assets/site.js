@@ -16,6 +16,7 @@ const POW_LINKS = {
   anthologyApple: "",       // Anthology Vol. 1 on Apple Music
   anthologyAmazon: "",      // Anthology Vol. 1 on Amazon Music
   gptBook: "",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
+  easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
   audiobook: "",            // YouTube playlist or audio page
   vision: "",               // full Vision document
 };
