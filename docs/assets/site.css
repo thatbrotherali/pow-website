@@ -187,7 +187,16 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .tensteps li::before{content:counter(ten);font-family:var(--display);font-size:32px;line-height:1;color:var(--seekers)}
 .tensteps h3{font-size:1.3rem}
 
+/* music door: equaliser (signature animation) */
+.eq{flex:1 1 260px;display:flex;align-items:flex-end;justify-content:center;gap:8px;height:220px;max-width:100%}
+.eq span{flex:0 0 14px;height:var(--h);border-radius:7px 7px 2px 2px;background:linear-gradient(to top, var(--music), #F2A93B);opacity:.9;transform-origin:bottom;animation:bounce 1.6s ease-in-out var(--d) infinite alternate}
+@keyframes bounce{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+.players{display:grid;gap:20px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 380px), 1fr))}
+.players iframe{width:100%;border:0;border-radius:12px;background:var(--surface)}
+.copy-btn-light{border-color:var(--line);color:var(--fg)}
+
 @media (prefers-reduced-motion: reduce){
+  .eq span{animation:none}
   .orbit,.portal .ring{animation:none}
   .portal .ring{opacity:.25}
   html{scroll-behavior:auto}

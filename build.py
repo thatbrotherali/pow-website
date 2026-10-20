@@ -510,9 +510,6 @@ PLACEHOLDERS = {
                 [("The book: The Unified Framework for the Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
     "builders": ("End Poverty by Design", "A plan to end poverty by 2050.",
                  "This door will hold the Plan to End Poverty: Civic Credits, Poverty Elimination Centers and LifeLink, free to read, with licences for organisations that put it to work.", []),
-    "music": ("That Brother Ali", "Music to ease your mind.",
-              "This door will hold That Brother Ali's albums, Music to Ease Your Mind and Anthology Vol. 1, with links to stream them on Spotify, Apple Music and Amazon Music.",
-              [("Listen on Spotify", "https://open.spotify.com/artist/1WTqeXUcuv0NF0EAAEgHu5")]),
     "easykey": ("EasyKey Music", "Learn piano by seeing it.",
                 "This door will hold EasyKey's visual music notation: a free first lesson you can play in your browser, the year-long course book, and the converter that turns MIDI files into EasyKey grids.", []),
     "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
@@ -551,6 +548,72 @@ def build_placeholders():
         page(f"{s}.html", name, f"{name} by People of the World: {tagline}", body, s)
 
 
+SPOTIFY_ARTIST = "https://open.spotify.com/artist/1WTqeXUcuv0NF0EAAEgHu5"
+SPOTIFY_EASE = "https://open.spotify.com/album/5StPIeAvJjTuzn2Y2B564R"
+
+
+def build_music():
+    body = f"""{header("That Brother Ali", "Music by Shareef Ali Rashada", [("Listen", "#listen", False, None), ("Albums", "#albums", False, None),
+                        ("Licensing", "#licence", False, None), ("Spotify", SPOTIFY_ARTIST, True, None)])}
+<main>
+<section class="band hero-music"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 64px">
+<div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
+<p class="eyebrow accent">That Brother Ali</p>
+<h1 class="h-xl">Music to ease your mind.</h1>
+<p class="lead muted" style="max-width:600px">Jazz, acoustic and new-age pieces written by Shareef Ali Rashada over twenty years. Free to stream wherever you listen.</p>
+<div class="actions"><a class="btn btn-door" href="#listen">Press play</a><a class="btn btn-ghost" href="{SPOTIFY_ARTIST}" target="_blank" rel="noopener">Follow on Spotify</a></div>
+</div>
+<div class="eq" aria-hidden="true">{"".join(f'<span style="--d:{d}s;--h:{h}%"></span>' for d, h in [(0.0, 40), (0.3, 75), (0.6, 55), (0.15, 90), (0.45, 60), (0.75, 80), (0.25, 45), (0.55, 70), (0.05, 85), (0.35, 50), (0.65, 65), (0.2, 95)])}</div>
+</div></section>
+
+<section id="listen" class="section"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">Press play</h2>
+<p class="lead muted">The full albums, right here. The player opens in Spotify for full tracks once you sign in; without an account it plays previews.</p></div>
+<div class="players">
+<iframe title="Music to Ease Your Mind on Spotify" src="https://open.spotify.com/embed/album/5StPIeAvJjTuzn2Y2B564R?theme=0" height="452" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe title="That Brother Ali on Spotify" src="https://open.spotify.com/embed/artist/1WTqeXUcuv0NF0EAAEgHu5?theme=0" height="452" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</div>
+</div></section>
+
+<section id="albums" class="section band-alt"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">The albums</h2>
+<p class="lead muted">Released through CD Baby on Spotify, Apple Music and Amazon Music.</p></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 380px), 1fr))">
+<article class="card"><span class="step-label">2013 · 9 tracks</span><h3 class="h-md">Music to Ease Your Mind</h3>
+<p class="muted" style="font-size:15px">Jazz, acoustic and new-age songs that do just what the title says. Put it on to read, think or wind down.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="{SPOTIFY_EASE}" target="_blank" rel="noopener">Spotify</a><a class="btn btn-outline" href="#" data-link="easeApple">Apple Music</a><a class="btn btn-outline" href="#" data-link="easeAmazon">Amazon Music</a></div></article>
+<article class="card"><span class="step-label">Compilation</span><h3 class="h-md">Anthology Vol. 1: Music, Songs and Experimental Grooves</h3>
+<p class="muted" style="font-size:15px">A collection of favourite compositions from the last twenty years, from songs to experimental grooves.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="anthologySpotify">Spotify</a><a class="btn btn-outline" href="#" data-link="anthologyApple">Apple Music</a><a class="btn btn-outline" href="#" data-link="anthologyAmazon">Amazon Music</a></div></article>
+</div></div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<h2 class="h-lg" style="flex:1 1 300px">Where the music comes from</h2>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead muted">In his early twenties, Shareef had a friend who could play a cheap little keyboard better than much of what was on the radio, without reading a note. That friend kept pushing him to try. Shareef taught himself from library books, found traditional notation hard going, and kept playing anyway.</p>
+<p class="lead muted">The music came first. The same struggle later produced EasyKey, a way of writing music that shows exactly which keys to press, so anyone can learn to play.</p>
+<p><a href="easykey.html" style="font-weight:600">See how EasyKey works →</a></p>
+</div></div></section>
+
+<section id="licence" class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">Free to listen · licensed for profit</p>
+<h2 class="h-lg">Using a track in your work?</h2>
+<p class="lead muted">Listening is free, always. If you'd like a track for a video, podcast, film, app, shop or event that earns money, ask for a licence. Prices are set by use and audience size, and every licence supports the work of People of the World.</p>
+</div>
+<div class="card" style="flex:1 1 300px">
+<span class="h-md" style="font-family:var(--display)">Ask for a licence</span>
+<span class="muted" style="font-size:15px">Tell us the track, where it will be used and roughly how many people will hear it.</span>
+<span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span>
+</div>
+</div></section>
+
+{signup_band("Hear new music first.", "One email when a new track or album comes out. Nothing else unless you ask.", "Tell me about new music", "music", "music")}
+</main>
+{footer("music")}"""
+    page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music")
+
+
 def build_books():
     body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("Read free", "read.html", False, None), ("Shop", "#", True, "shop")])}
 <main>
@@ -586,6 +649,7 @@ if __name__ == "__main__":
     build_seekers()
     sections, nsteps = build_reader()
     build_placeholders()
+    build_music()
     build_books()
     # artifact preview copy of the hub: page content only (the preview host adds the document skeleton)
     (ROOT / "preview").mkdir(exist_ok=True)
