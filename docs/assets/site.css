@@ -132,6 +132,9 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .portal .ring:nth-child(2){animation-delay:2s}
 .portal .ring:nth-child(3){animation-delay:4s}
 @keyframes open{0%{transform:scale(.6);opacity:.55}100%{transform:scale(2.1);opacity:0}}
+.cover-img{position:relative;display:block;width:min(280px, 100%);height:auto;border-radius:6px;box-shadow:0 24px 48px rgba(0,0,0,.35)}
+.book-cover{display:flex;align-items:center;justify-content:center;height:240px;margin:-4px 0 6px;padding:12px;border-radius:10px;background:var(--surface-alt)}
+.book-cover img{max-height:100%;width:auto;border-radius:3px;box-shadow:0 8px 20px rgba(0,0,0,.22)}
 .cover{position:relative;width:min(280px, 100%);aspect-ratio:2/3;border-radius:6px;background:linear-gradient(160deg,#1A4166,#0E2A44);border:1px solid rgba(242,169,59,.55);display:flex;flex-direction:column;justify-content:space-between;padding:30px 26px;box-shadow:0 24px 48px rgba(0,0,0,.35)}
 .cover .t{font-family:var(--display);font-size:40px;line-height:1.05;color:var(--seekers)}
 

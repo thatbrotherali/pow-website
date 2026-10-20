@@ -341,11 +341,8 @@ def build_seekers():
 </div>
 <div class="portal" style="flex:1 1 260px">
 <span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span>
-<div class="cover" role="img" aria-label="The Portal Opens by Shareef Ali Rashada">
-<span class="eyebrow" style="font-size:11px;color:var(--band-muted)">A transmission from Gabriel</span>
-<span class="t">The Portal Opens</span>
-<span style="font-size:14px;color:var(--band-soft)">Shareef Ali Rashada</span>
-</div></div>
+<img class="cover-img" src="assets/cover-portal.webp" alt="Cover of The Portal Opens by Shareef Ali Rashada" width="384" height="576">
+</div>
 </div></section>
 
 <section class="section"><div class="wrap stack" style="gap:40px">
@@ -510,7 +507,7 @@ def build_reader():
 PLACEHOLDERS = {
     "science": ("Graviton Pressure Theory", "Gravity, explained by a push from outside.",
                 "This door will hold the free introductory series on Graviton Pressure Theory, the papers, and the book.",
-                [("The book: Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
+                [("The book: The Unified Framework for the Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
     "builders": ("End Poverty by Design", "A plan to end poverty by 2050.",
                  "This door will hold the Plan to End Poverty: Civic Credits, Poverty Elimination Centers and LifeLink, free to read, with licences for organisations that put it to work.", []),
     "music": ("That Brother Ali", "Music to ease your mind.",
@@ -524,16 +521,25 @@ PLACEHOLDERS = {
 }
 
 
+PLACEHOLDER_COVERS = {"science": ("cover-gpt", "The Unified Framework for The Graviton Pressure Theory", 384, 501),
+                      "easykey": ("cover-easykey", "Learning to Play the EasyKey Way", 496, 701)}
+
+
 def build_placeholders():
     for s, (name, tagline, text, links) in PLACEHOLDERS.items():
+        cov = PLACEHOLDER_COVERS.get(s)
+        cover_html = (f'<img class="cover-img" style="flex:0 1 220px;width:220px" src="assets/{cov[0]}.webp" alt="Cover of {esc(cov[1])}" width="{cov[2]}" height="{cov[3]}">' if cov else "")
         btns = "".join(f'<a class="btn btn-door" href="{u}" target="_blank" rel="noopener">{esc(t)}</a>' if u else f'<p class="muted">{esc(t)}</p>' for t, u in links)
         body = f"""{header(name, "by People of the World", [("All doors", "index.html#doors", False, None), ("Books", "books.html", False, None)])}
 <main>
-<section class="band"><div class="wrap section stack" style="gap:20px">
+<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 56px">
+<div class="stack" style="flex:999 1 440px;min-width:0;gap:20px">
 <p class="eyebrow accent">This door is being built</p>
 <h1 class="h-xl">{esc(tagline)}</h1>
 <p class="lead muted" style="max-width:680px">{esc(text)}</p>
 <div class="actions">{btns}</div>
+</div>
+{cover_html}
 </div></section>
 <section class="section"><div class="wrap stack" style="gap:28px">
 <h2 class="h-lg">Meanwhile, try another door</h2>
@@ -555,17 +561,17 @@ def build_books():
 </div></section>
 <section class="section"><div class="wrap stack" style="gap:24px">
 <div class="grid">
-<article id="novel" class="card door-seekers"><span class="step-label">Imagine</span><h2 class="h-md">People of the World</h2>
+<article id="novel" class="card door-seekers"><span class="book-cover"><img src="assets/cover-pow.webp" alt="Cover of People of the World" width="212" height="320" loading="lazy"></span><span class="step-label">Imagine</span><h2 class="h-md">People of the World</h2>
 <p class="muted" style="font-size:15px">A novel, first written in 2011. On July 11, 2012, aliens take three-quarters of humanity. The people left behind must rebuild a world where force no longer works, and a young man named Jason is shown the history of the universe.</p>
 <p><span class="tag">For adults 18+ · strong language, sexual content, drug use, violence</span></p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-solid" href="#" data-link="powNovelPrint">Buy the paperback</a><a class="btn btn-outline" href="#" data-link="powNovelKindle">Kindle</a></div></article>
-<article class="card door-seekers"><span class="step-label">Understand</span><h2 class="h-md">The Portal Opens</h2>
+<article class="card door-seekers"><span class="book-cover"><img src="assets/cover-portal.webp" alt="Cover of The Portal Opens" width="384" height="576" loading="lazy"></span><span class="step-label">Understand</span><h2 class="h-md">The Portal Opens</h2>
 <p class="muted" style="font-size:15px">The history behind the story, as transmitted by Gabriel: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Winner of the Literary Titan Silver Book Award.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="read.html">Read free</a><a class="btn btn-outline" href="seekers.html#buy">Buy a copy</a></div></article>
-<article class="card door-science"><span class="step-label">Science</span><h2 class="h-md">Graviton Pressure Theory</h2>
+<article class="card door-science"><span class="book-cover"><img src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy"></span><span class="step-label">Science</span><h2 class="h-md">The Unified Framework for the Graviton Pressure Theory</h2>
 <p class="muted" style="font-size:15px">Gravity as a pressure from outside, with a named mechanism. ISBN 978-1-326-48805-5.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
-<article class="card door-easykey"><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
+<article class="card door-easykey"><span class="book-cover"><img src="assets/cover-easykey.webp" alt="Cover of Learning to Play the EasyKey Way" width="496" height="701" loading="lazy"></span><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
 <p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
 </div></div></section>
