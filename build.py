@@ -505,9 +505,6 @@ def build_reader():
 
 
 PLACEHOLDERS = {
-    "science": ("Graviton Pressure Theory", "Gravity, explained by a push from outside.",
-                "This door will hold the free introductory series on Graviton Pressure Theory, the papers, and the book.",
-                [("The book: The Unified Framework for the Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
     "easykey": ("EasyKey Music", "Learn piano by seeing it.",
                 "This door will hold EasyKey's visual music notation: a free first lesson you can play in your browser, the year-long course book, and the converter that turns MIDI files into EasyKey grids.", []),
     "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
@@ -516,8 +513,7 @@ PLACEHOLDERS = {
 }
 
 
-PLACEHOLDER_COVERS = {"science": ("cover-gpt", "The Unified Framework for The Graviton Pressure Theory", 384, 501),
-                      "easykey": ("cover-easykey", "Learning to Play the EasyKey Way", 496, 701)}
+PLACEHOLDER_COVERS = {"easykey": ("cover-easykey", "Learning to Play the EasyKey Way", 496, 701)}
 
 
 def build_placeholders():
@@ -610,6 +606,112 @@ def build_music():
 </main>
 {footer("music")}"""
     page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music")
+
+
+PORTAL_DOCS = "https://thatbrotherali.github.io/ai-portal/documents/"
+
+
+def build_science():
+    dots = "".join(f'<span style="--a:{a}deg;--d:{-(i * 0.35) % 2.8:.2f}s"></span>' for i, a in enumerate(range(0, 360, 22)))
+    steps = [
+        ("A medium fills space", "Space is not empty. It is filled with a field of tiny particles, gravitons, streaming in every direction at or near the speed of light. They repel each other, so after they collide with matter they spread out and recover."),
+        ("Mass shadows the flow", "Matter absorbs and slows part of the stream passing through it. Near a planet, less of the medium arrives from the planet's side than from open space. That difference is a pressure gradient."),
+        ("The imbalance pushes", "Pushed harder from outside than from below, objects move toward the planet. What we call weight is the ground pushing back against that inflow. Gravity is a push from outside, not a pull from within."),
+    ]
+    step_html = "".join(f'<li><h3>{esc(t)}</h3><p class="muted">{esc(d)}</p></li>' for t, d in steps)
+    papers = [
+        ("Start here", "From General Relativity to Graviton Pressure Theory", "Why General Relativity describes gravity without explaining it, and what a force-based model offers in its place.", "from_gr_to_gpt.html"),
+        ("The critique", "The Reduction Conflation", "Two theories giving the same numbers do not agree about what exists. How physics switches between force and geometry without saying so.", "The_Reduction_conflation.html"),
+        ("The critique", "The Boulder Audit", "A worked test of what each framework says is physically happening when a boulder rests on the ground.", "The_Paradox_of_the_boulder.html"),
+        ("The theory", "Graviton Pressure Theory, full text", "The graviton field as the physical substrate of gravity, with the mathematical formulation and proposed tests.", "graviton_pressure_theory.html"),
+        ("The theory", "The Mechanics of the Medium", "The medium's properties worked through in detail: self-repulsion, oscillation, inflow toward mass, and the effects they combine to produce.", "mechanics_of_the_medium.html"),
+    ]
+    paper_html = "".join(f"""<article class="card{' paper-lead' if k == 'Start here' else ''}"><span class="step-label">{esc(k)}</span><h3 class="h-md">{esc(t)}</h3>
+<p class="muted" style="font-size:15px">{esc(d)}</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="{PORTAL_DOCS}{u}" target="_blank" rel="noopener">Read the paper</a></div></article>""" for k, t, d, u in papers)
+    open_qs = [
+        ("Done", "A detailed critique of how General Relativity is explained and taught, published as formal papers."),
+        ("Done", "A qualitative model of the medium and how it produces weight, orbits and tides."),
+        ("Open", "Deriving the bending of starlight from the medium's own properties, rather than matching General Relativity's number."),
+        ("Open", "A flow equation that gives the measured inverse-square law with the right units throughout."),
+        ("Open", "An experiment where graviton pressure and General Relativity predict different results."),
+    ]
+    oq_html = "".join(f'<li><span class="tag">{esc(t)}</span><span>{esc(d)}</span></li>' for t, d in open_qs)
+    body = f"""{header("Graviton Pressure Theory", "by People of the World", [("The idea", "#idea", False, None), ("The papers", "#papers", False, None),
+                        ("The book", "#book", False, None), ("Where it stands", "#status", True, None)])}
+<main>
+<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 64px">
+<div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
+<p class="eyebrow accent">Graviton Pressure Theory</p>
+<h1 class="h-xl">How does gravity really work?</h1>
+<p class="lead muted" style="max-width:640px">Physics can predict where a falling apple lands to many decimal places. It still cannot say what touches the apple. Graviton Pressure Theory proposes an answer: gravity is a push from a medium outside, not a pull from within.</p>
+<div class="actions"><a class="btn btn-door" href="#idea">The idea in three steps</a><a class="btn btn-ghost" href="#papers">Read the papers</a></div>
+</div>
+<div class="press" aria-hidden="true">{dots}</div>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<div class="stack" style="flex:1 1 360px;min-width:0">
+<p class="eyebrow muted">The question physics stopped asking</p>
+<h2 class="h-lg">A map is not a mechanism.</h2>
+<p class="lead muted">General Relativity is one of the most precise descriptions ever written. It says objects follow the curvature of spacetime. It does not say what physically pushes or pulls them along that path, or how curvature makes your legs feel your weight.</p>
+<p class="lead muted">A description can match every measurement and still leave the cause unnamed. Graviton Pressure Theory starts where the description stops.</p>
+</div>
+<div class="stack" style="flex:1 1 360px;min-width:0;gap:18px">
+<blockquote class="quote" style="margin:0">“The description is extraordinarily precise. The mechanism is unspecified.”</blockquote>
+<div class="check"><p class="step-label" style="margin-bottom:8px">The test applied to every explanation</p>
+<p style="font-weight:600;margin:0 0 6px">What touches what, and what is exchanged?</p>
+<p class="muted" style="margin:0;font-size:15.5px">An explanation that names a physical contact is a mechanism. One that only names the effect is a description. The same test is applied to mainstream physics and to Graviton Pressure Theory itself.</p></div>
+</div>
+</div></section>
+
+<section id="idea" class="section band-alt"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">The idea in three steps</h2>
+<p class="lead muted">The same principle that lets air pressure hold a suction cup to glass, applied to a medium that fills all of space.</p></div>
+<ol class="tensteps">{step_html}</ol>
+</div></section>
+
+<section id="papers" class="section"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">The papers</h2>
+<p class="lead muted">Free to read in full. Start with the first one if you're new to the theory.</p></div>
+<div class="grid grid-3">{paper_html}</div>
+</div></section>
+
+<section id="book" class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 56px">
+<img class="cover-img" style="flex:0 1 220px;width:220px" src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy">
+<div class="stack" style="flex:999 1 420px;min-width:0;gap:18px">
+<p class="eyebrow muted">The book</p>
+<h2 class="h-lg">The Unified Framework for the Graviton Pressure Theory</h2>
+<p class="lead muted">The complete framework in one volume, by Shareef Ali Rashada.</p>
+<p class="muted" style="font-family:var(--mono);font-size:13px">ISBN 978-1-326-48805-5 · Lulu Press</p>
+<div class="actions"><a class="btn btn-door" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="books.html">All books</a></div>
+</div>
+</div></section>
+
+<section id="status" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<div class="stack" style="flex:1 1 340px;min-width:0">
+<h2 class="h-lg">Where the work stands</h2>
+<p class="lead muted">A theory earns trust by showing its open problems. Here is what is finished and what is still being worked out.</p>
+<p class="muted">Physicists and mathematicians who want to help solve the open problems, or test them, are welcome. Write to <strong>{CONTACT}</strong>.</p>
+</div>
+<ul class="status-list" style="flex:2 1 460px;min-width:0">{oq_html}</ul>
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">Free to learn · licensed for profit</p>
+<h2 class="h-lg">Teaching or publishing it?</h2>
+<p class="lead muted">Students, teachers and curious readers use the papers freely. Courses, publications or products that earn money from the material work with People of the World under a licence.</p>
+</div>
+<div class="card" style="flex:1 1 300px"><span class="h-md" style="font-family:var(--display)">Licensing and collaboration</span>
+<span class="muted" style="font-size:15px">Tell us who you are and how you'd like to use the work.</span>
+<span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
+</div></section>
+
+{signup_band("Follow the science.", "An email when a new paper or result is published. Nothing else unless you ask.", "Send me new papers", "science", "science")}
+</main>
+{footer("science")}"""
+    page("science.html", "Graviton Pressure Theory", "Graviton Pressure Theory: gravity as a push from a medium outside, not a pull from within. Free papers, the book, and where the work stands.", body, "science")
 
 
 def build_builders():
@@ -768,7 +870,7 @@ def build_books():
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="read.html">Read free</a><a class="btn btn-outline" href="seekers.html#buy">Buy a copy</a></div></article>
 <article class="card door-science"><span class="book-cover"><img src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy"></span><span class="step-label">Science</span><h2 class="h-md">The Unified Framework for the Graviton Pressure Theory</h2>
 <p class="muted" style="font-size:15px">Gravity as a pressure from outside, with a named mechanism. ISBN 978-1-326-48805-5.</p>
-<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
 <article class="card door-easykey"><span class="book-cover"><img src="assets/cover-easykey.webp" alt="Cover of Learning to Play the EasyKey Way" width="496" height="701" loading="lazy"></span><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
 <p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
@@ -784,6 +886,7 @@ if __name__ == "__main__":
     build_seekers()
     sections, nsteps = build_reader()
     build_placeholders()
+    build_science()
     build_music()
     build_builders()
     build_support()

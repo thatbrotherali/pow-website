@@ -212,9 +212,21 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .goals th span{display:block;font-weight:400;font-size:14px}
 .goals td{text-align:right;font-family:var(--display);font-size:22px;white-space:nowrap}
 
+/* science door: the medium streaming in on a mass from every side (signature animation) */
+.press{position:relative;flex:1 1 280px;max-width:320px;aspect-ratio:1;margin:0 auto}
+.press::after{content:"";position:absolute;inset:38%;border-radius:50%;background:radial-gradient(circle at 35% 35%, #8EC5F5, var(--science) 60%, #174E85);box-shadow:0 0 40px rgba(46,134,222,.35)}
+.press span{position:absolute;left:50%;top:50%;width:7px;height:7px;margin:-3.5px;border-radius:50%;background:var(--science);opacity:0;animation:inflow 2.8s linear var(--d) infinite}
+@keyframes inflow{0%{opacity:0;transform:rotate(var(--a)) translateX(150px)}20%{opacity:.9}85%{opacity:.9}100%{opacity:0;transform:rotate(var(--a)) translateX(64px)}}
+@media (min-width: 1040px){ .paper-lead{grid-column:span 2} }
+.check{border:1px solid var(--line);border-left:4px solid var(--science);border-radius:var(--radius);padding:22px 26px;background:var(--surface)}
+.status-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.status-list li{display:flex;gap:12px;align-items:baseline}
+.status-list .tag{flex:0 0 auto;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:6px;background:var(--surface);border:1px solid var(--line)}
+
 @media (prefers-reduced-motion: reduce){
   .blocks span{animation:none;opacity:.6}
   .eq span{animation:none}
+  .press span{animation:none;opacity:.5;transform:rotate(var(--a)) translateX(100px)}
   .orbit,.portal .ring{animation:none}
   .portal .ring{opacity:.25}
   html{scroll-behavior:auto}
