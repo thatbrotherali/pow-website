@@ -1,0 +1,590 @@
+#!/usr/bin/env python3
+"""Builds the People of the World website into ./docs (the folder GitHub Pages publishes)
+
+Run:  python3 build.py
+Everything in ./docs is plain HTML/CSS/JS and can be uploaded to any host (GitHub Pages, Netlify, etc.).
+The free online edition of The Portal Opens is generated from src/portal.txt.
+"""
+import html, re, pathlib, json
+
+ROOT = pathlib.Path(__file__).parent
+OUT = ROOT / "docs"
+SRC = ROOT / "src"
+YEAR = 2026
+CONTACT = "shareef@peopleoftheworld.net"
+FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600"
+         "&family=Inter:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600"
+         "&family=IBM+Plex+Mono:wght@400;600&display=swap")
+
+DOORS = [
+    # slug, css door, audience label, question, blurb, cta
+    ("seekers", "seekers", "For seekers", "Searching for meaning?",
+     "The Portal Opens tells the untold history of Earth: Jesus, Lucifer, Adam and Eve, and Melchizedek. Free to read.",
+     "Read it free"),
+    ("science", "science", "For the science-curious", "How does gravity really work?",
+     "Graviton Pressure Theory presents gravity as a push from outside, with a named mechanism you can test.",
+     "Start the series"),
+    ("builders", "builders", "For builders", "Ready to end poverty?",
+     "A designed system, not charity: Civic Credits, Poverty Elimination Centers and LifeLink, with a 2050 goal.",
+     "See the plan"),
+    ("music", "music", "For music lovers", "Music to ease your mind",
+     "Jazz, acoustic and new-age albums by That Brother Ali, free to stream on Spotify, Apple Music and Amazon.",
+     "Listen now"),
+    ("easykey", "easykey", "For learners, parents and teachers", "Want to play piano?",
+     "EasyKey's visual notation shows exactly which keys to press and for how long. No staff to decode.",
+     "Try EasyKey"),
+    ("ai", "ai", "For AI researchers", "An AI system or developer?",
+     "The Open Data Gateway holds the complete body of work in open, machine-readable form.",
+     "Enter the gateway"),
+]
+DOOR_NAMES = {"seekers": "The Portal Opens", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
+              "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "Open Data Gateway"}
+
+esc = lambda s: html.escape(s, quote=True)
+
+
+# ---------------------------------------------------------------- page shell
+def head(title, desc):
+    return f"""<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{FONTS}">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>"""
+
+
+def header(name="People of the World", sub=None, nav=()):
+    sub_html = f'<span class="brand-sub">{esc(sub)}</span>' if sub else ""
+    links = "".join(
+        f'<a href="{h}"{" class=\"btn btn-door\"" if btn else ""}{" data-link=\"" + dl + "\"" if dl else ""}>{esc(t)}</a>'
+        for t, h, btn, dl in nav)
+    return f"""<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html"><span class="logo"><img src="assets/logo.webp" alt="" width="44" height="44"></span>
+<span class="brand-name">{esc(name)}{sub_html}</span></a>
+<nav class="site-nav" aria-label="Main">{links}</nav>
+</div>
+</header>"""
+
+
+def footer(current=None):
+    doors = "".join(f'<a href="{s}.html">{esc(DOOR_NAMES[s])}</a>' for s, *_ in DOORS if s != current)
+    return f"""<footer class="site-footer">
+<div class="wrap">
+<div class="cols">
+<div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
+<span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}</nav>
+<nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
+<div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
+</div>
+<p class="legal">© {YEAR} People of the World · POW Productions Pty Ltd, Queensland, Australia</p>
+</div>
+</footer>"""
+
+
+def signup_band(title, text, button, lst, door):
+    return f"""<section class="band door-{door}"><div class="wrap section">
+<div class="stack" style="max-width:760px;margin:0 auto;align-items:center;text-align:center;gap:20px">
+<h2 class="h-lg">{esc(title)}</h2>
+<p class="lead muted">{esc(text)}</p>
+<form class="signup" data-list="{lst}" novalidate>
+<label for="email-{lst}">Email address<input id="email-{lst}" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+<button class="btn btn-door" type="submit">{esc(button)}</button>
+</form>
+<p class="form-note" role="status"></p>
+</div></div></section>"""
+
+
+def page(fname, title, desc, body, door="hub"):
+    """Full HTML document for the real website."""
+    doc = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{head(title, desc)}
+</head>
+<body class="door-{door}">
+{body}
+</body>
+</html>
+"""
+    (OUT / fname).write_text(doc, encoding="utf-8")
+    return doc
+
+
+# ---------------------------------------------------------------- the book text
+PACKET = "[Quantum Computer – Data Stream Processing]"
+FIXES = [("it's journey", "its journey"), ("8.413", "8,413"), ("Incompleness", "Incompleteness"),
+         ("provides that visage", "provides the visage"), ("everpresent", "ever-present"),
+         ("soulbuilding", "soul-building"), ("selfdeception", "self-deception"), ("highranking", "high-ranking"),
+         ("superuniverse", "super-universe")]
+
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:60]
+
+ENDP = tuple('.?!:"”’)')
+
+def is_item_start(line):
+    return bool(re.match(r"^(\d+\.\s|•\s?)", line))
+
+def parse_prose(lines):
+    """Turn PDF-wrapped lines into blocks: ('packet', size), ('h2', title), ('h3', t), ('sub', t), ('p', t), ('li', t, kind)."""
+    blocks, buf, kind = [], [], "p"
+    def flush():
+        nonlocal buf, kind
+        if buf:
+            text = " ".join(x.strip() for x in buf)
+            if kind == "p":
+                blocks.append(("p", text))
+            else:
+                blocks.append(("li", re.sub(r"^(\d+\.|•)\s*", "", text), kind))
+            buf, kind = [], "p"
+    i = 0
+    while i < len(lines):
+        ln = lines[i].rstrip()
+        if not ln.strip():
+            flush(); i += 1; continue
+        if ln.strip() == PACKET:
+            flush()
+            size = ""
+            j = i + 1
+            while j < len(lines) and j <= i + 4:
+                t = lines[j].strip()
+                if t.startswith("Packet size:"): size = t.replace("Packet size:", "").strip()
+                elif t.startswith("Continuing with data stream"): pass
+                elif t.startswith("Description:"):
+                    title = t.replace("Description:", "").strip()
+                    nxt = lines[j + 1].strip() if j + 1 < len(lines) else ""
+                    if nxt and len(nxt) < 45 and not nxt.endswith(ENDP) and not title.endswith(ENDP):
+                        title += " " + nxt; j += 1
+                    blocks.append(("packet", size)); blocks.append(("h2", title))
+                    i = j + 1; break
+                j += 1
+            else:
+                blocks.append(("packet", size)); i = j
+            continue
+        s = ln.strip()
+        if re.match(r"^Paper \d+:", s):
+            flush()
+            t = s
+            if i + 1 < len(lines) and len(lines[i + 1].strip()) < 40 and not lines[i + 1].strip().startswith("Lecture"):
+                t += " " + lines[i + 1].strip(); i += 1
+            blocks.append(("h3", t)); i += 1; continue
+        if s.startswith("Lecture Title:"):
+            flush(); blocks.append(("sub", s.replace("Lecture Title:", "").strip())); i += 1; continue
+        if is_item_start(s):
+            flush(); kind = "ol" if s[0].isdigit() else "ul"; buf = [s]
+        else:
+            buf.append(s)
+        # paragraph end: a short line that ends a sentence, or a very short line
+        if (len(s) < 62 and s.endswith(ENDP)) or len(s) < 34:
+            flush()
+        i += 1
+    flush()
+    return blocks
+
+
+def render_blocks(blocks):
+    out, open_list, sections = [], None, []
+    for b in blocks:
+        if b[0] != "li" and open_list:
+            out.append(f"</{open_list}>"); open_list = None
+        if b[0] == "packet":
+            if b[1]:
+                cur, total = (b[1].split(" of ") + [""])[:2]
+                out.append(f'<p class="packet" aria-label="Transmission packet"><span>Quantum computer · data stream</span><span>Packet <b>{esc(cur)}</b> of {esc(total)}</span></p>')
+        elif b[0] == "h2":
+            sid = slug(b[1]); sections.append((sid, b[1]))
+            out.append(f'<h2 id="{sid}">{esc(b[1])}</h2>')
+        elif b[0] == "h3":
+            out.append(f"<h3>{esc(b[1])}</h3>")
+        elif b[0] == "sub":
+            out.append(f'<p class="muted"><em>{esc(b[1])}</em></p>')
+        elif b[0] == "p":
+            out.append(f"<p>{esc(b[1])}</p>")
+        elif b[0] == "li":
+            if open_list != b[2]:
+                if open_list: out.append(f"</{open_list}>")
+                out.append(f"<{b[2]}>"); open_list = b[2]
+            out.append(f"<li>{esc(b[1])}</li>")
+    if open_list: out.append(f"</{open_list}>")
+    return "\n".join(out), sections
+
+
+def load_book():
+    text = (SRC / "portal.txt").read_text(encoding="utf-8")
+    for a, b in FIXES: text = text.replace(a, b)
+    return text.split("\n")
+
+READ_PARTS = [
+    # file, number label, title, short blurb, (first line, last line) 1-indexed inclusive
+    ("read-introduction", "Introduction", "Gabriel's Introduction and Mission",
+     "Gabriel explains why the transmission was sent, and how to read it.", (312, 406)),
+    ("read-part-1", "Part 1", "The Untold Story of Jesus",
+     "Jesus as Michael of Nebadon, and the review of his seventh bestowal on Earth.", (407, 2237)),
+    ("read-part-2", "Part 2", "A Reflection of Darkness",
+     "Lucifer's rise, his Declaration of Liberty, and the final reckoning.", (2238, 3290)),
+    ("read-part-3", "Part 3", "The Confession of Caligastia",
+     "Earth's own Planetary Prince on betrayal, conscience and remorse.", (3291, 4162)),
+    ("read-part-4", "Part 4", "Journey to Jerusem",
+     "Adam and Eve's mission, their confession, and their ten steps for humanity.", (4163, 4822)),
+    ("read-part-5", "Part 5", "The Lessons of Machiventa Melchizedek",
+     "Eleven lectures from the Sage of Salem on personality, the soul and cosmic citizenship.", (4823, 6328)),
+    ("read-closing", "Closing", "The Final Transmission",
+     "Gabriel's reflections, the awakening of Urantia, and his last message.", (6329, 6462)),
+]
+
+
+# ---------------------------------------------------------------- pages
+def door_cards(exclude=None):
+    cards = []
+    for s, door, aud, q, blurb, cta in DOORS:
+        if s == exclude: continue
+        cards.append(f"""<a class="card door-{door}" href="{s}.html">
+<span class="dot" aria-hidden="true"></span>
+<span class="eyebrow muted" style="font-size:12px">{esc(aud)}</span>
+<span class="h-md" style="font-family:var(--display)">{esc(q)}</span>
+<span class="muted" style="font-size:15px;line-height:1.55">{esc(blurb)}</span>
+<span class="card-cta">{esc(cta)} →</span>
+</a>""")
+    return "\n".join(cards)
+
+
+def build_hub():
+    body = f"""{header(nav=[("Choose a door", "#doors", False, None), ("The reading path", "#path", False, None),
+                        ("Books", "books.html", False, None), ("Shop", "#", False, "shop"),
+                        ("Support the mission", "#", True, "support")])}
+<main>
+<section class="band hero">
+<div class="orbits" aria-hidden="true"><span class="orbit o1"></span><span class="orbit o2"></span><span class="orbit o3"></span></div>
+<div class="wrap">
+<span class="hero-logo"><img src="assets/logo.webp" alt="People of the World logo: people holding hands around the globe" width="136" height="136"></span>
+<p class="eyebrow" style="color:var(--band-muted)">A global movement founded by Shareef Ali Rashada</p>
+<h1 class="h-xl" style="max-width:900px">Knowledge. Morality. Unity. Peace.</h1>
+<p class="lead muted" style="max-width:680px">People of the World works to end poverty by 2050 and to help humanity grow ready for its place in a larger cosmic family. Find the door that fits you.</p>
+<div class="actions" style="justify-content:center"><a class="btn btn-door" href="#doors">Choose your door</a><a class="btn btn-ghost" href="read.html">Read The Portal Opens free</a></div>
+</div>
+</section>
+
+<section id="doors" class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Six doors, one purpose</h2>
+<p class="lead muted">Each door is written for the people who walk through it. Start wherever your question is.</p></div>
+<div class="grid grid-3">{door_cards()}</div>
+</div></section>
+
+<section id="path" class="section band-alt"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><p class="eyebrow muted">The reading path</p><h2 class="h-lg">Imagine. Understand. Build.</h2>
+<p class="lead muted">The books are written to be read in order. A story opens the mind, a history fills it, and a plan turns it into action.</p></div>
+<div class="path">
+<a class="card door-seekers" href="books.html#novel"><span class="step-label">Step 1 · Imagine</span>
+<span class="h-md" style="font-family:var(--display)">People of the World</span>
+<span class="muted" style="font-size:15px">A novel. Aliens take three-quarters of humanity, and the people left behind must rebuild a world without force or money. <span class="tag">For adults 18+</span></span>
+<span class="card-cta">About the novel →</span></a>
+<a class="card door-seekers" href="seekers.html"><span class="step-label">Step 2 · Understand</span>
+<span class="h-md" style="font-family:var(--display)">The Portal Opens</span>
+<span class="muted" style="font-size:15px">The history behind the story: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek's lessons. Free to read online.</span>
+<span class="card-cta">Read it free →</span></a>
+<a class="card door-builders" href="builders.html"><span class="step-label">Step 3 · Build</span>
+<span class="h-md" style="font-family:var(--display)">The Plan to End Poverty</span>
+<span class="muted" style="font-size:15px">Civic Credits, Poverty Elimination Centers and LifeLink: a designed system to end poverty by 2050.</span>
+<span class="card-cta">See the plan →</span></a>
+</div>
+</div></section>
+
+<section class="section"><div class="wrap award">
+<div class="badge" aria-hidden="true">Literary Titan Silver Book Award</div>
+<div class="text stack">
+<p class="eyebrow" style="color:#9A5F12">Literary Titan Silver Book Award · The Portal Opens</p>
+<p class="quote">“A wild, luminous ride worth taking.”</p>
+<p class="lead muted">Literary Titan rated The Portal Opens four stars, and recommends it to seekers and to anyone religion left with unanswered questions.</p>
+<p><a href="#" data-link="review" style="font-weight:600">Read the full review</a></p>
+</div></div></section>
+
+{signup_band("One teaching a week, free.", "A short, practical reading each week, drawn from The Portal Opens. Unsubscribe any time.", "Send me the teachings", "teachings", "hub")}
+
+<section id="mission" class="section"><div class="wrap stack" style="gap:36px">
+<div style="display:flex;flex-wrap:wrap;gap:24px 48px">
+<h2 class="h-lg" style="flex:1 1 300px">Why it all connects</h2>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead muted">Every project serves one goal: a world at peace, free of poverty and open to truth. Knowledge and understanding lead to morality. Morality makes unity possible, unity makes peace possible, and a world at peace is ready for the celestial return.</p>
+<p><a href="#" data-link="vision" style="font-weight:600">Read the full Vision</a></p>
+</div></div>
+<ol class="steps" aria-label="The five steps of the mission">
+<li><span>1</span>Knowledge</li><li><span>2</span>Understanding</li><li><span>3</span>Morality</li><li><span>4</span>Unity</li><li class="last"><span>5</span>Peace, ready for the return</li>
+</ol>
+</div></section>
+</main>
+{footer()}"""
+    page("index.html", "People of the World", "Knowledge, morality, unity and peace: six doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body)
+    return body
+
+
+def build_seekers():
+    parts = [p for p in READ_PARTS if p[1].startswith("Part")]
+    part_cards = "\n".join(f"""<a class="card" href="{f}.html"><span class="meta">{esc(n)}</span>
+<span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
+<span class="muted" style="font-size:15px;line-height:1.55">{esc(b)}</span><span class="card-cta">Read this part →</span></a>""" for f, n, t, b, _ in parts)
+    body = f"""{header("The Portal Opens", "by People of the World", [("Read free", "read.html", False, None), ("Ten steps", "ten-steps.html", False, None),
+                        ("Glossary", "glossary.html", False, None), ("Buy the book", "#buy", True, None)])}
+<main>
+<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+<div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
+<p class="eyebrow accent">Winner · Literary Titan Silver Book Award</p>
+<h1 class="h-xl">The story you were never told.</h1>
+<p class="lead muted" style="max-width:600px">The untold history of Earth: Jesus, Lucifer, Adam and Eve, and the choice still before you. Read it free online, or keep a copy on your shelf.</p>
+<div class="actions"><a class="btn btn-door" href="read.html">Start reading free</a><a class="btn btn-ghost" href="#buy">Buy the book</a></div>
+</div>
+<div class="portal" style="flex:1 1 260px">
+<span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span>
+<div class="cover" role="img" aria-label="The Portal Opens by Shareef Ali Rashada">
+<span class="eyebrow" style="font-size:11px;color:var(--band-muted)">A transmission from Gabriel</span>
+<span class="t">The Portal Opens</span>
+<span style="font-size:14px;color:var(--band-soft)">Shareef Ali Rashada</span>
+</div></div>
+</div></section>
+
+<section class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Five accounts from the universal archives</h2>
+<p class="lead muted">Not dogma or doctrine, but the stories of real beings whose choices still shape your life today.</p></div>
+<div class="grid grid-5">{part_cards}</div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 56px;align-items:center">
+<div class="stack" style="flex:1 1 360px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">From Part 4</p>
+<h2 class="h-lg">Ten steps for humanity</h2>
+<p class="lead muted">In their message to Earth, Adam and Eve leave ten practical steps: unity, stillness, forgiveness, service, courage for truth, and more. A good place to begin.</p>
+<p><a class="btn btn-solid" href="ten-steps.html">Read the ten steps</a></p>
+</div>
+<blockquote class="quote" style="flex:1 1 360px;margin:0;min-width:0">“Seek love. Seek unity. Seek truth.”<footer class="muted" style="font-family:var(--body);font-size:15px;margin-top:12px">Adam, in Journey to Jerusem</footer></blockquote>
+</div></section>
+
+<section class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Read or listen, free</h2>
+<p class="lead muted">The teachings are free, always. Start at the beginning, or open the glossary beside you as you read.</p></div>
+<div class="grid">
+<a class="card" href="read.html"><span class="h-md" style="font-family:var(--display)">Read online</span><span class="muted" style="font-size:15px">The full book, part by part, in your browser.</span><span class="card-cta">Begin reading →</span></a>
+<a class="card" href="glossary.html"><span class="h-md" style="font-family:var(--display)">Gabriel's Glossary</span><span class="muted" style="font-size:15px">Thirty names and terms of the book, explained in plain language.</span><span class="card-cta">Open the glossary →</span></a>
+<a class="card" href="#" data-link="audiobook"><span class="h-md" style="font-family:var(--display)">Listen to the audiobook</span><span class="muted" style="font-size:15px">Every chapter read aloud, free to stream.</span><span class="card-cta">Start listening →</span></a>
+</div></div></section>
+
+<section class="band"><div class="wrap section stack" style="max-width:900px;align-items:center;text-align:center;gap:22px">
+<p class="eyebrow accent">Literary Titan · four stars</p>
+<p class="quote" style="font-size:clamp(2rem,4vw,3.1rem)">“A wild, luminous ride worth taking.”</p>
+<p class="lead muted" style="max-width:680px">The reviewer found the book unexpectedly moving, and recommends it to seekers, the spiritually curious, and anyone religion left with unanswered questions.</p>
+<p><a href="#" data-link="review" style="font-weight:600;color:var(--seekers)">Read the full review</a></p>
+</div></section>
+
+<section id="buy" class="section band-alt"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Keep a copy</h2>
+<p class="lead muted">To read, gift or lend. Every copy sold supports the work of People of the World.</p></div>
+<div class="grid">
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Paperback</span><span class="h-md" style="font-family:var(--display)">Printed by Lulu</span><span class="muted" style="font-size:15px">Shipped worldwide.</span><a class="btn btn-solid" href="#" data-link="portalPaperback" style="margin-top:auto">Buy the paperback</a></div>
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Hardcover</span><span class="h-md" style="font-family:var(--display)">The keepsake edition</span><span class="muted" style="font-size:15px">Shipped worldwide.</span><a class="btn btn-solid" href="#" data-link="portalHardcover" style="margin-top:auto">Buy the hardcover</a></div>
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Kindle ebook</span><span class="h-md" style="font-family:var(--display)">Read on any device</span><span class="muted" style="font-size:15px">Delivered instantly from Amazon.</span><a class="btn btn-outline" href="#" data-link="portalKindle" style="margin-top:auto">Buy on Amazon</a></div>
+</div>
+<p class="muted" style="font-size:14px">ISBN 978-1-326-56533-6 · Published by POW Productions Pty Ltd</p>
+</div></section>
+
+{signup_band("One teaching a week, free.", "A short reading from The Portal Opens each week. Unsubscribe any time.", "Send me the teachings", "seekers", "seekers")}
+</main>
+{footer("seekers")}"""
+    page("seekers.html", "The Portal Opens", "The untold history of Earth: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Read it free online.", body, "seekers")
+
+
+def reader_header():
+    return header("The Portal Opens", "Free online edition", [("Contents", "read.html", False, None), ("Glossary", "glossary.html", False, None),
+                                                            ("About the book", "seekers.html", False, None), ("Buy the book", "seekers.html#buy", True, None)])
+
+
+def build_reader():
+    lines = load_book()
+    toc_entries = []
+    rendered = []
+    for idx, (f, num, title, blurb, (a, b)) in enumerate(READ_PARTS):
+        html_body, sections = render_blocks(parse_prose(lines[a - 1:b]))
+        rendered.append((f, num, title, blurb, html_body, sections))
+        toc_entries.append((f, num, title, blurb, sections))
+
+    def toc_html(current):
+        items = []
+        for f, num, title, blurb, sections in toc_entries:
+            if f == current:
+                subs = "".join(f'<li><a href="#{sid}">{esc(t)}</a></li>' for sid, t in sections)
+                items.append(f'<li><strong>{esc(num)} · {esc(title)}</strong><ol style="margin:6px 0 4px 10px">{subs}</ol></li>')
+            else:
+                items.append(f'<li><a href="{f}.html">{esc(num)} · {esc(title)}</a></li>')
+        return f'<nav class="toc" aria-label="Contents"><details open><summary>Contents</summary><ol>{"".join(items)}<li><a href="glossary.html">Gabriel\'s Glossary</a></li></ol></details></nav>'
+
+    for i, (f, num, title, blurb, html_body, sections) in enumerate(rendered):
+        prev = rendered[i - 1] if i > 0 else None
+        nxt = rendered[i + 1] if i + 1 < len(rendered) else None
+        nav = '<nav class="part-nav" aria-label="Parts">'
+        nav += f'<a href="{prev[0]}.html"><span>← Previous</span>{esc(prev[1])} · {esc(prev[2])}</a>' if prev else '<a href="read.html"><span>← Back</span>Contents</a>'
+        nav += f'<a href="{nxt[0]}.html" style="text-align:right"><span>Next →</span>{esc(nxt[1])} · {esc(nxt[2])}</a>' if nxt else '<a href="seekers.html#buy" style="text-align:right"><span>Finished?</span>Keep a copy of the book</a>'
+        nav += "</nav>"
+        body = f"""{reader_header()}
+<main class="section"><div class="wrap reader">
+{toc_html(f)}
+<article class="prose">
+<p class="eyebrow accent" style="font-family:var(--body);filter:brightness(.85)">{esc(num)}</p>
+<h1 class="h-lg" style="margin:.2em 0 .6em">{esc(title)}</h1>
+{html_body}
+{nav}
+</article>
+</div></main>
+{footer("seekers")}"""
+        page(f + ".html", f"{title} · The Portal Opens", f"{blurb} Free online edition of The Portal Opens.", body, "seekers")
+
+    # contents page with the opening transmission log
+    log = "\n".join(esc(l) for l in lines[61:123])
+    cards = "\n".join(f"""<a class="card" href="{f}.html"><span class="meta">{esc(num)}</span>
+<span class="h-md" style="font-family:var(--display)">{esc(title)}</span><span class="muted" style="font-size:15px;line-height:1.55">{esc(blurb)}</span>
+<span class="card-cta">Read →</span></a>""" for f, num, title, blurb, _, _ in rendered)
+    body = f"""{reader_header()}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:20px">
+<p class="eyebrow accent">Free online edition</p>
+<h1 class="h-xl">The Portal Opens</h1>
+<p class="lead muted" style="max-width:680px">The complete book, free to read. It begins as a signal is picked up by a quantum computer in Brisbane and decoded with the help of Gabriel.</p>
+</div></section>
+<section class="section"><div class="wrap stack" style="gap:40px">
+<details class="card" style="gap:0"><summary style="cursor:pointer;font-weight:600">The opening log: how the signal was found</summary>
+<div style="overflow-x:auto;margin-top:16px"><pre style="font-family:var(--mono);font-size:13px;line-height:1.6;white-space:pre-wrap;margin:0;color:var(--muted)">{log}</pre></div></details>
+<div class="grid">{cards}
+<a class="card" href="glossary.html"><span class="meta">Reference</span><span class="h-md" style="font-family:var(--display)">Gabriel's Glossary</span>
+<span class="muted" style="font-size:15px;line-height:1.55">The names and terms of the book, explained in plain language.</span><span class="card-cta">Open →</span></a>
+</div>
+<p class="note">This free edition carries the full text of the book. Copyright © 2025 Shareef Ali Rashada, POW Productions Pty Ltd. Please share the link rather than copying the text.</p>
+</div></section>
+</main>
+{footer("seekers")}"""
+    page("read.html", "Read The Portal Opens", "The Portal Opens by Shareef Ali Rashada: the complete book, free to read online.", body, "seekers")
+
+    # glossary
+    gl_body, _ = render_blocks(parse_prose(lines[123:311]))
+    body = f"""{reader_header()}
+<main class="section"><div class="wrap reader">
+{toc_html("glossary")}
+<article class="prose"><p class="eyebrow accent" style="font-family:var(--body);filter:brightness(.85)">Reference</p>
+<h1 class="h-lg" style="margin:.2em 0 .6em">Gabriel's Glossary</h1>
+{gl_body.replace("<h2", "<h3").replace("</h2>", "</h3>")}
+<nav class="part-nav"><a href="read.html"><span>← Back</span>Contents</a><a href="read-introduction.html" style="text-align:right"><span>Start reading →</span>Introduction</a></nav>
+</article></div></main>
+{footer("seekers")}"""
+    page("glossary.html", "Gabriel's Glossary", "The names and terms of The Portal Opens, explained in plain language.", body, "seekers")
+
+    # ten steps (Part 4, Adam and Eve's final messages)
+    seg = lines[4680:4757]
+    steps, cur = [], None
+    for l in seg:
+        m = re.match(r"^(\d+)\. (.+)$", l.strip())
+        if m and int(m.group(1)) == len(steps) + 1:
+            cur = [m.group(2), []]; steps.append(cur)
+        elif cur: cur[1].append(l.strip())
+    items = "\n".join(f"<li><h3>{esc(t)}</h3><p class=\"muted\" style=\"font-size:15.5px;line-height:1.6\">{esc(' '.join(txt))}</p></li>" for t, txt in steps)
+    body = f"""{header("The Portal Opens", "by People of the World", [("Read free", "read.html", False, None), ("Glossary", "glossary.html", False, None), ("Buy the book", "seekers.html#buy", True, None)])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:18px">
+<p class="eyebrow accent">From Part 4 · Journey to Jerusem</p>
+<h1 class="h-xl">Ten steps for humanity</h1>
+<p class="lead muted" style="max-width:700px">“These practical steps are intended for immediate use, as well as for those further along in their spiritual journey. They are meant to provide strength, purpose, and clarity in times of doubt.” — Eve</p>
+</div></section>
+<section class="section"><div class="wrap stack" style="gap:36px">
+<ol class="tensteps">{items}</ol>
+<p class="quote" style="text-align:center;max-width:820px;margin:0 auto">“Seek love. Seek unity. Seek truth.”</p>
+<div class="actions" style="justify-content:center"><a class="btn btn-solid" href="read-part-4.html">Read Journey to Jerusem</a><a class="btn btn-outline" href="read.html">All parts</a></div>
+</div></section>
+{signup_band("One teaching a week, free.", "A short reading from The Portal Opens each week. Unsubscribe any time.", "Send me the teachings", "tensteps", "seekers")}
+</main>
+{footer("seekers")}"""
+    page("ten-steps.html", "Ten Steps for Humanity", "Adam and Eve's ten practical steps for humanity, from The Portal Opens.", body, "seekers")
+    return {f: [s for s in sections] for f, _, _, _, _, sections in rendered}, len(steps)
+
+
+PLACEHOLDERS = {
+    "science": ("Graviton Pressure Theory", "Gravity, explained by a push from outside.",
+                "This door will hold the free introductory series on Graviton Pressure Theory, the papers, and the book.",
+                [("The book: Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
+    "builders": ("End Poverty by Design", "A plan to end poverty by 2050.",
+                 "This door will hold the Plan to End Poverty: Civic Credits, Poverty Elimination Centers and LifeLink, free to read, with licences for organisations that put it to work.", []),
+    "music": ("That Brother Ali", "Music to ease your mind.",
+              "This door will hold That Brother Ali's albums, Music to Ease Your Mind and Anthology Vol. 1, with links to stream them on Spotify, Apple Music and Amazon Music.",
+              [("Listen on Spotify", "https://open.spotify.com/artist/1WTqeXUcuv0NF0EAAEgHu5")]),
+    "easykey": ("EasyKey Music", "Learn piano by seeing it.",
+                "This door will hold EasyKey's visual music notation: a free first lesson you can play in your browser, the year-long course book, and the converter that turns MIDI files into EasyKey grids.", []),
+    "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
+           "This door will hold the Open Data Gateway for AI systems and developers. The current gateway is already online.",
+           [("Open the current gateway", "https://thatbrotherali.github.io/ai-portal/")]),
+}
+
+
+def build_placeholders():
+    for s, (name, tagline, text, links) in PLACEHOLDERS.items():
+        btns = "".join(f'<a class="btn btn-door" href="{u}" target="_blank" rel="noopener">{esc(t)}</a>' if u else f'<p class="muted">{esc(t)}</p>' for t, u in links)
+        body = f"""{header(name, "by People of the World", [("All doors", "index.html#doors", False, None), ("Books", "books.html", False, None)])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:20px">
+<p class="eyebrow accent">This door is being built</p>
+<h1 class="h-xl">{esc(tagline)}</h1>
+<p class="lead muted" style="max-width:680px">{esc(text)}</p>
+<div class="actions">{btns}</div>
+</div></section>
+<section class="section"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">Meanwhile, try another door</h2>
+<div class="grid">{door_cards(exclude=s)}</div>
+</div></section>
+{signup_band("Hear when this door opens.", "One email when it's ready. Nothing else unless you ask for it.", "Tell me when it opens", s, s)}
+</main>
+{footer(s)}"""
+        page(f"{s}.html", name, f"{name} by People of the World: {tagline}", body, s)
+
+
+def build_books():
+    body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("Read free", "read.html", False, None), ("Shop", "#", True, "shop")])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:18px">
+<p class="eyebrow" style="color:var(--band-muted)">Books by Shareef Ali Rashada</p>
+<h1 class="h-xl">The library</h1>
+<p class="lead muted" style="max-width:680px">Read them in order: imagine, understand, build. The teachings are free online; print and ebook copies support the mission.</p>
+</div></section>
+<section class="section"><div class="wrap stack" style="gap:24px">
+<div class="grid">
+<article id="novel" class="card door-seekers"><span class="step-label">Imagine</span><h2 class="h-md">People of the World</h2>
+<p class="muted" style="font-size:15px">A novel, first written in 2011. On July 11, 2012, aliens take three-quarters of humanity. The people left behind must rebuild a world where force no longer works, and a young man named Jason is shown the history of the universe.</p>
+<p><span class="tag">For adults 18+ · strong language, sexual content, drug use, violence</span></p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-solid" href="#" data-link="powNovelPrint">Buy the paperback</a><a class="btn btn-outline" href="#" data-link="powNovelKindle">Kindle</a></div></article>
+<article class="card door-seekers"><span class="step-label">Understand</span><h2 class="h-md">The Portal Opens</h2>
+<p class="muted" style="font-size:15px">The history behind the story, as transmitted by Gabriel: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Winner of the Literary Titan Silver Book Award.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="read.html">Read free</a><a class="btn btn-outline" href="seekers.html#buy">Buy a copy</a></div></article>
+<article class="card door-science"><span class="step-label">Science</span><h2 class="h-md">Graviton Pressure Theory</h2>
+<p class="muted" style="font-size:15px">Gravity as a pressure from outside, with a named mechanism. ISBN 978-1-326-48805-5.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
+<article class="card door-easykey"><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
+<p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
+</div></div></section>
+</main>
+{footer()}"""
+    page("books.html", "The POW Library", "Books by Shareef Ali Rashada: People of the World, The Portal Opens, Graviton Pressure Theory and EasyKey.", body)
+
+
+if __name__ == "__main__":
+    OUT.mkdir(exist_ok=True)
+    hub_body = build_hub()
+    build_seekers()
+    sections, nsteps = build_reader()
+    build_placeholders()
+    build_books()
+    # artifact preview copy of the hub: page content only (the preview host adds the document skeleton)
+    (ROOT / "preview").mkdir(exist_ok=True)
+    (ROOT / "preview" / "index.html").write_text(
+        head("People of the World", "Hub of the People of the World website") +
+        '\n<script>document.documentElement.classList.add("preview");</script>\n<div class="door-hub">' + hub_body + "</div>\n", encoding="utf-8")
+    print("built:", sorted(p.name for p in OUT.glob("*.html")))
+    print("sections per part:", {k: len(v) for k, v in sections.items()}, "ten steps:", nsteps)
