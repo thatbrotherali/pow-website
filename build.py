@@ -615,7 +615,7 @@ def build_music():
 def build_builders():
     instruments = [
         ("Civic Credits", "Pay for the work a community needs",
-         "When someone finishes a verified shift in healthcare, education, housing or another essential service, Civic Credits appear in their wallet the next morning. Shops can accept them, governments take them for taxes and fees, and businesses can exchange them for dollars. They are created only after real work is done, and they run alongside ordinary money.",
+         "Civic Credits pay for service to the community: a verified shift as a teacher, doctor or nurse, and also volunteer work such as cleaning up the neighbourhood or other public services. Credits appear in the wallet the next morning. Shops can accept them, governments take them for taxes and fees, and businesses can exchange them for dollars. They are created only after real work is done, and they run alongside ordinary money.",
          "Maya, a nurse, works an 8-hour shift and 320 credits post overnight. She spends 50 on groceries, 10 on a bus pass and 30 on her power bill. The grocer keeps 20 to pay local fees and swaps the rest for dollars that afternoon."),
         ("Poverty Elimination Centers", "A complete path from struggle to stability",
          "For people facing homelessness, unemployment, addiction or long-term hardship, a PEC brings everything under one roof: housing, meals, healthcare, counselling, education, job training and real work experience. Joining is a choice, never a requirement.",
@@ -634,6 +634,7 @@ def build_builders():
     pack_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in packs)
     faq = [("Is People of the World political?", "No. It is structural and moral, not partisan."),
            ("Do Civic Credits replace money?", "No. They run alongside regular currency. Workers and employers can choose them, and can switch back to ordinary wages."),
+           ("Where do the dollars come from?", "From the community's own assets. Revenue from selling or licensing public resources, and income from public works and utilities, backs the exchange of credits for dollars. The more the commons earns, the more credits it can back."),
            ("Will prices go up?", "Credits are created only when new services are delivered, so more money is matched by more nurses, teachers and builders at work."),
            ("Does everyone have to join a PEC?", "No. PECs exist for people who need help or want a structured path to improvement."),
            ("Do I have to pay for LifeLink?", "No. LifeLink is provided to every citizen."),
