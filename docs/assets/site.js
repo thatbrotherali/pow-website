@@ -2,7 +2,8 @@
    EDIT THE LINKS BELOW. Any button whose link is left empty ("") is hidden automatically. */
 const POW_LINKS = {
   shop: "",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
-  support: "",              // donation / supporter page
+  support: "support.html",  // the Support the mission page
+  donate: "",               // donation payment link (Stripe, PayPal or Wix)
   portalPaperback: "",      // Wix shop or Lulu link for The Portal Opens paperback
   portalHardcover: "",      // Lulu link for the hardcover
   portalKindle: "",         // Amazon Kindle link for The Portal Opens

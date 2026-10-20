@@ -195,7 +195,25 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .players iframe{width:100%;border:0;border-radius:12px;background:var(--surface)}
 .copy-btn-light{border-color:var(--line);color:var(--fg)}
 
+/* builders door: blocks stacking into a foundation (signature animation) */
+.blocks{position:absolute;right:0;bottom:0;display:grid;grid-template-columns:repeat(4, 34px);gap:6px;opacity:.9;pointer-events:none}
+.blocks span{height:22px;border-radius:4px;background:var(--builders);opacity:0;animation:stack 6s ease-out calc(var(--i) * .25s) infinite}
+@keyframes stack{0%{opacity:0;transform:translateY(-30px)}12%,80%{opacity:.85;transform:none}100%{opacity:0}}
+@media (max-width: 760px){ .blocks{display:none} }
+.packs{list-style:none;margin:0;padding:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 260px), 1fr))}
+.packs li:last-child:nth-child(odd){grid-column:1/-1}
+.packs li{display:flex;flex-direction:column;gap:2px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.faqs{display:grid;gap:12px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 420px), 1fr))}
+.faq summary{cursor:pointer;font-weight:600;font-size:17px}
+.faq p{margin-top:10px}
+.goals{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;min-width:480px}
+.goals th,.goals td{padding:16px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.goals th{font-weight:600}
+.goals th span{display:block;font-weight:400;font-size:14px}
+.goals td{text-align:right;font-family:var(--display);font-size:22px;white-space:nowrap}
+
 @media (prefers-reduced-motion: reduce){
+  .blocks span{animation:none;opacity:.6}
   .eq span{animation:none}
   .orbit,.portal .ring{animation:none}
   .portal .ring{opacity:.25}

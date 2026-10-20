@@ -508,8 +508,6 @@ PLACEHOLDERS = {
     "science": ("Graviton Pressure Theory", "Gravity, explained by a push from outside.",
                 "This door will hold the free introductory series on Graviton Pressure Theory, the papers, and the book.",
                 [("The book: The Unified Framework for the Graviton Pressure Theory, ISBN 978-1-326-48805-5", None)]),
-    "builders": ("End Poverty by Design", "A plan to end poverty by 2050.",
-                 "This door will hold the Plan to End Poverty: Civic Credits, Poverty Elimination Centers and LifeLink, free to read, with licences for organisations that put it to work.", []),
     "easykey": ("EasyKey Music", "Learn piano by seeing it.",
                 "This door will hold EasyKey's visual music notation: a free first lesson you can play in your browser, the year-long course book, and the converter that turns MIDI files into EasyKey grids.", []),
     "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
@@ -614,6 +612,142 @@ def build_music():
     page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music")
 
 
+def build_builders():
+    instruments = [
+        ("Civic Credits", "Pay for the work a community needs",
+         "When someone finishes a verified shift in healthcare, education, housing or another essential service, Civic Credits appear in their wallet the next morning. Shops can accept them, governments take them for taxes and fees, and businesses can exchange them for dollars. They are created only after real work is done, and they run alongside ordinary money.",
+         "Maya, a nurse, works an 8-hour shift and 320 credits post overnight. She spends 50 on groceries, 10 on a bus pass and 30 on her power bill. The grocer keeps 20 to pay local fees and swaps the rest for dollars that afternoon."),
+        ("Poverty Elimination Centers", "A complete path from struggle to stability",
+         "For people facing homelessness, unemployment, addiction or long-term hardship, a PEC brings everything under one roof: housing, meals, healthcare, counselling, education, job training and real work experience. Joining is a choice, never a requirement.",
+         "The first campuses are planned for capital cities in the United States and Australia, each for up to 1,000 residents."),
+        ("LifeLink", "One device for every public service",
+         "LifeLink is a small device provided free to every citizen. It connects you to education tools, appointments, mental-health support, emergency help, community events, your Civic Credit wallet and the people who represent you.",
+         "No more paperwork, and no more getting lost between agencies."),
+    ]
+    cards = "\n".join(f"""<article class="card"><span class="step-label">Instrument {i}</span><h3 class="h-md">{esc(n)}</h3>
+<p style="font-weight:600">{esc(t)}</p><p class="muted" style="font-size:15.5px">{esc(d)}</p>
+<p class="note" style="margin-top:auto">{esc(e)}</p></article>""" for i, (n, t, d, e) in enumerate(instruments, 1))
+    packs = [("Everyday people", "What changes for you and your family."), ("Community leaders", "Running Civic Credits and PECs locally."),
+             ("Entrepreneurs", "Accepting credits and building on LifeLink."), ("Governments", "Pilots, policy and national rollout."),
+             ("Investors and funders", "Where support goes and how impact is measured."), ("Press", "The story, the founder and key facts."),
+             ("Scientists and economists", "The mechanics and the questions pilots must answer.")]
+    pack_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in packs)
+    faq = [("Is People of the World political?", "No. It is structural and moral, not partisan."),
+           ("Do Civic Credits replace money?", "No. They run alongside regular currency. Workers and employers can choose them, and can switch back to ordinary wages."),
+           ("Will prices go up?", "Credits are created only when new services are delivered, so more money is matched by more nurses, teachers and builders at work."),
+           ("Does everyone have to join a PEC?", "No. PECs exist for people who need help or want a structured path to improvement."),
+           ("Do I have to pay for LifeLink?", "No. LifeLink is provided to every citizen."),
+           ("Who created the plan?", "Shareef Ali Rashada, founder of People of the World.")]
+    faq_html = "".join(f"<details class=\"card faq\"><summary>{esc(q)}</summary><p class=\"muted\">{esc(a)}</p></details>" for q, a in faq)
+    body = f"""{header("End Poverty by Design", "by People of the World", [("How it works", "#how", False, None), ("Information packs", "#packs", False, None),
+                        ("Questions", "#faq", False, None), ("Support the plan", "support.html", True, None)])}
+<main>
+<section class="band hero-build"><div class="wrap section stack" style="gap:22px;position:relative">
+<p class="eyebrow accent">The Plan to End Poverty · 2025 edition</p>
+<h1 class="h-xl" style="max-width:900px">Ending poverty by 2050, by design.</h1>
+<p class="lead muted" style="max-width:680px">We already have the people and the skills. What we run out of is the budget line. The Plan to End Poverty is a designed system, built on three instruments that pay for essential work, give everyone a path to stability, and connect every citizen to the services they need.</p>
+<p class="quote" style="font-size:clamp(1.5rem,3vw,2rem)">This is not charity. This is structure.</p>
+<div class="actions"><a class="btn btn-door" href="#how">See how it works</a><a class="btn btn-ghost" href="#packs">Get an information pack</a></div>
+<div class="blocks" aria-hidden="true">{"".join(f'<span style="--i:{i}"></span>' for i in range(12))}</div>
+</div></section>
+
+<section id="how" class="section"><div class="wrap stack" style="gap:36px">
+<div class="stack intro"><h2 class="h-lg">Three instruments, one system</h2>
+<p class="lead muted">Each one does a single job. Together they make poverty unnecessary.</p></div>
+<div class="grid grid-3">{cards}</div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:24px 64px;align-items:center">
+<div class="stack" style="flex:1 1 360px;min-width:0"><p class="eyebrow muted">The moral foundation</p>
+<h2 class="h-lg">The New Morality</h2>
+<p class="lead muted">Everything starts with one idea: humans should treat each other better than any generation before us. Kindness becomes expected, fairness becomes normal, and respect becomes the baseline.</p></div>
+<blockquote class="quote" style="flex:1 1 360px;margin:0;min-width:0">“Treat another as the God in you would treat the God in the other.”</blockquote>
+</div></section>
+
+<section id="packs" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px">
+<div class="stack" style="flex:1 1 320px;min-width:0"><h2 class="h-lg">An information pack for you</h2>
+<p class="lead muted">The plan is free to learn. Choose the pack written for your role, and it will be sent to you.</p>
+<p class="muted">Write to <strong>{CONTACT}</strong> with the pack you'd like.</p></div>
+<ul class="packs" style="flex:2 1 460px;min-width:0">{pack_html}</ul>
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.75)">Free to learn · licensed for profit</p>
+<h2 class="h-lg">Putting the plan to work?</h2>
+<p class="lead muted">Individuals, students and community groups use the plan freely. Governments, businesses and organisations that build programmes or earn revenue from it work with People of the World under a licence or partnership, which funds the mission.</p>
+</div>
+<div class="card" style="flex:1 1 300px"><span class="h-md" style="font-family:var(--display)">Partner enquiries</span>
+<span class="muted" style="font-size:15px">Tell us who you are, where you work and what you'd like to build.</span>
+<span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
+</div></section>
+
+<section id="faq" class="section"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">Questions people ask</h2>
+<div class="faqs">{faq_html}</div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap stack" style="max-width:820px;align-items:center;text-align:center;gap:20px">
+<h2 class="h-lg">Help build it.</h2>
+<p class="lead muted">The first pilots need funding: the Civic Credits software, the first Poverty Elimination Center, and LifeLink development.</p>
+<div class="actions" style="justify-content:center"><a class="btn btn-door" href="support.html">Support the plan</a><a class="btn btn-outline" href="seekers.html">Start with the story</a></div>
+</div></section>
+
+{signup_band("Follow the plan's progress.", "Occasional updates on pilots, partners and milestones. Unsubscribe any time.", "Send me updates", "builders", "builders")}
+</main>
+{footer("builders")}"""
+    page("builders.html", "End Poverty by Design", "The Plan to End Poverty by 2050: Civic Credits, Poverty Elimination Centers and LifeLink. Free to learn, licensed for organisations.", body, "builders")
+
+
+def build_support():
+    projects = [("Civic Credits System", "Software development and the first pilot programmes.", "$50,000"),
+                ("Poverty Elimination Centers", "Training programmes and facilities.", "$300,000"),
+                ("Residential Centers", "Land and first construction for sustainable living.", "$500,000"),
+                ("LifeLink tablet", "Research and development of the communication device.", "$100,000"),
+                ("EasyKey Music Practice Centers", "Music education spaces in cities.", "$150,000"),
+                ("Creative Computing Centers", "Technology and staff for digital creation hubs.", "$200,000"),
+                ("Digital educational programming", "Courses that unite spiritual and secular learning.", "$100,000"),
+                ("Debate platform", "AI-moderated discussion for informed decisions.", "$75,000")]
+    rows = "".join(f"<tr><th scope=\"row\">{esc(a)}<span class=\"muted\">{esc(b)}</span></th><td>{esc(c)}</td></tr>" for a, b, c in projects)
+    tiers = [("$10–49", "Supporter", "A thank-you email and regular updates on progress."),
+             ("$50–199", "Builder", "Everything above, plus a digital copy of a POW book and access to members-only content."),
+             ("$200+", "Founder circle", "Everything above, plus a signed print copy, the album Music to Ease Your Mind, and a personal thank-you from Shareef.")]
+    tier_html = "".join(f"""<div class="card"><span class="step-label">{esc(n)}</span><span class="h-md" style="font-family:var(--display)">{esc(a)}</span>
+<span class="muted" style="font-size:15px">{esc(d)}</span></div>""" for a, n, d in tiers)
+    body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("The plan", "builders.html", False, None), ("Books", "books.html", False, None)])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:20px">
+<p class="eyebrow accent">Support the mission</p>
+<h1 class="h-xl" style="max-width:900px">Help uplift humanity and end poverty.</h1>
+<p class="lead muted" style="max-width:700px">“I'm Shareef Ali Rashada, and I am on a mission to bring peace, end poverty, and uplift humanity. To achieve these goals, we need your support. Together, we can make a profound impact on the world.”</p>
+<div class="actions"><a class="btn btn-door" href="#" data-link="donate">Give now</a><a class="btn btn-ghost" href="books.html">Buy a book</a></div>
+</div></section>
+
+<section class="section"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">What your support builds</h2>
+<p class="lead muted">Funding goals for each project.</p></div>
+<div style="overflow-x:auto"><table class="goals"><tbody>{rows}</tbody></table></div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">Ways to give</h2>
+<p class="lead muted">Every gift is thanked personally.</p></div>
+<div class="grid grid-3">{tier_html}</div>
+<div class="actions"><a class="btn btn-solid" href="#" data-link="donate">Give now</a></div>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:24px 64px;align-items:center">
+<div class="stack" style="flex:2 1 420px;min-width:0"><h2 class="h-lg">Other ways to help</h2>
+<p class="lead muted">Buy a book or album, share The Portal Opens with someone searching for meaning, or volunteer your skills.</p></div>
+<div class="actions" style="flex:1 1 280px"><a class="btn btn-outline" href="books.html">Books</a><a class="btn btn-outline" href="music.html">Music</a><a class="btn btn-outline" href="read.html">Share the free book</a></div>
+</div></section>
+
+{signup_band("Stay close to the work.", "Updates on what your support makes possible. Unsubscribe any time.", "Keep me updated", "support", "hub")}
+</main>
+{footer()}"""
+    page("support.html", "Support the Mission", "Support People of the World: fund Civic Credits pilots, Poverty Elimination Centers and LifeLink.", body)
+
+
 def build_books():
     body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("Read free", "read.html", False, None), ("Shop", "#", True, "shop")])}
 <main>
@@ -650,6 +784,8 @@ if __name__ == "__main__":
     sections, nsteps = build_reader()
     build_placeholders()
     build_music()
+    build_builders()
+    build_support()
     build_books()
     # artifact preview copy of the hub: page content only (the preview host adds the document skeleton)
     (ROOT / "preview").mkdir(exist_ok=True)
