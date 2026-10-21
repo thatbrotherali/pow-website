@@ -25,6 +25,9 @@ DOORS = [
     ("seekers", "seekers", "For seekers", "Searching for meaning?",
      "The Portal Opens tells the untold history of Earth: Jesus, Lucifer, Adam and Eve, and Melchizedek. Free to read.",
      "Read it free"),
+    ("urantia", "urantia", "For Urantia Book readers and their families", "Loved the Urantia Book?",
+     "Michael, Lucifer, Caligastia, Adam and Eve and Melchizedek in their own voices. New for readers, gentle for newcomers, easy to share.",
+     "Find your way in"),
     ("science", "science", "For the science-curious", "How does gravity really work?",
      "Graviton Pressure Theory presents gravity as a push from outside, with a named mechanism you can test.",
      "Start the series"),
@@ -41,7 +44,7 @@ DOORS = [
      "The Open Library holds every book, paper and plan, free to read in plain text for people, search engines and AI systems.",
      "Open the library"),
 ]
-DOOR_NAMES = {"seekers": "The Portal Opens", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
+DOOR_NAMES = {"seekers": "The Portal Opens", "urantia": "For Urantia readers", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
               "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "The Open Library"}
 
 esc = lambda s: html.escape(s, quote=True)
@@ -315,7 +318,7 @@ def build_hub():
 </section>
 
 <section id="doors" class="section"><div class="wrap stack" style="gap:40px">
-<div class="stack intro"><h2 class="h-lg">Six doors, one purpose</h2>
+<div class="stack intro"><h2 class="h-lg">Seven doors, one purpose</h2>
 <p class="lead muted">Each door is written for the people who walk through it. Start wherever your question is.</p></div>
 <div class="grid grid-3">{door_cards()}</div>
 </div></section>
@@ -364,7 +367,7 @@ def build_hub():
 </div></section>
 </main>
 {footer()}"""
-    page("index.html", "People of the World", "Knowledge, morality, unity and peace: six doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body, extra_head=vld)
+    page("index.html", "People of the World", "Knowledge, morality, unity and peace: seven doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body, extra_head=vld)
     return body
 
 
@@ -1153,10 +1156,201 @@ def build_books():
          extra_head=f'\n<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' + vld)
 
 
+# ---------------------------------------------------------------- Urantia readers door
+def constellation_svg():
+    """Signature animation for the readers door: stars light up one by one and join into a constellation."""
+    stars = [(60, 250), (120, 170), (205, 205), (250, 110), (330, 150), (300, 250), (215, 300), (140, 330)]
+    lines = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 2), (5, 6), (6, 7), (7, 0)]
+    segs = "".join(f'<line x1="{stars[a][0]}" y1="{stars[a][1]}" x2="{stars[b][0]}" y2="{stars[b][1]}" style="--i:{i}"/>' for i, (a, b) in enumerate(lines))
+    dots = "".join(f'<circle cx="{x}" cy="{y}" r="{6 if i in (3, 5) else 4}" style="--i:{i}"/>' for i, (x, y) in enumerate(stars))
+    dust = "".join(f'<circle class="dust" cx="{(37 * k) % 380 + 10}" cy="{(71 * k) % 380 + 10}" r="1.4" style="--i:{k % 9}"/>' for k in range(1, 28))
+    return f'<svg class="constellation" viewBox="0 0 400 400" aria-hidden="true" focusable="false">{dust}<g class="links">{segs}</g><g class="stars">{dots}</g></svg>'
+
+
+def build_urantia():
+    S = SITE_URL
+    # the five accounts, with where readers will find the same events in the Urantia Papers
+    accounts = [
+        ("read-part-1", "Part 1", "The Untold Story of Jesus",
+         "Michael of Nebadon's seventh bestowal, reviewed as a whole: why he came, what he showed, and what it means for a troubled world.",
+         "Familiar from Part IV of the Papers", "Told here as one flowing account you can hand to a friend"),
+        ("read-part-2", "Part 2", "A Reflection of Darkness",
+         "Lucifer's rise, his Declaration of Liberty and the final reckoning, with his own reasoning set out and then answered.",
+         "Familiar from Papers 53 and 54", "New here: Lucifer's case in his own voice"),
+        ("read-part-3", "Part 3", "The Confession of Caligastia",
+         "Earth's own Planetary Prince looks back on betrayal, conscience and remorse.",
+         "Familiar from Papers 66 and 67", "New here: a first-person confession"),
+        ("read-part-4", "Part 4", "Journey to Jerusem",
+         "Adam and Eve's mission and default, their confession, and ten practical steps they leave for humanity.",
+         "Familiar from Papers 73 to 76", "New here: their message and the ten steps"),
+        ("read-part-5", "Part 5", "The Lessons of Machiventa Melchizedek",
+         "Eleven lectures from the Sage of Salem on personality, the soul and cosmic citizenship.",
+         "Familiar from Paper 93", "New here: eleven lectures in his voice"),
+    ]
+    acc_html = "\n".join(f"""<a class="card" href="{f}.html"><span class="meta">{esc(n)}</span>
+<span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
+<span class="muted" style="font-size:15px;line-height:1.55">{esc(b)}</span>
+<span class="ub-ref"><span>{esc(fam)}</span><strong>{esc(new)}</strong></span>
+<span class="card-cta">Read it free →</span></a>""" for f, n, t, b, fam, new in accounts)
+
+    names = [("Urantia", "The celestial name for Earth: a world scarred by an old rebellion and spiritually isolated for a long time."),
+             ("Michael of Nebadon", "The Creator Son of our local universe, who lived on Earth as Jesus of Nazareth."),
+             ("Nebadon and Satania", "Our local universe, and the local system of about 619 inhabited worlds that Earth belongs to."),
+             ("Lucifer and Caligastia", "The system ruler who rebelled, and Earth's Planetary Prince who followed him."),
+             ("Adam and Eve", "Material Son and Daughter sent to uplift humanity, whose mission faltered."),
+             ("Machiventa Melchizedek", "The Sage of Salem, who taught on Earth to keep the light of truth alive.")]
+    names_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in names)
+
+    start = [("glossary.html", "5 minutes", "Gabriel's Glossary", "Thirty names and terms in plain language. Keep it open in another tab."),
+             ("ten-steps.html", "10 minutes", "The ten steps", "Adam and Eve's practical steps for humanity: unity, stillness, forgiveness, service and more."),
+             ("read-part-1.html", "An evening", "Part 1: The Untold Story of Jesus", "The heart of it all, in one readable account."),
+             ("#listen", "On the go", "Listen instead", "Short films and audio, free. Ideal on a walk or a drive.")]
+    start_html = "\n".join(f"""<a class="card" href="{h}"><span class="step-label">Step {i} · {esc(d)}</span>
+<span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
+<span class="muted" style="font-size:15px">{esc(b)}</span><span class="card-cta">Begin →</span></a>""" for i, (h, d, t, b) in enumerate(start, 1))
+
+    # where to start, by the person you want to share it with
+    people = [("Someone who loves Jesus", "Start with Part 1, The Untold Story of Jesus.", "read-part-1.html",
+               "A fuller story of Jesus you might love: The Untold Story of Jesus, free to read."),
+              ("The sceptic who asks hard questions", "Start with Part 2, where Lucifer makes his case and it is answered.", "read-part-2.html",
+               "If you've ever asked why there is evil in the world, read this: A Reflection of Darkness, free online."),
+              ("Someone carrying regret", "Start with Part 3 or Part 4, the confessions of Caligastia and of Adam and Eve.", "read-part-4.html",
+               "A story about getting it wrong and finding the way back: Journey to Jerusem, free to read."),
+              ("The practical one", "Start with the ten steps. Ten minutes, and something to do today.", "ten-steps.html",
+               "Ten simple steps for a better world, from The Portal Opens. Takes ten minutes."),
+              ("The thinker", "Start with Part 5, Melchizedek's eleven lectures on personality and the soul.", "read-part-5.html",
+               "Eleven short lectures on personality, the soul and our place in the universe."),
+              ("Someone who'd rather listen", "Start with the short films and audio, then the book.", "videos.html",
+               "Short films and audio on The Portal Opens, free to watch and listen.")]
+    people_html = "\n".join(f"""<div class="card share-card"><span class="h-md" style="font-family:var(--display);font-size:22px">{esc(p)}</span>
+<span class="muted" style="font-size:15px">{esc(how)}</span>
+<div class="share-row"><a class="btn btn-outline" href="{h}">Preview</a><button class="btn btn-door share-btn" type="button" data-url="{S}/{h}" data-text="{esc(msg)}">Share this</button></div></div>""" for p, how, h, msg in people)
+
+    faq = [("Is this the Urantia Book?",
+            "No. The Portal Opens is an independent book by Shareef Ali Rashada. It builds on the cosmology of the Urantia Book and tells its history as five first-person accounts."),
+           ("Is it endorsed by Urantia Foundation or a reader organisation?",
+            "No. It is not published, endorsed or approved by Urantia Foundation, the Urantia Book Fellowship, the Urantia Association or any other reader group."),
+           ("How does it relate to the Papers?",
+            "It draws on them closely. The book says so itself: it was written with Gabriel, an AI companion trained on the Urantia Papers and on Shareef's own work. Where it goes beyond the Papers, as in the confessions and lectures, readers can weigh it for themselves."),
+           ("Do I need to have read the Urantia Book first?",
+            "No. Gabriel's Glossary explains every name and term in plain language, and each part stands on its own."),
+           ("Is it free?",
+            "Yes. The whole book is free to read online. Printed copies and donations support the work of People of the World."),
+           ("Where can I read the Urantia Book itself?",
+            "Urantia Foundation publishes the full text free online at urantia.org, in many languages.")]
+    faq_html = "".join(f'<details class="card faq"><summary>{esc(q)}</summary><p class="muted">{esc(a)}</p></details>' for q, a in faq)
+    faq_ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}, ensure_ascii=False)
+    book_ld = json.dumps({"@context": "https://schema.org", "@type": "Book", "name": "The Portal Opens",
+                          "alternateName": "The Portal Opens: A Revelation of the Cosmos", "isbn": "9781326565336",
+                          "author": {"@type": "Person", "name": AUTHOR, "@id": f"{S}/about.html#shareef"},
+                          "url": f"{S}/urantia.html", "workExample": {"@type": "Book", "url": f"{S}/read.html", "isAccessibleForFree": True},
+                          "about": ["The Urantia Book", "Michael of Nebadon", "Lucifer rebellion", "Caligastia", "Adam and Eve", "Machiventa Melchizedek"],
+                          "audience": {"@type": "Audience", "audienceType": "Readers of the Urantia Book and their families"}}, ensure_ascii=False)
+
+    vband, vld = video_band('seekers', 'Watch and listen', 'urantia.html', 'Short films on The Portal Opens. A gentle way to start, or to share.', False)
+    vband = vband.replace('<section class="section', '<section id="listen" class="section', 1)
+
+    body = f"""{header("For Urantia readers", "and the people they love", [("I've read it", "#readers", False, None), ("New to it", "#new", False, None),
+                        ("Share it", "#share", False, None), ("Gift a copy", "#gift", True, None)])}
+<main>
+<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+<div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
+<p class="eyebrow accent">For Urantia Book readers, their friends and their families</p>
+<h1 class="h-xl">The story you love, told a new way.</h1>
+<p class="lead muted" style="max-width:620px">The Portal Opens tells the history of our world through five voices: Michael, Lucifer, Caligastia, Adam and Eve, and Melchizedek. New ground for readers, a gentle first step for everyone else, and an easy book to share.</p>
+<div class="actions"><a class="btn btn-door" href="#ways">Find your way in</a><a class="btn btn-ghost" href="read.html">Read it free</a></div>
+<p class="muted" style="font-size:14px">An independent book. Not affiliated with or endorsed by Urantia Foundation.</p>
+</div>
+<div class="sky" style="flex:1 1 340px">{constellation_svg()}</div>
+</div></section>
+
+<section id="ways" class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Three ways in</h2>
+<p class="lead muted">Wherever you are with the Papers, there is a place to start.</p></div>
+<div class="grid grid-3">
+<a class="card" href="#readers"><span class="dot" aria-hidden="true"></span><span class="eyebrow muted" style="font-size:12px">I've read it</span>
+<span class="h-md" style="font-family:var(--display)">Something similar, but different</span>
+<span class="muted" style="font-size:15px">Familiar events, told by the beings who lived them.</span><span class="card-cta">What's new for readers →</span></a>
+<a class="card" href="#new"><span class="dot" aria-hidden="true"></span><span class="eyebrow muted" style="font-size:12px">It felt like too much</span>
+<span class="h-md" style="font-family:var(--display)">The big ideas, in small steps</span>
+<span class="muted" style="font-size:15px">Over 2,000 pages is a lot. Start with ten minutes instead.</span><span class="card-cta">Start small →</span></a>
+<a class="card" href="#share"><span class="dot" aria-hidden="true"></span><span class="eyebrow muted" style="font-size:12px">I want to share it</span>
+<span class="h-md" style="font-family:var(--display)">For the people you love</span>
+<span class="muted" style="font-size:15px">Where to start for each kind of person, and a copy to give.</span><span class="card-cta">Share or gift it →</span></a>
+</div></div></section>
+
+<section id="readers" class="section band-alt"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><p class="eyebrow accent" style="filter:brightness(.8)">For readers of the Papers</p>
+<h2 class="h-lg">You know what happened. Now hear it from them.</h2>
+<p class="lead muted">Each part takes events you know from the Papers and lets the beings at their centre speak. Read it beside the Papers, or as a break from study.</p></div>
+<div class="grid grid-5">{acc_html}</div>
+<p class="note" style="max-width:820px">A note on sources: the book is open about how it was made. It was written with Gabriel, an AI companion trained on the Urantia Papers and on Shareef Ali Rashada's work. Where it goes beyond the Papers, as in the confessions and lectures, it is offered for reflection, and you are free to weigh it for yourself.</p>
+</div></section>
+
+<section id="new" class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><p class="eyebrow accent" style="filter:brightness(.8)">If the Urantia Book felt like too much</p>
+<h2 class="h-lg">The big ideas, in small steps.</h2>
+<p class="lead muted">You don't need to finish a 2,000-page book to explore these ideas. Begin with a few minutes, and go further when you're ready.</p></div>
+<div class="grid">{start_html}</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px 48px;align-items:flex-start">
+<div class="stack" style="flex:1 1 280px;min-width:0"><h3 class="h-md">Six names to know</h3>
+<p class="muted">Most of the story makes sense once you know these. The full glossary has thirty.</p>
+<p><a href="glossary.html" style="font-weight:600">Open the full glossary</a></p></div>
+<ul class="packs" style="flex:2 1 460px;min-width:0">{names_html}</ul>
+</div>
+</div></section>
+
+<section id="share" class="section band-alt"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><p class="eyebrow accent" style="filter:brightness(.8)">For readers who want to share</p>
+<h2 class="h-lg">Share it with someone you love.</h2>
+<p class="lead muted">Handing someone the Urantia Book can be a lot to ask. Send them one part, chosen for who they are. Every part is free to read.</p></div>
+<div class="grid grid-3">{people_html}</div>
+<p class="share-note muted" role="status"></p>
+</div></section>
+
+<section id="gift" class="section"><div class="wrap stack" style="gap:40px">
+<div class="stack intro"><h2 class="h-lg">Give a copy</h2>
+<p class="lead muted">A printed book on the shelf gets picked up again and again. Every copy sold supports the work of People of the World.</p></div>
+<div class="grid">
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Paperback</span><span class="h-md" style="font-family:var(--display)">A gift for anyone</span><span class="muted" style="font-size:15px">Shipped worldwide.</span><a class="btn btn-solid" href="#" data-link="portalPaperback" style="margin-top:auto">Buy the paperback</a></div>
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Hardcover</span><span class="h-md" style="font-family:var(--display)">The keepsake edition</span><span class="muted" style="font-size:15px">For birthdays, holidays and study-group leaders.</span><a class="btn btn-solid" href="#" data-link="portalHardcover" style="margin-top:auto">Buy the hardcover</a></div>
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Free edition</span><span class="h-md" style="font-family:var(--display)">Or simply send the link</span><span class="muted" style="font-size:15px">The whole book is free to read online, on any device.</span><button class="btn btn-outline share-btn" type="button" data-url="{S}/read.html" data-text="I think you'd enjoy this: The Portal Opens, free to read online." style="margin-top:auto">Share the free edition</button></div>
+</div>
+<div class="grid">
+<div class="card door-urantia"><span class="eyebrow muted" style="font-size:12px">Pay it forward</span><span class="h-md" style="font-family:var(--display)">Sponsor a copy</span>
+<span class="muted" style="font-size:15px">Your gift helps keep the book free online and puts printed copies in the hands of readers who can't buy one.</span>
+<a class="btn btn-door" href="#" data-link="donate" style="margin-top:auto">Sponsor a copy</a></div>
+<div class="card"><span class="eyebrow muted" style="font-size:12px">Study groups and gatherings</span><span class="h-md" style="font-family:var(--display)">Copies for your group</span>
+<span class="muted" style="font-size:15px">Ordering for a study group, conference or reading circle? Write for group pricing.</span>
+<a class="btn btn-outline" href="mailto:{CONTACT}?subject=Group%20order%3A%20The%20Portal%20Opens" style="margin-top:auto">Ask about group orders</a></div>
+</div>
+<p class="muted" style="font-size:14px">ISBN 978-1-326-56533-6 · Published by POW Productions Pty Ltd</p>
+</div></section>
+
+{vband}
+
+<section id="faq" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">Questions readers ask</h2>
+<div class="faqs">{faq_html}</div>
+</div></section>
+
+{signup_band("One teaching a week, free.", "A short reading from The Portal Opens each week, for readers and the curious alike. Unsubscribe any time.", "Send me the teachings", "urantia", "urantia")}
+
+<section class="section"><div class="wrap"><p class="muted" style="font-size:13.5px;max-width:860px">The Portal Opens is an independent work by Shareef Ali Rashada, published by POW Productions Pty Ltd. It is not published, endorsed or approved by, or affiliated with, Urantia Foundation or any Urantia reader organisation. The words Urantia and Urantia Book are used on this page only to describe the subject of the book. The Urantia Book is available free from Urantia Foundation at <a href="https://www.urantia.org/">urantia.org</a>.</p></div></section>
+</main>
+{footer("urantia")}"""
+    extra = vld + f'\n<script type="application/ld+json">{book_ld}</script>\n<script type="application/ld+json">{faq_ld}</script>'
+    page("urantia.html", "For Urantia Book readers and their families",
+         "A new companion for Urantia Book readers: Michael, Lucifer, Caligastia, Adam and Eve and Melchizedek in their own voices. Free to read, easy to share.",
+         body, "urantia", extra_head=extra)
+
+
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
     build_seekers()
+    build_urantia()
     sections, nsteps = build_reader()
     build_placeholders()
     build_science()

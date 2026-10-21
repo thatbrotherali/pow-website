@@ -98,7 +98,7 @@ SITEMAP = {
     "the-gravity-catalog": FW + "part-03-the-gravity-catalog/", "blog": "index.html",
 }
 # Pages that stay on Wix: the shop, members area, checkout and the Mega-Success event pages
-SHOP_WORDS = ["product-page", "group", "challenge-page", "pricing-plans", "post", "category", "category-page", "cart", "checkout", "account", "my-orders", "my-programs", "my-subscriptions",
+SHOP_WORDS = ["product-page", "donations", "_files", "group", "challenge-page", "pricing-plans", "post", "category", "category-page", "cart", "checkout", "account", "my-orders", "my-programs", "my-subscriptions",
               "members", "profile", "groups", "group-page", "notifications", "post", "search-results", "payment", "thank-you",
               "participant", "visitor", "mega-success", "store", "shop", "blank", "fullscreen", "test", "perception", "reflext"]
 

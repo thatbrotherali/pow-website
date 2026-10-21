@@ -4,7 +4,7 @@
   --navy:#10304D; --navy-deep:#0A2238; --band-fg:#F5F9FC; --band-muted:#AFC6D9; --band-soft:#D3E1EC;
   --bg:#F3F7FA; --surface:#FFFFFF; --surface-alt:#E4EEF4; --fg:#0F2236; --muted:#44566A; --line:#D3E0EA;
   --green:#6CC04A; --green-ink:#0B2210;
-  --seekers:#F2A93B; --science:#2E86DE; --builders:#4CAF50; --music:#E04E3F; --easykey:#9B6BD3; --ai:#29B6CF;
+  --seekers:#F2A93B; --science:#2E86DE; --builders:#4CAF50; --music:#E04E3F; --easykey:#9B6BD3; --ai:#29B6CF; --urantia:#D9668C;
   --door:var(--green); --door-ink:#0B2210;
   --display:"Fraunces", Georgia, "Times New Roman", serif;
   --body:"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -90,6 +90,7 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .door-music{--door:var(--music);--door-ink:#FFFFFF}
 .door-easykey{--door:var(--easykey);--door-ink:#FFFFFF}
 .door-ai{--door:var(--ai);--door-ink:#03222A}
+.door-urantia{--door:var(--urantia);--door-ink:#2A0714}
 .door-hub{--door:var(--green);--door-ink:#0B2210}
 .accent{color:var(--door)}
 
@@ -331,3 +332,23 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
   .portal .ring{opacity:.25}
   html{scroll-behavior:auto}
 }
+
+/* Urantia readers door: stars light up and join into a constellation (signature animation) */
+.sky{display:flex;justify-content:center;min-width:300px}
+@media (max-width: 760px){ .sky{min-width:0} .constellation{width:240px} }
+.constellation{flex:0 1 360px;width:360px;max-width:100%;height:auto;overflow:visible}
+.constellation .dust{fill:currentColor;opacity:.25;animation:twinkle 4s ease-in-out calc(var(--i) * .45s) infinite}
+.constellation .stars circle{fill:var(--urantia);opacity:0;animation:star 9s ease-out calc(var(--i) * .35s) infinite;filter:drop-shadow(0 0 6px var(--urantia))}
+.constellation .links line{stroke:var(--urantia);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:140;stroke-dashoffset:140;opacity:.75;animation:join 9s ease-out calc(2.8s + var(--i) * .3s) infinite}
+@keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.45}}
+@keyframes star{0%{opacity:0;transform:scale(.4)}8%,85%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes join{0%{stroke-dashoffset:140}12%,62%{stroke-dashoffset:0;opacity:.75}75%,100%{stroke-dashoffset:0;opacity:0}}
+.constellation .stars circle{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){.constellation *{animation:none!important;opacity:.8!important;stroke-dashoffset:0!important}}
+.ub-ref{display:flex;flex-direction:column;gap:2px;font-size:13.5px;border-top:1px solid var(--line);padding-top:10px;margin-top:auto}
+.ub-ref span{color:var(--muted)}
+.ub-ref strong{font-weight:600}
+.ub-ref + .card-cta{margin-top:0}
+.share-card{gap:10px}
+.share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:6px}
+.share-note:empty{display:none}

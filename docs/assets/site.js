@@ -1,21 +1,23 @@
 /* People of the World — site settings and small behaviours.
    EDIT THE LINKS BELOW. Any button whose link is left empty ("") is hidden automatically. */
+// Shop links point at the current Wix shop pages. After the domain moves, these old addresses forward
+// automatically to shop.peopleoftheworld.net, so they keep working.
 const POW_LINKS = {
   shop: "",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
   support: "support.html",  // the Support the mission page
-  donate: "",               // donation payment link (Stripe, PayPal or Wix)
-  portalPaperback: "",      // Wix shop or Lulu link for The Portal Opens paperback
-  portalHardcover: "",      // Lulu link for the hardcover
+  donate: "https://www.peopleoftheworld.net/donations-1",               // donation payment link (Stripe, PayPal or Wix)
+  portalPaperback: "https://www.peopleoftheworld.net/product-page/the-portal-opens",      // Wix shop or Lulu link for The Portal Opens paperback
+  portalHardcover: "https://www.peopleoftheworld.net/product-page/the-portal-opens-hardback",      // Lulu link for the hardcover
   portalKindle: "",         // Amazon Kindle link for The Portal Opens
   powNovelKindle: "",       // Amazon Kindle link for People of the World (novel)
-  powNovelPrint: "",        // Lulu link for People of the World (novel)
+  powNovelPrint: "https://www.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
   review: "",               // Literary Titan review of The Portal Opens
   easeApple: "",            // Music to Ease Your Mind on Apple Music
   easeAmazon: "",           // Music to Ease Your Mind on Amazon Music
   anthologySpotify: "",     // Anthology Vol. 1 on Spotify
   anthologyApple: "",       // Anthology Vol. 1 on Apple Music
   anthologyAmazon: "",      // Anthology Vol. 1 on Amazon Music
-  gptBook: "",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
+  gptBook: "https://www.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
   easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
   audiobook: "",            // YouTube playlist or audio page
   vision: "",               // full Vision document
@@ -72,6 +74,18 @@ document.addEventListener("DOMContentLoaded", () => {
       try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
       catch { const r = document.createRange(); r.selectNodeContents(btn.previousElementSibling); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected"; }
       setTimeout(() => (btn.textContent = "Copy"), 1800);
+    });
+  });
+
+  // share a page: the phone's share sheet where there is one, otherwise copy the message and link
+  document.querySelectorAll(".share-btn").forEach(btn => {
+    const label = btn.textContent;
+    btn.addEventListener("click", async () => {
+      const url = btn.dataset.url, text = btn.dataset.text || "";
+      if (navigator.share) { try { await navigator.share({ title: document.title, text, url }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+      try { await navigator.clipboard.writeText(text ? text + " " + url : url); btn.textContent = "Link copied"; }
+      catch { const n = document.querySelector(".share-note"); if (n) n.textContent = "Copy this link: " + url; }
+      setTimeout(() => (btn.textContent = label), 2000);
     });
   });
 });
