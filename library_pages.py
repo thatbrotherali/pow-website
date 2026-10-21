@@ -177,6 +177,8 @@ def build(B):
             box = f'<aside class="ai-note" style="margin:1.5em 0"><p class="step-label">The full reading order</p><ol>{order}</ol><p>Each page links to the next, so you can read straight through.</p></aside>\n'
             frag = re.sub(r'(<h2[^>]*id="what-gpt-claims-in-one-paragraph")', box.replace("\\", "\\\\") + r"\1", frag, count=1)
             frag = frag.replace("<strong>peopleoftheworld.org/graviton-pressure-theory</strong>", f'<a href="graviton-pressure-theory/">{B.SITE_URL}/graviton-pressure-theory/</a>')
+        import videos
+        vsec, vld = videos.section(e["slug"], "Watch the Deep Dive on this part" if e["coll"] == "framework" else "Watch", B.SITE_URL, f"{B.SITE_URL}/{e['url']}")
         prev, nxt = seq.get(e["slug"], (None, None))
         pager = "".join([
             f'<a class="pager-prev" href="{prev["url"]}"><span>← Previous</span>{esc(prev["title"])}</a>' if prev else "<span></span>",
@@ -200,6 +202,7 @@ def build(B):
 <h1 class="h-lg" style="margin:.3em 0 .2em">{esc(e['title'])}</h1>
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
 <p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF</a>' if e["pdf"] else ""}</p>
+{vsec}
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>
@@ -217,7 +220,7 @@ def build(B):
             mj = ('\n<script>window.MathJax={tex:{inlineMath:[["\\\\(","\\\\)"]],displayMath:[["\\\\[","\\\\]"]]},'
                   'chtml:{scale:1.05,matchFontHeight:true},options:{enableMenu:false}};</script>'
                   '\n<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>')
-        B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e) + mj, e["date"])
+        B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e) + mj + vld, e["date"])
         if e["pdf"]:
             import shutil
             shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
@@ -396,6 +399,11 @@ def build_machine_files(B, docs, portal_md):
         for e in items:
             lines.append(f"- [{e['title']}]({S}/{e['url']}index.md): {e['desc']}")
         lines.append("")
+    import videos
+    lines += ["## Videos", "", f"Shareef Ali Rashada's YouTube channel: {videos.CHANNEL}. All videos on one page: {S}/videos.html", ""]
+    for vid, t, secs, dt, d, *_ in videos.VIDEOS:
+        lines.append(f"- [{t}](https://www.youtube.com/watch?v={vid}) ({videos.mmss(secs)}, {dt}): {d}")
+    lines.append("")
     lines += ["## Optional", "",
               f"- [About Shareef Ali Rashada]({S}/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under",
               f"- [About Graviton Pressure Theory]({S}/science.html): plain-language overview, the book, and where the work stands",

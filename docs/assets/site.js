@@ -28,6 +28,19 @@ const POW_CONTACT = "shareef@peopleoftheworld.net";
 const POW_ROOT = new URL("..", document.currentScript ? document.currentScript.src : location.href);
 
 document.addEventListener("DOMContentLoaded", () => {
+  // videos: show a thumbnail until the visitor presses play, then load the YouTube player in its place
+  document.querySelectorAll(".video-play[data-yt]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.yt, list = btn.dataset.list;
+      const f = document.createElement("iframe");
+      f.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0" + (list ? "&playlist=" + list : "");
+      f.title = btn.getAttribute("aria-label") || "Video";
+      f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      f.allowFullscreen = true;
+      f.className = "video-frame";
+      btn.replaceWith(f);
+    });
+  });
   // fill links; hide buttons whose link isn't set yet
   document.querySelectorAll("[data-link]").forEach(el => {
     const url = POW_LINKS[el.dataset.link];

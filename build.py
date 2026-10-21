@@ -94,7 +94,7 @@ def footer(current=None):
 <div class="cols">
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
-<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="about.html">About Shareef</a></nav>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="about.html">About Shareef</a></nav>
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
@@ -147,6 +147,16 @@ def page(fname, title, desc, body, door="hub", extra_head="", lastmod=None):
     path.write_text(doc, encoding="utf-8")
     PAGES.append((fname, lastmod))
     return doc
+
+
+
+def video_band(place, heading, fname, intro="", alt=False):
+    """A band of videos for a door page. Returns (html, structured data for the page head)."""
+    import videos
+    sec, ld = videos.section(place, heading, SITE_URL, canonical(fname), intro)
+    if not sec:
+        return "", ""
+    return f'<section class="section{" band-alt" if alt else ""}"><div class="wrap">{sec}</div></section>', ld
 
 
 # ---------------------------------------------------------------- the book text
@@ -288,6 +298,7 @@ def door_cards(exclude=None):
 
 
 def build_hub():
+    vband, vld = video_band('hub', 'Meet People of the World', 'index.html', 'A one-minute introduction. More on the Videos page.', False)
     body = f"""{header(nav=[("Choose a door", "#doors", False, None), ("The reading path", "#path", False, None),
                         ("Books", "books.html", False, None), ("Shop", "#", False, "shop"),
                         ("Support the mission", "#", True, "support")])}
@@ -337,6 +348,7 @@ def build_hub():
 <p><a href="#" data-link="review" style="font-weight:600">Read the full review</a></p>
 </div></div></section>
 
+{vband}
 {signup_band("One teaching a week, free.", "A short, practical reading each week, drawn from The Portal Opens. Unsubscribe any time.", "Send me the teachings", "teachings", "hub")}
 
 <section id="mission" class="section"><div class="wrap stack" style="gap:36px">
@@ -352,7 +364,7 @@ def build_hub():
 </div></section>
 </main>
 {footer()}"""
-    page("index.html", "People of the World", "Knowledge, morality, unity and peace: six doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body)
+    page("index.html", "People of the World", "Knowledge, morality, unity and peace: six doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body, extra_head=vld)
     return body
 
 
@@ -361,6 +373,7 @@ def build_seekers():
     part_cards = "\n".join(f"""<a class="card" href="{f}.html"><span class="meta">{esc(n)}</span>
 <span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
 <span class="muted" style="font-size:15px;line-height:1.55">{esc(b)}</span><span class="card-cta">Read this part →</span></a>""" for f, n, t, b, _ in parts)
+    vband, vld = video_band('seekers', 'Watch', 'seekers.html', 'Short films on The Portal Opens and the light within.', True)
     body = f"""{header("The Portal Opens", "by People of the World", [("Read free", "read.html", False, None), ("Ten steps", "ten-steps.html", False, None),
                         ("Glossary", "glossary.html", False, None), ("Buy the book", "#buy", True, None)])}
 <main>
@@ -420,10 +433,11 @@ def build_seekers():
 <p class="muted" style="font-size:14px">ISBN 978-1-326-56533-6 · Published by POW Productions Pty Ltd</p>
 </div></section>
 
+{vband}
 {signup_band("One teaching a week, free.", "A short reading from The Portal Opens each week. Unsubscribe any time.", "Send me the teachings", "seekers", "seekers")}
 </main>
 {footer("seekers")}"""
-    page("seekers.html", "The Portal Opens", "The untold history of Earth: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Read it free online.", body, "seekers")
+    page("seekers.html", "The Portal Opens", "The untold history of Earth: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Read it free online.", body, "seekers", extra_head=vld)
 
 
 def reader_header():
@@ -574,6 +588,10 @@ SPOTIFY_EASE = "https://open.spotify.com/album/5StPIeAvJjTuzn2Y2B564R"
 
 
 def build_music():
+    import videos
+    ANTH_PLAYER = (f'<figure class="video video-wide"><button class="video-play" type="button" data-yt="{videos.ANTHOLOGY[0]}" data-list="{",".join(videos.ANTHOLOGY[1:])}" aria-label="Play Anthology Vol. 1, 23 tracks">'
+                   f'<img src="{videos.thumb(videos.ANTHOLOGY[0])}" alt="" loading="lazy" width="480" height="360"><span class="video-btn" aria-hidden="true"></span><span class="video-len">23 tracks</span></button></figure>')
+    ANTH_YT = "https://www.youtube.com/watch_videos?video_ids=" + ",".join(videos.ANTHOLOGY)
     body = f"""{header("That Brother Ali", "Music by Shareef Ali Rashada", [("Listen", "#listen", False, None), ("Albums", "#albums", False, None),
                         ("Licensing", "#licence", False, None), ("Spotify", SPOTIFY_ARTIST, True, None)])}
 <main>
@@ -596,6 +614,12 @@ def build_music():
 </div>
 </div></section>
 
+<section id="anthology" class="section"><div class="wrap stack" style="gap:24px">
+<div class="stack intro"><h2 class="h-lg">Anthology Vol. 1 on YouTube</h2>
+<p class="lead muted">All 23 tracks of Music, Songs and Experimental Grooves, from jazz to reggae, playing one after another.</p></div>
+{ANTH_PLAYER}
+</div></section>
+
 <section id="albums" class="section band-alt"><div class="wrap stack" style="gap:32px">
 <div class="stack intro"><h2 class="h-lg">The albums</h2>
 <p class="lead muted">Released through CD Baby on Spotify, Apple Music and Amazon Music.</p></div>
@@ -603,9 +627,9 @@ def build_music():
 <article class="card"><span class="step-label">2013 · 9 tracks</span><h3 class="h-md">Music to Ease Your Mind</h3>
 <p class="muted" style="font-size:15px">Jazz, acoustic and new-age songs that do just what the title says. Put it on to read, think or wind down.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="{SPOTIFY_EASE}" target="_blank" rel="noopener">Spotify</a><a class="btn btn-outline" href="#" data-link="easeApple">Apple Music</a><a class="btn btn-outline" href="#" data-link="easeAmazon">Amazon Music</a></div></article>
-<article class="card"><span class="step-label">Compilation</span><h3 class="h-md">Anthology Vol. 1: Music, Songs and Experimental Grooves</h3>
+<article class="card"><span class="step-label">2016 · 23 tracks</span><h3 class="h-md">Anthology Vol. 1: Music, Songs and Experimental Grooves</h3>
 <p class="muted" style="font-size:15px">A collection of favourite compositions from the last twenty years, from songs to experimental grooves.</p>
-<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="anthologySpotify">Spotify</a><a class="btn btn-outline" href="#" data-link="anthologyApple">Apple Music</a><a class="btn btn-outline" href="#" data-link="anthologyAmazon">Amazon Music</a></div></article>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#anthology">Play it here</a><a class="btn btn-outline" href="{ANTH_YT}" target="_blank" rel="noopener">YouTube</a><a class="btn btn-outline" href="#" data-link="anthologySpotify">Spotify</a><a class="btn btn-outline" href="#" data-link="anthologyApple">Apple Music</a><a class="btn btn-outline" href="#" data-link="anthologyAmazon">Amazon Music</a></div></article>
 </div></div></section>
 
 <section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
@@ -670,6 +694,7 @@ def build_science():
         ("Open", "An experiment where graviton pressure and General Relativity predict different results."),
     ]
     oq_html = "".join(f'<li><span class="tag">{esc(t)}</span><span>{esc(d)}</span></li>' for t, d in open_qs)
+    vband, vld = video_band('science', 'Watch', 'science.html', "A four-minute introduction, and Le Sage's push theory of gravity revisited. Every part of the framework has its own Deep Dive episode in the library.", True)
     body = f"""{header("Graviton Pressure Theory", "by People of the World", [("The idea", "#idea", False, None), ("The papers", "#papers", False, None),
                         ("The book", "#book", False, None), ("Where it stands", "#status", True, None)])}
 <main>
@@ -741,10 +766,11 @@ def build_science():
 <span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div></section>
 
+{vband}
 {signup_band("Follow the science.", "An email when a new paper or result is published. Nothing else unless you ask.", "Send me new papers", "science", "science")}
 </main>
 {footer("science")}"""
-    page("science.html", "Graviton Pressure Theory", "Graviton Pressure Theory: gravity as a push from a medium outside, not a pull from within. Free papers, the book, and where the work stands.", body, "science")
+    page("science.html", "Graviton Pressure Theory", "Graviton Pressure Theory: gravity as a push from a medium outside, not a pull from within. Free papers, the book, and where the work stands.", body, "science", extra_head=vld)
 
 
 def ek_icon(kind):
@@ -1084,6 +1110,7 @@ def build_support():
 
 
 def build_books():
+    vband, vld = video_band('books', 'Watch', 'books.html', '', True)
     body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("Read free", "read.html", False, None), ("Shop", "#", True, "shop")])}
 <main>
 <section class="band"><div class="wrap section stack" style="gap:18px">
@@ -1107,6 +1134,7 @@ def build_books():
 <p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="easykeyBook">Buy the book</a><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>
 </div></div></section>
+{vband}
 </main>
 {footer()}"""
     author = {"@type": "Person", "@id": f"{SITE_URL}/about.html#shareef", "name": AUTHOR}
@@ -1122,7 +1150,7 @@ def build_books():
         items.append({"@type": "ListItem", "position": i, "item": b})
     ld = {"@context": "https://schema.org", "@type": "ItemList", "name": "Books by Shareef Ali Rashada", "itemListElement": items}
     page("books.html", "The POW Library", "Books by Shareef Ali Rashada: People of the World, The Portal Opens, Graviton Pressure Theory and EasyKey.", body,
-         extra_head=f'\n<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
+         extra_head=f'\n<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' + vld)
 
 
 if __name__ == "__main__":
@@ -1138,6 +1166,8 @@ if __name__ == "__main__":
     build_support()
     build_books()
     build_about()
+    import sys, videos
+    videos.build(sys.modules[__name__])
     import sys, library_pages
     library_pages.build(sys.modules[__name__])
     import redirects
