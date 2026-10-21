@@ -350,10 +350,19 @@
    "slug": "reduction-conflation",
    "title": "The Reduction Conflation",
    "subtitle": "Numerical equivalence is not ontological compatibility",
-   "words": 20597,
+   "words": 20980,
    "lead": "This paper examines a specific and underanalyzed epistemic practice in gravitational physics: the use of the claim that \"General Relativity reduces to Newtonian mechanics at low velocities\" to justify switching between two mutually exclusive ontological frameworks within a single causal explanation. We argue that numerical agreement between the outputs of two frameworks is not evidence of ontological compatibility between them, and that treating it as such constitutes a logical error with significant consequences. Specifically, this practice allows the simultaneous assertion that gravity is not a force and that gravity is a force in the same explanatory account—shielded from scrutiny by the observation that both descriptions produce the same number. We trace the historical development of this practice, analyze its logical structure as a distinct fallacy we term the Reduction Conflation, examine three domains where it actively suppresses inquiry into causal mechanisms, and propose criteria for distinguishing legitimate framework reduction from illegitimate ontological substitution.",
-   "source": "The_Reduction_Conflation.pdf",
+   "source": "LaTeX source",
    "pdf": true
+  },
+  {
+   "slug": "operational-constraints-of-the-ep",
+   "title": "The Operational Constraints of the Equivalence Principle",
+   "subtitle": "A mechanical analysis of the expansion paradox and vacuum pressure",
+   "words": 1297,
+   "lead": "The Equivalence Principle (EP) is the cornerstone of modern gravitational theory. It demands a perfect symmetry between gravitational force and mechanical acceleration. However, for a theory to be “Complete,” it must not only provide a mathematical equivalence but also a Mechanical Causality. If \\(F=ma\\), and acceleration (\\(a\\)) is present, a complete physical model must identify the kinetic interaction that produces the force.",
+   "source": "LaTeX source",
+   "pdf": false
   },
   {
    "slug": "logical-closure-of-the-ep",
@@ -384,9 +393,9 @@
    "slug": "mechanics-of-the-medium",
    "title": "The Mechanics of the Medium",
    "subtitle": "The origin of primitives",
-   "words": 41958,
+   "words": 41982,
    "lead": "Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.",
-   "source": "The_Mechanics_of_the_Medium.pdf",
+   "source": "LaTeX source",
    "pdf": true
   }
  ],

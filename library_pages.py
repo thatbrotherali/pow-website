@@ -16,7 +16,7 @@ DATES = {"framework": "2025-06-12", "transitional-mechanics": "2025-06-12", "wha
          "not-alternative-gravity": "2026-01-03", "audit-questions": "2026-01-03",
          "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026-10-03", "paradox-of-the-boulder": "2026",
          "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-10-12",
-         "logical-closure-of-the-ep": "2026-10-21",
+         "logical-closure-of-the-ep": "2026-10-21", "operational-constraints-of-the-ep": "2026-10-21",
          "plan": "2025", "new-morality": "2025-07-28", "cosmic-mind": "2025-03-08"}
 
 PAPERS = [  # order, plain description
@@ -36,6 +36,8 @@ PATHWAY = [
     ("reduction-conflation", "graviton-pressure-theory/papers/reduction-conflation/", None),
     ("logical-closure-of-the-ep", "graviton-pressure-theory/papers/logical-closure-of-the-ep/",
      "The Equivalence Principle says gravity and acceleration feel the same. This audit asks what was accepted when that was read as saying they are the same, compares the rocket and the planet step by step, and proposes closing the question with a common mechanism."),
+    ("operational-constraints-of-the-ep", "graviton-pressure-theory/papers/operational-constraints-of-the-ep/",
+     "If weight on a planet is the Equivalence Principle's acceleration, and the planet's surface is not moving outward, then the medium of space must be moving inward. This paper sets out that constraint, weight as ram pressure from the inflowing medium, and the four constraints any complete theory of gravity must meet."),
     ("not-alternative-gravity", "graviton-pressure-theory/not-alternative-gravity/", None),
     ("mechanics-of-the-medium", "graviton-pressure-theory/papers/mechanics-of-the-medium/", None),
 ]
@@ -197,7 +199,7 @@ def build(B):
 <p class="crumbs">{crumbs}</p>
 <h1 class="h-lg" style="margin:.3em 0 .2em">{esc(e['title'])}</h1>
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
-<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF (equations as typeset)</a>' if e["pdf"] else ""}</p>
+<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF</a>' if e["pdf"] else ""}</p>
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>

@@ -333,6 +333,33 @@ def gdocs_pdf_doc(path, slug, title, subtitle):
     return save(slug, title, subtitle, h, pandoc(h, "html", "gfm"), path.name) | {"pdf": True}
 
 
+
+TEXSRC = SRC / "latex-sources" / "v2"
+
+
+def tex_main_doc(folder, slug, title, subtitle, bib=None, pdf=None):
+    """A whole LaTeX paper (main.tex, with any \\input parts). The abstract becomes the opening section."""
+    main = (folder / "main.tex").read_text(encoding="utf-8", errors="replace")
+    m = re.search(r"\\begin\{abstract\}(.*?)\\end\{abstract\}", main, re.S)
+    abstract = m.group(1).strip() if m else ""
+    body = main[main.index("\\begin{document}") + len("\\begin{document}"):main.index("\\end{document}")]
+    body = re.sub(r"\\begin\{abstract\}.*?\\end\{abstract\}|\\maketitle|\\tableofcontents|\\newpage|\\bibliographystyle\{[^}]*\}|\\bibliography\{[^}]*\}", "", body, flags=re.S)
+
+    def inline_inputs(t):
+        return re.sub(r"\\input\{([^}]+)\}", lambda k: inline_inputs((folder / (k.group(1) if k.group(1).endswith(".tex") else k.group(1) + ".tex")).read_text(encoding="utf-8", errors="replace")), t)
+    body = inline_inputs(body).replace("\\part*{", "\\section*{")
+    preamble = main[:main.index("\\begin{document}")]
+    macros = "\n".join(l for l in preamble.split("\n") if l.strip().startswith(("\\newcommand", "\\DeclareMathOperator", "\\def")))
+    doc = macros + "\n\\begin{document}\n" + (f"\\section*{{Abstract}}\n{abstract}\n" if abstract else "") + body + "\n\\end{document}\n"
+    extra = ["--citeproc", "--bibliography", str(folder / bib)] if bib else []
+    h = pandoc(doc, "latex", "html5", ["--mathjax", *extra])
+    md = pandoc(doc, "latex", "gfm", extra)
+    if pdf:
+        import shutil
+        shutil.copy(pdf, OUT / f"{slug}.pdf")
+    return save(slug, title, subtitle, tidy_html(h), md, "LaTeX source") | {"pdf": bool(pdf)}
+
+
 if __name__ == "__main__":
     cat = {"framework": [], "pathway": [], "papers": [], "plan": [], "other": []}
     parts = sorted(TEX.glob("Part *.tex"))
@@ -353,11 +380,12 @@ if __name__ == "__main__":
     cat["papers"] += [
         portal_doc("from_gr_to_gpt.html", "from-gr-to-gpt", "From General Relativity to Graviton Pressure Theory", "Finishing Einstein’s Work"),
         odt_doc(WEB / "Charge as Gravitational flow bias.odt", "structure-before-uncertainty", "Structure Before Uncertainty", "Recovering mechanism in a universe that still works", drop_lines=2),
-        latex_pdf_doc(UPD / "The_Reduction_Conflation.pdf", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility"),
+        tex_main_doc(TEXSRC / "a85eee92-The_Reduction_Conflation", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility", bib="references.bib", pdf=UPD / "The_Reduction_Conflation.pdf"),
+        tex_main_doc(TEXSRC / "2392dcb0-Constraints", "operational-constraints-of-the-ep", "The Operational Constraints of the Equivalence Principle", "A mechanical analysis of the expansion paradox and vacuum pressure"),
         gdocs_pdf_doc(UPD / "The_Logical_Closure_of_the_EP.pdf", "logical-closure-of-the-ep", "The Logical Closure of the Equivalence Principle", "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism"),
         portal_doc("The_Paradox_of_the_boulder.html", "paradox-of-the-boulder", "The Paradox of the Boulder", "A dual audit of force and geometry language"),
         portal_doc("Causal_audit_of_motion.html", "causal-audit-of-motion", "A Causal Audit of Motion"),
-        latex_pdf_doc(UPD / "The_Mechanics_of_the_Medium.pdf", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives"),
+        tex_main_doc(TEXSRC / "b866d458-The_Mechanics_of_the_Medium", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives", pdf=UPD / "The_Mechanics_of_the_Medium.pdf"),
     ]
     cat["other"] += [
         odt_doc(GPT / "proof of reality of God.odt", "cosmic-mind", "An Intelligent Synthesis of Proofs for Cosmic Mind or God", "", drop_lines=1),
