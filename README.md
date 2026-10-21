@@ -33,6 +33,14 @@ python build.py
 
 This rewrites the pages in `docs/`. Don't edit the `.html` files in `docs/` by hand, because the next build would overwrite them. (`docs/assets/` is never overwritten.)
 
+## The Open Library (the AI door)
+
+`ai.html` is the catalogue. Every document has its own page with a permanent address (for example `graviton-pressure-theory/gr-silence-map/`) and a plain-text twin (`index.md`) beside it. The build also writes `llms.txt`, `llms-full.txt`, `catalog.json`, `sitemap.xml` and `robots.txt`.
+
+The document texts live in `src/library/`. They were converted from the original LaTeX, OpenDocument and PDF files by `tools/import_library.py` (which needs pandoc and pdftotext). To update a document, convert it again or edit its `.html` and `.md` files in `src/library/`, then run `python build.py`.
+
+When the site moves to peopleoftheworld.net, change `SITE_URL` near the top of `build.py` and rebuild, so the sitemap, citations and search-engine addresses use the new domain. `robots.txt`, `sitemap.xml` and `llms.txt` only count once they sit at the root of the domain.
+
 ## Publishing with GitHub Pages (free)
 
 1. Install **GitHub Desktop** and sign in.

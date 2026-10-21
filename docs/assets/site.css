@@ -260,6 +260,40 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .months b{font-family:var(--display);font-size:22px;font-weight:500}
 .months span{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 
+/* open library */
+.crumbs{font-family:var(--body);font-size:14px;color:var(--muted);margin:0}
+.crumbs a{color:inherit}
+.doc-meta{font-family:var(--body);font-size:14px;color:var(--muted);margin:0 0 2em;padding-bottom:1.2em;border-bottom:1px solid var(--line)}
+.prose h4{font-family:var(--body);font-size:1.05rem;font-weight:600;margin:1.4em 0 .4em}
+.prose blockquote{margin:1.2em 0;padding:.4em 0 .4em 1.2em;border-left:3px solid var(--door);color:var(--fg)}
+.prose table{border-collapse:collapse;font-family:var(--body);font-size:15px;line-height:1.45;margin:1.4em 0;display:block;overflow-x:auto;max-width:100%}
+.prose th,.prose td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+.prose th{background:var(--surface)}
+.prose math{font-size:1.05em}
+.prose math[display="block"]{display:block;overflow-x:auto;margin:1em 0}
+.prose code{font-family:var(--mono);font-size:.9em}
+.prose .footnotes,.prose #refs{font-size:15px;border-top:1px solid var(--line);margin-top:2.5em;padding-top:1em}
+.prose sup a,.prose .footnote-ref{text-decoration:none}
+.prose li > p{margin:0}
+.ai-note{margin-top:3em;padding:20px 22px;border:1px solid var(--line);border-left:4px solid var(--door);border-radius:var(--radius);background:var(--surface);font-family:var(--body);font-size:15px;line-height:1.6}
+.ai-note p{margin:0 0 .6em}.ai-note p:last-child{margin:0}
+.ai-note .cite{font-family:var(--mono);font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
+.pager{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:2em;font-family:var(--body)}
+.pager a{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--fg);background:var(--surface);font-weight:600;font-size:15px}
+.pager a span{font-weight:400;font-size:13px;color:var(--muted)}
+.pager .pager-next{text-align:right;grid-column:2}
+@media (max-width: 560px){ .pager{grid-template-columns:1fr} .pager .pager-next{grid-column:1} }
+.doclist{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.doclist li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.doclist li > a:first-child{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:3px;text-decoration:none;color:var(--fg)}
+.doclist .li-num{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.doclist .li-num:empty{display:none}
+.doclist .li-title{font-weight:600;font-size:16.5px}
+.doclist li > a:first-child:hover .li-title{text-decoration:underline}
+.doclist .li-sub{font-size:14.5px;line-height:1.5}
+.doclist .li-meta{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.doclist .li-meta a{color:inherit}
+
 @media (prefers-reduced-motion: reduce){
   .blocks span{animation:none;opacity:.6}
   .eq span{animation:none}

@@ -24,11 +24,14 @@ const POW_LINKS = {
 const POW_SIGNUP_ENDPOINT = "";
 const POW_CONTACT = "shareef@peopleoftheworld.net";
 
+// the site's root folder, worked out from where this script lives (assets/site.js), so links work from any sub-folder
+const POW_ROOT = new URL("..", document.currentScript ? document.currentScript.src : location.href);
+
 document.addEventListener("DOMContentLoaded", () => {
   // fill links; hide buttons whose link isn't set yet
   document.querySelectorAll("[data-link]").forEach(el => {
     const url = POW_LINKS[el.dataset.link];
-    if (url) { el.href = url; if (/^https?:/.test(url)) { el.target = "_blank"; el.rel = "noopener"; } }
+    if (url) { el.href = /^https?:|^mailto:/.test(url) ? url : new URL(url, POW_ROOT).href; if (/^https?:/.test(url)) { el.target = "_blank"; el.rel = "noopener"; } }
     else el.hidden = true;
   });
 

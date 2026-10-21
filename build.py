@@ -12,6 +12,10 @@ OUT = ROOT / "docs"
 SRC = ROOT / "src"
 YEAR = 2026
 CONTACT = "shareef@peopleoftheworld.net"
+# The address the site is published at. Change this one line to "https://peopleoftheworld.net"
+# when the domain moves to this site, then run the build again.
+SITE_URL = "https://thatbrotherali.github.io/pow-website"
+AUTHOR = "Shareef Ali Rashada"
 FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600"
          "&family=Inter:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600"
          "&family=IBM+Plex+Mono:wght@400;600&display=swap")
@@ -33,20 +37,33 @@ DOORS = [
     ("easykey", "easykey", "For learners, parents and teachers", "Want to play piano?",
      "EasyKey's visual notation shows exactly which keys to press and for how long. No staff to decode.",
      "Try EasyKey"),
-    ("ai", "ai", "For AI researchers", "An AI system or developer?",
-     "The Open Data Gateway holds the complete body of work in open, machine-readable form.",
-     "Enter the gateway"),
+    ("ai", "ai", "For readers, researchers and AI", "Want the full source texts?",
+     "The Open Library holds every book, paper and plan, free to read in plain text for people, search engines and AI systems.",
+     "Open the library"),
 ]
 DOOR_NAMES = {"seekers": "The Portal Opens", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
-              "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "Open Data Gateway"}
+              "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "The Open Library"}
 
 esc = lambda s: html.escape(s, quote=True)
 
 
 # ---------------------------------------------------------------- page shell
-def head(title, desc):
+def canonical(fname):
+    return SITE_URL + "/" + re.sub(r"(^|/)index\.html$", r"\1", fname)
+
+
+def head(title, desc, fname="", extra=""):
+    url = canonical(fname)
     return f"""<title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="People of the World">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE_URL}/assets/logo.webp">
+<meta name="author" content="{AUTHOR}">{extra}
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,21 +116,36 @@ def signup_band(title, text, button, lst, door):
 </div></div></section>"""
 
 
-def page(fname, title, desc, body, door="hub"):
-    """Full HTML document for the real website."""
+PAGES = []  # every published page, for sitemap.xml
+
+
+def relink(doc, depth):
+    """Pages in sub-folders: make root-relative links (assets/..., books.html, graviton-pressure-theory/...) work."""
+    if not depth:
+        return doc
+    up = "../" * depth
+    return re.sub(r'((?:href|src)=")(?!https?:|#|/|mailto:|data:|tel:)', lambda m: m.group(1) + up, doc)
+
+
+def page(fname, title, desc, body, door="hub", extra_head="", lastmod=None):
+    """Full HTML document for the real website. fname may be in a sub-folder, e.g. 'graviton-pressure-theory/index.html'."""
     doc = f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-{head(title, desc)}
+{head(title, desc, fname, extra_head)}
 </head>
 <body class="door-{door}">
 {body}
 </body>
 </html>
 """
-    (OUT / fname).write_text(doc, encoding="utf-8")
+    doc = relink(doc, fname.count("/"))
+    path = OUT / fname
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(doc, encoding="utf-8")
+    PAGES.append((fname, lastmod))
     return doc
 
 
@@ -505,9 +537,6 @@ def build_reader():
 
 
 PLACEHOLDERS = {
-    "ai": ("Open Data Gateway", "The complete body of work, machine-readable.",
-           "This door will hold the Open Data Gateway for AI systems and developers. The current gateway is already online.",
-           [("Open the current gateway", "https://thatbrotherali.github.io/ai-portal/")]),
 }
 
 
@@ -606,7 +635,7 @@ def build_music():
     page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music")
 
 
-PORTAL_DOCS = "https://thatbrotherali.github.io/ai-portal/documents/"
+PAPER_URLS = "graviton-pressure-theory/papers/"
 
 
 def build_science():
@@ -618,15 +647,15 @@ def build_science():
     ]
     step_html = "".join(f'<li><h3>{esc(t)}</h3><p class="muted">{esc(d)}</p></li>' for t, d in steps)
     papers = [
-        ("Start here", "From General Relativity to Graviton Pressure Theory", "Why General Relativity describes gravity without explaining it, and what a force-based model offers in its place.", "from_gr_to_gpt.html"),
-        ("The critique", "The Reduction Conflation", "Two theories giving the same numbers do not agree about what exists. How physics switches between force and geometry without saying so.", "The_Reduction_conflation.html"),
-        ("The critique", "The Boulder Audit", "A worked test of what each framework says is physically happening when a boulder rests on the ground.", "The_Paradox_of_the_boulder.html"),
-        ("The theory", "Graviton Pressure Theory, full text", "The graviton field as the physical substrate of gravity, with the mathematical formulation and proposed tests.", "graviton_pressure_theory.html"),
-        ("The theory", "The Mechanics of the Medium", "The medium's properties worked through in detail: self-repulsion, oscillation, inflow toward mass, and the effects they combine to produce.", "mechanics_of_the_medium.html"),
+        ("Start here", "From General Relativity to Graviton Pressure Theory", "Why General Relativity describes gravity without explaining it, and what a force-based model offers in its place.", "graviton-pressure-theory/papers/from-gr-to-gpt/"),
+        ("The critique", "The Reduction Conflation", "Two theories giving the same numbers do not agree about what exists. How physics switches between force and geometry without saying so.", "graviton-pressure-theory/papers/reduction-conflation/"),
+        ("The critique", "The Boulder Audit", "A worked test of what each framework says is physically happening when a boulder rests on the ground.", "graviton-pressure-theory/papers/paradox-of-the-boulder/"),
+        ("The theory", "The Unified Framework, all thirty parts", "The complete framework: the graviton field as the physical substrate of gravity, with the mathematical formulation and proposed tests.", "graviton-pressure-theory/full-framework/"),
+        ("The theory", "The Mechanics of the Medium", "The medium's properties worked through in detail: self-repulsion, oscillation, inflow toward mass, and the effects they combine to produce.", "graviton-pressure-theory/papers/mechanics-of-the-medium/"),
     ]
     paper_html = "".join(f"""<article class="card{' paper-lead' if k == 'Start here' else ''}"><span class="step-label">{esc(k)}</span><h3 class="h-md">{esc(t)}</h3>
 <p class="muted" style="font-size:15px">{esc(d)}</p>
-<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="{PORTAL_DOCS}{u}" target="_blank" rel="noopener">Read the paper</a></div></article>""" for k, t, d, u in papers)
+<div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="{u}">Read the paper</a></div></article>""" for k, t, d, u in papers)
     open_qs = [
         ("Done", "A detailed critique of how General Relativity is explained and taught, published as formal papers."),
         ("Done", "A qualitative model of the medium and how it produces weight, orbits and tides."),
@@ -671,7 +700,7 @@ def build_science():
 
 <section id="papers" class="section"><div class="wrap stack" style="gap:32px">
 <div class="stack intro"><h2 class="h-lg">The papers</h2>
-<p class="lead muted">Free to read in full. Start with the first one if you're new to the theory.</p></div>
+<p class="lead muted">Free to read in full. New to the theory? Follow the <a href="graviton-pressure-theory/">Start Here pathway</a>, or see <a href="ai.html#gravity">every paper in the library</a>.</p></div>
 <div class="grid grid-3">{paper_html}</div>
 </div></section>
 
@@ -1029,6 +1058,9 @@ if __name__ == "__main__":
     build_builders()
     build_support()
     build_books()
+    import sys, library_pages
+    library_pages.build(sys.modules[__name__])
+    library_pages.write_sitemap_and_robots(sys.modules[__name__])
     # artifact preview copy of the hub: page content only (the preview host adds the document skeleton)
     (ROOT / "preview").mkdir(exist_ok=True)
     (ROOT / "preview" / "index.html").write_text(
