@@ -1140,6 +1140,8 @@ if __name__ == "__main__":
     build_about()
     import sys, library_pages
     library_pages.build(sys.modules[__name__])
+    import redirects
+    print("old Wix addresses redirected:", redirects.build(sys.modules[__name__]))
     library_pages.write_sitemap_and_robots(sys.modules[__name__])
     # artifact preview copy of the hub: page content only (the preview host adds the document skeleton)
     (ROOT / "preview").mkdir(exist_ok=True)
