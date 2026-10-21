@@ -53,8 +53,8 @@ p{margin:0}
 .site-header{background:var(--navy);color:var(--band-fg)}
 .site-header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-block:16px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.logo{width:44px;height:44px;border-radius:50%;overflow:hidden;flex:0 0 auto;background:#DDE8F0}
-.logo img{width:100%;height:100%;object-fit:cover;transform:scale(1.14)}
+.logo{width:44px;height:44px;border-radius:50%;overflow:hidden;flex:0 0 auto}
+.logo img{width:100%;height:100%;object-fit:contain;display:block}
 .brand-name{font-family:var(--display);font-size:20px;font-weight:600;line-height:1.15}
 .brand-sub{display:block;font-family:var(--body);font-size:12px;font-weight:400;color:var(--band-muted)}
 .site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;font-size:15px}
@@ -123,8 +123,8 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .orbit.o3{width:880px;height:880px;border-color:rgba(91,192,235,.14);animation:spin 96s linear infinite}
 .orbit.o3::after{background:var(--ai)}
 @keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
-.hero-logo{width:136px;height:136px;border-radius:50%;overflow:hidden;position:relative;background:#DDE8F0}
-.hero-logo img{width:100%;height:100%;object-fit:cover;transform:scale(1.14)}
+.hero-logo{width:136px;height:136px;border-radius:50%;overflow:hidden;position:relative}
+.hero-logo img{width:100%;height:100%;object-fit:contain;display:block}
 
 /* seekers hero: the portal opening (signature animation) */
 .portal{position:relative;display:flex;flex-direction:column;align-items:center;gap:12px}
