@@ -283,6 +283,10 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .video-section .video-h{font-size:1.25rem;margin:0 0 .4em}
 .video-section > .muted{margin:0 0 1em;font-size:15px}
 .prose .video-section{max-width:none}
+.audio{display:flex;flex-direction:column;gap:6px;margin-top:14px;font-family:var(--body)}
+.audio-label{font-weight:600;font-size:15px}
+.audio audio{width:100%;max-width:640px;height:40px}
+.audio-list{display:grid;gap:6px 32px;grid-template-columns:repeat(auto-fill, minmax(min(100%, 420px), 1fr))}
 /* open library */
 .crumbs{font-family:var(--body);font-size:14px;color:var(--muted);margin:0}
 .crumbs a{color:inherit}

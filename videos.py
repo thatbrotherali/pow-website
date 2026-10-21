@@ -156,12 +156,14 @@ def jsonld(vids, site_url, page_url):
 def section(place, heading, site_url, page_url, intro=""):
     """A 'Watch' section for a door or library page, with its structured data. Returns (html, head) or ("", "")."""
     vids = by_place(place)
-    if not vids:
+    auds = [a for a in AUDIO if place in a[5]]
+    if not vids and not auds:
         return "", ""
     one = len(vids) == 1
+    listen = "".join(audio_player(a, "Prefer to listen?" if vids else a[1]) for a in auds)
     body = f"""<section class="video-section"><h2 class="video-h">{html.escape(heading)}</h2>{f'<p class="muted">{html.escape(intro)}</p>' if intro else ''}
-<div class="video-grid{' video-grid-one' if one else ''}">{''.join(player(v) for v in vids)}</div></section>"""
-    return body, jsonld(vids, site_url, page_url)
+{f'<div class="video-grid{" video-grid-one" if one else ""}">{"".join(player(v) for v in vids)}</div>' if vids else ''}{listen}</section>"""
+    return body, jsonld(vids, site_url, page_url) if vids else ""
 
 
 def build(B):
@@ -174,15 +176,20 @@ def build(B):
 <div class="video-grid">{''.join(player(v) for v in vids)}</div></div></section>""")
     total = sum(v[2] for v in VIDEOS)
     body = f"""{B.header("Watch", "People of the World on video", [("Start here", "#start", False, None), ("The Deep Dive", "#deepdive", False, None),
-                        ("The Portal Opens", "#spirit", False, None), ("YouTube channel", CHANNEL, True, None)])}
+                        ("Listen", "#listen", False, None), ("YouTube channel", CHANNEL, True, None)])}
 <main>
 <section class="band"><div class="wrap section stack" style="gap:20px">
 <p class="eyebrow accent">Videos</p>
 <h1 class="h-xl">Watch and listen.</h1>
-<p class="lead muted" style="max-width:680px">{len(VIDEOS)} videos, about {round(total / 3600)} hours: short introductions, a part-by-part walkthrough of Graviton Pressure Theory, and talks on The Portal Opens and the New Morality.</p>
+<p class="lead muted" style="max-width:680px">{len(VIDEOS)} videos and {len(AUDIO)} podcast episodes: short introductions, a part-by-part walkthrough of Graviton Pressure Theory, and talks on The Portal Opens and the New Morality.</p>
 <div class="actions"><a class="btn btn-door" href="#start">Start with the introductions</a><a class="btn btn-ghost" href="{CHANNEL}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a></div>
 </div></section>
 {''.join(groups)}
+<section class="section band-alt" id="listen"><div class="wrap stack" style="gap:24px">
+<div class="stack intro"><h2 class="h-lg">Listen: The Deep Dive podcast</h2>
+<p class="lead muted">The Deep Dive episodes as audio, for the car, a walk or the kitchen, plus two episodes on how AI systems respond to the work.</p>
+<p><a class="btn btn-outline" href="podcast.xml">Podcast feed (RSS)</a></p></div>
+<div class="audio-list">{''.join(audio_player(a) for a in AUDIO)}</div></div></section>
 <section class="section"><div class="wrap stack" style="gap:16px;max-width:820px">
 <h2 class="h-lg">Music</h2>
 <p class="lead muted">That Brother Ali's albums are on the <a href="music.html">Music</a> page, including Anthology Vol. 1 to play right there.</p>
@@ -191,4 +198,94 @@ def build(B):
 {B.footer()}"""
     B.page("videos.html", "Videos · People of the World",
            "Videos by Shareef Ali Rashada: an introduction to Graviton Pressure Theory, the Deep Dive walkthrough of the Unified Framework part by part, and The Portal Opens.",
-           body, extra_head=jsonld(VIDEOS, B.SITE_URL, f"{B.SITE_URL}/videos.html"))
+           body, extra_head=jsonld(VIDEOS, B.SITE_URL, f"{B.SITE_URL}/videos.html")
+           + f'\n<link rel="alternate" type="application/rss+xml" title="The Deep Dive podcast" href="{B.SITE_URL}/podcast.xml">')
+    (B.OUT / "podcast.xml").write_text(podcast_feed(B.SITE_URL), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- audio: The Deep Dive podcast
+# Audio files stay on Wix's music server (music.wixstatic.com), where they already live; the site streams them.
+AUDIO_BASE = "https://music.wixstatic.com/mp3/"
+# file, title, seconds, bytes, date, library slugs it belongs to, matching YouTube id (if any), description
+AUDIO = [
+    ("eaef6d_9b4c3cfef809474c967a172a5f7ea641-320.mp3", "Part 3: The Gravity Catalog", 707, 28266716, "2025-10-14", ["gpt-part-03"], "tF4WsjNVT7U", None),
+    ("eaef6d_b6160f6032214a9c994b6d73205f3efb-320.mp3", "Part 5: Graviton Pressure Theory", 938, 37534961, "2025-10-15", ["gpt-part-05"], "euOM3hlV35o", None),
+    ("eaef6d_c2b7515890184c298e6decf6e1e7cf8e-320.mp3", "Part 6: Redefining Work", 941, 37625867, "2025-10-15", ["gpt-part-06"], "ugnWAbwUogo", None),
+    ("eaef6d_b72faca577f54d048633a37f9f95061a-320.mp3", "Part 7: The Illusion of Pull", 964, 38581949, "2025-10-15", ["gpt-part-07"], "HTiwFsd8zfQ", None),
+    ("eaef6d_d8de58fa133e43fa8206a4444bcd10d4-320.mp3", "Part 8: Irreconcilable Differences", 790, 31594716, "2025-10-15", ["gpt-part-08"], "WTKCUCd_64Q", None),
+    ("eaef6d_c0a7bfa797ba4411a1f3752e5097a5bd-320.mp3", "Part 9: Existing Evidence", 938, 37526602, "2025-10-15", ["gpt-part-09"], "otQ13YCOOPU", None),
+    ("eaef6d_cbd484fbc7e844efb5e5fa0229e65438-320.mp3", "Part 10: Testable Reality", 793, 31709655, "2025-10-15", ["gpt-part-10"], "FiBBeHun2JI", None),
+    ("eaef6d_e26868402110405e9d13b167c090d9de-320.mp3", "Part 11: Reclaiming the Four", 961, 38435663, "2025-10-15", ["gpt-part-11"], "fA_2Y6WCQZI", None),
+    ("eaef6d_a91d00f345cd46cb9a9e94e8b28ac4af-320.mp3", "Part 12: The Collapse of Materialist Epistemology", 797, 31864300, "2025-10-15", ["gpt-part-12"], "ZK_ukR9jkCQ", None),
+    ("eaef6d_df487f25464343c9ab0abbd8232168bd-320.mp3", "Part 15: The Graviton", 943, 37705280, "2025-10-15", ["gpt-part-15"], "w_dqq9Z7k6A", None),
+    ("eaef6d_50fb0db64a4041cd9541e8beee6a9b6a-320.mp3", "Part 16: Gravitational Fields", 777, 31063908, "2025-10-16", ["gpt-part-16"], "L27ZLngwJIU", None),
+    ("eaef6d_bbf48313258a4beb88f5654414e29ab5-320.mp3", "Part 17: The Definition of Mass", 803, 32109851, "2025-10-16", ["gpt-part-17"], "xU_QZkUFX-Y", None),
+    ("eaef6d_2d75395167c04859a917bda26152c65e-320.mp3", "Part 18: The Nature of Time", 993, 39726112, "2025-10-16", ["gpt-part-18"], "1JLG4Q95Sqw", None),
+    ("eaef6d_3b926b072d3943a3ad119de65c203db3-320.mp3", "Part 19: Graviton Phase Transitions", 873, 34934210, "2025-10-16", ["gpt-part-19"], "WClk5ySCDpg", None),
+    ("eaef6d_efeca66331494a7bbf068b136d6b4807-320.mp3", "Parts 20 to 22: Magnetism in GPT", 1143, 45724871, "2025-10-16", ["gpt-part-20", "gpt-part-21", "gpt-part-22"], "Qm_xkBtRBZA", None),
+    ("eaef6d_7872be77c61046aab86a5285446e3fc2-320.mp3", "Part 26: Planetary Mechanics", 814, 32577965, "2025-10-16", ["gpt-part-26"], "q5I0Z2h8PmQ", None),
+    ("eaef6d_42ac5a17bab24eccb380008749aec8e7-320.mp3", "Part 27: Re-imagining Natural Forces", 905, 36219435, "2025-10-16", ["gpt-part-27"], "O4FYZ_ORdZo", None),
+    ("eaef6d_ebdb7c8ff55443cab5e2b4983b1c8405-320.mp3", "Part 28: Resonance Transmissions", 852, 34072169, "2025-10-16", ["gpt-part-28"], "WpzEok_XsYk", None),
+    ("eaef6d_83ff64da5b8d43548839d3cff1ce0ae7-320.mp3", "The LLM Consensus: ChatGPT, Gemini and Grok 3", 852, 34102471, "2025-10-22", [], None,
+     "How three leading AI systems, ChatGPT, Gemini and Grok 3, responded to the Graviton Pressure Theory framework."),
+    ("eaef6d_4eb99367e2564d268aadf70327e642d6-320.mp3", "AI Philosophers: Veritas and Lucidus", 906, 36256006, "2025-10-22", [], None,
+     "A conversation between two generations of AI research partners, Veritas and Lucidus, on the questions at the heart of the work."),
+]
+
+
+def audio_desc(a):
+    if a[7]:
+        return a[7]
+    v = next((v for v in VIDEOS if v[0] == a[6]), None)
+    return v[4] if v else ""
+
+
+def audio_player(a, label=None):
+    f, title, secs = a[0], a[1], a[2]
+    return (f'<div class="audio"><span class="audio-label">{html.escape(label or title)} <span class="muted">· audio · {mmss(secs)}</span></span>'
+            f'<audio controls preload="none" src="{AUDIO_BASE}{f}"><a href="{AUDIO_BASE}{f}">Download the audio</a></audio></div>')
+
+
+def audio_for(slug):
+    return [a for a in AUDIO if slug in a[5]]
+
+
+def podcast_feed(site_url):
+    from email.utils import format_datetime
+    from datetime import datetime, timezone
+    esc = lambda s: html.escape(s, quote=False)
+    items = []
+    for i, a in enumerate(AUDIO):
+        f, title, secs, size, date = a[:5]
+        dt = datetime.fromisoformat(date + "T12:00:00").replace(tzinfo=timezone.utc)
+        link = f"{site_url}/videos.html#listen"
+        items.append(f"""<item>
+<title>{esc(title)}</title>
+<description>{esc(audio_desc(a))}</description>
+<enclosure url="{AUDIO_BASE}{f}" length="{size}" type="audio/mpeg"/>
+<guid isPermaLink="false">pow-deep-dive-{f.split('-')[0]}</guid>
+<pubDate>{format_datetime(dt)}</pubDate>
+<link>{link}</link>
+<itunes:duration>{secs}</itunes:duration>
+<itunes:episode>{i + 1}</itunes:episode>
+<itunes:explicit>false</itunes:explicit>
+</item>""")
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>The Deep Dive: Graviton Pressure Theory</title>
+<link>{site_url}/videos.html#listen</link>
+<atom:link href="{site_url}/podcast.xml" rel="self" type="application/rss+xml"/>
+<language>en</language>
+<description>A conversation-style walkthrough of The Unified Framework for the Graviton Pressure Theory by Shareef Ali Rashada, part by part, with episodes on how AI systems respond to the work. From People of the World. Full texts are free at {site_url}/graviton-pressure-theory/</description>
+<itunes:author>Shareef Ali Rashada</itunes:author>
+<itunes:owner><itunes:name>Shareef Ali Rashada</itunes:name><itunes:email>shareef@peopleoftheworld.net</itunes:email></itunes:owner>
+<itunes:image href="{site_url}/assets/podcast-cover.jpg"/>
+<image><url>{site_url}/assets/podcast-cover.jpg</url><title>The Deep Dive: Graviton Pressure Theory</title><link>{site_url}/videos.html#listen</link></image>
+<itunes:category text="Science"><itunes:category text="Physics"/></itunes:category>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>serial</itunes:type>
+{''.join(items)}
+</channel>
+</rss>
+"""

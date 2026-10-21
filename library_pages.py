@@ -403,6 +403,9 @@ def build_machine_files(B, docs, portal_md):
     lines += ["## Videos", "", f"Shareef Ali Rashada's YouTube channel: {videos.CHANNEL}. All videos on one page: {S}/videos.html", ""]
     for vid, t, secs, dt, d, *_ in videos.VIDEOS:
         lines.append(f"- [{t}](https://www.youtube.com/watch?v={vid}) ({videos.mmss(secs)}, {dt}): {d}")
+    lines += ["", f"Podcast (audio, RSS): {S}/podcast.xml", ""]
+    for a in videos.AUDIO:
+        lines.append(f"- [{a[1]} (audio)]({videos.AUDIO_BASE}{a[0]}) ({videos.mmss(a[2])}): {videos.audio_desc(a)}")
     lines.append("")
     lines += ["## Optional", "",
               f"- [About Shareef Ali Rashada]({S}/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under",

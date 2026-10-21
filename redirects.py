@@ -63,8 +63,42 @@ SEEN = {"literature": "books.html#novel", "pow-the-novel": "books.html#novel", "
         "discover-the-truth": "seekers.html", "meet-the-team": "about.html", "pow-vision": "index.html",
         "what-you-can-do-now": "support.html", "the-documents-of-gpt": FW,
         "introducing-graviton-pressure-theory": GPT, "the-scientific-proof-for-god": "cosmic-mind/"}
+# Every page address in the Wix site's sitemap (21 Oct 2026), mapped to its new home
+FW = "graviton-pressure-theory/full-framework/"
+SITEMAP = {
+    "gravitational-fields": FW + "part-16-the-properties-of-gravitational-fields/", "natural-forces-re-imagined": FW + "part-27-natural-force-re-imagined/",
+    "part-9-existing-data-supporting-gpt": FW + "part-09-existing-evidence-supporting-graviton-pressure-theory/", "part-19-graviton-coherence": FW + "part-19-graviton-coherence/",
+    "portal-opens-audio-book-sections": "read.html", "message-from-shareef": "about.html", "part-6-redefining-work": FW + "part-06-redefining-work/",
+    "part-21-magnetism-in-gpt": FW + "part-21-magnetism-as-gravimetric-resonance/", "pec-details": PLAN + "chapter-06-poverty-elimination-centers-pecs/",
+    "pow-vision": "index.html", "advanced-ai-development": "about.html", "redefining-work-in-gpt": FW + "part-06-redefining-work/",
+    "paywall": "index.html", "pt5-gpt": FW + "part-05-graviton-pressure-theory/", "part-22-magnetic-materials-in-gpt": FW + "part-22-cross-analysis-of-magnetic-materials/",
+    "the-math-of-gpt": FW + "part-23-the-mathematical-foundation/", "practical-applications": FW + "part-10-practical-exploration-of-advanced-concepts/",
+    "start-here": GPT, "gpt-unit-system": FW + "part-24-gpt-unit-system/", "civic-credit-proposal": PLAN + "chapter-05-the-civic-charter-and-civic-credits/",
+    "consciousness-in-ai": "about.html", "literature": "books.html", "part-23-mathematical-foudation-of-gpt": FW + "part-23-the-mathematical-foundation/",
+    "part-8-gr-vs-gpt": FW + "part-08-defining-the-break/", "message-from-gabriel": "read-introduction.html",
+    "copy-of-part-27-transitional-mechanics": PAPERS + "transitional-mechanics/", "part-15-the-graviton": FW + "part-15-gravitons/",
+    "free-framework-for-the-gpt": FW, "podcast": "videos.html", "ai-pathway-for-gpt": GPT, "the-portal-opens": "seekers.html",
+    "the-new-morality": "new-morality/", "learning-centers": "easykey.html", "part-24-gpt-unit-system": FW + "part-24-gpt-unit-system/",
+    "part-27-transitional-mechanics": PAPERS + "transitional-mechanics/", "what-you-can-do-now": "support.html", "part-5-gpt": FW + "part-05-graviton-pressure-theory/",
+    "planetary-mechanics": FW + "part-26-planetary-mechanics/", "the-portal-opens-pdf-and-audiobook": "read.html", "poverty-elimination": "builders.html",
+    "graviton-pressure-theory-gpt": FW + "part-05-graviton-pressure-theory/", "graviton-coherence": FW + "part-19-graviton-coherence/",
+    "exposing-the-irreconcilable-contradictions": FW + "part-08-defining-the-break/", "meet-the-team": "about.html",
+    "part-7-the-illusion-of-pull": FW + "part-07-the-illusion-of-pull/", "discover-the-truth": "seekers.html",
+    "poverty-elimination-centers": PLAN + "chapter-06-poverty-elimination-centers-pecs/", "exisiting-evidence-supporting-gpt": FW + "part-09-existing-evidence-supporting-graviton-pressure-theory/",
+    "magnetism-in-gpt": FW + "part-21-magnetism-as-gravimetric-resonance/", "celestial-strategy-and-divine-fundamenta": "seekers.html",
+    "graviton-corridors": FW + "part-20-graviton-corridors-and-lattice-resonance/", "reclaiming-the-four": FW + "part-11-re-examining-the-four/",
+    "part-3-the-gravity-catalog": FW + "part-03-the-gravity-catalog/", "part-16-gravitational-fields-in-gpt": FW + "part-16-the-properties-of-gravitational-fields/",
+    "pow-the-novel": "books.html#novel", "part-20-graviton-corridors": FW + "part-20-graviton-corridors-and-lattice-resonance/",
+    "part-26-planetary-mechanics": FW + "part-26-planetary-mechanics/", "the-illusion-of-pull": FW + "part-07-the-illusion-of-pull/",
+    "resonance-transmissions": FW + "part-28-resonance-transmissions/", "ai-gen-one-and-two": "about.html",
+    "part-17-the-definition-of-mass": FW + "part-17-the-definition-of-mass/", "the-nature-of-time": FW + "part-18-the-nature-of-time-in-gpt/",
+    "the-graviton": FW + "part-15-gravitons/", "the-constraints-page": GPT + "constraint-set/", "ai-team-for-people-of-the-world": "about.html",
+    "civic-credits": PLAN + "chapter-05-the-civic-charter-and-civic-credits/", "part-18-the-nature-of-time": FW + "part-18-the-nature-of-time-in-gpt/",
+    "lifelink": PLAN + "chapter-07-lifelink-tablets-the-capability-and-verification-rail/", "the-definition-of-mass": FW + "part-17-the-definition-of-mass/",
+    "the-gravity-catalog": FW + "part-03-the-gravity-catalog/", "blog": "index.html",
+}
 # Pages that stay on Wix: the shop, members area, checkout and the Mega-Success event pages
-SHOP_WORDS = ["product-page", "category-page", "cart", "checkout", "account", "my-orders", "my-programs", "my-subscriptions",
+SHOP_WORDS = ["product-page", "group", "challenge-page", "pricing-plans", "post", "category", "category-page", "cart", "checkout", "account", "my-orders", "my-programs", "my-subscriptions",
               "members", "profile", "groups", "group-page", "notifications", "post", "search-results", "payment", "thank-you",
               "participant", "visitor", "mega-success", "store", "shop", "blank", "fullscreen", "test", "perception", "reflext"]
 
@@ -79,6 +113,7 @@ def table():
     for name, target in OLD_PAGES.items():
         out[wix_slug(name)] = target
     out.update(SEEN)
+    out.update(SITEMAP)
     out.pop("home", None)
     return out
 
