@@ -285,6 +285,54 @@ def portal_doc(fname, slug, title, subtitle=""):
     return save(slug, title, subtitle, h, pandoc(h, "html", "gfm"), fname + " (from the earlier gateway)")
 
 
+
+UPD = SRC / "Library updates"
+
+
+def toc_pages(path):
+    """Pages (1-indexed) that are contents pages: many dotted leader lines."""
+    n = int(re.search(r"Pages:\s+(\d+)", subprocess.run(["pdfinfo", str(path)], capture_output=True, text=True).stdout).group(1))
+    out = []
+    for p in range(1, min(n, 15) + 1):
+        t = subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), str(path), "-"], capture_output=True, text=True).stdout
+        if t.count(". . .") >= 5:
+            out.append(p)
+    return out
+
+
+def latex_pdf_doc(path, slug, title, subtitle, running=()):
+    tp = toc_pages(path)
+    toc = latex_pdf_toc(path, max(tp))
+    first = subprocess.run(["pdftotext", "-f", "1", "-l", "1", str(path), "-"], capture_output=True, text=True).stdout
+    m = re.search(r"Abstract\s*\n(.*?)(?:\n\s*Contents|\Z)", first, re.S)
+    abstract = re.sub(r"\s+", " ", m.group(1)).strip() if m else ""
+    abstract = re.sub(r"(\w)- (\w)", lambda k: k.group(1) + k.group(2) if k.group(2).islower() else k.group(0), abstract)
+    blocks = pdf_blocks(path, running=running, first_page=max(tp) + 1, toc=toc)
+    blocks = [(k, re.sub(r"\s{2,}", " ", re.sub(r"[⎪⎧⎨⎩⎫⎬⎭⎛⎜⎝⎞⎟⎠]", " ", t)).strip()) for k, t in blocks]
+    h = (f"<h2>Abstract</h2>\n<p>{html.escape(abstract, quote=False)}</p>\n" if abstract else "") + blocks_html([b for b in blocks if b[1]])
+    import shutil
+    shutil.copy(path, OUT / f"{slug}.pdf")
+    return save(slug, title, subtitle, h, pandoc(h, "html", "gfm"), path.name) | {"pdf": True}
+
+
+def gdocs_pdf_doc(path, slug, title, subtitle):
+    """Google Docs PDF with 'Part One: ...' and '1.1 ...' headings, preceded by an outline."""
+    raw = subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True).stdout
+    heads = {}
+    for l in raw.split("\n"):
+        s = l.replace("\u200b", "").replace("●", "").strip()
+        if re.match(r"^Part [A-Z][a-z]+: ", s): heads[s] = "h2"
+        elif re.match(r"^\d+\.\d+ [A-Z]", s) and len(s) < 90 and not s.endswith("."): heads[s] = "h3"
+    blocks = pdf_blocks(path, toc=heads)
+    # drop the title lines and the outline: start at the second "Part One" heading
+    starts = [i for i, b in enumerate(blocks) if b[0] == "h2" and b[1].startswith("Part One")]
+    blocks = blocks[starts[-1]:] if starts else blocks
+    h = blocks_html([(k, t.replace("\u200b", "")) for k, t in blocks])
+    import shutil
+    shutil.copy(path, OUT / f"{slug}.pdf")
+    return save(slug, title, subtitle, h, pandoc(h, "html", "gfm"), path.name) | {"pdf": True}
+
+
 if __name__ == "__main__":
     cat = {"framework": [], "pathway": [], "papers": [], "plan": [], "other": []}
     parts = sorted(TEX.glob("Part *.tex"))
@@ -305,10 +353,11 @@ if __name__ == "__main__":
     cat["papers"] += [
         portal_doc("from_gr_to_gpt.html", "from-gr-to-gpt", "From General Relativity to Graviton Pressure Theory", "Finishing Einstein’s Work"),
         odt_doc(WEB / "Charge as Gravitational flow bias.odt", "structure-before-uncertainty", "Structure Before Uncertainty", "Recovering mechanism in a universe that still works", drop_lines=2),
-        portal_doc("The_Reduction_conflation.html", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility"),
+        latex_pdf_doc(UPD / "The_Reduction_Conflation.pdf", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility"),
+        gdocs_pdf_doc(UPD / "The_Logical_Closure_of_the_EP.pdf", "logical-closure-of-the-ep", "The Logical Closure of the Equivalence Principle", "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism"),
         portal_doc("The_Paradox_of_the_boulder.html", "paradox-of-the-boulder", "The Paradox of the Boulder", "A dual audit of force and geometry language"),
         portal_doc("Causal_audit_of_motion.html", "causal-audit-of-motion", "A Causal Audit of Motion"),
-        portal_doc("mechanics_of_the_medium.html", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives"),
+        latex_pdf_doc(UPD / "The_Mechanics_of_the_Medium.pdf", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives"),
     ]
     cat["other"] += [
         odt_doc(GPT / "proof of reality of God.odt", "cosmic-mind", "An Intelligent Synthesis of Proofs for Cosmic Mind or God", "", drop_lines=1),

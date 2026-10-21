@@ -61,6 +61,30 @@
    "description": "It does not argue that GR is “wrong.” It states, as precisely as possible, where GR speaks, where it remains silent, and what is typically substituted in place of mechanism."
   },
   {
+   "title": "The Reduction Conflation",
+   "subtitle": "Numerical equivalence is not ontological compatibility",
+   "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/",
+   "text": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/index.md",
+   "collection": "Graviton Pressure Theory: start here (read in this order)",
+   "part": null,
+   "chapter": null,
+   "datePublished": "2026-10-03",
+   "words": 20597,
+   "description": "This paper examines a specific and underanalyzed epistemic practice in gravitational physics: the use of the claim that \"General Relativity reduces to Newtonian mechanics at low velocities\" to justify switching between two mutually exclusive ontological frameworks within a single causal…"
+  },
+  {
+   "title": "The Logical Closure of the Equivalence Principle",
+   "subtitle": "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism",
+   "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/",
+   "text": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/index.md",
+   "collection": "Graviton Pressure Theory: start here (read in this order)",
+   "part": null,
+   "chapter": null,
+   "datePublished": "2026-10-21",
+   "words": 18337,
+   "description": "The Equivalence Principle says gravity and acceleration feel the same. This audit asks what was accepted when that was read as saying they are the same, compares the rocket and the planet step by step, and proposes closing the question with a common mechanism."
+  },
+  {
    "title": "Why Graviton Pressure Theory Is Not “Alternative Gravity”",
    "subtitle": "A constraints-first explanation for educated readers",
    "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/not-alternative-gravity/",
@@ -71,6 +95,18 @@
    "datePublished": "2026-01-03",
    "words": 961,
    "description": "The phrase “alternative gravity” sounds innocuous, even fair-minded. It suggests a marketplace of competing ideas, each offering a different story about the same phenomenon."
+  },
+  {
+   "title": "The Mechanics of the Medium",
+   "subtitle": "The origin of primitives",
+   "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/",
+   "text": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/index.md",
+   "collection": "Graviton Pressure Theory: start here (read in this order)",
+   "part": null,
+   "chapter": null,
+   "datePublished": "2026-10-12",
+   "words": 41958,
+   "description": "Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter."
   },
   {
    "title": "Introduction",
@@ -445,18 +481,6 @@
    "description": "Why General Relativity describes gravity without explaining it, and what a force-based model offers in its place. The best first paper for newcomers."
   },
   {
-   "title": "The Reduction Conflation",
-   "subtitle": "Numerical equivalence is not ontological compatibility",
-   "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/",
-   "text": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/index.md",
-   "collection": "Graviton Pressure Theory: papers",
-   "part": null,
-   "chapter": null,
-   "datePublished": "2026",
-   "words": 3173,
-   "description": "Two theories giving the same numbers do not agree about what exists. How explanations move between force language and geometry language without marking the switch."
-  },
-  {
    "title": "The Paradox of the Boulder",
    "subtitle": "A dual audit of force and geometry language",
    "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/paradox-of-the-boulder/",
@@ -491,18 +515,6 @@
    "datePublished": "2026-01-04",
    "words": 4773,
    "description": "Why a universe that works reliably at every scale calls for mechanism, not only probability, with charge treated as a bias in the medium's flow."
-  },
-  {
-   "title": "The Mechanics of the Medium",
-   "subtitle": "The origin of primitives",
-   "url": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/",
-   "text": "https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/index.md",
-   "collection": "Graviton Pressure Theory: papers",
-   "part": null,
-   "chapter": null,
-   "datePublished": "2026-05-08",
-   "words": 38759,
-   "description": "The medium's properties worked through in detail: self-repulsion, oscillation, inflow toward mass, and the effects they produce together."
   },
   {
    "title": "Transitional Mechanics",

@@ -14,24 +14,32 @@ LIB = None  # set in build()
 DATES = {"framework": "2025-06-12", "transitional-mechanics": "2025-06-12", "what-gpt-corrects": "2025-06-08",
          "start-here": "2026-01-03", "constraint-set": "2026-01-04", "gr-silence-map": "2026-01-03",
          "not-alternative-gravity": "2026-01-03", "audit-questions": "2026-01-03",
-         "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026", "paradox-of-the-boulder": "2026",
-         "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-05-08",
+         "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026-10-03", "paradox-of-the-boulder": "2026",
+         "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-10-12",
+         "logical-closure-of-the-ep": "2026-10-21",
          "plan": "2025", "new-morality": "2025-07-28", "cosmic-mind": "2025-03-08"}
 
 PAPERS = [  # order, plain description
     ("from-gr-to-gpt", "Why General Relativity describes gravity without explaining it, and what a force-based model offers in its place. The best first paper for newcomers."),
-    ("reduction-conflation", "Two theories giving the same numbers do not agree about what exists. How explanations move between force language and geometry language without marking the switch."),
     ("paradox-of-the-boulder", "A worked audit of what each framework says is physically happening when a boulder rests on a moving, rotating Earth."),
     ("causal-audit-of-motion", "Falling, examined step by step: what a causal account of motion must name, and where geometric descriptions stop."),
     ("structure-before-uncertainty", "Why a universe that works reliably at every scale calls for mechanism, not only probability, with charge treated as a bias in the medium's flow."),
-    ("mechanics-of-the-medium", "The medium's properties worked through in detail: self-repulsion, oscillation, inflow toward mass, and the effects they produce together."),
     ("transitional-mechanics", "A direct mapping of classical mechanics into Graviton Pressure Theory: each familiar force restated as field pressure acting on structure."),
     ("what-gpt-corrects", "A summary of the specific problems in current gravitational physics that Graviton Pressure Theory sets out to correct."),
 ]
-PATHWAY = ["start-here", "constraint-set", "audit-questions", "gr-silence-map", "not-alternative-gravity"]
-PATH_URL = {"start-here": "graviton-pressure-theory/", "constraint-set": "graviton-pressure-theory/constraint-set/",
-            "audit-questions": "graviton-pressure-theory/audit-questions/", "gr-silence-map": "graviton-pressure-theory/gr-silence-map/",
-            "not-alternative-gravity": "graviton-pressure-theory/not-alternative-gravity/"}
+# The reading pathway, in order. Each step: (slug, address, description or None to use the document's own opening)
+PATHWAY = [
+    ("start-here", "graviton-pressure-theory/", None),
+    ("constraint-set", "graviton-pressure-theory/constraint-set/", None),
+    ("audit-questions", "graviton-pressure-theory/audit-questions/", None),
+    ("gr-silence-map", "graviton-pressure-theory/gr-silence-map/", None),
+    ("reduction-conflation", "graviton-pressure-theory/papers/reduction-conflation/", None),
+    ("logical-closure-of-the-ep", "graviton-pressure-theory/papers/logical-closure-of-the-ep/",
+     "The Equivalence Principle says gravity and acceleration feel the same. This audit asks what was accepted when that was read as saying they are the same, compares the rocket and the planet step by step, and proposes closing the question with a common mechanism."),
+    ("not-alternative-gravity", "graviton-pressure-theory/not-alternative-gravity/", None),
+    ("mechanics-of-the-medium", "graviton-pressure-theory/papers/mechanics-of-the-medium/", None),
+]
+PATH_URL = {s: u for s, u, _ in PATHWAY}
 FRAMEWORK_URL = "graviton-pressure-theory/full-framework/"
 PLAN_URL = "plan-to-end-poverty/"
 BOOK_GPT = "The Unified Framework for the Graviton Pressure Theory"
@@ -101,12 +109,12 @@ def build(B):
         d = by[slug]
         e = {"slug": slug, "url": url, "coll": coll, "title": title or d["title"], "subtitle": subtitle if subtitle is not None else d["subtitle"],
              "desc": desc or sentences(d["lead"]), "words": d["words"], "date": date or DATES.get(slug) or DATES.get(coll, "2025"),
-             "part": part, "book": book, "chapter": chapter, "source": d["source"]}
+             "part": part, "book": book, "chapter": chapter, "source": d["source"], "pdf": d.get("pdf", False)}
         docs.append(e)
         return e
 
-    for s in PATHWAY:
-        add(s, PATH_URL[s], "pathway")
+    for s, u, desc in PATHWAY:
+        add(s, u, "pathway", desc=desc)
     for d in sorted(cat["framework"], key=lambda d: d["part"]):
         add(d["slug"], f"{FRAMEWORK_URL}part-{d['part']:02d}-{slugify(d['title'])}/", "framework",
             desc=sentences(d["lead"]) or f"Part {d['part']} of {BOOK_GPT}.", date=DATES["framework"], part=d["part"], book=BOOK_GPT)
@@ -162,6 +170,10 @@ def build(B):
             for key, url in [("constraint-set", PATH_URL["constraint-set"]), ("gr-silence-map", PATH_URL["gr-silence-map"]),
                              ("not-alternative-gravity", PATH_URL["not-alternative-gravity"]), ("full-framework", FRAMEWORK_URL)]:
                 frag = re.sub(rf"Link: <strong>/graviton-pressure-theory/{key}/</strong>", f'<a href="{url}">Read it →</a>', frag)
+            order = "".join(f'<li><a href="{x["url"]}">{esc(x["title"])}</a></li>' for x in docs if x["coll"] == "pathway" and x["slug"] != "start-here")
+            order += f'<li><a href="{FRAMEWORK_URL}">{esc(BOOK_GPT)}</a> (thirty parts)</li>'
+            box = f'<aside class="ai-note" style="margin:1.5em 0"><p class="step-label">The full reading order</p><ol>{order}</ol><p>Each page links to the next, so you can read straight through.</p></aside>\n'
+            frag = re.sub(r'(<h2[^>]*id="what-gpt-claims-in-one-paragraph")', box.replace("\\", "\\\\") + r"\1", frag, count=1)
             frag = frag.replace("<strong>peopleoftheworld.org/graviton-pressure-theory</strong>", f'<a href="graviton-pressure-theory/">{B.SITE_URL}/graviton-pressure-theory/</a>')
         prev, nxt = seq.get(e["slug"], (None, None))
         pager = "".join([
@@ -185,7 +197,7 @@ def build(B):
 <p class="crumbs">{crumbs}</p>
 <h1 class="h-lg" style="margin:.3em 0 .2em">{esc(e['title'])}</h1>
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
-<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a></p>
+<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF (equations as typeset)</a>' if e["pdf"] else ""}</p>
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>
@@ -199,6 +211,9 @@ def build(B):
 {B.footer("ai")}"""
         title = f"{e['title']} · " + ("Graviton Pressure Theory" if e["coll"] in ("pathway", "framework", "papers") else coll_name[e["coll"]])
         B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e), e["date"])
+        if e["pdf"]:
+            import shutil
+            shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
         md = (LIB / f"{e['slug']}.md").read_text(encoding="utf-8")
         (B.OUT / e["url"] / "index.md").write_text(
             md.rstrip() + f"\n\n---\nSource: {B.SITE_URL}/{e['url']}\nCite as: {citation(e)}\n", encoding="utf-8")
