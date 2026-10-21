@@ -93,14 +93,14 @@ def tex_doc(path, slug):
     t = t.replace("\\newpage", "").replace("\\textemdash", "—").replace("∼", "~")
     t = re.sub(r"\\texorpdfstring\{([^}]*)\}\{[^}]*\}", r"\1", t)
     bib = ["--citeproc", "--bibliography", str(TEX / "GPT Framework Master.bib")]
-    h = pandoc(t, "latex", "html5", ["--mathml", *bib])
+    h = pandoc(t, "latex", "html5", ["--mathjax", *bib])
     md = pandoc(t, "latex", "gfm", bib)
     return save(slug, title, subtitle, tidy_html(h), md, path.name)
 
 
 # ---------- OpenDocument ----------
 def odt_doc(path, slug, title=None, subtitle=None, drop_lines=0):
-    h = pandoc(path, "odt", "html5", ["--mathml"], is_path=True)
+    h = pandoc(path, "odt", "html5", ["--mathjax"], is_path=True)
     # the opening lines of these documents repeat the title and subtitle; drop them
     for _ in range(drop_lines):
         h = re.sub(r"^\s*<(p|h\d)[^>]*>.*?</\1>", "", h, count=1, flags=re.S)

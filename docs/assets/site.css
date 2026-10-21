@@ -272,8 +272,9 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .prose table{border-collapse:collapse;font-family:var(--body);font-size:15px;line-height:1.45;margin:1.4em 0;display:block;overflow-x:auto;max-width:100%}
 .prose th,.prose td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
 .prose th{background:var(--surface)}
-.prose math{font-size:1.05em}
-.prose math[display="block"]{display:block;overflow-x:auto;margin:1em 0}
+.prose .math.display{display:block;overflow-x:auto;overflow-y:hidden;margin:1.1em 0;padding:.2em 0}
+.prose mjx-container[display="true"]{margin:0!important}
+.prose mjx-container{color:var(--fg)}
 .prose code{font-family:var(--mono);font-size:.9em}
 .prose .footnotes,.prose #refs{font-size:15px;border-top:1px solid var(--line);margin-top:2.5em;padding-top:1em}
 .prose sup a,.prose .footnote-ref{text-decoration:none}

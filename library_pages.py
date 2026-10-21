@@ -210,7 +210,12 @@ def build(B):
 </div></main>
 {B.footer("ai")}"""
         title = f"{e['title']} · " + ("Graviton Pressure Theory" if e["coll"] in ("pathway", "framework", "papers") else coll_name[e["coll"]])
-        B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e), e["date"])
+        mj = ""
+        if 'class="math' in frag:
+            mj = ('\n<script>window.MathJax={tex:{inlineMath:[["\\\\(","\\\\)"]],displayMath:[["\\\\[","\\\\]"]]},'
+                  'chtml:{scale:1.05,matchFontHeight:true},options:{enableMenu:false}};</script>'
+                  '\n<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>')
+        B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e) + mj, e["date"])
         if e["pdf"]:
             import shutil
             shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
