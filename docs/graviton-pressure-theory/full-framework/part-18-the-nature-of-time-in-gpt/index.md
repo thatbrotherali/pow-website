@@ -285,5 +285,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^5]: See Part 20 – Graviton Corridors for timing along structured directional paths.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
-Cite as: Rashada, S. A. (2025). The Nature of Time in GPT. In The Unified Framework for the Graviton Pressure Theory, part 18. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
+Cite as: Rashada, S. A. (2025). The Nature of Time in GPT. In The Unified Framework for the Graviton Pressure Theory, part 18. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/

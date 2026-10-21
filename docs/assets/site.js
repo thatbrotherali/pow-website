@@ -1,23 +1,22 @@
 /* People of the World — site settings and small behaviours.
    EDIT THE LINKS BELOW. Any button whose link is left empty ("") is hidden automatically. */
-// Shop links point at the current Wix shop pages. After the domain moves, these old addresses forward
-// automatically to shop.peopleoftheworld.net, so they keep working.
+// Shop links point at the Wix shop, which lives at shop.peopleoftheworld.net.
 const POW_LINKS = {
-  shop: "",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
+  shop: "https://shop.peopleoftheworld.net",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
   support: "support.html",  // the Support the mission page
-  donate: "https://www.peopleoftheworld.net/donations-1",               // donation payment link (Stripe, PayPal or Wix)
-  portalPaperback: "https://www.peopleoftheworld.net/product-page/the-portal-opens",      // Wix shop or Lulu link for The Portal Opens paperback
-  portalHardcover: "https://www.peopleoftheworld.net/product-page/the-portal-opens-hardback",      // Lulu link for the hardcover
+  donate: "https://shop.peopleoftheworld.net/donations-1",               // donation payment link (Stripe, PayPal or Wix)
+  portalPaperback: "https://shop.peopleoftheworld.net/product-page/the-portal-opens",      // Wix shop or Lulu link for The Portal Opens paperback
+  portalHardcover: "https://shop.peopleoftheworld.net/product-page/the-portal-opens-hardback",      // Lulu link for the hardcover
   portalKindle: "",         // Amazon Kindle link for The Portal Opens
   powNovelKindle: "",       // Amazon Kindle link for People of the World (novel)
-  powNovelPrint: "https://www.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
+  powNovelPrint: "https://shop.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
   review: "",               // Literary Titan review of The Portal Opens
   easeApple: "",            // Music to Ease Your Mind on Apple Music
   easeAmazon: "",           // Music to Ease Your Mind on Amazon Music
   anthologySpotify: "",     // Anthology Vol. 1 on Spotify
   anthologyApple: "",       // Anthology Vol. 1 on Apple Music
   anthologyAmazon: "",      // Anthology Vol. 1 on Amazon Music
-  gptBook: "https://www.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
+  gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
   easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
   audiobook: "",            // YouTube playlist or audio page
   vision: "",               // full Vision document

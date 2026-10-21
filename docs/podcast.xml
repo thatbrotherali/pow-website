@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>The Deep Dive: Graviton Pressure Theory</title>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
-<atom:link href="https://thatbrotherali.github.io/pow-website/podcast.xml" rel="self" type="application/rss+xml"/>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
+<atom:link href="https://peopleoftheworld.net/podcast.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<description>A conversation-style walkthrough of The Unified Framework for the Graviton Pressure Theory by Shareef Ali Rashada, part by part, with episodes on how AI systems respond to the work. From People of the World. Full texts are free at https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/</description>
+<description>A conversation-style walkthrough of The Unified Framework for the Graviton Pressure Theory by Shareef Ali Rashada, part by part, with episodes on how AI systems respond to the work. From People of the World. Full texts are free at https://peopleoftheworld.net/graviton-pressure-theory/</description>
 <itunes:author>Shareef Ali Rashada</itunes:author>
 <itunes:owner><itunes:name>Shareef Ali Rashada</itunes:name><itunes:email>shareef@peopleoftheworld.net</itunes:email></itunes:owner>
-<itunes:image href="https://thatbrotherali.github.io/pow-website/assets/podcast-cover.jpg"/>
-<image><url>https://thatbrotherali.github.io/pow-website/assets/podcast-cover.jpg</url><title>The Deep Dive: Graviton Pressure Theory</title><link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link></image>
+<itunes:image href="https://peopleoftheworld.net/assets/podcast-cover.jpg"/>
+<image><url>https://peopleoftheworld.net/assets/podcast-cover.jpg</url><title>The Deep Dive: Graviton Pressure Theory</title><link>https://peopleoftheworld.net/videos.html#listen</link></image>
 <itunes:category text="Science"><itunes:category text="Physics"/></itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>serial</itunes:type>
@@ -19,7 +19,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_9b4c3cfef809474c967a172a5f7ea641-320.mp3" length="28266716" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_9b4c3cfef809474c967a172a5f7ea641</guid>
 <pubDate>Tue, 14 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>707</itunes:duration>
 <itunes:episode>1</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -29,7 +29,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_b6160f6032214a9c994b6d73205f3efb-320.mp3" length="37534961" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_b6160f6032214a9c994b6d73205f3efb</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>938</itunes:duration>
 <itunes:episode>2</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -39,7 +39,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_c2b7515890184c298e6decf6e1e7cf8e-320.mp3" length="37625867" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_c2b7515890184c298e6decf6e1e7cf8e</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>941</itunes:duration>
 <itunes:episode>3</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -49,7 +49,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_b72faca577f54d048633a37f9f95061a-320.mp3" length="38581949" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_b72faca577f54d048633a37f9f95061a</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>964</itunes:duration>
 <itunes:episode>4</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -59,7 +59,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_d8de58fa133e43fa8206a4444bcd10d4-320.mp3" length="31594716" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_d8de58fa133e43fa8206a4444bcd10d4</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>790</itunes:duration>
 <itunes:episode>5</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -69,7 +69,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_c0a7bfa797ba4411a1f3752e5097a5bd-320.mp3" length="37526602" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_c0a7bfa797ba4411a1f3752e5097a5bd</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>938</itunes:duration>
 <itunes:episode>6</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -79,7 +79,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_cbd484fbc7e844efb5e5fa0229e65438-320.mp3" length="31709655" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_cbd484fbc7e844efb5e5fa0229e65438</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>793</itunes:duration>
 <itunes:episode>7</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -89,7 +89,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_e26868402110405e9d13b167c090d9de-320.mp3" length="38435663" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_e26868402110405e9d13b167c090d9de</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>961</itunes:duration>
 <itunes:episode>8</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -99,7 +99,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_a91d00f345cd46cb9a9e94e8b28ac4af-320.mp3" length="31864300" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_a91d00f345cd46cb9a9e94e8b28ac4af</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>797</itunes:duration>
 <itunes:episode>9</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -109,7 +109,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_df487f25464343c9ab0abbd8232168bd-320.mp3" length="37705280" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_df487f25464343c9ab0abbd8232168bd</guid>
 <pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>943</itunes:duration>
 <itunes:episode>10</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -119,7 +119,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_50fb0db64a4041cd9541e8beee6a9b6a-320.mp3" length="31063908" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_50fb0db64a4041cd9541e8beee6a9b6a</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>777</itunes:duration>
 <itunes:episode>11</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -129,7 +129,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_bbf48313258a4beb88f5654414e29ab5-320.mp3" length="32109851" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_bbf48313258a4beb88f5654414e29ab5</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>803</itunes:duration>
 <itunes:episode>12</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -139,7 +139,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_2d75395167c04859a917bda26152c65e-320.mp3" length="39726112" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_2d75395167c04859a917bda26152c65e</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>993</itunes:duration>
 <itunes:episode>13</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -149,7 +149,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_3b926b072d3943a3ad119de65c203db3-320.mp3" length="34934210" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_3b926b072d3943a3ad119de65c203db3</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>873</itunes:duration>
 <itunes:episode>14</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -159,7 +159,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_efeca66331494a7bbf068b136d6b4807-320.mp3" length="45724871" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_efeca66331494a7bbf068b136d6b4807</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>1143</itunes:duration>
 <itunes:episode>15</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -169,7 +169,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_7872be77c61046aab86a5285446e3fc2-320.mp3" length="32577965" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_7872be77c61046aab86a5285446e3fc2</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>814</itunes:duration>
 <itunes:episode>16</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -179,7 +179,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_42ac5a17bab24eccb380008749aec8e7-320.mp3" length="36219435" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_42ac5a17bab24eccb380008749aec8e7</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>905</itunes:duration>
 <itunes:episode>17</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -189,7 +189,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_ebdb7c8ff55443cab5e2b4983b1c8405-320.mp3" length="34072169" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_ebdb7c8ff55443cab5e2b4983b1c8405</guid>
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
 <itunes:episode>18</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -199,7 +199,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_83ff64da5b8d43548839d3cff1ce0ae7-320.mp3" length="34102471" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_83ff64da5b8d43548839d3cff1ce0ae7</guid>
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
 <itunes:episode>19</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
@@ -209,7 +209,7 @@
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_4eb99367e2564d268aadf70327e642d6-320.mp3" length="36256006" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-eaef6d_4eb99367e2564d268aadf70327e642d6</guid>
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://thatbrotherali.github.io/pow-website/videos.html#listen</link>
+<link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>906</itunes:duration>
 <itunes:episode>20</itunes:episode>
 <itunes:explicit>false</itunes:explicit>

@@ -217,5 +217,5 @@ Wheeler, John A., and Wojciech H. Zurek. 1983. *Quantum Theory and Measurement*.
 [^4]: (Wheeler and Zurek 1983)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
-Cite as: Rashada, S. A. (2025). The Collapse of Materialist Epistemology. In The Unified Framework for the Graviton Pressure Theory, part 12. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
+Cite as: Rashada, S. A. (2025). The Collapse of Materialist Epistemology. In The Unified Framework for the Graviton Pressure Theory, part 12. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/

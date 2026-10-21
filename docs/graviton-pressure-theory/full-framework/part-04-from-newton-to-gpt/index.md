@@ -125,5 +125,5 @@ Wheeler, John Archibald. 1990. *A Journey into Gravity and Spacetime*. New York:
 [^8]: (Bunge 1959)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
-Cite as: Rashada, S. A. (2025). From Newton to GPT. In The Unified Framework for the Graviton Pressure Theory, part 4. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
+Cite as: Rashada, S. A. (2025). From Newton to GPT. In The Unified Framework for the Graviton Pressure Theory, part 4. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/

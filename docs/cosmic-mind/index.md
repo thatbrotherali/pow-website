@@ -228,5 +228,5 @@ For GPT to replace GR, it must be testable. Several falsifiable predictions diff
 ###
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/cosmic-mind/
-Cite as: Rashada, S. A. (2025). An Intelligent Synthesis of Proofs for Cosmic Mind or God. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/cosmic-mind/
+Source: https://peopleoftheworld.net/cosmic-mind/
+Cite as: Rashada, S. A. (2025). An Intelligent Synthesis of Proofs for Cosmic Mind or God. People of the World. People of the World. https://peopleoftheworld.net/cosmic-mind/

@@ -337,5 +337,5 @@ With phase modulation, the graviton field is no longer simply a medium to be sha
 Just as we moved from circuits to quantum gates, we now move from structural resonance to temporal causality. In the pressure-based architecture of GPT, *phase is power*.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/transitional-mechanics/
-Cite as: Rashada, S. A. (2025). Transitional Mechanics. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/transitional-mechanics/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/transitional-mechanics/
+Cite as: Rashada, S. A. (2025). Transitional Mechanics. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/transitional-mechanics/

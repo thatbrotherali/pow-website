@@ -146,5 +146,5 @@ References
 - Carbon Majors Database (2023).
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
-Cite as: Rashada, S. A. (2025). Introduction: The Scope of the Problem and the Path to Human Capability. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
+Cite as: Rashada, S. A. (2025). Introduction: The Scope of the Problem and the Path to Human Capability. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/

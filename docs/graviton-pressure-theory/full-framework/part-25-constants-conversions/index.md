@@ -148,5 +148,5 @@ This connectivity reinforces GPT’s internal unity—not as a theory, but as a 
 [^4]: See Part 18 – The Nature of Time for conversion scaling across field refresh cycles.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-25-constants-conversions/
-Cite as: Rashada, S. A. (2025). Constants, Conversions. In The Unified Framework for the Graviton Pressure Theory, part 25. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-25-constants-conversions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/
+Cite as: Rashada, S. A. (2025). Constants, Conversions. In The Unified Framework for the Graviton Pressure Theory, part 25. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/

@@ -14,7 +14,7 @@ YEAR = 2026
 CONTACT = "shareef@peopleoftheworld.net"
 # The address the site is published at. Change this one line to "https://peopleoftheworld.net"
 # when the domain moves to this site, then run the build again.
-SITE_URL = "https://thatbrotherali.github.io/pow-website"
+SITE_URL = "https://peopleoftheworld.net"
 AUTHOR = "Shareef Ali Rashada"
 FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600"
          "&family=Inter:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600"

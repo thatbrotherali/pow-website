@@ -47,5 +47,5 @@ This is not the continuation of General Relativity. This is the ground it never 
 Welcome to the foundation. Welcome to the second beginning.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
-Cite as: Rashada, S. A. (2025). From Revelation to Foundation. In The Unified Framework for the Graviton Pressure Theory, part 14. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
+Cite as: Rashada, S. A. (2025). From Revelation to Foundation. In The Unified Framework for the Graviton Pressure Theory, part 14. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/

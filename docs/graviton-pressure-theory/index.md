@@ -81,5 +81,5 @@ If you reference this pathway in writing or discussion, use this framing:
 “Constraint-first gravity: a local-phenomena baseline, followed by a strict audit of GR’s silences, followed by a mechanistic proposal designed to be constrained by local reality.”
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/
-Cite as: Rashada, S. A. (2026). Start Here: Graviton Pressure Theory. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/
+Cite as: Rashada, S. A. (2026). Start Here: Graviton Pressure Theory. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/

@@ -167,5 +167,5 @@ Lorentz, Hendrik Antoon. 1895. *Attempt of a Theory of Electrical and Optical Ph
 [^5]: See (Lorentz 1895) for force modeling in early electrodynamic theory.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
-Cite as: Rashada, S. A. (2025). Cross-Analysis of Magnetic Materials. In The Unified Framework for the Graviton Pressure Theory, part 22. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
+Cite as: Rashada, S. A. (2025). Cross-Analysis of Magnetic Materials. In The Unified Framework for the Graviton Pressure Theory, part 22. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/

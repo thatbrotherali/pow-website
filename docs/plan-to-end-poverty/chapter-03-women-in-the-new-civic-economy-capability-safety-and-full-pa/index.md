@@ -206,5 +206,5 @@ Eliminating poverty requires:
 The People of the World framework does not include women. It rebuilds society around their full participation, ensuring that the next generation inherits not a world of scarcity, but a world where capability, dignity, and opportunity are universal.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
-Cite as: Rashada, S. A. (2025). Women in the New Civic Economy: Capability, Safety, and Full Participation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
+Cite as: Rashada, S. A. (2025). Women in the New Civic Economy: Capability, Safety, and Full Participation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/

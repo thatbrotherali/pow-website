@@ -681,5 +681,5 @@ Downward streaming flux exerts real mechanical pressure on the atomic lattice; t
 This paper is submitted for open critical engagement. The author welcomes rigorous scrutiny of every claim, every logical step, and every proposed mechanism. The goal is not the defense of a position but the advancement of understanding. Physics is a collective enterprise, and truth is the only standard that matters.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/
-Cite as: Rashada, S. A. (2026). The Logical Closure of the Equivalence Principle. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/logical-closure-of-the-ep/
+Cite as: Rashada, S. A. (2026). The Logical Closure of the Equivalence Principle. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/logical-closure-of-the-ep/

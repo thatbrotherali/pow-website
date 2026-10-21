@@ -1834,5 +1834,5 @@ Electromagnetism is no longer abstract— it is graviton-structured pressure cho
 [^3]: See Part 21 – Magnetism as Gravimetric Resonance for torsional coherence and field memory.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
-Cite as: Rashada, S. A. (2025). Resonance Transmissions. In The Unified Framework for the Graviton Pressure Theory, part 28. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
+Cite as: Rashada, S. A. (2025). Resonance Transmissions. In The Unified Framework for the Graviton Pressure Theory, part 28. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/

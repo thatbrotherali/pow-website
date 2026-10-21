@@ -345,5 +345,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See (Newton 1687) for classical unit foundations.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
-Cite as: Rashada, S. A. (2025). GPT Unit System. In The Unified Framework for the Graviton Pressure Theory, part 24. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
+Cite as: Rashada, S. A. (2025). GPT Unit System. In The Unified Framework for the Graviton Pressure Theory, part 24. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/

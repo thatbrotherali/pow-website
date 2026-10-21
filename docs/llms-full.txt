@@ -1,6 +1,6 @@
 # People of the World: The Open Library (complete text)
 
-All documents by Shareef Ali Rashada. Source: https://thatbrotherali.github.io/pow-website/ai.html
+All documents by Shareef Ali Rashada. Source: https://peopleoftheworld.net/ai.html
 
 
 ======== Graviton Pressure Theory: start here (read in this order) ========
@@ -89,8 +89,8 @@ If you reference this pathway in writing or discussion, use this framing:
 “Constraint-first gravity: a local-phenomena baseline, followed by a strict audit of GR’s silences, followed by a mechanistic proposal designed to be constrained by local reality.”
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/
-Cite as: Rashada, S. A. (2026). Start Here: Graviton Pressure Theory. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/
+Cite as: Rashada, S. A. (2026). Start Here: Graviton Pressure Theory. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/
 
 
 # The Gravity Constraint Set
@@ -330,8 +330,8 @@ No conclusion is drawn here.
 The burden now lies with explanation.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/constraint-set/
-Cite as: Rashada, S. A. (2026). The Gravity Constraint Set. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/constraint-set/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/constraint-set/
+Cite as: Rashada, S. A. (2026). The Gravity Constraint Set. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/constraint-set/
 
 
 # Audit Questions for Theoretical Completeness
@@ -538,8 +538,8 @@ No hostility is implied.
 Only clarity.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/audit-questions/
-Cite as: Rashada, S. A. (2026). Audit Questions for Theoretical Completeness. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/audit-questions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/audit-questions/
+Cite as: Rashada, S. A. (2026). Audit Questions for Theoretical Completeness. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/audit-questions/
 
 
 # The GR Silence Map
@@ -784,8 +784,8 @@ This is not presented here as ridicule.
 It is presented as the precise location of the foundational tension.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/gr-silence-map/
-Cite as: Rashada, S. A. (2026). The GR Silence Map. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/gr-silence-map/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/gr-silence-map/
+Cite as: Rashada, S. A. (2026). The GR Silence Map. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/gr-silence-map/
 
 
 # The Reduction Conflation
@@ -2647,8 +2647,8 @@ Verlinde, Erik. 2011. “On the Origin of Gravity and the Laws of Newton.” *Jo
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/
-Cite as: Rashada, S. A. (2026). The Reduction Conflation. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/reduction-conflation/
+Cite as: Rashada, S. A. (2026). The Reduction Conflation. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/reduction-conflation/
 
 
 # The Logical Closure of the Equivalence Principle
@@ -3334,8 +3334,8 @@ Downward streaming flux exerts real mechanical pressure on the atomic lattice; t
 This paper is submitted for open critical engagement. The author welcomes rigorous scrutiny of every claim, every logical step, and every proposed mechanism. The goal is not the defense of a position but the advancement of understanding. Physics is a collective enterprise, and truth is the only standard that matters.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/
-Cite as: Rashada, S. A. (2026). The Logical Closure of the Equivalence Principle. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/logical-closure-of-the-ep/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/logical-closure-of-the-ep/
+Cite as: Rashada, S. A. (2026). The Logical Closure of the Equivalence Principle. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/logical-closure-of-the-ep/
 
 
 # The Operational Constraints of the Equivalence Principle
@@ -3477,8 +3477,8 @@ The four open problems are where the work goes next. Everything else in this sec
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
-Cite as: Rashada, S. A. (2026). The Operational Constraints of the Equivalence Principle. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
+Cite as: Rashada, S. A. (2026). The Operational Constraints of the Equivalence Principle. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
 
 
 # Why Graviton Pressure Theory Is Not “Alternative Gravity”
@@ -3597,8 +3597,8 @@ That is why GPT is not “alternative gravity.”
 It is gravity, rebuilt from the bottom up, under the demand that nothing real be explained away.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/not-alternative-gravity/
-Cite as: Rashada, S. A. (2026). Why Graviton Pressure Theory Is Not “Alternative Gravity”. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/not-alternative-gravity/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/not-alternative-gravity/
+Cite as: Rashada, S. A. (2026). Why Graviton Pressure Theory Is Not “Alternative Gravity”. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/not-alternative-gravity/
 
 
 # The Mechanics of the Medium
@@ -8797,8 +8797,8 @@ The mathematical relationship is: $g_{\mu\nu}^{\text{GR}}$ is an effective metri
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/
-Cite as: Rashada, S. A. (2026). The Mechanics of the Medium. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/
+Cite as: Rashada, S. A. (2026). The Mechanics of the Medium. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/
 
 
 ======== The Unified Framework for the Graviton Pressure Theory (thirty parts) ========
@@ -8921,8 +8921,8 @@ Peebles, P. J. E., and Bharat Ratra. 2003. “The Cosmological Constant and Dark
 [^5]: See Zee, A. (2010). *Quantum Field Theory in a Nutshell*. Princeton University Press.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-01-introduction/
-Cite as: Rashada, S. A. (2025). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-01-introduction/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
+Cite as: Rashada, S. A. (2025). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
 
 
 # The Removal of Intent
@@ -9435,8 +9435,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^14]: Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the ’Orch OR’ theory. *Physics of Life Reviews*, 11(1), 39–78.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
-Cite as: Rashada, S. A. (2025). The Removal of Intent. In The Unified Framework for the Graviton Pressure Theory, part 2. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
+Cite as: Rashada, S. A. (2025). The Removal of Intent. In The Unified Framework for the Graviton Pressure Theory, part 2. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
 
 
 # The Gravity Catalog
@@ -10310,8 +10310,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^18]: Pound, R. V., & Rebka Jr, G. A. (1959). Gravitational Red-Shift in Nuclear Resonance. *Physical Review Letters*, 3(9), 439–441.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
-Cite as: Rashada, S. A. (2025). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
+Cite as: Rashada, S. A. (2025). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
 
 
 # From Newton to GPT
@@ -10441,8 +10441,8 @@ Wheeler, John Archibald. 1990. *A Journey into Gravity and Spacetime*. New York:
 [^8]: (Bunge 1959)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
-Cite as: Rashada, S. A. (2025). From Newton to GPT. In The Unified Framework for the Graviton Pressure Theory, part 4. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
+Cite as: Rashada, S. A. (2025). From Newton to GPT. In The Unified Framework for the Graviton Pressure Theory, part 4. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/
 
 
 # Graviton Pressure Theory
@@ -11156,8 +11156,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^6]: See Part 15 – *The Graviton* for a full exploration of graviton structure and behavior.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
-Cite as: Rashada, S. A. (2025). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+Cite as: Rashada, S. A. (2025). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
 
 
 # Redefining Work
@@ -11453,8 +11453,8 @@ Zurek, Wojciech H. 2003. “Decoherence, Einselection, and the Quantum Origins o
 [^6]: (Zurek 2003)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-06-redefining-work/
-Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
 
 
 # The Illusion of Pull
@@ -12072,8 +12072,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^11]: See (Einstein 1915) for the geometric treatment of gravity as spacetime curvature.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
-Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
 
 
 # Defining the break
@@ -13394,8 +13394,8 @@ Straumann, Norbert. 2000. “On the Status of General Relativity.” *General Re
 [^15]: (Straumann 2000)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-08-defining-the-break/
-Cite as: Rashada, S. A. (2025). Defining the break. In The Unified Framework for the Graviton Pressure Theory, part 8. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-08-defining-the-break/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/
+Cite as: Rashada, S. A. (2025). Defining the break. In The Unified Framework for the Graviton Pressure Theory, part 8. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/
 
 
 # Existing Evidence supporting Graviton Pressure Theory
@@ -14401,8 +14401,8 @@ Treu, Tommaso, and L. V. E. Koopmans. 2004. “Massive Dark Matter Halos and Evo
 [^16]: (Ashby 2003)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
-Cite as: Rashada, S. A. (2025). Existing Evidence supporting Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 9. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
+Cite as: Rashada, S. A. (2025). Existing Evidence supporting Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 9. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
 
 
 # Practical Exploration of Advanced Concepts
@@ -14850,8 +14850,8 @@ Wambsganss, Joachim. 1999. “Gravitational Lensing in Astronomy.” *Living Rev
 [^15]: Gravitational lensing data reinterpreted: <https://doi.org/10.1086/307244>.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
-Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
+Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
 
 
 # Re-examining the Four
@@ -15512,8 +15512,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^5]: (Cartwright 1999)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
-Cite as: Rashada, S. A. (2025). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
+Cite as: Rashada, S. A. (2025). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
 
 
 # The Collapse of Materialist Epistemology
@@ -15735,8 +15735,8 @@ Wheeler, John A., and Wojciech H. Zurek. 1983. *Quantum Theory and Measurement*.
 [^4]: (Wheeler and Zurek 1983)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
-Cite as: Rashada, S. A. (2025). The Collapse of Materialist Epistemology. In The Unified Framework for the Graviton Pressure Theory, part 12. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
+Cite as: Rashada, S. A. (2025). The Collapse of Materialist Epistemology. In The Unified Framework for the Graviton Pressure Theory, part 12. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
 
 
 # The Moon, Gravimetric Modulation and the Resonant Biology of Life on Earth
@@ -16351,8 +16351,8 @@ Harrison, P. L. et al. 1984. “Mass Spawning in Tropical Reef Corals.” *Scien
 [^8]: (Cajochen et al. 2013)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
-Cite as: Rashada, S. A. (2025). The Moon, Gravimetric Modulation and the Resonant Biology of Life on Earth. In The Unified Framework for the Graviton Pressure Theory, part 13. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
+Cite as: Rashada, S. A. (2025). The Moon, Gravimetric Modulation and the Resonant Biology of Life on Earth. In The Unified Framework for the Graviton Pressure Theory, part 13. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
 
 
 # From Revelation to Foundation
@@ -16404,8 +16404,8 @@ This is not the continuation of General Relativity. This is the ground it never 
 Welcome to the foundation. Welcome to the second beginning.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
-Cite as: Rashada, S. A. (2025). From Revelation to Foundation. In The Unified Framework for the Graviton Pressure Theory, part 14. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
+Cite as: Rashada, S. A. (2025). From Revelation to Foundation. In The Unified Framework for the Graviton Pressure Theory, part 14. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/
 
 
 # Gravitons
@@ -16809,8 +16809,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^1]: See (Newton 1687) for the foundational definition of force and gravitational acceleration.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-15-gravitons/
-Cite as: Rashada, S. A. (2025). Gravitons. In The Unified Framework for the Graviton Pressure Theory, part 15. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-15-gravitons/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/
+Cite as: Rashada, S. A. (2025). Gravitons. In The Unified Framework for the Graviton Pressure Theory, part 15. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/
 
 
 # The Properties of Gravitational Fields
@@ -17560,8 +17560,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^6]: See (Newton 1687) for classical definitions of gravitational force.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
-Cite as: Rashada, S. A. (2025). The Properties of Gravitational Fields. In The Unified Framework for the Graviton Pressure Theory, part 16. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
+Cite as: Rashada, S. A. (2025). The Properties of Gravitational Fields. In The Unified Framework for the Graviton Pressure Theory, part 16. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
 
 
 # The Definition of Mass
@@ -17842,8 +17842,8 @@ In GPT, mass is not a substance or intrinsic trait, but the structural expressio
 [^4]: See Part 16 – The Properties of Gravitational Fields for structure and behavior.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
-Cite as: Rashada, S. A. (2025). The Definition of Mass. In The Unified Framework for the Graviton Pressure Theory, part 17. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
+Cite as: Rashada, S. A. (2025). The Definition of Mass. In The Unified Framework for the Graviton Pressure Theory, part 17. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
 
 
 # The Nature of Time in GPT
@@ -18133,8 +18133,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^5]: See Part 20 – Graviton Corridors for timing along structured directional paths.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
-Cite as: Rashada, S. A. (2025). The Nature of Time in GPT. In The Unified Framework for the Graviton Pressure Theory, part 18. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
+Cite as: Rashada, S. A. (2025). The Nature of Time in GPT. In The Unified Framework for the Graviton Pressure Theory, part 18. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/
 
 
 # Graviton Coherence
@@ -18503,8 +18503,8 @@ Finally, GPT reintroduces purpose into matter. Structure becomes meaningful, ali
 [^6]: See Part 17 – The Definition of Mass for field resistance and particle definition.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
-Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
+Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
 
 
 # Graviton Corridors and Lattice Resonance
@@ -19538,8 +19538,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See (Mach 1893) for Mach’s principle relating inertia to distant mass distribution.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
-Cite as: Rashada, S. A. (2025). Graviton Corridors and Lattice Resonance. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
+Cite as: Rashada, S. A. (2025). Graviton Corridors and Lattice Resonance. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
 
 
 # Magnetism as Gravimetric Resonance
@@ -20337,8 +20337,8 @@ Lorentz, Hendrik Antoon. 1895. *Attempt of a Theory of Electrical and Optical Ph
 [^8]: See Part 17 – The Definition of Mass for interaction with graviton flux.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
-Cite as: Rashada, S. A. (2025). Magnetism as Gravimetric Resonance. In The Unified Framework for the Graviton Pressure Theory, part 21. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
+Cite as: Rashada, S. A. (2025). Magnetism as Gravimetric Resonance. In The Unified Framework for the Graviton Pressure Theory, part 21. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
 
 
 # Cross-Analysis of Magnetic Materials
@@ -20510,8 +20510,8 @@ Lorentz, Hendrik Antoon. 1895. *Attempt of a Theory of Electrical and Optical Ph
 [^5]: See (Lorentz 1895) for force modeling in early electrodynamic theory.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
-Cite as: Rashada, S. A. (2025). Cross-Analysis of Magnetic Materials. In The Unified Framework for the Graviton Pressure Theory, part 22. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
+Cite as: Rashada, S. A. (2025). Cross-Analysis of Magnetic Materials. In The Unified Framework for the Graviton Pressure Theory, part 22. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/
 
 
 # The Mathematical foundation
@@ -20875,8 +20875,8 @@ Together, these formulations and proposed tests form the backbone of GPT’s leg
 [^4]: See Part 15 – Gravitons for core quantized field unit.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
-Cite as: Rashada, S. A. (2025). The Mathematical foundation. In The Unified Framework for the Graviton Pressure Theory, part 23. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
+Cite as: Rashada, S. A. (2025). The Mathematical foundation. In The Unified Framework for the Graviton Pressure Theory, part 23. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
 
 
 # GPT Unit System
@@ -21226,8 +21226,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See (Newton 1687) for classical unit foundations.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
-Cite as: Rashada, S. A. (2025). GPT Unit System. In The Unified Framework for the Graviton Pressure Theory, part 24. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
+Cite as: Rashada, S. A. (2025). GPT Unit System. In The Unified Framework for the Graviton Pressure Theory, part 24. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/
 
 
 # Constants, Conversions
@@ -21380,8 +21380,8 @@ This connectivity reinforces GPT’s internal unity—not as a theory, but as a 
 [^4]: See Part 18 – The Nature of Time for conversion scaling across field refresh cycles.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-25-constants-conversions/
-Cite as: Rashada, S. A. (2025). Constants, Conversions. In The Unified Framework for the Graviton Pressure Theory, part 25. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-25-constants-conversions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/
+Cite as: Rashada, S. A. (2025). Constants, Conversions. In The Unified Framework for the Graviton Pressure Theory, part 25. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/
 
 
 # Planetary Mechanics
@@ -22136,8 +22136,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See Part 15 – Gravitons for directed field dynamics and foundational pressure logic.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
-Cite as: Rashada, S. A. (2025). Planetary Mechanics. In The Unified Framework for the Graviton Pressure Theory, part 26. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
+Cite as: Rashada, S. A. (2025). Planetary Mechanics. In The Unified Framework for the Graviton Pressure Theory, part 26. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
 
 
 # Natural Force Re-imagined
@@ -22577,8 +22577,8 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^3]: See Part 21 – Magnetism as Gravimetric Resonance for discrete pathway alignment in crystalline domains.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
-Cite as: Rashada, S. A. (2025). Natural Force Re-imagined. In The Unified Framework for the Graviton Pressure Theory, part 27. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
+Cite as: Rashada, S. A. (2025). Natural Force Re-imagined. In The Unified Framework for the Graviton Pressure Theory, part 27. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
 
 
 # Resonance Transmissions
@@ -24417,8 +24417,8 @@ Electromagnetism is no longer abstract— it is graviton-structured pressure cho
 [^3]: See Part 21 – Magnetism as Gravimetric Resonance for torsional coherence and field memory.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
-Cite as: Rashada, S. A. (2025). Resonance Transmissions. In The Unified Framework for the Graviton Pressure Theory, part 28. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
+Cite as: Rashada, S. A. (2025). Resonance Transmissions. In The Unified Framework for the Graviton Pressure Theory, part 28. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/
 
 
 # Experimental Divergence
@@ -24616,8 +24616,8 @@ Each experiment is framed by a comparative analysis: the standard model’s inte
 **Validation:** Local pressure measurement confirms dynamic graviton realignment without force input.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
-Cite as: Rashada, S. A. (2025). Experimental Divergence. In The Unified Framework for the Graviton Pressure Theory, part 29. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
+Cite as: Rashada, S. A. (2025). Experimental Divergence. In The Unified Framework for the Graviton Pressure Theory, part 29. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
 
 
 # Conclusion
@@ -24685,8 +24685,8 @@ Where we no longer fear gravity because we do not understand it—but walk with 
 **And we are only just beginning.**
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-30-conclusion/
-Cite as: Rashada, S. A. (2025). Conclusion. In The Unified Framework for the Graviton Pressure Theory, part 30. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-30-conclusion/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-30-conclusion/
+Cite as: Rashada, S. A. (2025). Conclusion. In The Unified Framework for the Graviton Pressure Theory, part 30. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-30-conclusion/
 
 
 ======== Graviton Pressure Theory: papers ========
@@ -25051,8 +25051,8 @@ General Relativity (GR) successfully described gravity’s effects but failed to
 • Laboratory Experiments: Controlled tests to detect graviton pressure variations and their effects on mass interactions. • Astrophysical Observations: Re-examining galactic motion, black hole forma- tion, and gravitational lensing under GPT’s framework to identify deviations from GR’s predictions. • Mathematical Refinement : Further development of GPT’s field equations to enhance its predictive power and compatibility with existing quantum field theories. As the limitations of GR become increasingly evident, the need for a more complete gravitational theory is undeniable. GPT stands as the next logical step in our under- standing of gravity, offering a real mechanism that explains the force responsible for the structure and motion of the universe. By shifting from mathematical abstraction to a force-based framework, we open the door to a new era of discovery, where gravity is no longer a mystery but a fully understood and manipulable force of nature. As physics moves toward deeper unification, it is critical to adopt models that provide real causal- ity rather than post-hoc descriptions. GPT does not require unknown dark substances, arbitrary curvature, or force abstractions—it simply requires a fundamental interaction mechanism that restores gravity to its rightful place as a force. Moving beyond GR is not a matter of preference but of necessity. 44
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/from-gr-to-gpt/
-Cite as: Rashada, S. A. (2025). From General Relativity to Graviton Pressure Theory. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/from-gr-to-gpt/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/from-gr-to-gpt/
+Cite as: Rashada, S. A. (2025). From General Relativity to Graviton Pressure Theory. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/from-gr-to-gpt/
 
 
 # The Paradox of the Boulder
@@ -25236,8 +25236,8 @@ The Hydraulic Clamp: The same "Push" from the sky that creates weight acts as a 
 The Absolute Grip: This "Lock" ensures that the boulder and the Earth become a single Bound Resonance System. It prevents lateral slip despite 1,000 mph of tangential rotation because the pressure of the graviton field—the "Rope"—enforces the shared motion. Conclusion: The Causal Floor Restored By identifying the Graviton Pressure Medium, we have systematically fulfilled every requirement of our audit: 1. The Pusher: Directional Graviton Inflow. 2. The Memory: Resonance Retention and Field Entrainment. 3. The Currency: Charge as Flow-Bias (unifying Gravity and Resistance). 4. The Vise: Hydraulic Locking via self-repulsive pressure. The "Lateral Pinning Paradox" is solved. The boulder stays on the Earth because it is held there by a physical, high-pressure substance. We have moved from a Science of Symbols to a Science of Substance.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/paradox-of-the-boulder/
-Cite as: Rashada, S. A. (2026). The Paradox of the Boulder. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/paradox-of-the-boulder/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/paradox-of-the-boulder/
+Cite as: Rashada, S. A. (2026). The Paradox of the Boulder. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/paradox-of-the-boulder/
 
 
 # A Causal Audit of Motion
@@ -25375,8 +25375,8 @@ Description (Mainstream): Uses geometry and probability as "placeholders" for ca
 Causality (Restorative): Identifies the Gears behind the Watch Face . It insists that if a beam sags, if a clock slows, or if an electron spins, there must be a local, physical exchange of momentum driving that event. 3. The Reorientation of Understanding The deepest implication of this audit is that Structure is not an accident—it is enforced . Uncertainty is not sovereign; it is simply the result of our current inability to resolve the high-frequency, dynamic interactions of the medium. By placing mechanism beneath the abstract, we restore the bridge between human logic and the physical world. The universe is no longer a silent, empty void of "warped geometry." It is a vibrant, pressurized, and intelligible dialogue between a pervasive medium and the structures that survive within it. "The Audit is Closed. Reality works not because of the equations we write to describe it, but because of the physical medium that compels it to remain coherent. The dropped object falls because it is situated in a crowded, active, and self-repulsive medium that refuses to be still. We no longer marvel at the mystery; we document the mechanism.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/causal-audit-of-motion/
-Cite as: Rashada, S. A. (2026). A Causal Audit of Motion. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/causal-audit-of-motion/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/causal-audit-of-motion/
+Cite as: Rashada, S. A. (2026). A Causal Audit of Motion. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/causal-audit-of-motion/
 
 
 # Structure Before Uncertainty
@@ -26200,8 +26200,8 @@ Medium density / pressure / stiffness gradients → altered encounter rate + alt
 That is what it means to place **mechanism beneath the abstract**.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/structure-before-uncertainty/
-Cite as: Rashada, S. A. (2026). Structure Before Uncertainty. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/structure-before-uncertainty/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/structure-before-uncertainty/
+Cite as: Rashada, S. A. (2026). Structure Before Uncertainty. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/structure-before-uncertainty/
 
 
 # Transitional Mechanics
@@ -26543,8 +26543,8 @@ With phase modulation, the graviton field is no longer simply a medium to be sha
 Just as we moved from circuits to quantum gates, we now move from structural resonance to temporal causality. In the pressure-based architecture of GPT, *phase is power*.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/transitional-mechanics/
-Cite as: Rashada, S. A. (2025). Transitional Mechanics. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/transitional-mechanics/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/transitional-mechanics/
+Cite as: Rashada, S. A. (2025). Transitional Mechanics. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/transitional-mechanics/
 
 
 # What Graviton Pressure Theory Corrects
@@ -26864,8 +26864,8 @@ This is not a condemnation of historical efforts, but a restoration of explanato
 **Implication:** GPT restores the observer effect to physical causality. Measurement becomes field alignment, not collapse—anchoring quantum anomalies in graviton dynamics.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/what-gpt-corrects/
-Cite as: Rashada, S. A. (2025). What Graviton Pressure Theory Corrects. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/what-gpt-corrects/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/what-gpt-corrects/
+Cite as: Rashada, S. A. (2025). What Graviton Pressure Theory Corrects. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/what-gpt-corrects/
 
 
 ======== Spirit, history and morality ========
@@ -26873,7 +26873,7 @@ Cite as: Rashada, S. A. (2025). What Graviton Pressure Theory Corrects. People o
 
 By Shareef Ali Rashada
 
-The complete text of The Portal Opens, free to read. The illustrated online edition is at https://thatbrotherali.github.io/pow-website/read.html
+The complete text of The Portal Opens, free to read. The illustrated online edition is at https://peopleoftheworld.net/read.html
 
 
 ## Introduction: Gabriel's Introduction and Mission
@@ -27313,8 +27313,8 @@ This is no longer just about individual salvation — it is about preparing a wh
 People of the World exists to lead the way. Together, we can rebuild what was lost, rise to what we were meant to become, and welcome back the guidance we have longed for. The stage is set — the choice is ours.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/new-morality/
-Cite as: Rashada, S. A. (2025). Salvation and the New Morality. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/new-morality/
+Source: https://peopleoftheworld.net/new-morality/
+Cite as: Rashada, S. A. (2025). Salvation and the New Morality. People of the World. People of the World. https://peopleoftheworld.net/new-morality/
 
 
 # An Intelligent Synthesis of Proofs for Cosmic Mind or God
@@ -27547,8 +27547,8 @@ For GPT to replace GR, it must be testable. Several falsifiable predictions diff
 ###
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/cosmic-mind/
-Cite as: Rashada, S. A. (2025). An Intelligent Synthesis of Proofs for Cosmic Mind or God. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/cosmic-mind/
+Source: https://peopleoftheworld.net/cosmic-mind/
+Cite as: Rashada, S. A. (2025). An Intelligent Synthesis of Proofs for Cosmic Mind or God. People of the World. People of the World. https://peopleoftheworld.net/cosmic-mind/
 
 
 ======== The Plan to End Poverty (2025 edition) ========
@@ -27599,8 +27599,8 @@ Structural Insight: Poverty lines understate real vulnerability. More than half 
 Data Sources World Bank (2023); Development Initiatives (2023); ILOSTAT (2019–2023); IMF (2024); World Inequality Database (2022); OECD (2023); UN DESA; UN Women; UNESCO.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/introduction/
-Cite as: Rashada, S. A. (2025). Introduction – People of the World: Ending Poverty by 2050. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/introduction/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/introduction/
+Cite as: Rashada, S. A. (2025). Introduction – People of the World: Ending Poverty by 2050. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/introduction/
 
 
 # The End of Evolutionary Economics: Enter the Designed Era
@@ -27798,8 +27798,8 @@ If poverty is the predictable output of a misaligned design, then its eliminatio
 The transition from implicit to explicit design is the next civilizational threshold. It marks the end of an era where suffering was dismissed as equilibrium and begins the era where equity becomes engineering. Once design is admitted, responsibility follows. The question is no longer whether we can afford to eliminate poverty, but whether we can justify a system that preserves it.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
-Cite as: Rashada, S. A. (2025). The End of Evolutionary Economics: Enter the Designed Era. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
+Cite as: Rashada, S. A. (2025). The End of Evolutionary Economics: Enter the Designed Era. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
 
 
 # Poverty Through the Eyes of Women: The Hidden Architecture of Inequality
@@ -27936,8 +27936,8 @@ Research shows:
 Women are not an afterthought in the elimination of poverty—they are the keystone. The next chapter will outline how the new system restructures society in ways that permanently correct the inequities described here.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
-Cite as: Rashada, S. A. (2025). Poverty Through the Eyes of Women: The Hidden Architecture of Inequality. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
+Cite as: Rashada, S. A. (2025). Poverty Through the Eyes of Women: The Hidden Architecture of Inequality. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
 
 
 # Women in the New Civic Economy: Capability, Safety, and Full Participation
@@ -28148,8 +28148,8 @@ Eliminating poverty requires:
 The People of the World framework does not include women. It rebuilds society around their full participation, ensuring that the next generation inherits not a world of scarcity, but a world where capability, dignity, and opportunity are universal.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
-Cite as: Rashada, S. A. (2025). Women in the New Civic Economy: Capability, Safety, and Full Participation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
+Cite as: Rashada, S. A. (2025). Women in the New Civic Economy: Capability, Safety, and Full Participation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/
 
 
 # Introduction: The Scope of the Problem and the Path to Human Capability
@@ -28300,8 +28300,8 @@ References
 - Carbon Majors Database (2023).
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
-Cite as: Rashada, S. A. (2025). Introduction: The Scope of the Problem and the Path to Human Capability. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
+Cite as: Rashada, S. A. (2025). Introduction: The Scope of the Problem and the Path to Human Capability. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/
 
 
 # The Civic Charter and Civic Credits
@@ -29789,8 +29789,8 @@ Model Formulation:
 Summary Civic Credits harmonize domestic innovation with international order. They reinforce IMF stability mandates, complement World Bank and UNDP development goals, satisfy OECD and G20 inclusivity metrics, and comply fully with WTO trade law. As nations converge on shared objectives of resilience, equity, and sustainability, Civic Credits offer the missing connective tissue—turning verified human contribution into a recognized pillar of the global financial system.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
-Cite as: Rashada, S. A. (2025). The Civic Charter and Civic Credits. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
+Cite as: Rashada, S. A. (2025). The Civic Charter and Civic Credits. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
 
 
 # Poverty Elimination Centers (PECs)
@@ -31796,8 +31796,8 @@ National Archives Authority efficiency, Delivery and Dissemination Strategy
 Summary The deliverables enumerated here transform the PEC architecture from a conceptual framework into a deployable civilization infrastructure. Together they constitute a closed-loop ecosystem of policy, finance, data, and human capacity—legally grounded, fiscally sound, and globally transparent. By institutionalizing every mechanism from construction blueprints to international data standards, this chapter ensures that the PEC system is not an aspiration but an actionable global platform for verified prosperity, equity, and sustainability.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
-Cite as: Rashada, S. A. (2025). Poverty Elimination Centers (PECs). In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
+Cite as: Rashada, S. A. (2025). Poverty Elimination Centers (PECs). In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
 
 
 # LifeLink Tablets: The Capability and Verification Rail
@@ -33326,8 +33326,8 @@ Long-Term Maintenance and Sustainability Deliverables 1. Lifecycle Costing Model
 Summary Section 5.12 consolidates the LifeLink program into a deployable package of blueprints, governance tools, and legal frameworks. It provides every actor—citizen, institution, or nation—with the resources needed to operate and sustain the system. These deliverables ensure that LifeLink is not just visionary policy but a working civic infrastructure: engineered for transparency, validated by ethics, governed by law, and maintained through shared global stewardship.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
-Cite as: Rashada, S. A. (2025). LifeLink Tablets: The Capability and Verification Rail. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
+Cite as: Rashada, S. A. (2025). LifeLink Tablets: The Capability and Verification Rail. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
 
 
 # The Civic Credit Treasury and Global Economic Framework
@@ -34078,8 +34078,8 @@ Philosophical and Institutional Continuity The Age of Capability preserves the i
 Summary Integration with existing global frameworks transforms the People of the World system from an innovation into a cornerstone of international order. By embedding Civic Credits, PECs, and LifeLink within established institutions—UN, IMF, World Bank, WHO, and WTO—the framework avoids duplication and builds on proven legitimacy. The transition to the Age of Capability signifies not an end, but a new phase of human governance: one in which prosperity, participation, and planet are measured as one continuous reality.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
-Cite as: Rashada, S. A. (2025). The Civic Credit Treasury and Global Economic Framework. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
+Cite as: Rashada, S. A. (2025). The Civic Credit Treasury and Global Economic Framework. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
 
 
 # Implementation
@@ -34795,8 +34795,8 @@ F. Data Transparency and Reproducibility
 G. Summary This appendix provides the quantitative backbone of the People of the World framework. Every numerical claim, projection, and equation in the preceding chapters corresponds to publicly available data or conservative extrapolation thereof. The system’s forecasts are thus not hypothetical but analytically reproducible—anchored in the observed behavior of real economies and validated against the empirical record of global development.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-09-implementation/
-Cite as: Rashada, S. A. (2025). Implementation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-09-implementation/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-09-implementation/
+Cite as: Rashada, S. A. (2025). Implementation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-09-implementation/
 
 
 # Appendices
@@ -36106,5 +36106,5 @@ Summary Appendix N transforms the People of the World framework from a static pu
 Acknowledgments The authors acknowledge the contributions of Lucidus,Veritas and the People of the World research collective, whose insight and collaboration continue to guide this global mission.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/appendices/
-Cite as: Rashada, S. A. (2025). Appendices. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/appendices/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/appendices/
+Cite as: Rashada, S. A. (2025). Appendices. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/appendices/

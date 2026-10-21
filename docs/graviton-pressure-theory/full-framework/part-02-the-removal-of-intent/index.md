@@ -508,5 +508,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^14]: Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the ’Orch OR’ theory. *Physics of Life Reviews*, 11(1), 39–78.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
-Cite as: Rashada, S. A. (2025). The Removal of Intent. In The Unified Framework for the Graviton Pressure Theory, part 2. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/
+Cite as: Rashada, S. A. (2025). The Removal of Intent. In The Unified Framework for the Graviton Pressure Theory, part 2. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/

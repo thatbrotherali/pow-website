@@ -63,5 +63,5 @@ Where we no longer fear gravity because we do not understand it—but walk with 
 **And we are only just beginning.**
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-30-conclusion/
-Cite as: Rashada, S. A. (2025). Conclusion. In The Unified Framework for the Graviton Pressure Theory, part 30. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-30-conclusion/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-30-conclusion/
+Cite as: Rashada, S. A. (2025). Conclusion. In The Unified Framework for the Graviton Pressure Theory, part 30. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-30-conclusion/

@@ -750,5 +750,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See Part 15 – Gravitons for directed field dynamics and foundational pressure logic.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
-Cite as: Rashada, S. A. (2025). Planetary Mechanics. In The Unified Framework for the Graviton Pressure Theory, part 26. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/
+Cite as: Rashada, S. A. (2025). Planetary Mechanics. In The Unified Framework for the Graviton Pressure Theory, part 26. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/

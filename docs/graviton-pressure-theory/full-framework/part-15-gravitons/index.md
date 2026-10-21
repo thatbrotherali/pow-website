@@ -399,5 +399,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^1]: See (Newton 1687) for the foundational definition of force and gravitational acceleration.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-15-gravitons/
-Cite as: Rashada, S. A. (2025). Gravitons. In The Unified Framework for the Graviton Pressure Theory, part 15. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-15-gravitons/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/
+Cite as: Rashada, S. A. (2025). Gravitons. In The Unified Framework for the Graviton Pressure Theory, part 15. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/

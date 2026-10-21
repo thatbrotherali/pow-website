@@ -435,5 +435,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^3]: See Part 21 – Magnetism as Gravimetric Resonance for discrete pathway alignment in crystalline domains.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
-Cite as: Rashada, S. A. (2025). Natural Force Re-imagined. In The Unified Framework for the Graviton Pressure Theory, part 27. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
+Cite as: Rashada, S. A. (2025). Natural Force Re-imagined. In The Unified Framework for the Graviton Pressure Theory, part 27. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/

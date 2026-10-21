@@ -1483,5 +1483,5 @@ Model Formulation:
 Summary Civic Credits harmonize domestic innovation with international order. They reinforce IMF stability mandates, complement World Bank and UNDP development goals, satisfy OECD and G20 inclusivity metrics, and comply fully with WTO trade law. As nations converge on shared objectives of resilience, equity, and sustainability, Civic Credits offer the missing connective tissue—turning verified human contribution into a recognized pillar of the global financial system.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
-Cite as: Rashada, S. A. (2025). The Civic Charter and Civic Credits. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/
+Cite as: Rashada, S. A. (2025). The Civic Charter and Civic Credits. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/

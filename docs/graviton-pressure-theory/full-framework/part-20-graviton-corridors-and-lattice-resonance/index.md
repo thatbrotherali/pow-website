@@ -1029,5 +1029,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^7]: See (Mach 1893) for Mach’s principle relating inertia to distant mass distribution.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
-Cite as: Rashada, S. A. (2025). Graviton Corridors and Lattice Resonance. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/
+Cite as: Rashada, S. A. (2025). Graviton Corridors and Lattice Resonance. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/

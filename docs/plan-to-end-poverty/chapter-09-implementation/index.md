@@ -711,5 +711,5 @@ F. Data Transparency and Reproducibility
 G. Summary This appendix provides the quantitative backbone of the People of the World framework. Every numerical claim, projection, and equation in the preceding chapters corresponds to publicly available data or conservative extrapolation thereof. The system’s forecasts are thus not hypothetical but analytically reproducible—anchored in the observed behavior of real economies and validated against the empirical record of global development.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-09-implementation/
-Cite as: Rashada, S. A. (2025). Implementation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-09-implementation/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-09-implementation/
+Cite as: Rashada, S. A. (2025). Implementation. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-09-implementation/

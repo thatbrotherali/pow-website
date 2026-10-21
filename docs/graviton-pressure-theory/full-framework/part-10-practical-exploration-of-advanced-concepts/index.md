@@ -443,5 +443,5 @@ Wambsganss, Joachim. 1999. “Gravitational Lensing in Astronomy.” *Living Rev
 [^15]: Gravitational lensing data reinterpreted: <https://doi.org/10.1086/307244>.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
-Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
+Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/

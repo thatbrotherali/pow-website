@@ -364,5 +364,5 @@ Finally, GPT reintroduces purpose into matter. Structure becomes meaningful, ali
 [^6]: See Part 17 – The Definition of Mass for field resistance and particle definition.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
-Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
+Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/

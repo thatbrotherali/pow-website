@@ -202,5 +202,5 @@ No hostility is implied.
 Only clarity.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/audit-questions/
-Cite as: Rashada, S. A. (2026). Audit Questions for Theoretical Completeness. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/audit-questions/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/audit-questions/
+Cite as: Rashada, S. A. (2026). Audit Questions for Theoretical Completeness. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/audit-questions/

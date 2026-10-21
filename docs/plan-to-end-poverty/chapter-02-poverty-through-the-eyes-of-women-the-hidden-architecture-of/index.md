@@ -132,5 +132,5 @@ Research shows:
 Women are not an afterthought in the elimination of poverty—they are the keystone. The next chapter will outline how the new system restructures society in ways that permanently correct the inequities described here.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
-Cite as: Rashada, S. A. (2025). Poverty Through the Eyes of Women: The Hidden Architecture of Inequality. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/
+Cite as: Rashada, S. A. (2025). Poverty Through the Eyes of Women: The Hidden Architecture of Inequality. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/

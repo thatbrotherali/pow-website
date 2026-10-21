@@ -613,5 +613,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^11]: See (Einstein 1915) for the geometric treatment of gravity as spacetime curvature.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
-Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/

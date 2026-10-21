@@ -240,5 +240,5 @@ This is not presented here as ridicule.
 It is presented as the precise location of the foundational tension.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/gr-silence-map/
-Cite as: Rashada, S. A. (2026). The GR Silence Map. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/gr-silence-map/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/gr-silence-map/
+Cite as: Rashada, S. A. (2026). The GR Silence Map. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/gr-silence-map/

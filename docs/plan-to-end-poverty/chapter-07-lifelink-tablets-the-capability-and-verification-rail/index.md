@@ -1524,5 +1524,5 @@ Long-Term Maintenance and Sustainability Deliverables 1. Lifecycle Costing Model
 Summary Section 5.12 consolidates the LifeLink program into a deployable package of blueprints, governance tools, and legal frameworks. It provides every actor—citizen, institution, or nation—with the resources needed to operate and sustain the system. These deliverables ensure that LifeLink is not just visionary policy but a working civic infrastructure: engineered for transparency, validated by ethics, governed by law, and maintained through shared global stewardship.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
-Cite as: Rashada, S. A. (2025). LifeLink Tablets: The Capability and Verification Rail. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/
+Cite as: Rashada, S. A. (2025). LifeLink Tablets: The Capability and Verification Rail. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/

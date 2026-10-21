@@ -179,5 +179,5 @@ The Hydraulic Clamp: The same "Push" from the sky that creates weight acts as a 
 The Absolute Grip: This "Lock" ensures that the boulder and the Earth become a single Bound Resonance System. It prevents lateral slip despite 1,000 mph of tangential rotation because the pressure of the graviton field—the "Rope"—enforces the shared motion. Conclusion: The Causal Floor Restored By identifying the Graviton Pressure Medium, we have systematically fulfilled every requirement of our audit: 1. The Pusher: Directional Graviton Inflow. 2. The Memory: Resonance Retention and Field Entrainment. 3. The Currency: Charge as Flow-Bias (unifying Gravity and Resistance). 4. The Vise: Hydraulic Locking via self-repulsive pressure. The "Lateral Pinning Paradox" is solved. The boulder stays on the Earth because it is held there by a physical, high-pressure substance. We have moved from a Science of Symbols to a Science of Substance.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/paradox-of-the-boulder/
-Cite as: Rashada, S. A. (2026). The Paradox of the Boulder. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/paradox-of-the-boulder/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/paradox-of-the-boulder/
+Cite as: Rashada, S. A. (2026). The Paradox of the Boulder. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/paradox-of-the-boulder/

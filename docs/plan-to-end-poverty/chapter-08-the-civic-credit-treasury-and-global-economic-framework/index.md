@@ -746,5 +746,5 @@ Philosophical and Institutional Continuity The Age of Capability preserves the i
 Summary Integration with existing global frameworks transforms the People of the World system from an innovation into a cornerstone of international order. By embedding Civic Credits, PECs, and LifeLink within established institutions—UN, IMF, World Bank, WHO, and WTO—the framework avoids duplication and builds on proven legitimacy. The transition to the Age of Capability signifies not an end, but a new phase of human governance: one in which prosperity, participation, and planet are measured as one continuous reality.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
-Cite as: Rashada, S. A. (2025). The Civic Credit Treasury and Global Economic Framework. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/
+Cite as: Rashada, S. A. (2025). The Civic Credit Treasury and Global Economic Framework. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/

@@ -2001,5 +2001,5 @@ National Archives Authority efficiency, Delivery and Dissemination Strategy
 Summary The deliverables enumerated here transform the PEC architecture from a conceptual framework into a deployable civilization infrastructure. Together they constitute a closed-loop ecosystem of policy, finance, data, and human capacity—legally grounded, fiscally sound, and globally transparent. By institutionalizing every mechanism from construction blueprints to international data standards, this chapter ensures that the PEC system is not an aspiration but an actionable global platform for verified prosperity, equity, and sustainability.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
-Cite as: Rashada, S. A. (2025). Poverty Elimination Centers (PECs). In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/
+Cite as: Rashada, S. A. (2025). Poverty Elimination Centers (PECs). In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/

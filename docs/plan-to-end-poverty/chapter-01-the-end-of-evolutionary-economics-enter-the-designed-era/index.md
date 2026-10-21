@@ -193,5 +193,5 @@ If poverty is the predictable output of a misaligned design, then its eliminatio
 The transition from implicit to explicit design is the next civilizational threshold. It marks the end of an era where suffering was dismissed as equilibrium and begins the era where equity becomes engineering. Once design is admitted, responsibility follows. The question is no longer whether we can afford to eliminate poverty, but whether we can justify a system that preserves it.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
-Cite as: Rashada, S. A. (2025). The End of Evolutionary Economics: Enter the Designed Era. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/
+Cite as: Rashada, S. A. (2025). The End of Evolutionary Economics: Enter the Designed Era. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/

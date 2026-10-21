@@ -359,5 +359,5 @@ Together, these formulations and proposed tests form the backbone of GPT’s leg
 [^4]: See Part 15 – Gravitons for core quantized field unit.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
-Cite as: Rashada, S. A. (2025). The Mathematical foundation. In The Unified Framework for the Graviton Pressure Theory, part 23. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/
+Cite as: Rashada, S. A. (2025). The Mathematical foundation. In The Unified Framework for the Graviton Pressure Theory, part 23. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/

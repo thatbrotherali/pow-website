@@ -276,5 +276,5 @@ In GPT, mass is not a substance or intrinsic trait, but the structural expressio
 [^4]: See Part 16 – The Properties of Gravitational Fields for structure and behavior.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
-Cite as: Rashada, S. A. (2025). The Definition of Mass. In The Unified Framework for the Graviton Pressure Theory, part 17. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/
+Cite as: Rashada, S. A. (2025). The Definition of Mass. In The Unified Framework for the Graviton Pressure Theory, part 17. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/

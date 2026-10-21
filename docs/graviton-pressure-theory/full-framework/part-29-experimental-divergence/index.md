@@ -193,5 +193,5 @@ Each experiment is framed by a comparative analysis: the standard model’s inte
 **Validation:** Local pressure measurement confirms dynamic graviton realignment without force input.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
-Cite as: Rashada, S. A. (2025). Experimental Divergence. In The Unified Framework for the Graviton Pressure Theory, part 29. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/
+Cite as: Rashada, S. A. (2025). Experimental Divergence. In The Unified Framework for the Graviton Pressure Theory, part 29. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/

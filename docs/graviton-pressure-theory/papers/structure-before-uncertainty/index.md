@@ -819,5 +819,5 @@ Medium density / pressure / stiffness gradients → altered encounter rate + alt
 That is what it means to place **mechanism beneath the abstract**.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/structure-before-uncertainty/
-Cite as: Rashada, S. A. (2026). Structure Before Uncertainty. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/structure-before-uncertainty/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/structure-before-uncertainty/
+Cite as: Rashada, S. A. (2026). Structure Before Uncertainty. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/structure-before-uncertainty/

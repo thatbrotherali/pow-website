@@ -709,5 +709,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^6]: See Part 15 – *The Graviton* for a full exploration of graviton structure and behavior.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
-Cite as: Rashada, S. A. (2025). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+Cite as: Rashada, S. A. (2025). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/

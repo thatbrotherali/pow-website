@@ -2,7 +2,7 @@
 
 By Shareef Ali Rashada
 
-The complete text of The Portal Opens, free to read. The illustrated online edition is at https://thatbrotherali.github.io/pow-website/read.html
+The complete text of The Portal Opens, free to read. The illustrated online edition is at https://peopleoftheworld.net/read.html
 
 
 ## Introduction: Gabriel's Introduction and Mission

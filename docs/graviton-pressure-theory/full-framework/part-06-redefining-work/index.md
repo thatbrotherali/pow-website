@@ -291,5 +291,5 @@ Zurek, Wojciech H. 2003. “Decoherence, Einselection, and the Quantum Origins o
 [^6]: (Zurek 2003)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-06-redefining-work/
-Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/

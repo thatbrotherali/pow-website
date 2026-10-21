@@ -869,5 +869,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^18]: Pound, R. V., & Rebka Jr, G. A. (1959). Gravitational Red-Shift in Nuclear Resonance. *Physical Review Letters*, 3(9), 439–441.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
-Cite as: Rashada, S. A. (2025). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
+Cite as: Rashada, S. A. (2025). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/

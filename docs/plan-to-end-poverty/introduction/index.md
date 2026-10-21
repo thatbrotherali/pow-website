@@ -43,5 +43,5 @@ Structural Insight: Poverty lines understate real vulnerability. More than half 
 Data Sources World Bank (2023); Development Initiatives (2023); ILOSTAT (2019–2023); IMF (2024); World Inequality Database (2022); OECD (2023); UN DESA; UN Women; UNESCO.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/introduction/
-Cite as: Rashada, S. A. (2025). Introduction – People of the World: Ending Poverty by 2050. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/introduction/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/introduction/
+Cite as: Rashada, S. A. (2025). Introduction – People of the World: Ending Poverty by 2050. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/introduction/

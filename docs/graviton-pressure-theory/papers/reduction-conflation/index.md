@@ -1857,5 +1857,5 @@ Verlinde, Erik. 2011. “On the Origin of Gravity and the Laws of Newton.” *Jo
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/
-Cite as: Rashada, S. A. (2026). The Reduction Conflation. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/reduction-conflation/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/reduction-conflation/
+Cite as: Rashada, S. A. (2026). The Reduction Conflation. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/reduction-conflation/

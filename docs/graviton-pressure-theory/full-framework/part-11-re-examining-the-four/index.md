@@ -656,5 +656,5 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 [^5]: (Cartwright 1999)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
-Cite as: Rashada, S. A. (2025). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
+Cite as: Rashada, S. A. (2025). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/

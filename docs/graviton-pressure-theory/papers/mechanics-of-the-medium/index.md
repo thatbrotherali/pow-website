@@ -5194,5 +5194,5 @@ The mathematical relationship is: $g_{\mu\nu}^{\text{GR}}$ is an effective metri
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/
-Cite as: Rashada, S. A. (2026). The Mechanics of the Medium. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/mechanics-of-the-medium/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/
+Cite as: Rashada, S. A. (2026). The Mechanics of the Medium. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/

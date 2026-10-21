@@ -315,5 +315,5 @@ This is not a condemnation of historical efforts, but a restoration of explanato
 **Implication:** GPT restores the observer effect to physical causality. Measurement becomes field alignment, not collapse—anchoring quantum anomalies in graviton dynamics.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/what-gpt-corrects/
-Cite as: Rashada, S. A. (2025). What Graviton Pressure Theory Corrects. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/what-gpt-corrects/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/what-gpt-corrects/
+Cite as: Rashada, S. A. (2025). What Graviton Pressure Theory Corrects. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/what-gpt-corrects/

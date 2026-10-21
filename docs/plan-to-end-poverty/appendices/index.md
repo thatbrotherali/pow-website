@@ -1305,5 +1305,5 @@ Summary Appendix N transforms the People of the World framework from a static pu
 Acknowledgments The authors acknowledge the contributions of Lucidus,Veritas and the People of the World research collective, whose insight and collaboration continue to guide this global mission.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/appendices/
-Cite as: Rashada, S. A. (2025). Appendices. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://thatbrotherali.github.io/pow-website/plan-to-end-poverty/appendices/
+Source: https://peopleoftheworld.net/plan-to-end-poverty/appendices/
+Cite as: Rashada, S. A. (2025). Appendices. In The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal. People of the World. https://peopleoftheworld.net/plan-to-end-poverty/appendices/

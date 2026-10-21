@@ -610,5 +610,5 @@ Harrison, P. L. et al. 1984. “Mass Spawning in Tropical Reef Corals.” *Scien
 [^8]: (Cajochen et al. 2013)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
-Cite as: Rashada, S. A. (2025). The Moon, Gravimetric Modulation and the Resonant Biology of Life on Earth. In The Unified Framework for the Graviton Pressure Theory, part 13. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/
+Cite as: Rashada, S. A. (2025). The Moon, Gravimetric Modulation and the Resonant Biology of Life on Earth. In The Unified Framework for the Graviton Pressure Theory, part 13. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/

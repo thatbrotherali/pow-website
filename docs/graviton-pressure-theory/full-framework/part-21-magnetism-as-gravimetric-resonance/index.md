@@ -793,5 +793,5 @@ Lorentz, Hendrik Antoon. 1895. *Attempt of a Theory of Electrical and Optical Ph
 [^8]: See Part 17 – The Definition of Mass for interaction with graviton flux.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
-Cite as: Rashada, S. A. (2025). Magnetism as Gravimetric Resonance. In The Unified Framework for the Graviton Pressure Theory, part 21. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/
+Cite as: Rashada, S. A. (2025). Magnetism as Gravimetric Resonance. In The Unified Framework for the Graviton Pressure Theory, part 21. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/

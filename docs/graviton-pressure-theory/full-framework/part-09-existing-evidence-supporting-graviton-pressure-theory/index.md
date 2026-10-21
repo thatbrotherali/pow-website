@@ -1001,5 +1001,5 @@ Treu, Tommaso, and L. V. E. Koopmans. 2004. “Massive Dark Matter Halos and Evo
 [^16]: (Ashby 2003)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
-Cite as: Rashada, S. A. (2025). Existing Evidence supporting Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 9. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
+Cite as: Rashada, S. A. (2025). Existing Evidence supporting Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 9. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/

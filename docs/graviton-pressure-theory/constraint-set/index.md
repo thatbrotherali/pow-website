@@ -235,5 +235,5 @@ No conclusion is drawn here.
 The burden now lies with explanation.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/constraint-set/
-Cite as: Rashada, S. A. (2026). The Gravity Constraint Set. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/constraint-set/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/constraint-set/
+Cite as: Rashada, S. A. (2026). The Gravity Constraint Set. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/constraint-set/

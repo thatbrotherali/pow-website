@@ -1316,5 +1316,5 @@ Straumann, Norbert. 2000. “On the Status of General Relativity.” *General Re
 [^15]: (Straumann 2000)
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-08-defining-the-break/
-Cite as: Rashada, S. A. (2025). Defining the break. In The Unified Framework for the Graviton Pressure Theory, part 8. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-08-defining-the-break/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/
+Cite as: Rashada, S. A. (2025). Defining the break. In The Unified Framework for the Graviton Pressure Theory, part 8. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/

@@ -114,5 +114,5 @@ That is why GPT is not “alternative gravity.”
 It is gravity, rebuilt from the bottom up, under the demand that nothing real be explained away.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/not-alternative-gravity/
-Cite as: Rashada, S. A. (2026). Why Graviton Pressure Theory Is Not “Alternative Gravity”. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/not-alternative-gravity/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/not-alternative-gravity/
+Cite as: Rashada, S. A. (2026). Why Graviton Pressure Theory Is Not “Alternative Gravity”. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/not-alternative-gravity/

@@ -137,5 +137,5 @@ The four open problems are where the work goes next. Everything else in this sec
 </div>
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
-Cite as: Rashada, S. A. (2026). The Operational Constraints of the Equivalence Principle. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/papers/operational-constraints-of-the-ep/
+Cite as: Rashada, S. A. (2026). The Operational Constraints of the Equivalence Principle. People of the World. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/papers/operational-constraints-of-the-ep/

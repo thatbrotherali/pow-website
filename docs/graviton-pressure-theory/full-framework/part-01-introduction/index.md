@@ -115,5 +115,5 @@ Peebles, P. J. E., and Bharat Ratra. 2003. “The Cosmological Constant and Dark
 [^5]: See Zee, A. (2010). *Quantum Field Theory in a Nutshell*. Princeton University Press.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-01-introduction/
-Cite as: Rashada, S. A. (2025). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://thatbrotherali.github.io/pow-website/graviton-pressure-theory/full-framework/part-01-introduction/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
+Cite as: Rashada, S. A. (2025). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/

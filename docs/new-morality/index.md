@@ -403,5 +403,5 @@ This is no longer just about individual salvation — it is about preparing a wh
 People of the World exists to lead the way. Together, we can rebuild what was lost, rise to what we were meant to become, and welcome back the guidance we have longed for. The stage is set — the choice is ours.
 
 ---
-Source: https://thatbrotherali.github.io/pow-website/new-morality/
-Cite as: Rashada, S. A. (2025). Salvation and the New Morality. People of the World. People of the World. https://thatbrotherali.github.io/pow-website/new-morality/
+Source: https://peopleoftheworld.net/new-morality/
+Cite as: Rashada, S. A. (2025). Salvation and the New Morality. People of the World. People of the World. https://peopleoftheworld.net/new-morality/
