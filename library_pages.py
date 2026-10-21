@@ -144,7 +144,7 @@ def build(B):
     def jsonld(e):
         data = {"@context": "https://schema.org", "@type": "ScholarlyArticle" if e["coll"] in ("pathway", "framework", "papers") else "Article",
                 "headline": e["title"][:110], "name": e["title"], "description": e["desc"],
-                "author": {"@type": "Person", "name": B.AUTHOR, "url": f"{B.SITE_URL}/"},
+                "author": {"@type": "Person", "@id": f"{B.SITE_URL}/about.html#shareef", "name": B.AUTHOR, "url": f"{B.SITE_URL}/about.html"},
                 "publisher": {"@type": "Organization", "name": "People of the World", "url": f"{B.SITE_URL}/"},
                 "datePublished": e["date"], "inLanguage": "en", "wordCount": e["words"], "isAccessibleForFree": True,
                 "url": f"{B.SITE_URL}/{e['url']}", "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": f"{B.SITE_URL}/{e['url']}index.md"}}
@@ -375,6 +375,7 @@ def build_machine_files(B, docs, portal_md):
             lines.append(f"- [{e['title']}]({S}/{e['url']}index.md): {e['desc']}")
         lines.append("")
     lines += ["## Optional", "",
+              f"- [About Shareef Ali Rashada]({S}/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under",
               f"- [About Graviton Pressure Theory]({S}/science.html): plain-language overview, the book, and where the work stands",
               f"- [End Poverty by Design]({S}/builders.html): plain-language overview of the Plan",
               f"- [EasyKey Music]({S}/easykey.html): visual music notation and a free first lesson",

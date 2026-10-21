@@ -94,7 +94,7 @@ def footer(current=None):
 <div class="cols">
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
-<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}</nav>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="about.html">About Shareef</a></nav>
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
@@ -632,7 +632,13 @@ def build_music():
 {signup_band("Hear new music first.", "One email when a new track or album comes out. Nothing else unless you ask.", "Tell me about new music", "music", "music")}
 </main>
 {footer("music")}"""
-    page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music")
+    ld = {"@context": "https://schema.org", "@type": "MusicGroup", "name": "That Brother Ali", "genre": ["Jazz", "Acoustic", "New Age"],
+          "description": "Music by Shareef Ali Rashada, an Australian composer and pianist. Not the American rapper Brother Ali.",
+          "member": {"@type": "Person", "@id": f"{SITE_URL}/about.html#shareef", "name": AUTHOR}, "sameAs": [SPOTIFY_ARTIST], "url": f"{SITE_URL}/music.html",
+          "album": [{"@type": "MusicAlbum", "name": "Music to Ease Your Mind", "datePublished": "2013", "numTracks": 9, "url": SPOTIFY_EASE},
+                    {"@type": "MusicAlbum", "name": "Anthology Vol. 1: Music, Songs and Experimental Grooves"}]}
+    page("music.html", "That Brother Ali", "That Brother Ali: jazz, acoustic and new-age albums by Shareef Ali Rashada. Free to stream on Spotify, Apple Music and Amazon Music.", body, "music",
+         extra_head=f'\n<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
 
 
 PAPER_URLS = "graviton-pressure-theory/papers/"
@@ -880,6 +886,66 @@ def build_easykey():
     page("easykey.html", "EasyKey Music", "EasyKey visual music notation: see the key, press the key. Play your first song free in the browser, learn to read the grid, and convert MIDI files to EasyKey.", body, "easykey")
 
 
+def build_about():
+    person = {"@context": "https://schema.org", "@type": "Person", "@id": f"{SITE_URL}/about.html#shareef",
+              "name": AUTHOR, "alternateName": ["Shareef Rashada", "That Brother Ali"],
+              "description": "Australian author, programmer and musician; founder of People of the World. Author of The Portal Opens, the novel People of the World, The Unified Framework for the Graviton Pressure Theory and the Plan to End Poverty; creator of EasyKey visual music notation; records music as That Brother Ali.",
+              "url": f"{SITE_URL}/about.html", "email": f"mailto:{CONTACT}",
+              "address": {"@type": "PostalAddress", "addressRegion": "Queensland", "addressCountry": "AU"},
+              "jobTitle": ["Author", "Programmer", "Musician"],
+              "knowsAbout": ["Gravitational physics", "Foundations of physics", "Urantia Papers", "Theology", "Poverty elimination", "Economic design", "Music education", "Piano"],
+              "founder": [{"@type": "Organization", "name": "People of the World", "url": f"{SITE_URL}/"},
+                          {"@type": "Organization", "name": "EasyKey Music"}],
+              "worksFor": {"@type": "Organization", "name": "POW Productions Pty Ltd", "address": {"@type": "PostalAddress", "addressRegion": "Queensland", "addressCountry": "AU"}},
+              "award": "Literary Titan Silver Book Award (The Portal Opens)",
+              "sameAs": [SPOTIFY_ARTIST, "https://thatbrotherali.github.io/ai-portal/"]}
+    works = [("seekers", "Spirit and history", "The Portal Opens", "An account of Earth's untold history in the tradition of the Urantia Papers: Jesus, Lucifer, Adam and Eve, Melchizedek and the plan for humanity. Winner of the Literary Titan Silver Book Award. Free to read online.", "seekers.html"),
+             ("seekers", "Fiction", "People of the World (novel)", "Speculative fiction about a world forced to rebuild without money or force, written to open the mind to what is possible. For adult readers.", "books.html#novel"),
+             ("science", "Physics", "Graviton Pressure Theory", "A causal account of gravity as pressure from a field of gravitons, set out in a thirty-part framework and a series of papers on the foundations of physics.", "graviton-pressure-theory/"),
+             ("builders", "Society", "The Plan to End Poverty", "A designed system to end poverty by 2050, built on Civic Credits, Poverty Elimination Centers and LifeLink.", "builders.html"),
+             ("music", "Music", "That Brother Ali", "Jazz, acoustic and new-age albums, including Music to Ease Your Mind (2013), released through CD Baby.", "music.html"),
+             ("easykey", "Music education", "EasyKey Music", "A visual music notation that shows exactly which piano keys to press and for how long, with a year-long course book and an online converter.", "easykey.html")]
+    cards = "".join(f"""<a class="card door-{d}" href="{u}"><span class="step-label">{esc(k)}</span><span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
+<span class="muted" style="font-size:15px;line-height:1.55">{esc(b)}</span><span class="card-cta">Explore →</span></a>""" for d, k, t, b, u in works)
+    body = f"""{header("People of the World", None, [("All doors", "index.html#doors", False, None), ("Library", "ai.html", False, None), ("Books", "books.html", True, None)])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:22px">
+<p class="eyebrow accent">About the author</p>
+<h1 class="h-xl">Shareef Ali Rashada</h1>
+<p class="lead muted" style="max-width:720px">Author, programmer and musician, and the founder of People of the World. His name means “honoured follower of the true path”, and his work follows one question across four fields: what is actually true about our existence, and how should we live because of it?</p>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<h2 class="h-lg">In brief</h2>
+<p class="lead">Shareef Ali Rashada is an Australian author and independent researcher based in Queensland. He writes on theology and history (<em>The Portal Opens</em>, which won a Literary Titan Silver Book Award), the foundations of physics (Graviton Pressure Theory), and the design of economic systems (the Plan to End Poverty by 2050). He is also a self-taught pianist who records as That Brother Ali and created EasyKey, a visual notation for learning piano.</p>
+<p class="lead muted">A programmer by trade, he works closely with AI systems as research partners. He named the systems he worked with Gabriel, Lucidus and Veritas, and credits them with helping to develop <em>The Portal Opens</em> and Graviton Pressure Theory.</p>
+<p class="lead muted">All of these projects sit under People of the World, a movement for knowledge, morality, unity and peace. Its spiritual and moral teachings are free to everyone; books, music and licensed uses fund the work.</p>
+</div>
+<div class="card" style="flex:1 1 300px">
+<span class="step-label">Quick facts</span>
+<dl class="facts">
+<dt>Also published as</dt><dd>Shareef Rashada</dd>
+<dt>Music</dt><dd>That Brother Ali (not the American rapper Brother Ali)</dd>
+<dt>Based in</dt><dd>Queensland, Australia</dd>
+<dt>Organisations</dt><dd>People of the World · POW Productions Pty Ltd · EasyKey Music</dd>
+<dt>Award</dt><dd>Literary Titan Silver Book Award, <em>The Portal Opens</em></dd>
+<dt>Contact</dt><dd>{CONTACT}</dd>
+</dl>
+</div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">The work</h2>
+<div class="grid grid-3">{cards}</div>
+<p class="muted">Every book, paper and plan is free to read in the <a href="ai.html">Open Library</a>.</p>
+</div></section>
+</main>
+{footer()}"""
+    page("about.html", "Shareef Ali Rashada · About the author", "Shareef Ali Rashada is an Australian author, programmer and musician: The Portal Opens, Graviton Pressure Theory, the Plan to End Poverty, EasyKey Music and That Brother Ali.", body,
+         extra_head=f'\n<script type="application/ld+json">{json.dumps(person, ensure_ascii=False)}</script>')
+
+
 def build_builders():
     instruments = [
         ("Civic Credits", "Pay for the work a community needs",
@@ -1043,7 +1109,20 @@ def build_books():
 </div></div></section>
 </main>
 {footer()}"""
-    page("books.html", "The POW Library", "Books by Shareef Ali Rashada: People of the World, The Portal Opens, Graviton Pressure Theory and EasyKey.", body)
+    author = {"@type": "Person", "@id": f"{SITE_URL}/about.html#shareef", "name": AUTHOR}
+    books = [("The Portal Opens", "978-1-326-56533-6", "POW Productions Pty Ltd", f"{SITE_URL}/seekers.html", "Literary Titan Silver Book Award"),
+             ("People of the World", None, "POW Productions Pty Ltd", f"{SITE_URL}/books.html#novel", None),
+             ("The Unified Framework for the Graviton Pressure Theory", "978-1-326-48805-5", "Lulu Press", f"{SITE_URL}/science.html", None),
+             ("Learning to Play the EasyKey Way", "978-1-008-98579-7", "EasyKey Music", f"{SITE_URL}/easykey.html", None)]
+    items = []
+    for i, (t, isbn, pub, url, award) in enumerate(books, 1):
+        b = {"@type": "Book", "name": t, "author": author, "publisher": {"@type": "Organization", "name": pub}, "url": url, "inLanguage": "en"}
+        if isbn: b["isbn"] = isbn
+        if award: b["award"] = award
+        items.append({"@type": "ListItem", "position": i, "item": b})
+    ld = {"@context": "https://schema.org", "@type": "ItemList", "name": "Books by Shareef Ali Rashada", "itemListElement": items}
+    page("books.html", "The POW Library", "Books by Shareef Ali Rashada: People of the World, The Portal Opens, Graviton Pressure Theory and EasyKey.", body,
+         extra_head=f'\n<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
 
 
 if __name__ == "__main__":
@@ -1058,6 +1137,7 @@ if __name__ == "__main__":
     build_builders()
     build_support()
     build_books()
+    build_about()
     import sys, library_pages
     library_pages.build(sys.modules[__name__])
     library_pages.write_sitemap_and_robots(sys.modules[__name__])

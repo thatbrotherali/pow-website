@@ -80,6 +80,7 @@ Graviton Pressure Theory is the author's own framework and is presented here in 
 
 ## Optional
 
+- [About Shareef Ali Rashada](https://thatbrotherali.github.io/pow-website/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under
 - [About Graviton Pressure Theory](https://thatbrotherali.github.io/pow-website/science.html): plain-language overview, the book, and where the work stands
 - [End Poverty by Design](https://thatbrotherali.github.io/pow-website/builders.html): plain-language overview of the Plan
 - [EasyKey Music](https://thatbrotherali.github.io/pow-website/easykey.html): visual music notation and a free first lesson
