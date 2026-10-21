@@ -37,7 +37,7 @@ PATHWAY = [
     ("logical-closure-of-the-ep", "graviton-pressure-theory/papers/logical-closure-of-the-ep/",
      "The Equivalence Principle says gravity and acceleration feel the same. This audit asks what was accepted when that was read as saying they are the same, compares the rocket and the planet step by step, and proposes closing the question with a common mechanism."),
     ("operational-constraints-of-the-ep", "graviton-pressure-theory/papers/operational-constraints-of-the-ep/",
-     "If weight on a planet is the Equivalence Principle's acceleration, and the planet's surface is not moving outward, then the medium of space must be moving inward. This paper sets out that constraint, weight as ram pressure from the inflowing medium, and the four constraints any complete theory of gravity must meet."),
+     "If weight is the Equivalence Principle's acceleration and the planet's surface is not moving outward, the medium of space must be moving inward. From that one constraint the paper derives an inflow at the escape speed, and recovers free fall, Kepler's laws, gravitational time dilation and GPS clock rates, with its open problems stated."),
     ("not-alternative-gravity", "graviton-pressure-theory/not-alternative-gravity/", None),
     ("mechanics-of-the-medium", "graviton-pressure-theory/papers/mechanics-of-the-medium/", None),
 ]

@@ -381,7 +381,7 @@ if __name__ == "__main__":
         portal_doc("from_gr_to_gpt.html", "from-gr-to-gpt", "From General Relativity to Graviton Pressure Theory", "Finishing Einstein’s Work"),
         odt_doc(WEB / "Charge as Gravitational flow bias.odt", "structure-before-uncertainty", "Structure Before Uncertainty", "Recovering mechanism in a universe that still works", drop_lines=2),
         tex_main_doc(TEXSRC / "a85eee92-The_Reduction_Conflation", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility", bib="references.bib", pdf=UPD / "The_Reduction_Conflation.pdf"),
-        tex_main_doc(TEXSRC / "2392dcb0-Constraints", "operational-constraints-of-the-ep", "The Operational Constraints of the Equivalence Principle", "A mechanical analysis of the expansion paradox and vacuum pressure"),
+        tex_main_doc(SRC / "latex-sources" / "constraints-revised", "operational-constraints-of-the-ep", "The Operational Constraints of the Equivalence Principle", "A mechanical analysis of the expansion paradox and vacuum pressure", pdf=SRC / "latex-sources" / "constraints-revised" / "main.pdf"),
         gdocs_pdf_doc(UPD / "The_Logical_Closure_of_the_EP.pdf", "logical-closure-of-the-ep", "The Logical Closure of the Equivalence Principle", "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism"),
         portal_doc("The_Paradox_of_the_boulder.html", "paradox-of-the-boulder", "The Paradox of the Boulder", "A dual audit of force and geometry language"),
         portal_doc("Causal_audit_of_motion.html", "causal-audit-of-motion", "A Causal Audit of Motion"),
