@@ -97,7 +97,7 @@ def footer(current=None):
 <div class="cols">
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
-<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="about.html">About Shareef</a></nav>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="decision-game.html">The Decision Game</a><a href="about.html">About Shareef</a></nav>
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
@@ -340,6 +340,13 @@ def build_hub():
 <span class="muted" style="font-size:15px">Civic Credits, Poverty Elimination Centers and LifeLink: a designed system to end poverty by 2050.</span>
 <span class="card-cta">See the plan →</span></a>
 </div>
+</div></section>
+
+<section class="section door-play"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center">
+<div class="stack" style="flex:2 1 420px;min-width:0"><p class="eyebrow accent" style="filter:brightness(.85)">Free brain training</p>
+<h2 class="h-lg">The Decision Game</h2>
+<p class="lead muted">A picture, a word, “is” or “is not”. True or false, as fast as you can. Every score goes on the online leaderboard.</p></div>
+<p style="flex:1 1 200px"><a class="btn btn-door" href="decision-game.html">Play now</a></p>
 </div></section>
 
 <section class="section"><div class="wrap award">
@@ -1346,11 +1353,98 @@ def build_urantia():
          body, "urantia", extra_head=extra)
 
 
+# ---------------------------------------------------------------- The Decision Game
+def build_decision_game():
+    modes = [("practice", "Practice"), ("short", "Short · 10"), ("long", "Long · 20"), ("infinite", "Endless")]
+    mode_btns = "".join(f'<button type="button" class="seg" data-mode="{m}" aria-pressed="false">{esc(l)}</button>' for m, l in modes)
+    board_btns = "".join(f'<button type="button" class="seg" data-board="{m}" aria-pressed="false">{esc(l)}</button>' for m, l in modes[1:])
+    ld = json.dumps({"@context": "https://schema.org", "@type": ["VideoGame", "WebApplication"], "name": "The Decision Game",
+                     "url": canonical("decision-game.html"), "applicationCategory": "GameApplication", "genre": ["Brain training", "Reaction time"],
+                     "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+                     "author": {"@type": "Person", "name": AUTHOR, "@id": f"{SITE_URL}/about.html#shareef"},
+                     "description": "A free brain-training game: see a picture and a word, decide true or false as fast as you can, and climb the online leaderboard."}, ensure_ascii=False)
+    body = f"""{header("The Decision Game", "by People of the World", [("Play", "#play", False, None), ("Leaderboard", "#leaderboard", False, None),
+                        ("My scores", "#mine", False, None), ("How it works", "#how", False, None)])}
+<main>
+<section class="band"><div class="wrap section dg-hero">
+<p class="eyebrow accent">Free brain training · no sign-up</p>
+<h1 class="h-xl">Decide. Fast.</h1>
+<p class="lead muted" style="max-width:640px">A picture, a word, and “is” or “is not”. Is the sentence true? Answer as fast as you can, without mistakes, and see where you rank against players everywhere.</p>
+</div></section>
+
+<section id="play" class="section dg-section"><div class="wrap stack" style="gap:18px">
+<div class="dg-toolbar">
+<div class="segs" role="group" aria-label="Game mode">{mode_btns}</div>
+<label class="dg-check"><input type="checkbox" id="dg-sound" checked> Sound</label>
+</div>
+<div class="dg-stage card" id="dg-stage">
+<div class="dg-cell dg-picture"><img id="dg-pic" alt="" width="240" height="240"></div>
+<div class="dg-cell dg-relation"><span id="dg-rel">is</span></div>
+<div class="dg-cell dg-wordcell"><span id="dg-word">Press Start</span></div>
+</div>
+<div class="dg-answers">
+<button type="button" class="dg-answer dg-false" id="dg-false" disabled><span>False</span><kbd>←</kbd></button>
+<button type="button" class="btn btn-door dg-start" id="dg-start">Start</button>
+<button type="button" class="dg-answer dg-true" id="dg-true" disabled><span>True</span><kbd>→</kbd></button>
+</div>
+<dl class="dg-status" aria-live="off">
+<div><dt>Question</dt><dd id="dg-q">0 / 10</dd></div><div><dt>Time</dt><dd id="dg-time">0.00s</dd></div>
+<div><dt>Average answer</dt><dd id="dg-avg">0.00s</dd></div><div><dt>Correct</dt><dd id="dg-ok">0</dd></div>
+<div><dt>Mistakes</dt><dd id="dg-bad">0</dd></div><div id="dg-limit" hidden>1.0s per answer</div>
+</dl>
+<div class="card dg-result" id="dg-result" hidden></div>
+<p class="muted" style="font-size:14px">Playing as <strong id="dg-me">not set yet</strong> · <button type="button" class="linklike" id="dg-rename">change name</button>. On a computer, use ← for False and → for True.</p>
+</div></section>
+
+<div class="dg-modal" id="dg-name" hidden><form class="card dg-name-card" id="dg-name-form">
+<h2 class="h-md">Your name for the leaderboard</h2>
+<p class="muted">Shown next to your scores. 2 to 16 characters. Your scores stay linked to this device.</p>
+<label for="dg-name-input">Name<input id="dg-name-input" maxlength="16" autocomplete="nickname" required></label>
+<p class="form-note" id="dg-name-note"></p>
+<div class="actions"><button class="btn btn-door" type="submit">Save my score</button><button class="btn btn-outline" type="button" id="dg-name-skip">Not now</button></div>
+</form></div>
+
+<section id="leaderboard" class="section band-alt"><div class="wrap stack" style="gap:20px">
+<div class="stack intro"><h2 class="h-lg">Leaderboard</h2><p class="lead muted">Every score is kept. See each player's best, or every run as it happens.</p></div>
+<div class="dg-toolbar"><div class="segs" role="group" aria-label="Leaderboard mode">{board_btns}</div>
+<div class="segs" role="group" aria-label="Leaderboard view" data-needs-v2 hidden><button type="button" class="seg" data-view="best" aria-pressed="true">Best per player</button><button type="button" class="seg" data-view="all" aria-pressed="false">All scores</button></div></div>
+<div class="table-wrap card" style="padding:0"><table class="dg-table"><thead><tr id="dg-board-head"></tr></thead><tbody id="dg-board-body"></tbody></table></div>
+<p class="muted" id="dg-board-note" style="font-size:14px"></p>
+</div></section>
+
+<section id="player" class="section" hidden><div class="wrap stack" style="gap:20px">
+<div class="stack intro"><p class="eyebrow accent">Player</p><h2 class="h-lg" id="dg-player-name">Player</h2></div>
+<div id="dg-player-body"></div>
+</div></section>
+
+<section id="mine" class="section"><div class="wrap stack" style="gap:20px">
+<div class="stack intro"><h2 class="h-lg">My scores on this device</h2><p class="lead muted">Your best in each mode and your recent runs, kept in this browser.</p></div>
+<div class="grid grid-3" id="dg-mine-best"></div>
+<div class="table-wrap card" style="padding:0"><table class="dg-table"><thead><tr><th>Mode</th><th class="num">Result</th><th class="num">Total</th><th class="num">Average</th><th class="num">Date</th></tr></thead><tbody id="dg-mine"></tbody></table></div>
+</div></section>
+
+<section id="how" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">How it works</h2>
+<div class="grid grid-3">
+<div class="card"><h3 class="h-md">Read the whole sentence</h3><p class="muted">The picture, the middle box and the word make one sentence: <em>[picture] is not Cow</em>. Answer True if the sentence is right. The “is not” is where most mistakes happen.</p></div>
+<div class="card"><h3 class="h-md">Four ways to play</h3><p class="muted"><strong>Practice</strong>: warm up as long as you like; nothing is recorded. <strong>Short</strong> and <strong>Long</strong>: 10 or 20 questions, ranked by fewest mistakes, then fastest time. <strong>Endless</strong>: keep going until your first mistake. You get 1 second per answer, 0.1 s less every 50 correct, down to 0.3 s.</p></div>
+<div class="card"><h3 class="h-md">Why it helps</h3><p class="muted">Each answer asks you to see, read, hold a rule in mind and choose, quickly and without guessing. Short daily rounds build the habit of deciding clearly under a little pressure, and your scores show the progress.</p></div>
+</div>
+</div></section>
+</main>
+{footer()}
+<script src="assets/decision-game.js" defer></script>"""
+    page("decision-game.html", "The Decision Game: free brain training",
+         "Picture, word, true or false: a free brain-training game with an online leaderboard. How fast can you decide?",
+         body, "play", extra_head=f'<script type="application/ld+json">{ld}</script>')
+
+
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
     build_seekers()
     build_urantia()
+    build_decision_game()
     sections, nsteps = build_reader()
     build_placeholders()
     build_science()

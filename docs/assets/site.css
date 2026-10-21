@@ -4,7 +4,7 @@
   --navy:#10304D; --navy-deep:#0A2238; --band-fg:#F5F9FC; --band-muted:#AFC6D9; --band-soft:#D3E1EC;
   --bg:#F3F7FA; --surface:#FFFFFF; --surface-alt:#E4EEF4; --fg:#0F2236; --muted:#44566A; --line:#D3E0EA;
   --green:#6CC04A; --green-ink:#0B2210;
-  --seekers:#F2A93B; --science:#2E86DE; --builders:#4CAF50; --music:#E04E3F; --easykey:#9B6BD3; --ai:#29B6CF; --urantia:#D9668C;
+  --seekers:#F2A93B; --science:#2E86DE; --builders:#4CAF50; --music:#E04E3F; --easykey:#9B6BD3; --ai:#29B6CF; --urantia:#D9668C; --play:#1C8FA9;
   --door:var(--green); --door-ink:#0B2210;
   --display:"Fraunces", Georgia, "Times New Roman", serif;
   --body:"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -90,6 +90,7 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .door-music{--door:var(--music);--door-ink:#FFFFFF}
 .door-easykey{--door:var(--easykey);--door-ink:#FFFFFF}
 .door-ai{--door:var(--ai);--door-ink:#03222A}
+.door-play{--door:var(--play);--door-ink:#FFFFFF}
 .door-urantia{--door:var(--urantia);--door-ink:#2A0714}
 .door-hub{--door:var(--green);--door-ink:#0B2210}
 .accent{color:var(--door)}
@@ -352,3 +353,67 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .share-card{gap:10px}
 .share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:6px}
 .share-note:empty{display:none}
+
+/* the Decision Game */
+.dg-hero{padding-bottom:40px}
+.dg-section{padding-top:36px}
+.dg-toolbar{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
+.segs{display:inline-flex;flex-wrap:wrap;gap:4px;padding:4px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+.seg{font:inherit;font-size:14.5px;font-weight:600;border:0;border-radius:999px;padding:8px 16px;background:transparent;color:var(--muted);cursor:pointer;min-height:40px}
+.seg[aria-pressed="true"]{background:var(--door);color:var(--door-ink)}
+.seg:focus-visible{outline:2px solid var(--door);outline-offset:2px}
+.dg-check{display:inline-flex;flex-direction:row;align-items:center;gap:8px;font-family:var(--body);font-size:14.5px;letter-spacing:0;text-transform:none;color:var(--muted)}
+.dg-stage{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr) minmax(0,1.2fr);gap:0;padding:0;overflow:hidden;align-items:stretch;transition:box-shadow .15s}
+.dg-cell{display:flex;align-items:center;justify-content:center;min-height:clamp(150px,30vw,280px);padding:16px;text-align:center}
+.dg-picture{background:#FFFFFF}
+.dg-picture img{width:100%;max-width:240px;aspect-ratio:1;object-fit:contain}
+.dg-relation{border-inline:1px solid var(--line);font-family:var(--display);font-size:clamp(1.4rem,4vw,2.4rem);color:var(--muted)}
+.dg-relation .not{color:#C0392B;font-weight:600}
+.dg-wordcell{font-family:var(--display);font-size:clamp(1.6rem,5.5vw,3.4rem);line-height:1.05;overflow-wrap:anywhere}
+.dg-stage.flash-ok{animation:dgok .35s ease-out}.dg-stage.flash-bad{animation:dgbad .35s ease-out}
+@keyframes dgok{0%{box-shadow:0 0 0 4px #27AE60}100%{box-shadow:0 0 0 0 transparent}}
+@keyframes dgbad{0%{box-shadow:0 0 0 4px #C0392B}100%{box-shadow:0 0 0 0 transparent}}
+.dg-answers{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:stretch}
+.dg-answer{font:inherit;font-size:clamp(1.1rem,3vw,1.4rem);font-weight:600;border-radius:16px;border:2px solid transparent;min-height:72px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:12px;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.dg-answer kbd{font-family:var(--mono);font-size:13px;opacity:.7;border:1px solid currentColor;border-radius:6px;padding:1px 6px}
+.dg-false{background:#FBE9E7;color:#8E2A1E;border-color:#E8B4AC}
+.dg-true{background:#E3F4EA;color:#1D6B3E;border-color:#A8D9BC}
+.dg-answer:disabled{opacity:.45;cursor:default}
+.dg-answer:not(:disabled):active{transform:scale(.98)}
+.dg-start{min-width:150px}
+.dg-status{display:flex;flex-wrap:wrap;gap:10px 28px;margin:0;font-size:14.5px}
+.dg-status div{display:flex;gap:8px;align-items:baseline}
+.dg-status dt{color:var(--muted)}
+.dg-status dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}
+#dg-limit{color:var(--door);font-weight:600}
+.dg-result{gap:14px}
+.dg-result-head{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;font-family:var(--display);font-size:clamp(1.5rem,3.5vw,2.1rem)}
+.dg-pb{font-family:var(--body);font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--door);color:var(--door-ink)}
+.dg-facts{display:flex;flex-wrap:wrap;gap:12px 36px;margin:0}
+.dg-facts dt{font-size:13px;color:var(--muted)}.dg-facts dd{margin:0;font-weight:600;font-size:18px;font-variant-numeric:tabular-nums}
+.dg-note{margin:0;font-size:14.5px}
+.dg-result-actions{display:flex;flex-wrap:wrap;gap:10px}
+.linklike{font:inherit;background:none;border:0;padding:0;color:inherit;text-decoration:underline;cursor:pointer}
+.table-wrap{overflow-x:auto}
+.dg-table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums;min-width:520px}
+.dg-table th,.dg-table td{padding:12px 16px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.dg-table th{font-size:13px;color:var(--muted);font-weight:600}
+.dg-table .num{text-align:right}
+.dg-table tr:last-child td{border-bottom:0}
+.dg-table tr.mine td{background:color-mix(in srgb, var(--door) 12%, transparent)}
+.dg-table a{color:inherit;font-weight:600}
+.dg-best{gap:6px}
+.dg-modal{position:fixed;inset:0;z-index:50;background:rgba(5,15,25,.55);display:flex;align-items:center;justify-content:center;padding:16px}
+.dg-modal[hidden]{display:none}
+.dg-name-card{width:min(100%,460px);gap:12px}
+.dg-name-card label{display:flex;flex-direction:column;gap:8px;font-family:var(--body);font-size:14px;letter-spacing:0;text-transform:none;color:var(--muted)}
+.dg-name-card input{font:inherit;font-size:17px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.dg-name-card .form-note{color:#C0392B}
+@media (max-width: 640px){
+  .dg-cell{min-height:130px;padding:10px}
+  .dg-answers{grid-template-columns:1fr 1fr}
+  .dg-start{grid-column:1/-1;grid-row:2}
+  .dg-answer kbd{display:none}
+  .dg-answer{min-height:84px}
+  .seg{padding:8px 11px;font-size:13.5px}
+}
