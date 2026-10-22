@@ -1439,12 +1439,84 @@ def build_decision_game():
          body, "play", extra_head=f'<script type="application/ld+json">{ld}</script>')
 
 
+# ---------------------------------------------------------------- Shop: every product, linking to the Wix checkout
+SHOP = "https://shop.peopleoftheworld.net/product-page/"
+SHOP_GROUPS = [
+    ("books", "Books", "Printed and digital editions. Every book is also free to read online.", [
+        ("the-portal-opens", "The Portal Opens", "Paperback", "A$45.00", "5aaf2959e48549fbb303559bf270371e", "read.html"),
+        ("the-portal-opens-hardback", "The Portal Opens", "Hardcover", "A$61.48", "3fca3780afcc4598987553973bbb8e43", "read.html"),
+        ("the-portal-opens-on-hand-purchase", "The Portal Opens", "On-hand copy", "A$35.00", "5aaf2959e48549fbb303559bf270371e", "read.html"),
+        ("people-of-the-world-1", "People of the World", "Paperback", "A$40.00", "d970923c4ca44a86a39339229a6d19ee", None),
+        ("people-of-the-world", "People of the World", "Hardcover", "A$65.44", "5f2c3444ee564207b7972ddc8b989213", None),
+        ("people-of-the-world-ebook-pdf", "People of the World", "Ebook (PDF)", "A$20.00", "350fd2a9c8994d40ac853a535d04c128", None),
+        ("the-unified-framework-for-the-graviton-pressure-theory", "The Unified Framework for the Graviton Pressure Theory", "Paperback", "A$85.00",
+         "eaacc0f224a24521b4aef14f64dc7b0c", "graviton-pressure-theory/index.html"),
+    ]),
+    ("souvenirs", "Souvenirs", "Wear and share the People of the World emblem.", [
+        ("people-of-the-world-flag", "People of the World flag", "", "A$41.00", "a44048bdebd74cd7b4ca7a56a3984e0f", None),
+        ("people-of-the-world-stainless-steel-water-bottle", "Stainless steel water bottle", "", "A$35.00", "556df27e0fad47429c0e947bc205bfd4", None),
+        ("people-of-the-world-tapered-stainless-steel-tumbler", "Tapered stainless steel tumbler", "", "A$33.00", "bd6c0ed8577e4b629086d8284fdd5739", None),
+        ("people-of-the-world-tote-bag", "Tote bag", "", "A$28.00", "2540866b07104a839f42516763503195", None),
+        ("people-of-the-world-dad-hat", "Dad hat", "", "A$28.00", "af5dc10180c9410a911d9a8929a6558c", None),
+        ("people-of-the-world-white-glossy-mug", "White glossy mug", "", "A$12.00", "8693ef45dfaf47ecba194c39dd993c67", None),
+    ]),
+]
+
+
+def build_shop():
+    sections, items_ld = [], []
+    for gid, gname, gintro, items in SHOP_GROUPS:
+        cards = []
+        for slug_, name, edition, price, img, free in items:
+            ratio = "w_480,h_720" if gid == "books" else "w_600,h_600"
+            src = f"https://static.wixstatic.com/media/eaef6d_{img}~mv2.jpg/v1/fill/{ratio},al_c,q_85/{slug_}.jpg"
+            full = f"{name}{' · ' + edition if edition else ''}"
+            free_link = f'<a class="shop-free" href="{free}">Read free online</a>' if free else ""
+            cards.append(f"""<article class="card shop-item shop-{gid}">
+<a class="shop-img" href="{SHOP}{slug_}"><img src="{src}" alt="{esc(full)}" loading="lazy"></a>
+<div class="stack" style="gap:4px">{f'<span class="eyebrow muted" style="font-size:12px">{esc(edition)}</span>' if edition else ''}
+<h3 class="h-md" style="font-family:var(--display);font-size:20px">{esc(name)}</h3>
+<span class="shop-price">{esc(price)}</span></div>
+<div class="shop-actions"><a class="btn btn-door" href="{SHOP}{slug_}">View and buy</a>{free_link}</div>
+</article>""")
+            items_ld.append({"@type": "Product", "name": full, "image": src, "url": SHOP + slug_,
+                             "brand": {"@type": "Brand", "name": "People of the World"},
+                             "offers": {"@type": "Offer", "price": price.replace("A$", ""), "priceCurrency": "AUD", "url": SHOP + slug_,
+                                        "availability": "https://schema.org/InStock"}})
+        sections.append(f"""<section id="{gid}" class="section{' band-alt' if gid == 'souvenirs' else ''}"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">{esc(gname)}</h2><p class="lead muted">{esc(gintro)}</p></div>
+<div class="shop-grid">{"".join(cards)}</div>
+</div></section>""")
+    ld = json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": "People of the World shop",
+                     "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": it} for i, it in enumerate(items_ld)]}, ensure_ascii=False)
+    body = f"""{header("Shop", "People of the World", [("Books", "#books", False, None), ("Souvenirs", "#souvenirs", False, None),
+                        ("Support the mission", "support.html", True, None)])}
+<main>
+<section class="band"><div class="wrap section" style="padding-bottom:48px">
+<p class="eyebrow accent">The People of the World shop</p>
+<h1 class="h-xl">Books and gifts that carry the message.</h1>
+<p class="lead muted" style="max-width:640px">Every purchase supports the work of People of the World. Prices are in Australian dollars; checkout is secure through our Wix store, with worldwide shipping.</p>
+<div class="actions"><a class="btn btn-door" href="#books">Books</a><a class="btn btn-ghost" href="#souvenirs">Souvenirs</a></div>
+</div></section>
+{"".join(sections)}
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:center">
+<div class="stack" style="flex:2 1 420px;min-width:0"><h2 class="h-lg">Music, too</h2>
+<p class="lead muted">That Brother Ali's albums are on Spotify, Apple Music and Amazon Music.</p></div>
+<p style="flex:1 1 200px"><a class="btn btn-outline" href="music.html">Listen to the music</a></p>
+</div></section>
+</main>
+{footer()}"""
+    page("shop.html", "Shop: books and gifts", "Books by Shareef Ali Rashada and People of the World souvenirs: The Portal Opens, People of the World, the Graviton Pressure Theory framework, flags, mugs and more.",
+         body, "hub", extra_head=f'<script type="application/ld+json">{ld}</script>')
+
+
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
     build_seekers()
     build_urantia()
     build_decision_game()
+    build_shop()
     sections, nsteps = build_reader()
     build_placeholders()
     build_science()

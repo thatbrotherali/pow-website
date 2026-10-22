@@ -417,3 +417,14 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
   .dg-answer{min-height:84px}
   .seg{padding:8px 11px;font-size:13.5px}
 }
+
+/* shop */
+.shop-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill, minmax(min(100%, 230px), 1fr))}
+.shop-item{gap:14px;padding:16px}
+.shop-img{display:block;border-radius:12px;overflow:hidden;background:var(--surface-alt)}
+.shop-img img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;transition:transform .2s}
+.shop-souvenirs .shop-img img{aspect-ratio:1}
+.shop-img:hover img{transform:scale(1.03)}
+.shop-price{font-weight:600;font-size:17px;font-variant-numeric:tabular-nums}
+.shop-actions{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:auto}
+.shop-free{font-size:14.5px;font-weight:600}

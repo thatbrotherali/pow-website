@@ -2,7 +2,7 @@
    EDIT THE LINKS BELOW. Any button whose link is left empty ("") is hidden automatically. */
 // Shop links point at the Wix shop, which lives at shop.peopleoftheworld.net.
 const POW_LINKS = {
-  shop: "https://shop.peopleoftheworld.net",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
+  shop: "shop.html",                 // e.g. "https://shop.peopleoftheworld.net" once the Wix shop moves to its subdomain
   support: "support.html",  // the Support the mission page
   donate: "https://shop.peopleoftheworld.net/donations-1",               // donation payment link (Stripe, PayPal or Wix)
   portalPaperback: "https://shop.peopleoftheworld.net/product-page/the-portal-opens",      // Wix shop or Lulu link for The Portal Opens paperback
