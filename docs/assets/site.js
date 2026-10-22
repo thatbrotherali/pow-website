@@ -21,8 +21,8 @@ const POW_LINKS = {
   audiobook: "",            // YouTube playlist or audio page
   vision: "",               // full Vision document
 };
-// Email sign-up: paste the form address from your email service (MailerLite, Buttondown, etc.).
-const POW_SIGNUP_ENDPOINT = "";
+// Email sign-up: the MailerLite "Website sign-up" form (adds people to the Weekly teaching group).
+const POW_SIGNUP_ENDPOINT = "https://assets.mailerlite.com/jsonp/2732767/forms/202012430467860418/subscribe";
 const POW_CONTACT = "shareef@peopleoftheworld.net";
 
 // the site's root folder, worked out from where this script lives (assets/site.js), so links work from any sub-folder
@@ -57,12 +57,22 @@ document.addEventListener("DOMContentLoaded", () => {
       const email = form.querySelector("input[type=email]").value.trim();
       if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { note.textContent = "Please enter a full email address, like you@example.com."; return; }
       if (!POW_SIGNUP_ENDPOINT) { note.textContent = `Sign-up opens soon. Until then, write to ${POW_CONTACT} and you'll be added by hand.`; return; }
+      const btn = form.querySelector("button[type=submit]");
+      const body = new FormData();
+      body.append("fields[email]", email); body.append("ml-submit", "1"); body.append("anticsrf", "true");
+      btn.disabled = true; note.textContent = "Signing you up…";
+      const done = () => { note.textContent = "You're signed up. Welcome! Look out for the first email in your inbox."; form.reset(); };
       try {
-        const body = new FormData(); body.append("email", email); body.append("list", form.dataset.list || "teachings");
         const r = await fetch(POW_SIGNUP_ENDPOINT, { method: "POST", body });
-        note.textContent = r.ok ? "You're signed up. Check your inbox to confirm." : "That didn't go through. Please try again in a minute.";
-        if (r.ok) form.reset();
-      } catch { note.textContent = "That didn't go through. Please check your connection and try again."; }
+        const j = await r.json().catch(() => ({}));
+        if (r.ok && j.success !== false) done();
+        else note.textContent = (j.errors && j.errors.fields && j.errors.fields.email && j.errors.fields.email[0]) || "That didn't go through. Please check the address and try again.";
+      } catch {
+        // if the browser blocks reading the reply, send it anyway; the email service still receives it
+        try { await fetch(POW_SIGNUP_ENDPOINT, { method: "POST", body, mode: "no-cors" }); done(); }
+        catch { note.textContent = "That didn't go through. Please check your connection and try again."; }
+      }
+      btn.disabled = false;
     });
   });
 
