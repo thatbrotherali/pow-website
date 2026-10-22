@@ -1448,7 +1448,7 @@ def build_decision_game():
 # ---------------------------------------------------------------- Shop: every product, linking to the Wix checkout
 SHOP = "https://shop.peopleoftheworld.net/product-page/"
 SHOP_GROUPS = [
-    ("books", "Books", "Printed and digital editions. Every book is also free to read online.", [
+    ("books", "Books", "Printed and digital editions. The Portal Opens and the Graviton Pressure Theory framework are also free to read online.", [
         ("the-portal-opens", "The Portal Opens", "Paperback", "A$45.00", "5aaf2959e48549fbb303559bf270371e", "read.html"),
         ("the-portal-opens-hardback", "The Portal Opens", "Hardcover", "A$61.48", "3fca3780afcc4598987553973bbb8e43", "read.html"),
         ("the-portal-opens-on-hand-purchase", "The Portal Opens", "On-hand copy", "A$35.00", "5aaf2959e48549fbb303559bf270371e", "read.html"),
