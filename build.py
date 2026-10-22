@@ -50,6 +50,12 @@ DOOR_NAMES = {"seekers": "The Portal Opens", "urantia": "For Urantia readers", "
 esc = lambda s: html.escape(s, quote=True)
 
 
+def asset_v(name):
+    """Short fingerprint of an asset file, added to its link so browsers fetch the new copy after each change."""
+    import hashlib
+    return hashlib.sha1((OUT / "assets" / name).read_bytes()).hexdigest()[:8]
+
+
 # ---------------------------------------------------------------- page shell
 def canonical(fname):
     return SITE_URL + "/" + re.sub(r"(^|/)index\.html$", r"\1", fname)
@@ -72,8 +78,8 @@ def head(title, desc, fname="", extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
-<link rel="stylesheet" href="assets/site.css">
-<script src="assets/site.js" defer></script>"""
+<link rel="stylesheet" href="assets/site.css?v={asset_v('site.css')}">
+<script src="assets/site.js?v={asset_v('site.js')}" defer></script>"""
 
 
 def header(name="People of the World", sub=None, nav=()):
@@ -1433,7 +1439,7 @@ def build_decision_game():
 </div></section>
 </main>
 {footer()}
-<script src="assets/decision-game.js" defer></script>"""
+<script src="assets/decision-game.js?v={asset_v('decision-game.js')}" defer></script>"""
     page("decision-game.html", "The Decision Game: free brain training",
          "Picture, word, true or false: a free brain-training game with an online leaderboard. How fast can you decide?",
          body, "play", extra_head=f'<script type="application/ld+json">{ld}</script>')
