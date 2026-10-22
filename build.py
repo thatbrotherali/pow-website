@@ -71,7 +71,11 @@ def head(title, desc, fname="", extra=""):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{SITE_URL}/assets/logo.webp">
+<meta property="og:image" content="{SITE_URL}/assets/share/__OG__.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(title)}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="author" content="{AUTHOR}">{extra}
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="icon" href="assets/favicon.png">
@@ -107,7 +111,7 @@ def footer(current=None):
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
-<p class="legal">© {YEAR} People of the World · POW Productions Pty Ltd, Queensland, Australia</p>
+<p class="legal">© {YEAR} People of the World · POW Productions Pty Ltd, Queensland, Australia · <a href="privacy.html">Privacy</a></p>
 </div>
 </footer>"""
 
@@ -122,6 +126,7 @@ def signup_band(title, text, button, lst, door):
 <button class="btn btn-door" type="submit">{esc(button)}</button>
 </form>
 <p class="form-note" role="status"></p>
+<p class="muted" style="font-size:13px">We'll only send what you signed up for. <a href="privacy.html">Privacy</a></p>
 </div></div></section>"""
 
 
@@ -134,6 +139,18 @@ def relink(doc, depth):
         return doc
     up = "../" * depth
     return re.sub(r'((?:href|src)=")(?!https?:|#|/|mailto:|data:|tel:)', lambda m: m.group(1) + up, doc)
+
+
+SHARE_BY_PAGE = {"books.html": "books", "shop.html": "shop", "urantia.html": "urantia", "decision-game.html": "play",
+                 "read.html": "seekers", "glossary.html": "seekers", "ten-steps.html": "seekers", "videos.html": "site", "about.html": "site"}
+
+
+def share_image(fname, door):
+    """Which link-preview picture a page uses (made by tools/make_share_images.py)."""
+    if fname in SHARE_BY_PAGE: return SHARE_BY_PAGE[fname]
+    if fname.startswith(("graviton-pressure-theory/", "library/graviton")): return "science"
+    if door in ("seekers", "urantia", "science", "builders", "music", "easykey", "ai", "play"): return door
+    return "site"
 
 
 def page(fname, title, desc, body, door="hub", extra_head="", lastmod=None):
@@ -150,6 +167,7 @@ def page(fname, title, desc, body, door="hub", extra_head="", lastmod=None):
 </body>
 </html>
 """
+    doc = doc.replace("/assets/share/__OG__.jpg", f"/assets/share/{share_image(fname, door)}.jpg", 1)
     doc = relink(doc, fname.count("/"))
     path = OUT / fname
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -1516,6 +1534,59 @@ def build_shop():
          body, "hub", extra_head=f'<script type="application/ld+json">{ld}</script>')
 
 
+# ---------------------------------------------------------------- Privacy
+def build_privacy():
+    sections = [
+        ("The short version", [
+            "We collect as little as we can. This site sets no advertising or tracking cookies, and we never sell or rent your information.",
+            "The few things we do keep (your email address if you sign up, and your name and scores if you play the Decision Game) are used only for the purpose you gave them to us for.",
+        ]),
+        ("Email sign-ups", [
+            "If you sign up for the weekly teaching or other updates, we keep your email address and which list you joined. We use it only to send you what you signed up for.",
+            "Our email service is MailerLite, which stores the list for us. Every email has an unsubscribe link, and you can ask us to delete your address at any time.",
+        ]),
+        ("The Decision Game", [
+            "When you finish a ranked game, we save the name you choose, your score and the date, along with a random player code created on your device. This is what makes the public leaderboard and player pages work, so your name and scores are visible to everyone.",
+            "Please use a nickname or first name rather than your full name. The scores are stored on our Wix site. Your own run history and settings are also kept in your browser's storage on your device, and never leave it unless you save a score.",
+            "To have your scores removed, email us with your player name and roughly when you played.",
+        ]),
+        ("Buying from the shop and donating", [
+            "Purchases and donations are handled by our Wix store at shop.peopleoftheworld.net. Your order, shipping and payment details are collected and processed there, under Wix's security and privacy terms. We see what we need to fulfil your order, and we never see your full card number.",
+        ]),
+        ("Videos, music and fonts from other services", [
+            "Videos come from YouTube's privacy-enhanced mode and only load when you press play. Audio streams from Wix's media service. The page fonts come from Google Fonts. These services receive your device's internet address when they deliver their content, as any website does.",
+            "Links to Amazon, Spotify, Apple Music, Lulu and other stores take you to their sites, where their own privacy policies apply.",
+        ]),
+        ("Your choices", [
+            "You can ask us what information we hold about you, ask us to correct it, or ask us to delete it. Write to the address below and we will reply within 30 days.",
+            "We aim to follow the Australian Privacy Principles, and we respect the same rights for visitors from every country.",
+        ]),
+        ("Children", [
+            "The site is for a general audience. We don't knowingly collect personal information from children. If you think a child has given us their details, please let us know and we will remove them.",
+        ]),
+        ("Who we are", [
+            "People of the World is run by POW Productions Pty Ltd, Queensland, Australia. If this policy changes, we will update this page and the date below.",
+        ]),
+    ]
+    body_html = "".join(f'<h2 class="h-md" style="margin-top:36px">{esc(h)}</h2>' + "".join(f"<p>{esc(p)}</p>" for p in ps) for h, ps in sections)
+    body = f"""{header()}
+<main>
+<section class="band"><div class="wrap section" style="padding-bottom:40px">
+<p class="eyebrow accent">Privacy</p>
+<h1 class="h-xl">Your privacy, in plain words.</h1>
+<p class="lead muted" style="max-width:640px">What we collect, why, and how to have it removed.</p>
+</div></section>
+<section class="section"><div class="wrap"><div class="prose" style="max-width:760px">
+{body_html}
+<h2 class="h-md" style="margin-top:36px">Contact</h2>
+<p>Email <a href="mailto:{CONTACT}">{CONTACT}</a> with any question about your information.</p>
+<p class="muted" style="font-size:14px;margin-top:32px">Last updated 22 October 2026.</p>
+</div></div></section>
+</main>
+{footer()}"""
+    page("privacy.html", "Privacy", "How People of the World handles your information: email sign-ups, the Decision Game leaderboard, the shop, and your choices.", body)
+
+
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
@@ -1523,6 +1594,7 @@ if __name__ == "__main__":
     build_urantia()
     build_decision_game()
     build_shop()
+    build_privacy()
     sections, nsteps = build_reader()
     build_placeholders()
     build_science()

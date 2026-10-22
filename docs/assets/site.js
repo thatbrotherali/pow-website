@@ -10,7 +10,7 @@ const POW_LINKS = {
   portalKindle: "",         // Amazon Kindle link for The Portal Opens
   powNovelKindle: "",       // Amazon Kindle link for People of the World (novel)
   powNovelPrint: "https://shop.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
-  review: "",               // Literary Titan review of The Portal Opens
+  review: "https://literarytitan.com/2025/08/13/the-portal-opens/",               // Literary Titan review of The Portal Opens
   easeApple: "",            // Music to Ease Your Mind on Apple Music
   easeAmazon: "",           // Music to Ease Your Mind on Amazon Music
   anthologySpotify: "",     // Anthology Vol. 1 on Spotify
