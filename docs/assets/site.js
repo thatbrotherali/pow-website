@@ -19,7 +19,7 @@ const POW_LINKS = {
   gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
   easykeyBook: "https://www.lulu.com/shop/shareef-rashada/learning-to-play-the-easykey-way/paperback/product-mgzp7y.html",          // link to buy Learning to Play the EasyKey Way
   audiobook: "audiobook.html",            // YouTube playlist or audio page
-  vision: "",               // full Vision document
+  vision: "new-morality/",               // full Vision document
 };
 // Email sign-up: the MailerLite "Website sign-up" form (adds people to the Weekly teaching group).
 const POW_SIGNUP_ENDPOINT = "https://assets.mailerlite.com/jsonp/2732767/forms/202012430467860418/subscribe";
