@@ -1510,6 +1510,7 @@ def build_shop():
         sections.append(f"""<section id="{gid}" class="section{' band-alt' if gid == 'souvenirs' else ''}"><div class="wrap stack" style="gap:32px">
 <div class="stack intro"><h2 class="h-lg">{esc(gname)}</h2><p class="lead muted">{esc(gintro)}</p></div>
 <div class="shop-grid">{"".join(cards)}</div>
+{'<p class="muted">Prefer Kindle? <a href="#" data-link="portalKindle" style="font-weight:600">The Portal Opens on Kindle</a> · <a href="#" data-link="powNovelKindle" style="font-weight:600">People of the World on Kindle</a></p>' if gid == "books" else ""}
 </div></section>""")
     ld = json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": "People of the World shop",
                      "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": it} for i, it in enumerate(items_ld)]}, ensure_ascii=False)
