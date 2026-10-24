@@ -157,7 +157,7 @@ def feed(site_url):
         where = f"{p[1]}: {p[2]}. " if p else ""
         items.append(f"""<item>
 <title>{c["n"]}. {esc(c["t"])}</title>
-<description>{esc(where)}Chapter {c["n"]} of 63 of The Portal Opens by Shareef Ali Rashada. Read along free at {link}</description>
+<description>{esc(where)}Chapter {c["n"]} of 63 of The Portal Opens by Shareef Ali Rashada, narrated with an AI voice (ElevenLabs). Read along free at {link}</description>
 <enclosure url="{c["u"]}" length="{c["b"]}" type="audio/mpeg"/>
 <guid isPermaLink="false">portal-opens-audiobook-{c["n"]:02d}</guid>
 <pubDate>{format_datetime(start + timedelta(minutes=c["n"]))}</pubDate>
@@ -175,7 +175,7 @@ def feed(site_url):
 <atom:link href="{site_url}/audiobook.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
 <copyright>© 2025 Shareef Ali Rashada, POW Productions Pty Ltd</copyright>
-<description>The complete audiobook of The Portal Opens by Shareef Ali Rashada, in 63 chapters: the untold story of Jesus, Lucifer's rebellion, the confession of Caligastia, Adam and Eve's message to humanity, and the lessons of Machiventa Melchizedek. Winner of the Literary Titan Silver Book Award. Read along free at {site_url}/read.html</description>
+<description>The complete audiobook of The Portal Opens by Shareef Ali Rashada, in 63 chapters: the untold story of Jesus, Lucifer's rebellion, the confession of Caligastia, Adam and Eve's message to humanity, and the lessons of Machiventa Melchizedek. Winner of the Literary Titan Silver Book Award. Narrated with an AI voice (ElevenLabs); the text is by Shareef Ali Rashada. Read along free at {site_url}/read.html</description>
 <itunes:author>Shareef Ali Rashada</itunes:author>
 <itunes:owner><itunes:name>Shareef Ali Rashada</itunes:name><itunes:email>shareef@peopleoftheworld.net</itunes:email></itunes:owner>
 <itunes:image href="{site_url}/assets/audiobook-cover.jpg"/>
@@ -205,6 +205,7 @@ def build(B):
 <p class="eyebrow accent">Free audiobook</p>
 <h1 class="h-xl">Listen to The Portal Opens.</h1>
 <p class="lead muted" style="max-width:620px">The complete book in 63 chapters, {hm(TOTAL)} in all. Press play and it carries on from chapter to chapter, and remembers where you stopped.</p>
+<p class="muted" style="font-size:14px">Narrated with an AI voice (ElevenLabs).</p>
 <div class="actions"><a class="btn btn-door" href="#player">Start listening</a><a class="btn btn-ghost" href="read.html">Read along</a></div>
 </div>
 <img class="ab-cover" src="assets/cover-portal.webp" alt="Cover of The Portal Opens" width="200" height="300" style="flex:0 0 auto;width:200px;height:auto;border-radius:10px;box-shadow:0 18px 50px rgba(0,0,0,.35)">
