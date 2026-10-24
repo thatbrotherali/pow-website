@@ -17,7 +17,7 @@ const POW_LINKS = {
   anthologyApple: "https://music.apple.com/album/1093656214",       // Anthology Vol. 1 on Apple Music
   anthologyAmazon: "https://www.amazon.com/music/player/albums/B01D11T1MM",      // Anthology Vol. 1 on Amazon Music
   gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
-  easykeyBook: "https://www.amazon.com/dp/1471791033",          // link to buy Learning to Play the EasyKey Way
+  easykeyBook: "https://www.lulu.com/shop/shareef-rashada/learning-to-play-the-easykey-way/paperback/product-mgzp7y.html",          // link to buy Learning to Play the EasyKey Way
   audiobook: "audiobook.html",            // YouTube playlist or audio page
   vision: "",               // full Vision document
 };

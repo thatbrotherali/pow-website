@@ -926,7 +926,7 @@ def build_easykey():
 
 <section id="library" class="section band-alt"><div class="wrap stack" style="gap:28px">
 <div class="stack intro"><h2 class="h-lg">The EasyKey library</h2>
-<p class="lead muted">The course, a first songbook, and a songbook for every major key. Printed books, available on Amazon.</p></div>
+<p class="lead muted">The course, a first songbook, and a songbook for every major key. Printed on demand and shipped worldwide by Lulu, our publisher.</p></div>
 {easykey_library()}
 </div></section>
 
@@ -1480,14 +1480,28 @@ AMAZON_BOOKS = [
     ("1447777379", "People of the World", "Paperback"), ("B0FSCJHTY8", "People of the World", "Kindle ebook"),
     ("1326488058", "The Unified Framework for the Graviton Pressure Theory", "Hardcover"),
 ]
+LULU = "https://www.lulu.com/shop/"
+# (Lulu product path, Amazon ASIN or None, title, edition, Lulu price)
 EASYKEY_BOOKS = [
-    ("1667192329", "Learning to Play the EasyKey Way", "The year-one course"),
-    ("1471791033", "Learning to Play the EasyKey Way", "Special Home Edition"),
-    ("1470942909", "Learning to Play the EasyKey Way", "Special Library Edition"),
-    ("1008953725", "My First Book of Songs", "38 songs in EasyKey"),
+    ("shareef-rashada/learning-to-play-the-easykey-way/paperback/product-mgzp7y.html", "1667192329", "Learning to Play the EasyKey Way", "The year-one course", "A$75.00"),
+    ("shareef-rashada-and-easykey-music/learning-to-play-the-easykey-way-special-home-edition/paperback/product-zv6z4d.html", "1471791033",
+     "Learning to Play the EasyKey Way", "Special Home Edition", "A$79.62"),
+    ("shareef-rashada/learning-to-play-the-easykey-way-special-library-edition/paperback/product-d747kr.html", "1470942909",
+     "Learning to Play the EasyKey Way", "Special Library Edition", "A$104.62"),
+    ("shareef-rashada/my-first-book-of-songs/paperback/product-j2nygn.html", "1008953725", "My First Book of Songs", "38 songs in EasyKey", "A$50.00"),
+    ("shareef-rashada/my-first-book-of-songs/paperback/product-zv6z9d.html", "1471791025", "My First Book of Songs", "38 songs in EasyKey · second edition", "A$65.36"),
+    ("shareef-rashada/lessons-and-songs-in-standard-music-notation/paperback/product-d4m69v.html", None,
+     "Lessons and Songs in Standard Music Notation", "The companion in standard notation", "A$40.00"),
 ]
-EASYKEY_SONGBOOKS = [("C", "1667172182"), ("G", "166716807X"), ("D", "1667168452"), ("A", "1667175610"), ("E", "1667168398"), ("B", "1667173847"),
-                     ("F#", "1667168142"), ("Db", "1667172174"), ("Ab", "1008978396"), ("Eb", "1667168444"), ("Bb", "1008978388"), ("F", "166716838X")]
+# key, Lulu product path, Amazon ASIN (every songbook is A$40 on Lulu)
+EASYKEY_SONGBOOKS = [
+    ("C", "songbook-for-c-major/paperback/product-r44rny.html", "1667172182"), ("G", "songbook-for-g-major/paperback/product-2ddz64.html", "166716807X"),
+    ("D", "songbook-for-d-major/paperback/product-k77zvv.html", "1667168452"), ("A", "songbook-for-a-major/paperback/product-nr625p.html", "1667175610"),
+    ("E", "songbook-for-e-major/paperback/product-2ddzj2.html", "1667168398"), ("B", "songbook-for-b-major/paperback/product-yrrjn9.html", "1667173847"),
+    ("F#", "songbook-for-f-major/paperback/product-6ddgpm.html", "1667168142"), ("Db", "songbook-for-db-major/paperback/product-k77jn7.html", "1667172174"),
+    ("Ab", "songbook-for-ab-major/paperback/product-9ddz59.html", "1008978396"), ("Eb", "songbook-for-eb-major/paperback/product-nrr2qj.html", "1667168444"),
+    ("Bb", "songbook-for-bb-major/paperback/product-pnnekm.html", "1008978388"), ("F", "songbook-for-f-major/paperback/product-7ddrq4.html", "166716838X"),
+]
 
 
 def amazon_a(asin, text, cls="btn btn-outline"):
@@ -1495,13 +1509,19 @@ def amazon_a(asin, text, cls="btn btn-outline"):
     return f'<a class="{cls}"{style} href="https://www.amazon.com/dp/{asin}" data-amazon="{asin}" target="_blank" rel="noopener">{esc(text)}</a>'
 
 
+def lulu_a(path, text, cls="btn btn-door"):
+    return f'<a class="{cls}" href="{LULU}{path}" target="_blank" rel="noopener">{esc(text)}</a>'
+
+
 def easykey_library():
     books = "".join(f"""<div class="card"><span class="eyebrow muted" style="font-size:12px">{esc(ed)}</span>
-<span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span>{amazon_a(a, "View on Amazon")}</div>""" for a, t, ed in EASYKEY_BOOKS)
-    keys = "".join(f'<li>{amazon_a(a, k + " major", "key-chip")}</li>' for k, a in EASYKEY_SONGBOOKS)
+<span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span><span class="shop-price">{esc(price)}</span>
+<div class="shop-actions" style="margin-top:auto">{lulu_a(path, "Buy from Lulu")}{f'<a class="shop-free" href="https://www.amazon.com/dp/{asin}" data-amazon="{asin}" target="_blank" rel="noopener">or Amazon</a>' if asin else ''}</div></div>"""
+                    for path, asin, t, ed, price in EASYKEY_BOOKS)
+    keys = "".join(f'<li>{lulu_a("shareef-rashada/" + path, k + " major", "key-chip")}</li>' for k, path, asin in EASYKEY_SONGBOOKS)
     return f"""<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))">{books}</div>
-<div class="stack" style="gap:12px"><h3 class="h-md">Songbooks in every major key</h3>
-<p class="muted">Twelve songbooks, one for each major key, to practise the scale, chords and songs of that key in EasyKey notation.</p>
+<div class="stack" style="gap:12px"><h3 class="h-md">Songbooks in every major key · A$40 each</h3>
+<p class="muted">Twelve songbooks, one for each major key, to practise the scale, chords and songs of that key in EasyKey notation. Each opens in the Lulu bookstore.</p>
 <ul class="key-chips">{keys}</ul></div>"""
 
 
@@ -1556,7 +1576,7 @@ def build_shop():
 </div></section>""")
     ld = json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": "People of the World shop",
                      "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": it} for i, it in enumerate(items_ld)]}, ensure_ascii=False)
-    body = f"""{header("Shop", "People of the World", [("Books", "#books", False, None), ("Souvenirs", "#souvenirs", False, None), ("On Amazon", "#amazon", False, None),
+    body = f"""{header("Shop", "People of the World", [("Books", "#books", False, None), ("Souvenirs", "#souvenirs", False, None), ("EasyKey", "#easykey", False, None),
                         ("Support the mission", "support.html", True, None)])}
 <main>
 <section class="band"><div class="wrap section" style="padding-bottom:48px">
@@ -1566,14 +1586,16 @@ def build_shop():
 <div class="actions"><a class="btn btn-door" href="#books">Books</a><a class="btn btn-ghost" href="#souvenirs">Souvenirs</a></div>
 </div></section>
 {"".join(sections)}
-<section id="amazon" class="section"><div class="wrap stack" style="gap:32px">
-<div class="stack intro"><h2 class="h-lg">On Amazon</h2><p class="lead muted">The books are also sold on Amazon, along with the full EasyKey Music library.</p></div>
-<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))">{"".join(f'<div class="card"><span class="eyebrow muted" style="font-size:12px">{esc(ed)}</span><span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span>{amazon_a(a, "View on Amazon")}</div>' for a, t, ed in AMAZON_BOOKS)}</div>
-<h3 class="h-lg" style="font-size:clamp(1.6rem,3vw,2.2rem)">EasyKey Music books</h3>
+<section id="easykey" class="section"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">EasyKey Music books</h2><p class="lead muted">The course, a first songbook, and a songbook for every major key, printed on demand by Lulu.</p></div>
 {easykey_library()}
 </div></section>
+<section id="amazon" class="section band-alt"><div class="wrap stack" style="gap:24px">
+<div class="stack intro"><h2 class="h-lg">Also on Amazon</h2><p class="lead muted">If you prefer to buy from Amazon, every book is there too.</p></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))">{"".join(f'<div class="card"><span class="eyebrow muted" style="font-size:12px">{esc(ed)}</span><span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span>{amazon_a(a, "View on Amazon")}</div>' for a, t, ed in AMAZON_BOOKS)}</div>
+</div></section>
 
-<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:center">
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:center">
 <div class="stack" style="flex:2 1 420px;min-width:0"><h2 class="h-lg">Music, too</h2>
 <p class="lead muted">That Brother Ali's albums are on Spotify, Apple Music and Amazon Music.</p></div>
 <p style="flex:1 1 200px"><a class="btn btn-outline" href="music.html">Listen to the music</a></p>
