@@ -60,7 +60,7 @@ OLD_PAGES = {
 }
 # Real addresses seen in search results (Wix sometimes names a page's address differently from the page)
 SEEN = {"literature": "books.html#novel", "pow-the-novel": "books.html#novel", "message-from-shareef": "about.html",
-        "discover-the-truth": "seekers.html", "meet-the-team": "about.html", "pow-vision": "index.html",
+        "discover-the-truth": "seekers.html", "meet-the-team": "about.html", "pow-vision": "new-morality/",
         "what-you-can-do-now": "support.html", "the-documents-of-gpt": FW,
         "introducing-graviton-pressure-theory": GPT, "the-scientific-proof-for-god": "cosmic-mind/"}
 # Every page address in the Wix site's sitemap (21 Oct 2026), mapped to its new home
@@ -70,7 +70,7 @@ SITEMAP = {
     "part-9-existing-data-supporting-gpt": FW + "part-09-existing-evidence-supporting-graviton-pressure-theory/", "part-19-graviton-coherence": FW + "part-19-graviton-coherence/",
     "portal-opens-audio-book-sections": "read.html", "message-from-shareef": "about.html", "part-6-redefining-work": FW + "part-06-redefining-work/",
     "part-21-magnetism-in-gpt": FW + "part-21-magnetism-as-gravimetric-resonance/", "pec-details": PLAN + "chapter-06-poverty-elimination-centers-pecs/",
-    "pow-vision": "index.html", "advanced-ai-development": "about.html", "redefining-work-in-gpt": FW + "part-06-redefining-work/",
+    "pow-vision": "new-morality/", "advanced-ai-development": "about.html", "redefining-work-in-gpt": FW + "part-06-redefining-work/",
     "paywall": "index.html", "pt5-gpt": FW + "part-05-graviton-pressure-theory/", "part-22-magnetic-materials-in-gpt": FW + "part-22-cross-analysis-of-magnetic-materials/",
     "the-math-of-gpt": FW + "part-23-the-mathematical-foundation/", "practical-applications": FW + "part-10-practical-exploration-of-advanced-concepts/",
     "start-here": GPT, "gpt-unit-system": FW + "part-24-gpt-unit-system/", "civic-credit-proposal": PLAN + "chapter-05-the-civic-charter-and-civic-credits/",
