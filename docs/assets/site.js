@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const body = new FormData();
       body.append("fields[email]", email); body.append("ml-submit", "1"); body.append("anticsrf", "true");
       btn.disabled = true; note.textContent = "Signing you up…";
-      const done = () => { note.textContent = "You're signed up. Welcome! Look out for the first email in your inbox."; form.reset(); };
+      const done = () => { note.textContent = "Almost done: check your inbox and click the link in our email to confirm. (If it's not there, look in spam.)"; form.reset(); };
       try {
         const r = await fetch(POW_SIGNUP_ENDPOINT, { method: "POST", body });
         const j = await r.json().catch(() => ({}));
