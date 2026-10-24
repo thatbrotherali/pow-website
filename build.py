@@ -49,6 +49,7 @@ DOOR_NAMES = {"seekers": "The Portal Opens", "urantia": "For Urantia readers", "
               "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "The Open Library"}
 
 esc = lambda s: html.escape(s, quote=True)
+AWARD_IMG = "https://static.wixstatic.com/media/eaef6d_6fee9686863c430c812048ab0654fdf4~mv2.jpg/v1/fit/w_640,h_640,q_85/literary-titan-silver-book-award.jpg"
 
 
 def asset_v(name):
@@ -375,7 +376,7 @@ def build_hub():
 </div></section>
 
 <section class="section"><div class="wrap award">
-<div class="badge" aria-hidden="true">Literary Titan Silver Book Award</div>
+<a class="award-img" href="#" data-link="review"><img src="{AWARD_IMG}" alt="Literary Titan Silver Book Award, The Portal Opens by Shareef Ali Rashada" width="320" height="320" loading="lazy"></a>
 <div class="text stack">
 <p class="eyebrow" style="color:#9A5F12">Literary Titan Silver Book Award · The Portal Opens</p>
 <p class="quote">“A wild, luminous ride worth taking.”</p>
@@ -451,6 +452,7 @@ def build_seekers():
 </div></div></section>
 
 <section class="band"><div class="wrap section stack" style="max-width:900px;align-items:center;text-align:center;gap:22px">
+<img class="award-img" src="{AWARD_IMG}" alt="Literary Titan Silver Book Award, The Portal Opens by Shareef Ali Rashada" width="260" height="260" loading="lazy" style="width:220px">
 <p class="eyebrow accent">Literary Titan · four stars</p>
 <p class="quote" style="font-size:clamp(2rem,4vw,3.1rem)">“A wild, luminous ride worth taking.”</p>
 <p class="lead muted" style="max-width:680px">The reviewer found the book unexpectedly moving, and recommends it to seekers, the spiritually curious, and anyone religion left with unanswered questions.</p>
