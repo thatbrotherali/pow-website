@@ -644,7 +644,7 @@ def build_music():
 <p class="lead muted">The full albums, right here. The player opens in Spotify for full tracks once you sign in; without an account it plays previews.</p></div>
 <div class="players">
 <iframe title="Music to Ease Your Mind on Spotify" src="https://open.spotify.com/embed/album/5StPIeAvJjTuzn2Y2B564R?theme=0" height="452" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-<iframe title="That Brother Ali on Spotify" src="https://open.spotify.com/embed/artist/1WTqeXUcuv0NF0EAAEgHu5?theme=0" height="452" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe title="Anthology Vol. 1 on Spotify" src="https://open.spotify.com/embed/album/73xNSeAljbQs2Dx5klSn61?theme=0" height="452" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </div>
 </div></section>
 

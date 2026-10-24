@@ -11,11 +11,11 @@ const POW_LINKS = {
   powNovelKindle: "https://www.amazon.com/dp/B0FSCJHTY8",       // Amazon Kindle link for People of the World (novel)
   powNovelPrint: "https://shop.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
   review: "https://literarytitan.com/2025/08/13/the-portal-opens/",               // Literary Titan review of The Portal Opens
-  easeApple: "",            // Music to Ease Your Mind on Apple Music
-  easeAmazon: "",           // Music to Ease Your Mind on Amazon Music
-  anthologySpotify: "",     // Anthology Vol. 1 on Spotify
-  anthologyApple: "",       // Anthology Vol. 1 on Apple Music
-  anthologyAmazon: "",      // Anthology Vol. 1 on Amazon Music
+  easeApple: "https://music.apple.com/album/598840276",            // Music to Ease Your Mind on Apple Music
+  easeAmazon: "https://www.amazon.com/dp/B00BC3CBMY",           // Music to Ease Your Mind on Amazon Music
+  anthologySpotify: "https://open.spotify.com/album/73xNSeAljbQs2Dx5klSn61",     // Anthology Vol. 1 on Spotify
+  anthologyApple: "https://music.apple.com/album/1093656214",       // Anthology Vol. 1 on Apple Music
+  anthologyAmazon: "https://www.amazon.com/music/player/albums/B01D11T1MM",      // Anthology Vol. 1 on Amazon Music
   gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
   easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
   audiobook: "",            // YouTube playlist or audio page
