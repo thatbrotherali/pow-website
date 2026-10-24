@@ -14,7 +14,7 @@ LIB_PART = "graviton-pressure-theory/full-framework/"
 GROUPS = [
     ("start", "Start here", "Short introductions to the work and the books."),
     ("deepdive", "The Deep Dive: the Unified Framework, part by part",
-     "A conversation-style walkthrough of each part of The Unified Framework for the Graviton Pressure Theory, about fifteen minutes each. Each episode also appears beside its part in the Open Library."),
+     "A conversation-style walkthrough of each part of The Unified Framework for the Graviton Pressure Theory, about fifteen minutes each, generated with Google NotebookLM's AI Audio Overview from the author's texts. Each episode also appears beside its part in the Open Library."),
     ("physics", "Gravity and the critique of General Relativity", "Stand-alone episodes on the foundations of physics."),
     ("spirit", "The Portal Opens and the New Morality", "Trailers and talks on the spiritual teachings."),
 ]
@@ -187,7 +187,7 @@ def build(B):
 {''.join(groups)}
 <section class="section band-alt" id="listen"><div class="wrap stack" style="gap:24px">
 <div class="stack intro"><h2 class="h-lg">Listen: The Deep Dive podcast</h2>
-<p class="lead muted">The Deep Dive episodes as audio, for the car, a walk or the kitchen, plus two episodes on how AI systems respond to the work.</p>
+<p class="lead muted">The Deep Dive episodes as audio, for the car, a walk or the kitchen, plus two episodes on how AI systems respond to the work. The conversations are generated with Google NotebookLM from the author's texts.</p>
 <p><a class="btn btn-outline" href="podcast.xml">Podcast feed (RSS)</a></p></div>
 <div class="audio-list">{''.join(audio_player(a) for a in AUDIO)}</div></div></section>
 <section class="section"><div class="wrap stack" style="gap:16px;max-width:820px">
@@ -261,7 +261,7 @@ def podcast_feed(site_url):
         link = f"{site_url}/videos.html#listen"
         items.append(f"""<item>
 <title>{esc(title)}</title>
-<description>{esc(audio_desc(a))}</description>
+<description>{esc(audio_desc(a))} This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
 <enclosure url="{AUDIO_BASE}{f}" length="{size}" type="audio/mpeg"/>
 <guid isPermaLink="false">pow-deep-dive-{f.split('-')[0]}</guid>
 <pubDate>{format_datetime(dt)}</pubDate>
@@ -277,7 +277,7 @@ def podcast_feed(site_url):
 <link>{site_url}/videos.html#listen</link>
 <atom:link href="{site_url}/podcast.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<description>A conversation-style walkthrough of The Unified Framework for the Graviton Pressure Theory by Shareef Ali Rashada, part by part, with episodes on how AI systems respond to the work. From People of the World. Full texts are free at {site_url}/graviton-pressure-theory/</description>
+<description>A conversation-style walkthrough of The Unified Framework for the Graviton Pressure Theory by Shareef Ali Rashada, part by part, with episodes on how AI systems respond to the work. The episodes are AI-generated conversations made with Google NotebookLM from the author's texts. From People of the World. Full texts are free at {site_url}/graviton-pressure-theory/</description>
 <itunes:author>Shareef Ali Rashada</itunes:author>
 <itunes:owner><itunes:name>Shareef Ali Rashada</itunes:name><itunes:email>shareef@peopleoftheworld.net</itunes:email></itunes:owner>
 <itunes:image href="{site_url}/assets/podcast-cover.jpg"/>
