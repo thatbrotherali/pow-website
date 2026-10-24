@@ -924,7 +924,13 @@ def build_easykey():
 </div>
 </div></section>
 
-<section id="convert" class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<section id="library" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">The EasyKey library</h2>
+<p class="lead muted">The course, a first songbook, and a songbook for every major key. Printed books, available on Amazon.</p></div>
+{easykey_library()}
+</div></section>
+
+<section id="convert" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
 <div class="stack" style="flex:2 1 460px;min-width:0">
 <p class="eyebrow accent" style="filter:brightness(.8)">The EasyKey converter · beta</p>
 <h2 class="h-lg">Any song, in EasyKey.</h2>
@@ -937,7 +943,7 @@ def build_easykey():
 <span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div></section>
 
-<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
 <h2 class="h-lg" style="flex:1 1 300px">Why it exists</h2>
 <div class="stack" style="flex:2 1 460px;min-width:0">
 <p class="lead muted">Shareef Ali Rashada taught himself piano from library books and found traditional notation slow going, even as a friend played beautifully by ear without reading a note. He started drawing songs on graph paper as pictures of the keys, and the drawings became EasyKey.</p>
@@ -1468,6 +1474,37 @@ def build_decision_game():
          body, "play", extra_head=f'<script type="application/ld+json">{ld}</script>')
 
 
+# ---------------------------------------------------------------- Amazon listings (ASINs; site.js sends Australians to amazon.com.au)
+AMAZON_BOOKS = [
+    ("1326609890", "The Portal Opens", "Paperback"), ("1326565338", "The Portal Opens", "Hardcover"), ("B0FSCJ2S5J", "The Portal Opens", "Kindle ebook"),
+    ("1447777379", "People of the World", "Paperback"), ("B0FSCJHTY8", "People of the World", "Kindle ebook"),
+    ("1326488058", "The Unified Framework for the Graviton Pressure Theory", "Hardcover"),
+]
+EASYKEY_BOOKS = [
+    ("1667192329", "Learning to Play the EasyKey Way", "The year-one course"),
+    ("1471791033", "Learning to Play the EasyKey Way", "Special Home Edition"),
+    ("1470942909", "Learning to Play the EasyKey Way", "Special Library Edition"),
+    ("1008953725", "My First Book of Songs", "38 songs in EasyKey"),
+]
+EASYKEY_SONGBOOKS = [("C", "1667172182"), ("G", "166716807X"), ("D", "1667168452"), ("A", "1667175610"), ("E", "1667168398"), ("B", "1667173847"),
+                     ("F#", "1667168142"), ("Db", "1667172174"), ("Ab", "1008978396"), ("Eb", "1667168444"), ("Bb", "1008978388"), ("F", "166716838X")]
+
+
+def amazon_a(asin, text, cls="btn btn-outline"):
+    style = ' style="margin-top:auto"' if cls.startswith("btn") else ""
+    return f'<a class="{cls}"{style} href="https://www.amazon.com/dp/{asin}" data-amazon="{asin}" target="_blank" rel="noopener">{esc(text)}</a>'
+
+
+def easykey_library():
+    books = "".join(f"""<div class="card"><span class="eyebrow muted" style="font-size:12px">{esc(ed)}</span>
+<span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span>{amazon_a(a, "View on Amazon")}</div>""" for a, t, ed in EASYKEY_BOOKS)
+    keys = "".join(f'<li>{amazon_a(a, k + " major", "key-chip")}</li>' for k, a in EASYKEY_SONGBOOKS)
+    return f"""<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))">{books}</div>
+<div class="stack" style="gap:12px"><h3 class="h-md">Songbooks in every major key</h3>
+<p class="muted">Twelve songbooks, one for each major key, to practise the scale, chords and songs of that key in EasyKey notation.</p>
+<ul class="key-chips">{keys}</ul></div>"""
+
+
 # ---------------------------------------------------------------- Shop: every product, linking to the Wix checkout
 SHOP = "https://shop.peopleoftheworld.net/product-page/"
 SHOP_GROUPS = [
@@ -1519,7 +1556,7 @@ def build_shop():
 </div></section>""")
     ld = json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": "People of the World shop",
                      "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": it} for i, it in enumerate(items_ld)]}, ensure_ascii=False)
-    body = f"""{header("Shop", "People of the World", [("Books", "#books", False, None), ("Souvenirs", "#souvenirs", False, None),
+    body = f"""{header("Shop", "People of the World", [("Books", "#books", False, None), ("Souvenirs", "#souvenirs", False, None), ("On Amazon", "#amazon", False, None),
                         ("Support the mission", "support.html", True, None)])}
 <main>
 <section class="band"><div class="wrap section" style="padding-bottom:48px">
@@ -1529,7 +1566,14 @@ def build_shop():
 <div class="actions"><a class="btn btn-door" href="#books">Books</a><a class="btn btn-ghost" href="#souvenirs">Souvenirs</a></div>
 </div></section>
 {"".join(sections)}
-<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:center">
+<section id="amazon" class="section"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">On Amazon</h2><p class="lead muted">The books are also sold on Amazon, along with the full EasyKey Music library.</p></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))">{"".join(f'<div class="card"><span class="eyebrow muted" style="font-size:12px">{esc(ed)}</span><span class="h-md" style="font-family:var(--display);font-size:21px">{esc(t)}</span>{amazon_a(a, "View on Amazon")}</div>' for a, t, ed in AMAZON_BOOKS)}</div>
+<h3 class="h-lg" style="font-size:clamp(1.6rem,3vw,2.2rem)">EasyKey Music books</h3>
+{easykey_library()}
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:center">
 <div class="stack" style="flex:2 1 420px;min-width:0"><h2 class="h-lg">Music, too</h2>
 <p class="lead muted">That Brother Ali's albums are on Spotify, Apple Music and Amazon Music.</p></div>
 <p style="flex:1 1 200px"><a class="btn btn-outline" href="music.html">Listen to the music</a></p>

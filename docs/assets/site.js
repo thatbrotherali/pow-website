@@ -12,12 +12,12 @@ const POW_LINKS = {
   powNovelPrint: "https://shop.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
   review: "https://literarytitan.com/2025/08/13/the-portal-opens/",               // Literary Titan review of The Portal Opens
   easeApple: "https://music.apple.com/album/598840276",            // Music to Ease Your Mind on Apple Music
-  easeAmazon: "https://www.amazon.com/dp/B00BC3CBMY",           // Music to Ease Your Mind on Amazon Music
+  easeAmazon: "https://music.amazon.com/albums/B00BC3CBMY",           // Music to Ease Your Mind on Amazon Music
   anthologySpotify: "https://open.spotify.com/album/73xNSeAljbQs2Dx5klSn61",     // Anthology Vol. 1 on Spotify
   anthologyApple: "https://music.apple.com/album/1093656214",       // Anthology Vol. 1 on Apple Music
   anthologyAmazon: "https://www.amazon.com/music/player/albums/B01D11T1MM",      // Anthology Vol. 1 on Amazon Music
   gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
-  easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
+  easykeyBook: "https://www.amazon.com/dp/1471791033",          // link to buy Learning to Play the EasyKey Way
   audiobook: "audiobook.html",            // YouTube playlist or audio page
   vision: "",               // full Vision document
 };
@@ -42,9 +42,16 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.replaceWith(f);
     });
   });
+  // Amazon: Australian visitors go to amazon.com.au, everyone else to amazon.com
+  const inAU = (() => { try { return /^Australia\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone) || /-AU$/i.test(navigator.language); } catch { return false; } })();
+  const amazon = url => inAU ? url.replace("https://www.amazon.com/dp/", "https://www.amazon.com.au/dp/") : url;
+  document.querySelectorAll("[data-amazon]").forEach(el => {
+    el.href = amazon("https://www.amazon.com/dp/" + el.dataset.amazon); el.target = "_blank"; el.rel = "noopener";
+  });
+
   // fill links; hide buttons whose link isn't set yet
   document.querySelectorAll("[data-link]").forEach(el => {
-    const url = POW_LINKS[el.dataset.link];
+    const url = amazon(POW_LINKS[el.dataset.link] || "");
     if (url) { el.href = /^https?:|^mailto:/.test(url) ? url : new URL(url, POW_ROOT).href; if (/^https?:/.test(url)) { el.target = "_blank"; el.rel = "noopener"; } }
     else el.hidden = true;
   });
