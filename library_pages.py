@@ -396,6 +396,7 @@ def build_machine_files(B, docs, portal_md):
         lines += [f"## {name}", ""]
         if name.startswith("Spirit"):
             lines.append(f"- [The Portal Opens]({S}/the-portal-opens.md): The complete book. Illustrated online edition: {S}/read.html")
+            lines.append(f"- [The Portal Opens audiobook]({S}/audiobook.html): The complete audiobook, 63 chapters, free to stream. Podcast feed: {S}/audiobook.xml")
             lines.append(f"- [The Portal Opens for Urantia Book readers]({S}/urantia.html): How the book relates to the Urantia Papers (which Papers each part draws on, and what it adds), where newcomers can start, and an FAQ. The book is independent and not affiliated with or endorsed by Urantia Foundation.")
         for e in items:
             lines.append(f"- [{e['title']}]({S}/{e['url']}index.md): {e['desc']}")

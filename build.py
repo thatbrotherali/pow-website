@@ -6,6 +6,7 @@ Everything in ./docs is plain HTML/CSS/JS and can be uploaded to any host (GitHu
 The free online edition of The Portal Opens is generated from src/portal.txt.
 """
 import html, re, pathlib, json
+import audiobook
 
 ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "docs"
@@ -142,7 +143,7 @@ def relink(doc, depth):
 
 
 SHARE_BY_PAGE = {"books.html": "books", "shop.html": "shop", "urantia.html": "urantia", "decision-game.html": "play",
-                 "read.html": "seekers", "glossary.html": "seekers", "ten-steps.html": "seekers", "videos.html": "site", "about.html": "site"}
+                 "read.html": "seekers", "audiobook.html": "seekers", "glossary.html": "seekers", "ten-steps.html": "seekers", "videos.html": "site", "about.html": "site"}
 
 
 def share_image(fname, door):
@@ -511,11 +512,13 @@ def build_reader():
 <article class="prose">
 <p class="eyebrow accent" style="font-family:var(--body);filter:brightness(.85)">{esc(num)}</p>
 <h1 class="h-lg" style="margin:.2em 0 .6em">{esc(title)}</h1>
+{audiobook.listen_box(f)}
 {html_body}
 {nav}
 </article>
 </div></main>
-{footer("seekers")}"""
+{footer("seekers")}
+<script src="assets/audiobook.js?v={asset_v('audiobook.js')}" defer></script>"""
         page(f + ".html", f"{title} · The Portal Opens", f"{blurb} Free online edition of The Portal Opens.", body, "seekers")
 
     # contents page with the opening transmission log
@@ -550,10 +553,12 @@ def build_reader():
 {toc_html("glossary")}
 <article class="prose"><p class="eyebrow accent" style="font-family:var(--body);filter:brightness(.85)">Reference</p>
 <h1 class="h-lg" style="margin:.2em 0 .6em">Gabriel's Glossary</h1>
+{audiobook.player([c for c in audiobook.CHAPTERS if c["n"] == 2], "glossary", "Listen to the glossary", "Read along, or just listen.", compact=True)}
 {gl_body.replace("<h2", "<h3").replace("</h2>", "</h3>")}
 <nav class="part-nav"><a href="read.html"><span>← Back</span>Contents</a><a href="read-introduction.html" style="text-align:right"><span>Start reading →</span>Introduction</a></nav>
 </article></div></main>
-{footer("seekers")}"""
+{footer("seekers")}
+<script src="assets/audiobook.js?v={asset_v('audiobook.js')}" defer></script>"""
     page("glossary.html", "Gabriel's Glossary", "The names and terms of The Portal Opens, explained in plain language.", body, "seekers")
 
     # ten steps (Part 4, Adam and Eve's final messages)
@@ -1235,7 +1240,7 @@ def build_urantia():
     start = [("glossary.html", "5 minutes", "Gabriel's Glossary", "Thirty names and terms in plain language. Keep it open in another tab."),
              ("ten-steps.html", "10 minutes", "The ten steps", "Adam and Eve's practical steps for humanity: unity, stillness, forgiveness, service and more."),
              ("read-part-1.html", "An evening", "Part 1: The Untold Story of Jesus", "The heart of it all, in one readable account."),
-             ("#listen", "On the go", "Listen instead", "Short films and audio, free. Ideal on a walk or a drive.")]
+             ("audiobook.html", "On the go", "Listen instead", "The whole book as a free audiobook, chapter by chapter. Ideal on a walk or a drive.")]
     start_html = "\n".join(f"""<a class="card" href="{h}"><span class="step-label">Step {i} · {esc(d)}</span>
 <span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
 <span class="muted" style="font-size:15px">{esc(b)}</span><span class="card-cta">Begin →</span></a>""" for i, (h, d, t, b) in enumerate(start, 1))
@@ -1251,8 +1256,8 @@ def build_urantia():
                "Ten simple steps for a better world, from The Portal Opens. Takes ten minutes."),
               ("The thinker", "Start with Part 5, Melchizedek's eleven lectures on personality and the soul.", "read-part-5.html",
                "Eleven short lectures on personality, the soul and our place in the universe."),
-              ("Someone who'd rather listen", "Start with the short films and audio, then the book.", "videos.html",
-               "Short films and audio on The Portal Opens, free to watch and listen.")]
+              ("Someone who'd rather listen", "Start with the free audiobook, chapter by chapter.", "audiobook.html",
+               "The Portal Opens as a free audiobook. Press play and it carries on from chapter to chapter.")]
     people_html = "\n".join(f"""<div class="card share-card"><span class="h-md" style="font-family:var(--display);font-size:22px">{esc(p)}</span>
 <span class="muted" style="font-size:15px">{esc(how)}</span>
 <div class="share-row"><a class="btn btn-outline" href="{h}">Preview</a><button class="btn btn-door share-btn" type="button" data-url="{S}/{h}" data-text="{esc(msg)}">Share this</button></div></div>""" for p, how, h, msg in people)
@@ -1589,6 +1594,7 @@ def build_privacy():
 
 
 if __name__ == "__main__":
+    import sys
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
     build_seekers()
@@ -1597,6 +1603,7 @@ if __name__ == "__main__":
     build_shop()
     build_privacy()
     sections, nsteps = build_reader()
+    audiobook.build(sys.modules[__name__])
     build_placeholders()
     build_science()
     build_easykey()

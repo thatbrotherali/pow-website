@@ -18,7 +18,7 @@ const POW_LINKS = {
   anthologyAmazon: "https://www.amazon.com/music/player/albums/B01D11T1MM",      // Anthology Vol. 1 on Amazon Music
   gptBook: "https://shop.peopleoftheworld.net/product-page/the-unified-framework-for-the-graviton-pressure-theory",              // Lulu link for The Unified Framework for the Graviton Pressure Theory
   easykeyBook: "",          // link to buy Learning to Play the EasyKey Way
-  audiobook: "",            // YouTube playlist or audio page
+  audiobook: "audiobook.html",            // YouTube playlist or audio page
   vision: "",               // full Vision document
 };
 // Email sign-up: the MailerLite "Website sign-up" form (adds people to the Weekly teaching group).
