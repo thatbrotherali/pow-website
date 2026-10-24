@@ -6,6 +6,8 @@ and an audiobook feed (audiobook.xml) for Apple Podcasts, Spotify and other podc
 import html, json
 
 BASE = "https://music.wixstatic.com/preview/eaef6d_"
+SPOTIFY = "https://open.spotify.com/show/4mbPbSoIJoTfMz2q2OU698"
+APPLE = ""  # Apple Podcasts link, once approved
 ALBUM_COVER = "https://static.wixstatic.com/media/eaef6d_3fca3780afcc4598987553973bbb8e43~mv2.jpg"
 RAW = """01|Opening|29ba90e4fb734a92975622c571f76100|02:15|808137
 02|Gabriel's Glossary|7988b571de904125b2f294951bb9d5bc|15:02|5413482
@@ -139,7 +141,7 @@ def jsonld(site_url):
                        "author": {"@type": "Person", "name": "Shareef Ali Rashada", "@id": f"{site_url}/about.html#shareef"},
                        "inLanguage": "en", "isAccessibleForFree": True,
                        "duration": f"PT{TOTAL // 3600}H{TOTAL % 3600 // 60}M", "url": f"{site_url}/audiobook.html",
-                       "image": f"{site_url}/assets/audiobook-cover.jpg", "isbn": "9781326565336",
+                       "image": f"{site_url}/assets/audiobook-cover.jpg", "sameAs": [u for u in (SPOTIFY, APPLE) if u], "isbn": "9781326565336",
                        "hasPart": [{"@type": "AudioObject", "name": f'{c["n"]}. {c["t"]}', "contentUrl": c["u"],
                                     "encodingFormat": "audio/mpeg", "duration": f'PT{c["s"] // 60}M{c["s"] % 60}S'} for c in CHAPTERS]},
                       ensure_ascii=False)
@@ -206,13 +208,13 @@ def build(B):
 <h1 class="h-xl">Listen to The Portal Opens.</h1>
 <p class="lead muted" style="max-width:620px">The complete book in 63 chapters, {hm(TOTAL)} in all. Press play and it carries on from chapter to chapter, and remembers where you stopped.</p>
 <p class="muted" style="font-size:14px">Narrated with an AI voice (ElevenLabs).</p>
-<div class="actions"><a class="btn btn-door" href="#player">Start listening</a><a class="btn btn-ghost" href="read.html">Read along</a></div>
+<div class="actions"><a class="btn btn-door" href="#player">Start listening</a><a class="btn btn-ghost" href="{SPOTIFY}" target="_blank" rel="noopener">Listen on Spotify</a>{f'<a class="btn btn-ghost" href="{APPLE}" target="_blank" rel="noopener">Apple Podcasts</a>' if APPLE else ''}<a class="btn btn-ghost" href="read.html">Read along</a></div>
 </div>
 <img class="ab-cover" src="assets/cover-portal.webp" alt="Cover of The Portal Opens" width="200" height="300" style="flex:0 0 auto;width:200px;height:auto;border-radius:10px;box-shadow:0 18px 50px rgba(0,0,0,.35)">
 </div></section>
 <section id="player" class="section"><div class="wrap stack" style="gap:28px">
 {player(CHAPTERS, "audiobook", "The Portal Opens · complete audiobook")}
-<p class="muted" style="font-size:14.5px">Prefer a podcast app? Add the audiobook feed to any podcast player: <code>{B.SITE_URL}/audiobook.xml</code></p>
+<p class="muted" style="font-size:14.5px">Prefer an app? Follow it on <a href="{SPOTIFY}" target="_blank" rel="noopener" style="font-weight:600">Spotify</a>{f', <a href="{APPLE}" target="_blank" rel="noopener" style="font-weight:600">Apple Podcasts</a>' if APPLE else ''}, or add the feed to any podcast player: <code>{B.SITE_URL}/audiobook.xml</code></p>
 </div></section>
 <section class="section band-alt"><div class="wrap stack" style="gap:28px">
 <div class="stack intro"><h2 class="h-lg">Read and listen, part by part</h2>
