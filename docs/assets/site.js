@@ -7,8 +7,8 @@ const POW_LINKS = {
   donate: "https://shop.peopleoftheworld.net/donations-1",               // donation payment link (Stripe, PayPal or Wix)
   portalPaperback: "https://shop.peopleoftheworld.net/product-page/the-portal-opens",      // Wix shop or Lulu link for The Portal Opens paperback
   portalHardcover: "https://shop.peopleoftheworld.net/product-page/the-portal-opens-hardback",      // Lulu link for the hardcover
-  portalKindle: "",         // Amazon Kindle link for The Portal Opens
-  powNovelKindle: "",       // Amazon Kindle link for People of the World (novel)
+  portalKindle: "https://www.amazon.com/dp/B0FSCJ2S5J",         // Amazon Kindle link for The Portal Opens
+  powNovelKindle: "https://www.amazon.com/dp/B0FSCJHTY8",       // Amazon Kindle link for People of the World (novel)
   powNovelPrint: "https://shop.peopleoftheworld.net/product-page/people-of-the-world-1",        // Lulu link for People of the World (novel)
   review: "https://literarytitan.com/2025/08/13/the-portal-opens/",               // Literary Titan review of The Portal Opens
   easeApple: "",            // Music to Ease Your Mind on Apple Music
