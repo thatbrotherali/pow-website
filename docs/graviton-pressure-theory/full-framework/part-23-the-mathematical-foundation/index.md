@@ -4,7 +4,9 @@
 
 By Shareef Ali Rashada
 
-Graviton Pressure Theory (GPT) advances gravitational understanding beyond the abstract curvature of spacetime by grounding gravity in anisotropic pressure gradients of a real, directional graviton field. This section establishes the mathematical and empirical basis of GPT, detailing the equations that govern graviton pressure dynamics and their effects on time dilation[^1], orbital mechanics, gravitational lensing, and frame-dragging. GPT redefines these phenomena as interactions within a pressurized medium, offering causal clarity and predictive precision. GPT departs from General Relativity’s abstract geometries and introduces testable mechanisms with explicit field interactions and measurable responses. A suite of proposed experiments—spanning particle decay, gravitational redshift, wave detection, biological entrainment, and accelerator physics— demonstrates the theory’s empirical viability. These experiments serve to validate GPT’s testable claims while also expanding the frontier of gravitational science, integrating physics, biology, and cosmology into a coherent, measurable framework of interaction.
+> Editor's corrections (October 2026): Force law: m∇P_g has units of kg·N/m³, not newtons. A pressure gradient is a force per unit volume, so the acceleration is a = −∇P_g/ρ_g and the force F = −(m/ρ_g)∇P_g. The orbital and dimensional statements now follow this. Clock rate: in this part bodies move toward lower P_g, so P_g is lower near a mass and the clock rate is √(P_g/P₀); written as √(1 − P_g/P₀) clocks would run fastest in free space. The exponential form gave e⁻¹ in free space instead of 1; it now matches. Redshift: Δλ/λ₀ = √(P_g/P₀) would give a 100% shift with no field. It is now √(P₀/P_g) − 1, which is zero without a field and positive for light climbing out. Light deflection: dividing by photon energy gave the wrong units, and the gradient along the path does not bend a ray. The deflection now uses the gradient across the path of the index n = P₀/P_g.
+
+Graviton Pressure Theory (GPT) advances gravitational understanding beyond the abstract curvature of spacetime by grounding gravity in anisotropic pressure gradients of a real, directional graviton field. This section establishes the mathematical and empirical basis of GPT, detailing the equations that govern graviton pressure dynamics and their effects on time dilation<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a>, orbital mechanics, gravitational lensing, and frame-dragging. GPT redefines these phenomena as interactions within a pressurized medium, offering causal clarity and predictive precision. GPT departs from General Relativity’s abstract geometries and introduces testable mechanisms with explicit field interactions and measurable responses. A suite of proposed experiments—spanning particle decay, gravitational redshift, wave detection, biological entrainment, and accelerator physics— demonstrates the theory’s empirical viability. These experiments serve to validate GPT’s testable claims while also expanding the frontier of gravitational science, integrating physics, biology, and cosmology into a coherent, measurable framework of interaction.
 
 ## Introduction
 
@@ -12,85 +14,85 @@ Graviton Pressure Theory (GPT) distinguishes itself not only by its conceptual a
 
 ### Graviton Pressure Gradient Equations
 
-The fundamental force described by GPT arises from anisotropic pressure gradients in the graviton field. The local gravitational force experienced by a body of mass [^2] $m$ is the result of a directional differential in graviton pressure: $$\vec{F} = -m \cdot \nabla P_g$$
+The fundamental force described by GPT arises from anisotropic pressure gradients in the graviton field. The local gravitational force experienced by a body of mass <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> <span class="math inline">\\m\\</span> is the result of a directional differential in graviton pressure: <span class="math display">\\\vec{F} = -\frac{m}{\rho_g} \nabla P_g\\</span>
 
 Where:
 
-- $\vec{F}$ = gravitational force vector
+- <span class="math inline">\\\vec{F}\\</span> = gravitational force vector
 
-- $m$ = inertial mass of the object
+- <span class="math inline">\\m\\</span> = inertial mass of the object
 
-- $\nabla P_g$ = spatial gradient of graviton pressure
+- <span class="math inline">\\\nabla P_g\\</span> = spatial gradient of graviton pressure
 
-This replaces the curvature tensor of GR with a directional, field-theoretic model rooted in quantifiable pressure differentials. The direction and magnitude of $\nabla P_g$ determine both the trajectory and acceleration profile of an object within the field.
+This replaces the curvature tensor of GR with a directional, field-theoretic model rooted in quantifiable pressure differentials. The direction and magnitude of <span class="math inline">\\\nabla P_g\\</span> determine both the trajectory and acceleration profile of an object within the field.
 
-To account for non-uniform field densities, a pressure field tensor can be introduced: $$G_{ij} = \partial_i P_g^j - \partial_j P_g^i$$
+To account for non-uniform field densities, a pressure field tensor can be introduced: <span class="math display">\\G\_{ij} = \partial_i P_g^j - \partial_j P_g^i\\</span>
 
-Where $G_{ij}$ represents the local graviton pressure field tension, providing localized analogues to curl and divergence dynamics in compressible vector fields. This formulation supports localized modeling of complex interactions such as multi-body systems, edge field interference, and dynamic environmental perturbations.
+Where <span class="math inline">\\G\_{ij}\\</span> represents the local graviton pressure field tension, providing localized analogues to curl and divergence dynamics in compressible vector fields. This formulation supports localized modeling of complex interactions such as multi-body systems, edge field interference, and dynamic environmental perturbations.
 
 ### Gravitational Lensing and Orbital Mechanics
 
 ### Gravitational Lensing
 
-Under GPT, light is deflected not by curved spacetime, but by gradients in graviton pressure that alter the energy-momentum vector of photons: $$\Delta \theta = \int \frac{1}{E} \left( \nabla P_g \cdot \hat{n} \right) \, ds$$
+Under GPT, light is deflected not by curved spacetime, but by gradients in graviton pressure that alter the energy-momentum vector of photons: <span class="math display">\\\Delta \theta = \int \left\| \nabla\_{\perp}\\ \frac{P_0}{P_g} \right\| ds\\</span>
 
 Where:
 
-- $\Delta \theta$ = angular deflection
+- <span class="math inline">\\\Delta \theta\\</span> = angular deflection
 
-- $E$ = photon energy
+- <span class="math inline">\\\nabla\_{\perp}\\</span> = gradient across the photon's path (the index is <span class="math inline">\\n = P_0/P_g\\</span>)
 
-- $\hat{n}$ = photon travel direction
+- <span class="math inline">\\\hat{n}\\</span> = photon travel direction
 
-- $ds$ = differential path element
+- <span class="math inline">\\ds\\</span> = differential path element
 
 Light behaves as if traversing a refractive index gradient, with graviton pressure acting analogously to optical density.
 
 ### Orbital Mechanics
 
-In orbital systems, GPT redefines centripetal equilibrium by pressure balance rather than curvature: $$m \cdot a = -m \cdot \nabla P_g \quad \Rightarrow \quad a = -\nabla P_g$$
+In orbital systems, GPT redefines centripetal equilibrium by pressure balance rather than curvature: <span class="math display">\\m \cdot a = -\frac{m}{\rho_g} \nabla P_g \quad \Rightarrow \quad a = -\frac{1}{\rho_g}\nabla P_g\\</span>
 
-For stable orbits: $$\frac{v^2}{r} = \left| \nabla P_g \right|$$
+For stable orbits: <span class="math display">\\\frac{v^2}{r} = \frac{1}{\rho_g}\left\| \nabla P_g \right\|\\</span>
 
 Where:
 
-- $v$ = orbital velocity
+- <span class="math inline">\\v\\</span> = orbital velocity
 
-- $r$ = orbital radius
+- <span class="math inline">\\r\\</span> = orbital radius
 
 This formulation accurately reproduces Newtonian and Keplerian results under low-pressure gradients but diverges under extreme conditions, yielding new testable outcomes.
 
 ### Time Dilation Equations in GPT
 
-Time dilation in GPT arises from graviton pressure interfering with internal process rates: $$d\tau = dt \cdot \sqrt{1 - \frac{P_g}{P_0}}$$
+Time dilation in GPT arises from graviton pressure interfering with internal process rates: <span class="math display">\\d\tau = dt \cdot \sqrt{\frac{P_g}{P_0}}\\</span>
 
 Where:
 
-- $d\tau$ = proper time in graviton-dense environment
+- <span class="math inline">\\d\tau\\</span> = proper time in graviton-dense environment
 
-- $dt$ = coordinate time in baseline field
+- <span class="math inline">\\dt\\</span> = coordinate time in baseline field
 
-- $P_g$ = local graviton pressure
+- <span class="math inline">\\P_g\\</span> = local graviton pressure
 
-- $P_0$ = reference pressure in free space
+- <span class="math inline">\\P_0\\</span> = reference pressure in free space
 
-In dynamic fields: $$d\tau = dt \cdot \sqrt{1 - \frac{P_g(t)}{P_0}}$$
+In dynamic fields: <span class="math display">\\d\tau = dt \cdot \sqrt{\frac{P_g(t)}{P_0}}\\</span>
 
 This equation allows GPT to accommodate environments like near-black-hole regions or during violent gravitational disruptions, predicting nonlinear time behaviors absent in GR.
 
 ### Frame-Dragging and Graviton Flow
 
-Frame-dragging effects in GPT emerge from directional graviton flow induced by rotating bodies. Let $\vec{v}_g$ represent the local graviton velocity vector. The resulting field-induced rotational inertia is described by: $$\vec{F}_{\text{drag}} = m \cdot (\vec{v}_g \times \vec{\omega})$$
+Frame-dragging effects in GPT emerge from directional graviton flow induced by rotating bodies. Let <span class="math inline">\\\vec{v}\_g\\</span> represent the local graviton velocity vector. The resulting field-induced rotational inertia is described by: <span class="math display">\\\vec{F}\_{\text{drag}} = m \cdot (\vec{v}\_g \times \vec{\omega})\\</span>
 
 Where:
 
-- $\vec{\omega}$ = angular velocity vector of the massive body
+- <span class="math inline">\\\vec{\omega}\\</span> = angular velocity vector of the massive body
 
-- $\vec{v}_g$ = induced graviton flow velocity at the observation point
+- <span class="math inline">\\\vec{v}\_g\\</span> = induced graviton flow velocity at the observation point
 
 Graviton streams are redirected around rotating masses, creating tangential pressure differentials. These induce frame-dragging effects consistent with experimental results from LAGEOS and Gravity Probe B.
 
-Field curl and vorticity condition: $$\nabla \times \vec{v}_g \neq 0 \quad \Rightarrow \quad \text{rotational graviton inertia present}$$
+Field curl and vorticity condition: <span class="math display">\\\nabla \times \vec{v}\_g \neq 0 \quad \Rightarrow \quad \text{rotational graviton inertia present}\\</span>
 
 This establishes frame-dragging not as geometric twisting but as inertial field deformation driven by vectorial graviton dynamics.
 
@@ -134,13 +136,13 @@ GPT provides a physically intuitive mechanism for gravitational redshift: photon
 
 #### GPT Redshift Equation:
 
-$$\frac{\Delta \lambda}{\lambda_0} = \sqrt{\frac{P_g}{P_0}}$$ Where:
+<span class="math display">\\\frac{\Delta \lambda}{\lambda_0} = \sqrt{\frac{P_0}{P_g}} - 1\\</span> Where:
 
-- $\lambda_0$ is the photon’s emission wavelength,
+- <span class="math inline">\\\lambda_0\\</span> is the photon’s emission wavelength,
 
-- $P_g$ is the local graviton pressure at emission,
+- <span class="math inline">\\P_g\\</span> is the local graviton pressure at emission,
 
-- $P_0$ is the graviton pressure at detection.
+- <span class="math inline">\\P_0\\</span> is the graviton pressure at detection.
 
 #### Experimental Targets:
 
@@ -254,7 +256,7 @@ To explore the relationship between graviton pressure cycles and biological timi
 
 - Track gene expression, circadian hormone cycles, and cellular metabolism relative to gravitational cycles and orbit geometries.
 
-- Use controlled environments to isolate graviton pressure from light and magnetism [^3] as confounding variables.
+- Use controlled environments to isolate graviton pressure from light and magnetism <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> as confounding variables.
 
 ### Expected Results
 
@@ -296,17 +298,17 @@ To test for energy deviation, beam coherence, and decay anomalies in particle st
 
 ### Dimensional Coherence and Field Propagation
 
-To maintain physical clarity and scientific rigor, all equations within GPT are dimensionally grounded. The graviton pressure field $P_g$ is defined in units of force per area (Pa or N/m<sup>2</sup>). Gradients such as $\nabla P_g$ carry units of N/m<sup>3</sup>, and the force vector $\vec{F} = -m \cdot \nabla P_g$ thus has units of N, as expected.
+To maintain physical clarity and scientific rigor, all equations within GPT are dimensionally grounded. The graviton pressure field <span class="math inline">\\P_g\\</span> is defined in units of force per area (Pa or N/m<sup>2</sup>). Gradients such as <span class="math inline">\\\nabla P_g\\</span> carry units of N/m<sup>3</sup>, the acceleration <span class="math inline">\\a = -\nabla P_g/\rho_g\\</span> has units of m/s² (with <span class="math inline">\\\rho_g\\</span> in kg/m³), and the force <span class="math inline">\\\vec{F} = -(m/\rho_g)\nabla P_g\\</span> has units of N, as expected.
 
 Further, to model field propagation and dynamical evolution of graviton pressure, we propose the following field equation analogous to wave propagation:
 
-$$\frac{\partial^2 P_g}{\partial t^2} - c_g^2 \nabla^2 P_g = S(x, t)$$
+<span class="math display">\\\frac{\partial^2 P_g}{\partial t^2} - c_g^2 \nabla^2 P_g = S(x, t)\\</span>
 
 Where:
 
-- $c_g$ is the characteristic velocity of graviton pressure propagation (postulated to approach or exceed the speed of light).
+- <span class="math inline">\\c_g\\</span> is the characteristic velocity of graviton pressure propagation (postulated to approach or exceed the speed of light).
 
-- $S(x, t)$ is the source term representing the emergence or disappearance of gravitons [^4] due to coherent matter interaction.
+- <span class="math inline">\\S(x, t)\\</span> is the source term representing the emergence or disappearance of gravitons <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> due to coherent matter interaction.
 
 This equation frames GPT as a dynamical field theory capable of evolving, transmitting, and absorbing structure over time.
 
@@ -314,15 +316,15 @@ This equation frames GPT as a dynamical field theory capable of evolving, transm
 
 In GPT, time dilation is not a byproduct of geometry but a direct result of graviton field pressure. Local time experienced by a clock immersed in a graviton field is modulated by the ambient pressure:
 
-$$\frac{d\tau}{dt} = \exp\left(-\frac{P_g}{P_0}\right)$$
+<span class="math display">\\\frac{d\tau}{dt} = \sqrt{\frac{P_g}{P_0}} \approx \exp\left(-\frac{P_0 - P_g}{2P_0}\right)\\</span>
 
 Where:
 
-- $\tau$ is the proper time experienced by the clock,
+- <span class="math inline">\\\tau\\</span> is the proper time experienced by the clock,
 
-- $t$ is coordinate time,
+- <span class="math inline">\\t\\</span> is coordinate time,
 
-- $P_0$ is a reference pressure (e.g., vacuum baseline).
+- <span class="math inline">\\P_0\\</span> is a reference pressure (e.g., vacuum baseline).
 
 Higher graviton pressure correlates to slower proper time, explaining gravitational time dilation with mechanistic fidelity.
 
@@ -330,9 +332,9 @@ Higher graviton pressure correlates to slower proper time, explaining gravitatio
 
 While photons lack rest mass, GPT frames their trajectory as influenced by graviton field gradients due to energy-momentum coupling. The graviton pressure field modifies the effective path via refractive bending, not force application:
 
-$$\vec{k}_{\text{new}} = \vec{k}_{\text{initial}} + \int \frac{1}{E} \left( \nabla P_g \times \vec{v}_{\gamma} \right) ds$$
+<span class="math display">\\\vec{k}\_{\text{new}} = \vec{k}\_{\text{initial}} + \left\|\vec{k}\right\| \int \nabla\_{\perp}\\\left(\frac{P_0}{P_g}\right) ds\\</span>
 
-Here, $\vec{k}$ is the photon’s wave vector, and the cross product reflects lateral redirection due to structured anisotropy.
+Here, <span class="math inline">\\\vec{k}\\</span> is the photon’s wave vector, and the perpendicular gradient of the index turns the wave vector sideways.
 
 ## Conclusion: Establishing the Measurable Foundations of Gravitational Truth
 
@@ -350,13 +352,31 @@ Together, these formulations and proposed tests form the backbone of GPT’s leg
 
 **The path ahead is not curved. It is pressurized. And it is measurable.**  
 
-[^1]: See Part 18 – The Nature of Time for coherence-based refresh.
+------------------------------------------------------------------------
 
-[^2]: See Part 17 – The Definition of Mass for field resistance and interaction.
+1.  <div id="fn1">
 
-[^3]: See Part 21 – Magnetism as Gravimetric Resonance for correlated field alignments.
+    See Part 18 – The Nature of Time for coherence-based refresh.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: See Part 15 – Gravitons for core quantized field unit.
+    </div>
+
+2.  <div id="fn2">
+
+    See Part 17 – The Definition of Mass for field resistance and interaction.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+3.  <div id="fn3">
+
+    See Part 21 – Magnetism as Gravimetric Resonance for correlated field alignments.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+4.  <div id="fn4">
+
+    See Part 15 – Gravitons for core quantized field unit.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/

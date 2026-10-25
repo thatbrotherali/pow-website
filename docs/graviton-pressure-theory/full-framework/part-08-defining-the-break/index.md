@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): In this part P_g is used in the sense that is higher near a mass. On that reading a body is carried toward higher P_g, so the force law and the frame-dragging law now have a plus sign and the density ρ_g that turns a pressure gradient into an acceleration. Earth and orbit clocks: the ratio was inverted, which would make the ground clock run fast. It is now √(P_orbit/P_Earth) − 1, negative like the GR expression above it. Refractive index: n ∝ √P_g would vanish far from mass; it is now n = P_g/P₀, which goes to 1 in free space and gives the full measured deflection. Frame-dragging: a curl needs a vector field; it now uses the graviton flow velocity u_g, so P_g stays a scalar.
+
 General Relativity (GR), while historically transformative, remains structurally incomplete and causally opaque. It offers no physical mechanism for gravity, relies on abstract curvature without substance, and collapses under scrutiny in domains demanding force-based explanations. The Graviton Pressure Theory (GPT) is presented here as a coherent, mechanistic, and testable replacement for GR. Unlike GR, GPT does not defer to metaphor or approximation—it offers explicit pressure-field causality, medium-based wave transmission, and structural coherence. This paper examines GR’s philosophical and mechanical failures, presents GPT as a total replacement, and outlines the future of gravitational science through the lens of structure, coherence, and field interaction. The break is not cosmetic—it is foundational, final, and necessary for the restoration of causality in physics.
 
 ## Introduction and Purpose
@@ -22,7 +24,7 @@ Graviton Pressure Theory (GPT) is that frontier. GPT does not describe gravity a
 
 This document takes the position that GR and GPT are not reconcilable. They are not two versions of the same truth. They are fundamentally different descriptions of reality—and only one can reflect the actual mechanics of the universe.
 
-Furthermore, this evaluation must occur without the distortion of Newtonian [^1] crutches. GR explicitly replaces Newton’s law of gravity; it claims that gravity is not a force, but a geometric property of spacetime. Yet when pressed, defenders of GR regularly defer to Newtonian approximations to salvage predictive accuracy. This is unacceptable. If GR is a self-contained theory, it must stand or fall on its own claims. It must not be allowed to borrow from the very framework it was designed to replace.
+Furthermore, this evaluation must occur without the distortion of Newtonian <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> crutches. GR explicitly replaces Newton’s law of gravity; it claims that gravity is not a force, but a geometric property of spacetime. Yet when pressed, defenders of GR regularly defer to Newtonian approximations to salvage predictive accuracy. This is unacceptable. If GR is a self-contained theory, it must stand or fall on its own claims. It must not be allowed to borrow from the very framework it was designed to replace.
 
 Our evaluative standard is clear: If a theory cannot explain observable phenomena using its own assumptions, it is not a viable framework. If it must import causal language from another paradigm to maintain coherence, it is no longer physics—it is philosophy dressed in equations.
 
@@ -104,7 +106,7 @@ Orbital dynamics, encompassing phenomena such as planetary precession and galact
 
 ### Planetary Precession
 
-Under General Relativity, planetary precession—such as the well-known perihelion precession of Mercury—is explained through geometric curvature of spacetime around massive bodies[^2]. GR suggests that spacetime curvature modifies elliptical orbits over time, resulting in observed precessional shifts.
+Under General Relativity, planetary precession—such as the well-known perihelion precession of Mercury—is explained through geometric curvature of spacetime around massive bodies<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a>. GR suggests that spacetime curvature modifies elliptical orbits over time, resulting in observed precessional shifts.
 
 GPT provides an entirely mechanistic explanation: graviton pressure fields are anisotropic and dynamic, influenced by planetary rotations, orbital resonance, and structural interactions with stellar and interplanetary graviton fields.
 
@@ -148,37 +150,37 @@ To fully appreciate the divergence between General Relativity (GR) and Graviton 
 
 **General Relativity Approach:**
 
-Under GR, planetary precession, such as Mercury’s perihelion shift[^3], is calculated using the Schwarzschild metric[^4], derived from Einstein’s field equations: $$\frac{d^2 u}{d\phi^2} + u = \frac{GM}{h^2} + \frac{3GMu^2}{c^2}$$
+Under GR, planetary precession, such as Mercury’s perihelion shift<a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a>, is calculated using the Schwarzschild metric<a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a>, derived from Einstein’s field equations: <span class="math display">\\\frac{d^2 u}{d\phi^2} + u = \frac{GM}{h^2} + \frac{3GMu^2}{c^2}\\</span>
 
 where:
 
-- $u = 1/r$ is the reciprocal of the orbital radius,
+- <span class="math inline">\\u = 1/r\\</span> is the reciprocal of the orbital radius,
 
-- $G$ is the gravitational constant,
+- <span class="math inline">\\G\\</span> is the gravitational constant,
 
-- $M$ is the mass of the central object (e.g., the Sun),
+- <span class="math inline">\\M\\</span> is the mass of the central object (e.g., the Sun),
 
-- $h$ is the specific angular momentum of the orbiting body,
+- <span class="math inline">\\h\\</span> is the specific angular momentum of the orbiting body,
 
-- $c$ is the speed of light.
+- <span class="math inline">\\c\\</span> is the speed of light.
 
 The solution produces precession predictions aligning with observations for Mercury. However, it lacks a clear physical mechanism to explain how spacetime curvature induces orbital shifts.
 
 **GPT Approach:**
 
-GPT replaces geometric abstraction with a force-based mechanism. Graviton pressure gradients establish explicit interactions: $$F_{gpt} = -\nabla P_g$$
+GPT replaces geometric abstraction with a force-based mechanism. Graviton pressure gradients establish explicit interactions: <span class="math display">\\\vec{a}\_{gpt} = \frac{1}{\rho_g}\nabla P_g\\</span>
 
 where:
 
-- $F_{gpt}$ is the gravitational force vector due to graviton pressure,
+- <span class="math inline">\\F\_{gpt}\\</span> is the gravitational force vector due to graviton pressure,
 
-- $P_g$ represents the local graviton pressure field.
+- <span class="math inline">\\P_g\\</span> represents the local graviton pressure field.
 
 Orbital precession arises naturally from slight asymmetries and periodic variations in the graviton pressure field, influenced by planetary rotation, orbital resonance, and solar graviton emission patterns.
 
-**Practical Example: Mercury’s Perihelion Precession**[^5]
+**Practical Example: Mercury’s Perihelion Precession**<a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a>
 
-- **GR Prediction:** $43$ arcseconds per century, matching observations but without causal clarity.
+- **GR Prediction:** <span class="math inline">\\43\\</span> arcseconds per century, matching observations but without causal clarity.
 
 - **GPT Prediction:** Comparable predictive accuracy derived from measurable graviton pressure distributions and resonant dynamics.
 
@@ -186,19 +188,19 @@ Orbital precession arises naturally from slight asymmetries and periodic variati
 
 **General Relativity and Dark Matter Approach:**
 
-GR, supplemented by Newtonian approximations, describes stellar orbital velocity as: $$v(r) = \sqrt{\frac{GM(r)}{r}}$$
+GR, supplemented by Newtonian approximations, describes stellar orbital velocity as: <span class="math display">\\v(r) = \sqrt{\frac{GM(r)}{r}}\\</span>
 
-where $M(r)$ includes visible mass and hypothetical dark matter. To account for flat rotation curves, GR-based models introduce dark matter halos.
+where <span class="math inline">\\M(r)\\</span> includes visible mass and hypothetical dark matter. To account for flat rotation curves, GR-based models introduce dark matter halos.
 
 **GPT Approach:**
 
-GPT explains stellar velocities via graviton pressure gradients: $$v(r) = \sqrt{\frac{r \nabla P_g}{\rho}}$$
+GPT explains stellar velocities via graviton pressure gradients: <span class="math display">\\v(r) = \sqrt{\frac{r \nabla P_g}{\rho}}\\</span>
 
 where:
 
-- $\rho$ is the local stellar mass density,
+- <span class="math inline">\\\rho\\</span> is the local stellar mass density,
 
-- $\nabla P_g$ is the graviton pressure gradient shaped by galactic structure.
+- <span class="math inline">\\\nabla P_g\\</span> is the graviton pressure gradient shaped by galactic structure.
 
 **Practical Example: Galaxy Rotation Curves**
 
@@ -240,19 +242,19 @@ Time dilation—variations in measured time intervals due to gravitational field
 
 ### General Relativity’s Gravitational Potential Model
 
-Under GR, time dilation near a massive body follows directly from gravitational potential differences. The fundamental equation describing gravitational time dilation is derived from Schwarzschild’s solution to Einstein’s field equations[^6]: $$\frac{d\tau}{dt} = \sqrt{1 - \frac{2GM}{rc^2}}$$ where:
+Under GR, time dilation near a massive body follows directly from gravitational potential differences. The fundamental equation describing gravitational time dilation is derived from Schwarzschild’s solution to Einstein’s field equations<a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a>: <span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{2GM}{rc^2}}\\</span> where:
 
-- $\tau$ is the proper time interval (local clock measurement).
+- <span class="math inline">\\\tau\\</span> is the proper time interval (local clock measurement).
 
-- $t$ is the coordinate time interval measured far from the gravitational field.
+- <span class="math inline">\\t\\</span> is the coordinate time interval measured far from the gravitational field.
 
-- $G$ is the gravitational constant.
+- <span class="math inline">\\G\\</span> is the gravitational constant.
 
-- $M$ is the mass of the gravitational body.
+- <span class="math inline">\\M\\</span> is the mass of the gravitational body.
 
-- $r$ is the radial distance from the gravitational center.
+- <span class="math inline">\\r\\</span> is the radial distance from the gravitational center.
 
-- $c$ is the speed of light.
+- <span class="math inline">\\c\\</span> is the speed of light.
 
 This formulation successfully predicts clock rate variations near massive bodies (e.g., Earth’s gravitational field) but relies exclusively on geometry without an explicit causal mechanism for how gravitational potential affects clock rates physically.
 
@@ -262,11 +264,11 @@ GPT replaces geometric abstraction with measurable graviton pressure fields inte
 
 ### Pressure-Based Causal Counterparts
 
-In GPT, gravitational time dilation is explicitly described through local graviton pressure resistance and coherence: $$\frac{d\tau}{dt} = \sqrt{\frac{P_0}{P_g}}$$ where:
+In GPT, gravitational time dilation is explicitly described through local graviton pressure resistance and coherence: <span class="math display">\\\frac{d\tau}{dt} = \sqrt{\frac{P_0}{P_g}}\\</span> where:
 
-- $P_0$ represents reference graviton pressure (baseline or far-field pressure).
+- <span class="math inline">\\P_0\\</span> represents reference graviton pressure (baseline or far-field pressure).
 
-- $P_g$ is the local graviton pressure at the point of measurement.
+- <span class="math inline">\\P_g\\</span> is the local graviton pressure at the point of measurement.
 
 ### Pressure-Based Causal Counterparts
 
@@ -276,9 +278,9 @@ In GPT, matter interacts actively with graviton fields through structured atomic
 
 Consider the Global Positioning System (GPS). Atomic clocks on satellites run faster relative to Earth-bound clocks, requiring precise corrections:
 
-- **GR Explanation:** $$\Delta t_{GR} = t \left( \sqrt{1 - \frac{2GM}{r_{Earth} c^2}} - \sqrt{1 - \frac{2GM}{r_{Orbit} c^2}} \right)$$
+- **GR Explanation:** <span class="math display">\\\Delta t\_{GR} = t \left( \sqrt{1 - \frac{2GM}{r\_{Earth} c^2}} - \sqrt{1 - \frac{2GM}{r\_{Orbit} c^2}} \right)\\</span>
 
-- **GPT Explanation:** $$\Delta t_{GPT} = t \left( \sqrt{\frac{P_{Earth}}{P_{Orbit}}} - 1 \right)$$
+- **GPT Explanation:** <span class="math display">\\\Delta t\_{GPT} = t \left( \sqrt{\frac{P\_{Orbit}}{P\_{Earth}}} - 1 \right)\\</span>
 
 Both models align with observed data. However, GPT provides explicit physical causation: clock rates change due to measurable variations in graviton pressure and structured resonances.
 
@@ -288,7 +290,7 @@ Both models align with observed data. However, GPT provides explicit physical ca
 
 - **GR Limitation:** GR cannot explain coherence-dependent time modulations. It lacks mechanisms for local coherence or field structure influences.
 
-- **GPT Explanation:** GPT predicts coherence-dependent modulation: $$\Delta t_{Coherence} = t \left( \sqrt{\frac{P_{Coherent}}{P_{Baseline}}} - 1 \right)$$ where $P_{Coherent}$ represents graviton pressure modulated by electromagnetic coherence interactions.
+- **GPT Explanation:** GPT predicts coherence-dependent modulation: <span class="math display">\\\Delta t\_{Coherence} = t \left( \sqrt{\frac{P\_{Coherent}}{P\_{Baseline}}} - 1 \right)\\</span> where <span class="math inline">\\P\_{Coherent}\\</span> represents graviton pressure modulated by electromagnetic coherence interactions.
 
 ### Empirical Validation and Testability
 
@@ -318,23 +320,23 @@ Gravitational lensing, light bending around massive bodies is frequently cited a
 
 ### General Relativity’s Spacetime Curvature Model
 
-GR attributes gravitational lensing to spacetime curvature around massive objects. According to Einsteins field equations[^7], mass-energy distributions warp spacetime, causing photons traveling through these curved regions to follow curved geodesic paths. The angle of deflection $\alpha$ for light passing near a mass $M$ at distance $r$ can be expressed as: $$\alpha = \frac{4GM}{rc^2}$$ where:
+GR attributes gravitational lensing to spacetime curvature around massive objects. According to Einsteins field equations<a href="#fn7" id="fnref7" class="footnote-ref" role="doc-noteref"><sup>7</sup></a>, mass-energy distributions warp spacetime, causing photons traveling through these curved regions to follow curved geodesic paths. The angle of deflection <span class="math inline">\\\alpha\\</span> for light passing near a mass <span class="math inline">\\M\\</span> at distance <span class="math inline">\\r\\</span> can be expressed as: <span class="math display">\\\alpha = \frac{4GM}{rc^2}\\</span> where:
 
-- $G$ is the gravitational constant.
+- <span class="math inline">\\G\\</span> is the gravitational constant.
 
-- $c$ is the speed of light.
+- <span class="math inline">\\c\\</span> is the speed of light.
 
 This geometric explanation successfully matches many observational results but lacks an explicit causal mechanism describing how spacetime geometry physically influences photon trajectories. The geometric framework of GR provides a predictive but non-mechanistic interpretation.
 
 ### GPT’s Mechanical Refraction Model
 
-GPT redefines gravitational lensing as a mechanical, physically grounded process involving the refraction of photons within structured graviton fields. GPT postulates that gravitons, through their pressure fields, create variable density gradients around massive objects. Photons passing through these graviton-induced density variations undergo measurable optical refraction, similar to classical refraction in optical media, described mathematically by Snells law: $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$ where:
+GPT redefines gravitational lensing as a mechanical, physically grounded process involving the refraction of photons within structured graviton fields. GPT postulates that gravitons, through their pressure fields, create variable density gradients around massive objects. Photons passing through these graviton-induced density variations undergo measurable optical refraction, similar to classical refraction in optical media, described mathematically by Snells law: <span class="math display">\\n_1 \sin \theta_1 = n_2 \sin \theta_2\\</span> where:
 
-- $n_1$ and $n_2$ are refractive indices representing graviton field-induced optical densities.
+- <span class="math inline">\\n_1\\</span> and <span class="math inline">\\n_2\\</span> are refractive indices representing graviton field-induced optical densities.
 
-- $\theta_1$ and $\theta_2$ are angles of incidence and refraction.
+- <span class="math inline">\\\theta_1\\</span> and <span class="math inline">\\\theta_2\\</span> are angles of incidence and refraction.
 
-The graviton-induced refractive index $n_g$ at any point is directly related to the local graviton pressure field $P_g$: $$n_g \propto \sqrt{P_g}$$ Under GPT, gravitational lensing becomes a measurable optical phenomenon driven by structured density gradients around mass distributions, offering explicit mechanical causality and direct empirical testability.
+The graviton-induced refractive index <span class="math inline">\\n_g\\</span> at any point is directly related to the local graviton pressure field <span class="math inline">\\P_g\\</span>: <span class="math display">\\n_g = \frac{P_g}{P_0}\\</span> Under GPT, gravitational lensing becomes a measurable optical phenomenon driven by structured density gradients around mass distributions, offering explicit mechanical causality and direct empirical testability.
 
 ### Experimental Comparison: Gravitational Lens Observations
 
@@ -378,25 +380,25 @@ Thus, gravitational lensing demonstrates that GPT not only matches GRs predictiv
 
 ### Introduction to Frame-Dragging
 
-Frame-dragging refers to the phenomenon where spacetime itself is said to be “dragged" around a massive, rotating body. It was predicted by General Relativity (GR) and confirmed through satellite-based experiments such as Gravity Probe B[^8] and LAGEOS. Graviton Pressure Theory (GPT) reinterprets this phenomenon not as a distortion of geometry, but as the natural outcome of dynamic graviton flow gradients generated by rotating matter. This section dissects the underlying assumptions, causal explanations, and testable predictions of each model.
+Frame-dragging refers to the phenomenon where spacetime itself is said to be “dragged" around a massive, rotating body. It was predicted by General Relativity (GR) and confirmed through satellite-based experiments such as Gravity Probe B<a href="#fn8" id="fnref8" class="footnote-ref" role="doc-noteref"><sup>8</sup></a> and LAGEOS. Graviton Pressure Theory (GPT) reinterprets this phenomenon not as a distortion of geometry, but as the natural outcome of dynamic graviton flow gradients generated by rotating matter. This section dissects the underlying assumptions, causal explanations, and testable predictions of each model.
 
 ### GR’s Inertial Geometry Interpretation
 
-IIn General Relativity, frame-dragging arises due to the non-static nature of spacetime around a rotating mass. The solution to Einstein’s field equations in the vicinity of a spinning body is the Kerr metric, which modifies the Schwarzschild metric[^9] by including angular momentum terms.
+IIn General Relativity, frame-dragging arises due to the non-static nature of spacetime around a rotating mass. The solution to Einstein’s field equations in the vicinity of a spinning body is the Kerr metric, which modifies the Schwarzschild metric<a href="#fn9" id="fnref9" class="footnote-ref" role="doc-noteref"><sup>9</sup></a> by including angular momentum terms.
 
 #### Mathematical Representation (GR – Kerr Metric):
 
-One form of the metric includes an off-diagonal term $g_{t\phi}$, responsible for frame-dragging: $$g_{t\phi} = -\frac{2GJ\sin^2\theta}{c^3 r}$$ where:
+One form of the metric includes an off-diagonal term <span class="math inline">\\g\_{t\phi}\\</span>, responsible for frame-dragging: <span class="math display">\\g\_{t\phi} = -\frac{2GJ\sin^2\theta}{c^3 r}\\</span> where:
 
-- $J$ is the angular momentum of the rotating body,
+- <span class="math inline">\\J\\</span> is the angular momentum of the rotating body,
 
-- $\theta$ is the polar angle,
+- <span class="math inline">\\\theta\\</span> is the polar angle,
 
-- $r$ is the radial distance,
+- <span class="math inline">\\r\\</span> is the radial distance,
 
-- $G$ is the gravitational constant,
+- <span class="math inline">\\G\\</span> is the gravitational constant,
 
-- $c$ is the speed of light.
+- <span class="math inline">\\c\\</span> is the speed of light.
 
 This term introduces a coupling between time and rotational coordinates, interpreted as the local rotation of spacetime. However, this model suffers from conceptual vagueness:
 
@@ -412,13 +414,13 @@ GPT provides a mechanistic alternative: frame-dragging is caused by asymmetrical
 
 #### GPT Mathematical Framework:
 
-Frame-dragging arises as a vector field component of the graviton pressure gradient: $$\vec{F}_{\text{gpt}} = -\nabla P_g + \vec{v}_r \times (\nabla \times \vec{P}_g)$$ where:
+Frame-dragging arises as a vector field component of the graviton pressure gradient: <span class="math display">\\\vec{a}\_{\text{gpt}} = \frac{1}{\rho_g}\nabla P_g + \vec{v}\_r \times (\nabla \times \vec{u}\_g)\\</span> where:
 
-- $P_g$ is the scalar graviton pressure field,
+- <span class="math inline">\\P_g\\</span> is the scalar graviton pressure field,
 
-- $\vec{v}_r$ is the local rotational velocity of the mass,
+- <span class="math inline">\\\vec{v}\_r\\</span> is the local rotational velocity of the mass,
 
-- $\nabla \times \vec{P}_g$ describes the rotational component of the graviton pressure vector field.
+- <span class="math inline">\\\nabla \times \vec{u}\_g\\</span> describes the rotational component of the graviton flow velocity <span class="math inline">\\\vec{u}\_g\\</span>.
 
 This leads to a torsional flow field, where the rotation of the mass induces swirling graviton patterns, influencing nearby structures and light paths. It is not spacetime that twists, but the directional flow of the graviton medium that biases motion in its vicinity.
 
@@ -442,7 +444,7 @@ This distinction allows GPT to preserve local realism, causality, and field-medi
 
 ### Experimental Implications
 
-**Gravity Probe B Data[^10]:**
+**Gravity Probe B Data<a href="#fn10" id="fnref10" class="footnote-ref" role="doc-noteref"><sup>10</sup></a>:**
 
 - GR predicted a frame-dragging of approximately 39 milliarcseconds/year.
 
@@ -488,19 +490,19 @@ Core Geometry-Based Assumptions
 
 In GR, light escaping a gravitational well loses energy, resulting in a redshift; light falling into a gravitational well gains energy, causing a blueshift. These shifts arise from the warping of spacetime and are interpreted as changes in the proper time intervals experienced by photons along curved geodesics.
 
-**Mathematical Expression (GR):** $$\frac{f_{\text{observer}}}{f_{\text{source}}} = \sqrt{\frac{1 - \frac{2GM}{r_{\text{observer}}c^2}}{1 - \frac{2GM}{r_{\text{source}}c^2}}}$$ where:
+**Mathematical Expression (GR):** <span class="math display">\\\frac{f\_{\text{observer}}}{f\_{\text{source}}} = \sqrt{\frac{1 - \frac{2GM}{r\_{\text{observer}}c^2}}{1 - \frac{2GM}{r\_{\text{source}}c^2}}}\\</span> where:
 
-- $f_{\text{observer}}$ is the frequency measured by the observer.
+- <span class="math inline">\\f\_{\text{observer}}\\</span> is the frequency measured by the observer.
 
-- $f_{\text{source}}$ is the frequency at emission.
+- <span class="math inline">\\f\_{\text{source}}\\</span> is the frequency at emission.
 
-- $G$ is the gravitational constant.
+- <span class="math inline">\\G\\</span> is the gravitational constant.
 
-- $M$ is the mass of the gravitating body.
+- <span class="math inline">\\M\\</span> is the mass of the gravitating body.
 
-- $r$ values are the radial distances from the center of mass.
+- <span class="math inline">\\r\\</span> values are the radial distances from the center of mass.
 
-- $c$ is the speed of light.
+- <span class="math inline">\\c\\</span> is the speed of light.
 
 The model is effective for calculating observed shifts but does not describe a physical mechanism by which frequency is altered. GR assumes the change results from the path geometry rather than a medium-field interaction. There is no described structure or field participating in the process.
 
@@ -516,13 +518,13 @@ GPT introduces a different, mechanistic framework: redshift and blueshift arise 
 
 - Variations in graviton pressure modulate the photon’s energetic configuration via field tension, altering oscillation frequency.
 
-**Mathematical Representation (GPT):** $$\Delta f = f_0 \left( \sqrt{\frac{P_{\text{local}}}{P_{\text{ref}}}} - 1 \right)$$ where:
+**Mathematical Representation (GPT):** <span class="math display">\\\Delta f = f_0 \left( \sqrt{\frac{P\_{\text{local}}}{P\_{\text{ref}}}} - 1 \right)\\</span> where:
 
-- $f_0$ is the photon’s source frequency.
+- <span class="math inline">\\f_0\\</span> is the photon’s source frequency.
 
-- $P_{\text{local}}$ is the graviton pressure at the point of observation.
+- <span class="math inline">\\P\_{\text{local}}\\</span> is the graviton pressure at the point of observation.
 
-- $P_{\text{ref}}$ is the reference pressure at emission.
+- <span class="math inline">\\P\_{\text{ref}}\\</span> is the reference pressure at emission.
 
 In this model, frequency shifts are not purely determined by radial displacement but by pressure differential interactions at every point along the photon’s path. The result is a frequency profile that reflects not just source and observer altitude, but all field modulations encountered during propagation.
 
@@ -583,7 +585,7 @@ General Relativity explicitly rejects Newton’s concept of gravity as a force. 
 
 Yet when it comes to making predictions and interpreting experimental results, GR often smuggles Newtonian assumptions back in:
 
-- Gravitational acceleration is discussed using Newtonian concepts ($F = ma$, $g = GM/r^2$) to derive approximations.
+- Gravitational acceleration is discussed using Newtonian concepts (<span class="math inline">\\F = ma\\</span>, <span class="math inline">\\g = GM/r^2\\</span>) to derive approximations.
 
 - Orbital mechanics problems (e.g., satellite positioning, planetary motion) are solved using GR-corrected Newtonian equations, not direct spacetime geodesics.
 
@@ -639,7 +641,7 @@ Perhaps the most subtle yet profound contradiction in GR is the conflation of ma
 
 - The behavior of test particles is explained by geodesic deviation on a differential manifold.
 
-- The metric tensor $g_{\mu\nu}$ is treated as though it has energy, dynamics, and causal influence.
+- The metric tensor <span class="math inline">\\g\_{\mu\nu}\\</span> is treated as though it has energy, dynamics, and causal influence.
 
 But mathematics is not substance:
 
@@ -701,7 +703,7 @@ This is not a healthy scientific environment—it is an ideological enclosure.
 
 ### GR’s Historical Authority Has Outlived Its Explanatory Power
 
-General Relativity’s iconic status in the history of science has insulated it from necessary critique. Because Einstein’s theory[^11] has been confirmed in many precision tests, its philosophical and mechanistic weaknesses are too often ignored.
+General Relativity’s iconic status in the history of science has insulated it from necessary critique. Because Einstein’s theory<a href="#fn11" id="fnref11" class="footnote-ref" role="doc-noteref"><sup>11</sup></a> has been confirmed in many precision tests, its philosophical and mechanistic weaknesses are too often ignored.
 
 Yet the cost of that reverence is profound:
 
@@ -847,7 +849,7 @@ GR tells us how gravity behaves—but not what it is.
 
 - Mass and energy "curve spacetime," but this is a description, not a cause.
 
-- What is the mechanism by which mass-energy distorts the geometry of space[^12] ?
+- What is the mechanism by which mass-energy distorts the geometry of space<a href="#fn12" id="fnref12" class="footnote-ref" role="doc-noteref"><sup>12</sup></a> ?
 
 - How does that distortion translate into physical acceleration?
 
@@ -873,7 +875,7 @@ GR claims gravitational waves are ripples in spacetime. These waves travel billi
 
 ### Core Geometry-Based Assumptions
 
-In GR, there is no field. Spacetime is not a substance[^13] It is a mathematical manifold. Yet it is somehow expected to oscillate, propagate, and carry energy without internal structure or medium.
+In GR, there is no field. Spacetime is not a substance<a href="#fn13" id="fnref13" class="footnote-ref" role="doc-noteref"><sup>13</sup></a> It is a mathematical manifold. Yet it is somehow expected to oscillate, propagate, and carry energy without internal structure or medium.
 
 **This is a fatal contradiction.**
 
@@ -909,7 +911,7 @@ GPT, on the other hand, directly models energy transfer through pressure differe
 
 Although GR replaced Newton’s model, it still leans heavily on Newtonian formulations:
 
-- Gravitational acceleration $g = \frac{GM}{r^2}$ is used in almost every engineering context[^14] .
+- Gravitational acceleration <span class="math inline">\\g = \frac{GM}{r^2}\\</span> is used in almost every engineering context<a href="#fn14" id="fnref14" class="footnote-ref" role="doc-noteref"><sup>14</sup></a> .
 
 - Satellite orbit calculations begin with Newton and apply GR as a correction.
 
@@ -977,7 +979,7 @@ Let this be the final test. GR is beautiful mathematics, but it is not explanato
 
 General Relativity (GR) replaces force with curvature, but in doing so, it disrupts something far more foundational: conservation. GR has long struggled with:
 
-- Local energy conservation (energy can’t always be clearly accounted for[^15] )
+- Local energy conservation (energy can’t always be clearly accounted for<a href="#fn15" id="fnref15" class="footnote-ref" role="doc-noteref"><sup>15</sup></a> )
 
 - Momentum tracking (especially in curved and expanding frames)
 
@@ -1245,39 +1247,39 @@ To causality. To coherence. To the physical truths that govern our universe—no
 
 **With pressure. With structure. With truth.**
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-clemence1947" class="csl-entry">
+<div id="ref-clemence1947" class="csl-entry" role="listitem">
 
 Clemence, G. M. 1947. “The Relativity Effect in Planetary Motions.” *Reviews of Modern Physics* 19 (4): 361–64.
 
 </div>
 
-<div id="ref-einstein1915" class="csl-entry">
+<div id="ref-einstein1915" class="csl-entry" role="listitem">
 
 Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
 
 </div>
 
-<div id="ref-everitt2011" class="csl-entry">
+<div id="ref-everitt2011" class="csl-entry" role="listitem">
 
 Everitt, C. W. F., D. B. DeBra, B. W. Parkinson, J. P. Turneaure, J. W. Conklin, M. I. Heifetz, G. M. Keiser, et al. 2011. “Gravity Probe b: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106 (22): 221101.
 
 </div>
 
-<div id="ref-misner1973" class="csl-entry">
+<div id="ref-misner1973" class="csl-entry" role="listitem">
 
 Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitation*. W. H. Freeman.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
 </div>
 
-<div id="ref-straumann2000" class="csl-entry">
+<div id="ref-straumann2000" class="csl-entry" role="listitem">
 
 Straumann, Norbert. 2000. “On the Status of General Relativity.” *General Relativity and Gravitation* 32 (12): 2049–67.
 
@@ -1285,35 +1287,97 @@ Straumann, Norbert. 2000. “On the Status of General Relativity.” *General Re
 
 </div>
 
-[^1]: See (Newton 1687) for the classical formulation of universal gravitation.
+------------------------------------------------------------------------
 
-[^2]: (Clemence 1947)
+1.  <div id="fn1">
 
-[^3]: (Clemence 1947)
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for the classical formulation of universal gravitation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: See (Einstein 1915) for the general relativistic interpretation of gravity as spacetime curvature.
+    </div>
 
-[^5]: (Clemence 1947)
+2.  <div id="fn2">
 
-[^6]: Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.
+    <span class="citation" cites="clemence1947">(Clemence 1947)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^7]: Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.
+    </div>
 
-[^8]: (Everitt et al. 2011)
+3.  <div id="fn3">
 
-[^9]: Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.
+    <span class="citation" cites="clemence1947">(Clemence 1947)</span><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^10]: (Everitt et al. 2011)
+    </div>
 
-[^11]: Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.
+4.  <div id="fn4">
 
-[^12]: Einstein, A. (1950). On the Generalized Theory of Gravitation. *Scientific American*, 182(4), 13–17.
+    See <span class="citation" cites="einstein1915">(Einstein 1915)</span> for the general relativistic interpretation of gravity as spacetime curvature.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^13]: See (Misner, Thorne, and Wheeler 1973) for the relativistic treatment of freefall motion via geodesics.
+    </div>
 
-[^14]: Halliday, D., Resnick, R., & Walker, J. (2013). *Fundamentals of Physics* (10th ed.). Wiley.
+5.  <div id="fn5">
 
-[^15]: (Straumann 2000)
+    <span class="citation" cites="clemence1947">(Clemence 1947)</span><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+7.  <div id="fn7">
+
+    Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+8.  <div id="fn8">
+
+    <span class="citation" cites="everitt2011">(Everitt et al. 2011)</span><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+9.  <div id="fn9">
+
+    Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+10. <div id="fn10">
+
+    <span class="citation" cites="everitt2011">(Everitt et al. 2011)</span><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+11. <div id="fn11">
+
+    Einstein, A. (1916). *The Foundation of the General Theory of Relativity*. Annalen der Physik, 49(7), 769–822.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+12. <div id="fn12">
+
+    Einstein, A. (1950). On the Generalized Theory of Gravitation. *Scientific American*, 182(4), 13–17.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+13. <div id="fn13">
+
+    See <span class="citation" cites="misner1973">(Misner, Thorne, and Wheeler 1973)</span> for the relativistic treatment of freefall motion via geodesics.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+14. <div id="fn14">
+
+    Halliday, D., Resnick, R., & Walker, J. (2013). *Fundamentals of Physics* (10th ed.). Wiley.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+15. <div id="fn15">
+
+    <span class="citation" cites="straumann2000">(Straumann 2000)</span><a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/

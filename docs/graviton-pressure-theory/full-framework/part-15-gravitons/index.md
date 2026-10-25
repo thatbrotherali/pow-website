@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): Graviton pressure: pressure is a momentum flux, ρ_g v_g², as this part itself writes later (ΔP_g = ρ_g v_g²); ρ_g v_g alone is a momentum density.
+
 In the previous parts, we dismantled the conceptual scaffolding—both logical and metaphysical—of General Relativity and exposed the absence of causal clarity in its most cherished formulations. From this point forward, we construct. This is the transition from critique to creation, from descriptive symmetry to mechanistic structure. Graviton Pressure Theory begins here in earnest—not with metaphor, but with the real, directional, and causally grounded architecture of motion. The graviton is not a speculative quantum—it’s the medium of interaction, the mover of matter, and the encoder of field-based structure. Everything to come—mass, time, force, coherence, and resonance—unfolds from its behavior. This is the foundation stone.
 
 This document introduces **Graviton Pressure Theory (GPT)** as a rigorously causal, testable, and mechanistic replacement for the current gravitational paradigm. In GPT, gravity is redefined as the result of directional, anisotropic pressure gradients exerted by real, coherent, massless, self-repulsive particles called *gravitons*. These gravitons form structured, coherent flow networks—generating measurable forces by inducing directional pressure upon coherent matter.
@@ -94,7 +96,7 @@ With this foundational definition, GPT transitions from descriptive modeling to 
 
     - It also accounts for graviton field pressure stability over long distances and across varying densities.
 
-    - Mathematically, self-repulsion is described as: $$\vec{F}_{\text{self}} = k_g \cdot \frac{\vec{r}_1 - \vec{r}_2}{\left|\vec{r}_1 - \vec{r}_2\right|^3},$$ where $\vec{F}_{\text{self}}$ is the repulsive vector force between two graviton paths, $k_g$ is the graviton self-repulsion constant, and $\vec{r}_1$, $\vec{r}_2$ are the position vectors.
+    - Mathematically, self-repulsion is described as: <span class="math display">\\\vec{F}\_{\text{self}} = k_g \cdot \frac{\vec{r}\_1 - \vec{r}\_2}{\left\|\vec{r}\_1 - \vec{r}\_2\right\|^3},\\</span> where <span class="math inline">\\\vec{F}\_{\text{self}}\\</span> is the repulsive vector force between two graviton paths, <span class="math inline">\\k_g\\</span> is the graviton self-repulsion constant, and <span class="math inline">\\\vec{r}\_1\\</span>, <span class="math inline">\\\vec{r}\_2\\</span> are the position vectors.
 
 ### Why This Definition Matters
 
@@ -120,7 +122,7 @@ In the next section, we examine the structure and behavior of graviton flow—no
 
 ### The Vector Nature of the Graviton Field
 
-A central innovation of Graviton Pressure Theory (GPT) is its reconceptualization of the gravitational field as a directional, anisotropic pressure field, defined by coherent vector flows. This marks a decisive break from scalar and potential-based treatments of gravity that have dominated physics since Newton [^1] and General Relativity. In GPT, gravity is not modeled as curvature or potential wells but as real-time, structured, directional pressure exerted by flowing gravitons.
+A central innovation of Graviton Pressure Theory (GPT) is its reconceptualization of the gravitational field as a directional, anisotropic pressure field, defined by coherent vector flows. This marks a decisive break from scalar and potential-based treatments of gravity that have dominated physics since Newton <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> and General Relativity. In GPT, gravity is not modeled as curvature or potential wells but as real-time, structured, directional pressure exerted by flowing gravitons.
 
 ### Directional Graviton Inflow
 
@@ -250,7 +252,7 @@ Acceleration occurs when the graviton field exerts an asymmetric force:
 
 - **Asymmetric Flow = Acceleration**: A pressure differential across the object induces motion, with the body effectively pushed from the side of higher pressure.
 
-The gravitational acceleration of an object is described by: $$a = -\frac{\nabla P_g}{\rho_{\text{imp}}}, \quad P_g = \rho_g \cdot v_g,$$ where $a$ is the acceleration due to a gradient in graviton pressure $P_g$, and $\rho_{\text{imp}}$ is the graviton impedance of the material. The negative sign indicates motion occurs in the direction of decreasing pressure.
+The gravitational acceleration of an object is described by: <span class="math display">\\a = -\frac{\nabla P_g}{\rho\_{\text{imp}}}, \quad P_g = \rho_g \cdot v_g^2,\\</span> where <span class="math inline">\\a\\</span> is the acceleration due to a gradient in graviton pressure <span class="math inline">\\P_g\\</span>, and <span class="math inline">\\\rho\_{\text{imp}}\\</span> is the graviton impedance of the material. The negative sign indicates motion occurs in the direction of decreasing pressure.
 
 ### Implications for Classical Dynamics
 
@@ -296,7 +298,7 @@ Destructive interference arises from misaligned or out-of-phase corridors:
 
 ### Mathematical Representation of Interference
 
-Graviton interference can be quantified by: $$I_g = \sum \psi_i \cdot \psi_j, \quad \text{where} \quad \psi = \text{graviton wave function},$$ where $I_g$ denotes the total interference intensity resulting from phase interactions between wave functions $\psi_i$ and $\psi_j$. Positive sums yield constructive outcomes; negative interactions produce destructive effects. These modulations govern orbital behaviors, magnetic alignment, and field repulsion.
+Graviton interference can be quantified by: <span class="math display">\\I_g = \sum \psi_i \cdot \psi_j, \quad \text{where} \quad \psi = \text{graviton wave function},\\</span> where <span class="math inline">\\I_g\\</span> denotes the total interference intensity resulting from phase interactions between wave functions <span class="math inline">\\\psi_i\\</span> and <span class="math inline">\\\psi_j\\</span>. Positive sums yield constructive outcomes; negative interactions produce destructive effects. These modulations govern orbital behaviors, magnetic alignment, and field repulsion.
 
 ### Summary
 
@@ -318,11 +320,11 @@ In Graviton Pressure Theory (GPT), energy is redefined as a modulation of the gr
 
 ### Quantifying Energy as Pressure Differential
 
-Energy is mathematically expressed as: $$E = \int \Delta P_g \, dV, \quad \Delta P_g = P_g - P_0,$$ where $E$ represents the integrated shift in graviton pressure $P_g$ relative to a baseline $P_0$. This quantifies the energy arising from graviton field modulation.
+Energy is mathematically expressed as: <span class="math display">\\E = \int \Delta P_g \\ dV, \quad \Delta P_g = P_g - P_0,\\</span> where <span class="math inline">\\E\\</span> represents the integrated shift in graviton pressure <span class="math inline">\\P_g\\</span> relative to a baseline <span class="math inline">\\P_0\\</span>. This quantifies the energy arising from graviton field modulation.
 
 ### Implications for Energy Dynamics
 
-- **Energy-Mass Relationship**: Increased energy alters impedance, thereby increasing the apparent mass via $M \propto \rho_{\text{imp}}(E)$.
+- **Energy-Mass Relationship**: Increased energy alters impedance, thereby increasing the apparent mass via <span class="math inline">\\M \propto \rho\_{\text{imp}}(E)\\</span>.
 
 - **Radiative Release**: When coherent graviton corridors break down, energy is radiated outward as electromagnetic waves.
 
@@ -356,7 +358,7 @@ If gravitons are the causal agents in GPT, their signatures must be present in e
 
 - **Gyroscopic Drift**: Observed anomalies are explained as effects of graviton current alignment.
 
-$$\Delta P_g = \rho_g \cdot v_g^2,$$ where $\Delta P_g$ reflects pressure shifts caused by graviton velocity and density.
+<span class="math display">\\\Delta P_g = \rho_g \cdot v_g^2,\\</span> where <span class="math inline">\\\Delta P_g\\</span> reflects pressure shifts caused by graviton velocity and density.
 
 ### Summary
 
@@ -376,7 +378,7 @@ Gravitons are the foundational causal units of GPT:
 
 ### Unification of Physical Forces through Graviton Dynamics
 
-The general relation for graviton-mediated effects: $$F_g, M, C = f(\rho_g, v_g),$$ where $F_g$ is force, $M$ is apparent mass, and $C$ is coherence—each dependent on graviton density $\rho_g$ and velocity $v_g$.
+The general relation for graviton-mediated effects: <span class="math display">\\F_g, M, C = f(\rho_g, v_g),\\</span> where <span class="math inline">\\F_g\\</span> is force, <span class="math inline">\\M\\</span> is apparent mass, and <span class="math inline">\\C\\</span> is coherence—each dependent on graviton density <span class="math inline">\\\rho_g\\</span> and velocity <span class="math inline">\\v_g\\</span>.
 
 ### Gravitational Reality as Flow-Based System
 
@@ -386,9 +388,9 @@ Rather than geometric curvature or intrinsic attraction, GPT presents the univer
 
 GPT establishes gravitons as the fundamental causal medium of reality. This theory provides predictive, testable, and unified explanations for phenomena across scales—framing gravity, energy, and matter not as abstractions, but as expressions of pressure, coherence, and flow.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
@@ -396,7 +398,13 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 
 </div>
 
-[^1]: See (Newton 1687) for the foundational definition of force and gravitational acceleration.
+------------------------------------------------------------------------
+
+1.  <div id="fn1">
+
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for the foundational definition of force and gravitational acceleration.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/

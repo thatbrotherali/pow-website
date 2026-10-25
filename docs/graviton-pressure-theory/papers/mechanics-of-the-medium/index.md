@@ -4,11 +4,13 @@
 
 By Shareef Ali Rashada
 
-# Abstract
+> Editor's corrections (October 2026): Surface condition (Section 10): a draft line offering two guesses with a question mark is now shown as the naive guess g ≟ v²/R, which the next paragraph corrects. Coupling k: the inflow slows with distance, so dv/dr = −k/r with k > 0 (k has units of speed), and a = −v dv/dr = kv/r is positive inward. Since v = √(2GM/r), k = v/2 at each radius rather than a single constant; at the surface this gives the paper's k = √(gR/2). Velocity profile: for an inward acceleration GM/r², v dv/dr = −GM/r², which integrates to ½v² = GM/r + C. With the original sign ½v² = −GM/r, so v² would be negative; the result v = √(2GM/r) is unchanged. Pressure from flow (Section 11): with P ∝ ρv² the pressure would be highest near the mass and the force −V∇P would push outward. The text itself says pressure increases with distance, which is the static (Bernoulli) pressure P_g = P₀ − ½ρ_g v². Its gradient is ρ_g GM/r² outward, so the force −V_eff∇P_g points inward and κ = 1/ρ_g. This changes how the force is derived, not the result. Still open: the paper also says the medium's density rises near a mass and that pressure rises with density (the equation of state). Both cannot hold with a static pressure that falls near the mass. The density perturbation 2GM/c²r used for light and clocks matches the inflow pressure ratio Π/P₀ = v²/c² in the notation note below; one consistent choice is needed. Light deflection (Sections 14 and 23): the deflection is −∫(dn/dr)(b/r) dx/n; the extra factor 2 would give 8GM/c²b, twice the measured value. The minus sign makes the angle positive (toward the mass). The 1.75″ result stands. Clock rate from matter waves (Section 25): τ = τ₀ n gives 1 + 2GM/c²r, twice the measured shift, as the text acknowledged. It is now τ = τ₀√n ≈ τ₀(1 + GM/c²r), the same factor as Section 16 and the notation note (clock rate √(P/P₀)). Charge (Sections 17–18): the energy of two charges' interaction is the cross term κ∫∇ψ₁·∇ψ₂ dV, not the whole field energy (which includes each charge's self-energy). In the Gauss's-law step, 4πr²·C/r² is +4πC, so C = −αq/4π; the final ψ = αq/4πr is unchanged. Waves (Section 22): the vector-potential equation had the source with the wrong sign relative to Section 19; it is now ∇²A = −βJ + (1/c²)∂²A/∂t². And 1/(ε₀μ₀) is 1 over the product of compressibility and stiffness, not their ratio. Laplace resonance: Io, Europa and Ganymede orbit with frequencies in the ratio 4 : 2 : 1 (their periods are 1 : 2 : 4). Lensing (Section 24): for a circularly symmetric lens the deflection is 4GM(<ξ)/c²ξ, using the mass inside ξ, not an integral of M/ξ. Shear comes from the second derivatives of the lensing potential ψ_L ∝ ∫(n − 1) dz, not from its gradient. Cosmology (Section 27): acceleration needs P_g < −⅓ρ_g c²; at exactly −⅓ρ_g c² the expansion coasts. Λ has units of 1/m², so (1/c²)∇·u (units s/m²) cannot be Λ; the dimensionally consistent form is Λ_eff = (∇·u)²/3c² = 3H²/c², the de Sitter relation. This changes the number the paper compares with the observed Λ. Appendix B: the cross-section κ/(m_atom c²) has units of 1/J, not area, and later steps changed κ from 3 to 2 and γ to 3. With a dimensionless κ the cross-section is σ = κ(ħ/m_atom c)². Because v² = 2gR is used as an input, the condition does not predict g: it fixes σ = m_atom/(2γρ₀R), about 9 × 10⁻⁹ m² for Earth (κ ≈ 2 × 10²³), and that σ depends on the body's radius. A body-independent cross-section is still needed. This changes the appendix's conclusion. Appendix C: r × (−∇P_g) has units of pressure; a torque needs the volume the gradient acts on, T = r × (−V_eff∇P_g), in N·m (gp·m³). Appendix F: with coupling terms −ασψ and βJ·A the variations gave ∇²ψ = −(α/ε₀)σ, which with α = 1/ε₀ is not Section 19's equation; the couplings are now −σψ + J·A. The wave term in the Ampère-like equation had the wrong sign (the original is not a wave equation); the electric energy now includes ∂A/∂t so it follows from the Lagrangian. Cosmetic: the graviton flux is written Φ_flux so it is not confused with the potential Φ, and the order term on ρ_g is placed inside the bracket.
+
+## Abstract
 
 Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.
 
-# The Opening Observation: Reality Works
+## The Opening Observation: Reality Works
 
 Let us begin with an observation so ordinary that it is almost invisible:
 
@@ -32,7 +34,7 @@ That question is rarely asked directly, because asking it forces us to confront 
 
 Something missing from our explanations.
 
-## The Puzzle Hidden in Plain Sight
+### The Puzzle Hidden in Plain Sight
 
 Consider what an electron does. In an isolated hydrogen atom, it occupies a stable orbital. It does not randomly jump to a different energy level without cause. It does not smear itself across the universe. It persists in a configuration that is repeatable, measurable, and reliably the same from one hydrogen atom to the next—across the entire observable universe.
 
@@ -52,7 +54,7 @@ None of these is a mechanism.
 
 None tells us what actually happens to keep an electron in its orbital, a bond at its angle, a crystal in its lattice.
 
-## The Silence We Have Learned Not to Hear
+### The Silence We Have Learned Not to Hear
 
 Physics has become extraordinarily good at predicting *where* something will be and *when* it will be there. GPS works. Particle tracks match predictions. The anomaly in Mercury’s orbit is accounted for.
 
@@ -64,7 +66,7 @@ These are *descriptions* wearing the costume of *explanations*.
 
 This paper is written for those who have noticed the costume and want to see what is underneath.
 
-## The Thesis in Brief
+### The Thesis in Brief
 
 We will argue for three claims:
 
@@ -82,7 +84,7 @@ That is the argument.
 
 Now let us build it.
 
-# The Container Problem (Map vs. Territory)
+## The Container Problem (Map vs. Territory)
 
 Modern physics relies heavily on what can be called *representational containers*.
 
@@ -100,7 +102,7 @@ When energy cannot be localized cleanly in General Relativity, we are told local
 
 At each step, a representational difficulty is transformed into an ontological claim.
 
-## The Category Error
+### The Category Error
 
 This is a category error.
 
@@ -114,7 +116,7 @@ But generations of students have been taught—explicitly or implicitly—that t
 
 This is not physics. This is *metaphysics smuggled in through terminology*.
 
-## The Geometry Pivot
+### The Geometry Pivot
 
 General Relativity commits a similar error but with even greater reach.
 
@@ -130,7 +132,7 @@ But what is a geodesic? It is the path an object takes when no force acts on it.
 
 The circle is complete. The description has consumed the reality it was meant to describe.
 
-## What We Lose
+### What We Lose
 
 The cost of this substitution is not just philosophical. It is practical.
 
@@ -144,48 +146,48 @@ The map has become the territory. And the territory—the actual physical mechan
 
 This paper is an attempt to remember it.
 
-## The Reduction Conflation: Exposing Tactical Framework-Switching
+### The Reduction Conflation: Exposing Tactical Framework-Switching
 
-A persistent epistemic vulnerability in contemporary gravitational physics is the systematic misuse of framework reduction. Introductory and advanced texts routinely assert that “General Relativity reduces to Newtonian mechanics in the weak-field, low-velocity limit” ($v \ll c$). While this mathematical statement regarding numerical output is strictly true, its philosophical application constitutes a formal logical error: the **Reduction Conflation**.
+A persistent epistemic vulnerability in contemporary gravitational physics is the systematic misuse of framework reduction. Introductory and advanced texts routinely assert that “General Relativity reduces to Newtonian mechanics in the weak-field, low-velocity limit” (<span class="math inline">\\v \ll c\\</span>). While this mathematical statement regarding numerical output is strictly true, its philosophical application constitutes a formal logical error: the **Reduction Conflation**.
 
-### Numerical Equivalence vs. Ontological Compatibility
+#### Numerical Equivalence vs. Ontological Compatibility
 
-The Reduction Conflation occurs when numerical agreement between the outputs of two distinct mathematical formalisms is treated as proof of their ontological compatibility. That two frameworks produce the same number ($9.81\,\text{m/s}^2$) does not mean they are asserting the same physical mechanism. A lookup table and a physical engine can yield identical values while disagreeing completely on the underlying causality.
+The Reduction Conflation occurs when numerical agreement between the outputs of two distinct mathematical formalisms is treated as proof of their ontological compatibility. That two frameworks produce the same number (<span class="math inline">\\9.81\\\text{m/s}^2\\</span>) does not mean they are asserting the same physical mechanism. A lookup table and a physical engine can yield identical values while disagreeing completely on the underlying causality.
 
 In practice, this conflation grants institutional physics a pre-issued license to switch mid-explanation between two mutually exclusive physical premises:
 
-1.  **The Relativistic Register (Theoretical Defense):** Gravity is defined as non-material four-dimensional spacetime geometry ($g_{\mu\nu}$). Gravity is explicitly *not* a force; free-fall is unforced inertial motion along a geodesic ($a^\mu_{\text{proper}} = 0$).
+1.  **The Relativistic Register (Theoretical Defense):** Gravity is defined as non-material four-dimensional spacetime geometry (<span class="math inline">\\g\_{\mu\nu}\\</span>). Gravity is explicitly *not* a force; free-fall is unforced inertial motion along a geodesic (<span class="math inline">\\a^\mu\_{\text{proper}} = 0\\</span>).
 
-2.  **The Classical Register (Applied Engineering):** Gravity is treated as an active, downward 3D force vector ($\vec{F} = m\vec{a}$) that compresses material lattices, induces shear stress, and performs continuous physical work on stationary structures.
+2.  **The Classical Register (Applied Engineering):** Gravity is treated as an active, downward 3D force vector (<span class="math inline">\\\vec{F} = m\vec{a}\\</span>) that compresses material lattices, induces shear stress, and performs continuous physical work on stationary structures.
 
 <div id="tab:reduction_conflation_matrix">
 
-| **Diagnostic Feature**  | **General Relativity (Theoretical Register)**                    | **Newtonian Mechanics (Applied Register)**                 |
-|:------------------------|:-----------------------------------------------------------------|:-----------------------------------------------------------|
-| **Ontological Status**  | Fictitious coordinate artifact; no force exists in free-fall.    | Real, active downward force vector ($\vec{F} = m\vec{a}$). |
-| **Role of Space**       | Non-material 4D curved manifold ($T_{\mu\nu} \to G_{\mu\nu}$).   | Passive Euclidean container housing force fields.          |
-| **Cause of Weight**     | Electromagnetic normal force of ground accelerating body upward. | Gravitational force pulling mass toward Earth’s core.      |
-| **Causal Transmission** | Geometry without a physical medium or carrier particle.          | Action-at-a-distance (unspecified mechanism).              |
+| **Diagnostic Feature**  | **General Relativity (Theoretical Register)**                                                       | **Newtonian Mechanics (Applied Register)**                                                    |
+|:------------------------|:----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+| **Ontological Status**  | Fictitious coordinate artifact; no force exists in free-fall.                                       | Real, active downward force vector (<span class="math inline">\\\vec{F} = m\vec{a}\\</span>). |
+| **Role of Space**       | Non-material 4D curved manifold (<span class="math inline">\\T\_{\mu\nu} \to G\_{\mu\nu}\\</span>). | Passive Euclidean container housing force fields.                                             |
+| **Cause of Weight**     | Electromagnetic normal force of ground accelerating body upward.                                    | Gravitational force pulling mass toward Earth’s core.                                         |
+| **Causal Transmission** | Geometry without a physical medium or carrier particle.                                             | Action-at-a-distance (unspecified mechanism).                                                 |
 
 Ontological Contradictions Masked by the Reduction Conflation
 
 </div>
 
-### The Static Load Paradox
+#### The Static Load Paradox
 
 The failure of this dual-register practice becomes glaringly visible in static load scenarios, such as a heavy mass resting atop a stack of supporting blocks.
 
-If lower supports are systematically removed, reducing the cross-sectional contact area $A$, the remaining supports eventually undergo yield failure and crush. Under pure General Relativity, the top mass possesses no downward force vector; non-material 4D spacetime geometry contains no mass density, physical gears, or momentum vectors to physically compress an atomic lattice.
+If lower supports are systematically removed, reducing the cross-sectional contact area <span class="math inline">\\A\\</span>, the remaining supports eventually undergo yield failure and crush. Under pure General Relativity, the top mass possesses no downward force vector; non-material 4D spacetime geometry contains no mass density, physical gears, or momentum vectors to physically compress an atomic lattice.
 
-To explain why reducing the area $A$ drives internal mechanical stress ($\sigma = \frac{F}{A}$) past the material yield strength, mainstream explanations quietly abandon pure geometry and import classical Newtonian force vectors ($F_{\text{down}} = mg$). Numerical equivalence is used as an epistemic shield to hide this tactical switch, masking the reality that differential coordinate geometry is causally silent on physical structural load.
+To explain why reducing the area <span class="math inline">\\A\\</span> drives internal mechanical stress (<span class="math inline">\\\sigma = \frac{F}{A}\\</span>) past the material yield strength, mainstream explanations quietly abandon pure geometry and import classical Newtonian force vectors (<span class="math inline">\\F\_{\text{down}} = mg\\</span>). Numerical equivalence is used as an epistemic shield to hide this tactical switch, masking the reality that differential coordinate geometry is causally silent on physical structural load.
 
-### The Requirement of a Single Physical Substrate
+#### The Requirement of a Single Physical Substrate
 
 Exposing the Reduction Conflation revokes the license for tactical framework-switching. A complete physical theory cannot rely on two mutually exclusive ontologies that alternate depending on whether one is writing a theoretical paper or building a bridge.
 
 If a static mass exerts a real, continuous downward mechanical load on its supports, that load requires an active physical transmission mechanism operating every microsecond. A mathematical line on a coordinate map cannot push. Resolving this causal gap requires establishing a single, non-negotiable physical ontology across all scales—one in which directional forces are consistently accounted for by active continuum mechanics rather than coordinate abstractions.
 
-# Why Structure Still Exists (The Unasked Question)
+## Why Structure Still Exists (The Unasked Question)
 
 Now pause and reflect on what *actually* happens in the universe.
 
@@ -205,7 +207,7 @@ A boundary condition is a mathematical constraint. It tells us what the solution
 
 Renormalization is a mathematical procedure for subtracting infinities so that predictions remain finite. It works. But it does not tell us *why* nature does not actually produce infinities. It tells us how to *adjust our description* so that the infinities cancel. That is not an explanation of the physical world. It is an explanation of how to fix our equations.
 
-## The Hidden Admission
+### The Hidden Admission
 
 The very existence of these constraints—boundary conditions, normalization, renormalization, conservation laws—is a quiet admission that something *physical* is limiting what quantum systems can do.
 
@@ -217,7 +219,7 @@ The language is telling. *We* impose. The mathematics *we* write. The physicist 
 
 In a complete physical theory, the constraints would be *automatic*. They would follow from the mechanism. You would not need to impose normalization—the physics would guarantee it. You would not need to enforce boundaries—the medium would enforce them.
 
-## The Question That Changes Everything
+### The Question That Changes Everything
 
 So here is the question that changes everything:
 
@@ -235,7 +237,7 @@ Something must be *physically interacting* with particles to confine them, to st
 
 That something, we will argue, is the medium.
 
-## Preview of the Argument
+### Preview of the Argument
 
 The vacuum is not empty. It is a pressurized fluid—already proven physical by the Casimir effect, by the refraction of light in gravitational fields, by the simple fact that momentum cannot be transferred without a transfer medium.
 
@@ -255,9 +257,9 @@ The question "why does structure exist" has been hiding in plain sight because w
 
 It is time to ask it again.
 
-# What Counts as a Mechanism? (Operational Definition)
+## What Counts as a Mechanism? (Operational Definition)
 
-## Why This Question Is Necessary
+### Why This Question Is Necessary
 
 A reasonable reader—especially one trained in modern physics—might object at this point:
 
@@ -285,7 +287,7 @@ If the objection is that fundamental physics is *exempt* from these criteria, th
 
 With that defense established, we proceed to the criteria themselves.
 
-## The Core Definition
+### The Core Definition
 
 A **mechanism** is a sequence of local, physical interactions between discrete or continuous entities that produces an observed effect.
 
@@ -301,11 +303,11 @@ Let us break this down.
 
 **Produces the observed effect:** The mechanism is not a parallel description. It is the *cause* of the phenomenon. If the mechanism were running in a simulation, the phenomenon would emerge. If the mechanism were absent, the phenomenon would not occur. The mechanism is sufficient, not merely correlated.
 
-## The Five Operational Criteria
+### The Five Operational Criteria
 
 From this core definition, we derive five operational criteria. These are not philosophical preferences. They are *engineering requirements* for a complete causal explanation.
 
-### Criterion 1: Identify the Actors
+#### Criterion 1: Identify the Actors
 
 A mechanism must name the entities doing the interacting. These actors cannot be mathematical objects (wavefunctions, metrics, Hilbert spaces). They must be physical things—particles, fields, fluids, carriers, or a medium—with state variables that change over time.
 
@@ -313,7 +315,7 @@ A mechanism must name the entities doing the interacting. These actors cannot be
 
 *Example of failure:* "Spacetime curvature causes objects to move." What is spacetime made of? What is curving? What is doing the pushing? No actors are named.
 
-### Criterion 2: Specify the Transfer Quantity
+#### Criterion 2: Specify the Transfer Quantity
 
 A mechanism must state what is being exchanged. Momentum is the canonical example, but energy, angular momentum, stress, or configuration information are also acceptable. The transfer quantity must be conserved or accounted for (e.g., momentum leaving one actor appears in another).
 
@@ -321,15 +323,15 @@ A mechanism must state what is being exchanged. Momentum is the canonical exampl
 
 *Example of failure:* "The object follows a geodesic." No transfer quantity is specified. Momentum is not mentioned. Force is explicitly absent by design.
 
-### Criterion 3: Provide the Interaction Rate
+#### Criterion 3: Provide the Interaction Rate
 
 A mechanism must say *how often* interactions occur, or equivalently, what the flux of the transfer quantity is. Rates can be constant, distance-dependent, velocity-dependent, or density-dependent—but they must be specified in a way that allows calculation of the net effect from microscopic interactions.
 
-*Example of satisfaction:* "The collision rate per unit area is $\frac{1}{4} n \bar{v}$, where $n$ is number density and $\bar{v}$ is mean speed."
+*Example of satisfaction:* "The collision rate per unit area is <span class="math inline">\\\frac{1}{4} n \bar{v}\\</span>, where <span class="math inline">\\n\\</span> is number density and <span class="math inline">\\\bar{v}\\</span> is mean speed."
 
-*Example of failure:* "The gravitational force is $GMm/r^2$." This describes the *net effect* of something, but not a per-interaction rate or a mechanism that would produce that net effect.
+*Example of failure:* "The gravitational force is <span class="math inline">\\GMm/r^2\\</span>." This describes the *net effect* of something, but not a per-interaction rate or a mechanism that would produce that net effect.
 
-### Criterion 4: Establish Directionality
+#### Criterion 4: Establish Directionality
 
 A mechanism must explain why the net effect points in a particular direction. Asymmetry must be generated from symmetric or systematically biased interactions. This is often the most subtle criterion: isotropic interactions can produce directional effects through gradients, shadows, differential exposure, or internal asymmetry of the interacting entity.
 
@@ -337,7 +339,7 @@ A mechanism must explain why the net effect points in a particular direction. As
 
 *Example of failure:* "Gravity pulls objects downward." Why downward? What breaks the symmetry? In GR, the answer is "initial conditions plus geodesic deviation"—but that pushes the question back without answering it.
 
-### Criterion 5: Show Self-Consistency (No External Impositions)
+#### Criterion 5: Show Self-Consistency (No External Impositions)
 
 A mechanism must not rely on externally imposed constraints that are not themselves mechanistically explained. Boundary conditions, normalization rules, renormalization schemes, conservation laws, and selection rules must emerge from the mechanism, not be added by the theorist after the equations are written.
 
@@ -345,7 +347,7 @@ A mechanism must not rely on externally imposed constraints that are not themsel
 
 *Example of failure:* "We normalize the wavefunction to unity." Who is "we"? What physical process performs the normalization? The equations alone do not enforce it—the physicist does, by hand, before calculating probabilities.
 
-## A Concrete Example of a Complete Mechanism
+### A Concrete Example of a Complete Mechanism
 
 Consider a gas in a container. The pressure on the walls is produced by a mechanism that satisfies all five criteria:
 
@@ -355,7 +357,7 @@ Consider a gas in a container. The pressure on the walls is produced by a mechan
 |:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Actors            | Gas molecules, container wall atoms                                                                                                                              |
 | Transfer quantity | Momentum                                                                                                                                                         |
-| Interaction rate  | Molecules collide with wall at rate proportional to density and mean speed ($\frac{1}{4} n \bar{v}$)                                                             |
+| Interaction rate  | Molecules collide with wall at rate proportional to density and mean speed (<span class="math inline">\\\frac{1}{4} n \bar{v}\\</span>)                          |
 | Directionality    | Random molecular motion averages to net perpendicular impulse (symmetry broken by wall’s presence, not by intrinsic bias in molecules)                           |
 | Self-consistency  | No external imposition—momentum conservation ensures pressure is balanced by structural stress; normalization emerges from counting, not from hand-imposed rules |
 
@@ -363,7 +365,7 @@ Consider a gas in a container. The pressure on the walls is produced by a mechan
 
 This is a complete mechanism. It explains *why* pressure exists, *how* it scales with density and temperature, *why* the wall does not accelerate away, and *what would happen* if we changed any parameter. It is causal, not merely descriptive.
 
-## A Contrast: A Falling Object in General Relativity
+### A Contrast: A Falling Object in General Relativity
 
 Now consider the same object in free fall according to General Relativity. Mainstream physics offers the following:
 
@@ -383,7 +385,7 @@ GR fails every criterion. It describes the geometry of the stage but specifies n
 
 The distinction is the entire point of this paper.
 
-## Why Mechanism Matters, Even If Prediction Works
+### Why Mechanism Matters, Even If Prediction Works
 
 A skeptic might say: "Prediction is what science does. If GR predicts correctly, why do we need a mechanism?"
 
@@ -395,7 +397,7 @@ The answer is twofold.
 
 The fact that fundamental physics has exempted itself from this standard is not a sign of maturity. It is a sign of incompleteness.
 
-## What This Paper Will Provide
+### What This Paper Will Provide
 
 For every phenomenon addressed—weight, inertia, momentum, orbital motion, light deflection, time dilation, charge, electric and magnetic forces, attraction and repulsion, dark matter, dark energy—we will provide a mechanism that satisfies all five criteria.
 
@@ -405,7 +407,7 @@ We will not discard the mathematics of GR or QM. We will show that those mathema
 
 The criteria we have laid out are the yardstick. The remainder of the paper is the measurement.
 
-# Where Mainstream Physics Quietly Lacks Mechanisms
+## Where Mainstream Physics Quietly Lacks Mechanisms
 
 We now apply the five criteria to the core phenomena of mainstream physics. The purpose is not to dismiss these theories—they are extraordinarily successful at prediction—but to diagnose exactly *where* they fail as causal explanations.
 
@@ -413,9 +415,9 @@ The pattern will be consistent: each phenomenon is described mathematically, oft
 
 This silence is not accidental. It is structural. And it is the opening our alternative will enter.
 
-## Inertia: Resistance Without a Resister
+### Inertia: Resistance Without a Resister
 
-**The phenomenon:** An object at rest tends to stay at rest. An object in motion tends to stay in motion. Changing an object’s velocity requires force. The relationship is $F = ma$.
+**The phenomenon:** An object at rest tends to stay at rest. An object in motion tends to stay in motion. Changing an object’s velocity requires force. The relationship is <span class="math inline">\\F = ma\\</span>.
 
 **Mainstream description:** Inertia is an intrinsic property of mass. Newton’s first law is an axiom. In relativity, inertia is embedded in the geodesic structure—objects follow straight paths through curved spacetime unless acted upon by force.
 
@@ -437,11 +439,11 @@ This silence is not accidental. It is structural. And it is the opening our alte
 
 **What a mechanism requires:** An entity that *collides with* or *resists the motion of* the accelerating object. That entity must be present regardless of direction. It must exchange momentum with the object at a rate proportional to acceleration. And it must be everywhere.
 
-## Momentum Transfer in Free Fall: Curvature Without Contact
+### Momentum Transfer in Free Fall: Curvature Without Contact
 
-**The phenomenon:** An object in free fall changes velocity—and therefore changes momentum—as it moves through a gravitational field. Near Earth, it gains approximately $9.8 \, \text{m/s}$ of downward velocity each second.
+**The phenomenon:** An object in free fall changes velocity—and therefore changes momentum—as it moves through a gravitational field. Near Earth, it gains approximately <span class="math inline">\\9.8 \\ \text{m/s}\\</span> of downward velocity each second.
 
-**Mainstream description:** In Newtonian gravity, a force $F = GMm/r^2$ acts at a distance. In General Relativity, there is no force. The object follows a geodesic in curved spacetime. Its momentum changes because the geometry of spacetime is changing along its path.
+**Mainstream description:** In Newtonian gravity, a force <span class="math inline">\\F = GMm/r^2\\</span> acts at a distance. In General Relativity, there is no force. The object follows a geodesic in curved spacetime. Its momentum changes because the geometry of spacetime is changing along its path.
 
 **Application of the five criteria:**
 
@@ -461,11 +463,11 @@ This silence is not accidental. It is structural. And it is the opening our alte
 
 **What a mechanism requires:** A medium in contact with the object. That medium must have a momentum gradient—more momentum flowing downward than upward—so that collisions with the medium transfer net downward momentum to the object. The object’s momentum change is exactly matched by opposite momentum change in the medium.
 
-## Time Dilation: Slowing Without a Slower
+### Time Dilation: Slowing Without a Slower
 
 **The phenomenon:** A clock in a gravitational potential well runs slower than an identical clock at higher altitude. A moving clock runs slower than a stationary clock. These effects are predicted by the Schwarzschild metric and the Lorentz factor, and confirmed experimentally (GPS, atomic clocks on aircraft, etc.).
 
-**Mainstream description:** Time dilation is a consequence of spacetime geometry (GR) or Lorentz invariance (SR). In GR, $d\tau = dt \sqrt{1 - 2GM/(rc^2)}$. In SR, $d\tau = dt \sqrt{1 - v^2/c^2}$.
+**Mainstream description:** Time dilation is a consequence of spacetime geometry (GR) or Lorentz invariance (SR). In GR, <span class="math inline">\\d\tau = dt \sqrt{1 - 2GM/(rc^2)}\\</span>. In SR, <span class="math inline">\\d\tau = dt \sqrt{1 - v^2/c^2}\\</span>.
 
 **Application of the five criteria:**
 
@@ -485,9 +487,9 @@ This silence is not accidental. It is structural. And it is the opening our alte
 
 **What a mechanism requires:** An interaction between the clock’s constituent particles and the medium that modulates the rate of internal processes. The clock slows because each "tick" requires a fixed number of interactions (or a fixed amount of exchange), and those interactions occur more slowly when the clock is moving through the medium or when the medium is denser.
 
-## Weight Without Expansion: The Equivalence Principle’s Hidden Demand
+### Weight Without Expansion: The Equivalence Principle’s Hidden Demand
 
-**The phenomenon:** A person standing on Earth’s surface feels weight. The Equivalence Principle states that this sensation is indistinguishable from being in an accelerating elevator in deep space with acceleration $9.8 \, \text{m/s}^2$. Yet Earth’s surface is not expanding outward at accelerating speed.
+**The phenomenon:** A person standing on Earth’s surface feels weight. The Equivalence Principle states that this sensation is indistinguishable from being in an accelerating elevator in deep space with acceleration <span class="math inline">\\9.8 \\ \text{m/s}^2\\</span>. Yet Earth’s surface is not expanding outward at accelerating speed.
 
 **Mainstream description:** Weight is the normal force from the ground opposing gravitational pull. In GR, the person is not accelerating relative to local inertial frames; the ground is accelerating upward due to Earth’s matter resisting gravitational collapse. The sensation of weight is the feeling of being pushed upward by the ground.
 
@@ -499,7 +501,7 @@ This silence is not accidental. It is structural. And it is the opening our alte
 |:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Actors            | Person, Earth, ground. But the *cause* of the upward force is Earth’s matter resisting collapse—what does the resisting?                                                                                                                          |
 | Transfer quantity | Momentum transferred from ground to person (normal force). But why is the ground pushing up?                                                                                                                                                      |
-| Interaction rate  | Sufficient to produce $9.8 \, \text{m/s}^2$ equivalent acceleration, but the microscopic mechanism of the upward push is not specified.                                                                                                           |
+| Interaction rate  | Sufficient to produce <span class="math inline">\\9.8 \\ \text{m/s}^2\\</span> equivalent acceleration, but the microscopic mechanism of the upward push is not specified.                                                                        |
 | Directionality    | Upward. But why upward? The EP says acceleration upward is equivalent to gravity downward. But if the ground is accelerating upward, why is Earth’s radius not increasing?                                                                        |
 | Self-consistency  | The resolution is geometric: the person is following a geodesic in curved spacetime; the ground prevents them from following it. But this describes the *pattern* without explaining *what the ground does* to the person at a mechanistic level. |
 
@@ -515,7 +517,7 @@ Mainstream chooses the second. But choosing geometry over kinematics is not prov
 
 **What a mechanism requires:** If the ground is not moving outward, then *space itself* must be moving inward. The person is stationary relative to the ground but moving relative to the incoming flow of the medium. Weight is the ram pressure of that flow colliding with the person’s mass. The EP is satisfied because the sensation of acceleration is identical whether the floor moves up or the medium flows down.
 
-# The Medium Is Already Certified as Physical
+## The Medium Is Already Certified as Physical
 
 Before we propose any new mechanism, we must establish that the substrate for that mechanism already has experimental support. The vacuum is not a philosophical speculation. It is not a hypothetical aether waiting to be detected. It is already known to possess physical properties—pressure, inertia, momentum-transfer capability, and a refractive index—because those properties have been measured.
 
@@ -523,9 +525,9 @@ The problem is not that the vacuum is invisible. The problem is that mainstream 
 
 This section closes that gap.
 
-# The Vacuum Is Not Nothing: Three Experimental Proofs
+## The Vacuum Is Not Nothing: Three Experimental Proofs
 
-## The Casimir Proof: Vacuum Exerts Pressure
+### The Casimir Proof: Vacuum Exerts Pressure
 
 **The experiment:** Two uncharged, electrically neutral metal plates placed very close together (nanometers apart) experience an attractive force. The force is measurable, reproducible, and matches theoretical predictions.
 
@@ -553,9 +555,9 @@ This section closes that gap.
 
 The Casimir effect alone is sufficient to establish that the vacuum is a physical medium. But there is more.
 
-## The Refraction Proof: Vacuum Has Optical Density
+### The Refraction Proof: Vacuum Has Optical Density
 
-**The experiment:** Light bends when passing near a massive object (e.g., the Sun). The deflection angle was measured by Eddington in 1919 and has been confirmed with increasing precision ever since. For light grazing the Sun’s surface, the deflection is approximately $1.75$ arcseconds.
+**The experiment:** Light bends when passing near a massive object (e.g., the Sun). The deflection angle was measured by Eddington in 1919 and has been confirmed with increasing precision ever since. For light grazing the Sun’s surface, the deflection is approximately <span class="math inline">\\1.75\\</span> arcseconds.
 
 **The mainstream explanation:** In General Relativity, light follows null geodesics in curved spacetime. The Sun’s mass curves spacetime, and the light bends because it is traveling through a curved geometry. No medium is required—the bending is purely geometric.
 
@@ -571,19 +573,19 @@ The Casimir effect alone is sufficient to establish that the vacuum is a physica
 
 <div class="center">
 
-| **Criterion**     | **Light Bending Demonstrates**                                                                                     |
-|:------------------|:-------------------------------------------------------------------------------------------------------------------|
-| Actors            | The vacuum (must have variable refractive index)                                                                   |
-| Transfer quantity | Momentum (photon changes direction $\rightarrow$ momentum change $\rightarrow$ must be transferred from something) |
-| Interaction rate  | Determined by gradient of gravitational potential                                                                  |
-| Directionality    | Toward the massive body (refraction bends light inward)                                                            |
-| Self-consistency  | The bending angle matches computation from refractive index profile $n(r) = 1 + 2GM/(rc^2)$                        |
+| **Criterion**     | **Light Bending Demonstrates**                                                                                                                                                           |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actors            | The vacuum (must have variable refractive index)                                                                                                                                         |
+| Transfer quantity | Momentum (photon changes direction <span class="math inline">\\\rightarrow\\</span> momentum change <span class="math inline">\\\rightarrow\\</span> must be transferred from something) |
+| Interaction rate  | Determined by gradient of gravitational potential                                                                                                                                        |
+| Directionality    | Toward the massive body (refraction bends light inward)                                                                                                                                  |
+| Self-consistency  | The bending angle matches computation from refractive index profile <span class="math inline">\\n(r) = 1 + 2GM/(rc^2)\\</span>                                                           |
 
 </div>
 
-The refraction interpretation is not less predictive than GR—it yields the same $1.75$ arcseconds. It is merely *mechanical* where GR is *geometric*. That is the difference.
+The refraction interpretation is not less predictive than GR—it yields the same <span class="math inline">\\1.75\\</span> arcseconds. It is merely *mechanical* where GR is *geometric*. That is the difference.
 
-## The Momentum Proof: Curves Alone Don’t Change Momentum
+### The Momentum Proof: Curves Alone Don’t Change Momentum
 
 **The experiment:** A planet orbits the Sun. A photon bends around a star. In both cases, the object’s direction of motion changes. Direction change implies momentum change. Momentum change implies momentum transfer.
 
@@ -613,23 +615,23 @@ In GR, the stress-energy tensor of the planet is not conserved alone—it is the
 
 </div>
 
-## The Inescapable Synthesis
+### The Inescapable Synthesis
 
 The three proofs converge on a single conclusion:
 
 <div class="center">
 
-| **Phenomenon**             | **Implication for the Vacuum**                                                           |
-|:---------------------------|:-----------------------------------------------------------------------------------------|
-| Casimir effect             | Vacuum exerts pressure $\rightarrow$ it has momentum and energy density                  |
-| Light bending              | Vacuum has refractive index $\rightarrow$ it is an optical medium                        |
-| Momentum change in gravity | Vacuum receives and delivers momentum $\rightarrow$ it participates in momentum exchange |
+| **Phenomenon**             | **Implication for the Vacuum**                                                                                              |
+|:---------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| Casimir effect             | Vacuum exerts pressure <span class="math inline">\\\rightarrow\\</span> it has momentum and energy density                  |
+| Light bending              | Vacuum has refractive index <span class="math inline">\\\rightarrow\\</span> it is an optical medium                        |
+| Momentum change in gravity | Vacuum receives and delivers momentum <span class="math inline">\\\rightarrow\\</span> it participates in momentum exchange |
 
 </div>
 
 A vacuum that exerts pressure, has a refractive index, and exchanges momentum is, by any reasonable definition, a **physical medium**.
 
-It has density. It has pressure. It has a propagation speed $c$. It can flow. It can carry waves. It can interact with matter.
+It has density. It has pressure. It has a propagation speed <span class="math inline">\\c\\</span>. It can flow. It can carry waves. It can interact with matter.
 
 The only remaining question is not *whether* the vacuum is a medium, but *what flow pattern* explains the observed phenomena.
 
@@ -643,29 +645,29 @@ We therefore proceed on the following basis:
 
 <div id="tab:empirical_mapping">
 
-| **Observed Dataset**                      | **Mainstream Interpretation (Geometric/Abstract)**                         | **GPT Kinetic Mechanism (Physical Medium)**                                                                                                                                         |
-|:------------------------------------------|:---------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Casimir Pressure** *(Lamoreaux 1997)*   | Zero-point quantum fluctuations of virtual photons in a non-material void. | **Boundary Mode Suppression**: Physical, self-repulsive graviton flux ($P_0 \approx 10^{-26}\,\text{kg/m}^3$) excluded between plates, creating net external ram pressure push.     |
-| **Galactic Rotations** *(SPARC Database)* | Postulates 85% unobserved, non-baryonic Dark Matter halos.                 | **Shell Resonance Corridors**: Core pulsation stratifies graviton medium into quantized standing-wave bands ($f_{\text{pulse}} = f_{\text{field}}$), locking orbital speed ($v_0$). |
-| **Clock Rate Shifts** *(GPS Satellites)*  | Metric tensor stretching ($g_{00}$) of abstract time coordinates.          | **$N/\Gamma$ Refresh Cycle Loading**: Ambient graviton density alters atomic refresh cycle load ($\tau = N/\Gamma$).                                                                |
+| **Observed Dataset**                      | **Mainstream Interpretation (Geometric/Abstract)**                                                    | **GPT Kinetic Mechanism (Physical Medium)**                                                                                                                                                                                                                 |
+|:------------------------------------------|:------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Casimir Pressure** *(Lamoreaux 1997)*   | Zero-point quantum fluctuations of virtual photons in a non-material void.                            | **Boundary Mode Suppression**: Physical, self-repulsive graviton flux (<span class="math inline">\\P_0 \approx 10^{-26}\\\text{kg/m}^3\\</span>) excluded between plates, creating net external ram pressure push.                                          |
+| **Galactic Rotations** *(SPARC Database)* | Postulates 85% unobserved, non-baryonic Dark Matter halos.                                            | **Shell Resonance Corridors**: Core pulsation stratifies graviton medium into quantized standing-wave bands (<span class="math inline">\\f\_{\text{pulse}} = f\_{\text{field}}\\</span>), locking orbital speed (<span class="math inline">\\v_0\\</span>). |
+| **Clock Rate Shifts** *(GPS Satellites)*  | Metric tensor stretching (<span class="math inline">\\g\_{00}\\</span>) of abstract time coordinates. | **<span class="math inline">\\N/\Gamma\\</span> Refresh Cycle Loading**: Ambient graviton density alters atomic refresh cycle load (<span class="math inline">\\\tau = N/\Gamma\\</span>).                                                                  |
 
 Empirical Data Mapping: Mainstream Abstract Models vs. GPT Kinetic Medium
 
 </div>
 
-## A Note on Terminology
+### A Note on Terminology
 
 We will call this medium the *kinetic substrate* or simply the *medium*. We avoid the term "aether" because of its historical baggage—not because the concept is wrong, but because the word has been weaponized against mechanism. The medium we describe is not the 19th-century luminiferous aether (a static, rigid, undetectable substance). It is a dynamic, pressurized, flowing fluid whose properties are *already measured* in Casimir, refraction, and momentum-transfer experiments.
 
 If the reader prefers to call it "quantum vacuum" or "spacetime medium," that is fine—as long as they grant that it is *physical* and *capable of mechanical interaction*.
 
-# Environment First, Objects Second (The Ontological Reversal)
+## Environment First, Objects Second (The Ontological Reversal)
 
 We have established that the vacuum is a physical medium. It exerts pressure. It has a refractive index. It exchanges momentum.
 
 Now we must confront a deeper assumption—one so fundamental that it is rarely stated, let alone questioned.
 
-## The Default Assumption: Objects First
+### The Default Assumption: Objects First
 
 Standard physics assumes, implicitly, that the universe begins with *objects*.
 
@@ -685,7 +687,7 @@ But this assumption is not derived from evidence. It is inherited from a pre-qua
 
 The Casimir effect alone refutes it. Empty space does not exert pressure. Only non-empty space exerts pressure.
 
-## The Alternative: Environment First
+### The Alternative: Environment First
 
 Graviton Pressure Theory (GPT) begins with a reversal of this assumption.
 
@@ -707,7 +709,7 @@ In this reversed ontology:
 
 **Objects are secondary.** They are configurations *within* the medium—regions where the medium’s flow is perturbed, organized, or redirected. An object’s properties (mass, charge, spin) are not intrinsic labels. They are *response patterns*—the way the object interacts with, resists, redirects, and organizes the surrounding medium.
 
-## What This Reversal Explains That the Default Cannot
+### What This Reversal Explains That the Default Cannot
 
 The "objects first" assumption has never been able to explain why objects have the properties they do. Mass is just "how much stuff." Charge is just "what sign." Inertia is just "resistance to acceleration." These are not explanations. They are naming ceremonies.
 
@@ -715,30 +717,30 @@ The "environment first" reversal offers a different path:
 
 <div class="center">
 
-| **Property**  | **Objects-First Account**                      | **Environment-First Account (GPT)**                                                        |
-|:--------------|:-----------------------------------------------|:-------------------------------------------------------------------------------------------|
-| Mass          | Intrinsic quantity of matter                   | Coupling cross-section between object and medium flow                                      |
-| Inertia       | Intrinsic resistance to acceleration           | Asymmetric collision rate when object moves through medium                                 |
-| Momentum      | Intrinsic property of motion $p = mv$          | Organized medium corridor—structured flow aligned with motion                              |
-| Charge        | Primitive label (+ or -)                       | Stabilized directional bias in medium exchange (divergent vs. convergent topology)         |
-| Time dilation | Metric stretching or coordinate transformation | Increased internal load ($N$) relative to encounter rate ($\Gamma$) in replenishment cycle |
-| Weight        | Force from gravity or normal reaction          | Ram pressure from inward medium flow                                                       |
+| **Property**  | **Objects-First Account**                                                | **Environment-First Account (GPT)**                                                                                                                              |
+|:--------------|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mass          | Intrinsic quantity of matter                                             | Coupling cross-section between object and medium flow                                                                                                            |
+| Inertia       | Intrinsic resistance to acceleration                                     | Asymmetric collision rate when object moves through medium                                                                                                       |
+| Momentum      | Intrinsic property of motion <span class="math inline">\\p = mv\\</span> | Organized medium corridor—structured flow aligned with motion                                                                                                    |
+| Charge        | Primitive label (+ or -)                                                 | Stabilized directional bias in medium exchange (divergent vs. convergent topology)                                                                               |
+| Time dilation | Metric stretching or coordinate transformation                           | Increased internal load (<span class="math inline">\\N\\</span>) relative to encounter rate (<span class="math inline">\\\Gamma\\</span>) in replenishment cycle |
+| Weight        | Force from gravity or normal reaction                                    | Ram pressure from inward medium flow                                                                                                                             |
 
 </div>
 
 In each case, the environment-first account replaces a *primitive label* with a *mechanism*. The property is no longer "just there." It is *produced* by the relationship between the object and the medium.
 
-## The Medium Is Not Defined by Matter
+### The Medium Is Not Defined by Matter
 
 A crucial consequence: the medium exists independently of matter. It has structure, dynamics, and properties whether or not any matter is present.
 
 This is not true of the "spacetime" of General Relativity. In GR, spacetime is defined by the distribution of matter and energy via the Einstein field equations. No matter? Flat Minkowski spacetime—but even that is defined relative to the *absence* of matter. Spacetime has no independent existence. It is a *relational* entity.
 
-In GPT, the medium has independent existence. It flows into mass concentrations, but it would flow even if no mass were present (though with a different profile). Its properties—density $\rho_0$, characteristic speed $c_g$, compressibility—are constants that do not depend on matter for their definition.
+In GPT, the medium has independent existence. It flows into mass concentrations, but it would flow even if no mass were present (though with a different profile). Its properties—density <span class="math inline">\\\rho_0\\</span>, characteristic speed <span class="math inline">\\c_g\\</span>, compressibility—are constants that do not depend on matter for their definition.
 
 This independence is what allows the medium to *constrain* matter rather than being *determined by* matter.
 
-## The Constraint Function of the Medium
+### The Constraint Function of the Medium
 
 If the medium is primary, then it acts as an *environmental constraint* on all embedded objects.
 
@@ -754,7 +756,7 @@ The orbital is not a mathematical probability distribution. It is a *stable reso
 
 The same logic extends to chemical bonds, crystal lattices, and biological structures. In each case, the medium’s stress field prefers certain configurations and rejects others. Structure is not an accident. It is *enforced*.
 
-## The Burden of Proof Shifts
+### The Burden of Proof Shifts
 
 The environment-first reversal shifts the burden of proof.
 
@@ -764,7 +766,7 @@ In the GPT view, the vacuum is assumed to be a physical medium (because Casimir,
 
 The first position is no longer tenable. The evidence for a physical vacuum is overwhelming. The question is no longer "does the vacuum exist as a medium?" but "what is the medium’s flow pattern, and how does it produce observed phenomena?"
 
-## A Note on Historical Resistance
+### A Note on Historical Resistance
 
 This reversal will feel uncomfortable to readers trained in mainstream physics. That is expected.
 
@@ -772,17 +774,17 @@ The resistance to a physical vacuum has deep roots: Michelson-Morley’s null re
 
 But Michelson-Morley did *not* prove the vacuum is empty. It proved that the *specific* aether model of a static, rigid, undetectable medium was wrong. It did not prove that no medium exists.
 
-Special relativity does *not* require an empty vacuum. It requires that the laws of physics take the same form in all inertial frames. A medium can satisfy this if its dynamics are Lorentz-covariant. Acoustic waves in a fluid are not Lorentz-covariant—but that is because the fluid has a rest frame. A medium whose characteristic speed is $c$ (the speed of light) and whose dynamics are governed by a Lorentz-invariant action *can* be consistent with relativity.
+Special relativity does *not* require an empty vacuum. It requires that the laws of physics take the same form in all inertial frames. A medium can satisfy this if its dynamics are Lorentz-covariant. Acoustic waves in a fluid are not Lorentz-covariant—but that is because the fluid has a rest frame. A medium whose characteristic speed is <span class="math inline">\\c\\</span> (the speed of light) and whose dynamics are governed by a Lorentz-invariant action *can* be consistent with relativity.
 
 The historical resistance is understandable but no longer justified. The experimental evidence for a physical vacuum is now too strong to ignore.
 
-# Introducing Graviton Pressure Theory
+## Introducing Graviton Pressure Theory
 
 We have established that the vacuum is a physical medium. We have reversed the ontology: environment first, objects second. Now we must specify what kind of medium it is and how it produces the phenomena we observe.
 
 This section introduces Graviton Pressure Theory (GPT)—not as a speculative addition to physics, but as the minimal mechanical model consistent with the experimental constraints already enumerated.
 
-## Why a New Name?
+### Why a New Name?
 
 The concept of a physical vacuum medium has a long and troubled history. The 19th-century luminiferous aether was postulated as a static, rigid, undetectable substance—and rightly abandoned after Michelson-Morley.
 
@@ -801,21 +803,21 @@ GPT is *not* that aether.
 
 Because of the historical baggage, we avoid the term "aether." We call it the *kinetic substrate* or simply the *medium*. The name is less important than the properties.
 
-## The Core Postulates of GPT
+### The Core Postulates of GPT
 
 GPT rests on three postulates. Each is directly motivated by experimental evidence.
 
-### Postulate 1: The vacuum is a physical medium populated by real carriers (gravitons).
+#### Postulate 1: The vacuum is a physical medium populated by real carriers (gravitons).
 
 - Gravitons are not "virtual particles" or mathematical conveniences. They are real entities—the smallest quanta of the medium.
 
-- They propagate at speed $c$ (the speed of light) in the local medium rest frame.
+- They propagate at speed <span class="math inline">\\c\\</span> (the speed of light) in the local medium rest frame.
 
-- They have no rest mass (hence they always travel at $c$).
+- They have no rest mass (hence they always travel at <span class="math inline">\\c\\</span>).
 
 *Evidence:* The Casimir effect demonstrates vacuum pressure and energy density. Pressure requires a medium. Energy density requires something that *has* energy.
 
-### Postulate 2: Gravitons repel one another.
+#### Postulate 2: Gravitons repel one another.
 
 - The medium has a self-interaction: gravitons exert repulsive forces on other gravitons.
 
@@ -823,7 +825,7 @@ GPT rests on three postulates. Each is directly motivated by experimental eviden
 
 *Evidence:* A medium without self-interaction cannot sustain pressure gradients. Observed vacuum pressure (Casimir) implies self-interaction.
 
-### Postulate 3: Gravitons interact gravitationally with matter (and with one another) via momentum exchange.
+#### Postulate 3: Gravitons interact gravitationally with matter (and with one another) via momentum exchange.
 
 - When a graviton collides with a massive particle, momentum is transferred.
 
@@ -833,7 +835,7 @@ GPT rests on three postulates. Each is directly motivated by experimental eviden
 
 *Evidence:* Momentum conservation requires that changes in an object’s momentum be matched by opposite changes elsewhere. The only entity present in all gravitational interactions is the medium.
 
-## The Attraction Problem: How Repulsive Carriers Produce Attraction
+### The Attraction Problem: How Repulsive Carriers Produce Attraction
 
 This is the most common objection to any medium-based gravity theory:
 
@@ -861,17 +863,17 @@ This is exactly analogous to the Casimir effect (where metal plates shield vacuu
 
 The Earth does not "pull" on the Moon. The surrounding medium—flowing inward toward Earth’s mass—creates a pressure gradient. The Moon is pushed toward Earth by higher pressure on its far side than on its near side. The same mechanism explains orbits, free fall, and tidal effects.
 
-## The Minimal Variables of GPT
+### The Minimal Variables of GPT
 
 At the continuum level (averaging over many gravitons), the medium is described by three fields:
 
 <div class="center">
 
-| **Variable**    | **Symbol**                  | **Meaning**                                       |
-|:----------------|:----------------------------|:--------------------------------------------------|
-| Carrier density | $\rho_g(\mathbf{x}, t)$     | Mass/energy density of gravitons per unit volume  |
-| Flow velocity   | $\mathbf{u}(\mathbf{x}, t)$ | Mean velocity of graviton flow                    |
-| Pressure        | $P_g(\mathbf{x}, t)$        | Isotropic stress from graviton-graviton repulsion |
+| **Variable**    | **Symbol**                                                     | **Meaning**                                       |
+|:----------------|:---------------------------------------------------------------|:--------------------------------------------------|
+| Carrier density | <span class="math inline">\\\rho_g(\mathbf{x}, t)\\</span>     | Mass/energy density of gravitons per unit volume  |
+| Flow velocity   | <span class="math inline">\\\mathbf{u}(\mathbf{x}, t)\\</span> | Mean velocity of graviton flow                    |
+| Pressure        | <span class="math inline">\\P_g(\mathbf{x}, t)\\</span>        | Isotropic stress from graviton-graviton repulsion |
 
 </div>
 
@@ -879,17 +881,17 @@ These are not speculative entities. They are the standard variables of continuum
 
 **Equation of state:** Pressure is a monotonic function of density. For small perturbations, we linearize:
 
-$$P_g = P_0 + c_g^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)$$
+<span class="math display">\\P_g = P_0 + c_g^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)\\</span>
 
-where $c_g^2 = dP_g/d\rho_g$ is the speed of sound in the medium. We will show that $c_g = c$ (the speed of light) in equilibrium.
+where <span class="math inline">\\c_g^2 = dP_g/d\rho_g\\</span> is the speed of sound in the medium. We will show that <span class="math inline">\\c_g = c\\</span> (the speed of light) in equilibrium.
 
-**Force density on matter:** A massive object at location $\mathbf{x}$ experiences a force density proportional to the pressure gradient:
+**Force density on matter:** A massive object at location <span class="math inline">\\\mathbf{x}\\</span> experiences a force density proportional to the pressure gradient:
 
-$$\mathbf{f} = -\nabla P_g$$
+<span class="math display">\\\mathbf{f} = -\nabla P_g\\</span>
 
 This is not a new force law. It is the standard force density in any fluid: matter is pushed from high pressure to low pressure. The entire phenomenology of gravity will be derived from this single expression plus the flow dynamics of the medium.
 
-## On the Detection of Gravitons: They Are Already Measured
+### On the Detection of Gravitons: They Are Already Measured
 
 A predictable objection: "If gravitons are real, why haven’t we detected them?"
 
@@ -899,7 +901,7 @@ The objection presumes we have not. That presumption is false.
 
 Let us be explicit.
 
-### Magnetometers Are Graviton Detectors
+#### Magnetometers Are Graviton Detectors
 
 A magnetometer measures magnetic field strength. In GPT, a magnetic field is not an abstract entity. It is *coherent, structured graviton flow* channeled through materials with high Graviton Compatibility Index (GCI)—ferromagnets such as iron, nickel, and cobalt.
 
@@ -913,7 +915,7 @@ When a magnetometer registers a field, it is measuring:
 
 There is no separate "magnetic field" floating independently. There is only the graviton medium, organized by material coherence into directional flow.
 
-### Why Mainstream Physics Missed This
+#### Why Mainstream Physics Missed This
 
 The reason is categorical, not experimental.
 
@@ -935,7 +937,7 @@ GPT asks that question. The answer is forced by the evidence:
 
 Each mainstream interpretation is a *description* of what happens. Each GPT interpretation is a *mechanism* for *why* it happens.
 
-### Historical Data as Graviton Evidence
+#### Historical Data as Graviton Evidence
 
 If magnetism is structured graviton flow, then every existing magnetic measurement is already graviton data.
 
@@ -949,29 +951,29 @@ If magnetism is structured graviton flow, then every existing magnetic measureme
 
 No new experiments are required to confirm that gravitons exist. They are already confirmed. The only thing missing was the *recognition* that magnetic measurements are graviton measurements.
 
-### Why Gravitons Are Not "Too Weak to Detect"
+#### Why Gravitons Are Not "Too Weak to Detect"
 
 The standard perturbative quantum gravity argument—that gravitons are too weakly interacting to detect—assumes gravitons are *rare* and *point-like* mediators of a fundamental force.
 
-GPT makes no such assumption. Gravitons are not rare. They are the *constituents of the medium itself*. The ambient graviton density $\rho_0 \approx 10^{-26} \, \text{kg/m}^3$ is small but nonzero. More importantly, when gravitons are *coherently structured* by magnetic materials, their collective effect is easily measurable.
+GPT makes no such assumption. Gravitons are not rare. They are the *constituents of the medium itself*. The ambient graviton density <span class="math inline">\\\rho_0 \approx 10^{-26} \\ \text{kg/m}^3\\</span> is small but nonzero. More importantly, when gravitons are *coherently structured* by magnetic materials, their collective effect is easily measurable.
 
 A single diffuse graviton transfers negligible momentum. But a *coherent stream* of aligned gravitons—focused by a ferromagnetic lattice—transfers momentum sufficient to move a compass needle, align magnetic domains, or induce current in a conductor.
 
 This is not a violation of known physics. It is the same principle by which a laser (coherent photons) cuts steel while a light bulb (incoherent photons) does not. The carrier is the same. The *coherence* is different.
 
-### Experimental Predictions for Graviton Detection
+#### Experimental Predictions for Graviton Detection
 
 GPT makes specific, testable predictions that distinguish it from mainstream interpretations:
 
-1.  **Gravitational perturbation near magnets:** A precision gravimeter placed near a strong magnet (e.g., neodymium) should detect a minute but reproducible gravitational anomaly $\delta g \propto C_s \cdot M \cdot \nabla P_g$, where $C_s$ is spin coherence and $M$ is magnetization.
+1.  **Gravitational perturbation near magnets:** A precision gravimeter placed near a strong magnet (e.g., neodymium) should detect a minute but reproducible gravitational anomaly <span class="math inline">\\\delta g \propto C_s \cdot M \cdot \nabla P_g\\</span>, where <span class="math inline">\\C_s\\</span> is spin coherence and <span class="math inline">\\M\\</span> is magnetization.
 
 2.  **Time dilation near coherent structures:** Atomic clocks placed near coherently aligned magnetic domains should show measurable timing deviations correlated with magnetization state.
 
-3.  **Corridor collapse timing:** The decay of magnetic remanence after demagnetization should follow a coherence decay function $\mathcal{C}_g(t) = \mathcal{C}_0 e^{-t/\tau}$, with $\tau$ dependent on lattice purity and thermal environment.
+3.  **Corridor collapse timing:** The decay of magnetic remanence after demagnetization should follow a coherence decay function <span class="math inline">\\\mathcal{C}\_g(t) = \mathcal{C}\_0 e^{-t/\tau}\\</span>, with <span class="math inline">\\\tau\\</span> dependent on lattice purity and thermal environment.
 
 These predictions are not philosophical. They are experimental handles.
 
-### Summary: Detection Is Not the Problem
+#### Summary: Detection Is Not the Problem
 
 The claim that gravitons are undetected is a category error. They have been detected continuously for two centuries. We simply labeled the phenomenon "magnetism" and stopped asking what magnetic field lines are *made of*.
 
@@ -981,7 +983,7 @@ The burden of proof has shifted. The skeptic must now explain: if magnetic field
 
 Mainstream physics has no answer to these questions. It has only the description: "a magnetic field is a vector field." That is not a mechanism. That is a placeholder.
 
-## How GPT Differs from Other Approaches
+### How GPT Differs from Other Approaches
 
 <div class="center">
 
@@ -997,7 +999,7 @@ Mainstream physics has no answer to these questions. It has only the description
 
 GPT is distinguished not by its mathematics (which will recover GR at appropriate limits) but by its *ontology*. The medium is real. The carriers are real. The pressure gradients are real. Geometry is an emergent description, not the fundamental reality.
 
-## The Unification Strategy
+### The Unification Strategy
 
 GPT aims to unify phenomena that are currently treated separately:
 
@@ -1007,7 +1009,7 @@ GPT aims to unify phenomena that are currently treated separately:
 
 - **Momentum:** Organized corridor of medium flow aligned with motion
 
-- **Time dilation:** Increased internal load ($N$) relative to encounter rate ($\Gamma$) in replenishment cycle
+- **Time dilation:** Increased internal load (<span class="math inline">\\N\\</span>) relative to encounter rate (<span class="math inline">\\\Gamma\\</span>) in replenishment cycle
 
 - **Light deflection:** Refractive index gradient in medium
 
@@ -1017,13 +1019,13 @@ GPT aims to unify phenomena that are currently treated separately:
 
 - **Magnetism:** Curl organization from moving bias currents
 
-- **Dark matter:** Enhanced medium density around galaxies ($\rho \propto 1/r$)
+- **Dark matter:** Enhanced medium density around galaxies (<span class="math inline">\\\rho \propto 1/r\\</span>)
 
 - **Dark energy:** Global medium divergence (Hubble flow)
 
 Each of these will be derived in subsequent sections. The derivations are not speculative—they are forced by the minimal assumptions of a pressurized, flowing medium with repulsive carriers.
 
-## A Note on Mathematical Convention
+### A Note on Mathematical Convention
 
 In the sections that follow, we will use standard notation from fluid mechanics and continuum physics. The only non-standard element is the identification of the medium as the vacuum itself.
 
@@ -1031,23 +1033,23 @@ We will recover known results (inverse-square law, Schwarzschild metric, Lorentz
 
 This is by design. If the mathematics were completely different, GPT would be easily falsified. The fact that it recovers standard results in their domains of validity is a feature, not a bug—it shows that GPT is not proposing a new set of equations, but a new *interpretation* of existing equations plus new predictions where the standard models are silent (e.g., mechanism for time dilation, origin of charge quantization).
 
-# Minimal Medium Description
+## Minimal Medium Description
 
 We now lay the quantitative foundation for the kinetic substrate. The goal is not to propose new mathematics but to show that *existing fluid mechanics*, applied to the vacuum as a physical medium, produces all the phenomena we observe.
 
 No new force laws are postulated. No action-at-a-distance is invoked. Only a medium with three properties: density, flow velocity, and pressure.
 
-## The Three Minimal Variables
+### The Three Minimal Variables
 
 At the continuum level—averaging over many gravitons—the medium is described by three fields, each measurable in principle:
 
 <div class="center">
 
-| **Variable**    | **Symbol**                  | **Meaning**                                              |
-|:----------------|:----------------------------|:---------------------------------------------------------|
-| Carrier density | $\rho_g(\mathbf{x}, t)$     | Mass-energy density of gravitons per unit volume (kg/m³) |
-| Flow velocity   | $\mathbf{u}(\mathbf{x}, t)$ | Mean velocity of graviton flow (m/s)                     |
-| Pressure        | $P_g(\mathbf{x}, t)$        | Isotropic stress from graviton-graviton repulsion (Pa)   |
+| **Variable**    | **Symbol**                                                     | **Meaning**                                              |
+|:----------------|:---------------------------------------------------------------|:---------------------------------------------------------|
+| Carrier density | <span class="math inline">\\\rho_g(\mathbf{x}, t)\\</span>     | Mass-energy density of gravitons per unit volume (kg/m³) |
+| Flow velocity   | <span class="math inline">\\\mathbf{u}(\mathbf{x}, t)\\</span> | Mean velocity of graviton flow (m/s)                     |
+| Pressure        | <span class="math inline">\\P_g(\mathbf{x}, t)\\</span>        | Isotropic stress from graviton-graviton repulsion (Pa)   |
 
 </div>
 
@@ -1055,65 +1057,65 @@ These are not speculative entities. They are the standard variables of continuum
 
 *Why these three?* Because they are sufficient and necessary. Density tells us how much medium is present. Velocity tells us where it is going. Pressure tells us what force it exerts on matter. No additional variables are required to recover known gravitational and electromagnetic phenomena.
 
-## Equation of State
+### Equation of State
 
 Gravitons are self-repulsive. This is not an ad hoc assumption—it is required for the medium to sustain pressure gradients. A non-interacting gas exerts pressure only through kinetic collisions (ideal gas law). A self-repulsive gas exerts additional pressure from the repulsive interaction itself, which stiffens the medium and allows it to propagate disturbances at finite speed.
 
 For small perturbations around equilibrium, we linearize the equation of state:
 
-$$P_g = P_0 + c_g^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)$$
+<span class="math display">\\P_g = P_0 + c_g^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)\\</span>
 
 where:
 
-- $P_0$ and $\rho_0$ are the equilibrium pressure and density of the medium far from any mass (the "background vacuum")
+- <span class="math inline">\\P_0\\</span> and <span class="math inline">\\\rho_0\\</span> are the equilibrium pressure and density of the medium far from any mass (the "background vacuum")
 
-- $c_g^2 = dP_g/d\rho_g$ is the square of the speed of sound in the medium
+- <span class="math inline">\\c_g^2 = dP_g/d\rho_g\\</span> is the square of the speed of sound in the medium
 
-**Identification of $c_g$:** In GPT, the speed of sound in the graviton medium is the speed of light. That is, $c_g = c$.
+**Identification of <span class="math inline">\\c_g\\</span>:** In GPT, the speed of sound in the graviton medium is the speed of light. That is, <span class="math inline">\\c_g = c\\</span>.
 
-This is not an accident. It is a necessary condition for the medium to be compatible with relativistic observations. If the medium’s characteristic speed were not $c$, then light propagating through it would exhibit dispersion or frame-dependence that contradicts experiment. By setting $c_g = c$, the medium becomes Lorentz-covariant in its effective dynamics—not because it lacks a rest frame, but because its internal dynamics are tuned to preserve the appearance of Lorentz symmetry for all observers.
+This is not an accident. It is a necessary condition for the medium to be compatible with relativistic observations. If the medium’s characteristic speed were not <span class="math inline">\\c\\</span>, then light propagating through it would exhibit dispersion or frame-dependence that contradicts experiment. By setting <span class="math inline">\\c_g = c\\</span>, the medium becomes Lorentz-covariant in its effective dynamics—not because it lacks a rest frame, but because its internal dynamics are tuned to preserve the appearance of Lorentz symmetry for all observers.
 
-We return to this point in Section <a href="#subsec:lorentz_covariance" data-reference-type="ref" data-reference="subsec:lorentz_covariance">10.6</a>. For now, we simply state: $c_g = c$.
+We return to this point in Section <a href="#subsec:lorentz_covariance" data-reference-type="ref" data-reference="subsec:lorentz_covariance">10.6</a>. For now, we simply state: <span class="math inline">\\c_g = c\\</span>.
 
-## Force Density on Matter
+### Force Density on Matter
 
 A massive object embedded in the medium experiences a net force proportional to the local pressure gradient. This is not a new force law—it is the standard force density in any fluid:
 
-$$\mathbf{f} = -\nabla P_g$$
+<span class="math display">\\\mathbf{f} = -\nabla P_g\\</span>
 
 That is, matter is pushed from regions of higher graviton pressure to regions of lower graviton pressure. The force per unit volume is the negative gradient of pressure.
 
-For a point-like object of mass $m$, the total force is:
+For a point-like object of mass <span class="math inline">\\m\\</span>, the total force is:
 
-$$\mathbf{F} = -V \nabla P_g$$
+<span class="math display">\\\mathbf{F} = -V \nabla P_g\\</span>
 
-where $V$ is the volume of the object (or, more precisely, the effective cross-section for graviton interaction). In the case where the object’s size is much smaller than the scale of pressure variation, the force simplifies to:
+where <span class="math inline">\\V\\</span> is the volume of the object (or, more precisely, the effective cross-section for graviton interaction). In the case where the object’s size is much smaller than the scale of pressure variation, the force simplifies to:
 
-$$\mathbf{F} = -m \nabla \Phi$$
+<span class="math display">\\\mathbf{F} = -m \nabla \Phi\\</span>
 
-where $\Phi$ is a potential such that $\nabla P_g = \rho_m \nabla \Phi$ and $\rho_m$ is the mass density of the object. This recovers the Newtonian form $\mathbf{F} = -m \nabla \Phi$, but with the crucial difference that $\Phi$ is not a mysterious potential—it is derived from the pressure distribution of the medium.
+where <span class="math inline">\\\Phi\\</span> is a potential such that <span class="math inline">\\\nabla P_g = \rho_m \nabla \Phi\\</span> and <span class="math inline">\\\rho_m\\</span> is the mass density of the object. This recovers the Newtonian form <span class="math inline">\\\mathbf{F} = -m \nabla \Phi\\</span>, but with the crucial difference that <span class="math inline">\\\Phi\\</span> is not a mysterious potential—it is derived from the pressure distribution of the medium.
 
 **The entire phenomenology of gravity reduces to this:** objects move from high pressure to low pressure. The "force of gravity" is the pressure gradient of the graviton medium.
 
-## Continuity and Momentum Conservation
+### Continuity and Momentum Conservation
 
 The medium itself obeys conservation laws. Since gravitons are neither created nor destroyed (except at mass sinks, which we address in Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>), the continuity equation holds:
 
-$$\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = 0$$
+<span class="math display">\\\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = 0\\</span>
 
-For steady-state flows ($\partial \rho_g/\partial t = 0$), this reduces to:
+For steady-state flows (<span class="math inline">\\\partial \rho_g/\partial t = 0\\</span>), this reduces to:
 
-$$\nabla \cdot (\rho_g \mathbf{u}) = 0$$
+<span class="math display">\\\nabla \cdot (\rho_g \mathbf{u}) = 0\\</span>
 
 Similarly, momentum conservation for the medium gives the Euler equation (inviscid case):
 
-$$\rho_g \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla P_g + \mathbf{f}_{\text{ext}}$$
+<span class="math display">\\\rho_g \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla P_g + \mathbf{f}\_{\text{ext}}\\</span>
 
-where $\mathbf{f}_{\text{ext}}$ represents momentum exchange with matter (i.e., the back-reaction of objects on the medium). In equilibrium, the medium’s momentum loss to matter is balanced by momentum input from boundaries or from the large-scale flow.
+where <span class="math inline">\\\mathbf{f}\_{\text{ext}}\\</span> represents momentum exchange with matter (i.e., the back-reaction of objects on the medium). In equilibrium, the medium’s momentum loss to matter is balanced by momentum input from boundaries or from the large-scale flow.
 
 These equations are not new. They are the same equations used to describe any compressible fluid. The only novelty is the identification of the fluid as the vacuum itself.
 
-## Why This Is Not "Just Aether"
+### Why This Is Not "Just Aether"
 
 The 19th-century luminiferous aether was posited as a static, rigid, undetectable medium. It had no observable properties except those invented to preserve its existence. It failed because it was not needed—light propagates through empty space, and the aether’s properties were always adjusted to match observations rather than derived from first principles.
 
@@ -1133,47 +1135,47 @@ GPT’s medium is different in every respect:
 
 The GPT medium is not "aether rebranded." It is a physical substrate whose existence is *required* by experimental evidence (Casimir, light deflection, momentum conservation) and whose dynamics are *derived* from first principles (continuity, pressure gradients, self-repulsion).
 
-## On Lorentz Covariance and the Medium’s Rest Frame
+### On Lorentz Covariance and the Medium’s Rest Frame
 
 A common objection to any medium-based theory is that it violates Lorentz invariance by introducing a preferred rest frame.
 
-The objection is valid if the medium is *static* and *rigid*. But the GPT medium is neither. It is a dynamical fluid with a characteristic speed $c_g = c$. In such a medium, the equations of motion can be written in a Lorentz-covariant form. The fact that the medium has a local rest frame (defined by $\mathbf{u} = 0$ in that frame) does not violate relativity—any fluid has a local rest frame. The question is whether the laws of physics take the same form in all inertial frames when expressed in terms of observable quantities.
+The objection is valid if the medium is *static* and *rigid*. But the GPT medium is neither. It is a dynamical fluid with a characteristic speed <span class="math inline">\\c_g = c\\</span>. In such a medium, the equations of motion can be written in a Lorentz-covariant form. The fact that the medium has a local rest frame (defined by <span class="math inline">\\\mathbf{u} = 0\\</span> in that frame) does not violate relativity—any fluid has a local rest frame. The question is whether the laws of physics take the same form in all inertial frames when expressed in terms of observable quantities.
 
-For the GPT medium, the answer is: to first order in $v/c$, they do. The full relativistic treatment requires a covariant formulation (stress-energy tensor for the medium, coupling to matter via momentum exchange). This is a technical extension, not a conceptual contradiction.
+For the GPT medium, the answer is: to first order in <span class="math inline">\\v/c\\</span>, they do. The full relativistic treatment requires a covariant formulation (stress-energy tensor for the medium, coupling to matter via momentum exchange). This is a technical extension, not a conceptual contradiction.
 
 The historical objection to the aether was not that it had a rest frame—it was that it was *undetectable* and *unnecessary*. The GPT medium is neither. It is detectable (Casimir, refraction, magnetism) and necessary (momentum conservation requires a carrier).
 
 We therefore proceed without apology. The medium exists. Its properties are measured. Its equations are standard. The only remaining task is to show that its flow patterns produce gravity, inertia, charge, time dilation, and magnetism.
 
-## Summary of Section 9
+### Summary of Section 9
 
 We have introduced the minimal variables of the GPT medium:
 
-- Density $\rho_g$
+- Density <span class="math inline">\\\rho_g\\</span>
 
-- Flow velocity $\mathbf{u}$
+- Flow velocity <span class="math inline">\\\mathbf{u}\\</span>
 
-- Pressure $P_g$
+- Pressure <span class="math inline">\\P_g\\</span>
 
-We have stated the equation of state: $P_g = P_0 + c^2 (\rho_g - \rho_0)$ to first order, with $c_g = c$.
+We have stated the equation of state: <span class="math inline">\\P_g = P_0 + c^2 (\rho_g - \rho_0)\\</span> to first order, with <span class="math inline">\\c_g = c\\</span>.
 
-We have stated the force law: $\mathbf{f} = -\nabla P_g$. Matter moves from high pressure to low pressure.
+We have stated the force law: <span class="math inline">\\\mathbf{f} = -\nabla P_g\\</span>. Matter moves from high pressure to low pressure.
 
 We have stated the conservation laws: continuity for mass, Euler for momentum.
 
-We have addressed the Lorentz covariance objection: the medium is dynamical, not static; its characteristic speed is $c$; effective Lorentz covariance holds.
+We have addressed the Lorentz covariance objection: the medium is dynamical, not static; its characteristic speed is <span class="math inline">\\c\\</span>; effective Lorentz covariance holds.
 
 In the next section, we apply these equations to the gravitational field of a massive body and derive the inward flow ansatz.
 
-# The Inward Flow Ansatz
+## The Inward Flow Ansatz
 
 We now apply the minimal medium equations to the gravitational field of a massive, isolated body—a planet or star. The Equivalence Principle, combined with the constraint of a static radius, forces a specific flow pattern: inward radial convergence.
 
 No new assumptions are introduced. The flow pattern is *deduced*, not postulated.
 
-## The Constraint from the Equivalence Principle
+### The Constraint from the Equivalence Principle
 
-The Equivalence Principle (EP) states that a person standing on Earth’s surface experiences a sensation indistinguishable from being in an accelerating elevator in deep space with acceleration $g = 9.8 \, \text{m/s}^2$ upward.
+The Equivalence Principle (EP) states that a person standing on Earth’s surface experiences a sensation indistinguishable from being in an accelerating elevator in deep space with acceleration <span class="math inline">\\g = 9.8 \\ \text{m/s}^2\\</span> upward.
 
 In a mechanical theory, this sensation must be produced by a physical interaction. There are two and only two possibilities:
 
@@ -1187,259 +1189,259 @@ Therefore, Option 2 is forced. The medium must be moving inward toward the Earth
 
 This is not a choice. It is the *only* mechanical interpretation of the EP consistent with a static planetary radius.
 
-## The Radial Flow Ansatz
+### The Radial Flow Ansatz
 
-For a spherically symmetric, non-rotating mass $M$ centered at $r = 0$, the medium flows radially inward:
+For a spherically symmetric, non-rotating mass <span class="math inline">\\M\\</span> centered at <span class="math inline">\\r = 0\\</span>, the medium flows radially inward:
 
-$$\mathbf{u}(\mathbf{r}) = -v(r) \, \hat{\mathbf{r}}, \quad v(r) > 0$$
+<span class="math display">\\\mathbf{u}(\mathbf{r}) = -v(r) \\ \hat{\mathbf{r}}, \quad v(r) \> 0\\</span>
 
-The velocity $v(r)$ is positive inward. At the surface $r = R$, the flow speed must satisfy:
+The velocity <span class="math inline">\\v(r)\\</span> is positive inward. At the surface <span class="math inline">\\r = R\\</span>, the flow speed must satisfy:
 
-$$g = \frac{v(R)^2}{R} \quad \text{or} \quad g = \frac{v(R)^2}{kR} ?$$
+<span class="math display">\\g \stackrel{?}{=} \frac{v(R)^2}{R}\\</span>
 
-We must be careful. The EP gives an acceleration $g$. In a flow model, the acceleration of a stationary object relative to the medium is not simply $v^2/r$. The object is at rest relative to the planet’s surface but moving at speed $v(R)$ relative to the inflowing medium. Its acceleration—the rate of change of its relative velocity—is:
+We must be careful. The EP gives an acceleration <span class="math inline">\\g\\</span>. In a flow model, the acceleration of a stationary object relative to the medium is not simply <span class="math inline">\\v^2/r\\</span>. The object is at rest relative to the planet’s surface but moving at speed <span class="math inline">\\v(R)\\</span> relative to the inflowing medium. Its acceleration—the rate of change of its relative velocity—is:
 
-$$a = \frac{d v_{\text{rel}}}{dt} = \frac{d v(r)}{dt} = \frac{dv}{dr} \frac{dr}{dt} = \frac{dv}{dr} (-v) = -v \frac{dv}{dr}$$
+<span class="math display">\\a = \frac{d v\_{\text{rel}}}{dt} = \frac{d v(r)}{dt} = \frac{dv}{dr} \frac{dr}{dt} = \frac{dv}{dr} (-v) = -v \frac{dv}{dr}\\</span>
 
 For a stationary observer (relative to the planet), the medium flows past them. The acceleration they experience is the convective derivative of the flow velocity.
 
-We define a coupling constant $k$ such that:
+We define a coupling constant <span class="math inline">\\k\\</span> such that:
 
-$$\frac{dv}{dr} = \frac{k}{r}$$
+<span class="math display">\\\frac{dv}{dr} = -\frac{k}{r}, \qquad k \> 0\\</span>
 
-This is the simplest dimensionally consistent form that yields an acceleration proportional to $g(r)$. Then:
+This is the simplest dimensionally consistent form that yields an acceleration proportional to <span class="math inline">\\g(r)\\</span>. Then:
 
-$$a = -v \cdot \frac{k}{r} = -\frac{k v}{r}$$
+<span class="math display">\\a = -v \cdot \left(-\frac{k}{r}\right) = \frac{k v}{r}\\</span>
 
-At the surface, setting $a = g$ gives:
+At the surface, setting <span class="math inline">\\a = g\\</span> gives:
 
-$$g = \frac{k v(R)}{R} \quad \Rightarrow \quad v(R) = \frac{g R}{k}$$
+<span class="math display">\\g = \frac{k v(R)}{R} \quad \Rightarrow \quad v(R) = \frac{g R}{k}\\</span>
 
-The constant $k$ will be determined by matching to Newtonian gravity. For now, we leave it as a free parameter.
+The constant <span class="math inline">\\k\\</span> will be determined by matching to Newtonian gravity. For now, we leave it as a free parameter.
 
-## The Velocity Profile from Newtonian Gravity
+### The Velocity Profile from Newtonian Gravity
 
-In Newtonian gravity, the acceleration at radius $r$ is:
+In Newtonian gravity, the acceleration at radius <span class="math inline">\\r\\</span> is:
 
-$$g(r) = \frac{GM}{r^2}$$
+<span class="math display">\\g(r) = \frac{GM}{r^2}\\</span>
 
-If the flow produces this acceleration via $a = -v \, dv/dr$, then:
+If the flow produces this acceleration via <span class="math inline">\\a = -v \\ dv/dr\\</span>, then:
 
-$$v \frac{dv}{dr} = \frac{GM}{r^2}$$
+<span class="math display">\\v \frac{dv}{dr} = -\frac{GM}{r^2}\\</span>
 
 Integrating:
 
-$$\int v \, dv = GM \int \frac{dr}{r^2} \quad \Rightarrow \quad \frac{1}{2} v^2 = -\frac{GM}{r} + C$$
+<span class="math display">\\\int v \\ dv = -GM \int \frac{dr}{r^2} \quad \Rightarrow \quad \frac{1}{2} v^2 = \frac{GM}{r} + C\\</span>
 
-Boundary condition: as $r \to \infty$, we expect the flow to approach zero (the medium is stationary far from all masses). Thus $C = 0$, and:
+Boundary condition: as <span class="math inline">\\r \to \infty\\</span>, we expect the flow to approach zero (the medium is stationary far from all masses). Thus <span class="math inline">\\C = 0\\</span>, and:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
 This is a striking result. The inward flow velocity follows a simple inverse-square-root law.
 
-At the surface $r = R$:
+At the surface <span class="math inline">\\r = R\\</span>:
 
-$$v(R) = \sqrt{\frac{2GM}{R}} = \sqrt{2gR}$$
+<span class="math display">\\v(R) = \sqrt{\frac{2GM}{R}} = \sqrt{2gR}\\</span>
 
-Comparing with the EP-derived expression $v(R) = gR/k$, we obtain:
+Comparing with the EP-derived expression <span class="math inline">\\v(R) = gR/k\\</span>, we obtain:
 
-$$\frac{gR}{k} = \sqrt{2gR} \quad \Rightarrow \quad k = \frac{gR}{\sqrt{2gR}} = \sqrt{\frac{gR}{2}} = \sqrt{\frac{GM}{2R}}$$
+<span class="math display">\\\frac{gR}{k} = \sqrt{2gR} \quad \Rightarrow \quad k = \frac{gR}{\sqrt{2gR}} = \sqrt{\frac{gR}{2}} = \sqrt{\frac{GM}{2R}}\\</span>
 
-The coupling constant $k$ is therefore not free—it is fixed by the requirement that the flow produce Newtonian gravity.
+The coupling constant <span class="math inline">\\k\\</span> is therefore not free—it is fixed by the requirement that the flow produce Newtonian gravity.
 
-For Earth: $g = 9.8 \, \text{m/s}^2$, $R = 6.37 \times 10^6 \, \text{m}$, so:
+For Earth: <span class="math inline">\\g = 9.8 \\ \text{m/s}^2\\</span>, <span class="math inline">\\R = 6.37 \times 10^6 \\ \text{m}\\</span>, so:
 
-$$v(R) = \sqrt{2 \cdot 9.8 \cdot 6.37 \times 10^6} \approx \sqrt{1.25 \times 10^8} \approx 1.12 \times 10^4 \, \text{m/s} \quad (\text{about } 11.2 \, \text{km/s})$$
+<span class="math display">\\v(R) = \sqrt{2 \cdot 9.8 \cdot 6.37 \times 10^6} \approx \sqrt{1.25 \times 10^8} \approx 1.12 \times 10^4 \\ \text{m/s} \quad (\text{about } 11.2 \\ \text{km/s})\\</span>
 
 This is exactly Earth’s escape velocity. The inward flow speed at the surface equals the escape velocity.
 
 This is not a coincidence. In GPT, escape velocity is the speed at which an object would need to move *upward* to exactly cancel the inward flow speed, thereby experiencing zero net ram pressure and escaping the planet’s gravitational influence.
 
-## Continuity and the Surprising Constancy of Vacuum Density
+### Continuity and the Surprising Constancy of Vacuum Density
 
 We now apply the continuity equation for steady-state flow:
 
-$$\nabla \cdot (\rho_g \mathbf{u}) = 0$$
+<span class="math display">\\\nabla \cdot (\rho_g \mathbf{u}) = 0\\</span>
 
-For spherical symmetry with $\mathbf{u} = -v(r) \hat{\mathbf{r}}$, the divergence in spherical coordinates is:
+For spherical symmetry with <span class="math inline">\\\mathbf{u} = -v(r) \hat{\mathbf{r}}\\</span>, the divergence in spherical coordinates is:
 
-$$\nabla \cdot (\rho_g \mathbf{u}) = \frac{1}{r^2} \frac{d}{dr} \left( r^2 \rho_g(r) (-v(r)) \right) = -\frac{1}{r^2} \frac{d}{dr} \left( r^2 \rho_g v \right) = 0$$
-
-Thus:
-
-$$\frac{d}{dr} \left( r^2 \rho_g v \right) = 0 \quad \Rightarrow \quad r^2 \rho_g v = \text{constant}$$
-
-Let the constant be $\alpha$, which may depend on the mass source (see Section <a href="#subsec:background_source" data-reference-type="ref" data-reference="subsec:background_source">11.5</a>). Then:
-
-$$\rho_g(r) = \frac{\alpha}{r^2 v(r)}$$
-
-Substitute $v(r) = \sqrt{2GM/r}$:
-
-$$\rho_g(r) = \frac{\alpha}{r^2 \sqrt{2GM/r}} = \frac{\alpha}{\sqrt{2GM} \, r^{3/2}}$$
-
-This appears to depend on $r$. But we have not yet accounted for the fact that the medium may have a non-zero background density $\rho_0$ far from the mass. The continuity equation governs *perturbations* around that background.
-
-Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. For a weak mass (perturbation small), the flow velocity is also small. But for a strong mass like Earth, the perturbation may be significant.
-
-We must re-examine: the continuity equation $\nabla \cdot (\rho_g \mathbf{u}) = 0$ assumes steady state and no sources or sinks. But a massive body *is* a sink—it absorbs gravitons. The correct equation includes a source term:
-
-$$\nabla \cdot (\rho_g \mathbf{u}) = -S(\mathbf{r})$$
-
-where $S(\mathbf{r})$ represents the graviton absorption rate by matter. For a point mass at the origin:
-
-$$S(\mathbf{r}) = \alpha M \delta^3(\mathbf{r})$$
-
-with $\alpha$ a coupling constant (the absorption cross-section per unit mass).
-
-Then for $r > 0$, the continuity equation is homogeneous, but the constant $\alpha$ is determined by integrating over a sphere containing the mass.
-
-Integrate the continuity equation over a sphere of radius $r$:
-
-$$\int_{r' \leq r} \nabla \cdot (\rho_g \mathbf{u}) \, dV = \oint_{r' = r} \rho_g \mathbf{u} \cdot d\mathbf{A} = -\int_{r' \leq r} S(\mathbf{r'}) \, dV = -\alpha M$$
-
-The left-hand side is $4\pi r^2 \rho_g(r) (-v(r))$ (negative because flow is inward, $\mathbf{u} \cdot d\mathbf{A} = -v \cdot 4\pi r^2$).
+<span class="math display">\\\nabla \cdot (\rho_g \mathbf{u}) = \frac{1}{r^2} \frac{d}{dr} \left( r^2 \rho_g(r) (-v(r)) \right) = -\frac{1}{r^2} \frac{d}{dr} \left( r^2 \rho_g v \right) = 0\\</span>
 
 Thus:
 
-$$-4\pi r^2 \rho_g(r) v(r) = -\alpha M \quad \Rightarrow \quad 4\pi r^2 \rho_g(r) v(r) = \alpha M$$
+<span class="math display">\\\frac{d}{dr} \left( r^2 \rho_g v \right) = 0 \quad \Rightarrow \quad r^2 \rho_g v = \text{constant}\\</span>
+
+Let the constant be <span class="math inline">\\\alpha\\</span>, which may depend on the mass source (see Section <a href="#subsec:background_source" data-reference-type="ref" data-reference="subsec:background_source">11.5</a>). Then:
+
+<span class="math display">\\\rho_g(r) = \frac{\alpha}{r^2 v(r)}\\</span>
+
+Substitute <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>:
+
+<span class="math display">\\\rho_g(r) = \frac{\alpha}{r^2 \sqrt{2GM/r}} = \frac{\alpha}{\sqrt{2GM} \\ r^{3/2}}\\</span>
+
+This appears to depend on <span class="math inline">\\r\\</span>. But we have not yet accounted for the fact that the medium may have a non-zero background density <span class="math inline">\\\rho_0\\</span> far from the mass. The continuity equation governs *perturbations* around that background.
+
+Let <span class="math inline">\\\rho_g(r) = \rho_0 + \delta \rho(r)\\</span>. For a weak mass (perturbation small), the flow velocity is also small. But for a strong mass like Earth, the perturbation may be significant.
+
+We must re-examine: the continuity equation <span class="math inline">\\\nabla \cdot (\rho_g \mathbf{u}) = 0\\</span> assumes steady state and no sources or sinks. But a massive body *is* a sink—it absorbs gravitons. The correct equation includes a source term:
+
+<span class="math display">\\\nabla \cdot (\rho_g \mathbf{u}) = -S(\mathbf{r})\\</span>
+
+where <span class="math inline">\\S(\mathbf{r})\\</span> represents the graviton absorption rate by matter. For a point mass at the origin:
+
+<span class="math display">\\S(\mathbf{r}) = \alpha M \delta^3(\mathbf{r})\\</span>
+
+with <span class="math inline">\\\alpha\\</span> a coupling constant (the absorption cross-section per unit mass).
+
+Then for <span class="math inline">\\r \> 0\\</span>, the continuity equation is homogeneous, but the constant <span class="math inline">\\\alpha\\</span> is determined by integrating over a sphere containing the mass.
+
+Integrate the continuity equation over a sphere of radius <span class="math inline">\\r\\</span>:
+
+<span class="math display">\\\int\_{r' \leq r} \nabla \cdot (\rho_g \mathbf{u}) \\ dV = \oint\_{r' = r} \rho_g \mathbf{u} \cdot d\mathbf{A} = -\int\_{r' \leq r} S(\mathbf{r'}) \\ dV = -\alpha M\\</span>
+
+The left-hand side is <span class="math inline">\\4\pi r^2 \rho_g(r) (-v(r))\\</span> (negative because flow is inward, <span class="math inline">\\\mathbf{u} \cdot d\mathbf{A} = -v \cdot 4\pi r^2\\</span>).
+
+Thus:
+
+<span class="math display">\\-4\pi r^2 \rho_g(r) v(r) = -\alpha M \quad \Rightarrow \quad 4\pi r^2 \rho_g(r) v(r) = \alpha M\\</span>
 
 Therefore:
 
-$$\rho_g(r) = \frac{\alpha M}{4\pi r^2 v(r)}$$
+<span class="math display">\\\rho_g(r) = \frac{\alpha M}{4\pi r^2 v(r)}\\</span>
 
-Now substitute $v(r) = \sqrt{2GM/r}$:
+Now substitute <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>:
 
-$$\rho_g(r) = \frac{\alpha M}{4\pi r^2} \cdot \frac{1}{\sqrt{2GM/r}} = \frac{\alpha M}{4\pi r^{3/2} \sqrt{2GM}} = \frac{\alpha \sqrt{M}}{4\pi \sqrt{2G}} \cdot \frac{1}{r^{3/2}}$$
+<span class="math display">\\\rho_g(r) = \frac{\alpha M}{4\pi r^2} \cdot \frac{1}{\sqrt{2GM/r}} = \frac{\alpha M}{4\pi r^{3/2} \sqrt{2GM}} = \frac{\alpha \sqrt{M}}{4\pi \sqrt{2G}} \cdot \frac{1}{r^{3/2}}\\</span>
 
-This still depends on $r^{3/2}$. But this is the *total* density, including the background. For large $r$, this would go to zero—but the background density $\rho_0$ should dominate at infinity.
+This still depends on <span class="math inline">\\r^{3/2}\\</span>. But this is the *total* density, including the background. For large <span class="math inline">\\r\\</span>, this would go to zero—but the background density <span class="math inline">\\\rho_0\\</span> should dominate at infinity.
 
 We have a paradox. Let me resolve it carefully.
 
-## Resolution: The Background Density Is the Source
+### Resolution: The Background Density Is the Source
 
-The absorption constant $\alpha$ is not independent of $\rho_0$. In equilibrium, the mass $M$ is sustained by the background graviton flux. The rate of graviton absorption must equal the flux incident from infinity.
+The absorption constant <span class="math inline">\\\alpha\\</span> is not independent of <span class="math inline">\\\rho_0\\</span>. In equilibrium, the mass <span class="math inline">\\M\\</span> is sustained by the background graviton flux. The rate of graviton absorption must equal the flux incident from infinity.
 
-At large $r$, $v(r) \to 0$ and $\rho_g(r) \to \rho_0$. The flux at infinity is $\rho_0 c$ (since gravitons propagate at speed $c$). The total absorption rate is:
+At large <span class="math inline">\\r\\</span>, <span class="math inline">\\v(r) \to 0\\</span> and <span class="math inline">\\\rho_g(r) \to \rho_0\\</span>. The flux at infinity is <span class="math inline">\\\rho_0 c\\</span> (since gravitons propagate at speed <span class="math inline">\\c\\</span>). The total absorption rate is:
 
-$$\alpha M = 4\pi r^2 \rho_g(r) v(r) \quad \text{for any } r$$
+<span class="math display">\\\alpha M = 4\pi r^2 \rho_g(r) v(r) \quad \text{for any } r\\</span>
 
-As $r \to \infty$, $\rho_g(r) \to \rho_0$ and $v(r) \to 0$, but the product $r^2 v(r)$ tends to a constant. Using $v(r) = \sqrt{2GM/r}$:
+As <span class="math inline">\\r \to \infty\\</span>, <span class="math inline">\\\rho_g(r) \to \rho_0\\</span> and <span class="math inline">\\v(r) \to 0\\</span>, but the product <span class="math inline">\\r^2 v(r)\\</span> would have to tend to a constant. Using <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>:
 
-$$r^2 v(r) = r^2 \sqrt{\frac{2GM}{r}} = \sqrt{2GM} \, r^{3/2} \to \infty$$
+<span class="math display">\\r^2 v(r) = r^2 \sqrt{\frac{2GM}{r}} = \sqrt{2GM} \\ r^{3/2} \to \infty\\</span>
 
 This is a problem. It suggests the total flux does not converge to a finite value—which is unphysical.
 
-The resolution: the velocity profile $v(r) = \sqrt{2GM/r}$ is valid only in the region where the flow is dominated by the mass $M$. At very large $r$, other masses (galactic background, cosmological flow) dominate, and the velocity profile flattens or changes.
+The resolution: the velocity profile <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span> is valid only in the region where the flow is dominated by the mass <span class="math inline">\\M\\</span>. At very large <span class="math inline">\\r\\</span>, other masses (galactic background, cosmological flow) dominate, and the velocity profile flattens or changes.
 
 For an isolated mass in an otherwise uniform medium, the flow solution must match the background at infinity. The correct solution is:
 
-$$v(r) = \sqrt{\frac{2GM}{r}} \cdot f(r)$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}} \cdot f(r)\\</span>
 
-where $f(r) \to 0$ as $r \to \infty$ faster than $1/\sqrt{r}$. The precise form depends on the large-scale boundary conditions.
+where <span class="math inline">\\f(r) \to 0\\</span> as <span class="math inline">\\r \to \infty\\</span> faster than <span class="math inline">\\1/\sqrt{r}\\</span>. The precise form depends on the large-scale boundary conditions.
 
-## The Constant Density Approximation
+### The Constant Density Approximation
 
-For many purposes—including surface gravity, orbital mechanics, and light deflection near the mass—the relevant region is $r$ of order $R$ to a few times $R$. Over this range, the variation in $\rho_g$ is small if the mass is concentrated.
+For many purposes—including surface gravity, orbital mechanics, and light deflection near the mass—the relevant region is <span class="math inline">\\r\\</span> of order <span class="math inline">\\R\\</span> to a few times <span class="math inline">\\R\\</span>. Over this range, the variation in <span class="math inline">\\\rho_g\\</span> is small if the mass is concentrated.
 
-Define an average density $\bar{\rho}_g$ in the vicinity of the mass. Then the flow velocity satisfies:
+Define an average density <span class="math inline">\\\bar{\rho}\_g\\</span> in the vicinity of the mass. Then the flow velocity satisfies:
 
-$$4\pi r^2 \bar{\rho}_g v(r) = \alpha M \quad \Rightarrow \quad v(r) = \frac{\alpha M}{4\pi \bar{\rho}_g r^2}$$
+<span class="math display">\\4\pi r^2 \bar{\rho}\_g v(r) = \alpha M \quad \Rightarrow \quad v(r) = \frac{\alpha M}{4\pi \bar{\rho}\_g r^2}\\</span>
 
-Comparing with $v(r) = \sqrt{2GM/r}$, we obtain:
+Comparing with <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>, we obtain:
 
-$$\frac{\alpha M}{4\pi \bar{\rho}_g r^2} = \sqrt{\frac{2GM}{r}} \quad \Rightarrow \quad \frac{\alpha M}{4\pi \bar{\rho}_g} = \sqrt{2GM} \, r^{3/2}$$
+<span class="math display">\\\frac{\alpha M}{4\pi \bar{\rho}\_g r^2} = \sqrt{\frac{2GM}{r}} \quad \Rightarrow \quad \frac{\alpha M}{4\pi \bar{\rho}\_g} = \sqrt{2GM} \\ r^{3/2}\\</span>
 
-This still depends on $r$ unless we choose $\bar{\rho}_g \propto r^{-3/2}$. That suggests that the constant-density approximation is inconsistent with the naive $1/\sqrt{r}$ velocity profile.
+This still depends on <span class="math inline">\\r\\</span> unless we choose <span class="math inline">\\\bar{\rho}\_g \propto r^{-3/2}\\</span>. That suggests that the constant-density approximation is inconsistent with the naive <span class="math inline">\\1/\sqrt{r}\\</span> velocity profile.
 
 We need a more careful treatment. The full derivation is given in Appendix A. The result is:
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r}\right) + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2$$
+<span class="math display">\\\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2\right)\\</span>
 
 That is, the vacuum density increases slightly near a mass, but the leading-order effect is constant background plus a small perturbation.
 
-For Earth, $2GM/Rc^2 \approx 1.4 \times 10^{-9}$, so the perturbation is tiny. For practical purposes, $\rho_g \approx \rho_0$ constant in the vicinity of the mass.
+For Earth, <span class="math inline">\\2GM/Rc^2 \approx 1.4 \times 10^{-9}\\</span>, so the perturbation is tiny. For practical purposes, <span class="math inline">\\\rho_g \approx \rho_0\\</span> constant in the vicinity of the mass.
 
 This is the key insight: **to first order, the vacuum density is constant outside a mass.** The flow velocity adjusts to satisfy continuity, but the density remains nearly uniform.
 
-## Summary of Section 10
+### Summary of Section 10
 
 We have derived the inward flow velocity from the Equivalence Principle and Newtonian gravity:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
-At Earth’s surface, $v(R) \approx 11.2 \, \text{km/s}$ — the escape velocity.
+At Earth’s surface, <span class="math inline">\\v(R) \approx 11.2 \\ \text{km/s}\\</span> — the escape velocity.
 
 We applied continuity and found that the vacuum density is nearly constant:
 
-$$\rho_g(r) \approx \rho_0 + \text{small perturbation}$$
+<span class="math display">\\\rho_g(r) \approx \rho_0 + \text{small perturbation}\\</span>
 
-The constant $\rho_0$ is the background vacuum density, measured in Casimir experiments to be on the order of $10^{-26} \, \text{kg/m}^3$.
+The constant <span class="math inline">\\\rho_0\\</span> is the background vacuum density, measured in Casimir experiments to be on the order of <span class="math inline">\\10^{-26} \\ \text{kg/m}^3\\</span>.
 
 In the next section, we use this constant-density approximation to derive surface gravity as ram pressure.
 
-# From Flow to Force: The Pressure Gradient Mechanism
+## From Flow to Force: The Pressure Gradient Mechanism
 
-We have established that the graviton medium has density $\rho_g$, flow velocity $\mathbf{u}$, and pressure $P_g$. We have derived the inward flow velocity $v(r) = \sqrt{2GM/r}$ from the Equivalence Principle and Newtonian gravity.
+We have established that the graviton medium has density <span class="math inline">\\\rho_g\\</span>, flow velocity <span class="math inline">\\\mathbf{u}\\</span>, and pressure <span class="math inline">\\P_g\\</span>. We have derived the inward flow velocity <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span> from the Equivalence Principle and Newtonian gravity.
 
 Now we must answer the central question: **How does flow become force?**
 
 The answer is the pressure gradient. No new force laws are introduced. The only force is the push of the medium itself.
 
-## The Fundamental Force Law
+### The Fundamental Force Law
 
 In any fluid, a pressure gradient exerts a net force on an object embedded in that fluid. The object is pushed from regions of higher pressure to regions of lower pressure. This is not a postulate—it is a direct consequence of pressure being force per unit area.
 
 For a small volume element of the medium, the net force per unit volume is:
 
-$$\mathbf{f} = -\nabla P_g$$
+<span class="math display">\\\mathbf{f} = -\nabla P_g\\</span>
 
-For an extended object with effective interaction volume $V_{\text{eff}}$ (the region over which it significantly disrupts or absorbs graviton flow), the total force is:
+For an extended object with effective interaction volume <span class="math inline">\\V\_{\text{eff}}\\</span> (the region over which it significantly disrupts or absorbs graviton flow), the total force is:
 
-$$\mathbf{F} = -V_{\text{eff}} \nabla P_g$$
+<span class="math display">\\\mathbf{F} = -V\_{\text{eff}} \nabla P_g\\</span>
 
 This is the only force law in GPT. All gravitational phenomena—weight, orbits, tides, lensing—are consequences of this single expression.
 
-## Why Pressure Gradients Exist
+### Why Pressure Gradients Exist
 
 The graviton medium is not uniform. It flows inward toward massive bodies. Where the medium flows, its density and pressure vary with position.
 
-From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, the flow velocity at radius $r$ from a mass $M$ is:
+From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, the flow velocity at radius <span class="math inline">\\r\\</span> from a mass <span class="math inline">\\M\\</span> is:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
 The pressure depends on density and flow speed. For a compressible medium with self-repulsive gravitons (Part 15, Section 15.3), the pressure scales as:
 
-$$P_g \propto \rho_g v^2 + P_{\text{self}}$$
+<span class="math display">\\P_g \approx P_0 - \tfrac{1}{2}\rho_g v^2 = P_0 - \frac{\rho_g GM}{r}\\</span>
 
-where $P_{\text{self}}$ is the contribution from graviton-graviton self-repulsion.
+where <span class="math inline">\\P_0\\</span> is the free-space pressure maintained by graviton–graviton self-repulsion, and the inflow lowers it by <span class="math inline">\\\tfrac{1}{2}\rho_g v^2\\</span> (Bernoulli).
 
 Thus, the pressure gradient is:
 
-$$\nabla P_g = \frac{dP_g}{dr} \hat{\mathbf{r}} \propto \frac{GM}{r^2} \hat{\mathbf{r}}$$
+<span class="math display">\\\nabla P_g = \frac{dP_g}{dr} \hat{\mathbf{r}} = \frac{\rho_g GM}{r^2} \hat{\mathbf{r}}\\</span>
 
-The gradient points radially inward—pressure increases with distance from the mass. An object embedded in this gradient is pushed from higher pressure (farther from the mass) to lower pressure (closer to the mass). This *appears* as attraction toward the mass, but it is actually a *push* from the surrounding medium.
+The gradient points radially outward—pressure increases with distance from the mass. An object embedded in this gradient is pushed from higher pressure (farther from the mass) to lower pressure (closer to the mass). This *appears* as attraction toward the mass, but it is actually a *push* from the surrounding medium.
 
-## The Effective Interaction Volume
+### The Effective Interaction Volume
 
-Not every object interacts with the graviton field equally. The effective volume $V_{\text{eff}}$ is not the object’s geometric volume—it is the volume over which the object absorbs, scatters, or redirects graviton flow.
+Not every object interacts with the graviton field equally. The effective volume <span class="math inline">\\V\_{\text{eff}}\\</span> is not the object’s geometric volume—it is the volume over which the object absorbs, scatters, or redirects graviton flow.
 
 For a coherent object (a solid, as defined in Section <a href="#sec:solidity_weight" data-reference-type="ref" data-reference="sec:solidity_weight">13</a>), the graviton absorption rate is proportional to the number of coherently integrated atoms. Thus:
 
-$$V_{\text{eff}} \propto m$$
+<span class="math display">\\V\_{\text{eff}} \propto m\\</span>
 
-where $m$ is the object’s mass. This is why gravitational force scales with mass—not because mass "generates" gravity, but because a larger coherent structure interacts with the pressure gradient over a larger effective volume.
+where <span class="math inline">\\m\\</span> is the object’s mass. This is why gravitational force scales with mass—not because mass "generates" gravity, but because a larger coherent structure interacts with the pressure gradient over a larger effective volume.
 
-For a given pressure gradient $\nabla P_g$, the force is:
+For a given pressure gradient <span class="math inline">\\\nabla P_g\\</span>, the force is:
 
-$$\mathbf{F} = -m \cdot \frac{V_{\text{eff}}}{m} \nabla P_g = -m \cdot \kappa \nabla P_g$$
+<span class="math display">\\\mathbf{F} = -m \cdot \frac{V\_{\text{eff}}}{m} \nabla P_g = -m \cdot \kappa \nabla P_g\\</span>
 
-where $\kappa$ is a constant (the interaction volume per unit mass). Comparing with Newton’s law $\mathbf{F} = -m \nabla \Phi$, we identify:
+where <span class="math inline">\\\kappa\\</span> is a constant (the interaction volume per unit mass). Comparing with Newton’s law <span class="math inline">\\\mathbf{F} = -m \nabla \Phi\\</span>, we identify:
 
-$$\nabla \Phi = \kappa \nabla P_g$$
+<span class="math display">\\\nabla \Phi = \kappa \nabla P_g, \qquad \kappa = \frac{1}{\rho_g}\\</span>
 
-The gravitational potential $\Phi$ is proportional to the graviton pressure gradient. Gravity is not a separate field—it is the pressure gradient of the medium.
+The gravitational potential <span class="math inline">\\\Phi\\</span> is proportional to the graviton pressure gradient. Gravity is not a separate field—it is the pressure gradient of the medium.
 
-## The Vacancy Cycle and Continuous Force
+### The Vacancy Cycle and Continuous Force
 
 The pressure gradient does not act instantaneously. It is maintained by the continuous absorption/ejection cycle described in Part 15, Section 15.5.4.
 
@@ -1449,62 +1451,62 @@ When a graviton is absorbed by a coherent structure, it leaves a vacancy. The su
 
 This is why gravitational force persists without energy input. The medium is perpetually refreshed by the background graviton flux. The absorption/vacancy/inflow cycle is the engine of gravity.
 
-## Comparison to Mainstream: Force vs. Geometry
+### Comparison to Mainstream: Force vs. Geometry
 
 <div class="center">
 
-| **Aspect**                  | **Mainstream (GR)**                        | **GPT**                                               |
-|:----------------------------|:-------------------------------------------|:------------------------------------------------------|
-| What causes motion?         | Curved spacetime (geodesics)               | Pressure gradient $-\nabla P_g$                       |
-| What is the force?          | No force (free fall is inertial)           | Net push from medium                                  |
-| How does mass affect force? | Mass curves spacetime (Einstein equations) | Mass determines $V_{\text{eff}}$ (interaction volume) |
-| What mediates interaction?  | Spacetime geometry (non-physical)          | Gravitons (physical medium)                           |
-| Why does force persist?     | Not explained                              | Continuous absorption/vacancy/inflow cycle            |
+| **Aspect**                  | **Mainstream (GR)**                        | **GPT**                                                                                   |
+|:----------------------------|:-------------------------------------------|:------------------------------------------------------------------------------------------|
+| What causes motion?         | Curved spacetime (geodesics)               | Pressure gradient <span class="math inline">\\-\nabla P_g\\</span>                        |
+| What is the force?          | No force (free fall is inertial)           | Net push from medium                                                                      |
+| How does mass affect force? | Mass curves spacetime (Einstein equations) | Mass determines <span class="math inline">\\V\_{\text{eff}}\\</span> (interaction volume) |
+| What mediates interaction?  | Spacetime geometry (non-physical)          | Gravitons (physical medium)                                                               |
+| Why does force persist?     | Not explained                              | Continuous absorption/vacancy/inflow cycle                                                |
 
 </div>
 
 Mainstream describes the *path* of an object under gravity (geodesics) but offers no mechanism for *why* it follows that path. GPT provides a mechanism: the pressure gradient of the graviton medium pushes the object.
 
-## The Inverse-Square Law from Flux Dilution
+### The Inverse-Square Law from Flux Dilution
 
-From Section <a href="#subsec:why_gradients" data-reference-type="ref" data-reference="subsec:why_gradients">12.2</a>, the pressure gradient scales as $1/r^2$. This follows directly from flux conservation in three dimensions, as derived in Section <a href="#sec:minimal_medium" data-reference-type="ref" data-reference="sec:minimal_medium">10</a>.
+From Section <a href="#subsec:why_gradients" data-reference-type="ref" data-reference="subsec:why_gradients">12.2</a>, the pressure gradient scales as <span class="math inline">\\1/r^2\\</span>. This follows directly from flux conservation in three dimensions, as derived in Section <a href="#sec:minimal_medium" data-reference-type="ref" data-reference="sec:minimal_medium">10</a>.
 
-The graviton flux through a sphere of radius $r$ is:
+The graviton flux through a sphere of radius <span class="math inline">\\r\\</span> is:
 
-$$\Phi = 4\pi r^2 \rho_g v(r)$$
+<span class="math display">\\\Phi\_{\text{flux}} = 4\pi r^2 \rho_g v(r)\\</span>
 
 For a steady-state inflow toward a mass sink, the flux is constant (absorption rate equals inflow). Thus:
 
-$$\rho_g v(r) \propto \frac{1}{r^2}$$
+<span class="math display">\\\rho_g v(r) \propto \frac{1}{r^2}\\</span>
 
-With $v(r) \propto 1/\sqrt{r}$ from Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, we get $\rho_g \propto 1/r^{3/2}$ for the perturbation, but the pressure gradient inherits the $1/r^2$ scaling from the flux geometry.
+With <span class="math inline">\\v(r) \propto 1/\sqrt{r}\\</span> from Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, we get <span class="math inline">\\\rho_g \propto 1/r^{3/2}\\</span> for the perturbation, but the pressure gradient inherits the <span class="math inline">\\1/r^2\\</span> scaling from the flux geometry.
 
 The inverse-square law is not a fundamental postulate. It is the necessary consequence of flux conservation and three-dimensional space.
 
-## Summary of Section 11
+### Summary of Section 11
 
 <div class="center">
 
-| **Element**            | **GPT Mechanism**                                                               |
-|:-----------------------|:--------------------------------------------------------------------------------|
-| Force law              | $\mathbf{F} = -V_{\text{eff}} \nabla P_g$ (pressure gradient push)              |
-| Origin of gradient     | Inward flow toward mass creates radial pressure variation                       |
-| Mass scaling           | $V_{\text{eff}} \propto m$ (coherent interaction volume)                        |
-| Persistence            | Continuous absorption/vacancy/inflow cycle                                      |
-| Inverse-square         | Flux conservation in 3D space                                                   |
-| Relation to mainstream | $\nabla \Phi = \kappa \nabla P_g$ (potential proportional to pressure gradient) |
+| **Element**            | **GPT Mechanism**                                                                                                  |
+|:-----------------------|:-------------------------------------------------------------------------------------------------------------------|
+| Force law              | <span class="math inline">\\\mathbf{F} = -V\_{\text{eff}} \nabla P_g\\</span> (pressure gradient push)             |
+| Origin of gradient     | Inward flow toward mass creates radial pressure variation                                                          |
+| Mass scaling           | <span class="math inline">\\V\_{\text{eff}} \propto m\\</span> (coherent interaction volume)                       |
+| Persistence            | Continuous absorption/vacancy/inflow cycle                                                                         |
+| Inverse-square         | Flux conservation in 3D space                                                                                      |
+| Relation to mainstream | <span class="math inline">\\\nabla \Phi = \kappa \nabla P_g\\</span> (potential proportional to pressure gradient) |
 
 </div>
 
 We have now bridged the gap between the inward flow (Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>) and the force that produces weight (Section <a href="#sec:solidity_weight" data-reference-type="ref" data-reference="sec:solidity_weight">13</a>). The pressure gradient is the mechanism.
 
-# Solidity, Containment, and the Origin of Weight
+## Solidity, Containment, and the Origin of Weight
 
 We now apply the GPT framework to the most familiar of all physical experiences: the feeling of solidity, the resistance of one object against another, and the sensation of weight.
 
 No appeal to "intrinsic mass" or "geometric curvature" is made. Solidity, touch, and weight are all derived from the coherence state of the graviton field within and between objects.
 
-## What Solidity Is in GPT
+### What Solidity Is in GPT
 
 In mainstream physics, solidity is treated as an emergent property of atomic bonding and electromagnetic repulsion. Atoms are held in place by chemical bonds; when two solids meet, electron clouds repel. This is descriptive, not causal. It tells us *what happens* but not *what solidity is*.
 
@@ -1538,7 +1540,7 @@ This reframes the causal arrow:
 
 The solidity is not in the atoms. The solidity is in the field’s behavior. The atoms are the pattern that organizes the field, but the solidity is a property of the field’s coherence state.
 
-## The Absorption/Ejection Cycle in a Solid (Contained Case)
+### The Absorption/Ejection Cycle in a Solid (Contained Case)
 
 Every coherent object participates in a continuous graviton cycle, detailed in Part 15:
 
@@ -1552,7 +1554,7 @@ Every coherent object participates in a continuous graviton cycle, detailed in P
 
 The defining condition of a solid is *locked phase symmetry* (Part 19, Section 19.2). Each point within the solid maintains both spatial and temporal coherence with every other point, supporting a pressure-stable configuration. This phase alignment minimizes decoherence and prevents directional graviton ejection.
 
-## The Normal Force as Containment-Containment Boundary
+### The Normal Force as Containment-Containment Boundary
 
 When two solids are brought into contact, neither object’s contained graviton field can easily interpenetrate the other’s.
 
@@ -1572,31 +1574,31 @@ The harder the two objects are pressed together, the more the containment fields
 
 No separate "electromagnetic repulsion" or "Pauli exclusion" is required. The normal force is a direct consequence of two graviton containment fields interacting through self-repulsion.
 
-## Weight as Asymmetric External Pressure on a Contained Field
+### Weight as Asymmetric External Pressure on a Contained Field
 
 An object at rest on Earth’s surface is a solid—its graviton field is contained. But it is immersed in Earth’s graviton field, which is not isotropic.
 
 From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, Earth’s graviton field flows inward toward Earth’s core with velocity:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
-At Earth’s surface, $v(R) \approx 11.2 \, \text{km/s}$. This inward flow creates an anisotropic pressure gradient: the pressure *below* the object (closer to Earth’s center) is different from the pressure *above* it.
+At Earth’s surface, <span class="math inline">\\v(R) \approx 11.2 \\ \text{km/s}\\</span>. This inward flow creates an anisotropic pressure gradient: the pressure *below* the object (closer to Earth’s center) is different from the pressure *above* it.
 
 The object’s contained graviton field experiences this external pressure gradient. Because the field is contained (solid), it cannot simply flow with the gradient—it must resist it.
 
 The net effect is a **downward force** on the object’s containment field:
 
-$$\mathbf{F}_{\text{weight}} = - \nabla P_g \cdot V_{\text{eff}}$$
+<span class="math display">\\\mathbf{F}\_{\text{weight}} = - \nabla P_g \cdot V\_{\text{eff}}\\</span>
 
 where:
 
-- $\nabla P_g$ is the pressure gradient of Earth’s graviton field at the object’s location
+- <span class="math inline">\\\nabla P_g\\</span> is the pressure gradient of Earth’s graviton field at the object’s location
 
-- $V_{\text{eff}}$ is the effective volume over which the object’s containment field interacts with the gradient
+- <span class="math inline">\\V\_{\text{eff}}\\</span> is the effective volume over which the object’s containment field interacts with the gradient
 
 This force is what we measure as weight.
 
-## Why Weight Scales with Mass
+### Why Weight Scales with Mass
 
 The object’s containment field strength—its ability to resist external pressure gradients—scales with its **graviton processing rate**.
 
@@ -1614,13 +1616,13 @@ Thus, the containment field’s resistance to external pressure gradients is pro
 
 Therefore:
 
-$$F_{\text{weight}} \propto m$$
+<span class="math display">\\F\_{\text{weight}} \propto m\\</span>
 
-The constant of proportionality is $g$, which varies with location because Earth’s graviton pressure gradient varies with distance from the core.
+The constant of proportionality is <span class="math inline">\\g\\</span>, which varies with location because Earth’s graviton pressure gradient varies with distance from the core.
 
 No mysterious "gravitational charge" is required. Weight scales with mass because mass is a measure of containment field strength, and containment field strength determines resistance to external pressure gradients.
 
-## The Normal Force and Weight Registration
+### The Normal Force and Weight Registration
 
 When an object rests on a surface (e.g., a person standing on the ground, a book on a table), two containment fields meet:
 
@@ -1638,9 +1640,9 @@ At equilibrium (object stationary), the upward normal force exactly balances the
 
 When you stand on a scale, the scale does not measure "mass." It measures the self-repulsion pressure between your body’s containment field and the scale’s containment field, under the influence of Earth’s anisotropic graviton gradient.
 
-## The Equivalence Principle: Why Gravitational and Inertial Weight Are Indistinguishable
+### The Equivalence Principle: Why Gravitational and Inertial Weight Are Indistinguishable
 
-The Equivalence Principle states that weight in a gravitational field is indistinguishable from weight in an accelerating reference frame (e.g., an elevator accelerating upward at $9.8 \, \text{m/s}^2$).
+The Equivalence Principle states that weight in a gravitational field is indistinguishable from weight in an accelerating reference frame (e.g., an elevator accelerating upward at <span class="math inline">\\9.8 \\ \text{m/s}^2\\</span>).
 
 In GPT, both cases produce identical containment field interactions:
 
@@ -1657,9 +1659,9 @@ In both cases, the felt weight is the **boundary pressure between the object’s
 
 Thus, the EP is not a coincidence. It is a necessary consequence of weight being a containment field boundary phenomenon, not a force acting at a distance.
 
-## Elevator Scaling: Why Weight Changes with Acceleration
+### Elevator Scaling: Why Weight Changes with Acceleration
 
-When an elevator accelerates upward at acceleration $a$:
+When an elevator accelerates upward at acceleration <span class="math inline">\\a\\</span>:
 
 - The floor moves upward relative to the ambient graviton medium
 
@@ -1671,74 +1673,74 @@ When an elevator accelerates upward at acceleration $a$:
 
 The net effective weight is:
 
-$$W_{\text{eff}} = m(g + a)$$
+<span class="math display">\\W\_{\text{eff}} = m(g + a)\\</span>
 
-When the elevator accelerates downward at $a < g$:
+When the elevator accelerates downward at <span class="math inline">\\a \< g\\</span>:
 
 - The effective weight decreases
 
-- At free fall ($a = g$), the object and floor fall together; the containment field interface experiences no net compression, and weight registers as zero
+- At free fall (<span class="math inline">\\a = g\\</span>), the object and floor fall together; the containment field interface experiences no net compression, and weight registers as zero
 
 This exactly matches the EP prediction, but with a causal mechanism: the changing asymmetry of graviton encounter rates alters the boundary pressure between containment fields.
 
-## Comparison to Mainstream Physics
+### Comparison to Mainstream Physics
 
 <div class="center">
 
-| **Phenomenon** | **Mainstream Description**                              | **GPT Mechanism**                                            |
-|:---------------|:--------------------------------------------------------|:-------------------------------------------------------------|
-| Solidity       | Atomic bonding, electron repulsion                      | Graviton containment (coherent internal circulation)         |
-| Normal force   | Electromagnetic repulsion between atoms                 | Self-repulsion between containment fields                    |
-| Weight         | $mg$ (axiomatic, from gravitational force or curvature) | Asymmetric external graviton pressure on containment field   |
-| Mass           | Intrinsic quantity of matter                            | Graviton processing rate / containment field strength        |
-| EP             | Geometric equivalence (curvature vs. acceleration)      | Identical containment field boundary mechanics in both cases |
+| **Phenomenon** | **Mainstream Description**                                                                 | **GPT Mechanism**                                            |
+|:---------------|:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
+| Solidity       | Atomic bonding, electron repulsion                                                         | Graviton containment (coherent internal circulation)         |
+| Normal force   | Electromagnetic repulsion between atoms                                                    | Self-repulsion between containment fields                    |
+| Weight         | <span class="math inline">\\mg\\</span> (axiomatic, from gravitational force or curvature) | Asymmetric external graviton pressure on containment field   |
+| Mass           | Intrinsic quantity of matter                                                               | Graviton processing rate / containment field strength        |
+| EP             | Geometric equivalence (curvature vs. acceleration)                                         | Identical containment field boundary mechanics in both cases |
 
 </div>
 
 The mainstream descriptions are *predictive*—they calculate the right numbers. But they offer no mechanism for *why* a solid resists compression, *what* the normal force is made of, or *why* weight scales with mass. GPT provides mechanisms for all.
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 Recall the five criteria for a complete mechanism from Section <a href="#sec:mechanism" data-reference-type="ref" data-reference="sec:mechanism">4</a>:
 
 <div class="center">
 
-| **Criterion**     | **How GPT Solidity/Weight Satisfies**                                                                                               |
-|:------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| Actors            | Gravitons (medium) and coherent atomic structures (matter)                                                                          |
-| Transfer quantity | Momentum and pressure are exchanged via absorption, ejection, and self-repulsion                                                    |
-| Interaction rate  | Absorption rate $\Gamma_{\text{abs}} \propto \rho_g v_{\text{rel}}$; ejection rate tied to core coherence                           |
-| Directionality    | Anisotropy from Earth’s inward flow (gravity) or acceleration through medium (inertia)                                              |
-| Self-consistency  | Solidity = containment emerges from absorption/ejection cycle; normal force = self-repulsion at boundaries; no external impositions |
+| **Criterion**     | **How GPT Solidity/Weight Satisfies**                                                                                                          |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Actors            | Gravitons (medium) and coherent atomic structures (matter)                                                                                     |
+| Transfer quantity | Momentum and pressure are exchanged via absorption, ejection, and self-repulsion                                                               |
+| Interaction rate  | Absorption rate <span class="math inline">\\\Gamma\_{\text{abs}} \propto \rho_g v\_{\text{rel}}\\</span>; ejection rate tied to core coherence |
+| Directionality    | Anisotropy from Earth’s inward flow (gravity) or acceleration through medium (inertia)                                                         |
+| Self-consistency  | Solidity = containment emerges from absorption/ejection cycle; normal force = self-repulsion at boundaries; no external impositions            |
 
 </div>
 
 All five criteria are met. The mechanism is local, physical, and causally complete.
 
-## Summary of Section 12
+### Summary of Section 12
 
 <div class="center">
 
-| **Element**           | **GPT Mechanism**                                                                    |
-|:----------------------|:-------------------------------------------------------------------------------------|
-| Solidity              | Coherent graviton containment; internal closed-loop circulation                      |
-| Normal force          | Self-repulsion between two containment fields at interface                           |
-| Weight                | Asymmetric external graviton pressure gradient acting on containment field           |
-| Mass scaling          | Containment field strength $\propto$ graviton processing rate $\propto$ atomic count |
-| Equivalence Principle | Same containment field boundary mechanics in gravity and acceleration                |
-| Elevator scaling      | Enhanced/reduced boundary pressure from asymmetric encounter rates                   |
+| **Element**           | **GPT Mechanism**                                                                                                                                          |
+|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Solidity              | Coherent graviton containment; internal closed-loop circulation                                                                                            |
+| Normal force          | Self-repulsion between two containment fields at interface                                                                                                 |
+| Weight                | Asymmetric external graviton pressure gradient acting on containment field                                                                                 |
+| Mass scaling          | Containment field strength <span class="math inline">\\\propto\\</span> graviton processing rate <span class="math inline">\\\propto\\</span> atomic count |
+| Equivalence Principle | Same containment field boundary mechanics in gravity and acceleration                                                                                      |
+| Elevator scaling      | Enhanced/reduced boundary pressure from asymmetric encounter rates                                                                                         |
 
 </div>
 
 We have not explained gravity as a force. We have explained *solidity, contact, and weight* as coherence phenomena of the graviton medium. Gravity itself—the attraction between masses—will be addressed in Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a> (Orbital Mechanics) and Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a> (Light Deflection), where the inward flow’s effect on motion and light is derived.
 
-# Orbital Mechanics as Spatiotemporal Resonance
+## Orbital Mechanics as Spatiotemporal Resonance
 
 We now extend the GPT framework from weight and solidity to orbital motion. In mainstream physics, orbits are described as free fall along geodesics (General Relativity) or the balance between centripetal and gravitational forces (Newtonian). Both are descriptive, not mechanistic. Neither explains why orbits are stable, why they are quantized, why spin and orbit are coupled, or why some objects lock into resonance chains while others decay.
 
 In GPT, orbital motion is redefined as **spatiotemporal resonance**—the harmonic alignment between an object’s spin-modulated graviton pulse and the local field’s pressure oscillation frequency.
 
-## The Intake/Expulsion Cycle in a Non-Uniform Object
+### The Intake/Expulsion Cycle in a Non-Uniform Object
 
 Every coherent object participates in the continuous graviton cycle established in Part 15:
 
@@ -1760,45 +1762,45 @@ Real objects are non-uniform:
 
 Each point on the object’s surface has a different graviton absorption cross-section and a different ejection profile. The object does not interact with the field as a point mass. It interacts as a *structured pattern* of intake and expulsion.
 
-## Spin Creates Temporal Modulation (The Object’s Pulse)
+### Spin Creates Temporal Modulation (The Object’s Pulse)
 
 When the object rotates, its non-uniform surface is presented to the incoming graviton flow in a time-dependent pattern.
 
-Consider a point on the object’s surface at colatitude $\theta$ and longitude $\phi$. Its absorption rate $\alpha(\theta, \phi)$ varies with position. As the object spins with angular frequency $\Omega$, the absorption rate at a fixed spatial location (relative to the incoming flow) becomes:
+Consider a point on the object’s surface at colatitude <span class="math inline">\\\theta\\</span> and longitude <span class="math inline">\\\phi\\</span>. Its absorption rate <span class="math inline">\\\alpha(\theta, \phi)\\</span> varies with position. As the object spins with angular frequency <span class="math inline">\\\Omega\\</span>, the absorption rate at a fixed spatial location (relative to the incoming flow) becomes:
 
-$$\alpha(t) = \alpha_0 + \sum_{n=1}^{\infty} A_n \cos(n\Omega t + \delta_n)$$
+<span class="math display">\\\alpha(t) = \alpha_0 + \sum\_{n=1}^{\infty} A_n \cos(n\Omega t + \delta_n)\\</span>
 
 where:
 
-- $\alpha_0$ is the mean absorption rate
+- <span class="math inline">\\\alpha_0\\</span> is the mean absorption rate
 
-- $A_n$ are the amplitudes of the n-th harmonic (determined by surface asymmetry)
+- <span class="math inline">\\A_n\\</span> are the amplitudes of the n-th harmonic (determined by surface asymmetry)
 
-- $\delta_n$ are phase offsets
+- <span class="math inline">\\\delta_n\\</span> are phase offsets
 
 The object does not absorb gravitons steadily. It **pulses**.
 
-The same holds for ejection. The net interaction between the object and the field is temporally modulated at the spin frequency $\Omega$ and its harmonics.
+The same holds for ejection. The net interaction between the object and the field is temporally modulated at the spin frequency <span class="math inline">\\\Omega\\</span> and its harmonics.
 
 The object’s **pulse frequency** is:
 
-$$f_{\text{obj}} = k\Omega$$
+<span class="math display">\\f\_{\text{obj}} = k\Omega\\</span>
 
-where $k$ is an integer determined by the symmetry of the object’s surface asymmetry. For a completely uniform sphere, $k = 0$ (no pulse). For a realistic, non-uniform object, $k \geq 1$.
+where <span class="math inline">\\k\\</span> is an integer determined by the symmetry of the object’s surface asymmetry. For a completely uniform sphere, <span class="math inline">\\k = 0\\</span> (no pulse). For a realistic, non-uniform object, <span class="math inline">\\k \geq 1\\</span>.
 
-## The Graviton Field’s Pressure Oscillation
+### The Graviton Field’s Pressure Oscillation
 
 The graviton field surrounding a massive body is not static. It oscillates.
 
-### Source 1: Core Pulsation
+#### Source 1: Core Pulsation
 
-The central mass (e.g., a star or planet) has its own absorption/ejection cycle. Its core processes gravitons continuously, and this processing is not perfectly steady. The core’s coherence state fluctuates at a characteristic frequency $f_{\text{core}}$, determined by its mass, composition, and internal coherence.
+The central mass (e.g., a star or planet) has its own absorption/ejection cycle. Its core processes gravitons continuously, and this processing is not perfectly steady. The core’s coherence state fluctuates at a characteristic frequency <span class="math inline">\\f\_{\text{core}}\\</span>, determined by its mass, composition, and internal coherence.
 
-This core pulsation propagates outward as a pressure wave in the graviton medium, with speed $c$.
+This core pulsation propagates outward as a pressure wave in the graviton medium, with speed <span class="math inline">\\c\\</span>.
 
-### Source 2: Shell Stratification
+#### Source 2: Shell Stratification
 
-From Part 16, Section 16.4, the graviton field forms stratified shells—layers where inflowing gravitons that cannot be absorbed by the core are redirected laterally. Each shell has its own characteristic oscillation frequency $f_{\text{shell}}(r)$, determined by:
+From Part 16, Section 16.4, the graviton field forms stratified shells—layers where inflowing gravitons that cannot be absorbed by the core are redirected laterally. Each shell has its own characteristic oscillation frequency <span class="math inline">\\f\_{\text{shell}}(r)\\</span>, determined by:
 
 - The distance from the core (pressure gradient)
 
@@ -1806,25 +1808,25 @@ From Part 16, Section 16.4, the graviton field forms stratified shells—layers 
 
 - The interference pattern of redirected gravitons
 
-The total field oscillation at radius $r$ is a combination:
+The total field oscillation at radius <span class="math inline">\\r\\</span> is a combination:
 
-$$f_{\text{field}}(r) = f_{\text{core}} \cdot \Phi(r) + \sum_{\text{shells}} f_{\text{shell},i}(r)$$
+<span class="math display">\\f\_{\text{field}}(r) = f\_{\text{core}} \cdot \Phi(r) + \sum\_{\text{shells}} f\_{\text{shell},i}(r)\\</span>
 
-where $\Phi(r)$ is a radial decay function. The field does not oscillate at a single frequency—it has a *frequency spectrum* that varies with radius.
+where <span class="math inline">\\\Phi(r)\\</span> is a radial decay function. The field does not oscillate at a single frequency—it has a *frequency spectrum* that varies with radius.
 
-## Resonance Condition for Stable Orbit
+### Resonance Condition for Stable Orbit
 
 An object moving through this oscillating pressure field will experience constructive or destructive interference between:
 
-- Its own pulse frequency $f_{\text{obj}} = k\Omega$
+- Its own pulse frequency <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span>
 
-- The local field oscillation frequency $f_{\text{field}}(r)$
+- The local field oscillation frequency <span class="math inline">\\f\_{\text{field}}(r)\\</span>
 
 When the two frequencies match (or are in simple harmonic ratio), the object and field enter **resonance**:
 
-$$f_{\text{obj}} = m \cdot f_{\text{field}}(r) \quad \text{or} \quad m \cdot f_{\text{obj}} = f_{\text{field}}(r)$$
+<span class="math display">\\f\_{\text{obj}} = m \cdot f\_{\text{field}}(r) \quad \text{or} \quad m \cdot f\_{\text{obj}} = f\_{\text{field}}(r)\\</span>
 
-where $m$ is a small integer (1, 2, 3, …).
+where <span class="math inline">\\m\\</span> is a small integer (1, 2, 3, …).
 
 **In resonance:**
 
@@ -1848,9 +1850,9 @@ where $m$ is a small integer (1, 2, 3, …).
 
 **Stable orbits exist only where the resonance condition is satisfied.**
 
-## Why Orbital Radii Are Quantized
+### Why Orbital Radii Are Quantized
 
-The field’s frequency spectrum $f_{\text{field}}(r)$ is not continuous. It is quantized by:
+The field’s frequency spectrum <span class="math inline">\\f\_{\text{field}}(r)\\</span> is not continuous. It is quantized by:
 
 - The core’s pulsation harmonics
 
@@ -1858,15 +1860,15 @@ The field’s frequency spectrum $f_{\text{field}}(r)$ is not continuous. It is 
 
 - The interference nodes between shells
 
-Thus, only discrete radii $r_n$ satisfy the resonance condition for a given object’s pulse frequency $f_{\text{obj}}$.
+Thus, only discrete radii <span class="math inline">\\r_n\\</span> satisfy the resonance condition for a given object’s pulse frequency <span class="math inline">\\f\_{\text{obj}}\\</span>.
 
-For a field with exponentially decaying pressure $P_g(r) = P_0 e^{-kr}$, the oscillation frequency often scales as:
+For a field with exponentially decaying pressure <span class="math inline">\\P_g(r) = P_0 e^{-kr}\\</span>, the oscillation frequency often scales as:
 
-$$f_{\text{field}}(r) \propto \sqrt{\frac{GM}{r^3}} \quad \text{(from orbital dynamics)} \times \text{shell modulation factor}$$
+<span class="math display">\\f\_{\text{field}}(r) \propto \sqrt{\frac{GM}{r^3}} \quad \text{(from orbital dynamics)} \times \text{shell modulation factor}\\</span>
 
-The resonance condition $f_{\text{obj}} = m f_{\text{field}}(r)$ then yields:
+The resonance condition <span class="math inline">\\f\_{\text{obj}} = m f\_{\text{field}}(r)\\</span> then yields:
 
-$$r_n = \left( \frac{m \sqrt{GM}}{f_{\text{obj}}} \right)^{2/3} \cdot \text{(shell correction)}$$
+<span class="math display">\\r_n = \left( \frac{m \sqrt{GM}}{f\_{\text{obj}}} \right)^{2/3} \cdot \text{(shell correction)}\\</span>
 
 This is the GPT equivalent of orbital quantization. It explains:
 
@@ -1876,19 +1878,19 @@ This is the GPT equivalent of orbital quantization. It explains:
 
 - **Orbital clustering:** Why moons cluster in specific bands around giant planets
 
-## Orbital Velocity as Consequence, Not Cause
+### Orbital Velocity as Consequence, Not Cause
 
-In Newtonian gravity, orbital velocity determines the orbit: $v = \sqrt{GM/r}$ is required to balance centripetal and gravitational forces.
+In Newtonian gravity, orbital velocity determines the orbit: <span class="math inline">\\v = \sqrt{GM/r}\\</span> is required to balance centripetal and gravitational forces.
 
 In GPT, the causality is reversed:
 
-1.  The object’s spin and surface asymmetry determine its pulse frequency $f_{\text{obj}}$
+1.  The object’s spin and surface asymmetry determine its pulse frequency <span class="math inline">\\f\_{\text{obj}}\\</span>
 
-2.  The field’s oscillation spectrum determines which radii $r_n$ satisfy resonance
+2.  The field’s oscillation spectrum determines which radii <span class="math inline">\\r_n\\</span> satisfy resonance
 
 3.  At that radius, the pressure gradient (from Section <a href="#sec:pressure_gradient" data-reference-type="ref" data-reference="sec:pressure_gradient">12</a>) produces a specific acceleration
 
-4.  The orbital velocity is then $v = \sqrt{GM/r}$ — but this is a *derived consequence*, not the independent variable
+4.  The orbital velocity is then <span class="math inline">\\v = \sqrt{GM/r}\\</span> — but this is a *derived consequence*, not the independent variable
 
 An object cannot simply choose any velocity at any radius and expect a stable orbit. It must satisfy *both*:
 
@@ -1898,9 +1900,9 @@ An object cannot simply choose any velocity at any radius and expect a stable or
 
 The second is ignored by mainstream physics. It is the reason orbits are quantized and stable.
 
-## Spin-Orbit Coupling and Tidal Locking
+### Spin-Orbit Coupling and Tidal Locking
 
-Because the resonance condition depends on the object’s spin frequency $\Omega$ (through $f_{\text{obj}} = k\Omega$), the spin rate and orbital radius are **linked**.
+Because the resonance condition depends on the object’s spin frequency <span class="math inline">\\\Omega\\</span> (through <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span>), the spin rate and orbital radius are **linked**.
 
 If an object’s spin changes (e.g., from an impact), its pulse frequency changes. It may no longer resonate with its current orbital radius. The field will exert a net torque (graviton pressure asymmetry) to either:
 
@@ -1912,17 +1914,17 @@ This is the mechanism of **tidal locking**.
 
 When the spin rate and orbital frequency satisfy:
 
-$$\Omega = \omega_{\text{orb}} \quad \Rightarrow \quad f_{\text{obj}} = k \omega_{\text{orb}}$$
+<span class="math display">\\\Omega = \omega\_{\text{orb}} \quad \Rightarrow \quad f\_{\text{obj}} = k \omega\_{\text{orb}}\\</span>
 
-and the field’s oscillation at that radius has frequency $f_{\text{field}}(r) = \omega_{\text{orb}}$ (or a harmonic), the object is in **1:1 spin-orbit resonance**—tidally locked. The Moon is tidally locked to Earth. Many exoplanets are tidally locked to their stars.
+and the field’s oscillation at that radius has frequency <span class="math inline">\\f\_{\text{field}}(r) = \omega\_{\text{orb}}\\</span> (or a harmonic), the object is in **1:1 spin-orbit resonance**—tidally locked. The Moon is tidally locked to Earth. Many exoplanets are tidally locked to their stars.
 
 **Other spin-orbit resonances** (e.g., Mercury’s 3:2) occur when:
 
-$$f_{\text{obj}} = m \omega_{\text{orb}}, \quad f_{\text{field}}(r) = n \omega_{\text{orb}}$$
+<span class="math display">\\f\_{\text{obj}} = m \omega\_{\text{orb}}, \quad f\_{\text{field}}(r) = n \omega\_{\text{orb}}\\</span>
 
-with $m/n$ a rational ratio. The field’s shell structure can support multiple harmonic families.
+with <span class="math inline">\\m/n\\</span> a rational ratio. The field’s shell structure can support multiple harmonic families.
 
-## Why Spin and Orbit Are Aligned (Prograde vs. Retrograde)
+### Why Spin and Orbit Are Aligned (Prograde vs. Retrograde)
 
 The resonance condition depends not only on frequency but also on **phase sign**.
 
@@ -1948,13 +1950,13 @@ This explains why:
 
 - Captured objects often have unusual rotations—they have not yet found resonance
 
-## Resonance Chains and Multi-Body Stability
+### Resonance Chains and Multi-Body Stability
 
 When multiple objects orbit the same central mass, their individual pulse patterns and the field’s oscillation spectrum interact.
 
 If the objects’ orbital frequencies satisfy simple integer ratios:
 
-$$\omega_1 : \omega_2 : \omega_3 = 1 : 2 : 4 \quad \text{(Laplace resonance, Jupiter's moons)}$$
+<span class="math display">\\\omega\_{\text{Io}} : \omega\_{\text{Europa}} : \omega\_{\text{Ganymede}} = 4 : 2 : 1 \quad \text{(Laplace resonance, Jupiter's moons)}\\</span>
 
 then their combined pulse patterns constructively interfere with the field. The system achieves **global resonance**—each object’s motion stabilizes the others.
 
@@ -1962,7 +1964,7 @@ This is not a coincidence. It is the natural outcome of field-mediated resonance
 
 GPT predicts that stable multi-body systems will always exhibit resonant frequency ratios, and that these ratios correspond to the harmonic structure of the central mass’s graviton field.
 
-## Breakdown Cases: When Resonance Fails
+### Breakdown Cases: When Resonance Fails
 
 <div class="center">
 
@@ -1984,7 +1986,7 @@ These breakdown cases explain observed anomalies:
 
 - **Orbital decay of close-in exoplanets:** Often attributed to tidal forces; GPT adds the coherence loss mechanism
 
-## Experimental Predictions
+### Experimental Predictions
 
 GPT makes specific, testable predictions about orbital mechanics:
 
@@ -1996,9 +1998,9 @@ GPT makes specific, testable predictions about orbital mechanics:
 
 4.  **Artificial satellite tuning:** Satellites with controlled spin rates could be "tuned" to specific orbital resonances, potentially reducing station-keeping fuel requirements.
 
-5.  **Field oscillation detection:** Precision gravimeters or atomic clocks in orbit should detect periodic variations at the core pulsation frequency $f_{\text{core}}$ and shell frequencies $f_{\text{shell}}(r)$.
+5.  **Field oscillation detection:** Precision gravimeters or atomic clocks in orbit should detect periodic variations at the core pulsation frequency <span class="math inline">\\f\_{\text{core}}\\</span> and shell frequencies <span class="math inline">\\f\_{\text{shell}}(r)\\</span>.
 
-## Comparison to Mainstream Physics
+### Comparison to Mainstream Physics
 
 <div class="center">
 
@@ -2014,21 +2016,21 @@ GPT makes specific, testable predictions about orbital mechanics:
 
 </div>
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
-| **Criterion**     | **How GPT Orbital Mechanics Satisfies**                                                                              |
-|:------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Actors            | Gravitons (medium), central mass (field oscillator), orbiting object (pulse generator)                               |
-| Transfer quantity | Momentum and coherence exchanged via absorption/ejection cycle; field oscillation couples to object’s pulse          |
-| Interaction rate  | Continuous; object’s pulse frequency $f_{\text{obj}} = k\Omega$ interacts with field frequency $f_{\text{field}}(r)$ |
-| Directionality    | Resonance selects specific radii and spin-orientation (prograde preferred)                                           |
-| Self-consistency  | Resonance condition emerges from field structure; no external impositions                                            |
+| **Criterion**     | **How GPT Orbital Mechanics Satisfies**                                                                                                                                                      |
+|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actors            | Gravitons (medium), central mass (field oscillator), orbiting object (pulse generator)                                                                                                       |
+| Transfer quantity | Momentum and coherence exchanged via absorption/ejection cycle; field oscillation couples to object’s pulse                                                                                  |
+| Interaction rate  | Continuous; object’s pulse frequency <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span> interacts with field frequency <span class="math inline">\\f\_{\text{field}}(r)\\</span> |
+| Directionality    | Resonance selects specific radii and spin-orientation (prograde preferred)                                                                                                                   |
+| Self-consistency  | Resonance condition emerges from field structure; no external impositions                                                                                                                    |
 
 </div>
 
-## Summary of Section 13
+### Summary of Section 13
 
 <div class="center">
 
@@ -2045,11 +2047,11 @@ GPT makes specific, testable predictions about orbital mechanics:
 
 </div>
 
-## Scaling Invariance: From Atoms to Galaxies
+### Scaling Invariance: From Atoms to Galaxies
 
 The resonance mechanism described in this section is scale-invariant. The same equation governs electron shells, planetary orbits, and galactic rotation bands:
 
-$$f_{\text{pulse}}(\text{object}) = f_{\text{field}}(r) \quad \text{(harmonic)}$$
+<span class="math display">\\f\_{\text{pulse}}(\text{object}) = f\_{\text{field}}(r) \quad \text{(harmonic)}\\</span>
 
 - **At the atomic scale**, the central field source is the nucleus (proton-neutron coherence). The orbiting particle is the electron, whose spin-modulated pulse interacts with the nucleus’s graviton field. The stable radii are the **electron shells**—the quantum orbitals of chemistry.
 
@@ -2061,7 +2063,7 @@ $$f_{\text{pulse}}(\text{object}) = f_{\text{field}}(r) \quad \text{(harmonic)}$
 
 Thus, GPT unifies quantum confinement, chemical bonding, orbital mechanics, and galactic dynamics under a single causal framework: **spin-modulated pulse resonance with a structured, oscillating graviton field.**
 
-## Answering the Opening Question: Why Structure Survives
+### Answering the Opening Question: Why Structure Survives
 
 We began this paper with a question that mainstream physics rarely asks: *Why has uncertainty not destroyed everything? Why does matter persist? Why do configurations repeat?*
 
@@ -2079,36 +2081,36 @@ This is not a universe of blind chance and emergent order. It is a universe of *
 
 The uncertainty we measure is real—as a limit of our instruments. But it is not fundamental. Beneath the statistical shadow lies a deterministic, causal, resonant dynamics: the graviton medium, flowing, oscillating, and locking structure into coherence.
 
-## The Four Scales of Resonance (Unified)
+### The Four Scales of Resonance (Unified)
 
-| **Scale**        | **Central Field**                       | **Orbiting/Participating Object** | **Resonance Condition**                 | **Observed Stability** |
-|:-----------------|:----------------------------------------|:----------------------------------|:----------------------------------------|:-----------------------|
-| Quantum          | Nucleus (proton-neutron coherence)      | Electron (spin-modulated pulse)   | $f_e = f_{\text{field}}(r)$             | Electron shells        |
-| Atomic/Molecular | Atom (nucleus field)                    | Another atom (pulse pattern)      | Phase-compatible alignment              | Chemical bonds         |
-| Planetary        | Star/planet (core + shells)             | Moon/planet (spin pulse)          | $f_{\text{obj}} = f_{\text{field}}(r)$  | Stable orbits, bands   |
-| Galactic         | Galactic core (super-massive coherence) | Star (spin-modulated pulse)       | $f_{\text{star}} = f_{\text{field}}(r)$ | Flat rotation curves   |
+| **Scale**        | **Central Field**                       | **Orbiting/Participating Object** | **Resonance Condition**                                                      | **Observed Stability** |
+|:-----------------|:----------------------------------------|:----------------------------------|:-----------------------------------------------------------------------------|:-----------------------|
+| Quantum          | Nucleus (proton-neutron coherence)      | Electron (spin-modulated pulse)   | <span class="math inline">\\f_e = f\_{\text{field}}(r)\\</span>              | Electron shells        |
+| Atomic/Molecular | Atom (nucleus field)                    | Another atom (pulse pattern)      | Phase-compatible alignment                                                   | Chemical bonds         |
+| Planetary        | Star/planet (core + shells)             | Moon/planet (spin pulse)          | <span class="math inline">\\f\_{\text{obj}} = f\_{\text{field}}(r)\\</span>  | Stable orbits, bands   |
+| Galactic         | Galactic core (super-massive coherence) | Star (spin-modulated pulse)       | <span class="math inline">\\f\_{\text{star}} = f\_{\text{field}}(r)\\</span> | Flat rotation curves   |
 
 **Same mechanism. Same equation. Same answer.**
 
-## Scaling Invariance: From Planetary Orbits to Atomic Shells
+### Scaling Invariance: From Planetary Orbits to Atomic Shells
 
 The resonance mechanism developed in this section is not confined to planetary scales. It is scale-invariant because it rests on three properties that hold from nuclei to galaxies:
 
-1.  **Coherent central structures pulse** — any sufficiently coherent mass (nucleus, planet, star, galactic core) processes gravitons through absorption/ejection cycles, creating an oscillating field with characteristic frequency $f_{\text{core}}$.
+1.  **Coherent central structures pulse** — any sufficiently coherent mass (nucleus, planet, star, galactic core) processes gravitons through absorption/ejection cycles, creating an oscillating field with characteristic frequency <span class="math inline">\\f\_{\text{core}}\\</span>.
 
-2.  **Orbiting objects are non-uniform and spin** — electrons, moons, planets, and stars all possess spin and internal asymmetry, producing a temporally modulated graviton pulse at frequency $f_{\text{obj}} = k\Omega$.
+2.  **Orbiting objects are non-uniform and spin** — electrons, moons, planets, and stars all possess spin and internal asymmetry, producing a temporally modulated graviton pulse at frequency <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span>.
 
-3.  **The surrounding field stratifies into resonance shells** — lateral decoherence of gravitons that cannot be absorbed creates radial bands of distinct oscillation frequencies $f_{\text{field}}(r)$.
+3.  **The surrounding field stratifies into resonance shells** — lateral decoherence of gravitons that cannot be absorbed creates radial bands of distinct oscillation frequencies <span class="math inline">\\f\_{\text{field}}(r)\\</span>.
 
 Where these three conditions hold, stable configurations occur when:
 
-$$f_{\text{obj}} = m \cdot f_{\text{field}}(r) \quad \text{or} \quad m \cdot f_{\text{obj}} = f_{\text{field}}(r)$$
+<span class="math display">\\f\_{\text{obj}} = m \cdot f\_{\text{field}}(r) \quad \text{or} \quad m \cdot f\_{\text{obj}} = f\_{\text{field}}(r)\\</span>
 
-for some small integer $m$. This is the **resonance condition**.
+for some small integer <span class="math inline">\\m\\</span>. This is the **resonance condition**.
 
 No new physics is required as we change scale. Only the parameters change: mass, radius, spin rate, and the coherence time of the central pulse.
 
-### The Atomic Case: Nucleus and Electron
+#### The Atomic Case: Nucleus and Electron
 
 Apply the same reasoning to a hydrogen atom.
 
@@ -2116,31 +2118,31 @@ Apply the same reasoning to a hydrogen atom.
 
 - The proton is a coherent assembly of quarks bound by the strong interaction
 
-- It possesses spin ($\hbar/2$)
+- It possesses spin (<span class="math inline">\\\hbar/2\\</span>)
 
 - It has mass, therefore it absorbs and ejects gravitons as part of its own coherence cycle
 
-- Its graviton field oscillates at a characteristic frequency $f_{\text{nucleus}}$, determined by its mass, spin, and internal coherence
+- Its graviton field oscillates at a characteristic frequency <span class="math inline">\\f\_{\text{nucleus}}\\</span>, determined by its mass, spin, and internal coherence
 
 **The orbiting particle (electron):**
 
-- The electron has spin ($\hbar/2$)
+- The electron has spin (<span class="math inline">\\\hbar/2\\</span>)
 
 - It is not a point particle in GPT—it is a coherent structure with its own graviton intake/expulsion pattern
 
 - Its non-uniform interaction cross-section (asymmetry in how it absorbs and ejects gravitons relative to its spin axis) means its interaction with the external field is temporally modulated at its spin frequency
 
-- As it moves relative to the nucleus, its spin axis orientation relative to the radial field gradient creates a pulse frequency $f_{\text{electron}} = k\Omega_e$
+- As it moves relative to the nucleus, its spin axis orientation relative to the radial field gradient creates a pulse frequency <span class="math inline">\\f\_{\text{electron}} = k\Omega_e\\</span>
 
 **The field:**
 
 - The nucleus’s graviton field, like all coherent masses, stratifies into shells (Section 16.4)
 
-- At discrete radii $r_n$, the field’s oscillation frequency $f_{\text{field}}(r_n)$ takes specific values determined by the nucleus’s core pulsation and the lateral decoherence pattern
+- At discrete radii <span class="math inline">\\r_n\\</span>, the field’s oscillation frequency <span class="math inline">\\f\_{\text{field}}(r_n)\\</span> takes specific values determined by the nucleus’s core pulsation and the lateral decoherence pattern
 
 **The resonance condition:**
 
-- When $f_{\text{electron pulse}} = f_{\text{field}}(r_n)$ (or harmonic ratio), the electron enters a stable resonance corridor
+- When <span class="math inline">\\f\_{\text{electron pulse}} = f\_{\text{field}}(r_n)\\</span> (or harmonic ratio), the electron enters a stable resonance corridor
 
 - At that radius, the electron’s absorption peaks align with the field’s pressure peaks
 
@@ -2150,9 +2152,9 @@ Apply the same reasoning to a hydrogen atom.
 
 These stable radii are the **electron shells** of atomic physics.
 
-### Why Electron Shells Are Discrete (Quantized)
+#### Why Electron Shells Are Discrete (Quantized)
 
-The field’s oscillation frequency $f_{\text{field}}(r)$ is not continuous. It is quantized by:
+The field’s oscillation frequency <span class="math inline">\\f\_{\text{field}}(r)\\</span> is not continuous. It is quantized by:
 
 - **Core pulsation harmonics:** The nucleus’s absorption/ejection cycle produces a fundamental frequency and overtones
 
@@ -2162,15 +2164,15 @@ The field’s oscillation frequency $f_{\text{field}}(r)$ is not continuous. It 
 
 Thus, only discrete radii satisfy the resonance condition. These are the *allowed orbitals* — not because of an arbitrary quantum rule, but because the field’s temporal structure is discrete.
 
-### Why Only Certain Electron Spin States Are Allowed
+#### Why Only Certain Electron Spin States Are Allowed
 
-The electron’s pulse frequency is $f_{\text{electron}} = k\Omega_e$. The spin rate $\Omega_e$ is not continuously variable—it is quantized by the electron’s internal coherence. In GPT, spin is not an abstract quantum number; it is a real rotation rate of the electron’s coherent structure, stabilized by its own graviton cycle.
+The electron’s pulse frequency is <span class="math inline">\\f\_{\text{electron}} = k\Omega_e\\</span>. The spin rate <span class="math inline">\\\Omega_e\\</span> is not continuously variable—it is quantized by the electron’s internal coherence. In GPT, spin is not an abstract quantum number; it is a real rotation rate of the electron’s coherent structure, stabilized by its own graviton cycle.
 
-Thus, only discrete values of $f_{\text{electron}}$ are possible. This constrains which resonance radii the electron can occupy.
+Thus, only discrete values of <span class="math inline">\\f\_{\text{electron}}\\</span> are possible. This constrains which resonance radii the electron can occupy.
 
 The **Pauli exclusion principle** emerges naturally: no two electrons with identical pulse frequencies can occupy the same resonance corridor, because their absorption/ejection cycles would destructively interfere, causing decoherence. The field enforces separation.
 
-### Attraction Between Electron and Nucleus
+#### Attraction Between Electron and Nucleus
 
 Why does the electron not fly away? Why is it bound?
 
@@ -2192,19 +2194,19 @@ The answer is the same as for planetary orbits (Section 13.4-13.6):
 
 No separate "electromagnetic force" is required. The attraction is graviton-mediated, same as planetary attraction. The only difference is scale and the specific parameters (masses, spin rates, field frequencies).
 
-### Why Atomic Phenomena Appear "Quantum" (Discrete, Probabilistic)
+#### Why Atomic Phenomena Appear "Quantum" (Discrete, Probabilistic)
 
 From the perspective of our instruments, atomic phenomena appear fundamentally different from planetary phenomena. But GPT suggests this is a difference of *degree*, not of *kind*.
 
 <div class="center">
 
-| **Factor**                  |               **Planetary Scale**                |                **Atomic Scale**                 |
-|:----------------------------|:------------------------------------------------:|:-----------------------------------------------:|
-| Orbital frequency           |          $\sim 10^{-7}$ to $10^{-3}$ Hz          |                $\sim 10^{15}$ Hz                |
-| Size                        |           $\sim 10^{7}$ to $10^{12}$ m           |                $\sim 10^{-10}$ m                |
-| Spin-pulse frequency        |     $\sim 10^{-5}$ to $10^{-2}$ Hz (planets)     |          $\sim 10^{15}$ Hz (electrons)          |
-| Field oscillation frequency | $\sim 10^{-7}$ to $10^{-3}$ Hz (planetary field) |        $\sim 10^{15}$ Hz (nuclear field)        |
-| Measurement resolution      |    Direct tracking possible (optical, radar)     | No direct tracking possible (attosecond limits) |
+| **Factor**                  |                                                  **Planetary Scale**                                                   |                           **Atomic Scale**                           |
+|:----------------------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| Orbital frequency           |          <span class="math inline">\\\sim 10^{-7}\\</span> to <span class="math inline">\\10^{-3}\\</span> Hz          |         <span class="math inline">\\\sim 10^{15}\\</span> Hz         |
+| Size                        |           <span class="math inline">\\\sim 10^{7}\\</span> to <span class="math inline">\\10^{12}\\</span> m           |         <span class="math inline">\\\sim 10^{-10}\\</span> m         |
+| Spin-pulse frequency        |     <span class="math inline">\\\sim 10^{-5}\\</span> to <span class="math inline">\\10^{-2}\\</span> Hz (planets)     |   <span class="math inline">\\\sim 10^{15}\\</span> Hz (electrons)   |
+| Field oscillation frequency | <span class="math inline">\\\sim 10^{-7}\\</span> to <span class="math inline">\\10^{-3}\\</span> Hz (planetary field) | <span class="math inline">\\\sim 10^{15}\\</span> Hz (nuclear field) |
+| Measurement resolution      |                                       Direct tracking possible (optical, radar)                                        |           No direct tracking possible (attosecond limits)            |
 
 </div>
 
@@ -2214,7 +2216,7 @@ At atomic scales, our measurement resolution (orbits per frame) is less than one
 
 **The apparent "quantumness" of atomic phenomena is not evidence of a different physics. It is evidence of undersampling.**
 
-### The Wavefunction as a Compressed Description
+#### The Wavefunction as a Compressed Description
 
 In GPT, the wavefunction is not a complete description of the electron. It is a **compressed statistical summary** of the electron’s resonance dynamics, averaged over:
 
@@ -2230,9 +2232,9 @@ This is analogous to thermodynamics: the ideal gas law works perfectly without t
 
 **Quantum mechanics made a category error: it treated the statistical envelope as the fundamental reality because it could not conceive of the medium that produces the determinism beneath.**
 
-### Experimental Consequences
+#### Experimental Consequences
 
-GPT predicts that if we could increase temporal resolution sufficiently—to well below the electron orbital period ($\ll 10^{-16}$ seconds)—we would observe:
+GPT predicts that if we could increase temporal resolution sufficiently—to well below the electron orbital period (<span class="math inline">\\\ll 10^{-16}\\</span> seconds)—we would observe:
 
 - The electron following a deterministic, resonant path
 
@@ -2240,21 +2242,21 @@ GPT predicts that if we could increase temporal resolution sufficiently—to wel
 
 - The "wavefunction collapse" as the re-alignment of the electron’s pulse with the field after measurement
 
-This is not a philosophical claim. It is a **technological prediction**. Current attosecond spectroscopy is approaching the necessary timescale (50 as = 0.33 orbits per frame). Future zeptosecond ($10^{-21}$ s) or yoctosecond ($10^{-24}$ s) techniques, if achievable, would test this directly.
+This is not a philosophical claim. It is a **technological prediction**. Current attosecond spectroscopy is approaching the necessary timescale (50 as = 0.33 orbits per frame). Future zeptosecond (<span class="math inline">\\10^{-21}\\</span> s) or yoctosecond (<span class="math inline">\\10^{-24}\\</span> s) techniques, if achievable, would test this directly.
 
 Until then, the claim that uncertainty is fundamental remains an *interpretation*—not a proven fact. GPT offers an alternative interpretation: **uncertainty is undersampling.**
 
-### Summary: Unifying the Scales
+#### Summary: Unifying the Scales
 
 <div class="center">
 
 <div class="tabular">
 
 \|l\|l\|l\|l\| **Scale** & **Central Structure** & **Orbiting Structure** & **Resonance Condition** & **Stable Configuration**  
-Atomic & Nucleus (proton coherence) & Electron (spin-modulated pulse) & $f_e = m f_{\text{field}}(r_n)$ & Electron shells (orbitals)  
+Atomic & Nucleus (proton coherence) & Electron (spin-modulated pulse) & <span class="math inline">\\f_e = m f\_{\text{field}}(r_n)\\</span> & Electron shells (orbitals)  
 Molecular & Atom A (pulse pattern) & Atom B (phase-compatible pulse) & Phase alignment of pulses & Chemical bond  
-Planetary & Star/planet (core pulsation) & Moon/planet (spin-modulated pulse) & $f_{\text{obj}} = m f_{\text{field}}(r_n)$ & Stable orbits, orbital bands  
-Galactic & Galactic core (supermassive coherence) & Star (spin-modulated pulse) & $f_{\text{star}} = m f_{\text{field}}(r_n)$ & Flat rotation curves  
+Planetary & Star/planet (core pulsation) & Moon/planet (spin-modulated pulse) & <span class="math inline">\\f\_{\text{obj}} = m f\_{\text{field}}(r_n)\\</span> & Stable orbits, orbital bands  
+Galactic & Galactic core (supermassive coherence) & Star (spin-modulated pulse) & <span class="math inline">\\f\_{\text{star}} = m f\_{\text{field}}(r_n)\\</span> & Flat rotation curves  
 
 </div>
 
@@ -2266,7 +2268,7 @@ The stability of matter—from electrons in atoms to planets in solar systems—
 
 **The graviton field is that medium.**
 
-## Transition to Section 14
+### Transition to Section 14
 
 Having established that orbital stability—across all scales—is a resonance phenomenon mediated by the graviton field, we now turn to another phenomenon traditionally attributed to geometry: *light deflection*.
 
@@ -2274,65 +2276,65 @@ In Section 14, we will show that light bending near massive bodies is not eviden
 
 The same field that stabilizes orbits also guides light. The mechanism is continuous.
 
-# Light Deflection as Refraction in a Pressure Field
+## Light Deflection as Refraction in a Pressure Field
 
-We now address one of the most celebrated predictions of General Relativity: the bending of light by a massive body. Eddington’s 1919 measurement of the solar deflection $\alpha = 1.75$ arcseconds was hailed as confirmation that spacetime is curved and that gravity is geometry.
+We now address one of the most celebrated predictions of General Relativity: the bending of light by a massive body. Eddington’s 1919 measurement of the solar deflection <span class="math inline">\\\alpha = 1.75\\</span> arcseconds was hailed as confirmation that spacetime is curved and that gravity is geometry.
 
 In GPT, the same deflection is explained without curvature. It is **refraction** — the change in light’s propagation speed as it passes through regions of varying graviton pressure and density.
 
 No new postulates are required. The graviton medium already exists (Sections <a href="#sec:medium_certified" data-reference-type="ref" data-reference="sec:medium_certified">6</a>-<a href="#sec:minimal_medium" data-reference-type="ref" data-reference="sec:minimal_medium">10</a>). Its pressure gradient around a mass is already established (Sections <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>-<a href="#sec:pressure_gradient" data-reference-type="ref" data-reference="sec:pressure_gradient">12</a>). Light propagates through this medium. Where the medium’s properties vary, light bends.
 
-## The Refractive Index of the Graviton Medium
+### The Refractive Index of the Graviton Medium
 
-In any physical medium, light propagates at a speed less than $c$ in vacuum. The refractive index $n$ is defined as:
+In any physical medium, light propagates at a speed less than <span class="math inline">\\c\\</span> in vacuum. The refractive index <span class="math inline">\\n\\</span> is defined as:
 
-$$n = \frac{c}{v_{\text{light}}}$$
+<span class="math display">\\n = \frac{c}{v\_{\text{light}}}\\</span>
 
-In GPT, the "vacuum" is the graviton medium. Its equilibrium density is $\rho_0$, and its equilibrium refractive index is $n_0 = 1$ by definition (we calibrate to the far field).
+In GPT, the "vacuum" is the graviton medium. Its equilibrium density is <span class="math inline">\\\rho_0\\</span>, and its equilibrium refractive index is <span class="math inline">\\n_0 = 1\\</span> by definition (we calibrate to the far field).
 
 Near a massive body, the graviton density increases. From Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>, the density perturbation is:
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2\right)$$
+<span class="math display">\\\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2\right)\\</span>
 
 The refractive index of a compressible medium scales with density. For small perturbations:
 
-$$n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}$$
+<span class="math display">\\n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}\\</span>
 
-where $\beta$ is a constant determined by the medium’s polarizability to light. In GPT, $\beta$ is not a free parameter — it is fixed by the requirement that light deflections match observations. The result (derived in Appendix C) is:
+where <span class="math inline">\\\beta\\</span> is a constant determined by the medium’s polarizability to light. In GPT, <span class="math inline">\\\beta\\</span> is not a free parameter — it is fixed by the requirement that light deflections match observations. The result (derived in Appendix C) is:
 
-$$n(r) = 1 + \frac{2GM}{c^2 r}$$
+<span class="math display">\\n(r) = 1 + \frac{2GM}{c^2 r}\\</span>
 
 This is the same expression that appears in the Schwarzschild metric derivation of light bending — but here it emerges from *medium density*, not from geometry.
 
-## Fermat’s Principle in a Density Gradient
+### Fermat’s Principle in a Density Gradient
 
 Light follows the path that minimizes travel time (Fermat’s principle):
 
-$$\delta \int n(r) \, ds = 0$$
+<span class="math display">\\\delta \int n(r) \\ ds = 0\\</span>
 
-When $n(r)$ varies with position, the path bends toward regions of higher refractive index — i.e., toward the mass, where graviton density is higher.
+When <span class="math inline">\\n(r)\\</span> varies with position, the path bends toward regions of higher refractive index — i.e., toward the mass, where graviton density is higher.
 
-For a ray passing near a mass $M$ with impact parameter $b$, the deflection angle is:
+For a ray passing near a mass <span class="math inline">\\M\\</span> with impact parameter <span class="math inline">\\b\\</span>, the deflection angle is:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
+<span class="math display">\\\alpha = -\int\_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \\ dx\\</span>
 
-where $x$ is the coordinate along the undeflected path, and $r = \sqrt{b^2 + x^2}$.
+where <span class="math inline">\\x\\</span> is the coordinate along the undeflected path, and <span class="math inline">\\r = \sqrt{b^2 + x^2}\\</span>.
 
-Substituting $n(r) = 1 + 2GM/(c^2 r)$ and $dn/dr = -2GM/(c^2 r^2)$:
+Substituting <span class="math inline">\\n(r) = 1 + 2GM/(c^2 r)\\</span> and <span class="math inline">\\dn/dr = -2GM/(c^2 r^2)\\</span>:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
+<span class="math display">\\\alpha = -\int\_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \\ dx\\</span>
 
-To first order in $GM/(c^2 b)$, this integrates to:
+To first order in <span class="math inline">\\GM/(c^2 b)\\</span>, this integrates to:
 
-$$\alpha = \frac{4GM}{c^2 b}$$
+<span class="math display">\\\alpha = \frac{4GM}{c^2 b}\\</span>
 
-For light grazing the Sun’s surface: $GM_\odot/c^2 = 1.4766$ km, $b = R_\odot = 6.96 \times 10^5$ km, giving:
+For light grazing the Sun’s surface: <span class="math inline">\\GM\_\odot/c^2 = 1.4766\\</span> km, <span class="math inline">\\b = R\_\odot = 6.96 \times 10^5\\</span> km, giving:
 
-$$\alpha = \frac{4 \times 1.4766}{6.96 \times 10^5} \text{ radians} = 8.48 \times 10^{-6} \text{ radians} = 1.75 \text{ arcseconds}$$
+<span class="math display">\\\alpha = \frac{4 \times 1.4766}{6.96 \times 10^5} \text{ radians} = 8.48 \times 10^{-6} \text{ radians} = 1.75 \text{ arcseconds}\\</span>
 
 **The GR value. Same equation. Same number. Different ontology.**
 
-## Why Light Bends Toward the Mass
+### Why Light Bends Toward the Mass
 
 In GPT, the mechanism is continuous with all other gravitational phenomena:
 
@@ -2350,37 +2352,37 @@ In all three cases, the mass creates a graviton density gradient. That gradient 
 
 **Light does not need mass to be "attracted." It only needs a medium whose density varies with position.**
 
-## Comparison to General Relativity
+### Comparison to General Relativity
 
 <div class="center">
 
-| **Aspect**         | **GR**                            | **GPT**                                |
-|:-------------------|:----------------------------------|:---------------------------------------|
-| Mechanism          | Spacetime curvature               | Refraction in density gradient         |
-| What bends?        | Null geodesics in curved geometry | Light path in varying refractive index |
-| Deflection formula | $\alpha = 4GM/(c^2 b)$            | $\alpha = 4GM/(c^2 b)$ (same)          |
-| Physical cause     | Geometry (non-physical)           | Medium density variation (physical)    |
-| Requires medium?   | No (explicitly denies it)         | Yes (graviton field)                   |
+| **Aspect**         | **GR**                                                    | **GPT**                                                          |
+|:-------------------|:----------------------------------------------------------|:-----------------------------------------------------------------|
+| Mechanism          | Spacetime curvature                                       | Refraction in density gradient                                   |
+| What bends?        | Null geodesics in curved geometry                         | Light path in varying refractive index                           |
+| Deflection formula | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> (same) |
+| Physical cause     | Geometry (non-physical)                                   | Medium density variation (physical)                              |
+| Requires medium?   | No (explicitly denies it)                                 | Yes (graviton field)                                             |
 
 </div>
 
 GR calculates the correct number. GPT explains *why* the number is what it is.
 
-## Refraction vs. Curvature: An Experimental Distinction
+### Refraction vs. Curvature: An Experimental Distinction
 
 If light bending is refraction, then there should be **dispersion** — a slight wavelength dependence of the deflection angle — because refractive indices typically vary with frequency.
 
 GR predicts no dispersion (null geodesics are achromatic).
 
-Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the $10^{-5}$ arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
+Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the <span class="math inline">\\10^{-5}\\</span> arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
 
-$$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
+<span class="math display">\\\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)\\</span>
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. The exact form depends on the graviton-photon interaction, which will be developed in future work.
+where <span class="math inline">\\\epsilon(\lambda)\\</span> is a small function encoded in the medium’s response to different frequencies. The exact form depends on the graviton-photon interaction, which will be developed in future work.
 
 **This is a testable distinction.**
 
-## Gravitational Lensing as Refractive Focusing
+### Gravitational Lensing as Refractive Focusing
 
 Extended mass distributions (galaxy clusters) produce multiple images, arcs, and Einstein rings. In GR, these are explained by spacetime curvature. In GPT, they are explained by the same refractive mechanism:
 
@@ -2392,21 +2394,21 @@ Extended mass distributions (galaxy clusters) produce multiple images, arcs, and
 
 No dark matter is required to explain lensing if the cluster’s graviton field is stratified into shells (Section 16.4). The refractive index gradients at shell boundaries naturally produce the observed lensing features.
 
-## Shapiro Delay as Slowing in Denser Medium
+### Shapiro Delay as Slowing in Denser Medium
 
 The Shapiro delay — the extra travel time for light passing near a massive body — is also explained by refraction:
 
-$$\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)$$
+<span class="math display">\\\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)\\</span>
 
 In GR, this comes from the time component of the Schwarzschild metric. In GPT, it comes from the reduced speed of light in the denser medium:
 
-$$v_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)$$
+<span class="math display">\\v\_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)\\</span>
 
 Integrating the extra path length gives the same logarithmic delay.
 
 **Light slows down where the graviton medium is denser. No geometry is required.**
 
-## What This Means for Spacetime Curvature
+### What This Means for Spacetime Curvature
 
 If light bending and Shapiro delay are fully explained by refraction in a physical medium, then the interpretation of these phenomena as evidence of "curved spacetime" is shown to be **underdetermined**.
 
@@ -2426,7 +2428,7 @@ Both fit the data. But *only one provides a mechanism.* Only one is consistent w
 
 **Curvature is a mathematical description. Refraction is a physical mechanism.**
 
-## The Unanswered Question for GR
+### The Unanswered Question for GR
 
 GR cannot answer this question: *What physically changes when light passes near a mass?*
 
@@ -2440,7 +2442,7 @@ GPT answers: **The density of the graviton medium changes. Light slows down in d
 
 This is not speculation. This is how every wave behaves in every physical medium. The only special assumption is that the vacuum *is* a medium — and that assumption is forced by Casimir, refraction, and momentum transfer.
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
@@ -2448,49 +2450,49 @@ This is not speculation. This is how every wave behaves in every physical medium
 |:------------------|:---------------------------------------------------------------------------------------------------------------------|
 | Actors            | Gravitons (medium), photons (light waves)                                                                            |
 | Transfer quantity | No momentum transfer to medium (refraction is conservative) — but the medium’s varying density alters phase velocity |
-| Interaction rate  | Continuous along path; local speed determined by $n(r) = c/v_{\text{light}}$                                         |
-| Directionality    | Bending toward mass (increasing $n$)                                                                                 |
+| Interaction rate  | Continuous along path; local speed determined by <span class="math inline">\\n(r) = c/v\_{\text{light}}\\</span>     |
+| Directionality    | Bending toward mass (increasing <span class="math inline">\\n\\</span>)                                              |
 | Self-consistency  | Refractive index derived from graviton density, which is determined by mass distribution via continuity and inflow   |
 
 </div>
 
-## Summary of Section 14
+### Summary of Section 14
 
 <div class="center">
 
-| **Element**         | **GPT Mechanism**                                               |
-|:--------------------|:----------------------------------------------------------------|
-| What bends light    | Refractive index gradient in graviton medium                    |
-| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from density perturbation)            |
-| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                             |
-| Shapiro delay       | Light slows where medium is denser                              |
-| Lensing             | Refractive focusing by extended mass distributions              |
-| Testable prediction | Small wavelength-dependent dispersion                           |
-| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry) |
+| **Element**         | **GPT Mechanism**                                                                       |
+|:--------------------|:----------------------------------------------------------------------------------------|
+| What bends light    | Refractive index gradient in graviton medium                                            |
+| Refractive index    | <span class="math inline">\\n(r) = 1 + 2GM/(c^2 r)\\</span> (from density perturbation) |
+| Deflection angle    | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> (same as GR)                  |
+| Shapiro delay       | Light slows where medium is denser                                                      |
+| Lensing             | Refractive focusing by extended mass distributions                                      |
+| Testable prediction | Small wavelength-dependent dispersion                                                   |
+| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry)                         |
 
 </div>
 
-# Inertia and Momentum as Coherence Retention
+## Inertia and Momentum as Coherence Retention
 
-We now address two of the most fundamental concepts in physics: inertia and momentum. In mainstream physics, inertia is treated as an intrinsic property of mass — resistance to acceleration — and momentum is defined as $p = mv$, conserved via Noether’s theorem from translational symmetry.
+We now address two of the most fundamental concepts in physics: inertia and momentum. In mainstream physics, inertia is treated as an intrinsic property of mass — resistance to acceleration — and momentum is defined as <span class="math inline">\\p = mv\\</span>, conserved via Noether’s theorem from translational symmetry.
 
 Both are *described* mathematically. Neither is *explained* causally.
 
 In GPT, inertia and momentum are not intrinsic properties. They are **coherence retention phenomena** — the persistence of an object’s resonance alignment with the graviton medium.
 
-## The Mainstream Gap
+### The Mainstream Gap
 
 **Inertia:** An object at rest stays at rest; an object in motion stays in motion. Changing velocity requires force. But *why*? What physically resists acceleration? Mainstream physics has no answer. Inertia is treated as an axiom.
 
-**Momentum:** An object in motion has momentum $p = mv$. In collisions, momentum is conserved. But *what is momentum*? It is not a substance. It is not a thing. It is a *quantity* calculated from mass and velocity. Conservation is derived from symmetry (Noether), but symmetry describes patterns — not causes.
+**Momentum:** An object in motion has momentum <span class="math inline">\\p = mv\\</span>. In collisions, momentum is conserved. But *what is momentum*? It is not a substance. It is not a thing. It is a *quantity* calculated from mass and velocity. Conservation is derived from symmetry (Noether), but symmetry describes patterns — not causes.
 
 The gap is the same in both cases: **no physical substrate, no mechanism.**
 
-## Momentum as a Carved Passage (The Momentum Corridor)
+### Momentum as a Carved Passage (The Momentum Corridor)
 
 From Part 20, Section 20.2 and Part 21, Section 21.1, a moving object does not simply pass through the graviton medium — it **reshapes it**.
 
-Consider an object moving through the medium with velocity $\mathbf{v}$. As established in Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>, the object’s leading surface absorbs gravitons at a higher rate than its trailing surface. This asymmetry has two consequences:
+Consider an object moving through the medium with velocity <span class="math inline">\\\mathbf{v}\\</span>. As established in Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>, the object’s leading surface absorbs gravitons at a higher rate than its trailing surface. This asymmetry has two consequences:
 
 1.  **Pressure differential:** The leading face experiences higher ram pressure, opposing motion (this is drag, not momentum — see Section <a href="#subsec:inertia_resistance" data-reference-type="ref" data-reference="subsec:inertia_resistance">16.4</a> below).
 
@@ -2502,7 +2504,7 @@ Momentum is not "stored" in the object. It is not a mysterious quantity. It is t
 
 The object continues moving not because it "has inertia," but because it is moving through a corridor it has already carved. The medium offers less resistance along that axis than in other directions.
 
-## Why Momentum Is Conserved (In the Absence of External Forces)
+### Why Momentum Is Conserved (In the Absence of External Forces)
 
 When two objects interact (collide, attract, repel), their momentum corridors interact. The structured flow patterns of the medium — the carved passages — are reshaped by the interaction.
 
@@ -2520,7 +2522,7 @@ Noether’s theorem works because the medium is translationally symmetric in the
 
 **Momentum is not conserved because of a mathematical theorem. The theorem works because the medium conserves momentum physically.**
 
-## Inertia as Resistance to Reorientation
+### Inertia as Resistance to Reorientation
 
 If momentum is a carved corridor aligned with the object’s motion, then **inertia** is the resistance to changing that alignment.
 
@@ -2548,9 +2550,9 @@ The amount of resistance depends on:
 
 - The coherence of the object with the medium (higher coherence = stronger corridor = greater inertia)
 
-Thus, $F = ma$ emerges not as an axiom but as a description of the medium’s resistance to corridor reorientation, linearized for small accelerations.
+Thus, <span class="math inline">\\F = ma\\</span> emerges not as an axiom but as a description of the medium’s resistance to corridor reorientation, linearized for small accelerations.
 
-## Why Inertia Scales with Mass
+### Why Inertia Scales with Mass
 
 An object with larger mass has:
 
@@ -2575,9 +2577,9 @@ This is why gravitational mass and inertial mass are identical (the Equivalence 
 
 Both arise from the same underlying property: the object’s coherence with the graviton field. They are equal because they are the same thing, measured in two ways.
 
-## The Role of Spin and Pulse in Momentum
+### The Role of Spin and Pulse in Momentum
 
-From Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>, every object has a spin-modulated graviton pulse at frequency $f_{\text{obj}} = k\Omega$. This pulse affects the momentum corridor in two ways:
+From Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>, every object has a spin-modulated graviton pulse at frequency <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span>. This pulse affects the momentum corridor in two ways:
 
 1.  **Resonance stabilization:** A well-defined pulse frequency reinforces the corridor’s structure, making it more persistent (higher inertia).
 
@@ -2585,13 +2587,13 @@ From Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-ref
 
 Thus, angular momentum is not separate from linear momentum — both are expressions of the same medium-structured coherence. The distinction arises from whether the structured flow is primarily translational (corridor) or rotational (spin pulse).
 
-## Why Objects in Motion Stay in Motion
+### Why Objects in Motion Stay in Motion
 
 Newton’s first law: "An object in motion stays in motion unless acted upon by an external force."
 
 In GPT, this is not an axiom. It is a consequence of the medium’s relaxation timescale.
 
-Once a momentum corridor is carved, the medium does not instantly return to isotropy. The low-impedance channel persists for a characteristic time $\tau_{\text{corridor}}$, determined by:
+Once a momentum corridor is carved, the medium does not instantly return to isotropy. The low-impedance channel persists for a characteristic time <span class="math inline">\\\tau\_{\text{corridor}}\\</span>, determined by:
 
 - The graviton self-repulsion constant (how quickly pressure equalizes)
 
@@ -2599,27 +2601,27 @@ Once a momentum corridor is carved, the medium does not instantly return to isot
 
 - The coherence of the object (higher coherence = more stable corridor)
 
-For a typical macroscopic object, $\tau_{\text{corridor}}$ is extremely long compared to observation times. The object continues moving because it is still moving through its own carved passage.
+For a typical macroscopic object, <span class="math inline">\\\tau\_{\text{corridor}}\\</span> is extremely long compared to observation times. The object continues moving because it is still moving through its own carved passage.
 
 If the object were to stop (e.g., by hitting an obstacle), the corridor would gradually decay. But without external interaction, it persists.
 
 **Inertia is not a mysterious "resistance to change." It is the medium’s memory of the object’s motion.**
 
-## Why Acceleration Requires Force
+### Why Acceleration Requires Force
 
-Newton’s second law: $F = ma$. In GPT, this is the relationship between:
+Newton’s second law: <span class="math inline">\\F = ma\\</span>. In GPT, this is the relationship between:
 
-- The applied effort to disrupt and reorient the momentum corridor ($F$)
+- The applied effort to disrupt and reorient the momentum corridor (<span class="math inline">\\F\\</span>)
 
-- The rate of change of velocity ($a$)
+- The rate of change of velocity (<span class="math inline">\\a\\</span>)
 
-- The object’s coupling to the medium ($m$)
+- The object’s coupling to the medium (<span class="math inline">\\m\\</span>)
 
-For small accelerations (relative to the medium’s relaxation rate), the response is linear. For extremely large accelerations (approaching the medium’s characteristic speed $c$), nonlinearities appear — which we observe as relativistic effects (Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>).
+For small accelerations (relative to the medium’s relaxation rate), the response is linear. For extremely large accelerations (approaching the medium’s characteristic speed <span class="math inline">\\c\\</span>), nonlinearities appear — which we observe as relativistic effects (Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>).
 
 The force is not "causing" acceleration in an empty Newtonian sense. The force is *doing work to reorganize the medium’s structured flow*. That work manifests as a change in the object’s velocity.
 
-## Action and Reaction (Newton’s Third Law)
+### Action and Reaction (Newton’s Third Law)
 
 When object A exerts a force on object B, their momentum corridors interact. The structured flow of the medium between them is reshaped symmetrically.
 
@@ -2635,23 +2637,23 @@ The reaction force on A is the medium’s resistance to having its own structure
 
 **The medium enforces action-reaction because it cannot favor one object’s corridor over another without violating its own conservation.**
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Phenomenon**                | **Mainstream Description**         | **GPT Mechanism**                                        |
-|:------------------------------|:-----------------------------------|:---------------------------------------------------------|
-| Inertia                       | Intrinsic property of mass (axiom) | Resistance to reorienting momentum corridor              |
-| Momentum                      | $p = mv$, conserved via Noether    | Carved low-impedance channel in medium                   |
-| Mass scaling                  | $m$ is primitive                   | Coupling strength to medium (absorption rate, coherence) |
-| Newton’s 1st                  | Axiom                              | Medium’s corridor relaxation timescale                   |
-| Newton’s 2nd                  | $F = ma$ (definition)              | Work to reorganize corridor structure                    |
-| Newton’s 3rd                  | Axiom                              | Medium’s conservation of structured flow                 |
-| EP (inertial = gravitational) | Coincidence or curvature           | Both measure same coupling to medium                     |
+| **Phenomenon**                | **Mainstream Description**                                         | **GPT Mechanism**                                        |
+|:------------------------------|:-------------------------------------------------------------------|:---------------------------------------------------------|
+| Inertia                       | Intrinsic property of mass (axiom)                                 | Resistance to reorienting momentum corridor              |
+| Momentum                      | <span class="math inline">\\p = mv\\</span>, conserved via Noether | Carved low-impedance channel in medium                   |
+| Mass scaling                  | <span class="math inline">\\m\\</span> is primitive                | Coupling strength to medium (absorption rate, coherence) |
+| Newton’s 1st                  | Axiom                                                              | Medium’s corridor relaxation timescale                   |
+| Newton’s 2nd                  | <span class="math inline">\\F = ma\\</span> (definition)           | Work to reorganize corridor structure                    |
+| Newton’s 3rd                  | Axiom                                                              | Medium’s conservation of structured flow                 |
+| EP (inertial = gravitational) | Coincidence or curvature                                           | Both measure same coupling to medium                     |
 
 </div>
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
@@ -2665,23 +2667,23 @@ The reaction force on A is the medium’s resistance to having its own structure
 
 </div>
 
-## Summary of Section 15
+### Summary of Section 15
 
 <div class="center">
 
-| **Element**               | **GPT Mechanism**                                                                                     |
-|:--------------------------|:------------------------------------------------------------------------------------------------------|
-| Momentum                  | Carved low-impedance corridor in graviton medium, aligned with motion                                 |
-| Inertia                   | Resistance to reorienting the momentum corridor                                                       |
-| Why $F = ma$              | Linearized relationship between force (corridor disruption) and acceleration (corridor reorientation) |
-| Why mass scales           | Coupling strength to medium (absorption rate, coherence)                                              |
-| Why EP holds              | Gravitational mass and inertial mass both measure medium coupling                                     |
-| Why momentum is conserved | Medium’s structured flow is conserved                                                                 |
-| Why action-reaction holds | Medium cannot favor one object’s corridor asymmetrically                                              |
+| **Element**                                     | **GPT Mechanism**                                                                                     |
+|:------------------------------------------------|:------------------------------------------------------------------------------------------------------|
+| Momentum                                        | Carved low-impedance corridor in graviton medium, aligned with motion                                 |
+| Inertia                                         | Resistance to reorienting the momentum corridor                                                       |
+| Why <span class="math inline">\\F = ma\\</span> | Linearized relationship between force (corridor disruption) and acceleration (corridor reorientation) |
+| Why mass scales                                 | Coupling strength to medium (absorption rate, coherence)                                              |
+| Why EP holds                                    | Gravitational mass and inertial mass both measure medium coupling                                     |
+| Why momentum is conserved                       | Medium’s structured flow is conserved                                                                 |
+| Why action-reaction holds                       | Medium cannot favor one object’s corridor asymmetrically                                              |
 
 </div>
 
-# Time as Process — The N/Γ Cycle
+## Time as Process — The N/Γ Cycle
 
 We now address one of the most profound phenomena in physics: time dilation. Clocks slow down in gravitational potentials and at high velocities. Mainstream physics describes this with exquisite precision — the Schwarzschild metric, the Lorentz factor — but offers no mechanism. Time simply "stretches" because the geometry of spacetime says it must.
 
@@ -2689,7 +2691,7 @@ In GPT, time is not a coordinate. It is not a dimension. It is a **process** —
 
 The mechanism is the **N/Γ cycle** — the ratio of required interactions per tick to the rate at which those interactions occur.
 
-## Time as a Count of Cycles
+### Time as a Count of Cycles
 
 In GPT, time is not a fundamental entity. It is *what clocks measure* — and clocks measure cycles.
 
@@ -2709,98 +2711,98 @@ GPT answer: **The absorption/ejection cycle of gravitons.**
 
 Every coherent structure — an atom, a clock, a human body — maintains its internal coherence through a continuous graviton cycle (Part 15). Each "tick" of a clock corresponds to a fixed number of these cycles, or a fixed number of interactions within the cycle.
 
-## The N/Γ Cycle
+### The N/Γ Cycle
 
 Define:
 
-- $N$ = the number of graviton interactions required to complete one "tick" of the clock (the stability quota)
+- <span class="math inline">\\N\\</span> = the number of graviton interactions required to complete one "tick" of the clock (the stability quota)
 
-- $\Gamma$ = the rate at which these interactions occur (encounter rate, absorption rate)
+- <span class="math inline">\\\Gamma\\</span> = the rate at which these interactions occur (encounter rate, absorption rate)
 
 The duration of one tick is:
 
-$$\tau = \frac{N}{\Gamma}$$
+<span class="math display">\\\tau = \frac{N}{\Gamma}\\</span>
 
-This is not a metaphor. It is a physical equation. Every clock ticks when it has accumulated $N$ interactions with the graviton medium. The tick rate is $1/\tau$.
+This is not a metaphor. It is a physical equation. Every clock ticks when it has accumulated <span class="math inline">\\N\\</span> interactions with the graviton medium. The tick rate is <span class="math inline">\\1/\tau\\</span>.
 
-**Time dilation occurs when $\tau$ increases.** Either:
+**Time dilation occurs when <span class="math inline">\\\tau\\</span> increases.** Either:
 
-- $N$ increases (the clock needs more interactions per tick), or
+- <span class="math inline">\\N\\</span> increases (the clock needs more interactions per tick), or
 
-- $\Gamma$ decreases (interactions occur more slowly)
+- <span class="math inline">\\\Gamma\\</span> decreases (interactions occur more slowly)
 
 Both happen, depending on the situation.
 
-## Gravitational Time Dilation: Increased Load from Ambient Density
+### Gravitational Time Dilation: Increased Load from Ambient Density
 
 Consider a clock in a gravitational potential — near a massive body like Earth. The ambient graviton density is higher than in deep space (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
+<span class="math display">\\\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)\\</span>
 
 The clock’s atoms are bathed in a denser graviton flux. This has two effects:
 
-1.  **Increased encounter rate:** More gravitons are available to interact. Naively, this would increase $\Gamma$ and make the clock tick faster. But the opposite happens — so the second effect must dominate.
+1.  **Increased encounter rate:** More gravitons are available to interact. Naively, this would increase <span class="math inline">\\\Gamma\\</span> and make the clock tick faster. But the opposite happens — so the second effect must dominate.
 
-2.  **Increased internal load:** The denser flux means the clock’s atoms must process more gravitons to maintain coherence. The stability quota $N$ increases because each tick now requires more internal reorganization. The atom is under greater "pressure" to stay coherent.
+2.  **Increased internal load:** The denser flux means the clock’s atoms must process more gravitons to maintain coherence. The stability quota <span class="math inline">\\N\\</span> increases because each tick now requires more internal reorganization. The atom is under greater "pressure" to stay coherent.
 
 The net effect is:
 
-$$\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}$$
+<span class="math display">\\\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}\\</span>
 
-From detailed balance (Appendix D), the load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. The result is:
+From detailed balance (Appendix D), the load factor <span class="math inline">\\N(r)/N_0\\</span> grows faster than the encounter rate <span class="math inline">\\\Gamma(r)/\Gamma_0\\</span>. The result is:
 
-$$\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}$$
+<span class="math display">\\\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}\\</span>
 
 For weak fields, this expands to:
 
-$$\tau(r) \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)$$
+<span class="math display">\\\tau(r) \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)\\</span>
 
 This is the gravitational time dilation formula — but derived from *load increase*, not from "curved time."
 
 **Physical interpretation:** A clock in a gravitational well does not experience "slower time." It experiences *more work per tick*. The increased graviton flux forces its internal processes to slow down because each interaction is part of a larger, more demanding stabilization cycle.
 
-## Velocity Time Dilation: Anisotropic Load from Motion
+### Velocity Time Dilation: Anisotropic Load from Motion
 
-Now consider a clock moving at speed $v$ relative to the local graviton medium rest frame.
+Now consider a clock moving at speed <span class="math inline">\\v\\</span> relative to the local graviton medium rest frame.
 
 From Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>, a moving object experiences anisotropic absorption — the leading face encounters more gravitons than the trailing face. This creates:
 
-1.  **Increased local flux:** The effective graviton density on the leading side is higher. This increases the encounter rate $\Gamma$ (which alone would speed up the clock).
+1.  **Increased local flux:** The effective graviton density on the leading side is higher. This increases the encounter rate <span class="math inline">\\\Gamma\\</span> (which alone would speed up the clock).
 
-2.  **Asymmetric load:** The clock’s internal coherence must be maintained despite the anisotropy. The atoms on the leading edge are processing more gravitons than those on the trailing edge. This internal strain increases the stability quota $N$.
+2.  **Asymmetric load:** The clock’s internal coherence must be maintained despite the anisotropy. The atoms on the leading edge are processing more gravitons than those on the trailing edge. This internal strain increases the stability quota <span class="math inline">\\N\\</span>.
 
 The standard result from special relativity is:
 
-$$\tau(v) = \tau_0 \cdot \gamma(v) = \tau_0 \cdot \frac{1}{\sqrt{1 - v^2/c^2}}$$
+<span class="math display">\\\tau(v) = \tau_0 \cdot \gamma(v) = \tau_0 \cdot \frac{1}{\sqrt{1 - v^2/c^2}}\\</span>
 
-In GPT, this emerges when the load factor grows as $\gamma^2$ while the encounter rate grows as $\gamma$:
+In GPT, this emerges when the load factor grows as <span class="math inline">\\\gamma^2\\</span> while the encounter rate grows as <span class="math inline">\\\gamma\\</span>:
 
-$$\tau(v) = \tau_0 \cdot \frac{\gamma^2}{\gamma} = \tau_0 \gamma$$
+<span class="math display">\\\tau(v) = \tau_0 \cdot \frac{\gamma^2}{\gamma} = \tau_0 \gamma\\</span>
 
-The $\gamma$ factor in the encounter rate comes from Lorentz contraction of the medium’s effective density in the object’s frame. The $\gamma^2$ factor in the load comes from the internal strain of maintaining coherence under anisotropic flux.
+The <span class="math inline">\\\gamma\\</span> factor in the encounter rate comes from Lorentz contraction of the medium’s effective density in the object’s frame. The <span class="math inline">\\\gamma^2\\</span> factor in the load comes from the internal strain of maintaining coherence under anisotropic flux.
 
 **Physical interpretation:** A moving clock does not experience "time slowing down." It experiences *increased internal work*. The asymmetry of graviton absorption forces its atoms to work harder per tick, stretching the duration of each tick.
 
-## Why Gravitational and Velocity Dilation Have the Same Form
+### Why Gravitational and Velocity Dilation Have the Same Form
 
 Both forms of time dilation reduce to:
 
-$$\tau = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}} \quad \text{(gravity)} \quad \text{and} \quad \tau = \tau_0 \cdot \frac{1}{\sqrt{1 - v^2/c^2}} \quad \text{(velocity)}$$
+<span class="math display">\\\tau = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}} \quad \text{(gravity)} \quad \text{and} \quad \tau = \tau_0 \cdot \frac{1}{\sqrt{1 - v^2/c^2}} \quad \text{(velocity)}\\</span>
 
 In GPT, both arise from the same underlying cause: **increased load relative to encounter rate.**
 
 <div class="center">
 
-| **Condition**      | **Load Factor $N/N_0$**                    | **Encounter Rate $\Gamma/\Gamma_0$**    | **Net $\tau/\tau_0$**          |
-|:-------------------|:-------------------------------------------|:----------------------------------------|:-------------------------------|
-| Gravitational well | $\approx 1 + \frac{GM}{c^2 r}$ (dominates) | $\approx 1 + \frac{GM}{c^2 r}$ (weaker) | $\approx 1 + \frac{GM}{c^2 r}$ |
-| High velocity      | $\gamma^2$                                 | $\gamma$                                | $\gamma$                       |
+| **Condition**      | **Load Factor <span class="math inline">\\N/N_0\\</span>**                    | **Encounter Rate <span class="math inline">\\\Gamma/\Gamma_0\\</span>**    | **Net <span class="math inline">\\\tau/\tau_0\\</span>**          |
+|:-------------------|:------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:------------------------------------------------------------------|
+| Gravitational well | <span class="math inline">\\\approx 1 + \frac{GM}{c^2 r}\\</span> (dominates) | <span class="math inline">\\\approx 1 + \frac{GM}{c^2 r}\\</span> (weaker) | <span class="math inline">\\\approx 1 + \frac{GM}{c^2 r}\\</span> |
+| High velocity      | <span class="math inline">\\\gamma^2\\</span>                                 | <span class="math inline">\\\gamma\\</span>                                | <span class="math inline">\\\gamma\\</span>                       |
 
 </div>
 
 The mathematical forms are similar because both physical situations (denser ambient medium, anisotropic absorption) produce the same type of imbalance between load and rate.
 
-## What Slows Down? The Clock’s Internal Coherence Cycle
+### What Slows Down? The Clock’s Internal Coherence Cycle
 
 In GPT, the "tick" of an atomic clock is the hyperfine transition of cesium. This transition is not an instantaneous event — it is a process of graviton exchange between the nucleus and the electron cloud.
 
@@ -2814,7 +2816,7 @@ When the clock is in a gravitational well or moving at high speed:
 
 **The clock does not measure "time." It measures the duration of its own internal coherence stabilization.** When the medium demands more work per tick, the tick takes longer. We call this "time dilation."
 
-## Why All Clocks Dilate Equally
+### Why All Clocks Dilate Equally
 
 A common objection to any mechanistic theory of time dilation is: "Why do all clocks — atomic, mechanical, biological — dilate by the same factor?"
 
@@ -2824,17 +2826,17 @@ Every physical system — every atom, every bond, every oscillation — is ultim
 
 Therefore:
 
-- A cesium atom’s hyperfine transition requires $N$ graviton interactions
+- A cesium atom’s hyperfine transition requires <span class="math inline">\\N\\</span> graviton interactions
 
-- A quartz crystal’s oscillation requires $N$ graviton interactions to maintain coherence
+- A quartz crystal’s oscillation requires <span class="math inline">\\N\\</span> graviton interactions to maintain coherence
 
-- A human heartbeat requires $N$ graviton interactions for cellular metabolism
+- A human heartbeat requires <span class="math inline">\\N\\</span> graviton interactions for cellular metabolism
 
-When the ambient graviton flux changes (density or anisotropy), *all* of these $N$ values increase proportionally. The specific internal mechanisms differ, but the scaling is universal because the underlying coupling to the medium is universal.
+When the ambient graviton flux changes (density or anisotropy), *all* of these <span class="math inline">\\N\\</span> values increase proportionally. The specific internal mechanisms differ, but the scaling is universal because the underlying coupling to the medium is universal.
 
 **This is the physical origin of the Equivalence Principle for time.**
 
-## The Absence of "Absolute Time"
+### The Absence of "Absolute Time"
 
 GPT denies that time is a fundamental dimension. There is no "time flow" independent of physical processes. What we call time is the accumulated count of cycles in the most stable available clock.
 
@@ -2848,63 +2850,63 @@ This is why:
 
 But unlike Einstein’s operational definition of time (clock readings), GPT provides a *mechanism* for why clocks read what they do.
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Aspect**         | **Mainstream (GR/SR)**                    | **GPT**                                               |
-|:-------------------|:------------------------------------------|:------------------------------------------------------|
-| What is time?      | Fourth dimension, coordinate              | Accumulated count of physical cycles                  |
-| Why clocks slow?   | Metric stretching, Lorentz transformation | Increased load in $N/\Gamma$ cycle                    |
-| Physical mechanism | None                                      | Graviton absorption/ejection; coherence stabilization |
-| Why universal?     | Geometric postulate                       | All systems couple to same medium                     |
-| EP for time        | Coincidence or curvature                  | Same load/rate imbalance in all cases                 |
+| **Aspect**         | **Mainstream (GR/SR)**                    | **GPT**                                                               |
+|:-------------------|:------------------------------------------|:----------------------------------------------------------------------|
+| What is time?      | Fourth dimension, coordinate              | Accumulated count of physical cycles                                  |
+| Why clocks slow?   | Metric stretching, Lorentz transformation | Increased load in <span class="math inline">\\N/\Gamma\\</span> cycle |
+| Physical mechanism | None                                      | Graviton absorption/ejection; coherence stabilization                 |
+| Why universal?     | Geometric postulate                       | All systems couple to same medium                                     |
+| EP for time        | Coincidence or curvature                  | Same load/rate imbalance in all cases                                 |
 
 </div>
 
-## Experimental Predictions
+### Experimental Predictions
 
 GPT makes specific predictions about time dilation beyond standard relativity:
 
 1.  **Material dependence:** Clocks made of different elements may exhibit slightly different dilation factors in extreme conditions (strong gravity, high velocity) because their internal coherence requirements differ. This is too small to detect currently but may become measurable with next-generation atomic clocks.
 
-2.  **Anisotropic dilation:** A clock moving at velocity $v$ may exhibit different dilation depending on its orientation relative to motion, because the anisotropic absorption affects different atomic axes differently. Standard relativity predicts no such effect at leading order.
+2.  **Anisotropic dilation:** A clock moving at velocity <span class="math inline">\\v\\</span> may exhibit different dilation depending on its orientation relative to motion, because the anisotropic absorption affects different atomic axes differently. Standard relativity predicts no such effect at leading order.
 
 3.  **Transient effects:** When a clock enters a gravitational well, its tick rate should adjust with a small relaxation time (the medium’s coherence timescale), rather than instantaneously as predicted by GR.
 
 4.  **Temperature dependence of time dilation:** Since temperature affects atomic coherence (Section 19), clocks at different temperatures may experience slightly different gravitational time dilation. This could test the link between thermal decoherence and the N/Γ cycle.
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
-| **Criterion**     | **How GPT Time Dilation Satisfies**                                      |
-|:------------------|:-------------------------------------------------------------------------|
-| Actors            | Gravitons (medium), clock atoms (coherent structures)                    |
-| Transfer quantity | Momentum and coherence exchanged via absorption/ejection                 |
-| Interaction rate  | $\Gamma$ = encounter/absorption rate                                     |
-| Directionality    | Velocity time dilation arises from anisotropic absorption                |
-| Self-consistency  | $\tau = N/\Gamma$ emerges from medium coupling; no external clock needed |
+| **Criterion**     | **How GPT Time Dilation Satisfies**                                                                         |
+|:------------------|:------------------------------------------------------------------------------------------------------------|
+| Actors            | Gravitons (medium), clock atoms (coherent structures)                                                       |
+| Transfer quantity | Momentum and coherence exchanged via absorption/ejection                                                    |
+| Interaction rate  | <span class="math inline">\\\Gamma\\</span> = encounter/absorption rate                                     |
+| Directionality    | Velocity time dilation arises from anisotropic absorption                                                   |
+| Self-consistency  | <span class="math inline">\\\tau = N/\Gamma\\</span> emerges from medium coupling; no external clock needed |
 
 </div>
 
-## Summary of Section 16
+### Summary of Section 16
 
 <div class="center">
 
-| **Element**            | **GPT Mechanism**                                                        |
-|:-----------------------|:-------------------------------------------------------------------------|
-| What time is           | Accumulated count of physical cycles (ticks)                             |
-| What a tick requires   | $N$ graviton interactions (stability quota)                              |
-| Tick duration          | $\tau = N/\Gamma$                                                        |
-| Gravitational dilation | Higher ambient density increases $N$ (load) more than $\Gamma$ (rate)    |
-| Velocity dilation      | Anisotropic absorption increases $N$ as $\gamma^2$, $\Gamma$ as $\gamma$ |
-| Universality           | All systems couple to same medium; $N$ scales similarly                  |
-| EP for time            | Both dilations arise from load/rate imbalance                            |
+| **Element**            | **GPT Mechanism**                                                                                                                                                                                                    |
+|:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What time is           | Accumulated count of physical cycles (ticks)                                                                                                                                                                         |
+| What a tick requires   | <span class="math inline">\\N\\</span> graviton interactions (stability quota)                                                                                                                                       |
+| Tick duration          | <span class="math inline">\\\tau = N/\Gamma\\</span>                                                                                                                                                                 |
+| Gravitational dilation | Higher ambient density increases <span class="math inline">\\N\\</span> (load) more than <span class="math inline">\\\Gamma\\</span> (rate)                                                                          |
+| Velocity dilation      | Anisotropic absorption increases <span class="math inline">\\N\\</span> as <span class="math inline">\\\gamma^2\\</span>, <span class="math inline">\\\Gamma\\</span> as <span class="math inline">\\\gamma\\</span> |
+| Universality           | All systems couple to same medium; <span class="math inline">\\N\\</span> scales similarly                                                                                                                           |
+| EP for time            | Both dilations arise from load/rate imbalance                                                                                                                                                                        |
 
 </div>
 
-# Charge as Stabilized Bias
+## Charge as Stabilized Bias
 
 We now extend the GPT framework to electromagnetism, beginning with its most primitive concept: charge. In mainstream physics, charge is treated as a fundamental, irreducible property of matter. Particles simply "have" charge — positive or negative — and that charge is the source of electric fields via Gauss’s law.
 
@@ -2912,7 +2914,7 @@ This is not an explanation. It is a label.
 
 In GPT, charge is not primitive. It is **stabilized directional bias in graviton exchange** — a locked asymmetry in how a structure absorbs and ejects gravitons. Opposite charges correspond to opposite orientations of this bias (outflow-dominant vs. inflow-dominant). The "electric field" is not a separate entity but the medium’s stress response to this bias.
 
-## The Primitive Label Problem
+### The Primitive Label Problem
 
 Mainstream physics offers no mechanism for:
 
@@ -2932,43 +2934,43 @@ These are not predictions — they are axioms. The theory works because it was b
 
 GPT asks: *What physical configuration of the medium produces these behaviors?*
 
-## The Exchange Kernel and Bias
+### The Exchange Kernel and Bias
 
-From Part 21, Section 21.4, every coherent structure has an **exchange kernel** $K(\Omega)$ — the directional pattern of graviton absorption and ejection.
+From Part 21, Section 21.4, every coherent structure has an **exchange kernel** <span class="math inline">\\K(\Omega)\\</span> — the directional pattern of graviton absorption and ejection.
 
 For a perfectly symmetric structure (e.g., an idealized, non-spinning, perfectly spherical atom in isotropic conditions), the kernel is balanced:
 
-$$\int K(\Omega) \, \Omega \, d\Omega = 0$$
+<span class="math display">\\\int K(\Omega) \\ \Omega \\ d\Omega = 0\\</span>
 
 The structure absorbs and ejects gravitons equally in all directions. It has no net bias.
 
 A **charged** structure is one where this balance is broken. The first moment of the exchange kernel is non-zero:
 
-$$\mathbf{B} = \int K(\Omega) \, \Omega \, d\Omega \neq 0$$
+<span class="math display">\\\mathbf{B} = \int K(\Omega) \\ \Omega \\ d\Omega \neq 0\\</span>
 
-The vector $\mathbf{B}$ quantifies the **directional bias** in graviton exchange. A structure with net outflow bias (more gravitons ejected in a preferred direction than absorbed) is **positive**. A structure with net inflow bias (more gravitons absorbed in a preferred direction than ejected) is **negative**.
+The vector <span class="math inline">\\\mathbf{B}\\</span> quantifies the **directional bias** in graviton exchange. A structure with net outflow bias (more gravitons ejected in a preferred direction than absorbed) is **positive**. A structure with net inflow bias (more gravitons absorbed in a preferred direction than ejected) is **negative**.
 
 **Charge is not a substance. It is a configuration.**
 
-## Why Two Signs Exist
+### Why Two Signs Exist
 
-The bias vector $\mathbf{B}$ has a direction. For a given internal axis (spin, topological structure, or lattice alignment), two stable orientations exist:
+The bias vector <span class="math inline">\\\mathbf{B}\\</span> has a direction. For a given internal axis (spin, topological structure, or lattice alignment), two stable orientations exist:
 
-- **Positive bias:** Outflow aligned with the internal axis ($\mathbf{B} = +B_0 \hat{\mathbf{s}}$)
+- **Positive bias:** Outflow aligned with the internal axis (<span class="math inline">\\\mathbf{B} = +B_0 \hat{\mathbf{s}}\\</span>)
 
-- **Negative bias:** Outflow anti-aligned (inflow aligned) ($\mathbf{B} = -B_0 \hat{\mathbf{s}}$)
+- **Negative bias:** Outflow anti-aligned (inflow aligned) (<span class="math inline">\\\mathbf{B} = -B_0 \hat{\mathbf{s}}\\</span>)
 
 These two orientations correspond to the two signs of charge.
 
 Why are only two signs observed? Because the bias orientation is locked to an internal structural axis that has only two stable states (e.g., spin up/down, or a two-lobed topological defect). This was derived in Part 21, Section 21.8 via the bistable potential:
 
-$$V(s) = a(s^2 - s_0^2)^2$$
+<span class="math display">\\V(s) = a(s^2 - s_0^2)^2\\</span>
 
-where $s = \pm s_0$ are the stable minima — the two charge states. Flipping from one to the other requires crossing an energy barrier. This is **charge quantization**: the bias magnitude is fixed by the structure; only the sign can vary.
+where <span class="math inline">\\s = \pm s_0\\</span> are the stable minima — the two charge states. Flipping from one to the other requires crossing an energy barrier. This is **charge quantization**: the bias magnitude is fixed by the structure; only the sign can vary.
 
-## Why Opposite Charges Attract
+### Why Opposite Charges Attract
 
-Consider two structures with opposite biases: $\mathbf{B}_1 = +B_0 \hat{\mathbf{s}}$, $\mathbf{B}_2 = -B_0 \hat{\mathbf{s}}$ (aligned axes).
+Consider two structures with opposite biases: <span class="math inline">\\\mathbf{B}\_1 = +B_0 \hat{\mathbf{s}}\\</span>, <span class="math inline">\\\mathbf{B}\_2 = -B_0 \hat{\mathbf{s}}\\</span> (aligned axes).
 
 The outflow from the positive structure (excess gravitons ejected) has a natural sink: the negative structure’s excess absorption. When they are brought together, the medium between them can form a **coherent exchange corridor** — outflow from one feeds directly into inflow of the other.
 
@@ -2976,9 +2978,9 @@ This shared corridor reduces the overall stress in the medium. The absorption/va
 
 **Attraction is not a pull. It is pressure equalization.**
 
-## Why Like Charges Repel
+### Why Like Charges Repel
 
-Now consider two structures with the same bias: $\mathbf{B}_1 = +B_0 \hat{\mathbf{s}}$, $\mathbf{B}_2 = +B_0 \hat{\mathbf{s}}$.
+Now consider two structures with the same bias: <span class="math inline">\\\mathbf{B}\_1 = +B_0 \hat{\mathbf{s}}\\</span>, <span class="math inline">\\\mathbf{B}\_2 = +B_0 \hat{\mathbf{s}}\\</span>.
 
 Both are trying to eject gravitons in the same direction — into the space between them. The outflow from both structures converges in the same region, increasing local graviton density. Self-repulsion of gravitons creates a high-pressure zone between them.
 
@@ -2988,41 +2990,41 @@ The medium pushes them apart to relieve this pressure. The same self-repulsion t
 
 For two negative charges (both inflow-dominant), the mechanism is similar but subtler. Both are trying to absorb gravitons from the same region. This creates a *vacancy conflict* — the medium cannot supply enough gravitons to satisfy both absorption demands simultaneously. The resulting local pressure drop is asymmetrically resolved by pushing the structures apart.
 
-## The "Electric Field" as Bias-Potential Gradient
+### The "Electric Field" as Bias-Potential Gradient
 
-In mainstream physics, the electric field $\mathbf{E}$ is a fundamental entity. In GPT, it is a *derived quantity* — the gradient of a scalar bias potential:
+In mainstream physics, the electric field <span class="math inline">\\\mathbf{E}\\</span> is a fundamental entity. In GPT, it is a *derived quantity* — the gradient of a scalar bias potential:
 
-$$\mathbf{e} = -\nabla \psi$$
+<span class="math display">\\\mathbf{e} = -\nabla \psi\\</span>
 
-where $\psi$ is the bias potential, determined by the distribution of bias sources via the Poisson equation:
+where <span class="math inline">\\\psi\\</span> is the bias potential, determined by the distribution of bias sources via the Poisson equation:
 
-$$\nabla^2 \psi = -\alpha \sigma_q(\mathbf{x})$$
+<span class="math display">\\\nabla^2 \psi = -\alpha \sigma_q(\mathbf{x})\\</span>
 
-Here $\sigma_q(\mathbf{x})$ is the bias density (charge density), and $\alpha$ is a coupling constant set by the medium’s response.
+Here <span class="math inline">\\\sigma_q(\mathbf{x})\\</span> is the bias density (charge density), and <span class="math inline">\\\alpha\\</span> is a coupling constant set by the medium’s response.
 
-For a point bias $q$ at the origin:
+For a point bias <span class="math inline">\\q\\</span> at the origin:
 
-$$\psi(r) = \frac{q}{r}, \quad \mathbf{e}(r) = \frac{q}{r^2} \hat{\mathbf{r}}$$
+<span class="math display">\\\psi(r) = \frac{q}{r}, \quad \mathbf{e}(r) = \frac{q}{r^2} \hat{\mathbf{r}}\\</span>
 
 The inverse-square law emerges from flux dilution, not from a fundamental postulate (see Section <a href="#subsec:force_law" data-reference-type="ref" data-reference="subsec:force_law">12.1</a>). The same geometric argument that gave Newtonian gravity now gives Coulomb’s law.
 
 **The "electric field" is not a thing floating in space. It is the gradient of the medium’s stress response to bias.**
 
-## Why Gauss’s Law Works
+### Why Gauss’s Law Works
 
-Gauss’s law $\nabla \cdot \mathbf{E} = \rho/\epsilon_0$ is a mathematical identity in GPT, not a separate postulate. It follows from:
+Gauss’s law <span class="math inline">\\\nabla \cdot \mathbf{E} = \rho/\epsilon_0\\</span> is a mathematical identity in GPT, not a separate postulate. It follows from:
 
-1.  The definition $\mathbf{e} = -\nabla \psi$
+1.  The definition <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span>
 
-2.  The Poisson equation $\nabla^2 \psi = -\alpha \sigma_q$
+2.  The Poisson equation <span class="math inline">\\\nabla^2 \psi = -\alpha \sigma_q\\</span>
 
-3.  Therefore $\nabla \cdot \mathbf{e} = \alpha \sigma_q$
+3.  Therefore <span class="math inline">\\\nabla \cdot \mathbf{e} = \alpha \sigma_q\\</span>
 
-The constant $\epsilon_0$ is reinterpreted as a **medium property** — the bias compressibility (how much $\psi$ changes per unit bias source). It is not a vacuum constant; it is a medium constant.
+The constant <span class="math inline">\\\epsilon_0\\</span> is reinterpreted as a **medium property** — the bias compressibility (how much <span class="math inline">\\\psi\\</span> changes per unit bias source). It is not a vacuum constant; it is a medium constant.
 
-## Why Charge Is Quantized and Conserved
+### Why Charge Is Quantized and Conserved
 
-**Quantization:** The bias magnitude $B_0$ is determined by the internal structure of the particle — its spin, topology, and resonance configuration. These are discrete states, not continuous values. The electron has a fixed bias magnitude because its internal coherence structure has only one stable configuration for each sign.
+**Quantization:** The bias magnitude <span class="math inline">\\B_0\\</span> is determined by the internal structure of the particle — its spin, topology, and resonance configuration. These are discrete states, not continuous values. The electron has a fixed bias magnitude because its internal coherence structure has only one stable configuration for each sign.
 
 **Conservation:** Charge is conserved because bias orientation cannot change without crossing an energy barrier. Flipping from positive to negative would require:
 
@@ -3032,36 +3034,36 @@ The constant $\epsilon_0$ is reinterpreted as a **medium property** — the bias
 
 In the standard model, charge conservation is an observed regularity. In GPT, it is a consequence of the stability of internal bias configuration.
 
-## Coulomb’s Law as a Continuum Approximation
+### Coulomb’s Law as a Continuum Approximation
 
 The force between two charges is:
 
-$$\mathbf{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r^2} \hat{\mathbf{r}}$$
+<span class="math display">\\\mathbf{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r^2} \hat{\mathbf{r}}\\</span>
 
 In GPT, this emerges from the medium’s response to two bias sources. The interaction energy is:
 
-$$U_{12}(r) = \int \frac{\kappa}{2} |\nabla \psi|^2 dV = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r}$$
+<span class="math display">\\U\_{12}(r) = \kappa \int \nabla \psi_1 \cdot \nabla \psi_2 \\ dV = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r}\\</span>
 
 Differentiating gives the force. The derivation requires no new postulates — only the bias potential equation and the medium’s energy density.
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Phenomenon**        | **Mainstream Description** | **GPT Mechanism**                                      |
-|:----------------------|:---------------------------|:-------------------------------------------------------|
-| What is charge?       | Primitive label            | Stabilized directional bias in graviton exchange       |
-| Why two signs?        | Observed fact              | Two stable orientations of bias vector                 |
-| Why opposite attract? | Coulomb’s law (postulate)  | Shared exchange corridor reduces medium stress         |
-| Why like repel?       | Coulomb’s law (postulate)  | Outflow conflict creates pressure overload             |
-| Electric field        | Fundamental field          | Gradient of bias potential $\mathbf{e} = -\nabla \psi$ |
-| Inverse-square        | Postulate                  | Flux dilution in 3D                                    |
-| Charge quantization   | Observed fact              | Fixed bias magnitude from internal coherence           |
-| Charge conservation   | Observed fact              | Energy barrier prevents sign-flip                      |
+| **Phenomenon**        | **Mainstream Description** | **GPT Mechanism**                                                                         |
+|:----------------------|:---------------------------|:------------------------------------------------------------------------------------------|
+| What is charge?       | Primitive label            | Stabilized directional bias in graviton exchange                                          |
+| Why two signs?        | Observed fact              | Two stable orientations of bias vector                                                    |
+| Why opposite attract? | Coulomb’s law (postulate)  | Shared exchange corridor reduces medium stress                                            |
+| Why like repel?       | Coulomb’s law (postulate)  | Outflow conflict creates pressure overload                                                |
+| Electric field        | Fundamental field          | Gradient of bias potential <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span> |
+| Inverse-square        | Postulate                  | Flux dilution in 3D                                                                       |
+| Charge quantization   | Observed fact              | Fixed bias magnitude from internal coherence                                              |
+| Charge conservation   | Observed fact              | Energy barrier prevents sign-flip                                                         |
 
 </div>
 
-## The Unification of Gravity and Charge
+### The Unification of Gravity and Charge
 
 In GPT, both gravity and charge arise from the same medium:
 
@@ -3088,7 +3090,7 @@ This explains why:
 
 **The "unification of forces" is not a distant goal. It is already present in GPT’s ontology.**
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
@@ -3102,234 +3104,234 @@ This explains why:
 
 </div>
 
-## Summary of Section 17
+### Summary of Section 17
 
 <div class="center">
 
-| **Element**              | **GPT Mechanism**                                           |
-|:-------------------------|:------------------------------------------------------------|
-| What charge is           | Stabilized directional bias in graviton exchange            |
-| Positive charge          | Net outflow bias (excess ejection)                          |
-| Negative charge          | Net inflow bias (excess absorption)                         |
-| Opposite attraction      | Shared exchange corridor reduces medium stress              |
-| Like repulsion           | Outflow conflict (positive) or vacancy conflict (negative)  |
-| Electric field           | $\mathbf{e} = -\nabla \psi$, gradient of bias potential     |
-| Inverse-square           | Flux dilution in 3D                                         |
-| Quantization             | Fixed bias magnitude from internal coherence                |
-| Conservation             | Energy barrier prevents bias flip                           |
-| Unification with gravity | Same medium; different configuration (isotropic vs. biased) |
+| **Element**              | **GPT Mechanism**                                                                          |
+|:-------------------------|:-------------------------------------------------------------------------------------------|
+| What charge is           | Stabilized directional bias in graviton exchange                                           |
+| Positive charge          | Net outflow bias (excess ejection)                                                         |
+| Negative charge          | Net inflow bias (excess absorption)                                                        |
+| Opposite attraction      | Shared exchange corridor reduces medium stress                                             |
+| Like repulsion           | Outflow conflict (positive) or vacancy conflict (negative)                                 |
+| Electric field           | <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span>, gradient of bias potential |
+| Inverse-square           | Flux dilution in 3D                                                                        |
+| Quantization             | Fixed bias magnitude from internal coherence                                               |
+| Conservation             | Energy barrier prevents bias flip                                                          |
+| Unification with gravity | Same medium; different configuration (isotropic vs. biased)                                |
 
 </div>
 
-# The Electric Field as Bias-Potential Gradient
+## The Electric Field as Bias-Potential Gradient
 
 We have established that charge is stabilized directional bias in graviton exchange (Section <a href="#sec:charge_bias" data-reference-type="ref" data-reference="sec:charge_bias">18</a>). Now we introduce the **bias potential** — a scalar field that describes the medium’s local preference for graviton flow direction — and show that its gradient behaves exactly as the electric field.
 
 No separate "electric field" entity is postulated. The field emerges from the medium’s response to bias.
 
-## The Scalar Bias Potential
+### The Scalar Bias Potential
 
-Define a scalar field $\psi(\mathbf{x}, t)$ that represents the **medium’s local bias preference** — the degree to which the graviton flow at a point is directionally asymmetric.
+Define a scalar field <span class="math inline">\\\psi(\mathbf{x}, t)\\</span> that represents the **medium’s local bias preference** — the degree to which the graviton flow at a point is directionally asymmetric.
 
-- In regions with no net bias (no charges nearby), $\psi = 0$ (or constant)
+- In regions with no net bias (no charges nearby), <span class="math inline">\\\psi = 0\\</span> (or constant)
 
-- In regions near a biased structure (a charge), $\psi$ takes non-zero values
+- In regions near a biased structure (a charge), <span class="math inline">\\\psi\\</span> takes non-zero values
 
-- The potential is signed: positive bias (outflow-dominant) produces positive $\psi$; negative bias (inflow-dominant) produces negative $\psi$
+- The potential is signed: positive bias (outflow-dominant) produces positive <span class="math inline">\\\psi\\</span>; negative bias (inflow-dominant) produces negative <span class="math inline">\\\psi\\</span>
 
-The bias potential is not an independent entity. It is the macroscopic description of the microscopic bias distribution $\mathbf{B}(\mathbf{x})$ from Section <a href="#subsec:exchange_kernel" data-reference-type="ref" data-reference="subsec:exchange_kernel">18.2</a>:
+The bias potential is not an independent entity. It is the macroscopic description of the microscopic bias distribution <span class="math inline">\\\mathbf{B}(\mathbf{x})\\</span> from Section <a href="#subsec:exchange_kernel" data-reference-type="ref" data-reference="subsec:exchange_kernel">18.2</a>:
 
-$$\psi(\mathbf{x}) = \int \frac{\mathbf{B}(\mathbf{x}') \cdot (\mathbf{x} - \mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|^3} \, d^3x'$$
+<span class="math display">\\\psi(\mathbf{x}) = \int \frac{\mathbf{B}(\mathbf{x}') \cdot (\mathbf{x} - \mathbf{x}')}{\|\mathbf{x} - \mathbf{x}'\|^3} \\ d^3x'\\</span>
 
-For a point bias $q$ at the origin, this reduces to $\psi(r) \propto q/r$.
+For a point bias <span class="math inline">\\q\\</span> at the origin, this reduces to <span class="math inline">\\\psi(r) \propto q/r\\</span>.
 
-## Diffusive Relaxation and the Poisson Equation
+### Diffusive Relaxation and the Poisson Equation
 
 The bias potential evolves according to the medium’s relaxation dynamics. At coarse scale, bias disturbances diffuse and propagate:
 
-$$\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q(\mathbf{x}, t)$$
+<span class="math display">\\\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q(\mathbf{x}, t)\\</span>
 
 where:
 
-- $D$ is the diffusivity of bias in the medium
+- <span class="math inline">\\D\\</span> is the diffusivity of bias in the medium
 
-- $\alpha$ is a coupling constant (bias compressibility)
+- <span class="math inline">\\\alpha\\</span> is a coupling constant (bias compressibility)
 
-- $\sigma_q(\mathbf{x}, t)$ is the bias density (charge density)
+- <span class="math inline">\\\sigma_q(\mathbf{x}, t)\\</span> is the bias density (charge density)
 
-In static equilibrium ($\partial \psi/\partial t = 0$, $\mathbf{v} = 0$), this reduces to:
+In static equilibrium (<span class="math inline">\\\partial \psi/\partial t = 0\\</span>, <span class="math inline">\\\mathbf{v} = 0\\</span>), this reduces to:
 
-$$\nabla^2 \psi = -\alpha \, \sigma_q(\mathbf{x})$$
+<span class="math display">\\\nabla^2 \psi = -\alpha \\ \sigma_q(\mathbf{x})\\</span>
 
 **This is the Poisson equation. It is not a postulate. It is the equilibrium condition of the biased medium.**
 
-## The Electric Field as Gradient
+### The Electric Field as Gradient
 
 Define the effective force per unit bias charge as:
 
-$$\mathbf{e}(\mathbf{x}) = -\nabla \psi(\mathbf{x})$$
+<span class="math display">\\\mathbf{e}(\mathbf{x}) = -\nabla \psi(\mathbf{x})\\</span>
 
-This quantity $\mathbf{e}$ behaves exactly like the electrostatic field $\mathbf{E}$:
+This quantity <span class="math inline">\\\mathbf{e}\\</span> behaves exactly like the electrostatic field <span class="math inline">\\\mathbf{E}\\</span>:
 
-- **Conservative:** $\nabla \times \mathbf{e} = 0$ (curl of gradient is zero) — electrostatics
+- **Conservative:** <span class="math inline">\\\nabla \times \mathbf{e} = 0\\</span> (curl of gradient is zero) — electrostatics
 
-- **Sourced by bias:** $\nabla \cdot \mathbf{e} = -\nabla^2 \psi = \alpha \sigma_q$ — Gauss’s law
+- **Sourced by bias:** <span class="math inline">\\\nabla \cdot \mathbf{e} = -\nabla^2 \psi = \alpha \sigma_q\\</span> — Gauss’s law
 
-- **Force on bias:** A biased structure (charge $q$) experiences $\mathbf{F} = q \mathbf{e}$
+- **Force on bias:** A biased structure (charge <span class="math inline">\\q\\</span>) experiences <span class="math inline">\\\mathbf{F} = q \mathbf{e}\\</span>
 
 **The electric field is not a fundamental entity. It is the gradient of the medium’s bias potential.**
 
-## The Inverse-Square Law from Flux Dilution
+### The Inverse-Square Law from Flux Dilution
 
-For a point bias $q$ at the origin, symmetry requires that $\psi$ depends only on $r$. The Poisson equation in spherical coordinates (for $r > 0$) is:
+For a point bias <span class="math inline">\\q\\</span> at the origin, symmetry requires that <span class="math inline">\\\psi\\</span> depends only on <span class="math inline">\\r\\</span>. The Poisson equation in spherical coordinates (for <span class="math inline">\\r \> 0\\</span>) is:
 
-$$\frac{1}{r^2} \frac{d}{dr} \left( r^2 \frac{d\psi}{dr} \right) = 0$$
+<span class="math display">\\\frac{1}{r^2} \frac{d}{dr} \left( r^2 \frac{d\psi}{dr} \right) = 0\\</span>
 
 Integrating twice:
 
-$$r^2 \frac{d\psi}{dr} = \text{constant} \quad \Rightarrow \quad \frac{d\psi}{dr} = \frac{C}{r^2} \quad \Rightarrow \quad \psi(r) = -\frac{C}{r} + D$$
+<span class="math display">\\r^2 \frac{d\psi}{dr} = \text{constant} \quad \Rightarrow \quad \frac{d\psi}{dr} = \frac{C}{r^2} \quad \Rightarrow \quad \psi(r) = -\frac{C}{r} + D\\</span>
 
-Setting $\psi \to 0$ as $r \to \infty$ gives $D = 0$. The constant $C$ is determined by the total bias via Gauss’s law:
+Setting <span class="math inline">\\\psi \to 0\\</span> as <span class="math inline">\\r \to \infty\\</span> gives <span class="math inline">\\D = 0\\</span>. The constant <span class="math inline">\\C\\</span> is determined by the total bias via Gauss’s law:
 
-$$\oint \nabla \psi \cdot d\mathbf{A} = 4\pi r^2 \frac{d\psi}{dr} = -4\pi C = -\alpha q$$
+<span class="math display">\\\oint \nabla \psi \cdot d\mathbf{A} = 4\pi r^2 \frac{d\psi}{dr} = 4\pi C = -\alpha q\\</span>
 
-Thus $C = \alpha q/(4\pi)$, and:
+Thus <span class="math inline">\\C = -\alpha q/(4\pi)\\</span>, and:
 
-$$\psi(r) = \frac{\alpha q}{4\pi r}, \quad \mathbf{e}(r) = -\nabla \psi = \frac{\alpha q}{4\pi r^2} \hat{\mathbf{r}}$$
+<span class="math display">\\\psi(r) = \frac{\alpha q}{4\pi r}, \quad \mathbf{e}(r) = -\nabla \psi = \frac{\alpha q}{4\pi r^2} \hat{\mathbf{r}}\\</span>
 
 **The inverse-square law is geometry, not magic.** It follows from:
 
-- Three-dimensional space (area grows as $r^2$)
+- Three-dimensional space (area grows as <span class="math inline">\\r^2\\</span>)
 
 - Conservation of bias flux (total bias through any sphere is constant)
 
 - The Poisson equation (medium’s equilibrium response)
 
-## The Constant $\alpha$ and Permittivity
+### The Constant <span class="math inline">\\\alpha\\</span> and Permittivity
 
-The constant $\alpha$ in the Poisson equation determines how much bias potential is generated per unit bias source. Comparing with standard electromagnetism:
+The constant <span class="math inline">\\\alpha\\</span> in the Poisson equation determines how much bias potential is generated per unit bias source. Comparing with standard electromagnetism:
 
-$$\nabla^2 \psi = -\alpha \sigma_q \quad \text{(GPT)} \quad \text{vs.} \quad \nabla^2 \phi = -\frac{\rho}{\epsilon_0} \quad \text{(mainstream)}$$
+<span class="math display">\\\nabla^2 \psi = -\alpha \sigma_q \quad \text{(GPT)} \quad \text{vs.} \quad \nabla^2 \phi = -\frac{\rho}{\epsilon_0} \quad \text{(mainstream)}\\</span>
 
-We identify $\psi$ with the electrostatic potential $\phi$, and:
+We identify <span class="math inline">\\\psi\\</span> with the electrostatic potential <span class="math inline">\\\phi\\</span>, and:
 
-$$\frac{1}{\epsilon_0} = \alpha \quad \Rightarrow \quad \epsilon_0 = \frac{1}{\alpha}$$
+<span class="math display">\\\frac{1}{\epsilon_0} = \alpha \quad \Rightarrow \quad \epsilon_0 = \frac{1}{\alpha}\\</span>
 
 **The permittivity of free space is not a fundamental constant. It is the inverse of the medium’s bias compressibility** — how much bias potential gradient is generated per unit bias source.
 
-A high $\epsilon_0$ means the medium is "soft" — a given bias produces a small potential gradient. A low $\epsilon_0$ means the medium is "stiff" — the same bias produces a large gradient.
+A high <span class="math inline">\\\epsilon_0\\</span> means the medium is "soft" — a given bias produces a small potential gradient. A low <span class="math inline">\\\epsilon_0\\</span> means the medium is "stiff" — the same bias produces a large gradient.
 
-## Energy Stored in the Bias Field
+### Energy Stored in the Bias Field
 
 The medium stores energy when it is stressed by bias. The energy density is:
 
-$$u = \frac{\kappa}{2} |\nabla \psi|^2 = \frac{\kappa}{2} e^2$$
+<span class="math display">\\u = \frac{\kappa}{2} \|\nabla \psi\|^2 = \frac{\kappa}{2} e^2\\</span>
 
-where $\kappa$ is the medium’s bias stiffness constant. Comparing with the standard expression $u = \frac{1}{2} \epsilon_0 E^2$, we identify:
+where <span class="math inline">\\\kappa\\</span> is the medium’s bias stiffness constant. Comparing with the standard expression <span class="math inline">\\u = \frac{1}{2} \epsilon_0 E^2\\</span>, we identify:
 
-$$\kappa = \epsilon_0 = \frac{1}{\alpha}$$
+<span class="math display">\\\kappa = \epsilon_0 = \frac{1}{\alpha}\\</span>
 
 The energy is stored in the medium’s internal stress — the self-repulsion of gravitons responding to bias gradients. This is not "field energy" as an abstract concept. It is *real energy stored in the medium’s configuration*.
 
-## Why the Potential Is Scalar
+### Why the Potential Is Scalar
 
-The bias potential is scalar because the underlying bias distribution $\mathbf{B}$ is vectorial, but its effect at a distance (in the static case) is determined by its divergence. The curl components of $\mathbf{B}$ produce the vector potential (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>). This separation mirrors the Helmholtz decomposition: any vector field is the sum of an irrotational (curl-free, scalar potential) part and a solenoidal (divergence-free, vector potential) part.
+The bias potential is scalar because the underlying bias distribution <span class="math inline">\\\mathbf{B}\\</span> is vectorial, but its effect at a distance (in the static case) is determined by its divergence. The curl components of <span class="math inline">\\\mathbf{B}\\</span> produce the vector potential (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>). This separation mirrors the Helmholtz decomposition: any vector field is the sum of an irrotational (curl-free, scalar potential) part and a solenoidal (divergence-free, vector potential) part.
 
 In electrostatics (static charges), only the irrotational part matters. The electric field is curl-free. Hence a scalar potential suffices.
 
-## Summary of Section 18
+### Summary of Section 18
 
 <div class="center">
 
-| **Element**        | **GPT Mechanism**                                                                    |
-|:-------------------|:-------------------------------------------------------------------------------------|
-| Bias potential     | $\psi(\mathbf{x})$ — medium’s local bias preference                                  |
-| Transport equation | $\partial_t \psi + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q$ |
-| Static equilibrium | $\nabla^2 \psi = -\alpha \sigma_q$ (Poisson equation)                                |
-| Electric field     | $\mathbf{e} = -\nabla \psi$ — gradient of bias potential                             |
-| Inverse-square     | $e(r) = \alpha q/(4\pi r^2)$ — flux dilution in 3D                                   |
-| Permittivity       | $\epsilon_0 = 1/\alpha$ — medium bias compressibility                                |
-| Field energy       | $u = \frac{1}{2} \epsilon_0 e^2$ — stored in medium stress                           |
+| **Element**        | **GPT Mechanism**                                                                                                       |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------|
+| Bias potential     | <span class="math inline">\\\psi(\mathbf{x})\\</span> — medium’s local bias preference                                  |
+| Transport equation | <span class="math inline">\\\partial_t \psi + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q\\</span> |
+| Static equilibrium | <span class="math inline">\\\nabla^2 \psi = -\alpha \sigma_q\\</span> (Poisson equation)                                |
+| Electric field     | <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span> — gradient of bias potential                             |
+| Inverse-square     | <span class="math inline">\\e(r) = \alpha q/(4\pi r^2)\\</span> — flux dilution in 3D                                   |
+| Permittivity       | <span class="math inline">\\\epsilon_0 = 1/\alpha\\</span> — medium bias compressibility                                |
+| Field energy       | <span class="math inline">\\u = \frac{1}{2} \epsilon_0 e^2\\</span> — stored in medium stress                           |
 
 </div>
 
-# Magnetism as Curl Organization from Moving Bias
+## Magnetism as Curl Organization from Moving Bias
 
 We have established that static charge produces a scalar bias potential whose gradient is the electric field (Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>). Now we address moving bias — currents — and show that they produce a transverse, curl-organized structure in the medium. This structure behaves exactly as the magnetic field.
 
 No separate "magnetic field" entity is postulated. Magnetism is the medium’s response to moving bias.
 
-## The Problem of Moving Bias
+### The Problem of Moving Bias
 
-When a bias distribution $\sigma_q(\mathbf{x}, t)$ moves, the medium cannot relax instantaneously. The bias potential $\psi$ has a finite propagation speed ($c$) and a finite relaxation time. The transport equation from Section <a href="#subsec:poisson_equation" data-reference-type="ref" data-reference="subsec:poisson_equation">19.2</a> is:
+When a bias distribution <span class="math inline">\\\sigma_q(\mathbf{x}, t)\\</span> moves, the medium cannot relax instantaneously. The bias potential <span class="math inline">\\\psi\\</span> has a finite propagation speed (<span class="math inline">\\c\\</span>) and a finite relaxation time. The transport equation from Section <a href="#subsec:poisson_equation" data-reference-type="ref" data-reference="subsec:poisson_equation">19.2</a> is:
 
-$$\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q$$
+<span class="math display">\\\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q\\</span>
 
 For a moving bias source, the time derivative and advection terms are non-zero. The medium’s response is not simply a static potential — it develops transverse structure.
 
-## The Vector Circulation Potential
+### The Vector Circulation Potential
 
-Define a vector potential $\mathbf{A}(\mathbf{x}, t)$ as the medium’s **circulation potential** — a bookkeeping field that describes the transverse (curl) organization of the medium in response to moving bias.
+Define a vector potential <span class="math inline">\\\mathbf{A}(\mathbf{x}, t)\\</span> as the medium’s **circulation potential** — a bookkeeping field that describes the transverse (curl) organization of the medium in response to moving bias.
 
-The definition is motivated by the Helmholtz decomposition: any vector field can be written as the sum of a gradient (curl-free) and a curl (divergence-free) part. The scalar potential $\psi$ captures the curl-free part. The vector potential $\mathbf{A}$ captures the divergence-free (transverse) part.
+The definition is motivated by the Helmholtz decomposition: any vector field can be written as the sum of a gradient (curl-free) and a curl (divergence-free) part. The scalar potential <span class="math inline">\\\psi\\</span> captures the curl-free part. The vector potential <span class="math inline">\\\mathbf{A}\\</span> captures the divergence-free (transverse) part.
 
 For a moving bias distribution, the vector potential satisfies:
 
-$$\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q$$
+<span class="math display">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q\\</span>
 
 where:
 
-- $\mathbf{J}_q = \sigma_q \mathbf{v}$ is the bias current density
+- <span class="math inline">\\\mathbf{J}\_q = \sigma_q \mathbf{v}\\</span> is the bias current density
 
-- $\beta$ is a coupling constant (transverse curl stiffness)
+- <span class="math inline">\\\beta\\</span> is a coupling constant (transverse curl stiffness)
 
-This is the Poisson equation for the vector potential. It is not a postulate. It emerges from the medium’s dynamics when the bias distribution is in motion, derived from the transport equation and the requirement of gauge invariance (the medium’s response is independent of the choice of $\nabla \cdot \mathbf{A}$).
+This is the Poisson equation for the vector potential. It is not a postulate. It emerges from the medium’s dynamics when the bias distribution is in motion, derived from the transport equation and the requirement of gauge invariance (the medium’s response is independent of the choice of <span class="math inline">\\\nabla \cdot \mathbf{A}\\</span>).
 
-## The Magnetic Field as Curl of the Vector Potential
+### The Magnetic Field as Curl of the Vector Potential
 
 Define the transverse structure:
 
-$$\mathbf{b}(\mathbf{x}, t) = \nabla \times \mathbf{A}(\mathbf{x}, t)$$
+<span class="math display">\\\mathbf{b}(\mathbf{x}, t) = \nabla \times \mathbf{A}(\mathbf{x}, t)\\</span>
 
-This quantity $\mathbf{b}$ behaves exactly like the magnetic field $\mathbf{B}$:
+This quantity <span class="math inline">\\\mathbf{b}\\</span> behaves exactly like the magnetic field <span class="math inline">\\\mathbf{B}\\</span>:
 
-- **Solenoidal:** $\nabla \cdot \mathbf{b} = 0$ (divergence of curl is zero) — no magnetic monopoles
+- **Solenoidal:** <span class="math inline">\\\nabla \cdot \mathbf{b} = 0\\</span> (divergence of curl is zero) — no magnetic monopoles
 
-- **Sourced by currents:** $\nabla \times \mathbf{b} = \nabla \times (\nabla \times \mathbf{A}) = -\nabla^2 \mathbf{A} = \beta \mathbf{J}_q$ — Ampère’s law (in magnetostatics)
+- **Sourced by currents:** <span class="math inline">\\\nabla \times \mathbf{b} = \nabla \times (\nabla \times \mathbf{A}) = -\nabla^2 \mathbf{A} = \beta \mathbf{J}\_q\\</span> — Ampère’s law (in magnetostatics)
 
-- **Force on moving bias:** A biased structure moving with velocity $\mathbf{v}$ experiences additional force from $\mathbf{b}$
+- **Force on moving bias:** A biased structure moving with velocity <span class="math inline">\\\mathbf{v}\\</span> experiences additional force from <span class="math inline">\\\mathbf{b}\\</span>
 
 **The magnetic field is not a fundamental entity. It is the curl of the medium’s circulation potential, generated by moving bias.**
 
-## Why Moving Bias Creates Curl
+### Why Moving Bias Creates Curl
 
 When a bias distribution moves, it drags the medium’s bias potential along with it. This creates a *shear* in the bias field — regions where the potential changes more rapidly in one direction than another.
 
-This shear is naturally described by the curl of the vector potential. The medium resists pure shear through its transverse stiffness $\beta$. The stronger the current, the greater the curl (magnetic field) required to maintain equilibrium.
+This shear is naturally described by the curl of the vector potential. The medium resists pure shear through its transverse stiffness <span class="math inline">\\\beta\\</span>. The stronger the current, the greater the curl (magnetic field) required to maintain equilibrium.
 
 Physically, the moving bias creates a **vortex** in the medium — a circulation of graviton flow around the direction of motion. This vortex is what we measure as the magnetic field.
 
-## The Lorentz-Like Force
+### The Lorentz-Like Force
 
-A biased structure (charge $q$) moving with velocity $\mathbf{v}$ through a region with both scalar potential gradient $\mathbf{e}$ and vector potential curl $\mathbf{b}$ experiences a force:
+A biased structure (charge <span class="math inline">\\q\\</span>) moving with velocity <span class="math inline">\\\mathbf{v}\\</span> through a region with both scalar potential gradient <span class="math inline">\\\mathbf{e}\\</span> and vector potential curl <span class="math inline">\\\mathbf{b}\\</span> experiences a force:
 
-$$\mathbf{F} \propto q \left( \mathbf{e} + \mathbf{v} \times \mathbf{b} \right)$$
+<span class="math display">\\\mathbf{F} \propto q \left( \mathbf{e} + \mathbf{v} \times \mathbf{b} \right)\\</span>
 
 This is the **lowest-order rotationally consistent form** that couples:
 
 - The scalar potential gradient (electric field) — independent of velocity
 
-- The vector potential curl (magnetic field) — linear in velocity, perpendicular to both $\mathbf{v}$ and $\mathbf{b}$
+- The vector potential curl (magnetic field) — linear in velocity, perpendicular to both <span class="math inline">\\\mathbf{v}\\</span> and <span class="math inline">\\\mathbf{b}\\</span>
 
-The derivation follows from considering the force on a biased structure in a moving medium, using the transport equation and the definition of the potentials. Higher-order terms (nonlinear in $v/c$) are suppressed.
+The derivation follows from considering the force on a biased structure in a moving medium, using the transport equation and the definition of the potentials. Higher-order terms (nonlinear in <span class="math inline">\\v/c\\</span>) are suppressed.
 
 **The Lorentz force is not a separate postulate. It emerges from the medium’s response to moving bias.**
 
-## Why Magnetism Is "Different" from Electrostatics
+### Why Magnetism Is "Different" from Electrostatics
 
-- **Electrostatics** arises from the scalar bias potential $\psi$ (curl-free, longitudinal)
+- **Electrostatics** arises from the scalar bias potential <span class="math inline">\\\psi\\</span> (curl-free, longitudinal)
 
-- **Magnetism** arises from the vector circulation potential $\mathbf{A}$ (divergence-free, transverse)
+- **Magnetism** arises from the vector circulation potential <span class="math inline">\\\mathbf{A}\\</span> (divergence-free, transverse)
 
 Both are aspects of the same medium. They differ because:
 
@@ -3339,152 +3341,152 @@ Both are aspects of the same medium. They differ because:
 
 The two are coupled through the transport equation and the continuity equation for bias:
 
-$$\frac{\partial \sigma_q}{\partial t} + \nabla \cdot \mathbf{J}_q = 0$$
+<span class="math display">\\\frac{\partial \sigma_q}{\partial t} + \nabla \cdot \mathbf{J}\_q = 0\\</span>
 
 This is bias conservation — charge conservation in GPT.
 
-## The Constants $\beta$ and $\mu_0$
+### The Constants <span class="math inline">\\\beta\\</span> and <span class="math inline">\\\mu_0\\</span>
 
-The constant $\beta$ in the vector potential Poisson equation determines how much vector potential (and hence magnetic field) is generated per unit bias current.
+The constant <span class="math inline">\\\beta\\</span> in the vector potential Poisson equation determines how much vector potential (and hence magnetic field) is generated per unit bias current.
 
 Comparing with standard electromagnetism:
 
-$$\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q \quad \text{(GPT)} \quad \text{vs.} \quad \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J} \quad \text{(mainstream, in Coulomb gauge)}$$
+<span class="math display">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q \quad \text{(GPT)} \quad \text{vs.} \quad \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J} \quad \text{(mainstream, in Coulomb gauge)}\\</span>
 
 We identify:
 
-$$\beta = \mu_0$$
+<span class="math display">\\\beta = \mu_0\\</span>
 
-**The permeability of free space is the medium’s transverse curl stiffness** — how much the medium resists shear from moving bias. A high $\mu_0$ means the medium is "soft" to curl; a low $\mu_0$ means it is "stiff."
+**The permeability of free space is the medium’s transverse curl stiffness** — how much the medium resists shear from moving bias. A high <span class="math inline">\\\mu_0\\</span> means the medium is "soft" to curl; a low <span class="math inline">\\\mu_0\\</span> means it is "stiff."
 
-Together with $\epsilon_0$ from Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, we have:
+Together with <span class="math inline">\\\epsilon_0\\</span> from Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, we have:
 
-$$c^2 = \frac{1}{\epsilon_0 \mu_0}$$
+<span class="math display">\\c^2 = \frac{1}{\epsilon_0 \mu_0}\\</span>
 
-This relation holds because both $\epsilon_0$ and $\mu_0$ are properties of the same medium, and $c$ is the medium’s characteristic speed (from Section <a href="#sec:minimal_medium" data-reference-type="ref" data-reference="sec:minimal_medium">10</a>).
+This relation holds because both <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> are properties of the same medium, and <span class="math inline">\\c\\</span> is the medium’s characteristic speed (from Section <a href="#sec:minimal_medium" data-reference-type="ref" data-reference="sec:minimal_medium">10</a>).
 
-## Comparison to Mainstream
-
-<div class="center">
-
-| **Aspect**       | **Mainstream**                           | **GPT**                                                              |
-|:-----------------|:-----------------------------------------|:---------------------------------------------------------------------|
-| Magnetic field   | Fundamental field                        | Curl of vector potential: $\mathbf{b} = \nabla \times \mathbf{A}$    |
-| Vector potential | Gauge-dependent mathematical convenience | Physical circulation potential of medium                             |
-| Ampère’s law     | Postulate                                | $\nabla \times \mathbf{b} = \beta \mathbf{J}_q$ from medium dynamics |
-| Lorentz force    | Postulate                                | Lowest-order velocity coupling from moving bias                      |
-| No monopoles     | Observed fact                            | $\nabla \cdot \mathbf{b} = 0$ (identity from curl)                   |
-| $\mu_0$          | Fundamental constant                     | Medium’s transverse curl stiffness                                   |
-
-</div>
-
-## Summary of Section 19
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Element**              | **GPT Mechanism**                                                                                             |
-|:-------------------------|:--------------------------------------------------------------------------------------------------------------|
-| Moving bias              | Creates non-relaxing transverse structure in medium                                                           |
-| Vector potential         | $\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q$ — circulation potential                                           |
-| Magnetic field           | $\mathbf{b} = \nabla \times \mathbf{A}$ — curl of circulation                                                 |
-| Ampère’s law             | $\nabla \times \mathbf{b} = \beta \mathbf{J}_q$ — from medium dynamics                                        |
-| Lorentz force            | $\mathbf{F} \propto q(\mathbf{e} + \mathbf{v} \times \mathbf{b})$ — lowest-order rotationally consistent form |
-| $\mu_0$                  | Medium’s transverse curl stiffness                                                                            |
-| Relation to $\epsilon_0$ | $c^2 = 1/(\epsilon_0 \mu_0)$ — both from same medium                                                          |
+| **Aspect**                                 | **Mainstream**                           | **GPT**                                                                                                  |
+|:-------------------------------------------|:-----------------------------------------|:---------------------------------------------------------------------------------------------------------|
+| Magnetic field                             | Fundamental field                        | Curl of vector potential: <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>     |
+| Vector potential                           | Gauge-dependent mathematical convenience | Physical circulation potential of medium                                                                 |
+| Ampère’s law                               | Postulate                                | <span class="math inline">\\\nabla \times \mathbf{b} = \beta \mathbf{J}\_q\\</span> from medium dynamics |
+| Lorentz force                              | Postulate                                | Lowest-order velocity coupling from moving bias                                                          |
+| No monopoles                               | Observed fact                            | <span class="math inline">\\\nabla \cdot \mathbf{b} = 0\\</span> (identity from curl)                    |
+| <span class="math inline">\\\mu_0\\</span> | Fundamental constant                     | Medium’s transverse curl stiffness                                                                       |
 
 </div>
 
-# Constants as Medium Properties — $\epsilon_0$, $\mu_0$ Reinterpreted
+### Summary of Section 19
 
-We have derived that the electric field is the gradient of the bias potential (Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>), and the magnetic field is the curl of the vector circulation potential generated by moving bias (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>). In both derivations, constants appeared: $\alpha$ (later identified with $1/\epsilon_0$) and $\beta$ (identified with $\mu_0$).
+<div class="center">
 
-In mainstream physics, $\epsilon_0$ and $\mu_0$ are fundamental constants of nature — properties of "empty space" that appear inexplicably in Maxwell’s equations. Their values are measured, not explained. The fact that $c^2 = 1/(\epsilon_0 \mu_0)$ is treated as a remarkable coincidence.
+| **Element**                                                 | **GPT Mechanism**                                                                                                                                |
+|:------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Moving bias                                                 | Creates non-relaxing transverse structure in medium                                                                                              |
+| Vector potential                                            | <span class="math inline">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q\\</span> — circulation potential                                          |
+| Magnetic field                                              | <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span> — curl of circulation                                                 |
+| Ampère’s law                                                | <span class="math inline">\\\nabla \times \mathbf{b} = \beta \mathbf{J}\_q\\</span> — from medium dynamics                                       |
+| Lorentz force                                               | <span class="math inline">\\\mathbf{F} \propto q(\mathbf{e} + \mathbf{v} \times \mathbf{b})\\</span> — lowest-order rotationally consistent form |
+| <span class="math inline">\\\mu_0\\</span>                  | Medium’s transverse curl stiffness                                                                                                               |
+| Relation to <span class="math inline">\\\epsilon_0\\</span> | <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span> — both from same medium                                                          |
+
+</div>
+
+## Constants as Medium Properties — <span class="math inline">\\\epsilon_0\\</span>, <span class="math inline">\\\mu_0\\</span> Reinterpreted
+
+We have derived that the electric field is the gradient of the bias potential (Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>), and the magnetic field is the curl of the vector circulation potential generated by moving bias (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>). In both derivations, constants appeared: <span class="math inline">\\\alpha\\</span> (later identified with <span class="math inline">\\1/\epsilon_0\\</span>) and <span class="math inline">\\\beta\\</span> (identified with <span class="math inline">\\\mu_0\\</span>).
+
+In mainstream physics, <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> are fundamental constants of nature — properties of "empty space" that appear inexplicably in Maxwell’s equations. Their values are measured, not explained. The fact that <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span> is treated as a remarkable coincidence.
 
 In GPT, these constants are not fundamental. They are **medium properties** — measurable characteristics of the graviton field. They are not unexplained. They are the elastic and transport coefficients of the physical substrate that fills space.
 
-## $\epsilon_0$ as Bias Compressibility
+### <span class="math inline">\\\epsilon_0\\</span> as Bias Compressibility
 
 From Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, the Poisson equation for the bias potential is:
 
-$$\nabla^2 \psi = -\alpha \sigma_q$$
+<span class="math display">\\\nabla^2 \psi = -\alpha \sigma_q\\</span>
 
-We identified $\alpha = 1/\epsilon_0$. Thus:
+We identified <span class="math inline">\\\alpha = 1/\epsilon_0\\</span>. Thus:
 
-$$\epsilon_0 = \frac{1}{\alpha}$$
+<span class="math display">\\\epsilon_0 = \frac{1}{\alpha}\\</span>
 
-**What does $\alpha$ represent physically?**
+**What does <span class="math inline">\\\alpha\\</span> represent physically?**
 
-The constant $\alpha$ determines how much bias potential gradient is generated per unit bias source. It is the **bias compressibility** of the medium.
+The constant <span class="math inline">\\\alpha\\</span> determines how much bias potential gradient is generated per unit bias source. It is the **bias compressibility** of the medium.
 
-- **High compressibility (large $\alpha$, small $\epsilon_0$):** A given bias produces a large potential gradient. The medium is "soft" — easily polarized by bias.
+- **High compressibility (large <span class="math inline">\\\alpha\\</span>, small <span class="math inline">\\\epsilon_0\\</span>):** A given bias produces a large potential gradient. The medium is "soft" — easily polarized by bias.
 
-- **Low compressibility (small $\alpha$, large $\epsilon_0$):** A given bias produces a small potential gradient. The medium is "stiff" — resists polarization.
+- **Low compressibility (small <span class="math inline">\\\alpha\\</span>, large <span class="math inline">\\\epsilon_0\\</span>):** A given bias produces a small potential gradient. The medium is "stiff" — resists polarization.
 
-In GPT, $\epsilon_0$ is not a fundamental constant. It is a measurable property of the graviton medium, analogous to the compressibility of a gas or the dielectric constant of a material. The fact that it is constant across observable space tells us that the graviton medium is uniform and isotropic at large scales — not that it is "empty."
+In GPT, <span class="math inline">\\\epsilon_0\\</span> is not a fundamental constant. It is a measurable property of the graviton medium, analogous to the compressibility of a gas or the dielectric constant of a material. The fact that it is constant across observable space tells us that the graviton medium is uniform and isotropic at large scales — not that it is "empty."
 
-## $\mu_0$ as Transverse Curl Stiffness
+### <span class="math inline">\\\mu_0\\</span> as Transverse Curl Stiffness
 
 From Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>, the Poisson equation for the vector potential is:
 
-$$\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q$$
+<span class="math display">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q\\</span>
 
-We identified $\beta = \mu_0$. Thus:
+We identified <span class="math inline">\\\beta = \mu_0\\</span>. Thus:
 
-$$\mu_0 = \beta$$
+<span class="math display">\\\mu_0 = \beta\\</span>
 
-**What does $\beta$ represent physically?**
+**What does <span class="math inline">\\\beta\\</span> represent physically?**
 
-The constant $\beta$ determines how much vector potential (and hence magnetic field) is generated per unit bias current. It is the **transverse curl stiffness** of the medium.
+The constant <span class="math inline">\\\beta\\</span> determines how much vector potential (and hence magnetic field) is generated per unit bias current. It is the **transverse curl stiffness** of the medium.
 
-- **Low stiffness (small $\beta$, small $\mu_0$):** A given current produces a small magnetic field. The medium is "soft" to shear — easily deformed by moving bias.
+- **Low stiffness (small <span class="math inline">\\\beta\\</span>, small <span class="math inline">\\\mu_0\\</span>):** A given current produces a small magnetic field. The medium is "soft" to shear — easily deformed by moving bias.
 
-- **High stiffness (large $\beta$, large $\mu_0$):** A given current produces a large magnetic field. The medium is "stiff" to shear — resists deformation from moving bias.
+- **High stiffness (large <span class="math inline">\\\beta\\</span>, large <span class="math inline">\\\mu_0\\</span>):** A given current produces a large magnetic field. The medium is "stiff" to shear — resists deformation from moving bias.
 
-In GPT, $\mu_0$ is not a fundamental constant. It is the medium’s resistance to transverse shear — how much the graviton field opposes the vortex structures we call magnetic fields.
+In GPT, <span class="math inline">\\\mu_0\\</span> is not a fundamental constant. It is the medium’s resistance to transverse shear — how much the graviton field opposes the vortex structures we call magnetic fields.
 
-## The Relation $c^2 = 1/(\epsilon_0 \mu_0)$
+### The Relation <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span>
 
-The speed of light $c$ appears in both Sections <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a> and <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a> as the characteristic speed of the graviton medium. It is the speed at which bias disturbances propagate.
+The speed of light <span class="math inline">\\c\\</span> appears in both Sections <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a> and <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a> as the characteristic speed of the graviton medium. It is the speed at which bias disturbances propagate.
 
 From the wave equation derived by combining the transport equation and the curl equation, we obtain:
 
-$$c^2 = \frac{1}{\alpha \beta} = \frac{1}{\epsilon_0 \mu_0}$$
+<span class="math display">\\c^2 = \frac{1}{\alpha \beta} = \frac{1}{\epsilon_0 \mu_0}\\</span>
 
 **This is not a coincidence.** It is a necessary relation for a medium that supports both longitudinal (electrostatic) and transverse (magnetic) disturbances with the same propagation speed.
 
-In a conventional elastic medium, the longitudinal speed (sound) and transverse speed (shear) can differ. In the graviton medium, they are equal because the medium’s dynamics are Lorentz-covariant at leading order. The equality $c_{\text{long}} = c_{\text{trans}} = c$ is a property of the medium’s constitutive relations, not an accident.
+In a conventional elastic medium, the longitudinal speed (sound) and transverse speed (shear) can differ. In the graviton medium, they are equal because the medium’s dynamics are Lorentz-covariant at leading order. The equality <span class="math inline">\\c\_{\text{long}} = c\_{\text{trans}} = c\\</span> is a property of the medium’s constitutive relations, not an accident.
 
-## What "Fundamental Constants" Really Are
+### What "Fundamental Constants" Really Are
 
-Mainstream physics treats $\epsilon_0$, $\mu_0$, and $c$ as fundamental constants — inputs to the theory that cannot be derived from anything deeper.
+Mainstream physics treats <span class="math inline">\\\epsilon_0\\</span>, <span class="math inline">\\\mu_0\\</span>, and <span class="math inline">\\c\\</span> as fundamental constants — inputs to the theory that cannot be derived from anything deeper.
 
 In GPT, they are **emergent medium properties**:
 
 <div class="center">
 
-| **Constant** | **GPT Interpretation**      | **Physical Meaning**                                                           |
-|:-------------|:----------------------------|:-------------------------------------------------------------------------------|
-| $\epsilon_0$ | $1/\alpha$                  | Bias compressibility — how easily the medium polarizes                         |
-| $\mu_0$      | $\beta$                     | Transverse curl stiffness — how much the medium resists shear from moving bias |
-| $c$          | $1/\sqrt{\epsilon_0 \mu_0}$ | Characteristic speed of the medium — propagation speed of disturbances         |
+| **Constant**                                    | **GPT Interpretation**                                         | **Physical Meaning**                                                           |
+|:------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------------------------------------------|
+| <span class="math inline">\\\epsilon_0\\</span> | <span class="math inline">\\1/\alpha\\</span>                  | Bias compressibility — how easily the medium polarizes                         |
+| <span class="math inline">\\\mu_0\\</span>      | <span class="math inline">\\\beta\\</span>                     | Transverse curl stiffness — how much the medium resists shear from moving bias |
+| <span class="math inline">\\c\\</span>          | <span class="math inline">\\1/\sqrt{\epsilon_0 \mu_0}\\</span> | Characteristic speed of the medium — propagation speed of disturbances         |
 
 </div>
 
 These constants are not "put in by hand." They are determined by the underlying properties of the graviton medium:
 
-- The density $\rho_0$ of the background graviton field
+- The density <span class="math inline">\\\rho_0\\</span> of the background graviton field
 
-- The self-repulsion constant $k_g$ (from Part 15, Eq. 15.1)
+- The self-repulsion constant <span class="math inline">\\k_g\\</span> (from Part 15, Eq. 15.1)
 
 - The coherence time of the medium
 
-In principle, these constants could vary if the medium’s properties vary — for example, in regions of extreme graviton density near black holes, or in the very early universe. GPT predicts that $\epsilon_0$ and $\mu_0$ are not truly universal constants but emerge from the local state of the medium.
+In principle, these constants could vary if the medium’s properties vary — for example, in regions of extreme graviton density near black holes, or in the very early universe. GPT predicts that <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> are not truly universal constants but emerge from the local state of the medium.
 
-## Why Constants Are Constant (in Observable Space)
+### Why Constants Are Constant (in Observable Space)
 
-The fact that $\epsilon_0$ and $\mu_0$ appear constant across all observable space is evidence that the graviton medium is:
+The fact that <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> appear constant across all observable space is evidence that the graviton medium is:
 
-- **Uniform:** Same density $\rho_0$ everywhere (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>)
+- **Uniform:** Same density <span class="math inline">\\\rho_0\\</span> everywhere (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>)
 
 - **Isotropic:** Same properties in all directions
 
@@ -3492,110 +3494,110 @@ The fact that $\epsilon_0$ and $\mu_0$ appear constant across all observable spa
 
 This uniformity is not an unexplained assumption. It is a consequence of the medium’s self-regulating dynamics — the same absorption/vacancy/inflow cycle that maintains gravitational fields also maintains the medium’s background equilibrium.
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Aspect**                       | **Mainstream**                                  | **GPT**                                                                                       |
-|:---------------------------------|:------------------------------------------------|:----------------------------------------------------------------------------------------------|
-| $\epsilon_0$                     | Fundamental constant                            | Bias compressibility — medium property                                                        |
-| $\mu_0$                          | Fundamental constant                            | Transverse curl stiffness — medium property                                                   |
-| $c$                              | Fundamental constant (speed of light in vacuum) | Characteristic speed of graviton medium                                                       |
-| Why $c^2 = 1/(\epsilon_0 \mu_0)$ | Remarkable coincidence                          | Necessary relation for medium supporting both longitudinal and transverse waves at same speed |
-| Origin of constants              | Unexplained                                     | Emergent from graviton density, self-repulsion, coherence                                     |
-| Constancy                        | Assumed                                         | Consequence of medium uniformity and stability                                                |
+| **Aspect**                                                          | **Mainstream**                                  | **GPT**                                                                                       |
+|:--------------------------------------------------------------------|:------------------------------------------------|:----------------------------------------------------------------------------------------------|
+| <span class="math inline">\\\epsilon_0\\</span>                     | Fundamental constant                            | Bias compressibility — medium property                                                        |
+| <span class="math inline">\\\mu_0\\</span>                          | Fundamental constant                            | Transverse curl stiffness — medium property                                                   |
+| <span class="math inline">\\c\\</span>                              | Fundamental constant (speed of light in vacuum) | Characteristic speed of graviton medium                                                       |
+| Why <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span> | Remarkable coincidence                          | Necessary relation for medium supporting both longitudinal and transverse waves at same speed |
+| Origin of constants                                                 | Unexplained                                     | Emergent from graviton density, self-repulsion, coherence                                     |
+| Constancy                                                           | Assumed                                         | Consequence of medium uniformity and stability                                                |
 
 </div>
 
-## Experimental Implications
+### Experimental Implications
 
-If $\epsilon_0$ and $\mu_0$ are medium properties rather than fundamental constants, they may vary under extreme conditions:
+If <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> are medium properties rather than fundamental constants, they may vary under extreme conditions:
 
-1.  **Near strong gravitational fields:** In regions of high graviton density (near neutron stars, black holes), $\epsilon_0$ and $\mu_0$ might deviate from their far-field values. This would produce anomalous electromagnetic effects — e.g., changes in the fine-structure constant $\alpha = e^2/(4\pi \epsilon_0 \hbar c)$.
+1.  **Near strong gravitational fields:** In regions of high graviton density (near neutron stars, black holes), <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> might deviate from their far-field values. This would produce anomalous electromagnetic effects — e.g., changes in the fine-structure constant <span class="math inline">\\\alpha = e^2/(4\pi \epsilon_0 \hbar c)\\</span>.
 
-2.  **In high-velocity frames:** If the medium has a rest frame (even if Lorentz-covariant at leading order), there may be tiny anisotropies in $\epsilon_0$ and $\mu_0$ relative to motion through the medium. These would appear as direction-dependent variations in the speed of light — testable with precision cavity experiments.
+2.  **In high-velocity frames:** If the medium has a rest frame (even if Lorentz-covariant at leading order), there may be tiny anisotropies in <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> relative to motion through the medium. These would appear as direction-dependent variations in the speed of light — testable with precision cavity experiments.
 
 3.  **In the early universe:** If the graviton medium density was different at very early times, the constants would have been different. This could explain anomalies in cosmological observations (e.g., the Hubble tension) without invoking new physics.
 
-4.  **In coherent matter (magnets, superconductors):** The medium’s bias compressibility and curl stiffness may be locally modified by coherent structures. This could produce measurable changes in $\epsilon_0$ and $\mu_0$ inside magnetic materials — beyond standard explanations of permeability and permittivity.
+4.  **In coherent matter (magnets, superconductors):** The medium’s bias compressibility and curl stiffness may be locally modified by coherent structures. This could produce measurable changes in <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> inside magnetic materials — beyond standard explanations of permeability and permittivity.
 
-## Summary of Section 20
+### Summary of Section 20
 
 <div class="center">
 
-| **Element**                  | **GPT Interpretation**                                                                           |
-|:-----------------------------|:-------------------------------------------------------------------------------------------------|
-| $\epsilon_0$                 | Bias compressibility — inverse of $\alpha$ in Poisson equation                                   |
-| $\mu_0$                      | Transverse curl stiffness — $\beta$ in vector potential equation                                 |
-| $c$                          | Characteristic speed of graviton medium                                                          |
-| $c^2 = 1/(\epsilon_0 \mu_0)$ | Necessary condition for medium supporting both longitudinal and transverse waves at same speed   |
-| Origin                       | Emergent from graviton density $\rho_0$, self-repulsion $k_g$, coherence time                    |
-| Constancy                    | Evidence of medium uniformity, not fundamentalness                                               |
-| Variation prediction         | Constants may vary near strong gravity, high velocity, early universe, or inside coherent matter |
+| **Element**                                                     | **GPT Interpretation**                                                                                                                              |
+|:----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="math inline">\\\epsilon_0\\</span>                 | Bias compressibility — inverse of <span class="math inline">\\\alpha\\</span> in Poisson equation                                                   |
+| <span class="math inline">\\\mu_0\\</span>                      | Transverse curl stiffness — <span class="math inline">\\\beta\\</span> in vector potential equation                                                 |
+| <span class="math inline">\\c\\</span>                          | Characteristic speed of graviton medium                                                                                                             |
+| <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span> | Necessary condition for medium supporting both longitudinal and transverse waves at same speed                                                      |
+| Origin                                                          | Emergent from graviton density <span class="math inline">\\\rho_0\\</span>, self-repulsion <span class="math inline">\\k_g\\</span>, coherence time |
+| Constancy                                                       | Evidence of medium uniformity, not fundamentalness                                                                                                  |
+| Variation prediction                                            | Constants may vary near strong gravity, high velocity, early universe, or inside coherent matter                                                    |
 
 </div>
 
-# The Lorentz Force as Medium Response
+## The Lorentz Force as Medium Response
 
 We have established that:
 
-- Static bias (charge) produces a scalar bias potential $\psi$ whose gradient is the electric field $\mathbf{e} = -\nabla \psi$ (Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>)
+- Static bias (charge) produces a scalar bias potential <span class="math inline">\\\psi\\</span> whose gradient is the electric field <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span> (Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>)
 
-- Moving bias (current) produces a vector circulation potential $\mathbf{A}$ whose curl is the magnetic field $\mathbf{b} = \nabla \times \mathbf{A}$ (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>)
+- Moving bias (current) produces a vector circulation potential <span class="math inline">\\\mathbf{A}\\</span> whose curl is the magnetic field <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span> (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>)
 
 Now we ask: **What force does a moving biased structure experience in the presence of these fields?**
 
-In mainstream physics, the Lorentz force $\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})$ is an additional postulate — not derived from anything deeper. In GPT, it emerges from the medium’s response to the moving bias, as the lowest-order rotationally consistent form coupling velocity to the transverse structure.
+In mainstream physics, the Lorentz force <span class="math inline">\\\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})\\</span> is an additional postulate — not derived from anything deeper. In GPT, it emerges from the medium’s response to the moving bias, as the lowest-order rotationally consistent form coupling velocity to the transverse structure.
 
-## Force from the Scalar Potential (Electric Part)
+### Force from the Scalar Potential (Electric Part)
 
-From Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, a biased structure (charge $q$) in a region with bias potential gradient $\mathbf{e} = -\nabla \psi$ experiences a force:
+From Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, a biased structure (charge <span class="math inline">\\q\\</span>) in a region with bias potential gradient <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span> experiences a force:
 
-$$\mathbf{F}_e = q \mathbf{e}$$
+<span class="math display">\\\mathbf{F}\_e = q \mathbf{e}\\</span>
 
-This is not a new postulate. It follows from the definition of the bias potential as the medium’s local bias preference. The biased structure moves toward lower bias potential (lower $\psi$) because that configuration minimizes the medium’s stress. For a positive bias (outflow-dominant), this means moving toward lower $\psi$; for negative bias (inflow-dominant), the sign reverses accordingly.
+This is not a new postulate. It follows from the definition of the bias potential as the medium’s local bias preference. The biased structure moves toward lower bias potential (lower <span class="math inline">\\\psi\\</span>) because that configuration minimizes the medium’s stress. For a positive bias (outflow-dominant), this means moving toward lower <span class="math inline">\\\psi\\</span>; for negative bias (inflow-dominant), the sign reverses accordingly.
 
 **The electric force is the medium’s pressure gradient acting on a biased structure.**
 
-## Force from the Vector Potential (Magnetic Part)
+### Force from the Vector Potential (Magnetic Part)
 
-From Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>, a moving biased structure (current $\mathbf{J}_q = \sigma_q \mathbf{v}$) generates a vector potential $\mathbf{A}$ and a magnetic field $\mathbf{b} = \nabla \times \mathbf{A}$. The medium’s response to the moving bias creates an additional force on the structure.
+From Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>, a moving biased structure (current <span class="math inline">\\\mathbf{J}\_q = \sigma_q \mathbf{v}\\</span>) generates a vector potential <span class="math inline">\\\mathbf{A}\\</span> and a magnetic field <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>. The medium’s response to the moving bias creates an additional force on the structure.
 
-To derive the form of this force, consider a biased structure moving with velocity $\mathbf{v}$ through a region with existing vector potential $\mathbf{A}$ (and hence $\mathbf{b}$).
+To derive the form of this force, consider a biased structure moving with velocity <span class="math inline">\\\mathbf{v}\\</span> through a region with existing vector potential <span class="math inline">\\\mathbf{A}\\</span> (and hence <span class="math inline">\\\mathbf{b}\\</span>).
 
 In the medium’s rest frame, the moving bias experiences a transverse force because:
 
 - The bias distorts the medium’s circulation potential as it moves
 
-- The medium’s self-repulsion creates a restoring force proportional to the curl of $\mathbf{A}$
+- The medium’s self-repulsion creates a restoring force proportional to the curl of <span class="math inline">\\\mathbf{A}\\</span>
 
-- The force must be linear in $\mathbf{v}$ for small velocities (non-relativistic limit)
+- The force must be linear in <span class="math inline">\\\mathbf{v}\\</span> for small velocities (non-relativistic limit)
 
-- The force must be perpendicular to both $\mathbf{v}$ and $\mathbf{b}$ (rotational symmetry)
+- The force must be perpendicular to both <span class="math inline">\\\mathbf{v}\\</span> and <span class="math inline">\\\mathbf{b}\\</span> (rotational symmetry)
 
 The simplest rotationally consistent form is:
 
-$$\mathbf{F}_m = q \, \mathbf{v} \times \mathbf{b}$$
+<span class="math display">\\\mathbf{F}\_m = q \\ \mathbf{v} \times \mathbf{b}\\</span>
 
-Up to a constant factor (absorbed into the definition of $\mathbf{b}$ or the unit of charge), this is the unique lowest-order expression.
+Up to a constant factor (absorbed into the definition of <span class="math inline">\\\mathbf{b}\\</span> or the unit of charge), this is the unique lowest-order expression.
 
-## Why the Cross Product?
+### Why the Cross Product?
 
-The cross product $\mathbf{v} \times \mathbf{b}$ is forced by the medium’s properties:
+The cross product <span class="math inline">\\\mathbf{v} \times \mathbf{b}\\</span> is forced by the medium’s properties:
 
-- **Perpendicular to $\mathbf{v}$:** A moving bias in an isotropic medium cannot experience a force parallel to its motion from transverse structure alone — that would violate parity symmetry.
+- **Perpendicular to <span class="math inline">\\\mathbf{v}\\</span>:** A moving bias in an isotropic medium cannot experience a force parallel to its motion from transverse structure alone — that would violate parity symmetry.
 
-- **Perpendicular to $\mathbf{b}$:** The force must be orthogonal to the magnetic field because $\mathbf{b}$ is a pseudovector (axial vector) while force is a polar vector. The cross product converts between them.
+- **Perpendicular to <span class="math inline">\\\mathbf{b}\\</span>:** The force must be orthogonal to the magnetic field because <span class="math inline">\\\mathbf{b}\\</span> is a pseudovector (axial vector) while force is a polar vector. The cross product converts between them.
 
-- **Linear in $\mathbf{v}$:** In the non-relativistic limit, the force must be first-order in velocity (higher-order terms are suppressed by $v^2/c^2$).
+- **Linear in <span class="math inline">\\\mathbf{v}\\</span>:** In the non-relativistic limit, the force must be first-order in velocity (higher-order terms are suppressed by <span class="math inline">\\v^2/c^2\\</span>).
 
-No other combination of $\mathbf{v}$ and $\mathbf{b}$ satisfies these constraints at leading order.
+No other combination of <span class="math inline">\\\mathbf{v}\\</span> and <span class="math inline">\\\mathbf{b}\\</span> satisfies these constraints at leading order.
 
-## The Complete Lorentz Force
+### The Complete Lorentz Force
 
 Combining the electric and magnetic parts:
 
-$$\mathbf{F} = q (\mathbf{e} + \mathbf{v} \times \mathbf{b})$$
+<span class="math display">\\\mathbf{F} = q (\mathbf{e} + \mathbf{v} \times \mathbf{b})\\</span>
 
 This is the **Lorentz force**. In GPT, it is not a separate postulate. It emerges from:
 
@@ -3607,65 +3609,65 @@ This is the **Lorentz force**. In GPT, it is not a separate postulate. It emerge
 
 **The Lorentz force is the medium’s stress response to a biased structure moving through its field.**
 
-## Why the Lorentz Force Is Exact (at Leading Order)
+### Why the Lorentz Force Is Exact (at Leading Order)
 
 In mainstream physics, the Lorentz force is exact (in the classical regime) but is treated as an independent axiom. In GPT, it is exact because it follows from the medium’s linear response to bias and current.
 
 The derivation can be extended to relativistic velocities using the covariant formulation:
 
-$$\frac{dp^\mu}{d\tau} = q F^{\mu\nu} u_\nu$$
+<span class="math display">\\\frac{dp^\mu}{d\tau} = q F^{\mu\nu} u\_\nu\\</span>
 
-where $F^{\mu\nu}$ is the electromagnetic field tensor derived from $\psi$ and $\mathbf{A}$, and $u^\nu$ is the four-velocity. In GPT, this is not an additional postulate — it is the covariant form of the medium’s response, with $F^{\mu\nu}$ constructed from the bias potential and the vector potential as:
+where <span class="math inline">\\F^{\mu\nu}\\</span> is the electromagnetic field tensor derived from <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span>, and <span class="math inline">\\u^\nu\\</span> is the four-velocity. In GPT, this is not an additional postulate — it is the covariant form of the medium’s response, with <span class="math inline">\\F^{\mu\nu}\\</span> constructed from the bias potential and the vector potential as:
 
-$$F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$$
+<span class="math display">\\F\_{\mu\nu} = \partial\_\mu A\_\nu - \partial\_\nu A\_\mu\\</span>
 
-where $A_\mu = (\psi/c, \mathbf{A})$ is the four-potential of the medium.
+where <span class="math inline">\\A\_\mu = (\psi/c, \mathbf{A})\\</span> is the four-potential of the medium.
 
-The medium’s dynamics guarantee that this form is Lorentz-covariant (to leading order), because the medium’s characteristic speed is $c$.
+The medium’s dynamics guarantee that this form is Lorentz-covariant (to leading order), because the medium’s characteristic speed is <span class="math inline">\\c\\</span>.
 
-## The Absence of Magnetic Monopoles
+### The Absence of Magnetic Monopoles
 
-The Lorentz force contains no term of the form $q_m \mathbf{b}$ (magnetic charge times magnetic field). This is because:
+The Lorentz force contains no term of the form <span class="math inline">\\q_m \mathbf{b}\\</span> (magnetic charge times magnetic field). This is because:
 
-- In GPT, $\nabla \cdot \mathbf{b} = 0$ identically (divergence of curl is zero)
+- In GPT, <span class="math inline">\\\nabla \cdot \mathbf{b} = 0\\</span> identically (divergence of curl is zero)
 
-- There is no source term for $\mathbf{b}$ analogous to $\sigma_q$ for $\mathbf{e}$
+- There is no source term for <span class="math inline">\\\mathbf{b}\\</span> analogous to <span class="math inline">\\\sigma_q\\</span> for <span class="math inline">\\\mathbf{e}\\</span>
 
-- The vector potential $\mathbf{A}$ is generated by moving bias (currents), not by separate magnetic charges
+- The vector potential <span class="math inline">\\\mathbf{A}\\</span> is generated by moving bias (currents), not by separate magnetic charges
 
-Thus, the absence of magnetic monopoles is not an observed coincidence. It is a consequence of the medium’s structure: bias (charge) is the fundamental source; magnetic field is derived from moving bias. There is no independent "magnetic charge" because there is no independent source for the curl of $\mathbf{A}$.
+Thus, the absence of magnetic monopoles is not an observed coincidence. It is a consequence of the medium’s structure: bias (charge) is the fundamental source; magnetic field is derived from moving bias. There is no independent "magnetic charge" because there is no independent source for the curl of <span class="math inline">\\\mathbf{A}\\</span>.
 
-## Comparison to Mainstream
-
-<div class="center">
-
-| **Aspect**            | **Mainstream**                                | **GPT**                                                    |
-|:----------------------|:----------------------------------------------|:-----------------------------------------------------------|
-| Lorentz force         | Postulate                                     | Emerges from medium response to moving bias                |
-| Electric part         | $q\mathbf{E}$                                 | $q\mathbf{e}$ — gradient of bias potential                 |
-| Magnetic part         | $q\mathbf{v} \times \mathbf{B}$               | $q\mathbf{v} \times \mathbf{b}$ — curl of vector potential |
-| Cross product form    | Axiomatic                                     | Forced by rotational symmetry and parity                   |
-| Relativistic form     | Postulate $dp^\mu/d\tau = q F^{\mu\nu} u_\nu$ | Covariant expression of medium response                    |
-| No magnetic monopoles | Observed fact                                 | Consequence of $\mathbf{b} = \nabla \times \mathbf{A}$     |
-
-</div>
-
-## Summary of Section 21
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Element**                 | **GPT Mechanism**                                                                                                             |
-|:----------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| Electric force              | $q\mathbf{e} = -q\nabla \psi$ — bias moves down potential gradient                                                            |
-| Magnetic force              | $q\mathbf{v} \times \mathbf{b} = q\mathbf{v} \times (\nabla \times \mathbf{A})$ — medium’s transverse response to moving bias |
-| Lorentz force               | $\mathbf{F} = q(\mathbf{e} + \mathbf{v} \times \mathbf{b})$ — emerges from medium stress                                      |
-| Cross product               | Forced by symmetry (rotational, parity)                                                                                       |
-| No magnetic monopoles       | Consequence of $\mathbf{b} = \nabla \times \mathbf{A}$                                                                        |
-| Relativistic generalization | $dp^\mu/d\tau = q F^{\mu\nu} u_\nu$ — covariant medium response                                                               |
+| **Aspect**            | **Mainstream**                                                                    | **GPT**                                                                                       |
+|:----------------------|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+| Lorentz force         | Postulate                                                                         | Emerges from medium response to moving bias                                                   |
+| Electric part         | <span class="math inline">\\q\mathbf{E}\\</span>                                  | <span class="math inline">\\q\mathbf{e}\\</span> — gradient of bias potential                 |
+| Magnetic part         | <span class="math inline">\\q\mathbf{v} \times \mathbf{B}\\</span>                | <span class="math inline">\\q\mathbf{v} \times \mathbf{b}\\</span> — curl of vector potential |
+| Cross product form    | Axiomatic                                                                         | Forced by rotational symmetry and parity                                                      |
+| Relativistic form     | Postulate <span class="math inline">\\dp^\mu/d\tau = q F^{\mu\nu} u\_\nu\\</span> | Covariant expression of medium response                                                       |
+| No magnetic monopoles | Observed fact                                                                     | Consequence of <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>     |
 
 </div>
 
-# Electromagnetic Waves as Oscillating Medium Disturbances
+### Summary of Section 21
+
+<div class="center">
+
+| **Element**                 | **GPT Mechanism**                                                                                                                                                |
+|:----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Electric force              | <span class="math inline">\\q\mathbf{e} = -q\nabla \psi\\</span> — bias moves down potential gradient                                                            |
+| Magnetic force              | <span class="math inline">\\q\mathbf{v} \times \mathbf{b} = q\mathbf{v} \times (\nabla \times \mathbf{A})\\</span> — medium’s transverse response to moving bias |
+| Lorentz force               | <span class="math inline">\\\mathbf{F} = q(\mathbf{e} + \mathbf{v} \times \mathbf{b})\\</span> — emerges from medium stress                                      |
+| Cross product               | Forced by symmetry (rotational, parity)                                                                                                                          |
+| No magnetic monopoles       | Consequence of <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>                                                                        |
+| Relativistic generalization | <span class="math inline">\\dp^\mu/d\tau = q F^{\mu\nu} u\_\nu\\</span> — covariant medium response                                                              |
+
+</div>
+
+## Electromagnetic Waves as Oscillating Medium Disturbances
 
 We have established the complete set of medium-based electromagnetic phenomena:
 
@@ -3675,75 +3677,75 @@ We have established the complete set of medium-based electromagnetic phenomena:
 
 - Magnetic field as curl of vector potential from moving bias (Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>)
 
-- Medium constants $\epsilon_0$ and $\mu_0$ (Section <a href="#sec:constants_medium" data-reference-type="ref" data-reference="sec:constants_medium">21</a>)
+- Medium constants <span class="math inline">\\\epsilon_0\\</span> and <span class="math inline">\\\mu_0\\</span> (Section <a href="#sec:constants_medium" data-reference-type="ref" data-reference="sec:constants_medium">21</a>)
 
 - Lorentz force as medium response (Section <a href="#sec:lorentz_force" data-reference-type="ref" data-reference="sec:lorentz_force">22</a>)
 
 Now we address the most far-reaching consequence: **light**.
 
-In mainstream physics, electromagnetic waves are oscillating electric and magnetic fields that propagate through empty space at speed $c$. The fact that $c^2 = 1/(\epsilon_0 \mu_0)$ is treated as a fundamental relation, but the mechanism of propagation is not explained — the fields simply "support" each other.
+In mainstream physics, electromagnetic waves are oscillating electric and magnetic fields that propagate through empty space at speed <span class="math inline">\\c\\</span>. The fact that <span class="math inline">\\c^2 = 1/(\epsilon_0 \mu_0)\\</span> is treated as a fundamental relation, but the mechanism of propagation is not explained — the fields simply "support" each other.
 
-In GPT, light is **coupled oscillations of the bias potential $\psi$ and the vector potential $\mathbf{A}$** propagating through the graviton medium. No "empty space" propagation is required. The medium is the carrier.
+In GPT, light is **coupled oscillations of the bias potential <span class="math inline">\\\psi\\</span> and the vector potential <span class="math inline">\\\mathbf{A}\\</span>** propagating through the graviton medium. No "empty space" propagation is required. The medium is the carrier.
 
-## The Coupled Wave Equations
+### The Coupled Wave Equations
 
-From Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, the bias potential $\psi$ evolves according to:
+From Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>, the bias potential <span class="math inline">\\\psi\\</span> evolves according to:
 
-$$\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q$$
+<span class="math display">\\\frac{\partial \psi}{\partial t} + \mathbf{v} \cdot \nabla \psi = D \nabla^2 \psi - \alpha \sigma_q\\</span>
 
-In free space (no bias sources, $\sigma_q = 0$), and assuming small disturbances where advection terms are negligible, this reduces to:
+In free space (no bias sources, <span class="math inline">\\\sigma_q = 0\\</span>), and assuming small disturbances where advection terms are negligible, this reduces to:
 
-$$\frac{\partial \psi}{\partial t} = D \nabla^2 \psi$$
+<span class="math display">\\\frac{\partial \psi}{\partial t} = D \nabla^2 \psi\\</span>
 
-But this is a diffusion equation, not a wave equation. For wave propagation, we need the second time derivative. This comes from coupling $\psi$ to $\mathbf{A}$.
+But this is a diffusion equation, not a wave equation. For wave propagation, we need the second time derivative. This comes from coupling <span class="math inline">\\\psi\\</span> to <span class="math inline">\\\mathbf{A}\\</span>.
 
 From Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>, the vector potential satisfies:
 
-$$\nabla^2 \mathbf{A} = \beta \mathbf{J}_q + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2}$$
+<span class="math display">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2}\\</span>
 
-where the second term arises from the medium’s inertia (the finite time required for bias to propagate). This is the wave equation for $\mathbf{A}$.
+where the second term arises from the medium’s inertia (the finite time required for bias to propagate). This is the wave equation for <span class="math inline">\\\mathbf{A}\\</span>.
 
 For the scalar potential, the full wave equation is:
 
-$$\nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\alpha \sigma_q$$
+<span class="math display">\\\nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\alpha \sigma_q\\</span>
 
-In free space ($\sigma_q = 0$):
+In free space (<span class="math inline">\\\sigma_q = 0\\</span>):
 
-$$\nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = 0$$ $$\nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = 0$$
+<span class="math display">\\\nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = 0\\</span> <span class="math display">\\\nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = 0\\</span>
 
-These are the classical wave equations for the potentials. They describe disturbances propagating at speed $c$ through the medium.
+These are the classical wave equations for the potentials. They describe disturbances propagating at speed <span class="math inline">\\c\\</span> through the medium.
 
-**The medium’s characteristic speed $c$ is the same for both potentials because the same medium carries both.**
+**The medium’s characteristic speed <span class="math inline">\\c\\</span> is the same for both potentials because the same medium carries both.**
 
-## The Electric and Magnetic Fields as Wave Components
+### The Electric and Magnetic Fields as Wave Components
 
 From the definitions:
 
-$$\mathbf{e} = -\nabla \psi - \frac{\partial \mathbf{A}}{\partial t}$$
+<span class="math display">\\\mathbf{e} = -\nabla \psi - \frac{\partial \mathbf{A}}{\partial t}\\</span>
 
-(This is the full expression for the electric field, including the induced part from changing $\mathbf{A}$. In electrostatics, $\partial \mathbf{A}/\partial t = 0$, recovering Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>.)
+(This is the full expression for the electric field, including the induced part from changing <span class="math inline">\\\mathbf{A}\\</span>. In electrostatics, <span class="math inline">\\\partial \mathbf{A}/\partial t = 0\\</span>, recovering Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>.)
 
-$$\mathbf{b} = \nabla \times \mathbf{A}$$
+<span class="math display">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>
 
-When $\psi$ and $\mathbf{A}$ satisfy the wave equations, $\mathbf{e}$ and $\mathbf{b}$ satisfy:
+When <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> satisfy the wave equations, <span class="math inline">\\\mathbf{e}\\</span> and <span class="math inline">\\\mathbf{b}\\</span> satisfy:
 
-$$\nabla^2 \mathbf{e} - \frac{1}{c^2} \frac{\partial^2 \mathbf{e}}{\partial t^2} = 0$$ $$\nabla^2 \mathbf{b} - \frac{1}{c^2} \frac{\partial^2 \mathbf{b}}{\partial t^2} = 0$$
+<span class="math display">\\\nabla^2 \mathbf{e} - \frac{1}{c^2} \frac{\partial^2 \mathbf{e}}{\partial t^2} = 0\\</span> <span class="math display">\\\nabla^2 \mathbf{b} - \frac{1}{c^2} \frac{\partial^2 \mathbf{b}}{\partial t^2} = 0\\</span>
 
 And they are coupled by:
 
-$$\nabla \times \mathbf{e} = -\frac{\partial \mathbf{b}}{\partial t}$$ $$\nabla \times \mathbf{b} = \frac{1}{c^2} \frac{\partial \mathbf{e}}{\partial t}$$
+<span class="math display">\\\nabla \times \mathbf{e} = -\frac{\partial \mathbf{b}}{\partial t}\\</span> <span class="math display">\\\nabla \times \mathbf{b} = \frac{1}{c^2} \frac{\partial \mathbf{e}}{\partial t}\\</span>
 
 These are **Maxwell’s equations in free space**. They are not fundamental laws. They are the wave equations for coupled oscillations of the medium’s bias and vector potentials.
 
-## What Is "Oscillating" in a Light Wave?
+### What Is "Oscillating" in a Light Wave?
 
 In mainstream physics, the question "What is oscillating in an electromagnetic wave?" is answered with "the electric and magnetic fields" — but fields are not physical substances. They are mathematical descriptions.
 
-In GPT, the answer is physical: **The graviton medium’s bias potential $\psi$ and vector potential $\mathbf{A}$ oscillate.**
+In GPT, the answer is physical: **The graviton medium’s bias potential <span class="math inline">\\\psi\\</span> and vector potential <span class="math inline">\\\mathbf{A}\\</span> oscillate.**
 
-- The bias potential $\psi$ represents the medium’s local bias preference — whether outflow or inflow dominates at each point
+- The bias potential <span class="math inline">\\\psi\\</span> represents the medium’s local bias preference — whether outflow or inflow dominates at each point
 
-- The vector potential $\mathbf{A}$ represents the medium’s circulation — the transverse flow organization
+- The vector potential <span class="math inline">\\\mathbf{A}\\</span> represents the medium’s circulation — the transverse flow organization
 
 When a light wave passes, the medium undergoes:
 
@@ -3751,149 +3753,149 @@ When a light wave passes, the medium undergoes:
 
 - Alternating shear and circulation (vector oscillation)
 
-These oscillations propagate at speed $c$ because the medium’s self-repulsion and compressibility support wave motion — just as air supports sound waves and water supports surface waves.
+These oscillations propagate at speed <span class="math inline">\\c\\</span> because the medium’s self-repulsion and compressibility support wave motion — just as air supports sound waves and water supports surface waves.
 
 **Light is a wave in the graviton medium. The medium is not empty. It is the thing that waves.**
 
-## Why Light Has No Rest Frame
+### Why Light Has No Rest Frame
 
-In GPT, light propagates at speed $c$ relative to the *local rest frame of the graviton medium*. This is not a violation of relativity — it is the definition of the medium’s characteristic speed.
+In GPT, light propagates at speed <span class="math inline">\\c\\</span> relative to the *local rest frame of the graviton medium*. This is not a violation of relativity — it is the definition of the medium’s characteristic speed.
 
-The reason we cannot "catch up" to a light wave is not that light is fundamentally different from other waves. It is that the medium’s characteristic speed $c$ is the maximum speed at which disturbances can propagate. To outrun a light wave, you would need to move faster than the medium can transmit information — which is impossible because your own motion is also mediated by the medium.
+The reason we cannot "catch up" to a light wave is not that light is fundamentally different from other waves. It is that the medium’s characteristic speed <span class="math inline">\\c\\</span> is the maximum speed at which disturbances can propagate. To outrun a light wave, you would need to move faster than the medium can transmit information — which is impossible because your own motion is also mediated by the medium.
 
 This is the same reason you cannot outrun a sound wave in air if you are made of air. The medium that carries the wave also mediates your own propagation.
 
 **Light has no rest frame because the medium’s rest frame is not accessible to massive objects — not because light is special, but because the medium is universal.**
 
-## Polarization and Spin
+### Polarization and Spin
 
 Light waves can be polarized — the direction of the transverse oscillation is oriented. In GPT:
 
-- **Linear polarization** corresponds to a directional oscillation of the vector potential $\mathbf{A}$ along a fixed axis
+- **Linear polarization** corresponds to a directional oscillation of the vector potential <span class="math inline">\\\mathbf{A}\\</span> along a fixed axis
 
-- **Circular polarization** corresponds to a rotating oscillation of $\mathbf{A}$, carrying angular momentum
+- **Circular polarization** corresponds to a rotating oscillation of <span class="math inline">\\\mathbf{A}\\</span>, carrying angular momentum
 
 The angular momentum of circularly polarized light is real and measurable. In GPT, it is *real angular momentum in the medium* — the graviton field’s circulation oscillates with a net handedness.
 
-This connects to spin: a circularly polarized photon carries $\pm \hbar$ of angular momentum. In GPT, this is not a mysterious quantum property. It is the **minimum coherent unit of circulation in the graviton medium** — the quantum of $\mathbf{A}$ oscillation.
+This connects to spin: a circularly polarized photon carries <span class="math inline">\\\pm \hbar\\</span> of angular momentum. In GPT, this is not a mysterious quantum property. It is the **minimum coherent unit of circulation in the graviton medium** — the quantum of <span class="math inline">\\\mathbf{A}\\</span> oscillation.
 
-## Photons as Coherent Wave Packets
+### Photons as Coherent Wave Packets
 
 In mainstream quantum field theory, the photon is the quantum of the electromagnetic field — but the field is treated as fundamental, and quantization is imposed.
 
-In GPT, the photon is a **coherent, quantized wave packet in the graviton medium** — the smallest stable disturbance of $\psi$ and $\mathbf{A}$ that can propagate without dispersion.
+In GPT, the photon is a **coherent, quantized wave packet in the graviton medium** — the smallest stable disturbance of <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> that can propagate without dispersion.
 
 The quantization emerges from the medium’s coherence requirements (Section <a href="#subsec:scaling_invariance" data-reference-type="ref" data-reference="subsec:scaling_invariance">14.18</a> applied to the wave itself). Only certain frequencies and wave numbers can form stable, self-reinforcing packets. These are the "photons."
 
-The energy of a photon is $E = \hbar \omega$, where:
+The energy of a photon is <span class="math inline">\\E = \hbar \omega\\</span>, where:
 
-- $\hbar$ is the minimal action unit of the medium (related to its coherence time and density)
+- <span class="math inline">\\\hbar\\</span> is the minimal action unit of the medium (related to its coherence time and density)
 
-- $\omega$ is the angular frequency of the oscillation
+- <span class="math inline">\\\omega\\</span> is the angular frequency of the oscillation
 
 This is not an approximation. It is the natural consequence of wave quantization in a coherent medium with a minimum action scale.
 
-## Why the Speed of Light Is Constant
+### Why the Speed of Light Is Constant
 
-In GPT, $c$ is the characteristic speed of the graviton medium, determined by:
+In GPT, <span class="math inline">\\c\\</span> is the characteristic speed of the graviton medium, determined by:
 
-$$c^2 = \frac{1}{\epsilon_0 \mu_0} = \frac{\text{transverse curl stiffness}}{\text{bias compressibility}}$$
+<span class="math display">\\c^2 = \frac{1}{\epsilon_0 \mu_0} = \frac{1}{(\text{bias compressibility}) \times (\text{transverse curl stiffness})}\\</span>
 
 For small disturbances, this speed is constant because the medium is uniform and isotropic. For extremely intense fields (e.g., near black holes, or in the early universe), there may be tiny deviations — but these are beyond current measurement.
 
-**The constancy of $c$ is not a fundamental law. It is a medium property** — like the speed of sound in air at constant temperature. It can, in principle, vary if the medium’s properties vary.
+**The constancy of <span class="math inline">\\c\\</span> is not a fundamental law. It is a medium property** — like the speed of sound in air at constant temperature. It can, in principle, vary if the medium’s properties vary.
 
-## Comparison to Mainstream
-
-<div class="center">
-
-| **Aspect**                             | **Mainstream**                                 | **GPT**                                                            |
-|:---------------------------------------|:-----------------------------------------------|:-------------------------------------------------------------------|
-| What is a light wave?                  | Oscillating E and B fields in empty space      | Coupled oscillations of $\psi$ and $\mathbf{A}$ in graviton medium |
-| What carries the wave?                 | "The electromagnetic field" (abstract)         | The graviton medium (physical)                                     |
-| Why speed $c$?                         | Fundamental constant                           | Medium’s characteristic speed $c = 1/\sqrt{\epsilon_0 \mu_0}$      |
-| Why no rest frame?                     | Postulate of SR                                | Medium’s rest frame inaccessible to massive objects                |
-| What is a photon?                      | Quantum of the EM field (imposed quantization) | Coherent, quantized wave packet in medium                          |
-| Where does $\hbar$ come from?          | Fundamental constant                           | Minimal action unit of medium (coherence scale)                    |
-| Polarization                           | Property of wave                               | Directional oscillation of $\mathbf{A}$                            |
-| Circular polarization angular momentum | $\pm \hbar$                                    | Medium’s circulation quanta                                        |
-
-</div>
-
-## Summary of Section 22
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Element**           | **GPT Mechanism**                                                               |
-|:----------------------|:--------------------------------------------------------------------------------|
-| Electromagnetic wave  | Coupled oscillations of bias potential $\psi$ and vector potential $\mathbf{A}$ |
-| Wave equations        | $\nabla^2 \psi - \frac{1}{c^2} \partial_t^2 \psi = 0$, same for $\mathbf{A}$    |
-| Maxwell’s equations   | Emerge from coupled wave dynamics of the medium                                 |
-| What oscillates       | The medium’s bias and circulation (not abstract fields)                         |
-| Speed of light        | $c = 1/\sqrt{\epsilon_0 \mu_0}$ — medium’s characteristic speed                 |
-| No rest frame         | Medium’s rest frame inaccessible to massive objects                             |
-| Photon                | Coherent, quantized wave packet in the medium                                   |
-| $\hbar$               | Minimal action unit of the medium (coherence scale)                             |
-| Polarization          | Direction of $\mathbf{A}$ oscillation                                           |
-| Circular polarization | Rotating $\mathbf{A}$, carrying $\pm \hbar$ angular momentum                    |
+| **Aspect**                                                       | **Mainstream**                                 | **GPT**                                                                                                                                  |
+|:-----------------------------------------------------------------|:-----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
+| What is a light wave?                                            | Oscillating E and B fields in empty space      | Coupled oscillations of <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> in graviton medium |
+| What carries the wave?                                           | "The electromagnetic field" (abstract)         | The graviton medium (physical)                                                                                                           |
+| Why speed <span class="math inline">\\c\\</span>?                | Fundamental constant                           | Medium’s characteristic speed <span class="math inline">\\c = 1/\sqrt{\epsilon_0 \mu_0}\\</span>                                         |
+| Why no rest frame?                                               | Postulate of SR                                | Medium’s rest frame inaccessible to massive objects                                                                                      |
+| What is a photon?                                                | Quantum of the EM field (imposed quantization) | Coherent, quantized wave packet in medium                                                                                                |
+| Where does <span class="math inline">\\\hbar\\</span> come from? | Fundamental constant                           | Minimal action unit of medium (coherence scale)                                                                                          |
+| Polarization                                                     | Property of wave                               | Directional oscillation of <span class="math inline">\\\mathbf{A}\\</span>                                                               |
+| Circular polarization angular momentum                           | <span class="math inline">\\\pm \hbar\\</span> | Medium’s circulation quanta                                                                                                              |
 
 </div>
 
-# Light Deflection as Refraction in a Pressure Field
+### Summary of Section 22
 
-We have established that light is a coupled oscillation of the bias potential $\psi$ and vector potential $\mathbf{A}$ propagating through the graviton medium at speed $c$ (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). The medium is not empty — it has density $\rho_g$, pressure $P_g$, and a refractive index that varies with these properties.
+<div class="center">
+
+| **Element**                                | **GPT Mechanism**                                                                                                                                     |
+|:-------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Electromagnetic wave                       | Coupled oscillations of bias potential <span class="math inline">\\\psi\\</span> and vector potential <span class="math inline">\\\mathbf{A}\\</span> |
+| Wave equations                             | <span class="math inline">\\\nabla^2 \psi - \frac{1}{c^2} \partial_t^2 \psi = 0\\</span>, same for <span class="math inline">\\\mathbf{A}\\</span>    |
+| Maxwell’s equations                        | Emerge from coupled wave dynamics of the medium                                                                                                       |
+| What oscillates                            | The medium’s bias and circulation (not abstract fields)                                                                                               |
+| Speed of light                             | <span class="math inline">\\c = 1/\sqrt{\epsilon_0 \mu_0}\\</span> — medium’s characteristic speed                                                    |
+| No rest frame                              | Medium’s rest frame inaccessible to massive objects                                                                                                   |
+| Photon                                     | Coherent, quantized wave packet in the medium                                                                                                         |
+| <span class="math inline">\\\hbar\\</span> | Minimal action unit of the medium (coherence scale)                                                                                                   |
+| Polarization                               | Direction of <span class="math inline">\\\mathbf{A}\\</span> oscillation                                                                              |
+| Circular polarization                      | Rotating <span class="math inline">\\\mathbf{A}\\</span>, carrying <span class="math inline">\\\pm \hbar\\</span> angular momentum                    |
+
+</div>
+
+## Light Deflection as Refraction in a Pressure Field
+
+We have established that light is a coupled oscillation of the bias potential <span class="math inline">\\\psi\\</span> and vector potential <span class="math inline">\\\mathbf{A}\\</span> propagating through the graviton medium at speed <span class="math inline">\\c\\</span> (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). The medium is not empty — it has density <span class="math inline">\\\rho_g\\</span>, pressure <span class="math inline">\\P_g\\</span>, and a refractive index that varies with these properties.
 
 Now we address a phenomenon traditionally attributed to curved spacetime: the bending of light near a massive body. In GPT, this is not curvature. It is **refraction** — the change in light’s propagation speed as it passes through regions of varying graviton density and pressure.
 
 No new postulates are required. The medium already exists. Its density gradient around a mass is already established (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>). Light propagates through it. Where the medium’s properties vary, light bends.
 
-## The Refractive Index of the Graviton Medium
+### The Refractive Index of the Graviton Medium
 
-In any physical medium, light propagates at speed $v = c/n$, where $n$ is the refractive index. The refractive index depends on the medium’s density and pressure.
+In any physical medium, light propagates at speed <span class="math inline">\\v = c/n\\</span>, where <span class="math inline">\\n\\</span> is the refractive index. The refractive index depends on the medium’s density and pressure.
 
-In GPT, the graviton medium’s equilibrium density is $\rho_0$, with refractive index $n_0 = 1$ by definition (calibrated to far-field vacuum). Near a massive body, the density perturbation is (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
+In GPT, the graviton medium’s equilibrium density is <span class="math inline">\\\rho_0\\</span>, with refractive index <span class="math inline">\\n_0 = 1\\</span> by definition (calibrated to far-field vacuum). Near a massive body, the density perturbation is (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
+<span class="math display">\\\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)\\</span>
 
 The refractive index scales with density. For small perturbations:
 
-$$n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}$$
+<span class="math display">\\n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}\\</span>
 
-where $\beta$ is the medium’s polarizability constant. From the requirement that light deflection matches observations (and from the medium’s wave equation), $\beta = 1$. Thus:
+where <span class="math inline">\\\beta\\</span> is the medium’s polarizability constant. From the requirement that light deflection matches observations (and from the medium’s wave equation), <span class="math inline">\\\beta = 1\\</span>. Thus:
 
-$$n(r) = 1 + \frac{2GM}{c^2 r}$$
+<span class="math display">\\n(r) = 1 + \frac{2GM}{c^2 r}\\</span>
 
 This is exactly the expression that appears in the Schwarzschild metric derivation of light bending — but here it emerges from *medium density*, not from geometry.
 
-## Fermat’s Principle in a Density Gradient
+### Fermat’s Principle in a Density Gradient
 
 Light follows the path that minimizes travel time (Fermat’s principle):
 
-$$\delta \int n(r) \, ds = 0$$
+<span class="math display">\\\delta \int n(r) \\ ds = 0\\</span>
 
-When $n(r)$ increases toward the mass (denser medium), light bends toward the mass — the same way a wave bends toward the region of higher refractive index.
+When <span class="math inline">\\n(r)\\</span> increases toward the mass (denser medium), light bends toward the mass — the same way a wave bends toward the region of higher refractive index.
 
-For a ray passing near a mass $M$ with impact parameter $b$, the deflection angle is:
+For a ray passing near a mass <span class="math inline">\\M\\</span> with impact parameter <span class="math inline">\\b\\</span>, the deflection angle is:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
+<span class="math display">\\\alpha = -\int\_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \\ dx\\</span>
 
-where $x$ is the coordinate along the undeflected path, and $r = \sqrt{b^2 + x^2}$.
+where <span class="math inline">\\x\\</span> is the coordinate along the undeflected path, and <span class="math inline">\\r = \sqrt{b^2 + x^2}\\</span>.
 
-Substituting $n(r) = 1 + 2GM/(c^2 r)$ and $dn/dr = -2GM/(c^2 r^2)$:
+Substituting <span class="math inline">\\n(r) = 1 + 2GM/(c^2 r)\\</span> and <span class="math inline">\\dn/dr = -2GM/(c^2 r^2)\\</span>:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
+<span class="math display">\\\alpha = -\int\_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \\ dx\\</span>
 
-To first order in $GM/(c^2 b)$, this integrates to:
+To first order in <span class="math inline">\\GM/(c^2 b)\\</span>, this integrates to:
 
-$$\alpha = \frac{4GM}{c^2 b}$$
+<span class="math display">\\\alpha = \frac{4GM}{c^2 b}\\</span>
 
-For light grazing the Sun’s surface: $GM_\odot/c^2 = 1.4766$ km, $b = R_\odot = 6.96 \times 10^5$ km, giving:
+For light grazing the Sun’s surface: <span class="math inline">\\GM\_\odot/c^2 = 1.4766\\</span> km, <span class="math inline">\\b = R\_\odot = 6.96 \times 10^5\\</span> km, giving:
 
-$$\alpha = \frac{4 \times 1.4766}{6.96 \times 10^5} \text{ radians} = 8.48 \times 10^{-6} \text{ radians} = 1.75 \text{ arcseconds}$$
+<span class="math display">\\\alpha = \frac{4 \times 1.4766}{6.96 \times 10^5} \text{ radians} = 8.48 \times 10^{-6} \text{ radians} = 1.75 \text{ arcseconds}\\</span>
 
 **The GR value. Same equation. Same number. Different ontology.**
 
-## Why Light Bends Toward the Mass
+### Why Light Bends Toward the Mass
 
 In GPT, the mechanism is continuous with all other gravitational phenomena:
 
@@ -3911,55 +3913,55 @@ In all three cases, the mass creates a graviton density gradient. That gradient 
 
 **Light does not need mass to be "attracted." It only needs a medium whose density varies with position.**
 
-## Refraction vs. Curvature: A Critical Distinction
+### Refraction vs. Curvature: A Critical Distinction
 
 <div class="center">
 
-| **Aspect**         | **GR (Curvature)**                 | **GPT (Refraction)**                   |
-|:-------------------|:-----------------------------------|:---------------------------------------|
-| What bends?        | Null geodesics in curved spacetime | Light path in varying refractive index |
-| Physical cause     | Geometry (non-physical)            | Medium density variation (physical)    |
-| Role of medium     | Explicitly denied                  | Essential                              |
-| Mechanism          | None                               | Refractive index gradient              |
-| Deflection formula | $\alpha = 4GM/(c^2 b)$             | Same (derived from $n(r)$)             |
+| **Aspect**         | **GR (Curvature)**                                        | **GPT (Refraction)**                                          |
+|:-------------------|:----------------------------------------------------------|:--------------------------------------------------------------|
+| What bends?        | Null geodesics in curved spacetime                        | Light path in varying refractive index                        |
+| Physical cause     | Geometry (non-physical)                                   | Medium density variation (physical)                           |
+| Role of medium     | Explicitly denied                                         | Essential                                                     |
+| Mechanism          | None                                                      | Refractive index gradient                                     |
+| Deflection formula | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> | Same (derived from <span class="math inline">\\n(r)\\</span>) |
 
 </div>
 
 GR calculates the correct number. GPT explains *why* the number is what it is — because the medium’s density perturbation creates a refractive index gradient.
 
-## The Refractive Nature of Gravitational Lensing
+### The Refractive Nature of Gravitational Lensing
 
 If light bending is refraction, then **gravitational lensing** — the formation of multiple images, arcs, and Einstein rings by galaxy clusters — is refractive focusing.
 
-For an extended mass distribution, the refractive index varies with the local graviton density. Where the density is highest (near the cluster core), $n$ is largest, and light slows the most. The resulting lensing patterns are determined by the cluster’s graviton density profile — which is not simply proportional to visible mass, because the medium itself contributes to the field structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a> on dark matter).
+For an extended mass distribution, the refractive index varies with the local graviton density. Where the density is highest (near the cluster core), <span class="math inline">\\n\\</span> is largest, and light slows the most. The resulting lensing patterns are determined by the cluster’s graviton density profile — which is not simply proportional to visible mass, because the medium itself contributes to the field structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a> on dark matter).
 
 This explains why lensing appears stronger than can be accounted for by visible mass alone. The medium’s own density enhancement in the cluster — not "dark matter" — produces the additional focusing.
 
-## Shapiro Delay as Slowing in Denser Medium
+### Shapiro Delay as Slowing in Denser Medium
 
 The Shapiro delay — the extra travel time for light passing near a massive body — is also explained by refraction:
 
-$$\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)$$
+<span class="math display">\\\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)\\</span>
 
 In GR, this comes from the time component of the Schwarzschild metric. In GPT, it comes from the reduced speed of light in the denser medium:
 
-$$v_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)$$
+<span class="math display">\\v\_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)\\</span>
 
 Integrating the extra path length gives the same logarithmic delay.
 
 **Light slows down where the graviton medium is denser. No geometry is required.**
 
-## Distinguishing Refraction from Curvature
+### Distinguishing Refraction from Curvature
 
 If light bending is refraction, there should be **dispersion** — a slight wavelength dependence of the deflection angle — because refractive indices typically vary with frequency. GR predicts no dispersion (null geodesics are achromatic).
 
-Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the $10^{-5}$ arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
+Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the <span class="math inline">\\10^{-5}\\</span> arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
 
-$$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
+<span class="math display">\\\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)\\</span>
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. The exact form depends on the graviton-photon interaction — a testable prediction.
+where <span class="math inline">\\\epsilon(\lambda)\\</span> is a small function encoded in the medium’s frequency-dependent polarizability. The exact form depends on the graviton-photon interaction — a testable prediction.
 
-## What This Means for Spacetime Curvature
+### What This Means for Spacetime Curvature
 
 If light bending and Shapiro delay are fully explained by refraction in a physical medium, then the interpretation of these phenomena as evidence of "curved spacetime" is shown to be **underdetermined**.
 
@@ -3979,105 +3981,105 @@ Both fit the data. But *only one provides a mechanism.* Only one is consistent w
 
 **Curvature is a mathematical description. Refraction is a physical mechanism.**
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Aspect**           | **Mainstream (GR)**               | **GPT**                                         |
-|:---------------------|:----------------------------------|:------------------------------------------------|
-| What bends light?    | Curved spacetime (null geodesics) | Refractive index gradient in graviton medium    |
-| Physical cause       | Geometry (non-physical)           | Medium density variation                        |
-| Deflection formula   | $\alpha = 4GM/(c^2 b)$            | Same (derived from $n(r)$)                      |
-| Shapiro delay        | Time component of metric          | Light slows in denser medium                    |
-| Role of vacuum       | Empty (no medium)                 | Pressurized graviton medium                     |
-| Mechanism            | None                              | Refraction                                      |
-| Testable distinction | No dispersion                     | Small wavelength-dependent dispersion predicted |
+| **Aspect**           | **Mainstream (GR)**                                       | **GPT**                                                       |
+|:---------------------|:----------------------------------------------------------|:--------------------------------------------------------------|
+| What bends light?    | Curved spacetime (null geodesics)                         | Refractive index gradient in graviton medium                  |
+| Physical cause       | Geometry (non-physical)                                   | Medium density variation                                      |
+| Deflection formula   | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> | Same (derived from <span class="math inline">\\n(r)\\</span>) |
+| Shapiro delay        | Time component of metric                                  | Light slows in denser medium                                  |
+| Role of vacuum       | Empty (no medium)                                         | Pressurized graviton medium                                   |
+| Mechanism            | None                                                      | Refraction                                                    |
+| Testable distinction | No dispersion                                             | Small wavelength-dependent dispersion predicted               |
 
 </div>
 
-## Satisfaction of the Five Criteria
+### Satisfaction of the Five Criteria
 
 <div class="center">
 
-| **Criterion**     | **How GPT Light Deflection Satisfies**                                                                             |
-|:------------------|:-------------------------------------------------------------------------------------------------------------------|
-| Actors            | Gravitons (medium), light waves (coupled $\psi$ and $\mathbf{A}$ oscillations)                                     |
-| Transfer quantity | No momentum transfer to medium (refraction is conservative) — but medium’s varying density alters phase velocity   |
-| Interaction rate  | Continuous along path; local speed determined by $n(r) = c/v_{\text{light}}$                                       |
-| Directionality    | Bending toward mass (increasing $n$)                                                                               |
-| Self-consistency  | Refractive index derived from graviton density, which is determined by mass distribution via continuity and inflow |
+| **Criterion**     | **How GPT Light Deflection Satisfies**                                                                                                               |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actors            | Gravitons (medium), light waves (coupled <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> oscillations) |
+| Transfer quantity | No momentum transfer to medium (refraction is conservative) — but medium’s varying density alters phase velocity                                     |
+| Interaction rate  | Continuous along path; local speed determined by <span class="math inline">\\n(r) = c/v\_{\text{light}}\\</span>                                     |
+| Directionality    | Bending toward mass (increasing <span class="math inline">\\n\\</span>)                                                                              |
+| Self-consistency  | Refractive index derived from graviton density, which is determined by mass distribution via continuity and inflow                                   |
 
 </div>
 
-## Summary of Section 23
+### Summary of Section 23
 
 <div class="center">
 
-| **Element**         | **GPT Mechanism**                                               |
-|:--------------------|:----------------------------------------------------------------|
-| What bends light    | Refractive index gradient in graviton medium                    |
-| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from density perturbation)            |
-| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                             |
-| Shapiro delay       | Light slows where medium is denser                              |
-| Lensing             | Refractive focusing by extended mass distributions              |
-| Testable prediction | Small wavelength-dependent dispersion                           |
-| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry) |
+| **Element**         | **GPT Mechanism**                                                                       |
+|:--------------------|:----------------------------------------------------------------------------------------|
+| What bends light    | Refractive index gradient in graviton medium                                            |
+| Refractive index    | <span class="math inline">\\n(r) = 1 + 2GM/(c^2 r)\\</span> (from density perturbation) |
+| Deflection angle    | <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> (same as GR)                  |
+| Shapiro delay       | Light slows where medium is denser                                                      |
+| Lensing             | Refractive focusing by extended mass distributions                                      |
+| Testable prediction | Small wavelength-dependent dispersion                                                   |
+| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry)                         |
 
 </div>
 
-# Gravitational Lensing as Refractive Focusing
+## Gravitational Lensing as Refractive Focusing
 
-We have established that light bends when passing through a region of varying graviton density, with deflection angle $\alpha = 4GM/(c^2 b)$ for a point mass (Section <a href="#sec:light_deflection_refraction" data-reference-type="ref" data-reference="sec:light_deflection_refraction">24</a>). Now we extend this to extended mass distributions — galaxies, clusters, and large-scale structures — where the collective effect produces the phenomena known as **gravitational lensing**: multiple images, Einstein rings, arcs, and magnification.
+We have established that light bends when passing through a region of varying graviton density, with deflection angle <span class="math inline">\\\alpha = 4GM/(c^2 b)\\</span> for a point mass (Section <a href="#sec:light_deflection_refraction" data-reference-type="ref" data-reference="sec:light_deflection_refraction">24</a>). Now we extend this to extended mass distributions — galaxies, clusters, and large-scale structures — where the collective effect produces the phenomena known as **gravitational lensing**: multiple images, Einstein rings, arcs, and magnification.
 
-In mainstream physics, these are explained by spacetime curvature. In GPT, they are **refractive focusing** — light propagating through a spatially varying refractive index field $n(\mathbf{x})$ determined by the graviton density distribution.
+In mainstream physics, these are explained by spacetime curvature. In GPT, they are **refractive focusing** — light propagating through a spatially varying refractive index field <span class="math inline">\\n(\mathbf{x})\\</span> determined by the graviton density distribution.
 
 No dark matter is required to explain lensing strength if the graviton medium itself contributes to the field structure. The medium’s own density enhancement in and around massive structures (Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>) produces the additional focusing attributed to "dark matter."
 
-## The Refractive Index Field of an Extended Mass
+### The Refractive Index Field of an Extended Mass
 
-For an extended mass distribution with density $\rho_m(\mathbf{x})$, the graviton density perturbation at point $\mathbf{x}$ is:
+For an extended mass distribution with density <span class="math inline">\\\rho_m(\mathbf{x})\\</span>, the graviton density perturbation at point <span class="math inline">\\\mathbf{x}\\</span> is:
 
-$$\frac{\delta \rho_g(\mathbf{x})}{\rho_0} = \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|} \, d^3x' + \text{(self-contribution from medium)}$$
+<span class="math display">\\\frac{\delta \rho_g(\mathbf{x})}{\rho_0} = \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{\|\mathbf{x} - \mathbf{x}'\|} \\ d^3x' + \text{(self-contribution from medium)}\\</span>
 
 The refractive index is:
 
-$$n(\mathbf{x}) = 1 + \frac{\delta \rho_g(\mathbf{x})}{\rho_0}$$
+<span class="math display">\\n(\mathbf{x}) = 1 + \frac{\delta \rho_g(\mathbf{x})}{\rho_0}\\</span>
 
 Thus:
 
-$$n(\mathbf{x}) = 1 + \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|} \, d^3x' + n_{\text{medium}}(\mathbf{x})$$
+<span class="math display">\\n(\mathbf{x}) = 1 + \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{\|\mathbf{x} - \mathbf{x}'\|} \\ d^3x' + n\_{\text{medium}}(\mathbf{x})\\</span>
 
-where $n_{\text{medium}}(\mathbf{x})$ is the additional contribution from the medium’s own density structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
+where <span class="math inline">\\n\_{\text{medium}}(\mathbf{x})\\</span> is the additional contribution from the medium’s own density structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
 
-Light rays follow Fermat’s principle: they minimize the optical path length $\int n(\mathbf{x}) \, ds$. Regions of higher $n$ (higher graviton density) act as **refractive lenses**, focusing light.
+Light rays follow Fermat’s principle: they minimize the optical path length <span class="math inline">\\\int n(\mathbf{x}) \\ ds\\</span>. Regions of higher <span class="math inline">\\n\\</span> (higher graviton density) act as **refractive lenses**, focusing light.
 
-## The Lens Equation in Refractive Form
+### The Lens Equation in Refractive Form
 
-For a thin lens (e.g., a galaxy cluster), the deflection angle at impact parameter $\xi$ is:
+For a thin lens (e.g., a galaxy cluster), the deflection angle at impact parameter <span class="math inline">\\\xi\\</span> is:
 
-$$\hat{\alpha}(\xi) = \frac{4G}{c^2} \int_0^{\xi} \frac{M(\xi')}{\xi'} \, d\xi' + \hat{\alpha}_{\text{medium}}(\xi)$$
+<span class="math display">\\\hat{\alpha}(\xi) = \frac{4G\\M(\xi)}{c^2\\\xi} + \hat{\alpha}\_{\text{medium}}(\xi), \qquad M(\xi) = \text{mass within projected radius } \xi\\</span>
 
-where $M(\xi')$ is the enclosed mass within radius $\xi'$, and $\hat{\alpha}_{\text{medium}}$ is the additional deflection from the medium’s self-structure.
+where <span class="math inline">\\M(\xi')\\</span> is the enclosed mass within radius <span class="math inline">\\\xi'\\</span>, and <span class="math inline">\\\hat{\alpha}\_{\text{medium}}\\</span> is the additional deflection from the medium’s self-structure.
 
-The lens equation relating source position $\beta$ and image position $\theta$ is:
+The lens equation relating source position <span class="math inline">\\\beta\\</span> and image position <span class="math inline">\\\theta\\</span> is:
 
-$$\beta = \theta - \frac{D_{ls}}{D_s} \hat{\alpha}(D_d \theta)$$
+<span class="math display">\\\beta = \theta - \frac{D\_{ls}}{D_s} \hat{\alpha}(D_d \theta)\\</span>
 
-where $D_d$, $D_s$, and $D_{ls}$ are angular diameter distances (which, in GPT, are geometric distances through medium — not affected by curvature in the GR sense).
+where <span class="math inline">\\D_d\\</span>, <span class="math inline">\\D_s\\</span>, and <span class="math inline">\\D\_{ls}\\</span> are angular diameter distances (which, in GPT, are geometric distances through medium — not affected by curvature in the GR sense).
 
-**This is the same equation as in GR. The difference is the interpretation of $\hat{\alpha}$: in GPT, it is refractive; in GR, it is geometric.**
+**This is the same equation as in GR. The difference is the interpretation of <span class="math inline">\\\hat{\alpha}\\</span>: in GPT, it is refractive; in GR, it is geometric.**
 
-## Einstein Rings and Arcs
+### Einstein Rings and Arcs
 
 When a source, lens, and observer are nearly perfectly aligned, the result is an **Einstein ring** — a full circle of light from the source. The Einstein radius is:
 
-$$\theta_E = \sqrt{\frac{4GM}{c^2} \frac{D_{ls}}{D_d D_s}}$$
+<span class="math display">\\\theta_E = \sqrt{\frac{4GM}{c^2} \frac{D\_{ls}}{D_d D_s}}\\</span>
 
-In GPT, this emerges from the refractive index profile of the lens. For a spherically symmetric lens with graviton density profile $\rho_g(r)$, the refractive index $n(r)$ creates a focusing condition that produces a ring when the alignment is exact.
+In GPT, this emerges from the refractive index profile of the lens. For a spherically symmetric lens with graviton density profile <span class="math inline">\\\rho_g(r)\\</span>, the refractive index <span class="math inline">\\n(r)\\</span> creates a focusing condition that produces a ring when the alignment is exact.
 
 For imperfect alignment, the result is **arcs** — elongated, curved images of the background source. The shape of the arcs encodes the refractive index gradient of the lens. In GPT, arcs trace the boundaries of graviton density shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>) — regions where the medium’s density changes more rapidly.
 
-## Multiple Images and Critical Curves
+### Multiple Images and Critical Curves
 
 When the lensing is strong enough, multiple images of the same source appear. The number and configuration of images are determined by the **caustics** of the refractive field — regions where the mapping from source to image is singular.
 
@@ -4085,11 +4087,11 @@ In GPT, caustics occur where the refractive index gradient is steepest — typic
 
 **Observational test:** In galaxy clusters with multiple lensed images, the image positions should correlate with predicted shell radii from the cluster’s graviton density profile.
 
-## Magnification and Flux Ratios
+### Magnification and Flux Ratios
 
 Lensing magnifies the background source. The magnification is the inverse of the Jacobian determinant of the lens mapping:
 
-$$\mu = \frac{1}{\det \left( \frac{\partial \beta}{\partial \theta} \right)}$$
+<span class="math display">\\\mu = \frac{1}{\det \left( \frac{\partial \beta}{\partial \theta} \right)}\\</span>
 
 In GPT, magnification is strongest where the refractive index gradient is largest — again, at shell boundaries.
 
@@ -4097,7 +4099,7 @@ A persistent puzzle in lensing is **flux ratio anomalies** — the observed flux
 
 GPT offers an alternative: flux ratio anomalies arise from **coherence effects** in the medium. When light passes through a shell boundary, partial interference and scattering occur, altering flux ratios without requiring additional mass. This is analogous to thin-film interference in optics — the medium’s layered structure produces predictable flux variations.
 
-## Lensing Without Dark Matter
+### Lensing Without Dark Matter
 
 In mainstream cosmology, lensing observations of galaxy clusters (e.g., the Bullet Cluster) are cited as evidence for dark matter. The argument is: the lensing map shows more mass than the visible matter, so invisible matter must be present.
 
@@ -4105,13 +4107,13 @@ In GPT, the additional "mass" is not matter at all. It is the **medium’s own d
 
 **The Bullet Cluster** — where the lensing map is offset from the visible matter — is often presented as proof that dark matter exists. In GPT, the offset is explained by the medium’s response to the collision. During the cluster merger, the visible matter (galaxies, gas) interacts and separates, but the medium — being fluid-like — takes time to respond. The lensing map traces the medium’s density, not the matter’s location. The offset is not dark matter; it is **medium lag**.
 
-## Weak Lensing and Large-Scale Structure
+### Weak Lensing and Large-Scale Structure
 
-Weak gravitational lensing — the small, coherent distortion of background galaxy shapes by large-scale structure — is currently used to map dark matter distribution. In GPT, weak lensing maps the **graviton density field** $\delta \rho_g(\mathbf{x}) / \rho_0$.
+Weak gravitational lensing — the small, coherent distortion of background galaxy shapes by large-scale structure — is currently used to map dark matter distribution. In GPT, weak lensing maps the **graviton density field** <span class="math inline">\\\delta \rho_g(\mathbf{x}) / \rho_0\\</span>.
 
-The observed shear field $\gamma(\mathbf{x})$ is related to the projected refractive index gradient:
+The observed shear field <span class="math inline">\\\gamma(\mathbf{x})\\</span> is related to the projected refractive index gradient:
 
-$$\gamma = \frac{1}{2} \int \nabla_\perp n \, dz$$
+<span class="math display">\\\gamma_1 = \tfrac{1}{2}\left(\partial_1^2 - \partial_2^2\right)\psi_L, \quad \gamma_2 = \partial_1 \partial_2 \psi_L, \qquad \psi_L(\boldsymbol{\theta}) = \frac{D\_{ls}}{D_d D_s} \int (n - 1)\\ dz\\</span>
 
 Thus, weak lensing surveys (like DES, Euclid, Rubin) are not measuring dark matter. They are measuring the *medium’s density structure* — which, in GPT, is shaped by both visible matter and the medium’s own dynamics.
 
@@ -4123,7 +4125,7 @@ Predictions for large-scale structure differ slightly from dark matter models be
 
 - Correlations between lensing and other medium-sensitive phenomena (e.g., dispersion measures from fast radio bursts)
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
@@ -4139,24 +4141,24 @@ Predictions for large-scale structure differ slightly from dark matter models be
 
 </div>
 
-## Summary of Section 24
+### Summary of Section 24
 
 <div class="center">
 
-| **Element**           | **GPT Mechanism**                                      |
-|:----------------------|:-------------------------------------------------------|
-| Lensing mechanism     | Refractive focusing by graviton density gradient       |
-| Refractive index      | $n(\mathbf{x}) = 1 + \delta \rho_g(\mathbf{x})/\rho_0$ |
-| Lens equation         | Same as GR (but refractive, not geometric)             |
-| Einstein rings        | Perfect alignment in refractive field                  |
-| Arcs                  | Imperfect alignment; trace shell boundaries            |
-| Flux ratio anomalies  | Coherence effects (interference, scattering)           |
-| Bullet Cluster offset | Medium lag during merger (not dark matter)             |
-| Weak lensing          | Maps graviton density field, not dark matter           |
+| **Element**           | **GPT Mechanism**                                                                         |
+|:----------------------|:------------------------------------------------------------------------------------------|
+| Lensing mechanism     | Refractive focusing by graviton density gradient                                          |
+| Refractive index      | <span class="math inline">\\n(\mathbf{x}) = 1 + \delta \rho_g(\mathbf{x})/\rho_0\\</span> |
+| Lens equation         | Same as GR (but refractive, not geometric)                                                |
+| Einstein rings        | Perfect alignment in refractive field                                                     |
+| Arcs                  | Imperfect alignment; trace shell boundaries                                               |
+| Flux ratio anomalies  | Coherence effects (interference, scattering)                                              |
+| Bullet Cluster offset | Medium lag during merger (not dark matter)                                                |
+| Weak lensing          | Maps graviton density field, not dark matter                                              |
 
 </div>
 
-# Time Dilation Revisited — From Wave Perspective
+## Time Dilation Revisited — From Wave Perspective
 
 We have established two seemingly distinct phenomena:
 
@@ -4170,60 +4172,60 @@ In GPT, they are also unified — but through the **medium**, not through geomet
 
 **Time dilation is not a separate phenomenon. It is the same refractive slowing applied to the internal oscillations of matter.**
 
-## Matter as Standing Waves in the Medium
+### Matter as Standing Waves in the Medium
 
 From Section <a href="#subsec:scaling_invariance" data-reference-type="ref" data-reference="subsec:scaling_invariance">14.18</a>, an atom is a coherent structure — a standing wave in the graviton medium. The electron’s orbital is a resonance corridor where its spin-modulated pulse matches the nucleus’s field oscillation. The frequency of this standing wave is the atom’s natural clock rate.
 
 From Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>, the clock rate is:
 
-$$\tau = \frac{N}{\Gamma}$$
+<span class="math display">\\\tau = \frac{N}{\Gamma}\\</span>
 
-where $N$ is the stability quota (interactions per tick) and $\Gamma$ is the interaction rate.
+where <span class="math inline">\\N\\</span> is the stability quota (interactions per tick) and <span class="math inline">\\\Gamma\\</span> is the interaction rate.
 
-When the atom is placed in a region of higher graviton density (near a mass), both $N$ and $\Gamma$ change. But crucially, the wave propagation speed of the atom’s internal oscillations changes just as light’s propagation speed changes.
+When the atom is placed in a region of higher graviton density (near a mass), both <span class="math inline">\\N\\</span> and <span class="math inline">\\\Gamma\\</span> change. But crucially, the wave propagation speed of the atom’s internal oscillations changes just as light’s propagation speed changes.
 
-## The Refractive Index for Matter Waves
+### The Refractive Index for Matter Waves
 
-Just as light experiences a refractive index $n(r) = 1 + 2GM/(c^2 r)$, **matter waves** (the de Broglie waves of particles) experience the same refractive index. This is not an analogy — it is the same medium affecting all waves.
+Just as light experiences a refractive index <span class="math inline">\\n(r) = 1 + 2GM/(c^2 r)\\</span>, **matter waves** (the de Broglie waves of particles) experience the same refractive index. This is not an analogy — it is the same medium affecting all waves.
 
-For a matter wave with frequency $\omega$, the local wave speed is:
+For a matter wave with frequency <span class="math inline">\\\omega\\</span>, the local wave speed is:
 
-$$v_{\text{wave}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)$$
+<span class="math display">\\v\_{\text{wave}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)\\</span>
 
 The atom’s internal oscillations — the standing wave that defines its "clock" — are slowed by the same factor.
 
 Thus:
 
-$$\tau(r) = \tau_0 \cdot n(r) \approx \tau_0 \left(1 + \frac{2GM}{c^2 r}\right)$$
+<span class="math display">\\\tau(r) = \tau_0 \sqrt{n(r)} \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)\\</span>
 
-This matches gravitational time dilation to first order (the standard expression is $\tau(r) = \tau_0 / \sqrt{1 - 2GM/(c^2 r)} \approx \tau_0 (1 + GM/(c^2 r))$ — the factor of 2 difference is resolved by noting that $n(r)$ applies to phase velocity, while clock rate depends on group velocity; the detailed derivation yields the correct $GM/(c^2 r)$ coefficient).
+This matches gravitational time dilation to first order (the standard expression is <span class="math inline">\\\tau(r) = \tau_0 / \sqrt{1 - 2GM/(c^2 r)} \approx \tau_0 (1 + GM/(c^2 r))\\</span>).
 
-## The Unification: Light and Matter Are Both Medium Waves
+### The Unification: Light and Matter Are Both Medium Waves
 
 <div class="center">
 
-| **Phenomenon**             | **Light Waves**                                    | **Matter Waves (Clocks)**                    |
-|:---------------------------|:---------------------------------------------------|:---------------------------------------------|
-| What propagates            | Oscillations of $\psi$ and $\mathbf{A}$            | Coherent structure (standing wave in medium) |
-| Medium property            | Refractive index $n(r) = 1 + \delta \rho_g/\rho_0$ | Same refractive index                        |
-| Effect of density increase | Light slows, bends                                 | Internal oscillations slow (time dilation)   |
-| Mathematical expression    | $v_{\text{light}} = c/n$                           | $\tau = \tau_0 \cdot n$ (to first order)     |
+| **Phenomenon**             | **Light Waves**                                                                                               | **Matter Waves (Clocks)**                                                   |
+|:---------------------------|:--------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
+| What propagates            | Oscillations of <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> | Coherent structure (standing wave in medium)                                |
+| Medium property            | Refractive index <span class="math inline">\\n(r) = 1 + \delta \rho_g/\rho_0\\</span>                         | Same refractive index                                                       |
+| Effect of density increase | Light slows, bends                                                                                            | Internal oscillations slow (time dilation)                                  |
+| Mathematical expression    | <span class="math inline">\\v\_{\text{light}} = c/n\\</span>                                                  | <span class="math inline">\\\tau = \tau_0 \cdot n\\</span> (to first order) |
 
 </div>
 
 **The same medium, the same density variation, the same refractive effect — applied to different types of waves.**
 
-## Why Gravitational and Velocity Time Dilation Appear Different
+### Why Gravitational and Velocity Time Dilation Appear Different
 
-In Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>, we derived gravitational time dilation from increased load ($N$ increase) and velocity time dilation from anisotropic absorption (leading to $\gamma$ factor). Now we see these as special cases of a more general principle:
+In Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>, we derived gravitational time dilation from increased load (<span class="math inline">\\N\\</span> increase) and velocity time dilation from anisotropic absorption (leading to <span class="math inline">\\\gamma\\</span> factor). Now we see these as special cases of a more general principle:
 
 - **Gravitational dilation** (at rest in denser medium): Isotropic increase in refractive index slows all waves equally
 
-- **Velocity dilation** (moving through medium): Anisotropic refractive index (due to motion) creates direction-dependent slowing, with the Lorentz factor $\gamma$ emerging from the medium’s wave equation
+- **Velocity dilation** (moving through medium): Anisotropic refractive index (due to motion) creates direction-dependent slowing, with the Lorentz factor <span class="math inline">\\\gamma\\</span> emerging from the medium’s wave equation
 
 Both are **refractive time dilation** — the slowing of internal oscillations due to the medium’s influence on wave propagation.
 
-## The Equivalence Principle from the Medium Perspective
+### The Equivalence Principle from the Medium Perspective
 
 The Equivalence Principle states that gravitational acceleration and inertial acceleration are indistinguishable.
 
@@ -4242,19 +4244,19 @@ In both cases, the object experiences a **gradient in wave speed** across its st
 
 **The EP is not a coincidence. It is a consequence of the medium being the universal substrate for both light and matter waves.**
 
-## Experimental Predictions
+### Experimental Predictions
 
 If time dilation is refractive, then:
 
 1.  **Dispersion of time dilation:** Different atomic clocks (different internal frequencies) might experience slightly different gravitational time dilation if the medium’s refractive index is frequency-dependent. Current measurements are not precise enough to detect this, but next-generation clocks (optical lattice clocks) could test it.
 
-2.  **Anisotropic time dilation:** A clock moving through the medium might show orientation-dependent time dilation (if its internal oscillations are directional). Standard relativity predicts no such effect. GPT predicts a tiny effect at order $v^2/c^2$ with specific angular dependence.
+2.  **Anisotropic time dilation:** A clock moving through the medium might show orientation-dependent time dilation (if its internal oscillations are directional). Standard relativity predicts no such effect. GPT predicts a tiny effect at order <span class="math inline">\\v^2/c^2\\</span> with specific angular dependence.
 
 3.  **Connection to light deflection:** The same refractive index that bends light should also affect matter wave interference — e.g., atom interferometry. GPT predicts that atom interferometers should show phase shifts correlated with gravitational lensing measurements.
 
 4.  **Medium temperature effects:** If the graviton medium has an effective temperature (related to its coherence dynamics), clock rates might show tiny variations correlated with medium activity (e.g., solar cycles, galactic position).
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
@@ -4268,23 +4270,23 @@ If time dilation is refractive, then:
 
 </div>
 
-## Summary of Section 25
+### Summary of Section 25
 
 <div class="center">
 
-| **Element**              | **GPT Mechanism**                                                           |
-|:-------------------------|:----------------------------------------------------------------------------|
-| What time dilation is    | Refractive slowing of matter waves (internal oscillations) in denser medium |
-| What light deflection is | Refractive slowing of light waves in denser medium                          |
-| Unifying principle       | Same medium, same refractive index $n(r) = 1 + \delta \rho_g/\rho_0$        |
-| Gravitational dilation   | Isotropic refractive increase at rest                                       |
-| Velocity dilation        | Anisotropic refractive effect from motion                                   |
-| Equivalence Principle    | Both arise from medium wave-speed gradient                                  |
-| Testable predictions     | Frequency-dependent dilation, anisotropy, atom interferometer correlations  |
+| **Element**              | **GPT Mechanism**                                                                                       |
+|:-------------------------|:--------------------------------------------------------------------------------------------------------|
+| What time dilation is    | Refractive slowing of matter waves (internal oscillations) in denser medium                             |
+| What light deflection is | Refractive slowing of light waves in denser medium                                                      |
+| Unifying principle       | Same medium, same refractive index <span class="math inline">\\n(r) = 1 + \delta \rho_g/\rho_0\\</span> |
+| Gravitational dilation   | Isotropic refractive increase at rest                                                                   |
+| Velocity dilation        | Anisotropic refractive effect from motion                                                               |
+| Equivalence Principle    | Both arise from medium wave-speed gradient                                                              |
+| Testable predictions     | Frequency-dependent dilation, anisotropy, atom interferometer correlations                              |
 
 </div>
 
-# Cosmological Implications — Dark Matter as Shell Resonance
+## Cosmological Implications — Dark Matter as Shell Resonance
 
 We have established that the graviton medium surrounding any coherent mass stratifies into **resonance shells** — layers of lateral decoherence where graviton flow organizes into coherent bands (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>). These shells are not merely theoretical constructs. They determine where stable orbits exist (Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>), where light refracts most strongly (Section <a href="#sec:gravitational_lensing" data-reference-type="ref" data-reference="sec:gravitational_lensing">25</a>), and where matter accumulates.
 
@@ -4294,15 +4296,15 @@ In mainstream physics, the rotation curves of galaxies — stars orbiting at nea
 
 In GPT, dark matter is not needed. The flat rotation curves emerge from the **shell structure of the galactic graviton field**. Stars do not orbit because they are "pulled" by invisible mass. They orbit because they are **resonantly confined** within coherence shells of the galaxy’s graviton medium.
 
-## The Problem: Flat Rotation Curves
+### The Problem: Flat Rotation Curves
 
-For a point mass, Keplerian orbits follow $v(r) \propto 1/\sqrt{r}$. For an extended mass distribution with density falling as $1/r^2$, the orbital velocity is constant. But visible matter in galaxies (stars, gas, dust) does not follow a $1/r^2$ density profile. Yet the observed rotation curves are flat — constant $v$ over large ranges of $r$.
+For a point mass, Keplerian orbits follow <span class="math inline">\\v(r) \propto 1/\sqrt{r}\\</span>. For an extended mass distribution with density falling as <span class="math inline">\\1/r^2\\</span>, the orbital velocity is constant. But visible matter in galaxies (stars, gas, dust) does not follow a <span class="math inline">\\1/r^2\\</span> density profile. Yet the observed rotation curves are flat — constant <span class="math inline">\\v\\</span> over large ranges of <span class="math inline">\\r\\</span>.
 
-**Mainstream resolution:** add a dark matter halo with $\rho_{\text{DM}}(r) \propto 1/r^2$, making the total mass distribution isothermal.
+**Mainstream resolution:** add a dark matter halo with <span class="math inline">\\\rho\_{\text{DM}}(r) \propto 1/r^2\\</span>, making the total mass distribution isothermal.
 
 **GPT resolution:** The galaxy’s graviton medium has its own density profile, independent of visible matter. Stars orbit within resonance shells of this medium.
 
-## The Graviton Medium Around a Galaxy
+### The Graviton Medium Around a Galaxy
 
 A galaxy is a massive, coherent structure. Its core (nuclear star cluster, central black hole, or dense stellar bulge) processes gravitons through absorption/ejection cycles, creating a pulsating field.
 
@@ -4312,43 +4314,43 @@ From Section <a href="#subsec:shell_stratification" data-reference-type="ref" da
 
 - Pressure gradients are balanced
 
-- Resonance conditions $f_{\text{star pulse}} = f_{\text{field}}(r_n)$ are satisfied
+- Resonance conditions <span class="math inline">\\f\_{\text{star pulse}} = f\_{\text{field}}(r_n)\\</span> are satisfied
 
 Stars with appropriate spin-modulated pulse frequencies become **phase-locked** into these shells. They orbit at the shell’s natural frequency — which, for a stratified medium, can be constant over a wide range of radii.
 
 The shell structure for a galactic-scale mass can be approximated as:
 
-$$v_{\text{orb}}(r) \approx v_0 \quad \text{for} \quad r_{\text{core}} < r < r_{\text{halo}}$$
+<span class="math display">\\v\_{\text{orb}}(r) \approx v_0 \quad \text{for} \quad r\_{\text{core}} \< r \< r\_{\text{halo}}\\</span>
 
-where $v_0$ is determined by the galaxy’s core pulsation frequency and the medium’s properties.
+where <span class="math inline">\\v_0\\</span> is determined by the galaxy’s core pulsation frequency and the medium’s properties.
 
 **This is the flat rotation curve.**
 
-## Why Shells Produce Flat Rotation
+### Why Shells Produce Flat Rotation
 
-In a Keplerian system, orbital velocity falls as $1/\sqrt{r}$ because the enclosed mass is constant. In a shell-dominated system, the orbiting object is not "feeling" the enclosed mass — it is *resonating with the local shell frequency*.
+In a Keplerian system, orbital velocity falls as <span class="math inline">\\1/\sqrt{r}\\</span> because the enclosed mass is constant. In a shell-dominated system, the orbiting object is not "feeling" the enclosed mass — it is *resonating with the local shell frequency*.
 
 The shell frequency is set by:
 
-- The core’s pulsation frequency $f_{\text{core}}$
+- The core’s pulsation frequency <span class="math inline">\\f\_{\text{core}}\\</span>
 
-- The harmonic index $n$ of the shell
+- The harmonic index <span class="math inline">\\n\\</span> of the shell
 
-- The medium’s characteristic speed $c$
+- The medium’s characteristic speed <span class="math inline">\\c\\</span>
 
-For a galaxy, the lowest-order shells (low $n$) produce higher velocities; higher-order shells produce lower velocities. But the spacing of shells can be such that multiple shells have nearly the same tangential velocity over a range of radii.
+For a galaxy, the lowest-order shells (low <span class="math inline">\\n\\</span>) produce higher velocities; higher-order shells produce lower velocities. But the spacing of shells can be such that multiple shells have nearly the same tangential velocity over a range of radii.
 
 This is analogous to a **spoked wheel**: each spoke (shell) rotates at the same angular speed, even though the radius differs.
 
-## The Absence of Dark Matter Particles
+### The Absence of Dark Matter Particles
 
 In GPT, no exotic particles are required. The "missing mass" is not missing — it is not mass at all. The additional gravitational effect (lensing, rotation) comes from the **medium’s self-structure**.
 
 The medium has:
 
-- Density $\rho_g(r)$
+- Density <span class="math inline">\\\rho_g(r)\\</span>
 
-- Pressure $P_g(r)$
+- Pressure <span class="math inline">\\P_g(r)\\</span>
 
 - Coherence shells with distinct resonance frequencies
 
@@ -4362,7 +4364,7 @@ These properties affect:
 
 All of these are interpreted in mainstream cosmology as evidence for dark matter because the mainstream has *no medium*. When a galaxy rotates faster than its visible mass predicts, the conclusion is "there must be more mass." In GPT, the conclusion is "the medium is structuring the orbit."
 
-## The Bullet Cluster Revisited
+### The Bullet Cluster Revisited
 
 The Bullet Cluster (1E 0657-558) is often cited as definitive evidence for dark matter. In this colliding galaxy cluster:
 
@@ -4384,7 +4386,7 @@ The Bullet Cluster (1E 0657-558) is often cited as definitive evidence for dark 
 
 This interpretation predicts that the offset should depend on the collision speed, gas density, and medium properties — not a fixed dark matter cross-section.
 
-## Predictions for Galactic Dynamics
+### Predictions for Galactic Dynamics
 
 GPT makes specific predictions that distinguish it from dark matter models:
 
@@ -4396,22 +4398,22 @@ GPT makes specific predictions that distinguish it from dark matter models:
 
 4.  **Radial migration:** Stars can "hop" between shells when their spin frequency changes (e.g., through interactions). GPT predicts a specific pattern of radial migration correlated with spin evolution.
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Aspect**              | **Mainstream ($\Lambda$CDM)**           | **GPT**                                  |
-|:------------------------|:----------------------------------------|:-----------------------------------------|
-| Flat rotation curves    | Dark matter halo ($\rho \propto 1/r^2$) | Resonance confinement in graviton shells |
-| Missing mass            | 27% of universe                         | Not missing — mediation, not mass        |
-| Bullet Cluster offset   | Dark matter passes through collision    | Medium lag; fluid response               |
-| Rotation curve features | Smooth                                  | Discrete steps at shell boundaries       |
-| Dwarf galaxies          | Require dark matter                     | Reduced or absent shell structure        |
-| Radial migration        | Chaotic                                 | Shell-bound, spin-correlated             |
+| **Aspect**              | **Mainstream (<span class="math inline">\\\Lambda\\</span>CDM)**           | **GPT**                                  |
+|:------------------------|:---------------------------------------------------------------------------|:-----------------------------------------|
+| Flat rotation curves    | Dark matter halo (<span class="math inline">\\\rho \propto 1/r^2\\</span>) | Resonance confinement in graviton shells |
+| Missing mass            | 27% of universe                                                            | Not missing — mediation, not mass        |
+| Bullet Cluster offset   | Dark matter passes through collision                                       | Medium lag; fluid response               |
+| Rotation curve features | Smooth                                                                     | Discrete steps at shell boundaries       |
+| Dwarf galaxies          | Require dark matter                                                        | Reduced or absent shell structure        |
+| Radial migration        | Chaotic                                                                    | Shell-bound, spin-correlated             |
 
 </div>
 
-## Summary of Section 26
+### Summary of Section 26
 
 <div class="center">
 
@@ -4426,43 +4428,43 @@ GPT makes specific predictions that distinguish it from dark matter models:
 
 </div>
 
-# Dark Energy as Global Flow Divergence
+## Dark Energy as Global Flow Divergence
 
-We have established that the graviton medium is not static. It flows inward toward mass concentrations (Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>), stratifies into resonance shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>), and supports wave propagation at speed $c$ (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). At galactic scales, its shell structure explains rotation curves without dark matter (Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
+We have established that the graviton medium is not static. It flows inward toward mass concentrations (Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>), stratifies into resonance shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>), and supports wave propagation at speed <span class="math inline">\\c\\</span> (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). At galactic scales, its shell structure explains rotation curves without dark matter (Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
 
 Now we address the largest scale: the universe as a whole.
 
-In mainstream cosmology, the observation that distant galaxies are receding from us at accelerating rates is explained by **dark energy** — a mysterious, repulsive force comprising approximately 68% of the universe’s energy budget. Dark energy is treated as a property of empty space (the cosmological constant $\Lambda$), but its origin is not explained. Why does empty space have energy? Why does that energy cause acceleration rather than deceleration?
+In mainstream cosmology, the observation that distant galaxies are receding from us at accelerating rates is explained by **dark energy** — a mysterious, repulsive force comprising approximately 68% of the universe’s energy budget. Dark energy is treated as a property of empty space (the cosmological constant <span class="math inline">\\\Lambda\\</span>), but its origin is not explained. Why does empty space have energy? Why does that energy cause acceleration rather than deceleration?
 
 In GPT, dark energy is not needed. The accelerating expansion is a natural consequence of the **global divergence of the graviton medium** — the outward flow of the medium itself at cosmological scales.
 
-## The Hubble Flow as Medium Expansion
+### The Hubble Flow as Medium Expansion
 
 The Hubble-Lemaître law states that distant galaxies recede with velocity proportional to their distance:
 
-$$v = H_0 d$$
+<span class="math display">\\v = H_0 d\\</span>
 
-where $H_0$ is the Hubble constant. In mainstream cosmology, this is interpreted as the expansion of space itself — galaxies are not moving through space but are carried along by expanding space.
+where <span class="math inline">\\H_0\\</span> is the Hubble constant. In mainstream cosmology, this is interpreted as the expansion of space itself — galaxies are not moving through space but are carried along by expanding space.
 
-In GPT, space is the graviton medium. The "expansion of space" is the **expansion of the medium**. The medium has density $\rho_g$, pressure $P_g$, and flow velocity $\mathbf{u}$. At cosmological scales, the medium is not static — it has a large-scale divergence.
+In GPT, space is the graviton medium. The "expansion of space" is the **expansion of the medium**. The medium has density <span class="math inline">\\\rho_g\\</span>, pressure <span class="math inline">\\P_g\\</span>, and flow velocity <span class="math inline">\\\mathbf{u}\\</span>. At cosmological scales, the medium is not static — it has a large-scale divergence.
 
 The continuity equation for the medium (Section <a href="#subsec:continuity" data-reference-type="ref" data-reference="subsec:continuity">10.4</a>) is:
 
-$$\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = 0$$
+<span class="math display">\\\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = 0\\</span>
 
 If the medium is expanding uniformly, the velocity field is:
 
-$$\mathbf{u} = H(t) \mathbf{r}$$
+<span class="math display">\\\mathbf{u} = H(t) \mathbf{r}\\</span>
 
-where $H(t)$ is the time-dependent Hubble parameter. Substituting into the continuity equation gives:
+where <span class="math inline">\\H(t)\\</span> is the time-dependent Hubble parameter. Substituting into the continuity equation gives:
 
-$$\frac{\partial \rho_g}{\partial t} + 3H(t) \rho_g = 0$$
+<span class="math display">\\\frac{\partial \rho_g}{\partial t} + 3H(t) \rho_g = 0\\</span>
 
 This is the same equation as in standard cosmology — but here it describes the *medium’s density evolution*, not the expansion of empty space.
 
 **The Hubble flow is the medium’s own expansion.**
 
-## Why the Expansion Accelerates
+### Why the Expansion Accelerates
 
 In mainstream cosmology, the acceleration of the expansion requires a repulsive force — dark energy — with negative pressure.
 
@@ -4470,49 +4472,49 @@ In GPT, acceleration emerges naturally from the **medium’s equation of state**
 
 From Section <a href="#subsec:eos" data-reference-type="ref" data-reference="subsec:eos">10.2</a>, the equation of state is:
 
-$$P_g = P_0 + c^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)$$
+<span class="math display">\\P_g = P_0 + c^2 (\rho_g - \rho_0) + \mathcal{O}((\rho_g - \rho_0)^2)\\</span>
 
 But at cosmological scales, the medium is far from equilibrium. The self-repulsion of gravitons creates an effective **negative pressure** when the medium is expanding.
 
 Consider a volume of the medium expanding adiabatically. The self-repulsion means that gravitons push away from each other — the more they are separated, the more they resist compression. In an expanding universe, this self-repulsion acts as a *positive feedback* on expansion: as the medium expands, its density drops, self-repulsion weakens, but the expansion momentum carries it forward. The key is that the self-repulsion does not oppose expansion — it *cooperates* with it because the medium’s natural tendency is to avoid compression.
 
-The effective acceleration can be derived from the medium’s dynamics. The Friedmann-like equation for the scale factor $a(t)$ is:
+The effective acceleration can be derived from the medium’s dynamics. The Friedmann-like equation for the scale factor <span class="math inline">\\a(t)\\</span> is:
 
-$$\frac{\ddot{a}}{a} = -\frac{4\pi G}{3} (\rho_g + 3P_g/c^2)$$
+<span class="math display">\\\frac{\ddot{a}}{a} = -\frac{4\pi G}{3} (\rho_g + 3P_g/c^2)\\</span>
 
-For ordinary matter, $P_g \approx 0$, so $\ddot{a}/a < 0$ — deceleration. For the graviton medium at cosmological scales, the self-repulsion contributes a negative pressure term:
+For ordinary matter, <span class="math inline">\\P_g \approx 0\\</span>, so <span class="math inline">\\\ddot{a}/a \< 0\\</span> — deceleration. For the graviton medium at cosmological scales, the self-repulsion contributes a negative pressure term:
 
-$$P_g \approx -\frac{1}{3} \rho_g c^2$$
+<span class="math display">\\P_g \< -\frac{1}{3} \rho_g c^2\\</span>
 
-This gives $\rho_g + 3P_g/c^2 \approx 0$, and acceleration emerges from higher-order terms.
+This makes <span class="math inline">\\\rho_g + 3P_g/c^2 \< 0\\</span>, so <span class="math inline">\\\ddot{a} \> 0\\</span>: the expansion accelerates. (At exactly <span class="math inline">\\-\tfrac{1}{3}\rho_g c^2\\</span> it would coast.)
 
 **The acceleration is not from dark energy. It is from the medium’s own self-repulsion.**
 
-## The Cosmological Constant as Emergent
+### The Cosmological Constant as Emergent
 
-In standard cosmology, the cosmological constant $\Lambda$ is a free parameter added to Einstein’s equations:
+In standard cosmology, the cosmological constant <span class="math inline">\\\Lambda\\</span> is a free parameter added to Einstein’s equations:
 
-$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
+<span class="math display">\\G\_{\mu\nu} + \Lambda g\_{\mu\nu} = \frac{8\pi G}{c^4} T\_{\mu\nu}\\</span>
 
-In GPT, $\Lambda$ is not a fundamental constant. It is an **emergent property** of the medium’s global flow divergence.
+In GPT, <span class="math inline">\\\Lambda\\</span> is not a fundamental constant. It is an **emergent property** of the medium’s global flow divergence.
 
 From the large-scale behavior of the medium, we can define:
 
-$$\Lambda_{\text{eff}} = \frac{1}{c^2} \nabla \cdot \mathbf{u}_{\text{cosmological}}$$
+<span class="math display">\\\Lambda\_{\text{eff}} = \frac{\left(\nabla \cdot \mathbf{u}\_{\text{cosmological}}\right)^2}{3c^2}\\</span>
 
-where $\mathbf{u}_{\text{cosmological}}$ is the Hubble flow. In a uniformly expanding medium:
+where <span class="math inline">\\\mathbf{u}\_{\text{cosmological}}\\</span> is the Hubble flow. In a uniformly expanding medium:
 
-$$\nabla \cdot \mathbf{u} = 3H(t)$$
+<span class="math display">\\\nabla \cdot \mathbf{u} = 3H(t)\\</span>
 
 Thus:
 
-$$\Lambda_{\text{eff}}(t) = \frac{3H(t)}{c^2}$$
+<span class="math display">\\\Lambda\_{\text{eff}}(t) = \frac{3H(t)^2}{c^2}\\</span>
 
-At the present epoch, $H_0 \approx 70 \, \text{km/s/Mpc} \approx 2.27 \times 10^{-18} \, \text{s}^{-1}$. In units of $\text{m}^{-2}$, the cosmological constant is $\Lambda \approx 1.1 \times 10^{-52} \, \text{m}^{-2}$. The relation $\Lambda = 3H_0^2/c^2$ gives $\Lambda \approx 3(2.27 \times 10^{-18})^2 / (9 \times 10^{16}) \approx 1.7 \times 10^{-52} \, \text{m}^{-2}$ — matching the observed value.
+At the present epoch, <span class="math inline">\\H_0 \approx 70 \\ \text{km/s/Mpc} \approx 2.27 \times 10^{-18} \\ \text{s}^{-1}\\</span>. In units of <span class="math inline">\\\text{m}^{-2}\\</span>, the cosmological constant is <span class="math inline">\\\Lambda \approx 1.1 \times 10^{-52} \\ \text{m}^{-2}\\</span>. The relation <span class="math inline">\\\Lambda = 3H_0^2/c^2\\</span> gives <span class="math inline">\\\Lambda \approx 3(2.27 \times 10^{-18})^2 / (9 \times 10^{16}) \approx 1.7 \times 10^{-52} \\ \text{m}^{-2}\\</span> — matching the observed value.
 
 **The cosmological constant is not a mystery. It is the present-day Hubble expansion rate expressed in medium units.**
 
-## Why Dark Energy Is Not Needed
+### Why Dark Energy Is Not Needed
 
 In GPT, the accelerating expansion is explained by three factors:
 
@@ -4534,13 +4536,13 @@ This explains why dark energy appears to be:
 
 - **Unclustering** (the medium does not clump like matter)
 
-- **Constant in time** (to first order, though GPT predicts slow evolution of $H(t)$ from medium dynamics)
+- **Constant in time** (to first order, though GPT predicts slow evolution of <span class="math inline">\\H(t)\\</span> from medium dynamics)
 
-## The Fate of the Universe
+### The Fate of the Universe
 
 In standard cosmology, the fate of the universe depends on the nature of dark energy:
 
-- If $\Lambda$ is constant, expansion accelerates forever
+- If <span class="math inline">\\\Lambda\\</span> is constant, expansion accelerates forever
 
 - If dark energy decays, expansion may slow or reverse
 
@@ -4548,40 +4550,40 @@ In GPT, the expansion’s fate is determined by the medium’s long-term behavio
 
 GPT makes no definitive prediction about the far future — that depends on the medium’s equation of state at extremely low densities, which is not yet constrained by observations.
 
-**Testable prediction:** The deceleration parameter $q_0 = -\ddot{a}a/\dot{a}^2$ should show subtle deviations from $\Lambda$CDM predictions at high redshift ($z > 1$), measurable by next-generation surveys (Euclid, Roman, Rubin).
+**Testable prediction:** The deceleration parameter <span class="math inline">\\q_0 = -\ddot{a}a/\dot{a}^2\\</span> should show subtle deviations from <span class="math inline">\\\Lambda\\</span>CDM predictions at high redshift (<span class="math inline">\\z \> 1\\</span>), measurable by next-generation surveys (Euclid, Roman, Rubin).
 
-## Comparison to Mainstream
+### Comparison to Mainstream
 
 <div class="center">
 
-| **Aspect**                    | **Mainstream ($\Lambda$CDM)**               | **GPT**                                                                                                                                                                                                              |
-|:------------------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cause of acceleration         | Dark energy (cosmological constant)         | Self-repulsion of graviton medium at cosmological scales                                                                                                                                                             |
-| Nature of dark energy         | Unknown; property of empty space            | Emergent from medium’s equation of state                                                                                                                                                                             |
-| Why $\Lambda$ is small        | Not explained (fine-tuning problem)         | $\Lambda_{\text{eff}} = 3H_0^2/c^2$ — measured, not tuned                                                                                                                                                            |
-| Why $\Lambda$ is positive     | Not explained                               | Self-repulsion creates effective negative pressure                                                                                                                                                                   |
-| Cosmological constant problem | $10^{120}$ discrepancy with QFT predictions | Not a problem — no vacuum energy catastrophe because medium density is physically regulated (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>) |
-| Fate of universe              | Depends on $\Lambda$                        | Depends on medium’s equation of state at low density                                                                                                                                                                 |
+| **Aspect**                                                   | **Mainstream (<span class="math inline">\\\Lambda\\</span>CDM)**               | **GPT**                                                                                                                                                                                                              |
+|:-------------------------------------------------------------|:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cause of acceleration                                        | Dark energy (cosmological constant)                                            | Self-repulsion of graviton medium at cosmological scales                                                                                                                                                             |
+| Nature of dark energy                                        | Unknown; property of empty space                                               | Emergent from medium’s equation of state                                                                                                                                                                             |
+| Why <span class="math inline">\\\Lambda\\</span> is small    | Not explained (fine-tuning problem)                                            | <span class="math inline">\\\Lambda\_{\text{eff}} = 3H_0^2/c^2\\</span> — measured, not tuned                                                                                                                        |
+| Why <span class="math inline">\\\Lambda\\</span> is positive | Not explained                                                                  | Self-repulsion creates effective negative pressure                                                                                                                                                                   |
+| Cosmological constant problem                                | <span class="math inline">\\10^{120}\\</span> discrepancy with QFT predictions | Not a problem — no vacuum energy catastrophe because medium density is physically regulated (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>) |
+| Fate of universe                                             | Depends on <span class="math inline">\\\Lambda\\</span>                        | Depends on medium’s equation of state at low density                                                                                                                                                                 |
 
 </div>
 
-## Summary of Section 27
+### Summary of Section 27
 
 <div class="center">
 
 | **Element**           | **GPT Mechanism**                                                                                                                                                                               |
 |:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dark energy           | Not needed — acceleration from medium self-repulsion                                                                                                                                            |
-| Hubble expansion      | Global divergence of graviton medium: $\nabla \cdot \mathbf{u} = 3H(t)$                                                                                                                         |
-| Cosmological constant | Emergent: $\Lambda_{\text{eff}} = 3H(t)^2/c^2$                                                                                                                                                  |
+| Hubble expansion      | Global divergence of graviton medium: <span class="math inline">\\\nabla \cdot \mathbf{u} = 3H(t)\\</span>                                                                                      |
+| Cosmological constant | Emergent: <span class="math inline">\\\Lambda\_{\text{eff}} = 3H(t)^2/c^2\\</span>                                                                                                              |
 | Acceleration origin   | Self-repulsion creates effective negative pressure                                                                                                                                              |
-| Fine-tuning problem   | Absent — $\Lambda_{\text{eff}}$ is measured, not tuned                                                                                                                                          |
+| Fine-tuning problem   | Absent — <span class="math inline">\\\Lambda\_{\text{eff}}\\</span> is measured, not tuned                                                                                                      |
 | Vacuum catastrophe    | Not a problem — medium density is physically regulated by absorption (Section <a href="#subsec:background_source" data-reference-type="ref" data-reference="subsec:background_source">11.5</a>) |
 | Testable prediction   | Deceleration parameter deviations at high redshift                                                                                                                                              |
 
 </div>
 
-# Summary and Constraints for Any Future Theory
+## Summary and Constraints for Any Future Theory
 
 We have traveled from the foundations of mechanical causality to the largest scales of the cosmos. The argument has been cumulative: each section built on the last, showing that a single physical substrate — a pressurized, flowing graviton medium — produces the phenomena that mainstream physics describes but does not explain.
 
@@ -4593,7 +4595,7 @@ This final section does three things:
 
 3.  States the constraints that any future theory must satisfy to be causally complete
 
-## The Five Criteria (Restated)
+### The Five Criteria (Restated)
 
 From Section <a href="#sec:mechanism" data-reference-type="ref" data-reference="sec:mechanism">4</a>, a mechanism must satisfy:
 
@@ -4611,117 +4613,117 @@ From Section <a href="#sec:mechanism" data-reference-type="ref" data-reference="
 
 These are not philosophical preferences. They are engineering requirements for a complete causal explanation. Mainstream physics fails them. GPT satisfies them.
 
-## How GPT Satisfies the Five Criteria
+### How GPT Satisfies the Five Criteria
 
-### Criterion 1: Actors
+#### Criterion 1: Actors
 
 <div class="center">
 
-| **Phenomenon**   | **Actors**                                                |
-|:-----------------|:----------------------------------------------------------|
-| Gravity          | Gravitons (medium) + coherent matter (mass)               |
-| Inertia/momentum | Gravitons + moving object                                 |
-| Time dilation    | Gravitons + clock atoms                                   |
-| Charge           | Gravitons + biased exchange kernel                        |
-| Magnetism        | Gravitons + moving bias (current)                         |
-| Light            | Coupled oscillations of $\psi$ and $\mathbf{A}$ in medium |
+| **Phenomenon**   | **Actors**                                                                                                                      |
+|:-----------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| Gravity          | Gravitons (medium) + coherent matter (mass)                                                                                     |
+| Inertia/momentum | Gravitons + moving object                                                                                                       |
+| Time dilation    | Gravitons + clock atoms                                                                                                         |
+| Charge           | Gravitons + biased exchange kernel                                                                                              |
+| Magnetism        | Gravitons + moving bias (current)                                                                                               |
+| Light            | Coupled oscillations of <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> in medium |
 
 </div>
 
 *All actors are physical. No wavefunctions, no metrics, no spacetime curvature.*
 
-### Criterion 2: Transfer Quantity
+#### Criterion 2: Transfer Quantity
 
 <div class="center">
 
-| **Phenomenon**   | **Transfer Quantity**                                            |
-|:-----------------|:-----------------------------------------------------------------|
-| Gravity          | Momentum and pressure via absorption/vacancy/inflow cycle        |
-| Inertia/momentum | Momentum via anisotropic absorption; momentum corridor in medium |
-| Time dilation    | Coherence via N/$\Gamma$ cycle                                   |
-| Charge           | Bias via exchange kernel asymmetry                               |
-| Magnetism        | Curl organization via moving bias                                |
-| Light            | Phase and amplitude via coupled medium oscillations              |
+| **Phenomenon**   | **Transfer Quantity**                                             |
+|:-----------------|:------------------------------------------------------------------|
+| Gravity          | Momentum and pressure via absorption/vacancy/inflow cycle         |
+| Inertia/momentum | Momentum via anisotropic absorption; momentum corridor in medium  |
+| Time dilation    | Coherence via N/<span class="math inline">\\\Gamma\\</span> cycle |
+| Charge           | Bias via exchange kernel asymmetry                                |
+| Magnetism        | Curl organization via moving bias                                 |
+| Light            | Phase and amplitude via coupled medium oscillations               |
 
 </div>
 
 *All transfers are local and physical. No action at a distance.*
 
-### Criterion 3: Interaction Rate
+#### Criterion 3: Interaction Rate
 
 <div class="center">
 
-| **Phenomenon**    | **Interaction Rate**                                             |
-|:------------------|:-----------------------------------------------------------------|
-| Gravity           | $\Gamma_{\text{abs}} \propto \rho_g v_{\text{rel}}$ — continuous |
-| Orbital resonance | $f_{\text{obj}} = k\Omega$ matching $f_{\text{field}}(r_n)$      |
-| Time dilation     | $\tau = N/\Gamma$ — tick duration determined by ratio            |
-| Electric force    | $\mathbf{e} = -\nabla \psi$ — continuous gradient                |
-| Magnetic force    | $\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q$ — current-driven     |
+| **Phenomenon**    | **Interaction Rate**                                                                                                                |
+|:------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| Gravity           | <span class="math inline">\\\Gamma\_{\text{abs}} \propto \rho_g v\_{\text{rel}}\\</span> — continuous                               |
+| Orbital resonance | <span class="math inline">\\f\_{\text{obj}} = k\Omega\\</span> matching <span class="math inline">\\f\_{\text{field}}(r_n)\\</span> |
+| Time dilation     | <span class="math inline">\\\tau = N/\Gamma\\</span> — tick duration determined by ratio                                            |
+| Electric force    | <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span> — continuous gradient                                                |
+| Magnetic force    | <span class="math inline">\\\nabla^2 \mathbf{A} = -\beta \mathbf{J}\_q\\</span> — current-driven                                    |
 
 </div>
 
 *All rates are specified. No undefined "interactions."*
 
-### Criterion 4: Directionality
+#### Criterion 4: Directionality
 
 <div class="center">
 
-| **Phenomenon**                | **Directionality**                                           |
-|:------------------------------|:-------------------------------------------------------------|
-| Gravity                       | Inward radial: $v(r) = \sqrt{2GM/r}$ from EP + static radius |
-| Weight                        | Downward from pressure gradient                              |
-| Orbits                        | Tangential resonance corridors (prograde preferred)          |
-| Attraction (opposite charges) | Shared exchange corridor                                     |
-| Repulsion (like charges)      | Outflow conflict or vacancy conflict                         |
-| Magnetism                     | Curl around current: $\mathbf{b} = \nabla \times \mathbf{A}$ |
-| Light deflection              | Toward mass (refractive index gradient)                      |
+| **Phenomenon**                | **Directionality**                                                                              |
+|:------------------------------|:------------------------------------------------------------------------------------------------|
+| Gravity                       | Inward radial: <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span> from EP + static radius |
+| Weight                        | Downward from pressure gradient                                                                 |
+| Orbits                        | Tangential resonance corridors (prograde preferred)                                             |
+| Attraction (opposite charges) | Shared exchange corridor                                                                        |
+| Repulsion (like charges)      | Outflow conflict or vacancy conflict                                                            |
+| Magnetism                     | Curl around current: <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span> |
+| Light deflection              | Toward mass (refractive index gradient)                                                         |
 
 </div>
 
 *All directionality is explained. No appeals to "initial conditions" or "symmetry."*
 
-### Criterion 5: Self-consistency
+#### Criterion 5: Self-consistency
 
 <div class="center">
 
-| **Domain**            | **Emergent Constraint**                                                              |
-|:----------------------|:-------------------------------------------------------------------------------------|
-| Medium dynamics       | Continuity, pressure gradient, self-repulsion — no external forces                   |
-| Solidity              | Containment from internal circulation — no external binding                          |
-| Orbital stability     | Resonance condition — not imposed but emergent from field structure                  |
-| Charge conservation   | Energy barrier prevents bias flip — no external conservation law                     |
-| Momentum conservation | Medium’s structured flow conserved — no external Noether imposition                  |
-| $\epsilon_0, \mu_0$   | Medium properties (bias compressibility, curl stiffness) — not fundamental constants |
+| **Domain**                                             | **Emergent Constraint**                                                              |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------------------|
+| Medium dynamics                                        | Continuity, pressure gradient, self-repulsion — no external forces                   |
+| Solidity                                               | Containment from internal circulation — no external binding                          |
+| Orbital stability                                      | Resonance condition — not imposed but emergent from field structure                  |
+| Charge conservation                                    | Energy barrier prevents bias flip — no external conservation law                     |
+| Momentum conservation                                  | Medium’s structured flow conserved — no external Noether imposition                  |
+| <span class="math inline">\\\epsilon_0, \mu_0\\</span> | Medium properties (bias compressibility, curl stiffness) — not fundamental constants |
 
 </div>
 
 *All constraints emerge from the medium. No external impositions, no hand-imposed boundary conditions, no renormalization patches.*
 
-## The Unified Causal Table
+### The Unified Causal Table
 
 <div class="center">
 
-| **Phenomenon** | **Mainstream Description**             | **GPT Mechanism**                                                          | **Causal?** |
-|:---------------|:---------------------------------------|:---------------------------------------------------------------------------|:-----------:|
-| Gravity        | Curved spacetime / force at a distance | Pressure gradient from inward flow                                         |     Yes     |
-| Weight         | $mg$ (axiom)                           | Boundary pressure between containment fields                               |     Yes     |
-| Solidity       | Atomic bonding                         | Graviton containment (closed-loop circulation)                             |     Yes     |
-| Inertia        | Intrinsic property                     | Resistance to corridor reorientation                                       |     Yes     |
-| Momentum       | $p = mv$ (Noether)                     | Carved corridor in medium                                                  |     Yes     |
-| Time dilation  | Metric stretching                      | N/$\Gamma$ cycle — increased load slows ticks                              |     Yes     |
-| Charge         | Primitive label                        | Stabilized directional bias in exchange                                    |     Yes     |
-| Electric field | Fundamental field                      | Bias-potential gradient $\mathbf{e} = -\nabla \psi$                        |     Yes     |
-| Magnetism      | Separate force                         | Curl organization from moving bias $\mathbf{b} = \nabla \times \mathbf{A}$ |     Yes     |
-| Light          | EM wave in empty space                 | Coupled $\psi$ and $\mathbf{A}$ oscillations in medium                     |     Yes     |
-| Dark matter    | Invisible particles                    | Shell resonance — medium structures orbits                                 |     Yes     |
-| Dark energy    | Cosmological constant                  | Global flow divergence — medium self-repulsion                             |     Yes     |
+| **Phenomenon** | **Mainstream Description**                            | **GPT Mechanism**                                                                                                            | **Causal?** |
+|:---------------|:------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:-----------:|
+| Gravity        | Curved spacetime / force at a distance                | Pressure gradient from inward flow                                                                                           |     Yes     |
+| Weight         | <span class="math inline">\\mg\\</span> (axiom)       | Boundary pressure between containment fields                                                                                 |     Yes     |
+| Solidity       | Atomic bonding                                        | Graviton containment (closed-loop circulation)                                                                               |     Yes     |
+| Inertia        | Intrinsic property                                    | Resistance to corridor reorientation                                                                                         |     Yes     |
+| Momentum       | <span class="math inline">\\p = mv\\</span> (Noether) | Carved corridor in medium                                                                                                    |     Yes     |
+| Time dilation  | Metric stretching                                     | N/<span class="math inline">\\\Gamma\\</span> cycle — increased load slows ticks                                             |     Yes     |
+| Charge         | Primitive label                                       | Stabilized directional bias in exchange                                                                                      |     Yes     |
+| Electric field | Fundamental field                                     | Bias-potential gradient <span class="math inline">\\\mathbf{e} = -\nabla \psi\\</span>                                       |     Yes     |
+| Magnetism      | Separate force                                        | Curl organization from moving bias <span class="math inline">\\\mathbf{b} = \nabla \times \mathbf{A}\\</span>                |     Yes     |
+| Light          | EM wave in empty space                                | Coupled <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> oscillations in medium |     Yes     |
+| Dark matter    | Invisible particles                                   | Shell resonance — medium structures orbits                                                                                   |     Yes     |
+| Dark energy    | Cosmological constant                                 | Global flow divergence — medium self-repulsion                                                                               |     Yes     |
 
 </div>
 
 *Every row has a mechanism. No placeholders. No mysteries.*
 
-## Constraints for Any Future Theory
+### Constraints for Any Future Theory
 
 If a future theory claims to be causally complete, it must satisfy the following constraints — which GPT already satisfies:
 
@@ -4729,17 +4731,17 @@ If a future theory claims to be causally complete, it must satisfy the following
 
   *GPT satisfaction:* Gravitons. Inflow, absorption, ejection, self-repulsion.
 
-- **Constraint B (The Flow Rate):** Account for why $g = a$ without requiring expansion of matter, while producing uniform inertial response.
+- **Constraint B (The Flow Rate):** Account for why <span class="math inline">\\g = a\\</span> without requiring expansion of matter, while producing uniform inertial response.
 
-  *GPT satisfaction:* EP forces inward flow $v(r) = \sqrt{2GM/r}$; inertia from corridor reorientation resistance.
+  *GPT satisfaction:* EP forces inward flow <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>; inertia from corridor reorientation resistance.
 
 - **Constraint C (The Medium Density):** Bridge the gap between quantum vacuum pressure (Casimir) and gravitational curvature (time dilation, lensing).
 
-  *GPT satisfaction:* Medium density $\rho_0$ is uniform; $n(r) = 1 + \delta \rho_g/\rho_0$ produces both.
+  *GPT satisfaction:* Medium density <span class="math inline">\\\rho_0\\</span> is uniform; <span class="math inline">\\n(r) = 1 + \delta \rho_g/\rho_0\\</span> produces both.
 
 - **Constraint D (Unified Temporality):** Mechanistically slow clocks via interaction, not abstract interval stretching.
 
-  *GPT satisfaction:* $\tau = N/\Gamma$; gravitational and velocity dilation from load/rate imbalance.
+  *GPT satisfaction:* <span class="math inline">\\\tau = N/\Gamma\\</span>; gravitational and velocity dilation from load/rate imbalance.
 
 - **Constraint E (Charge and Magnetism):** Explain why there are two signs, why opposite attracts, why like repels, and what carries the force.
 
@@ -4749,25 +4751,25 @@ If a future theory claims to be causally complete, it must satisfy the following
 
   *GPT satisfaction:* Shell resonance (dark matter); global flow divergence (dark energy).
 
-## What GPT Does Not Yet Explain
+### What GPT Does Not Yet Explain
 
 No theory is complete. GPT has gaps — but they are gaps of *development*, not of principle:
 
 <div class="center">
 
-| **Open Question**                                    | **Current Status**                                                                                                                                                                                                                                |
-|:-----------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Exact form of graviton self-repulsion constant $k_g$ | To be determined from experiment (Part 15)                                                                                                                                                                                                        |
-| Quantum-gravity regime (Planck scale)                | Not yet modeled; medium dynamics may resolve singularities                                                                                                                                                                                        |
-| Origin of $\hbar$ (minimal action unit)              | Emerges from medium coherence scale; precise derivation pending                                                                                                                                                                                   |
-| Full covariant formulation                           | Partial (Sections <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>-<a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>); full field equations in development |
-| Detailed atomic spectra from resonance condition     | Qualitative match (Section <a href="#subsec:scaling_invariance" data-reference-type="ref" data-reference="subsec:scaling_invariance">14.18</a>); quantitative derivation pending                                                                  |
+| **Open Question**                                                                       | **Current Status**                                                                                                                                                                                                                                |
+|:----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Exact form of graviton self-repulsion constant <span class="math inline">\\k_g\\</span> | To be determined from experiment (Part 15)                                                                                                                                                                                                        |
+| Quantum-gravity regime (Planck scale)                                                   | Not yet modeled; medium dynamics may resolve singularities                                                                                                                                                                                        |
+| Origin of <span class="math inline">\\\hbar\\</span> (minimal action unit)              | Emerges from medium coherence scale; precise derivation pending                                                                                                                                                                                   |
+| Full covariant formulation                                                              | Partial (Sections <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>-<a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>); full field equations in development |
+| Detailed atomic spectra from resonance condition                                        | Qualitative match (Section <a href="#subsec:scaling_invariance" data-reference-type="ref" data-reference="subsec:scaling_invariance">14.18</a>); quantitative derivation pending                                                                  |
 
 </div>
 
 These are not failures. They are *opportunities*. GPT provides a framework for answering them — without resorting to geometric abstractions or invisible placeholders.
 
-## The Deepest Implication
+### The Deepest Implication
 
 We began this paper with a question: **Why has uncertainty not destroyed everything? Why does structure survive?**
 
@@ -4785,7 +4787,7 @@ GPT does not end inquiry. It reopens it.
 
 Uncertainty remains — but it is no longer sovereign. Structure returns — and with it, understanding.
 
-## Closing Statement
+### Closing Statement
 
 The Equivalence Principle is not a suggestion. It is a mechanical blueprint. The vacuum is not empty. It is a pressurized, flowing medium. Gravity is not curvature. It is pressure gradient. Time is not a dimension. It is a cycle. Charge is not a label. It is bias. Magnetism is not a separate force. It is structured flow. Light is not a mystery. It is a wave in the medium.
 
@@ -4795,191 +4797,191 @@ The map is not the territory. The equations are not the reality.
 
 **The medium is.**
 
-# Appendix A: Derivation of Uniform $\rho_0$ from Continuity and $g$ Profile
+## Appendix A: Derivation of Uniform <span class="math inline">\\\rho_0\\</span> from Continuity and <span class="math inline">\\g\\</span> Profile
 
-We derive the surprising result that the graviton medium density $\rho_g$ is constant outside a spherical mass, to first order.
+We derive the surprising result that the graviton medium density <span class="math inline">\\\rho_g\\</span> is constant outside a spherical mass, to first order.
 
-#### Setup:
+##### Setup:
 
-Consider a spherical mass $M$ at the origin, with static radius $R$. From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, the Equivalence Principle and Newtonian gravity give the inward flow velocity:
+Consider a spherical mass <span class="math inline">\\M\\</span> at the origin, with static radius <span class="math inline">\\R\\</span>. From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, the Equivalence Principle and Newtonian gravity give the inward flow velocity:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
 The graviton medium is not created or destroyed except at the mass itself, which acts as a sink. The continuity equation with sink term is:
 
-$$\nabla \cdot (\rho_g \mathbf{v}) = -S(\mathbf{r})$$
+<span class="math display">\\\nabla \cdot (\rho_g \mathbf{v}) = -S(\mathbf{r})\\</span>
 
-where $S(\mathbf{r}) = \alpha M \delta^3(\mathbf{r})$ represents graviton absorption by the mass, with $\alpha$ a coupling constant.
+where <span class="math inline">\\S(\mathbf{r}) = \alpha M \delta^3(\mathbf{r})\\</span> represents graviton absorption by the mass, with <span class="math inline">\\\alpha\\</span> a coupling constant.
 
-#### Step 1: Integrate over a sphere of radius $r$.
+##### Step 1: Integrate over a sphere of radius <span class="math inline">\\r\\</span>.
 
-$$\int_{r' \leq r} \nabla \cdot (\rho_g \mathbf{v}) \, dV = \oint_{r' = r} \rho_g \mathbf{v} \cdot d\mathbf{A} = -\int_{r' \leq r} S(\mathbf{r'}) \, dV = -\alpha M$$
+<span class="math display">\\\int\_{r' \leq r} \nabla \cdot (\rho_g \mathbf{v}) \\ dV = \oint\_{r' = r} \rho_g \mathbf{v} \cdot d\mathbf{A} = -\int\_{r' \leq r} S(\mathbf{r'}) \\ dV = -\alpha M\\</span>
 
-For radial inflow $\mathbf{v} = -v(r) \hat{\mathbf{r}}$, the surface integral is:
+For radial inflow <span class="math inline">\\\mathbf{v} = -v(r) \hat{\mathbf{r}}\\</span>, the surface integral is:
 
-$$\oint \rho_g \mathbf{v} \cdot d\mathbf{A} = \rho_g(r) \cdot (-v(r)) \cdot 4\pi r^2 = -4\pi r^2 \rho_g(r) v(r)$$
-
-Thus:
-
-$$-4\pi r^2 \rho_g(r) v(r) = -\alpha M \quad \Rightarrow \quad 4\pi r^2 \rho_g(r) v(r) = \alpha M$$
-
-#### Step 2: Solve for $\rho_g(r)$.
-
-$$\rho_g(r) = \frac{\alpha M}{4\pi r^2 v(r)}$$
-
-Substitute $v(r) = \sqrt{2GM/r}$:
-
-$$\rho_g(r) = \frac{\alpha M}{4\pi r^2} \cdot \frac{1}{\sqrt{2GM/r}} = \frac{\alpha M}{4\pi r^{3/2} \sqrt{2GM}} = \frac{\alpha \sqrt{M}}{4\pi \sqrt{2G}} \cdot \frac{1}{r^{3/2}}$$
-
-This appears to depend on $r^{3/2}$. However, this is the *total* density. The background density $\rho_0$ must be subtracted.
-
-#### Step 3: Separate background and perturbation.
-
-Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. The absorption constant $\alpha$ is not independent — it is determined by the medium’s properties and the mass’s coherence. For a steady-state solution that matches the background at infinity, we require that the perturbation decays faster than $1/r^{3/2}$. The full solution (including the back-reaction of the medium on itself) yields:
-
-$$\delta \rho(r) = \rho_0 \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2$$
+<span class="math display">\\\oint \rho_g \mathbf{v} \cdot d\mathbf{A} = \rho_g(r) \cdot (-v(r)) \cdot 4\pi r^2 = -4\pi r^2 \rho_g(r) v(r)\\</span>
 
 Thus:
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
+<span class="math display">\\-4\pi r^2 \rho_g(r) v(r) = -\alpha M \quad \Rightarrow \quad 4\pi r^2 \rho_g(r) v(r) = \alpha M\\</span>
 
-For Earth, $2GM/(c^2 R) \approx 1.4 \times 10^{-9}$, so the density variation is tiny. **To first order, $\rho_g$ is constant outside the mass.**
+##### Step 2: Solve for <span class="math inline">\\\rho_g(r)\\</span>.
 
-#### Conclusion:
+<span class="math display">\\\rho_g(r) = \frac{\alpha M}{4\pi r^2 v(r)}\\</span>
+
+Substitute <span class="math inline">\\v(r) = \sqrt{2GM/r}\\</span>:
+
+<span class="math display">\\\rho_g(r) = \frac{\alpha M}{4\pi r^2} \cdot \frac{1}{\sqrt{2GM/r}} = \frac{\alpha M}{4\pi r^{3/2} \sqrt{2GM}} = \frac{\alpha \sqrt{M}}{4\pi \sqrt{2G}} \cdot \frac{1}{r^{3/2}}\\</span>
+
+This appears to depend on <span class="math inline">\\r^{3/2}\\</span>. However, this is the *total* density. The background density <span class="math inline">\\\rho_0\\</span> must be subtracted.
+
+##### Step 3: Separate background and perturbation.
+
+Let <span class="math inline">\\\rho_g(r) = \rho_0 + \delta \rho(r)\\</span>. The absorption constant <span class="math inline">\\\alpha\\</span> is not independent — it is determined by the medium’s properties and the mass’s coherence. For a steady-state solution that matches the background at infinity, we require that the perturbation decays faster than <span class="math inline">\\1/r^{3/2}\\</span>. The full solution (including the back-reaction of the medium on itself) yields:
+
+<span class="math display">\\\delta \rho(r) = \rho_0 \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2\\</span>
+
+Thus:
+
+<span class="math display">\\\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)\\</span>
+
+For Earth, <span class="math inline">\\2GM/(c^2 R) \approx 1.4 \times 10^{-9}\\</span>, so the density variation is tiny. **To first order, <span class="math inline">\\\rho_g\\</span> is constant outside the mass.**
+
+##### Conclusion:
 
 The vacuum density is uniform. This is not an assumption — it is derived from continuity and the observed gravity profile.
 
-## Derivation of Inward Flow Velocity and Force Density
+### Derivation of Inward Flow Velocity and Force Density
 
-Applying continuity to an active graviton absorption sink $S(r) = \alpha M \delta^3(\vec{r})$, the steady-state mass conservation relation yields:
+Applying continuity to an active graviton absorption sink <span class="math inline">\\S(r) = \alpha M \delta^3(\vec{r})\\</span>, the steady-state mass conservation relation yields:
 
-$$\nabla \cdot (\rho_g \vec{u}) = -S(r)$$
+<span class="math display">\\\nabla \cdot (\rho_g \vec{u}) = -S(r)\\</span>
 
-Integrating over a spherical boundary of radius $r$ centered on mass $M$:
+Integrating over a spherical boundary of radius <span class="math inline">\\r\\</span> centered on mass <span class="math inline">\\M\\</span>:
 
-$$\oint_{r'=r} \rho_g \vec{u} \cdot d\vec{A} = -\alpha M \implies 4\pi r^2 \rho_g(r) v(r) = \alpha M$$
+<span class="math display">\\\oint\_{r'=r} \rho_g \vec{u} \cdot d\vec{A} = -\alpha M \implies 4\pi r^2 \rho_g(r) v(r) = \alpha M\\</span>
 
-Matching the convective derivative of relative flow $a = -v \frac{dv}{dr}$ to Newtonian acceleration $g(r) = \frac{GM}{r^2}$ determines the inward radial velocity profile:
+Matching the convective derivative of relative flow <span class="math inline">\\a = -v \frac{dv}{dr}\\</span> to Newtonian acceleration <span class="math inline">\\g(r) = \frac{GM}{r^2}\\</span> determines the inward radial velocity profile:
 
-$$v(r) = \sqrt{\frac{2GM}{r}}$$
+<span class="math display">\\v(r) = \sqrt{\frac{2GM}{r}}\\</span>
 
 The physical force density exerted on an embedded coherent atomic lattice is given by the negative pressure gradient of the self-repulsive kinetic substrate:
 
-$$\vec{f} = -\nabla P_g \implies \vec{F} = -V_{\text{eff}} \nabla P_g = -m \nabla \Phi$$
+<span class="math display">\\\vec{f} = -\nabla P_g \implies \vec{F} = -V\_{\text{eff}} \nabla P_g = -m \nabla \Phi\\</span>
 
-Where $V_{\text{eff}} = \kappa m$ represents the effective interaction volume scaling linearly with coherent atomic mass.
+Where <span class="math inline">\\V\_{\text{eff}} = \kappa m\\</span> represents the effective interaction volume scaling linearly with coherent atomic mass.
 
-# Appendix B: Scattering Cross-Section and Self-Consistency for $g$
+## Appendix B: Scattering Cross-Section and Self-Consistency for <span class="math inline">\\g\\</span>
 
-We derive the relationship between surface gravity $g$ and vacuum density $\rho_0$.
+We derive the relationship between surface gravity <span class="math inline">\\g\\</span> and vacuum density <span class="math inline">\\\rho_0\\</span>.
 
-#### Step 1: Ram pressure from inward flow.
+##### Step 1: Ram pressure from inward flow.
 
-From Section <a href="#sec:pressure_gradient" data-reference-type="ref" data-reference="sec:pressure_gradient">12</a>, an object at rest on Earth’s surface experiences an inward flow velocity $v(R) = \sqrt{2GM/R}$. The dynamic pressure is:
+From Section <a href="#sec:pressure_gradient" data-reference-type="ref" data-reference="sec:pressure_gradient">12</a>, an object at rest on Earth’s surface experiences an inward flow velocity <span class="math inline">\\v(R) = \sqrt{2GM/R}\\</span>. The dynamic pressure is:
 
-$$P_{\text{ram}} = \gamma \rho_0 v(R)^2$$
+<span class="math display">\\P\_{\text{ram}} = \gamma \rho_0 v(R)^2\\</span>
 
-where $\gamma$ is a geometric factor. From kinetic theory, $\gamma = 3/2$.
+where <span class="math inline">\\\gamma\\</span> is a geometric factor. From kinetic theory, <span class="math inline">\\\gamma = 3/2\\</span>.
 
-#### Step 2: Force on a macroscopic object.
+##### Step 2: Force on a macroscopic object.
 
 The effective cross-sectional area for graviton interaction is the total scattering cross-section of all atoms in the object:
 
-$$A_{\text{eff}} = \frac{m}{m_{\text{atom}}} \cdot \sigma$$
+<span class="math display">\\A\_{\text{eff}} = \frac{m}{m\_{\text{atom}}} \cdot \sigma\\</span>
 
 where:
 
-- $m$ is the object’s mass
+- <span class="math inline">\\m\\</span> is the object’s mass
 
-- $m_{\text{atom}}$ is the mass per atom (approximately the proton mass for ordinary matter)
+- <span class="math inline">\\m\_{\text{atom}}\\</span> is the mass per atom (approximately the proton mass for ordinary matter)
 
-- $\sigma$ is the scattering cross-section per atom
+- <span class="math inline">\\\sigma\\</span> is the scattering cross-section per atom
 
 The force is:
 
-$$F = P_{\text{ram}} \cdot A_{\text{eff}} = \gamma \rho_0 v(R)^2 \cdot \frac{m}{m_{\text{atom}}} \sigma$$
+<span class="math display">\\F = P\_{\text{ram}} \cdot A\_{\text{eff}} = \gamma \rho_0 v(R)^2 \cdot \frac{m}{m\_{\text{atom}}} \sigma\\</span>
 
-By definition, $F = mg$. Canceling $m$:
+By definition, <span class="math inline">\\F = mg\\</span>. Canceling <span class="math inline">\\m\\</span>:
 
-$$g = \gamma \rho_0 v(R)^2 \frac{\sigma}{m_{\text{atom}}}$$
+<span class="math display">\\g = \gamma \rho_0 v(R)^2 \frac{\sigma}{m\_{\text{atom}}}\\</span>
 
-#### Step 3: Express $\sigma$ in terms of medium parameters.
+##### Step 3: Express <span class="math inline">\\\sigma\\</span> in terms of medium parameters.
 
 The scattering cross-section for graviton-atom interactions is determined by the coupling between the medium and matter. Dimensional analysis gives:
 
-$$\sigma = \frac{\kappa}{m_{\text{atom}}} \cdot \frac{1}{c^2}$$
+<span class="math display">\\\sigma = \kappa \left(\frac{\hbar}{m\_{\text{atom}}\\ c}\right)^2\\</span>
 
-where $\kappa$ is a dimensionless constant. The factor $1/m_{\text{atom}}$ ensures that heavier atoms (more nucleons) have larger cross-section.
+where <span class="math inline">\\\kappa\\</span> is a dimensionless constant. (<span class="math inline">\\\hbar/m\_{\text{atom}}c\\</span> is the atom's reduced Compton wavelength, the only length that can be formed from <span class="math inline">\\\hbar\\</span>, <span class="math inline">\\m\_{\text{atom}}\\</span> and <span class="math inline">\\c\\</span>.)
 
-#### Step 4: Determine $\kappa$ from self-consistency.
+##### Step 4: Determine <span class="math inline">\\\kappa\\</span> from self-consistency.
 
-Substitute $\sigma$ into the equation for $g$:
+Substitute <span class="math inline">\\\sigma\\</span> into the equation for <span class="math inline">\\g\\</span>:
 
-$$g = \gamma \rho_0 v(R)^2 \frac{1}{m_{\text{atom}}} \cdot \frac{\kappa}{m_{\text{atom}} c^2}$$
+<span class="math display">\\g = \gamma \rho_0 v(R)^2 \\ \frac{\kappa \hbar^2}{m\_{\text{atom}}^3 c^2}\\</span>
 
-From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, $v(R) = \sqrt{2gR}$. Also, $g = GM/R^2$. The self-consistency condition determines $\kappa$.
+From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, <span class="math inline">\\v(R) = \sqrt{2gR}\\</span>. Also, <span class="math inline">\\g = GM/R^2\\</span>. The self-consistency condition determines <span class="math inline">\\\kappa\\</span>.
 
-For Earth, $g = 9.8 \, \text{m/s}^2$, $\rho_0 \approx 10^{-26} \, \text{kg/m}^3$, $m_{\text{atom}} \approx 1.67 \times 10^{-27} \, \text{kg}$. Solving for $\kappa$ yields:
+For Earth, <span class="math inline">\\g = 9.8 \\ \text{m/s}^2\\</span>, <span class="math inline">\\\rho_0 \approx 10^{-26} \\ \text{kg/m}^3\\</span>, <span class="math inline">\\m\_{\text{atom}} \approx 1.67 \times 10^{-27} \\ \text{kg}\\</span>. Solving for <span class="math inline">\\\kappa\\</span> yields:
 
-$$\kappa \approx 3$$
+<span class="math display">\\\kappa = \frac{m\_{\text{atom}}^3 c^2}{2\gamma \rho_0 R \hbar^2} \approx 2 \times 10^{23}\\</span>
 
 Thus:
 
-$$\sigma = \frac{3}{m_{\text{atom}} c^2}$$
+<span class="math display">\\\sigma = \frac{m\_{\text{atom}}}{2\gamma \rho_0 R} \approx 9 \times 10^{-9}\\ \text{m}^2\\</span>
 
-#### Step 5: Derive $g$ in terms of $\rho_0$.
+##### Step 5: Derive <span class="math inline">\\g\\</span> in terms of <span class="math inline">\\\rho_0\\</span>.
 
 Substituting back:
 
-$$g = \gamma \rho_0 v(R)^2 \cdot \frac{3}{m_{\text{atom}}^2 c^2}$$
+<span class="math display">\\g = \gamma \rho_0 v(R)^2 \\ \frac{\kappa \hbar^2}{m\_{\text{atom}}^3 c^2}\\</span>
 
-Using $v(R)^2 = 2GM/R = 2gR$:
+Using <span class="math inline">\\v(R)^2 = 2GM/R = 2gR\\</span>:
 
-$$g = \gamma \rho_0 (2gR) \cdot \frac{3}{m_{\text{atom}}^2 c^2}$$
+<span class="math display">\\g = \gamma \rho_0 (2gR) \\ \frac{\kappa \hbar^2}{m\_{\text{atom}}^3 c^2}\\</span>
 
-Cancel $g$ (non-zero):
+Cancel <span class="math inline">\\g\\</span> (non-zero):
 
-$$1 = \frac{6\gamma \rho_0 R}{m_{\text{atom}}^2 c^2}$$
+<span class="math display">\\1 = \frac{2\gamma \kappa \rho_0 R \hbar^2}{m\_{\text{atom}}^3 c^2}\\</span>
 
-This gives a relation between $R$ and $\rho_0$ for a given body. For Earth, with $R = 6.37 \times 10^6$ m, $\rho_0 \approx 10^{-26}$, $m_{\text{atom}} = 1.67 \times 10^{-27}$, the equation is satisfied with $\gamma \kappa \approx 3$. Taking $\gamma = 3/2$ gives $\kappa = 2$.
+This gives a relation between <span class="math inline">\\R\\</span> and <span class="math inline">\\\rho_0\\</span> for a given body. For Earth, with <span class="math inline">\\R = 6.37 \times 10^6\\</span> m, <span class="math inline">\\\rho_0 \approx 10^{-26}\\</span>, <span class="math inline">\\m\_{\text{atom}} = 1.67 \times 10^{-27}\\</span>, the equation is satisfied with <span class="math inline">\\\gamma \kappa \approx 3 \times 10^{23}\\</span>. Taking <span class="math inline">\\\gamma = 3/2\\</span> gives <span class="math inline">\\\kappa \approx 2 \times 10^{23}\\</span>.
 
 Thus:
 
-$$\sigma = \frac{2}{m_{\text{atom}} c^2}$$
+<span class="math display">\\\sigma = \frac{m\_{\text{atom}}}{2\gamma \rho_0 R} = \frac{m\_{\text{atom}}}{3 \rho_0 R} \approx 9 \times 10^{-9}\\ \text{m}^2\\</span>
 
 And the final expression for surface gravity is:
 
-$$g = \frac{3\rho_0 v^2}{m_{\text{atom}}} \cdot \frac{2}{m_{\text{atom}} c^2} = \frac{6 \rho_0 v^2}{m_{\text{atom}}^2 c^2}$$
+<span class="math display">\\g = \frac{3}{2}\rho_0 v^2 \\ \frac{\sigma}{m\_{\text{atom}}} = \frac{v^2}{2R}\\</span>
 
-With $v^2 = 2GM/R$, we recover Newtonian gravity. The key result is the proportionality: $g \propto \rho_0 / m_{\text{atom}}^2$. For fixed atomic composition, surface gravity is determined by vacuum density.
+With <span class="math inline">\\v^2 = 2GM/R\\</span>, we recover Newtonian gravity. Because <span class="math inline">\\v^2 = 2gR\\</span> was used as an input, this is a consistency condition rather than an independent prediction of <span class="math inline">\\g\\</span>: it fixes the cross-section per atom, <span class="math inline">\\\sigma = m\_{\text{atom}}/(3\rho_0 R)\\</span>, which as written depends on the body's radius. A cross-section that is the same for every body is still needed before this appendix can predict <span class="math inline">\\g\\</span> from <span class="math inline">\\\rho_0\\</span>.
 
-# Appendix C: Formalization of the GPT Unit Space
+## Appendix C: Formalization of the GPT Unit Space
 
 To transition Graviton Pressure Theory from a foundational framework into an applied engineering discipline, we formalize its metric space\[cite: 5\]. While classical SI units measure macroscopic effects (Newtons, Joules, Pascals), the GPT Unit Space measures the underlying kinetic medium interactions\[cite: 5\].
 
-## Base Unit: Graviton Pressure ($gp$)
+### Base Unit: Graviton Pressure (<span class="math inline">\\gp\\</span>)
 
-The fundamental unit of directional field stress is the **graviton pressure** ($gp$), defined as the net directional momentum transfer per unit area exerted by the self-repulsive substrate\[cite: 5\]:
+The fundamental unit of directional field stress is the **graviton pressure** (<span class="math inline">\\gp\\</span>), defined as the net directional momentum transfer per unit area exerted by the self-repulsive substrate\[cite: 5\]:
 
-$$1\,\text{gp} \equiv 1\,\text{N/m}^2 = 1\,\text{Pa of directional field stress}$$
+<span class="math display">\\1\\\text{gp} \equiv 1\\\text{N/m}^2 = 1\\\text{Pa of directional field stress}\\</span>
 
-The baseline vacuum background pressure far from mass sinks is denoted as $P_0 \approx 10^{-26}\,\text{kg/m}^3 \cdot c^2$\[cite: 4, 11\].
+The baseline vacuum background pressure far from mass sinks is denoted as <span class="math inline">\\P_0 \approx 10^{-26}\\\text{kg/m}^3 \cdot c^2\\</span>\[cite: 4, 11\].
 
-## Derived Engineering Quantities
+### Derived Engineering Quantities
 
-1.  **Coherence Resistance ($C_{\text{res}}$):** Measures an atomic lattice’s impedance to coherent graviton flow\[cite: 5\]. It quantifies the pressure drop required to maintain structural alignment\[cite: 5\]: $$C_{\text{res}} = \frac{\Delta P_g}{\Phi_{\text{flux}}} \quad \left[\frac{\text{gp}}{\text{m}^3/\text{s}}\right]$$ High $C_{\text{res}}$ materials (e.g., dense ferromagnets) produce steep local pressure gradients and high GCI (Graviton Compatibility Index) values\[cite: 1, 5\].
+1.  **Coherence Resistance (<span class="math inline">\\C\_{\text{res}}\\</span>):** Measures an atomic lattice’s impedance to coherent graviton flow\[cite: 5\]. It quantifies the pressure drop required to maintain structural alignment\[cite: 5\]: <span class="math display">\\C\_{\text{res}} = \frac{\Delta P_g}{\Phi\_{\text{flux}}} \quad \left\[\frac{\text{gp}}{\text{m}^3/\text{s}}\right\]\\</span> High <span class="math inline">\\C\_{\text{res}}\\</span> materials (e.g., dense ferromagnets) produce steep local pressure gradients and high GCI (Graviton Compatibility Index) values\[cite: 1, 5\].
 
-2.  **Graviton Torque ($T_{gp}$):** The rotational shear stress induced on a spinning or non-uniform mass by anisotropic graviton inflow\[cite: 5\]: $$T_{gp} = \vec{r} \times (-\nabla P_g) \quad [\text{gp} \cdot \text{m}]$$ This governs spin-orbit resonance locking, tidal synchronization, and gyroscopic corridor retention\[cite: 1, 5\].
+2.  **Graviton Torque (<span class="math inline">\\T\_{gp}\\</span>):** The rotational shear stress induced on a spinning or non-uniform mass by anisotropic graviton inflow\[cite: 5\]: <span class="math display">\\T\_{gp} = \vec{r} \times (-V\_{\text{eff}}\nabla P_g) \quad \[\text{N} \cdot \text{m} = \text{gp} \cdot \text{m}^3\]\\</span> This governs spin-orbit resonance locking, tidal synchronization, and gyroscopic corridor retention\[cite: 1, 5\].
 
-3.  **Effective Coupling Ratio ($\kappa$):** The linear scaling factor relating macroscopic mass $m$ to its effective graviton interaction volume $V_{\text{eff}}$\[cite: 1, 5\]: $$V_{\text{eff}} = \kappa m \quad \left[\frac{\text{m}^3}{\text{kg}}\right]$$ This establishes why gravitational weight ($\vec{F} = -V_{\text{eff}} \nabla P_g = -\kappa m \nabla P_g$) scales strictly with atomic mass count\[cite: 1, 5\].
+3.  **Effective Coupling Ratio (<span class="math inline">\\\kappa\\</span>):** The linear scaling factor relating macroscopic mass <span class="math inline">\\m\\</span> to its effective graviton interaction volume <span class="math inline">\\V\_{\text{eff}}\\</span>\[cite: 1, 5\]: <span class="math display">\\V\_{\text{eff}} = \kappa m \quad \left\[\frac{\text{m}^3}{\text{kg}}\right\]\\</span> This establishes why gravitational weight (<span class="math inline">\\\vec{F} = -V\_{\text{eff}} \nabla P_g = -\kappa m \nabla P_g\\</span>) scales strictly with atomic mass count\[cite: 1, 5\].
 
-# Appendix D: Bistable Internal Potential and Charge Persistence
+## Appendix D: Bistable Internal Potential and Charge Persistence
 
 We derive the mechanism for charge persistence — why a charged particle maintains its charge indefinitely without decaying.
 
-#### Step 1: Internal order parameter.
+##### Step 1: Internal order parameter.
 
-Let $s$ be an internal order parameter representing the particle’s bias orientation. This could correspond to:
+Let <span class="math inline">\\s\\</span> be an internal order parameter representing the particle’s bias orientation. This could correspond to:
 
 - Spin alignment relative to internal structure
 
@@ -4989,93 +4991,93 @@ Let $s$ be an internal order parameter representing the particle’s bias orient
 
 The free energy of the particle is governed by a double-well potential:
 
-$$V(s) = a(s^2 - s_0^2)^2$$
+<span class="math display">\\V(s) = a(s^2 - s_0^2)^2\\</span>
 
-where $a > 0$ and $s_0 > 0$ are constants. This potential has two stable minima at $s = \pm s_0$, and an unstable maximum at $s = 0$.
+where <span class="math inline">\\a \> 0\\</span> and <span class="math inline">\\s_0 \> 0\\</span> are constants. This potential has two stable minima at <span class="math inline">\\s = \pm s_0\\</span>, and an unstable maximum at <span class="math inline">\\s = 0\\</span>.
 
-#### Step 2: Mapping to charge.
+##### Step 2: Mapping to charge.
 
-Define the bias magnitude $q(s) = q_0 \cdot (s/s_0)$. Then:
+Define the bias magnitude <span class="math inline">\\q(s) = q_0 \cdot (s/s_0)\\</span>. Then:
 
-- $s = +s_0$ corresponds to positive charge $q = +q_0$
+- <span class="math inline">\\s = +s_0\\</span> corresponds to positive charge <span class="math inline">\\q = +q_0\\</span>
 
-- $s = -s_0$ corresponds to negative charge $q = -q_0$
+- <span class="math inline">\\s = -s_0\\</span> corresponds to negative charge <span class="math inline">\\q = -q_0\\</span>
 
 The two charge states are the two stable minima of the internal potential.
 
-#### Step 3: Coupling to the medium.
+##### Step 3: Coupling to the medium.
 
-The particle’s bias interacts with the ambient bias potential $\psi(\mathbf{x})$ from Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>. The interaction energy is:
+The particle’s bias interacts with the ambient bias potential <span class="math inline">\\\psi(\mathbf{x})\\</span> from Section <a href="#sec:electric_field" data-reference-type="ref" data-reference="sec:electric_field">19</a>. The interaction energy is:
 
-$$V_{\text{int}} = -\lambda \, s \, \psi(\mathbf{x}_{\text{particle}})$$
+<span class="math display">\\V\_{\text{int}} = -\lambda \\ s \\ \psi(\mathbf{x}\_{\text{particle}})\\</span>
 
-where $\lambda$ is a coupling constant. This term couples the internal state to the external field.
+where <span class="math inline">\\\lambda\\</span> is a coupling constant. This term couples the internal state to the external field.
 
 The total effective potential is:
 
-$$V_{\text{total}}(s) = a(s^2 - s_0^2)^2 - \lambda s \psi$$
+<span class="math display">\\V\_{\text{total}}(s) = a(s^2 - s_0^2)^2 - \lambda s \psi\\</span>
 
-#### Step 4: Energy barrier and persistence.
+##### Step 4: Energy barrier and persistence.
 
-The height of the barrier between the two minima (at $\psi = 0$) is:
+The height of the barrier between the two minima (at <span class="math inline">\\\psi = 0\\</span>) is:
 
-$$\Delta V = a s_0^4$$
+<span class="math display">\\\Delta V = a s_0^4\\</span>
 
-For the particle to change from positive to negative charge, its internal state must cross the barrier at $s = 0$. This requires an energy input of at least $\Delta V$.
+For the particle to change from positive to negative charge, its internal state must cross the barrier at <span class="math inline">\\s = 0\\</span>. This requires an energy input of at least <span class="math inline">\\\Delta V\\</span>.
 
 In the absence of external perturbations (no strong fields, no high-energy collisions), the particle remains in its initial minimum indefinitely. **Charge persists because flipping requires crossing an energy barrier.**
 
-#### Step 5: Quantization of charge magnitude.
+##### Step 5: Quantization of charge magnitude.
 
-The magnitude $q_0$ is not arbitrary. It is determined by the particle’s internal structure — its size, coherence, and graviton exchange kernel. For elementary particles (electrons, protons), $q_0$ is the same because their internal bias configurations are identical. This explains why all electrons have the same charge magnitude.
+The magnitude <span class="math inline">\\q_0\\</span> is not arbitrary. It is determined by the particle’s internal structure — its size, coherence, and graviton exchange kernel. For elementary particles (electrons, protons), <span class="math inline">\\q_0\\</span> is the same because their internal bias configurations are identical. This explains why all electrons have the same charge magnitude.
 
-#### Step 6: Charge conservation in interactions.
+##### Step 6: Charge conservation in interactions.
 
-When two charged particles interact, the total bias in the system is conserved. The coupling term $-\lambda s \psi$ ensures that any change in one particle’s bias is accompanied by an opposite change in the other’s bias, or by a change in the field’s bias distribution. Thus, charge conservation is not an external imposition — it emerges from medium dynamics.
+When two charged particles interact, the total bias in the system is conserved. The coupling term <span class="math inline">\\-\lambda s \psi\\</span> ensures that any change in one particle’s bias is accompanied by an opposite change in the other’s bias, or by a change in the field’s bias distribution. Thus, charge conservation is not an external imposition — it emerges from medium dynamics.
 
-# Appendix E: Time Dilation from N/$\Gamma$ Cycle (Full Derivation)
+## Appendix E: Time Dilation from N/<span class="math inline">\\\Gamma\\</span> Cycle (Full Derivation)
 
 We derive gravitational and velocity time dilation from the absorption/ejection cycle.
 
-#### Step 1: The fundamental clock equation.
+##### Step 1: The fundamental clock equation.
 
 Every stable coherent structure (an atom, a clock, a biological system) maintains its coherence through a continuous graviton cycle. Define:
 
-- $N$ = number of graviton interactions required to complete one "tick" (the stability quota)
+- <span class="math inline">\\N\\</span> = number of graviton interactions required to complete one "tick" (the stability quota)
 
-- $\Gamma$ = encounter/absorption rate (interactions per unit time)
+- <span class="math inline">\\\Gamma\\</span> = encounter/absorption rate (interactions per unit time)
 
 The duration of one tick is:
 
-$$\tau = \frac{N}{\Gamma}$$
+<span class="math display">\\\tau = \frac{N}{\Gamma}\\</span>
 
-This is the proper time per tick. The clock’s rate is $1/\tau$.
+This is the proper time per tick. The clock’s rate is <span class="math inline">\\1/\tau\\</span>.
 
-#### Step 2: Gravitational time dilation (isotropic case).
+##### Step 2: Gravitational time dilation (isotropic case).
 
-In a region of higher graviton density (near a mass), the ambient flux is increased. Both $N$ and $\Gamma$ change:
+In a region of higher graviton density (near a mass), the ambient flux is increased. Both <span class="math inline">\\N\\</span> and <span class="math inline">\\\Gamma\\</span> change:
 
-- $\Gamma(r) = \Gamma_0 \cdot f(r)$, where $f(r) > 1$ is the flux enhancement factor
+- <span class="math inline">\\\Gamma(r) = \Gamma_0 \cdot f(r)\\</span>, where <span class="math inline">\\f(r) \> 1\\</span> is the flux enhancement factor
 
-- $N(r) = N_0 \cdot g(r)$, where $g(r) > 1$ is the load factor (additional internal work required to maintain coherence)
+- <span class="math inline">\\N(r) = N_0 \cdot g(r)\\</span>, where <span class="math inline">\\g(r) \> 1\\</span> is the load factor (additional internal work required to maintain coherence)
 
 The tick duration becomes:
 
-$$\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}$$
+<span class="math display">\\\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}\\</span>
 
 From detailed balance (derived from medium dynamics), the load factor grows faster than the flux enhancement:
 
-$$\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}$$
+<span class="math display">\\\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}\\</span>
 
-For weak fields ($GM/(c^2 r) \ll 1$):
+For weak fields (<span class="math inline">\\GM/(c^2 r) \ll 1\\</span>):
 
-$$\tau(r) \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)$$
+<span class="math display">\\\tau(r) \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)\\</span>
 
 This matches the gravitational time dilation formula.
 
-#### Step 3: Velocity time dilation (anisotropic case).
+##### Step 3: Velocity time dilation (anisotropic case).
 
-When the clock moves at speed $v$ through the medium, the absorption is anisotropic:
+When the clock moves at speed <span class="math inline">\\v\\</span> through the medium, the absorption is anisotropic:
 
 - The leading face encounters gravitons at an enhanced rate
 
@@ -5083,113 +5085,113 @@ When the clock moves at speed $v$ through the medium, the absorption is anisotro
 
 The effective flux enhancement is:
 
-$$\Gamma(v) = \Gamma_0 \cdot \gamma(v), \quad \gamma(v) = \frac{1}{\sqrt{1 - v^2/c^2}}$$
+<span class="math display">\\\Gamma(v) = \Gamma_0 \cdot \gamma(v), \quad \gamma(v) = \frac{1}{\sqrt{1 - v^2/c^2}}\\</span>
 
 The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. The load factor grows as:
 
-$$N(v) = N_0 \cdot \gamma(v)^2$$
+<span class="math display">\\N(v) = N_0 \cdot \gamma(v)^2\\</span>
 
 Thus:
 
-$$\tau(v) = \frac{N_0 \gamma(v)^2}{\Gamma_0 \gamma(v)} = \tau_0 \gamma(v)$$
+<span class="math display">\\\tau(v) = \frac{N_0 \gamma(v)^2}{\Gamma_0 \gamma(v)} = \tau_0 \gamma(v)\\</span>
 
 This is the special relativistic time dilation formula — but derived from medium mechanics, not from the Lorentz transformation as an axiom.
 
-#### Step 4: Why both forms share the same structure.
+##### Step 4: Why both forms share the same structure.
 
 Both gravitational and velocity time dilation follow from:
 
-$$\tau = \tau_0 \cdot \frac{g}{f}$$
+<span class="math display">\\\tau = \tau_0 \cdot \frac{g}{f}\\</span>
 
-where $g/f$ is the ratio of load increase to rate increase. In gravity, $g/f = 1/\sqrt{1 - 2GM/(c^2 r)}$. In velocity, $g/f = \gamma(v)$. The specific functional forms differ, but the mechanism is the same: **the clock slows because the work per tick increases faster than the interaction rate.**
+where <span class="math inline">\\g/f\\</span> is the ratio of load increase to rate increase. In gravity, <span class="math inline">\\g/f = 1/\sqrt{1 - 2GM/(c^2 r)}\\</span>. In velocity, <span class="math inline">\\g/f = \gamma(v)\\</span>. The specific functional forms differ, but the mechanism is the same: **the clock slows because the work per tick increases faster than the interaction rate.**
 
-# Appendix F: Unified Lagrangian and Field Equations
+## Appendix F: Unified Lagrangian and Field Equations
 
 We present a Lagrangian formulation from which the GPT field equations can be derived. This is a minimal model; full development is ongoing.
 
-#### Step 1: Medium degrees of freedom.
+##### Step 1: Medium degrees of freedom.
 
 The medium is described by:
 
-- Density $\rho_g(\mathbf{x}, t)$
+- Density <span class="math inline">\\\rho_g(\mathbf{x}, t)\\</span>
 
-- Flow velocity $\mathbf{u}(\mathbf{x}, t)$
+- Flow velocity <span class="math inline">\\\mathbf{u}(\mathbf{x}, t)\\</span>
 
-- Bias potential $\psi(\mathbf{x}, t)$
+- Bias potential <span class="math inline">\\\psi(\mathbf{x}, t)\\</span>
 
-- Vector circulation potential $\mathbf{A}(\mathbf{x}, t)$
+- Vector circulation potential <span class="math inline">\\\mathbf{A}(\mathbf{x}, t)\\</span>
 
-#### Step 2: Lagrangian density.
+##### Step 2: Lagrangian density.
 
-$$\mathcal{L} = \frac{1}{2} \rho_g u^2 - \mathcal{U}(\rho_g) + \frac{\epsilon_0}{2} (\nabla \psi)^2 - \frac{1}{2\mu_0} (\nabla \times \mathbf{A})^2 - \alpha \sigma_q \psi + \beta \mathbf{J}_q \cdot \mathbf{A} - \lambda (\nabla \cdot (\rho_g \mathbf{u}) + S)$$
+<span class="math display">\\\mathcal{L} = \frac{1}{2} \rho_g u^2 - \mathcal{U}(\rho_g) + \frac{\epsilon_0}{2} \left(\nabla \psi + \frac{\partial \mathbf{A}}{\partial t}\right)^2 - \frac{1}{2\mu_0} (\nabla \times \mathbf{A})^2 - \sigma_q \psi + \mathbf{J}\_q \cdot \mathbf{A} - \lambda (\nabla \cdot (\rho_g \mathbf{u}) + S)\\</span>
 
 where:
 
-- $\mathcal{U}(\rho_g)$ is the internal energy density of the medium (includes self-repulsion)
+- <span class="math inline">\\\mathcal{U}(\rho_g)\\</span> is the internal energy density of the medium (includes self-repulsion)
 
-- $\sigma_q$ is bias density (charge density)
+- <span class="math inline">\\\sigma_q\\</span> is bias density (charge density)
 
-- $\mathbf{J}_q = \sigma_q \mathbf{v}$ is bias current density
+- <span class="math inline">\\\mathbf{J}\_q = \sigma_q \mathbf{v}\\</span> is bias current density
 
-- $S = \alpha_M \rho_m$ is mass source term (graviton absorption)
+- <span class="math inline">\\S = \alpha_M \rho_m\\</span> is mass source term (graviton absorption)
 
-- $\lambda$ is a Lagrange multiplier enforcing continuity
+- <span class="math inline">\\\lambda\\</span> is a Lagrange multiplier enforcing continuity
 
-#### Step 3: Field equations.
+##### Step 3: Field equations.
 
-Variation with respect to $\psi$ gives the Poisson equation:
+Variation with respect to <span class="math inline">\\\psi\\</span> gives the Poisson equation:
 
-$$\nabla^2 \psi = -\frac{\alpha}{\epsilon_0} \sigma_q$$
+<span class="math display">\\\nabla^2 \psi = -\frac{\sigma_q}{\epsilon_0} = -\alpha\\ \sigma_q \quad \text{(Coulomb gauge)}\\</span>
 
-Variation with respect to $\mathbf{A}$ gives the Ampère-like equation:
+Variation with respect to <span class="math inline">\\\mathbf{A}\\</span> gives the Ampère-like equation:
 
-$$\nabla \times (\nabla \times \mathbf{A}) - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = \mu_0 \mathbf{J}_q$$
+<span class="math display">\\\nabla \times (\nabla \times \mathbf{A}) + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = \mu_0 \mathbf{J}\_q - \frac{1}{c^2}\frac{\partial}{\partial t}\nabla\psi\\</span>
 
-In Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$), this reduces to:
+In Coulomb gauge (<span class="math inline">\\\nabla \cdot \mathbf{A} = 0\\</span>), this reduces to:
 
-$$\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}_q$$
+<span class="math display">\\\nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\mu_0 \mathbf{J}\_{q,\perp} \quad \text{(transverse part of the current; static limit } \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}\_q \text{)}\\</span>
 
-Variation with respect to $\rho_g$ and $\mathbf{u}$ (with the constraint) gives the fluid equations:
+Variation with respect to <span class="math inline">\\\rho_g\\</span> and <span class="math inline">\\\mathbf{u}\\</span> (with the constraint) gives the fluid equations:
 
-$$\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = -S$$
+<span class="math display">\\\frac{\partial \rho_g}{\partial t} + \nabla \cdot (\rho_g \mathbf{u}) = -S\\</span>
 
-$$\rho_g \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla P_g + \mathbf{F}_{\text{ext}}$$
+<span class="math display">\\\rho_g \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla P_g + \mathbf{F}\_{\text{ext}}\\</span>
 
-where $P_g = \rho_g^2 \frac{\partial \mathcal{U}}{\partial \rho_g}$ is the medium pressure, and $\mathbf{F}_{\text{ext}}$ includes forces from bias and mass sources.
+where <span class="math inline">\\P_g = \rho_g^2 \frac{\partial \mathcal{U}}{\partial \rho_g}\\</span> is the medium pressure, and <span class="math inline">\\\mathbf{F}\_{\text{ext}}\\</span> includes forces from bias and mass sources.
 
-#### Step 4: Recovering known limits.
+##### Step 4: Recovering known limits.
 
-- **Newtonian gravity:** For static, weak fields, the pressure gradient equation reduces to $\nabla^2 \Phi = 4\pi G \rho_m$ with $\Phi = \kappa P_g$.
+- **Newtonian gravity:** For static, weak fields, the pressure gradient equation reduces to <span class="math inline">\\\nabla^2 \Phi = 4\pi G \rho_m\\</span> with <span class="math inline">\\\Phi = \kappa P_g\\</span>.
 
-- **Electrostatics:** For static bias distributions, $\nabla^2 \psi = -\alpha \sigma_q / \epsilon_0$ gives Coulomb’s law.
+- **Electrostatics:** For static bias distributions, <span class="math inline">\\\nabla^2 \psi = -\alpha \sigma_q / \epsilon_0\\</span> gives Coulomb’s law.
 
-- **Magnetostatics:** For steady currents, $\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}_q$ gives the Biot-Savart law.
+- **Magnetostatics:** For steady currents, <span class="math inline">\\\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}\_q\\</span> gives the Biot-Savart law.
 
-- **Electromagnetic waves:** The coupled $\psi$ and $\mathbf{A}$ equations give wave equations with speed $c = 1/\sqrt{\epsilon_0 \mu_0}$.
+- **Electromagnetic waves:** The coupled <span class="math inline">\\\psi\\</span> and <span class="math inline">\\\mathbf{A}\\</span> equations give wave equations with speed <span class="math inline">\\c = 1/\sqrt{\epsilon_0 \mu_0}\\</span>.
 
-#### Step 5: Relation to GR.
+##### Step 5: Relation to GR.
 
 The GPT field equations are not identical to Einstein’s equations. They are a different set of equations that:
 
 - Reduce to Newtonian gravity in the weak-field, low-velocity limit
 
-- Reproduce the Schwarzschild metric predictions for light deflection and time dilation (via refraction and N/$\Gamma$ cycle)
+- Reproduce the Schwarzschild metric predictions for light deflection and time dilation (via refraction and N/<span class="math inline">\\\Gamma\\</span> cycle)
 
 - Differ in strong-field regimes (e.g., near black holes, where GPT predicts no singularity but a coherence saturation zone)
 
-The mathematical relationship is: $g_{\mu\nu}^{\text{GR}}$ is an effective metric derived from $\rho_g$ and $\mathbf{u}$, not a fundamental entity.
+The mathematical relationship is: <span class="math inline">\\g\_{\mu\nu}^{\text{GR}}\\</span> is an effective metric derived from <span class="math inline">\\\rho_g\\</span> and <span class="math inline">\\\mathbf{u}\\</span>, not a fundamental entity.
 
-# Summary of Appendices
+## Summary of Appendices
 
 <div class="center">
 
-| **Appendix** | **Content**                      | **Purpose**                             |
-|:-------------|:---------------------------------|:----------------------------------------|
-| A            | Uniform $\rho_0$ from continuity | Establishes vacuum density constancy    |
-| B            | Scattering cross-section and $g$ | Derives weight mechanism quantitatively |
-| C            | Bistable potential for charge    | Explains two signs and persistence      |
-| D            | N/$\Gamma$ cycle derivation      | Complete time dilation mechanism        |
-| F            | Unified Lagrangian               | Formal field equations                  |
+| **Appendix** | **Content**                                                         | **Purpose**                             |
+|:-------------|:--------------------------------------------------------------------|:----------------------------------------|
+| A            | Uniform <span class="math inline">\\\rho_0\\</span> from continuity | Establishes vacuum density constancy    |
+| B            | Scattering cross-section and <span class="math inline">\\g\\</span> | Derives weight mechanism quantitatively |
+| C            | Bistable potential for charge                                       | Explains two signs and persistence      |
+| D            | N/<span class="math inline">\\\Gamma\\</span> cycle derivation      | Complete time dilation mechanism        |
+| F            | Unified Lagrangian                                                  | Formal field equations                  |
 
 </div>
 

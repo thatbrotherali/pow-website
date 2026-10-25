@@ -166,8 +166,21 @@ def build(B):
             data["about"] = ["Poverty", "Economic policy", "Civic Credits"]
         return f'\n<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
 
+    import corrections
+
+    def corrections_box(fixes, e):
+        if not fixes:
+            return ""
+        items = "".join(f"<li>{esc(n)}</li>" for n in fixes if not n.startswith("Notation"))
+        bridge = next((n for n in fixes if n.startswith("Notation")), "")
+        orig = " The original PDF is unchanged." if e["pdf"] else ""
+        return (f'<details class="ai-note corrections" style="margin:1.2em 0"><summary><strong>Editor\'s corrections, October 2026</strong> · '
+                f'some equations on this page were corrected at the author\'s request.{orig}</summary><ul>{items}</ul>'
+                + (f'<p class="muted" style="font-size:14.5px">{esc(bridge)}</p>' if bridge else "") + "</details>")
+
     def doc_page(e):
-        frag = norm_headings((LIB / f"{e['slug']}.html").read_text(encoding="utf-8"))
+        frag, fixes = corrections.apply(e["slug"], (LIB / f"{e['slug']}.html").read_text(encoding="utf-8"))
+        frag = norm_headings(frag)
         if e["slug"] == "start-here":
             for key, url in [("constraint-set", PATH_URL["constraint-set"]), ("gr-silence-map", PATH_URL["gr-silence-map"]),
                              ("not-alternative-gravity", PATH_URL["not-alternative-gravity"]), ("full-framework", FRAMEWORK_URL)]:
@@ -203,6 +216,7 @@ def build(B):
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
 <p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF</a>' if e["pdf"] else ""}</p>
 {vsec}
+{corrections_box(fixes, e)}
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>
@@ -225,6 +239,11 @@ def build(B):
             import shutil
             shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
         md = (LIB / f"{e['slug']}.md").read_text(encoding="utf-8")
+        if fixes:  # the plain-text twin follows the corrected page
+            import subprocess
+            body_md = subprocess.run(["pandoc", "-f", "html", "-t", "gfm", "--wrap=none"], input=frag, capture_output=True, text=True, check=True).stdout
+            head = md.split("\n\n")[0:3]
+            md = "\n\n".join(head) + "\n\n> Editor's corrections (October 2026): " + " ".join(fixes[1:] if fixes[0].startswith("Notation") else fixes) + "\n\n" + body_md
         (B.OUT / e["url"] / "index.md").write_text(
             md.rstrip() + f"\n\n---\nSource: {B.SITE_URL}/{e['url']}\nCite as: {citation(e)}\n", encoding="utf-8")
 

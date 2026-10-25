@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): Contact force: A·∇P_g/ρ does not have units of force. A pressure acting on a body gives a force equal to the pressure difference across it times the area, or equivalently the volume times the gradient: F = A·ΔP_g = V|∇P_g|. Friction, tension and work: a pressure gradient times a dimensionless factor is not a force, and the integral of a gradient over distance is a pressure, not an energy. Each now includes the volume or length the gradient acts over.
+
 ## The Historical Fracturing of Force
 
 Classical physics, born of observation and mechanical simplification, broke the experience of interaction into labeled categories:
@@ -32,7 +34,7 @@ These were named not because they emerged from separate causes, but because the 
 
 - Applied as needed to model observable outcomes
 
-And yet, this system has always been an uneasy patchwork. Even within Newtonian [^1] mechanics:
+And yet, this system has always been an uneasy patchwork. Even within Newtonian <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> mechanics:
 
 - “Normal force” is a placeholder
 
@@ -42,7 +44,7 @@ And yet, this system has always been an uneasy patchwork. Even within Newtonian 
 
 - “Action-reaction” is a tautology without mechanism
 
-General Relativity recast force as geometry, abstracting it into spacetime curvature—but this move sacrificed causality and physical mechanism. Now, Graviton Pressure Theory (GPT) invites us to restore the causality: Not by explaining each force separately, but by revealing that all forces are expressions of graviton field pressure acting on coherent structures[^2].
+General Relativity recast force as geometry, abstracting it into spacetime curvature—but this move sacrificed causality and physical mechanism. Now, Graviton Pressure Theory (GPT) invites us to restore the causality: Not by explaining each force separately, but by revealing that all forces are expressions of graviton field pressure acting on coherent structures<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a>.
 
 ## Reunifying Matter and Pressure in GPT
 
@@ -62,22 +64,22 @@ This document provides a direct, systematic mapping of classical mechanics into 
 
 ## Unified Interpretation Table: Classical vs GPT
 
-| **Classical Force** | **Mechanism (Classical)**               | **GPT Interpretation**                                                                         |
-|:--------------------|:----------------------------------------|:-----------------------------------------------------------------------------------------------|
-| Weight (Fg)         | $F = mg$ (downward force)               | Graviton field pressure resisted by body coherence                                             |
-| Normal Force        | Surface pushes upward to balance weight | Local field resistance of lattice prevents compression                                         |
-| Tension             | String transmits pulling force          | Alignment of coherent corridors under tensile graviton pressure                                |
-| Spring Force        | $F = -kx$ (Hooke’s Law)                 | Compression modifies coherence density; restoring force arises from graviton field realignment |
-| Friction            | Surface resists motion via interlocking | Shear deformation of coherence fields; energy dissipation via pressure redistribution          |
-| Inertia             | Mass resists acceleration               | Coherent field absorbs incoming graviton flux with temporal lag                                |
-| Centripetal Force   | Radial inward force                     | Coherence boundary resists graviton deflection pressure in curved motion                       |
-| Buoyancy            | Archimedes’ Principle                   | Graviton field net pressure is reduced in denser surrounding medium                            |
+| **Classical Force** | **Mechanism (Classical)**                                    | **GPT Interpretation**                                                                         |
+|:--------------------|:-------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| Weight (Fg)         | <span class="math inline">\\F = mg\\</span> (downward force) | Graviton field pressure resisted by body coherence                                             |
+| Normal Force        | Surface pushes upward to balance weight                      | Local field resistance of lattice prevents compression                                         |
+| Tension             | String transmits pulling force                               | Alignment of coherent corridors under tensile graviton pressure                                |
+| Spring Force        | <span class="math inline">\\F = -kx\\</span> (Hooke’s Law)   | Compression modifies coherence density; restoring force arises from graviton field realignment |
+| Friction            | Surface resists motion via interlocking                      | Shear deformation of coherence fields; energy dissipation via pressure redistribution          |
+| Inertia             | Mass resists acceleration                                    | Coherent field absorbs incoming graviton flux with temporal lag                                |
+| Centripetal Force   | Radial inward force                                          | Coherence boundary resists graviton deflection pressure in curved motion                       |
+| Buoyancy            | Archimedes’ Principle                                        | Graviton field net pressure is reduced in denser surrounding medium                            |
 
 ### Example: A Person Standing on a Scale
 
 **Classical View:**
 
-- Gravity pulls mass downward with $F = mg$.
+- Gravity pulls mass downward with <span class="math inline">\\F = mg\\</span>.
 
 - Surface of the scale pushes upward with equal and opposite normal force.
 
@@ -93,15 +95,15 @@ This document provides a direct, systematic mapping of classical mechanics into 
 
 - Scale measures the net coherent resistance to field pressure—field tension, not pulling force.
 
-**Equation (GPT)**: $$P_g = \frac{F_{\text{net}}}{A} \rightarrow F_{\text{GPT}} = A \cdot P_g = A \cdot \frac{\nabla P_g}{\rho}$$ Where:
+**Equation (GPT)**: <span class="math display">\\P_g = \frac{F\_{\text{net}}}{A} \rightarrow F\_{\text{GPT}} = A \cdot \Delta P_g = V \left\|\nabla P_g\right\|\\</span> Where:
 
-- $P_g$ is graviton pressure at surface contact
+- <span class="math inline">\\P_g\\</span> is graviton pressure at surface contact
 
-- $A$ is contact area
+- <span class="math inline">\\A\\</span> is contact area
 
-- $\rho$ is local graviton permeability (inverse coherence density)
+- <span class="math inline">\\V\\</span> is the volume of the body and <span class="math inline">\\\Delta P_g\\</span> the pressure difference across it
 
-- $\nabla P_g$ is the graviton pressure gradient
+- <span class="math inline">\\\nabla P_g\\</span> is the graviton pressure gradient
 
 In Newtonian mechanics, **tension** is modeled as a pulling force transmitted through a string, cable, or structural element. It is considered uniform along a massless, ideal medium, with the force acting outward from the object and inward toward the center of the tether.
 
@@ -149,7 +151,7 @@ In GPT, **acceleration is a restructuring of internal corridor alignment**.
 
 - **Limits:** Sudden acceleration causes field stress—manifesting as inertial resistance. Gradual pressure changes allow smoother reconfiguration.
 
-### Conclusion 
+### Conclusion
 
 This segment recontextualizes tension, friction, inertia, and acceleration as *graviton field phenomena*. No Newtonian force primitives are required. All behavior is explained through the interplay between external graviton pressure and internal structural coherence.
 
@@ -189,27 +191,27 @@ GPT predicts that by modulating field exposure directionally, one can *tune* yie
 
 ### Stress and Strain Reinterpreted
 
-Stress ($\sigma$) and strain ($\epsilon$) are not mysterious forces and deformations:
+Stress (<span class="math inline">\\\sigma\\</span>) and strain (<span class="math inline">\\\epsilon\\</span>) are not mysterious forces and deformations:
 
 - **Stress** becomes the *incoming graviton pressure gradient relative to the coherence resistance of the material*.
 
 - **Strain** is the *degree of corridor reconfiguration* under this gradient — not just displacement, but **field reflow**.
 
-GPT expresses this via the Graviton Coherence Distortion Ratio (GCDR): $$\text{GCDR} = \frac{\nabla P_g}{C_\text{internal}}$$
+GPT expresses this via the Graviton Coherence Distortion Ratio (GCDR): <span class="math display">\\\text{GCDR} = \frac{\nabla P_g}{C\_\text{internal}}\\</span>
 
 Where:
 
-- $\nabla P_g$ is the local graviton pressure gradient.
+- <span class="math inline">\\\nabla P_g\\</span> is the local graviton pressure gradient.
 
-- $C_\text{internal}$ is the field coherence density of the structure.
+- <span class="math inline">\\C\_\text{internal}\\</span> is the field coherence density of the structure.
 
 A high GCDR implies breakdown. When this exceeds unity, plastic deformation becomes irreversible.
 
 ### Elasticity as Phase Memory
 
-Hooke’s Law ($\sigma = E \epsilon$) still holds at low deformation — but GPT explains *why*:
+Hooke’s Law (<span class="math inline">\\\sigma = E \epsilon\\</span>) still holds at low deformation — but GPT explains *why*:
 
-> The elastic modulus $E$ is the ratio of graviton field disturbance to the ability of the internal structure to rephase without permanent decoherence.
+> The elastic modulus <span class="math inline">\\E\\</span> is the ratio of graviton field disturbance to the ability of the internal structure to rephase without permanent decoherence.
 
 **Elasticity is coherence memory.** The more coherent the material’s field, the greater its tendency to restore its prior shape.
 
@@ -279,13 +281,13 @@ Unlike GR, which treats spacetime as a passive stage, GPT models the lensing as 
 
 ### Mathematical Framing of Lensing
 
-Let $\nabla P_g$ represent the gradient of graviton pressure near a mass $M$, and $\theta_d$ the angular deflection: $$\theta_d = \frac{r \cdot \nabla P_g}{E_f}$$ Where:
+Let <span class="math inline">\\\nabla P_g\\</span> represent the gradient of graviton pressure near a mass <span class="math inline">\\M\\</span>, and <span class="math inline">\\\theta_d\\</span> the angular deflection: <span class="math display">\\\theta_d = \frac{r \cdot \nabla P_g}{E_f}\\</span> Where:
 
-- $r$ is the radial distance from the mass center
+- <span class="math inline">\\r\\</span> is the radial distance from the mass center
 
-- $\nabla P_g$ is the local pressure differential
+- <span class="math inline">\\\nabla P_g\\</span> is the local pressure differential
 
-- $E_f$ is the field energy density of the photon or traversing object
+- <span class="math inline">\\E_f\\</span> is the field energy density of the photon or traversing object
 
 This formulation replaces spacetime curvature with calculable anisotropic resistance.
 
@@ -349,7 +351,7 @@ Field behavior, under GPM, becomes not a passive structure, but a programmable w
 Using piezoelectric lattices that flex with pulsed voltage, phase delay can be micro-managed within corridor-aligned paths. These networks serve as resonant field routers—redirecting, gating, or nulling gravitational flow.
 
 **2. Magnetic Phase Biasing:**  
-Spin-aligned magnetic domains (e.g., patterned ferromagnetic [^3] thin films) can alter field access points by introducing coherent phase delay at atomic lattice junctions. This not only inhibits flow in certain directions, but permits unidirectional corridor propagation—a form of gravitational diode.
+Spin-aligned magnetic domains (e.g., patterned ferromagnetic <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> thin films) can alter field access points by introducing coherent phase delay at atomic lattice junctions. This not only inhibits flow in certain directions, but permits unidirectional corridor propagation—a form of gravitational diode.
 
 **3. Temporal Chaining and Interleaving:**  
 Field zones are modulated in subharmonic waveforms with carefully interleaved refresh windows. The result is artificial corridor gating—opening and closing graviton channels with femtosecond timing to favor directional thrust or inertial cancellation.
@@ -386,13 +388,13 @@ Just as we moved from circuits to quantum gates, we now move from structural res
 
 To ensure clarity and usability, we offer additional causal expressions derived from GPT’s unified pressure framework:
 
-- **Friction (dynamic)**: $$F_{\text{friction}} = \mu \cdot \nabla_{\parallel} P_g$$ where $\mu$ is the local coherence-interference factor along the contact plane, and $\nabla_{\parallel} P_g$ is the lateral pressure gradient.
+- **Friction (dynamic)**: <span class="math display">\\F\_{\text{friction}} = \mu \\ V_c \\ \nabla\_{\parallel} P_g\\</span> where <span class="math inline">\\\mu\\</span> is the local coherence-interference factor along the contact plane, <span class="math inline">\\V_c\\</span> is the volume of the contact layer, and <span class="math inline">\\\nabla\_{\parallel} P_g\\</span> is the lateral pressure gradient.
 
-- **Tension in a cable or string**: $$F_{\text{tension}} = -\frac{\partial P_g}{\partial r} \cdot A$$ where $A$ is the cross-sectional area of the strand, and $\frac{\partial P_g}{\partial r}$ is the radial field pressure differential along its axis.
+- **Tension in a cable or string**: <span class="math display">\\F\_{\text{tension}} = -\frac{\partial P_g}{\partial r} \cdot A\\ \ell\\</span> where <span class="math inline">\\A\\</span> is the cross-sectional area of the strand, <span class="math inline">\\\ell\\</span> its length, and <span class="math inline">\\\frac{\partial P_g}{\partial r}\\</span> is the radial field pressure differential along its axis.
 
-- **Buoyancy (newly added)**: $$F_{\text{buoyancy}} = \Delta P_g \cdot A = (P_{\text{bottom}} - P_{\text{top}}) \cdot A$$ capturing the difference in graviton pressure across vertical surfaces of a submerged body.
+- **Buoyancy (newly added)**: <span class="math display">\\F\_{\text{buoyancy}} = \Delta P_g \cdot A = (P\_{\text{bottom}} - P\_{\text{top}}) \cdot A\\</span> capturing the difference in graviton pressure across vertical surfaces of a submerged body.
 
-- **Internal Elasticity (spring behavior)**: $$F_{\text{internal}} = -k_c \cdot \Delta x$$ where $k_c$ is a coherence-modulated graviton corridor recoil factor, and $\Delta x$ is the deformation from equilibrium.
+- **Internal Elasticity (spring behavior)**: <span class="math display">\\F\_{\text{internal}} = -k_c \cdot \Delta x\\</span> where <span class="math inline">\\k_c\\</span> is a coherence-modulated graviton corridor recoil factor, and <span class="math inline">\\\Delta x\\</span> is the deformation from equilibrium.
 
 —
 
@@ -400,11 +402,11 @@ To ensure clarity and usability, we offer additional causal expressions derived 
 
 **GPT Quantity Units Reference:**
 
-- $P_g$: graviton pressure (gp or N/m$^2$)
+- <span class="math inline">\\P_g\\</span>: graviton pressure (gp or N/m<span class="math inline">\\^2\\</span>)
 
-- $\nabla P_g$: pressure gradient (N/m$^3$)
+- <span class="math inline">\\\nabla P_g\\</span>: pressure gradient (N/m<span class="math inline">\\^3\\</span>)
 
-- $F$: force (N)
+- <span class="math inline">\\F\\</span>: force (N)
 
 These definitions provide dimensional integrity for all field-based force expressions.
 
@@ -414,13 +416,13 @@ These definitions provide dimensional integrity for all field-based force expres
 
 Under GPT, work is defined as graviton displacement against structural coherence. That is:
 
-$$W = \int F \cdot dx = \int \nabla P_g \cdot dx$$
+<span class="math display">\\W = \int F \cdot dx = \int V\\ \nabla P_g \cdot dx\\</span>
 
 This models energy transfer as the result of pressure overcoming impedance barriers—whether through heat, motion, or internal deformation. Elastic materials temporarily store coherence-phase compression, while friction dissipates graviton misalignment into local resonance decay.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
@@ -428,11 +430,25 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 
 </div>
 
-[^1]: See (Newton 1687) for classical definitions of force and inertia.
+------------------------------------------------------------------------
 
-[^2]: See Part 19 – Graviton Coherence for reinforcement patterns in force resolution.
+1.  <div id="fn1">
 
-[^3]: See Part 21 – Magnetism as Gravimetric Resonance for discrete pathway alignment in crystalline domains.
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for classical definitions of force and inertia.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+2.  <div id="fn2">
+
+    See Part 19 – Graviton Coherence for reinforcement patterns in force resolution.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+3.  <div id="fn3">
+
+    See Part 21 – Magnetism as Gravimetric Resonance for discrete pathway alignment in crystalline domains.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/

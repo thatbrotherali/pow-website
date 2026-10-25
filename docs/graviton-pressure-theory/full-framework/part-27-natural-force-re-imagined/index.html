@@ -51,6 +51,7 @@
 <img src="https://i.ytimg.com/vi/O4FYZ_ORdZo/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="video-btn" aria-hidden="true"></span><span class="video-len">15:23</span></button>
 <figcaption><strong>Deep Dive, Part 27: Natural Forces Re-examined</strong><span class="muted">Gravity, springs and surfaces pushing back, usually treated as separate forces, restated as expressions of one underlying field.</span><a class="video-yt" href="https://www.youtube.com/watch?v=O4FYZ_ORdZo" target="_blank" rel="noopener">Watch on YouTube</a></figcaption>
 </figure></div><div class="audio"><span class="audio-label">Prefer to listen? <span class="muted">· audio · 15:05</span></span><audio controls preload="none" src="https://music.wixstatic.com/mp3/eaef6d_42ac5a17bab24eccb380008749aec8e7-320.mp3"><a href="https://music.wixstatic.com/mp3/eaef6d_42ac5a17bab24eccb380008749aec8e7-320.mp3">Download the audio</a></audio></div></section>
+<details class="ai-note corrections" style="margin:1.2em 0"><summary><strong>Editor's corrections, October 2026</strong> · some equations on this page were corrected at the author's request.</summary><ul><li>Contact force: A·∇P_g/ρ does not have units of force. A pressure acting on a body gives a force equal to the pressure difference across it times the area, or equivalently the volume times the gradient: F = A·ΔP_g = V|∇P_g|.</li><li>Friction, tension and work: a pressure gradient times a dimensionless factor is not a force, and the integral of a gradient over distance is a pressure, not an energy. Each now includes the volume or length the gradient acts over.</li></ul></details>
 <h2 id="the-historical-fracturing-of-force">The Historical Fracturing of Force</h2>
 <p>Classical physics, born of observation and mechanical simplification, broke the experience of interaction into labeled categories:</p>
 <ul>
@@ -153,11 +154,11 @@
 <li><p>The surface provides structural resistance; the pressure differential across the base compresses into the scale.</p></li>
 <li><p>Scale measures the net coherent resistance to field pressure—field tension, not pulling force.</p></li>
 </ul>
-<p><strong>Equation (GPT)</strong>: <span class="math display">\[P_g = \frac{F_{\text{net}}}{A} \rightarrow F_{\text{GPT}} = A \cdot P_g = A \cdot \frac{\nabla P_g}{\rho}\]</span> Where:</p>
+<p><strong>Equation (GPT)</strong>: <span class="math display">\[P_g = \frac{F_{\text{net}}}{A} \rightarrow F_{\text{GPT}} = A \cdot \Delta P_g = V \left|\nabla P_g\right|\]</span> Where:</p>
 <ul>
 <li><p><span class="math inline">\(P_g\)</span> is graviton pressure at surface contact</p></li>
 <li><p><span class="math inline">\(A\)</span> is contact area</p></li>
-<li><p><span class="math inline">\(\rho\)</span> is local graviton permeability (inverse coherence density)</p></li>
+<li><p><span class="math inline">\(V\)</span> is the volume of the body and <span class="math inline">\(\Delta P_g\)</span> the pressure difference across it</p></li>
 <li><p><span class="math inline">\(\nabla P_g\)</span> is the graviton pressure gradient</p></li>
 </ul>
 <p>In Newtonian mechanics, <strong>tension</strong> is modeled as a pulling force transmitted through a string, cable, or structural element. It is considered uniform along a massless, ideal medium, with the force acting outward from the object and inward toward the center of the tether.</p>
@@ -350,8 +351,8 @@ Field zones are modulated in subharmonic waveforms with carefully interleaved re
 <h2 class="unnumbered" id="extended-gpt-field-equations-for-classical-forces">Extended GPT Field Equations for Classical Forces</h2>
 <p>To ensure clarity and usability, we offer additional causal expressions derived from GPT’s unified pressure framework:</p>
 <ul>
-<li><p><strong>Friction (dynamic)</strong>: <span class="math display">\[F_{\text{friction}} = \mu \cdot \nabla_{\parallel} P_g\]</span> where <span class="math inline">\(\mu\)</span> is the local coherence-interference factor along the contact plane, and <span class="math inline">\(\nabla_{\parallel} P_g\)</span> is the lateral pressure gradient.</p></li>
-<li><p><strong>Tension in a cable or string</strong>: <span class="math display">\[F_{\text{tension}} = -\frac{\partial P_g}{\partial r} \cdot A\]</span> where <span class="math inline">\(A\)</span> is the cross-sectional area of the strand, and <span class="math inline">\(\frac{\partial P_g}{\partial r}\)</span> is the radial field pressure differential along its axis.</p></li>
+<li><p><strong>Friction (dynamic)</strong>: <span class="math display">\[F_{\text{friction}} = \mu \, V_c \, \nabla_{\parallel} P_g\]</span> where <span class="math inline">\(\mu\)</span> is the local coherence-interference factor along the contact plane, <span class="math inline">\(V_c\)</span> is the volume of the contact layer, and <span class="math inline">\(\nabla_{\parallel} P_g\)</span> is the lateral pressure gradient.</p></li>
+<li><p><strong>Tension in a cable or string</strong>: <span class="math display">\[F_{\text{tension}} = -\frac{\partial P_g}{\partial r} \cdot A\, \ell\]</span> where <span class="math inline">\(A\)</span> is the cross-sectional area of the strand, <span class="math inline">\(\ell\)</span> its length, and <span class="math inline">\(\frac{\partial P_g}{\partial r}\)</span> is the radial field pressure differential along its axis.</p></li>
 <li><p><strong>Buoyancy (newly added)</strong>: <span class="math display">\[F_{\text{buoyancy}} = \Delta P_g \cdot A = (P_{\text{bottom}} - P_{\text{top}}) \cdot A\]</span> capturing the difference in graviton pressure across vertical surfaces of a submerged body.</p></li>
 <li><p><strong>Internal Elasticity (spring behavior)</strong>: <span class="math display">\[F_{\text{internal}} = -k_c \cdot \Delta x\]</span> where <span class="math inline">\(k_c\)</span> is a coherence-modulated graviton corridor recoil factor, and <span class="math inline">\(\Delta x\)</span> is the deformation from equilibrium.</p></li>
 </ul>
@@ -367,7 +368,7 @@ Field zones are modulated in subharmonic waveforms with carefully interleaved re
 <p>—</p>
 <h2 class="unnumbered" id="energy-transfer-and-coherence-work">Energy Transfer and Coherence Work</h2>
 <p>Under GPT, work is defined as graviton displacement against structural coherence. That is:</p>
-<p><span class="math display">\[W = \int F \cdot dx = \int \nabla P_g \cdot dx\]</span></p>
+<p><span class="math display">\[W = \int F \cdot dx = \int V\, \nabla P_g \cdot dx\]</span></p>
 <p>This models energy transfer as the result of pressure overcoming impedance barriers—whether through heat, motion, or internal deformation. Elastic materials temporarily store coherence-phase compression, while friction dissipates graviton misalignment into local resonance decay.</p>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-newton1687" class="csl-entry" role="listitem">

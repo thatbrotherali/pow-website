@@ -4,29 +4,31 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): Coherence work: force × distance × time has units of joule-seconds, not energy. The integrand now uses the rate of internal adjustment, so W has units of joules.
+
 The classical physics definition of work—force times displacement—fails to account for observable energy expenditures in systems actively resisting motion. This contradiction emerges vividly in robotic, magnetic, and structural scenarios where energy consumption and structural stability clearly indicate ongoing “effort,” yet classical physics categorically denies that “work” is being done.
 
 Graviton Pressure Theory (GPT) resolves this paradox by redefining work as the energetic cost of maintaining or reconfiguring coherence within a graviton pressure field—whether through resisting displacement or initiating it. This expanded definition restores a consistent causal framework linking effort, stability, motion, and energy flow.
 
 ## The Collapse of the Classical Definition
 
-Classical physics defines work[^1] as: $$W = F \cdot d \cdot \cos(\theta)$$
+Classical physics defines work<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> as: <span class="math display">\\W = F \cdot d \cdot \cos(\theta)\\</span>
 
-This formula asserts that without displacement ($d = 0$), no work is done—regardless of forces applied or energy expended. On the surface, this seems logically consistent. However, it immediately collapses under scrutiny in common real-world scenarios.
+This formula asserts that without displacement (<span class="math inline">\\d = 0\\</span>), no work is done—regardless of forces applied or energy expended. On the surface, this seems logically consistent. However, it immediately collapses under scrutiny in common real-world scenarios.
 
 ### Robot Arm Supporting Weight
 
 Consider a robot arm holding a 10 kg weight stationary with the arm fully outstretched or elevated above the robot’s body. According to classical physics:
 
-- Displacement ($d$): 0
+- Displacement (<span class="math inline">\\d\\</span>): 0
 
-- Work ($W$): 0 (since $W = F \cdot 0$)
+- Work (<span class="math inline">\\W\\</span>): 0 (since <span class="math inline">\\W = F \cdot 0\\</span>)
 
 Yet, empirical observation reveals:
 
 - Significant electrical energy is consumed continuously.
 
-- Motors actively generate force to resist gravitational pull[^2] .
+- Motors actively generate force to resist gravitational pull<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> .
 
 - If electrical power ceases, the arm and weight immediately move downward, settling into a position where gravitational force no longer needs active resistance.
 
@@ -44,7 +46,7 @@ A bridge, even in its most basic structural configuration, experiences forces fr
 
 - Continuous internal forces act to sustain structural integrity.
 
-- Material fatigue accumulates over time, eventually leading to structural failure if maintenance or energy input is discontinued.[^3]
+- Material fatigue accumulates over time, eventually leading to structural failure if maintenance or energy input is discontinued.<a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a>
 
 Classical physics dismisses these internal forces as irrelevant to “work,” even though these forces literally sustain the structural integrity of the bridge.
 
@@ -54,7 +56,7 @@ A magnet holding an iron object stationary against gravity also yields classical
 
 - Observable force actively counteracting gravity.
 
-- Permanent structural tension and energy maintenance within atomic fields[^4] .
+- Permanent structural tension and energy maintenance within atomic fields<a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> .
 
 Again, classical physics labels this as passive equilibrium, obscuring the genuine energetic and structural interaction clearly at play.
 
@@ -108,7 +110,7 @@ To dismiss this energy as mere “loss” or “inefficiency” is to deny its e
 
 Structural examples, such as bridges or architectural elements under constant load, provide further insight:
 
-- Materials subjected to continuous stress experience internal microscopic movements (elastic deformation), constantly absorbing and redistributing energy[^5] .
+- Materials subjected to continuous stress experience internal microscopic movements (elastic deformation), constantly absorbing and redistributing energy<a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a> .
 
 - Structural materials fatigue and degrade over time, clearly indicating ongoing internal energy exchanges.
 
@@ -136,7 +138,7 @@ Graviton Pressure Theory (GPT) resolves the contradictions exposed in classical 
 
 ### Coherence Maintenance as Work
 
-GPT explicitly recognizes that maintaining structural coherence in any physical system involves active, continuous effort against gravitational and other force pressures. This recognition yields a new definition of work: $$W_{GPT} = \int (F_{\text{pressure}} \cdot d_{\text{coherence}})\, dt$$ Here, $F_{\text{pressure}}$ represents the force exerted by gravitational or similar fields, and $d_{\text{coherence}}$ represents the internal structural adjustment (even at microscopic scales) required to maintain equilibrium. This integral represents continuous energetic exchange to sustain coherence and structural stability, explicitly recognized as real physical work.
+GPT explicitly recognizes that maintaining structural coherence in any physical system involves active, continuous effort against gravitational and other force pressures. This recognition yields a new definition of work: <span class="math display">\\W\_{GPT} = \int F\_{\text{pressure}}\\ \dot{d}\_{\text{coherence}}\\ dt\\</span> Here, <span class="math inline">\\F\_{\text{pressure}}\\</span> represents the force exerted by gravitational or similar fields, and <span class="math inline">\\\dot{d}\_{\text{coherence}}\\</span> represents the rate of internal structural adjustment (even at microscopic scales) required to maintain equilibrium. This integral represents continuous energetic exchange to sustain coherence and structural stability, explicitly recognized as real physical work.
 
 ### Active Resistance and Structural Equilibrium
 
@@ -228,7 +230,7 @@ GPT’s coherence definition also provides insights at quantum scales:
 
 - **GPT Hypothesis:** Quantum coherence and structural stability within atomic and molecular systems represent active energetic interactions.
 
-- **Empirical Test:** Investigate quantum coherence maintenance energy exchanges in atomic and molecular systems[^6] .
+- **Empirical Test:** Investigate quantum coherence maintenance energy exchanges in atomic and molecular systems<a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a> .
 
 - **GPT Prediction:** Active coherence energy exchanges correlate directly with quantum system stability.
 
@@ -238,39 +240,39 @@ GPT’s coherence definition also provides insights at quantum scales:
 
 GPT’s coherence-based definition of work provides empirically testable, rigorously validated predictions across diverse scientific and engineering domains. By aligning theoretical definitions with observed energetic and structural realities, GPT demonstrates clear superiority over classical displacement-only work definitions.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-callister2010" class="csl-entry">
+<div id="ref-callister2010" class="csl-entry" role="listitem">
 
 Callister, William D., and David G. Rethwisch. 2010. *Materials Science and Engineering: An Introduction*. 8th ed. New York: Wiley.
 
 </div>
 
-<div id="ref-griffiths2017" class="csl-entry">
+<div id="ref-griffiths2017" class="csl-entry" role="listitem">
 
 Griffiths, David J. 2017. *Introduction to Electrodynamics*. 4th ed. Cambridge University Press.
 
 </div>
 
-<div id="ref-halliday2013" class="csl-entry">
+<div id="ref-halliday2013" class="csl-entry" role="listitem">
 
 Halliday, David, Robert Resnick, and Jearl Walker. 2013. *Fundamentals of Physics*. 10th ed. Hoboken, NJ: Wiley.
 
 </div>
 
-<div id="ref-juvinall2006" class="csl-entry">
+<div id="ref-juvinall2006" class="csl-entry" role="listitem">
 
 Juvinall, Robert C., and Kurt M. Marshek. 2006. *Fundamentals of Machine Component Design*. 4th ed. Hoboken, NJ: Wiley.
 
 </div>
 
-<div id="ref-siciliano2016" class="csl-entry">
+<div id="ref-siciliano2016" class="csl-entry" role="listitem">
 
 Siciliano, Bruno, and Oussama Khatib, eds. 2016. *Springer Handbook of Robotics*. 2nd ed. Cham, Switzerland: Springer.
 
 </div>
 
-<div id="ref-zurek2003" class="csl-entry">
+<div id="ref-zurek2003" class="csl-entry" role="listitem">
 
 Zurek, Wojciech H. 2003. “Decoherence, Einselection, and the Quantum Origins of the Classical.” *Reviews of Modern Physics* 75 (3): 715–75.
 
@@ -278,17 +280,43 @@ Zurek, Wojciech H. 2003. “Decoherence, Einselection, and the Quantum Origins o
 
 </div>
 
-[^1]: (Halliday, Resnick, and Walker 2013) This is the canonical presentation of the classical definition of work, where no displacement implies no work, regardless of continuous force or energy expenditure.
+------------------------------------------------------------------------
 
-[^2]: For example, see (Siciliano and Khatib 2016) Chapter 12 describes the non-zero power consumption of servo systems under static torque conditions.
+1.  <div id="fn1">
 
-[^3]: See (Juvinall and Marshek 2006) Sections on creep and fatigue detail how static loads cause measurable structural degradation over time, requiring energy dissipation models.
+    <span class="citation" cites="halliday2013">(Halliday, Resnick, and Walker 2013)</span> This is the canonical presentation of the classical definition of work, where no displacement implies no work, regardless of continuous force or energy expenditure.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: Griffiths [^7], D. J. (2005). *Introduction to Electrodynamics* (3rd ed.). Pearson. Section 5.2 details magnetic potential energy in aligned atomic systems.
+    </div>
 
-[^5]: (Callister and Rethwisch 2010) Sections on creep and viscoelasticity detail micro-movement under sustained load.
+2.  <div id="fn2">
 
-[^6]: (Zurek 2003)
+    For example, see <span class="citation" cites="siciliano2016">(Siciliano and Khatib 2016)</span> Chapter 12 describes the non-zero power consumption of servo systems under static torque conditions.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+3.  <div id="fn3">
+
+    See <span class="citation" cites="juvinall2006">(Juvinall and Marshek 2006)</span> Sections on creep and fatigue detail how static loads cause measurable structural degradation over time, requiring energy dissipation models.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+4.  <div id="fn4">
+
+    Griffiths <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a>, D. J. (2005). *Introduction to Electrodynamics* (3rd ed.). Pearson. Section 5.2 details magnetic potential energy in aligned atomic systems.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+5.  <div id="fn5">
+
+    <span class="citation" cites="callister2010">(Callister and Rethwisch 2010)</span> Sections on creep and viscoelasticity detail micro-movement under sustained load.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    <span class="citation" cites="zurek2003">(Zurek 2003)</span><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/

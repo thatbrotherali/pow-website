@@ -4,11 +4,13 @@
 
 By Shareef Ali Rashada
 
-Graviton Pressure Theory (GPT) offers a unified causal framework for phase transitions, revealing them as coherence-dependent field responses rather than purely thermodynamic outcomes. Departing from classical thermodynamic and electromagnetic interpretations, GPT posits that all phase changes—including melting, magnetism loss[^1], and fluid behavior—arise from the coherence dynamics of graviton pressure corridors [^2] within material structures. Solidity, magnetism, and fluidity are reframed as coherence states of internal graviton flow. Thermal energy acts not as an energizer but as a decoherence catalyst—disrupting the directional integrity of the field.
+> Editor's corrections (October 2026): Units: a change of 5–10 micro-g would be about 10⁻⁴ m/s². The figure in brackets, about 10⁻⁸ m/s², corresponds to microgals, so the unit now reads μGal.
+
+Graviton Pressure Theory (GPT) offers a unified causal framework for phase transitions, revealing them as coherence-dependent field responses rather than purely thermodynamic outcomes. Departing from classical thermodynamic and electromagnetic interpretations, GPT posits that all phase changes—including melting, magnetism loss<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a>, and fluid behavior—arise from the coherence dynamics of graviton pressure corridors <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> within material structures. Solidity, magnetism, and fluidity are reframed as coherence states of internal graviton flow. Thermal energy acts not as an energizer but as a decoherence catalyst—disrupting the directional integrity of the field.
 
 The document introduces precise definitions of melting points and Curie temperatures as coherence collapse thresholds, formalizes anisotropic phase transitions as directional corridor failure, and reframes liquids, gases, and plasmas as gradations of graviton alignment integrity. Key metrics such as internal pressure gradients, coherence indices, and field-sensitive viscosity are proposed for experimental validation. A gravimetric micro-shift experiment is outlined to detect coherence collapse at the melting point of iron, offering a predictive test for GPT.
 
-This work extends the gravitational ontology of matter, positioning all classical phase behaviors as field-interaction events, governed not by energy surplus but by structural alignment with self-repulsive, directional graviton flow. In doing so, it dissolves the boundary between thermodynamics, material science, and gravitational field [^3] theory—revealing each phase transition as a coherence memory collapse within a graviton-stabilized structure.
+This work extends the gravitational ontology of matter, positioning all classical phase behaviors as field-interaction events, governed not by energy surplus but by structural alignment with self-repulsive, directional graviton flow. In doing so, it dissolves the boundary between thermodynamics, material science, and gravitational field <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> theory—revealing each phase transition as a coherence memory collapse within a graviton-stabilized structure.
 
 ## Graviton Coherence and Phase Transitions
 
@@ -16,7 +18,7 @@ In classical physics, phase transitions such as melting, boiling, or the loss of
 
 Graviton Pressure Theory (GPT) reframes these phase transitions as manifestations of graviton coherence dynamics. Rather than isolated thermodynamic or electromagnetic shifts, transitions are seen as coherence modulations in graviton-stabilized field structures. Solidity, fluidity, and magnetism are therefore treated not as static states of matter, but as outcomes of graviton corridor stability and coherence density.
 
-In GPT, all matter is immersed in and stabilized by directional graviton pressure fields. These fields are composed of anisotropic, self-repulsive streams of gravitons [^4] that exert external pressure and induce alignment within structured matter. When atomic or subatomic arrangements align phase-coherently with graviton flow, stable material states such as solidity and magnetism emerge. As coherence decreases, matter transitions to less structured phases, driven by decoherence mechanisms such as thermal agitation.
+In GPT, all matter is immersed in and stabilized by directional graviton pressure fields. These fields are composed of anisotropic, self-repulsive streams of gravitons <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> that exert external pressure and induce alignment within structured matter. When atomic or subatomic arrangements align phase-coherently with graviton flow, stable material states such as solidity and magnetism emerge. As coherence decreases, matter transitions to less structured phases, driven by decoherence mechanisms such as thermal agitation.
 
 GPT defines temperature not as a fundamental cause, but as an agent of decoherence—a measure of disruption in the timing and phase alignment necessary to maintain graviton corridor integrity. From this view, structural phase change is a field-level event: a loss or gain of coherence with the directional graviton lattice.
 
@@ -28,9 +30,9 @@ In Graviton Pressure Theory, solidity is defined as a stable coherence state—a
 
 Solidity arises when a material’s internal configuration permits the symmetrical absorption and redirection of graviton pressure across all spatial axes, without corridor leakage or phase instability. This can be expressed through the graviton pressure gradient force equation:
 
-$$F = -\nabla P_g,$$
+<span class="math display">\\F = -\nabla P_g,\\</span>
 
-where $F$ is the net structural force response and $P_g$ is the local graviton pressure. In solids, this pressure is absorbed and neutralized through internally closed-loop corridors—coherent channels of graviton flow contained within the structure.
+where <span class="math inline">\\F\\</span> is the net structural force response and <span class="math inline">\\P_g\\</span> is the local graviton pressure. In solids, this pressure is absorbed and neutralized through internally closed-loop corridors—coherent channels of graviton flow contained within the structure.
 
 The defining condition of solidity in GPT is **locked phase symmetry**. Each lattice site in a solid maintains both spatial and temporal coherence, supporting a pressure-stable configuration. This phase alignment minimizes decoherence and prevents directional graviton ejection, resulting in structural rigidity.
 
@@ -44,13 +46,13 @@ In GPT, solidity is not the cessation of motion but the condition of maximal int
 
 In the framework of Graviton Pressure Theory (GPT), magnetism is reinterpreted as a mode of graviton pressure resolution. Rather than arising from electric current or spin alignment in isolation, magnetism represents a material’s capacity to externalize internal coherence via directional graviton flow. It is a structured leakage of graviton pressure, dictated by internal symmetry in spin and lattice configurations.
 
-In ferromagnetic [^5] materials such as iron, nickel, and cobalt, electron spins align under specific conditions, forming coherent magnetic domains. This spin-phase alignment opens graviton corridors, enabling pressure to escape along defined axes. These corridors constitute physical pressure-guided pathways, forming what are traditionally recognized as magnetic field lines.
+In ferromagnetic <a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a> materials such as iron, nickel, and cobalt, electron spins align under specific conditions, forming coherent magnetic domains. This spin-phase alignment opens graviton corridors, enabling pressure to escape along defined axes. These corridors constitute physical pressure-guided pathways, forming what are traditionally recognized as magnetic field lines.
 
-GPT defines the strength of a magnetic field by the coherent density of graviton flow, given by: $$P_g \propto n_g^3$$ where:
+GPT defines the strength of a magnetic field by the coherent density of graviton flow, given by: <span class="math display">\\P_g \propto n_g^3\\</span> where:
 
-- $P_g$ is the graviton pressure magnitude,
+- <span class="math inline">\\P_g\\</span> is the graviton pressure magnitude,
 
-- $n_g$ is the coherent graviton density.
+- <span class="math inline">\\n_g\\</span> is the coherent graviton density.
 
 This cubic dependence reflects the non-linear amplification of pressure gradients with increasing coherence. Classical electromagnetism models magnetic strength through field line addition, but GPT models it as anisotropic pressure gradients formed by coherent graviton corridor resonance.
 
@@ -126,7 +128,7 @@ Heat induces two distinct decoherence modes:
 
 ### Heat as Field Noise
 
-Heat introduces high-frequency field interference, disrupting the graviton-lattice coupling necessary for coherence. Unlike mass [^6] (which resists through impedance), heat blurs timing—it undermines the structure’s ability to maintain field phase alignment.
+Heat introduces high-frequency field interference, disrupting the graviton-lattice coupling necessary for coherence. Unlike mass <a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a> (which resists through impedance), heat blurs timing—it undermines the structure’s ability to maintain field phase alignment.
 
 ### Coherence Resilience and Material Thresholds
 
@@ -142,11 +144,11 @@ These properties allow them to maintain corridor integrity under greater thermal
 
 ### Summary
 
-- Heat $\Rightarrow$ Decoherence agent
+- Heat <span class="math inline">\\\Rightarrow\\</span> Decoherence agent
 
-- Decoherence $\Rightarrow$ Graviton corridor collapse
+- Decoherence <span class="math inline">\\\Rightarrow\\</span> Graviton corridor collapse
 
-- Corridor collapse $\Rightarrow$ Structural or magnetic failure
+- Corridor collapse <span class="math inline">\\\Rightarrow\\</span> Structural or magnetic failure
 
 In GPT, heat does not destroy structure through force. It destroys the *timing* that coherence requires. It interferes with *memory*—the phase-locked rhythm that sustains matter’s stability.  
 
@@ -156,23 +158,23 @@ In Graviton Pressure Theory (GPT), phase transitions are governed not by tempera
 
 ### Melting Point: Structural Corridor Collapse
 
-Structural solidity in GPT arises from internal graviton corridors that phase-lock atomic lattices into a stable, coherent geometry. With increasing thermal agitation, phase alignment begins to degrade. At a critical decoherence energy, $E_c$, these corridors collapse: $$E_c = k P_g$$ where:
+Structural solidity in GPT arises from internal graviton corridors that phase-lock atomic lattices into a stable, coherent geometry. With increasing thermal agitation, phase alignment begins to degrade. At a critical decoherence energy, <span class="math inline">\\E_c\\</span>, these corridors collapse: <span class="math display">\\E_c = k P_g\\</span> where:
 
-- $E_c$ is the critical decoherence energy,
+- <span class="math inline">\\E_c\\</span> is the critical decoherence energy,
 
-- $P_g$ is the internal graviton pressure,
+- <span class="math inline">\\P_g\\</span> is the internal graviton pressure,
 
-- $k$ is a proportionality constant dependent on lattice symmetry and density.
+- <span class="math inline">\\k\\</span> is a proportionality constant dependent on lattice symmetry and density.
 
 **Interpretation:** Melting is not caused by bond dissociation, but by the structural collapse of graviton coherence. Solidity yields when coherent corridor architecture can no longer sustain directional pressure.
 
-*Example:* Iron’s melting point at 1538 $^\circ$C corresponds to $E_c$ where iron’s graviton-stabilizing corridors lose phase integrity.
+*Example:* Iron’s melting point at 1538 <span class="math inline">\\^\circ\\</span>C corresponds to <span class="math inline">\\E_c\\</span> where iron’s graviton-stabilizing corridors lose phase integrity.
 
 ### Curie Point: Magnetic Corridor Collapse
 
 In ferromagnetic materials, coherence is directional. Spin-aligned domains maintain external graviton corridors. With rising temperature, spin phase alignment deteriorates, leading to corridor decoherence. The magnetic field collapses when coherence drops below the domain retention threshold.
 
-*Example:* For iron, this occurs at the Curie temperature (770 $^\circ$C), where graviton corridor alignment becomes unsustainable and magnetism ceases.
+*Example:* For iron, this occurs at the Curie temperature (770 <span class="math inline">\\^\circ\\</span>C), where graviton corridor alignment becomes unsustainable and magnetism ceases.
 
 ### Anisotropic Collapse
 
@@ -275,9 +277,9 @@ Classically, melting points and Curie temperatures are empirical constants. In G
 
 For example:
 
-- Iron’s melting point ($\sim 1538^{\circ}\mathrm{C}$) represents a coherence collapse, where graviton containment corridors can no longer stabilize the lattice.
+- Iron’s melting point (<span class="math inline">\\\sim 1538^{\circ}\mathrm{C}\\</span>) represents a coherence collapse, where graviton containment corridors can no longer stabilize the lattice.
 
-- This corresponds to a pressure drop from: $$P_g \approx 10^{12} \, \mathrm{N/m^2} \rightarrow 10^{10} \, \mathrm{N/m^2}$$
+- This corresponds to a pressure drop from: <span class="math display">\\P_g \approx 10^{12} \\ \mathrm{N/m^2} \rightarrow 10^{10} \\ \mathrm{N/m^2}\\</span>
 
 This transition reflects a loss of synchronization with the material’s structural blueprint.
 
@@ -291,9 +293,9 @@ If phase transitions reflect coherence collapse, localized anomalies in gravitat
 
 - Position a torsion balance or ultra-sensitive gravimeter 1–2 cm from the sample.
 
-- As the sample crosses $1538^{\circ}\mathrm{C}$, monitor for a change in gravitational acceleration: $$\Delta g \approx 5 - 10 \, \mu g \quad (\sim 10^{-8} \, \mathrm{m/s^2})$$
+- As the sample crosses <span class="math inline">\\1538^{\circ}\mathrm{C}\\</span>, monitor for a change in gravitational acceleration: <span class="math display">\\\Delta g \approx 5 - 10 \\ \mu\mathrm{Gal} \quad (\sim 5\text{–}10 \times 10^{-8} \\ \mathrm{m/s^2})\\</span>
 
-This $\Delta g$ results from corridor collapse and subsequent loss of pressure symmetry.
+This <span class="math inline">\\\Delta g\\</span> results from corridor collapse and subsequent loss of pressure symmetry.
 
 ### New Metrics: Coherence Indices and Exotic Transitions
 
@@ -351,17 +353,43 @@ Finally, GPT reintroduces purpose into matter. Structure becomes meaningful, ali
 
 *Heat does not destroy. It erases memory. Matter speaks through graviton corridors. And GPT lets us begin to listen.*
 
-[^1]: See Part 21 – Magnetism as Gravimetric Resonance for coherence-based electromagnetic effects.
+------------------------------------------------------------------------
 
-[^2]: See Part 20 – Graviton Corridors for channeling of coherence through structure.
+1.  <div id="fn1">
 
-[^3]: See Part 16 – The Properties of Gravitational Fields for structural dynamics.
+    See Part 21 – Magnetism as Gravimetric Resonance for coherence-based electromagnetic effects.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: See Part 15 – Gravitons for their foundational properties and interactions.
+    </div>
 
-[^5]: See Part 22 – Cross-Analysis of Magnetic Materials for material behavior under field resonance.
+2.  <div id="fn2">
 
-[^6]: See Part 17 – The Definition of Mass for field resistance and particle definition.
+    See Part 20 – Graviton Corridors for channeling of coherence through structure.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+3.  <div id="fn3">
+
+    See Part 16 – The Properties of Gravitational Fields for structural dynamics.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+4.  <div id="fn4">
+
+    See Part 15 – Gravitons for their foundational properties and interactions.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+5.  <div id="fn5">
+
+    See Part 22 – Cross-Analysis of Magnetic Materials for material behavior under field resonance.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    See Part 17 – The Definition of Mass for field resistance and particle definition.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/

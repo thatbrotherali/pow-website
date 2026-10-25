@@ -4,11 +4,13 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): Net force: a force is not a pressure, and ρv integrated over an area is a mass flow (kg/s), not a force. The force is now the momentum flux ρ(v·n̂)v of the incoming graviton flow integrated over the surface, with ρ_g a density per unit volume.
+
 ## The Myth of the Pull
 
 In nearly every domain of inquiry, from gravitational theory to human emotion, the language of “attraction” is used to imply a kind of mystical inevitability. We are told that gravity attracts, that magnets attract, that electrons are attracted to protons, that people are attracted to one another. These declarations have become so entrenched in both scientific discourse and cultural metaphor that they are rarely questioned. Yet, despite their ubiquity, they share a common flaw: they assert the existence of a directional force without identifying the causal mechanism that mediates it.
 
-Attraction, in this context, is not a force. It is a linguistic artifact—a placeholder for an effect that has not been explained mechanistically. The phrase “$X$ attracts $Y$” subtly inverts causality by implying that the attractor does the work, without ever specifying how energy is transferred, what field carries the influence, or what medium conveys the impulse. In this vacuum of explanation, attraction becomes a word that hides ignorance under familiarity.
+Attraction, in this context, is not a force. It is a linguistic artifact—a placeholder for an effect that has not been explained mechanistically. The phrase “<span class="math inline">\\X\\</span> attracts <span class="math inline">\\Y\\</span>” subtly inverts causality by implying that the attractor does the work, without ever specifying how energy is transferred, what field carries the influence, or what medium conveys the impulse. In this vacuum of explanation, attraction becomes a word that hides ignorance under familiarity.
 
 One of the clearest and most neglected analogies is suction. People routinely describe suction as a pulling action—whether it is a vacuum cleaner, a straw, or the human lungs. But suction is not a pull at all. It is the result of external pressure pushing toward a zone of lower pressure. The so-called “vacuum” does not exert force; it permits force. The real energy comes from the outside. Motion into a vacuum is not drawn—it is driven. This overlooked example perfectly illustrates the core principle: what feels like pull is sometimes a push restructured by absence.
 
@@ -22,7 +24,7 @@ The misdefinition of causality is not a semantic error; it is a structural flaw 
 
 Conservation laws, particularly the conservation of energy and momentum, require that any transfer of motion must be accompanied by a traceable interaction. There must be something that does the pushing or transmitting—not merely a mathematical construct, but a physically causal entity. To claim that a mass or a charge “attracts” another without identifying the mode of mediation is to bypass this fundamental requirement.
 
-Moreover, misdefining force allows flawed models to persist unchecked. Newton’s inverse-square law[^1] describes the behavior of gravity but not its cause. General Relativity replaces force with curvature but offers no mediating field to transfer momentum. Electromagnetism invokes fields and virtual photons without resolving how energy is delivered across empty space. In each case, attraction is used as a conceptual shortcut that skips the responsibility of causal clarity.
+Moreover, misdefining force allows flawed models to persist unchecked. Newton’s inverse-square law<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> describes the behavior of gravity but not its cause. General Relativity replaces force with curvature but offers no mediating field to transfer momentum. Electromagnetism invokes fields and virtual photons without resolving how energy is delivered across empty space. In each case, attraction is used as a conceptual shortcut that skips the responsibility of causal clarity.
 
 This matters because science must be accountable. Every force must name its pusher. Every motion must earn its energy. If we allow “pulling” to persist as a placeholder for unexplained influence, we surrender the rigor that science demands in favor of the poetic ambiguity that mystery offers.
 
@@ -32,13 +34,13 @@ The goal of this paper is not merely to critique, but to correct. We seek to res
 
 Before we can dismantle the concept of attraction as a legitimate physical force, we must first define how it is currently used across various disciplines. While the word appears intuitive, its operational application is riddled with assumptions that rarely withstand causal scrutiny. In physics, chemistry, and popular science alike, “attraction” is used to describe convergent behavior between objects or systems—but in nearly every case, it serves as a linguistic placeholder, not a mechanistic explanation.
 
-In Newtonian gravity, attraction refers to the idea that a mass exerts a pulling force on another mass, proportional to the product of their masses and inversely proportional to the square of the distance between them. Newton offered no medium or messenger for this force, stating explicitly that he “framed no hypothesis” about its cause.[^2]
+In Newtonian gravity, attraction refers to the idea that a mass exerts a pulling force on another mass, proportional to the product of their masses and inversely proportional to the square of the distance between them. Newton offered no medium or messenger for this force, stating explicitly that he “framed no hypothesis” about its cause.<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a>
 
-In General Relativity, the term “attraction” is avoided in favor of describing motion along geodesics in curved spacetime. However, the intuitive idea that mass still “pulls” other matter lingers in educational explanations and popular interpretations.[^3]
+In General Relativity, the term “attraction” is avoided in favor of describing motion along geodesics in curved spacetime. However, the intuitive idea that mass still “pulls” other matter lingers in educational explanations and popular interpretations.<a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a>
 
-In electrostatics, attraction refers to the motion of opposite charges toward one another, described mathematically by Coulomb’s law. The interaction is said to be mediated by electric fields or virtual photons, yet these mediators are often treated as formal constructs rather than causal entities with definable energy pathways.[^4] In chemical bonding, terms like “electrostatic attraction” and “bond strength” are used to explain why atoms or ions come together. Covalent and ionic bonds are commonly described as the result of attractive forces between electrons and nuclei. But again, the medium and energy pathway of this “pull” are rarely traced in mechanistic terms.[^5]
+In electrostatics, attraction refers to the motion of opposite charges toward one another, described mathematically by Coulomb’s law. The interaction is said to be mediated by electric fields or virtual photons, yet these mediators are often treated as formal constructs rather than causal entities with definable energy pathways.<a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> In chemical bonding, terms like “electrostatic attraction” and “bond strength” are used to explain why atoms or ions come together. Covalent and ionic bonds are commonly described as the result of attractive forces between electrons and nuclei. But again, the medium and energy pathway of this “pull” are rarely traced in mechanistic terms.<a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a>
 
-In magnetism, attraction is used to describe the force between opposite magnetic poles or between a magnet and ferromagnetic material. Field lines are drawn, but the pressure gradients, mediating particles, or mechanisms of motion initiation are typically not specified.[^6]
+In magnetism, attraction is used to describe the force between opposite magnetic poles or between a magnet and ferromagnetic material. Field lines are drawn, but the pressure gradients, mediating particles, or mechanisms of motion initiation are typically not specified.<a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a>
 
 In all of these cases, the word “attraction” substitutes description for explanation. The following assumptions underlie its use:
 
@@ -60,11 +62,11 @@ The persistence of “attraction” in scientific language is not a testament to
 
 Phrases such as “gravity pulls us to the Earth” or “a magnet pulls iron” are taught from elementary education onward. These constructions suggest a causal agency in the stationary object—the Earth, the magnet—without ever identifying how such agency is enacted. They imply a field reaching out, a force being broadcast, a motion being summoned. But no mechanism is named. No work is accounted for. No mediation is traced.
 
-Take the gravitational case: an object accelerates toward the Earth. The motion is real. The energy is real. But the phrase “gravity pulls” is not. It assigns action to the passive mass. The Earth does not emit energy to pull the object. The object falls because of a pressure asymmetry in the surrounding field—a gradient of directional force, not a beam of influence.[^7]
+Take the gravitational case: an object accelerates toward the Earth. The motion is real. The energy is real. But the phrase “gravity pulls” is not. It assigns action to the passive mass. The Earth does not emit energy to pull the object. The object falls because of a pressure asymmetry in the surrounding field—a gradient of directional force, not a beam of influence.<a href="#fn7" id="fnref7" class="footnote-ref" role="doc-noteref"><sup>7</sup></a>
 
-In electromagnetism, “opposites attract” is used to summarize Coulomb’s law. Yet the mathematical expression makes no reference to a pulling agent. It defines a force magnitude, not a mechanism. The field is invoked, but the pathway of energy transmission remains obscured behind formal abstraction. “Attract” becomes a semantic shortcut for convergence, not a descriptor of how or why motion occurs.[^8]
+In electromagnetism, “opposites attract” is used to summarize Coulomb’s law. Yet the mathematical expression makes no reference to a pulling agent. It defines a force magnitude, not a mechanism. The field is invoked, but the pathway of energy transmission remains obscured behind formal abstraction. “Attract” becomes a semantic shortcut for convergence, not a descriptor of how or why motion occurs.<a href="#fn8" id="fnref8" class="footnote-ref" role="doc-noteref"><sup>8</sup></a>
 
-Even in quantum chemistry, the language of bonding often includes the phrase “electrons are attracted to nuclei.” But these electrons are not being pulled through space by nuclear charisma. They are constrained within stable interference zones—regions of reduced impedance in a structured field lattice. What is called attraction is better understood as field permission through coherence alignment.[^9]
+Even in quantum chemistry, the language of bonding often includes the phrase “electrons are attracted to nuclei.” But these electrons are not being pulled through space by nuclear charisma. They are constrained within stable interference zones—regions of reduced impedance in a structured field lattice. What is called attraction is better understood as field permission through coherence alignment.<a href="#fn9" id="fnref9" class="footnote-ref" role="doc-noteref"><sup>9</sup></a>
 
 This linguistic misrepresentation creates a feedback loop:
 
@@ -121,9 +123,9 @@ In Graviton Pressure Theory, these failures are not merely highlighted—they ar
 
 ### Gravity: Newton to Einstein to GPT
 
-Newtonian gravity posited an attractive force that acted instantaneously at a distance. Yet Newton himself expressed deep discomfort with the idea of action without mediation. He admitted: “that one body may act upon another at a distance through a vacuum without the mediation of anything else...is to me so great an absurdity.”[^10]
+Newtonian gravity posited an attractive force that acted instantaneously at a distance. Yet Newton himself expressed deep discomfort with the idea of action without mediation. He admitted: “that one body may act upon another at a distance through a vacuum without the mediation of anything else...is to me so great an absurdity.”<a href="#fn10" id="fnref10" class="footnote-ref" role="doc-noteref"><sup>10</sup></a>
 
-Einstein removed the force of gravity entirely and replaced it with spacetime curvature.[^11] But this removed the mechanism, not restored it. Objects no longer pulled—they followed geodesics in a warped geometry. The curvature replaced action, but offered no particle, pressure, or exchange.
+Einstein removed the force of gravity entirely and replaced it with spacetime curvature.<a href="#fn11" id="fnref11" class="footnote-ref" role="doc-noteref"><sup>11</sup></a> But this removed the mechanism, not restored it. Objects no longer pulled—they followed geodesics in a warped geometry. The curvature replaced action, but offered no particle, pressure, or exchange.
 
 Graviton Pressure Theory restores the missing mechanism: gravity is the net result of directional pressure gradients in the graviton field. No object pulls another. The motion is always the outcome of external pressure imbalance created by coherent structural resistance. Where Newton described attraction, and Einstein replaced it with passive trajectory, GPT reestablishes causality through push-based interaction.
 
@@ -263,15 +265,15 @@ Gravitons, as modeled in GPT, are discrete carriers of directional pressure. The
 
 Motion arises not from being pulled, but from being pushed more from one side than another. This is not an abstraction—it is measurable, directional, and structurally caused. The pressure field is not metaphor. It is the medium.
 
-Let us formalize this concept: $$F = P_{\text{net}} = \int_{A} (\rho_g \cdot \vec{v_g})\, dA$$ Where:
+Let us formalize this concept: <span class="math display">\\\vec{F} = \int\_{A} P\_{\text{net}}\\\hat{n}\\ dA = \int\_{A} \rho_g\\ (\vec{v}\_g \cdot \hat{n})\\ \vec{v}\_g\\ dA\\</span> Where:
 
-- $F$ is the net force applied to the body,
+- <span class="math inline">\\F\\</span> is the net force applied to the body,
 
-- $\rho_g$ is the density of incident gravitons per unit area,
+- <span class="math inline">\\\rho_g\\</span> is the density of the incident graviton flow per unit volume,
 
-- $\vec{v_g}$ is the directional velocity vector of graviton flow,
+- <span class="math inline">\\\vec{v_g}\\</span> is the directional velocity vector of graviton flow,
 
-- $A$ is the surface area over which the pressure is applied.
+- <span class="math inline">\\A\\</span> is the surface area over which the pressure is applied.
 
 This is not a symbolic reformulation. It is a mechanistic one. Pressure, not potential, is the operational quantity. And force, as we now define it, is simply the net result of directional graviton interactions over a boundary.
 
@@ -550,39 +552,39 @@ The push is measurable.
 The universe is built not on bonds of pulling, but on permission through pressure.  
 And now we know.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-atkins2006" class="csl-entry">
+<div id="ref-atkins2006" class="csl-entry" role="listitem">
 
 Atkins, Peter, and Julio de Paula. 2006. *Physical Chemistry*. 8th ed. Oxford University Press.
 
 </div>
 
-<div id="ref-einstein1915" class="csl-entry">
+<div id="ref-einstein1915" class="csl-entry" role="listitem">
 
 Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
 
 </div>
 
-<div id="ref-feynman1964" class="csl-entry">
+<div id="ref-feynman1964" class="csl-entry" role="listitem">
 
 Feynman, Richard P., Robert B. Leighton, and Matthew Sands. 1964. *The Feynman Lectures on Physics, Vol. II*. Addison-Wesley.
 
 </div>
 
-<div id="ref-griffiths2017" class="csl-entry">
+<div id="ref-griffiths2017" class="csl-entry" role="listitem">
 
 Griffiths, David J. 2017. *Introduction to Electrodynamics*. 4th ed. Cambridge University Press.
 
 </div>
 
-<div id="ref-misner1973" class="csl-entry">
+<div id="ref-misner1973" class="csl-entry" role="listitem">
 
 Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitation*. W. H. Freeman.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
@@ -590,27 +592,73 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 
 </div>
 
-[^1]: See (Newton 1687) for classical gravitational attraction and early force formalism.
+------------------------------------------------------------------------
 
-[^2]: Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*. Book III, General Scholium.
+1.  <div id="fn1">
 
-[^3]: See (Misner, Thorne, and Wheeler 1973) for the relativistic description of geodesic motion and spacetime structure.
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for classical gravitational attraction and early force formalism.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: See (Feynman, Leighton, and Sands 1964) for field interaction analysis and critiques of gravitational pull analogies.
+    </div>
 
-[^5]: See (Atkins and Paula 2006) for chemical definitions of energy, pressure, and enthalpy.
+2.  <div id="fn2">
 
-[^6]: See (Griffiths 2017) for electromagnetic attraction principles and Lorentz force law.
+    Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*. Book III, General Scholium.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^7]: (Misner, Thorne, and Wheeler 1973)
+    </div>
 
-[^8]: Feynman, R. P., Leighton, R. B., & Sands, M. (1964). *The Feynman Lectures on Physics, Vol. II*. Addison-Wesley.
+3.  <div id="fn3">
 
-[^9]: (Atkins and Paula 2006)
+    See <span class="citation" cites="misner1973">(Misner, Thorne, and Wheeler 1973)</span> for the relativistic description of geodesic motion and spacetime structure.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^10]: Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*.
+    </div>
 
-[^11]: See (Einstein 1915) for the geometric treatment of gravity as spacetime curvature.
+4.  <div id="fn4">
+
+    See <span class="citation" cites="feynman1964">(Feynman, Leighton, and Sands 1964)</span> for field interaction analysis and critiques of gravitational pull analogies.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+5.  <div id="fn5">
+
+    See <span class="citation" cites="atkins2006">(Atkins and Paula 2006)</span> for chemical definitions of energy, pressure, and enthalpy.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    See <span class="citation" cites="griffiths2017">(Griffiths 2017)</span> for electromagnetic attraction principles and Lorentz force law.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+7.  <div id="fn7">
+
+    <span class="citation" cites="misner1973">(Misner, Thorne, and Wheeler 1973)</span><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+8.  <div id="fn8">
+
+    Feynman, R. P., Leighton, R. B., & Sands, M. (1964). *The Feynman Lectures on Physics, Vol. II*. Addison-Wesley.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+9.  <div id="fn9">
+
+    <span class="citation" cites="atkins2006">(Atkins and Paula 2006)</span><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+10. <div id="fn10">
+
+    Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+11. <div id="fn11">
+
+    See <span class="citation" cites="einstein1915">(Einstein 1915)</span> for the geometric treatment of gravity as spacetime curvature.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/

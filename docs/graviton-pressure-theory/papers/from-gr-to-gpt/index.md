@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's corrections (October 2026): Equations 4, 6–8 and 12: a pressure gradient is a force per unit volume, so it is divided by the density of the graviton medium ρ_g to give an acceleration (the form the paper itself uses in equation 21). Equations 9–11: ρ_g carried through, so the pressure field reads P_g = P₀ − ρ_g GM/r and has the units of pressure. Equations 14–17: the algebra did not follow (1 − (P₀ − GM/r)/P₀ is GM/P₀r, not 1 − GM/P₀r). With the static pressure lower near a mass, the clock rate is √(P_g/P₀); with P₀ = ½ρ_g c² this gives √(1 − 2GM/rc²), the measured rate. The plain-English note now says time slows where this pressure is lower. Equation 3: a force is a pressure difference times an area, so F = ΔP·A (pressure times mass has no physical meaning). Equation 20: the indices did not match (one free index on the left, two on the right). It now proposes a pressure tensor proportional to the stress-energy tensor, with conservation following from ∇_μT^{μν} = 0. Equations 13, 18, 19 and 23 are GR's tested results. The paper states them rather than derives them from graviton pressure; deriving them is an open task.
+
 ## Abstract
 
 Gravity is one of the most fundamental forces in the universe, yet its true nature remains elusive. While General Relativity (GR) has served as the dominant framework for over a century, it provides a purely geometric description without a physical mechanism for gravity. Furthermore, GR’s reliance on dark matter and dark energy raises fundamental questions about its completeness. This paper introduces Graviton Pressure Theory (GPT), a force-based alternative that proposes gravity arises from external pressure gradients in a pervasive graviton field. Unlike GR, which attributes gravitational effects to curved spacetime, GPT explains gravitational attraction as a result of anisotropic graviton interactions. This approach eliminates the need for hypothetical dark matter and dark energy while maintaining consistency with observed gravitational phenomena. Key derivations demonstrate how GPT reproduces Newtonian gravity as an approximation, accounts for gravitational lensing, and explains galactic rotation curves without additional unseen mass. Furthermore, the framework provides a causal mechanism for gravitational interactions, linking quantum-scale effects to large-scale cosmic structures. We conclude by proposing testable predictions and experimental avenues to validate GPT, paving the way for a fundamental re-evaluation of gravitational physics.
@@ -311,7 +313,7 @@ where <span class="math inline">\\\Gamma^\mu\_{\alpha\beta}\\</span> are the Chr
 
 In GPT, acceleration is described using a pressure differential equation:
 
-<span class="math display">\\F = -\nabla P_g \tag{2}\\</span>
+<span class="math display">\\F = -\frac{m}{\rho_g}\nabla P_g \tag{2}\\</span>
 
 where <span class="math inline">\\P_g\\</span> represents the external graviton pressure field. Unlike the geodesic equation, this formulation explicitly identifies the force responsible for acceleration, rather than assuming it as an emergent effect of curved coordinates.
 
@@ -466,9 +468,9 @@ GPT describes gravity not as a distortion of spacetime but as an emergent effect
 
 Mathematically, this can be formulated as a pressure differential equation:
 
-<span class="math display">\\F = P\\\Delta m \tag{3}\\</span>
+<span class="math display">\\F = \Delta P\\ A \tag{3}\\</span>
 
-where <span class="math inline">\\P\\</span> represents external graviton pressure, and <span class="math inline">\\\Delta m\\</span> is the mass experiencing the pressure differential.
+where <span class="math inline">\\\Delta P\\</span> is the difference in external graviton pressure across the body, and <span class="math inline">\\A\\</span> is the area it acts on.
 
 #### 5.2.3 Explaining Acceleration as an Emergent Effect
 
@@ -680,7 +682,7 @@ This section presents the core mathematical framework of GPT, expanding the key 
 
 In GPT, gravity arises due to gradients in the local graviton pressure field, rather than spacetime curvature. The force per unit mass is given by:
 
-<span class="math display">\\\vec F_g = -\nabla P_g, \quad \text{where } P_g \text{ is the local graviton pressure field.} \tag{4}\\</span>
+<span class="math display">\\\vec a_g = -\frac{1}{\rho_g}\nabla P_g, \quad \text{where } P_g \text{ is the local graviton pressure and } \rho_g \text{ the density of the graviton medium.} \tag{4}\\</span>
 
 **Plain English Explanation:**
 
@@ -692,11 +694,11 @@ To derive this, we start with the fundamental assumption that mass interacts wit
 
 where <span class="math inline">\\\vec p\\</span> is the momentum due to graviton interactions. Assuming that the force is a function of local graviton pressure variations, we use the pressure-gradient force relation:
 
-<span class="math display">\\\frac{d\vec p}{dt} = -\nabla P_g \tag{6}\\</span>
+<span class="math display">\\\frac{d\vec p}{dt} = -\frac{m}{\rho_g}\nabla P_g \tag{6}\\</span>
 
 which simplifies to:
 
-<span class="math display">\\\vec F_g = -\nabla P_g \tag{7}\\</span>
+<span class="math display">\\\vec F_g = -\frac{m}{\rho_g}\nabla P_g \tag{7}\\</span>
 
 **Plain English Explanation:**
 
@@ -706,23 +708,23 @@ This formulation implies that objects move toward regions of lower graviton pres
 
 In equilibrium, the force on a test mass m at distance r from a mass M must match the Newtonian gravitational force:
 
-<span class="math display">\\-\nabla P_g = -\frac{GM}{r^2} \tag{8}\\</span>
+<span class="math display">\\-\frac{1}{\rho_g}\nabla P_g = -\frac{GM}{r^2}\\\hat r \tag{8}\\</span>
 
 Expanding the gradient in spherical coordinates:
 
-<span class="math display">\\\frac{dP_g}{dr} = \frac{GM}{r^2} \tag{9}\\</span>
+<span class="math display">\\\frac{dP_g}{dr} = \frac{\rho_g GM}{r^2} \tag{9}\\</span>
 
 Integrating with respect to <span class="math inline">\\r\\</span>:
 
-<span class="math display">\\P_g(r) = -\frac{GM}{r} + C \tag{10}\\</span>
+<span class="math display">\\P_g(r) = -\frac{\rho_g GM}{r} + C \tag{10}\\</span>
 
 Setting the integration constant as the background pressure in free space, C = P0 , we obtain:
 
-<span class="math display">\\P_g(r) = P_0 - \frac{GM}{r} \tag{11}\\</span>
+<span class="math display">\\P_g(r) = P_0 - \frac{\rho_g GM}{r} \tag{11}\\</span>
 
 **Final Equation:**
 
-<span class="math display">\\\vec F_g = -\nabla P_g = -\frac{GM}{r^2} \tag{12}\\</span>
+<span class="math display">\\\vec a_g = -\frac{1}{\rho_g}\nabla P_g = -\frac{GM}{r^2}\\\hat r \tag{12}\\</span>
 
 This equation aligns with Newton’s law of gravitation but reinterprets gravity as a pressure-driven force.
 
@@ -740,23 +742,23 @@ where <span class="math inline">\\b\\</span> is the impact parameter of the pass
 
 GPT replaces the notion of curved spacetime affecting time with graviton pressure variations affecting time progression.
 
-<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{P_g}{P_0}}, \quad \text{where } P_0 \text{ is the graviton pressure in free space.} \tag{14}\\</span>
+<span class="math display">\\\frac{d\tau}{dt} = \sqrt{\frac{P_g}{P_0}}, \quad \text{where } P_0 \text{ is the graviton pressure in free space.} \tag{14}\\</span>
 
 **Plain English Explanation:**
 
-“This equation tells us that time slows down in regions where graviton pressure is higher. Instead of time slowing due to ‘spacetime curvature,’ it is due to the resistance created by the denser graviton field. This means that time is affected by the physical interaction of gravitons rather than by an abstract curvature of spacetime.”
+“This equation tells us that time slows down where this graviton pressure is lower, that is, closer to a mass. Instead of time slowing due to ‘spacetime curvature,’ it is due to the resistance created by the denser graviton field. This means that time is affected by the physical interaction of gravitons rather than by an abstract curvature of spacetime.”
 
-Substituting <span class="math inline">\\P_g(r) = P_0 - \frac{GM}{r}\\</span>:
+Substituting <span class="math inline">\\P_g(r) = P_0 - \frac{\rho_g GM}{r}\\</span>:
 
-<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{P_0 - GM/r}{P_0}} \tag{15}\\</span>
+<span class="math display">\\\frac{d\tau}{dt} = \sqrt{\frac{P_0 - \rho_g GM/r}{P_0}} \tag{15}\\</span>
 
 Simplifying:
 
-<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{GM}{P_0 r}} \tag{16}\\</span>
+<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{\rho_g GM}{P_0\\ r}} \tag{16}\\</span>
 
 **Final Equation:**
 
-<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{GM}{P_0 r}} \tag{17}\\</span>
+<span class="math display">\\\frac{d\tau}{dt} = \sqrt{1 - \frac{2GM}{rc^2}} \quad \text{taking } P_0 = \tfrac{1}{2}\rho_g c^2 \tag{17}\\</span>
 
 This modifies classical gravitational time dilation to a pressure-dependent formulation.
 
@@ -788,7 +790,7 @@ GPT successfully reconstructs the major gravitational predictions of GR using a 
 
 While GPT operates via pressure-driven interactions rather than curvature - based geodesics, a tensor-based approach allows direct comparison with General Relativity. We propose the following formulation:
 
-<span class="math display">\\\nabla\_\mu P^{\mu\nu} = 4\pi G\\ T^{\mu\nu} \tag{20}\\</span>
+<span class="math display">\\P^{\mu\nu} = \kappa_g\\ T^{\mu\nu}, \qquad \nabla\_\mu P^{\mu\nu} = 0 \tag{20}\\</span>
 
 where:
 
@@ -810,7 +812,7 @@ The acceleration experienced by a body due to gravity is given by:
 
 To express this in terms of circular velocity for orbital motion, we relate acceleration to velocity:
 
-<span class="math display">\\v_c^2 = \frac{1}{\rho_g}\nabla P_g\\ r \tag{22}\\</span>
+<span class="math display">\\v_c^2 = \frac{r}{\rho_g}\left\|\nabla P_g\right\| \tag{22}\\</span>
 
 **Plain English Explanation:**
 

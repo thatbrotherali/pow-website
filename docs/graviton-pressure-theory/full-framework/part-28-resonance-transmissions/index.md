@@ -4,11 +4,15 @@ By Shareef Ali Rashada
 
 Resonance Transmissions reframes the entirety of electromagnetic behavior—from photon emission to circuit function—not as abstractions or probabilistic waves in vacuum, but as mechanically grounded coherence in a physical graviton medium, but as structured coherence modulations within a causal, memory-bearing graviton lattice[^1]. In this framework, radiation, light, and electromagnetic fields are all revealed as consequences of tension differentials, alignment patterns, and shear memory dynamics across a structured medium.
 
-This volume begins by redefining radiation not as particle duality, but as lattice-modulated coherence displacement[^2]—coherence pulses negotiating distance through a living field. Spectral phenomena are unified under this view: infrared, visible, ultraviolet, and gamma emissions are not distinct forces but graded coherence displacements shaped by graviton pressure, coherence resistance, and field resonance feedback.
+> Editor's corrections (October 2026): Units of the electric field: if E = −∇gp, its units are those of a pressure gradient, kg/(m²·s²), not of a pressure. Still open: the unit table in this part (resistance, capacitance, EM velocity, impedance) depends on how Cres and R_field are defined, and those definitions differ from Part 24. A single set of definitions is needed before the derived units can be checked.
+
+Resonance Transmissions reframes the entirety of electromagnetic behavior—from photon emission to circuit function—not as abstractions or probabilistic waves in vacuum, but as mechanically grounded coherence in a physical graviton medium, but as structured coherence modulations within a causal, memory-bearing graviton lattice<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a>. In this framework, radiation, light, and electromagnetic fields are all revealed as consequences of tension differentials, alignment patterns, and shear memory dynamics across a structured medium.
+
+This volume begins by redefining radiation not as particle duality, but as lattice-modulated coherence displacement<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a>—coherence pulses negotiating distance through a living field. Spectral phenomena are unified under this view: infrared, visible, ultraviolet, and gamma emissions are not distinct forces but graded coherence displacements shaped by graviton pressure, coherence resistance, and field resonance feedback.
 
 Modulation and carrier dynamics are causally grounded in lattice structure. Frequency, amplitude, and phase shift are no longer abstractions—they are mechanical deformations within a graviton-regulated structure—they become mechanical expressions of how the field realigns itself over time and space. Interactions with matter are explained through resonance compatibility rather than particle collisions, introducing new engineering models for transparency, shielding, and emission control.
 
-Electromagnetism emerges as the choreography of the lattice itself. Electric fields emerge from directional graviton pressure differentials. Magnetic fields are torsional coherence memory—encoded rotations in the graviton lattice[^3]—traces left by displaced coherence. Electromagnetic waves are not “energy in motion,” but field self-repair in motion: the rhythmic language of coherence returning to equilibrium. Maxwell’s equations are preserved in structure for classical electromagnetic theory. but reinterpreted in meaning, each term gaining a new identity rooted in pressure, torque, and coherence feedback.
+Electromagnetism emerges as the choreography of the lattice itself. Electric fields emerge from directional graviton pressure differentials. Magnetic fields are torsional coherence memory—encoded rotations in the graviton lattice<a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a>—traces left by displaced coherence. Electromagnetic waves are not “energy in motion,” but field self-repair in motion: the rhythmic language of coherence returning to equilibrium. Maxwell’s equations are preserved in structure for classical electromagnetic theory. but reinterpreted in meaning, each term gaining a new identity rooted in pressure, torque, and coherence feedback.
 
 Finally, all electromagnetic behavior is dimensionally mapped in GPT units, eliminating reliance on abstract constants and replacing them with physically measurable lattice properties. Circuits become tension systems. Capacitors store alignment strain. Inductors record torsional inertia. Antennas tune into coherence corridors.
 
@@ -71,15 +75,15 @@ Graviton Pressure Theory reveals a remarkable consistency across all modes of tr
 
 All transmission behaviors can now be consistently modeled using the following GPT quantities:
 
-- **$gp$**: Graviton Pressure– the directional coherence force within the field.
+- **<span class="math inline">\\gp\\</span>**: Graviton Pressure– the directional coherence force within the field.
 
-- **$Cres$**: Coherence Resistance– how well a structure resists compression and pattern loss.
+- **<span class="math inline">\\Cres\\</span>**: Coherence Resistance– how well a structure resists compression and pattern loss.
 
-- **$\kappa$**: Resonance Alignment Ratio– the ratio of internal to external field resonance.
+- **<span class="math inline">\\\kappa\\</span>**: Resonance Alignment Ratio– the ratio of internal to external field resonance.
 
-- **$Tgp$**: Graviton Torque– corrective moment generated by rotational coherence asymmetry.
+- **<span class="math inline">\\Tgp\\</span>**: Graviton Torque– corrective moment generated by rotational coherence asymmetry.
 
-- **$Rfield$**: Resonance Feedback Potential– total constructive/dissipative field echo from coherent motion.
+- **<span class="math inline">\\Rfield\\</span>**: Resonance Feedback Potential– total constructive/dissipative field echo from coherent motion.
 
 In GPT, dimensional modeling is not abstraction– it is causal memory. The field "remembers" its state through these quantities, and every signal we detect is the consequence of field negotiation.
 
@@ -99,7 +103,7 @@ In GPT, dimensional modeling is not abstraction– it is causal memory. The fiel
 
     - Coherence phase drift
 
-    - Local $\kappa$ deviation
+    - Local <span class="math inline">\\\kappa\\</span> deviation
 
     - Cres anomalies in tissue or circuitry
 
@@ -195,27 +199,27 @@ At the core of GPT is the graviton lattice: a stratified, pressure-coherent fiel
 
 Let:
 
-- $\Psi(x,t)$ represent the phase coherence density function within the graviton field
+- <span class="math inline">\\\Psi(x,t)\\</span> represent the phase coherence density function within the graviton field
 
-- $\rho_g$ represent the local graviton pressure density
+- <span class="math inline">\\\rho_g\\</span> represent the local graviton pressure density
 
-- $\nabla \cdot P$ represent the divergence of pressure alignment
+- <span class="math inline">\\\nabla \cdot P\\</span> represent the divergence of pressure alignment
 
-Then, for light propagation under GPT: $$\frac{\partial^2 \Psi}{\partial t^2} = v_g^2 \nabla^2 \Psi - \gamma \nabla \cdot P$$
+Then, for light propagation under GPT: <span class="math display">\\\frac{\partial^2 \Psi}{\partial t^2} = v_g^2 \nabla^2 \Psi - \gamma \nabla \cdot P\\</span>
 
 Where:
 
-- $v_g$ is the local coherence wave speed, dependent on pressure stratification (not universal)
+- <span class="math inline">\\v_g\\</span> is the local coherence wave speed, dependent on pressure stratification (not universal)
 
-- $\gamma$ is a coupling coefficient between structural coherence and field deformation
+- <span class="math inline">\\\gamma\\</span> is a coupling coefficient between structural coherence and field deformation
 
 **This equation reveals:**
 
 - Light propagation is coherence-driven, not energy-driven
 
-- Speed is field-relative, not fixed at $c$, unless field density is constant
+- Speed is field-relative, not fixed at <span class="math inline">\\c\\</span>, unless field density is constant
 
-- Distortions in $\rho_g$ (due to mass or graviton flow) directly affect light’s path
+- Distortions in <span class="math inline">\\\rho_g\\</span> (due to mass or graviton flow) directly affect light’s path
 
 This sets the stage for:
 
@@ -234,21 +238,21 @@ Under Graviton Pressure Theory (GPT), all classical optical behaviors– previou
 
 ### Speed of Light
 
-The classical constant $c$ is not a universal upper limit, nor a metaphysical boundary condition. It is:
+The classical constant <span class="math inline">\\c\\</span> is not a universal upper limit, nor a metaphysical boundary condition. It is:
 
 > The resonance refresh rate of an undeformed graviton field.
 
-It defines the maximum coherence propagation rate through a fully relaxed, isotropic graviton lattice. But the lattice is not constant. Mass warps it. Compression distorts it. Coherence impedance rises with graviton pressure density $gp$.
+It defines the maximum coherence propagation rate through a fully relaxed, isotropic graviton lattice. But the lattice is not constant. Mass warps it. Compression distorts it. Coherence impedance rises with graviton pressure density <span class="math inline">\\gp\\</span>.
 
-**GPT Redefinition:** $$v_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}$$
+**GPT Redefinition:** <span class="math display">\\v\_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}\\</span>
 
 Where:
 
-- $c_0$: Baseline speed of coherence in a low-pressure graviton field
+- <span class="math inline">\\c_0\\</span>: Baseline speed of coherence in a low-pressure graviton field
 
-- $gp$: Graviton pressure at the propagation location
+- <span class="math inline">\\gp\\</span>: Graviton pressure at the propagation location
 
-- $\beta$: Empirical impedance coefficient linking pressure to phase lag
+- <span class="math inline">\\\beta\\</span>: Empirical impedance coefficient linking pressure to phase lag
 
 **Implication:** Light slows not due to curvature, but because the lattice takes longer to re-align coherence under compression.
 
@@ -256,19 +260,19 @@ Where:
 
 Refraction is not the deflection of photons at interfaces– it is the redirection of phase-coherent pathways due to pressure differentials in the graviton field.
 
-At the boundary between two zones of different $gp$:
+At the boundary between two zones of different <span class="math inline">\\gp\\</span>:
 
 - The resonance corridors shift orientation
 
 - The wavefront reorganizes its alignment to maintain coherence
 
-**Refractive Angle:** $$\theta_2 = \arcsin\left(\frac{v_2}{v_1} \cdot \sin \theta_1\right)$$
+**Refractive Angle:** <span class="math display">\\\theta_2 = \arcsin\left(\frac{v_2}{v_1} \cdot \sin \theta_1\right)\\</span>
 
 Where:
 
-- $v_1, v_2$: Local coherence propagation speeds as defined by $gp$
+- <span class="math inline">\\v_1, v_2\\</span>: Local coherence propagation speeds as defined by <span class="math inline">\\gp\\</span>
 
-- $\theta_1, \theta_2$: Angles relative to normal lattice alignment
+- <span class="math inline">\\\theta_1, \theta_2\\</span>: Angles relative to normal lattice alignment
 
 ### Polarization
 
@@ -286,7 +290,7 @@ Classically attributed to recessional motion or gravitational energy loss, redsh
 
 As light travels through regions of:
 
-- Field expansion (low $gp$)
+- Field expansion (low <span class="math inline">\\gp\\</span>)
 
 - Graviton turbulence or loss of structural integrity
 
@@ -312,7 +316,7 @@ Instead of photons “bending” due to geometry, GPT lensing is:
 
 Near massive bodies:
 
-- $gp$ increases sharply
+- <span class="math inline">\\gp\\</span> increases sharply
 
 - Coherence propagation paths re-align
 
@@ -432,7 +436,7 @@ Graviton Pressure Theory (GPT) does not merely revise the behavior of light— i
 
 ### Variable *c* Becomes Testable
 
-GPT proposes that the speed of light is not an invariant constant, but a property of local field coherence. The revised equation: $$v_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}$$ where $gp$ is graviton pressure and $\beta$ a field impedance constant, implies:
+GPT proposes that the speed of light is not an invariant constant, but a property of local field coherence. The revised equation: <span class="math display">\\v\_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}\\</span> where <span class="math inline">\\gp\\</span> is graviton pressure and <span class="math inline">\\\beta\\</span> a field impedance constant, implies:
 
 - Light should travel measurably slower in regions of higher field compression.
 
@@ -511,13 +515,13 @@ This section connects the behavior of light— explained in Section V.1 as coher
 
 - Directly responsible for phase velocity modulation:
 
-  - Light slows in high-pressure zones: $$v_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}$$
+  - Light slows in high-pressure zones: <span class="math display">\\v\_{\text{light}} = \frac{c_0}{1 + \beta \cdot gp}\\</span>
 
-  - Gravitational lensing and redshift are caused by gradients ($\Delta gp$)
+  - Gravitational lensing and redshift are caused by gradients (<span class="math inline">\\\Delta gp\\</span>)
 
-- **Dimensional Role:** $gp = \text{kg} / (\text{m} \cdot \text{s}^2)$
+- **Dimensional Role:** <span class="math inline">\\gp = \text{kg} / (\text{m} \cdot \text{s}^2)\\</span>
 
-*Interpretation:* Light behavior is continuously shaped by the local compression of the graviton field. Curved paths, phase delays, and frequency shifts all derive from structured gradients in $gp$.
+*Interpretation:* Light behavior is continuously shaped by the local compression of the graviton field. Curved paths, phase delays, and frequency shifts all derive from structured gradients in <span class="math inline">\\gp\\</span>.
 
 ### Coherence Resistance Cres
 
@@ -525,49 +529,49 @@ This section connects the behavior of light— explained in Section V.1 as coher
 
 - For transmission media, it indicates how well a substance maintains phase alignment under graviton pressure.
 
-  - High $Cres$ = minimal distortion of coherence
+  - High <span class="math inline">\\Cres\\</span> = minimal distortion of coherence
 
-  - Low $Cres$ = diffusion, scattering, or absorption
+  - Low <span class="math inline">\\Cres\\</span> = diffusion, scattering, or absorption
 
 *Interpretation:* Transparency is not just about electron behavior— it’s a reflection of the medium’s field coherence.
 
-### Coupling Ratio $\kappa$kappa)
+### Coupling Ratio <span class="math inline">\\\kappa\\</span>kappa)
 
-- In orbital mechanics: $\kappa = \frac{L_s}{L_o}$
+- In orbital mechanics: <span class="math inline">\\\kappa = \frac{L_s}{L_o}\\</span>
 
-- In optics, we can define an analogous ratio: $$\kappa_{opt} = \frac{\omega_{source}}{\omega_{field}}$$
+- In optics, we can define an analogous ratio: <span class="math display">\\\kappa\_{opt} = \frac{\omega\_{source}}{\omega\_{field}}\\</span>
 
-  - $\omega_{source}$: modulation frequency of the light source
+  - <span class="math inline">\\\omega\_{source}\\</span>: modulation frequency of the light source
 
-  - $\omega_{field}$: natural coherence refresh frequency of the local graviton field
+  - <span class="math inline">\\\omega\_{field}\\</span>: natural coherence refresh frequency of the local graviton field
 
-*When* $\kappa_{opt} \approx 1$, *field resonance occurs— efficiency peaks.*
+*When* <span class="math inline">\\\kappa\_{opt} \approx 1\\</span>, *field resonance occurs— efficiency peaks.*
 
-### Graviton Torque $T_{gp}$raviton Torque
+### Graviton Torque <span class="math inline">\\T\_{gp}\\</span>raviton Torque
 
 - In light, this applies to polarization:
 
   - Misalignment between light’s polarization and the field’s preferred axis induces torque.
 
-  - Proposed model: $$T_{gp}^{ opt} = -\gamma_p (\theta - \theta_{res})$$
+  - Proposed model: <span class="math display">\\T\_{gp}^{ opt} = -\gamma_p (\theta - \theta\_{res})\\</span>
 
-    - $\theta$: polarization of the light
+    - <span class="math inline">\\\theta\\</span>: polarization of the light
 
-    - $\theta_{res}$: graviton lattice polarization axis
+    - <span class="math inline">\\\theta\_{res}\\</span>: graviton lattice polarization axis
 
-    - $\gamma_p$: coupling coefficient
+    - <span class="math inline">\\\gamma_p\\</span>: coupling coefficient
 
 *Interpretation:* Polarization rotation, filtering, and birefringence are all manifestations of torsional resistance in the field— field-polarization coherence.
 
-### Resonance Feedback Graviton Torque $R_{field}$
+### Resonance Feedback Graviton Torque <span class="math inline">\\R\_{field}\\</span>
 
 - Describes how light’s movement affects and is affected by the graviton field:
 
-  - High $R_{field}$ = reinforcement of coherence (e.g., laser cavities)
+  - High <span class="math inline">\\R\_{field}\\</span> = reinforcement of coherence (e.g., laser cavities)
 
-  - Negative $R_{field}$ = decoherence or interference loss
+  - Negative <span class="math inline">\\R\_{field}\\</span> = decoherence or interference loss
 
-*Interpretation:* Interference patterns are not mysteries of duality. They are $R_{field}$ mapping events— proof that the lattice holds and releases multiple coherence paths.
+*Interpretation:* Interference patterns are not mysteries of duality. They are <span class="math inline">\\R\_{field}\\</span> mapping events— proof that the lattice holds and releases multiple coherence paths.
 
 ### Conclusion: Field-Based Light Metrics Enable Engineering
 
@@ -651,11 +655,11 @@ This definition surpasses the classical particle-collision model by introducing 
 
 ### Transmission Velocity
 
-$$v_{sound} = \sqrt{\frac{Cres}{\rho_{mass}}}$$
+<span class="math display">\\v\_{sound} = \sqrt{\frac{Cres}{\rho\_{mass}}}\\</span>
 
 - *Cres*: Coherence resistance of the material (field-aligned structural tension per unit volume).
 
-- *$\rho_{mass}$*: Traditional mass density of the medium.
+- *<span class="math inline">\\\rho\_{mass}\\</span>*: Traditional mass density of the medium.
 
 **Interpretation:**
 
@@ -665,11 +669,11 @@ $$v_{sound} = \sqrt{\frac{Cres}{\rho_{mass}}}$$
 
 ### Attenuation Rate
 
-$$\alpha = f(gp, R_{field})$$
+<span class="math display">\\\alpha = f(gp, R\_{field})\\</span>
 
 - *gp*: Graviton pressure (ambient field tension).
 
-- *R$_{field}$*: Resonance feedback coefficient (field’s ability to reinforce or distort coherence).
+- *R<span class="math inline">\\\_{field}\\</span>*: Resonance feedback coefficient (field’s ability to reinforce or distort coherence).
 
 **Interpretation:**
 
@@ -679,9 +683,9 @@ $$\alpha = f(gp, R_{field})$$
 
 ### Harmonic Amplification
 
-$$\kappa_{res} = \frac{\omega_{input}}{\omega_{natural}} \approx 1$$
+<span class="math display">\\\kappa\_{res} = \frac{\omega\_{input}}{\omega\_{natural}} \approx 1\\</span>
 
-- When the input frequency matches the material’s natural resonance ($\omega_{natural}$), coherent amplification occurs.
+- When the input frequency matches the material’s natural resonance (<span class="math inline">\\\omega\_{natural}\\</span>), coherent amplification occurs.
 
 - Energy is retained through entrained oscillation, allowing phase-sustained propagation without dissipation.
 
@@ -709,7 +713,7 @@ Graviton Pressure Theory (GPT) offers a transformative interpretation of human v
 
 ### Instruments and Vocal Resonance
 
-- Instruments and voices are coherence amplifiers. "Beautiful" sound is GPT-defined as resonance that efficiently transmits structured coherence via optimal Cres-R$_{field}$ harmonics.
+- Instruments and voices are coherence amplifiers. "Beautiful" sound is GPT-defined as resonance that efficiently transmits structured coherence via optimal Cres-R<span class="math inline">\\\_{field}\\</span> harmonics.
 
 - Aesthetics reflect successful graviton entrainment: field space around the emitter is stabilized, creating measurable coherence reinforcement in living systems.
 
@@ -723,7 +727,7 @@ GPT introduces a new domain for acoustic design:
 
 - Engineer high-Cres materials to preserve structured sound waves.
 
-- Minimize R$_{field}$ losses to prevent destructive interference and improve signal fidelity.
+- Minimize R<span class="math inline">\\\_{field}\\</span> losses to prevent destructive interference and improve signal fidelity.
 
 - Applications include:
 
@@ -741,7 +745,7 @@ Under GPT, sound therapy becomes intentional field modulation:
 
 - Develop vocal training or audio systems for re-patterning incoherent body fields.
 
-- Replace amplitude metrics with coherence fidelity, phase retention, and R$_{field}$ modulation efficiency.
+- Replace amplitude metrics with coherence fidelity, phase retention, and R<span class="math inline">\\\_{field}\\</span> modulation efficiency.
 
 ### Phenomena Explained by GPT
 
@@ -771,9 +775,9 @@ This section integrates the Graviton Pressure Theory (GPT) understanding of soun
 
 - Governs background field compression against which sound oscillations propagate.
 
-- High *gp* $\Rightarrow$ denser field $\Rightarrow$ increased impedance to oscillation.
+- High *gp* <span class="math inline">\\\Rightarrow\\</span> denser field <span class="math inline">\\\Rightarrow\\</span> increased impedance to oscillation.
 
-- Gradients $\Delta gp$ across material boundaries produce refraction or reflection.
+- Gradients <span class="math inline">\\\Delta gp\\</span> across material boundaries produce refraction or reflection.
 
 **Implication:** Sound transmission is shaped by graviton tension. It does not move passively "through" a medium, but is conditioned by the structured field that supports it.
 
@@ -783,19 +787,19 @@ This section integrates the Graviton Pressure Theory (GPT) understanding of soun
 
 - In sound propagation:
 
-  - High *Cres* $\Rightarrow$ better resonance retention, lower phase scattering.
+  - High *Cres* <span class="math inline">\\\Rightarrow\\</span> better resonance retention, lower phase scattering.
 
-  - Low *Cres* $\Rightarrow$ distortion-prone, weak transmission.
+  - Low *Cres* <span class="math inline">\\\Rightarrow\\</span> distortion-prone, weak transmission.
 
-**Formula:** $$v_{sound} = \sqrt{\frac{Cres}{\rho_{mass}}}$$ **Implication:** The speed of sound reflects coherence efficiency, not merely elasticity or mass density.
+**Formula:** <span class="math display">\\v\_{sound} = \sqrt{\frac{Cres}{\rho\_{mass}}}\\</span> **Implication:** The speed of sound reflects coherence efficiency, not merely elasticity or mass density.
 
-$$\kappa_{res} = \frac{\omega_{input}}{\omega_{natural}}$$
+<span class="math display">\\\kappa\_{res} = \frac{\omega\_{input}}{\omega\_{natural}}\\</span>
 
-- $\omega_{input}$: input frequency
+- <span class="math inline">\\\omega\_{input}\\</span>: input frequency
 
-- $\omega_{natural}$: natural harmonic frequency of the field-material system
+- <span class="math inline">\\\omega\_{natural}\\</span>: natural harmonic frequency of the field-material system
 
-**When** $\kappa \approx 1$:
+**When** <span class="math inline">\\\kappa \approx 1\\</span>:
 
 - Resonance lock occurs.
 
@@ -809,19 +813,19 @@ $$\kappa_{res} = \frac{\omega_{input}}{\omega_{natural}}$$
 
   - Spiral resonance in instruments
 
-**Model:** $$T_{gp}^{ acoustic} = -\gamma_{vortex} (\phi - \phi_{field})$$
+**Model:** <span class="math display">\\T\_{gp}^{ acoustic} = -\gamma\_{vortex} (\phi - \phi\_{field})\\</span>
 
-- $\phi$: angular oscillation of medium
+- <span class="math inline">\\\phi\\</span>: angular oscillation of medium
 
-- $\phi_{field}$: natural torsional field bias
+- <span class="math inline">\\\phi\_{field}\\</span>: natural torsional field bias
 
 **Implication:** Rotational acoustic effects arise from torsional mismatches and are corrected by graviton-aligned torque mechanisms.
 
 - Governs attenuation, interference, and sonic enhancement.
 
-- High $R_{field}$: reinforces coherence (e.g., singing bowls, sacred architecture).
+- High <span class="math inline">\\R\_{field}\\</span>: reinforces coherence (e.g., singing bowls, sacred architecture).
 
-- Negative $R_{field}$: disrupts coherence, producing dissonance and interference.
+- Negative <span class="math inline">\\R\_{field}\\</span>: disrupts coherence, producing dissonance and interference.
 
 **Implication:** Auditory perception reflects field alignment. Sound is not just vibration—it is coherence state resolution.
 
@@ -831,9 +835,9 @@ The GPT unit framework enables:
 
 - Material design based on Cres for desired sound transparency.
 
-- Acoustic field mapping via $R_{field}$ to locate coherence/dissonance zones.
+- Acoustic field mapping via <span class="math inline">\\R\_{field}\\</span> to locate coherence/dissonance zones.
 
-- $\kappa$-resonance targeting for sound healing and precise entrainment.
+- <span class="math inline">\\\kappa\\</span>-resonance targeting for sound healing and precise entrainment.
 
 Sound, under GPT, is a structured, tunable field phenomenon— a quantifiable mode of coherence modulation across mass-anchored graviton lattices.
 
@@ -875,13 +879,13 @@ GPT redefines electric charge as a form of rotational distortion or directional 
 
 In GPT, electric potential (voltage) is not an abstract scalar but a direct result of graviton pressure differential across a structured coherence field.
 
-**Classical electrostatics defines voltage as:** $$V = \frac{W}{q}$$ where $W$ is the work done to move a charge $q$.
+**Classical electrostatics defines voltage as:** <span class="math display">\\V = \frac{W}{q}\\</span> where <span class="math inline">\\W\\</span> is the work done to move a charge <span class="math inline">\\q\\</span>.
 
-**GPT reinterpretation:** $$V = \Delta gp \cdot d$$
+**GPT reinterpretation:** <span class="math display">\\V = \Delta gp \cdot d\\</span>
 
-- $\Delta gp$: Difference in graviton pressure across two spatial points.
+- <span class="math inline">\\\Delta gp\\</span>: Difference in graviton pressure across two spatial points.
 
-- $d$: Coherence-aligned path length between those points.
+- <span class="math inline">\\d\\</span>: Coherence-aligned path length between those points.
 
 **Interpretation:**
 
@@ -915,7 +919,7 @@ Rather than particle-based motion, GPT describes current as:
 
 1.  **Field Tension Exceeds Cres Threshold:**
 
-    - Current initiates only when the local pressure gradient ($\Delta gp$) exceeds the material’s coherence resistance (*Cres*).
+    - Current initiates only when the local pressure gradient (<span class="math inline">\\\Delta gp\\</span>) exceeds the material’s coherence resistance (*Cres*).
 
     - This triggers phase shift along lattice corridors.
 
@@ -937,7 +941,7 @@ Rather than particle-based motion, GPT describes current as:
 
 - Classical drift velocity correlates with the rate of graviton lattice phase shift, not with bulk electron travel.
 
-- Current and resistance become calculable functions of local $gp$, *Cres*, and impedance structure— allowing predictive modeling without relying solely on empirical conductivity.
+- Current and resistance become calculable functions of local <span class="math inline">\\gp\\</span>, *Cres*, and impedance structure— allowing predictive modeling without relying solely on empirical conductivity.
 
 This paradigm shift enables reinterpreting electrical components— from resistors and capacitors to transistors and semiconductors— as coherence-field modulation tools. Electricity is not a force; it is lattice behavior under stress, seeking internal equilibrium.
 
@@ -947,59 +951,59 @@ Graviton Pressure Theory does not discard Maxwell’s equations. Rather, it reve
 
 ### GPT Interpretations of Classical Electromagnetism
 
-- **Electric Field ($E$)**: Directional graviton tension gradient. Not a separate entity, but a field-aligned stress vector within the graviton lattice.
+- **Electric Field (<span class="math inline">\\E\\</span>)**: Directional graviton tension gradient. Not a separate entity, but a field-aligned stress vector within the graviton lattice.
 
-- **Magnetic Field ($B$)**: Torsional memory of prior coherence displacement. As coherence shifts directionally (*current*), the lattice stores rotational strain, creating spiraling memory patterns.
+- **Magnetic Field (<span class="math inline">\\B\\</span>)**: Torsional memory of prior coherence displacement. As coherence shifts directionally (*current*), the lattice stores rotational strain, creating spiraling memory patterns.
 
 - **Induction**: Caused by graviton torque adjustments. When coherence shifts rapidly, the lattice attempts to re-equilibrate, generating secondary alignment tension— perceived as induced electric fields.
 
 ### Faraday’s Law Reinterpreted
 
-$$\nabla \times E = -\frac{\partial B}{\partial t}$$
+<span class="math display">\\\nabla \times E = -\frac{\partial B}{\partial t}\\</span>
 
 **GPT Interpretation:**
 
-- $\frac{\partial B}{\partial t}$: Rotating graviton shear as the lattice attempts to stabilize shifting coherence torque.
+- <span class="math inline">\\\frac{\partial B}{\partial t}\\</span>: Rotating graviton shear as the lattice attempts to stabilize shifting coherence torque.
 
-- $\nabla \times E$: Linear tension realignment responding to torsional field imbalance.
+- <span class="math inline">\\\nabla \times E\\</span>: Linear tension realignment responding to torsional field imbalance.
 
 **Conclusion:** Electromagnetic phenomena arise not from dualistic fields, but from the tensor dynamics of a pressurized graviton lattice attempting to re-establish coherence equilibrium.
 
 ## Capacitance, Resistance, and Dielectrics in GPT
 
-In Graviton Pressure Theory (GPT), traditional electrical concepts such as capacitance, resistance, and dielectric behavior are reinterpreted through the causal dynamics of coherence resistance (*Cres*), graviton pressure differentials ($\Delta gp$), and field feedback ($R_{field}$).
+In Graviton Pressure Theory (GPT), traditional electrical concepts such as capacitance, resistance, and dielectric behavior are reinterpreted through the causal dynamics of coherence resistance (*Cres*), graviton pressure differentials (<span class="math inline">\\\Delta gp\\</span>), and field feedback (<span class="math inline">\\R\_{field}\\</span>).
 
 ### Capacitance: Storing Lattice Tension
 
-**Classical Definition:** $$C = \frac{\varepsilon A}{d}$$
+**Classical Definition:** <span class="math display">\\C = \frac{\varepsilon A}{d}\\</span>
 
-**GPT Formulation:** $$C_{GPT} = \frac{Cres \cdot A}{\Delta gp}$$
+**GPT Formulation:** <span class="math display">\\C\_{GPT} = \frac{Cres \cdot A}{\Delta gp}\\</span>
 
-- $Cres$: Coherence resistance of the dielectric
+- <span class="math inline">\\Cres\\</span>: Coherence resistance of the dielectric
 
-- $A$: Area of aligned field interface
+- <span class="math inline">\\A\\</span>: Area of aligned field interface
 
-- $\Delta gp$: Graviton pressure difference across the dielectric
+- <span class="math inline">\\\Delta gp\\</span>: Graviton pressure difference across the dielectric
 
 **Interpretation:** Capacitance reflects a medium’s ability to maintain and recover structural coherence under field tension. It is no longer merely a product of geometry and permittivity, but a measure of how graviton-aligned tension is stored and sustained.
 
 ### Resistance: Internal Decoherence and Feedback Suppression
 
-**GPT Formulation:** $$R \propto \frac{Cres}{R_{field}}$$
+**GPT Formulation:** <span class="math display">\\R \propto \frac{Cres}{R\_{field}}\\</span>
 
-- $Cres$: Material resistance to graviton-induced coherence displacement
+- <span class="math inline">\\Cres\\</span>: Material resistance to graviton-induced coherence displacement
 
-- $R_{field}$: Field feedback coefficient
+- <span class="math inline">\\R\_{field}\\</span>: Field feedback coefficient
 
-**Interpretation:** Resistance is the competition between internal lattice rigidity and external reinforcement. Materials with high $Cres$ and weak $R_{field}$ (low feedback) exhibit high electrical resistance.
+**Interpretation:** Resistance is the competition between internal lattice rigidity and external reinforcement. Materials with high <span class="math inline">\\Cres\\</span> and weak <span class="math inline">\\R\_{field}\\</span> (low feedback) exhibit high electrical resistance.
 
 ### Dielectrics: Damping Layers for Coherence Oscillation
 
 In GPT, dielectrics function as field-suppressing materials:
 
-- **High $Cres$**: Inhibits realignment of internal lattice coherence.
+- **High <span class="math inline">\\Cres\\</span>**: Inhibits realignment of internal lattice coherence.
 
-- **High $R_{field}$**: Dampens constructive feedback loops.
+- **High <span class="math inline">\\R\_{field}\\</span>**: Dampens constructive feedback loops.
 
 **Result:** Minimal coherence migration, high tension retention, and stable charge separation. Dielectrics become strategic components in field architecture, not passive insulators.
 
@@ -1007,9 +1011,9 @@ In GPT, dielectrics function as field-suppressing materials:
 
 ### Variable Conductivity in Graviton Corridors
 
-- GPT predicts that conductivity is not an intrinsic property, but one modulated by ambient $gp$.
+- GPT predicts that conductivity is not an intrinsic property, but one modulated by ambient <span class="math inline">\\gp\\</span>.
 
-- In high-$gp$ or anisotropic field environments, materials shift their internal $Cres$ alignment.
+- In high-<span class="math inline">\\gp\\</span> or anisotropic field environments, materials shift their internal <span class="math inline">\\Cres\\</span> alignment.
 
 - Outcomes:
 
@@ -1021,7 +1025,7 @@ In GPT, dielectrics function as field-suppressing materials:
 
   - Semiconductors and superconductors should vary conductivity under different graviton field conditions.
 
-  - Testable in orbital labs or deep-Earth experiments with detectable $gp$ gradients.
+  - Testable in orbital labs or deep-Earth experiments with detectable <span class="math inline">\\gp\\</span> gradients.
 
 ### Fractal Charge Distribution as Field Self-Alignment
 
@@ -1031,7 +1035,7 @@ In GPT, dielectrics function as field-suppressing materials:
 
   - Minimize internal torsion.
 
-  - Maximize $R_{field}$ coherence.
+  - Maximize <span class="math inline">\\R\_{field}\\</span> coherence.
 
   - Follow graviton corridor alignment.
 
@@ -1073,66 +1077,66 @@ This section integrates the behaviors of voltage, charge, and current into the d
 
 ### Graviton Pressure (*gp*)
 
-**Definition:** Voltage is modeled as a pressure differential across a lattice: $$V = \Delta gp \cdot d$$
+**Definition:** Voltage is modeled as a pressure differential across a lattice: <span class="math display">\\V = \Delta gp \cdot d\\</span>
 
-- $\Delta gp$: Difference in graviton pressure.
+- <span class="math inline">\\\Delta gp\\</span>: Difference in graviton pressure.
 
-- $d$: Effective path length between coherence states.
+- <span class="math inline">\\d\\</span>: Effective path length between coherence states.
 
-**Implication:** Voltage is not a scalar potential, but a stored field strain. Higher $\Delta gp$ implies greater internal tension and desire for restoration.
+**Implication:** Voltage is not a scalar potential, but a stored field strain. Higher <span class="math inline">\\\Delta gp\\</span> implies greater internal tension and desire for restoration.
 
 ### Coherence Resistance (*Cres*)
 
 **Function:** Describes how easily a material enables graviton-induced coherence displacement.
 
-- **High $Cres$**: Insulators.
+- **High <span class="math inline">\\Cres\\</span>**: Insulators.
 
-- **Low $Cres$**: Conductors.
+- **Low <span class="math inline">\\Cres\\</span>**: Conductors.
 
-**GPT Capacitance:** $$C_{GPT} = \frac{Cres \cdot A}{\Delta gp}$$
+**GPT Capacitance:** <span class="math display">\\C\_{GPT} = \frac{Cres \cdot A}{\Delta gp}\\</span>
 
-- $A$: Plate area or coherence contact surface.
+- <span class="math inline">\\A\\</span>: Plate area or coherence contact surface.
 
-- $\Delta gp$: Graviton pressure difference.
+- <span class="math inline">\\\Delta gp\\</span>: Graviton pressure difference.
 
-**Definition:** $$\kappa = \frac{\omega_{source}}{\omega_{lattice}}$$
+**Definition:** <span class="math display">\\\kappa = \frac{\omega\_{source}}{\omega\_{lattice}}\\</span>
 
-- $\omega_{source}$: Applied oscillation frequency.
+- <span class="math inline">\\\omega\_{source}\\</span>: Applied oscillation frequency.
 
-- $\omega_{lattice}$: Field’s preferred frequency.
+- <span class="math inline">\\\omega\_{lattice}\\</span>: Field’s preferred frequency.
 
 **Behavior:**
 
-- $\kappa \approx 1$: Resonance lock, minimal resistance.
+- <span class="math inline">\\\kappa \approx 1\\</span>: Resonance lock, minimal resistance.
 
-- $\kappa \gg 1$ or $\ll 1$: Mismatch, suppressed coherence propagation.
+- <span class="math inline">\\\kappa \gg 1\\</span> or <span class="math inline">\\\ll 1\\</span>: Mismatch, suppressed coherence propagation.
 
-**In Loops and Coils:** $$T_{gp}^{ loop} = -\gamma (\phi - \phi_{res})$$
+**In Loops and Coils:** <span class="math display">\\T\_{gp}^{ loop} = -\gamma (\phi - \phi\_{res})\\</span>
 
-- $\phi$: Angular coherence vector.
+- <span class="math inline">\\\phi\\</span>: Angular coherence vector.
 
-- $\phi_{res}$: Field’s torsional preference.
+- <span class="math inline">\\\phi\_{res}\\</span>: Field’s torsional preference.
 
-- $\gamma$: Coupling constant based on rigidity.
+- <span class="math inline">\\\gamma\\</span>: Coupling constant based on rigidity.
 
 **Interpretation:** Induction is not a mysterious creation of current, but rotational tension alignment with graviton memory.
 
-**Function:** Describes how field motion reinforces or disrupts coherence. $$R \propto \frac{Cres}{R_{field}}$$ **Interpretation:**
+**Function:** Describes how field motion reinforces or disrupts coherence. <span class="math display">\\R \propto \frac{Cres}{R\_{field}}\\</span> **Interpretation:**
 
-- High $R_{field}$: Reinforces coherence; low resistance.
+- High <span class="math inline">\\R\_{field}\\</span>: Reinforces coherence; low resistance.
 
-- Low $R_{field}$: Disrupts alignment; high resistance.
+- Low <span class="math inline">\\R\_{field}\\</span>: Disrupts alignment; high resistance.
 
 ### Summary Table of Electric Quantities in GPT Units
 
 <div class="center">
 
-| **Classical Quantity** | **GPT Equivalent**         | **Dimensional Anchor**                         |
-|:-----------------------|:---------------------------|:-----------------------------------------------|
-| Voltage ($V$)          | $\Delta gp \cdot d$        | $gp = \text{kg} / (\text{m} \cdot \text{s}^2)$ |
-| Current ($I$)          | Coherence flow rate        | $gp \cdot A / Cres$                            |
-| Resistance ($R$)       | $Cres / R_{field}$         | $\text{m}^{-6} \cdot \text{s}^3$               |
-| Capacitance ($C$)      | $Cres \cdot A / \Delta gp$ | $\text{m}^3 \cdot \text{s}^2$                  |
+| **Classical Quantity**                               | **GPT Equivalent**                                            | **Dimensional Anchor**                                                            |
+|:-----------------------------------------------------|:--------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| Voltage (<span class="math inline">\\V\\</span>)     | <span class="math inline">\\\Delta gp \cdot d\\</span>        | <span class="math inline">\\gp = \text{kg} / (\text{m} \cdot \text{s}^2)\\</span> |
+| Current (<span class="math inline">\\I\\</span>)     | Coherence flow rate                                           | <span class="math inline">\\gp \cdot A / Cres\\</span>                            |
+| Resistance (<span class="math inline">\\R\\</span>)  | <span class="math inline">\\Cres / R\_{field}\\</span>        | <span class="math inline">\\\text{m}^{-6} \cdot \text{s}^3\\</span>               |
+| Capacitance (<span class="math inline">\\C\\</span>) | <span class="math inline">\\Cres \cdot A / \Delta gp\\</span> | <span class="math inline">\\\text{m}^3 \cdot \text{s}^2\\</span>                  |
 
 </div>
 
@@ -1172,11 +1176,11 @@ According to GPT, the notion of a true vacuum is a misnomer. All of space is per
 
 Radiation does not travel through emptiness; it traverses this lattice, and its properties are shaped by:
 
-- **Local graviton pressure ($gp$):** Determines field density and modulation impedance.
+- **Local graviton pressure (<span class="math inline">\\gp\\</span>):** Determines field density and modulation impedance.
 
-- **Coherence resistance ($Cres$):** Defines the interaction profile of radiation with matter.
+- **Coherence resistance (<span class="math inline">\\Cres\\</span>):** Defines the interaction profile of radiation with matter.
 
-- **Resonance feedback ($R_{field}$):** Influences the retention, reflection, or amplification of coherence.
+- **Resonance feedback (<span class="math inline">\\R\_{field}\\</span>):** Influences the retention, reflection, or amplification of coherence.
 
 This model enables a coherent explanation of:
 
@@ -1202,11 +1206,11 @@ These represent long-wavelength, low-tension coherence pulses:
 
 - Readily scattered in high-*Cres* environments (e.g., moisture, organics).
 
-**GPT Transmission Model:** $$P_{transmit} \propto \frac{1}{C_{res} \cdot gp}$$
+**GPT Transmission Model:** <span class="math display">\\P\_{transmit} \propto \frac{1}{C\_{res} \cdot gp}\\</span>
 
-- $C_{res}$: Coherence resistance of the medium.
+- <span class="math inline">\\C\_{res}\\</span>: Coherence resistance of the medium.
 
-- $gp$: Graviton pressure of the environment.
+- <span class="math inline">\\gp\\</span>: Graviton pressure of the environment.
 
 ### Visible Light
 
@@ -1224,9 +1228,9 @@ Located in the mid-range of the coherence spectrum, visible light requires:
 
 - **Refraction**: Field density gradients shift the optimal phase path.
 
-**GPT Refractive Index:** $$n = \frac{c_0}{v_{light}} = 1 + \beta \cdot gp$$
+**GPT Refractive Index:** <span class="math display">\\n = \frac{c_0}{v\_{light}} = 1 + \beta \cdot gp\\</span>
 
-- $\beta$: Field impedance coefficient.
+- <span class="math inline">\\\beta\\</span>: Field impedance coefficient.
 
 ### Ultraviolet and X-rays
 
@@ -1238,11 +1242,11 @@ These higher-frequency waves are:
 
 - Typically absorbed in biological systems due to short coherence lengths.
 
-**GPT Interpretation:** These are destructive not because of energy per se, but due to field incompatibility and coherence rupture. $$\text{Ionization risk} \propto \frac{f^2}{C_{res} \cdot R_{field}}$$
+**GPT Interpretation:** These are destructive not because of energy per se, but due to field incompatibility and coherence rupture. <span class="math display">\\\text{Ionization risk} \propto \frac{f^2}{C\_{res} \cdot R\_{field}}\\</span>
 
-- $f$: Radiation frequency.
+- <span class="math inline">\\f\\</span>: Radiation frequency.
 
-- $R_{field}$: Resonance feedback of the medium.
+- <span class="math inline">\\R\_{field}\\</span>: Resonance feedback of the medium.
 
 ### Gamma Radiation
 
@@ -1258,15 +1262,15 @@ Gamma rays represent coherence collapse events:
 
 **All radiation types are coherence events, scaled by:**
 
-- Frequency ($f$)
+- Frequency (<span class="math inline">\\f\\</span>)
 
-- Graviton pressure ($gp$)
+- Graviton pressure (<span class="math inline">\\gp\\</span>)
 
-- Coherence resistance ($C_{res}$)
+- Coherence resistance (<span class="math inline">\\C\_{res}\\</span>)
 
-- Resonance feedback ($R_{field}$)
+- Resonance feedback (<span class="math inline">\\R\_{field}\\</span>)
 
-**Unified Transmission Efficiency Law:** $$\text{Transmission Efficiency} \propto \frac{R_{field}}{C_{res} \cdot gp \cdot f^2}$$
+**Unified Transmission Efficiency Law:** <span class="math display">\\\text{Transmission Efficiency} \propto \frac{R\_{field}}{C\_{res} \cdot gp \cdot f^2}\\</span>
 
 **Conclusion:** Radiation is graviton field language— a structured dialogue of coherence pulses negotiating matter. It is not a wave or a particle. It is pressure-patterned resonance transmission in a coherent field.
 
@@ -1284,7 +1288,7 @@ Radiation in Graviton Pressure Theory (GPT) is not a particle or substance trave
 
     - Variation in coherence displacement magnitude.
 
-    - Represented physically as fluctuation in graviton pressure differentials ($\Delta gp$).
+    - Represented physically as fluctuation in graviton pressure differentials (<span class="math inline">\\\Delta gp\\</span>).
 
 2.  **Frequency Modulation (FM):**
 
@@ -1306,15 +1310,15 @@ Radiation-matter interactions are dictated by field compatibility. Classical mod
 
 ### Penetration Depth
 
-- Determined by the resonance coupling between the wave and the material’s coherence resistance ($C_{res}$).
+- Determined by the resonance coupling between the wave and the material’s coherence resistance (<span class="math inline">\\C\_{res}\\</span>).
 
-- Governed by the **coupling ratio**: $$\kappa = \frac{\omega_{radiation}}{\omega_{material}}$$
+- Governed by the **coupling ratio**: <span class="math display">\\\kappa = \frac{\omega\_{radiation}}{\omega\_{material}}\\</span>
 
-- Maximum penetration occurs at $\kappa \approx 1$— resonance lock-in.
+- Maximum penetration occurs at <span class="math inline">\\\kappa \approx 1\\</span>— resonance lock-in.
 
 ### Reflection and Absorption
 
-- Reflection: Occurs when lattice misalignment or high $\Delta gp$ inhibits field coupling.
+- Reflection: Occurs when lattice misalignment or high <span class="math inline">\\\Delta gp\\</span> inhibits field coupling.
 
 - Absorption: Happens when partial misalignment dissipates the incoming coherence pulse.
 
@@ -1330,9 +1334,9 @@ Radiation-matter interactions are dictated by field compatibility. Classical mod
 
 - A medium is transparent if:
 
-  - $\kappa \approx 1$ (resonance matching)
+  - <span class="math inline">\\\kappa \approx 1\\</span> (resonance matching)
 
-  - $R_{field} > 0$ (field reinforces incoming coherence)
+  - <span class="math inline">\\R\_{field} \> 0\\</span> (field reinforces incoming coherence)
 
 ### Conclusion
 
@@ -1348,9 +1352,9 @@ Graviton Pressure Theory (GPT) reinterprets radiation as structured coherence mo
 
 - GPT-effective materials manipulate field interaction via:
 
-  - **High $Cres$ (Coherence Resistance)**: Prevents incoming radiation from resonating with internal field structure.
+  - **High <span class="math inline">\\Cres\\</span> (Coherence Resistance)**: Prevents incoming radiation from resonating with internal field structure.
 
-  - **Inverted $R_{field}$ (Resonance Feedback)**: Generates destructive coherence patterns to dissipate the incoming signal.
+  - **Inverted <span class="math inline">\\R\_{field}\\</span> (Resonance Feedback)**: Generates destructive coherence patterns to dissipate the incoming signal.
 
 - **Implication:** Materials can be engineered to cancel coherence propagation, not just absorb energy.
 
@@ -1362,7 +1366,7 @@ Graviton Pressure Theory (GPT) reinterprets radiation as structured coherence mo
 
   - Deliver phase-specific pulses tuned to the resonance instability of pathological cells.
 
-  - Healthy tissues with high $Cres$ and positive $R_{field}$ remain unaffected.
+  - Healthy tissues with high <span class="math inline">\\Cres\\</span> and positive <span class="math inline">\\R\_{field}\\</span> remain unaffected.
 
 - **Result:** Radiation becomes a non-invasive, resonance-calibrated surgical modality.
 
@@ -1400,21 +1404,21 @@ With GPT, we are learning not only to observe it— but to listen and respond.
 
 ## Dimensional Anchoring: Radiation in GPT Unit Space
 
-This section integrates the causal unit system of Graviton Pressure Theory (GPT) with radiation phenomena, recasting spectral behavior as quantifiable resonance displacement across a pressurized graviton field. Unlike classical physics, which defines radiation through frequency and energy ($E = h\nu$), GPT describes radiation as structured phase modulation governed by $gp$, $C_{res}$, $R_{field}$, and coherence dynamics.
+This section integrates the causal unit system of Graviton Pressure Theory (GPT) with radiation phenomena, recasting spectral behavior as quantifiable resonance displacement across a pressurized graviton field. Unlike classical physics, which defines radiation through frequency and energy (<span class="math inline">\\E = h\nu\\</span>), GPT describes radiation as structured phase modulation governed by <span class="math inline">\\gp\\</span>, <span class="math inline">\\C\_{res}\\</span>, <span class="math inline">\\R\_{field}\\</span>, and coherence dynamics.
 
-### Graviton Pressure $gp$
+### Graviton Pressure <span class="math inline">\\gp\\</span>
 
 - **Role:** Governs background field impedance to radiation propagation.
 
 - **Behavior:**
 
-  - High $gp$ compresses the lattice and reduces coherence velocity.
+  - High <span class="math inline">\\gp\\</span> compresses the lattice and reduces coherence velocity.
 
-  - Frequency redshift: $$\nu_{observed} = \frac{\nu_{source}}{1 + \beta gp}$$
+  - Frequency redshift: <span class="math display">\\\nu\_{observed} = \frac{\nu\_{source}}{1 + \beta gp}\\</span>
 
 - **Interpretation:** Redshift and gravitational lensing result from coherence impedance—not spacetime curvature.
 
-### Coherence Resistance $C_{res}$
+### Coherence Resistance <span class="math inline">\\C\_{res}\\</span>
 
 - **Role:** Determines transmission, absorption, or reflection of radiation.
 
@@ -1422,47 +1426,47 @@ This section integrates the causal unit system of Graviton Pressure Theory (GPT)
 
   - Acts as optical stiffness.
 
-  - Penetration depth: $$\delta \propto \sqrt{\frac{1}{\nu \cdot C_{res}}}$$
+  - Penetration depth: <span class="math display">\\\delta \propto \sqrt{\frac{1}{\nu \cdot C\_{res}}}\\</span>
 
 - **Implication:** Transparency arises from field alignment, not atomic structure alone.
 
-### Coupling Ratio $\kappa$
+### Coupling Ratio <span class="math inline">\\\kappa\\</span>
 
-- **Definition:** $$\kappa = \frac{\nu_{radiation}}{\nu_{field}}$$
+- **Definition:** <span class="math display">\\\kappa = \frac{\nu\_{radiation}}{\nu\_{field}}\\</span>
 
 - **Behavior:**
 
-  - $\kappa \approx 1$: Resonance lock.
+  - <span class="math inline">\\\kappa \approx 1\\</span>: Resonance lock.
 
-  - $\kappa \ll 1$ or $\gg 1$: Phase mismatch; leads to scattering or inertial loss.
+  - <span class="math inline">\\\kappa \ll 1\\</span> or <span class="math inline">\\\gg 1\\</span>: Phase mismatch; leads to scattering or inertial loss.
 
-### Graviton Torque $T_{gp}$
+### Graviton Torque <span class="math inline">\\T\_{gp}\\</span>
 
 - **Role:** Describes rotational coherence modulation in polarized or vortex radiation.
 
-- **Model:** $$T_{gp}^{ rad} = -\gamma_{rot} (\psi - \psi_{res})$$
+- **Model:** <span class="math display">\\T\_{gp}^{ rad} = -\gamma\_{rot} (\psi - \psi\_{res})\\</span>
 
-- $\psi$: Angular polarization phase.
+- <span class="math inline">\\\psi\\</span>: Angular polarization phase.
 
-- $\psi_{res}$: Field’s preferred rotational orientation.
+- <span class="math inline">\\\psi\_{res}\\</span>: Field’s preferred rotational orientation.
 
-### Resonance Feedback $R_{field}$
+### Resonance Feedback <span class="math inline">\\R\_{field}\\</span>
 
 - **Role:** Describes coherence enhancement or suppression.
 
-- **Emissivity / Absorptivity:** $$\epsilon_{field} \propto \frac{R_{field}}{C_{res}}$$
+- **Emissivity / Absorptivity:** <span class="math display">\\\epsilon\_{field} \propto \frac{R\_{field}}{C\_{res}}\\</span>
 
 ### Summary Table of Radiation Behavior in GPT Units
 
 <div class="center">
 
-| **Radiation Property** | **GPT Expression**                            | **Dimensional Basis**                          |
-|:-----------------------|:----------------------------------------------|:-----------------------------------------------|
-| Frequency shift        | $\nu_{obs} = \nu / (1 + \beta gp)$            | $gp = \text{kg} / (\text{m} \cdot \text{s}^2)$ |
-| Transparency           | Field alignment, low $C_{res}$                | $\text{kg} / (\text{m}^4 \cdot \text{s}^2)$    |
-| Penetration Depth      | $\delta \propto \sqrt{1 / \nu \cdot C_{res}}$ | $\text{m} \cdot \text{s} / \sqrt{\text{kg}}$   |
-| Absorptivity           | $\epsilon \propto R_{field} / C_{res}$        | $\text{m}^6 \cdot \text{s}^3$                  |
-| Radiation torque       | $T_{gp}^{ rad} = -\gamma (\psi - \psi_{res})$ | $\text{kg} \cdot \text{m}^2 / \text{s}^2$      |
+| **Radiation Property** | **GPT Expression**                                                                 | **Dimensional Basis**                                                             |
+|:-----------------------|:-----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| Frequency shift        | <span class="math inline">\\\nu\_{obs} = \nu / (1 + \beta gp)\\</span>             | <span class="math inline">\\gp = \text{kg} / (\text{m} \cdot \text{s}^2)\\</span> |
+| Transparency           | Field alignment, low <span class="math inline">\\C\_{res}\\</span>                 | <span class="math inline">\\\text{kg} / (\text{m}^4 \cdot \text{s}^2)\\</span>    |
+| Penetration Depth      | <span class="math inline">\\\delta \propto \sqrt{1 / \nu \cdot C\_{res}}\\</span>  | <span class="math inline">\\\text{m} \cdot \text{s} / \sqrt{\text{kg}}\\</span>   |
+| Absorptivity           | <span class="math inline">\\\epsilon \propto R\_{field} / C\_{res}\\</span>        | <span class="math inline">\\\text{m}^6 \cdot \text{s}^3\\</span>                  |
+| Radiation torque       | <span class="math inline">\\T\_{gp}^{ rad} = -\gamma (\psi - \psi\_{res})\\</span> | <span class="math inline">\\\text{kg} \cdot \text{m}^2 / \text{s}^2\\</span>      |
 
 </div>
 
@@ -1504,9 +1508,9 @@ Within GPT, charge is a localized distortion in the graviton field’s direction
 
 From this perspective:
 
-- **Electric Field ($E$):** A directional gradient in graviton pressure alignment across a coherence boundary.
+- **Electric Field (<span class="math inline">\\E\\</span>):** A directional gradient in graviton pressure alignment across a coherence boundary.
 
-- **Magnetic Field ($B$):** A memory torque— rotational shear of the lattice caused by coherence displacement through time.
+- **Magnetic Field (<span class="math inline">\\B\\</span>):** A memory torque— rotational shear of the lattice caused by coherence displacement through time.
 
 These are not abstract field constructs. They are real expressions of mechanical and resonant stress within a lattice structure that actively attempts to maintain coherent equilibrium.
 
@@ -1530,33 +1534,33 @@ When voltage is applied:
 
 **Conduction Conditions:**
 
-- Low $C_{res}$ (coherence resistance).
+- Low <span class="math inline">\\C\_{res}\\</span> (coherence resistance).
 
-- High $R_{field}$ (resonance feedback efficiency).
+- High <span class="math inline">\\R\_{field}\\</span> (resonance feedback efficiency).
 
 These enable phase-aligned displacement with minimal decoherence.
 
 ### Induction: Memory-Driven Rebalancing
 
-GPT interpretation of Faraday’s Law: $$\nabla \times E = -\frac{\partial B}{\partial t} \quad \Rightarrow \quad \text{Tension realignment responds to shear memory loss}$$
+GPT interpretation of Faraday’s Law: <span class="math display">\\\nabla \times E = -\frac{\partial B}{\partial t} \quad \Rightarrow \quad \text{Tension realignment responds to shear memory loss}\\</span>
 
-- $B$ field = Torsional memory decay (loss of previous lattice alignment).
+- <span class="math inline">\\B\\</span> field = Torsional memory decay (loss of previous lattice alignment).
 
-- $E$ field = Restorative tension attempting to reestablish coherence.
+- <span class="math inline">\\E\\</span> field = Restorative tension attempting to reestablish coherence.
 
 **Induction is not force— it is feedback.** It reflects the lattice’s attempt to preserve memory under directional stress.
 
 ### Mutual Coupling
 
-- A changing $B$ field induces $E$ tension.
+- A changing <span class="math inline">\\B\\</span> field induces <span class="math inline">\\E\\</span> tension.
 
-- A changing $E$ alignment leaves behind $B$ memory.
+- A changing <span class="math inline">\\E\\</span> alignment leaves behind <span class="math inline">\\B\\</span> memory.
 
 This is not abstract field dualism— it is coherence continuity:
 
-- **Linear tension** ($E$)
+- **Linear tension** (<span class="math inline">\\E\\</span>)
 
-- **Rotational memory** ($B$)
+- **Rotational memory** (<span class="math inline">\\B\\</span>)
 
 EM behavior is the structured field’s restoration response in orthogonal modes.
 
@@ -1628,23 +1632,23 @@ In Graviton Pressure Theory (GPT), static electric fields are not just zones of 
 
 - Dielectrics are coherence buffers.
 
-- Increase local $C_{res}$, resisting tension relaxation.
+- Increase local <span class="math inline">\\C\_{res}\\</span>, resisting tension relaxation.
 
 - This boosts containment and slows coherence leakage.
 
-**GPT Capacitance Equation:** $$C_{GPT} = \frac{C_{res} \cdot A}{\Delta gp}$$
+**GPT Capacitance Equation:** <span class="math display">\\C\_{GPT} = \frac{C\_{res} \cdot A}{\Delta gp}\\</span>
 
-- $C_{res}$: Coherence resistance of the dielectric.
+- <span class="math inline">\\C\_{res}\\</span>: Coherence resistance of the dielectric.
 
-- $A$: Plate area.
+- <span class="math inline">\\A\\</span>: Plate area.
 
-- $\Delta gp$: Graviton pressure differential across the plates.
+- <span class="math inline">\\\Delta gp\\</span>: Graviton pressure differential across the plates.
 
 **Predictions:**
 
-- Capacitance increases with $C_{res}$ and $A$.
+- Capacitance increases with <span class="math inline">\\C\_{res}\\</span> and <span class="math inline">\\A\\</span>.
 
-- Capacitance decreases with increasing $\Delta gp$.
+- Capacitance decreases with increasing <span class="math inline">\\\Delta gp\\</span>.
 
 ## Magnetic Fields and Rotational Memory
 
@@ -1670,7 +1674,7 @@ In GPT, magnetic fields are not fundamental. They are torsional memory traces fo
 
 ### GPT Predictions
 
-- **Phase Lag in High $gp$ Regions:**
+- **Phase Lag in High <span class="math inline">\\gp\\</span> Regions:**
 
   - High graviton pressure increases torsional inertia.
 
@@ -1678,7 +1682,7 @@ In GPT, magnetic fields are not fundamental. They are torsional memory traces fo
 
 - **Magnetic Domain Alignment:**
 
-  - Occurs when local $R_{field}$ supports synchronized torsional coherence.
+  - Occurs when local <span class="math inline">\\R\_{field}\\</span> supports synchronized torsional coherence.
 
   - Magnetization is a cooperative field memory, not mere spin alignment.
 
@@ -1688,35 +1692,27 @@ In GPT, magnetic fields are not fundamental. They are torsional memory traces fo
 
 Graviton Pressure Theory (GPT) does not discard Maxwell’s equations. Instead, it grounds them in a causal, physical medium: the graviton lattice. Each equation becomes a statement about how the field stores, transmits, and restores coherence through pressure, alignment, and shear mechanics.
 
-$$\begin{aligned}
-\nabla \cdot E &= \frac{\rho}{\epsilon_0} \quad \Rightarrow \quad \text{Charge density as local lattice asymmetry} \\
-\end{aligned}$$
+<span class="math display">\\\begin{aligned} \nabla \cdot E &= \frac{\rho}{\epsilon_0} \quad \Rightarrow \quad \text{Charge density as local lattice asymmetry} \\ \end{aligned}\\</span>
 
-- $\rho$ is coherence displacement intensity, not particle-based charge.
+- <span class="math inline">\\\rho\\</span> is coherence displacement intensity, not particle-based charge.
 
-- The electric field ($E$) emerges as a response to directional torsion in the graviton lattice.
+- The electric field (<span class="math inline">\\E\\</span>) emerges as a response to directional torsion in the graviton lattice.
 
-$$\begin{aligned}
-\nabla \cdot B &= 0 \quad \Rightarrow \quad \text{No monopoles, because torsion must circulate within continuity} \\
-\end{aligned}$$
+<span class="math display">\\\begin{aligned} \nabla \cdot B &= 0 \quad \Rightarrow \quad \text{No monopoles, because torsion must circulate within continuity} \\ \end{aligned}\\</span>
 
-- $B$ represents lattice torsion (magnetic field memory).
+- <span class="math inline">\\B\\</span> represents lattice torsion (magnetic field memory).
 
 - Torsion must either loop or dissipate unless topological defects exist.
 
-$$\begin{aligned}
-\nabla \times E &= -\frac{\partial B}{\partial t} \quad \Rightarrow \quad \text{Tension re-alignment responds to shear loss} \\
-\end{aligned}$$
+<span class="math display">\\\begin{aligned} \nabla \times E &= -\frac{\partial B}{\partial t} \quad \Rightarrow \quad \text{Tension re-alignment responds to shear loss} \\ \end{aligned}\\</span>
 
-- Temporal change in torsional memory ($B$) triggers directional lattice tension ($E$).
+- Temporal change in torsional memory (<span class="math inline">\\B\\</span>) triggers directional lattice tension (<span class="math inline">\\E\\</span>).
 
-$$\begin{aligned}
-\nabla \times B &= \mu_0 J + \mu_0 \epsilon_0 \frac{\partial E}{\partial t} \quad \Rightarrow \quad \text{Shear accumulates from sustained flow or accelerating re-alignment} \\
-\end{aligned}$$
+<span class="math display">\\\begin{aligned} \nabla \times B &= \mu_0 J + \mu_0 \epsilon_0 \frac{\partial E}{\partial t} \quad \Rightarrow \quad \text{Shear accumulates from sustained flow or accelerating re-alignment} \\ \end{aligned}\\</span>
 
-- $J$ is coherence displacement current.
+- <span class="math inline">\\J\\</span> is coherence displacement current.
 
-- $\partial E / \partial t$ reflects graviton pressure correction through lattice re-alignment.
+- <span class="math inline">\\\partial E / \partial t\\</span> reflects graviton pressure correction through lattice re-alignment.
 
 ## Implications for Science and Engineering
 
@@ -1724,15 +1720,15 @@ $$\begin{aligned}
 
 - GPT allows electric and magnetic effects to be induced via graviton pressure gradients and alignment shifts— not mobile charge.
 
-### EM Shielding via $C_{res}$ and $R_{field}$ Engineering
+### EM Shielding via <span class="math inline">\\C\_{res}\\</span> and <span class="math inline">\\R\_{field}\\</span> Engineering
 
-- Materials can be tuned by designing their coherence resistance ($C_{res}$) and resonance feedback ($R_{field}$).
+- Materials can be tuned by designing their coherence resistance (<span class="math inline">\\C\_{res}\\</span>) and resonance feedback (<span class="math inline">\\R\_{field}\\</span>).
 
 - Enables precise manipulation of EM absorption, deflection, or transmission.
 
 ### Nonlinear Electromagnetic Response
 
-- Under high $gp$ or rapid alignment shifts, linearity in Maxwell’s equations breaks down.
+- Under high <span class="math inline">\\gp\\</span> or rapid alignment shifts, linearity in Maxwell’s equations breaks down.
 
 - GPT predicts testable nonlinearities near strong gravimetric gradients or intense EM fields.
 
@@ -1746,9 +1742,9 @@ $$\begin{aligned}
 
 Electromagnetism is not an abstract interaction over emptiness. It is the coherent behavior of a memory-capable field:
 
-- $E$ fields = directional lattice tension.
+- <span class="math inline">\\E\\</span> fields = directional lattice tension.
 
-- $B$ fields = rotational field memory.
+- <span class="math inline">\\B\\</span> fields = rotational field memory.
 
 - EM waves = self-reinforcing rebalance pulses.
 
@@ -1758,60 +1754,60 @@ Electromagnetism is not an abstract interaction over emptiness. It is the cohere
 
 This section grounds electromagnetic phenomena within the unit framework of Graviton Pressure Theory (GPT), replacing abstract field concepts with causal, pressure-based structures in the graviton lattice.
 
-### Graviton Pressure $gp$
+### Graviton Pressure <span class="math inline">\\gp\\</span>
 
-- **Electric Field $E$**: Directional gradient of graviton pressure $$E = -\nabla gp$$
+- **Electric Field <span class="math inline">\\E\\</span>**: Directional gradient of graviton pressure <span class="math display">\\E = -\nabla gp\\</span>
 
-- **Magnetic Field $B$**: Torsional memory from lattice shear $$B \sim \frac{\Delta \theta}{\Delta t} \quad \text{(torsional alignment rate)}$$
+- **Magnetic Field <span class="math inline">\\B\\</span>**: Torsional memory from lattice shear <span class="math display">\\B \sim \frac{\Delta \theta}{\Delta t} \quad \text{(torsional alignment rate)}\\</span>
 
 **Dimensional Forms:**
 
-- $[E] = \text{kg} / (\text{m} \cdot \text{s}^2)$
+- <span class="math inline">\\\[E\] = \text{kg} / (\text{m}^2 \cdot \text{s}^2)\\</span>
 
-- $[B] = \text{rad} / \text{s}$
+- <span class="math inline">\\\[B\] = \text{rad} / \text{s}\\</span>
 
-### Coherence Resistance $C_{res}$
+### Coherence Resistance <span class="math inline">\\C\_{res}\\</span>
 
 - Governs how well a material transmits or resists field deformation.
 
-- **GPT Permittivity:** $\epsilon_{GPT} \propto 1 / C_{res}$
+- **GPT Permittivity:** <span class="math inline">\\\epsilon\_{GPT} \propto 1 / C\_{res}\\</span>
 
-- **Capacitance:** $$C = \frac{1}{\Delta gp} \cdot C_{res} \cdot A$$
+- **Capacitance:** <span class="math display">\\C = \frac{1}{\Delta gp} \cdot C\_{res} \cdot A\\</span>
 
 **Implication:** Materials permit field alignment based on coherence transfer efficiency, not intrinsic constants.
 
-### Coupling Ratio $\kappa$
+### Coupling Ratio <span class="math inline">\\\kappa\\</span>
 
-- Measures resonance between oscillating input and lattice response: $$\kappa = \frac{f_{source}}{f_{lattice}}$$
+- Measures resonance between oscillating input and lattice response: <span class="math display">\\\kappa = \frac{f\_{source}}{f\_{lattice}}\\</span>
 
-- $\kappa \approx 1$ implies maximum coherence transfer and wave efficiency.
+- <span class="math inline">\\\kappa \approx 1\\</span> implies maximum coherence transfer and wave efficiency.
 
-### Graviton Torque ($T_{gp}$)
+### Graviton Torque (<span class="math inline">\\T\_{gp}\\</span>)
 
-- Arises in magnetic induction: $$T_{gp}^{ mag} = \gamma (\omega_{displacement} - \omega_{field})$$
+- Arises in magnetic induction: <span class="math display">\\T\_{gp}^{ mag} = \gamma (\omega\_{displacement} - \omega\_{field})\\</span>
 
-- **Dimension:** $\text{kg} \cdot \text{m}^2 / \text{s}^2$
+- **Dimension:** <span class="math inline">\\\text{kg} \cdot \text{m}^2 / \text{s}^2\\</span>
 
-### Resonance Feedback $R_{field}$
+### Resonance Feedback <span class="math inline">\\R\_{field}\\</span>
 
 - Describes field retention, delay, and propagation.
 
-- **Velocity:** $$v_{EM} = \sqrt{\frac{R_{field}}{C_{res}}}$$
+- **Velocity:** <span class="math display">\\v\_{EM} = \sqrt{\frac{R\_{field}}{C\_{res}}}\\</span>
 
-- **Impedance:** $$Z_{GPT} = \sqrt{\frac{C_{res}}{R_{field}}}$$
+- **Impedance:** <span class="math display">\\Z\_{GPT} = \sqrt{\frac{C\_{res}}{R\_{field}}}\\</span>
 
 ### Summary Table: EM Quantities in GPT Unit Space
 
 <div class="center">
 
-| **EM Quantity**      | **GPT Expression**            | **Dimensional Form**                                     |
-|:---------------------|:------------------------------|:---------------------------------------------------------|
-| Electric Field ($E$) | $-\nabla gp$                  | $\text{kg} / (\text{m} \cdot \text{s}^2)$                |
-| Magnetic Field ($B$) | $\Delta \theta / \Delta t$    | $\text{rad} / \text{s}$                                  |
-| Capacitance ($C$)    | $C_{res} \cdot A / \Delta gp$ | $\text{m}^3 \cdot \text{s}^2$                            |
-| Inductance ($L$)     | $T_{gp} / I$                  | $\text{kg} \cdot \text{m}^2 / (\text{A} \cdot \text{s})$ |
-| EM Velocity ($v$)    | $\sqrt{R_{field} / C_{res}}$  | $\text{m} / \text{s}$                                    |
-| Impedance ($Z$)      | $\sqrt{C_{res} / R_{field}}$  | $\text{kg} \cdot \text{s} / \text{m}^4$                  |
+| **EM Quantity**                                         | **GPT Expression**                                                | **Dimensional Form**                                                                        |
+|:--------------------------------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| Electric Field (<span class="math inline">\\E\\</span>) | <span class="math inline">\\-\nabla gp\\</span>                   | <span class="math inline">\\\text{kg} / (\text{m}^2 \cdot \text{s}^2)\\</span>              |
+| Magnetic Field (<span class="math inline">\\B\\</span>) | <span class="math inline">\\\Delta \theta / \Delta t\\</span>     | <span class="math inline">\\\text{rad} / \text{s}\\</span>                                  |
+| Capacitance (<span class="math inline">\\C\\</span>)    | <span class="math inline">\\C\_{res} \cdot A / \Delta gp\\</span> | <span class="math inline">\\\text{m}^3 \cdot \text{s}^2\\</span>                            |
+| Inductance (<span class="math inline">\\L\\</span>)     | <span class="math inline">\\T\_{gp} / I\\</span>                  | <span class="math inline">\\\text{kg} \cdot \text{m}^2 / (\text{A} \cdot \text{s})\\</span> |
+| EM Velocity (<span class="math inline">\\v\\</span>)    | <span class="math inline">\\\sqrt{R\_{field} / C\_{res}}\\</span> | <span class="math inline">\\\text{m} / \text{s}\\</span>                                    |
+| Impedance (<span class="math inline">\\Z\\</span>)      | <span class="math inline">\\\sqrt{C\_{res} / R\_{field}}\\</span> | <span class="math inline">\\\text{kg} \cdot \text{s} / \text{m}^4\\</span>                  |
 
 </div>
 
@@ -1827,11 +1823,25 @@ With these dimensional mappings:
 
 Electromagnetism is no longer abstract— it is graviton-structured pressure choreography, fully causal and engineerable.
 
-[^1]: See Part 16 – The Properties of Gravitational Fields for lattice structure and coherence modulation.
+------------------------------------------------------------------------
 
-[^2]: See Part 19 – Graviton Coherence for graviton interaction at emission interfaces.
+1.  <div id="fn1">
 
-[^3]: See Part 21 – Magnetism as Gravimetric Resonance for torsional coherence and field memory.
+    See Part 16 – The Properties of Gravitational Fields for lattice structure and coherence modulation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+2.  <div id="fn2">
+
+    See Part 19 – Graviton Coherence for graviton interaction at emission interfaces.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+3.  <div id="fn3">
+
+    See Part 21 – Magnetism as Gravimetric Resonance for torsional coherence and field memory.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/

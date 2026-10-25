@@ -4,7 +4,9 @@
 
 By Shareef Ali Rashada
 
-This paper reframes planetary motion and rotational stability through the lens of Graviton Pressure Theory (GPT), proposing a causal model grounded in field coherence [^1] and structured pressure dynamics. Traditional explanations—whether Newtonian [^2] or relativistic—describe planetary behavior as the result of inertia or spacetime [^3] curvature, but they fail to reveal the underlying mechanism of stability, order, and persistence. GPT introduces the concept of graviton corridors: quantized, directional flow structures in the graviton field that maintain orbital paths and rotational locks via tension gradients and phase coherence. Planets do not simply fall or drift—they are held within these corridors by quantized tension gradients, resonance locks, and feedback mechanisms between internal coherence and external field dynamics.
+> Editor's corrections (October 2026): Orbits: a pressure gradient is a force per unit volume, so dividing by the density ρ_g of the graviton medium gives the acceleration; equating it to mv²/r mixed a force density with a force. The orbital velocity is now v = √(r k P₀ e^(−kr)/ρ_g), directed toward the centre where P_g is highest. Escape: the integral of a pressure over distance is not an energy. The escape condition now integrates the acceleration: ½v² ≥ (P₀/ρ_g) e^(−kr). Refractive index: with P_g highest near the mass, n = 1 + α/P_g would be lowest there; it is now n = 1 + αP_g. Spin–orbit ratio: C_rΩ has units of velocity, not angular momentum. With C_r read as the radius of gyration, I = mC_r², so L_f = mC_r²Ω and κ = C_r²Ω/(vr), which is dimensionless.
+
+This paper reframes planetary motion and rotational stability through the lens of Graviton Pressure Theory (GPT), proposing a causal model grounded in field coherence <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> and structured pressure dynamics. Traditional explanations—whether Newtonian <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> or relativistic—describe planetary behavior as the result of inertia or spacetime <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> curvature, but they fail to reveal the underlying mechanism of stability, order, and persistence. GPT introduces the concept of graviton corridors: quantized, directional flow structures in the graviton field that maintain orbital paths and rotational locks via tension gradients and phase coherence. Planets do not simply fall or drift—they are held within these corridors by quantized tension gradients, resonance locks, and feedback mechanisms between internal coherence and external field dynamics.
 
 Through mathematical modeling and observational analysis, we demonstrate that orbital longevity, axial stability, and even anomalies like retrograde spin or extreme tilt can be causally explained as field-based outcomes rather than probabilistic quirks. Furthermore, we argue that planetary system formation emerges through coherence harmonics and gravitational minima, not through random accretion shaped by field minima, coherence wells, and layered gravitational architecture.
 
@@ -28,7 +30,7 @@ Together, these domains outline a unified framework of GPT-based planetary mecha
 
 ### Introduction: Beyond Depth—Toward Structure
 
-Traditional depictions of gravity wells emphasize depth—steepness correlates with mass[^4]. But this is a metaphor of geometry, not causality. Under Graviton Pressure Theory (GPT), gravity wells are not continuous curves but layered stratifications—zones of tension, compression, and coherence[^5].
+Traditional depictions of gravity wells emphasize depth—steepness correlates with mass<a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a>. But this is a metaphor of geometry, not causality. Under Graviton Pressure Theory (GPT), gravity wells are not continuous curves but layered stratifications—zones of tension, compression, and coherence<a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a>.
 
 A gravity well is not a funnel—it is a multi-layered resonance shell, structured by graviton pressure and the coherence resistance of mass.
 
@@ -70,9 +72,9 @@ These layered dynamics explain:
 
 - The nonlinear behavior of acceleration as bodies descend into or escape from inner layers, due to rapidly increasing pressure differentials.
 
-To model these effects, let the graviton pressure field be represented as: $$P_g(r) = P_0 e^{-k r}$$ where $P_0$ is the central reference pressure, $k$ is the graviton field decay constant, and $r$ is radial distance.
+To model these effects, let the graviton pressure field be represented as: <span class="math display">\\P_g(r) = P_0 e^{-k r}\\</span> where <span class="math inline">\\P_0\\</span> is the central reference pressure, <span class="math inline">\\k\\</span> is the graviton field decay constant, and <span class="math inline">\\r\\</span> is radial distance.
 
-Field layers occur where the pressure gradient reaches a coherence threshold: $$\left| \frac{dP_g}{dr} \right| = k P_0 e^{-k r} \geq P_{\text{threshold}}$$
+Field layers occur where the pressure gradient reaches a coherence threshold: <span class="math display">\\\left\| \frac{dP_g}{dr} \right\| = k P_0 e^{-k r} \geq P\_{\text{threshold}}\\</span>
 
 These thresholds define shell boundaries where orbital and photonic behavior shift.
 
@@ -84,7 +86,7 @@ Rings form where field pressure equilibrates with the cohesion of particulate ma
 **2. Orbital Banding**  
 Moons do not orbit randomly. They cluster into coherence shells—regions where graviton field harmonics support long-term orbital stability. The spacing reflects phase-locked resonance, not gravitational coincidence.
 
-Let this spacing be approximated by: $$r_n \approx \sqrt{n} \cdot R_0$$ where $R_0$ is the base harmonic radius and $n$ is the orbital shell index.
+Let this spacing be approximated by: <span class="math display">\\r_n \approx \sqrt{n} \cdot R_0\\</span> where <span class="math inline">\\R_0\\</span> is the base harmonic radius and <span class="math inline">\\n\\</span> is the orbital shell index.
 
 **3. Lagrange Points**  
 These are not merely gravitational balance points—they are meta-stable null zones in the graviton field where tension gradients from two or more massive bodies cancel. GPT treats them as resonance plateaus within overlapping field geometries.
@@ -102,9 +104,9 @@ Each graviton pressure layer modifies the behavior of matter, light, and wave pr
 
 - **Waves**: Mechanical or electromagnetic waves reflect, refract, or dissolve depending on their harmonic compatibility with the local tension. Standing waves are only sustained in layers that support their coherence profile.
 
-These effects can be described with: $$n_g(r) = 1 + \frac{\alpha}{P_g(r)}$$ for the graviton-induced refractive index $n_g$, where $\alpha$ is a material interaction coefficient.
+These effects can be described with: <span class="math display">\\n_g(r) = 1 + \alpha P_g(r)\\</span> for the graviton-induced refractive index <span class="math inline">\\n_g\\</span>, where <span class="math inline">\\\alpha\\</span> is a material interaction coefficient.
 
-Orbital acceleration can also be derived directly from the pressure gradient: $$a(r) = -\nabla P_g(r) = k P_0 e^{-k r}$$
+Orbital acceleration can also be derived directly from the pressure gradient: <span class="math display">\\a(r) = \frac{1}{\rho_g}\left\|\nabla P_g(r)\right\| = \frac{k P_0 e^{-k r}}{\rho_g} \quad (\text{toward the centre})\\</span>
 
 - **Stratified refraction effects** at cosmic scales (e.g., lensing mirages or distant blurring across layer boundaries).
 
@@ -207,9 +209,9 @@ Spin is not just conserved angular momentum—it is the rotational containment o
 
 - **Field Feedback**: Spin induces outward ripples in the surrounding graviton field, creating a counter-pressure shell that stabilizes interaction with ambient flow.
 
-To describe this mathematically, define a rotational coherence term: $$L_f = C_r \cdot \Omega$$ where $L_f$ is the field-stabilized rotational inertia, $C_r$ is the coherence radius—a function of internal structural alignment—and $\Omega$ is the rotational frequency aligned to the graviton field’s local anisotropy.
+To describe this mathematically, define a rotational coherence term: <span class="math display">\\L_f = m\\ C_r^2\\ \Omega\\</span> where <span class="math inline">\\L_f\\</span> is the field-stabilized rotational inertia, <span class="math inline">\\C_r\\</span> is the coherence radius—a function of internal structural alignment—and <span class="math inline">\\\Omega\\</span> is the rotational frequency aligned to the graviton field’s local anisotropy.
 
-Field ripple amplitude $A_{\text{spin}}$ resulting from rotational containment is modeled as: $$A_{\text{spin}}(r) \propto \frac{1}{r^2} \cdot \Omega^2 \cdot C_r^2$$ indicating a decaying field effect that still influences nearby stability zones and creates self-reinforcing motion envelopes.
+Field ripple amplitude <span class="math inline">\\A\_{\text{spin}}\\</span> resulting from rotational containment is modeled as: <span class="math display">\\A\_{\text{spin}}(r) \propto \frac{1}{r^2} \cdot \Omega^2 \cdot C_r^2\\</span> indicating a decaying field effect that still influences nearby stability zones and creates self-reinforcing motion envelopes.
 
 Spin is thus a **local symmetry lock**—the field’s way of pinning a coherent object in place without requiring full stasis. It is motion that holds coherence.
 
@@ -225,9 +227,9 @@ Orbit is the lateral resolution of gravitational pressure. A body in orbit is no
 
 - The dynamic tension between inward compression and lateral translation establishes a *stable orbital shell*.
 
-This orbital equilibrium can be modeled using the graviton pressure gradient: $$\nabla P_g(r) = k P_0 e^{-k r} = \frac{m v^2}{r}$$ where $v$ is the orbital velocity and $m$ is the orbiting body’s mass. This reveals that stability emerges when the pressure gradient equals the centrifugal coherence resistance.
+This orbital equilibrium can be modeled using the graviton pressure gradient: <span class="math display">\\\frac{1}{\rho_g}\left\|\nabla P_g(r)\right\| = \frac{k P_0 e^{-k r}}{\rho_g} = \frac{v^2}{r}\\</span> where <span class="math inline">\\v\\</span> is the orbital velocity and <span class="math inline">\\\rho_g\\</span> is the density of the graviton medium. This reveals that stability emerges when the pressure gradient equals the centrifugal coherence resistance.
 
-Alternatively, we can write orbital shell boundaries as: $$r_n = \sqrt{n} \cdot R_0$$ with $n$ as the harmonic index and $R_0$ as the base pressure-defined coherence layer.
+Alternatively, we can write orbital shell boundaries as: <span class="math display">\\r_n = \sqrt{n} \cdot R_0\\</span> with <span class="math inline">\\n\\</span> as the harmonic index and <span class="math inline">\\R_0\\</span> as the base pressure-defined coherence layer.
 
 Just as electrons orbit nuclei in probability-defined shells driven by resonance and coherence, planets orbit stars in **pressure-defined corridors** stabilized by gravitational harmonics.
 
@@ -257,21 +259,21 @@ This coupling allows for emergent stabilization phenomena:
 
 - **Field harmonic locking**: Spin and orbit phase-lock into integer multiples—seen in tidal locking and orbital resonance chains.
 
-**Mathematical Coupling:** The coupling between spin and orbit can be quantified via a coherence coupling constant $\kappa$: $$\kappa = \frac{L_s}{L_o} = \frac{I \omega}{m v r} = \frac{C_r \Omega}{m v r}$$
+**Mathematical Coupling:** The coupling between spin and orbit can be quantified via a coherence coupling constant <span class="math inline">\\\kappa\\</span>: <span class="math display">\\\kappa = \frac{L_s}{L_o} = \frac{I \omega}{m v r} = \frac{C_r^2 \Omega}{v r}\\</span>
 
 Where:
 
-- $L_s$ = spin angular momentum
+- <span class="math inline">\\L_s\\</span> = spin angular momentum
 
-- $L_o$ = orbital angular momentum
+- <span class="math inline">\\L_o\\</span> = orbital angular momentum
 
-- $\Omega$ = spin frequency
+- <span class="math inline">\\\Omega\\</span> = spin frequency
 
-- $v$ = orbital velocity
+- <span class="math inline">\\v\\</span> = orbital velocity
 
-- $C_r$ = coherence radius of the object
+- <span class="math inline">\\C_r\\</span> = coherence radius of the object
 
-When $\kappa$ approaches unity or a simple rational ratio, resonance locking becomes stable. When misaligned, graviton field strain increases proportionally: $$F_{\text{strain}} \propto |1 - \kappa|$$
+When <span class="math inline">\\\kappa\\</span> approaches unity or a simple rational ratio, resonance locking becomes stable. When misaligned, graviton field strain increases proportionally: <span class="math display">\\F\_{\text{strain}} \propto \|1 - \kappa\|\\</span>
 
 This explains why prograde rotation (aligned spin-orbit vectors) minimizes energy loss, while retrograde or inclined configurations introduce strain harmonics.
 
@@ -297,9 +299,9 @@ This explains why prograde rotation (aligned spin-orbit vectors) minimizes energ
 
 **Example:** Triton, Neptune’s retrograde moon, exhibits signs of capture and orbital decay. GPT explains this as long-term discordance stress: graviton inflow vectors oppose Triton’s motion, requiring energy compensation through tidal flex and thermal dissipation.
 
-**Mathematical Expression:** Define discordance energy cost $E_d$ as: $$E_d \propto P_g(r) \cdot \sin(\theta)$$ where $\theta$ is the misalignment angle between spin-orbit and graviton inflow, and $P_g(r)$ is the local graviton pressure field.
+**Mathematical Expression:** Define discordance energy cost <span class="math inline">\\E_d\\</span> as: <span class="math display">\\E_d \propto P_g(r) \cdot \sin(\theta)\\</span> where <span class="math inline">\\\theta\\</span> is the misalignment angle between spin-orbit and graviton inflow, and <span class="math inline">\\P_g(r)\\</span> is the local graviton pressure field.
 
-Retrograde motion becomes energetically unstable as $\theta \to \pi$, resulting in: $$\lim_{\theta \to \pi} E_d \to \text{max}$$
+Retrograde motion becomes energetically unstable as <span class="math inline">\\\theta \to \pi\\</span>, resulting in: <span class="math display">\\\lim\_{\theta \to \pi} E_d \to \text{max}\\</span>
 
 Thus, GPT predicts a universal tendency for retrograde bodies to either decay, re-align, or be ejected—restoring coherence to the system.
 
@@ -309,7 +311,7 @@ Spin and orbital motion are not byproducts of initial conditions or conserved ab
 
 In GPT, motion is not inertial—it is *interactive*. It arises not from freedom, but from **containment**. Not from isolation, but from **resonance with pressure gradients**.
 
-**Spin** is the internal declaration of a structure’s alignment with its own memory—its way of resisting incoherence through organized rotation. **Orbit** is the external conversation—how that same coherence finds balance within the layered tension of a gravitational field [^6].
+**Spin** is the internal declaration of a structure’s alignment with its own memory—its way of resisting incoherence through organized rotation. **Orbit** is the external conversation—how that same coherence finds balance within the layered tension of a gravitational field <a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a>.
 
 Together, they form a nested dialogue:
 
@@ -333,13 +335,13 @@ When they misalign:
 
 This new framing allows us to **quantify coherence** through measurable field behavior:
 
-$$C_{\text{motion}} = f(P_g(r), \kappa, \theta)$$ where:
+<span class="math display">\\C\_{\text{motion}} = f(P_g(r), \kappa, \theta)\\</span> where:
 
-- $P_g(r)$ is the local graviton pressure
+- <span class="math inline">\\P_g(r)\\</span> is the local graviton pressure
 
-- $\kappa$ is the spin-orbit coherence ratio
+- <span class="math inline">\\\kappa\\</span> is the spin-orbit coherence ratio
 
-- $\theta$ is the alignment angle between internal and external flow
+- <span class="math inline">\\\theta\\</span> is the alignment angle between internal and external flow
 
 The universe, then, is not built on force, but on **pattern retention through pressure interaction**.
 
@@ -365,7 +367,7 @@ In this model:
 
 ### The Graviton Pressure Framework for Orbit
 
-GPT replaces the abstract gravitational “pull” with a physically causal field of directional pressure. Gravitons [^7], acting as structured field carriers, flow into coherent mass zones—creating compression corridors and anisotropic pressure gradients.
+GPT replaces the abstract gravitational “pull” with a physically causal field of directional pressure. Gravitons <a href="#fn7" id="fnref7" class="footnote-ref" role="doc-noteref"><sup>7</sup></a>, acting as structured field carriers, flow into coherent mass zones—creating compression corridors and anisotropic pressure gradients.
 
 A body in orbital motion is not merely falling sideways—it is navigating through a structured pressure corridor where radial inward compression is constantly balanced by lateral translation along minimal-tension pathways.
 
@@ -377,13 +379,13 @@ A body in orbital motion is not merely falling sideways—it is navigating throu
 
 - **Resonant Stability**: The coherence of the orbiting body allows it to form a *standing wave pattern* within the pressure field. This pressure-tuned harmonic maintains orbital radius, velocity, and eccentricity.
 
-**Mathematical Expression:** Let the graviton pressure at a radius $r$ be: $$P_g(r) = P_0 e^{-k r}$$
+**Mathematical Expression:** Let the graviton pressure at a radius <span class="math inline">\\r\\</span> be: <span class="math display">\\P_g(r) = P_0 e^{-k r}\\</span>
 
-Then the effective tension gradient felt by a body of mass $m$ in circular motion is: $$F_{\text{orb}} = -\nabla P_g(r) = k P_0 e^{-k r}$$
+Then the effective tension gradient felt by a body of mass <span class="math inline">\\m\\</span> in circular motion is: <span class="math display">\\a\_{\text{orb}} = \frac{1}{\rho_g}\left\|\nabla P_g(r)\right\| = \frac{k P_0 e^{-k r}}{\rho_g}\\</span>
 
-This balances the pressure-generated acceleration with the object’s coherent lateral translation: $$ma = \frac{mv^2}{r} = k P_0 e^{-k r}$$
+This balances the pressure-generated acceleration with the object’s coherent lateral translation: <span class="math display">\\a = \frac{v^2}{r} = \frac{k P_0 e^{-k r}}{\rho_g}\\</span>
 
-Solving for orbital velocity $v$: $$v(r) = \sqrt{r \cdot k P_0 e^{-k r} / m}$$
+Solving for orbital velocity <span class="math inline">\\v\\</span>: <span class="math display">\\v(r) = \sqrt{r \cdot k P_0 e^{-k r} / \rho_g}\\</span>
 
 This equation shows that orbital velocity is not just a function of mass and radius—it depends on the *graviton field gradient* and the object’s interaction with the field. The graviton field modulates both the available energy and the spatial curvature, not geometrically, but dynamically.
 
@@ -399,17 +401,17 @@ The graviton field surrounding any coherent mass does not behave isotropically. 
 
 **Field Properties:**
 
-- **Radially stable:** The inward pressure gradient $\nabla P_g(r)$ strengthens toward the center, anchoring the body within a shell.
+- **Radially stable:** The inward pressure gradient <span class="math inline">\\\nabla P_g(r)\\</span> strengthens toward the center, anchoring the body within a shell.
 
 - **Tangentially permissive:** Along the shell’s circumference, graviton pressure differentials are minimal—allowing motion with low resistance.
 
 - **Self-correcting:** Deviations from the shell create asymmetric pressure feedback, which returns the body to equilibrium.
 
-**Mathematical Description:** Let $P_g(r)$ be the graviton pressure field: $$P_g(r) = P_0 e^{-k r}$$
+**Mathematical Description:** Let <span class="math inline">\\P_g(r)\\</span> be the graviton pressure field: <span class="math display">\\P_g(r) = P_0 e^{-k r}\\</span>
 
-Let a tension corridor be defined where the second derivative of pressure crosses a resonance threshold: $$\frac{d^2 P_g}{dr^2} = k^2 P_0 e^{-k r} \approx C_{\text{res}}$$
+Let a tension corridor be defined where the second derivative of pressure crosses a resonance threshold: <span class="math display">\\\frac{d^2 P_g}{dr^2} = k^2 P_0 e^{-k r} \approx C\_{\text{res}}\\</span>
 
-$C_{\text{res}}$ is a resonance constant associated with the object’s structural coherence. The radius $r_n$ at which this occurs defines the center of the $n$-th corridor: $$r_n = \frac{1}{k} \ln \left(\frac{k^2 P_0}{C_{\text{res}}} \right)$$
+<span class="math inline">\\C\_{\text{res}}\\</span> is a resonance constant associated with the object’s structural coherence. The radius <span class="math inline">\\r_n\\</span> at which this occurs defines the center of the <span class="math inline">\\n\\</span>-th corridor: <span class="math display">\\r_n = \frac{1}{k} \ln \left(\frac{k^2 P_0}{C\_{\text{res}}} \right)\\</span>
 
 **Implication:** This quantizes orbital distances, producing nested, pressure-aligned zones that actively maintain orbital stability.
 
@@ -419,7 +421,7 @@ Elliptical orbits in GPT emerge as **field-resonant oscillations** within strati
 
 As a body moves toward the central mass:
 
-- $P_g(r)$ increases.
+- <span class="math inline">\\P_g(r)\\</span> increases.
 
 - The tension corridor compresses.
 
@@ -427,13 +429,13 @@ As a body moves toward the central mass:
 
 As the body recedes:
 
-- $P_g(r)$ decreases.
+- <span class="math inline">\\P_g(r)\\</span> decreases.
 
 - The tension corridor relaxes.
 
 - Velocity decreases due to lower confinement pressure.
 
-This cyclical contraction and expansion defines the elliptical path: $$\epsilon = \frac{r_a - r_p}{r_a + r_p}$$ where $r_a$ and $r_p$ are apoapsis and periapsis radii, respectively. The eccentricity $\epsilon$ reflects the asymmetry of pressure gradient resonance during motion.
+This cyclical contraction and expansion defines the elliptical path: <span class="math display">\\\epsilon = \frac{r_a - r_p}{r_a + r_p}\\</span> where <span class="math inline">\\r_a\\</span> and <span class="math inline">\\r_p\\</span> are apoapsis and periapsis radii, respectively. The eccentricity <span class="math inline">\\\epsilon\\</span> reflects the asymmetry of pressure gradient resonance during motion.
 
 GPT shows that ellipses are not orbital distortions—they are *pressure harmonics*.
 
@@ -443,17 +445,17 @@ In GPT, escape velocity is reinterpreted as a **resonance threshold breach**—t
 
 **Critical Redefinition:** Escape is not overcoming a geometric potential well—it is *losing coherence* with a graviton-structured orbital shell.
 
-When $v \geq v_{\text{escape}}$, the object transitions into a new layer:
+When <span class="math inline">\\v \geq v\_{\text{escape}}\\</span>, the object transitions into a new layer:
 
 - The object enters a *higher, lower-density* field band.
 
-- Containment pressure $P_g(r)$ drops below the coherence threshold.
+- Containment pressure <span class="math inline">\\P_g(r)\\</span> drops below the coherence threshold.
 
 - The object either re-stabilizes into a new orbital shell or exits the graviton influence entirely.
 
-Escape condition: $$E_k = \frac{1}{2} m v^2 \geq \int_{r}^{\infty} P_g(r) \, dr = \frac{P_0}{k} e^{-k r}$$
+Escape condition: <span class="math display">\\\frac{1}{2} v^2 \geq \int\_{r}^{\infty} a(r') \\ dr' = \frac{P_0}{\rho_g} e^{-k r}\\</span>
 
-This reframes $v_{\text{escape}}$ as: $$v_{\text{escape}}(r) = \sqrt{\frac{2P_0}{k m} e^{-k r}}$$
+This reframes <span class="math inline">\\v\_{\text{escape}}\\</span> as: <span class="math display">\\v\_{\text{escape}}(r) = \sqrt{\frac{2P_0}{\rho_g} e^{-k r}}\\</span>
 
 The transition out of the corridor is a field ejection—not due to force surplus, but **resonance breakdown**.
 
@@ -463,9 +465,9 @@ The transition out of the corridor is a field ejection—not due to force surplu
 
 The reinterpretation of orbital mechanics under Graviton Pressure Theory introduces new predictive frameworks, many of which are observable with current instrumentation.
 
-1.  **Orbital Resonance Bands:** Planetary systems should exhibit *preferred orbital radii*, corresponding to graviton-defined pressure corridors. These shells are analogous to electron orbitals in atoms, where field tension stabilizes certain zones more efficiently than others. Orbital quantization emerges naturally from pressure harmonic conditions: $$r_n = \frac{1}{k} \ln \left(\frac{k^2 P_0}{n C_{\text{res}}} \right)$$ where $n$ is an integer resonance index.
+1.  **Orbital Resonance Bands:** Planetary systems should exhibit *preferred orbital radii*, corresponding to graviton-defined pressure corridors. These shells are analogous to electron orbitals in atoms, where field tension stabilizes certain zones more efficiently than others. Orbital quantization emerges naturally from pressure harmonic conditions: <span class="math display">\\r_n = \frac{1}{k} \ln \left(\frac{k^2 P_0}{n C\_{\text{res}}} \right)\\</span> where <span class="math inline">\\n\\</span> is an integer resonance index.
 
-2.  **Satellite Drift Behavior:** Artificial satellites, when pushed slightly beyond their stable altitude, may encounter discrete "*pressure snaps*"—abrupt changes in resistance as they cross into adjacent corridors. This could manifest as unanticipated drag, telemetry anomalies, or orbital precession. These transitions are predicted by nonlinear shifts in $\nabla P_g(r)$.
+2.  **Satellite Drift Behavior:** Artificial satellites, when pushed slightly beyond their stable altitude, may encounter discrete "*pressure snaps*"—abrupt changes in resistance as they cross into adjacent corridors. This could manifest as unanticipated drag, telemetry anomalies, or orbital precession. These transitions are predicted by nonlinear shifts in <span class="math inline">\\\nabla P_g(r)\\</span>.
 
 3.  **Stable Retrograde Orbits:** Though generally unstable, retrograde orbits may persist where the inward coherence of a body (e.g., mass distribution, internal spin) *aligns* with the corridor’s reversed flow tension. Such orbits will require exact alignment of phase and resistance. GPT predicts these cases to be rare and inherently fragile, but not impossible.
 
@@ -523,13 +525,13 @@ They arise when massive bodies deform the surrounding field, not by curving spac
 
 - **Self-Reinforcement:** Objects moving through the corridor induce stabilizing feedback—graviton pressure pushes them back into alignment when perturbed.
 
-**Mathematical Formulation:** Let $\vec{P}_g(r,\theta)$ represent the directional graviton pressure field, and $\vec{F}_c$ the containment force in a corridor. Then: $$\vec{F}_c = -\nabla_{\perp} P_g + R(\vec{v})$$
+**Mathematical Formulation:** Let <span class="math inline">\\\vec{P}\_g(r,\theta)\\</span> represent the directional graviton pressure field, and <span class="math inline">\\\vec{F}\_c\\</span> the containment force in a corridor. Then: <span class="math display">\\\vec{F}\_c = -\nabla\_{\perp} P_g + R(\vec{v})\\</span>
 
 Where:
 
-- $\nabla_{\perp} P_g$ is the lateral gradient in graviton pressure orthogonal to motion.
+- <span class="math inline">\\\nabla\_{\perp} P_g\\</span> is the lateral gradient in graviton pressure orthogonal to motion.
 
-- $R(\vec{v})$ is the resonance feedback term, dependent on the object’s velocity vector and structural coherence.
+- <span class="math inline">\\R(\vec{v})\\</span> is the resonance feedback term, dependent on the object’s velocity vector and structural coherence.
 
 **Interpretation:**
 
@@ -555,15 +557,15 @@ Planetary orbital motion is not a passive expression of conserved inertia—it i
 
 - **Field Elasticity:** Temporary perturbations (e.g., from passing bodies) are absorbed via graviton field elasticity. The corridor structure flexes and realigns to preserve coherence.
 
-**Mathematical Interpretation:** Let $P_g(r,\theta)$ define the corridor’s local graviton pressure, and $\vec{v}_p$ the planet’s orbital velocity. Then the lateral confinement and guidance is maintained by: $$\vec{F}_{\text{tension}} = -\nabla_{\perp} P_g(r,\theta) + \xi R(\vec{v}_p, C)$$
+**Mathematical Interpretation:** Let <span class="math inline">\\P_g(r,\theta)\\</span> define the corridor’s local graviton pressure, and <span class="math inline">\\\vec{v}\_p\\</span> the planet’s orbital velocity. Then the lateral confinement and guidance is maintained by: <span class="math display">\\\vec{F}\_{\text{tension}} = -\nabla\_{\perp} P_g(r,\theta) + \xi R(\vec{v}\_p, C)\\</span>
 
 Where:
 
-- $\nabla_{\perp} P_g$ is the cross-field gradient opposing deviation.
+- <span class="math inline">\\\nabla\_{\perp} P_g\\</span> is the cross-field gradient opposing deviation.
 
-- $\xi$ is a corridor elasticity constant.
+- <span class="math inline">\\\xi\\</span> is a corridor elasticity constant.
 
-- $R(\vec{v}_p, C)$ is the resonance lock function based on velocity and coherence $C$.
+- <span class="math inline">\\R(\vec{v}\_p, C)\\</span> is the resonance lock function based on velocity and coherence <span class="math inline">\\C\\</span>.
 
 **Resulting Behavior:**
 
@@ -585,11 +587,11 @@ Rotation is often described as an inertial remnant—but GPT redefines it as a *
 
 - **Graviton Torque:** Misalignment induces graviton torque—restorative pressure asymmetry that corrects axial drift.
 
-**Mathematical Representation:** Let $\Omega$ be the rotational frequency, and $T_g$ the net graviton torque. Then: $$T_g = -\gamma (\Omega - \Omega_{\text{corr}})$$ Where:
+**Mathematical Representation:** Let <span class="math inline">\\\Omega\\</span> be the rotational frequency, and <span class="math inline">\\T_g\\</span> the net graviton torque. Then: <span class="math display">\\T_g = -\gamma (\Omega - \Omega\_{\text{corr}})\\</span> Where:
 
-- $\Omega_{\text{corr}}$ is the corridor-preferred rotation rate.
+- <span class="math inline">\\\Omega\_{\text{corr}}\\</span> is the corridor-preferred rotation rate.
 
-- $\gamma$ is a torque coupling constant, derived from field symmetry.
+- <span class="math inline">\\\gamma\\</span> is a torque coupling constant, derived from field symmetry.
 
 **Implications:**
 
@@ -661,9 +663,9 @@ Planetary motion is not a miraculous coincidence—it is the echo of deep struct
 
 Graviton corridors do not allow continuous orbital radii but produce stable shell-like zones where resonance minimizes radial pressure disruption. The stable radius of such orbits is modeled as:
 
-$$r_n = \sqrt{n} \cdot R_0$$
+<span class="math display">\\r_n = \sqrt{n} \cdot R_0\\</span>
 
-where $n \in \mathbb{N}$ and $R_0$ is the corridor’s coherence-determined base resonance radius. This echoes Bohr-style orbital zones but derives from field mechanics, not energy minimization.
+where <span class="math inline">\\n \in \mathbb{N}\\</span> and <span class="math inline">\\R_0\\</span> is the corridor’s coherence-determined base resonance radius. This echoes Bohr-style orbital zones but derives from field mechanics, not energy minimization.
 
 —
 
@@ -677,15 +679,15 @@ A graviton corridor forms when coherent mass density creates an anisotropic impe
 
 The phenomenon of tidal locking is modeled as an angular velocity convergence driven by graviton corridor damping:
 
-$$\frac{d\Omega}{dt} = -\eta (\Omega - \omega_{\text{orb}})$$
+<span class="math display">\\\frac{d\Omega}{dt} = -\eta (\Omega - \omega\_{\text{orb}})\\</span>
 
 where:
 
-- $\Omega$: current planetary rotation rate
+- <span class="math inline">\\\Omega\\</span>: current planetary rotation rate
 
-- $\omega_{\text{orb}}$: angular velocity of orbit
+- <span class="math inline">\\\omega\_{\text{orb}}\\</span>: angular velocity of orbit
 
-- $\eta$: graviton-induced angular resistance coefficient
+- <span class="math inline">\\\eta\\</span>: graviton-induced angular resistance coefficient
 
 This allows predictive modeling of lock timescales.
 
@@ -719,15 +721,15 @@ Several real-world orbital behaviors demonstrate the need for a coherence-based 
 
 These support GPT’s framework not only as predictive but diagnostically explanatory.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-einstein1915" class="csl-entry">
+<div id="ref-einstein1915" class="csl-entry" role="listitem">
 
 Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
@@ -735,19 +737,49 @@ Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Societ
 
 </div>
 
-[^1]: See Part 19 – Graviton Coherence for planetary spin regulation through field symmetry.
+------------------------------------------------------------------------
 
-[^2]: See (Newton 1687) for classical principles of orbital mechanics and centripetal force.
+1.  <div id="fn1">
 
-[^3]: See Part 18 – The Nature of Time for temporal modulation of orbital harmonics.
+    See Part 19 – Graviton Coherence for planetary spin regulation through field symmetry.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^4]: See (Einstein 1915) for the foundational geometric treatment of gravity as spacetime curvature.
+    </div>
 
-[^5]: See Part 17 – The Definition of Mass for the GPT-based replacement of gravity well structure.
+2.  <div id="fn2">
 
-[^6]: See Part 16 – Gravitational Fields for lattice structure and stability roles.
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for classical principles of orbital mechanics and centripetal force.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^7]: See Part 15 – Gravitons for directed field dynamics and foundational pressure logic.
+    </div>
+
+3.  <div id="fn3">
+
+    See Part 18 – The Nature of Time for temporal modulation of orbital harmonics.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+4.  <div id="fn4">
+
+    See <span class="citation" cites="einstein1915">(Einstein 1915)</span> for the foundational geometric treatment of gravity as spacetime curvature.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+5.  <div id="fn5">
+
+    See Part 17 – The Definition of Mass for the GPT-based replacement of gravity well structure.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    See Part 16 – Gravitational Fields for lattice structure and stability roles.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+7.  <div id="fn7">
+
+    See Part 15 – Gravitons for directed field dynamics and foundational pressure logic.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/

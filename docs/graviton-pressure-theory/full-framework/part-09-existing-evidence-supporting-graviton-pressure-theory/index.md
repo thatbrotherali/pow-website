@@ -4,19 +4,23 @@ By Shareef Ali Rashada
 
 Graviton Pressure Theory (GPT) presents a paradigm shift in understanding gravitational, electromagnetic, and cosmological phenomena through causally coherent, field-structured mechanisms. Rejecting the abstractions of spacetime curvature and unseen mass, GPT reinterprets existing observational data as manifestations of pressure gradients, coherence dynamics, and structured graviton field behavior.
 
+> Editor's corrections (October 2026): Orbital velocity: a pressure gradient divided by a mass is not an acceleration; it is divided by the density ρ_g of the graviton medium, giving v² = r k P₀ e^(−kr)/ρ_g. The fitted values quoted below were reported with the earlier formula and should be re-fitted. Lensing: with P_g highest at the lens centre, n = 1 + α/P_g would make the index lowest there and bend light outward. The index now rises with pressure, n = 1 + αP_g, and the gradient and delay integrals follow from it.
+
+Graviton Pressure Theory (GPT) presents a paradigm shift in understanding gravitational, electromagnetic, and cosmological phenomena through causally coherent, field-structured mechanisms. Rejecting the abstractions of spacetime curvature and unseen mass, GPT reinterprets existing observational data as manifestations of pressure gradients, coherence dynamics, and structured graviton field behavior.
+
 This paper compiles and analyzes existing experimental and astronomical data across multiple domains—galaxy rotation curves, gravitational wave detections, GPS timing corrections, gravitational lensing, the Cosmic Microwave Background, and magnetic field persistence—demonstrating that GPT offers superior causal clarity and predictive power. Each section contrasts GPT with prevailing models, showing how pressure-based interpretations resolve longstanding anomalies without recourse to dark matter, inflation, or spacetime warping.
 
 GPT replaces mystery with mechanism: motion, time, light, and force become expressions of coherence negotiation within a graviton-structured universe. This collection of reinterpreted data forms the foundation for a scientific evolution grounded in causal completeness and testable predictions.
 
 ## Graviton Pressure Theory as a Causal Solution to Galaxy Rotation Curves: Eliminating the Need for Dark Matter
 
-Flat galaxy rotation curves have long been cited as evidence for dark matter, an invisible mass component necessary under Newtonian [^1] and General Relativistic (GR) frameworks to explain stable high-velocity orbital motion at galactic peripheries. Graviton Pressure Theory (GPT) offers an alternative, causally grounded solution: these flat curves arise naturally from stratified pressure corridors within the graviton field. This section demonstrates how existing data from the SPARC (Spitzer Photometry and Accurate Rotation Curves) database[^2] aligns with GPT predictions, providing a more coherent, mass-independent explanation for galactic motion.
+Flat galaxy rotation curves have long been cited as evidence for dark matter, an invisible mass component necessary under Newtonian <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> and General Relativistic (GR) frameworks to explain stable high-velocity orbital motion at galactic peripheries. Graviton Pressure Theory (GPT) offers an alternative, causally grounded solution: these flat curves arise naturally from stratified pressure corridors within the graviton field. This section demonstrates how existing data from the SPARC (Spitzer Photometry and Accurate Rotation Curves) database<a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> aligns with GPT predictions, providing a more coherent, mass-independent explanation for galactic motion.
 
 ### The Galaxy Rotation Problem
 
-Observations of spiral galaxies have long revealed a striking anomaly: stars in the outer regions of galaxies orbit at nearly constant velocities, even at distances where visible matter becomes sparse. According to Newtonian gravity and General Relativity (GR), the orbital velocity of stars should decrease with distance from the galactic center, following a Keplerian decline: $$v(r) \propto \sqrt{\frac{G M(r)}{r}} \quad \text{(Newtonian prediction)}$$ where $M(r)$ is the enclosed mass within radius $r$.
+Observations of spiral galaxies have long revealed a striking anomaly: stars in the outer regions of galaxies orbit at nearly constant velocities, even at distances where visible matter becomes sparse. According to Newtonian gravity and General Relativity (GR), the orbital velocity of stars should decrease with distance from the galactic center, following a Keplerian decline: <span class="math display">\\v(r) \propto \sqrt{\frac{G M(r)}{r}} \quad \text{(Newtonian prediction)}\\</span> where <span class="math inline">\\M(r)\\</span> is the enclosed mass within radius <span class="math inline">\\r\\</span>.
 
-However, actual observations indicate that $v(r) \approx \text{constant}$ at large radii. To reconcile this, the concept of dark matter was introduced—a hypothetical, non-luminous substance permeating galaxies and contributing to their gravitational potential.
+However, actual observations indicate that <span class="math inline">\\v(r) \approx \text{constant}\\</span> at large radii. To reconcile this, the concept of dark matter was introduced—a hypothetical, non-luminous substance permeating galaxies and contributing to their gravitational potential.
 
 Graviton Pressure Theory (GPT) offers a fundamentally different explanation. Rather than attributing the anomaly to unseen mass, GPT reframes gravity as the result of structured graviton pressure fields. In this framework, flat rotation curves are not evidence of missing mass, but of motion constrained within layered graviton-defined pressure corridors.
 
@@ -32,23 +36,23 @@ GPT posits that massive bodies create layered pressure gradients in the graviton
 
 - Mass interacts with the field by resisting coherent compression, not by bending space.
 
-**Graviton Pressure Field Profile:** $$P_g(r) = P_0 e^{-k r}$$ where:
+**Graviton Pressure Field Profile:** <span class="math display">\\P_g(r) = P_0 e^{-k r}\\</span> where:
 
-- $P_0$: Baseline pressure at the core of the mass distribution.
+- <span class="math inline">\\P_0\\</span>: Baseline pressure at the core of the mass distribution.
 
-- $k$: Field attenuation constant, specific to the mass and coherence structure.
+- <span class="math inline">\\k\\</span>: Field attenuation constant, specific to the mass and coherence structure.
 
-- $r$: Radial distance from the galactic center.
+- <span class="math inline">\\r\\</span>: Radial distance from the galactic center.
 
-**GPT-Derived Orbital Velocity:** $$v(r) = \sqrt{\frac{r \cdot k P_0 e^{-k r}}{m}}$$ where:
+**GPT-Derived Orbital Velocity:** <span class="math display">\\v(r) = \sqrt{\frac{r \cdot k P_0 e^{-k r}}{\rho_g}}\\</span> where:
 
-- $m$: Mass of the orbiting star (or test particle).
+- <span class="math inline">\\\rho_g\\</span>: density of the graviton medium (turns the pressure gradient into an acceleration).
 
-- $v(r)$: Tangential velocity as a function of $r$.
+- <span class="math inline">\\v(r)\\</span>: Tangential velocity as a function of <span class="math inline">\\r\\</span>.
 
 **Interpretation:**
 
-- As $r$ increases, $P_g(r)$ decreases exponentially.
+- As <span class="math inline">\\r\\</span> increases, <span class="math inline">\\P_g(r)\\</span> decreases exponentially.
 
 - Due to the structure of pressure corridors, motion becomes stabilized at specific layers where graviton pressure supports uniform velocity.
 
@@ -56,9 +60,9 @@ GPT posits that massive bodies create layered pressure gradients in the graviton
 
 ### SPARC Data and GPT Interpretation
 
-The SPARC database[^3] (Spitzer Photometry & Accurate Rotation Curves) provides high-resolution observational data for approximately 175 spiral galaxies, including:
+The SPARC database<a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> (Spitzer Photometry & Accurate Rotation Curves) provides high-resolution observational data for approximately 175 spiral galaxies, including:
 
-- Detailed rotation curves $v(r)$
+- Detailed rotation curves <span class="math inline">\\v(r)\\</span>
 
 - Baryonic mass distributions (stars, gas)
 
@@ -68,13 +72,13 @@ The SPARC database[^3] (Spitzer Photometry & Accurate Rotation Curves) provides 
 
 1.  **Fit Graviton Pressure Profiles:**
 
-    - For each galaxy, determine the best-fit parameters $P_0$ and $k$ that align the GPT orbital velocity formula with observed data.
+    - For each galaxy, determine the best-fit parameters <span class="math inline">\\P_0\\</span> and <span class="math inline">\\k\\</span> that align the GPT orbital velocity formula with observed data.
 
     - Adjust for variations in galactic mass and structural coherence.
 
 2.  **Match Flat Rotation Curves:**
 
-    - Demonstrate that the plateau in $v(r)$ corresponds to the stabilization within graviton pressure corridors.
+    - Demonstrate that the plateau in <span class="math inline">\\v(r)\\</span> corresponds to the stabilization within graviton pressure corridors.
 
     - Highlight the consistency of GPT with flat curves without invoking dark matter halos.
 
@@ -94,29 +98,29 @@ The SPARC database[^3] (Spitzer Photometry & Accurate Rotation Curves) provides 
 
 - Expand GPT analysis across a broader range of SPARC galaxies.
 
-- Develop refined models for $k$ as a function of galaxy type, mass, and coherence.
+- Develop refined models for <span class="math inline">\\k\\</span> as a function of galaxy type, mass, and coherence.
 
 - Propose targeted observations to test GPT-specific predictions, such as field anisotropy and pressure gradient variability.
 
 ### Case Studies: Selected Galaxy Fits
 
-To substantiate the viability of Graviton Pressure Theory (GPT) in explaining galactic rotation curves, we apply GPT to specific well-studied galaxies from the SPARC database[^4]. Each case study illustrates how GPT parameters can be fitted to observed data, replacing the need for dark matter with structured graviton pressure dynamics.
+To substantiate the viability of Graviton Pressure Theory (GPT) in explaining galactic rotation curves, we apply GPT to specific well-studied galaxies from the SPARC database<a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a>. Each case study illustrates how GPT parameters can be fitted to observed data, replacing the need for dark matter with structured graviton pressure dynamics.
 
 ### NGC 3198
 
-- **Observed Rotation Profile[^5]:**
+- **Observed Rotation Profile<a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a>:**
 
   - Beyond 10 kpc, stars orbit at approximately 150 km/s, maintaining a flat rotation curve out to approximately 30 kpc.
 
 - **GPT Fit Parameters:**
 
-  - Initial Graviton Pressure: $P_0 \approx 1.2 \times 10^{-12} \ \text{N/m}^2$
+  - Initial Graviton Pressure: <span class="math inline">\\P_0 \approx 1.2 \times 10^{-12} \\ \text{N/m}^2\\</span>
 
-  - Pressure Decay Constant: $k \approx 0.03 \ \text{kpc}^{-1}$
+  - Pressure Decay Constant: <span class="math inline">\\k \approx 0.03 \\ \text{kpc}^{-1}\\</span>
 
 - **GPT Prediction:**
 
-  - Using the GPT orbital velocity equation: $$v(r) = \sqrt{\frac{r \cdot k P_0 e^{-kr}}{m}}$$
+  - Using the GPT orbital velocity equation: <span class="math display">\\v(r) = \sqrt{\frac{r \cdot k P_0 e^{-kr}}{\rho_g}}\\</span>
 
   - The pressure corridor stabilizes velocity between 10 - 25 kpc, aligning with observations without invoking additional unseen mass.
 
@@ -126,19 +130,19 @@ To substantiate the viability of Graviton Pressure Theory (GPT) in explaining ga
 
 ### M33 (Triangulum Galaxy)
 
-- **Observed Rotation Profile[^6]:**
+- **Observed Rotation Profile<a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a>:**
 
   - Flat at approximately 100 km/s starting from 5 kpc outward, extending beyond 20 kpc.
 
 - **GPT Fit Parameters:**
 
-  - Initial Graviton Pressure: $P_0 \approx 9.5 \times 10^{-13} \ \text{N/m}^2$
+  - Initial Graviton Pressure: <span class="math inline">\\P_0 \approx 9.5 \times 10^{-13} \\ \text{N/m}^2\\</span>
 
-  - Pressure Decay Constant: $k \approx 0.04 \ \text{kpc}^{-1}$
+  - Pressure Decay Constant: <span class="math inline">\\k \approx 0.04 \\ \text{kpc}^{-1}\\</span>
 
 - **GPT Prediction:**
 
-  - Applying the GPT orbital velocity formula: $$v(r) = \sqrt{\frac{r \cdot k P_0 e^{-kr}}{m}}$$
+  - Applying the GPT orbital velocity formula: <span class="math display">\\v(r) = \sqrt{\frac{r \cdot k P_0 e^{-kr}}{\rho_g}}\\</span>
 
   - Predicts stable velocity from 5 - 20 kpc, where graviton pressure corridors dominate.
 
@@ -148,15 +152,15 @@ To substantiate the viability of Graviton Pressure Theory (GPT) in explaining ga
 
 ### UGC 2885
 
-- **Observed Rotation Profile[^7]**
+- **Observed Rotation Profile<a href="#fn7" id="fnref7" class="footnote-ref" role="doc-noteref"><sup>7</sup></a>**
 
   - Notably high, flat rotation speed of approximately 300 km/s sustained over a wide radius from 20 - 60 kpc.
 
 - **GPT Fit Parameters:**
 
-  - Initial Graviton Pressure: $P_0 \approx 2.8 \times 10^{-12} \ \text{N/m}^2$
+  - Initial Graviton Pressure: <span class="math inline">\\P_0 \approx 2.8 \times 10^{-12} \\ \text{N/m}^2\\</span>
 
-  - Pressure Decay Constant: $k \approx 0.02 \ \text{kpc}^{-1}$
+  - Pressure Decay Constant: <span class="math inline">\\k \approx 0.02 \\ \text{kpc}^{-1}\\</span>
 
 - **GPT Prediction:**
 
@@ -206,7 +210,7 @@ Graviton Pressure Theory (GPT) offers more than an alternative explanation for f
 
   - Dark matter introduces multiple free parameters (e.g., halo mass, shape, concentration) tailored per galaxy.
 
-  - GPT depends on pressure decay constants (e.g., $k$, $P_0$) derived from field coherence mechanics, leading to fewer, more constrained variables.
+  - GPT depends on pressure decay constants (e.g., <span class="math inline">\\k\\</span>, <span class="math inline">\\P_0\\</span>) derived from field coherence mechanics, leading to fewer, more constrained variables.
 
 ### Universality Across Scale
 
@@ -240,17 +244,17 @@ Graviton Pressure Theory (GPT) offers more than an alternative explanation for f
 
 ### Conclusion
 
-GPT offers a causally complete, mass-independent explanation for flat galaxy rotation curves. The SPARC data[^8] aligns with GPT’s prediction of pressure corridors maintaining orbital velocity, eliminating the need for speculative dark matter. This pressure-based framework not only matches observations but also provides predictive power for future galactic studies.
+GPT offers a causally complete, mass-independent explanation for flat galaxy rotation curves. The SPARC data<a href="#fn8" id="fnref8" class="footnote-ref" role="doc-noteref"><sup>8</sup></a> aligns with GPT’s prediction of pressure corridors maintaining orbital velocity, eliminating the need for speculative dark matter. This pressure-based framework not only matches observations but also provides predictive power for future galactic studies.
 
 ## Graviton Coherence Rupture as an Explanation for LIGO Strain Signals: A Graviton Pressure Theory Perspective
 
-The detection of gravitational waves by LIGO[^9] has been hailed as confirmation of General Relativity’s prediction of spacetime ripples generated by massive cosmic events. Graviton Pressure Theory (GPT) offers a causally grounded alternative: these strain signals result not from spacetime curvature, but from coherence rupture and realignment within the graviton lattice. This section reinterprets LIGO’s observed strain data, particularly from event GW150914, as pressure-phase disturbances in a structured field. GPT provides a medium-based explanation, aligning better with the observed uniformity, damping behavior, and lack of directional anomalies.
+The detection of gravitational waves by LIGO<a href="#fn9" id="fnref9" class="footnote-ref" role="doc-noteref"><sup>9</sup></a> has been hailed as confirmation of General Relativity’s prediction of spacetime ripples generated by massive cosmic events. Graviton Pressure Theory (GPT) offers a causally grounded alternative: these strain signals result not from spacetime curvature, but from coherence rupture and realignment within the graviton lattice. This section reinterprets LIGO’s observed strain data, particularly from event GW150914, as pressure-phase disturbances in a structured field. GPT provides a medium-based explanation, aligning better with the observed uniformity, damping behavior, and lack of directional anomalies.
 
 ### Introduction: Revisiting Gravitational Wave Interpretation
 
 The 2015 LIGO detection of gravitational waves, marked by the signal GW150914, was heralded as a triumph for General Relativity (GR)—confirming the prediction that massive, accelerating objects generate ripples in spacetime itself. These ripples, manifesting as strains in the fabric of spacetime, supposedly travel at light speed and can be detected as minute fluctuations in length across laser interferometers.
 
-However, the foundational assumption that spacetime is the carrier of such waves remains untested and inherently abstract. The extreme sensitivity required to detect strains on the order of $10^{-21}$ demands a re-examination of what is truly being measured.
+However, the foundational assumption that spacetime is the carrier of such waves remains untested and inherently abstract. The extreme sensitivity required to detect strains on the order of <span class="math inline">\\10^{-21}\\</span> demands a re-examination of what is truly being measured.
 
 Graviton Pressure Theory (GPT) offers an alternative, causal explanation:
 
@@ -274,44 +278,44 @@ When a highly energetic event occurs:
 
 **Graviton Pressure Field Dynamics:**
 
-- $P_g(r,t)$ defines the local graviton pressure at point $r$, time $t$.
+- <span class="math inline">\\P_g(r,t)\\</span> defines the local graviton pressure at point <span class="math inline">\\r\\</span>, time <span class="math inline">\\t\\</span>.
 
 - The strain signal detected is not distance distortion, but a fractional pressure differential relative to the stable field.
 
-$$h_{GPT}(t) = \frac{\Delta P_g(t)}{P_0} = \gamma \cdot e^{-\alpha r} \cdot \cos(\omega t + \phi)$$
+<span class="math display">\\h\_{GPT}(t) = \frac{\Delta P_g(t)}{P_0} = \gamma \cdot e^{-\alpha r} \cdot \cos(\omega t + \phi)\\</span>
 
 Where:
 
-- $\Delta P_g(t)$ = pressure fluctuation from coherence rupture.
+- <span class="math inline">\\\Delta P_g(t)\\</span> = pressure fluctuation from coherence rupture.
 
-- $P_0$ = baseline graviton pressure in the region.
+- <span class="math inline">\\P_0\\</span> = baseline graviton pressure in the region.
 
-- $\gamma$ = intensity of the coherence rupture (event strength).
+- <span class="math inline">\\\gamma\\</span> = intensity of the coherence rupture (event strength).
 
-- $\alpha$ = coherence damping constant—reflecting how quickly the field restores order.
+- <span class="math inline">\\\alpha\\</span> = coherence damping constant—reflecting how quickly the field restores order.
 
-- $r$ = distance from the rupture site.
+- <span class="math inline">\\r\\</span> = distance from the rupture site.
 
-- $\omega$ = oscillation frequency of the pressure ripple.
+- <span class="math inline">\\\omega\\</span> = oscillation frequency of the pressure ripple.
 
-- $\phi$ = phase offset at detection.
+- <span class="math inline">\\\phi\\</span> = phase offset at detection.
 
 **Interpretation of Strain:**
 
-- In GR: $h(t)$ measures geometric stretch/compression.
+- In GR: <span class="math inline">\\h(t)\\</span> measures geometric stretch/compression.
 
-- In GPT: $h_{GPT}(t)$ is a pressure ratio—how much local field tension deviates from equilibrium.
+- In GPT: <span class="math inline">\\h\_{GPT}(t)\\</span> is a pressure ratio—how much local field tension deviates from equilibrium.
 
 ### Comparison: GR vs GPT Mechanisms
 
-| **Concept**              | **GR View**                                                | **GPT View**                                                     |
-|:-------------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------|
-| **Source Mechanism**     | Spacetime curvature fluctuation                            | Graviton field coherence rupture and re-alignment                |
-| **Propagation Medium**   | Spacetime itself                                           | Structured graviton lattice (pressure-based transmission)        |
-| **Signal Type**          | Stretch/compress of distances                              | Phase-tension fluctuation in coherent pressure field             |
-| **Strain Equation**      | $h(t) = A \cos(\omega t + \phi)$                           | $h(t) = \frac{\Delta P_g(t)}{P_0}$ as pressure phase ripple      |
-| **Attenuation Behavior** | Diminishes as $1/r$ from source                            | Diminishes by coherence damping—depends on local field structure |
-| **Speed of Propagation** | Speed of light ($c$), limited by spacetime curvature speed | Speed of phase transmission, modified by local graviton density  |
+| **Concept**              | **GR View**                                                                                   | **GPT View**                                                                                   |
+|:-------------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| **Source Mechanism**     | Spacetime curvature fluctuation                                                               | Graviton field coherence rupture and re-alignment                                              |
+| **Propagation Medium**   | Spacetime itself                                                                              | Structured graviton lattice (pressure-based transmission)                                      |
+| **Signal Type**          | Stretch/compress of distances                                                                 | Phase-tension fluctuation in coherent pressure field                                           |
+| **Strain Equation**      | <span class="math inline">\\h(t) = A \cos(\omega t + \phi)\\</span>                           | <span class="math inline">\\h(t) = \frac{\Delta P_g(t)}{P_0}\\</span> as pressure phase ripple |
+| **Attenuation Behavior** | Diminishes as <span class="math inline">\\1/r\\</span> from source                            | Diminishes by coherence damping—depends on local field structure                               |
+| **Speed of Propagation** | Speed of light (<span class="math inline">\\c\\</span>), limited by spacetime curvature speed | Speed of phase transmission, modified by local graviton density                                |
 
 Key Insight: GR treats the wave as geometry-dependent, GPT treats it as medium-dependent. The nature of strain is causally different.
 
@@ -321,7 +325,7 @@ Key Insight: GR treats the wave as geometry-dependent, GPT treats it as medium-d
 
 - **Event:** Two black holes merge approximately 1.3 billion light-years away.
 
-- **Detected Strain:** $h \approx 1 \times 10^{-21}$
+- **Detected Strain:** <span class="math inline">\\h \approx 1 \times 10^{-21}\\</span>
 
 - **Interpretation:** A ripple in spacetime passed Earth, compressing distances in one axis while stretching in another.
 
@@ -329,9 +333,9 @@ Key Insight: GR treats the wave as geometry-dependent, GPT treats it as medium-d
 
 - **Event:** Massive coherence rupture in the graviton lattice at the site of the merger.
 
-- **Pressure Change:** $$\Delta P_g \approx P_0 \times h = (\text{Baseline Pressure}) \times 10^{-21}$$
+- **Pressure Change:** <span class="math display">\\\Delta P_g \approx P_0 \times h = (\text{Baseline Pressure}) \times 10^{-21}\\</span>
 
-- **Strain Mechanism:** LIGO[^10] detected the fractional pressure oscillation as the field attempted to restore coherence—affecting interferometer arm alignment not through stretching, but through phase-disruption in the field.
+- **Strain Mechanism:** LIGO<a href="#fn10" id="fnref10" class="footnote-ref" role="doc-noteref"><sup>10</sup></a> detected the fractional pressure oscillation as the field attempted to restore coherence—affecting interferometer arm alignment not through stretching, but through phase-disruption in the field.
 
 **GPT Insights:**
 
@@ -345,7 +349,7 @@ Key Insight: GR treats the wave as geometry-dependent, GPT treats it as medium-d
 
 3.  **Attenuation Behavior:**
 
-    - GPT damping follows field anisotropy and local lattice tension, allowing deviations from strict $1/r$ decay.
+    - GPT damping follows field anisotropy and local lattice tension, allowing deviations from strict <span class="math inline">\\1/r\\</span> decay.
 
 ### Predictive Differences and Future Tests
 
@@ -357,7 +361,7 @@ Graviton Pressure Theory (GPT) provides distinct, testable predictions that dive
 
     - **GR Prediction:**
 
-      - Strain amplitude ($h$) diminishes strictly as $\frac{1}{r}$, with distance from the source.
+      - Strain amplitude (<span class="math inline">\\h\\</span>) diminishes strictly as <span class="math inline">\\\frac{1}{r}\\</span>, with distance from the source.
 
       - Uniform propagation, unaffected by intervening mass or field structures.
 
@@ -365,7 +369,7 @@ Graviton Pressure Theory (GPT) provides distinct, testable predictions that dive
 
       - Strain amplitude is modulated by local graviton pressure densities.
 
-      - The effective damping follows an exponential attenuation: $$h_{GPT}(t) = \gamma \cdot e^{-\alpha r} \cdot \cos(\omega t + \phi)$$ where $\alpha$ varies with field coherence.
+      - The effective damping follows an exponential attenuation: <span class="math display">\\h\_{GPT}(t) = \gamma \cdot e^{-\alpha r} \cdot \cos(\omega t + \phi)\\</span> where <span class="math inline">\\\alpha\\</span> varies with field coherence.
 
       - Intervening high-density regions (e.g., galactic clusters, black hole proximity) alter signal strength and phase.
 
@@ -409,7 +413,7 @@ Graviton Pressure Theory (GPT) provides distinct, testable predictions that dive
 
 ### Conclusion
 
-Graviton Pressure Theory (GPT) offers a causally grounded reinterpretation of gravitational wave phenomena. Rather than postulating abstract distortions in spacetime, GPT identifies LIGO’s observed strain signals[^11] as:
+Graviton Pressure Theory (GPT) offers a causally grounded reinterpretation of gravitational wave phenomena. Rather than postulating abstract distortions in spacetime, GPT identifies LIGO’s observed strain signals<a href="#fn11" id="fnref11" class="footnote-ref" role="doc-noteref"><sup>11</sup></a> as:
 
 - Manifestations of graviton field coherence rupture,
 
@@ -459,27 +463,27 @@ As satellites ascend into lower-pressure regions, their oscillators are less con
 
 ### Graviton Pressure Framework for Time Behavior
 
-Under GPT, time is not an independent dimension but a function of coherence transmission across a structured field. Specifically, atomic clock frequency becomes sensitive to local graviton pressure ($P_g$).
+Under GPT, time is not an independent dimension but a function of coherence transmission across a structured field. Specifically, atomic clock frequency becomes sensitive to local graviton pressure (<span class="math inline">\\P_g\\</span>).
 
-**Pressure Model:** $$P_g(r) = P_0 e^{-kr}$$ Where:
+**Pressure Model:** <span class="math display">\\P_g(r) = P_0 e^{-kr}\\</span> Where:
 
-- $P_0$: Surface-level graviton pressure (Earth-bound reference).
+- <span class="math inline">\\P_0\\</span>: Surface-level graviton pressure (Earth-bound reference).
 
-- $k$: Pressure decay constant (field structure dependent).
+- <span class="math inline">\\k\\</span>: Pressure decay constant (field structure dependent).
 
-- $r$: Radial distance from Earth’s center.
+- <span class="math inline">\\r\\</span>: Radial distance from Earth’s center.
 
 **Phase Compression Effect:** Clocks do not "measure" time; they oscillate at a frequency determined by field tension. As field tension varies, so does the speed of coherence propagation through the oscillator mechanism.
 
-**Frequency Shift Equation:** $$f' = f_0 \cdot (1 + \beta P_g(r))^{-1}$$ Where:
+**Frequency Shift Equation:** <span class="math display">\\f' = f_0 \cdot (1 + \beta P_g(r))^{-1}\\</span> Where:
 
-- $f'$: Adjusted oscillator frequency at position $r$.
+- <span class="math inline">\\f'\\</span>: Adjusted oscillator frequency at position <span class="math inline">\\r\\</span>.
 
-- $f_0$: Nominal frequency in field-neutral conditions.
+- <span class="math inline">\\f_0\\</span>: Nominal frequency in field-neutral conditions.
 
-- $\beta$: Phase compression coefficient (empirically tunable).
+- <span class="math inline">\\\beta\\</span>: Phase compression coefficient (empirically tunable).
 
-- $P_g(r)$: Local graviton pressure.
+- <span class="math inline">\\P_g(r)\\</span>: Local graviton pressure.
 
 **Key Insights and Causal Clarification:**
 
@@ -497,14 +501,14 @@ Under GPT, time is not an independent dimension but a function of coherence tran
 
 ### GR vs GPT Time Correction Models
 
-| **Concept**            | **GR View**                                        | **GPT View**                                            |
-|:-----------------------|:---------------------------------------------------|:--------------------------------------------------------|
-| **Cause of Dilation**  | Spacetime curvature due to mass                    | Graviton pressure compressing signal phase              |
-| **Clock Behavior**     | Time slows in higher gravitational potential       | Clock oscillation slows under higher graviton pressure  |
-| **Correction Formula** | $\Delta t' = \Delta t \sqrt{1 - \frac{2GM}{rc^2}}$ | $f' = f_0 \cdot (1 + \beta P_g(r))^{-1}$                |
-| **Observed Effect**    |  38 $\mu$s/day faster at satellite altitude        | Same magnitude from pressure relief in higher altitudes |
-| **Propagation Medium** | None (curved spacetime)                            | Structured graviton lattice                             |
-| **Field Response**     | Geometric, abstract                                | Causal, field-based phase regulation                    |
+| **Concept**            | **GR View**                                                                           | **GPT View**                                                                |
+|:-----------------------|:--------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
+| **Cause of Dilation**  | Spacetime curvature due to mass                                                       | Graviton pressure compressing signal phase                                  |
+| **Clock Behavior**     | Time slows in higher gravitational potential                                          | Clock oscillation slows under higher graviton pressure                      |
+| **Correction Formula** | <span class="math inline">\\\Delta t' = \Delta t \sqrt{1 - \frac{2GM}{rc^2}}\\</span> | <span class="math inline">\\f' = f_0 \cdot (1 + \beta P_g(r))^{-1}\\</span> |
+| **Observed Effect**    |  38 <span class="math inline">\\\mu\\</span>s/day faster at satellite altitude        | Same magnitude from pressure relief in higher altitudes                     |
+| **Propagation Medium** | None (curved spacetime)                                                               | Structured graviton lattice                                                 |
+| **Field Response**     | Geometric, abstract                                                                   | Causal, field-based phase regulation                                        |
 
 Comparison of GR and GPT interpretations of GPS time correction behavior.
 
@@ -530,15 +534,15 @@ Comparison of GR and GPT interpretations of GPS time correction behavior.
 
 ### GPS Data and GPT Alignment
 
-- **Observed Correction:** GPS satellite clocks gain approximately 38 $\mu$s/day relative to ground-based atomic clocks.
+- **Observed Correction:** GPS satellite clocks gain approximately 38 <span class="math inline">\\\mu\\</span>s/day relative to ground-based atomic clocks.
 
 - **GPT Fit Parameters:**
 
-  - $P_0 \approx$ Earth surface graviton pressure estimate.
+  - <span class="math inline">\\P_0 \approx\\</span> Earth surface graviton pressure estimate.
 
-  - $k \approx$ pressure decay constant, derived from field coherence models.
+  - <span class="math inline">\\k \approx\\</span> pressure decay constant, derived from field coherence models.
 
-  - $\beta \approx$ compression efficiency coefficient, dependent on oscillator-field interaction.
+  - <span class="math inline">\\\beta \approx\\</span> compression efficiency coefficient, dependent on oscillator-field interaction.
 
 **Result:**
 
@@ -552,13 +556,13 @@ Comparison of GR and GPT interpretations of GPS time correction behavior.
 
 - **GR Prediction:**
 
-  - Time correction is strictly dependent on gravitational potential, $\propto \frac{GM}{r}$.
+  - Time correction is strictly dependent on gravitational potential, <span class="math inline">\\\propto \frac{GM}{r}\\</span>.
 
   - Uniform corrections at given altitudes, regardless of local gravitational anomalies.
 
 - **GPT Prediction:**
 
-  - Phase delay is a function of local graviton pressure: $f' = f_0 \cdot (1 + \beta P_g(r))^{-1}$
+  - Phase delay is a function of local graviton pressure: <span class="math inline">\\f' = f_0 \cdot (1 + \beta P_g(r))^{-1}\\</span>
 
   - Non-linear variations in phase delay should emerge based on field density variations.
 
@@ -612,23 +616,23 @@ Graviton Pressure Theory (GPT) provides a causally different approach: lensing a
 
 GPT introduces a refractive model where light interacts with the graviton field as it would with a variable-density medium:
 
-- **Refractive Index:** $$n_g(r) = 1 + \frac{\alpha}{P_g(r)}$$ Where:
+- **Refractive Index:** <span class="math display">\\n_g(r) = 1 + \alpha P_g(r)\\</span> Where:
 
-  - $n_g(r)$: Local refractive index due to graviton pressure.
+  - <span class="math inline">\\n_g(r)\\</span>: Local refractive index due to graviton pressure.
 
-  - $\alpha$: Proportionality constant defining coherence interaction strength.
+  - <span class="math inline">\\\alpha\\</span>: Proportionality constant defining coherence interaction strength.
 
-  - $P_g(r)$: Graviton pressure at position $r$.
+  - <span class="math inline">\\P_g(r)\\</span>: Graviton pressure at position <span class="math inline">\\r\\</span>.
 
-- **Pressure Field:** $$P_g(r) = P_0 e^{-kr}$$ Where:
+- **Pressure Field:** <span class="math display">\\P_g(r) = P_0 e^{-kr}\\</span> Where:
 
-  - $P_0$: Central pressure constant.
+  - <span class="math inline">\\P_0\\</span>: Central pressure constant.
 
-  - $k$: Pressure decay constant.
+  - <span class="math inline">\\k\\</span>: Pressure decay constant.
 
-- **Deflection Angle (GPT):** $$\alpha_{GPT} \approx \int \frac{\partial n_g(r)}{\partial r} dr$$ This represents cumulative light bending due to spatial changes in graviton pressure.
+- **Deflection Angle (GPT):** <span class="math display">\\\alpha\_{GPT} \approx \int \frac{\partial n_g(r)}{\partial r} dr\\</span> This represents cumulative light bending due to spatial changes in graviton pressure.
 
-- **Phase Delay:** $$\Delta t_{GPT} \approx \int \left( n_g(r) - 1 \right) \frac{dr}{c}$$ Where $c$ is the vacuum speed of light.
+- **Phase Delay:** <span class="math display">\\\Delta t\_{GPT} \approx \int \left( n_g(r) - 1 \right) \frac{dr}{c}\\</span> Where <span class="math inline">\\c\\</span> is the vacuum speed of light.
 
 Light bending and time delays are not due to mass-induced curvature but to field-induced refractive effects.
 
@@ -636,7 +640,7 @@ Light bending and time delays are not due to mass-induced curvature but to field
 
 - **Quasar Imaging:** Four distinct images, each arriving at Earth at different times, with time delays ranging from 0.5 to 2 days.
 
-- **Lensing Arc:** The shape of the arc shows measurable asymmetry[^12]
+- **Lensing Arc:** The shape of the arc shows measurable asymmetry<a href="#fn12" id="fnref12" class="footnote-ref" role="doc-noteref"><sup>12</sup></a>
 
   , often requiring dark matter in GR to fit models.
 
@@ -680,53 +684,53 @@ RXJ1131-1231’s lensing and time delay phenomena align with Graviton Pressure T
 
 ### Model Detailed Pressure Gradients for RXJ1131-1231
 
-To model the graviton pressure gradients responsible for the lensing in RXJ1131-1231, we start with the assumed pressure field: $$P_g(r) = P_0 e^{-kr}$$ Where:
+To model the graviton pressure gradients responsible for the lensing in RXJ1131-1231, we start with the assumed pressure field: <span class="math display">\\P_g(r) = P_0 e^{-kr}\\</span> Where:
 
-- $P_0$ is the maximum graviton pressure at the lens center.
+- <span class="math inline">\\P_0\\</span> is the maximum graviton pressure at the lens center.
 
-- $k$ is a decay constant that governs how quickly the pressure falls off with radial distance $r$.
+- <span class="math inline">\\k\\</span> is a decay constant that governs how quickly the pressure falls off with radial distance <span class="math inline">\\r\\</span>.
 
 ### Modeling Approach
 
 - The shape of the pressure field must align with the observed quasar image positions.
 
-- The pressure gradient $\frac{dP_g}{dr}$ determines the local refractive index change, which in turn bends the light: $$n_g(r) = 1 + \frac{\alpha}{P_g(r)} = 1 + \frac{\alpha}{P_0 e^{-kr}} = 1 + \frac{\alpha e^{kr}}{P_0}$$
+- The pressure gradient <span class="math inline">\\\frac{dP_g}{dr}\\</span> determines the local refractive index change, which in turn bends the light: <span class="math display">\\n_g(r) = 1 + \alpha P_g(r) = 1 + \alpha P_0 e^{-kr}\\</span>
 
-- The deflection angle at any point is derived from: $$\alpha_{GPT}(r) \approx \int \frac{d n_g(r)}{dr} dr = \int \frac{d}{dr} \left( 1 + \frac{\alpha}{P_g(r)} \right) dr$$ Which simplifies to: $$\frac{d n_g(r)}{dr} = -\frac{\alpha}{P_g(r)^2} \cdot \frac{dP_g(r)}{dr} = \frac{\alpha k e^{2kr}}{P_0^2}$$
+- The deflection angle at any point is derived from: <span class="math display">\\\alpha\_{GPT}(r) \approx \int \frac{d n_g(r)}{dr} dr = \int \frac{d}{dr} \left( 1 + \alpha P_g(r) \right) dr\\</span> Which simplifies to: <span class="math display">\\\frac{d n_g(r)}{dr} = \alpha \frac{dP_g(r)}{dr} = -\alpha k P_0 e^{-kr}\\</span>
 
 - We would expect greater light bending where pressure gradients are steepest, and less bending where they are shallow.
 
 ### Compare Predicted Phase Delay Curves to Measured Time Delays
 
-**GPT Phase Delay:** The phase delay for a light path under GPT is: $$\Delta t_{GPT} \approx \int \left( n_g(r) - 1 \right) \frac{dr}{c} = \int \frac{\alpha}{P_g(r)} \frac{dr}{c}$$ Substituting the pressure field: $$\Delta t_{GPT} = \int \frac{\alpha}{P_0 e^{-kr}} \frac{dr}{c} = \frac{\alpha}{P_0 c} \int e^{kr} dr = \frac{\alpha}{P_0 c k} e^{kr} + C$$ **Implication:**
+**GPT Phase Delay:** The phase delay for a light path under GPT is: <span class="math display">\\\Delta t\_{GPT} \approx \int \left( n_g(r) - 1 \right) \frac{dr}{c} = \int \alpha P_g(r) \frac{dr}{c}\\</span> Substituting the pressure field: <span class="math display">\\\Delta t\_{GPT} = \int \alpha P_0 e^{-kr} \frac{dr}{c} = \frac{\alpha P_0}{c} \int e^{-kr} dr = -\frac{\alpha P_0}{c k} e^{-kr} + C\\</span> **Implication:**
 
 - **GPT Prediction:** Time delays scale exponentially with distance along high-pressure gradients, not linearly with distance as in GR.
 
-- **Observations in RXJ1131-1231:** Four images with measured time delays differing by several days.[^13]
+- **Observations in RXJ1131-1231:** Four images with measured time delays differing by several days.<a href="#fn13" id="fnref13" class="footnote-ref" role="doc-noteref"><sup>13</sup></a>
 
 To align with the observed delays:
 
-- Fit the constants $\alpha, P_0, k$ to match the delay differences.
+- Fit the constants <span class="math inline">\\\alpha, P_0, k\\</span> to match the delay differences.
 
 - Validate that exponential pressure scaling aligns with the image-specific delays.
 
-### Cumulative Phase Delay $\Delta t_{GPT}(r)$
+### Cumulative Phase Delay <span class="math inline">\\\Delta t\_{GPT}(r)\\</span>
 
 Here’s a visualization of the pressure-based lensing model under Graviton Pressure Theory (GPT):
 
-1.  **Graviton Pressure Field $P_g(r)$:**
+1.  **Graviton Pressure Field <span class="math inline">\\P_g(r)\\</span>:**
 
     - Starts high at the lens center and decays exponentially with distance.
 
     - Represents the varying intensity of graviton pressure that bends light.
 
-2.  **Refractive Index $n_g(r)$:**
+2.  **Refractive Index <span class="math inline">\\n_g(r)\\</span>:**
 
     - Increases rapidly as pressure decreases.
 
-    - Shows how light bends more strongly where pressure is low (field gradient is high).
+    - Shows how light bends more strongly where pressure and its gradient are high.
 
-3.  **Cumulative Phase Delay $\Delta t_{GPT}(r)$:**
+3.  **Cumulative Phase Delay <span class="math inline">\\\Delta t\_{GPT}(r)\\</span>:**
 
     - Grows non-linearly, reflecting how light traveling through different pressure regions accumulates time delay.
 
@@ -742,7 +746,7 @@ Here’s a visualization of the pressure-based lensing model under Graviton Pres
 
 ## The Cosmic Microwave Background as Field Coherence: A Graviton Pressure Theory Resolution of the Horizon Problem
 
-The uniformity of the Cosmic Microwave Background[^14] (CMB) is a cornerstone observation in cosmology, traditionally explained through the hypothesis of cosmic inflation. Graviton Pressure Theory (GPT) offers a causal alternative: the CMB uniformity arises from primordial graviton field coherence, not from faster-than-light expansion. This paper reinterprets CMB isotropy, anisotropies, and acoustic peaks as emergent properties of a structured pressure field, eliminating the need for inflation and providing a more physically grounded understanding of early-universe conditions.
+The uniformity of the Cosmic Microwave Background<a href="#fn14" id="fnref14" class="footnote-ref" role="doc-noteref"><sup>14</sup></a> (CMB) is a cornerstone observation in cosmology, traditionally explained through the hypothesis of cosmic inflation. Graviton Pressure Theory (GPT) offers a causal alternative: the CMB uniformity arises from primordial graviton field coherence, not from faster-than-light expansion. This paper reinterprets CMB isotropy, anisotropies, and acoustic peaks as emergent properties of a structured pressure field, eliminating the need for inflation and providing a more physically grounded understanding of early-universe conditions.
 
 ### The CMB and the Horizon Problem
 
@@ -760,7 +764,7 @@ The CMB exhibits an almost perfectly uniform temperature across the sky. Under s
 
 **Key Concept:**
 
-- Uniform Temperature $\Rightarrow$ Uniform Field Pressure.
+- Uniform Temperature <span class="math inline">\\\Rightarrow\\</span> Uniform Field Pressure.
 
 - The CMB is the thermal residue of a coherent field, not a homogenized plasma.
 
@@ -776,17 +780,17 @@ GPT models these as resonant pressure oscillations within the graviton field, an
 
 ### Mathematical Framework
 
-- Field Coherence Function: $C_f(x) = P_0 + \delta P(x)$
+- Field Coherence Function: <span class="math inline">\\C_f(x) = P_0 + \delta P(x)\\</span>
 
-- Temperature Fluctuation: $\Delta T(x) \propto \delta P(x)$
+- Temperature Fluctuation: <span class="math inline">\\\Delta T(x) \propto \delta P(x)\\</span>
 
-Where $\delta P(x)$ are small local variations in field pressure.
+Where <span class="math inline">\\\delta P(x)\\</span> are small local variations in field pressure.
 
-**Resonance Peaks:** $$A_n \propto \sin(n \cdot \omega_0) \cdot e^{-\alpha n}$$ Where:
+**Resonance Peaks:** <span class="math display">\\A_n \propto \sin(n \cdot \omega_0) \cdot e^{-\alpha n}\\</span> Where:
 
-- $\omega_0$: fundamental graviton field oscillation frequency.
+- <span class="math inline">\\\omega_0\\</span>: fundamental graviton field oscillation frequency.
 
-- $\alpha$: damping factor from coherence loss.
+- <span class="math inline">\\\alpha\\</span>: damping factor from coherence loss.
 
 ### Flatness as Pressure Equilibrium
 
@@ -836,11 +840,11 @@ Under Graviton Pressure Theory:
 
 - Once aligned, the field is held structurally, requiring no energy to sustain.
 
-- Magnetic Field (GPT): $B \sim \frac{\Delta \theta}{\Delta t}$
+- Magnetic Field (GPT): <span class="math inline">\\B \sim \frac{\Delta \theta}{\Delta t}\\</span>
 
-  - $\Delta \theta$: torsional angle of lattice coherence.
+  - <span class="math inline">\\\Delta \theta\\</span>: torsional angle of lattice coherence.
 
-  - **Persistence:** When $\Delta \theta$ stabilizes, $B$ remains constant.
+  - **Persistence:** When <span class="math inline">\\\Delta \theta\\</span> stabilizes, <span class="math inline">\\B\\</span> remains constant.
 
 ### Observable Phenomena Explained by GPT
 
@@ -886,9 +890,9 @@ Graviton Pressure Theory (GPT) stands as a comprehensive, causally grounded fram
 
 - **Flat galaxy rotation curves** arise naturally from graviton pressure corridors, without the need for dark matter halos.
 
-- **Gravitational wave detections** (e.g., LIGO[^15]) are not ripples in spacetime but pressure-phase modulations caused by graviton coherence rupture.
+- **Gravitational wave detections** (e.g., LIGO<a href="#fn15" id="fnref15" class="footnote-ref" role="doc-noteref"><sup>15</sup></a>) are not ripples in spacetime but pressure-phase modulations caused by graviton coherence rupture.
 
-- **GPS timing corrections[^16]** result from graviton pressure-induced phase compression, not spacetime dilation.
+- **GPS timing corrections<a href="#fn16" id="fnref16" class="footnote-ref" role="doc-noteref"><sup>16</sup></a>** result from graviton pressure-induced phase compression, not spacetime dilation.
 
 - **Gravitational lensing** is best understood as refractive bending through graviton field gradients, eliminating reliance on dark matter or geometric curvature.
 
@@ -904,101 +908,167 @@ This body of work demonstrates that Graviton Pressure Theory is not merely a the
 
 *The future of science is not more abstraction—it is more causality. GPT is that causality, made visible.*
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 
-<div id="ref-abbott2016" class="csl-entry">
+<div id="ref-abbott2016" class="csl-entry" role="listitem">
 
 Abbott, B. P., R. Abbott, T. D. Abbott, M. R. Abernathy, F. Acernese, K. Ackley, C. Adams, et al. 2016. “Observation of Gravitational Waves from a Binary Black Hole Merger.” *Physical Review Letters* 116 (6): 061102. <https://doi.org/10.1103/PhysRevLett.116.061102>.
 
 </div>
 
-<div id="ref-ashby2003" class="csl-entry">
+<div id="ref-ashby2003" class="csl-entry" role="listitem">
 
 Ashby, Neil. 2003. “Relativity in the Global Positioning System.” *Living Reviews in Relativity* 6 (1): 1.
 
 </div>
 
-<div id="ref-begeman1989" class="csl-entry">
+<div id="ref-begeman1989" class="csl-entry" role="listitem">
 
 Begeman, K. G. 1989. “HI Rotation Curves of Spiral Galaxies. I – NGC 3198.” *Astronomy and Astrophysics* 223: 47–60.
 
 </div>
 
-<div id="ref-bennett2003" class="csl-entry">
+<div id="ref-bennett2003" class="csl-entry" role="listitem">
 
 Bennett, C. L., M. Halpern, G. Hinshaw, N. Jarosik, A. Kogut, M. Limon, S. S. Meyer, et al. 2003. “First-Year WMAP Observations: Preliminary Maps and Basic Results.” *Astrophysical Journal Supplement Series* 148 (1): 1–27.
 
 </div>
 
-<div id="ref-corbelli2000" class="csl-entry">
+<div id="ref-corbelli2000" class="csl-entry" role="listitem">
 
 Corbelli, E., and P. Salucci. 2000. “The Extended Rotation Curve and the Dark Matter Halo of M33.” *Monthly Notices of the Royal Astronomical Society* 311: 441–47.
 
 </div>
 
-<div id="ref-lelli2016" class="csl-entry">
+<div id="ref-lelli2016" class="csl-entry" role="listitem">
 
 Lelli, Federico, Stacy S. McGaugh, and James M. Schombert. 2016. “SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.” *The Astronomical Journal* 152 (6): 157. <https://doi.org/10.3847/0004-6256/152/6/157>.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newton1687" class="csl-entry" role="listitem">
 
 Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
 
 </div>
 
-<div id="ref-rubin1980" class="csl-entry">
+<div id="ref-rubin1980" class="csl-entry" role="listitem">
 
 Rubin, Vera C., W. Kent Ford, and N. Thonnard. 1980. “Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 /r = 4kpc/ to UGC 2885 /r = 122 Kpc/.” *Astrophysical Journal* 238: 471–87.
 
 </div>
 
-<div id="ref-suyu2013" class="csl-entry">
+<div id="ref-suyu2013" class="csl-entry" role="listitem">
 
 Suyu, S. H., T. Treu, S. Hilbert, A. Sonnenfeld, M. W. Auger, R. D. Blandford, T. Collett, et al. 2013. “Two Accurate Time-Delay Distances from Strong Lensing: Implications for Cosmology.” *Astrophysical Journal* 766 (2): 70.
 
 </div>
 
-<div id="ref-treu2004" class="csl-entry">
+<div id="ref-treu2004" class="csl-entry" role="listitem">
 
-Treu, Tommaso, and L. V. E. Koopmans. 2004. “Massive Dark Matter Halos and Evolution of Early-Type Galaxies to $z \sim 1$.” *Astrophysical Journal* 611: 739–60.
-
-</div>
+Treu, Tommaso, and L. V. E. Koopmans. 2004. “Massive Dark Matter Halos and Evolution of Early-Type Galaxies to <span class="math inline">\\z \sim 1\\</span>.” *Astrophysical Journal* 611: 739–60.
 
 </div>
 
-[^1]: See (Newton 1687) for the classical formulation of universal gravitation.
+</div>
 
-[^2]: (Lelli, McGaugh, and Schombert 2016)
+------------------------------------------------------------------------
 
-[^3]: (Lelli, McGaugh, and Schombert 2016)
+1.  <div id="fn1">
 
-[^4]: (Lelli, McGaugh, and Schombert 2016)
+    See <span class="citation" cites="newton1687">(Newton 1687)</span> for the classical formulation of universal gravitation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^5]: (Begeman 1989)
+    </div>
 
-[^6]: (Corbelli and Salucci 2000)
+2.  <div id="fn2">
 
-[^7]: (Rubin, Ford, and Thonnard 1980)
+    <span class="citation" cites="lelli2016">(Lelli, McGaugh, and Schombert 2016)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^8]: (Lelli, McGaugh, and Schombert 2016)
+    </div>
 
-[^9]: (Abbott et al. 2016)
+3.  <div id="fn3">
 
-[^10]: (Abbott et al. 2016)
+    <span class="citation" cites="lelli2016">(Lelli, McGaugh, and Schombert 2016)</span><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^11]: (Abbott et al. 2016)
+    </div>
 
-[^12]: (Treu and Koopmans 2004)
+4.  <div id="fn4">
 
-[^13]: (Suyu et al. 2013)
+    <span class="citation" cites="lelli2016">(Lelli, McGaugh, and Schombert 2016)</span><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
 
-[^14]: (Bennett et al. 2003)
+    </div>
 
-[^15]: (Abbott et al. 2016)
+5.  <div id="fn5">
 
-[^16]: (Ashby 2003)
+    <span class="citation" cites="begeman1989">(Begeman 1989)</span><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+6.  <div id="fn6">
+
+    <span class="citation" cites="corbelli2000">(Corbelli and Salucci 2000)</span><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+7.  <div id="fn7">
+
+    <span class="citation" cites="rubin1980">(Rubin, Ford, and Thonnard 1980)</span><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+8.  <div id="fn8">
+
+    <span class="citation" cites="lelli2016">(Lelli, McGaugh, and Schombert 2016)</span><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+9.  <div id="fn9">
+
+    <span class="citation" cites="abbott2016">(Abbott et al. 2016)</span><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+10. <div id="fn10">
+
+    <span class="citation" cites="abbott2016">(Abbott et al. 2016)</span><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+11. <div id="fn11">
+
+    <span class="citation" cites="abbott2016">(Abbott et al. 2016)</span><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+12. <div id="fn12">
+
+    <span class="citation" cites="treu2004">(Treu and Koopmans 2004)</span><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+13. <div id="fn13">
+
+    <span class="citation" cites="suyu2013">(Suyu et al. 2013)</span><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+14. <div id="fn14">
+
+    <span class="citation" cites="bennett2003">(Bennett et al. 2003)</span><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+15. <div id="fn15">
+
+    <span class="citation" cites="abbott2016">(Abbott et al. 2016)</span><a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
+
+16. <div id="fn16">
+
+    <span class="citation" cites="ashby2003">(Ashby 2003)</span><a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a>
+
+    </div>
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/
