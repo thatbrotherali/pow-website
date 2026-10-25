@@ -360,6 +360,76 @@ def tex_main_doc(folder, slug, title, subtitle, bib=None, pdf=None):
     return save(slug, title, subtitle, tidy_html(h), md, "LaTeX source") | {"pdf": bool(pdf)}
 
 
+
+# ---------- From General Relativity to GPT (LaTeX PDF, March 2025): equations re-typed from the PDF ----------
+def M(tex): return f'<span class="math display">\\[{tex}\\]</span>'
+def m(tex): return f'<span class="math inline">\\({tex}\\)</span>'
+
+GR_GPT_FIXES = [
+    (r"<p>β α d 2 xµ µ dx dx =0 \(1\) \+ Γ αβ dτ 2 dτ dτ where Γµαβ are",
+     "<p>" + M(r"\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta}\frac{dx^\alpha}{d\tau}\frac{dx^\beta}{d\tau} = 0 \tag{1}") + "</p>\n<p>where " + m(r"\Gamma^\mu_{\alpha\beta}") + " are"),
+    (r"<p>F = −∇Pg \(2\) where Pg represents", "<p>" + M(r"F = -\nabla P_g \tag{2}") + "</p>\n<p>where " + m("P_g") + " represents"),
+    (r"<p>F = P ∆m \(3\) where P represents external graviton pressure, and ∆m is",
+     "<p>" + M(r"F = P\,\Delta m \tag{3}") + "</p>\n<p>where " + m("P") + " represents external graviton pressure, and " + m(r"\Delta m") + " is"),
+    (r"<p>F⃗g = −∇Pg , where Pg is the local graviton pressure field.</p>\s*<p>\(4\) Plain English Explanation:</p>",
+     "<p>" + M(r"\vec F_g = -\nabla P_g, \quad \text{where } P_g \text{ is the local graviton pressure field.} \tag{4}") + "</p>\n<p>Plain English Explanation:</p>"),
+    (r"<p>d⃗p \(5\) F⃗g = dt where p⃗ is the momentum",
+     "<p>" + M(r"\vec F_g = \frac{d\vec p}{dt} \tag{5}") + "</p>\n<p>where " + m(r"\vec p") + " is the momentum"),
+    (r"<p>d⃗p = −∇Pg dt \(6\) F⃗g = −∇Pg \(7\) which simplifies to:</p>",
+     "<p>" + M(r"\frac{d\vec p}{dt} = -\nabla P_g \tag{6}") + "</p>\n<p>which simplifies to:</p>\n<p>" + M(r"\vec F_g = -\nabla P_g \tag{7}") + "</p>"),
+    (r"<p>GM r2 Expanding the gradient in spherical coordinates:</p>\s*<p>−∇Pg = − dPg GM = 2 dr r \(8\) \(9\) Integrating with respect to r:</p>\s*<p>GM \+C \(10\) r Setting",
+     "<p>" + M(r"-\nabla P_g = -\frac{GM}{r^2} \tag{8}") + "</p>\n<p>Expanding the gradient in spherical coordinates:</p>\n<p>" + M(r"\frac{dP_g}{dr} = \frac{GM}{r^2} \tag{9}") +
+     "</p>\n<p>Integrating with respect to " + m("r") + ":</p>\n<p>" + M(r"P_g(r) = -\frac{GM}{r} + C \tag{10}") + "</p>\n<p>Setting"),
+    (r"<p>GM Pg \(r\) = P0 − \(11\) r Final Equation:</p>", "<p>" + M(r"P_g(r) = P_0 - \frac{GM}{r} \tag{11}") + "</p>\n<p>Final Equation:</p>"),
+    (r"<p>GM F⃗g = −∇Pg = − 2 \(12\) r This equation", "<p>" + M(r"\vec F_g = -\nabla P_g = -\frac{GM}{r^2} \tag{12}") + "</p>\n<p>This equation"),
+    (r"<p>Pg \(r\) = −</p>\s*", ""),
+    (r"<p>4GM θ= 2 \(13\) cb where b is", "<p>" + M(r"\theta = \frac{4GM}{c^2 b} \tag{13}") + "</p>\n<p>where " + m("b") + " is"),
+    (r"<p>r dτ Pg = 1 − , where P0 is the graviton pressure in free space.</p>\s*<p>\(14\) dt P0 Plain English Explanation:</p>",
+     "<p>" + M(r"\frac{d\tau}{dt} = \sqrt{1 - \frac{P_g}{P_0}}, \quad \text{where } P_0 \text{ is the graviton pressure in free space.} \tag{14}") + "</p>\n<p>Plain English Explanation:</p>"),
+    (r"<p>:</p>\s*<p>Substituting Pg \(r\) = P0 − GM r dτ = dt s 1− P0 − GM/r P0 \(15\) GM P0 r \(16\) Simplifying:</p>\s*<p>dτ = dt r 1− Final Equation:</p>\s*<p>r GM dτ = 1− \(17\) dt P0 r This modifies",
+     "<p>Substituting " + m(r"P_g(r) = P_0 - \frac{GM}{r}") + ":</p>\n<p>" + M(r"\frac{d\tau}{dt} = \sqrt{1 - \frac{P_0 - GM/r}{P_0}} \tag{15}") + "</p>\n<p>Simplifying:</p>\n<p>" +
+     M(r"\frac{d\tau}{dt} = \sqrt{1 - \frac{GM}{P_0 r}} \tag{16}") + "</p>\n<p>Final Equation:</p>\n<p>" + M(r"\frac{d\tau}{dt} = \sqrt{1 - \frac{GM}{P_0 r}} \tag{17}") + "</p>\n<p>This modifies"),
+    (r"<p>∆φ = 6πGM c2 a\(1 − e2 \) \(18\) where a is the semi-major axis and e is",
+     "<p>" + M(r"\Delta\varphi = \frac{6\pi GM}{c^2 a(1-e^2)} \tag{18}") + "</p>\n<p>where " + m("a") + " is the semi-major axis and " + m("e") + " is"),
+    (r"<p>2GJ .= 2 3 \(19\) cr where J is", "<p>" + M(r"\Omega = \frac{2GJ}{c^2 r^3} \tag{19}") + "</p>\n<p>where " + m("J") + " is"),
+    (r"<p>∇µ P µν = 4πGT µν \(20\) where:</p>", "<p>" + M(r"\nabla_\mu P^{\mu\nu} = 4\pi G\, T^{\mu\nu} \tag{20}") + "</p>\n<p>where:</p>"),
+    (r"<li>P µν represents", "<li>" + m(r"P^{\mu\nu}") + " represents"), (r"<li>T µν is", "<li>" + m(r"T^{\mu\nu}") + " is"),
+    (r"<li>∇µ denotes", "<li>" + m(r"\nabla_\mu") + " denotes"),
+    (r"<p>a=− ∇Pg , ρg \(21\) Plain English Explanation:</p>", "<p>" + M(r"a = -\frac{1}{\rho_g}\nabla P_g \tag{21}") + "</p>\n<p>Plain English Explanation:</p>"),
+    (r"<p>vc2 = ∇Pg r ρg \(22\) Plain English Explanation:</p>", "<p>" + M(r"v_c^2 = \frac{1}{\rho_g}\nabla P_g\, r \tag{22}") + "</p>\n<p>Plain English Explanation:</p>"),
+    (r"<li>vc is", "<li>" + m("v_c") + " is"), (r"<li>ρg is", "<li>" + m(r"\rho_g") + " is"), (r"<li>∇Pg represents", "<li>" + m(r"\nabla P_g") + " represents"),
+    (r"<p>θ= 4GM c2 b \(23\) where:</p>", "<p>" + M(r"\theta = \frac{4GM}{c^2 b} \tag{23}") + "</p>\n<p>where:</p>"),
+    (r"<p>∂ 2 Pg − c2 ∇ 2 P g = 0 ∂t2 \(24\) where:</p>", "<p>" + M(r"\frac{\partial^2 P_g}{\partial t^2} - c^2\nabla^2 P_g = 0 \tag{24}") + "</p>\n<p>where:</p>"),
+    (r"<li>Pg represents", "<li>" + m("P_g") + " represents"),
+    (r"The gradient ∇Pg acts", "The gradient " + m(r"\nabla P_g") + " acts"),
+    (r"\*\*(.+?)\*\*", r"<strong>\1</strong>"),
+    (r"\bforcebased\b", "force-based"),
+]
+
+
+def from_gr_to_gpt():
+    pdf = UPD / "From_General_Relativity_to_Graviton_Pressure_Theory.pdf"
+    slug, title, sub = "from-gr-to-gpt", "From General Relativity to Graviton Pressure Theory", "Finishing Einstein’s Work"
+    latex_pdf_doc(pdf, slug, title, sub)
+    h = (OUT / f"{slug}.html").read_text(encoding="utf-8")
+    missing = []
+    for a, b in GR_GPT_FIXES:
+        h2 = re.sub(a, lambda k: k.expand(b) if "\\1" in b else b, h)
+        if h2 == h and "\\*" not in a and "forcebased" not in a: missing.append(a[:50])
+        h = h2
+    # headings that pdftotext ran into the following paragraph
+    toc = latex_pdf_toc(pdf, max(toc_pages(pdf)))
+    for head, tag in sorted(toc.items(), key=lambda kv: -len(kv[0])):
+        h = h.replace(f"<p>{html.escape(head, quote=False)} ", f"<{tag}>{html.escape(head, quote=False)}</{tag}>\n<p>")
+    # quotations split across lines, and their opening marks
+    h = re.sub(r"<p>”", "<p>“", h)
+    h = re.sub(r"<p>(“[^”<]*)</p>\s*<p>([^<]*”)</p>", r"<p>\1 \2</p>", h)
+    h = re.sub(r"<p>(Plain English Explanation:|GPT Explanation:|GPT Derivation:|Final Equation:|Potential Experimental Verification:|Comparing with Newtonian Mechanics:|Predictions:|Traditional Explanation(?: \([^)]*\))?:)",
+               r"<p><strong>\1</strong>", h)
+    if missing: print("from-gr-to-gpt: patterns not found:", missing)
+    return save(slug, title, sub, h, pandoc(h, "html", "gfm"), pdf.name) | {"pdf": True}
+
+
 if __name__ == "__main__":
     cat = {"framework": [], "pathway": [], "papers": [], "plan": [], "other": []}
     parts = sorted(TEX.glob("Part *.tex"))
@@ -378,7 +448,7 @@ if __name__ == "__main__":
         odt_doc(WEB / "Audit Questions for Theoretical Completeness.odt", "audit-questions", "Audit Questions for Theoretical Completeness", "Questions any complete theory of gravity should be able to answer", drop_lines=2),
     ]
     cat["papers"] += [
-        portal_doc("from_gr_to_gpt.html", "from-gr-to-gpt", "From General Relativity to Graviton Pressure Theory", "Finishing Einstein’s Work"),
+        from_gr_to_gpt(),
         odt_doc(WEB / "Charge as Gravitational flow bias.odt", "structure-before-uncertainty", "Structure Before Uncertainty", "Recovering mechanism in a universe that still works", drop_lines=2),
         tex_main_doc(TEXSRC / "a85eee92-The_Reduction_Conflation", "reduction-conflation", "The Reduction Conflation", "Numerical equivalence is not ontological compatibility", bib="references.bib", pdf=UPD / "The_Reduction_Conflation.pdf"),
         tex_main_doc(SRC / "latex-sources" / "constraints-revised", "operational-constraints-of-the-ep", "The Operational Constraints of the Equivalence Principle", "A mechanical analysis of the expansion paradox and vacuum pressure", pdf=SRC / "latex-sources" / "constraints-revised" / "main.pdf"),

@@ -85,7 +85,8 @@ def head(title, desc, fname="", extra=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="assets/site.css?v={asset_v('site.css')}">
-<script src="assets/site.js?v={asset_v('site.js')}" defer></script>"""
+<script src="assets/site.js?v={asset_v('site.js')}" defer></script>
+<script data-goatcounter="https://peopleoftheworld.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>"""
 
 
 def header(name="People of the World", sub=None, nav=()):
@@ -1612,7 +1613,7 @@ def build_shop():
 def build_privacy():
     sections = [
         ("The short version", [
-            "We collect as little as we can. This site sets no advertising or tracking cookies, and we never sell or rent your information.",
+            "We collect as little as we can. This site sets no advertising or tracking cookies, counts visits without cookies, and we never sell or rent your information.",
             "The few things we do keep (your email address if you sign up, and your name and scores if you play the Decision Game) are used only for the purpose you gave them to us for.",
         ]),
         ("Email sign-ups", [
@@ -1630,6 +1631,9 @@ def build_privacy():
         ("Videos, music and fonts from other services", [
             "Videos come from YouTube's privacy-enhanced mode and only load when you press play. Audio streams from Wix's media service. The page fonts come from Google Fonts. These services receive your device's internet address when they deliver their content, as any website does.",
             "Links to Amazon, Spotify, Apple Music, Lulu and other stores take you to their sites, where their own privacy policies apply.",
+        ]),
+        ("Visitor counts", [
+            "We count visits with GoatCounter, a privacy-friendly service that uses no cookies and does not track you across sites. It records which pages are viewed, the referring site, and general device and country information, so we can see which parts of the site are useful. It does not record who you are.",
         ]),
         ("Your choices", [
             "You can ask us what information we hold about you, ask us to correct it, or ask us to delete it. Write to the address below and we will reply within 30 days.",
@@ -1654,7 +1658,7 @@ def build_privacy():
 {body_html}
 <h2 class="h-md" style="margin-top:36px">Contact</h2>
 <p>Email <a href="mailto:{CONTACT}">{CONTACT}</a> with any question about your information.</p>
-<p class="muted" style="font-size:14px;margin-top:32px">Last updated 22 October 2026.</p>
+<p class="muted" style="font-size:14px;margin-top:32px">Last updated 25 October 2026.</p>
 </div></div></section>
 </main>
 {footer()}"""

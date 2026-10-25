@@ -334,9 +334,10 @@
    "slug": "from-gr-to-gpt",
    "title": "From General Relativity to Graviton Pressure Theory",
    "subtitle": "Finishing Einstein’s Work",
-   "words": 14053,
+   "words": 13768,
    "lead": "From General Relativity to Graviton Pressure Theory: Finishing Einstein’s Work Shareef Ali Rashada Independent Researcher March 18, 2025 Abstract Gravity is one of the most fundamental forces in the universe, yet its true nature remains elusive. While General Relativity (GR) has served as the dominant framework for over a century, it provides a purely geometric description without a physical mechanism for gravity. Furthermore, GR’s reliance on dark matter and dark energy raises fundamental questions about its completeness. This paper introduces Graviton Pressure Theory (GPT), a force-based alter- native that proposes gravity arises from external pressure gradients in a pervasive graviton field. Unlike GR, which attributes gravitational effects to curved space- time, GPT explains gravitational attraction as a result of anisotropic graviton in- teractions. This approach eliminates the need for hypothetical dark matter and dark energy while maintaining consistency with observed gravitational phenomena. Key derivations demonstrate how GPT reproduces Newtonian gravity as an approximation, accounts for gravitational lensing, and explains galactic rotation curves without additional unseen mass. Furthermore, the framework provides a causal mechanism for gravitational interactions, linking quantum-scale effects to large-scale cosmic structures. We conclude by proposing testable predictions and experimental avenues to validate GPT, paving the way for a fundamental re-evaluation of gravitational physics.",
-   "source": "from_gr_to_gpt.html (from the earlier gateway)"
+   "source": "From_General_Relativity_to_Graviton_Pressure_Theory.pdf",
+   "pdf": true
   },
   {
    "slug": "structure-before-uncertainty",
