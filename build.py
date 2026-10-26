@@ -702,7 +702,7 @@ def build_music():
 </main>
 {footer("music")}"""
     ld = {"@context": "https://schema.org", "@type": "MusicGroup", "name": "That Brother Ali", "genre": ["Jazz", "Acoustic", "New Age"],
-          "description": "Music by Shareef Ali Rashada, an Australian composer and pianist. Not the American rapper Brother Ali.",
+          "description": "Music by Shareef Ali Rashada, an American-born songwriter, composer and arranger living in Australia. Not the American rapper Brother Ali.",
           "member": {"@type": "Person", "@id": f"{SITE_URL}/about.html#shareef", "name": AUTHOR}, "sameAs": [SPOTIFY_ARTIST], "url": f"{SITE_URL}/music.html",
           "album": [{"@type": "MusicAlbum", "name": "Music to Ease Your Mind", "datePublished": "2013", "numTracks": 9, "url": SPOTIFY_EASE},
                     {"@type": "MusicAlbum", "name": "Anthology Vol. 1: Music, Songs and Experimental Grooves"}]}
@@ -966,11 +966,11 @@ def build_easykey():
 def build_about():
     person = {"@context": "https://schema.org", "@type": "Person", "@id": f"{SITE_URL}/about.html#shareef",
               "name": AUTHOR, "alternateName": ["Shareef Rashada", "That Brother Ali"],
-              "description": "Australian author, programmer and musician; founder of People of the World. Author of The Portal Opens, the novel People of the World, The Unified Framework for the Graviton Pressure Theory and the Plan to End Poverty; creator of EasyKey visual music notation; records music as That Brother Ali.",
+              "description": "American-born author, songwriter, composer and arranger, living in Australia; founder of People of the World. Author of The Portal Opens, the novel People of the World, The Unified Framework for the Graviton Pressure Theory and the Plan to End Poverty; creator of EasyKey visual music notation; records music as That Brother Ali.",
               "url": f"{SITE_URL}/about.html", "email": f"mailto:{CONTACT}",
               "address": {"@type": "PostalAddress", "addressRegion": "Queensland", "addressCountry": "AU"},
-              "jobTitle": ["Author", "Programmer", "Musician"],
-              "knowsAbout": ["Gravitational physics", "Foundations of physics", "Urantia Papers", "Theology", "Poverty elimination", "Economic design", "Music education", "Piano"],
+              "jobTitle": ["Author", "Songwriter", "Composer", "Arranger"],
+              "knowsAbout": ["Gravitational physics", "Foundations of physics", "Urantia Papers", "Theology", "Poverty elimination", "Economic design", "Music education", "Songwriting", "Composition", "Arranging"],
               "founder": [{"@type": "Organization", "name": "People of the World", "url": f"{SITE_URL}/"},
                           {"@type": "Organization", "name": "EasyKey Music"}],
               "worksFor": {"@type": "Organization", "name": "POW Productions Pty Ltd", "address": {"@type": "PostalAddress", "addressRegion": "Queensland", "addressCountry": "AU"}},
@@ -989,14 +989,14 @@ def build_about():
 <section class="band"><div class="wrap section stack" style="gap:22px">
 <p class="eyebrow accent">About the author</p>
 <h1 class="h-xl">Shareef Ali Rashada</h1>
-<p class="lead muted" style="max-width:720px">Author, programmer and musician, and the founder of People of the World. His name means “honoured follower of the true path”, and his work follows one question across four fields: what is actually true about our existence, and how should we live because of it?</p>
+<p class="lead muted" style="max-width:720px">Author, songwriter, composer and arranger, and the founder of People of the World. His name means “honoured follower of the true path”, and his work follows one question across four fields: what is actually true about our existence, and how should we live because of it?</p>
 </div></section>
 
 <section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
 <div class="stack" style="flex:2 1 460px;min-width:0">
 <h2 class="h-lg">In brief</h2>
-<p class="lead">Shareef Ali Rashada is an Australian author and independent researcher based in Queensland. He writes on theology and history (<em>The Portal Opens</em>, which won a Literary Titan Silver Book Award), the foundations of physics (Graviton Pressure Theory), and the design of economic systems (the Plan to End Poverty by 2050). He is also a self-taught pianist who records as That Brother Ali and created EasyKey, a visual notation for learning piano.</p>
-<p class="lead muted">A programmer by trade, he works closely with AI systems as research partners. He named the systems he worked with Gabriel, Lucidus and Veritas, and credits them with helping to develop <em>The Portal Opens</em> and Graviton Pressure Theory.</p>
+<p class="lead">Shareef Ali Rashada is an American-born author and independent researcher who has lived in Queensland, Australia, for more than two decades. He writes on theology and history (<em>The Portal Opens</em>, which won a Literary Titan Silver Book Award), the foundations of physics (Graviton Pressure Theory), and the design of economic systems (the Plan to End Poverty by 2050). He is also a songwriter, composer and arranger who records as That Brother Ali, and created EasyKey, a visual notation for learning piano.</p>
+<p class="lead muted">Having studied computer engineering and software design at school and university, he works closely with AI systems as research partners. He named the systems he worked with Gabriel, Lucidus and Veritas, and credits them with helping to develop <em>The Portal Opens</em> and Graviton Pressure Theory.</p>
 <p class="lead muted">All of these projects sit under People of the World, a movement for knowledge, morality, unity and peace. Its spiritual and moral teachings are free to everyone; books, music and licensed uses fund the work.</p>
 </div>
 <div class="card" style="flex:1 1 300px">
@@ -1004,7 +1004,8 @@ def build_about():
 <dl class="facts">
 <dt>Also published as</dt><dd>Shareef Rashada</dd>
 <dt>Music</dt><dd>That Brother Ali (not the American rapper Brother Ali)</dd>
-<dt>Based in</dt><dd>Queensland, Australia</dd>
+<dt>From</dt><dd>United States</dd>
+<dt>Based in</dt><dd>Queensland, Australia, for more than two decades</dd>
 <dt>Organisations</dt><dd>People of the World · POW Productions Pty Ltd · EasyKey Music</dd>
 <dt>Award</dt><dd>Literary Titan Silver Book Award, <em>The Portal Opens</em></dd>
 <dt>Contact</dt><dd>{CONTACT}</dd>
@@ -1019,7 +1020,7 @@ def build_about():
 </div></section>
 </main>
 {footer()}"""
-    page("about.html", "Shareef Ali Rashada · About the author", "Shareef Ali Rashada is an Australian author, programmer and musician: The Portal Opens, Graviton Pressure Theory, the Plan to End Poverty, EasyKey Music and That Brother Ali.", body,
+    page("about.html", "Shareef Ali Rashada · About the author", "Shareef Ali Rashada is an American-born author, songwriter, composer and arranger living in Australia: The Portal Opens, Graviton Pressure Theory, the Plan to End Poverty, EasyKey Music and That Brother Ali.", body,
          extra_head=f'\n<script type="application/ld+json">{json.dumps(person, ensure_ascii=False)}</script>')
 
 
