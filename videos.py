@@ -188,7 +188,7 @@ def build(B):
 <section class="section band-alt" id="listen"><div class="wrap stack" style="gap:24px">
 <div class="stack intro"><h2 class="h-lg">Listen: The Deep Dive podcast</h2>
 <p class="lead muted">The Deep Dive episodes as audio, for the car, a walk or the kitchen, plus two episodes on how AI systems respond to the work. The conversations are generated with Google NotebookLM from the author's texts.</p>
-<p><a class="btn btn-outline" href="podcast.xml">Podcast feed (RSS)</a></p></div>
+<p><a class="btn btn-outline" href="https://open.spotify.com/show/65h2giWS1p2cJnIKn61KsY" target="_blank" rel="noopener">Listen on Spotify</a> <a class="btn btn-outline" href="podcast.xml">Podcast feed (RSS)</a></p></div>
 <div class="audio-list">{''.join(audio_player(a) for a in AUDIO)}</div></div></section>
 <section class="section"><div class="wrap stack" style="gap:16px;max-width:820px">
 <h2 class="h-lg">Music</h2>

@@ -186,7 +186,10 @@ def video_band(place, heading, fname, intro="", alt=False):
     sec, ld = videos.section(place, heading, SITE_URL, canonical(fname), intro)
     if not sec:
         return "", ""
-    return f'<section class="section{" band-alt" if alt else ""}"><div class="wrap">{sec}</div></section>', ld
+    extra = ('<p class="muted" style="margin-top:18px">Prefer to listen? The Deep Dive is also a podcast: '
+             '<a href="https://open.spotify.com/show/65h2giWS1p2cJnIKn61KsY" target="_blank" rel="noopener" style="font-weight:600">'
+             'follow it on Spotify</a> or see <a href="videos.html#listen" style="font-weight:600">all episodes</a>.</p>') if place == "science" else ""
+    return f'<section class="section{" band-alt" if alt else ""}"><div class="wrap">{sec}{extra}</div></section>', ld
 
 
 # ---------------------------------------------------------------- the book text
