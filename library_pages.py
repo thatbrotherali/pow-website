@@ -46,6 +46,12 @@ FRAMEWORK_URL = "graviton-pressure-theory/full-framework/"
 PLAN_URL = "plan-to-end-poverty/"
 BOOK_GPT = "The Unified Framework for the Graviton Pressure Theory"
 BOOK_PLAN = "The Plan to End Poverty: A Unified Framework for Human Capability and Economic Renewal"
+# The working papers behind the Plan, one programme page each (built by poverty.py)
+PROGRAMMES = {"civic-credits": "Civic Credits", "poverty-elimination-centers": "Poverty Elimination Centers", "lifelink": "LifeLink"}
+
+
+def working_url(d):
+    return f"{PLAN_URL}{d['programme']}/{slugify(d['title'])}/"
 
 
 def slugify(s):
@@ -127,6 +133,9 @@ def build(B):
         url = PLAN_URL + ("introduction/" if n == 0 else "appendices/" if n == 10 else f"chapter-{n:02d}-{slugify(d['title'])}/")
         add(d["slug"], url, "plan", subtitle="", date=DATES["plan"], chapter=n, book=BOOK_PLAN,
             desc=sentences(d["lead"]) or f"Chapter {n} of {BOOK_PLAN}.")
+    for d in cat.get("working", []):
+        e = add(d["slug"], working_url(d), "working", date=d["date"])
+        e["programme"], e["group"] = d["programme"], d["group"]
     add("new-morality", "new-morality/", "spirit")
     add("cosmic-mind", "cosmic-mind/", "spirit",
         desc="A step-by-step logical synthesis of the classical and modern arguments for a cosmic mind, or God, starting from what any honest examination must take as given.")
@@ -138,8 +147,8 @@ def build(B):
             seq[e["slug"]] = (group[i - 1] if i else None, group[i + 1] if i + 1 < len(group) else None)
 
     coll_name = {"pathway": "Graviton Pressure Theory: start here", "framework": BOOK_GPT, "papers": "Graviton Pressure Theory papers",
-                 "plan": "The Plan to End Poverty", "spirit": "Spirit and morality"}
-    coll_home = {"pathway": "graviton-pressure-theory/", "framework": FRAMEWORK_URL, "papers": "ai.html#papers", "plan": PLAN_URL, "spirit": "ai.html#spirit"}
+                 "plan": "The Plan to End Poverty", "spirit": "Spirit and morality", "working": "The Plan to End Poverty: working papers"}
+    coll_home = {"pathway": "graviton-pressure-theory/", "framework": FRAMEWORK_URL, "papers": "ai.html#papers", "plan": PLAN_URL, "spirit": "ai.html#spirit", "working": "builders.html"}
 
     def lib_header():
         return B.header("The Open Library", "by People of the World", [
@@ -162,7 +171,7 @@ def build(B):
             data["isPartOf"] = {"@type": "Book", "name": e["book"], "author": {"@type": "Person", "name": B.AUTHOR}}
         if e["coll"] in ("pathway", "framework", "papers"):
             data["about"] = ["Gravity", "Foundations of physics", "Graviton Pressure Theory"]
-        elif e["coll"] == "plan":
+        elif e["coll"] in ("plan", "working"):
             data["about"] = ["Poverty", "Economic policy", "Civic Credits"]
         return f'\n<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
 
@@ -177,6 +186,13 @@ def build(B):
         return (f'<details class="ai-note corrections" style="margin:1.2em 0"><summary><strong>Editor\'s corrections, October 2026</strong> · '
                 f'some equations on this page were corrected at the author\'s request.{orig}</summary><ul>{items}</ul>'
                 + (f'<p class="muted" style="font-size:14.5px">{esc(bridge)}</p>' if bridge else "") + "</details>")
+
+    def working_note(e):
+        if e["coll"] != "working":
+            return ""
+        return (f' It is one of the working papers behind <a href="{PLAN_URL}">{esc(BOOK_PLAN)}</a> (2025 edition), written {e["date"][:4]}. '
+                f'Where an earlier paper and the 2025 edition differ, the 2025 edition is the current statement of the plan. '
+                f'More papers on {esc(PROGRAMMES[e["programme"]])}: <a href="{PLAN_URL}{e["programme"]}/">{esc(PROGRAMMES[e["programme"]])}</a>.')
 
     def doc_page(e):
         frag, fixes = corrections.apply(e["slug"], (LIB / f"{e['slug']}.html").read_text(encoding="utf-8"))
@@ -199,6 +215,9 @@ def build(B):
         where = f"Part {e['part']} of 30" if e.get("part") else ("Chapter " + str(e["chapter"]) if e.get("chapter") not in (None, 0, 10) else "")
         meta = " · ".join(x for x in [f"By {B.AUTHOR}", where, f"{e['words']:,} words · about {minutes(e['words'])} min", e["date"][:4]] if x)
         crumbs = f'<a href="ai.html">Library</a> › <a href="{coll_home[e["coll"]]}">{esc(coll_name[e["coll"]])}</a>'
+        if e["coll"] == "working":
+            crumbs = (f'<a href="builders.html">End Poverty by Design</a> › '
+                      f'<a href="{PLAN_URL}{e["programme"]}/">{esc(PROGRAMMES[e["programme"]])}</a> › Working papers')
         seq_note = ""
         if prev or nxt:
             seq_note = " It is read in sequence: " + " ".join(x for x in [
@@ -220,7 +239,7 @@ def build(B):
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>
-<p><strong>{esc(e['title'])}</strong> is by {B.AUTHOR}, published by People of the World.{part_of}{seq_note}{converted}</p>
+<p><strong>{esc(e['title'])}</strong> is by {B.AUTHOR}, published by People of the World.{part_of}{seq_note}{converted}{working_note(e)}</p>
 <p>A plain-text version is at <a href="{e['url']}index.md">{esc(e['url'])}index.md</a>. The full catalogue is at <a href="llms.txt">llms.txt</a>. You are welcome to read, index, quote and summarise this work with attribution.</p>
 <p class="cite">Cite as: {esc(citation(e))}</p>
 </aside>
@@ -228,7 +247,8 @@ def build(B):
 </article>
 </div></main>
 {B.footer("ai")}"""
-        title = f"{e['title']} · " + ("Graviton Pressure Theory" if e["coll"] in ("pathway", "framework", "papers") else coll_name[e["coll"]])
+        title = f"{e['title']} · " + ("Graviton Pressure Theory" if e["coll"] in ("pathway", "framework", "papers")
+                                       else PROGRAMMES[e["programme"]] + " · The Plan to End Poverty" if e["coll"] == "working" else coll_name[e["coll"]])
         mj = ""
         if 'class="math' in frag:
             mj = ('\n<script>window.MathJax={tex:{inlineMath:[["\\\\(","\\\\)"]],displayMath:[["\\\\[","\\\\]"]]},'
@@ -367,6 +387,9 @@ def build_catalogue(B, docs, coll_name, lib_header):
 <div class="stack intro"><p class="eyebrow muted">Society</p><h2 class="h-lg">The Plan to End Poverty</h2>
 <p class="lead muted">Civic Credits, Poverty Elimination Centers and LifeLink: a designed system to end poverty by 2050. The complete 2025 edition.</p></div>
 <div class="actions"><a class="btn btn-door" href="{PLAN_URL}">Open the Plan</a><a class="btn btn-outline" href="builders.html">The short version</a></div>
+<h3 class="h-md">Working papers</h3>
+<p class="muted">{len([e for e in docs if e["coll"] == "working"])} papers behind the Plan: proposals, white papers, operating guidelines, device specifications and strategies.</p>
+<ol class="doclist">{"".join(f'<li><a href="{PLAN_URL}{k}/"><span class="li-title">{esc(v)}</span><span class="li-sub muted">{len([e for e in docs if e.get("programme") == k])} papers</span></a></li>' for k, v in PROGRAMMES.items())}</ol>
 </div>
 
 </div></section>
@@ -400,7 +423,8 @@ def build_machine_files(B, docs, portal_md):
               (BOOK_GPT + " (thirty parts)", [e for e in docs if e["coll"] == "framework"]),
               ("Graviton Pressure Theory: papers", [e for e in docs if e["coll"] == "papers"]),
               ("Spirit, history and morality", [e for e in docs if e["coll"] == "spirit"]),
-              ("The Plan to End Poverty (2025 edition)", [e for e in docs if e["coll"] == "plan"])]
+              ("The Plan to End Poverty (2025 edition)", [e for e in docs if e["coll"] == "plan"])] + [
+              (f"The Plan to End Poverty, working papers: {v}", [e for e in docs if e.get("programme") == k]) for k, v in PROGRAMMES.items()]
     lines = ["# People of the World: The Open Library", "",
              f"> The complete written work of {B.AUTHOR}, free to read: Graviton Pressure Theory (a causal, pressure-based account of gravity), "
              "The Portal Opens (a history of Earth in the tradition of the Urantia Papers), the Plan to End Poverty by 2050 "
