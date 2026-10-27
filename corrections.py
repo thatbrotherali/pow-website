@@ -298,7 +298,7 @@ fix("mechanics-of-the-medium", [
     "Coupling k: the inflow slows with distance, so dv/dr = −k/r with k > 0 (k has units of speed), and a = −v dv/dr = kv/r is positive inward. Since v = √(2GM/r), k = v/2 at each radius rather than a single constant; at the surface this gives the paper's k = √(gR/2).",
     "Velocity profile: for an inward acceleration GM/r², v dv/dr = −GM/r², which integrates to ½v² = GM/r + C. With the original sign ½v² = −GM/r, so v² would be negative; the result v = √(2GM/r) is unchanged.",
     "Pressure from flow (Section 11): with P ∝ ρv² the pressure would be highest near the mass and the force −V∇P would push outward. The text itself says pressure increases with distance, which is the static (Bernoulli) pressure P_g = P₀ − ½ρ_g v². Its gradient is ρ_g GM/r² outward, so the force −V_eff∇P_g points inward and κ = 1/ρ_g. This changes how the force is derived, not the result.",
-    "Still open: the paper also says the medium's density rises near a mass and that pressure rises with density (the equation of state). Both cannot hold with a static pressure that falls near the mass. The density perturbation 2GM/c²r used for light and clocks matches the inflow pressure ratio Π/P₀ = v²/c² in the notation note below; one consistent choice is needed.",
+    "Density near a mass (working hypothesis, October 2026): the paper says the medium's density rises near a mass and that pressure rises with density. Both cannot hold with a static pressure that falls near the mass. The framework now takes the view that the count of gravitons rises toward a mass (continuity of the inflow requires it, as r^(−3/2)), while the active pressure falls, because the pressure depends on the gravitons' state and not on their count alone: the inflow mixes with phase-neutralized gravitons ejected by matter, which exert no pressure. Inside matter, absorption depletes the active population. The equation of state that produces this is still to be derived; see The Operational Constraints of the Equivalence Principle, Continuity section.",
     "Light deflection (Sections 14 and 23): the deflection is −∫(dn/dr)(b/r) dx/n; the extra factor 2 would give 8GM/c²b, twice the measured value. The minus sign makes the angle positive (toward the mass). The 1.75″ result stands.",
     "Clock rate from matter waves (Section 25): τ = τ₀ n gives 1 + 2GM/c²r, twice the measured shift, as the text acknowledged. It is now τ = τ₀√n ≈ τ₀(1 + GM/c²r), the same factor as Section 16 and the notation note (clock rate √(P/P₀)).",
     "Charge (Sections 17–18): the energy of two charges' interaction is the cross term κ∫∇ψ₁·∇ψ₂ dV, not the whole field energy (which includes each charge's self-energy). In the Gauss's-law step, 4πr²·C/r² is +4πC, so C = −αq/4π; the final ψ = αq/4πr is unchanged.",
@@ -381,6 +381,11 @@ fix("operational-constraints-of-the-ep", [
     (r"\alpha = \int_{-\infty}^{\infty} \frac{\partial n}{\partial b}\, dz", r"\alpha = -\int_{-\infty}^{\infty} \frac{\partial n}{\partial b}\, dz"),
 ], bridge=False)
 
+
+# ---------------------------------------------------------------- The Logical Closure of the EP: density near a mass
+fix("logical-closure-of-the-ep", [
+    "Density near a mass (Section 6.3, working hypothesis, October 2026): the section says the medium's density is lower near Earth and lower still inside it. The framework now separates two things. The count of gravitons rises toward a mass, because the inflow converges (continuity requires it). The active pressure, which pushes the medium and bodies inward, falls toward the mass, because the inflow mixes with phase-neutralized gravitons ejected by matter, which exert no pressure. Inside matter, absorption depletes the active population. Read \"density\" in 6.3 as active pressure. The equation of state behind this is still to be derived; see The Operational Constraints of the Equivalence Principle, Continuity section.",
+], [], bridge=False, kind="notes")
 
 # ---------------------------------------------------------------- The Plan to End Poverty, Chapter 5: sources and modelled figures
 fix("plan-chapter-05", [

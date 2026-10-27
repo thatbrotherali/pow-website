@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's notes (October 2026): Density near a mass (Section 6.3, working hypothesis, October 2026): the section says the medium's density is lower near Earth and lower still inside it. The framework now separates two things. The count of gravitons rises toward a mass, because the inflow converges (continuity requires it). The active pressure, which pushes the medium and bodies inward, falls toward the mass, because the inflow mixes with phase-neutralized gravitons ejected by matter, which exert no pressure. Inside matter, absorption depletes the active population. Read "density" in 6.3 as active pressure. The equation of state behind this is still to be derived; see The Operational Constraints of the Equivalence Principle, Continuity section.
+
 ## Part One: The Promise of the Equivalence Principle
 
 ### 1.1 The Historical Formulation
@@ -110,7 +112,7 @@ In the rocket, the upward normal force is an active consequence of the engine's 
 
 This redefinition leaves a lethal mechanical deficit. The normal force is, by definition in atomic physics, a secondary, reactive force. Electromagnetic repulsion between electron clouds only activates when those clouds are compressed together by an external force. The ground's atoms cannot push upward unless they are first subjected to a downward mechanical stress.
 
-```
+``` diagram
 [ General Relativity: Closed Loop ]
 
   Geodesic Abstraction ──► Normal Force (Upward Push) ──► Felt Weight ──► Back to Geodesic
@@ -458,7 +460,7 @@ When a massive primary body (such as a star or planet) rotates, its mass impedan
 
 An orbiting secondary body (such as a planet or moon) is not merely a passive test mass reacting to this gradient. It possesses its own mass impedance and is simultaneously executing its own intake-sorting-ejection cycle, generating its own unique, smaller pulsed shell of outgoing gravitons.
 
-```
+``` diagram
 [ Rotating Primary Mass ]            [ Orbiting Secondary Mass ]
   (Asymmetric Rotation)                (Mass Impedance Sink)
            │                                     │

@@ -92,7 +92,13 @@ This part works out what the operational constraint requires of the flow, and wh
 
 ## Continuity: What the Flow Requires of the Medium
 
-If the medium is absorbed only inside matter, the same amount must cross every sphere around the mass each second: <span class="math display">\\4\pi r^2 \rho(r)\\ v(r) = \dot{M}\_{\text{abs}} = \text{constant},\\</span> where <span class="math inline">\\\dot{M}\_{\text{abs}}\\</span> is the rate at which the mass absorbs the medium. With <span class="math inline">\\v \propto r^{-1/2}\\</span>, this requires <span class="math display">\\\rho(r) = \frac{\dot{M}\_{\text{abs}}}{4\pi\sqrt{2GM}}\\ r^{-3/2}.\\</span> A medium of uniform density cannot carry this flow: either the flowing component grows denser toward the mass, or the medium is replenished or compressed along the way. **Open problem 1:** an equation of state for the medium that fixes which, and that reconciles the flowing component with the field’s baseline pressure far from any mass.
+If the medium is absorbed only inside matter, the same amount must cross every sphere around the mass each second: <span class="math display">\\4\pi r^2 \rho(r)\\ v(r) = \dot{M}\_{\text{abs}} = \text{constant},\\</span> where <span class="math inline">\\\dot{M}\_{\text{abs}}\\</span> is the rate at which the mass absorbs the medium. With <span class="math inline">\\v \propto r^{-1/2}\\</span>, this requires <span class="math display">\\\rho(r) = \frac{\dot{M}\_{\text{abs}}}{4\pi\sqrt{2GM}}\\ r^{-3/2}.\\</span> A medium of uniform density cannot carry this flow: the inflowing medium grows denser toward the mass.
+
+**Working hypothesis: pressure depends on state, not count.** Something must still push the medium inward faster and faster, and in Graviton Pressure Theory that push is pressure, from the gravitons’ self-repulsion. For the inflow to accelerate, its pressure must fall toward the mass, even though continuity makes the inflowing medium denser there. So the pressure cannot depend on the count of gravitons alone. The working hypothesis is that it depends on their state. Near a mass, the inflow mixes with the gravitons that matter has ejected in a phase-neutralized state; these exert no pressure, and the hypothesis is that the mixture’s self-repulsion weakens as their share grows. The count rises toward the mass while the active pressure falls. Inside matter, where absorption takes place, the active population is depleted.
+
+For steady inflow the pressure gradient must supply the medium’s acceleration at every radius, <span class="math display">\\\frac{dP}{dr} = \rho(r)\\\frac{GM}{r^2},\\</span> and with <span class="math inline">\\\rho \propto r^{-3/2}\\</span> this integrates to <span class="math display">\\P(r) = P\_\infty - \frac{2}{5}\\\rho(r)\\\frac{GM}{r},\\</span> where <span class="math inline">\\P\_\infty\\</span> is the pressure far from any mass. The pressure stays positive only if <span class="math inline">\\P\_\infty \> \tfrac{1}{5}\rho(R)\\v_R^2\\</span> at the surface, a definite condition on the medium.
+
+**Open problem 1:** derive how much neutralized flux builds up near a mass, and an equation of state in which the mixture’s pressure falls as that share grows, rather than adopting the profile because the flow requires it.
 
 ## Weight, Inertia and the Universality of Free Fall
 
@@ -124,7 +130,7 @@ By Fermat’s principle, light crossing a region of refractive index <span class
 | Gravitational time dilation                                                     | Derived, as motion through the medium                                                           |
 | Satellite clock rates (GPS)                                                     | Derived; matches the daily correction                                                           |
 | Light deflection and Shapiro delay                                              | Follow, given <span class="math inline">\\n = 1 + v^2/c^2\\</span> (open problem 3)             |
-| Density profile of the medium                                                   | Open problem 1                                                                                  |
+| Density profile: count rises, active pressure falls                             | Working hypothesis; open problem 1                                                              |
 | Coupling at the atom                                                            | Open problem 2                                                                                  |
 | Field equations for the medium: rotation, frame dragging, gravitational waves   | Open problem 4                                                                                  |
 
