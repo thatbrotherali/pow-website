@@ -21,8 +21,21 @@ const POW_LINKS = {
   audiobook: "audiobook.html",            // YouTube playlist or audio page
   vision: "new-morality/",               // full Vision document
 };
-// Email sign-up: the MailerLite "Website sign-up" form (adds people to the Weekly teaching group).
-const POW_SIGNUP_ENDPOINT = "https://assets.mailerlite.com/jsonp/2732767/forms/202012430467860418/subscribe";
+// Email sign-up: each door has its own MailerLite form and group, so people only get the emails they asked for.
+// The form's data-list picks the form; anything not listed goes to the weekly teachings.
+const POW_ML = "https://assets.mailerlite.com/jsonp/2732767/forms/";
+const POW_FORMS = {
+  teachings: "202012430467860418", seekers: "202012430467860418", tensteps: "202012430467860418", urantia: "202012430467860418", // Weekly Teachings
+  science: "202465021678061477",          // Graviton Pressure Theory
+  builders: "202465078423848214",         // End Poverty by Design
+  music: "202465079412655528",            // That Brother Ali music
+  easykey: "202465080409851820",          // EasyKey Music
+  "easykey-centers": "202465081567478812",// EasyKey Music Centers
+  library: "202465082743981643",          // The Open Library
+  support: "202465083803043649",          // Supporters
+};
+const POW_SIGNUP_ENDPOINT = POW_ML + POW_FORMS.teachings + "/subscribe";
+const powEndpoint = list => POW_ML + (POW_FORMS[list] || POW_FORMS.teachings) + "/subscribe";
 const POW_CONTACT = "shareef@peopleoftheworld.net";
 
 // the site's root folder, worked out from where this script lives (assets/site.js), so links work from any sub-folder
@@ -70,13 +83,13 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.disabled = true; note.textContent = "Signing you up…";
       const done = () => { note.textContent = "Almost done: check your inbox and click the link in our email to confirm. (If it's not there, look in spam.)"; form.reset(); };
       try {
-        const r = await fetch(POW_SIGNUP_ENDPOINT, { method: "POST", body });
+        const r = await fetch(powEndpoint(form.dataset.list), { method: "POST", body });
         const j = await r.json().catch(() => ({}));
         if (r.ok && j.success !== false) done();
         else note.textContent = (j.errors && j.errors.fields && j.errors.fields.email && j.errors.fields.email[0]) || "That didn't go through. Please check the address and try again.";
       } catch {
         // if the browser blocks reading the reply, send it anyway; the email service still receives it
-        try { await fetch(POW_SIGNUP_ENDPOINT, { method: "POST", body, mode: "no-cors" }); done(); }
+        try { await fetch(powEndpoint(form.dataset.list), { method: "POST", body, mode: "no-cors" }); done(); }
         catch { note.textContent = "That didn't go through. Please check your connection and try again."; }
       }
       btn.disabled = false;
