@@ -518,3 +518,11 @@ img.award-img{border-radius:14px}
 .proof li strong{font-size:17px}
 .proof li span{font-size:15.5px;line-height:1.5}
 .band .stats span{color:inherit;opacity:.78}
+.layers{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr))}
+.layers li{display:flex;flex-direction:column;gap:6px;padding:20px;border:1px solid var(--line);border-top:4px solid var(--door);border-radius:var(--radius);background:var(--surface)}
+.layers li strong{font-size:17.5px}
+.layers li .muted{font-size:15px;line-height:1.55}
+.sources{font-size:14px;color:var(--muted)}
+.sources summary{cursor:pointer;font-weight:600}
+.sources ul{margin:8px 0 0;padding-left:20px;display:grid;gap:4px}
+.sources a{color:inherit}

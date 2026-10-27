@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+> Editor's notes (October 2026): Section 5.21 (Results Summary): these figures are outputs of the plan's economic model under its two scenarios, not observed results. They show what the model predicts if its assumptions hold; the pilots are designed to test them. Section 5.40, WIR Bank: more than 60,000 participating firms is supported for the 2010s (Levy Economics Institute, Policy Note 2016/1, citing Stodder 2009, which also finds WIR use rises with unemployment). The figure of 1.5% of Swiss GDP could not be confirmed. Section 5.40, Bolsa Família: the figures 'poverty reduced by 55%', 'Gini 0.58 to 0.51' and 'school attendance +10%' could not be confirmed. Published figures: IPEA (2019, covering 2001–2017) found extreme poverty about 25% and poverty about 15% lower than without the programme, and a contribution of about 10% to the fall in inequality; the World Bank (2013) reports about 50 million people reached at about 0.6% of GDP. Section 5.40, MGNREGA: in December 2025 India replaced MGNREGA with the Viksit Bharat–G RAM G Act, which guarantees 125 days of work a year instead of 100. The figures of over 60 million workers and 1.3% of GDP need a dated source. Section 5.40, Alaska Permanent Fund: University of Alaska (ISER) researchers estimate the dividend lifted about 25,000 Alaskans out of poverty in 2015, about a third of the poverty that would otherwise have existed, and has reduced poverty by 2.5 to 4 percentage points a year since 1990. The '20%' figure does not match this, and the dividend amount varies from year to year. Section 5.40, M-Pesa: Suri and Jack (Science, 2016) found M-Pesa lifted about 194,000 Kenyan households, 2% of the total, out of extreme poverty, with the largest gains in households headed by women. The figures of 96% of households, transactions equal to 50% of GDP and 11% growth in female-led businesses need sources. Section 5.40, other cases: the participation figure for Japan's Eco-Money and the re-employment figures for European pilots have not yet been verified. The SDR and carbon-market totals are broadly in line with published figures, which change every year.
+
 Civic Charter for Resources Adopted by People of the World Preamble We, the People of the World, acknowledging the presence of the Creator’s fragment within every human being, affirm that all persons are equal inheritors of creation. No individual, corporation, or government has created the land, the seas, the air, or the resources of the Earth. They are the shared trust of humanity, bestowed by the Source of all existence.
 
 Recognizing the long history in which resources were seized by force, enclosed for profit, and withheld from the many, we now declare a new order: resources exist not for exploitation by the few, but for the flourishing of all. We dedicate ourselves to a just stewardship that honors both present and future generations.
@@ -178,7 +180,7 @@ Citations and Data Sources
 
 Closing Reflection Economics, in its highest form, is not the science of scarcity—it is the science of balance. Civic Credits realign that balance by ensuring that every act of good becomes an act of prosperity. For the first time in history, the moral and the material converge. The living economy begins when we stop paying for profit and start rewarding purpose.
 
-### 5.3 System Logic and Monetary Design
+## 5.3 System Logic and Monetary Design
 
 Conceptual Overview Civic Credits (CC) are a new class of monetary instrument—a debt-free currency issued directly in exchange for verified civic contribution. They represent the value of work performed for the collective benefit rather than profit-driven markets. Unlike fiat money, which originates as interest-bearing debt or speculative capital, Civic Credits originate as verified service: teaching, building, caregiving, ecological restoration, or maintaining shared infrastructure.
 
@@ -198,9 +200,9 @@ Mathematically, if It is the issuance at time t and Rt the redemptions, then the
 
 St+1 = St + It − Rt (5.1) Steady-state equilibrium requires It = Rt , ensuring the total money supply remains proportionate to civic output.
 
-### 5.4 The Monetary Architecture
+## 5.4 The Monetary Architecture
 
-#### 5.4.1 The Clearinghouse Model
+### 5.4.1 The Clearinghouse Model
 
 At the system’s core lies the National Civic Credit Authority (CCA)—a non-profit, publicly governed institution operating as the clearinghouse for issuance, verification, and redemption. All verified civic work—digitally logged through PECs and authenticated via Lifelink tablets—passes through the CCA’s blockchain-based ledger.
 
@@ -210,7 +212,7 @@ Each transaction creates a traceable entry with three elements:
 - Verified task ID (linked to PEC oversight)
 - Credit value and timestamp The clearinghouse operates a real-time transparency protocol, publishing issuance, redemption, and reserve ratios hourly. A daily balance sheet is public by law.
 
-#### 5.4.2 Parity and Reserve Mechanism
+### 5.4.2 Parity and Reserve Mechanism
 
 To ensure stability and public trust, Civic Credits maintain a 1:1 parity with national currency, using a multi-asset stabilization reserve. The reserve comprises:
 
@@ -225,7 +227,7 @@ Reserve Ratio = Rf + R t + R r St (5.2) Where:
 - Rr : resource-backing value
 - St : total CC supply Policy mandates Reserve Ratio ≥ 1, ensuring every issued credit is fully collateralized by redeemable or intrinsically valuable assets.
 
-#### 5.4.3 Inflation Control and Supply Matching
+### 5.4.3 Inflation Control and Supply Matching
 
 Unlike fiat systems, Civic Credit issuance is output-linked, not forecast-linked. Credits are created after service verification, ensuring that every unit of currency corresponds to actual labor or public good.
 
@@ -241,21 +243,21 @@ D. Monetary Compatibility Civic Credits coexist with national currency through p
 
 This dual system integrates through existing ISO-20022 payment standards. Lifelink and PEC APIs connect seamlessly to national payment gateways, allowing instant interoperability. The Civic Credit layer thus acts as a social liquidity circuit, filling employment and service gaps that profit-motive markets ignore.
 
-### 5.5 Legal and Policy Integration
+## 5.5 Legal and Policy Integration
 
-#### 5.5.1 Classification and Compliance
+### 5.5.1 Classification and Compliance
 
 Under monetary law, Civic Credits are classified as settlement instruments, not securities. They carry no promise of yield, avoiding speculative classification under financial regulations. AML and KYC protocols are embedded within PEC and Lifelink verification layers.
 
 The Civic Credit Authority operates under national treasury supervision but maintains independent governance, similar to a central bank’s monetary-policy independence. Issuance ceilings are pre-approved annually, with transparent reports submitted to Parliament.
 
-#### 5.5.2 Coordination with Fiscal and Monetary Authorities
+### 5.5.2 Coordination with Fiscal and Monetary Authorities
 
 The Treasury and Central Bank coordinate Civic Credit issuance with macroeconomic conditions. When private demand contracts, Civic issuance expands (counter-cyclical stimulus). When private activity rises, redemption accelerates, automatically reducing CC supply. This mirrors the automatic stabilizers of fiscal policy while remaining debt-neutral.
 
 The fiscal neutrality principle is enforced by parity between issuance and redemption, ensuring that Civic Credits expand capability without expanding debt.
 
-### 5.6 Transparency, Oversight, and Trust
+## 5.6 Transparency, Oversight, and Trust
 
 Transparency is the cornerstone of legitimacy. The CCA employs blockchain-based ledgers with zeroknowledge proof verification, allowing public auditing without compromising individual privacy.
 
@@ -268,7 +270,7 @@ A Public Balance Portal publishes:
 
 Independent audits by both state and civil-society monitors verify integrity quarterly. A citizen oversight board retains authority to trigger reviews or emergency transparency measures.
 
-### 5.7 A New Monetary Logic
+## 5.7 A New Monetary Logic
 
 The Civic Credit system replaces scarcity-based issuance with contribution-based issuance. Traditional money expands by lending—creating scarcity for those without collateral. Civic Credits expand by service—creating inclusion for those with willingness.
 
@@ -276,7 +278,7 @@ This system restores the moral link between labor and livelihood while retaining
 
 In this architecture, the invisible hand becomes transparent—the measure of value is not speculation but stewardship.
 
-#### 5.7.1 References and Analogues
+### 5.7.1 References and Analogues
 
 - Civic Credits Technical White Paper (People of the World, 2025).
 - Funding and Operations for Civic Credits (People of the World, 2025).
@@ -540,19 +542,19 @@ Outputs and Deliverables 1. CVA Engine (v1.0): modular valuation software integr
 
 Summary The CVA Technical Annex defines the quantitative spine of moral economics. By anchoring value in verified data, employing feedback algorithms, and publishing all results transparently, it ensures that every Civic Credit is traceable to real service, every wage reflects genuine contribution, and every audit advances civilization’s balance between justice and precision.
 
-### 5.10 Transition of Public and Civic Employment into the Civic Credit Economy
+## 5.10 Transition of Public and Civic Employment into the Civic Credit Economy
 
-### 5.11 Purpose
+## 5.11 Purpose
 
 To enumerate and justify the categories of occupations transitioning to Civic Credit (CC) remuneration, explaining their societal value, audit rationale, fiscal transformation, and projected social benefits. This transition represents the operational conversion of public expenditure into verified Civic Value generation.
 
-### 5.12 Overview: Reframing Public Service as Civic Production
+## 5.12 Overview: Reframing Public Service as Civic Production
 
 Under Civic Credit economics, public employment becomes a value-generating process rather than a fiscal liability. Each job is recognized as producing measurable social benefit — health, safety, education, or infrastructure — which can be valued through Civic Value Auditing (CVA). Funding transitions from budgetary disbursement to issuance of verified Civic Credits backed by service outputs. Core Principle:
 
 Every verified hour of public service constitutes a measurable act of social production, and thus qualifies for issuance of Civic Credits equivalent to its verified market value.
 
-### 5.13 Major Employment Domains Eligible for CC Transition
+## 5.13 Major Employment Domains Eligible for CC Transition
 
 Domain Example Roles CC Value Basis Audit Source Societal Justification Health & Medical Doctors, nurses, paramedics, lab techs, therapists, public health administrators Private sector billing rates (median national index) Lifelink Health Ledger + Hospital APIs Preserves national health capital and prevents productivity loss due to illness.
 
@@ -877,7 +879,7 @@ References
 
 ————————————————————————-
 
-### 5.16 Monetary Compatibility and Policy Integration
+## 5.16 Monetary Compatibility and Policy Integration
 
 The Policy Question For Civic Credits (CC) to function at scale, they must coexist with the national monetary system without undermining price stability, fiscal discipline, or the central bank’s authority. The core question asked by any economist will be: Does this create inflation or fiscal risk? The rigorous answer is no—Civic Credits are output-backed, debt-neutral, and policy-compatible. They expand liquidity only where verified goods and services already exist. Their issuance is reactive, not speculative. In effect, they add precision and humanity to modern macroeconomics.
 
@@ -985,7 +987,7 @@ Quarterly Policy Notes Transparent communication of CC–monetary interactions, 
 
 Summary Civic Credits harmonize social liquidity with monetary orthodoxy. They neither inflate nor destabilize— they refine the art of money itself. By converting verified service into spendable value without debt, they restore balance between central banking, fiscal policy, and human contribution. The result is an economy that breathes with its people: expanding with service, contracting with satisfaction, and sustaining equilibrium through purpose rather than scarcity.
 
-### 5.17 Economic Modeling and Predictive Simulations
+## 5.17 Economic Modeling and Predictive Simulations
 
 Purpose and Modeling Philosophy Economic modeling is the final verification of the Civic Credit (CC) framework’s credibility. While the moral and structural foundations establish legitimacy, quantitative evidence demonstrates viability. The objective here is to test, under realistic assumptions, how Civic Credits influence growth, employment, inflation, inequality, and fiscal balance across multiple adoption scenarios.
 
@@ -999,7 +1001,7 @@ Two approaches are used:
 
 The synthesis of these approaches captures both systemic coherence and behavioral realism.
 
-### 5.18 Modeling Framework
+## 5.18 Modeling Framework
 
 1\. Macro-Structural Core (Dynamic IS–LM–Phillips Hybrid) The model extends the national income identity with an additional Civic Credit consumption channel (Ccc ):
 
@@ -1022,11 +1024,11 @@ Employment follows an extended Phillips curve:
 
 3\. Integration Mechanics Liquidity creation is endogenous and synchronized with real output. CC issuance follows verified civic service events; redemption retires credits post-use, maintaining equilibrium. Oversupply triggers faster redemption; undersupply stimulates issuance.
 
-### 5.19 Baseline Calibration
+## 5.19 Baseline Calibration
 
 Parameter Value / Source Potential GDP growth 3.1% per annum (World Bank, 2024) Output gap elasticity to CC 0.45 Marginal propensity to consume (MPC) from CC 0.8 Inflation pass-through coefficient 0.07 Employment elasticity 0.6 Fiscal multiplier 1.3 Model validation references World Bank WDI (2024), IMF IFS, ILO Labor Force Statistics, and UN Energy Balance datasets.
 
-### 5.20 Scenarios Simulated
+## 5.20 Scenarios Simulated
 
 Scenario Description Baseline Traditional monetary-fiscal mix; no CC.
 
@@ -1038,7 +1040,7 @@ Shock 4% GDP contraction in Year 1; recovery simulation.
 
 Climate 2% annual labor shift from fossil to green CC sectors.
 
-### 5.21 Results Summary
+## 5.21 Results Summary
 
 A. Growth and Employment
 
@@ -1066,13 +1068,13 @@ E. Resilience
 - GDP recovers in 6 quarters (vs. 11 baseline).
 - Employment recovery twice as fast.
 
-### 5.22 Model Equations
+## 5.22 Model Equations
 
 Yt = Cf + βEt wcc + I + G + N X, cc πt = πt−1 + α ∆Et = λ Yt − Ȳ ∆M +γ , Yt Ȳ ∆Yt − µ(πt − π T ), Yt ∆(D/Y )t = (r − g)(D/Y )t − θCCredeem,t .
 
 (5.19) (5.20) (5.21) (5.22) Here β = 0.45 (productivity coefficient) and θ = 0.2 − −0.4 (debt offset ratio). Monte Carlo (1,000 runs) confirms stability under ±20% variance.
 
-### 5.23 Visualization (Descriptive)
+## 5.23 Visualization (Descriptive)
 
 - Fig. 1: GDP Growth Trajectories — baseline 3%, CCM 4.2%, CCF 5.6% by Year 5.
 - Fig. 2: Unemployment — 10% baseline, 6% CCM, 3% CCF.
@@ -1080,7 +1082,7 @@ Yt = Cf + βEt wcc + I + G + N X, cc πt = πt−1 + α ∆Et = λ Yt − Ȳ �
 - Fig. 4: Debt/GDP — baseline 72%, CCM 66%, CCF 58%.
 - Fig. 5: Poverty Headcount — declines toward near-zero by 2050.
 
-### 5.24 Interpretation and Discussion
+## 5.24 Interpretation and Discussion
 
 A. Civic Credits as a Parallel Stabilizer CCs act as automatic stabilizers, expanding with slack and contracting with saturation. Liquidity becomes human-responsive, not speculative.
 
@@ -1090,7 +1092,7 @@ C. Fiscal Sustainability Debt dynamics stabilize as CCs replace deficit spending
 
 D. Inequality Compression CCs formalize undervalued labor (care, teaching, ecology), structurally reducing inequality through inclusion.
 
-### 5.25 Policy Implications
+## 5.25 Policy Implications
 
 - Central Banks: incorporate CC data into output-gap analysis.
 - Treasuries: integrate Civic Envelope in fiscal planning.
@@ -1098,7 +1100,7 @@ D. Inequality Compression CCs formalize undervalued labor (care, teaching, ecolo
 - Climate/Labor Ministries: use CC programs for just-transition jobs.
 - Academia: employ CC data for post-Keynesian and ecological modeling.
 
-### 5.26 Deliverables
+## 5.26 Deliverables
 
 Deliverable Description Economic Model Technical Annex Equations, calibration, and code base (Python/Dynare).
 
@@ -1114,7 +1116,7 @@ Summary Quantitative modeling validates what moral reasoning predicted: a Civic 
 
 5.27 Governance, Oversight, and Anti-Fraud Purpose Establish a governance and integrity framework for Civic Credits (CC) that anticipates adversaries, prevents abuse, proves correctness, and preserves dignity. This section is written to meet the standards of central banks, supreme audit institutions, data-protection authorities, and the most skeptical economists.
 
-### 5.28 First Principles of Civic Integrity
+## 5.28 First Principles of Civic Integrity
 
 1\. Legitimacy before efficiency. Every control must be explainable to the public and auditable by independent bodies.
 
@@ -1126,7 +1128,7 @@ Summary Quantitative modeling validates what moral reasoning predicted: a Civic 
 
 5\. Open verification. Anyone can check the math: supply, reserves, flows, and rules are verifiable without exposing identities.
 
-### 5.29 Institutional Architecture — Who Guards What
+## 5.29 Institutional Architecture — Who Guards What
 
 Entity Primary Function and Oversight Role Parliament / National Assembly Enacts the Civic Credits Act; appoints independent oversight boards; mandates public reporting.
 
@@ -1148,7 +1150,7 @@ Red-Team Consortium Universities and security firms paid to attack the system un
 
 Note: The Separation of Duties Matrix (RACI) is published in the public registry, detailing who is Responsible, Accountable, Consulted, and Informed for each control.
 
-### 5.30 Threat Model — Adversaries, Vectors, and Scenarios
+## 5.30 Threat Model — Adversaries, Vectors, and Scenarios
 
 Actors include ghost workers, identity thieves, collusive PEC staff, merchant cartels, malware authors, SIM-swap rings, politically exposed persons (PEPs), cross-border laundromats, and insider attackers.
 
@@ -1188,11 +1190,11 @@ E. Conversion Corridors (CC ↔ Fiat) Peg guardians and stabilization reserve op
 
 F. Device, App, and Supply-Chain Security Secure boot, remote attestation, MDM geo-fencing, tamper-evident seals, and SBOM tracking form end-to-end defense.
 
-### 5.32 Analytics, AI, and Human Oversight
+## 5.32 Analytics, AI, and Human Oversight
 
 Risk engines combine rule-based and ML detection (e.g., Benford, velocity, duplication) with explainability (SHAP values). Dual thresholds separate soft vs. hard blocks. Regional integrity teams adjudicate flags within SLA, with all decisions logged for ombuds review. Monthly integrity scorecards display flag rates, sanctions, and restitution metrics.
 
-### 5.33 Legal Framework, Sanctions, and Redress
+## 5.33 Legal Framework, Sanctions, and Redress
 
 - The Civic Credits Act defines offenses (false attestation, collusion, laundering, sabotage) and penalties (fines, claw-backs, suspensions, criminal referral).
 - Due process guarantees notice, evidence access, appeal rights, and independent tribunal oversight.
@@ -1200,15 +1202,15 @@ Risk engines combine rule-based and ML detection (e.g., Benford, velocity, dupli
 - Vendor sanctions include de-listing, bond forfeiture, and exclusion from public tenders.
 - Data rights include consent, access, portability, and deletion consistent with retention requirements.
 
-### 5.34 Incident Response, Continuity, and Resilience
+## 5.34 Incident Response, Continuity, and Resilience
 
 A 24/7 Security Operations Center (SOC) manages fraud spikes, peg stress, or outages. Hot-cold data centers maintain RPO≤5 minutes and RTO≤1 hour. Crisis modes trigger emergency earn rules and cash-out throttles. Root-cause analyses are published within 30 days of incidents.
 
-### 5.35 Community Accountability and Ethical Safeguards
+## 5.35 Community Accountability and Ethical Safeguards
 
 Open ledgers (aggregate view), citizen juries, equity audits, and dignity rules reinforce participatory trust. Verification avoids humiliation; human review rights are preserved for all automated decisions.
 
-### 5.36 Metrics That Prove Integrity
+## 5.36 Metrics That Prove Integrity
 
 No.
 
@@ -1226,7 +1228,7 @@ Equity indicators No systemic bias across demographic dimensions.
 
 Public trust index Derived from surveys and behavioral proxies.
 
-### 5.37 Deliverables
+## 5.37 Deliverables
 
 Deliverable Description Integrity Rulebook Legal definitions, sanctions ladder, and due-process guide.
 
@@ -1250,7 +1252,7 @@ Summary This framework treats fraud prevention as a constitutional function, not
 
 Comparative analysis also addresses the natural skepticism of policymakers: “Has anything like this ever worked?” The answer is yes—in Switzerland’s mutual credit system, Brazil’s conditional cash transfers, India’s guaranteed employment act, and other initiatives that transformed millions of lives. Civic Credits do not replace these ideas; they integrate their lessons into a unified, technologically mature, morally grounded model.
 
-### 5.39 Comparative Framework
+## 5.39 Comparative Framework
 
 Each international precedent is evaluated using six criteria:
 
@@ -1266,7 +1268,7 @@ Each international precedent is evaluated using six criteria:
 
 6\. Relevance to Civic Credits – lessons, design parallels, or divergences.
 
-### 5.40 Historical and Modern Case Studies
+## 5.40 Historical and Modern Case Studies
 
 1\. WIR Bank (Switzerland, 1934–present)
 
@@ -1349,7 +1351,7 @@ Each international precedent is evaluated using six criteria:
 - Observed Impacts: Mixed—strong compliance in EU ETS, weak integrity in voluntary markets.
 - Relevance: Proof of performance-based issuance; CC improves on this with human-verifiable, socialoutput backing.
 
-### 5.41 Comparative Findings
+## 5.41 Comparative Findings
 
 System Duration Backing Target Outcome Inflation fect WIR (CH) 90 yrs Mutual credit SME liquidity Neutral GDP volatility ↓ 25% Counter-cyclical proof Bolsa (BR) 20+ yrs Fiscal transfer Human capital Neutral Poverty ↓ 55% Conditional incentives MGNREGA (IN) 18 yrs Fiscal Employment Mildly (≤1%) Rural stability ↑ Civic work guarantee Alaska (US) 40 yrs Resource rents Income equity Neutral Poverty ↓ 20% Resource dividends M-Pesa (KE) 17 yrs Fiat-backed e-money Inclusion Neutral Access ↑ 80% Digital interoperability Eco-Money (JP) 25 yrs Service hours Cohesion Neutral Civic engagement ↑ Behavioral proof EU Pilots 10 yrs Time credits Inclusion Neutral Reemployment ↑ Social reintegration SDR (IMF) 55 yrs Currency basket Liquidity Neutral Crisis resilience ↑ Complementary asset Carbon Markets 25 yrs Emission units Sustainability Neutral GHG reduction (partial) Verified output model 5.42 Família Fund Efinfl.
 
@@ -1373,7 +1375,7 @@ Verified pact Im- Lesson for CC Global Readiness and Replicability 1. Policy Rea
 
 Under these preconditions, full deployment can occur within 36 months, mirroring digital ID and mobilepayment adoption in Kenya and India.
 
-### 5.43 Deliverables
+## 5.43 Deliverables
 
 1\. Comparative Case Matrix – database of 10 precedent systems with performance indicators.
 
@@ -1387,7 +1389,7 @@ Under these preconditions, full deployment can occur within 36 months, mirroring
 
 5.44 Macroeconomic Convergence and Global Policy Alignment Purpose The Civic Credit (CC) system is not a self-contained national innovation—it is a mechanism designed to harmonize with, and strengthen, the global economic architecture that governs stability, development, and sustainability. They are the convergence of proven models, scaled and unified under modern governance and digital precision. From Switzerland’s WIR to Brazil’s Bolsa Família, from Alaska’s oil dividends to Kenya’s M-Pesa, humanity has already tested each ingredient. Civic Credits are the synthesis: a global best-practice model that integrates financial stability, social equity, and environmental integrity into one measurable framework fit for the 21st century. To gain legitimacy, it must integrate with multilateral systems that define international monetary law, fiscal reporting, and development cooperation. This section establishes how Civic Credits align with the mandates of the IMF, World Bank, UNDP, OECD, and WTO, and how they can evolve into an accepted component of the international financial order.
 
-### 5.45 Global Economic Architecture Overview
+## 5.45 Global Economic Architecture Overview
 
 The post-Bretton Woods order rests on five institutional pillars:
 
@@ -1403,7 +1405,7 @@ The post-Bretton Woods order rests on five institutional pillars:
 
 Despite their success, systemic gaps remain: the global framework lacks a mechanism to monetize human capability directly, to translate verified social contribution into liquidity, and to align fiscal and environmental sustainability in real time. Civic Credits fill these gaps—linking verified service to measurable macroeconomic outcomes while remaining fully compliant with established institutional principles.
 
-### 5.46 IMF Compatibility
+## 5.46 IMF Compatibility
 
 A. Monetary Sovereignty and Article IV Under IMF Articles of Agreement, member nations retain exclusive sovereignty over domestic monetary systems provided they maintain external stability. Civic Credits operate as domestic complementary instruments, not as foreign-exchange substitutes or capital controls. They therefore comply fully with Article IV obligations on exchange stability and transparency.
 
@@ -1415,7 +1417,7 @@ C. SDR Linkage and Reserve Recognition A pathway exists for a future Civic-SDR c
 
 D. Article IV Surveillance Integration During annual consultations, IMF missions review CC macro effects—output elasticity, inflation correlation, and fiscal neutrality. Civic Credit performance dashboards are annexed to Article IV staff reports, ensuring peer review within the established global surveillance process.
 
-### 5.47 World Bank and UNDP Alignment
+## 5.47 World Bank and UNDP Alignment
 
 A. SDG Integration Civic Credits directly operationalize the Sustainable Development Goals:
 
@@ -1430,7 +1432,7 @@ C. Digital Public Infrastructure (DPI) Integration UNDP and the Digital Public G
 
 D. Climate and Nature Finance Compatibility CC issuance tied to reforestation, recycling, or renewable energy is eligible for accounting under Paris Agreement Article 6.8 (non-market approaches). By quantifying human participation in environmental action, Civic Credits add a social layer to existing carbon markets.
 
-### 5.48 OECD and G20 Policy Coherence
+## 5.48 OECD and G20 Policy Coherence
 
 A. Inclusive Growth Metrics OECD’s Better Life Index and Well-Being Dashboard provide empirical measures of equity and opportunity. Civic Credit indicators—capability formation, verified service, community participation—feed directly into these frameworks as quantifiable proxies for inclusive growth.
 
@@ -1438,7 +1440,7 @@ B. G20 Framework Compatibility Civic Credits complement the G20 Framework for St
 
 C. Corporate Reporting and ESG Standards OECD guidelines on responsible business conduct and the G20/OECD Principles of Corporate Governance can classify Civic Credit participation as a verified ESG (Environmental, Social, Governance) contribution. Companies funding CC programs or accepting CC payments can disclose these as measurable social impacts under IFRS S1/S2 sustainability reporting.
 
-### 5.49 WTO and Trade Compatibility
+## 5.49 WTO and Trade Compatibility
 
 A. Non-Discrimination and Subsidy Neutrality Civic Credits comply with WTO non-discrimination principles. CC earnings compensate citizens for verified domestic services, not for trade-distorting production. Thus, they do not qualify as actionable subsidies under the Agreement on Subsidies and Countervailing Measures (SCM).
 
@@ -1446,7 +1448,7 @@ B. Services and Digital Trade Under GATS Article V, countries may enter bilatera
 
 C. Intellectual Property and Data Governance CC’s open APIs and transparency align with TRIPS flexibilities for public interest technologies. Software patents and data standards are released under open licenses, consistent with WTO provisions for technology sharing in development contexts.
 
-### 5.50 Multilateral Integration Roadmap
+## 5.50 Multilateral Integration Roadmap
 
 1\. Stage 1 – Recognition: National governments include Civic Credits in UN DESA Financing for Development voluntary national reviews (VNRs).
 
@@ -1456,7 +1458,7 @@ C. Intellectual Property and Data Governance CC’s open APIs and transparency a
 
 4\. Stage 4 – Global Coordination: Formation of an International Civic Credit Registry (ICCR) under joint oversight of the IMF, UNDP, and People of the World, standardizing data reporting, parity algorithms, and cross-border ethics compliance.
 
-### 5.51 Quantitative Convergence Modeling
+## 5.51 Quantitative Convergence Modeling
 
 Using a 10-nation adoption model (G7 + 3 emerging economies), global simulations indicate:
 
@@ -1468,7 +1470,7 @@ Model Formulation:
 
 σY2 g = σY2 g,0 (1 − η · θ), (5.23) where η is the participation rate (fraction of workforce in CC), and θ is the elasticity of stabilization (≈ 0.5). Simulations confirm significant reduction in cross-country output variance, implying improved synchronization and resilience of global cycles.
 
-### 5.52 Deliverables
+## 5.52 Deliverables
 
 1\. Global Policy Alignment White Paper – detailed mapping of CC compliance with IMF, World Bank, UNDP, OECD, and WTO frameworks.
 

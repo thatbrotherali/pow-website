@@ -158,12 +158,19 @@ def build_hub():
         ("2048–2050", "Institutional maturity", "Governance made permanent and independent; the framework self-sustaining; poverty ended as a structural condition."),
     ])
 
-    proven = [("Paying for public work", "India's rural employment guarantee (since 2005) offers every rural household up to 100 days of paid public work a year.", "Civic employment can run alongside private jobs."),
-              ("Sharing resource wealth", "The Alaska Permanent Fund has paid eligible residents a yearly dividend from oil revenue since 1982.", "Public ownership of natural wealth can fund people directly."),
-              ("A parallel currency", "Switzerland's WIR system has let small businesses trade in their own complementary currency since 1934.", "A second currency can circulate alongside national money."),
-              ("Money on a phone", "Kenya's M-Pesa (since 2007) put mobile payments in the hands of most adults in a few years.", "Digital wallets can reach everyone, quickly."),
-              ("Rewarding verified effort", "Brazil's Bolsa Família (since 2003) pays families when children attend school and health check-ups.", "Payments tied to verified actions change lives at national scale.")]
-    proven_html = "".join(f'<li><strong>{esc(a)}</strong><span>{esc(b)}</span><span class="muted">What it shows: {esc(c)}</span></li>' for a, b, c in proven)
+    proven = [("Paying for public work", "India has guaranteed rural households paid public work since 2005: 100 days a year under MGNREGA, raised to 125 days by the law that replaced it in December 2025.", "Civic employment can run alongside private jobs, at national scale.", "vbg"),
+              ("Sharing resource wealth", "The Alaska Permanent Fund has paid eligible residents a yearly dividend from oil revenue since 1982. University of Alaska researchers estimate it lifted about 25,000 Alaskans out of poverty in 2015, about a third of the poverty that would otherwise have existed.", "Public ownership of natural wealth can fund people directly.", "iser"),
+              ("A parallel currency", "Switzerland's WIR has let small and medium businesses trade in their own complementary currency since 1934; more than 60,000 firms took part by the 2010s. Research finds its use rises when unemployment rises, steadying the economy in downturns.", "A second currency can circulate alongside national money, and help most when times are hard.", "levy"),
+              ("Money on a phone", "A study in Science found Kenya's M-Pesa mobile money lifted about 194,000 households, 2% of the country, out of extreme poverty from 2008, with the largest gains in households headed by women.", "Digital wallets can reach everyone, and change lives when they do.", "mit"),
+              ("Rewarding verified effort", "Brazil's Bolsa Família pays families who keep children in school and attend health check-ups. By 2013 it reached about 50 million people for around 0.6% of GDP, and Brazil's IPEA found it cut extreme poverty by about a quarter.", "Payments tied to verified actions change lives at national scale, cheaply.", "ipea")]
+    sources = {"vbg": ("Viksit Bharat–G RAM G Act, 2025", "https://en.wikipedia.org/wiki/Viksit_Bharat%E2%80%93Guarantee_for_Rozgar_and_Ajeevika_Mission_(Gramin)_Act,_2025"),
+               "iser": ("University of Alaska Anchorage, ISER: how PFDs reduce poverty", "https://www.uaa.alaska.edu/news/archive/2017/01/iser-research-matters-how-pfds-reduce-poverty-alaska"),
+               "levy": ("Levy Economics Institute, Policy Note 2016/1 (citing Stodder, 2009)", "https://levyweb.bard.edu/wp-content/uploads/2024/02/pn_16_1.pdf"),
+               "mit": ("MIT News: mobile money lifted Kenyans out of poverty (Suri and Jack, Science, 2016)", "https://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208"),
+               "ipea": ("World Bank: Bolsa Família, Brazil's quiet revolution", "https://www.worldbank.org/en/news/opinion/2013/11/04/bolsa-familia-Brazil-quiet-revolution"),
+               "ipea2": ("IPEA study, 2001–2017, reported by Money Times (Portuguese)", "https://www.moneytimes.com.br/bolsa-familia-reduziu-25-da-taxa-de-extrema-pobreza-aponta-ipea/")}
+    proven_html = "".join(f'<li><strong>{esc(a)}</strong><span>{esc(b)}</span><span class="muted">What it shows: {esc(c)}</span></li>' for a, b, c, _ in proven)
+    sources_html = "".join(f'<li><a href="{u}" rel="noopener">{esc(t)}</a></li>' for t, u in sources.values())
 
     packs = [("Everyday people", "What changes for you and your family."), ("Community leaders", "Running Civic Credits and PECs locally."),
              ("Entrepreneurs", "Accepting credits and building on LifeLink."), ("Governments", "Pilots, policy and national rollout."),
@@ -171,9 +178,11 @@ def build_hub():
              ("Scientists and economists", "The mechanics and the questions pilots must answer.")]
     pack_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in packs)
     faq = [("Is People of the World political?", "No. It is structural and moral, not partisan. The plan is written so that any government, of any party, could pilot it."),
-           ("Do Civic Credits replace money?", "No. They run alongside national currency at one-to-one parity, on the same card terminals and online payment systems. Workers and employers can choose them, and can switch back to ordinary wages."),
+           ("Do Civic Credits replace money?", "No. They run alongside national currency at one-to-one parity, on the same card terminals and online payment systems. Choosing to work for credits is voluntary for workers and employers, and either can switch back to ordinary wages."),
+           ("Do businesses have to accept them?", "Using credits is a choice; being able to spend them is built in. Governments take credits for taxes, fees and public services, payment networks carry them beside cards, and a national rollout has registered businesses accept them at parity, so a credit always spends."),
            ("Isn't this just printing money?", "No. A credit is created only after real work has been verified, so new spending power appears at the same moment as new services: more nurses at work, more teachers in classrooms, more homes repaired."),
-           ("Where does the value come from?", "From three anchors: the work already done, governments accepting credits for taxes and fees, and merchants being able to exchange credits for dollars at parity. Revenue from the commons (natural resources and public utilities) backs that exchange."),
+           ("Where does the value come from?", "From three anchors: the work already done, governments accepting credits for taxes and fees, and merchants being able to exchange credits for dollars at parity."),
+           ("Who pays for it?", "No single source. Credits are created against work, so they need no upfront budget; what needs funding is the reserve behind the cash-out guarantee and the centres themselves. The plan draws on several layers: revenue from natural resources and public utilities, the taxes and fees paid in credits, the centres' own enterprises, public and development-bank investment, and partners. Each country sets its mix, and it adjusts as conditions change."),
            ("Does everyone have to join a PEC?", "No. PECs are for people who need help or want a structured path forward."),
            ("Do I have to pay for LifeLink?", "No. LifeLink is provided to every citizen, as an app on a phone you already have or as a free device."),
            ("Has it been tried?", "Not as a whole system yet; that is what the pilots are for. Each of its parts has precedents that already work, from public employment guarantees to resource dividends and mobile money."),
@@ -233,7 +242,8 @@ def build_hub():
 <p class="muted">The design also keeps the risks small. Credits exist only after work is done. They run on the payment systems shops already use. The pilots start with one or two sectors in a region, publish their results, and pass a review gate before anything grows.</p>
 <p class="muted">What isn't proven yet is the whole system working as one. That is exactly what the pilots are for.</p>
 </div>
-<ul class="proof" style="flex:1.4 1 460px;min-width:0">{proven_html}</ul>
+<div class="stack" style="flex:1.4 1 460px;min-width:0;gap:14px"><ul class="proof">{proven_html}</ul>
+<details class="sources"><summary>Sources</summary><ul>{sources_html}</ul></details></div>
 </div></section>
 
 <section id="library" class="section band-alt"><div class="wrap stack" style="gap:24px;max-width:980px">
@@ -320,6 +330,20 @@ def build_civic_credits():
     rollout = timeline([("Launch", "One or two sectors per region", "For example nursing aides and home repairs, with strict parity and instant redemption for merchants."),
                         ("Prove", "Publish weekly results", "Staffing up, waiting times down, redemption stable: the evidence that builds trust."),
                         ("Grow", "Expand acceptance and sectors", "More public-sector acceptance points first, then more sectors as the data supports it.")])
+    layers = [("Work-backed issuance", "Credits are created only against verified work and return through taxes, fees and public services. The value is the work itself.", "No budget needed for the credit"),
+              ("The commons dividend", "Revenue from natural resources and public utilities, logged in plain units (kilowatt-hours, litres, tonnes, gigabytes) and converted on a published schedule. The funding paper's split: 60% to the workers who run those systems, 20% to maintenance and infrastructure, 20% to a community dividend for the centres, healthcare and education.", "Backs the reserve and the centres"),
+              ("Resource and licence fees", "Fees on companies that extract or use public resources, higher for finite resources like minerals and oil than for renewable ones like timber.", "Feeds the stabilisation reserve"),
+              ("The stabilisation reserve", "Guarantees that any merchant can exchange credits for dollars at parity, with its coverage published daily. As more taxes and supplier bills are paid in credits, the pressure to cash out falls.", "Keeps the peg credible"),
+              ("Centre enterprises", "Each centre's own goods and services, surplus renewable energy, training contracts, public-works contracts and recycling. The 2025 edition targets 80–100% of a centre's running costs from these by year 10.", "Makes the centres self-sustaining"),
+              ("Investment and partners", "Public budgets for education, health and labour; development banks through results-based loans and social bonds; philanthropy paid out only when credits for verified work are issued; and licence fees from organisations that build on the plan.", "Builds the first centres and systems")]
+    layers_html = "".join(f'<li><span class="step-label">{esc(c)}</span><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b, c in layers)
+    part = [("Workers", "Choose roles paid in credits, or stay on ordinary wages. They can switch back."),
+            ("Employers", "Opt in by signing a standard addendum; their timekeeping and quality checks stay the same."),
+            ("Governments", "Accept credits for taxes, licences, fees, transit and utilities: the first and strongest guarantee of value."),
+            ("Payment networks", "Carry a Civic Credit lane beside debit and credit, with a software update to existing terminals."),
+            ("Businesses", "In a national rollout, registered merchants accept credits at parity. They can keep them to pay taxes and suppliers, or cash them out."),
+            ("Citizens in need", "Joining a Poverty Elimination Center is always a choice, never a condition.")]
+    part_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in part)
     lecture = LP.working_url({"programme": "civic-credits", "title": "Ending Poverty by 2050: Civic Credits, Explained"})
     guide = LP.working_url({"programme": "civic-credits", "title": "Civic Credits, Simply"})
     paper = LP.working_url({"programme": "civic-credits", "title": "Civic Credits: A Debt-Free Employment and Settlement System for Essential Work"})
@@ -356,14 +380,29 @@ def build_civic_credits():
 <div class="grid grid-3">{anchors_html}</div>
 </div></section>
 
-<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px">
-<div class="stack" style="flex:1 1 340px;min-width:0"><p class="eyebrow muted">Who pays?</p>
-<h2 class="h-lg">The commons pays its people.</h2>
-<p class="lead muted">No one created the land, the water, the minerals or the air. Under the <a href="{charter}">Civic Charter for Resources</a>, natural resources are the shared inheritance of everyone, held in trust by government, and the value they produce flows back to the people as Civic Credits.</p>
-<p class="muted">Resource and utility output is logged in plain units (kilowatt-hours, litres, tonnes, gigabytes) and converted to credits on a published schedule. The funding paper sets the split: 60% to the workers who run the system, 20% to maintenance and infrastructure, and 20% to a community dividend for the centres, healthcare and education.</p></div>
+<section id="funding" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><p class="eyebrow muted">Who pays?</p>
+<h2 class="h-lg">No single source, and no new debt.</h2>
+<p class="lead muted">A credit is created against work already done, so the credit itself needs no budget. What needs funding is the reserve that lets shops cash credits out at parity, and the centres and systems that run the plan. These rest on several layers, so no one source can bring the system down. Each country sets its own mix and adjusts it as conditions change.</p></div>
+<ol class="layers">{layers_html}</ol>
+<p class="muted" style="font-size:15px">The foundation is the <a href="{charter}">Civic Charter for Resources</a>: no one created the land, the water, the minerals or the air, so the value they produce belongs to everyone and flows back as Civic Credits. Alaska has paid a resource dividend to its residents since 1982; see <a href="builders.html#possible">what already works</a>.</p>
+</div></section>
+
+<section id="pay" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px">
+<div class="stack" style="flex:1 1 340px;min-width:0"><p class="eyebrow muted">What a credit pays</p>
+<h2 class="h-lg">Every role has a published rate.</h2>
+<p class="lead muted">A Role Standards Board defines each role and its rate from current market data, reviews the rates every quarter, and publishes them for public comment.</p>
+<p class="muted">Pilots start at today's going rate, so nothing is disrupted on day one. Reviews then move each rate toward the full value society already pays for the work: where a contractor bills $40 an hour for a technician it pays $20, the work is worth $40. Disputes go to an independent tribunal.</p>
+<p class="muted">Communities can propose new roles. If the work has a measurable public benefit and can be verified, it can be added.</p></div>
 <div class="stack" style="flex:1 1 340px;min-width:0"><p class="eyebrow muted">What work earns credits</p>
-<ul class="packs" style="grid-template-columns:1fr">{dom_html}</ul>
-<p class="muted" style="font-size:15px">A Role Standards Board publishes role definitions and rates, updated against market data. Communities can propose new roles; if the work has a measurable public benefit and can be verified, it can be added.</p></div>
+<ul class="packs" style="grid-template-columns:1fr">{dom_html}</ul></div>
+</div></section>
+
+<section id="participation" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><p class="eyebrow muted">Who takes part</p>
+<h2 class="h-lg">Choosing credits is voluntary. Spending them is guaranteed.</h2>
+<p class="lead muted">No one is made to work for credits, and no one is made to join a centre. But a credit is only useful if it spends everywhere, so acceptance is built into the system.</p></div>
+<ul class="packs">{part_html}</ul>
 </div></section>
 
 <section class="section"><div class="wrap stack" style="gap:28px">

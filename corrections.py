@@ -23,8 +23,8 @@ BRIDGE = ("Notation used in the corrections. The framework uses “graviton pres
 CORR = {}
 
 
-def fix(slug, notes, edits, bridge=True):
-    CORR[slug] = {"notes": ([BRIDGE] if bridge else []) + notes, "edits": edits}
+def fix(slug, notes, edits, bridge=True, kind="equations"):
+    CORR[slug] = {"notes": ([BRIDGE] if bridge else []) + notes, "edits": edits, "kind": kind}
 
 
 # ---------------------------------------------------------------- From General Relativity to GPT (2025)
@@ -380,6 +380,18 @@ fix("operational-constraints-of-the-ep", [
 ], [
     (r"\alpha = \int_{-\infty}^{\infty} \frac{\partial n}{\partial b}\, dz", r"\alpha = -\int_{-\infty}^{\infty} \frac{\partial n}{\partial b}\, dz"),
 ], bridge=False)
+
+
+# ---------------------------------------------------------------- The Plan to End Poverty, Chapter 5: sources and modelled figures
+fix("plan-chapter-05", [
+    "Section 5.21 (Results Summary): these figures are outputs of the plan's economic model under its two scenarios, not observed results. They show what the model predicts if its assumptions hold; the pilots are designed to test them.",
+    "Section 5.40, WIR Bank: more than 60,000 participating firms is supported for the 2010s (Levy Economics Institute, Policy Note 2016/1, citing Stodder 2009, which also finds WIR use rises with unemployment). The figure of 1.5% of Swiss GDP could not be confirmed.",
+    "Section 5.40, Bolsa Família: the figures 'poverty reduced by 55%', 'Gini 0.58 to 0.51' and 'school attendance +10%' could not be confirmed. Published figures: IPEA (2019, covering 2001–2017) found extreme poverty about 25% and poverty about 15% lower than without the programme, and a contribution of about 10% to the fall in inequality; the World Bank (2013) reports about 50 million people reached at about 0.6% of GDP.",
+    "Section 5.40, MGNREGA: in December 2025 India replaced MGNREGA with the Viksit Bharat–G RAM G Act, which guarantees 125 days of work a year instead of 100. The figures of over 60 million workers and 1.3% of GDP need a dated source.",
+    "Section 5.40, Alaska Permanent Fund: University of Alaska (ISER) researchers estimate the dividend lifted about 25,000 Alaskans out of poverty in 2015, about a third of the poverty that would otherwise have existed, and has reduced poverty by 2.5 to 4 percentage points a year since 1990. The '20%' figure does not match this, and the dividend amount varies from year to year.",
+    "Section 5.40, M-Pesa: Suri and Jack (Science, 2016) found M-Pesa lifted about 194,000 Kenyan households, 2% of the total, out of extreme poverty, with the largest gains in households headed by women. The figures of 96% of households, transactions equal to 50% of GDP and 11% growth in female-led businesses need sources.",
+    "Section 5.40, other cases: the participation figure for Japan's Eco-Money and the re-employment figures for European pilots have not yet been verified. The SDR and carbon-market totals are broadly in line with published figures, which change every year.",
+], [], bridge=False, kind="notes")
 
 
 def untriple(html, texs):

@@ -183,6 +183,9 @@ def build(B):
         items = "".join(f"<li>{esc(n)}</li>" for n in fixes if not n.startswith("Notation"))
         bridge = next((n for n in fixes if n.startswith("Notation")), "")
         orig = " The original PDF is unchanged." if e["pdf"] else ""
+        if corrections.CORR.get(e["slug"], {}).get("kind") == "notes":
+            return (f'<details class="ai-note corrections" style="margin:1.2em 0"><summary><strong>Editor\'s notes, October 2026</strong> · '
+                    f'which figures on this page are modelled, and what published sources show for the case studies.</summary><ul>{items}</ul></details>')
         return (f'<details class="ai-note corrections" style="margin:1.2em 0"><summary><strong>Editor\'s corrections, October 2026</strong> · '
                 f'some equations on this page were corrected at the author\'s request.{orig}</summary><ul>{items}</ul>'
                 + (f'<p class="muted" style="font-size:14.5px">{esc(bridge)}</p>' if bridge else "") + "</details>")
@@ -263,7 +266,8 @@ def build(B):
             import subprocess
             body_md = subprocess.run(["pandoc", "-f", "html", "-t", "gfm", "--wrap=none"], input=frag, capture_output=True, text=True, check=True).stdout
             head = md.split("\n\n")[0:3]
-            md = "\n\n".join(head) + "\n\n> Editor's corrections (October 2026): " + " ".join(fixes[1:] if fixes[0].startswith("Notation") else fixes) + "\n\n" + body_md
+            label = "Editor's notes" if corrections.CORR.get(e["slug"], {}).get("kind") == "notes" else "Editor's corrections"
+            md = "\n\n".join(head) + f"\n\n> {label} (October 2026): " + " ".join(fixes[1:] if fixes[0].startswith("Notation") else fixes) + "\n\n" + body_md
         (B.OUT / e["url"] / "index.md").write_text(
             md.rstrip() + f"\n\n---\nSource: {B.SITE_URL}/{e['url']}\nCite as: {citation(e)}\n", encoding="utf-8")
 
