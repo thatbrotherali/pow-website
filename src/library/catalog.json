@@ -369,9 +369,9 @@
    "slug": "logical-closure-of-the-ep",
    "title": "The Logical Closure of the Equivalence Principle",
    "subtitle": "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism",
-   "words": 18337,
+   "words": 18959,
    "lead": "The Equivalence Principle has a lineage that predates Einstein. Galileo, in his thought experiments with falling bodies, recognized that all objects fall at the same rate regardless of their composition—a fact that should be deeply puzzling if gravity is a force proportional to mass, since inertia is also proportional to mass. Newton noted the coincidence of gravitational and inertial mass but could not explain it. The proportionality was a mystery: why should the quantity that determines how strongly gravity pulls on an object be exactly the same as the quantity that determines how strongly the object resists being accelerated?",
-   "source": "The_Logical_Closure_of_the_EP.pdf",
+   "source": "LaTeX source (second edition)",
    "pdf": true
   },
   {

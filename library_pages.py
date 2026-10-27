@@ -16,7 +16,7 @@ DATES = {"framework": "2025-06-12", "transitional-mechanics": "2025-06-12", "wha
          "not-alternative-gravity": "2026-01-03", "audit-questions": "2026-01-03",
          "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026-10-03", "paradox-of-the-boulder": "2026",
          "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-10-12",
-         "logical-closure-of-the-ep": "2026-10-21", "operational-constraints-of-the-ep": "2026-10-21",
+         "logical-closure-of-the-ep": "2026-10-28", "operational-constraints-of-the-ep": "2026-10-28",
          "plan": "2025", "new-morality": "2025-07-28", "cosmic-mind": "2025-03-08"}
 
 PAPERS = [  # order, plain description

@@ -382,11 +382,6 @@ fix("operational-constraints-of-the-ep", [
 ], bridge=False)
 
 
-# ---------------------------------------------------------------- The Logical Closure of the EP: density near a mass
-fix("logical-closure-of-the-ep", [
-    "Density near a mass (Section 6.3, working hypothesis, October 2026): the section says the medium's density is lower near Earth and lower still inside it. The framework now separates two things. The count of gravitons rises toward a mass, because the inflow converges (continuity requires it). The active pressure, which pushes the medium and bodies inward, falls toward the mass, because the inflow mixes with phase-neutralized gravitons ejected by matter, which exert no pressure. Inside matter, absorption depletes the active population. Read \"density\" in 6.3 as active pressure. The equation of state behind this is still to be derived; see The Operational Constraints of the Equivalence Principle, Continuity section.",
-], [], bridge=False, kind="notes")
-
 # ---------------------------------------------------------------- The Plan to End Poverty, Chapter 5: sources and modelled figures
 fix("plan-chapter-05", [
     "Section 5.21 (Results Summary): these figures are outputs of the plan's economic model under its two scenarios, not observed results. They show what the model predicts if its assumptions hold; the pilots are designed to test them.",
