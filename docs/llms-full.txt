@@ -2668,7 +2668,15 @@ In the rocket, the upward normal force is an active consequence of the engine's 
 
 This redefinition leaves a lethal mechanical deficit. The normal force is, by definition in atomic physics, a secondary, reactive force. Electromagnetic repulsion between electron clouds only activates when those clouds are compressed together by an external force. The ground's atoms cannot push upward unless they are first subjected to a downward mechanical stress.
 
-None \[ General Relativity: Closed Loop \] Geodesic Abstraction ──► Normal Force (Upward Push) ──► Felt Weight ──► Back to Geodesic \[ Causal Requirement: Linear Chain \] Downward Influx ──► Physical Compression ──► Reactive Normal Force ──► Mechanical Equilibrium GR attempts to resolve this by treating the geodesic as a physical cause: the ground must push up because the default state of spacetime curves downward. But a geodesic is a mathematical trajectory—a solution to a differential equation given the distribution of mass-energy. A trajectory cannot exert mechanical pressure. A mathematical description cannot physically compress an atomic lattice. By eliminating the downward gravitational force without replacing it with a localized physical surrogate, GR creates a scenario where the occupant's spine is physically compressed, yet there is zero mechanical momentum moving downward to initiate that compression. The theory provides a reactive force (the normal force) without an active initiator; it provides an energy-intensive physical condition (continuous tissue stress) without an underlying energetic ledger to maintain it.
+```
+[ General Relativity: Closed Loop ]
+
+  Geodesic Abstraction ──► Normal Force (Upward Push) ──► Felt Weight ──► Back to Geodesic
+
+[ Causal Requirement: Linear Chain ]
+
+  Downward Influx ──► Physical Compression ──► Reactive Normal Force ──► Mechanical Equilibrium
+```
 
 The planetary account is therefore causally vacant. It uses the mathematical abstraction of geometry to hide the fact that it has left a real physical effect—the downward compression of matter—entirely without a localized physical cause.
 
@@ -3008,7 +3016,20 @@ When a massive primary body (such as a star or planet) rotates, its mass impedan
 
 An orbiting secondary body (such as a planet or moon) is not merely a passive test mass reacting to this gradient. It possesses its own mass impedance and is simultaneously executing its own intake-sorting-ejection cycle, generating its own unique, smaller pulsed shell of outgoing gravitons.
 
-None \[ Rotating Primary Mass \] \[ Orbiting Secondary Mass \] (Asymmetric Rotation) (Mass Impedance Sink) │ │ Outward Pulsed Wave Outward Pulsed Wave of Neutralized Flux of Neutralized Flux ▼ ▼ ▓▓▓▓▓▓▓▓▓▓▓ \[ INTERACTION ZONE \] ▓▓▓▓▓▓▓▓▓▓▓ (Dynamic Standing Wave) │ ▼ \[ Self-Correcting Equilibrium \] (Locks the body into the shell) When the primary body’s rotational pulse encounters the secondary body’s outward flux, the two localized shells do not passively overlap. Instead, the interaction of these phase-altered wavefronts creates a structured interference pattern—a localized standing wave of localized field density—in the zone between the two masses.
+```
+[ Rotating Primary Mass ]            [ Orbiting Secondary Mass ]
+  (Asymmetric Rotation)                (Mass Impedance Sink)
+           │                                     │
+  Outward Pulsed Wave                  Outward Pulsed Wave
+  of Neutralized Flux                  of Neutralized Flux
+           ▼                                     ▼
+     ▓▓▓▓▓▓▓▓▓▓▓    [ INTERACTION ZONE ]   ▓▓▓▓▓▓▓▓▓▓▓
+                   (Dynamic Standing Wave)
+                              │
+                              ▼
+               [ Self-Correcting Equilibrium ]
+               (Locks the body into the shell)
+```
 
 This interaction zone establishes the physical conditions of Orbital Shell Equilibrium:
 
