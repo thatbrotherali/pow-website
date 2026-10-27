@@ -879,14 +879,19 @@ def build_easykey():
     legend_html = "".join(f'<li>{ek_icon(k)}<span><strong>{esc(t)}</strong><span class="muted" style="font-size:15px">{esc(d)}</span></span></li>' for k, t, d in legend)
     months = ["A", "B♭", "B", "C", "D♭", "D", "E♭", "E", "F", "F♯", "G", "A♭"]
     months_html = "".join(f"<li><span>Month {i}</span><b>{m}</b></li>" for i, m in enumerate(months, 1))
+    progs = [("6 weeks · ages 8–18", "Introduction to Piano or Keyboard", "For young people with no musical training: the layout of the keyboard, the names of every key, what a scale and a key are, and six songs to memorise and play."),
+             ("6 or 12 months · all ages", "Learning to Play the EasyKey Way", "The full course: scales, arpeggios, block chords and chord patterns in six or all twelve major keys, with songs for each key."),
+             ("6 or 12 weeks · ages 8–25", "Improvisation and Songwriting Workshop", "For aspiring songwriters with a MIDI keyboard and a computer: writing, key changes, mixing and mastering, ending with finished songs as MIDI, WAV and MP3.")]
+    ek_programmes = "".join(f'<div class="card"><span class="step-label">{esc(w)}</span><span class="h-md" style="font-family:var(--display)">{esc(t)}</span><span class="muted">{esc(d)}</span></div>' for w, t, d in progs)
     body = f"""{header("EasyKey Music", "Visual music notation by People of the World", [("Try it", "#lesson", False, None), ("How to read it", "#read", False, None),
-                        ("The course", "#course", False, None), ("Converter", "easykey/converter/", True, None)])}
+                        ("The course", "#course", False, None), ("Centers", "easykey/centers/", False, None), ("Converter", "easykey/converter/", True, None)])}
 <main>
 <section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 64px">
 <div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
 <p class="eyebrow accent">EasyKey Music</p>
 <h1 class="h-xl">See the key. Press the key.</h1>
 <p class="lead muted" style="max-width:620px">EasyKey writes music as a picture of the piano. Each column is a key, each row is a beat, and you read from top to bottom. If you can find a key, you can play a song, with no staff, clefs or note names to learn first.</p>
+<p class="muted" style="max-width:620px">Millions now learn piano from falling-notes videos and apps. EasyKey is that same picture of the keyboard as a written method: something you can print, write in, mark up and share.</p>
 <div class="actions"><a class="btn btn-door" href="#lesson">Play your first song</a><a class="btn btn-ghost" href="#read">How to read it</a></div>
 </div>
 <div class="ek-paper ek-hero" aria-hidden="true">{ek_hero_svg()}</div>
@@ -945,14 +950,32 @@ def build_easykey():
 <div class="actions"><a class="btn btn-door" href="easykey/converter/">Open the converter</a></div>
 </div>
 <div class="card" style="flex:1 1 300px"><span class="h-md" style="font-family:var(--display)">Teachers and schools</span>
-<span class="muted" style="font-size:15px">Families and learners use EasyKey freely. If you teach paid lessons or run classes with it, ask about a teaching licence and class sets of the book.</span>
+<span class="muted" style="font-size:15px">Families and learners use EasyKey freely. If you teach paid lessons or run classes with it, ask about a teaching licence, the EasyKey Champions teacher programme, and class sets of the book.</span>
 <span class="copy-row" style="margin-top:6px"><span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div></section>
+
+<section id="programmes" class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">Lessons for groups and classes</h2>
+<p class="lead muted">Three ready-written programmes for schools, community groups and teachers, with classroom wall charts to go with them.</p></div>
+<div class="grid grid-3">{ek_programmes}</div>
+<div class="card"><span class="h-md" style="font-family:var(--display)">Scale and chord wall charts</span>
+<span class="muted">A3 charts for home or classroom. Each Scale and Chord Diagram shows one major key's scale, its root chords and three common chord patterns on one page. The Chord Dictionary shows fifteen common chords for every key.</span>
+<span class="copy-row" style="margin-top:6px"><span class="muted" style="font-size:15px">Programmes and charts on request:</span> <span style="font-weight:600">{CONTACT}</span><button class="copy-btn copy-btn-light" type="button" data-copy="{CONTACT}">Copy</button></span></div>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">The vision</p>
+<h2 class="h-lg">EasyKey Music Centers</h2>
+<p class="lead muted">Walk-in music spaces in shopping centres and cultural areas, where children learn while parents shop, music students are paid to teach, and the community gathers to play. They don't exist yet, and we're looking for the people who can help build the first one.</p>
+<div class="actions"><a class="btn btn-door" href="easykey/centers/">See the vision</a><a class="btn btn-outline" href="easykey/centers/#join">Count me in</a></div>
+</div></div></section>
 
 <section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
 <h2 class="h-lg" style="flex:1 1 300px">Why it exists</h2>
 <div class="stack" style="flex:2 1 460px;min-width:0">
-<p class="lead muted">Shareef Ali Rashada taught himself piano from library books and found traditional notation slow going, even as a friend played beautifully by ear without reading a note. He started drawing songs on graph paper as pictures of the keys, and the drawings became EasyKey.</p>
+<p class="lead muted">Shareef Ali Rashada taught himself piano from library books and found traditional notation slow going, even as a friend played beautifully by ear without reading a note. He started drawing songs on graph paper as pictures of the keys, and over more than 20 years the drawings became EasyKey.</p>
+<p class="muted">In 2016 EasyKey made Shareef a finalist in the Moreton Bay Regional Council Innovation Awards.</p>
 <p><a href="music.html" style="font-weight:600">Hear the music that came out of it →</a></p>
 </div></div></section>
 
@@ -961,6 +984,8 @@ def build_easykey():
 {footer("easykey")}
 <script src="assets/easykey-lesson.js" defer></script>"""
     page("easykey.html", "EasyKey Music", "EasyKey visual music notation: see the key, press the key. Play your first song free in the browser, learn to read the grid, and convert MIDI files to EasyKey.", body, "easykey")
+    import sys, easykey_centers
+    easykey_centers.build(sys.modules[__name__])
 
 
 def build_about():
@@ -1007,7 +1032,7 @@ def build_about():
 <dt>From</dt><dd>United States</dd>
 <dt>Based in</dt><dd>Queensland, Australia, for more than two decades</dd>
 <dt>Organisations</dt><dd>People of the World · POW Productions Pty Ltd · EasyKey Music</dd>
-<dt>Award</dt><dd>Literary Titan Silver Book Award, <em>The Portal Opens</em></dd>
+<dt>Awards</dt><dd>Literary Titan Silver Book Award, <em>The Portal Opens</em> · Finalist, Moreton Bay Regional Council Innovation Awards 2016, for EasyKey</dd>
 <dt>Contact</dt><dd>{CONTACT}</dd>
 </dl>
 </div>
@@ -1034,11 +1059,11 @@ def build_support():
                 ("Poverty Elimination Centers", "Training programmes and facilities.", "$300,000"),
                 ("Residential Centers", "Land and first construction for sustainable living.", "$500,000"),
                 ("LifeLink tablet", "Research and development of the communication device.", "$100,000"),
-                ("EasyKey Music Practice Centers", "Music education spaces in cities.", "$150,000"),
+                ("EasyKey Music Centers", "Walk-in music spaces in shopping and cultural areas. <a href=\"easykey/centers/\">See the vision</a>", "$150,000"),
                 ("Creative Computing Centers", "Technology and staff for digital creation hubs.", "$200,000"),
                 ("Digital educational programming", "Courses that unite spiritual and secular learning.", "$100,000"),
                 ("Debate platform", "AI-moderated discussion for informed decisions.", "$75,000")]
-    rows = "".join(f"<tr><th scope=\"row\">{esc(a)}<span class=\"muted\">{esc(b)}</span></th><td>{esc(c)}</td></tr>" for a, b, c in projects)
+    rows = "".join(f"<tr><th scope=\"row\">{esc(a)}<span class=\"muted\">{b}</span></th><td>{esc(c)}</td></tr>" for a, b, c in projects)
     tiers = [("$10–49", "Supporter", "A thank-you email and regular updates on progress."),
              ("$50–199", "Builder", "Everything above, plus a digital copy of a POW book and access to members-only content."),
              ("$200+", "Founder circle", "Everything above, plus a signed print copy, the album Music to Ease Your Mind, and a personal thank-you from Shareef.")]

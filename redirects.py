@@ -56,7 +56,7 @@ OLD_PAGES = {
     "PEC": PLAN + "poverty-elimination-centers/", "PEC - Details": PLAN + "poverty-elimination-centers/",
     "LIFELINK": PLAN + "lifelink/",
     "POVERTY ELIMINATION": "builders.html", "Download Pack": "builders.html#packs",
-    "MUSIC": "music.html", "LESSONS": "easykey.html", "LEARNING CENTERS": "easykey.html", "EasyKey Converter": "easykey/converter/",
+    "MUSIC": "music.html", "LESSONS": "easykey.html", "LEARNING CENTERS": "easykey/centers/", "EasyKey Converter": "easykey/converter/",
 }
 # Real addresses seen in search results (Wix sometimes names a page's address differently from the page)
 SEEN = {"literature": "books.html#novel", "pow-the-novel": "books.html#novel", "message-from-shareef": "about.html",
@@ -78,7 +78,7 @@ SITEMAP = {
     "part-8-gr-vs-gpt": FW + "part-08-defining-the-break/", "message-from-gabriel": "read-introduction.html",
     "copy-of-part-27-transitional-mechanics": PAPERS + "transitional-mechanics/", "part-15-the-graviton": FW + "part-15-gravitons/",
     "free-framework-for-the-gpt": FW, "podcast": "videos.html", "ai-pathway-for-gpt": GPT, "the-portal-opens": "seekers.html",
-    "the-new-morality": "new-morality/", "learning-centers": "easykey.html", "part-24-gpt-unit-system": FW + "part-24-gpt-unit-system/",
+    "the-new-morality": "new-morality/", "learning-centers": "easykey/centers/", "part-24-gpt-unit-system": FW + "part-24-gpt-unit-system/",
     "part-27-transitional-mechanics": PAPERS + "transitional-mechanics/", "what-you-can-do-now": "support.html", "part-5-gpt": FW + "part-05-graviton-pressure-theory/",
     "planetary-mechanics": FW + "part-26-planetary-mechanics/", "the-portal-opens-pdf-and-audiobook": "read.html", "poverty-elimination": "builders.html",
     "graviton-pressure-theory-gpt": FW + "part-05-graviton-pressure-theory/", "graviton-coherence": FW + "part-19-graviton-coherence/",
