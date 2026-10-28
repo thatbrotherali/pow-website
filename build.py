@@ -24,8 +24,8 @@ FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400
 DOORS = [
     # slug, css door, audience label, question, blurb, cta
     ("seekers", "seekers", "For seekers", "Searching for meaning?",
-     "The Portal Opens tells the untold history of Earth: Jesus, Lucifer, Adam and Eve, and Melchizedek. Free to read.",
-     "Read it free"),
+     "Why we search, the voice within, and the thread through every faith. Free weekly teachings and The Portal Opens, free to read.",
+     "Begin here"),
     ("urantia", "urantia", "For Urantia Book readers and their families", "Loved the Urantia Book?",
      "Michael, Lucifer, Caligastia, Adam and Eve and Melchizedek in their own voices. New for readers, gentle for newcomers, easy to share.",
      "Find your way in"),
@@ -45,7 +45,7 @@ DOORS = [
      "The Open Library holds every book, paper and plan, free to read in plain text for people, search engines and AI systems.",
      "Open the library"),
 ]
-DOOR_NAMES = {"seekers": "The Portal Opens", "urantia": "For Urantia readers", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
+DOOR_NAMES = {"seekers": "The Search for Meaning", "urantia": "For Urantia readers", "science": "Graviton Pressure Theory", "builders": "End Poverty by Design",
               "music": "That Brother Ali", "easykey": "EasyKey Music", "ai": "The Open Library"}
 
 esc = lambda s: html.escape(s, quote=True)
@@ -414,19 +414,76 @@ def build_seekers():
 <span class="h-md" style="font-family:var(--display)">{esc(t)}</span>
 <span class="muted" style="font-size:15px;line-height:1.55">{esc(b)}</span><span class="card-cta">Read this part →</span></a>""" for f, n, t, b, _ in parts)
     vband, vld = video_band('seekers', 'Watch', 'seekers.html', 'Short films on The Portal Opens and the light within.', True)
-    body = f"""{header("The Portal Opens", "by People of the World", [("Read free", "read.html", False, None), ("Ten steps", "ten-steps.html", False, None),
-                        ("Glossary", "glossary.html", False, None), ("Buy the book", "#buy", True, None)])}
+    faiths = [("Christianity", "“The kingdom of God is within you.”", "Luke 17:21, King James Version"),
+              ("Judaism", "“The spirit of man is the candle of the Lord, searching all the inward parts.”", "Proverbs 20:27, King James Version"),
+              ("Islam", "“We are closer to him than his jugular vein.”", "Qur’an 50:16"),
+              ("Hinduism", "“Tat tvam asi”: that thou art. The self within is one with the infinite.", "Chandogya Upanishad 6.8.7"),
+              ("Buddhism", "All living beings have Buddha-nature: the seed of awakening is already within.", "Mahayana Mahaparinirvana Sutra"),
+              ("The Society of Friends", "“Walk cheerfully over the world, answering that of God in every one.”", "George Fox, 1656")]
+    faith_html = "".join(f"""<div class="card"><span class="step-label">{esc(t)}</span><span class="quote" style="font-size:1.25rem;line-height:1.4">{esc(q)}</span><span class="muted" style="font-size:14px">{esc(src)}</span></div>""" for t, q, src in faiths)
+    offers = [("The weekly teachings", "A short teaching by email each week for 14 weeks, beginning with the voice within and ending with the ten steps for living it.", "#teachings", "Start the teachings"),
+              ("Ten steps for humanity", "Practical steps from Adam and Eve's message to Earth: unity, stillness, forgiveness, service, courage for truth. Something to do this week.", "ten-steps.html", "Read the ten steps"),
+              ("The Portal Opens", "The history behind the world as it is: Jesus, Lucifer, Adam and Eve, and the choice still before us. Free to read online, or to hear as an audiobook of 63 chapters.", "read.html", "Start reading free"),
+              ("Gabriel's Glossary", "Thirty names and ideas from the book, explained in plain language, to keep beside you as you read.", "glossary.html", "Open the glossary")]
+    offer_html = "".join(f"""<a class="card" href="{u}"><span class="h-md" style="font-family:var(--display)">{esc(t)}</span><span class="muted" style="font-size:15px">{esc(d)}</span><span class="card-cta">{esc(c)} →</span></a>""" for t, d, u, c in offers)
+    teachings = ["The voice we misnamed", "What sets us apart from the animals", "The thread through every faith", "Where the proof of God is found",
+                 "Choose unity", "The quiet whisper within", "Resentment binds you to the past"]
+    teach_html = "".join(f"<li>{esc(t)}</li>" for t in teachings)
+    body = f"""{header("The Search for Meaning", "by People of the World", [("Why we search", "#why", False, None), ("Every faith", "#faiths", False, None),
+                        ("The book", "#book", False, None), ("Free teachings", "#teachings", True, None)])}
 <main>
-<section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+<section class="band"><div class="wrap section stack" style="gap:22px;max-width:900px">
+<p class="eyebrow accent">The search for meaning</p>
+<h1 class="h-xl">You've felt it too.</h1>
+<p class="lead muted" style="max-width:680px">Why am I here? Is there more than this? And what is that quiet voice that knows right from wrong, even when no one is watching? Almost everyone asks these questions. Here is a place to ask them honestly, and some answers worth considering.</p>
+<div class="actions"><a class="btn btn-door" href="#why">Explore the questions</a><a class="btn btn-ghost" href="#teachings">Get the free teachings</a></div>
+</div></section>
+
+<section id="why" class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<div class="stack" style="flex:1 1 340px;min-width:0">
+<p class="eyebrow muted">Why we search</p>
+<h2 class="h-lg">The search itself is the clue.</h2>
+</div>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead">Of all the creatures on Earth, only we can grasp ideas like justice, mercy and truth. We don't just survive; we long to be good, to be fair, to do right by people we will never meet.</p>
+<p class="lead muted">Survival alone doesn't explain that longing. It points to something beyond us, and something within us. The inner voice we call our "conscience" may be far more than a habit of upbringing. Many traditions say it is the very presence of the Creator within each person, quietly leading.</p>
+<p class="lead muted">If that is true, the search for meaning isn't a problem to fix. It is evidence of what you are.</p>
+</div>
+</div></section>
+
+<section id="faiths" class="section band-alt"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">The thread through every faith</h2>
+<p class="lead muted">Across the world's traditions, two teachings appear again and again: a portion of the Creator lives within each of us, and our purpose is to become one with it.</p></div>
+<div class="grid grid-3">{faith_html}</div>
+<p class="muted">Jesus prayed “that they all may be one; as thou, Father, art in me, and I in thee” (John 17:21). The Urantia Papers call the presence within the Thought Adjuster. The names differ; the thread is the same.</p>
+</div></section>
+
+<section class="section"><div class="wrap stack" style="gap:32px">
+<div class="stack intro"><h2 class="h-lg">What you'll find here</h2>
+<p class="lead muted">Everything below is free, always. These teachings belong to everyone; books and music fund the work.</p></div>
+<div class="grid grid-2">{offer_html}</div>
+</div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 56px;align-items:center">
+<div class="stack" style="flex:1 1 360px;min-width:0">
+<p class="eyebrow accent" style="filter:brightness(.8)">An invitation, not a proof</p>
+<h2 class="h-lg">Try it for a week.</h2>
+<p class="lead muted">No proof can be handed to someone who doesn't want to see. The proof is found by the people who feel the leading. So here is a simple experiment: spend a few quiet minutes each day this week, listening for the voice within. Notice what you notice.</p>
+<div class="actions"><a class="btn btn-solid" href="ten-steps.html">Read the step on stillness</a><a class="btn btn-outline" href="#teachings">Have a teaching sent each week</a></div>
+</div>
+<blockquote class="quote" style="flex:1 1 360px;margin:0;min-width:0">“Seek love. Seek unity. Seek truth.”<footer class="muted" style="font-family:var(--body);font-size:15px;margin-top:12px">Adam, in Journey to Jerusem</footer></blockquote>
+</div></section>
+
+<section id="book" class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px">
 <div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
 <p class="eyebrow accent">Winner · Literary Titan Silver Book Award</p>
-<h1 class="h-xl">The story you were never told.</h1>
-<p class="lead muted" style="max-width:600px">The untold history of Earth: Jesus, Lucifer, Adam and Eve, and the choice still before you. Read it free online, or keep a copy on your shelf.</p>
+<h2 class="h-xl" style="font-size:clamp(2.2rem,5vw,3.6rem)">The story you were never told.</h2>
+<p class="lead muted" style="max-width:600px">If a portion of the Creator lives within us, why is the world the way it is? <em>The Portal Opens</em> tells the untold history of Earth: Jesus, Lucifer, Adam and Eve, and the choice still before you. Read it free online, or keep a copy on your shelf.</p>
 <div class="actions"><a class="btn btn-door" href="read.html">Start reading free</a><a class="btn btn-ghost" href="#buy">Buy the book</a></div>
 </div>
 <div class="portal" style="flex:1 1 260px">
 <span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span>
-<img class="cover-img" src="assets/cover-portal.webp" alt="Cover of The Portal Opens by Shareef Ali Rashada" width="384" height="576">
+<img class="cover-img" src="assets/cover-portal.webp" alt="Cover of The Portal Opens by Shareef Ali Rashada" width="384" height="576" loading="lazy">
 </div>
 </div></section>
 
@@ -436,24 +493,11 @@ def build_seekers():
 <div class="grid grid-5">{part_cards}</div>
 </div></section>
 
-<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 56px;align-items:center">
-<div class="stack" style="flex:1 1 360px;min-width:0">
-<p class="eyebrow accent" style="filter:brightness(.8)">From Part 4</p>
-<h2 class="h-lg">Ten steps for humanity</h2>
-<p class="lead muted">In their message to Earth, Adam and Eve leave ten practical steps: unity, stillness, forgiveness, service, courage for truth, and more. A good place to begin.</p>
-<p><a class="btn btn-solid" href="ten-steps.html">Read the ten steps</a></p>
-</div>
-<blockquote class="quote" style="flex:1 1 360px;margin:0;min-width:0">“Seek love. Seek unity. Seek truth.”<footer class="muted" style="font-family:var(--body);font-size:15px;margin-top:12px">Adam, in Journey to Jerusem</footer></blockquote>
-</div></section>
 
-<section class="section"><div class="wrap stack" style="gap:40px">
-<div class="stack intro"><h2 class="h-lg">Read or listen, free</h2>
-<p class="lead muted">The teachings are free, always. Start at the beginning, or open the glossary beside you as you read.</p></div>
-<div class="grid">
-<a class="card" href="read.html"><span class="h-md" style="font-family:var(--display)">Read online</span><span class="muted" style="font-size:15px">The full book, part by part, in your browser.</span><span class="card-cta">Begin reading →</span></a>
-<a class="card" href="glossary.html"><span class="h-md" style="font-family:var(--display)">Gabriel's Glossary</span><span class="muted" style="font-size:15px">Thirty names and terms of the book, explained in plain language.</span><span class="card-cta">Open the glossary →</span></a>
-<a class="card" href="#" data-link="audiobook"><span class="h-md" style="font-family:var(--display)">Listen to the audiobook</span><span class="muted" style="font-size:15px">All 63 chapters, free to stream here or on Spotify.</span><span class="card-cta">Start listening →</span></a>
-</div></div></section>
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between">
+<p class="lead muted" style="margin:0;flex:1 1 420px">Prefer to listen? The whole book is free as an audiobook, here or on Spotify.</p>
+<a class="btn btn-outline" href="#" data-link="audiobook">Listen to the audiobook</a>
+</div></section>
 
 <section class="band"><div class="wrap section stack" style="max-width:900px;align-items:center;text-align:center;gap:22px">
 <img class="award-img" src="{AWARD_IMG}" alt="Literary Titan Silver Book Award, The Portal Opens by Shareef Ali Rashada" width="260" height="260" loading="lazy" style="width:220px">
@@ -475,10 +519,23 @@ def build_seekers():
 </div></section>
 
 {vband}
-{signup_band("One teaching a week, free.", "A short reading from The Portal Opens each week. Unsubscribe any time.", "Send me the teachings", "seekers", "seekers")}
+<section id="teachings" class="band door-seekers"><div class="wrap section" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center">
+<div class="stack" style="flex:1 1 360px;min-width:0;gap:18px">
+<p class="eyebrow accent">Free · 14 weeks · one email a week</p>
+<h2 class="h-lg">The weekly teachings</h2>
+<p class="lead muted">Begin with the questions on this page and walk through them slowly, one short teaching at a time. Everyone starts at the beginning. Unsubscribe any time.</p>
+<form class="signup" data-list="seekers" novalidate>
+<label for="email-seekers">Email address<input id="email-seekers" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+<button class="btn btn-door" type="submit">Send me the teachings</button>
+</form>
+<p class="form-note" role="status"></p>
+<p class="muted" style="font-size:13px">We'll only send what you signed up for. <a href="privacy.html">Privacy</a></p>
+</div>
+<div class="stack" style="flex:1 1 300px;gap:10px;border:1px solid rgba(255,255,255,.22);border-radius:var(--radius);padding:24px 26px"><p class="eyebrow accent" style="margin:0">The first seven weeks</p><ol style="margin:0;padding-left:20px;line-height:1.9">{teach_html}</ol><p class="muted" style="font-size:14px;margin:0">From week 5, the teachings walk through Adam and Eve's ten steps for living it, one a week, to week 14.</p></div>
+</div></section>
 </main>
 {footer("seekers")}"""
-    page("seekers.html", "The Portal Opens", "The untold history of Earth: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Read it free online.", body, "seekers", extra_head=vld)
+    page("seekers.html", "The Search for Meaning", "Why do we search for meaning? The voice within, the thread through every faith, free weekly teachings, and The Portal Opens, free to read.", body, "seekers", extra_head=vld)
 
 
 def reader_header():
