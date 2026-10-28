@@ -733,15 +733,17 @@ def build_science():
 <div class="actions" style="margin-top:auto"><a class="btn btn-outline" href="{u}">Read the paper</a></div></article>""" for k, t, d, u in papers)
     open_qs = [
         ("Done", "A detailed critique of how General Relativity is explained and taught, published as formal papers."),
-        ("Done", "A qualitative model of the medium and how it produces weight, orbits and tides."),
-        ("Open", "Deriving the bending of starlight from the medium's own properties, rather than matching General Relativity's number."),
-        ("Open", "A flow equation that gives the measured inverse-square law with the right units throughout."),
+        ("Done", "An inflow at the escape speed, derived from one requirement, that reproduces free fall, Kepler's laws, gravitational time dilation and the GPS clock correction."),
+        ("Done", "The bending of starlight and the Shapiro delay, given a refractive index n = 1 + v²/c²."),
+        ("Open", "Deriving that refractive index from the medium's own properties."),
+        ("Open", "The medium's equation of state: how the count of gravitons can rise toward a mass while the active pressure falls (a working hypothesis)."),
+        ("Open", "The coupling at the atom, and the limits on gravitational shielding it must meet."),
         ("Open", "An experiment where graviton pressure and General Relativity predict different results."),
     ]
     oq_html = "".join(f'<li><span class="tag">{esc(t)}</span><span>{esc(d)}</span></li>' for t, d in open_qs)
     vband, vld = video_band('science', 'Watch', 'science.html', "A four-minute introduction, and Le Sage's push theory of gravity revisited. Every part of the framework has its own Deep Dive episode in the library.", True)
     body = f"""{header("Graviton Pressure Theory", "by People of the World", [("The idea", "#idea", False, None), ("The papers", "#papers", False, None),
-                        ("The book", "#book", False, None), ("Where it stands", "#status", True, None)])}
+                        ("The book", "#book", False, None), ("Where it stands", "#status", False, None), ("Join the search", "graviton-pressure-theory/invitation/", True, None)])}
 <main>
 <section class="band"><div class="wrap section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 64px">
 <div class="stack" style="flex:999 1 460px;min-width:0;gap:22px">
@@ -780,6 +782,15 @@ def build_science():
 <div class="grid grid-3">{paper_html}</div>
 </div></section>
 
+<section class="band door-science"><div class="wrap section" style="display:flex;flex-wrap:wrap;gap:24px 56px;align-items:center">
+<div class="stack" style="flex:2 1 460px;min-width:0;gap:16px">
+<p class="eyebrow accent">An open invitation</p>
+<h2 class="h-lg">Researching space as a medium? Join the search.</h2>
+<p class="lead muted">From analogue gravity to superfluid vacuum, a growing number of physicists are asking whether space behaves like a substance. Graviton Pressure Theory shares its derivations and open problems, and welcomes criticism as much as collaboration.</p>
+</div>
+<div class="actions" style="flex:1 1 260px"><a class="btn btn-door" href="graviton-pressure-theory/invitation/">Read the invitation</a></div>
+</div></section>
+
 <section id="book" class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px 56px">
 <img class="cover-img" style="flex:0 1 220px;width:220px" src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy">
 <div class="stack" style="flex:999 1 420px;min-width:0;gap:18px">
@@ -795,7 +806,7 @@ def build_science():
 <div class="stack" style="flex:1 1 340px;min-width:0">
 <h2 class="h-lg">Where the work stands</h2>
 <p class="lead muted">A theory earns trust by showing its open problems. Here is what is finished and what is still being worked out.</p>
-<p class="muted">Physicists and mathematicians who want to help solve the open problems, or test them, are welcome. Write to <strong>{CONTACT}</strong>.</p>
+<p class="muted">Physicists and mathematicians who want to help solve the open problems, or test them, are welcome. <a href="graviton-pressure-theory/invitation/" style="font-weight:600">Read the open invitation →</a></p>
 </div>
 <ul class="status-list" style="flex:2 1 460px;min-width:0">{oq_html}</ul>
 </div></section>
@@ -815,6 +826,8 @@ def build_science():
 {signup_band("Follow the science.", "An email when a new paper or result is published. Nothing else unless you ask.", "Send me new papers", "science", "science")}
 </main>
 {footer("science")}"""
+    import sys, science_invitation
+    science_invitation.build(sys.modules[__name__])
     page("science.html", "Graviton Pressure Theory", "Graviton Pressure Theory: gravity as a push from a medium outside, not a pull from within. Free papers, the book, and where the work stands.", body, "science", extra_head=vld)
 
 
