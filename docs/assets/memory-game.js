@@ -44,7 +44,7 @@
   function clear() { timers.forEach(clearTimeout); timers = []; }
   function idle() {
     clear(); s = null;
-    ui.items.innerHTML = ""; ui.choices.innerHTML = "";
+    ui.items.innerHTML = ""; ui.choices.innerHTML = ""; ui.stage.classList.remove("has-split");
     ui.msg.textContent = MODES[mode].daily ? `Daily Challenge #${G.dayNumber()}: ten rounds, the same for everyone today.` : mode === "endless" ? "Climb as high as you can. Three lives." : "Practise as long as you like. Nothing is recorded.";
     ui.start.textContent = "Start"; paintStatus();
   }
@@ -70,7 +70,7 @@
     const set = pick(pool, n);
     const missing = rand() < 0.5;                                     // half the rounds: what's missing? the other half: what's new?
     s.q = { set, missing };
-    ui.choices.innerHTML = "";
+    ui.choices.innerHTML = ""; ui.stage.classList.remove("has-split");
     ui.msg.textContent = `Level ${s.level}: remember these ${n}.`;
     ui.items.innerHTML = set.map(x => tile(x)).join("");
     ui.stage.classList.add("is-study");
@@ -89,15 +89,16 @@
       const options = pick([gone, ...pick(pool, 3, set)], 4);
       s.q.answer = gone;
       ui.msg.textContent = "Which one is missing?";
-      ui.items.innerHTML = rest.map(x => tile(x)).join("");
-      ui.choices.innerHTML = options.map(x => `<button type="button" class="mg-choice" data-v="${esc(x)}">${tile(x)}</button>`).join("");
+      ui.items.innerHTML = `<p class="mg-cap">Still here</p>` + rest.map(x => tile(x)).join("");
+      ui.stage.classList.add("has-split");
+      ui.choices.innerHTML = `<p class="mg-cap">Which of these is missing?</p>` + options.map(x => `<button type="button" class="mg-choice" data-v="${esc(x)}">${tile(x)}</button>`).join("");
     } else {
       const extra = pick(pool, 1, set)[0];
       const shown = pick([...set, extra], set.length + 1);
       s.q.answer = extra;
       ui.msg.textContent = "Which one is new?";
       ui.items.innerHTML = "";
-      ui.choices.innerHTML = shown.map(x => `<button type="button" class="mg-choice" data-v="${esc(x)}">${tile(x)}</button>`).join("");
+      ui.choices.innerHTML = `<p class="mg-cap">Pick the one you didn't see</p>` + shown.map(x => `<button type="button" class="mg-choice" data-v="${esc(x)}">${tile(x)}</button>`).join("");
     }
     s.shown = performance.now(); s.live = true;
     ui.choices.querySelectorAll(".mg-choice").forEach(b => b.addEventListener("click", () => choose(b.dataset.v, b)));

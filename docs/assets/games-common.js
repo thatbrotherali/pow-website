@@ -84,11 +84,15 @@ window.POWG = (() => {
   async function save(run) {
     try {
       const body = JSON.stringify({ playerId: me.id, name: me.name, initials: me.name.slice(0, 3).toUpperCase(), game: run.game || "decision",
-        mode: run.board, day: run.day || null, correct: run.correct, questions: run.questions,
+        mode: run.game && run.game !== "decision" ? `${run.game}-${run.board}` : run.board, day: run.day || null, correct: Math.max(0, run.correct), questions: run.questions,
         totalTime: Math.round(run.totalTime * 1000) / 1000, avgReaction: Math.round(run.avgReaction * 1000) / 1000 });
       const r = await fetch(API + "/saveScore", { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body });
       if (r.ok) return { ok: true, msg: "Saved to the online leaderboard." };
-      if (r.status === 400) return { ok: false, soon: true, msg: "The online leaderboard for this challenge opens soon. Your result is kept on this device." };
+      if (r.status === 400) {
+        const e = ((await r.json().catch(() => ({}))).error) || "";
+        if (e === "Invalid mode") return { ok: false, soon: true, msg: "The online leaderboard for this challenge opens soon. Your result is kept on this device." };
+        return { ok: false, msg: `Not saved online (${e || "the score service turned it down"}). It is kept on this device.` };
+      }
       return { ok: false, msg: "Not saved online: the score service is unavailable. It is kept on this device." };
     } catch { return { ok: false, msg: "Couldn't reach the score service. Your result is kept on this device." }; }
   }
@@ -96,7 +100,7 @@ window.POWG = (() => {
     try {
       const r = await fetch(`${API}/leaderboard?mode=${encodeURIComponent(mode)}${extra}`, { cache: "no-store" });
       const j = await r.json().catch(() => ({}));
-      if (r.status === 400) return { soon: true, rows: [] };
+      if (r.status === 400 && j.error === "Invalid mode") return { soon: true, rows: [] };
       if (!r.ok) return { error: true, rows: [] };
       return { rows: j.results || [] };
     } catch { return { error: true, rows: [] }; }
