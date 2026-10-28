@@ -156,8 +156,51 @@ def share_image(fname, door):
     return "site"
 
 
+# ---------------------------------------------------------------- "The why": a quiet link on the pages where people reach the end of a door
+WHY = {
+    "seekers.html": "The voice within has a name in this work: the Thought Adjuster, a fragment of the Creator now given to every person. That is why the search never ends, and why it matters.",
+    "ten-steps.html": "Each step is a way of listening more closely to the presence within. Why that presence is now in every one of us, and what it asks of us, is the heart of everything here.",
+    "read-closing.html": "The story ends with a choice that is now before every person. Why that choice is open to all of us, and how it shapes everything People of the World does:",
+    "urantia.html": "Since Pentecost, the Spirit of Truth has been poured out on all humanity, and every normal-minded person receives a Thought Adjuster. People of the World is built on what that means for how we live: the New Morality.",
+    "builders.html": "Why end poverty? Because every person carries a portion of the Creator, and a life spent only on survival leaves little room to hear it.",
+    "plan-to-end-poverty/civic-credits/index.html": "Why pay for the work a community needs? Because every person carries a portion of the Creator, and no one should be kept from it by the struggle to survive.",
+    "plan-to-end-poverty/poverty-elimination-centers/index.html": "Why a complete path out of hardship? Because every person carries a portion of the Creator, and deserves the room to grow toward it.",
+    "plan-to-end-poverty/lifelink/index.html": "Why connect every person? Because every person matters: each one carries a portion of the Creator.",
+    "music.html": "Music to ease your mind: stillness is where the voice within is most easily heard.",
+    "easykey.html": "Creating is one of the ways we grow. EasyKey exists so that anyone, at any age, can make music.",
+    "easykey/centers/index.html": "Why gather a community around music? Because creating together, and serving one another, is how we grow toward unity.",
+    "science.html": "People of the World seeks truth in every field, physics included. The physics papers make physical claims only; why the project exists at all is a separate question, answered here.",
+    "ai.html": "The library is open to everyone, because truth belongs to everyone.",
+    "support.html": "Every project you support serves one goal. Here is why.",
+    "about.html": "Every project here serves one goal. Here is why.",
+}
+SIGNUP_MARK = '<section class="band door-'
+
+
+def why_band(text):
+    return f"""<section class="section why-band"><div class="wrap" style="max-width:780px">
+<p class="eyebrow muted">The why</p>
+<p class="lead muted">{esc(text)}</p>
+<p><a href="why.html" style="font-weight:600">Why it all connects →</a></p>
+</div></section>
+"""
+
+
+def add_why(fname, body):
+    text = WHY.get(fname)
+    if not text or "why-band" in body:
+        return body
+    end = body.rfind("</main>")
+    if end < 0:
+        return body
+    k = body.rfind(SIGNUP_MARK, 0, end)
+    k = k if k > 0 and "signup" in body[k:end] else end
+    return body[:k] + why_band(text) + body[k:]
+
+
 def page(fname, title, desc, body, door="hub", extra_head="", lastmod=None):
     """Full HTML document for the real website. fname may be in a sub-folder, e.g. 'graviton-pressure-theory/index.html'."""
+    body = add_why(fname, body)
     doc = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -396,7 +439,7 @@ def build_hub():
 <h2 class="h-lg" style="flex:1 1 300px">Why it all connects</h2>
 <div class="stack" style="flex:2 1 460px;min-width:0">
 <p class="lead muted">Every project serves one goal: a world at peace, free of poverty and open to truth. Knowledge and understanding lead to morality. Morality makes unity possible, unity makes peace possible, and a world at peace is ready for the celestial return.</p>
-<p><a href="#" data-link="vision" style="font-weight:600">Read the full Vision</a></p>
+<p><a href="why.html" style="font-weight:600">Why it all connects →</a> &nbsp;·&nbsp; <a href="#" data-link="vision" style="font-weight:600">Read the full Vision</a></p>
 </div></div>
 <ol class="steps" aria-label="The five steps of the mission">
 <li><span>1</span>Knowledge</li><li><span>2</span>Understanding</li><li><span>3</span>Morality</li><li><span>4</span>Unity</li><li class="last"><span>5</span>Peace, ready for the return</li>
@@ -406,6 +449,62 @@ def build_hub():
 {footer()}"""
     page("index.html", "People of the World", "Knowledge, morality, unity and peace: seven doors into the work of Shareef Ali Rashada, from The Portal Opens to EasyKey Music.", body, extra_head=vld)
     return body
+
+
+def build_why():
+    chain = [("Knowledge", "Learning what is true: about the world, about the universe, about ourselves."),
+             ("Understanding", "Seeing what that knowledge means for how we live."),
+             ("Morality", "Choosing, from within, to do what is good, just and fair."),
+             ("Unity", "People who follow the same inner guide find they are moving the same way."),
+             ("Peace, ready for the return", "A world at peace is ready for the guidance it was always meant to have.")]
+    chain_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in chain)
+    doors = [("The Search for Meaning", "seekers.html", "Learning to hear the voice within, and the story of why it was needed."),
+             ("For Urantia readers", "urantia.html", "The same teachings, in the voices of those who lived them."),
+             ("End Poverty by Design", "builders.html", "Freeing every person from the struggle that drowns out the voice within."),
+             ("EasyKey Music", "easykey.html", "Opening creativity, and community, to anyone."),
+             ("That Brother Ali", "music.html", "Music for stillness, where the voice within is most easily heard."),
+             ("Graviton Pressure Theory", "science.html", "Seeking truth in every field. The physics stands on its own evidence."),
+             ("The Open Library", "ai.html", "Every word free, because truth belongs to everyone.")]
+    doors_html = "".join(f'<a class="card" href="{u}"><span class="h-md" style="font-family:var(--display)">{esc(n)}</span><span class="muted" style="font-size:15px">{esc(d)}</span><span class="card-cta">Open →</span></a>' for n, u, d in doors)
+    body = f"""{header(nav=[("All doors", "index.html#doors", False, None), ("The New Morality", "new-morality/", False, None), ("Free teachings", "seekers.html#teachings", True, None)])}
+<main>
+<section class="band"><div class="wrap section stack" style="gap:22px;max-width:880px">
+<p class="eyebrow accent">Why it all connects</p>
+<h1 class="h-xl">One reason behind everything here.</h1>
+<p class="lead muted">A theory of gravity, a piano method, a plan to end poverty, a book about the history of Earth. Why do they sit side by side? Because they come from one conviction about what every person is, and what has changed for all of us.</p>
+</div></section>
+
+<section class="section"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<h2 class="h-lg" style="flex:1 1 300px">What has changed</h2>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead">Almost every faith teaches that a portion of the Creator lives within us, and that our purpose is to become one with it. The Urantia Papers call that presence the Thought Adjuster; <em>The Portal Opens</em> calls it the Father Fragment. It is the quiet voice we have usually called conscience.</p>
+<p class="lead muted">People of the World holds that something changed for all humanity after the life of Jesus. At Pentecost, the Spirit of Truth was poured out on everyone, and from then on every normal-minded person has been prepared to receive a fragment of the Creator. No temple, priesthood or ritual stands between a person and that presence any more.</p>
+<p class="lead muted">This is a teaching to consider, not a fact to accept. As the Search for Meaning puts it: no proof can be handed to someone who doesn't want to see; the proof is found by the people who feel the leading.</p>
+</div></div></section>
+
+<section class="section band-alt"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px 64px;align-items:flex-start">
+<h2 class="h-lg" style="flex:1 1 300px">The New Morality</h2>
+<div class="stack" style="flex:2 1 460px;min-width:0">
+<p class="lead">If every person carries a guide within, then goodness no longer has to be imposed from outside. Morality moves from external law to inner compass: not rules kept for fear of punishment, but a choice made by listening.</p>
+<p class="lead muted">The New Morality does not reject culture, law or tradition. It goes beyond them, inviting every person to take part directly in the choice that shapes their life. And it changes how we treat each other: if the Creator lives in every person, then every person matters.</p>
+<p><a href="new-morality/" style="font-weight:600">Read Salvation and the New Morality →</a></p>
+</div></div></section>
+
+<section class="section"><div class="wrap stack" style="gap:28px;max-width:1000px">
+<div class="stack intro"><h2 class="h-lg">From one person to a world at peace</h2>
+<p class="lead muted">The mission of People of the World, step by step.</p></div>
+<ol class="pathways">{chain_html}</ol>
+</div></section>
+
+<section class="section band-alt"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">How each door serves it</h2>
+<p class="lead muted">Every project is one way into the same work. Start wherever you are.</p></div>
+<div class="grid grid-3">{doors_html}</div>
+</div></section>
+{signup_band("One teaching a week, free.", "Begin with the voice within, and walk through it slowly. Unsubscribe any time.", "Send me the teachings", "teachings", "hub")}
+</main>
+{footer()}"""
+    page("why.html", "Why it all connects", "Why a theory of gravity, a piano method, a plan to end poverty and a book about Earth's history belong together: the presence of the Creator within every person, and the New Morality.", body)
 
 
 def build_seekers():
@@ -448,6 +547,7 @@ def build_seekers():
 <p class="lead">Of all the creatures on Earth, only we can grasp ideas like justice, mercy and truth. We don't just survive; we long to be good, to be fair, to do right by people we will never meet.</p>
 <p class="lead muted">Survival alone doesn't explain that longing. It points to something beyond us, and something within us. The inner voice we call our "conscience" may be far more than a habit of upbringing. Many traditions say it is the very presence of the Creator within each person, quietly leading.</p>
 <p class="lead muted">If that is true, the search for meaning isn't a problem to fix. It is evidence of what you are.</p>
+<p class="muted" style="font-size:15px"><a href="why.html">Why that changes everything →</a></p>
 </div>
 </div></section>
 
@@ -1686,6 +1786,7 @@ if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     hub_body = build_hub()
     build_seekers()
+    build_why()
     build_urantia()
     build_decision_game()
     build_shop()
