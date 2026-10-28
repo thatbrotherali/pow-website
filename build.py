@@ -110,7 +110,7 @@ def footer(current=None):
 <div class="cols">
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
-<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="decision-game.html">The Decision Game</a><a href="about.html">About Shareef</a></nav>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="play.html">Brain training games</a><a href="about.html">About Shareef</a></nav>
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
@@ -417,9 +417,9 @@ def build_hub():
 
 <section class="section door-play"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center">
 <div class="stack" style="flex:2 1 420px;min-width:0"><p class="eyebrow accent" style="filter:brightness(.85)">Free brain training</p>
-<h2 class="h-lg">The Decision Game</h2>
-<p class="lead muted">A picture, a word, “is” or “is not”. True or false, as fast as you can. Every score goes on the online leaderboard.</p></div>
-<p style="flex:1 1 200px"><a class="btn btn-door" href="decision-game.html">Play now</a></p>
+<h2 class="h-lg">Focus. Memory. Decision.</h2>
+<p class="lead muted">Three quick games, each with a new Daily Challenge, the same for everyone in the world. Keep your streak alive and see how you compare.</p></div>
+<p style="flex:1 1 200px"><a class="btn btn-door" href="play.html">Play today's challenges</a></p>
 </div></section>
 
 <section class="section"><div class="wrap award">
@@ -1509,16 +1509,16 @@ def build_urantia():
 
 # ---------------------------------------------------------------- The Decision Game
 def build_decision_game():
-    modes = [("practice", "Practice"), ("short", "Short · 10"), ("long", "Long · 20"), ("infinite", "Endless")]
+    modes = [("daily", "Daily"), ("practice", "Practice"), ("short", "Short · 10"), ("long", "Long · 20"), ("infinite", "Endless")]
     mode_btns = "".join(f'<button type="button" class="seg" data-mode="{m}" aria-pressed="false">{esc(l)}</button>' for m, l in modes)
-    board_btns = "".join(f'<button type="button" class="seg" data-board="{m}" aria-pressed="false">{esc(l)}</button>' for m, l in modes[1:])
+    board_btns = "".join(f'<button type="button" class="seg" data-board="{m}" aria-pressed="false">{esc(l if m != "daily" else "Today\'s Daily")}</button>' for m, l in modes if m != "practice")
     ld = json.dumps({"@context": "https://schema.org", "@type": ["VideoGame", "WebApplication"], "name": "The Decision Game",
                      "url": canonical("decision-game.html"), "applicationCategory": "GameApplication", "genre": ["Brain training", "Reaction time"],
                      "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
                      "author": {"@type": "Person", "name": AUTHOR, "@id": f"{SITE_URL}/about.html#shareef"},
                      "description": "A free brain-training game: see a picture and a word, decide true or false as fast as you can, and climb the online leaderboard."}, ensure_ascii=False)
     body = f"""{header("The Decision Game", "by People of the World", [("Play", "#play", False, None), ("Leaderboard", "#leaderboard", False, None),
-                        ("My scores", "#mine", False, None), ("How it works", "#how", False, None)])}
+                        ("My scores", "#mine", False, None), ("More games", "play.html", True, None)])}
 <main>
 <section class="band"><div class="wrap section dg-hero">
 <p class="eyebrow accent">Free brain training · no sign-up</p>
@@ -1572,7 +1572,7 @@ def build_decision_game():
 </div></section>
 
 <section id="mine" class="section"><div class="wrap stack" style="gap:20px">
-<div class="stack intro"><h2 class="h-lg">My scores on this device</h2><p class="lead muted">Your best in each mode and your recent runs, kept in this browser.</p></div>
+<div class="stack intro"><h2 class="h-lg">My scores on this device</h2><p class="lead muted" id="dg-daily-status"></p><p class="muted">Your best in each mode and your recent runs, kept in this browser.</p></div>
 <div class="grid grid-3" id="dg-mine-best"></div>
 <div class="table-wrap card" style="padding:0"><table class="dg-table"><thead><tr><th>Mode</th><th class="num">Result</th><th class="num">Total</th><th class="num">Average</th><th class="num">Date</th></tr></thead><tbody id="dg-mine"></tbody></table></div>
 </div></section>
@@ -1581,12 +1581,13 @@ def build_decision_game():
 <h2 class="h-lg">How it works</h2>
 <div class="grid grid-3">
 <div class="card"><h3 class="h-md">Read the whole sentence</h3><p class="muted">The picture, the middle box and the word make one sentence: <em>[picture] is not Cow</em>. Answer True if the sentence is right. The “is not” is where most mistakes happen.</p></div>
-<div class="card"><h3 class="h-md">Four ways to play</h3><p class="muted"><strong>Practice</strong>: warm up as long as you like; nothing is recorded. <strong>Short</strong> and <strong>Long</strong>: 10 or 20 questions, ranked by fewest mistakes, then fastest time. <strong>Endless</strong>: keep going until your first mistake. You get 1 second per answer, 0.1 s less every 50 correct, down to 0.3 s.</p></div>
+<div class="card"><h3 class="h-md">Five ways to play</h3><p class="muted"><strong>Daily</strong>: ten questions, the same for everyone today; only your first run counts, and you can share your result. <strong>Practice</strong>: warm up as long as you like; nothing is recorded. <strong>Short</strong> and <strong>Long</strong>: 10 or 20 questions, ranked by fewest mistakes, then fastest time. <strong>Endless</strong>: keep going until your first mistake. You get 1 second per answer, 0.1 s less every 50 correct, down to 0.3 s.</p></div>
 <div class="card"><h3 class="h-md">Why it helps</h3><p class="muted">Each answer asks you to see, read, hold a rule in mind and choose, quickly and without guessing. Short daily rounds build the habit of deciding clearly under a little pressure, and your scores show the progress.</p></div>
 </div>
 </div></section>
 </main>
 {footer()}
+<script src="assets/games-common.js?v={asset_v('games-common.js')}" defer></script>
 <script src="assets/decision-game.js?v={asset_v('decision-game.js')}" defer></script>"""
     page("decision-game.html", "The Decision Game: free brain training",
          "Picture, word, true or false: a free brain-training game with an online leaderboard. How fast can you decide?",
@@ -1789,6 +1790,8 @@ if __name__ == "__main__":
     build_why()
     build_urantia()
     build_decision_game()
+    import sys, games_pages
+    games_pages.build(sys.modules[__name__])
     build_shop()
     build_privacy()
     sections, nsteps = build_reader()

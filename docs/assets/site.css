@@ -535,3 +535,37 @@ pre.diagram{font-family:var(--mono);font-size:13px;line-height:1.5;white-space:p
 .why-band .wrap{display:flex;flex-direction:column;gap:10px;text-align:center;align-items:center}
 .why-band .eyebrow{margin:0}
 .why-band .lead{margin:0;font-size:1.08rem}
+
+/* ---------- brain-training suite: shared pieces ---------- */
+.g-grid{font-family:var(--mono);font-size:15px;line-height:1.5;margin:0;padding:12px 14px;border-radius:12px;background:var(--surface-alt);white-space:pre-wrap}
+.g-thought{border-top:1px solid var(--line);padding-top:14px;margin-top:4px;display:flex;flex-direction:column;gap:6px}
+.g-thought-text{margin:0;font-family:var(--display);font-size:1.15rem;line-height:1.4}
+.g-card{gap:10px}.g-today{font-size:14px;margin:0}.g-streak{font-weight:600;color:var(--door);margin:0}
+/* memory */
+.mg-stage{min-height:clamp(260px,40vw,340px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center}
+.mg-msg{margin:0;font-family:var(--display);font-size:clamp(1.2rem,3vw,1.6rem);min-height:1.6em}
+.mg-items,.mg-choices{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;min-height:10px}
+.mg-tile{display:inline-flex;align-items:center;justify-content:center;width:clamp(48px,11vw,64px);height:clamp(48px,11vw,64px);border-radius:14px;border:2px solid var(--line);background:var(--bg);font-family:var(--display);font-size:clamp(1.5rem,5vw,2.1rem);font-weight:600;color:var(--fg)}
+.mg-shape svg{width:60%;height:60%}
+.mg-stage.is-study .mg-tile{border-color:var(--door)}
+.mg-choice{padding:0;border:0;background:none;cursor:pointer;border-radius:16px}
+.mg-choice .mg-tile{transition:transform .1s}
+.mg-choice:not(:disabled):hover .mg-tile{border-color:var(--door);transform:translateY(-2px)}
+.mg-choice.is-right .mg-tile,.mg-choice.is-answer .mg-tile{border-color:#2E9E5B;background:#E3F4EA;color:#1D6B3E}
+.mg-choice.is-wrong .mg-tile{border-color:#C0392B;background:#FBE9E7;color:#8E2A1E}
+.mg-stage.flash-ok,.fg-stage.flash-ok{animation:dgok .35s ease-out}.mg-stage.flash-bad,.fg-stage.flash-bad{animation:dgbad .35s ease-out}
+/* focus */
+.fg-stage{min-height:clamp(260px,42vw,360px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;text-align:center}
+.fg-sign{position:relative;width:120px;height:120px;display:flex;align-items:center;justify-content:center;border-radius:50%;border:6px solid transparent}
+.fg-plus{position:relative;width:64px;height:64px;opacity:0}
+.fg-plus::before,.fg-plus::after{content:"";position:absolute;background:var(--fg);border-radius:4px}
+.fg-plus::before{left:26px;top:0;width:12px;height:64px}.fg-plus::after{top:26px;left:0;height:12px;width:64px}
+.fg-sign.is-on .fg-plus{opacity:1}
+.fg-sign.is-on.is-nogo{border-color:#C0392B}
+.fg-stage.is-running::after{content:"";position:absolute}
+.fg-controls{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:stretch}
+.fg-press{font:inherit;font-size:clamp(1.1rem,3vw,1.4rem);font-weight:600;border-radius:16px;border:2px solid var(--line);min-height:84px;cursor:pointer;background:var(--surface-alt);color:var(--fg);display:flex;gap:12px;align-items:center;justify-content:center;touch-action:manipulation;user-select:none}
+.fg-press kbd{font-family:var(--mono);font-size:13px;opacity:.7;border:1px solid currentColor;border-radius:6px;padding:1px 6px}
+.fg-press:disabled{opacity:.45;cursor:default}
+.fg-window{color:var(--door);font-weight:600}
+@media (max-width:640px){.fg-controls{grid-template-columns:1fr}.fg-press{min-height:110px}.fg-press kbd{display:none}}

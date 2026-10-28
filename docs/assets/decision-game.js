@@ -14,12 +14,13 @@
     ["Book", "f0408751e9a640d88066b46722a8ea91"], ["Cherry", "97c92754a41d489eb0bb984377487207"]
   ].map(([label, id]) => ({ label, url: `${IMG}${id}~mv2.png/v1/fit/w_480,h_480,q_85/${label.toLowerCase()}.png` }));
   const MODES = {
+    daily: { label: "Daily", n: 10, ranked: true, daily: true },
     practice: { label: "Practice", n: Infinity, ranked: false },
     short: { label: "Short · 10", n: 10, ranked: true },
     long: { label: "Long · 20", n: 20, ranked: true },
     infinite: { label: "Endless", n: Infinity, ranked: true }
   };
-  const BOARD_MODES = ["short", "long", "infinite"];
+  const BOARD_MODES = ["daily", "short", "long", "infinite"];
   const LIMIT_START = 1.0, LIMIT_MIN = 0.3;            // endless mode: seconds allowed per question
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
@@ -57,7 +58,7 @@
   };
 
   // ---------------------------------------------------------------- game state
-  let mode = store.get("powDG_mode", "short");
+  let mode = store.get("powDG_mode", "daily");
   if (!MODES[mode]) mode = "short";
   let s = null, timers = [], tick = null, qTimeout = null;
 
@@ -67,7 +68,8 @@
     result: $("dg-result"), limit: $("dg-limit")
   };
 
-  function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+  const rand = () => (s && s.R ? s.R() : Math.random());
+  function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
   function setMode(m) {
     if (s && (s.running || s.counting)) stop(true);
@@ -107,8 +109,9 @@
     if (window.innerWidth < 900) $("play").scrollIntoView({ behavior: "smooth", block: "start" });
     const n = MODES[mode].n;
     s = { counting: true, running: false, q: 0, ok: 0, bad: 0, react: 0, t0: 0, shown: 0, answer: null, live: false,
-          lastW: -1, lastP: -1, lastNot: null, streak: 0, limit: LIMIT_START,
-          words: isFinite(n) ? shuffle([...ITEMS.keys()]).slice(0, n) : null };
+          lastW: -1, lastP: -1, lastNot: null, streak: 0, limit: LIMIT_START, marks: [],
+          R: MODES[mode].daily ? POWG.dailyRng("decision") : null, words: null };
+    s.words = isFinite(n) ? shuffle([...ITEMS.keys()]).slice(0, n) : null;
     ui.start.textContent = "Stop";
     ui.rel.textContent = ""; ui.rel.classList.remove("not");
     ui.word.textContent = "Get ready";
@@ -124,7 +127,7 @@
   }
 
   function chooseNot() {
-    let not = Math.random() < 0.5;
+    let not = rand() < 0.5;
     if (s.lastNot !== null && not === s.lastNot && s.streak >= 2) not = !not;   // never more than two of a kind in a row
     s.streak = not === s.lastNot ? s.streak + 1 : 1;
     s.lastNot = not;
@@ -136,10 +139,10 @@
     if (isFinite(n) && s.q >= n) return stop(false);
     let w, p;
     if (s.words) w = s.words[s.q];
-    else do { w = Math.floor(Math.random() * ITEMS.length); } while (w === s.lastW);
+    else do { w = Math.floor(rand() * ITEMS.length); } while (w === s.lastW);
     // about one question in three shows the matching picture, so "is" and "is not" are both worth reading
-    if (Math.random() < 1 / 3 && w !== s.lastP) p = w;
-    else do { p = Math.floor(Math.random() * ITEMS.length); } while (p === s.lastP || p === w);
+    if (rand() < 1 / 3 && w !== s.lastP) p = w;
+    else do { p = Math.floor(rand() * ITEMS.length); } while (p === s.lastP || p === w);
     const not = chooseNot();
     ui.pic.src = ITEMS[p].url; ui.pic.alt = "Picture";
     ui.word.textContent = ITEMS[w].label;
@@ -167,6 +170,7 @@
     s.react += (performance.now() - s.shown) / 1000;
     s.q++;
     const good = said === s.answer;
+    s.marks.push(good);
     good ? (s.ok++, sfx.right()) : (s.bad++, sfx.wrong());
     flash(good);
     ui.ok.textContent = s.ok; ui.bad.textContent = s.bad;
@@ -203,7 +207,14 @@
     const complete = mode === "infinite" ? run.correct > 0 : run.questions === MODES[mode].n;
     ui.word.textContent = manual ? "Stopped" : (why || "Finished");
     ui.rel.textContent = ""; ui.rel.classList.remove("not");
+    run.marks = s.marks.slice();
     if (!MODES[mode].ranked || !complete) { showResult(run, null, mode === "practice" ? "Practice runs aren't recorded." : manual ? "Run stopped early, so it isn't recorded." : "No correct answers this time, so it isn't recorded."); return; }
+    if (MODES[mode].daily) {
+      const done = POWG.dailyDone("decision");
+      if (done) { run.dailyRepeat = true; showResult(run, null, "Today's challenge is already recorded: only your first run of the day counts. Come back tomorrow for a new one."); return; }
+      run.day = POWG.today(); run.number = POWG.dayNumber();
+      POWG.markDaily("decision", { correct: run.correct, questions: run.questions, totalTime: run.totalTime, marks: run.marks });
+    }
     record(run);
   }
 
@@ -233,7 +244,7 @@
 
   async function record2(run, pb) {
     showResult(run, pb, "Saving your score online…");
-    const msg = await save(run);
+    const msg = run.mode === "daily" ? (await POWG.save({ ...run, game: "decision", board: "daily" })).msg : await save(run);
     showResult(run, pb, msg);
     showBoard(run.mode, true);
   }
@@ -253,14 +264,18 @@
   function showResult(run, pb, note) {
     const wrong = run.questions - run.correct;
     const head = run.mode === "infinite" ? `${run.correct} correct in a row` : `${run.correct} / ${run.questions} correct`;
-    const share = `I scored ${run.mode === "infinite" ? run.correct + " in a row on Endless" : run.correct + "/" + run.questions + " in " + fmt(run.totalTime) + " on " + MODES[run.mode].label.replace(" · ", " ")} in the Decision Game. Can you beat it?`;
+    const dailyShare = run.mode === "daily" && !run.dailyRepeat
+      ? `Decision Game #${run.number} · ${run.correct}/${run.questions} · ${fmt(run.totalTime)}\n${POWG.grid(run.marks || [])}` : null;
+    const share = dailyShare || `I scored ${run.mode === "infinite" ? run.correct + " in a row on Endless" : run.correct + "/" + run.questions + " in " + fmt(run.totalTime) + " on " + MODES[run.mode].label.replace(" · ", " ")} in the Decision Game. Can you beat it?`;
     ui.result.innerHTML = `
       <div class="dg-result-head">${pb ? '<span class="dg-pb">New personal best</span>' : ""}<strong>${esc(head)}</strong></div>
       <dl class="dg-facts"><div><dt>Mistakes</dt><dd>${wrong}</dd></div><div><dt>Total time</dt><dd>${fmt(run.totalTime)}</dd></div>
       <div><dt>Average answer</dt><dd>${fmt(run.avgReaction)}</dd></div></dl>
       <p class="muted dg-note" role="status">${esc(note || "")}</p>
-      ${MODES[run.mode].ranked ? `<div class="dg-result-actions"><button class="btn btn-door share-btn" type="button" data-url="${location.origin + location.pathname}" data-text="${esc(share)}">Challenge a friend</button>
-      <a class="btn btn-outline" href="?player=${encodeURIComponent(me.id)}#player">My scores</a></div>` : ""}`;
+      ${dailyShare ? `<pre class="g-grid">${esc(dailyShare)}</pre><p class="muted dg-note">Streak: ${POWG.streak("decision")} day${POWG.streak("decision") === 1 ? "" : "s"}. A new challenge every day, the same for everyone.</p>` : ""}
+      ${MODES[run.mode].ranked && !run.dailyRepeat ? `<div class="dg-result-actions"><button class="btn btn-door share-btn" type="button" data-url="${location.origin + location.pathname}" data-text="${esc(share)}">${dailyShare ? "Share your result" : "Challenge a friend"}</button>
+      <a class="btn btn-outline" href="?player=${encodeURIComponent(me.id)}#player">My scores</a><a class="btn btn-outline" href="play.html">More games</a></div>` : ""}
+      ${POWG.teaching()}`;
     ui.result.hidden = false;
     wireShare(ui.result);
   }
@@ -330,7 +345,9 @@
     if (v === 0) { tbody.innerHTML = `<tr><td colspan="6" class="muted">The online leaderboard can't be reached right now.</td></tr>`; return; }
     const view = v === 2 ? boardView : "best";
     try {
-      const { ok, j } = await getJSON(view === "all" ? `/runs?mode=${m}&limit=100` : `/leaderboard?mode=${m}`);
+      const q = m === "daily" ? `&day=${POWG.today()}` : "";
+      const { ok, status, j } = await getJSON(view === "all" ? `/runs?mode=${m}&limit=100${q}` : `/leaderboard?mode=${m}${q}`);
+      if (!ok && status === 400) { tbody.innerHTML = `<tr><td colspan="6" class="muted">The online leaderboard for the Daily Challenge opens soon. Your daily results and streak are kept on this device.</td></tr>`; note.textContent = ""; return; }
       if (!ok) throw 0;
       const rows = j.results || [];
       if (!rows.length) { tbody.innerHTML = `<tr><td colspan="6" class="muted">No scores yet. Be the first.</td></tr>`; }
@@ -339,7 +356,7 @@
         const who = r.playerId && v === 2 ? `<a href="?player=${encodeURIComponent(r.playerId)}#player">${esc(r.name)}</a>` : esc(r.name || r.initials);
         return `<tr${mine ? ' class="mine"' : ""}><td>${view === "all" ? "" : (r.rank || i + 1)}</td><td>${who}${mine ? ' <span class="tag">you</span>' : ""}</td>${cells({ ...r, mode: m }).map(c => `<td class="num">${c}</td>`).join("")}<td class="num">${r.date ? day(r.date) : ""}</td></tr>`;
       }).join("");
-      note.textContent = view === "all" ? "Every run, newest first." :
+      note.textContent = view === "all" ? "Every run, newest first." : m === "daily" ? "Today's challenge. Ranked by fewest mistakes, then fastest total time." :
         m === "infinite" ? "Each player's best run. Ranked by most correct, then fastest average answer." :
         "Each player's best run. Ranked by fewest mistakes, then fastest total time.";
     } catch { tbody.innerHTML = `<tr><td colspan="6" class="muted">The leaderboard couldn't be loaded. Try again in a minute.</td></tr>`; }
@@ -347,6 +364,9 @@
 
   // ---------------------------------------------------------------- this device and player pages
   function paintMine() {
+    const st = POWG.streak("decision"), done = POWG.dailyDone("decision");
+    const ds = document.getElementById("dg-daily-status");
+    if (ds) ds.textContent = done ? `Today's challenge #${POWG.dayNumber()}: ${done.correct}/${done.questions} in ${fmt(done.totalTime)}. Streak: ${st} day${st === 1 ? "" : "s"}.` : `Today's challenge #${POWG.dayNumber()} is waiting.${st ? ` Streak: ${st} day${st === 1 ? "" : "s"}.` : ""}`;
     const list = $("dg-mine");
     const bests = BOARD_MODES.map(m => [m, localBest(m)]).filter(([, b]) => b);
     $("dg-mine-best").innerHTML = bests.length ? bests.map(([m, b]) => `<div class="card dg-best"><span class="eyebrow muted" style="font-size:12px">${MODES[m].label}</span>

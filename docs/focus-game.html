@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Focus Game: free brain training</title>
+<meta name="description" content="A free focus game: press the moment a plus sign appears, but hold back when it has a circle around it. A Daily Challenge and an Endless run.">
+<link rel="canonical" href="https://peopleoftheworld.net/focus-game.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="People of the World">
+<meta property="og:title" content="The Focus Game: free brain training">
+<meta property="og:description" content="A free focus game: press the moment a plus sign appears, but hold back when it has a circle around it. A Daily Challenge and an Endless run.">
+<meta property="og:url" content="https://peopleoftheworld.net/focus-game.html">
+<meta property="og:image" content="https://peopleoftheworld.net/assets/share/play.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Focus Game: free brain training">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Shareef Ali Rashada"><script type="application/ld+json">{"@context": "https://schema.org", "@type": ["VideoGame", "WebApplication"], "name": "The Focus Game", "url": "https://peopleoftheworld.net/focus-game.html", "applicationCategory": "GameApplication", "genre": ["Brain training", "Reaction time", "Attention"], "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Shareef Ali Rashada", "@id": "https://peopleoftheworld.net/about.html#shareef"}, "description": "A free focus game: press the moment a plus sign appears, but hold back when it has a circle around it. A Daily Challenge and an Endless run."}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css?v=de0304a2">
+<script src="assets/site.js?v=97faca62" defer></script>
+<script data-goatcounter="https://peopleoftheworld.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body class="door-play">
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html"><span class="logo"><img src="assets/logo.webp" alt="" width="44" height="44"></span>
+<span class="brand-name">The Focus Game<span class="brand-sub">Brain training by People of the World</span></span></a>
+<nav class="site-nav" aria-label="Main"><a href="play.html">All games</a><a href="decision-game.html">Decision</a><a href="memory-game.html">Memory</a></nav>
+</div>
+</header>
+<main>
+<section class="band"><div class="wrap section dg-hero">
+<p class="eyebrow accent">Free brain training · no sign-up</p>
+<h1 class="h-xl">Press. Or hold back.</h1>
+<p class="lead muted" style="max-width:660px">Watch the centre. When a plus sign appears, press as fast as you can. When the plus has a circle around it, don't press at all. Speed matters; so does self-control.</p>
+</div></section>
+
+<section id="play" class="section dg-section"><div class="wrap stack" style="gap:18px">
+<div class="dg-toolbar"><div class="segs" role="group" aria-label="Game mode"><button type="button" class="seg" data-mode="daily" aria-pressed="false">Daily</button><button type="button" class="seg" data-mode="practice" aria-pressed="false">Practice</button><button type="button" class="seg" data-mode="endless" aria-pressed="false">Endless</button></div><label class="dg-check"><input type="checkbox" id="g-sound" checked> Sound</label></div>
+<div class="card fg-stage" id="fg-stage">
+<div class="fg-sign" id="fg-sign" aria-hidden="true"><span class="fg-plus"></span></div>
+<p class="mg-msg" id="fg-msg" aria-live="polite"></p>
+</div>
+<div class="fg-controls"><button type="button" class="btn btn-door dg-start" id="fg-start">Start</button>
+<button type="button" class="fg-press" id="fg-press" disabled>Press<kbd>Space</kbd></button></div>
+<dl class="dg-status"><div><dt>Sign</dt><dd id="fg-trial">0 / 30</dd></div><div><dt>Hits</dt><dd id="fg-hits">0</dd></div>
+<div><dt>Mistakes</dt><dd id="fg-bad">0</dd></div><div><dt>Average reaction</dt><dd id="fg-avg">0.00s</dd></div>
+<div><dt>Chances</dt><dd id="fg-lives">–</dd></div><div id="fg-window" class="fg-window"></div></dl>
+<div class="card dg-result" id="fg-result" hidden></div>
+</div></section>
+<div class="dg-modal" id="g-name" hidden><form class="card dg-name-card" id="g-name-form">
+<h2 class="h-md">Your name for the leaderboard</h2>
+<p class="muted">Shown next to your scores in every game. 2 to 16 characters. Your scores stay linked to this device.</p>
+<label for="g-name-input">Name<input id="g-name-input" maxlength="16" autocomplete="nickname" required></label>
+<p class="form-note" id="g-name-note"></p>
+<div class="actions"><button class="btn btn-door" type="submit">Save my score</button><button class="btn btn-outline" type="button" id="g-name-skip">Not now</button></div>
+</form></div>
+<section id="leaderboard" class="section band-alt"><div class="wrap stack" style="gap:20px">
+<div class="stack intro"><h2 class="h-lg">Leaderboard</h2><p class="lead muted">Today's Daily Challenge, and the best Endless runs of all time.</p></div>
+<div class="dg-toolbar"><div class="segs" role="group" aria-label="Leaderboard"><button type="button" class="seg" data-board="daily" aria-pressed="false">Today&#x27;s Daily</button><button type="button" class="seg" data-board="endless" aria-pressed="false">Endless</button></div></div>
+<div class="table-wrap card" style="padding:0"><table class="dg-table"><thead><tr><th>#</th><th>Player</th><th class="num">Right</th><th class="num">Avg reaction</th><th class="num">Date</th></tr></thead><tbody id="fg-board"></tbody></table></div>
+<p class="muted" id="fg-board-note" style="font-size:14px"></p>
+</div></section>
+
+<section id="mine" class="section"><div class="wrap stack" style="gap:20px">
+<div class="stack intro"><h2 class="h-lg">My bests</h2><p class="lead muted" id="fg-daily-status"></p></div>
+<div class="grid grid-3" id="fg-mine"></div>
+<p class="muted" style="font-size:14px">Playing as <strong data-g-me>not set yet</strong> · <button type="button" class="linklike" data-g-rename>change name</button></p>
+</div></section>
+
+<section class="section band-alt"><div class="wrap stack" style="gap:28px">
+<h2 class="h-lg">How it works</h2>
+<div class="grid grid-3">
+<div class="card"><h3 class="h-md">Three kinds of mistake</h3><p class="muted"><strong>Too soon</strong>: pressing before any sign. <strong>Too slow</strong>: missing a plain plus. <strong>Pressed on a circle</strong>: not holding back. About one sign in four has a circle.</p></div>
+<div class="card"><h3 class="h-md">Three ways to play</h3><p class="muted"><strong>Daily</strong>: thirty signs, the same for everyone today; only your first run counts. <strong>Endless</strong>: the time to respond shrinks as you go; three mistakes end the run. <strong>Practice</strong>: nothing recorded.</p></div>
+<div class="card"><h3 class="h-md">On a phone or a computer</h3><p class="muted">Press the space bar, or tap the big Press button. Keep your finger ready, and your eyes on the centre.</p></div>
+</div></div></section>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="cols">
+<div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
+<span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a><a href="seekers.html">The Search for Meaning</a><a href="urantia.html">For Urantia readers</a><a href="science.html">Graviton Pressure Theory</a><a href="builders.html">End Poverty by Design</a><a href="music.html">That Brother Ali</a><a href="easykey.html">EasyKey Music</a><a href="ai.html">The Open Library</a><a href="videos.html">Videos</a><a href="play.html">Brain training games</a><a href="about.html">About Shareef</a></nav>
+<nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
+<div class="col"><strong>Contact</strong><span class="copy-row"><span>shareef@peopleoftheworld.net</span><button class="copy-btn" type="button" data-copy="shareef@peopleoftheworld.net">Copy</button></span></div>
+</div>
+<p class="legal">© 2026 People of the World · POW Productions Pty Ltd, Queensland, Australia · <a href="privacy.html">Privacy</a></p>
+</div>
+</footer>
+<script src="assets/games-common.js?v=997fecd5" defer></script>
+<script src="assets/focus-game.js?v=3afadd9f" defer></script>
+</body>
+</html>
