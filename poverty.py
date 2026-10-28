@@ -319,7 +319,24 @@ def build_civic_credits():
                   ("Rewards for whistleblowers", "Confirmed reports of fraud earn a credit bonus."),
                   ("Real penalties", "Restitution, suspension or removal; serious cases are prosecuted as theft from the commons."),
                   ("Everything published", "Daily totals by sector and region, redemption volumes and reserve coverage, reviewed by independent auditors and citizen committees.")]
+    safeguards.insert(0, ("No one shut out", "Voluntary to join, and no one is ever refused food, care or a payment because a device failed or they don't have one. A person, such as staff at a Poverty Elimination Center, can always step in."))
     safe_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in safeguards)
+    safety = [("Emergency response", "After an accident or a fall, LifeLink calls emergency services and alerts the people you have chosen.",
+               "You choose who is alerted. Your location is shared only for the emergency, then stops."),
+              ("Silent SOS", "A double-tap on the ring, or a distress signal from the watch, quietly calls the police when speaking up isn't safe.",
+               "Only you can trigger it. Nothing is listening or recording until you do."),
+              ("Crime reporting", "Report a crime by voice; the authorities are notified, and nearby witnesses can choose to help.",
+               "Reports are logged and auditable, with protections against false reports. Witnesses take part only if they agree."),
+              ("Threat alerts", "Alerts about incidents reported near you, such as a fire, a flood or a crime in progress.",
+               "Alerts are sent to an area and your device decides if you're in it. Your location goes nowhere."),
+              ("Biometric identity", "Sign in, pay and prove who you are with a fingerprint, face or iris.",
+               "Your biometrics stay on your own device and are never kept in a central database. A non-biometric option and a human override always exist.")]
+    safety_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)} <span style="color:var(--fg);font-weight:600">The rule:</span> {esc(c)}</span></li>' for a, b, c in safety)
+    count_rules = [("Know needs, not movements", "Planners see totals, such as how many people in an area need housing, care or training. Personal details are used only to serve that person, with their consent."),
+                   ("Voluntary, and never a gate", "Joining is a choice. No one is refused food, care or a payment because a device failed or they don't have one; a person can always override the system."),
+                   ("Data stays with the person", "Collect the minimum, keep it in separate systems rather than one central store, and let every person see who has looked at their record."),
+                   ("Safety you switch on", "Distress signals are triggered by the user, not by constant watching. Any request involving the police is overseen by the independent Ethical and Security Council and reported publicly.")]
+    count_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in count_rules)
     objections = [("Isn't this just printing money?", "No. New credits exist only after verifiable work is done, so spending power rises with output. The mismatch that drives inflation is absent by design."),
                   ("Won't prices for essentials go up?", "Capacity rises with spending: when more nurses work, waiting times fall; when more builders repair homes, backlogs shrink. Prices for essentials bought with credits follow no-profit-on-necessities rules: true cost plus a fair margin."),
                   ("Will it push out ordinary wages?", "Taking part is contractual and voluntary. The first sectors are the understaffed ones where dollar budgets never meet the need."),
@@ -523,7 +540,7 @@ def build_lifelink():
     features = [("Identity", "A secure digital ID, verified by fingerprint, face or iris, that works offline and can't be lost like paper documents."),
                 ("Wallet", "Earn, hold and spend Civic Credits; pay bills automatically; see exactly where public money goes."),
                 ("Learning", "An AI teacher from basic literacy to career training, with automatic certification and job matching."),
-                ("Health", "Telemedicine, mental-health support, preventive guidance and an emergency button that calls for help."),
+                ("Health", "Telemedicine, mental-health support and preventive guidance, with your records kept in your hands."),
                 ("Voice", "Vote, petition and follow legislation; join town halls; speak directly to the people who represent you."),
                 ("Creativity", "The Social, Arts and Creative hub, where artists, musicians and writers earn credits for their work.")]
     feat_html = "".join(f'<div class="card"><span class="h-md" style="font-family:var(--display)">{esc(a)}</span><span class="muted">{esc(b)}</span></div>' for a, b in features)
@@ -535,7 +552,24 @@ def build_lifelink():
                   ("Works when systems fail", "Offline ID, peer-to-peer mesh networking, solar-powered devices and satellite access in emergencies."),
                   ("Built to privacy law", "Designed to meet GDPR, CCPA and ISO security standards, with encryption designed to resist future quantum attacks."),
                   ("For people without papers", "Digital identity for refugees and displaced people, so no one is shut out of help.")]
+    safeguards.insert(0, ("No one shut out", "Voluntary to join, and no one is ever refused food, care or a payment because a device failed or they don't have one. A person, such as staff at a Poverty Elimination Center, can always step in."))
     safe_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in safeguards)
+    safety = [("Emergency response", "After an accident or a fall, LifeLink calls emergency services and alerts the people you have chosen.",
+               "You choose who is alerted. Your location is shared only for the emergency, then stops."),
+              ("Silent SOS", "A double-tap on the ring, or a distress signal from the watch, quietly calls the police when speaking up isn't safe.",
+               "Only you can trigger it. Nothing is listening or recording until you do."),
+              ("Crime reporting", "Report a crime by voice; the authorities are notified, and nearby witnesses can choose to help.",
+               "Reports are logged and auditable, with protections against false reports. Witnesses take part only if they agree."),
+              ("Threat alerts", "Alerts about incidents reported near you, such as a fire, a flood or a crime in progress.",
+               "Alerts are sent to an area and your device decides if you're in it. Your location goes nowhere."),
+              ("Biometric identity", "Sign in, pay and prove who you are with a fingerprint, face or iris.",
+               "Your biometrics stay on your own device and are never kept in a central database. A non-biometric option and a human override always exist.")]
+    safety_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)} <span style="color:var(--fg);font-weight:600">The rule:</span> {esc(c)}</span></li>' for a, b, c in safety)
+    count_rules = [("Know needs, not movements", "Planners see totals, such as how many people in an area need housing, care or training. Personal details are used only to serve that person, with their consent."),
+                   ("Voluntary, and never a gate", "Joining is a choice. No one is refused food, care or a payment because a device failed or they don't have one; a person can always override the system."),
+                   ("Data stays with the person", "Collect the minimum, keep it in separate systems rather than one central store, and let every person see who has looked at their record."),
+                   ("Safety you switch on", "Distress signals are triggered by the user, not by constant watching. Any request involving the police is overseen by the independent Ethical and Security Council and reported publicly.")]
+    count_html = "".join(f'<li><strong>{esc(a)}</strong><span class="muted">{esc(b)}</span></li>' for a, b in count_rules)
     day = flow([("Morning", "Sign in with a fingerprint; today's credits, bills and health check at a glance."),
                 ("Work", "Job matching, certifications from the AI teacher, and secure remote work."),
                 ("Learning", "A lesson plan built around your goals, from literacy to law."),
@@ -549,7 +583,7 @@ def build_lifelink():
 <main>
 {hero("Instrument 3 of 3 · LifeLink", "One link to every public service.",
       "LifeLink gives every citizen a secure digital identity and wallet, free, on a phone they already own, a LifeLink tablet or a wearable. Through it people receive their Civic Credits, learn, see a doctor, call for help, and take part in government. No more paperwork, and no more getting lost between agencies.",
-      f'<a class="btn btn-door" href="#what">What it does</a><a class="btn btn-ghost" href="#devices">The devices</a><a class="btn btn-ghost" href="#papers">All papers</a>')}
+      f'<a class="btn btn-door" href="#what">What it does</a><a class="btn btn-ghost" href="#safety">Safety and security</a><a class="btn btn-ghost" href="#counted">Counted, not tracked</a><a class="btn btn-ghost" href="#papers">All papers</a>')}
 
 <section id="what" class="section"><div class="wrap stack" style="gap:28px">
 <div class="stack intro"><h2 class="h-lg">What it does</h2>
@@ -568,6 +602,28 @@ def build_lifelink():
 <p class="lead muted">LifeLink starts as an app and on <a href="{LP.working_url(works['ll-tablet'])}">the LifeLink Tablet</a> ("The Link"), then grows into a family of wearables, each with its own technical specification.</p></div>
 <div class="devices">{dev_html}</div>
 <p class="muted" style="font-size:14px">The pictures are AI-generated concept renderings; final products may differ.</p>
+</div></section>
+
+<section id="safety" class="section band-alt"><div class="wrap stack" style="gap:24px;max-width:1000px">
+<div class="stack intro"><h2 class="h-lg">Safety and security</h2>
+<p class="lead muted">LifeLink's safety features are among its most valuable, and its most debated. A device that can call for help could also be used to watch. So every feature comes with the rule that keeps it on the right side of that line.</p></div>
+<ol class="pathways">{safety_html}</ol>
+<p class="muted" style="font-size:15px">From <a href="{LP.working_url(works['ll-daily-implementation'])}">LifeLink Daily Implementation</a>, <a href="{LP.working_url(works['ll-tablet'])}">The LifeLink Tablet</a> and the <a href="{LP.working_url(works['ll-crisis-management-and-security-protocols'])}">Crisis Management and Security Protocols</a>.</p>
+</div></section>
+
+<section id="counted" class="section"><div class="wrap stack" style="gap:28px">
+<div class="stack intro"><h2 class="h-lg">Every person counted, no person tracked</h2>
+<p class="lead muted">Running a country can feel like an endless list of problems and costs. Much of that is not the cost of care itself, but not knowing who needs what: the same person registered by six agencies, payments leaking to names that don't exist, people falling through the gaps until they become emergencies. When every person is counted, an endless problem becomes a budget: this many people in this area need housing, care or training.</p></div>
+<div class="grid grid-2">
+<div class="card"><span class="step-label">The evidence</span><span class="h-md" style="font-family:var(--display)">Knowing who needs what pays</span>
+<span class="muted">When the Indian state of Andhra Pradesh paid welfare through biometric smartcards, leakage in its rural jobs programme fell by about 41%, payments arrived 6 to 10 days sooner, and about 90% of recipients preferred the new system. The savings far exceeded the cost. Estonia runs every state service online, and its agencies may not ask for the same information twice.</span>
+<span style="font-size:14px"><a href="https://www.povertyactionlab.org/sites/default/files/publication/smartcards-for-smarter-payments.pdf" rel="noopener">J-PAL: Smartcards for smarter payments</a> · <a href="https://e-estonia.com/solutions/e-governance/e-services-registries/" rel="noopener">e-Estonia</a></span></div>
+<div class="card"><span class="step-label">The warning</span><span class="h-md" style="font-family:var(--display)">A system can shut out the people it serves</span>
+<span class="muted">In Jharkhand, India, ration shops were required to check fingerprints, with no manual fallback. While the change was brought in, alongside a clean-up of records, 1.5 to 2 million people lost their food rations at some point, and wasted trips to the shop doubled. The fingerprint check alone did not reduce theft. The researchers blame how it was introduced, above all the missing fallback.</span>
+<span style="font-size:14px"><a href="https://www.nber.org/papers/w26744.pdf" rel="noopener">NBER working paper 26744</a></span></div>
+</div>
+<p class="lead muted">Counting doesn't make a hospital cheaper. What it removes is waste, duplication and late, expensive crises. LifeLink is designed to keep that gain without becoming a tool for watching people:</p>
+<ol class="pathways">{count_html}</ol>
 </div></section>
 
 <section class="section band-alt"><div class="wrap stack" style="gap:28px">
