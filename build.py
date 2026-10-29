@@ -111,7 +111,7 @@ def footer(current=None):
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
 <nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="play.html">Brain training games</a><a href="about.html">About Shareef</a></nav>
-<nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
+<nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="librarians.html">For librarians</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
 <p class="legal">© {YEAR} People of the World · POW Productions Pty Ltd, Queensland, Australia · <a href="privacy.html">Privacy</a></p>
@@ -1288,6 +1288,7 @@ def build_books():
 <p class="eyebrow" style="color:var(--band-muted)">Books by Shareef Ali Rashada</p>
 <h1 class="h-xl">The library</h1>
 <p class="lead muted" style="max-width:680px">Read them in order: imagine, understand, build, discover. The teachings are free online; print and ebook copies support the mission.</p>
+<p style="font-size:15px"><a href="librarians.html" style="color:var(--band-fg);font-weight:600">For librarians: ISBNs and ordering →</a> &nbsp;·&nbsp; <a href="librarians.html#ask" style="color:var(--band-fg);font-weight:600">Ask your library to stock them →</a></p>
 </div></section>
 <section class="section"><div class="wrap stack" style="gap:24px">
 <div class="grid">
@@ -1799,6 +1800,8 @@ if __name__ == "__main__":
     build_decision_game()
     import sys, games_pages
     games_pages.build(sys.modules[__name__])
+    import librarians
+    librarians.build(sys.modules[__name__])
     build_shop()
     build_privacy()
     sections, nsteps = build_reader()

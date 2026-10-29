@@ -5,3 +5,4 @@ __pycache__/
 Thumbs.db
 check.py
 node_modules/
+build/
