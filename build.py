@@ -376,7 +376,7 @@ def door_cards(exclude=None):
 def build_hub():
     vband, vld = video_band('hub', 'Meet People of the World', 'index.html', 'A one-minute introduction. More on the Videos page.', False)
     body = f"""{header(nav=[("Choose a door", "#doors", False, None), ("The reading path", "#path", False, None),
-                        ("Books", "books.html", False, None), ("Shop", "#", False, "shop"),
+                        ("Books", "books.html", False, None), ("Brain training", "play.html", False, None), ("Shop", "#", False, "shop"),
                         ("Support the mission", "#", True, "support")])}
 <main>
 <section class="band hero">
@@ -397,8 +397,8 @@ def build_hub():
 </div></section>
 
 <section id="path" class="section band-alt"><div class="wrap stack" style="gap:40px">
-<div class="stack intro"><p class="eyebrow muted">The reading path</p><h2 class="h-lg">Imagine. Understand. Build.</h2>
-<p class="lead muted">The books are written to be read in order. A story opens the mind, a history fills it, and a plan turns it into action.</p></div>
+<div class="stack intro"><p class="eyebrow muted">The reading path</p><h2 class="h-lg">Imagine. Understand. Build. Discover.</h2>
+<p class="lead muted">The books are written to be read in order. A story opens the mind, a history fills it, a plan turns it into action, and a framework explains the universe it all takes place in.</p></div>
 <div class="path">
 <a class="card door-seekers" href="books.html#novel"><span class="step-label">Step 1 · Imagine</span>
 <span class="h-md" style="font-family:var(--display)">People of the World</span>
@@ -412,6 +412,10 @@ def build_hub():
 <span class="h-md" style="font-family:var(--display)">The Plan to End Poverty</span>
 <span class="muted" style="font-size:15px">Civic Credits, Poverty Elimination Centers and LifeLink: a designed system to end poverty by 2050.</span>
 <span class="card-cta">See the plan →</span></a>
+<a class="card door-science" href="graviton-pressure-theory/full-framework/"><span class="step-label">Step 4 · Discover</span>
+<span class="h-md" style="font-family:var(--display)">The Unified Framework for the Graviton Pressure Theory</span>
+<span class="muted" style="font-size:15px">The science beneath it all: gravity as pressure from the medium of space, with a named mechanism, the mathematics and proposed tests. All thirty parts free to read online.</span>
+<span class="card-cta">Read it free →</span></a>
 </div>
 </div></section>
 
@@ -423,12 +427,15 @@ def build_hub():
 </div></section>
 
 <section class="section"><div class="wrap award">
+<div class="award-imgs">
+<a class="award-img" href="seekers.html#book"><img src="assets/cover-portal.webp" alt="Cover of The Portal Opens by Shareef Ali Rashada" width="384" height="576" loading="lazy" class="award-cover"></a>
 <a class="award-img" href="#" data-link="review"><img src="{AWARD_IMG}" alt="Literary Titan Silver Book Award, The Portal Opens by Shareef Ali Rashada" width="320" height="320" loading="lazy"></a>
+</div>
 <div class="text stack">
 <p class="eyebrow" style="color:#9A5F12">Literary Titan Silver Book Award · The Portal Opens</p>
 <p class="quote">“A wild, luminous ride worth taking.”</p>
 <p class="lead muted">Literary Titan rated The Portal Opens four stars, and recommends it to seekers and to anyone religion left with unanswered questions.</p>
-<p><a href="#" data-link="review" style="font-weight:600">Read the full review</a></p>
+<p><a href="seekers.html#book" style="font-weight:600">About The Portal Opens</a> &nbsp;·&nbsp; <a href="read.html" style="font-weight:600">Read it free</a> &nbsp;·&nbsp; <a href="#" data-link="review" style="font-weight:600">Read the full review</a></p>
 </div></div></section>
 
 {vband}
@@ -955,7 +962,7 @@ def build_science():
 <h2 class="h-lg">The Unified Framework for the Graviton Pressure Theory</h2>
 <p class="lead muted">The complete framework in one volume, by Shareef Ali Rashada.</p>
 <p class="muted" style="font-family:var(--mono);font-size:13px">ISBN 978-1-326-48805-5 · Lulu Press</p>
-<div class="actions"><a class="btn btn-door" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="books.html">All books</a></div>
+<div class="actions"><a class="btn btn-door" href="graviton-pressure-theory/full-framework/">Read it free online</a><a class="btn btn-outline" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="books.html">All books</a></div>
 </div>
 </div></section>
 
@@ -1280,7 +1287,7 @@ def build_books():
 <section class="band"><div class="wrap section stack" style="gap:18px">
 <p class="eyebrow" style="color:var(--band-muted)">Books by Shareef Ali Rashada</p>
 <h1 class="h-xl">The library</h1>
-<p class="lead muted" style="max-width:680px">Read them in order: imagine, understand, build. The teachings are free online; print and ebook copies support the mission.</p>
+<p class="lead muted" style="max-width:680px">Read them in order: imagine, understand, build, discover. The teachings are free online; print and ebook copies support the mission.</p>
 </div></section>
 <section class="section"><div class="wrap stack" style="gap:24px">
 <div class="grid">
@@ -1291,9 +1298,9 @@ def build_books():
 <article class="card door-seekers"><span class="book-cover"><img src="assets/cover-portal.webp" alt="Cover of The Portal Opens" width="384" height="576" loading="lazy"></span><span class="step-label">Understand</span><h2 class="h-md">The Portal Opens</h2>
 <p class="muted" style="font-size:15px">The history behind the story, as transmitted by Gabriel: Jesus, Lucifer, Caligastia, Adam and Eve, and Melchizedek. Winner of the Literary Titan Silver Book Award.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="read.html">Read free</a><a class="btn btn-outline" href="seekers.html#buy">Buy a copy</a></div></article>
-<article class="card door-science"><span class="book-cover"><img src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy"></span><span class="step-label">Science</span><h2 class="h-md">The Unified Framework for the Graviton Pressure Theory</h2>
-<p class="muted" style="font-size:15px">Gravity as a pressure from outside, with a named mechanism. ISBN 978-1-326-48805-5.</p>
-<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
+<article class="card door-science"><span class="book-cover"><img src="assets/cover-gpt.webp" alt="Cover of The Unified Framework for The Graviton Pressure Theory" width="384" height="501" loading="lazy"></span><span class="step-label">Discover</span><h2 class="h-md">The Unified Framework for the Graviton Pressure Theory</h2>
+<p class="muted" style="font-size:15px">Gravity as a pressure from outside, with a named mechanism. All thirty parts free to read online. ISBN 978-1-326-48805-5.</p>
+<div class="actions" style="margin-top:auto"><a class="btn btn-door" href="graviton-pressure-theory/full-framework/">Read free</a><a class="btn btn-outline" href="#" data-link="gptBook">Buy the book</a><a class="btn btn-outline" href="science.html">About the theory</a></div></article>
 <article class="card door-easykey"><span class="book-cover"><img src="assets/cover-easykey.webp" alt="Cover of Learning to Play the EasyKey Way" width="496" height="701" loading="lazy"></span><span class="step-label">Music education</span><h2 class="h-md">Learning to Play the EasyKey Way</h2>
 <p class="muted" style="font-size:15px">A year of piano in twelve keys, written entirely in EasyKey's visual notation. 26 songs from beginner to advanced. ISBN 978-1-008-98579-7.</p>
 <div class="actions" style="margin-top:auto"><a class="btn btn-door" href="#" data-link="easykeyBook">Buy the book</a><a class="btn btn-outline" href="easykey.html">About EasyKey</a></div></article>

@@ -455,6 +455,9 @@ a.card:hover .card-cta{text-decoration:underline;text-underline-offset:4px}
 .key-chip{display:inline-flex;align-items:center;min-height:42px;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);font-weight:600;font-size:15px;text-decoration:none}
 .key-chip:hover{border-color:var(--door);color:var(--door)}
 
+.award-imgs{display:flex;gap:18px;align-items:center;flex:0 1 auto;max-width:100%}
+.award-imgs .award-img img{width:min(240px,50vw)}
+.award-imgs .award-img img.award-cover{width:min(160px,36vw)}
 .award-img{flex:0 0 auto;display:block;border-radius:14px;overflow:hidden;box-shadow:0 14px 40px rgba(10,34,56,.18)}
 .award-img img,img.award-img{display:block;width:240px;max-width:100%;height:auto}
 img.award-img{border-radius:14px}
