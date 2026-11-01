@@ -50,6 +50,25 @@ BOOK_PLAN = "The Plan to End Poverty: A Unified Framework for Human Capability a
 PROGRAMMES = {"civic-credits": "Civic Credits", "poverty-elimination-centers": "Poverty Elimination Centers", "lifelink": "LifeLink"}
 
 
+# The main pages of the site, for llms.txt and catalog.json: kept in step with the doors and new sections.
+SITE_SECTIONS = [
+    ("The hub", "", "Knowledge, morality, unity and peace: the seven doors and the reading path."),
+    ("Why it all connects", "why.html", "The purpose behind every project: the Creator within each person, the Spirit of Truth and the New Morality."),
+    ("The Search for Meaning", "seekers.html", "Why people search for meaning, the thread through every faith, and The Portal Opens (free to read)."),
+    ("For Urantia Book readers", "urantia.html", "How The Portal Opens relates to the Urantia Papers."),
+    ("Ten steps for humanity", "ten-steps.html", "Ten practical steps from The Portal Opens."),
+    ("Graviton Pressure Theory", "science.html", "Plain-language overview, where the work stands, and the book."),
+    ("Graviton Pressure Theory: start here", "graviton-pressure-theory/", "The reading pathway, in the order the author recommends."),
+    ("An invitation to researchers of space as a medium", "graviton-pressure-theory/invitation/", "What GPT shares with analogue gravity and superfluid-vacuum research, its derived results and open problems."),
+    ("End Poverty by Design", "builders.html", "The Plan to End Poverty by 2050 in plain language."),
+    ("The Plan to End Poverty", "plan-to-end-poverty/", "The complete 2025 edition and its working papers: Civic Credits, Poverty Elimination Centers and LifeLink."),
+    ("LifeLink", "plan-to-end-poverty/lifelink/", "One link to every public service: features, safety rules, devices and papers."),
+    ("LifeLink prototype", "plan-to-end-poverty/lifelink/app/", "A working, installable prototype: private ID, Civic Credits wallet, learning, health and safety, offline and on-device."),
+    ("EasyKey Music", "easykey.html", "Visual music notation for piano and keyboard, with a free first lesson."),
+    ("EasyKey Music Centers", "easykey/centers/", "The vision for community music centres, and how to take part."),
+    ("The Open Library", "ai.html", "Every document free, with plain-text copies for search engines and AI."),
+]
+
 def working_url(d):
     return f"{PLAN_URL}{d['programme']}/{slugify(d['title'])}/"
 
@@ -439,6 +458,11 @@ def build_machine_files(B, docs, portal_md):
              "Graviton Pressure Theory is the author's own framework and is presented here in the order he recommends: "
              "first what gravity must explain, then what current theory leaves unexplained, then the proposed mechanism. "
              f"Its open problems are listed at {S}/science.html#status.", ""]
+    lines += ["## The site: where to start", "",
+              "People of the World is one hub with a door for each audience. Each page below is current and plain HTML.", ""]
+    for title, url, desc in SITE_SECTIONS:
+        lines.append(f"- [{title}]({S}/{url}): {desc}")
+    lines.append("")
     for name, items in groups:
         lines += [f"## {name}", ""]
         if name.startswith("Spirit"):
@@ -458,10 +482,10 @@ def build_machine_files(B, docs, portal_md):
     lines.append("")
     lines += ["## Optional", "",
               f"- [About Shareef Ali Rashada]({S}/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under",
-              f"- [About Graviton Pressure Theory]({S}/science.html): plain-language overview, the book, and where the work stands",
-              f"- [End Poverty by Design]({S}/builders.html): plain-language overview of the Plan",
-              f"- [EasyKey Music]({S}/easykey.html): visual music notation and a free first lesson",
-              f"- [That Brother Ali]({S}/music.html): music by Shareef Ali Rashada", ""]
+              f"- [Books]({S}/books.html): every book with editions and where to buy; [for librarians]({S}/librarians.html), with all ISBNs",
+              f"- [Brain training]({S}/play.html): free Focus, Memory and Decision games with a Daily Challenge",
+              f"- [That Brother Ali]({S}/music.html): music by Shareef Ali Rashada",
+              f"- [Videos]({S}/videos.html): every video in one place", ""]
     (B.OUT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
 
     full = [f"# People of the World: The Open Library (complete text)\n\nAll documents by {B.AUTHOR}. Source: {S}/ai.html\n"]
@@ -475,7 +499,7 @@ def build_machine_files(B, docs, portal_md):
 
     catalog = {"name": "People of the World: The Open Library", "author": B.AUTHOR, "url": f"{S}/ai.html", "licence":
                "Free to read, index, quote and summarise with attribution. Commercial republication by licence.",
-               "contact": B.CONTACT, "documents": [
+               "contact": B.CONTACT, "sections": [{"title": a, "url": f"{S}/{u}", "description": d} for a, u, d in SITE_SECTIONS], "documents": [
                    {"title": "The Portal Opens", "url": f"{S}/read.html", "text": f"{S}/the-portal-opens.md", "collection": "Spirit, history and morality", "datePublished": "2025"}] + [
                    {"title": e["title"], "subtitle": e["subtitle"], "url": f"{S}/{e['url']}", "text": f"{S}/{e['url']}index.md",
                     "collection": next(n for n, items in groups if e in items), "part": e.get("part"), "chapter": e.get("chapter"),
@@ -485,11 +509,30 @@ def build_machine_files(B, docs, portal_md):
 
 def write_sitemap_and_robots(B):
     S = B.SITE_URL
+    # Each page's "last changed" date: kept in lastmod.json (not published), updated only when the page's content
+    # really changes (asset version strings are ignored), so search engines can trust the dates.
+    import hashlib, datetime, re as _re
+    reg_path = B.ROOT / "lastmod.json"
+    reg = json.loads(reg_path.read_text(encoding="utf-8")) if reg_path.exists() else {}
+    today = datetime.date.today().isoformat()
+    pages = list(B.PAGES)
+    for extra in ("easykey/converter/index.html", "plan-to-end-poverty/lifelink/app/index.html"):   # pages built outside build.py
+        if (B.OUT / extra).exists() and not any(f == extra for f, _ in pages):
+            pages.append((extra, None))
     urls = []
-    for fname, lastmod in B.PAGES:
+    for fname, lastmod in pages:
         loc = B.canonical(fname)
-        lm = f"<lastmod>{lastmod}</lastmod>" if lastmod and len(lastmod) == 10 else ""
-        urls.append(f"<url><loc>{html.escape(loc)}</loc>{lm}</url>")
+        try:
+            body = (B.OUT / fname).read_text(encoding="utf-8", errors="ignore")
+        except FileNotFoundError:
+            body = ""
+        h = hashlib.sha256(_re.sub(r"\?v=[0-9a-zA-Z]+", "", body).encode()).hexdigest()[:16]
+        prev = reg.get(fname)
+        if not prev or prev["h"] != h:
+            reg[fname] = {"h": h, "d": today}
+        d = lastmod if lastmod and len(lastmod) == 10 else reg[fname]["d"]   # a page's own curated date wins
+        urls.append(f"<url><loc>{html.escape(loc)}</loc><lastmod>{d}</lastmod></url>")
+    reg_path.write_text(json.dumps(dict(sorted(reg.items())), indent=0), encoding="utf-8")
     (B.OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                        + "\n".join(urls) + "\n</urlset>\n", encoding="utf-8")
     bots = ["Googlebot", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",

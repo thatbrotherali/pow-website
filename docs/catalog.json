@@ -4,6 +4,83 @@
  "url": "https://peopleoftheworld.net/ai.html",
  "licence": "Free to read, index, quote and summarise with attribution. Commercial republication by licence.",
  "contact": "shareef@peopleoftheworld.net",
+ "sections": [
+  {
+   "title": "The hub",
+   "url": "https://peopleoftheworld.net/",
+   "description": "Knowledge, morality, unity and peace: the seven doors and the reading path."
+  },
+  {
+   "title": "Why it all connects",
+   "url": "https://peopleoftheworld.net/why.html",
+   "description": "The purpose behind every project: the Creator within each person, the Spirit of Truth and the New Morality."
+  },
+  {
+   "title": "The Search for Meaning",
+   "url": "https://peopleoftheworld.net/seekers.html",
+   "description": "Why people search for meaning, the thread through every faith, and The Portal Opens (free to read)."
+  },
+  {
+   "title": "For Urantia Book readers",
+   "url": "https://peopleoftheworld.net/urantia.html",
+   "description": "How The Portal Opens relates to the Urantia Papers."
+  },
+  {
+   "title": "Ten steps for humanity",
+   "url": "https://peopleoftheworld.net/ten-steps.html",
+   "description": "Ten practical steps from The Portal Opens."
+  },
+  {
+   "title": "Graviton Pressure Theory",
+   "url": "https://peopleoftheworld.net/science.html",
+   "description": "Plain-language overview, where the work stands, and the book."
+  },
+  {
+   "title": "Graviton Pressure Theory: start here",
+   "url": "https://peopleoftheworld.net/graviton-pressure-theory/",
+   "description": "The reading pathway, in the order the author recommends."
+  },
+  {
+   "title": "An invitation to researchers of space as a medium",
+   "url": "https://peopleoftheworld.net/graviton-pressure-theory/invitation/",
+   "description": "What GPT shares with analogue gravity and superfluid-vacuum research, its derived results and open problems."
+  },
+  {
+   "title": "End Poverty by Design",
+   "url": "https://peopleoftheworld.net/builders.html",
+   "description": "The Plan to End Poverty by 2050 in plain language."
+  },
+  {
+   "title": "The Plan to End Poverty",
+   "url": "https://peopleoftheworld.net/plan-to-end-poverty/",
+   "description": "The complete 2025 edition and its working papers: Civic Credits, Poverty Elimination Centers and LifeLink."
+  },
+  {
+   "title": "LifeLink",
+   "url": "https://peopleoftheworld.net/plan-to-end-poverty/lifelink/",
+   "description": "One link to every public service: features, safety rules, devices and papers."
+  },
+  {
+   "title": "LifeLink prototype",
+   "url": "https://peopleoftheworld.net/plan-to-end-poverty/lifelink/app/",
+   "description": "A working, installable prototype: private ID, Civic Credits wallet, learning, health and safety, offline and on-device."
+  },
+  {
+   "title": "EasyKey Music",
+   "url": "https://peopleoftheworld.net/easykey.html",
+   "description": "Visual music notation for piano and keyboard, with a free first lesson."
+  },
+  {
+   "title": "EasyKey Music Centers",
+   "url": "https://peopleoftheworld.net/easykey/centers/",
+   "description": "The vision for community music centres, and how to take part."
+  },
+  {
+   "title": "The Open Library",
+   "url": "https://peopleoftheworld.net/ai.html",
+   "description": "Every document free, with plain-text copies for search engines and AI."
+  }
+ ],
  "documents": [
   {
    "title": "The Portal Opens",

@@ -6,6 +6,26 @@ Every document below is a plain HTML page with a Markdown twin (the links here p
 
 Graviton Pressure Theory is the author's own framework and is presented here in the order he recommends: first what gravity must explain, then what current theory leaves unexplained, then the proposed mechanism. Its open problems are listed at https://peopleoftheworld.net/science.html#status.
 
+## The site: where to start
+
+People of the World is one hub with a door for each audience. Each page below is current and plain HTML.
+
+- [The hub](https://peopleoftheworld.net/): Knowledge, morality, unity and peace: the seven doors and the reading path.
+- [Why it all connects](https://peopleoftheworld.net/why.html): The purpose behind every project: the Creator within each person, the Spirit of Truth and the New Morality.
+- [The Search for Meaning](https://peopleoftheworld.net/seekers.html): Why people search for meaning, the thread through every faith, and The Portal Opens (free to read).
+- [For Urantia Book readers](https://peopleoftheworld.net/urantia.html): How The Portal Opens relates to the Urantia Papers.
+- [Ten steps for humanity](https://peopleoftheworld.net/ten-steps.html): Ten practical steps from The Portal Opens.
+- [Graviton Pressure Theory](https://peopleoftheworld.net/science.html): Plain-language overview, where the work stands, and the book.
+- [Graviton Pressure Theory: start here](https://peopleoftheworld.net/graviton-pressure-theory/): The reading pathway, in the order the author recommends.
+- [An invitation to researchers of space as a medium](https://peopleoftheworld.net/graviton-pressure-theory/invitation/): What GPT shares with analogue gravity and superfluid-vacuum research, its derived results and open problems.
+- [End Poverty by Design](https://peopleoftheworld.net/builders.html): The Plan to End Poverty by 2050 in plain language.
+- [The Plan to End Poverty](https://peopleoftheworld.net/plan-to-end-poverty/): The complete 2025 edition and its working papers: Civic Credits, Poverty Elimination Centers and LifeLink.
+- [LifeLink](https://peopleoftheworld.net/plan-to-end-poverty/lifelink/): One link to every public service: features, safety rules, devices and papers.
+- [LifeLink prototype](https://peopleoftheworld.net/plan-to-end-poverty/lifelink/app/): A working, installable prototype: private ID, Civic Credits wallet, learning, health and safety, offline and on-device.
+- [EasyKey Music](https://peopleoftheworld.net/easykey.html): Visual music notation for piano and keyboard, with a free first lesson.
+- [EasyKey Music Centers](https://peopleoftheworld.net/easykey/centers/): The vision for community music centres, and how to take part.
+- [The Open Library](https://peopleoftheworld.net/ai.html): Every document free, with plain-text copies for search engines and AI.
+
 ## Graviton Pressure Theory: start here (read in this order)
 
 - [Start Here: Graviton Pressure Theory](https://peopleoftheworld.net/graviton-pressure-theory/index.md): GPT is presented here in the order it was built. The sequence matters because it prevents the most common failure mode in gravity discussion: beginning with a preferred formalism, then interpreting reality to fit it.
@@ -198,7 +218,7 @@ Podcast (audio, RSS): https://peopleoftheworld.net/podcast.xml
 ## Optional
 
 - [About Shareef Ali Rashada](https://peopleoftheworld.net/about.html): who the author is, his work across physics, theology, economics and music, and the names he publishes under
-- [About Graviton Pressure Theory](https://peopleoftheworld.net/science.html): plain-language overview, the book, and where the work stands
-- [End Poverty by Design](https://peopleoftheworld.net/builders.html): plain-language overview of the Plan
-- [EasyKey Music](https://peopleoftheworld.net/easykey.html): visual music notation and a free first lesson
+- [Books](https://peopleoftheworld.net/books.html): every book with editions and where to buy; [for librarians](https://peopleoftheworld.net/librarians.html), with all ISBNs
+- [Brain training](https://peopleoftheworld.net/play.html): free Focus, Memory and Decision games with a Daily Challenge
 - [That Brother Ali](https://peopleoftheworld.net/music.html): music by Shareef Ali Rashada
+- [Videos](https://peopleoftheworld.net/videos.html): every video in one place

@@ -1,0 +1,574 @@
+{
+"about.html": {
+"h": "ae98cae422048caf",
+"d": "2026-11-01"
+},
+"ai.html": {
+"h": "8ff15288a5a5a0ec",
+"d": "2026-11-01"
+},
+"audiobook.html": {
+"h": "b0613c78f7c849cf",
+"d": "2026-11-01"
+},
+"books.html": {
+"h": "8ac993c76d5020c5",
+"d": "2026-11-01"
+},
+"builders.html": {
+"h": "b698c6c1100b8282",
+"d": "2026-11-01"
+},
+"cosmic-mind/index.html": {
+"h": "d27bbbfc2394d6ab",
+"d": "2026-11-01"
+},
+"decision-game.html": {
+"h": "f113bf6959f6025a",
+"d": "2026-11-01"
+},
+"easykey.html": {
+"h": "c853ef11aff1bc22",
+"d": "2026-11-01"
+},
+"easykey/centers/index.html": {
+"h": "32f18fc14895e805",
+"d": "2026-11-01"
+},
+"easykey/converter/index.html": {
+"h": "27d4bbd8670baeea",
+"d": "2026-11-01"
+},
+"focus-game.html": {
+"h": "f17c5e6709ef8955",
+"d": "2026-11-01"
+},
+"glossary.html": {
+"h": "356268b5c162ddad",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/audit-questions/index.html": {
+"h": "6d4a7523edaf682b",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/constraint-set/index.html": {
+"h": "4e62bd0f736b1389",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/index.html": {
+"h": "398e75b43600d79b",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-01-introduction/index.html": {
+"h": "468f709f77bffe86",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/index.html": {
+"h": "a33a1f916885cced",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/index.html": {
+"h": "e3957447054051dd",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/index.html": {
+"h": "17f6ee4ccd1c5ace",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/index.html": {
+"h": "9a786448601fd010",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-06-redefining-work/index.html": {
+"h": "1d80d5f30f663c62",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/index.html": {
+"h": "8df6ac873d06763f",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-08-defining-the-break/index.html": {
+"h": "ff619219bd413484",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/index.html": {
+"h": "c5b2712053d01384",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/index.html": {
+"h": "daa67d4a6c94fb3a",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-11-re-examining-the-four/index.html": {
+"h": "43409d5f2d460db2",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/index.html": {
+"h": "e120ea502c228d6a",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/index.html": {
+"h": "4ff051e298dbd14c",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/index.html": {
+"h": "1037a11b0af35c26",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-15-gravitons/index.html": {
+"h": "c6f048d2ca648fb3",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/index.html": {
+"h": "8a9f6e56e973ad87",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/index.html": {
+"h": "63d1935d4786c40e",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/index.html": {
+"h": "606de539e49ca2a7",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-19-graviton-coherence/index.html": {
+"h": "8e42f67d010a8f8a",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/index.html": {
+"h": "588bb5bd77b17a71",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/index.html": {
+"h": "522c52b42576e7ff",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/index.html": {
+"h": "edf4517162aab2af",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/index.html": {
+"h": "defabf5e1a62c086",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-24-gpt-unit-system/index.html": {
+"h": "08a454cfcbfce65e",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-25-constants-conversions/index.html": {
+"h": "c5f1432e930ba7dc",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-26-planetary-mechanics/index.html": {
+"h": "e5c3f263f39096fb",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/index.html": {
+"h": "680b4cf70967b103",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-28-resonance-transmissions/index.html": {
+"h": "284f71ae2a329932",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-29-experimental-divergence/index.html": {
+"h": "b349e2ac0ccb2d26",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/full-framework/part-30-conclusion/index.html": {
+"h": "6b734089dc7784df",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/gr-silence-map/index.html": {
+"h": "bb0a697805e35c3a",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/index.html": {
+"h": "fc4150cdccea8d03",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/invitation/index.html": {
+"h": "6e7390bb752ecb7a",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/not-alternative-gravity/index.html": {
+"h": "98a8aa0d2d76e8fc",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/causal-audit-of-motion/index.html": {
+"h": "9d26f26aa4a8b1d2",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/from-gr-to-gpt/index.html": {
+"h": "1d7b4b3edf3c464c",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/logical-closure-of-the-ep/index.html": {
+"h": "94a90da1cf19f5af",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/mechanics-of-the-medium/index.html": {
+"h": "be3f5d2ef26ac9b7",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/operational-constraints-of-the-ep/index.html": {
+"h": "38a1b11327803756",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/paradox-of-the-boulder/index.html": {
+"h": "1b91022ec2f50bf0",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/reduction-conflation/index.html": {
+"h": "691287d8903dfc53",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/structure-before-uncertainty/index.html": {
+"h": "98b081ec12f505b9",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/transitional-mechanics/index.html": {
+"h": "c3f9acd8e0186fc2",
+"d": "2026-11-01"
+},
+"graviton-pressure-theory/papers/what-gpt-corrects/index.html": {
+"h": "f094548d54dd952e",
+"d": "2026-11-01"
+},
+"index.html": {
+"h": "0a0021bfac508bf3",
+"d": "2026-11-01"
+},
+"librarians.html": {
+"h": "b3b8637719ec6d77",
+"d": "2026-11-01"
+},
+"memory-game.html": {
+"h": "f62394efdd08d721",
+"d": "2026-11-01"
+},
+"music.html": {
+"h": "a07f5dd725f7012a",
+"d": "2026-11-01"
+},
+"new-morality/index.html": {
+"h": "5e507e8a5471b94f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/appendices/index.html": {
+"h": "baebb9541d649251",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-01-the-end-of-evolutionary-economics-enter-the-designed-era/index.html": {
+"h": "ac889e59dd56c76d",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-02-poverty-through-the-eyes-of-women-the-hidden-architecture-of/index.html": {
+"h": "7cd424e662b94e61",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-03-women-in-the-new-civic-economy-capability-safety-and-full-pa/index.html": {
+"h": "c43e3469f9af29cf",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-04-introduction-the-scope-of-the-problem-and-the-path-to-human-/index.html": {
+"h": "aeec10b57a50bfad",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-05-the-civic-charter-and-civic-credits/index.html": {
+"h": "ae15ea7d74ba5743",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-06-poverty-elimination-centers-pecs/index.html": {
+"h": "90756153820a9493",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-07-lifelink-tablets-the-capability-and-verification-rail/index.html": {
+"h": "8430697ddc35ea03",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-08-the-civic-credit-treasury-and-global-economic-framework/index.html": {
+"h": "2e064602206994a9",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/chapter-09-implementation/index.html": {
+"h": "d36b20b52ea8f913",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/civic-charter-for-resources/index.html": {
+"h": "5026aa54506bc925",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/civic-credits-a-debt-free-employment-and-settlement-system-f/index.html": {
+"h": "06adc8a7a8bf29d4",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/civic-credits-simply/index.html": {
+"h": "9032232e89382223",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/civic-credits-system-proposal/index.html": {
+"h": "302ee8a777df4e87",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/ending-poverty-by-2050-civic-credits-explained/index.html": {
+"h": "c22118917721276f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/funding-and-operations-for-civic-credits/index.html": {
+"h": "23ad72097041e351",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/index.html": {
+"h": "d0a80c0ef1c99123",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/civic-credits/national-integration-of-civic-credits-into-existing-payment-/index.html": {
+"h": "f162979c6344a526",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/index.html": {
+"h": "bf4955e92e05789a",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/introduction/index.html": {
+"h": "9d58d3528f67afea",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/app/index.html": {
+"h": "d09c817d01447228",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/index.html": {
+"h": "623bbb4c26f56a00",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-civic-credits-and-poverty-elimination-centers-syner/index.html": {
+"h": "b7358439bd33f944",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-community-and-social-impact-strategy/index.html": {
+"h": "15e21a2f9133a0a5",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-core-specification/index.html": {
+"h": "cf8d71eca79079b4",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-crisis-management-and-security-protocols/index.html": {
+"h": "4400e66aae31c04a",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-cultural-and-ethical-adoption-strategy/index.html": {
+"h": "cafa55fa64e80324",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-daily-implementation-and-quality-of-life/index.html": {
+"h": "b5fcc39f158f460f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-development-and-execution-plan/index.html": {
+"h": "8d54c24b6397ed09",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-economic-and-market-integration-strategy/index.html": {
+"h": "f2ad38762127a616",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-education-and-digital-literacy-strategy/index.html": {
+"h": "c2986a6567885573",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-environmental-sustainability-and-climate-action-pla/index.html": {
+"h": "c893f58194bd4f0d",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-ethical-ai-and-data-privacy-framework/index.html": {
+"h": "00e4bda719cd44c7",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-funding-and-sustainability-model/index.html": {
+"h": "89ed8bea1e71db93",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-global-civic-adoption-plan/index.html": {
+"h": "130ee8fcd8fc2bb7",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-global-expansion-and-strategic-scaling-plan/index.html": {
+"h": "e5d8954d55f4b911",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-hardware-and-infrastructure-deployment-plan/index.html": {
+"h": "361edff98648fa34",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-health-and-wellness-strategy/index.html": {
+"h": "bcc93f2349a67f26",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-hear-buds/index.html": {
+"h": "c7dd9a00663e73d3",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-humanitarian-and-global-aid-strategy/index.html": {
+"h": "d7f6250ee917222f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-impact-assessment-and-measurement-plan/index.html": {
+"h": "55763dce0386342f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-interoperability-and-cross-platform-integration-pla/index.html": {
+"h": "ecaa1ca211bddd89",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-legal-and-ethical-safeguards-framework/index.html": {
+"h": "553a95fbcaa81e0c",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-look-smart-glasses/index.html": {
+"h": "83498aa5a49da422",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-policy-and-regulatory-compliance-framework/index.html": {
+"h": "ae61beef4ccb9a8d",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-public-communications-and-media-strategy/index.html": {
+"h": "f608754a156dc85c",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-smart-governance-and-ai-policy-strategy/index.html": {
+"h": "0557b7f2f0e1a2d3",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-smartwatch/index.html": {
+"h": "0c6930b275663b21",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-strategic-partnership-and-outreach-plan/index.html": {
+"h": "751899faa309fa4f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-technical-development-roadmap/index.html": {
+"h": "fedb77ca70702039",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-touch-smart-ring/index.html": {
+"h": "a0b22c04ae6259ee",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/lifelink-user-experience-and-public-training-guide/index.html": {
+"h": "07c4a513a56446c4",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/the-future-begins-with-lifelink/index.html": {
+"h": "115f8f701457dfaf",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/lifelink/the-lifelink-tablet/index.html": {
+"h": "7538dabdd97bfc40",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/detailed-work-breakdown-structure-for-poverty-elimination-ce/index.html": {
+"h": "e5cac11718bf231f",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/index.html": {
+"h": "396c5d00e26a0421",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/operational-guidelines-for-poverty-elimination-centers/index.html": {
+"h": "75b664a732fe3c29",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/poverty-elimination-centers/index.html": {
+"h": "463792f0b21d2c4b",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/project-charter-for-poverty-elimination-centers/index.html": {
+"h": "308b60c46f83b0c3",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/project-charter-review-for-poverty-elimination-centers/index.html": {
+"h": "f152644a3edaab33",
+"d": "2026-11-01"
+},
+"plan-to-end-poverty/poverty-elimination-centers/the-integration-of-civic-credits-and-poverty-elimination-cen/index.html": {
+"h": "17cd55cbbebfe300",
+"d": "2026-11-01"
+},
+"play.html": {
+"h": "b0ee4059b9738af2",
+"d": "2026-11-01"
+},
+"privacy.html": {
+"h": "9c4ec6574c8ec198",
+"d": "2026-11-01"
+},
+"read-closing.html": {
+"h": "f8a0f20c6c7048d4",
+"d": "2026-11-01"
+},
+"read-introduction.html": {
+"h": "c4bbeada3b06f9ad",
+"d": "2026-11-01"
+},
+"read-part-1.html": {
+"h": "5f9f1d35e7e74f60",
+"d": "2026-11-01"
+},
+"read-part-2.html": {
+"h": "abcb1618786a93c0",
+"d": "2026-11-01"
+},
+"read-part-3.html": {
+"h": "a69181e5280caa91",
+"d": "2026-11-01"
+},
+"read-part-4.html": {
+"h": "4a3a3cb23d2f120b",
+"d": "2026-11-01"
+},
+"read-part-5.html": {
+"h": "e4b47ea5a0ed8465",
+"d": "2026-11-01"
+},
+"read.html": {
+"h": "3c79590ed716a17a",
+"d": "2026-11-01"
+},
+"science.html": {
+"h": "897a60ef6e66d9b8",
+"d": "2026-11-01"
+},
+"seekers.html": {
+"h": "7d79f1c19d402d2f",
+"d": "2026-11-01"
+},
+"shop.html": {
+"h": "c9ffd998d59e8ddf",
+"d": "2026-11-01"
+},
+"support.html": {
+"h": "f7b15f5bf342f040",
+"d": "2026-11-01"
+},
+"ten-steps.html": {
+"h": "386f7aac473abb66",
+"d": "2026-11-01"
+},
+"urantia.html": {
+"h": "4ac5fdcb37d926d5",
+"d": "2026-11-01"
+},
+"videos.html": {
+"h": "f67085da523aa73f",
+"d": "2026-11-01"
+},
+"why.html": {
+"h": "953ecce6c87879ca",
+"d": "2026-11-01"
+}
+}

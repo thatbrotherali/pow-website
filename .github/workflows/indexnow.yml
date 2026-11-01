@@ -1,0 +1,16 @@
+name: Notify search engines (IndexNow)
+on:
+  push:
+    branches: [main]
+    paths: [lastmod.json]
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Wait for GitHub Pages to publish
+        run: sleep 120
+      - name: Send changed pages to IndexNow
+        run: python3 tools/indexnow.py
