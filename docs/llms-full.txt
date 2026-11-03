@@ -8770,6 +8770,11 @@ We can predict, to many decimal places, where a planet will be, how a falling bo
 
 Graviton Pressure Theory (GPT) is an attempt to answer those questions: a physically grounded model of gravity that restores force, direction and structure to a domain long abstracted into geometry and silence. Where Newton described gravitational attraction without a mechanism, and Einstein replaced attraction with the curvature of spacetime without naming a carrier, GPT proposes a third path: **gravity as the pressure of a physical medium acting on matter**.
 
+<figure>
+<img src="assets/figures/fig1-1-three-apples.svg" />
+<figcaption>Three accounts of the same falling apple. Newton names a force but not its carrier; General Relativity describes geometry and says no force acts; GPT proposes that both masses sit in a medium of gravitons; each shades the other, lowering the pressure between them, so the stronger pressure on their outer sides presses them together. This remains a hypothesis.</figcaption>
+</figure>
+
 GPT does not seek to discard its predecessors. It seeks to complete them.
 
 - Newtonian force is retained—but given a carrier.
@@ -8808,6 +8813,16 @@ The demand for a mechanism of gravity is not new. It is as old as the law of gra
 - **Einstein** reimagined gravity as the curvature of spacetime.[^8] The theory is extraordinarily accurate. It does not say what, physically, does the curving, or what acts on a body at rest to start it moving. Its own summary is relational: spacetime tells matter how to move; matter tells spacetime how to curve.[^9] Einstein himself told an audience in 1920 that in General Relativity space has physical qualities, and that in this sense “space without ether is unthinkable.”[^10]
 
 - **Modern cosmology** preserves its descriptions by adding dark matter and dark energy, inferred from the gap between prediction and observation. In the standard model they make up about 95% of the universe’s energy content; ordinary matter is about 5%.[^11] After decades of searching, there is still no confirmed direct detection of a dark matter particle.
+
+<figure>
+<img src="assets/figures/fig1-2-mechanism-timeline.svg" />
+<figcaption>The demand for a mechanism of gravity, from Newton to the present. Blue: the main line of theory. Orange: proposals of a physical mechanism. Events evenly spaced, not to scale.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/figures/fig1-3-composition.svg" />
+<figcaption>The energy content of the universe in the standard cosmological model (Planck Collaboration, 2020). Dark matter and dark energy are inferred, not detected.</figcaption>
+</figure>
 
 GPT stands in the lineage of the push models, and it must answer their objections, not ignore them. Where this framework believes it does, it says so; where the work is not yet done, it says that too.
 
@@ -8906,6 +8921,11 @@ The thirty parts of this framework build the case in layers:
 - **Formalism and tests** (Parts 23–29): the mathematical foundation; units, constants and conversions; planetary mechanics; natural force re-imagined; resonance transmission; and experimental divergence.
 
 - **Conclusion** (Part 30).
+
+<figure>
+<img src="assets/figures/fig1-4-parts-map.svg" />
+<figcaption>The thirty parts of the framework in six groups.</figcaption>
+</figure>
 
 Where others wrote geometry, GPT proposes pressure.  
 Where others drew curves, GPT maps flows.  
@@ -9125,6 +9145,11 @@ A full explanation answered all four. A bronze statue is made of bronze, has the
 Modern science did not refute this scheme. It gave up its questions one at a time. The final cause went first. The efficient cause—the agent, the contact, the mechanism—was hollowed out next. What remained were matter and mathematics: the material and the formal.
 
 The rest of this section follows that order.
+
+<figure>
+<img src="assets/figures/fig2-1-four-causes.svg" />
+<figcaption>Aristotle’s four causes, illustrated by a bronze statue. Purpose (the final cause) was set aside first, then the efficient cause—the agent, or mechanism—and with it the idea of cause itself. What remained were matter and mathematics.</figcaption>
+</figure>
 
 ## First to Go: Purpose
 
@@ -10061,6 +10086,11 @@ This section records the immediate, physical and perceptual ways gravity shapes 
 
 *Explained as:* In everyday and medical practice, weight is a downward force $F = mg$ **\[N\]**. In General Relativity, there is no downward force: the body would follow its free-fall path, and the floor pushes it upward, away from that path **\[GR\]**, **\[C\]**. Biomechanics then computes spinal compression from the weight of the body segments above each disc—a downward load **\[N\]**.
 
+<figure>
+<img src="assets/figures/fig3-2-standing.svg" />
+<figcaption>A person standing, in each theory. Left: weight and the floor’s push balance. Right: no gravitational force exists; only the floor’s push is real, and the body accelerates upward. Engineering and biomechanics compute loads with the left-hand picture.</figcaption>
+</figure>
+
 ## Balance and Orientation
 
 - Upright posture is a dynamic balance, maintained by constant small corrections from the inner ear, the eyes, the joints and the muscles.
@@ -10289,6 +10319,11 @@ This section records gravitational effects that govern the Earth and its immedia
 
 *Explained as:* Three incompatible explanations are in common use, sometimes in the same paragraph. (1) Gravity provides the centripetal force that bends the path **\[N\]**. (2) Gravity’s inward pull is balanced by an outward centrifugal force **\[FR\]**—which is why astronauts are said to feel nothing. (3) The orbiting body is unforced, following a geodesic; there is no gravitational force to balance **\[GR\]**. Weightlessness is then explained as “continuous free fall”—a phrase that means *falling under a force* in **\[N\]** and *unforced motion* in **\[GR\]**.
 
+<figure>
+<img src="assets/figures/fig3-3-orbits.svg" />
+<figcaption>Three explanations of the same orbit in common use. Grey arrows show the direction of motion.</figcaption>
+</figure>
+
 ## Precession and Wobble
 
 - Earth’s axis traces a slow circle in space over about 26,000 years: the precession of the equinoxes. Nutation adds a smaller nod with an 18.6-year period, following the Moon’s orbital cycle.
@@ -10425,6 +10460,11 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 *Explained as:* This is where the registers are most tightly spliced. Galaxy rotation and cluster motions are almost always analysed with Newtonian gravity and Newtonian dynamics **\[N\]**—GR is not used, because the fields are weak. The shortfall is filled with dark matter **\[DS\]**. The lensing that maps the same dark matter is computed with General Relativity **\[GR\]**. Cosmic expansion is described by GR’s Friedmann equations **\[GR\]**—which can also be derived by a purely Newtonian argument, as Milne and McCrea showed in 1934, and are often taught that way **\[N\]**.[^32] The acceleration is attributed to dark energy, often linked to the energy of the vacuum **\[DS\]**, **\[Q\]**. The agreement of these different measurements on the amount of dark matter is presented as strong confirmation. But the agreement is between a quantity inferred with a force-based theory and a quantity inferred with a theory that says there is no such force. **\[Argued\]**
 
+<figure>
+<img src="assets/figures/fig3-5-rotation-curve.svg" />
+<figcaption>A galaxy rotation curve (schematic; the shape is typical of spiral galaxies, the numbers illustrative). Speeds expected from the visible matter under Newtonian dynamics fall with distance; observed speeds stay flat. The gap is attributed to dark matter.</figcaption>
+</figure>
+
 # Light and Time
 
 ## The Bending of Light
@@ -10441,6 +10481,11 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 *Explained as:* Two different explanations are given for the same measurement. In one, light “climbing out of a gravitational well loses energy”, like a ball thrown upward **\[EN\]**—the language of Pound and Rebka’s own title, *Apparent Weight of Photons*. In the other, nothing happens to the light at all; clocks at different heights simply run at different rates **\[GR\]**. Textbooks routinely give both, as equivalent. The GPS correction itself is computed from the Newtonian gravitational potential, $\Delta f/f = \Delta\Phi/c^2$ **\[N\]**, combined with the time dilation of Special Relativity for the satellites’ speed.
 
+<figure>
+<img src="assets/figures/fig3-6-clock-tests.svg" />
+<figcaption>The height differences over which the slowing of lower clocks has been measured.</figcaption>
+</figure>
+
 # Anomalies, Extremes and Edge Cases
 
 ## Gravity’s Unseen Edges
@@ -10452,6 +10497,11 @@ These are the places where gravity behaves least intuitively, and where any mode
 - In a small, closed room, the effects of standing on Earth and of accelerating in a rocket cannot be told apart. Over a larger region, they can: in a gravitational field, falling objects converge toward the centre, and differences in gravity stretch extended bodies. Near a black hole, this stretching becomes destructive.
 
 *Explained as:* General Relativity is built on the local equivalence **\[GR\]**. This framework argues that the inference drawn from it—that gravity therefore *is* acceleration, and not a force—goes further than the observation licenses.[^40] One example: a rocket’s acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth’s surface at once—in opposite directions on opposite sides—while the Earth does not grow. **\[Argued\]**
+
+<figure>
+<img src="assets/figures/fig3-7-equivalence.svg" />
+<figcaption>The equivalence principle and its limit. In a small room, standing on Earth and accelerating in a rocket cannot be told apart. Over a larger region, falling bodies converge on the centre—the tidal effect, present in every frame.</figcaption>
+</figure>
 
 ## Artificial Gravity
 
@@ -10488,6 +10538,11 @@ GR became the standard theory of gravity in physics and astronomy. Newton’s la
 ## Phenomena and Their Registers
 
 The table gathers the explanations recorded in this catalog. For each phenomenon, it lists the registers that the customary explanation draws on. A phenomenon explained in one register only would be unremarkable. What stands out is how few are.
+
+<figure>
+<img src="assets/figures/fig3-1-ledger-grid.svg" />
+<figcaption>The ledger of explanations as a grid. Each filled cell marks a framework that the customary explanation of a phenomenon draws on.</figcaption>
+</figure>
 
 | **Phenomenon**                     | **Registers used**                        | **Where the switch happens**                             |
 |:-----------------------------------|:------------------------------------------|:---------------------------------------------------------|
@@ -10545,6 +10600,11 @@ The larger point is not that any one explanation is careless. It is that the mat
 - And where all of these together still fall short of observation, **the dark sector** is added.
 
 Each borrowing is defensible as a calculation. Presented together as one coherent account of what gravity is, they are not a theory. They are a patchwork whose seams are covered by agreeing numbers. **\[Argued\]**
+
+<figure>
+<img src="assets/figures/fig3-4-spliced-numbers.svg" />
+<figcaption>Three results assembled from two theories: Mercury’s perihelion advance (Clemence, 1947); the bending of starlight at the Sun, as commonly explained; and the daily drift of GPS satellite clocks (Ashby, 2003).</figcaption>
+</figure>
 
 # Evaluating the Theories Against Everyday Gravity
 

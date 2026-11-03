@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="413.28pt" height="194.472pt" viewBox="0 0 413.28 194.472" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T20:37:39.985041</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 194.472 
+L 413.28 194.472 
+L 413.28 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.832 94.6224 
+L 127.584 94.6224 
+Q 132.768 94.6224 132.768 91.1376 
+L 132.768 15.3432 
+Q 132.768 11.8584 127.584 11.8584 
+L 14.832 11.8584 
+Q 9.648 11.8584 9.648 15.3432 
+L 9.648 91.1376 
+Q 9.648 94.6224 14.832 94.6224 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 148.32 94.6224 
+L 261.072 94.6224 
+Q 266.256 94.6224 266.256 91.1376 
+L 266.256 15.3432 
+Q 266.256 11.8584 261.072 11.8584 
+L 148.32 11.8584 
+Q 143.136 11.8584 143.136 15.3432 
+L 143.136 91.1376 
+Q 143.136 94.6224 148.32 94.6224 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 281.808 94.6224 
+L 394.56 94.6224 
+Q 399.744 94.6224 399.744 91.1376 
+L 399.744 15.3432 
+Q 399.744 11.8584 394.56 11.8584 
+L 281.808 11.8584 
+Q 276.624 11.8584 276.624 15.3432 
+L 276.624 91.1376 
+Q 276.624 94.6224 281.808 94.6224 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 14.832 186.0984 
+L 127.584 186.0984 
+Q 132.768 186.0984 132.768 182.6136 
+L 132.768 106.8192 
+Q 132.768 103.3344 127.584 103.3344 
+L 14.832 103.3344 
+Q 9.648 103.3344 9.648 106.8192 
+L 9.648 182.6136 
+Q 9.648 186.0984 14.832 186.0984 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 148.32 186.0984 
+L 261.072 186.0984 
+Q 266.256 186.0984 266.256 182.6136 
+L 266.256 106.8192 
+Q 266.256 103.3344 261.072 103.3344 
+L 148.32 103.3344 
+Q 143.136 103.3344 143.136 106.8192 
+L 143.136 182.6136 
+Q 143.136 186.0984 148.32 186.0984 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 281.808 186.0984 
+L 394.56 186.0984 
+Q 399.744 186.0984 399.744 182.6136 
+L 399.744 106.8192 
+Q 399.744 103.3344 394.56 103.3344 
+L 281.808 103.3344 
+Q 276.624 103.3344 276.624 106.8192 
+L 276.624 182.6136 
+Q 276.624 186.0984 281.808 186.0984 
+z
+" clip-path="url(#pba474bb3de)" style="fill: #f3f2ee; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="71.208" y="28.90165" transform="rotate(-0 71.208 28.90165)">Foundations</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="71.208" y="44.8732" transform="rotate(-0 71.208 44.8732)">Parts 2–4</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(16.217906 61.403616)">How mechanism was set aside;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(38.8885 72.446021)">what gravity does;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(44.735656 84.341159)">Newton to GPT</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="204.696" y="28.90165" transform="rotate(-0 204.696 28.90165)">The core theory</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="204.696" y="44.8732" transform="rotate(-0 204.696 44.8732)">Parts 5–8</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(158.798656 61.282788)">Gravity as pressure; work;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(172.939016 72.527536)">the illusion of pull;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(157.405375 83.638159)">where GR and GPT diverge</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="338.184" y="28.90165" transform="rotate(-0 338.184 28.90165)">Evidence and extensions</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="338.184" y="44.8732" transform="rotate(-0 338.184 44.8732)">Parts 9–14</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(283.182344 61.253882)">Existing evidence; applications;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(276.115922 72.484177)">four demonstrations; epistemology;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(303.238078 83.787894)">the Moon; transition</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="71.208" y="120.37765" transform="rotate(-0 71.208 120.37765)">The medium in detail</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="71.208" y="136.3492" transform="rotate(-0 71.208 136.3492)">Parts 15–22</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(20.669469 152.917772)">Gravitons; fields; mass; time;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(33.352953 164.071755)">coherence; corridors;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(51.976672 175.114159)">magnetism</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="204.696" y="120.37765" transform="rotate(-0 204.696 120.37765)">Formalism and tests</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="204.696" y="136.3492" transform="rotate(-0 204.696 136.3492)">Parts 23–29</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(164.104687 152.879616)">Mathematics; units and</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(160.382141 164.003536)">constants; planets; force;</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(162.584219 175.157519)">resonance; experiments</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="338.184" y="120.37765" transform="rotate(-0 338.184 120.37765)">Conclusion</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="338.184" y="136.3492" transform="rotate(-0 338.184 136.3492)">Part 30</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(311.593719 153.481444)">The restoration</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(322.797781 163.989083)">of reality</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pba474bb3de">
+   <rect x="5.76" y="5.76" width="401.76" height="182.952"/>
+  </clipPath>
+ </defs>
+</svg>

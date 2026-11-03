@@ -5,6 +5,9 @@
 \usepackage[scaled=0.92]{helvet}
 
 \usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{3.\arabic{figure}}
 \usepackage[margin=2.6cm]{geometry}
 \usepackage[round]{natbib}
 \usepackage{titlesec}
@@ -297,6 +300,12 @@ This section records the immediate, physical and perceptual ways gravity shapes 
 
 \expl{In everyday and medical practice, weight is a downward force $F = mg$ \RN{}. In General Relativity, there is no downward force: the body would follow its free-fall path, and the floor pushes it upward, away from that path \RGR{}, \RC{}. Biomechanics then computes spinal compression from the weight of the body segments above each disc---a downward load \RN{}.}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig3-2-standing.pdf}
+\caption{A person standing, in each theory. Left: weight and the floor's push balance. Right: no gravitational force exists; only the floor's push is real, and the body accelerates upward. Engineering and biomechanics compute loads with the left-hand picture.}
+\end{figure}
+
 \subsection{Balance and Orientation}
 
 \begin{itemize}
@@ -544,6 +553,12 @@ This section records gravitational effects that govern the Earth and its immedia
 
 \expl{Three incompatible explanations are in common use, sometimes in the same paragraph. (1) Gravity provides the centripetal force that bends the path \RN{}. (2) Gravity's inward pull is balanced by an outward centrifugal force \RFR{}---which is why astronauts are said to feel nothing. (3) The orbiting body is unforced, following a geodesic; there is no gravitational force to balance \RGR{}. Weightlessness is then explained as ``continuous free fall''---a phrase that means \emph{falling under a force} in \RN{} and \emph{unforced motion} in \RGR{}.}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig3-3-orbits.pdf}
+\caption{Three explanations of the same orbit in common use. Grey arrows show the direction of motion.}
+\end{figure}
+
 \subsection{Precession and Wobble}
 
 \begin{itemize}
@@ -693,6 +708,12 @@ Beyond Earth's neighbourhood, the same influence arranges an entire planetary sy
 
 \expl{This is where the registers are most tightly spliced. Galaxy rotation and cluster motions are almost always analysed with Newtonian gravity and Newtonian dynamics \RN{}---GR is not used, because the fields are weak. The shortfall is filled with dark matter \RDS{}. The lensing that maps the same dark matter is computed with General Relativity \RGR{}. Cosmic expansion is described by GR's Friedmann equations \RGR{}---which can also be derived by a purely Newtonian argument, as Milne and McCrea showed in 1934, and are often taught that way \RN{}.\fn{milneMcCrea1934} The acceleration is attributed to dark energy, often linked to the energy of the vacuum \RDS{}, \RQ{}. The agreement of these different measurements on the amount of dark matter is presented as strong confirmation. But the agreement is between a quantity inferred with a force-based theory and a quantity inferred with a theory that says there is no such force. \Arg{}}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{fig3-5-rotation-curve.pdf}
+\caption{A galaxy rotation curve (schematic; the shape is typical of spiral galaxies, the numbers illustrative). Speeds expected from the visible matter under Newtonian dynamics fall with distance; observed speeds stay flat. The gap is attributed to dark matter.}
+\end{figure}
+
 \section{Light and Time}
 
 \subsection{The Bending of Light}
@@ -712,6 +733,12 @@ Beyond Earth's neighbourhood, the same influence arranges an entire planetary sy
 
 \expl{Two different explanations are given for the same measurement. In one, light ``climbing out of a gravitational well loses energy'', like a ball thrown upward \REN{}---the language of Pound and Rebka's own title, \emph{Apparent Weight of Photons}. In the other, nothing happens to the light at all; clocks at different heights simply run at different rates \RGR{}. Textbooks routinely give both, as equivalent. The GPS correction itself is computed from the Newtonian gravitational potential, $\Delta f/f = \Delta\Phi/c^2$ \RN{}, combined with the time dilation of Special Relativity for the satellites' speed.}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\linewidth]{fig3-6-clock-tests.pdf}
+\caption{The height differences over which the slowing of lower clocks has been measured.}
+\end{figure}
+
 \section{Anomalies, Extremes and Edge Cases}
 
 \subsection{Gravity's Unseen Edges}
@@ -725,6 +752,12 @@ These are the places where gravity behaves least intuitively, and where any mode
 \end{itemize}
 
 \expl{General Relativity is built on the local equivalence \RGR{}. This framework argues that the inference drawn from it---that gravity therefore \emph{is} acceleration, and not a force---goes further than the observation licenses.\fn{rashadaClosure} One example: a rocket's acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth's surface at once---in opposite directions on opposite sides---while the Earth does not grow. \Arg{}}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig3-7-equivalence.pdf}
+\caption{The equivalence principle and its limit. In a small room, standing on Earth and accelerating in a rocket cannot be told apart. Over a larger region, falling bodies converge on the centre---the tidal effect, present in every frame.}
+\end{figure}
 
 \subsection{Artificial Gravity}
 
@@ -771,6 +804,12 @@ GR became the standard theory of gravity in physics and astronomy. Newton's law 
 \subsection{Phenomena and Their Registers}
 
 The table gathers the explanations recorded in this catalog. For each phenomenon, it lists the registers that the customary explanation draws on. A phenomenon explained in one register only would be unremarkable. What stands out is how few are.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{fig3-1-ledger-grid.pdf}
+\caption{The ledger of explanations as a grid. Each filled cell marks a framework that the customary explanation of a phenomenon draws on.}
+\end{figure}
 
 \begin{longtable}{>{\raggedright\arraybackslash}p{4.6cm}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{5.0cm}}
 \toprule
@@ -838,6 +877,12 @@ The larger point is not that any one explanation is careless. It is that the mat
 \end{itemize}
 
 Each borrowing is defensible as a calculation. Presented together as one coherent account of what gravity is, they are not a theory. They are a patchwork whose seams are covered by agreeing numbers. \Arg{}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig3-4-spliced-numbers.pdf}
+\caption{Three results assembled from two theories: Mercury's perihelion advance (Clemence, 1947); the bending of starlight at the Sun, as commonly explained; and the daily drift of GPS satellite clocks (Ashby, 2003).}
+\end{figure}
 
 \section{Evaluating the Theories Against Everyday Gravity}
 

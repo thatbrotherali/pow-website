@@ -212,6 +212,11 @@ This section records the immediate, physical and perceptual ways gravity shapes 
 
 *Explained as:* In everyday and medical practice, weight is a downward force $F = mg$ **\[N\]**. In General Relativity, there is no downward force: the body would follow its free-fall path, and the floor pushes it upward, away from that path **\[GR\]**, **\[C\]**. Biomechanics then computes spinal compression from the weight of the body segments above each disc—a downward load **\[N\]**.
 
+<figure>
+<img src="assets/figures/fig3-2-standing.svg" />
+<figcaption>A person standing, in each theory. Left: weight and the floor’s push balance. Right: no gravitational force exists; only the floor’s push is real, and the body accelerates upward. Engineering and biomechanics compute loads with the left-hand picture.</figcaption>
+</figure>
+
 ## Balance and Orientation
 
 - Upright posture is a dynamic balance, maintained by constant small corrections from the inner ear, the eyes, the joints and the muscles.
@@ -440,6 +445,11 @@ This section records gravitational effects that govern the Earth and its immedia
 
 *Explained as:* Three incompatible explanations are in common use, sometimes in the same paragraph. (1) Gravity provides the centripetal force that bends the path **\[N\]**. (2) Gravity’s inward pull is balanced by an outward centrifugal force **\[FR\]**—which is why astronauts are said to feel nothing. (3) The orbiting body is unforced, following a geodesic; there is no gravitational force to balance **\[GR\]**. Weightlessness is then explained as “continuous free fall”—a phrase that means *falling under a force* in **\[N\]** and *unforced motion* in **\[GR\]**.
 
+<figure>
+<img src="assets/figures/fig3-3-orbits.svg" />
+<figcaption>Three explanations of the same orbit in common use. Grey arrows show the direction of motion.</figcaption>
+</figure>
+
 ## Precession and Wobble
 
 - Earth’s axis traces a slow circle in space over about 26,000 years: the precession of the equinoxes. Nutation adds a smaller nod with an 18.6-year period, following the Moon’s orbital cycle.
@@ -576,6 +586,11 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 *Explained as:* This is where the registers are most tightly spliced. Galaxy rotation and cluster motions are almost always analysed with Newtonian gravity and Newtonian dynamics **\[N\]**—GR is not used, because the fields are weak. The shortfall is filled with dark matter **\[DS\]**. The lensing that maps the same dark matter is computed with General Relativity **\[GR\]**. Cosmic expansion is described by GR’s Friedmann equations **\[GR\]**—which can also be derived by a purely Newtonian argument, as Milne and McCrea showed in 1934, and are often taught that way **\[N\]**.[^32] The acceleration is attributed to dark energy, often linked to the energy of the vacuum **\[DS\]**, **\[Q\]**. The agreement of these different measurements on the amount of dark matter is presented as strong confirmation. But the agreement is between a quantity inferred with a force-based theory and a quantity inferred with a theory that says there is no such force. **\[Argued\]**
 
+<figure>
+<img src="assets/figures/fig3-5-rotation-curve.svg" />
+<figcaption>A galaxy rotation curve (schematic; the shape is typical of spiral galaxies, the numbers illustrative). Speeds expected from the visible matter under Newtonian dynamics fall with distance; observed speeds stay flat. The gap is attributed to dark matter.</figcaption>
+</figure>
+
 # Light and Time
 
 ## The Bending of Light
@@ -592,6 +607,11 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 *Explained as:* Two different explanations are given for the same measurement. In one, light “climbing out of a gravitational well loses energy”, like a ball thrown upward **\[EN\]**—the language of Pound and Rebka’s own title, *Apparent Weight of Photons*. In the other, nothing happens to the light at all; clocks at different heights simply run at different rates **\[GR\]**. Textbooks routinely give both, as equivalent. The GPS correction itself is computed from the Newtonian gravitational potential, $\Delta f/f = \Delta\Phi/c^2$ **\[N\]**, combined with the time dilation of Special Relativity for the satellites’ speed.
 
+<figure>
+<img src="assets/figures/fig3-6-clock-tests.svg" />
+<figcaption>The height differences over which the slowing of lower clocks has been measured.</figcaption>
+</figure>
+
 # Anomalies, Extremes and Edge Cases
 
 ## Gravity’s Unseen Edges
@@ -603,6 +623,11 @@ These are the places where gravity behaves least intuitively, and where any mode
 - In a small, closed room, the effects of standing on Earth and of accelerating in a rocket cannot be told apart. Over a larger region, they can: in a gravitational field, falling objects converge toward the centre, and differences in gravity stretch extended bodies. Near a black hole, this stretching becomes destructive.
 
 *Explained as:* General Relativity is built on the local equivalence **\[GR\]**. This framework argues that the inference drawn from it—that gravity therefore *is* acceleration, and not a force—goes further than the observation licenses.[^40] One example: a rocket’s acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth’s surface at once—in opposite directions on opposite sides—while the Earth does not grow. **\[Argued\]**
+
+<figure>
+<img src="assets/figures/fig3-7-equivalence.svg" />
+<figcaption>The equivalence principle and its limit. In a small room, standing on Earth and accelerating in a rocket cannot be told apart. Over a larger region, falling bodies converge on the centre—the tidal effect, present in every frame.</figcaption>
+</figure>
 
 ## Artificial Gravity
 
@@ -639,6 +664,11 @@ GR became the standard theory of gravity in physics and astronomy. Newton’s la
 ## Phenomena and Their Registers
 
 The table gathers the explanations recorded in this catalog. For each phenomenon, it lists the registers that the customary explanation draws on. A phenomenon explained in one register only would be unremarkable. What stands out is how few are.
+
+<figure>
+<img src="assets/figures/fig3-1-ledger-grid.svg" />
+<figcaption>The ledger of explanations as a grid. Each filled cell marks a framework that the customary explanation of a phenomenon draws on.</figcaption>
+</figure>
 
 | **Phenomenon**                     | **Registers used**                        | **Where the switch happens**                             |
 |:-----------------------------------|:------------------------------------------|:---------------------------------------------------------|
@@ -696,6 +726,11 @@ The larger point is not that any one explanation is careless. It is that the mat
 - And where all of these together still fall short of observation, **the dark sector** is added.
 
 Each borrowing is defensible as a calculation. Presented together as one coherent account of what gravity is, they are not a theory. They are a patchwork whose seams are covered by agreeing numbers. **\[Argued\]**
+
+<figure>
+<img src="assets/figures/fig3-4-spliced-numbers.svg" />
+<figcaption>Three results assembled from two theories: Mercury’s perihelion advance (Clemence, 1947); the bending of starlight at the Sun, as commonly explained; and the daily drift of GPS satellite clocks (Ashby, 2003).</figcaption>
+</figure>
 
 # Evaluating the Theories Against Everyday Gravity
 

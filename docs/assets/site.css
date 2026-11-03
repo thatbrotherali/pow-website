@@ -576,3 +576,7 @@ pre.diagram{font-family:var(--mono);font-size:13px;line-height:1.5;white-space:p
 .fg-press:disabled{opacity:.45;cursor:default}
 .fg-window{color:var(--door);font-weight:600}
 @media (max-width:640px){.fg-controls{grid-template-columns:1fr}.fg-press{min-height:110px}.fg-press kbd{display:none}}
+/* Illustrations in library papers */
+.prose figure{margin:1.6em 0;max-width:none}
+.prose figure img{display:block;width:100%;height:auto;background:#fff;border-radius:8px;padding:8px;box-sizing:border-box;border:1px solid var(--line,#e4e3df)}
+.prose figcaption{font-size:15px;line-height:1.5;color:var(--muted,#52514e);margin-top:.6em}

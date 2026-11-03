@@ -12,6 +12,11 @@ We can predict, to many decimal places, where a planet will be, how a falling bo
 
 Graviton Pressure Theory (GPT) is an attempt to answer those questions: a physically grounded model of gravity that restores force, direction and structure to a domain long abstracted into geometry and silence. Where Newton described gravitational attraction without a mechanism, and Einstein replaced attraction with the curvature of spacetime without naming a carrier, GPT proposes a third path: **gravity as the pressure of a physical medium acting on matter**.
 
+<figure>
+<img src="assets/figures/fig1-1-three-apples.svg" />
+<figcaption>Three accounts of the same falling apple. Newton names a force but not its carrier; General Relativity describes geometry and says no force acts; GPT proposes that both masses sit in a medium of gravitons; each shades the other, lowering the pressure between them, so the stronger pressure on their outer sides presses them together. This remains a hypothesis.</figcaption>
+</figure>
+
 GPT does not seek to discard its predecessors. It seeks to complete them.
 
 - Newtonian force is retained—but given a carrier.
@@ -50,6 +55,16 @@ The demand for a mechanism of gravity is not new. It is as old as the law of gra
 - **Einstein** reimagined gravity as the curvature of spacetime.[^8] The theory is extraordinarily accurate. It does not say what, physically, does the curving, or what acts on a body at rest to start it moving. Its own summary is relational: spacetime tells matter how to move; matter tells spacetime how to curve.[^9] Einstein himself told an audience in 1920 that in General Relativity space has physical qualities, and that in this sense “space without ether is unthinkable.”[^10]
 
 - **Modern cosmology** preserves its descriptions by adding dark matter and dark energy, inferred from the gap between prediction and observation. In the standard model they make up about 95% of the universe’s energy content; ordinary matter is about 5%.[^11] After decades of searching, there is still no confirmed direct detection of a dark matter particle.
+
+<figure>
+<img src="assets/figures/fig1-2-mechanism-timeline.svg" />
+<figcaption>The demand for a mechanism of gravity, from Newton to the present. Blue: the main line of theory. Orange: proposals of a physical mechanism. Events evenly spaced, not to scale.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/figures/fig1-3-composition.svg" />
+<figcaption>The energy content of the universe in the standard cosmological model (Planck Collaboration, 2020). Dark matter and dark energy are inferred, not detected.</figcaption>
+</figure>
 
 GPT stands in the lineage of the push models, and it must answer their objections, not ignore them. Where this framework believes it does, it says so; where the work is not yet done, it says that too.
 
@@ -148,6 +163,11 @@ The thirty parts of this framework build the case in layers:
 - **Formalism and tests** (Parts 23–29): the mathematical foundation; units, constants and conversions; planetary mechanics; natural force re-imagined; resonance transmission; and experimental divergence.
 
 - **Conclusion** (Part 30).
+
+<figure>
+<img src="assets/figures/fig1-4-parts-map.svg" />
+<figcaption>The thirty parts of the framework in six groups.</figcaption>
+</figure>
 
 Where others wrote geometry, GPT proposes pressure.  
 Where others drew curves, GPT maps flows.  

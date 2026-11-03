@@ -76,6 +76,11 @@ Modern science did not refute this scheme. It gave up its questions one at a tim
 
 The rest of this section follows that order.
 
+<figure>
+<img src="assets/figures/fig2-1-four-causes.svg" />
+<figcaption>Aristotle’s four causes, illustrated by a bronze statue. Purpose (the final cause) was set aside first, then the efficient cause—the agent, or mechanism—and with it the idea of cause itself. What remained were matter and mathematics.</figcaption>
+</figure>
+
 ## First to Go: Purpose
 
 The first surrender was purpose.

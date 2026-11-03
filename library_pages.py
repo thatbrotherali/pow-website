@@ -281,6 +281,12 @@ def build(B):
         if e["pdf"]:
             import shutil
             shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
+        figdir = LIB / "figures" / e["slug"]
+        if figdir.is_dir():  # illustrations referenced by the page (SVG)
+            import shutil
+            (B.OUT / "assets" / "figures").mkdir(parents=True, exist_ok=True)
+            for f in figdir.iterdir():
+                shutil.copy(f, B.OUT / "assets" / "figures" / f.name)
         md = (LIB / f"{e['slug']}.md").read_text(encoding="utf-8")
         if fixes:  # the plain-text twin follows the corrected page
             import subprocess
