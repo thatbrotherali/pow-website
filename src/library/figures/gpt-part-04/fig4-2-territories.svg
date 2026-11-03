@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="356.48pt" height="321.984pt" viewBox="0 0 356.48 321.984" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T21:39:34.454211</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 321.984 
+L 356.48 321.984 
+L 356.48 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 178.24 192.0384 
+C 187.127062 192.0384 195.651329 188.507533 201.935431 182.223431 
+C 208.219533 175.939329 211.7504 167.415062 211.7504 158.528 
+C 211.7504 149.640938 208.219533 141.116671 201.935431 134.832569 
+C 195.651329 128.548467 187.127062 125.0176 178.24 125.0176 
+C 169.352938 125.0176 160.828671 128.548467 154.544569 134.832569 
+C 148.260467 141.116671 144.7296 149.640938 144.7296 158.528 
+C 144.7296 167.415062 148.260467 175.939329 154.544569 182.223431 
+C 160.828671 188.507533 169.352938 192.0384 178.24 192.0384 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #f3f2ee; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 141.7728 65.8816 
+L 214.7072 65.8816 
+Q 219.6352 65.8816 219.6352 60.9536 
+L 219.6352 23.5008 
+Q 219.6352 18.5728 214.7072 18.5728 
+L 141.7728 18.5728 
+Q 136.8448 18.5728 136.8448 23.5008 
+L 136.8448 60.9536 
+Q 136.8448 65.8816 141.7728 65.8816 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 232.372978 99.945316 
+L 305.307378 99.945316 
+Q 310.235378 99.945316 310.235378 95.017316 
+L 310.235378 57.564516 
+Q 310.235378 52.636516 305.307378 52.636516 
+L 232.372978 52.636516 
+Q 227.444978 52.636516 227.444978 57.564516 
+L 227.444978 95.017316 
+Q 227.444978 99.945316 232.372978 99.945316 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 269.9008 182.1824 
+L 342.8352 182.1824 
+Q 347.7632 182.1824 347.7632 177.2544 
+L 347.7632 139.8016 
+Q 347.7632 134.8736 342.8352 134.8736 
+L 269.9008 134.8736 
+Q 264.9728 134.8736 264.9728 139.8016 
+L 264.9728 177.2544 
+Q 264.9728 182.1824 269.9008 182.1824 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 232.372978 264.419484 
+L 305.307378 264.419484 
+Q 310.235378 264.419484 310.235378 259.491484 
+L 310.235378 222.038684 
+Q 310.235378 217.110684 305.307378 217.110684 
+L 232.372978 217.110684 
+Q 227.444978 217.110684 227.444978 222.038684 
+L 227.444978 259.491484 
+Q 227.444978 264.419484 232.372978 264.419484 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #2a78d6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 141.7728 298.4832 
+L 214.7072 298.4832 
+Q 219.6352 298.4832 219.6352 293.5552 
+L 219.6352 256.1024 
+Q 219.6352 251.1744 214.7072 251.1744 
+L 141.7728 251.1744 
+Q 136.8448 251.1744 136.8448 256.1024 
+L 136.8448 293.5552 
+Q 136.8448 298.4832 141.7728 298.4832 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #2a78d6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 51.172622 264.419484 
+L 124.107022 264.419484 
+Q 129.035022 264.419484 129.035022 259.491484 
+L 129.035022 222.038684 
+Q 129.035022 217.110684 124.107022 217.110684 
+L 51.172622 217.110684 
+Q 46.244622 217.110684 46.244622 222.038684 
+L 46.244622 259.491484 
+Q 46.244622 264.419484 51.172622 264.419484 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #1baf7a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 13.6448 182.1824 
+L 86.5792 182.1824 
+Q 91.5072 182.1824 91.5072 177.2544 
+L 91.5072 139.8016 
+Q 91.5072 134.8736 86.5792 134.8736 
+L 13.6448 134.8736 
+Q 8.7168 134.8736 8.7168 139.8016 
+L 8.7168 177.2544 
+Q 8.7168 182.1824 13.6448 182.1824 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #6250d6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 51.172622 99.945316 
+L 124.107022 99.945316 
+Q 129.035022 99.945316 129.035022 95.017316 
+L 129.035022 57.564516 
+Q 129.035022 52.636516 124.107022 52.636516 
+L 51.172622 52.636516 
+Q 46.244622 52.636516 46.244622 57.564516 
+L 46.244622 95.017316 
+Q 46.244622 99.945316 51.172622 99.945316 
+z
+" clip-path="url(#pd9fc457ab5)" style="fill: #ffffff; stroke: #8a8984; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 178.24 125.0176 
+L 178.24 79.68 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #eb6834; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 201.935431 134.832569 
+L 233.993955 102.774045 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #eb6834; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 211.7504 158.528 
+L 257.088 158.528 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #eb6834; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 201.935431 182.223431 
+L 233.993955 214.281955 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 178.24 192.0384 
+L 178.24 237.376 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 154.544569 182.223431 
+L 122.486045 214.281955 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #1baf7a; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 144.7296 158.528 
+L 99.392 158.528 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #6250d6; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 154.544569 134.832569 
+L 122.486045 102.774045 
+" clip-path="url(#pd9fc457ab5)" style="fill: none; stroke: #8a8984; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(169.082188 153.159091)">one</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(160.99 165.2587)">gravity</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(148.168398 28.697767)">Buildings, bodies,</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(160.119414 37.901316)">spacecraft</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.4px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="178.24" y="55.3968" transform="rotate(-0 178.24 55.3968)">a real force [N]</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(247.243717 63.468733)">Galaxies and</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(255.173326 72.513797)">clusters</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(243.278178 85.270453)">a force + unseen</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(248.520678 93.719578)">mass [N][DS]</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(275.734156 145.705817)">Low accelerations</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(292.772844 154.788077)">(MOND)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(278.8405 167.507537)">a force whose law</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(279.296 175.266162)">changes below a₀</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(246.797373 227.235651)">Clocks, light,</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(236.967029 236.359958)">black holes, waves</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(251.609678 249.744622)">not a force:</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(246.643678 257.792247)">geometry [GR]</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(165.52675 262.006617)">Cosmic</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(160.762516 270.5234)">expansion</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(141.4625 283.125337)">geometry + unexplained</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(153.3285 291.855962)">energy [GR][DS]</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(64.884916 227.804362)">Neutrons and</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(67.462174 236.809536)">atom waves</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(60.464322 244.802559)">a potential energy</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(59.868822 253.320684)">in the Schrödinger</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(62.180822 262.088809)">equation [N][EN]</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(23.239734 145.02552)">Particle physics</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(28.857844 154.197264)">(low energy)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(21.947 166.857537)">a field of gravitons</text>
+    <text style="font-size: 6.4px; font-family: 'Inter'; fill: #52514e" transform="translate(24.8475 175.592662)">on flat space [Q]</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(68.964002 63.330194)">The Planck</text>
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(78.650416 72.513797)">scale</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.4px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="87.639822" y="89.423016" transform="rotate(-0 87.639822 89.423016)">unknown</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.4px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="178.24" y="314.2528" transform="rotate(-0 178.24 314.2528)">Each territory is handled by a different account, and the accounts disagree about what gravity is.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd9fc457ab5">
+   <rect x="5.76" y="5.76" width="344.96" height="310.464"/>
+  </clipPath>
+ </defs>
+</svg>

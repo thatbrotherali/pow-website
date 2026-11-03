@@ -36,11 +36,13 @@
   {
    "slug": "gpt-part-04",
    "title": "From Newton to GPT",
-   "subtitle": "The Evolution of Gravitational Understanding",
-   "words": 1435,
-   "lead": "Gravity has always been more than a force; it has been the quiet architect of reality. Before it had a name, it shaped the curvature of rivers, the rhythm of bodies, the balance of trees. Long before science articulated its equations, gravity was already teaching. It sculpted mountains and broke them down, suspended the moon and pulled tides across shores like breath. And when minds first turned skyward, gravity was already there, waiting to be recognized.",
-   "source": "Part 04 - From Newton to GPT.tex",
-   "part": 4
+   "subtitle": "The Evolution of Gravitational Understanding: A Century of Advances, and What Still Does Not Fit",
+   "words": 5129,
+   "lead": "Gravity today is not explained by one theory. It is handled by several, each in its own territory: Newton for the engineer and the galaxy, Einstein for the clock and the black hole, quantum mechanics for the falling neutron, particle physics for the never-detected graviton, and unseen matter and energy for the rest. This paper traces a century of advances, what still does not fit, and why gravity does not change what it is when a calculation changes hands.",
+   "source": "Part 04 - From Newton to GPT (2nd ed.).tex",
+   "part": 4,
+   "path": "from-newton-to-gpt",
+   "pdf": true
   },
   {
    "slug": "gpt-part-05",

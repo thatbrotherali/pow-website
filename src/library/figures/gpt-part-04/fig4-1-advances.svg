@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="481.78771pt" height="177.847629pt" viewBox="0 0 481.78771 177.847629" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T21:39:34.001826</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 177.847629 
+L 481.78771 177.847629 
+L 481.78771 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 8.584444 88.92 
+L 460.495556 88.92 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #8a8984; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 22.706667 88.92 
+L 22.706667 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 50.951111 88.92 
+L 50.951111 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 79.195556 88.92 
+L 79.195556 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 107.44 88.92 
+L 107.44 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 135.684444 88.92 
+L 135.684444 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #1baf7a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 163.928889 88.92 
+L 163.928889 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #eb6834; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 192.173333 88.92 
+L 192.173333 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #1baf7a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 220.417778 88.92 
+L 220.417778 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 248.662222 88.92 
+L 248.662222 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 276.906667 88.92 
+L 276.906667 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 305.151111 88.92 
+L 305.151111 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 333.395556 88.92 
+L 333.395556 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 361.64 88.92 
+L 361.64 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 389.884444 88.92 
+L 389.884444 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 418.128889 88.92 
+L 418.128889 74.808 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #eb6834; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 446.373333 88.92 
+L 446.373333 103.032 
+" clip-path="url(#p8a5cad3604)" style="fill: none; stroke: #eb6834; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mbe7f433175" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ffffff; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="22.706667" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(16.545417 54.150187)">1919</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(8.504948 61.698469)">Light bent</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(7.579635 69.810656)">by the Sun</text>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="50.951111" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(32.261111 111.791531)">Clocks run at</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(27.797674 119.386219)">different heights</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(44.117205 128.068875)">1960</text>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="79.195556" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(72.316649 54.150188)">1964</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(62.460712 61.650188)">Radar delay</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(66.215868 70.063781)">(Shapiro)</text>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="107.44" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(88.852656 111.247781)">Binary pulsar</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(89.279219 119.283563)">loses energy</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(100.956719 128.068875)">1974</text>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="mb9d90cd6e4" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ffffff; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mb9d90cd6e4" x="135.684444" y="88.92" style="fill: #1baf7a; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(129.169757 54.150187)">1975</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(122.685538 62.238937)">Neutrons</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(123.707882 70.472531)">interfere</text>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path id="m997f005cf0" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ffffff; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#m997f005cf0" x="163.928889" y="88.92" style="fill: #eb6834; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(146.072795 111.224344)">Accelerating</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(149.40467 119.390438)">expansion</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(157.132014 128.068875)">1998</text>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mb9d90cd6e4" x="192.173333" y="88.92" style="fill: #1baf7a; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(184.728646 54.143156)">2002</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(167.463177 61.661906)">Neutron quantum</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(184.070052 70.369875)">levels</text>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="220.417778" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(198.030747 111.224344)">Frame dragging</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(196.051215 119.577938)">(Gravity Probe B)</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(214.255122 128.061844)">2011</text>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="248.662222" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(241.895816 54.143156)">2015</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(230.869878 62.307844)">Gravitational</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(239.606441 69.843)">waves</text>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="276.906667" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(256.478073 111.247781)">Gravity travels</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(257.749323 119.355281)">at light speed</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(270.266354 128.061844)">2017</text>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="305.151111" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(298.348142 54.150188)">2019</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(290.524236 62.236125)">Black hole</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(294.072205 70.367063)">shadow</text>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="333.395556" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(312.472431 111.187781)">Inverse square</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(320.917431 119.34825)">to 52 µm</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(325.950868 128.061844)">2020</text>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="361.64" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(354.258594 54.143156)">2022</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(336.7175 62.338781)">Free fall universal</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(351.411406 70.692375)">to 10⁻¹⁵</text>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#mbe7f433175" x="389.884444" y="88.92" style="fill: #2a78d6; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(375.282413 111.833719)">Antimatter</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(375.446476 119.995594)">falls down</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(382.479601 128.061844)">2023</text>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#m997f005cf0" x="418.128889" y="88.92" style="fill: #eb6834; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(410.753108 54.143156)">2025</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(400.736858 61.62675)">Dark energy</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(402.096233 69.781125)">may evolve</text>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#p8a5cad3604)">
+     <use xlink:href="#m997f005cf0" x="446.373333" y="88.92" style="fill: #eb6834; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(422.515833 111.2595)">One unexplained</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(421.069271 119.892938)">dark-matter event</text>
+    <text style="font-size: 6px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(438.96099 128.061844)">2026</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.3px; font-family: 'Inter'; text-anchor: start; fill: #52514e" x="8.584444" y="170.568" transform="rotate(-0 8.584444 170.568)">Blue: confirmations of General Relativity.  Aqua: quantum experiments described with Newton's potential.  Orange: anomalies and open signals.  Not to scale.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8a5cad3604">
+   <rect x="5.76" y="5.76" width="457.56" height="166.32"/>
+  </clipPath>
+ </defs>
+</svg>
