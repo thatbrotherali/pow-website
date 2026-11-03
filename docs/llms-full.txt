@@ -8758,87 +8758,192 @@ Cite as: Rashada, S. A. (2026). The Mechanics of the Medium. People of the World
 
 # Introduction
 
-*to the Unified Framework of The Graviton Pressure Theory*
+*to the Unified Framework of the Graviton Pressure Theory — From Description to Mechanism*
 
 By Shareef Ali Rashada
 
-## The Return of Causality: Purpose and Position of This Framework
+# The Return of Causality: Purpose and Position of This Framework
 
-Graviton Pressure Theory (GPT) presents a comprehensive, physically grounded model of gravity—restoring force, direction, and structure to a domain long abstracted by geometry and silence. Where Newton described gravitational pull without mechanism, and Einstein replaced pull with curvature absent a medium, GPT introduces a third path: **gravitational pressure as anisotropic field compression**.
+Gravity has always been described. It has rarely been explained.
 
-GPT does not seek to discard its predecessors. It fulfills them.
+We can predict, to many decimal places, where a planet will be, how a falling body will accelerate, and how much light will bend as it passes the Sun. What we cannot say—in the dominant theories of physics—is *what acts*. What touches the falling apple? What is exchanged between the Earth and the Moon? What presses a person into a chair?
+
+Graviton Pressure Theory (GPT) is an attempt to answer those questions: a physically grounded model of gravity that restores force, direction and structure to a domain long abstracted into geometry and silence. Where Newton described gravitational attraction without a mechanism, and Einstein replaced attraction with the curvature of spacetime without naming a carrier, GPT proposes a third path: **gravity as the pressure of a physical medium acting on matter**.
+
+GPT does not seek to discard its predecessors. It seeks to complete them.
 
 - Newtonian force is retained—but given a carrier.
 
-- Einsteinian geometry is honored—but anchored in physical flow.
+- Einsteinian geometry is honoured—but as the mathematics of a physical flow, not a substitute for one.
 
-- Predictive accuracy is preserved—but no longer at the cost of meaning.
+- Predictive accuracy must be preserved—but no longer at the cost of meaning.
 
-**Purpose:** This framework exists to replace abstraction with causality. **Scope:** It addresses gravitational interaction at every scale—from orbital mechanics to quantum decoherence. **Objective:** To construct a model of gravity that is testable, visualizable, and rooted in directed pressure flow.
+**Purpose:** This framework exists to replace description presented as cause with mechanism that can be tested.  
+**Scope:** It addresses gravitational interaction across scales—from the weight we feel standing still, to tides, orbits, light and time, and into the structure of matter, magnetism and planetary motion.  
+**Objective:** To construct a model of gravity that is testable, visualisable, and rooted in a named physical interaction: what touches what, and what is exchanged.
 
-## Scientific Integrity and Transparent Method
+# Description and Mechanism
 
-GPT is not a theory hidden behind inaccessible math. It is a framework built for replication. Every derivation, analogy, and prediction is subject to scrutiny. This document retains the historical lineage of ideas—acknowledging prior models, correcting their assumptions, and preserving the truths they contain.
+The central lesson of this framework—learned in writing it—is that physics has, over three centuries, come to accept *description* in place of *mechanism*, and then to forget that it made the exchange. Part 2 traces that history in detail.[^1] Here it is enough to state the distinction plainly, because everything that follows depends on it.
+
+To **describe** a phenomenon is to state how it behaves: what follows what, by how much, under which conditions.  
+To give its **mechanism** is to name what acts: the physical interface between the things involved—what touches what, and what is exchanged.
+
+Both are valuable. A description that predicts is a great achievement. The error is not description. The error is presenting a description as though it were the mechanism, and then treating the question of mechanism as answered, or as naive.
+
+This framework applies one test throughout, to other theories and to its own claims alike:
+
+> **The interface test.** Does the explanation name the physical interface—what touches what, and what is exchanged—or does it only describe the action? Where it only describes, the gap is marked as a gap. A name is not a mechanism.
+
+A complete theory of gravity must pass this test for everything gravity is observed to do—not only for orbits and light, but for weight, load, resistance and support, which are how gravity is encountered every moment of every day. Those obligations are set out, item by item, in the companion document *The Gravity Constraint Set*, and General Relativity is audited against them in *The GR Silence Map*.[^2] The audit does not claim that General Relativity is wrong. It records where it speaks, where it is silent, and what is customarily substituted where a mechanism would be.
+
+# Historical Arc: From Mystery to Structure
+
+The demand for a mechanism of gravity is not new. It is as old as the law of gravity itself.[^3]
+
+- **Newton** gave the law of universal gravitation and openly declined to give its cause. Privately he called action at a distance through empty space “so great an absurdity” that no competent thinker could accept it;[^4] publicly, he would frame no hypotheses.[^5]
+
+- **Pressure and push models** followed almost at once. Nicolas Fatio de Duillier in 1690, and Georges-Louis Le Sage in the eighteenth century, proposed that gravity is the shadowing of a universal flux of tiny particles—bodies pushed together, not pulled.[^6] These models were abandoned in the nineteenth century, chiefly because a moving body should feel drag from such a flux, and because absorbing it should heat matter enormously. Maxwell set out the heating objection himself.[^7]
+
+- **Einstein** reimagined gravity as the curvature of spacetime.[^8] The theory is extraordinarily accurate. It does not say what, physically, does the curving, or what acts on a body at rest to start it moving. Its own summary is relational: spacetime tells matter how to move; matter tells spacetime how to curve.[^9] Einstein himself told an audience in 1920 that in General Relativity space has physical qualities, and that in this sense “space without ether is unthinkable.”[^10]
+
+- **Modern cosmology** preserves its descriptions by adding dark matter and dark energy, inferred from the gap between prediction and observation. In the standard model they make up about 95% of the universe’s energy content; ordinary matter is about 5%.[^11] After decades of searching, there is still no confirmed direct detection of a dark matter particle.
+
+GPT stands in the lineage of the push models, and it must answer their objections, not ignore them. Where this framework believes it does, it says so; where the work is not yet done, it says that too.
+
+# What Graviton Pressure Theory Proposes
+
+In outline—each part of the framework develops one layer in detail:
+
+- Gravity is not a pull. It is an **external pressure**: bodies are pressed toward one another by a surrounding medium. **\[Hypothesis\]**
+
+- The medium is made of **gravitons**—real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected;[^12] in GPT it is the physical medium itself. **\[Hypothesis\]**
+
+- Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. Around every mass this lowers the active pressure of the medium, and the higher pressure beyond presses inward. Gravitational behaviour arises from this **differential pressure**, and mass is the measure of how strongly matter takes part in the exchange. **\[Hypothesis\]**
+
+- Weight, tides, orbits, the bending of light and the slowing of clocks are manifestations of one structured interaction in an ever-present field—not separate phenomena requiring separate explanations. **\[Hypothesis\]**
+
+These proposals are developed in the parts that follow, and the current working model of the medium—its properties, and how they act together—is set out in *The Mechanics of the Medium*.[^13]
+
+The universe, on this view, does not bend. It presses.
+
+# Scientific Integrity and Transparent Method
+
+GPT is not a theory hidden behind inaccessible mathematics. It is a framework built for scrutiny and replication. Every derivation, analogy and prediction is open to challenge. This framework keeps the historical lineage of ideas in view—acknowledging prior models, correcting their assumptions, and preserving the truths they contain.
 
 GPT proceeds by the following commitments:
 
-- No invisible abstractions without mechanism.
+- No invisible abstraction offered as a mechanism.
 
-- No field effects without a medium or structure.
+- No field effect without a medium or structure that carries it.
 
-- No forces without energy, no motion without transfer.
+- No force without energy; no motion without transfer.
 
-This is not a speculative idea—it is a scaffold of layered causal re-interpretation, rooted in the observable and modeled with intent to be tested.
+- No stopping point disguised as an answer: where an explanation reaches a primitive, it is marked as the place where a deeper explanation has not yet been found—not as the place where none exists.
 
-## Historical Arc: From Mystery to Structure
+## How claims are labelled
 
-Gravity has always been described. It has rarely been explained. This critique echoes foundational concerns, such as those expressed in Jammer’s historical analysis[^1].
+So that readers can see at a glance what is claimed and on what footing, the second edition of this framework labels its claims about GPT by status:
 
-- Newton declared its effects—but never its cause[^2].
+- **\[Established\]** accepted fact, independent of GPT;
 
-- Einstein reimagined it as curved spacetime—but offered no mechanism for mass to bend the void[^3].
+- **\[Argued\]** a conclusion this framework argues in detail, which readers can check for themselves;
 
-- Modern physics added dark energy and dark matter—not through discovery, but through necessity[^4].
+- **\[Hypothesis\]** a proposal of GPT, not yet tested;
 
-GPT changes this. It proposes:
+- **\[Open\]** a question the framework has not yet answered.
 
-- Gravity is not a pull—it is **external pressure**.
+## Two registers
 
-- Gravitons are real, massless directional carriers. Mainstream physics treats gravitons as hypothetical exchange particles[^5].—not metaphor, but medium.
+The physics papers of this framework make no claims about purpose or intent. They stand or fall on mechanism and measurement. The philosophical case—that the removal of cause and mechanism also removed mind, meaning and purpose from our picture of the universe—is made separately, in Part 2, in the register where it belongs. The two are related, but neither is allowed to borrow authority from the other.
 
-- Gravitational behavior arises from **differential resistance to inflow**—a material coherence effect.
+This is not yet a confirmed theory. It is a scaffold of causal reinterpretation, rooted in what is observed and built to be tested.
 
-- Orbits, tides, lensing, and redshift are manifestations of **structured interaction** in an ever-present compressive field.
+# Where the Work Stands
 
-## Why This Framework Matters Now
+Honesty about the state of the work is part of the method.
 
-General Relativity, though elegant, fails to account for over 90% of the observed universe without invoking hypothetical matter and undetectable forces. GPT achieves the same observational match—and often greater precision—using only structured field mechanics.
+- General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action. **\[Established\]**
 
-But more importantly, GPT restores what physics once promised:
+- Treating GR’s description as the complete mechanism of gravity is a category error, not a finding. This is argued in detail in the papers on the Logical Closure and the Operational Constraints of the Equivalence Principle. **\[Argued\]**[^14]
+
+- GPT accounts qualitatively for the phenomena GR describes, and proposes explanations for the readings attributed to dark matter and dark energy without adding unseen matter. **\[Hypothesis\]**
+
+- That GPT matches GR’s quantitative predictions—the bending of light, the advance of Mercury’s perihelion, the timing of clocks—has not yet been shown by independent derivation. Where GPT’s numbers currently agree with GR’s, some coefficients have been set to match, rather than derived from the medium’s properties. **\[Open\]**
+
+- The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. The derivations that would confirm these proposals remain to be done. **\[Hypothesis\]** **\[Open\]**
+
+- Distinctive predictions, where GPT and GR should differ measurably, are collected in Part 29, *Experimental Divergence*. Until such tests are carried out, GPT remains a hypothesis. **\[Established\]**
+
+A framework that marks its own gaps invites others to close them. That is the intention.
+
+# Why This Framework Matters Now
+
+A theory of gravity that relies on unseen matter and unexplained energy for most of the universe’s content may be describing the universe faithfully. Or it may be telling us where its description has run out. Either way, the question of mechanism deserves to be asked again—openly, rigorously, and without the charge of naivety that has kept it closed.
+
+GPT asks it. And it restores three commitments that physics once took for granted:
 
 - **That every motion has a cause.**
 
 - **That no force appears without energy.**
 
-- **That matter and field are not separate—but entangled through pressure and coherence.**
+- **That matter and field are not separate, but joined through pressure, exchange and coherence.**
 
-This is more than an alternative theory. It is a re-unification of structure, meaning, and mechanism. The universe does not bend—it presses.
+If GPT is right, it is more than another theory of gravity. It is a reunification of structure and mechanism. If it is wrong, the questions it asks will still need answers—and the standard it sets, that description must not pass for explanation, will still apply to whatever replaces it.
 
-## What Follows
+# What Follows
 
-The sections that follow provide a complete causal mapping of gravity as field pressure on coherent material. Each chapter unfolds a layer of this structure—from graviton origin to orbital stability, from lensing to time delay, from coherence saturation to the invisible skeleton of magnetism.
+The thirty parts of this framework build the case in layers:
 
-Where others wrote geometry, GPT restores compression. Where others invoked curves, GPT maps corridors. Where others saw force as abstract, GPT renders it real.
+- **Foundations** (Parts 2–4): how mechanism was set aside; an inventory of everything gravity actually does; and the path from Newton to GPT.
 
-This is gravitational structure, finally explained.
+- **The core theory** (Parts 5–8): gravity as pressure; work, force and stability rebuilt causally; the illusion of pull; and the points where GR and GPT cannot both be right.
+
+- **Evidence and extensions** (Parts 9–14): existing observations read through GPT; applied concepts; four famous classroom demonstrations re-examined (the sealed box, the feather and the ball, the comb and the water, and magnetism); the limits of materialist epistemology; the Moon and gravimetric modulation; and the transition into the detailed theory.
+
+- **The medium in detail** (Parts 15–22): gravitons; the properties of gravitational fields; mass; time; coherence; corridors and lattice resonance; and magnetism as gravimetric resonance.
+
+- **Formalism and tests** (Parts 23–29): the mathematical foundation; units, constants and conversions; planetary mechanics; natural force re-imagined; resonance transmission; and experimental divergence.
+
+- **Conclusion** (Part 30).
+
+Where others wrote geometry, GPT proposes pressure.  
+Where others drew curves, GPT maps flows.  
+Where force became an abstraction, GPT seeks to make it real again—and to show its work.
+
+This is gravity, offered for explanation.
 
 Welcome to the pressure field.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-jammer2000" class="csl-entry">
+<div id="ref-edwards2002" class="csl-entry">
 
-Jammer, Max. 2000. *Concepts of Force*. Dover Publications.
+Edwards, Matthew R., ed. 2002. *Pushing Gravity: New Perspectives on Le Sage’s Theory of Gravitation*. Apeiron, Montreal.
+
+</div>
+
+<div id="ref-einstein1916" class="csl-entry">
+
+Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+
+</div>
+
+<div id="ref-einstein1920" class="csl-entry">
+
+———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+
+</div>
+
+<div id="ref-jammer1957" class="csl-entry">
+
+Jammer, Max. 1957. *Concepts of Force: A Study in the Foundations of Dynamics*. Harvard University Press.
+
+</div>
+
+<div id="ref-maxwell1875" class="csl-entry">
+
+Maxwell, James Clerk. 1875. “Atom.” In *Encyclopædia Britannica*, 9th ed., 3:36–49.
 
 </div>
 
@@ -8848,33 +8953,99 @@ Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitatio
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-newtonBentley" class="csl-entry">
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+Newton, Isaac. 1693. “Third Letter to Richard Bentley, 25 February 1692/3.”
+
+</div>
+
+<div id="ref-newton1713" class="csl-entry">
+
+———. 1713. *Philosophiæ Naturalis Principia Mathematica*. 2nd ed. Cambridge.
 
 </div>
 
 <div id="ref-peebles2003" class="csl-entry">
 
-Peebles, P. J. E., and Bharat Ratra. 2003. “The Cosmological Constant and Dark Energy.” *Reviews of Modern Physics* 75 (2): 559–606.
+Peebles, P. J. E., and Bharat Ratra. 2003. “The Cosmological Constant and Dark Energy.” *Reviews of Modern Physics* 75: 559–606.
+
+</div>
+
+<div id="ref-planck2018" class="csl-entry">
+
+Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy & Astrophysics* 641: A6.
+
+</div>
+
+<div id="ref-rashadaConstraints" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “The Gravity Constraint Set; the GR Silence Map; Why Graviton Pressure Theory Is Not ‘Alternative Gravity’.” <https://peopleoftheworld.net/graviton-pressure-theory/>.
+
+</div>
+
+<div id="ref-rashadaClosure" class="csl-entry">
+
+———. 2026b. “The Logical Closure of the Equivalence Principle; the Operational Constraints of the Equivalence Principle.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/>.
+
+</div>
+
+<div id="ref-rashadaMedium" class="csl-entry">
+
+———. 2026c. “The Mechanics of the Medium: The Origin of Primitives.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/>.
+
+</div>
+
+<div id="ref-rashadaPart2" class="csl-entry">
+
+———. 2026d. “The Removal of Intent, Cause and Mechanism (Part 2 of This Framework, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
+
+</div>
+
+<div id="ref-wheeler1990" class="csl-entry">
+
+Wheeler, John Archibald. 1990. *A Journey into Gravity and Spacetime*. Scientific American Library.
+
+</div>
+
+<div id="ref-zee2010" class="csl-entry">
+
+Zee, Anthony. 2010. *Quantum Field Theory in a Nutshell*. 2nd ed. Princeton University Press.
 
 </div>
 
 </div>
 
-[^1]: (Jammer 2000)
+[^1]: (Rashada 2026d).
 
-[^2]: (Newton 1687)
+[^2]: (Rashada 2026a).
 
-[^3]: (Misner, Thorne, and Wheeler 1973)
+[^3]: (Jammer 1957).
 
-[^4]: (Peebles and Ratra 2003)
+[^4]: (Newton 1693).
 
-[^5]: See Zee, A. (2010). *Quantum Field Theory in a Nutshell*. Princeton University Press.
+[^5]: (Newton 1713).
+
+[^6]: (Edwards 2002).
+
+[^7]: (Maxwell 1875).
+
+[^8]: (Einstein 1916).
+
+[^9]: (Misner, Thorne, and Wheeler 1973; Wheeler 1990).
+
+[^10]: (Einstein 1920).
+
+[^11]: (Planck Collaboration 2020; Peebles and Ratra 2003).
+
+[^12]: (Zee 2010).
+
+[^13]: (Rashada 2026c).
+
+[^14]: (Rashada 2026b).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
-Cite as: Rashada, S. A. (2025). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
+Cite as: Rashada, S. A. (2026). Introduction. In The Unified Framework for the Graviton Pressure Theory, part 1. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/
 
 
 # The Removal of Intent, Cause and Mechanism
@@ -9678,15 +9849,31 @@ Cite as: Rashada, S. A. (2026). The Removal of Intent, Cause and Mechanism. In T
 
 # The Gravity Catalog
 
+*What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree*
+
 By Shareef Ali Rashada
 
-This document begins with an inventory, not of theories, but of lived reality. Gravity is not introduced through models or frameworks, but through its presence—what it does, how it manifests, and where it exerts its influence.
+# A Note on This Edition
 
-## The Veil of the Obvious
+The first edition of this catalog had one purpose: to record everything gravity does, before any theory was allowed to speak, so that every theory could be judged against the same full record.
 
-Gravity is not hidden. It is not elusive. It is not a mystery tucked into a black hole or reserved for the instruments of high-energy labs. It is beneath your feet, above your head, and within your chest. It acts constantly, visibly, relentlessly. And yet, in its familiarity, it has disappeared from our attention.
+That purpose remains. This edition adds a second.
 
-We speak of "weight" as if it were a number. We reference "mass" as if it were a fixed trait. We define "force" as an equation.
+In the work that followed the first edition, a pattern became impossible to ignore. Each phenomenon in this catalog comes with an explanation—but not from a single theory. Some are explained by Newton’s force. Some by Einstein’s curved spacetime. Some by forces that both theories call fictitious. Some by the language of energy and potential wells, some by particle exchange, and some by matter no one has detected. Often a single explanation uses several of these at once, switching between them mid-sentence. And the switches are rarely marked.
+
+These theories do not merely differ in emphasis. On the most basic question—*is gravity a force?*—they give opposite answers. Yet the explanations built from them are presented as one coherent account, and their agreement on the numbers is offered as proof that nothing is wrong.
+
+This edition therefore records, beside each phenomenon, *how it is explained*, and marks which theory each part of the explanation borrows from. It introduces in full the error this framework calls the **Reduction Conflation**, developed in detail in its own paper.[^1] And it applies one test throughout: does the explanation name what acts—what touches what, and what is exchanged—or does it only describe?
+
+The physical claims of Graviton Pressure Theory are not argued here. Where this paper refers to them, the status labels used throughout the second edition apply: **\[Established\]**, **\[Argued\]**, **\[Hypothesis\]**, **\[Open\]**.
+
+# The Veil of the Obvious
+
+This document begins with an inventory—not of theories, but of lived reality. Gravity is not introduced through models or frameworks, but through its presence: what it does, how it manifests, and where it exerts its influence.
+
+Gravity is not hidden. It is not elusive. It is not a mystery tucked into a black hole or reserved for the instruments of high-energy laboratories. It is beneath your feet, above your head, and within your chest. It acts constantly, visibly, relentlessly. And yet, in its familiarity, it has disappeared from our attention.
+
+We speak of “weight” as if it were a number. We reference “mass” as if it were a fixed trait. We define “force” as an equation.
 
 But these are representations. The thing itself—the experience of gravity—is felt. It is the press of the body against the floor. It is the resistance of the legs in standing. It is the effort of the breath in lifting the chest.
 
@@ -9694,807 +9881,873 @@ Gravity is the most measured and the least questioned.
 
 ## Living Under Gravity
 
-The human body does not simply exist within gravity. It is shaped by it. From the curvature of the spine to the composition of bone, our forms are an accommodation of continuous vertical pressure.
+The human body does not simply exist within gravity. It is shaped by it. From the curvature of the spine to the composition of bone, our forms are an accommodation of continuous vertical load.
 
-Children crawl before they walk. Muscle must develop not for motion alone, but for resistance. To stand is to oppose collapse. To breathe is to push back against pressure. Even in sleep, the body rests not in suspension, but in resistance distributed horizontally.
+Children crawl before they walk. Muscle must develop not for motion alone, but for resistance. To stand is to oppose collapse. Even in sleep, the body rests not in suspension, but in support distributed horizontally.
 
-Fatigue accumulates not just from movement, but from stillness. To sit upright is to engage structure against gravitational compression.
+Fatigue accumulates not just from movement, but from stillness. To sit upright is to engage structure against compression.
 
 The elderly often fall not because they are moving, but because they can no longer resist.
 
 ## Signs in Structure
 
-Architecture knows gravity. Every beam, arch, and foundation is a negotiation with pressure. Load-bearing is not metaphorical. It is literal. Engineers speak of stress points and tolerance because gravity is not passive—it is persistent.
+Architecture knows gravity. Every beam, arch and foundation is a negotiation with load. Load-bearing is not metaphorical. It is literal. Engineers speak of stress points and tolerance because gravity is not passive—it is persistent.
 
 A building does not rest. It holds. A bridge does not float. It strains. A column is not idle. It compresses, constantly.
 
 ## Celestial Scale, Familiar Pattern
 
-We see the same pattern beyond ourselves.
+We see the same pattern beyond ourselves. Tides rise and fall. Moons lock into resonance. Planets circle in long-lasting balance.
 
-Tides rise and fall. Moons lock into resonance. Planets spin in balance, not because of mystical alignment, but because motion becomes equilibrium in a gravitational context.
-
-And yet, in each of these, we often speak in abstractions. Curvature. Attraction. Pull. These words describe trajectory, but not cause. They do not name the pressure. They do not explain the compression. They do not point to what is resisting.
+And yet, in each of these, we speak in borrowed words. *Pull*. *Curvature*. *Attraction*. *Centrifugal force*. *Potential well*. These words describe trajectories and quantities. They do not name what presses, what is compressed, or what resists. And, as this catalog will show, they are drawn from theories that contradict one another.
 
 ## A Field We Endure, Not Explain
 
-Before we debate models, we must reclaim the raw reality of what gravity *does*.
+Before we debate models, we must reclaim the raw reality of what gravity does.
 
-Every step is against it. Every structure defies it. Every moment of standing, sitting, breathing, and sleeping is shaped by its unrelenting presence.
+Every step is against it. Every structure answers it. Every moment of standing, sitting, breathing and sleeping is shaped by its unrelenting presence.
 
 This is the catalog of what is seen. It is not yet theory. It is not yet cause.
 
 It is what presses. It is what resists. It is what remains.
 
-## The Case for Observation Before Explanation
+# Observation Before Explanation
 
-### Reclaiming the Raw Truth
+## Reclaiming the Raw Record
 
-This document stands apart—it is not a theory, not a model, not a metaphor, nor an attempt to explain. It is an exhaustive observation log, a meticulous record of every human-scale and cosmic-scale phenomenon attributed to gravity, from the subtle press of weight in your feet to the sweeping arc of comets around a star. Before we tangle with how gravity works, we must first confront what it does—unfiltered, unadorned, as it meets us in the world. Too often, gravity’s essence is trimmed to fit mathematical molds, its richness sidelined by what equations permit or forbid. Here, we begin elsewhere: with the undeniable reality of experience.
+This catalog is not a theory, a model or a metaphor. It is an observation log: a record of the phenomena attributed to gravity, from the press of weight in your feet to the arc of comets around a star. Before we ask how gravity works, we must first confront what it does—unfiltered, as it meets us in the world.
 
-### The Primacy of What We Know
+Too often, gravity’s reach is trimmed to fit mathematical moulds, its everyday presence set aside as “engineering” or “biology” because the theory of the day has nothing to say about it. Here we begin elsewhere: with the undeniable reality of experience and measurement.
 
-You know gravity without a textbook. You feel objects fall, sense the effort of standing upright, notice relief when lying flat after a long day. You see the moon tug the tides, watch a thrown ball curve back to Earth. These are not theoretical premises—they are lived truths, etched into muscle, bone, and breath, observed in rivers and stars. This catalog does not start with equations; it starts with what you already know, what every child grasps before learning the word, what every body understands before a single formula is penned. By documenting everything gravity appears to touch, we reclaim the ground of direct experience—ours by right, not by derivation.
+## The Primacy of What We Know
 
-### Setting the Stage for Truth
+You know gravity without a textbook. You feel objects fall, sense the effort of standing upright, notice relief when lying flat after a long day. You see the tide rise with the Moon and watch a thrown ball curve back to Earth. These are not theoretical premises. They are lived and measured facts—etched into muscle, bone and breath, recorded in rivers and stars. By documenting everything gravity appears to touch, we reclaim the ground of direct experience.
 
-Why this approach? Before we argue over mechanisms—before we bend gravity into models of curvature, force, or pressure—we must map its full scope. This inventory lays bare the phenomena any theory must face: the ache in your legs, the orbit of moons, the collapse of dust to the floor. It prepares a stage for fair evaluation—let Newtonian mechanics, General Relativity, or Graviton Pressure Theory step forward and account for these effects. If a theory cannot explain the catalog laid out here, it falls short of completeness. Readers might ask: why not start with a hypothesis? Because observation precedes explanation—truth begins with what we see, feel, and measure, not with what we assume.
+## Setting the Stage for a Fair Test
 
-### A World Before Equations
+Before we argue over mechanisms—before gravity is cast as force, curvature or pressure—we must map its full scope. This inventory lays out the phenomena any theory must face. It prepares a stage for fair evaluation: let Newtonian mechanics, General Relativity and Graviton Pressure Theory each step forward and account for these effects. If a theory cannot explain the catalog, it is not complete—however accurate its predictions where it does speak.
 
-This is the world we inhabit, raw and unfiltered—before equations drape it in abstraction, before theories claim to own it. Gravity is not yet a force, a field, or a curve; it is the weight on your shoulders, the tide’s rhythm, the comet’s dance. This catalog honors that primacy, offering a ledger of experience as the standard against which all frameworks must be judged. As we expand this record—adding the sway of pendulums, the stretch of shadows—we deepen its challenge: explain this, all of this, or step aside. Here, we stand with eyes open, cataloging gravity’s reach across muscle, moon, and Milky Way, ready to question what comes next.
+The minimum obligations that follow from this record are distilled, item by item, in the companion document *The Gravity Constraint Set*, and General Relativity is audited against them in *The GR Silence Map*.[^2]
 
-## Human-Scale Gravitational Experience
+## A Second Ledger: The Explanations We Are Given
 
-### The Embodied Presence of Gravity
+This edition keeps a second ledger beside the first. For many entries, it records the explanation that is customarily given—in textbooks, in engineering practice, in scientific communication—and marks which theory each part of that explanation is drawn from.
 
-This section turns to the immediate, physical, and perceptual ways gravity shapes the human body and daily life—phenomena so woven into our existence that they often slip beneath notice, yet so persistent they define how we live, move, and sense the world. These are not abstract effects to be charted on a graph; they are continuous, embodied experiences, felt in flesh and bone, guiding our actions from cradle to grave. Here, we catalog gravity’s intimate role in human structure and behavior—a baseline of lived reality that any theory must confront.
+The purpose is not to ridicule any explanation. Most of them work: they produce the right numbers. The purpose is to make visible something the numbers hide. Read one at a time, each explanation seems sound. Read together, they assert incompatible things about what gravity is.
 
-### Weight and Pressure
+# Description, Mechanism and the Six Registers of Gravitational Explanation
 
-Gravity’s most universal signature is the sensation it imprints on us—relentless, ever-present, shaping our very form:
+## Description Is Not Mechanism
 
-- The constant sensation of downward force, experienced as weight, is a universal human experience. Limbs hang heavy, internal organs press against their cavities, and even facial muscles sag subtly under this pressure—a continuous load carried throughout life.
+To **describe** a phenomenon is to state how it behaves: what follows what, by how much, under which conditions. To give its **mechanism** is to name what acts: the physical interface—what touches what, and what is exchanged.
 
-- Standing upright introduces a persistent pressure load on bones and muscles. Over time, this burden accumulates, creating discomfort or fatigue in the feet and lower back—a slow ache indicative of gravity’s unceasing presence.
+Both are valuable, and a description that predicts is a great achievement. The error is not description. The error is presenting a description as though it were the mechanism, and then treating the question of mechanism as closed. Part 2 traces how this habit formed historically.[^3]
 
-- Relief is experienced when lying down or entering buoyant environments like water. These conditions redistribute or partially neutralize the gravitational load, offering a reduction in strain.
+> **The interface test.** Does the explanation name the physical interface—what touches what, and what is exchanged—or does it only describe the action? Where it only describes, the gap is marked as a gap. A name is not a mechanism.
 
-Why does lying down feel so good? Because gravity’s pressure spreads out, giving parts of the body a break from constant load.
+## Six Registers, and a Seventh Addition
 
-### Balance and Orientation
+The explanations given for gravitational phenomena draw on six distinct conceptual frameworks—six *registers*—plus one category of addition. Each makes its own claim about what gravity is. In the entries that follow, each part of an explanation is tagged with its register.
 
-Gravity governs balance, posture, and spatial awareness:
+| **Tag**    | **Register**                     | **What it says gravity is**                                                                                                           | **What acts?**                                           |
+|:-----------|:---------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
+| **\[N\]**  | Newtonian mechanics[^4]          | A real force between masses, acting at a distance, pointing toward the source.                                                        | Unnamed. Newton declined to say.                         |
+| **\[GR\]** | General Relativity[^5]           | Not a force. The geometry of spacetime; freely falling bodies are unforced and follow geodesics.                                      | Unnamed. Geometry is described, not a carrier.           |
+| **\[FR\]** | Frame (“fictitious”) forces      | Centrifugal and Coriolis forces that appear when motion is described from a rotating viewpoint. Both N and GR call them fictitious.   | Nothing. By definition, no physical agent.               |
+| **\[C\]**  | Contact (electromagnetic) forces | The normal force of the floor, the tension of a rope, the stress in a beam. In GR, the *only* real forces on a body at rest on Earth. | Electromagnetic repulsion between atoms.                 |
+| **\[EN\]** | Energy and potential             | Gravity as a potential well; bodies “fall into” it, light “climbs out” and loses energy.                                              | An energy bookkeeping; no carrier named.                 |
+| **\[Q\]**  | Quantum field theory             | One of the “four fundamental forces”, carried by a hypothetical spin-2 particle, the graviton.[^6]                                    | A carrier is named—but not detected, and not part of GR. |
+| **\[DS\]** | The dark sector (an addition)    | Unseen matter and energy, added where the other registers’ predictions and observation disagree.                                      | Whatever gravitates; its nature unknown.                 |
 
-- Human posture is a dynamic equilibrium, maintained through continuous adjustments from the vestibular system and musculoskeletal coordination. These systems work together to counteract gravitational displacement.
+Three facts about this table matter for everything that follows.
 
-- Inversion—placing the head below the feet—disrupts this equilibrium. It leads to increased cranial pressure and spatial disorientation, revealing how strongly human physiology is adapted to an upright orientation relative to gravity.
+**First, the registers contradict one another on the most basic question.** In **\[N\]** and **\[Q\]**, gravity is a force. In **\[GR\]**, gravity is not a force at all, and the force we feel when standing is the floor pushing up **\[C\]**. In **\[FR\]**, the forces used are declared to be unreal by both of the main theories. These are not different levels of detail. They are opposite claims about what exists. **\[Established\]**
 
-- The instinctive fear of falling is deeply rooted in the nervous system. It reflects gravity’s psychological imprint—an innate awareness that loss of balance has consequences.
+**Second, almost none of the registers names what acts.** **\[N\]** and **\[GR\]** describe; **\[FR\]** is a bookkeeping device; **\[EN\]** is an accounting; **\[Q\]** names a carrier that has not been detected and that General Relativity does not contain. Only **\[C\]** names a physical interface—and **\[C\]** is not gravity. **\[Argued\]**
 
-Why does being upside down feel so strange? Because everything in your body is built to work with gravity pulling from above, not below.
+**Third, the explanations we are actually given routinely combine several registers in one account**, without marking the change. That is the subject of the next section.
 
-### Effort and Resistance
+# The Reduction Conflation
 
-Motion requires constant effort against gravitational force:
+## The Sentence That Licenses the Switch
 
-- Gravity defines the resistance encountered in movement—lifting an object, climbing stairs, or ascending inclines all demand additional energy as gravitational opposition increases.
+There is a sentence that appears, in some form, in nearly every exposition of gravitational physics: *in the limit of low velocities and weak fields, General Relativity reduces to Newtonian mechanics.*
 
-- Acceleration and deceleration during travel—whether in vehicles or elevators—alter the experienced gravitational load. Muscular responses adjust to these changes as the body interprets variations in force.
+As a statement about numbers, it is true. **\[Established\]** In that limit, the equations of General Relativity yield Newtonian trajectories to high accuracy.
 
-- Even stationary standing demands effort. Muscles must remain engaged to counteract gravitational pull and prevent collapse, indicating that resisting gravity is a continuous, energy-dependent process.
+But that sentence is then used to license something it does not establish: switching freely between the two theories *inside a single causal explanation*. Gravity is described as geometry when sophistication is wanted, and as a downward force when a load, a stress or a strain must be accounted for. When the switch is questioned, the reduction is cited as the reason no contradiction exists.
 
-Why does just standing still make you tired? Because your body is working constantly to keep you upright—even when you’re not moving.
+## The Error Defined
 
-### Falling and Jumping
+The **Reduction Conflation** is the error of treating numerical agreement between two theories as if it were agreement about what physically exists.[^7]
 
-Gravity expresses itself in extremes of motion:
+That two theories produce the same number within a limited domain does not mean they make compatible claims about reality. A lookup table, a fitted curve and a physical field theory may all give the same answer while disagreeing completely about what causes it. In the philosophy of science, a theory reduces to another when the second’s laws can be *derived* from the first under stated conditions;[^8] matching outputs alone is a weaker relation, and it does not carry the first theory’s account of what exists into the second. **\[Argued\]**
 
-- Freefall generates a distinct physiological response. The absence of typical pressure cues results in a momentary feeling of lightness or disorientation.
+On gravity, the two theories’ commitments cannot both be true:
 
-- The "stomach drop" sensation occurs as internal organs lag behind the body’s rapid descent, illustrating a brief mismatch in internal versus external motion.
+- **Newtonian commitment:** gravitational force is real. It acts on mass, transfers momentum, and loads structures.
 
-- Terminal velocity demonstrates that falling has limits. Once gravitational pull is matched by air resistance, acceleration ceases—a natural boundary determined by opposing forces.
+- **Relativistic commitment:** gravitational force does not exist. It is an artifact of describing motion from a non-inertial viewpoint. A body at rest on the ground is being pushed upward by the ground, away from its natural free-fall path.
 
-Why does falling feel different than other movements? Because it’s the one time gravity isn’t being held back—it’s having its way with you, until something stops it.
+A real force does not become a non-existent one because something moves slowly. The mathematical limit maps trajectories; it says nothing about what exists. **\[Argued\]**
 
-### Biological Shaping
+## How the Contradiction Is Concealed
 
-Gravity has influenced the evolution and maintenance of human physiology:
+The conflation survives because the numbers agree. An accelerometer reads $9.81\,\mathrm{m/s^2}$ whether that number is read as Newton’s gravitational field or as General Relativity’s upward proper acceleration. Because the measurement cannot tell them apart, the interpretation is treated as unimportant. The quantitative match makes the qualitative contradiction invisible.
 
-- Bone density responds to load. Prolonged exposure to microgravity results in bone loss, revealing gravity’s role in skeletal maintenance.
+The concealment works in four steps:
 
-- The cardiovascular system adapts to gravitational gradients. Valves in veins prevent backflow, and heart pressure distribution is shaped by vertical orientation.
+1.  **Establish the limit.** Show that GR yields Newtonian numbers at low speeds and weak fields. (True.)
 
-- Human skeletal and muscular structures evolved to operate under gravitational load. Joint angles, limb proportions, and gait patterns reflect this adaptation.
+2.  **Infer interchangeability.** Conclude that the two theories’ pictures of reality are therefore compatible. (Unlicensed.)
 
-Why does space weaken the body? Because it takes away the gravity our bones and blood were built to work against.
+3.  **Switch mid-explanation.** Use geometry when theory is discussed, force when load is calculated.
 
-### Pendulum Motion and Swinging
+4.  **Shield the switch.** When challenged, cite step 1.
 
-Gravity enables oscillatory motion through directional constraint:
+## When Mixing Is Legitimate
 
-- A pendulum swings by cycling between potential and kinetic energy under gravitational guidance. Whether in a clock or a playground swing, it consistently returns toward equilibrium.
+Using two theories in one piece of work is not, by itself, an error. Engineers and astronomers do it every day, and they are right to use whatever calculates correctly. The error arises in *explanation*, when a mixed account is presented as one coherent story of what is physically happening.
 
-Why does a swing always slow and come back to center? Because gravity keeps pulling, no matter how far you try to push away.
+Mixing is legitimate when it meets three conditions:[^9]
 
-### Breathing and Postural Pressure
+1.  **The transitions are marked.** The explanation says where it moves from one register to another.
 
-Respiration is subtly influenced by body position relative to gravity:
+2.  **The contradiction is bracketed.** It says plainly that the registers disagree about what exists, and that the calculation is used for its numbers, not its picture.
 
-- Standing introduces resistance to diaphragmatic expansion. Lying down reduces this resistance, altering respiratory efficiency.
+3.  **The mechanism is left open.** It does not present the combined account as having answered what acts.
 
-Why is it easier to breathe lying down? Because gravity isn’t pressing down on your chest in the same way.
+It is sometimes said that these tensions are “already acknowledged” by physicists. Acknowledgment is not resolution. An unresolved contradiction that is acknowledged in specialist literature, and then left unmarked in every textbook explanation, has not been resolved. It has been filed away. **\[Argued\]**
 
-### Hair and Clothing Drape
+## The Strongest Reply, and an Answer
 
-Gravity affects even non-structural elements of the body:
+A careful physicist will answer this section, and the answer deserves to be stated in its strongest form.
 
-- Hair and garments align vertically. Their flow and tension shift with posture, conforming to gravitational pull.
+> **The reply.** “There is no contradiction. In General Relativity, Newton’s force of gravity is a *fictitious force*—exactly like the centrifugal force felt in a turning car. It appears when motion is described from a frame fixed to the ground instead of from free fall. In the weak-field limit, the theory’s connection coefficients for such a frame reproduce the Newtonian term, $-m\nabla\Phi$, precisely. Engineers who use $F = mg$ are not borrowing from a rival theory; they are using General Relativity in a convenient frame, where a frame-dependent force term is perfectly legitimate. The reduction is a genuine derivation, not a coincidence of numbers.”
 
-Why do they fall the way they do? Because gravity is always guiding them down, whether you notice or not.
+Much of this is correct, and it should be granted. It is the right account of how General Relativity treats the Newtonian term, and the weak-field limit is a genuine derivation of that term and of the trajectories that follow from it. **\[Established\]**
 
-### A Baseline for Embodiment
+But the reply does not close the question. It moves it.
 
-These gravitational effects define the physiological context in which humans exist. They are not incidental—they are foundational. Any gravitational theory must account for them—not as background noise, but as primary data.
+1.  **The load is still real.** If the downward force is fictitious, then the compression of every column, every spine and every foundation is being started by something the theory says is not there. In General Relativity, the real force is the ground pushing upward **\[C\]**, and each part of a column, “trying” to follow its free-fall path, is held up by the part beneath it. That is a description of the stress pattern. It does not say what makes every resting particle of matter tend toward the Earth’s centre in the first place—what acts on it, and what is exchanged. The work once done by a force is now attributed to inertia relative to a geometry, and the geometry exchanges no momentum locally and has no energy that can be located at a point.[^10] The gap has been renamed, not filled. **\[Argued\]**
 
-This is gravity as experienced. It is the pre-theoretical ground on which all explanation must stand.
+2.  **The analogy holds only locally.** Centrifugal force can be removed everywhere at once by describing motion from a non-rotating frame. Gravity cannot: it can be removed only in a small region, because the tidal part—the convergence of falling bodies toward a centre—remains in every frame. **\[Established\]** Gravity is therefore not simply a fictitious force like the centrifugal one. Something frame-independent is present, and the reply does not say what acts in it.
 
-## Environmental Interactions
+3.  **The reply is almost never given.** Where explanations do state it—that the force of gravity is frame-dependent, used for its numbers, and that what physically acts is not thereby explained—they meet the conditions for legitimate mixing set out above. The Reduction Conflation is not a claim that physicists cannot answer this question. It is the observation that the explanations we are actually taught do not: they say “gravity pulls”, then “gravity is not a force”, and leave the reader to believe both. **\[Argued\]**
 
-### Gravity’s Silent Guidance
+The reply, in other words, is the bracketing that the explanations lack. Stated openly, it supports the argument of this catalog: our numbers are secure, our pictures of what gravity is are not reconciled, and the question of what acts remains open. **\[Open\]**
 
-Gravity manifests constantly in the behavior of our immediate environment, guiding the movement, placement, and behavior of materials in predictable ways—patterns so embedded in daily life that they often go unnoticed unless disrupted. These effects ripple through air, water, and earth, shaping the world we touch and see. This section catalogs gravity’s pervasive hand, a force that sorts, directs, and balances without pause, its presence a quiet architect of the natural order.
+## What This Catalog Will Show
 
-### Settling of Dust, Fluids, and Solids
+General Relativity is a description, and lacking a mechanism is no flaw in it *as a description*. It predicts superbly. **\[Established\]** The problem arises only when someone oversteps—when the combination of GR, Newtonian force, frame forces and energy language is presented as a complete account of what gravity is and how it acts.
 
-Gravity’s sorting touch is ever-present, organizing matter with subtle insistence:
+The entries that follow show how often that overstep occurs, and how much of our everyday understanding of gravity depends on it.
 
-- Particulate matter, including dust and soot, slowly descends and collects on horizontal surfaces—a fine veil settling over time, revealing gravity’s patient pull downward.
+# Human-Scale Gravitational Experience
 
-- Fluids stratify based on density, heavier components sinking to the bottom—water over oil, silt over sand—each layer a testament to gravity’s relentless ordering.
+## The Embodied Presence of Gravity
 
-- Sedimentation in water, oil separation, and the layering of granular materials like sand or gravel illustrate gravity’s sorting function—a steady hand stacking the world’s loose ends.
+This section records the immediate, physical and perceptual ways gravity shapes the human body and daily life—phenomena so woven into existence that they slip beneath notice, yet so persistent they define how we live, move and sense the world. They are continuous, embodied experiences, and any theory of gravity must confront them as primary data, not background noise.
 
-Why does dust linger only to fall? Gravity’s pull overcomes air’s resistance. What rises or floats eventually returns.
+## Weight and Pressure
 
-### Water Flowing Downhill
+- A constant downward load is felt as weight. Limbs hang heavy, organs rest on those below them, and soft tissue sags—a continuous load carried throughout life.
 
-Water bends to gravity’s will, tracing paths we see and use:
+- Standing loads bones, joints and discs. Over a day, the spine compresses measurably: most people are about a centimetre shorter in the evening than in the morning. Astronauts in orbit grow by several centimetres, and return to their normal height on Earth.
 
-- The constant motion of water from high to low elevation defines erosion, carves riverbeds, and spreads floodplains—gravity’s chisel sculpting landscapes over eons.
+- Lying down, or floating in water, brings relief: the load is redistributed or supported by the surrounding fluid.
 
-- Plumbing systems, drainage design, and aqueducts rely on gravity-driven flow—pipes slant, channels deepen, all bowing to gravity’s persistent direction.
+*Why does lying down feel so good? Because the load is spread across the whole body instead of carried through the spine and legs.*
 
-- Even small surface irregularities guide water movement—a pebble’s dip, a crack’s tilt—revealing gravity’s fine control.
+*Explained as:* In everyday and medical practice, weight is a downward force $F = mg$ **\[N\]**. In General Relativity, there is no downward force: the body would follow its free-fall path, and the floor pushes it upward, away from that path **\[GR\]**, **\[C\]**. Biomechanics then computes spinal compression from the weight of the body segments above each disc—a downward load **\[N\]**.
 
-What drives the stream? Gravity provides the path and the pull.
+## Balance and Orientation
 
-### Flames Rising, Gases Stratifying
+- Upright posture is a dynamic balance, maintained by constant small corrections from the inner ear, the eyes, the joints and the muscles.
 
-Gravity shapes fire and air, a dance of heat and weight:
+- The inner ear contains otoliths—tiny crystals resting on sensory hair cells—which register the direction of “down” by the way they bear on those cells.
 
-- In Earth-normal conditions, flames point upward due to convection—heated gases rise as denser, cooler air displaces them, a process made possible by gravity.
+- Inversion—head below feet—raises pressure in the head and disorients, revealing how deeply physiology is built around one direction.
 
-- In zero-G, flames become spherical, losing their upward thrust—gravity’s absence confirming its role in shaping fire’s form.
+- The fear of falling is deeply rooted, an inborn recognition that loss of balance has consequences.
 
-- Gases naturally stratify in enclosed spaces—carbon dioxide pools in basements, helium lifts balloons—molecular weight responding to gravitational pressure.
+*Why does being upside down feel so strange? Because the whole body—fluids, sense organs, posture—is built around one direction.*
 
-Why do flames stretch skyward? Gravity moves cooler air down, and hot gases follow the only direction left—up.
+*Explained as:* The otoliths are said to sense “the gravitational force” or “gravito-inertial acceleration”. The first is **\[N\]**; the second combines gravity with acceleration as the equivalence principle allows **\[GR\]**. The bearing of crystal on hair cell is a contact interaction **\[C\]**. What acts on the crystal to make it bear down is not named.
 
-### Tree Growth and Branch Orientation (Geotropism)
+## Effort and Resistance
 
-Gravity molds the living world, guiding growth against its pull:
+- Lifting, climbing and walking uphill demand additional energy.
 
-- Trees grow upward, defying gravity’s weight, while roots plunge downward—branches angle to balance light and load, their shape partly determined by gravitational direction.
+- Starting and stopping in vehicles and lifts changes the load we feel; the body responds immediately.
 
-How do trees stand tall? Gravity provides both the resistance and the reference.
+- Even standing still demands effort. Muscles must remain engaged to prevent collapse, and resisting gravity is a continuous, energy-consuming process.
 
-### Avalanches and Landslides
+*Why does just standing still make you tired? Because the body is working constantly to hold itself up, even when nothing moves.*
 
-Gravity’s power surges in sudden shifts:
+*Explained as:* The energy cost of climbing is computed as work against gravity, $mgh$ **\[N\]**, **\[EN\]**. Standing still does no mechanical work in physics’ definition; the metabolic cost is attributed to the muscles’ internal processes. In GR, the standing body is being continuously accelerated upward by the floor **\[GR\]**, **\[C\]**—yet no part of the account says what the body is being held against.
 
-- Loose earth, snow, or rocks slide downhill—avalanches roar, landslides reshape—when gravity overcomes friction or cohesion.
+## Falling and Jumping
 
-What triggers the fall? When material strength is exceeded, gravity acts without delay.
+- Free fall produces a distinct response: the usual cues of support vanish, producing lightness and disorientation.
 
-### Bubble and Foam Behavior
+- The “stomach drop” is felt as the internal organs, no longer supported in the usual way, shift and the sense organs lose their usual load.
 
-Gravity sorts the lightest forms:
+- Falling has a limit in air. Speed rises until air resistance matches weight, and then stays constant: terminal velocity.
 
-- Bubbles rise in liquids, foam stacks upward—lighter fluids float atop denser ones.
+*Why does falling feel different from any other movement? Because it is the one time nothing is holding us up.*
 
-Why do bubbles climb? Lighter materials displace heavier ones under gravity’s sorting influence.
+*Explained as:* In Newtonian terms, a falling body is accelerated by the force of gravity **\[N\]**. In GR, a falling body is *unforced*—it is the one state in which no force acts—and the body standing on the ground is the accelerated one **\[GR\]**. Terminal velocity is then computed as a balance between air drag and the force of gravity, $mg$ **\[N\]**, **\[C\]**. One phenomenon, explained in successive steps by theories that disagree about whether the falling body is forced at all.
 
-### A Natural Order Defined
+## Biological Shaping
 
-These environmental interactions—so routine they fade into the background—reveal gravity’s ceaseless work. Dust settles, rivers carve, flames flicker upward—not as random acts, but as predictable consequences of gravitational interaction. Stability and flow, stratification and collapse—all emerge from the same ever-present influence.
+- Bone density responds to load. Long stays in orbit cause bone and muscle loss.
 
-## Built World Consequences
+- The cardiovascular system is built for a vertical gradient: valves in the leg veins prevent pooling, and standing up too quickly can cause dizziness or fainting as blood drains toward the feet.
 
-### Gravity’s Hand on Human Craft
+- Skeletal proportions, joint angles and gait reflect a lifetime under load.
 
-Gravity governs the design, construction, and stability of all human-made environments—from the humblest tool to the tallest skyscraper, every engineered system contends with this omnipresent force. It’s a silent partner in every blueprint, a challenge met or defied by our hands. This section explores how gravity shapes the built world, its influence a constant in the structures we inhabit.
+- Plants sense direction too: roots grow down and shoots grow up, guided by dense starch grains (statoliths) that settle within specialised cells.
 
-### Need for Support Structures and Foundations
+*Why does space weaken the body? Because it takes away the load our bones and blood were built to work against.*
 
-Gravity demands a firm base for all we build:
+## Pendulum Motion and Swinging
 
-- Every building must counteract the downward pull on its mass with foundational support—resisting gravitational load over time.
+- A pendulum swings back and forth around its lowest point. Its period depends on its length and on local gravity, not on its mass—the basis of pendulum clocks and of early measurements of gravity’s variation over the Earth.
 
-- Load-bearing walls, columns, and deep footings anchor structural integrity—each a barrier against collapse.
+*Why does a swing always return to centre? Because something always restores it toward the lowest point.*
 
-- The taller the structure, the more it must withstand gravitational stress and leverage effects.
+*Explained as:* The period $T = 2\pi\sqrt{L/g}$ is derived with a downward gravitational force **\[N\]**, or equivalently by exchanging potential and kinetic energy **\[EN\]**. In GR, the bob would follow a geodesic; it is the string’s tension that forces it from that path **\[GR\]**, **\[C\]**.
 
-Why do foundations matter? Because everything rests under gravity’s influence—support is not optional.
+## Breathing and Posture
 
-### Bridge, Elevator, and Aircraft Design Constraints
+- Breathing mechanics change with posture. Upright, the abdominal organs hang away from the diaphragm and resting lung volume is larger. Lying flat, the abdominal contents press against the diaphragm and resting lung volume falls. Blood and air are also distributed unevenly from the top of the lungs to the bottom.
 
-Gravity sets the limits of motion and span:
+*Why does breathing change when we lie down? Because the weight of the organs shifts against the diaphragm.*
 
-- Bridges bear their own weight plus dynamic loads—vehicles, wind—accounting for gravitational stress and deflection.
+## Hair and Clothing Drape
 
-- Elevators require powerful motors and counterweights to overcome gravitational pull, each ascent a push against resistance.
+- Hair, cloth and loose objects hang vertically, and shift with posture.
 
-- Aircraft depend on lift-to-weight ratios—gravity defines flight’s constraints, influencing every design.
+*Why do they fall the way they do? Because, whatever we call it, something always directs them down.*
 
-What constrains flight? Gravity always imposes a cost.
+## A Baseline for Embodiment
 
-### Architectural Orientation (Verticality vs. Horizontality)
+These effects define the physical context in which we live. They are not incidental; they are foundational. Any theory of gravity must account for them—not as biology or engineering to be handed elsewhere, but as gravity itself, encountered.
 
-Gravity dictates how we build and dwell:
+# Environmental Interactions
 
-- Vertical structures require balance and strength; horizontal ones reduce stress and distribute load.
+## Gravity’s Silent Ordering
 
-- Human ergonomics reflect this—stairs, ramps, furniture are designed to manage gravitational demand.
+Gravity manifests constantly in the behaviour of our surroundings, guiding the placement and movement of materials in predictable ways—patterns so embedded in daily life that we notice them only when they are disrupted.
 
-- Tall architecture contends with gravity as much as it rises above it.
+## Settling, Layering and Sorting
 
-Why do we build tall with care? Because gravity always waits at the base.
+- Dust and soot slowly descend and collect on horizontal surfaces.
 
-### Plumb Lines and Level Tools
+- Fluids layer by density: oil floats on water; silt settles beneath clear water; sand and gravel sort into bands.
 
-Gravity aligns our craft with precision:
+- The oceans are layered by temperature and salt, and that layering drives a slow, planet-wide circulation.
 
-- Builders use plumb lines to ensure verticality, spirit levels to confirm flatness—gravity defines reference.
+*Why does dust linger, only to fall? Because air resists only for a while; what rises or floats eventually settles.*
 
-How do we measure true? By trusting the pull that never wavers.
+## Pressure with Depth and Height
 
-### Sagging and Material Fatigue
+- Water pressure rises steadily with depth: about one atmosphere for every ten metres.
 
-Gravity wears on what we make:
+- Air pressure and density fall with altitude; at the summit of Everest, air pressure is about a third of that at sea level.
 
-- Roofs sag, cables droop, furniture compresses—gravity’s constant load alters form and function over time.
+*Explained as:* Hydrostatic pressure is computed as $P = \rho g h$: each layer supports the weight of the layers above **\[N\]**. In GR, there is no weight to support; each layer is pushed upward by the layer beneath it, ultimately by the ground **\[GR\]**, **\[C\]**. The ocean does not choose between these accounts. The textbook uses the first.
 
-Why do things bend? Because gravity acts without rest.
+## Buoyancy, Bubbles and Rising Flames
 
-### A World Engineered Against Gravity
+- Bubbles rise in liquids; foam collects at the top; helium balloons ascend; carbon dioxide pools in low places.
 
-From foundations to flight, gravity shapes the built world—its effects a constant in every structure, tool, and space. Gravity’s pull is both a challenge and a guide—a force that must be met, answered, and respected in every human creation.
+- On Earth, flames point upward. In orbit, flames become spherical and burn more slowly, because hot gases no longer rise away from them.
 
-## Planetary and Local Celestial Phenomena
+- Warm air rises and cool air sinks, driving convection, weather and the circulation of the atmosphere.
 
-### Gravity’s Cosmic Reach
+*Why do flames stretch upward? Because the cooler, denser air around them settles beneath the hot gas and lifts it.*
 
-This section details gravitational effects that govern Earth and its immediate cosmic neighborhood—phenomena that stretch beyond the human scale yet remain fully observable. Often treated as orbital abstractions, these effects are direct and measurable. They influence tides, orbits, and the retention of our atmosphere, anchoring Earth in patterns that are ancient and practical. This section catalogs those effects without attributing cause—only observing the reach and consequences of gravity within our local space.
+*Explained as:* Buoyancy is explained by Archimedes’ principle: the surrounding fluid’s pressure, greater below than above, exceeds the object’s weight **\[N\]**, **\[C\]**. The pressure difference arises because deeper fluid supports more weight **\[N\]**. Without a downward force on the fluid, there is no pressure gradient to lift anything—yet in GR there is no downward force.
 
-### Tides
+## Water Flowing Downhill
 
-Gravity affects water, rock, and atmosphere in regular, measurable ways:
+- Water moves from high to low ground, carving riverbeds, spreading floodplains and filling basins. Waterfalls, rain and rivers all follow the same direction.
 
-- Ocean levels rise and fall in response to the Moon’s position relative to Earth. Water forms bulges both toward and opposite the Moon, creating predictable high and low tides.
+- Plumbing, drainage, aqueducts, siphons, water towers and hydroelectric dams all rely on this flow.
 
-- The Moon is tidally locked, always showing the same face to Earth. This locking, caused by long-term gravitational interaction, is common in celestial mechanics.
+*What drives the stream? A constant downhill preference, which we harness without knowing its cause.*
 
-- Earth’s crust and atmosphere also respond to tidal forces. The ground itself rises and falls by up to 30 centimeters. Atmospheric pressure fluctuates slightly with lunar and solar alignment.
+## Shapes of Liquids
 
-Why do tides rise? Because Earth is flexible, and gravity doesn’t stop at water’s edge.
+- Small drops are nearly spherical; large drops and puddles flatten. In narrow tubes, water climbs against gravity by capillary action, to a height set by the balance between surface tension and weight.
 
-### Orbits
+## Landslides and Avalanches
 
-Gravitational interaction defines orbital patterns:
+- Earth, snow and rock slide downhill when their friction and cohesion are exceeded. Slopes settle to characteristic angles of repose.
 
-- Earth’s orbit around the Sun defines the year. Its path is elliptical and governed by centripetal force.
+*What triggers the fall? The moment material strength is exceeded, the downward load acts without delay.*
 
-- The Moon orbits Earth, affecting tides and showing gradual recession as energy transfers through tidal forces.
+## Projectiles
 
-- Satellites—natural and artificial—maintain orbit by balancing speed and distance to match gravitational pull.
+- A thrown ball, a jet of water or a cannon shell follows a curved path—very nearly a parabola—and all objects launched alike follow the same path, regardless of their mass.
 
-What keeps them circling? A balance of motion and gravity—no engine required once aligned.
+*Explained as:* The parabola is computed with a constant downward acceleration $g$ from a downward force **\[N\]**. In GR, the projectile is unforced and follows a geodesic in curved spacetime; the parabola is how that geodesic looks in Earth’s coordinates **\[GR\]**.
 
-### Precession and Wobble
+## A Natural Order
 
-Gravity influences Earth’s rotational stability:
+These interactions—so routine they fade into the background—reveal the ceaseless work of gravity. Dust settles, rivers carve, flames rise, oceans layer—not as random acts, but as predictable consequences of one ever-present influence. And nearly every quantitative account of them is written in the Newtonian register, with a downward force that General Relativity says does not exist.
 
-- Earth’s axis traces a circle in space over about 26,000 years due to gravitational torque—this is axial precession.
+# The Built World and the Measurement of Gravity
 
-- Nutation causes a slight irregularity in that precession, driven by the Moon’s nodal cycle.
+## Gravity’s Hand on Human Craft
 
-- The Chandler wobble, a 14-month oscillation, is caused by internal mass shifts and external gravitational effects.
+Gravity governs the design, construction and stability of every human-made structure—from the humblest tool to the tallest tower.
 
-Why the wobble? Because gravity responds to shape, tilt, and uneven mass—perfect balance is rare.
+## Support Structures and Foundations
 
-### Atmospheric Retention
+- Every building must carry its own weight down to the ground through foundations, walls and columns.
 
-Earth’s atmosphere is shaped and held by gravity:
+- The taller the structure, the greater the load at its base, and the more its stability matters.
 
-- Earth retains gases like oxygen, nitrogen, and carbon dioxide due to sufficient gravitational pull. Smaller bodies like the Moon cannot hold comparable atmospheres.
+- Roofs sag, cables droop, shelves bow and materials creep and fatigue under constant load over time.
 
-- Escape velocity defines the minimum speed needed to leave Earth’s gravitational influence. This affects both spaceflight and the long-term retention of atmospheric particles.
+*Why do things bend? Because the load never rests.*
 
-How does air stay? Gravity holds what Earth is strong enough to keep.
+*Explained as:* Structural engineering is wholly Newtonian: a downward body force on every element, load paths to the ground, stress and strain computed from them **\[N\]**, **\[C\]**. General Relativity is not used, and contains no native downward body force to start the stress in a static structure. A physics course teaches that gravity is not a force; the engineering course next door designs every building around one. The transition is rarely mentioned.[^11] **\[Argued\]**
 
-### Lagrange Points
+## Bridges, Lifts, Cranes and Aircraft
 
-Balanced gravity creates useful orbital positions:
+- Bridges carry their own weight and moving loads. Lifts and cranes use motors and counterweights. Aircraft must generate lift to balance their weight.
 
-- In two-body systems like Earth-Sun or Earth-Moon, there are five positions where the gravitational forces balance the orbital motion of a third object. These are the Lagrange points.
+## Verticality, Plumb Lines and Levels
 
-- The James Webb Space Telescope, for example, orbits around Earth-Sun L2, a gravitationally stable position for deep space observation.
+- Builders use plumb lines to find vertical and spirit levels to find horizontal. “Down” is the most reliable reference in all of construction.
 
-Why do they stay there? Because forces cancel out—gravity creates equilibrium zones.
+*How do we measure true? By trusting the direction that never wavers.*
 
-### Roche Limit Effects
+## Weighing
 
-Gravitational stress sets a boundary for structural integrity:
+- A balance compares two masses directly; it gives the same reading anywhere. A spring scale measures the load an object places on it; its reading changes slightly with location, and falls to zero in free fall.
 
-- When a body like a moon or asteroid comes too close to a planet, tidal forces can exceed the object’s internal cohesion.
+## Measuring Gravity Itself
 
-- This leads to breakup or prevents formation of large moons within this radius—seen most clearly in ring systems like Saturn’s.
+- **Universality of free fall.** All bodies fall at the same rate regardless of mass or composition. Galileo described it; the MICROSCOPE satellite has confirmed it to about one part in $10^{15}$.[^12] **\[Established\]**
 
-What breaks them apart? The same force that holds planets together—applied too unevenly.
+- **Attraction between ordinary objects.** In 1798 Henry Cavendish measured the tiny attraction between lead spheres in a laboratory, using a torsion balance.[^13] The gravitational constant $G$ is still the least precisely known of the fundamental constants.
 
-### Anchoring Life and Technology
+- **Mapping the field.** Gravimeters detect local variations caused by rock density, ore bodies and caverns; satellites map changes in Earth’s gravity from season to season, as ice melts and groundwater moves.
 
-These celestial phenomena, though large in scale, directly affect life on Earth. They guide space travel, satellite placement, seasonal change, and ocean behavior. Gravity’s role in shaping these patterns is measurable and persistent, and this catalog documents their structure and scope before any theory is applied.
+*Explained as:* Cavendish’s result is computed as Newton’s force between two masses **\[N\]**. In GR, there is no force between the spheres; each moves on a geodesic of a spacetime curved by the other **\[GR\]**—except that the spheres are held by a fibre, whose twist is a contact force **\[C\]**. The constant $G$ appears in both theories, measured in an experiment interpreted with one of them.
 
-## Solar System and Deep Space Dynamics
+# Planetary and Local Celestial Phenomena
 
-### Gravity’s Vast Canvas
+## Gravity’s Reach Beyond the Ground
 
-This section stretches the gravitational catalog beyond Earth’s immediate reach, encompassing the solar system and interstellar domain—a realm where planetary structures, comets, and galaxies dance to gravity’s tune, or whatever causal replacement holds sway. From the Sun’s cradle to the Milky Way’s edge, these phenomena reveal how stability scales across immense distances and intricate interactions, each a testament to gravity’s reach, observable yet vast. Here, we inventory these cosmic effects, bridging local experience to the architecture of the stars.
+This section records gravitational effects that govern the Earth and its immediate neighbourhood—large in scale, yet fully observable.
 
-### Planetary Arrangement
+## Shape, Layering and Mountains
 
-Gravity shapes the structure of the solar system:
+- Large bodies are round. Above a few hundred kilometres across, a body’s own weight shapes it into a near-sphere. Smaller asteroids can be irregular.
 
-- All known planets orbit the Sun in elliptical paths within the ecliptic plane. This alignment is typically linked to the angular momentum of the early protoplanetary disk, but its long-term stability suggests deeper gravitational ordering.
+- Planets are layered: dense iron at the centre, lighter rock above, water and air on top.
 
-- Orbital resonances, such as Neptune and Pluto’s 3:2 ratio, reflect persistent gravitational relationships. These patterns maintain harmony and prevent collisions.
+- Mountains have a maximum height, and continents float on the denser mantle beneath them in a balance called isostasy; land rebounds slowly when ice sheets melt.
 
-Why this order? Because gravity arranges mass and motion into stable configurations over time.
+- The Earth bulges at the equator: its equatorial radius is about 21 km larger than its polar radius.
 
-### Asteroid Belts and Gaps
+*Explained as:* The bulge is explained by “centrifugal force” from Earth’s rotation **\[FR\]** acting against gravity’s inward pull **\[N\]**. Both N and GR declare centrifugal force fictitious. In GR, there is neither an inward pull nor an outward force—only geodesics and the contact forces of rock on rock **\[GR\]**, **\[C\]**. The shape of the planet is computed with two forces, one of which both theories say is unreal, and the other of which the more fundamental theory says does not exist.
 
-Gravity organizes even the debris of the solar system:
+## Gravity Varies over the Earth
 
-- The asteroid belt lies between Mars and Jupiter. Its shape and boundaries are heavily influenced by Jupiter’s gravity.
+- Gravity is weaker at the equator (about $9.78\,\mathrm{m/s^2}$) than at the poles (about $9.83\,\mathrm{m/s^2}$), weaker on mountaintops, and varies with the rock beneath.
 
-- Kirkwood gaps represent regions within the belt where orbital resonances with Jupiter clear objects. These gaps align with mathematically unstable orbits.
+*Explained as:* Part of the equatorial difference is attributed to distance from Earth’s centre (the bulge) **\[N\]**, and part to centrifugal effect **\[FR\]**.
 
-- Trojan asteroids cluster at Lagrange points—gravitationally stable zones where smaller bodies remain fixed relative to a planet and the Sun.
+## Tides
 
-What clears the gaps? Gravitational resonance shapes the field and defines the space.
+- The oceans rise and fall twice a day, with bulges both toward and away from the Moon. The Sun adds a smaller tide; spring and neap tides follow the Moon’s phases.
 
-### Comets and Long Orbits
+- The solid Earth also rises and falls—by up to about 30 centimetres—and the atmosphere has small lunar tides.
 
-Gravity controls distant objects on extreme paths:
+- Tidal friction is slowing Earth’s rotation, lengthening the day, and the Moon is receding from Earth by about 3.8 centimetres a year, measured by laser ranging to reflectors left on the Moon.[^14]
 
-- Many comets follow highly elliptical orbits. Their trajectories bring them close to the Sun and then send them back to the outer solar system.
+- Jupiter’s moon Io is heated by tides strongly enough to be the most volcanic body known.
 
-- Objects from the Oort Cloud or Kuiper Belt may be perturbed inward by gravitational influence.
+*Why do tides rise? Because the Earth is flexible, and the influence that moves the oceans does not stop at the water’s edge.*
 
-- Gravity assists—slingshot maneuvers—use the gravity of large planets to increase speed or redirect paths, mirroring natural comet behavior.
+*Explained as:* Tides are taught as the difference in the Moon’s pull across the Earth **\[N\]**. In GR, they are geodesic deviation—the tidal part of curvature, the one feature of gravity that cannot be removed by changing viewpoint **\[GR\]**. Popular explanations often add a centrifugal force to account for the far-side bulge **\[FR\]**. Tidal prediction itself is done with Newtonian forces and harmonic analysis **\[N\]**. The slowing of Earth’s spin is then explained as a torque on the tidal bulge **\[N\]**—a force-based concept with no counterpart in the GR account just given.
 
-Why the long arc? Because gravity doesn’t stop—it extends and redirects.
+## Orbits and Weightlessness
 
-### Solar Motion and Heliopause
+- The Moon circles the Earth; the Earth circles the Sun on a slightly elliptical path; satellites circle the Earth at speeds set by their height.
 
-Gravity operates on the solar system as a whole:
+- Astronauts in orbit float, although Earth’s gravity at the height of the International Space Station is about 90% of its strength at the surface.
 
-- The Sun orbits the center of the Milky Way, dragging the solar system along in a vast galactic journey.
+*What keeps them circling? A balance that needs no engine once it is reached.*
 
-- The heliosphere is the region dominated by solar wind, shaped by gravitational and particle pressures. Its boundary is the heliopause.
+*Explained as:* Three incompatible explanations are in common use, sometimes in the same paragraph. (1) Gravity provides the centripetal force that bends the path **\[N\]**. (2) Gravity’s inward pull is balanced by an outward centrifugal force **\[FR\]**—which is why astronauts are said to feel nothing. (3) The orbiting body is unforced, following a geodesic; there is no gravitational force to balance **\[GR\]**. Weightlessness is then explained as “continuous free fall”—a phrase that means *falling under a force* in **\[N\]** and *unforced motion* in **\[GR\]**.
 
-- At the heliopause, solar pressure meets the interstellar medium, forming a termination shock—an interface shaped by motion and gravitational constraint.
+## Precession and Wobble
 
-What bounds the bubble? Gravity interacts with space and matter to set dynamic limits.
+- Earth’s axis traces a slow circle in space over about 26,000 years: the precession of the equinoxes. Nutation adds a smaller nod with an 18.6-year period, following the Moon’s orbital cycle.
 
-### Galactic Structures
+- The Chandler wobble, a small wobble of the axis with a period of about 14 months, is a free oscillation of the non-rigid Earth, kept going mainly by changes in ocean-bottom and atmospheric pressure.[^15]
 
-Gravity shapes galaxies over cosmic timescales:
+*Explained as:* Precession is explained as the torque of the Sun and Moon on Earth’s equatorial bulge **\[N\]**.
 
-- Spiral arms are not fixed structures but density waves that move through galactic discs, triggering star formation.
+## Atmospheric Retention and Escape
 
-- Stars orbit at speeds that defy Newtonian predictions, leading to theories of dark matter or alternative gravity models.
+- Earth holds an atmosphere; the Moon and Mercury hold almost none. Light gases such as hydrogen and helium slowly escape even from Earth.
 
-- The galactic form remains coherent despite rotational disparities, indicating a balancing gravitational mechanism.
+- To leave a body entirely requires a minimum speed—the escape velocity, about 11.2 km/s at Earth’s surface.
 
-Why the spiral? Because structure persists where mass and motion are balanced.
+*Explained as:* Escape velocity is computed from the depth of the gravitational potential well **\[EN\]**, using Newton’s potential **\[N\]**.
 
-### Black Holes and Lensing Effects
+## Lagrange Points
 
-Gravity reaches extremes in collapsed regions:
+- In a system like the Sun and Earth, there are five positions where a small body can keep pace with the larger two. Three of them (L1, L2, L3) are unstable: a body there drifts away unless it corrects its position. Two (L4, L5) are stable, and collect natural objects.
 
-- Black holes form when mass collapses past a critical point. Gravity there becomes so intense not even light can escape.
+- The James Webb Space Telescope circles the Sun–Earth L2 point, about 1.5 million km from Earth, in a “halo” orbit that needs regular small corrections.
 
-- Light bends around massive bodies, an effect known as gravitational lensing. This observation confirms gravity’s impact on the geometry of light paths.
+*Explained as:* Lagrange points are found by balancing the gravitational forces of two bodies **\[N\]** against the centrifugal force **\[FR\]**, in a frame rotating with them, with the Coriolis force **\[FR\]** governing stability. Relativistic corrections are negligible and almost never used.
 
-- Accretion disks form as matter spirals into these objects, producing jets and extreme emissions from material under high gravitational stress.
+## Roche Limit
 
-What bends the light? Massive bodies warp the path—gravity’s effect on motion and energy.
+- A moon or comet that comes too close to a planet is torn apart when tidal stress exceeds its own cohesion. Large moons do not form inside this distance; Saturn’s rings lie mostly within it. In 1992, Comet Shoemaker–Levy 9 was broken into pieces by Jupiter, and the fragments struck the planet in 1994.
 
-### Binary Star Orbits
+*What breaks them apart? The same influence that holds a body together, applied unevenly.*
 
-Gravity binds stars into mutual orbits:
+# The Solar System
 
-- Binary star systems orbit around a shared center of mass. These orbits follow precise paths shaped by the stars’ gravitational interaction.
+## Gravity’s Wider Canvas
 
-Why the dance? Mutual gravity defines the pair’s motion and period.
+Beyond Earth’s neighbourhood, the same influence arranges an entire planetary system.
 
-### Galactic Cluster Dynamics
+## Planetary Arrangement and Kepler’s Laws
 
-Gravity holds galaxies together in larger systems:
+- The planets move on ellipses with the Sun at one focus, sweep out equal areas in equal times, and have periods related to their distances by a fixed rule—Kepler’s three laws, found from observation before any theory explained them.
 
-- Galaxies group into clusters, like the Local Group, held by gravitational connection across millions of light-years.
+- The planets orbit in nearly the same plane and the same direction.
 
-What holds the group? Gravitational interaction spanning vast distances.
+- The system has been stable for billions of years, yet over tens of millions of years its exact motions are chaotic and cannot be predicted in detail.[^16]
 
-### Bridging Earth to the Stars
+- Orbital resonances are common: Neptune and Pluto orbit in a 3:2 ratio that prevents them from colliding; three of Jupiter’s large moons are locked in a 1:2:4 rhythm.
 
-This section completes the gravitational record from planetary motions to galactic cohesion. Gravity’s influence extends from the scale of solar system mechanics to galactic structure, consistently anchoring physical systems across space and time. These patterns provide an empirical basis for understanding order, establishing a framework of observation before theoretical models attempt to interpret or explain them.
+*Why this order? Because mass and motion settle into long-lasting arrangements—though not perfectly predictable ones.*
 
-## Anomalies, Extremes, and Edge Cases
+## Mercury’s Perihelion
 
-### Gravity’s Unseen Edges
+- The point of Mercury’s closest approach to the Sun advances slowly, by about 574 arcseconds per century relative to the stars.
 
-This section focuses on gravitational phenomena that fall outside the everyday—where effects become less intuitive or more pronounced. These are not just rare events; they are measurable deviations and edge cases that expand our understanding of how gravity behaves in different contexts. Each example offers a useful test case for any model of gravity aiming to account for all observable behavior.
+*Explained as:* About 531 arcseconds of this are computed as the Newtonian tugs of the other planets **\[N\]**; the remaining 43 are attributed to General Relativity **\[GR\]**.[^17] The agreement is celebrated as a triumph of GR—and it is a numerical triumph. But the total is a sum: most of it from a theory in which planets pull one another with real forces, and a small remainder from a theory in which there are no such forces. The causal picture of the first part is denied by the theory credited with the second. **\[Argued\]**
 
-### Gravity Variations on Earth
+## Asteroid Belt, Gaps and Trojans
 
-Gravity’s strength is not perfectly uniform across Earth’s surface:
+- The asteroid belt lies between Mars and Jupiter. Its Kirkwood gaps lie where an asteroid’s period would be a simple fraction of Jupiter’s.
 
-- Gravity weakens at higher altitudes, such as on mountaintops, due to increased distance from Earth’s center.
+- Trojan asteroids gather around Jupiter’s L4 and L5 points, sixty degrees ahead of and behind the planet.
 
-- It varies slightly with latitude—the equator experiences slightly weaker gravity than the poles due to Earth’s equatorial bulge and rotation.
+## Comets, Rings and Moons
 
-- Subsurface features like mountains or mineral deposits also cause detectable changes in local gravitational strength.
+- Comets follow long ellipses, returning from the outer solar system on schedules of decades to millions of years.
 
-- Microgravity conditions can be measured in specific structures like towers, mines, or test tunnels where gravitational influence fluctuates slightly.
+- Saturn’s rings are sharply structured, with gaps and edges maintained by resonances with its moons and by small “shepherd” moons.
 
-Why the variance? Because gravity responds to shape, rotation, and mass distribution—it molds to Earth’s physical characteristics.
+- The Moon is tidally locked, always showing Earth the same face; so are most large moons in the solar system.
 
-### Weightlessness in Orbit
+*Explained as:* Ring structure is computed with Newtonian resonances **\[N\]**; tidal locking with a Newtonian torque on a tidal bulge **\[N\]**.
 
-In orbit, gravitational effects are present but experienced differently:
+## Gravity Assists
 
-- Objects in orbit are in continuous freefall. They move fast enough horizontally to fall around the Earth rather than toward it.
+- Spacecraft gain or lose speed relative to the Sun by passing close to a planet. Relative to the planet, the spacecraft leaves as fast as it arrived; relative to the Sun, it has taken a little of the planet’s orbital energy.
 
-- This creates a sensation of weightlessness—not due to the absence of gravity, but from the balance of gravitational pull and orbital velocity.
+*Explained as:* Trajectories are planned with Newtonian “patched conics” and numerical integration **\[N\]**, **\[EN\]**. Precision navigation then integrates Newtonian many-body equations with small relativistic correction terms added **\[N\]**, **\[GR\]**.
 
-- The human body reacts noticeably: muscle mass decreases, bone density declines, and fluid distribution changes.
+## Light, Radar and Spinning Gyroscopes near the Sun and Earth
 
-Why the float? Because orbit is a balanced fall—gravity is still active, but its effects are countered by motion.
+- Radar signals passing near the Sun are delayed: the Shapiro delay, measured most precisely by the Cassini spacecraft in 2002.[^18]
 
-### Gravitational Slingshot Effects
+- Gyroscopes in orbit around the Earth slowly change the direction they point, by the amounts predicted for the geodetic effect and for the dragging of space by Earth’s rotation, measured by Gravity Probe B.[^19]
 
-Gravity can be used to change the speed and direction of objects in motion:
+*Explained as:* These effects are explained only in **\[GR\]**. They are among its strongest confirmations. **\[Established\]**
 
-- Spacecraft use gravitational slingshots (gravity assists) to gain velocity by passing near large planets.
+## Unexplained Motions
 
-- The planet’s motion contributes to the spacecraft’s trajectory, conserving energy while increasing speed.
+- The Pioneer spacecraft showed a tiny unexplained deceleration for decades. It is now attributed to the uneven radiation of the spacecraft’s own heat.[^20]
 
-- Comets and asteroids naturally exhibit similar dynamics during close planetary encounters.
+- Several spacecraft flying past Earth have shown small unexplained changes in speed—the flyby anomaly—which remain unresolved.[^21] **\[Open\]**
 
-Why the speed boost? Because gravitational fields can transfer momentum when paths are aligned.
+# Stars, Galaxies and the Cosmos
 
-### Gravitational Time Dilation
+## Stars and Their Remnants
 
-Gravity influences time as well as space:
+- Stars form when clouds of gas and dust collapse under their own weight, and live for billions of years in balance between that weight and the outward pressure of their hot interiors.
 
-- Clocks positioned closer to massive bodies tick more slowly than those farther away.
+- Stars that exhaust their fuel collapse into white dwarfs, neutron stars or black holes.
 
-- This is observable with GPS satellites, which must account for both gravitational and velocity-based time dilation.
+- Many stars orbit in pairs or groups around a shared centre.
 
-- The effect, while subtle, is measurable and critical to modern navigation systems.
+*Explained as:* Stellar structure is computed with hydrostatic balance—pressure supporting weight **\[N\]**, **\[C\]**—with relativistic corrections for neutron stars **\[GR\]**.
 
-Why does time shift? Because gravity affects how quickly time passes near strong gravitational fields.
+## Black Holes
 
-### Equatorial Bulge Effects
+- Stars orbit an unseen compact object of about four million solar masses at the centre of our galaxy. Images of the glowing gas around the black holes in the galaxy M87 and in our own galaxy were published in 2019 and 2022.[^22]
 
-Gravity and rotation combine to shape Earth’s form:
+- Matter falling toward such objects forms hot discs and powerful jets.
 
-- Earth is not a perfect sphere. It bulges at the equator due to centrifugal force caused by rotation.
+*Explained as:* The black hole is a solution of GR **\[GR\]**. It is often introduced, however, as a body whose escape velocity exceeds the speed of light **\[EN\]**, **\[N\]**—the reasoning John Michell published in 1784.[^23] That Newtonian argument happens to give the same radius as GR, $2GM/c^2$; in GR, escape velocity is not the reason light cannot leave. The coincidence of the number is used to make the relativistic object intuitive by a Newtonian argument that GR does not endorse. **\[Argued\]**
 
-- This bulge causes variations in sea level and affects ocean currents, climate zones, and satellite orbits.
+## Binary Pulsars and Gravitational Waves
 
-Why the bulge? Because gravity must share influence with Earth’s rotation—it’s a combined outcome of inward pull and outward momentum.
+- The orbit of the binary pulsar PSR B1913+16 is shrinking, at a rate matching the loss of energy to gravitational waves predicted by GR to within a fraction of one percent.[^24]
 
-### Revealing Complexity
+- Since 2015, detectors have recorded gravitational waves directly—ripples arriving from colliding black holes and neutron stars, measured as changes in the length of kilometre-long arms smaller than a proton.[^25]
 
-These examples—variations, time shifts, weightlessness, and gravitational boosts—illustrate that gravity is more than a uniform force. Its behavior changes with position, motion, and surrounding mass. These effects offer valuable insight into gravity’s reach and adaptability. Each one serves as a stress test for any explanatory framework and deepens the record of what we observe.
+*Explained as:* Both are explained in **\[GR\]**, with great precision. **\[Established\]** Yet the waves carry energy, and that energy moves the detectors’ mirrors. In GR, the gravitational field has no energy that can be located at a point; its energy can be defined only for a region, and only in particular coordinates.[^26] Curvature is real enough to carry energy across the universe and shake a mirror, but not substantial enough to have energy at any particular place. **\[Argued\]**
 
-## What We Were Told: From Newton to Einstein
+## Galaxies
 
-Before we present a new model of gravity, we must fairly and clearly examine the ones we inherited—beginning not with Einstein, but with Newton. For many readers, especially those outside academia, Newton’s laws remain the most familiar reference point. Gravity is often still described as a pulling force between objects with mass, diminishing with distance. This image, while powerful in its simplicity, masks a deeper shift that has occurred in modern physics. General Relativity now underpins the dominant scientific explanation of gravity, replacing Newton’s force model with one rooted in geometry.
+- Galaxies rotate, and stars far from their centres orbit much faster than the visible matter can account for.[^27]
 
-This section outlines that transition—not to undermine it, but to clarify what was said, what was changed, and what assumptions were passed forward. We do not begin with critique. We begin with record.
+- Spiral arms persist for billions of years; they are commonly explained as density waves moving through the disc.
 
-### Newton’s Gravity: Force Without Cause
+## Clusters, Lensing and the Dark Sector
 
-Isaac Newton’s theory of gravity, first published in the late 17th century, defined gravity as a force of attraction between masses. The strength of that force was proportional to the product of the two masses and inversely proportional to the square of the distance between them:
+- Galaxies in clusters move too fast to be held together by the visible matter—as Fritz Zwicky noticed in 1933.[^28]
 
-$$F = G \frac{m_1 m_2}{r^2}$$
+- Light from distant galaxies is bent and multiplied by the mass of clusters in front of them: gravitational lensing. In the Bullet Cluster, the lensing mass appears offset from the hot gas that makes up most of the visible matter.[^29]
 
-Here, $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses involved, and $r$ is the distance between their centers.
+- The expansion of the universe appears to be accelerating.[^30]
 
-This model was remarkably predictive. It explained planetary motion, tides, and free fall. It allowed engineers and astronomers to calculate trajectories with precision. But Newton himself acknowledged a profound limitation: he could not explain *how* this force acted. What caused one object to "pull" on another across empty space? Newton declined to offer a mechanism.
+- In the standard cosmological model, dark matter and dark energy together make up about 95% of the universe’s energy content.[^31] After decades of searching, no dark matter particle has been directly detected. **\[Established\]**
 
-Despite this omission, Newtonian gravity became the dominant explanation of gravitational behavior for centuries. Its practicality made it indispensable, and its lack of mechanism was treated as a minor philosophical concern.
+*Explained as:* This is where the registers are most tightly spliced. Galaxy rotation and cluster motions are almost always analysed with Newtonian gravity and Newtonian dynamics **\[N\]**—GR is not used, because the fields are weak. The shortfall is filled with dark matter **\[DS\]**. The lensing that maps the same dark matter is computed with General Relativity **\[GR\]**. Cosmic expansion is described by GR’s Friedmann equations **\[GR\]**—which can also be derived by a purely Newtonian argument, as Milne and McCrea showed in 1934, and are often taught that way **\[N\]**.[^32] The acceleration is attributed to dark energy, often linked to the energy of the vacuum **\[DS\]**, **\[Q\]**. The agreement of these different measurements on the amount of dark matter is presented as strong confirmation. But the agreement is between a quantity inferred with a force-based theory and a quantity inferred with a theory that says there is no such force. **\[Argued\]**
 
-### From Force to Curvature: General Relativity Emerges
+# Light and Time
 
-In the early 20th century, Albert Einstein proposed a radically different view. Gravity, he argued, was not a force at all. Instead, it was the result of curved spacetime. Massive objects deform the geometry of space and time, and other objects follow the curves in that geometry.
+## The Bending of Light
 
-This idea was formalized in the field equations of General Relativity:
+- Starlight passing the edge of the Sun is deflected by about 1.75 arcseconds, as first measured during the solar eclipse of 1919.[^33]
 
-$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
+*Explained as:* In 1801, Johann von Soldner calculated with Newtonian gravity that light, treated as particles, should be deflected by about 0.87 arcseconds[^34] **\[N\]**. General Relativity predicts twice this. The doubling is commonly explained as two equal halves: one half from the “bending of time”, matching the Newtonian value, and the other half from the curvature of space **\[GR\]**. The explanation divides one effect between a Newtonian picture and a geometric one, and attributes each half to a different story.
 
-Here, $G_{\mu\nu}$ is the Einstein tensor describing spacetime curvature[^1], $T_{\mu\nu}$ is the stress-energy tensor, $g_{\mu\nu}$ is the metric, $\Lambda$ is the cosmological constant, and $c$ is the speed of light.
+## Clocks and Gravitational Redshift
 
-Einstein’s theory explained several phenomena that Newtonian gravity could not—such as the precession of Mercury’s orbit and the bending of light around stars. It also introduced new concepts: geodesics[^2], time dilation, and the idea that mass and energy curve spacetime.
+- Clocks run faster the higher they are. This was measured over the 22.5-metre height of a tower at Harvard by Pound and Rebka in 1959–60;[^35] with clocks flown around the world in 1971;[^36] between optical clocks 33 centimetres apart in height in 2010;[^37] and across a single millimetre-scale cloud of atoms in 2022.[^38]
 
-Importantly, General Relativity did not propose a mechanism either. It described the geometry of motion but not the physical process by which curvature influenced mass. The "force" of gravity disappeared, replaced by the mathematical language of differential geometry.
+- The clocks on GPS satellites gain about 45 microseconds a day relative to the ground because they are higher, and lose about 7 because they are moving fast; the net gain of about 38 microseconds a day must be corrected for, or positions would drift by kilometres a day.[^39]
 
-### Institutional Adoption and Public Understanding
+*Explained as:* Two different explanations are given for the same measurement. In one, light “climbing out of a gravitational well loses energy”, like a ball thrown upward **\[EN\]**—the language of Pound and Rebka’s own title, *Apparent Weight of Photons*. In the other, nothing happens to the light at all; clocks at different heights simply run at different rates **\[GR\]**. Textbooks routinely give both, as equivalent. The GPS correction itself is computed from the Newtonian gravitational potential, $\Delta f/f = \Delta\Phi/c^2$ **\[N\]**, combined with the time dilation of Special Relativity for the satellites’ speed.
 
-Despite its abstract nature, General Relativity gradually replaced Newtonian gravity in academic and scientific circles. Experimental confirmations, such as the 1919 Eddington eclipse observation, gave it credibility. Its mathematical elegance and predictive power made it the standard in astrophysics, cosmology, and high-level theoretical work.
+# Anomalies, Extremes and Edge Cases
 
-In educational settings, however, Newton’s model continued to be taught first, often without context. Many students learned that "gravity pulls" without ever encountering the concept of spacetime curvature[^3]. Even those exposed to GR rarely explored its assumptions.
+## Gravity’s Unseen Edges
 
-The public understanding of gravity remains mixed: intuitive images of attraction persist, while institutional science holds to a model that defines gravity as geometric distortion.
+These are the places where gravity behaves least intuitively, and where any model must be most careful.
 
-### Positioning GR Against the Catalog
+## The Equivalence Principle and Its Limits
 
-Now that we have presented the observable catalog of gravitational effects—ranging from bodily experience to galactic dynamics—we are ready to ask a new question:
+- In a small, closed room, the effects of standing on Earth and of accelerating in a rocket cannot be told apart. Over a larger region, they can: in a gravitational field, falling objects converge toward the centre, and differences in gravity stretch extended bodies. Near a black hole, this stretching becomes destructive.
 
-*Does General Relativity explain what gravity actually does?*
+*Explained as:* General Relativity is built on the local equivalence **\[GR\]**. This framework argues that the inference drawn from it—that gravity therefore *is* acceleration, and not a force—goes further than the observation licenses.[^40] One example: a rocket’s acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth’s surface at once—in opposite directions on opposite sides—while the Earth does not grow. **\[Argued\]**
 
-This is not a dismissal. It is an examination. We will now place GR’s concepts against the empirical record. Where it matches, we acknowledge. Where it fails to describe, we illuminate.
+## Artificial Gravity
 
-Only then can we introduce a new model—not as opposition, but as answer.
+- A rotating space station would press its occupants against its outer wall, producing an effect like weight.
 
-### The Purpose of Revelation
+*Explained as:* The effect is described as centrifugal force **\[FR\]**, or as the wall’s contact force constantly turning the occupants’ paths **\[C\]**.
 
-We’re not here to attack the scientific tradition—our aim is illumination, not demolition. General Relativity, with its elegant curves and cosmic predictions, has ruled our understanding, cloaked in the precision of math. Yet beneath this sheen, we seek its blind spots—places where abstractions drift from what we feel, where stability’s tug and entropy’s pull are replaced by placeholder myths. We do this not by twisting its words, but by quoting them straight, tracing their logic, and posing honest questions—queries that test the bridge between model and world.
+## Revealing Complexity
 
-Questions of Truth What guides this inquiry? Three simple probes, sharp and unflinching: - Does the model match the experience—does it capture the ache of standing, the rush of falling, the tide’s rhythm? - Does the abstraction return us to the world we live in—does it reflect stability’s press or entropy’s drift as we know them? - Or does it swap our felt truth for a map of symbols—elegant, precise, yet blind to the terrain beneath our feet?
+These cases—variations, time shifts, weightlessness, extremes—show that gravity is not one uniform effect but a family of behaviours that change with position, motion and surrounding mass. Each is a stress test for any explanation.
 
-These aren’t judgments—they’re clarities, a call to see where explanation aligns or strays. We begin not with scorn, but with openness—ready to hear what was taught, and to weigh it against what is.
+# What We Were Told: From Newton to Einstein
 
-The Gravity We Learned This is the gravity we were handed—the one said to rule planets, bend light, define mass—a cosmic titan of mathematics. Yet it’s also the gravity that struggles to explain the mundane: how we stand against its pull, walk its slopes, or drift to sleep under its weight. What we were told promises mastery over stars, but stumbles over the body’s quiet truths—stability’s imprint, entropy’s shadow. Here, we document that story—not to end it, but to see it clear, setting the stage for what comes next.
+Before we set the catalog against the theories, we must state fairly what those theories say—beginning not with Einstein, but with Newton. We do not begin with critique. We begin with the record.
 
-## Evaluating GR Through Everyday Gravity
+## Newton’s Gravity: Force Without Cause
 
-### Testing the Abstract Against the Real
+Newton defined gravity as a force of attraction between masses, proportional to the product of the masses and inversely proportional to the square of the distance between them:[^41] $$F = G\,\frac{m_1 m_2}{r^2}$$ where $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses, and $r$ is the distance between their centres.
 
-General Relativity (GR) redefined gravity not as a force, but as a geometric feature of spacetime. This section evaluates how well that abstraction holds up when applied to observable, everyday gravitational experiences—those cataloged previously. Each entry below describes a specific gravitational phenomenon, summarizes GR’s interpretation of that experience, and then identifies how that experience is handled in real-world practice. Where the model requires force, pressure, or interaction to deliver a result, we also note the reliance on Newtonian mechanics despite GR’s formal rejection of force[^4] .
+This law was remarkably predictive. It explained the planets, the tides and falling bodies, and it remains the working tool of engineering, navigation and most of astronomy. But Newton himself acknowledged its limit: he could not say how the force acted, and he declined to guess. For centuries, that silence was treated as a minor philosophical matter.
 
-### The Feeling of Weight
+## From Force to Curvature: General Relativity
 
-**Gravitational Phenomenon**: The persistent downward pressure experienced when standing.
+In 1915–16, Einstein proposed that gravity is not a force at all. Mass and energy determine the geometry of spacetime, and freely falling bodies follow the straightest possible paths—geodesics—in that geometry:[^42] $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}\,T_{\mu\nu}$$ Here $G_{\mu\nu}$ describes the curvature of spacetime, $T_{\mu\nu}$ the distribution of matter and energy, $g_{\mu\nu}$ the metric, $\Lambda$ the cosmological constant, and $c$ the speed of light.
 
-**GR Explanation**: GR describes weight as the result of resistance to geodesic motion. Standing on Earth’s surface means the body is prevented from falling freely; the ground accelerates upward in spacetime, creating the sensation of weight via the equivalence principle.
+GR accounted for what Newton’s law could not—the extra advance of Mercury’s perihelion, the full bending of starlight, the slowing of clocks—and has since passed every precision test put to it. **\[Established\]** Like Newton’s law, it does not name a mechanism. It describes the geometry of motion, not a physical process by which matter shapes that geometry or by which geometry sets a resting body in motion.
 
-**Applied Framework**: Real-world force computations use $F = mg$[^5] to determine body weight, material tolerances, or pressure points—requiring Newtonian formulation. GR supplies no mechanism to compute field-based interaction.
+## What Was Taught
 
-### The Relief of Lying Down
+GR became the standard theory of gravity in physics and astronomy. Newton’s law continued to be taught first, and continued to be used for nearly all practical work. Most people learn that “gravity pulls” and never encounter curvature; many who do encounter it learn both pictures without being told that they contradict one another. The public understanding of gravity remains a mixture: intuitive pull alongside an institutional theory that denies it.
 
-**Gravitational Phenomenon**: Change in bodily sensation and pressure when shifting from standing to horizontal posture.
+# The Ledger of Explanations
 
-**GR Explanation**: No direct explanation; curvature is posture-independent.
+## Phenomena and Their Registers
 
-**Applied Framework**: Redistribution of weight and pressure is evaluated using Newtonian force models. Biomechanics depend on $P = F/A$ to quantify changes.
+The table gathers the explanations recorded in this catalog. For each phenomenon, it lists the registers that the customary explanation draws on. A phenomenon explained in one register only would be unremarkable. What stands out is how few are.
 
-### Balance as a Constant Process
+| **Phenomenon**                     | **Registers used**                        | **Where the switch happens**                             |
+|:-----------------------------------|:------------------------------------------|:---------------------------------------------------------|
+| Weight; standing; spinal load      | **\[N\]** **\[GR\]** **\[C\]**            | Down-force for load; up-push in GR                       |
+| Falling and terminal velocity      | **\[N\]** **\[GR\]** **\[C\]**            | Forced fall (N) vs unforced fall (GR)                    |
+| Pressure with depth; buoyancy      | **\[N\]** **\[C\]**                       | Weight of fluid, absent in GR                            |
+| Structures, loads, fatigue         | **\[N\]** **\[C\]**                       | GR silent; Newton supplies all                           |
+| Pendulum; projectiles              | **\[N\]** **\[EN\]** **\[GR\]**           | Force, energy, geodesic                                  |
+| Cavendish experiment; $G$          | **\[N\]** **\[GR\]** **\[C\]**            | Force between spheres vs none                            |
+| Earth’s shape; gravity vs latitude | **\[N\]** **\[FR\]**                      | Real pull vs fictitious push                             |
+| Tides                              | **\[N\]** **\[GR\]** **\[FR\]**           | Differential pull, curvature, centrifugal                |
+| Tidal locking; precession          | **\[N\]**                                 | Torque, absent from GR account                           |
+| Orbits; weightlessness             | **\[N\]** **\[FR\]** **\[GR\]**           | Centripetal force, centrifugal balance, geodesic         |
+| Escape velocity; atmospheres       | **\[EN\]** **\[N\]**                      | Potential well                                           |
+| Lagrange points                    | **\[N\]** **\[FR\]**                      | Rotating frame forces                                    |
+| Mercury’s perihelion               | **\[N\]** **\[GR\]**                      | $''$ Newtonian + 43$''$ relativistic                     |
+| Gravity assists; navigation        | **\[N\]** **\[GR\]**                      | Newtonian equations + GR corrections                     |
+| Black holes                        | **\[GR\]** **\[EN\]** **\[N\]**           | Escape-velocity intuition for a GR object                |
+| Gravitational waves                | **\[GR\]**                                | Energy carried; no local energy                          |
+| Galaxy rotation; clusters          | **\[N\]** **\[DS\]**                      | Newtonian dynamics + unseen mass                         |
+| Lensing                            | **\[GR\]** **\[DS\]**                     | Same unseen mass, other theory                           |
+| Cosmic expansion                   | **\[GR\]** **\[N\]** **\[DS\]** **\[Q\]** | Friedmann (GR or Newtonian) + dark energy                |
+| Bending of light                   | **\[N\]** **\[GR\]**                      | Newtonian half + geometric half                          |
+| Clocks; redshift; GPS              | **\[EN\]** **\[GR\]** **\[N\]**           | Photon losing energy vs clock rates; Newtonian potential |
+| Gravity as a “fundamental force”   | **\[Q\]** **\[GR\]**                      | Force in particle physics; not a force in GR             |
 
-**Gravitational Phenomenon**: Continuous muscular and sensory adjustment required to remain upright.
+## Contradictions Presented as Coherence
 
-**GR Explanation**: Standing is modeled as resistance to deviation from a geodesic path, not a direct force interaction.
+Four short examples show how the switching reads in practice. Each is a representative composite of explanations found in teaching materials and popular science—not a quotation from any one source—with the register of each sentence marked.
 
-**Applied Framework**: Stability analysis requires torque calculations and vector forces. Vestibular response depends on Newtonian gravity $g$ for calibration.
+> **Standing.** “Gravity pulls you down with a force equal to your weight, $mg$ **\[N\]**. According to Einstein, gravity isn’t really a force; you’re being accelerated upward by the floor **\[GR\]**, **\[C\]**. That’s why your spine is compressed: each vertebra carries the weight of the body above it **\[N\]**. Both descriptions are fine, because relativity reduces to Newton at everyday speeds.” *\[Reduction Conflation\]*
 
-### Motion Requires Resistance Management
+> **The space station.** “Gravity is still about 90% as strong up there, and it supplies the centripetal force that keeps the station in orbit **\[N\]**. Astronauts float because they’re in free fall **\[N\]**/**\[GR\]**—in relativity, free fall is the natural, unforced state **\[GR\]**. You could also say the centrifugal force balances gravity **\[FR\]**.”
 
-**Gravitational Phenomenon**: Effort and muscular energy required to lift, walk, or ascend.
+> **Light and clocks.** “Light climbing out of Earth’s gravity loses energy, like a ball thrown upward, so its frequency drops **\[EN\]**. Equivalently, clocks higher up simply tick faster **\[GR\]**. GPS engineers correct for this using the gravitational potential, $\Delta\Phi/c^2$ **\[N\]**.”
 
-**GR Explanation**: GR provides no field-based resistance; motion is along curved spacetime unless acted upon.
+> **Dark matter.** “Stars in the outskirts of galaxies orbit too fast for the gravity of the visible matter to hold them **\[N\]**, so there must be unseen mass **\[DS\]**. Gravitational lensing, predicted by Einstein, confirms it **\[GR\]**: the two methods agree on how much dark matter there is.”
 
-**Applied Framework**: Force, work, and energy cost computed via Newtonian models: $W = F \cdot d$. GR does not quantify muscular load.
+In each case, the explanation reads smoothly. It also asserts, within a few sentences, that gravity is a force and that it is not; or that a force both theories call fictitious does real work; or that a single measurement means two different physical things. The numbers are right throughout. The picture of what is happening is not one picture. **\[Argued\]**
 
-### Inversion Increases Discomfort
+## What the Numbers Borrow
 
-**Gravitational Phenomenon**: Head pressure, disorientation, and vascular strain during inversion.
+The larger point is not that any one explanation is careless. It is that the mathematics and the explanations of gravity, taken together, *borrow* from contradictory theories to justify their numbers and methods:
 
-**GR Explanation**: No explicit mechanism. Gravity lacks fixed direction in GR; discomfort is labeled physiological.
+- The **numbers** of everyday life, engineering and most astronomy come from Newton’s force.
 
-**Applied Framework**: Fluid dynamics rely on $P = \rho g h$[^6]. Newtonian down-vector is required to calculate effects.
+- The **authority** comes from General Relativity, which says that force does not exist.
 
-### Falling Feels Different From Jumping
+- The **shapes and stabilities** of rotating systems come from frame forces that both theories call unreal.
 
-**Gravitational Phenomenon**: Sensory difference between surrendering to gravity and resisting it.
+- The **intuitions**—wells, climbing, escaping—come from energy bookkeeping that names no carrier.
 
-**GR Explanation**: Both paths are geodesics[^7]; differences are not modeled.
+- The **status** of gravity as one of the four fundamental forces comes from particle physics, which posits a carrier that General Relativity does not contain and that has never been detected.
 
-**Applied Framework**: Energy, acceleration, and perceived pressure shifts require Newtonian mechanics. Directional force change is modeled via $\Delta F$.
+- And where all of these together still fall short of observation, **the dark sector** is added.
 
-### Bracing for Impact
+Each borrowing is defensible as a calculation. Presented together as one coherent account of what gravity is, they are not a theory. They are a patchwork whose seams are covered by agreeing numbers. **\[Argued\]**
 
-**Gravitational Phenomenon**: Reflexive muscular preparation before landing or collision.
+# Evaluating the Theories Against Everyday Gravity
 
-**GR Explanation**: No explanation within GR. Anticipated force interactions lie outside curvature-based modeling.
+## Testing the Abstract Against the Real
 
-**Applied Framework**: Force anticipation modeled via $F = \Delta p / \Delta t$[^8]. Newtonian momentum transfer governs responses.
+General Relativity redefined gravity as geometry. This section sets that definition beside the human-scale entries of the catalog. For each, it records the GR account and what is actually used in practice. Where practice requires force, pressure or load, it notes the reliance on Newtonian mechanics—the force GR declares fictitious.[^43]
 
-### Fatigue from Standing Still
+| **Phenomenon**        | **GR account**                                                                      | **What practice uses**                                                                  |
+|:----------------------|:------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
+| The feeling of weight | The floor pushes the body upward, off its free-fall path; no downward force exists. | Body weight, pressure points and loads: $F = mg$, a downward force **\[N\]**.           |
+| Lying down            | No distinct account; the upward push simply acts over a larger area.                | Redistribution of load, $P = F/A$ **\[N\]**.                                            |
+| Balance               | Maintaining position against deviation from a geodesic.                             | Torques about the ankles and hips, with a downward weight vector **\[N\]**.             |
+| Effort of climbing    | No force to work against; the body is pushed onto new paths.                        | Work done against gravity, $W = mgh$ **\[N\]**, **\[EN\]**.                             |
+| Inversion             | No preferred “down” in the theory itself.                                           | Blood pressure differences, $P = \rho g h$, with a downward vector **\[N\]**.           |
+| Falling vs jumping    | Falling is the unforced state; standing is the accelerated one.                     | Accelerations, impact forces and energies in Newtonian terms **\[N\]**.                 |
+| Bracing for impact    | Outside the scope of the geometry.                                                  | Impulse and momentum change, $F = \Delta p/\Delta t$ **\[N\]**.                         |
+| Fatigue from standing | No mechanical work is done; attributed to physiology.                               | Continuous load on muscles and joints **\[N\]**.                                        |
+| Weightlessness        | The natural state: no force acts.                                                   | Loss of the usual load and pressure cues, described as the absence of weight **\[N\]**. |
+| Touch and pressure    | The felt pressure is electromagnetic contact **\[C\]**.                             | Pressure from weight, $P = F/A$ **\[N\]**.                                              |
+| Pendulum              | The bob would follow a geodesic; the string’s tension deflects it.                  | $T = 2\pi\sqrt{L/g}$, derived with a downward force **\[N\]**.                          |
+| Hair and cloth        | Unforced paths, deflected by contact.                                               | Hang and tension from $F = mg$ **\[N\]**.                                               |
 
-**Gravitational Phenomenon**: Progressive exhaustion during upright posture without motion.
+## A Catalog Unmet
 
-**GR Explanation**: Labeled as a muscular issue. No gravitational mechanism applies.
+Across every human-scale entry, General Relativity is either silent or describes the situation in a way practice cannot use, and Newton’s force returns to do the work. This is not disputed: GR is not designed for such problems. But it means that the theory said to tell us what gravity *is* plays no part in explaining the gravity we live in, while the theory that does that work is the one said to be superseded. **\[Argued\]**
 
-**Applied Framework**: Pressure, tension, and support modeling all require Newtonian force persistence. $P = F / A$ is used.
+# Celestial Phenomena in Practice
 
-### Weightlessness Feels Wrong
+## Where GR Speaks, and Where It Does Not
 
-**Gravitational Phenomenon**: Disorientation, nausea, and physiological change in zero-G.
+General Relativity’s great successes lie in the sky, and they must be stated plainly: the extra advance of Mercury’s perihelion, the full bending of light, the Shapiro delay, the slowing of clocks, frame dragging, the decay of binary pulsar orbits and the detection of gravitational waves. **\[Established\]** In these, GR is not merely descriptive; it predicts what Newton cannot.
 
-**GR Explanation**: In orbit, gravity is present but unperceived due to geodesic motion. No net force acts.
+Yet even across the celestial catalog, most of the working calculations are Newtonian, and GR’s role is often a small correction to a Newtonian result.
 
-**Applied Framework**: Vestibular response and loss of baseline force reference must be modeled as absence of Newtonian field interaction.
+| **Phenomenon**        | **GR account**                                                                           | **What practice uses**                                                                                                  |
+|:----------------------|:-----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
+| Tides                 | Geodesic deviation: the tidal part of curvature.                                         | Newtonian differential forces and harmonic analysis for prediction **\[N\]**.                                           |
+| Orbits                | Unforced geodesics around a mass.                                                        | Newtonian orbital mechanics, $F = mv^2/r$, with relativistic corrections where precision demands **\[N\]**, **\[GR\]**. |
+| Rings and gaps        | Not separately treated.                                                                  | Newtonian resonances and shepherding **\[N\]**.                                                                         |
+| Tidal locking         | In principle, describable; in practice not used.                                         | Newtonian torque on a tidal bulge **\[N\]**.                                                                            |
+| Lagrange points       | Small corrections, rarely needed.                                                        | Newtonian forces in a rotating frame, with centrifugal and Coriolis terms **\[N\]**, **\[FR\]**.                        |
+| Binary stars          | Orbits, and for compact pairs the loss of energy to gravitational waves—a major success. | Newtonian orbits for ordinary binaries; GR for compact binaries **\[N\]**, **\[GR\]**.                                  |
+| Galaxies and clusters | Rarely applied directly; fields are weak.                                                | Newtonian dynamics plus dark matter **\[N\]**, **\[DS\]**.                                                              |
+| Roche limit           | Not separately treated.                                                                  | Newtonian tidal force against self-gravity and cohesion **\[N\]**, **\[C\]**.                                           |
+| Clocks                | Different rates at different heights—a major success.                                    | Newtonian potential in the correction formula **\[N\]**, **\[GR\]**.                                                    |
 
-### Touch, Pressure, and Gravity
+## A Fractured Cosmic Tale
 
-**Gravitational Phenomenon**: Sensory experience of weight, pressure, and surface force.
+Across solar and galactic scales, GR’s descriptions match the data, and in several cases it predicts what no other theory has. But it does not supply a mechanism, and where an account requires force, torque, pressure or load, Newton returns. Where both together fall short, the dark sector is added. The result is not one theory explaining the sky, but several theories sharing the work under a single name.
 
-**GR Explanation**: Gravity is not modeled as directly felt; interaction is electromagnetic.
+# Gravity Observed
 
-**Applied Framework**: All pressure modeling involves Newtonian calculations. GR lacks interface language between curvature and tactile feedback.
+## A Complete Ledger of Influence
 
-### Pendulum Motion and Swinging
+This catalog now stands as an account of gravity’s observable presence—from the intimate experience of bodily weight to the motions of galaxies, from the settling of dust to the slowing of clocks. We have mapped what gravity does before asking what it is.
 
-**Gravitational Phenomenon**: Oscillation under gravity’s pull.
+## A Second Ledger, Equally Complete
 
-**GR Explanation**: Approximated as a geodesic.
+Beside it stands the ledger of explanations. It shows that our understanding of gravity is assembled from at least six registers that disagree about what gravity is, joined by agreeing numbers and covered by a single sentence: that one theory reduces to another. The numbers are right. The coherence is borrowed.
 
-**Applied Framework**: Period calculated using $T = 2\pi \sqrt{L/g}$[^9]—a Newtonian equation dependent on local $g$.
+## The Challenge Before Us
 
-### Breathing and Postural Pressure
+Every claim to explain gravity must now address both ledgers.
 
-**Gravitational Phenomenon**: Respiratory resistance variation with body orientation.
+- It must account for the full catalog—the load in a column and the orbit of a star, the ache of standing and the slowing of a clock.
 
-**GR Explanation**: Not modeled.
+- It must do so in *one* register, or mark honestly where it changes register and why.
 
-**Applied Framework**: Lung mechanics use vertical pressure differential $P = \rho g h$[^10].
+- And it must say, or admit it cannot yet say, what acts: what touches what, and what is exchanged.
 
-### Hair and Clothing Drape
+Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]** Whether it succeeds is for the parts that follow, and for experiment, to show. **\[Open\]**
 
-**Gravitational Phenomenon**: Downward orientation of soft structures.
+## A Threshold, Not a Finale
 
-**GR Explanation**: Assumed to follow curved geodesics[^11].
-
-**Applied Framework**: $F = mg$[^12] governs hang and tension. GR does not define directional field vectors.
-
-### A Catalog Unmet
-
-These counterclaims—from weight’s ache to hair’s fall—pit GR against experience. Stability’s press and entropy’s pull weave our world—yet GR offers curves, not causes, leaving the body’s truths adrift. What we feel demands more—a field, a force, a reality curvature can’t grasp.
-
-## Real-World Design Blind Spots: Buildings, Weight, and Physical Load
-
-### The Unseen Load in Construction
-
-General Relativity (GR) provides a large-scale model of gravitational curvature, but it offers no tools to model or calculate physical stress, structural load, or pressure accumulation. These effects, while part of everyday engineering and architecture, fall entirely outside GR’s scope. This limitation is not disputed within physics; engineers default to Newtonian models to account for forces, loads, and stress tolerances. This section examines where GR remains silent and Newton quietly steps back in.
-
-### Buildings, Weight, and Real-World Physics
-
-**GR Explanation**: GR does not address gravitational load-bearing structures. Curvature does not provide equations for vertical force, pressure distribution, or material fatigue.
-
-**Analysis**: Structural design requires:
-
-- Load calculations: $F = mg$[^13] or $P = F/A$ determine pressure on foundations.
-
-- Uneven settlement modeling over time based on gravity’s continuous downward force.
-
-- Directional stress on glass, brick, steel—forces aligned with gravity’s vector.
-
-GR does not participate in this modeling. The effects are modeled using Newtonian field-based mechanics, not curvature geometry.
-
-### A Blindness to Stability’s Craft
-
-Despite its reputation, GR is absent from real-world design. It does not model the pressure that causes compression, tension, or material failure. Every engineering system that addresses weight, load, or stress defaults to Newtonian mechanics. This exclusion reveals the abstract nature of GR’s formulation. It offers no tools for stability analysis, despite gravity’s central role in every structure we inhabit.
-
-## Celestial Phenomena Reexamined: GR’s Explanations in Practice
-
-### Scrutinizing the Cosmic Throne
-
-GR’s greatest claims lie in celestial mechanics—planetary orbits, time dilation, tidal effects, and black holes. In these domains, the theory is widely accepted and appears to match observational data. However, when we examine the explanatory mechanisms behind GR’s claims, a similar issue emerges: it provides descriptions without causes. Geometry replaces interaction, and wherever force, pressure, or field modeling becomes necessary, Newton’s equations often reappear to fill in the gaps.
-
-### Tides
-
-**GR Explanation**: Earth experiences a gradient in spacetime curvature[^14] near the Moon, leading to bulging water levels.
-
-**Problem**: The effect is routinely modeled with Newtonian field gradients, which predict fluid motion and timing. GR does not model fluid dynamics or offer a vector force for water movement.
-
-### Orbits
-
-**GR Explanation**: Objects follow geodesics[^15] around masses—natural, curvature-shaped paths.
-
-**Problem**: GR does not account for speed maintenance, angular momentum transfer, or orbit formation. Newtonian models supply $F = mv^2/r$ to analyze orbital velocity.
-
-### Rings and Belts
-
-**GR Explanation**: Structures like Saturn’s rings reflect gravitational balance.
-
-**Problem**: Their precise spacing and structure are modeled using Newtonian resonance and force equations. GR provides no pressure-based cause for pattern formation.
-
-### Moon’s Synchronous Rotation
-
-**GR Explanation**: Tidal locking arises from torque in gravitational interaction.
-
-**Problem**: GR has no torque model. Angular momentum transfer requires force and resistance—supplied by Newtonian gravity.
-
-### Lagrange Points
-
-**GR Explanation**: Balanced points arise between gravitationally interacting bodies.
-
-**Problem**: GR does not calculate Lagrange point positions. Newtonian vector addition defines stability regions.
-
-### Binary Star Orbits
-
-**GR Explanation**: Two stars follow curved geodesics[^16] around a shared center.
-
-**Problem**: GR cannot model the forces binding or forming the binary system. Mutual gravity and orbital stability are modeled using Newtonian mechanics.
-
-### Galactic Cluster Dynamics
-
-**GR Explanation**: Mass warps space, curving paths across intergalactic distances.
-
-**Problem**: GR’s predictions require dark matter to explain observed speeds.[^17] It lacks a field-based model of distributed gravitational influence. Newtonian expectations are patched with hypothetical mass.
-
-### Roche Limit Effects
-
-**GR Explanation**: Objects near large planets break apart due to curvature gradients.
-
-**Problem**: Tidal force modeling and structural breakdown are Newtonian. GR has no mechanism to predict internal cohesion failure.
-
-### Gravitational Time Dilation
-
-**GR Explanation**: Time slows near stronger gravitational fields[^18] .
-
-**Problem**: The effect is measurable and real, but GR provides only mathematical curvature. No explanation exists for why mass alters the experience of time.
-
-### A Fractured Cosmic Tale
-
-Across solar and galactic scales, GR’s descriptions often match observational data—but fail to offer causal mechanisms. Time, motion, orbit, and pressure are described through curvature, not explained. When answers require interaction, GR turns silent—and Newton returns. These gaps expose the need for a model that describes what gravity actually does—not just how it curves space.
-
-## Gravity Observed
-
-### A Complete Ledger of Influence
-
-This catalog now stands as a full account of gravity’s observable presence—from the most intimate experiences of bodily weight to the most distant phenomena of galactic structure. We have mapped what gravity does before asking what it is. From fatigue in standing to the binding of binary stars, from the rise of tides to the curvature of ocean surfaces, we have honored the evidence—gathered not through theory, but through observation. These effects span all scales of human and cosmic life. They demand recognition by any theory that seeks to explain reality.
-
-### The Authority of Observation
-
-Our commitment throughout has been to observation first. Gravity is not something we need to imagine—we live inside it. Every experience involving posture, structure, balance, or orbit already testifies. We do not begin with explanation. We begin with phenomena. We do not look to confirm a model—we look to describe a world. These entries—physical, biological, structural, celestial—are not theoretical constructs. They are realities that a theory must match or fail.
-
-### The Challenge Before Us
-
-Having compiled these lived and measurable gravitational effects, we now place them before the established frameworks. Newtonian mechanics must account for pressures, drapes, tides, impacts. General Relativity must show how geometry alone produces pressure, displacement, structural fatigue, or orbital formation. Every claim to explain gravity must address this full spectrum—from the ground beneath our feet to the black hole at a galaxy’s core. We’ve added no conjecture—only the consistent demand that models not ignore the real.
-
-### A Threshold, Not a Finale
-
-This conclusion is not a final word—it is a point of departure. We end the catalog here and begin our comparison. Next, we examine what we were told. Then, we test General Relativity against what has been observed. From that testing, a new framework will arise. Not by dismissing what came before, but by building from where it ended. Gravity is not a symbol or an equation—it is what stands behind standing, what acts through pressure, what reveals itself in swing and orbit. The time has come to question—not abstractly, but with everything we’ve seen in hand.
+This is a point of departure. The catalog ends here, and the comparison begins. Gravity is not a symbol or an equation. It is what stands behind standing, what acts through pressure, what reveals itself in swing and orbit. The time has come to question—not abstractly, but with everything we have seen in hand.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-anderson2008" class="csl-entry">
+
+Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed During Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
+
+</div>
+
+<div id="ref-ashby2003" class="csl-entry">
+
+Ashby, Neil. 2003. “Relativity in the Global Positioning System.” *Living Reviews in Relativity* 6: 1.
+
+</div>
+
+<div id="ref-bertotti2003" class="csl-entry">
+
+Bertotti, B., L. Iess, and P. Tortora. 2003. “A Test of General Relativity Using Radio Links with the Cassini Spacecraft.” *Nature* 425: 374–76.
+
+</div>
+
+<div id="ref-bothwell2022" class="csl-entry">
+
+Bothwell, Tobias et al. 2022. “Resolving the Gravitational Redshift Across a Millimetre-Scale Atomic Sample.” *Nature* 602: 420–24.
+
+</div>
+
+<div id="ref-cavendish1798" class="csl-entry">
+
+Cavendish, Henry. 1798. “Experiments to Determine the Density of the Earth.” *Philosophical Transactions of the Royal Society* 88: 469–526.
+
+</div>
+
+<div id="ref-chou2010" class="csl-entry">
+
+Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical Clocks and Relativity.” *Science* 329: 1630–33.
+
+</div>
+
+<div id="ref-clemence1947" class="csl-entry">
+
+Clemence, G. M. 1947. “The Relativity Effect in Planetary Motions.” *Reviews of Modern Physics* 19: 361–64.
+
+</div>
+
+<div id="ref-clowe2006" class="csl-entry">
+
+Clowe, Douglas et al. 2006. “A Direct Empirical Proof of the Existence of Dark Matter.” *Astrophysical Journal Letters* 648: L109–13.
+
+</div>
+
+<div id="ref-dickey1994" class="csl-entry">
+
+Dickey, J. O. et al. 1994. “Lunar Laser Ranging: A Continuing Legacy of the Apollo Program.” *Science* 265: 482–90.
+
+</div>
+
+<div id="ref-dyson1920" class="csl-entry">
+
+Dyson, F. W., A. S. Eddington, and C. Davidson. 1920. “A Determination of the Deflection of Light by the Sun’s Gravitational Field.” *Philosophical Transactions of the Royal Society A* 220: 291–333.
+
+</div>
+
+<div id="ref-einstein1916" class="csl-entry">
+
+Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+
+</div>
+
+<div id="ref-eht2019" class="csl-entry">
+
+Event Horizon Telescope Collaboration. 2019. “First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole.” *Astrophysical Journal Letters* 875: L1.
+
+</div>
+
+<div id="ref-everitt2011" class="csl-entry">
+
+Everitt, C. W. F. et al. 2011. “Gravity Probe b: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+
+</div>
+
+<div id="ref-feynman1995" class="csl-entry">
+
+Feynman, Richard P., Fernando B. Morinigo, and William G. Wagner. 1995. *Feynman Lectures on Gravitation*. Addison-Wesley.
+
+</div>
+
+<div id="ref-griffiths2008" class="csl-entry">
+
+Griffiths, David. 2008. *Introduction to Elementary Particles*. 2nd ed. Wiley-VCH.
+
+</div>
+
+<div id="ref-gross2000" class="csl-entry">
+
+Gross, Richard S. 2000. “The Excitation of the Chandler Wobble.” *Geophysical Research Letters* 27: 2329–32.
+
+</div>
+
+<div id="ref-hafeleKeating1972" class="csl-entry">
+
+Hafele, J. C., and R. E. Keating. 1972. “Around-the-World Atomic Clocks: Observed Relativistic Time Gains.” *Science* 177: 168–70.
+
+</div>
+
+<div id="ref-laskar1989" class="csl-entry">
+
+Laskar, Jacques. 1989. “A Numerical Experiment on the Chaotic Behaviour of the Solar System.” *Nature* 338: 237–38.
+
+</div>
+
+<div id="ref-ligo2016" class="csl-entry">
+
+LIGO Scientific Collaboration and Virgo Collaboration. 2016. “Observation of Gravitational Waves from a Binary Black Hole Merger.” *Physical Review Letters* 116: 061102.
+
+</div>
+
+<div id="ref-michell1784" class="csl-entry">
+
+Michell, John. 1784. “On the Means of Discovering the Distance, Magnitude, &c. Of the Fixed Stars.” *Philosophical Transactions of the Royal Society* 74: 35–57.
+
+</div>
+
+<div id="ref-milneMcCrea1934" class="csl-entry">
+
+Milne, E. A., and W. H. McCrea. 1934. “Newtonian Universes and the Curvature of Space.” *Quarterly Journal of Mathematics* 5: 73–80.
+
+</div>
 
 <div id="ref-misner1973" class="csl-entry">
 
@@ -10502,53 +10755,187 @@ Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitatio
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-nagel1961" class="csl-entry">
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+Nagel, Ernest. 1961. *The Structure of Science*. Harcourt, Brace; World.
+
+</div>
+
+<div id="ref-newton1713" class="csl-entry">
+
+Newton, Isaac. 1713. *Philosophiæ Naturalis Principia Mathematica*. 2nd ed. Cambridge.
+
+</div>
+
+<div id="ref-planck2018" class="csl-entry">
+
+Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy & Astrophysics* 641: A6.
+
+</div>
+
+<div id="ref-poundRebka1960" class="csl-entry">
+
+Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical Review Letters* 4 (7): 337–41.
+
+</div>
+
+<div id="ref-rashadaConstraints" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “The Gravity Constraint Set; the GR Silence Map.” <https://peopleoftheworld.net/graviton-pressure-theory/>.
+
+</div>
+
+<div id="ref-rashadaClosure" class="csl-entry">
+
+———. 2026b. “The Logical Closure of the Equivalence Principle.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/logical-closure-of-the-ep/>.
+
+</div>
+
+<div id="ref-rashadaRC" class="csl-entry">
+
+———. 2026c. “The Reduction Conflation: Numerical Equivalence Is Not Ontological Compatibility.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/reduction-conflation/>.
+
+</div>
+
+<div id="ref-rashadaPart2" class="csl-entry">
+
+———. 2026d. “The Removal of Intent, Cause and Mechanism (Part 2, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
+
+</div>
+
+<div id="ref-riess1998" class="csl-entry">
+
+Riess, Adam G. et al. 1998. “Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant.” *Astronomical Journal* 116: 1009–38.
+
+</div>
+
+<div id="ref-rubin1980" class="csl-entry">
+
+Rubin, Vera C., W. Kent Ford, and N. Thonnard. 1980. “Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii.” *Astrophysical Journal* 238: 471–87.
+
+</div>
+
+<div id="ref-soldner1804" class="csl-entry">
+
+Soldner, Johann Georg von. 1804. “Über Die Ablenkung Eines Lichtstrals von Seiner Geradlinigen Bewegung.” *Berliner Astronomisches Jahrbuch*, 161–72.
+
+</div>
+
+<div id="ref-touboul2022" class="csl-entry">
+
+Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle.” *Physical Review Letters* 129: 121102.
+
+</div>
+
+<div id="ref-turyshev2012" class="csl-entry">
+
+Turyshev, Slava G. et al. 2012. “Support for the Thermal Origin of the Pioneer Anomaly.” *Physical Review Letters* 108: 241101.
+
+</div>
+
+<div id="ref-weisberg2010" class="csl-entry">
+
+Weisberg, J. M., D. J. Nice, and J. H. Taylor. 2010. “Timing Measurements of the Relativistic Binary Pulsar PSR B1913+16.” *Astrophysical Journal* 722: 1030–34.
+
+</div>
+
+<div id="ref-zwicky1933" class="csl-entry">
+
+Zwicky, Fritz. 1933. “Die Rotverschiebung von Extragalaktischen Nebeln.” *Helvetica Physica Acta* 6: 110–27.
 
 </div>
 
 </div>
 
-[^1]: In General Relativity, gravity is modeled as curvature of spacetime rather than a force. See: A. Einstein, "The Foundation of the General Theory of Relativity," Annalen der Physik, 1916.
+[^1]: (Rashada 2026c).
 
-[^2]: Geodesics are the ’straightest’ possible paths in curved spacetime and represent free-fall trajectories in General Relativity.
+[^2]: (Rashada 2026a).
 
-[^3]: In General Relativity, gravity is modeled as curvature of spacetime rather than a force. See: A. Einstein, "The Foundation of the General Theory of Relativity," Annalen der Physik, 1916.
+[^3]: (Rashada 2026d).
 
-[^4]: (Misner, Thorne, and Wheeler 1973)
+[^4]: (Newton 1713).
 
-[^5]: (Newton 1687)
+[^5]: (Einstein 1916).
 
-[^6]: Standard hydrostatic pressure equation from fluid mechanics, using Newtonian gravity.
+[^6]: (Feynman, Morinigo, and Wagner 1995; Griffiths 2008).
 
-[^7]: Geodesics are the ’straightest’ possible paths in curved spacetime and represent free-fall trajectories in General Relativity.
+[^7]: (Rashada 2026c).
 
-[^8]: Impulse-momentum theorem: change in momentum over time equals force. Rooted in classical Newtonian mechanics.
+[^8]: (Nagel 1961).
 
-[^9]: Pendulum period formula derived using Newtonian gravitational acceleration.
+[^9]: (Rashada 2026c).
 
-[^10]: Standard hydrostatic pressure equation from fluid mechanics, using Newtonian gravity.
+[^10]: (Misner, Thorne, and Wheeler 1973).
 
-[^11]: Geodesics are the ’straightest’ possible paths in curved spacetime and represent free-fall trajectories in General Relativity.
+[^11]: (Rashada 2026c).
 
-[^12]: (Newton 1687)
+[^12]: (Touboul et al. 2022).
 
-[^13]: See 31
+[^13]: (Cavendish 1798).
 
-[^14]: In General Relativity, gravity is modeled as curvature of spacetime rather than a force. See: A. Einstein, "The Foundation of the General Theory of Relativity," Annalen der Physik, 1916.
+[^14]: (Dickey et al. 1994).
 
-[^15]: Geodesics are the ’straightest’ possible paths in curved spacetime and represent free-fall trajectories in General Relativity.
+[^15]: (Gross 2000).
 
-[^16]: Geodesics are the ’straightest’ possible paths in curved spacetime and represent free-fall trajectories in General Relativity.
+[^16]: (Laskar 1989).
 
-[^17]: Rubin, V. C., Thonnard, N., & Ford Jr, W. K. (1980). Rotational properties of 21 SC galaxies with a large range of luminosities and radii. *Astrophysical Journal*, 238, 471–487.
+[^17]: (Clemence 1947).
 
-[^18]: Pound, R. V., & Rebka Jr, G. A. (1959). Gravitational Red-Shift in Nuclear Resonance. *Physical Review Letters*, 3(9), 439–441.
+[^18]: (Bertotti, Iess, and Tortora 2003).
+
+[^19]: (Everitt et al. 2011).
+
+[^20]: (Turyshev et al. 2012).
+
+[^21]: (Anderson et al. 2008).
+
+[^22]: (Event Horizon Telescope Collaboration 2019).
+
+[^23]: (Michell 1784).
+
+[^24]: (Weisberg, Nice, and Taylor 2010).
+
+[^25]: (LIGO Scientific Collaboration and Virgo Collaboration 2016).
+
+[^26]: (Misner, Thorne, and Wheeler 1973).
+
+[^27]: (Rubin, Ford, and Thonnard 1980).
+
+[^28]: (Zwicky 1933).
+
+[^29]: (Clowe et al. 2006).
+
+[^30]: (Riess et al. 1998).
+
+[^31]: (Planck Collaboration 2020).
+
+[^32]: (Milne and McCrea 1934).
+
+[^33]: (Dyson, Eddington, and Davidson 1920).
+
+[^34]: (Soldner 1804).
+
+[^35]: (Pound and Rebka 1960).
+
+[^36]: (Hafele and Keating 1972).
+
+[^37]: (Chou et al. 2010).
+
+[^38]: (Bothwell et al. 2022).
+
+[^39]: (Ashby 2003).
+
+[^40]: (Rashada 2026b).
+
+[^41]: (Newton 1713).
+
+[^42]: (Einstein 1916).
+
+[^43]: (Misner, Thorne, and Wheeler 1973).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
-Cite as: Rashada, S. A. (2025). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
+Cite as: Rashada, S. A. (2026). The Gravity Catalog. In The Unified Framework for the Graviton Pressure Theory, part 3. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/
 
 
 # From Newton to GPT

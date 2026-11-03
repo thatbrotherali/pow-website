@@ -3,11 +3,13 @@
   {
    "slug": "gpt-part-01",
    "title": "Introduction",
-   "subtitle": "to the Unified Framework of The Graviton Pressure Theory",
-   "words": 635,
-   "lead": "Graviton Pressure Theory (GPT) presents a comprehensive, physically grounded model of gravity—restoring force, direction, and structure to a domain long abstracted by geometry and silence. Where Newton described gravitational pull without mechanism, and Einstein replaced pull with curvature absent a medium, GPT introduces a third path: gravitational pressure as anisotropic field compression.",
-   "source": "Part 01 - Introduction.tex",
-   "part": 1
+   "subtitle": "to the Unified Framework of the Graviton Pressure Theory — From Description to Mechanism",
+   "words": 2300,
+   "lead": "Gravity has always been described. It has rarely been explained. We can predict where a planet will be and how a falling body will accelerate, but the dominant theories do not say what acts: what touches the falling apple, or what presses a person into a chair. Graviton Pressure Theory proposes an answer that can be tested: gravity as the pressure of a physical medium acting on matter.",
+   "source": "Part 01 - Introduction (2nd ed.).tex",
+   "part": 1,
+   "path": "introduction",
+   "pdf": true
   },
   {
    "slug": "gpt-part-02",
@@ -23,11 +25,13 @@
   {
    "slug": "gpt-part-03",
    "title": "The Gravity Catalog",
-   "subtitle": "",
-   "words": 7667,
-   "lead": "This document begins with an inventory, not of theories, but of lived reality. Gravity is not introduced through models or frameworks, but through its presence—what it does, how it manifests, and where it exerts its influence.",
-   "source": "Part 03 - The Gravity Catalog.tex",
-   "part": 3
+   "subtitle": "What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree",
+   "words": 10983,
+   "lead": "A record of everything gravity does, from the load in a column to the orbit of a star, and beside it a second ledger: how each effect is customarily explained. The explanations draw on six frameworks that disagree about whether gravity is even a force, joined by agreeing numbers. This paper sets out that Reduction Conflation and asks what any complete theory must explain.",
+   "source": "Part 03 - The Gravity Catalog (2nd ed.).tex",
+   "part": 3,
+   "path": "the-gravity-catalog",
+   "pdf": true
   },
   {
    "slug": "gpt-part-04",
