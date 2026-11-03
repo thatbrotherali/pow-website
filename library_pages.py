@@ -17,6 +17,7 @@ DATES = {"framework": "2025-06-12", "transitional-mechanics": "2025-06-12", "wha
          "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026-10-03", "paradox-of-the-boulder": "2026",
          "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-10-12",
          "logical-closure-of-the-ep": "2026-10-28", "operational-constraints-of-the-ep": "2026-10-28",
+         "gpt-part-02": "2026-11-03",
          "plan": "2025", "new-morality": "2025-07-28", "cosmic-mind": "2025-03-08"}
 
 PAPERS = [  # order, plain description
@@ -143,8 +144,8 @@ def build(B):
     for s, u, desc in PATHWAY:
         add(s, u, "pathway", desc=desc)
     for d in sorted(cat["framework"], key=lambda d: d["part"]):
-        add(d["slug"], f"{FRAMEWORK_URL}part-{d['part']:02d}-{slugify(d['title'])}/", "framework",
-            desc=sentences(d["lead"]) or f"Part {d['part']} of {BOOK_GPT}.", date=DATES["framework"], part=d["part"], book=BOOK_GPT)
+        add(d["slug"], f"{FRAMEWORK_URL}part-{d['part']:02d}-{d.get('path') or slugify(d['title'])}/", "framework",
+            desc=sentences(d["lead"]) or f"Part {d['part']} of {BOOK_GPT}.", date=DATES.get(d["slug"], DATES["framework"]), part=d["part"], book=BOOK_GPT)
     for s, desc in PAPERS:
         add(s, f"graviton-pressure-theory/papers/{s}/", "papers", desc=desc)
     for d in sorted(cat["plan"], key=lambda d: d["chapter"]):
@@ -255,7 +256,7 @@ def build(B):
 <p class="crumbs">{crumbs}</p>
 <h1 class="h-lg" style="margin:.3em 0 .2em">{esc(e['title'])}</h1>
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
-<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">Original PDF</a>' if e["pdf"] else ""}</p>
+<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">PDF</a>' if e["pdf"] else ""}</p>
 {vsec}
 {corrections_box(fixes, e)}
 {frag}

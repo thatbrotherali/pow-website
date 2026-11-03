@@ -11,12 +11,14 @@
   },
   {
    "slug": "gpt-part-02",
-   "title": "The Removal of Intent",
-   "subtitle": "How Modern Science Erased Consciousness, Meaning, and Intent from the Universe",
-   "words": 3400,
-   "lead": "In the age of reason, science rose as the great liberator of thought—dismissing superstition, dissecting dogma, and offering humanity a map of the physical world that was elegant, predictive, and empirically grounded. It taught us to measure, to compare, to reduce complex phenomena to universal laws. In doing so, it gave us power—to build, to transform, to intervene.",
-   "source": "Part 02 - The removal of Intent.tex",
-   "part": 2
+   "title": "The Removal of Intent, Cause and Mechanism",
+   "subtitle": "How Modern Science Traded Explanation for Description and Left No Room for Mind, Meaning or Purpose",
+   "words": 6266,
+   "lead": "Three things were removed from modern science, one after another: intent, mechanism and cause itself. None of them was removed by a discovery. No experiment ever showed that the universe has no purpose, that gravity has no mechanism, or that causes are unreal. Each removal began as a decision of method and hardened over generations into a decision of philosophy.",
+   "source": "Part 02 - The Removal of Intent, Cause and Mechanism (2nd ed.).tex",
+   "part": 2,
+   "path": "the-removal-of-intent",
+   "pdf": true
   },
   {
    "slug": "gpt-part-03",
