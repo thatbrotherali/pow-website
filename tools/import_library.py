@@ -455,7 +455,7 @@ if __name__ == "__main__":
         gdocs_pdf_doc(UPD / "The_Logical_Closure_of_the_EP.pdf", "logical-closure-of-the-ep", "The Logical Closure of the Equivalence Principle", "What we accepted when we accepted the Equivalence Principle on General Relativity's terms, and a proposal for true closure through causal mechanism"),
         portal_doc("The_Paradox_of_the_boulder.html", "paradox-of-the-boulder", "The Paradox of the Boulder", "A dual audit of force and geometry language"),
         portal_doc("Causal_audit_of_motion.html", "causal-audit-of-motion", "A Causal Audit of Motion"),
-        tex_main_doc(TEXSRC / "b866d458-The_Mechanics_of_the_Medium", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives", pdf=UPD / "The_Mechanics_of_the_Medium.pdf"),
+        tex_main_doc(ROOT / "src" / "latex" / "mechanics-of-the-medium", "mechanics-of-the-medium", "The Mechanics of the Medium", "The origin of primitives", pdf=ROOT / "src" / "latex" / "mechanics-of-the-medium" / "main.pdf"),
     ]
     cat["other"] += [
         odt_doc(GPT / "proof of reality of God.odt", "cosmic-mind", "An Intelligent Synthesis of Proofs for Cosmic Mind or God", "", drop_lines=1),

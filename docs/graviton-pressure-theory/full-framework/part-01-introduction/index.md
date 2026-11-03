@@ -126,7 +126,13 @@ Honesty about the state of the work is part of the method.
 
 - GPT accounts qualitatively for the phenomena GR describes, and proposes explanations for the readings attributed to dark matter and dark energy without adding unseen matter. **\[Hypothesis\]**
 
-- That GPT matches GR’s quantitative predictions—the bending of light, the advance of Mercury’s perihelion, the timing of clocks—has not yet been shown by independent derivation. Where GPT’s numbers currently agree with GR’s, some coefficients have been set to match, rather than derived from the medium’s properties. **\[Open\]**
+- **What is calibrated.** Like Newton’s constant $G$, GPT’s strength of gravity is calibrated once, against measured gravity: the inflow of the medium toward a mass is matched to the observed acceleration $g = GM/r^2$. The slowing of clocks near a mass is likewise matched to measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018).[^15] These are calibrations, stated as such. Deriving the clock rate from the medium’s own properties is still to be done. **\[Established\]** **\[Open\]**
+
+- **What then follows without further fitting.** If the medium affects the clocks *and* the rulers of matter in the same proportion—so that light’s speed, measured locally, is always $c$—then the bending of starlight and the radar delay past the Sun follow from the clock calibration alone, with no adjustable constant. Clocks supply half of the bending; rulers supply the other half. The result is GR’s 1.75 arcseconds and GR’s Shapiro delay, by a mechanical route (Appendix 1.A). **\[Argued\]** The principle itself is a hypothesis, and deriving it from the medium is open. **\[Hypothesis\]** **\[Open\]**
+
+- **What is not yet derived.** The advance of Mercury’s perihelion, and the slowing of moving clocks, have not yet been derived from the medium. **\[Open\]**
+
+- **A constraint to meet.** If light bending is refraction in a medium, it may depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^16] so any such dependence must be smaller than that. Quantifying GPT’s prediction against these limits is open. **\[Open\]**
 
 - The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. The derivations that would confirm these proposals remain to be done. **\[Hypothesis\]** **\[Open\]**
 
@@ -177,7 +183,63 @@ This is gravity, offered for explanation.
 
 Welcome to the pressure field.
 
+# Appendix 1.A: The Bending of Light: One Calibration, One Principle
+
+This appendix shows how the bending of light and the radar delay past the Sun follow in GPT from one calibrated quantity and one stated principle, with no constant chosen to fit them. The structure is not new: Robert Dicke showed in 1957 that a medium which slows light and matter in this way reproduces the classical tests,[^17] and the idea has been developed since.[^18] What GPT adds is the physical medium that does the slowing.
+
+Write the depth of the gravitational potential at distance $r$ from a mass $M$ as the small dimensionless number $$\Phi(r) = \frac{GM}{c^2 r}.$$ At the Sun’s surface, $\Phi \approx 2\times10^{-6}$.
+
+#### 1. Calibration: clocks.
+
+A clock at depth $\Phi$ runs slow, compared with a clock far away, by the factor $(1-\Phi)$. In GPT, this is the effect of the denser medium on the processes inside matter. Its size is taken from measurement—the gravitational redshift—and not derived. **\[Established\]** (as a calibration) **\[Open\]** (as a derivation)
+
+#### 2. Principle: rulers.
+
+The same medium that slows matter’s internal processes also sets the size of matter’s structures. GPT’s principle is that it changes both in the same proportion: a ruler at depth $\Phi$ is shorter, as judged from far away, by the same factor $(1-\Phi)$. **\[Hypothesis\]**
+
+#### 3. Consequence: light is always measured at $c$ locally.
+
+An observer at depth $\Phi$, using local clocks and rulers, measures light’s speed as $c$—as every local experiment finds. But measured from far away, where both the local ruler and the local second are rescaled, light near the mass travels at $$c_{\text{far}} = c\,(1-\Phi)(1-\Phi) \approx c\,(1-2\Phi),$$ so the medium has an effective refractive index $$n(r) \approx 1 + 2\Phi(r) = 1 + \frac{2GM}{c^2 r}.$$ The factor of 2 is not chosen. One half comes from clocks, the other from rulers.
+
+In the variables of *The Mechanics of the Medium*, the same chain reads: the inflow lowers the medium’s active pressure to $P/P_0 = 1 - 2\Phi$; clocks and rulers both scale as $\sqrt{P/P_0} \approx 1 - \Phi$, with the free-space pressure $P_0 = \tfrac12\rho_g c^2$ fixed by the measured redshift; and the index is $n = P_0/P \approx 1 + 2\Phi$.[^19]
+
+#### 4. The bending of light.
+
+A ray passing a mass at closest distance $b$ is bent toward the region of higher index. Summing the bending along the path gives $$\alpha = \frac{4GM}{c^2 b}.$$ For a ray grazing the Sun ($GM_\odot = 1.327\times10^{20}\,\mathrm{m^3/s^2}$, $b = R_\odot = 6.957\times10^{8}$ m), $\alpha = 8.49\times10^{-6}$ radians $= 1.75$ arcseconds—the value measured in 1919 and since confirmed to high precision.
+
+With clocks alone, and no change in rulers, the index would be $1 + \Phi$ and the bending would be half as large: 0.875 arcseconds. That is the value Soldner obtained from Newtonian gravity in 1801, and Einstein from the equivalence principle in 1911. The full value requires both halves.
+
+#### 5. The radar delay.
+
+A radar signal passing close to the Sun is delayed by the slower light near it. With the same index, the delay on a single pass is $$\Delta t = \frac{2GM}{c^3}\,\ln\!\frac{4 r_1 r_2}{b^2},$$ where $r_1$ and $r_2$ are the distances of Earth and the far body from the Sun; a radar echo, which makes the trip twice, is delayed by twice this. This is the Shapiro delay, confirmed by the Cassini spacecraft to about two parts in $10^{5}$.[^20]
+
+#### What this establishes, and what it does not.
+
+- From one calibration (clock rates) and one principle (clocks and rulers change together), GPT obtains the bending of light and the Shapiro delay with no further fitting. **\[Argued\]**
+
+- These are the same first-order results as General Relativity. Agreement here shows that a medium can do what curvature does. It does not, by itself, show that the medium exists.
+
+- Two derivations remain: the clock rate from the medium’s properties, and the principle that rulers change in the same proportion as clocks. Until both are shown from the medium itself, they are calibration and hypothesis respectively. **\[Open\]**
+
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-bertotti2003" class="csl-entry">
+
+Bertotti, B., L. Iess, and P. Tortora. 2003. “A Test of General Relativity Using Radio Links with the Cassini Spacecraft.” *Nature* 425: 374–76.
+
+</div>
+
+<div id="ref-delva2018" class="csl-entry">
+
+Delva, P. et al. 2018. “Gravitational Redshift Test Using Eccentric Galileo Satellites.” *Physical Review Letters* 121: 231101.
+
+</div>
+
+<div id="ref-dicke1957" class="csl-entry">
+
+Dicke, Robert H. 1957. “Gravitation Without a Principle of Equivalence.” *Reviews of Modern Physics* 29: 363–76.
+
+</div>
 
 <div id="ref-edwards2002" class="csl-entry">
 
@@ -194,6 +256,18 @@ Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. An
 <div id="ref-einstein1920" class="csl-entry">
 
 ———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+
+</div>
+
+<div id="ref-fomalont2009" class="csl-entry">
+
+Fomalont, E., S. Kopeikin, G. Lanyi, and J. Benson. 2009. “Progress in Measurements of the Gravitational Bending of Radio Waves Using the VLBA.” *Astrophysical Journal* 699: 1395–1402.
+
+</div>
+
+<div id="ref-froeschle1997" class="csl-entry">
+
+Froeschlé, M., F. Mignard, and F. Arenou. 1997. “Determination of the PPN Parameter $\gamma$ with the Hipparcos Data.” *Proceedings of the ESA Symposium Hipparcos—Venice ’97* ESA SP-402: 49–52.
 
 </div>
 
@@ -236,6 +310,18 @@ Peebles, P. J. E., and Bharat Ratra. 2003. “The Cosmological Constant and Dark
 <div id="ref-planck2018" class="csl-entry">
 
 Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy & Astrophysics* 641: A6.
+
+</div>
+
+<div id="ref-poundRebka1960" class="csl-entry">
+
+Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical Review Letters* 4: 337–41.
+
+</div>
+
+<div id="ref-puthoff2002" class="csl-entry">
+
+Puthoff, Harold E. 2002. “Polarizable-Vacuum (PV) Approach to General Relativity.” *Foundations of Physics* 32: 927–43.
 
 </div>
 
@@ -304,6 +390,18 @@ Zee, Anthony. 2010. *Quantum Field Theory in a Nutshell*. 2nd ed. Princeton Univ
 [^13]: (Rashada 2026c).
 
 [^14]: (Rashada 2026b).
+
+[^15]: (Pound and Rebka 1960; Delva et al. 2018).
+
+[^16]: (Fomalont et al. 2009; Froeschlé, Mignard, and Arenou 1997).
+
+[^17]: (Dicke 1957).
+
+[^18]: (Puthoff 2002).
+
+[^19]: (Rashada 2026c).
+
+[^20]: (Bertotti, Iess, and Tortora 2003).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/

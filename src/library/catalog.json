@@ -4,7 +4,7 @@
    "slug": "gpt-part-01",
    "title": "Introduction",
    "subtitle": "to the Unified Framework of the Graviton Pressure Theory — From Description to Mechanism",
-   "words": 2421,
+   "words": 3490,
    "lead": "Gravity has always been described. It has rarely been explained. We can predict where a planet will be and how a falling body will accelerate, but the dominant theories do not say what acts: what touches the falling apple, or what presses a person into a chair. Graviton Pressure Theory proposes an answer that can be tested: gravity as the pressure of a physical medium acting on matter.",
    "source": "Part 01 - Introduction (2nd ed.).tex",
    "part": 1,
@@ -400,7 +400,7 @@
    "slug": "mechanics-of-the-medium",
    "title": "The Mechanics of the Medium",
    "subtitle": "The origin of primitives",
-   "words": 41982,
+   "words": 42968,
    "lead": "Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.",
    "source": "LaTeX source",
    "pdf": true

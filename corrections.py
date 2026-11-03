@@ -453,3 +453,19 @@ def apply(slug, html):
             raise ValueError(f"corrections: {slug}: passage not found: {old[:90]}")
         html = html.replace(old, new)
     return html, c["notes"]
+
+
+# ---------------------------------------------------------------- The Mechanics of the Medium, November 2026
+# The October corrections above are now part of the LaTeX source (src/latex/mechanics-of-the-medium), and the PDF has
+# been rebuilt from it, so no edits are applied at build time. The page lists what changed as revision notes.
+_mm = CORR["mechanics-of-the-medium"]
+_mm["edits"] = []
+_mm["kind"] = "revised"
+_mm["notes"] = [n for n in _mm["notes"] if not n.startswith("Notation")] + [
+    "November 2026: light deflection. The coefficient β is no longer described as fixed by matching observations or as derived in Appendix C (which is the unit system). The index n = P₀/P ≈ 1 + 2GM/c²r now follows from the medium's active pressure, P/P₀ = 1 − 2GM/c²r, and one principle: clocks and rulers both scale as √(P/P₀). Half the factor of 2 comes from clocks, half from rulers; P₀ = ½ρ_g c² is fixed by the measured redshift. The same index gives the Shapiro delay. See also the Introduction, Appendix 1.A.",
+    "November 2026: density near a mass. Sections 10 and 23 and Appendix A no longer state that the density is uniform to first order, a result whose derivation was not shown. They now follow the working hypothesis: the count of gravitons rises toward a mass while the active pressure falls. Light, clocks and lensing are described by the pressure profile throughout.",
+    "November 2026: clocks. The gravitational load factor (Section 16, Appendix E) cited 'detailed balance (Appendix D)', but Appendix D is about charge. The clock rate now follows from the same √(P/P₀) principle, marked as a hypothesis, and the γ² load for moving clocks is marked as assumed, still to be derived.",
+    "November 2026: wavelength dependence of light bending is now set against existing measurements: radio and optical deflections agree to a few parts in a thousand, so |ε(radio) − ε(optical)| ≲ 10⁻³.",
+    "November 2026: the Shapiro delay is given for a single pass (a radar echo is delayed twice as much), and in GR it comes from both the time and space parts of the metric, not the time part alone.",
+    "November 2026, cosmetic: the summary of appendices now matches the appendices; a missing section label and a five-column table that was declared with four columns are fixed; a duplicated end-of-document line is removed.",
+]

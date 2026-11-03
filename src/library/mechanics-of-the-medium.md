@@ -8,6 +8,10 @@ By Shareef Ali Rashada
 
 Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.
 
+# Revision Note, November 2026
+
+This edition brings the paper into line with the second edition of the Unified Framework. The October 2026 equation corrections, previously shown as notes beside the web version, are now part of the text. In addition: the light-deflection coefficient is no longer described as fixed by matching observations or derived in an appendix that did not contain it; the refractive index now follows from the medium’s pressure profile and one stated principle, that clocks and rulers scale together (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>; Introduction, Appendix 1.A). The density of the medium near a mass now follows the working hypothesis that the count of gravitons rises while their active pressure falls. Clock-rate scalings that were asserted are marked as assumptions still to be derived. The predicted wavelength dependence of light bending is set against existing radio and optical measurements. Claims are labelled **\[Hypothesis\]** or **\[Open\]** where they are not yet derived.
+
 # The Opening Observation: Reality Works
 
 Let us begin with an observation so ordinary that it is almost invisible:
@@ -1195,7 +1199,7 @@ $$\mathbf{u}(\mathbf{r}) = -v(r) \, \hat{\mathbf{r}}, \quad v(r) > 0$$
 
 The velocity $v(r)$ is positive inward. At the surface $r = R$, the flow speed must satisfy:
 
-$$g = \frac{v(R)^2}{R} \quad \text{or} \quad g = \frac{v(R)^2}{kR} ?$$
+$$g \stackrel{?}{=} \frac{v(R)^2}{R}$$
 
 We must be careful. The EP gives an acceleration $g$. In a flow model, the acceleration of a stationary object relative to the medium is not simply $v^2/r$. The object is at rest relative to the planet’s surface but moving at speed $v(R)$ relative to the inflowing medium. Its acceleration—the rate of change of its relative velocity—is:
 
@@ -1205,11 +1209,11 @@ For a stationary observer (relative to the planet), the medium flows past them. 
 
 We define a coupling constant $k$ such that:
 
-$$\frac{dv}{dr} = \frac{k}{r}$$
+$$\frac{dv}{dr} = -\frac{k}{r}, \qquad k > 0$$
 
 This is the simplest dimensionally consistent form that yields an acceleration proportional to $g(r)$. Then:
 
-$$a = -v \cdot \frac{k}{r} = -\frac{k v}{r}$$
+$$a = -v \cdot \left(-\frac{k}{r}\right) = \frac{k v}{r}$$
 
 At the surface, setting $a = g$ gives:
 
@@ -1225,11 +1229,11 @@ $$g(r) = \frac{GM}{r^2}$$
 
 If the flow produces this acceleration via $a = -v \, dv/dr$, then:
 
-$$v \frac{dv}{dr} = \frac{GM}{r^2}$$
+$$v \frac{dv}{dr} = -\frac{GM}{r^2}$$
 
 Integrating:
 
-$$\int v \, dv = GM \int \frac{dr}{r^2} \quad \Rightarrow \quad \frac{1}{2} v^2 = -\frac{GM}{r} + C$$
+$$\int v \, dv = -GM \int \frac{dr}{r^2} \quad \Rightarrow \quad \frac{1}{2} v^2 = \frac{GM}{r} + C$$
 
 Boundary condition: as $r \to \infty$, we expect the flow to approach zero (the medium is stationary far from all masses). Thus $C = 0$, and:
 
@@ -1323,7 +1327,7 @@ At large $r$, $v(r) \to 0$ and $\rho_g(r) \to \rho_0$. The flux at infinity is $
 
 $$\alpha M = 4\pi r^2 \rho_g(r) v(r) \quad \text{for any } r$$
 
-As $r \to \infty$, $\rho_g(r) \to \rho_0$ and $v(r) \to 0$, but the product $r^2 v(r)$ tends to a constant. Using $v(r) = \sqrt{2GM/r}$:
+As $r \to \infty$, $\rho_g(r) \to \rho_0$ and $v(r) \to 0$, but the product $r^2 v(r)$ would have to tend to a constant. Using $v(r) = \sqrt{2GM/r}$:
 
 $$r^2 v(r) = r^2 \sqrt{\frac{2GM}{r}} = \sqrt{2GM} \, r^{3/2} \to \infty$$
 
@@ -1351,15 +1355,15 @@ $$\frac{\alpha M}{4\pi \bar{\rho}_g r^2} = \sqrt{\frac{2GM}{r}} \quad \Rightarro
 
 This still depends on $r$ unless we choose $\bar{\rho}_g \propto r^{-3/2}$. That suggests that the constant-density approximation is inconsistent with the naive $1/\sqrt{r}$ velocity profile.
 
-We need a more careful treatment. The full derivation is given in Appendix A. The result is:
+We need a more careful treatment, and it changes the picture. Continuity requires that the *number* of gravitons rises toward a mass, roughly as $r^{-3/2}$ where the inflow speed follows $v = \sqrt{2GM/r}$. What sets the force, however, is not the count but the *active pressure*: the pressure exerted by gravitons in their active, self-repulsive state. Near a mass the inflow mixes with phase-neutralized gravitons ejected by matter, which exert no pressure, so the active pressure falls even as the count rises. The equation of state that produces this is still to be derived (see *The Operational Constraints of the Equivalence Principle*, Continuity section). **\[Open\]**
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r}\right) + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2$$
+What the results of this paper rest on is the active (static) pressure, which follows from the inflow by Bernoulli’s relation:
 
-That is, the vacuum density increases slightly near a mass, but the leading-order effect is constant background plus a small perturbation.
+$$P_g(r) = P_0 - \tfrac{1}{2}\rho_g v^2 = P_0 \left(1 - \frac{2GM}{c^2 r}\right),$$
 
-For Earth, $2GM/Rc^2 \approx 1.4 \times 10^{-9}$, so the perturbation is tiny. For practical purposes, $\rho_g \approx \rho_0$ constant in the vicinity of the mass.
+with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$. This value of $P_0$ is a calibration: it is the value that makes clocks agree with the measured gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). **\[Hypothesis\]**
 
-This is the key insight: **to first order, the vacuum density is constant outside a mass.** The flow velocity adjusts to satisfy continuity, but the density remains nearly uniform.
+Near a mass the change is tiny: for Earth, $2GM/Rc^2 \approx 1.4 \times 10^{-9}$. It is this pressure profile, not a change in density, that the light-deflection and clock-rate results of Sections <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a> and <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a> use.
 
 ## Summary of Section 10
 
@@ -1409,15 +1413,15 @@ $$v(r) = \sqrt{\frac{2GM}{r}}$$
 
 The pressure depends on density and flow speed. For a compressible medium with self-repulsive gravitons (Part 15, Section 15.3), the pressure scales as:
 
-$$P_g \propto \rho_g v^2 + P_{\text{self}}$$
+$$P_g \approx P_0 - \tfrac{1}{2}\rho_g v^2 = P_0 - \frac{\rho_g GM}{r}$$
 
-where $P_{\text{self}}$ is the contribution from graviton-graviton self-repulsion.
+where $P_0$ is the free-space pressure maintained by graviton–graviton self-repulsion, and the inflow lowers it by $\tfrac{1}{2}\rho_g v^2$ (Bernoulli).
 
 Thus, the pressure gradient is:
 
-$$\nabla P_g = \frac{dP_g}{dr} \hat{\mathbf{r}} \propto \frac{GM}{r^2} \hat{\mathbf{r}}$$
+$$\nabla P_g = \frac{dP_g}{dr} \hat{\mathbf{r}} = \frac{\rho_g GM}{r^2} \hat{\mathbf{r}}$$
 
-The gradient points radially inward—pressure increases with distance from the mass. An object embedded in this gradient is pushed from higher pressure (farther from the mass) to lower pressure (closer to the mass). This *appears* as attraction toward the mass, but it is actually a *push* from the surrounding medium.
+The gradient points radially outward—pressure increases with distance from the mass. An object embedded in this gradient is pushed from higher pressure (farther from the mass) to lower pressure (closer to the mass). This *appears* as attraction toward the mass, but it is actually a *push* from the surrounding medium.
 
 ## The Effective Interaction Volume
 
@@ -1435,7 +1439,7 @@ $$\mathbf{F} = -m \cdot \frac{V_{\text{eff}}}{m} \nabla P_g = -m \cdot \kappa \n
 
 where $\kappa$ is a constant (the interaction volume per unit mass). Comparing with Newton’s law $\mathbf{F} = -m \nabla \Phi$, we identify:
 
-$$\nabla \Phi = \kappa \nabla P_g$$
+$$\nabla \Phi = \kappa \nabla P_g, \qquad \kappa = \frac{1}{\rho_g}$$
 
 The gravitational potential $\Phi$ is proportional to the graviton pressure gradient. Gravity is not a separate field—it is the pressure gradient of the medium.
 
@@ -1471,7 +1475,7 @@ From Section <a href="#subsec:why_gradients" data-reference-type="ref" data-refe
 
 The graviton flux through a sphere of radius $r$ is:
 
-$$\Phi = 4\pi r^2 \rho_g v(r)$$
+$$\Phi_{\text{flux}} = 4\pi r^2 \rho_g v(r)$$
 
 For a steady-state inflow toward a mass sink, the flux is constant (absorption rate equals inflow). Thus:
 
@@ -1954,7 +1958,7 @@ When multiple objects orbit the same central mass, their individual pulse patter
 
 If the objects’ orbital frequencies satisfy simple integer ratios:
 
-$$\omega_1 : \omega_2 : \omega_3 = 1 : 2 : 4 \quad \text{(Laplace resonance, Jupiter's moons)}$$
+$$\omega_{\text{Io}} : \omega_{\text{Europa}} : \omega_{\text{Ganymede}} = 4 : 2 : 1 \quad \text{(Laplace resonance, Jupiter's moons)}$$
 
 then their combined pulse patterns constructively interfere with the field. The system achieves **global resonance**—each object’s motion stabilizes the others.
 
@@ -2248,15 +2252,12 @@ Until then, the claim that uncertainty is fundamental remains an *interpretation
 
 <div class="center">
 
-<div class="tabular">
-
-\|l\|l\|l\|l\| **Scale** & **Central Structure** & **Orbiting Structure** & **Resonance Condition** & **Stable Configuration**  
-Atomic & Nucleus (proton coherence) & Electron (spin-modulated pulse) & $f_e = m f_{\text{field}}(r_n)$ & Electron shells (orbitals)  
-Molecular & Atom A (pulse pattern) & Atom B (phase-compatible pulse) & Phase alignment of pulses & Chemical bond  
-Planetary & Star/planet (core pulsation) & Moon/planet (spin-modulated pulse) & $f_{\text{obj}} = m f_{\text{field}}(r_n)$ & Stable orbits, orbital bands  
-Galactic & Galactic core (supermassive coherence) & Star (spin-modulated pulse) & $f_{\text{star}} = m f_{\text{field}}(r_n)$ & Flat rotation curves  
-
-</div>
+| **Scale** | **Central Structure**                  | **Orbiting Structure**             | **Resonance Condition**                     | **Stable Configuration**     |
+|:----------|:---------------------------------------|:-----------------------------------|:--------------------------------------------|:-----------------------------|
+| Atomic    | Nucleus (proton coherence)             | Electron (spin-modulated pulse)    | $f_e = m f_{\text{field}}(r_n)$             | Electron shells (orbitals)   |
+| Molecular | Atom A (pulse pattern)                 | Atom B (phase-compatible pulse)    | Phase alignment of pulses                   | Chemical bond                |
+| Planetary | Star/planet (core pulsation)           | Moon/planet (spin-modulated pulse) | $f_{\text{obj}} = m f_{\text{field}}(r_n)$  | Stable orbits, orbital bands |
+| Galactic  | Galactic core (supermassive coherence) | Star (spin-modulated pulse)        | $f_{\text{star}} = m f_{\text{field}}(r_n)$ | Flat rotation curves         |
 
 </div>
 
@@ -2290,37 +2291,35 @@ $$n = \frac{c}{v_{\text{light}}}$$
 
 In GPT, the "vacuum" is the graviton medium. Its equilibrium density is $\rho_0$, and its equilibrium refractive index is $n_0 = 1$ by definition (we calibrate to the far field).
 
-Near a massive body, the graviton density increases. From Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>, the density perturbation is:
+Near a massive body the active pressure of the medium is lower (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2\right)$$
+$$\frac{P_g(r)}{P_0} = 1 - \frac{2GM}{c^2 r}$$
 
-The refractive index of a compressible medium scales with density. For small perturbations:
+GPT’s principle is that the medium sets both the pace and the scale of matter: the rate of every internal process in matter (a clock) and the size of every material structure (a ruler) scale as $\sqrt{P_g/P_0}$. **\[Hypothesis\]** Together with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$, this form is fixed by one measurement, the gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). Nothing further is adjusted.
 
-$$n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}$$
+Because clocks and rulers change together, light measured locally always travels at $c$. Measured from far away, where both the local second and the local metre are rescaled, its speed is $c\sqrt{P_g/P_0}\,\sqrt{P_g/P_0} = c\,P_g/P_0$. The medium therefore has the effective refractive index
 
-where $\beta$ is a constant determined by the medium’s polarizability to light. In GPT, $\beta$ is not a free parameter — it is fixed by the requirement that light deflections match observations. The result (derived in Appendix C) is:
+$$n(r) = \frac{P_0}{P_g(r)} \approx 1 + \frac{2GM}{c^2 r}$$
 
-$$n(r) = 1 + \frac{2GM}{c^2 r}$$
+The factor of 2 is not fitted: half of it comes from clocks, half from rulers. With clocks alone, the index would be $1 + GM/c^2 r$ and the deflection half the measured value, the result Soldner obtained from Newtonian gravity in 1801. Dicke (1957) showed that this structure reproduces the classical tests; in GPT, the slowing has a physical source, the medium. Deriving the square-root scaling from the medium itself remains open. **\[Open\]**
 
-This is the same expression that appears in the Schwarzschild metric derivation of light bending — but here it emerges from *medium density*, not from geometry.
-
-## Fermat’s Principle in a Density Gradient
+## Fermat’s Principle in a Pressure Gradient
 
 Light follows the path that minimizes travel time (Fermat’s principle):
 
 $$\delta \int n(r) \, ds = 0$$
 
-When $n(r)$ varies with position, the path bends toward regions of higher refractive index — i.e., toward the mass, where graviton density is higher.
+When $n(r)$ varies with position, the path bends toward regions of higher refractive index — i.e., toward the mass, where the active pressure is lower.
 
 For a ray passing near a mass $M$ with impact parameter $b$, the deflection angle is:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
+$$\alpha = -\int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
 
 where $x$ is the coordinate along the undeflected path, and $r = \sqrt{b^2 + x^2}$.
 
 Substituting $n(r) = 1 + 2GM/(c^2 r)$ and $dn/dr = -2GM/(c^2 r^2)$:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
+$$\alpha = -\int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
 
 To first order in $GM/(c^2 b)$, this integrates to:
 
@@ -2346,9 +2345,9 @@ In GPT, the mechanism is continuous with all other gravitational phenomena:
 
 </div>
 
-In all three cases, the mass creates a graviton density gradient. That gradient affects everything that propagates through the medium — massive particles (via absorption/ejection cycles) and massless waves (via refractive index variation).
+In all three cases, the mass creates a gradient in the medium’s active pressure. That gradient affects everything that propagates through the medium — massive particles (via absorption/ejection cycles) and massless waves (via refractive index variation).
 
-**Light does not need mass to be "attracted." It only needs a medium whose density varies with position.**
+**Light does not need mass to be "attracted." It only needs a medium whose properties vary with position.**
 
 ## Comparison to General Relativity
 
@@ -2356,7 +2355,7 @@ In all three cases, the mass creates a graviton density gradient. That gradient 
 
 | **Aspect**         | **GR**                            | **GPT**                                |
 |:-------------------|:----------------------------------|:---------------------------------------|
-| Mechanism          | Spacetime curvature               | Refraction in density gradient         |
+| Mechanism          | Spacetime curvature               | Refraction in pressure gradient        |
 | What bends?        | Null geodesics in curved geometry | Light path in varying refractive index |
 | Deflection formula | $\alpha = 4GM/(c^2 b)$            | $\alpha = 4GM/(c^2 b)$ (same)          |
 | Physical cause     | Geometry (non-physical)           | Medium density variation (physical)    |
@@ -2372,11 +2371,11 @@ If light bending is refraction, then there should be **dispersion** — a slight
 
 GR predicts no dispersion (null geodesics are achromatic).
 
-Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the $10^{-5}$ arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
+Existing measurements already constrain this. The deflection measured at radio wavelengths by very-long-baseline interferometry (Fomalont et al., 2009) agrees with the value from optical astrometry (Hipparcos; Froeschlé et al., 1997) to within a few parts in a thousand, and radio measurements at different frequencies agree more closely still. Any wavelength dependence must therefore be smaller than this. GPT allows a small correction of the form:
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. The exact form depends on the graviton-photon interaction, which will be developed in future work.
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
 
 **This is a testable distinction.**
 
@@ -2392,19 +2391,19 @@ Extended mass distributions (galaxy clusters) produce multiple images, arcs, and
 
 No dark matter is required to explain lensing if the cluster’s graviton field is stratified into shells (Section 16.4). The refractive index gradients at shell boundaries naturally produce the observed lensing features.
 
-## Shapiro Delay as Slowing in Denser Medium
+## Shapiro Delay as Slowing in the Medium
 
 The Shapiro delay — the extra travel time for light passing near a massive body — is also explained by refraction:
 
 $$\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)$$
 
-In GR, this comes from the time component of the Schwarzschild metric. In GPT, it comes from the reduced speed of light in the denser medium:
+This is the delay on a single pass; a radar echo, which makes the trip twice, is delayed by twice this. In GR, it comes from both the time and the space parts of the Schwarzschild metric, just as the light-bending factor of 2 does. In GPT, it comes from the reduced speed of light near the mass, where the medium’s active pressure is lower:
 
 $$v_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)$$
 
-Integrating the extra path length gives the same logarithmic delay.
+Integrating the extra travel time, $\int (n-1)\,dl/c$, along the path gives the same logarithmic delay, confirmed by the Cassini spacecraft to about two parts in $10^5$ (Bertotti et al., 2003).
 
-**Light slows down where the graviton medium is denser. No geometry is required.**
+**Light slows down where the medium’s active pressure is lower. No geometry is required.**
 
 ## What This Means for Spacetime Curvature
 
@@ -2458,15 +2457,15 @@ This is not speculation. This is how every wave behaves in every physical medium
 
 <div class="center">
 
-| **Element**         | **GPT Mechanism**                                               |
-|:--------------------|:----------------------------------------------------------------|
-| What bends light    | Refractive index gradient in graviton medium                    |
-| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from density perturbation)            |
-| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                             |
-| Shapiro delay       | Light slows where medium is denser                              |
-| Lensing             | Refractive focusing by extended mass distributions              |
-| Testable prediction | Small wavelength-dependent dispersion                           |
-| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry) |
+| **Element**         | **GPT Mechanism**                                                       |
+|:--------------------|:------------------------------------------------------------------------|
+| What bends light    | Refractive index gradient in graviton medium                            |
+| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from the pressure profile: clocks and rulers) |
+| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                                     |
+| Shapiro delay       | Light slows where medium is denser                                      |
+| Lensing             | Refractive focusing by extended mass distributions                      |
+| Testable prediction | Small wavelength-dependent dispersion                                   |
+| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry)         |
 
 </div>
 
@@ -2733,9 +2732,9 @@ Both happen, depending on the situation.
 
 ## Gravitational Time Dilation: Increased Load from Ambient Density
 
-Consider a clock in a gravitational potential — near a massive body like Earth. The ambient graviton density is higher than in deep space (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
+Consider a clock in a gravitational potential — near a massive body like Earth. More gravitons stream past it than in deep space, while their active pressure is lower (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
+$$\frac{P_g(r)}{P_0} = 1 - \frac{2GM}{c^2 r}$$
 
 The clock’s atoms are bathed in a denser graviton flux. This has two effects:
 
@@ -2747,7 +2746,7 @@ The net effect is:
 
 $$\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}$$
 
-From detailed balance (Appendix D), the load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. The result is:
+The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster has not yet been derived from the medium’s dynamics. **\[Open\]** GPT’s principle (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>) is that the tick rate scales as $\sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$ fixed by the measured redshift. **\[Hypothesis\]** The result is:
 
 $$\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}$$
 
@@ -2897,7 +2896,7 @@ GPT makes specific predictions about time dilation beyond standard relativity:
 | What time is           | Accumulated count of physical cycles (ticks)                             |
 | What a tick requires   | $N$ graviton interactions (stability quota)                              |
 | Tick duration          | $\tau = N/\Gamma$                                                        |
-| Gravitational dilation | Higher ambient density increases $N$ (load) more than $\Gamma$ (rate)    |
+| Gravitational dilation | Near a mass, $N$ (load) increases more than $\Gamma$ (rate)              |
 | Velocity dilation      | Anisotropic absorption increases $N$ as $\gamma^2$, $\Gamma$ as $\gamma$ |
 | Universality           | All systems couple to same medium; $N$ scales similarly                  |
 | EP for time            | Both dilations arise from load/rate imbalance                            |
@@ -3040,7 +3039,7 @@ $$\mathbf{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r^2} \hat{\mathbf{r}}$$
 
 In GPT, this emerges from the medium’s response to two bias sources. The interaction energy is:
 
-$$U_{12}(r) = \int \frac{\kappa}{2} |\nabla \psi|^2 dV = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r}$$
+$$U_{12}(r) = \kappa \int \nabla \psi_1 \cdot \nabla \psi_2 \, dV = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r}$$
 
 Differentiating gives the force. The derivation requires no new postulates — only the bias potential equation and the medium’s energy density.
 
@@ -3191,9 +3190,9 @@ $$r^2 \frac{d\psi}{dr} = \text{constant} \quad \Rightarrow \quad \frac{d\psi}{dr
 
 Setting $\psi \to 0$ as $r \to \infty$ gives $D = 0$. The constant $C$ is determined by the total bias via Gauss’s law:
 
-$$\oint \nabla \psi \cdot d\mathbf{A} = 4\pi r^2 \frac{d\psi}{dr} = -4\pi C = -\alpha q$$
+$$\oint \nabla \psi \cdot d\mathbf{A} = 4\pi r^2 \frac{d\psi}{dr} = 4\pi C = -\alpha q$$
 
-Thus $C = \alpha q/(4\pi)$, and:
+Thus $C = -\alpha q/(4\pi)$, and:
 
 $$\psi(r) = \frac{\alpha q}{4\pi r}, \quad \mathbf{e}(r) = -\nabla \psi = \frac{\alpha q}{4\pi r^2} \hat{\mathbf{r}}$$
 
@@ -3699,7 +3698,7 @@ But this is a diffusion equation, not a wave equation. For wave propagation, we 
 
 From Section <a href="#sec:magnetism_curl" data-reference-type="ref" data-reference="sec:magnetism_curl">20</a>, the vector potential satisfies:
 
-$$\nabla^2 \mathbf{A} = \beta \mathbf{J}_q + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2}$$
+$$\nabla^2 \mathbf{A} = -\beta \mathbf{J}_q + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2}$$
 
 where the second term arises from the medium’s inertia (the finite time required for bias to propagate). This is the wave equation for $\mathbf{A}$.
 
@@ -3797,7 +3796,7 @@ This is not an approximation. It is the natural consequence of wave quantization
 
 In GPT, $c$ is the characteristic speed of the graviton medium, determined by:
 
-$$c^2 = \frac{1}{\epsilon_0 \mu_0} = \frac{\text{transverse curl stiffness}}{\text{bias compressibility}}$$
+$$c^2 = \frac{1}{\epsilon_0 \mu_0} = \frac{1}{(\text{bias compressibility}) \times (\text{transverse curl stiffness})}$$
 
 For small disturbances, this speed is constant because the medium is uniform and isotropic. For extremely intense fields (e.g., near black holes, or in the early universe), there may be tiny deviations — but these are beyond current measurement.
 
@@ -3843,45 +3842,37 @@ For small disturbances, this speed is constant because the medium is uniform and
 
 We have established that light is a coupled oscillation of the bias potential $\psi$ and vector potential $\mathbf{A}$ propagating through the graviton medium at speed $c$ (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). The medium is not empty — it has density $\rho_g$, pressure $P_g$, and a refractive index that varies with these properties.
 
-Now we address a phenomenon traditionally attributed to curved spacetime: the bending of light near a massive body. In GPT, this is not curvature. It is **refraction** — the change in light’s propagation speed as it passes through regions of varying graviton density and pressure.
+Now we address a phenomenon traditionally attributed to curved spacetime: the bending of light near a massive body. In GPT, this is not curvature. It is **refraction** — the change in light’s propagation speed as it passes through regions of varying graviton pressure.
 
-No new postulates are required. The medium already exists. Its density gradient around a mass is already established (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>). Light propagates through it. Where the medium’s properties vary, light bends.
+No new postulates are required beyond those of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>. The medium already exists. Its pressure profile around a mass is already established (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>). Light propagates through it. Where the medium’s properties vary, light bends.
 
 ## The Refractive Index of the Graviton Medium
 
 In any physical medium, light propagates at speed $v = c/n$, where $n$ is the refractive index. The refractive index depends on the medium’s density and pressure.
 
-In GPT, the graviton medium’s equilibrium density is $\rho_0$, with refractive index $n_0 = 1$ by definition (calibrated to far-field vacuum). Near a massive body, the density perturbation is (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>):
+In GPT, the far-field medium has refractive index $n_0 = 1$ by definition. Near a massive body the active pressure is lower, and because the medium sets the pace of clocks and the scale of rulers alike (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>), the effective index is
 
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
+$$n(r) = \frac{P_0}{P_g(r)} \approx 1 + \frac{2GM}{c^2 r}$$
 
-The refractive index scales with density. For small perturbations:
+This is exactly the expression that appears in the Schwarzschild-metric derivation of light bending, but here it emerges from the *medium’s pressure*, not from geometry, and its factor of 2 comes from clocks and rulers together, not from a fitted constant.
 
-$$n(r) = 1 + \beta \frac{\delta \rho_g(r)}{\rho_0}$$
-
-where $\beta$ is the medium’s polarizability constant. From the requirement that light deflection matches observations (and from the medium’s wave equation), $\beta = 1$. Thus:
-
-$$n(r) = 1 + \frac{2GM}{c^2 r}$$
-
-This is exactly the expression that appears in the Schwarzschild metric derivation of light bending — but here it emerges from *medium density*, not from geometry.
-
-## Fermat’s Principle in a Density Gradient
+## Fermat’s Principle in a Pressure Gradient
 
 Light follows the path that minimizes travel time (Fermat’s principle):
 
 $$\delta \int n(r) \, ds = 0$$
 
-When $n(r)$ increases toward the mass (denser medium), light bends toward the mass — the same way a wave bends toward the region of higher refractive index.
+When $n(r)$ increases toward the mass (lower active pressure), light bends toward the mass — the same way a wave bends toward the region of higher refractive index.
 
 For a ray passing near a mass $M$ with impact parameter $b$, the deflection angle is:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
+$$\alpha = -\int_{-\infty}^{\infty} \frac{1}{n} \frac{dn}{dr} \frac{b}{r} \, dx$$
 
 where $x$ is the coordinate along the undeflected path, and $r = \sqrt{b^2 + x^2}$.
 
 Substituting $n(r) = 1 + 2GM/(c^2 r)$ and $dn/dr = -2GM/(c^2 r^2)$:
 
-$$\alpha = 2 \int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
+$$\alpha = -\int_{-\infty}^{\infty} \frac{1}{1 + 2GM/(c^2 r)} \cdot \frac{-2GM}{c^2 r^2} \cdot \frac{b}{r} \, dx$$
 
 To first order in $GM/(c^2 b)$, this integrates to:
 
@@ -3907,9 +3898,9 @@ In GPT, the mechanism is continuous with all other gravitational phenomena:
 
 </div>
 
-In all three cases, the mass creates a graviton density gradient. That gradient affects everything that propagates through the medium — massive particles (via absorption/ejection cycles) and massless waves (via refractive index variation).
+In all three cases, the mass creates a gradient in the medium’s active pressure. That gradient affects everything that propagates through the medium — massive particles (via absorption/ejection cycles) and massless waves (via refractive index variation).
 
-**Light does not need mass to be "attracted." It only needs a medium whose density varies with position.**
+**Light does not need mass to be "attracted." It only needs a medium whose properties vary with position.**
 
 ## Refraction vs. Curvature: A Critical Distinction
 
@@ -3925,7 +3916,7 @@ In all three cases, the mass creates a graviton density gradient. That gradient 
 
 </div>
 
-GR calculates the correct number. GPT explains *why* the number is what it is — because the medium’s density perturbation creates a refractive index gradient.
+GR calculates the correct number. GPT explains *why* the number is what it is — because the medium’s pressure profile creates a refractive index gradient.
 
 ## The Refractive Nature of Gravitational Lensing
 
@@ -3935,29 +3926,29 @@ For an extended mass distribution, the refractive index varies with the local gr
 
 This explains why lensing appears stronger than can be accounted for by visible mass alone. The medium’s own density enhancement in the cluster — not "dark matter" — produces the additional focusing.
 
-## Shapiro Delay as Slowing in Denser Medium
+## Shapiro Delay as Slowing in the Medium
 
 The Shapiro delay — the extra travel time for light passing near a massive body — is also explained by refraction:
 
 $$\Delta t = \frac{2GM}{c^3} \ln \left( \frac{4r_1 r_2}{b^2} \right)$$
 
-In GR, this comes from the time component of the Schwarzschild metric. In GPT, it comes from the reduced speed of light in the denser medium:
+This is the delay on a single pass; a radar echo, which makes the trip twice, is delayed by twice this. In GR, it comes from both the time and the space parts of the Schwarzschild metric, just as the light-bending factor of 2 does. In GPT, it comes from the reduced speed of light near the mass, where the medium’s active pressure is lower:
 
 $$v_{\text{light}}(r) = \frac{c}{n(r)} \approx c \left(1 - \frac{2GM}{c^2 r}\right)$$
 
-Integrating the extra path length gives the same logarithmic delay.
+Integrating the extra travel time, $\int (n-1)\,dl/c$, along the path gives the same logarithmic delay, confirmed by the Cassini spacecraft to about two parts in $10^5$ (Bertotti et al., 2003).
 
-**Light slows down where the graviton medium is denser. No geometry is required.**
+**Light slows down where the medium’s active pressure is lower. No geometry is required.**
 
 ## Distinguishing Refraction from Curvature
 
 If light bending is refraction, there should be **dispersion** — a slight wavelength dependence of the deflection angle — because refractive indices typically vary with frequency. GR predicts no dispersion (null geodesics are achromatic).
 
-Current measurements (radio interferometry, optical observations) are not yet precise enough to detect or rule out dispersion at the $10^{-5}$ arcsecond level. GPT predicts that as precision improves, a small wavelength-dependent correction will be found:
+Existing measurements already constrain this. The deflection measured at radio wavelengths by very-long-baseline interferometry (Fomalont et al., 2009) agrees with the value from optical astrometry (Hipparcos; Froeschlé et al., 1997) to within a few parts in a thousand, and radio measurements at different frequencies agree more closely still. Any wavelength dependence must therefore be smaller than this. GPT allows a small correction of the form:
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. The exact form depends on the graviton-photon interaction — a testable prediction.
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
 
 ## What This Means for Spacetime Curvature
 
@@ -3983,15 +3974,15 @@ Both fit the data. But *only one provides a mechanism.* Only one is consistent w
 
 <div class="center">
 
-| **Aspect**           | **Mainstream (GR)**               | **GPT**                                         |
-|:---------------------|:----------------------------------|:------------------------------------------------|
-| What bends light?    | Curved spacetime (null geodesics) | Refractive index gradient in graviton medium    |
-| Physical cause       | Geometry (non-physical)           | Medium density variation                        |
-| Deflection formula   | $\alpha = 4GM/(c^2 b)$            | Same (derived from $n(r)$)                      |
-| Shapiro delay        | Time component of metric          | Light slows in denser medium                    |
-| Role of vacuum       | Empty (no medium)                 | Pressurized graviton medium                     |
-| Mechanism            | None                              | Refraction                                      |
-| Testable distinction | No dispersion                     | Small wavelength-dependent dispersion predicted |
+| **Aspect**           | **Mainstream (GR)**               | **GPT**                                          |
+|:---------------------|:----------------------------------|:-------------------------------------------------|
+| What bends light?    | Curved spacetime (null geodesics) | Refractive index gradient in graviton medium     |
+| Physical cause       | Geometry (non-physical)           | Medium density variation                         |
+| Deflection formula   | $\alpha = 4GM/(c^2 b)$            | Same (derived from $n(r)$)                       |
+| Shapiro delay        | Time component of metric          | Light slows where the medium’s pressure is lower |
+| Role of vacuum       | Empty (no medium)                 | Pressurized graviton medium                      |
+| Mechanism            | None                              | Refraction                                       |
+| Testable distinction | No dispersion                     | Small wavelength-dependent dispersion predicted  |
 
 </div>
 
@@ -4013,15 +4004,15 @@ Both fit the data. But *only one provides a mechanism.* Only one is consistent w
 
 <div class="center">
 
-| **Element**         | **GPT Mechanism**                                               |
-|:--------------------|:----------------------------------------------------------------|
-| What bends light    | Refractive index gradient in graviton medium                    |
-| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from density perturbation)            |
-| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                             |
-| Shapiro delay       | Light slows where medium is denser                              |
-| Lensing             | Refractive focusing by extended mass distributions              |
-| Testable prediction | Small wavelength-dependent dispersion                           |
-| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry) |
+| **Element**         | **GPT Mechanism**                                                       |
+|:--------------------|:------------------------------------------------------------------------|
+| What bends light    | Refractive index gradient in graviton medium                            |
+| Refractive index    | $n(r) = 1 + 2GM/(c^2 r)$ (from the pressure profile: clocks and rulers) |
+| Deflection angle    | $\alpha = 4GM/(c^2 b)$ (same as GR)                                     |
+| Shapiro delay       | Light slows where medium is denser                                      |
+| Lensing             | Refractive focusing by extended mass distributions                      |
+| Testable prediction | Small wavelength-dependent dispersion                                   |
+| Relation to GR      | Same numbers; different ontology (physical medium vs. geometry)         |
 
 </div>
 
@@ -4035,27 +4026,23 @@ No dark matter is required to explain lensing strength if the graviton medium it
 
 ## The Refractive Index Field of an Extended Mass
 
-For an extended mass distribution with density $\rho_m(\mathbf{x})$, the graviton density perturbation at point $\mathbf{x}$ is:
+For an extended mass distribution with density $\rho_m(\mathbf{x})$, the active pressure of the medium at point $\mathbf{x}$ is lowered in proportion to the Newtonian potential of the whole distribution:
 
-$$\frac{\delta \rho_g(\mathbf{x})}{\rho_0} = \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|} \, d^3x' + \text{(self-contribution from medium)}$$
+$$\frac{P_g(\mathbf{x})}{P_0} = 1 - \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|} \, d^3x' + \text{(contribution from the medium's own structure)}$$
 
-The refractive index is:
-
-$$n(\mathbf{x}) = 1 + \frac{\delta \rho_g(\mathbf{x})}{\rho_0}$$
-
-Thus:
+With clocks and rulers both scaling as $\sqrt{P_g/P_0}$ (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>), the refractive index is $n = P_0/P_g$. Thus:
 
 $$n(\mathbf{x}) = 1 + \frac{2G}{c^2} \int \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|} \, d^3x' + n_{\text{medium}}(\mathbf{x})$$
 
-where $n_{\text{medium}}(\mathbf{x})$ is the additional contribution from the medium’s own density structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
+where $n_{\text{medium}}(\mathbf{x})$ is the additional contribution from the medium’s own structure (see Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
 
-Light rays follow Fermat’s principle: they minimize the optical path length $\int n(\mathbf{x}) \, ds$. Regions of higher $n$ (higher graviton density) act as **refractive lenses**, focusing light.
+Light rays follow Fermat’s principle: they minimize the optical path length $\int n(\mathbf{x}) \, ds$. Regions of higher $n$ (lower active pressure) act as **refractive lenses**, focusing light.
 
 ## The Lens Equation in Refractive Form
 
 For a thin lens (e.g., a galaxy cluster), the deflection angle at impact parameter $\xi$ is:
 
-$$\hat{\alpha}(\xi) = \frac{4G}{c^2} \int_0^{\xi} \frac{M(\xi')}{\xi'} \, d\xi' + \hat{\alpha}_{\text{medium}}(\xi)$$
+$$\hat{\alpha}(\xi) = \frac{4G\,M(\xi)}{c^2\,\xi} + \hat{\alpha}_{\text{medium}}(\xi), \qquad M(\xi) = \text{mass within projected radius } \xi$$
 
 where $M(\xi')$ is the enclosed mass within radius $\xi'$, and $\hat{\alpha}_{\text{medium}}$ is the additional deflection from the medium’s self-structure.
 
@@ -4075,7 +4062,7 @@ $$\theta_E = \sqrt{\frac{4GM}{c^2} \frac{D_{ls}}{D_d D_s}}$$
 
 In GPT, this emerges from the refractive index profile of the lens. For a spherically symmetric lens with graviton density profile $\rho_g(r)$, the refractive index $n(r)$ creates a focusing condition that produces a ring when the alignment is exact.
 
-For imperfect alignment, the result is **arcs** — elongated, curved images of the background source. The shape of the arcs encodes the refractive index gradient of the lens. In GPT, arcs trace the boundaries of graviton density shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>) — regions where the medium’s density changes more rapidly.
+For imperfect alignment, the result is **arcs** — elongated, curved images of the background source. The shape of the arcs encodes the refractive index gradient of the lens. In GPT, arcs trace the boundaries of graviton density shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">14.3.2</a>) — regions where the medium’s density changes more rapidly.
 
 ## Multiple Images and Critical Curves
 
@@ -4111,7 +4098,7 @@ Weak gravitational lensing — the small, coherent distortion of background gala
 
 The observed shear field $\gamma(\mathbf{x})$ is related to the projected refractive index gradient:
 
-$$\gamma = \frac{1}{2} \int \nabla_\perp n \, dz$$
+$$\gamma_1 = \tfrac{1}{2}\left(\partial_1^2 - \partial_2^2\right)\psi_L, \quad \gamma_2 = \partial_1 \partial_2 \psi_L, \qquad \psi_L(\boldsymbol{\theta}) = \frac{D_{ls}}{D_d D_s} \int (n - 1)\, dz$$
 
 Thus, weak lensing surveys (like DES, Euclid, Rubin) are not measuring dark matter. They are measuring the *medium’s density structure* — which, in GPT, is shaped by both visible matter and the medium’s own dynamics.
 
@@ -4145,7 +4132,7 @@ Predictions for large-scale structure differ slightly from dark matter models be
 
 | **Element**           | **GPT Mechanism**                                      |
 |:----------------------|:-------------------------------------------------------|
-| Lensing mechanism     | Refractive focusing by graviton density gradient       |
+| Lensing mechanism     | Refractive focusing by graviton pressure gradient      |
 | Refractive index      | $n(\mathbf{x}) = 1 + \delta \rho_g(\mathbf{x})/\rho_0$ |
 | Lens equation         | Same as GR (but refractive, not geometric)             |
 | Einstein rings        | Perfect alignment in refractive field                  |
@@ -4180,7 +4167,7 @@ $$\tau = \frac{N}{\Gamma}$$
 
 where $N$ is the stability quota (interactions per tick) and $\Gamma$ is the interaction rate.
 
-When the atom is placed in a region of higher graviton density (near a mass), both $N$ and $\Gamma$ change. But crucially, the wave propagation speed of the atom’s internal oscillations changes just as light’s propagation speed changes.
+When the atom is placed near a mass, where more gravitons stream past at lower active pressure, both $N$ and $\Gamma$ change. But crucially, the wave propagation speed of the atom’s internal oscillations changes just as light’s propagation speed changes.
 
 ## The Refractive Index for Matter Waves
 
@@ -4194,9 +4181,9 @@ The atom’s internal oscillations — the standing wave that defines its "clock
 
 Thus:
 
-$$\tau(r) = \tau_0 \cdot n(r) \approx \tau_0 \left(1 + \frac{2GM}{c^2 r}\right)$$
+$$\tau(r) = \tau_0 \sqrt{n(r)} \approx \tau_0 \left(1 + \frac{GM}{c^2 r}\right)$$
 
-This matches gravitational time dilation to first order (the standard expression is $\tau(r) = \tau_0 / \sqrt{1 - 2GM/(c^2 r)} \approx \tau_0 (1 + GM/(c^2 r))$ — the factor of 2 difference is resolved by noting that $n(r)$ applies to phase velocity, while clock rate depends on group velocity; the detailed derivation yields the correct $GM/(c^2 r)$ coefficient).
+This matches gravitational time dilation to first order (the standard expression is $\tau(r) = \tau_0 / \sqrt{1 - 2GM/(c^2 r)} \approx \tau_0 (1 + GM/(c^2 r))$).
 
 ## The Unification: Light and Matter Are Both Medium Waves
 
@@ -4217,7 +4204,7 @@ This matches gravitational time dilation to first order (the standard expression
 
 In Section <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a>, we derived gravitational time dilation from increased load ($N$ increase) and velocity time dilation from anisotropic absorption (leading to $\gamma$ factor). Now we see these as special cases of a more general principle:
 
-- **Gravitational dilation** (at rest in denser medium): Isotropic increase in refractive index slows all waves equally
+- **Gravitational dilation** (at rest near a mass): Isotropic increase in refractive index slows all waves equally
 
 - **Velocity dilation** (moving through medium): Anisotropic refractive index (due to motion) creates direction-dependent slowing, with the Lorentz factor $\gamma$ emerging from the medium’s wave equation
 
@@ -4258,13 +4245,13 @@ If time dilation is refractive, then:
 
 <div class="center">
 
-| **Aspect**             | **Mainstream**                           | **GPT**                                                        |
-|:-----------------------|:-----------------------------------------|:---------------------------------------------------------------|
-| Time dilation cause    | Metric stretching (curved spacetime)     | Refractive slowing of matter waves in denser medium            |
-| Light deflection cause | Geodesics in curved spacetime            | Refractive slowing of light waves in denser medium             |
-| Unification            | Both from metric (geometry)              | Both from medium refractive index                              |
-| EP                     | Geometric equivalence                    | Same medium interaction in both cases                          |
-| Testable distinction   | None (same predictions at leading order) | Small dispersion, anisotropy, atom interferometer correlations |
+| **Aspect**             | **Mainstream**                           | **GPT**                                                                 |
+|:-----------------------|:-----------------------------------------|:------------------------------------------------------------------------|
+| Time dilation cause    | Metric stretching (curved spacetime)     | Refractive slowing of matter waves where the medium’s pressure is lower |
+| Light deflection cause | Geodesics in curved spacetime            | Refractive slowing of light waves where the medium’s pressure is lower  |
+| Unification            | Both from metric (geometry)              | Both from medium refractive index                                       |
+| EP                     | Geometric equivalence                    | Same medium interaction in both cases                                   |
+| Testable distinction   | None (same predictions at leading order) | Small dispersion, anisotropy, atom interferometer correlations          |
 
 </div>
 
@@ -4272,21 +4259,21 @@ If time dilation is refractive, then:
 
 <div class="center">
 
-| **Element**              | **GPT Mechanism**                                                           |
-|:-------------------------|:----------------------------------------------------------------------------|
-| What time dilation is    | Refractive slowing of matter waves (internal oscillations) in denser medium |
-| What light deflection is | Refractive slowing of light waves in denser medium                          |
-| Unifying principle       | Same medium, same refractive index $n(r) = 1 + \delta \rho_g/\rho_0$        |
-| Gravitational dilation   | Isotropic refractive increase at rest                                       |
-| Velocity dilation        | Anisotropic refractive effect from motion                                   |
-| Equivalence Principle    | Both arise from medium wave-speed gradient                                  |
-| Testable predictions     | Frequency-dependent dilation, anisotropy, atom interferometer correlations  |
+| **Element**              | **GPT Mechanism**                                                                               |
+|:-------------------------|:------------------------------------------------------------------------------------------------|
+| What time dilation is    | Refractive slowing of matter waves (internal oscillations) where the medium’s pressure is lower |
+| What light deflection is | Refractive slowing of light waves where the medium’s pressure is lower                          |
+| Unifying principle       | Same medium, same refractive index $n(r) = 1 + \delta \rho_g/\rho_0$                            |
+| Gravitational dilation   | Isotropic refractive increase at rest                                                           |
+| Velocity dilation        | Anisotropic refractive effect from motion                                                       |
+| Equivalence Principle    | Both arise from medium wave-speed gradient                                                      |
+| Testable predictions     | Frequency-dependent dilation, anisotropy, atom interferometer correlations                      |
 
 </div>
 
 # Cosmological Implications — Dark Matter as Shell Resonance
 
-We have established that the graviton medium surrounding any coherent mass stratifies into **resonance shells** — layers of lateral decoherence where graviton flow organizes into coherent bands (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>). These shells are not merely theoretical constructs. They determine where stable orbits exist (Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>), where light refracts most strongly (Section <a href="#sec:gravitational_lensing" data-reference-type="ref" data-reference="sec:gravitational_lensing">25</a>), and where matter accumulates.
+We have established that the graviton medium surrounding any coherent mass stratifies into **resonance shells** — layers of lateral decoherence where graviton flow organizes into coherent bands (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">14.3.2</a>). These shells are not merely theoretical constructs. They determine where stable orbits exist (Section <a href="#sec:orbital_mechanics" data-reference-type="ref" data-reference="sec:orbital_mechanics">14</a>), where light refracts most strongly (Section <a href="#sec:gravitational_lensing" data-reference-type="ref" data-reference="sec:gravitational_lensing">25</a>), and where matter accumulates.
 
 Now we apply this to the largest scale: **galaxies**.
 
@@ -4306,7 +4293,7 @@ For a point mass, Keplerian orbits follow $v(r) \propto 1/\sqrt{r}$. For an exte
 
 A galaxy is a massive, coherent structure. Its core (nuclear star cluster, central black hole, or dense stellar bulge) processes gravitons through absorption/ejection cycles, creating a pulsating field.
 
-From Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>, the field stratifies into shells. Each shell is a region where:
+From Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">14.3.2</a>, the field stratifies into shells. Each shell is a region where:
 
 - Graviton flow is predominantly tangential
 
@@ -4428,7 +4415,7 @@ GPT makes specific predictions that distinguish it from dark matter models:
 
 # Dark Energy as Global Flow Divergence
 
-We have established that the graviton medium is not static. It flows inward toward mass concentrations (Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>), stratifies into resonance shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">[subsec:shell_stratification]</a>), and supports wave propagation at speed $c$ (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). At galactic scales, its shell structure explains rotation curves without dark matter (Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
+We have established that the graviton medium is not static. It flows inward toward mass concentrations (Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>), stratifies into resonance shells (Section <a href="#subsec:shell_stratification" data-reference-type="ref" data-reference="subsec:shell_stratification">14.3.2</a>), and supports wave propagation at speed $c$ (Section <a href="#sec:em_waves" data-reference-type="ref" data-reference="sec:em_waves">23</a>). At galactic scales, its shell structure explains rotation curves without dark matter (Section <a href="#sec:dark_matter_shell" data-reference-type="ref" data-reference="sec:dark_matter_shell">27</a>).
 
 Now we address the largest scale: the universe as a whole.
 
@@ -4482,9 +4469,9 @@ $$\frac{\ddot{a}}{a} = -\frac{4\pi G}{3} (\rho_g + 3P_g/c^2)$$
 
 For ordinary matter, $P_g \approx 0$, so $\ddot{a}/a < 0$ — deceleration. For the graviton medium at cosmological scales, the self-repulsion contributes a negative pressure term:
 
-$$P_g \approx -\frac{1}{3} \rho_g c^2$$
+$$P_g < -\frac{1}{3} \rho_g c^2$$
 
-This gives $\rho_g + 3P_g/c^2 \approx 0$, and acceleration emerges from higher-order terms.
+This makes $\rho_g + 3P_g/c^2 < 0$, so $\ddot{a} > 0$: the expansion accelerates. (At exactly $-\tfrac{1}{3}\rho_g c^2$ it would coast.)
 
 **The acceleration is not from dark energy. It is from the medium’s own self-repulsion.**
 
@@ -4498,7 +4485,7 @@ In GPT, $\Lambda$ is not a fundamental constant. It is an **emergent property** 
 
 From the large-scale behavior of the medium, we can define:
 
-$$\Lambda_{\text{eff}} = \frac{1}{c^2} \nabla \cdot \mathbf{u}_{\text{cosmological}}$$
+$$\Lambda_{\text{eff}} = \frac{\left(\nabla \cdot \mathbf{u}_{\text{cosmological}}\right)^2}{3c^2}$$
 
 where $\mathbf{u}_{\text{cosmological}}$ is the Hubble flow. In a uniformly expanding medium:
 
@@ -4506,7 +4493,7 @@ $$\nabla \cdot \mathbf{u} = 3H(t)$$
 
 Thus:
 
-$$\Lambda_{\text{eff}}(t) = \frac{3H(t)}{c^2}$$
+$$\Lambda_{\text{eff}}(t) = \frac{3H(t)^2}{c^2}$$
 
 At the present epoch, $H_0 \approx 70 \, \text{km/s/Mpc} \approx 2.27 \times 10^{-18} \, \text{s}^{-1}$. In units of $\text{m}^{-2}$, the cosmological constant is $\Lambda \approx 1.1 \times 10^{-52} \, \text{m}^{-2}$. The relation $\Lambda = 3H_0^2/c^2$ gives $\Lambda \approx 3(2.27 \times 10^{-18})^2 / (9 \times 10^{16}) \approx 1.7 \times 10^{-52} \, \text{m}^{-2}$ — matching the observed value.
 
@@ -4795,7 +4782,7 @@ The map is not the territory. The equations are not the reality.
 
 **The medium is.**
 
-# Appendix A: Derivation of Uniform $\rho_0$ from Continuity and $g$ Profile
+# Appendix A: Inflow from Continuity and the $g$ Profile: Count and Active Pressure
 
 We derive the surprising result that the graviton medium density $\rho_g$ is constant outside a spherical mass, to first order.
 
@@ -4835,19 +4822,11 @@ This appears to depend on $r^{3/2}$. However, this is the *total* density. The b
 
 #### Step 3: Separate background and perturbation.
 
-Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. The absorption constant $\alpha$ is not independent — it is determined by the medium’s properties and the mass’s coherence. For a steady-state solution that matches the background at infinity, we require that the perturbation decays faster than $1/r^{3/2}$. The full solution (including the back-reaction of the medium on itself) yields:
-
-$$\delta \rho(r) = \rho_0 \frac{2GM}{c^2 r} + \mathcal{O}\left(\frac{GM}{c^2 r}\right)^2$$
-
-Thus:
-
-$$\rho_g(r) = \rho_0 \left(1 + \frac{2GM}{c^2 r} + \cdots\right)$$
-
-For Earth, $2GM/(c^2 R) \approx 1.4 \times 10^{-9}$, so the density variation is tiny. **To first order, $\rho_g$ is constant outside the mass.**
+Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. Continuity with $v = \sqrt{2GM/r}$ gives a count of gravitons that rises toward the mass as $r^{-3/2}$ near it, returning to the background $\rho_0$ far away; the form of the transition depends on the large-scale boundary conditions. An earlier version of this appendix stated that “the full solution (including the back-reaction of the medium on itself)” gives $\delta\rho = \rho_0\,2GM/c^2 r$, so that the density is uniform to first order. That solution was not shown, and it is not needed: the results of this paper use the active pressure $P_g = P_0(1 - 2GM/c^2 r)$, which follows from Bernoulli’s relation (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>), not the count. **\[Open\]**
 
 #### Conclusion:
 
-The vacuum density is uniform. This is not an assumption — it is derived from continuity and the observed gravity profile.
+The count of gravitons rises toward a mass; the active pressure falls. The equation of state that connects them is still to be derived. **\[Open\]**
 
 ## Derivation of Inward Flow Velocity and Force Density
 
@@ -4907,51 +4886,51 @@ $$g = \gamma \rho_0 v(R)^2 \frac{\sigma}{m_{\text{atom}}}$$
 
 The scattering cross-section for graviton-atom interactions is determined by the coupling between the medium and matter. Dimensional analysis gives:
 
-$$\sigma = \frac{\kappa}{m_{\text{atom}}} \cdot \frac{1}{c^2}$$
+$$\sigma = \kappa \left(\frac{\hbar}{m_{\text{atom}}\, c}\right)^2$$
 
-where $\kappa$ is a dimensionless constant. The factor $1/m_{\text{atom}}$ ensures that heavier atoms (more nucleons) have larger cross-section.
+where $\kappa$ is a dimensionless constant. ($\hbar/m_{\text{atom}}c$ is the atom’s reduced Compton wavelength, the only length that can be formed from $\hbar$, $m_{\text{atom}}$ and $c$.)
 
 #### Step 4: Determine $\kappa$ from self-consistency.
 
 Substitute $\sigma$ into the equation for $g$:
 
-$$g = \gamma \rho_0 v(R)^2 \frac{1}{m_{\text{atom}}} \cdot \frac{\kappa}{m_{\text{atom}} c^2}$$
+$$g = \gamma \rho_0 v(R)^2 \, \frac{\kappa \hbar^2}{m_{\text{atom}}^3 c^2}$$
 
 From Section <a href="#sec:inward_flow" data-reference-type="ref" data-reference="sec:inward_flow">11</a>, $v(R) = \sqrt{2gR}$. Also, $g = GM/R^2$. The self-consistency condition determines $\kappa$.
 
 For Earth, $g = 9.8 \, \text{m/s}^2$, $\rho_0 \approx 10^{-26} \, \text{kg/m}^3$, $m_{\text{atom}} \approx 1.67 \times 10^{-27} \, \text{kg}$. Solving for $\kappa$ yields:
 
-$$\kappa \approx 3$$
+$$\kappa = \frac{m_{\text{atom}}^3 c^2}{2\gamma \rho_0 R \hbar^2} \approx 2 \times 10^{23}$$
 
 Thus:
 
-$$\sigma = \frac{3}{m_{\text{atom}} c^2}$$
+$$\sigma = \frac{m_{\text{atom}}}{2\gamma \rho_0 R} \approx 9 \times 10^{-9}\ \text{m}^2$$
 
 #### Step 5: Derive $g$ in terms of $\rho_0$.
 
 Substituting back:
 
-$$g = \gamma \rho_0 v(R)^2 \cdot \frac{3}{m_{\text{atom}}^2 c^2}$$
+$$g = \gamma \rho_0 v(R)^2 \, \frac{\kappa \hbar^2}{m_{\text{atom}}^3 c^2}$$
 
 Using $v(R)^2 = 2GM/R = 2gR$:
 
-$$g = \gamma \rho_0 (2gR) \cdot \frac{3}{m_{\text{atom}}^2 c^2}$$
+$$g = \gamma \rho_0 (2gR) \, \frac{\kappa \hbar^2}{m_{\text{atom}}^3 c^2}$$
 
 Cancel $g$ (non-zero):
 
-$$1 = \frac{6\gamma \rho_0 R}{m_{\text{atom}}^2 c^2}$$
+$$1 = \frac{2\gamma \kappa \rho_0 R \hbar^2}{m_{\text{atom}}^3 c^2}$$
 
-This gives a relation between $R$ and $\rho_0$ for a given body. For Earth, with $R = 6.37 \times 10^6$ m, $\rho_0 \approx 10^{-26}$, $m_{\text{atom}} = 1.67 \times 10^{-27}$, the equation is satisfied with $\gamma \kappa \approx 3$. Taking $\gamma = 3/2$ gives $\kappa = 2$.
+This gives a relation between $R$ and $\rho_0$ for a given body. For Earth, with $R = 6.37 \times 10^6$ m, $\rho_0 \approx 10^{-26}$, $m_{\text{atom}} = 1.67 \times 10^{-27}$, the equation is satisfied with $\gamma \kappa \approx 3 \times 10^{23}$. Taking $\gamma = 3/2$ gives $\kappa \approx 2 \times 10^{23}$.
 
 Thus:
 
-$$\sigma = \frac{2}{m_{\text{atom}} c^2}$$
+$$\sigma = \frac{m_{\text{atom}}}{2\gamma \rho_0 R} = \frac{m_{\text{atom}}}{3 \rho_0 R} \approx 9 \times 10^{-9}\ \text{m}^2$$
 
 And the final expression for surface gravity is:
 
-$$g = \frac{3\rho_0 v^2}{m_{\text{atom}}} \cdot \frac{2}{m_{\text{atom}} c^2} = \frac{6 \rho_0 v^2}{m_{\text{atom}}^2 c^2}$$
+$$g = \frac{3}{2}\rho_0 v^2 \, \frac{\sigma}{m_{\text{atom}}} = \frac{v^2}{2R}$$
 
-With $v^2 = 2GM/R$, we recover Newtonian gravity. The key result is the proportionality: $g \propto \rho_0 / m_{\text{atom}}^2$. For fixed atomic composition, surface gravity is determined by vacuum density.
+With $v^2 = 2GM/R$, we recover Newtonian gravity. Because $v^2 = 2gR$ was used as an input, this is a consistency condition rather than an independent prediction of $g$: it fixes the cross-section per atom, $\sigma = m_{\text{atom}}/(3\rho_0 R)$, which as written depends on the body’s radius. A cross-section that is the same for every body is still needed before this appendix can predict $g$ from $\rho_0$.
 
 # Appendix C: Formalization of the GPT Unit Space
 
@@ -4969,7 +4948,7 @@ The baseline vacuum background pressure far from mass sinks is denoted as $P_0 \
 
 1.  **Coherence Resistance ($C_{\text{res}}$):** Measures an atomic lattice’s impedance to coherent graviton flow\[cite: 5\]. It quantifies the pressure drop required to maintain structural alignment\[cite: 5\]: $$C_{\text{res}} = \frac{\Delta P_g}{\Phi_{\text{flux}}} \quad \left[\frac{\text{gp}}{\text{m}^3/\text{s}}\right]$$ High $C_{\text{res}}$ materials (e.g., dense ferromagnets) produce steep local pressure gradients and high GCI (Graviton Compatibility Index) values\[cite: 1, 5\].
 
-2.  **Graviton Torque ($T_{gp}$):** The rotational shear stress induced on a spinning or non-uniform mass by anisotropic graviton inflow\[cite: 5\]: $$T_{gp} = \vec{r} \times (-\nabla P_g) \quad [\text{gp} \cdot \text{m}]$$ This governs spin-orbit resonance locking, tidal synchronization, and gyroscopic corridor retention\[cite: 1, 5\].
+2.  **Graviton Torque ($T_{gp}$):** The rotational shear stress induced on a spinning or non-uniform mass by anisotropic graviton inflow\[cite: 5\]: $$T_{gp} = \vec{r} \times (-V_{\text{eff}}\nabla P_g) \quad [\text{N} \cdot \text{m} = \text{gp} \cdot \text{m}^3]$$ This governs spin-orbit resonance locking, tidal synchronization, and gyroscopic corridor retention\[cite: 1, 5\].
 
 3.  **Effective Coupling Ratio ($\kappa$):** The linear scaling factor relating macroscopic mass $m$ to its effective graviton interaction volume $V_{\text{eff}}$\[cite: 1, 5\]: $$V_{\text{eff}} = \kappa m \quad \left[\frac{\text{m}^3}{\text{kg}}\right]$$ This establishes why gravitational weight ($\vec{F} = -V_{\text{eff}} \nabla P_g = -\kappa m \nabla P_g$) scales strictly with atomic mass count\[cite: 1, 5\].
 
@@ -5053,7 +5032,7 @@ This is the proper time per tick. The clock’s rate is $1/\tau$.
 
 #### Step 2: Gravitational time dilation (isotropic case).
 
-In a region of higher graviton density (near a mass), the ambient flux is increased. Both $N$ and $\Gamma$ change:
+Near a mass, the ambient flux of gravitons is increased while their active pressure is lower. Both $N$ and $\Gamma$ change:
 
 - $\Gamma(r) = \Gamma_0 \cdot f(r)$, where $f(r) > 1$ is the flux enhancement factor
 
@@ -5063,7 +5042,7 @@ The tick duration becomes:
 
 $$\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}$$
 
-From detailed balance (derived from medium dynamics), the load factor grows faster than the flux enhancement:
+The load factor grows faster than the flux enhancement. The ratio has not yet been derived from the medium’s dynamics; **\[Open\]** taking the principle of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>, that the tick rate scales as $\sqrt{P_g/P_0}$ with $P_g/P_0 = 1 - 2GM/c^2 r$, it is: **\[Hypothesis\]**
 
 $$\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}$$
 
@@ -5085,7 +5064,7 @@ The effective flux enhancement is:
 
 $$\Gamma(v) = \Gamma_0 \cdot \gamma(v), \quad \gamma(v) = \frac{1}{\sqrt{1 - v^2/c^2}}$$
 
-The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. The load factor grows as:
+The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. The load factor is taken to grow as the square of $\gamma$. This scaling is assumed, chosen so that the result reproduces the measured time dilation of moving clocks; deriving it from the anisotropic exchange remains open. **\[Open\]**
 
 $$N(v) = N_0 \cdot \gamma(v)^2$$
 
@@ -5093,7 +5072,7 @@ Thus:
 
 $$\tau(v) = \frac{N_0 \gamma(v)^2}{\Gamma_0 \gamma(v)} = \tau_0 \gamma(v)$$
 
-This is the special relativistic time dilation formula — but derived from medium mechanics, not from the Lorentz transformation as an axiom.
+This is the special relativistic time dilation formula, given a mechanical setting in the medium instead of being taken from the Lorentz transformation as an axiom. Its load scaling remains to be derived.
 
 #### Step 4: Why both forms share the same structure.
 
@@ -5121,7 +5100,7 @@ The medium is described by:
 
 #### Step 2: Lagrangian density.
 
-$$\mathcal{L} = \frac{1}{2} \rho_g u^2 - \mathcal{U}(\rho_g) + \frac{\epsilon_0}{2} (\nabla \psi)^2 - \frac{1}{2\mu_0} (\nabla \times \mathbf{A})^2 - \alpha \sigma_q \psi + \beta \mathbf{J}_q \cdot \mathbf{A} - \lambda (\nabla \cdot (\rho_g \mathbf{u}) + S)$$
+$$\mathcal{L} = \frac{1}{2} \rho_g u^2 - \mathcal{U}(\rho_g) + \frac{\epsilon_0}{2} \left(\nabla \psi + \frac{\partial \mathbf{A}}{\partial t}\right)^2 - \frac{1}{2\mu_0} (\nabla \times \mathbf{A})^2 - \sigma_q \psi + \mathbf{J}_q \cdot \mathbf{A} - \lambda (\nabla \cdot (\rho_g \mathbf{u}) + S)$$
 
 where:
 
@@ -5139,15 +5118,15 @@ where:
 
 Variation with respect to $\psi$ gives the Poisson equation:
 
-$$\nabla^2 \psi = -\frac{\alpha}{\epsilon_0} \sigma_q$$
+$$\nabla^2 \psi = -\frac{\sigma_q}{\epsilon_0} = -\alpha\, \sigma_q \quad \text{(Coulomb gauge)}$$
 
 Variation with respect to $\mathbf{A}$ gives the Ampère-like equation:
 
-$$\nabla \times (\nabla \times \mathbf{A}) - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = \mu_0 \mathbf{J}_q$$
+$$\nabla \times (\nabla \times \mathbf{A}) + \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = \mu_0 \mathbf{J}_q - \frac{1}{c^2}\frac{\partial}{\partial t}\nabla\psi$$
 
 In Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$), this reduces to:
 
-$$\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}_q$$
+$$\nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\mu_0 \mathbf{J}_{q,\perp} \quad \text{(transverse part of the current; static limit } \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}_q \text{)}$$
 
 Variation with respect to $\rho_g$ and $\mathbf{u}$ (with the constraint) gives the fluid equations:
 
@@ -5179,16 +5158,29 @@ The GPT field equations are not identical to Einstein’s equations. They are a 
 
 The mathematical relationship is: $g_{\mu\nu}^{\text{GR}}$ is an effective metric derived from $\rho_g$ and $\mathbf{u}$, not a fundamental entity.
 
+# References Added in the November 2026 Revision
+
+- R. H. Dicke, “Gravitation without a Principle of Equivalence,” *Reviews of Modern Physics* 29, 363–376 (1957).
+
+- E. Fomalont, S. Kopeikin, G. Lanyi and J. Benson, “Progress in Measurements of the Gravitational Bending of Radio Waves Using the VLBA,” *Astrophysical Journal* 699, 1395–1402 (2009).
+
+- M. Froeschlé, F. Mignard and F. Arenou, “Determination of the PPN Parameter $\gamma$ with the Hipparcos Data,” ESA SP-402, 49–52 (1997).
+
+- B. Bertotti, L. Iess and P. Tortora, “A Test of General Relativity Using Radio Links with the Cassini Spacecraft,” *Nature* 425, 374–376 (2003).
+
+- S. A. Rashada, *Introduction to the Unified Framework*, second edition (2026), Appendix 1.A.
+
 # Summary of Appendices
 
 <div class="center">
 
-| **Appendix** | **Content**                      | **Purpose**                             |
-|:-------------|:---------------------------------|:----------------------------------------|
-| A            | Uniform $\rho_0$ from continuity | Establishes vacuum density constancy    |
-| B            | Scattering cross-section and $g$ | Derives weight mechanism quantitatively |
-| C            | Bistable potential for charge    | Explains two signs and persistence      |
-| D            | N/$\Gamma$ cycle derivation      | Complete time dilation mechanism        |
-| F            | Unified Lagrangian               | Formal field equations                  |
+| **Appendix** | **Content**                                | **Purpose**                                                                                          |
+|:-------------|:-------------------------------------------|:-----------------------------------------------------------------------------------------------------|
+| A            | Inflow from continuity and the $g$ profile | Establishes the inflow speed and the active-pressure profile; the count-to-pressure relation is open |
+| B            | Scattering cross-section and $g$           | Consistency condition for weight; a body-independent cross-section is open                           |
+| C            | The GPT unit space                         | Units for pressure, coherence resistance and torque                                                  |
+| D            | Bistable potential for charge              | Explains two signs and persistence                                                                   |
+| E            | N/$\Gamma$ cycle                           | Time dilation in the medium; the load scalings are open                                              |
+| F            | Unified Lagrangian                         | Formal field equations                                                                               |
 
 </div>
