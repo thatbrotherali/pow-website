@@ -41,6 +41,10 @@ The document texts live in `src/library/`. They were converted from the original
 
 When the site moves to peopleoftheworld.net, change `SITE_URL` near the top of `build.py` and rebuild, so the sitemap, citations and search-engine addresses use the new domain. `robots.txt`, `sitemap.xml` and `llms.txt` only count once they sit at the root of the domain.
 
+## The journal (A Deeper Look)
+
+Each edition is one file in `src/journal/`, named by its week-ending date (see the notes at the top of `journal.py`). `python build.py` makes `journal/` and a page for each edition, and adds the journal links to the hub and footer once the first edition exists.
+
 ## Publishing with GitHub Pages (free)
 
 1. Install **GitHub Desktop** and sign in.

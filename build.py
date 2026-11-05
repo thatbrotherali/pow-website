@@ -6,7 +6,7 @@ Everything in ./docs is plain HTML/CSS/JS and can be uploaded to any host (GitHu
 The free online edition of The Portal Opens is generated from src/portal.txt.
 """
 import html, re, pathlib, json
-import audiobook
+import audiobook, journal
 
 ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "docs"
@@ -105,12 +105,13 @@ def header(name="People of the World", sub=None, nav=()):
 
 def footer(current=None):
     doors = "".join(f'<a href="{s}.html">{esc(DOOR_NAMES[s])}</a>' for s, *_ in DOORS if s != current)
+    journal_link = f'<a href="journal/index.html">{journal.NAME}: the journal</a>' if journal.has_editions(ROOT) else ""
     return f"""<footer class="site-footer">
 <div class="wrap">
 <div class="cols">
 <div class="col wide"><strong style="font-family:var(--display);font-size:22px;font-weight:400">People of the World</strong>
 <span>Knowledge, morality, unity and peace, for a world ready for the celestial return.</span></div>
-<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}<a href="videos.html">Videos</a><a href="play.html">Brain training games</a><a href="about.html">About Shareef</a></nav>
+<nav class="col" aria-label="The wider mission"><strong>The wider mission</strong><a href="index.html">The hub</a>{doors}{journal_link}<a href="videos.html">Videos</a><a href="play.html">Brain training games</a><a href="about.html">About Shareef</a></nav>
 <nav class="col" aria-label="Shop"><strong>Books and shop</strong><a href="books.html">All books</a><a href="librarians.html">For librarians</a><a href="#" data-link="shop">Shop</a><a href="#" data-link="support">Support the mission</a></nav>
 <div class="col"><strong>Contact</strong><span class="copy-row"><span>{CONTACT}</span><button class="copy-btn" type="button" data-copy="{CONTACT}">Copy</button></span></div>
 </div>
@@ -375,7 +376,8 @@ def door_cards(exclude=None):
 
 def build_hub():
     vband, vld = video_band('hub', 'Meet People of the World', 'index.html', 'A one-minute introduction. More on the Videos page.', False)
-    body = f"""{header(nav=[("Choose a door", "#doors", False, None), ("The reading path", "#path", False, None),
+    journal_nav = [(journal.NAME, "journal/index.html", False, None)] if journal.has_editions(ROOT) else []
+    body = f"""{header(nav=[("Choose a door", "#doors", False, None), ("The reading path", "#path", False, None), *journal_nav,
                         ("Books", "books.html", False, None), ("Brain training", "play.html", False, None), ("Shop", "#", False, "shop"),
                         ("Support the mission", "#", True, "support")])}
 <main>
@@ -1814,6 +1816,8 @@ if __name__ == "__main__":
     build_support()
     build_books()
     build_about()
+    import sys
+    journal.build(sys.modules[__name__])
     import sys, videos
     videos.build(sys.modules[__name__])
     import sys, library_pages

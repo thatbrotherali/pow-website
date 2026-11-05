@@ -1,0 +1,19 @@
+/* A Deeper Look: status colours and edition layout. Red is never used: unproven is not wrong. */
+:root{--st-e:#2E7A32;--st-e-line:#4CAF50;--st-a:#1B62AE;--st-a-line:#2E86DE;--st-h:#9A5F12;--st-h-line:#F2A93B;--st-o:#6E43A8;--st-o-line:#9B6BD3}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--st-e:#8BD86C;--st-a:#8CC4F7;--st-h:#F5BE6A;--st-o:#C9AEEE}
+}
+:root[data-theme="dark"]{--st-e:#8BD86C;--st-a:#8CC4F7;--st-h:#F5BE6A;--st-o:#C9AEEE}
+.st{padding-bottom:1px}
+.st-e{color:var(--st-e);border-bottom:2px solid var(--st-e-line)}
+.st-a{color:var(--st-a);border-bottom:2px dashed var(--st-a-line)}
+.st-h{color:var(--st-h);border-bottom:2px dotted var(--st-h-line)}
+.st-o{color:var(--st-o);border-bottom:3px double var(--st-o-line)}
+.prose.journal figure img{padding:0;border:0;background:none}
+.prose .segment{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:3em 0 0}
+.journal-key{font-family:var(--body);font-size:16px;line-height:1.6;margin-top:3em;padding:22px 24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.prose .journal-key h2{margin:0 0 .4em;font-size:1.3rem}
+.prose .journal-key ul{list-style:none;padding:0;margin:12px 0 0}
+.prose .journal-key li{margin:.5em 0}
+.journal-sources{font-family:var(--body);font-size:15px;margin-top:2em}
+.journal-sources summary{cursor:pointer;font-weight:600}
