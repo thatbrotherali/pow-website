@@ -72,6 +72,8 @@ def build_edition(b, e, newer, older):
         links += f'<a class="pager-prev" href="journal/{older["slug"]}/index.html"><span>Previous edition</span>{b.esc(older["title"])}</a>'
     if newer:
         links += f'<a class="pager-next" href="journal/{newer["slug"]}/index.html"><span>Next edition</span>{b.esc(newer["title"])}</a>'
+    text, marker, rest = e["body"].partition('<details class="journal-sources">')
+    sources = marker + rest  # the key sits between the closing reflection and the sources
     body = f"""{b.header(NAME, "The journal of People of the World", nav())}
 <main>
 <section class="band"><div class="wrap section dg-hero">
@@ -80,8 +82,9 @@ def build_edition(b, e, newer, older):
 <p class="lead muted" style="max-width:700px;margin-top:16px">{b.esc(e["summary"])}</p>
 </div></section>
 <section class="section"><div class="wrap"><article class="prose journal">
-{e["body"]}
+{text}
 {key_html()}
+{sources}
 </article>
 <nav class="pager" aria-label="Other editions" style="max-width:68ch">{links}</nav>
 </div></section>
