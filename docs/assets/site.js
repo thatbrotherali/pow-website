@@ -33,6 +33,7 @@ const POW_FORMS = {
   "easykey-centers": "202465081567478812",// EasyKey Music Centers
   library: "202465082743981643",          // The Open Library
   support: "202465083803043649",          // Supporters
+  honorees: "203516612492396150",         // People of the World Honorees
 };
 const POW_SIGNUP_ENDPOINT = POW_ML + POW_FORMS.teachings + "/subscribe";
 const powEndpoint = list => POW_ML + (POW_FORMS[list] || POW_FORMS.teachings) + "/subscribe";

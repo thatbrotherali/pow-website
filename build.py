@@ -1814,6 +1814,8 @@ if __name__ == "__main__":
     build_music()
     build_builders()
     build_support()
+    import honorees
+    honorees.build(sys.modules[__name__])
     build_books()
     build_about()
     import sys
