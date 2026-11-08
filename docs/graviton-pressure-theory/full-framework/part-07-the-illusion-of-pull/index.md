@@ -270,7 +270,7 @@ The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rise
 
 When something stops the fall, the body is held against the flow. The support must then push, with the force $mg$ that keeps the body from being carried. That push is weight, and it is what every scale measures.
 
-The energy is located too. As the medium flows inward, its pressure falls and its speed rises, as in any fluid: pressure is converted into flow. The falling body’s kinetic energy is paid by that conversion. “Gravitational potential energy” is, on this view, the pressure of the medium.
+The energy is located too. As the medium flows inward, its pressure falls and its speed rises, as in any fluid: pressure is converted into flow. The falling body’s kinetic energy is paid by that conversion, and the delivery is not small: a 7-kilogram ball that has fallen for 1.4 seconds is receiving energy at about 960 watts, a feather at about a seventh of a watt, each exactly what its inertia demands (Part 11). “Gravitational potential energy” is, on this view, the pressure of the medium.
 
 **\[End of passage\]**
 
