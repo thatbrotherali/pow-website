@@ -4,13 +4,15 @@
 
 By Shareef Ali Rashada
 
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
+
 # Abstract
 
 Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.
 
-# Revision Note, November 2026
+# How to Read This Paper
 
-This edition brings the paper into line with the second edition of the Unified Framework. The October 2026 equation corrections, previously shown as notes beside the web version, are now part of the text. In addition: the light-deflection coefficient is no longer described as fixed by matching observations or derived in an appendix that did not contain it; the refractive index now follows from the medium’s pressure profile and one stated principle, that clocks and rulers scale together (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>; Introduction, Appendix 1.A). The density of the medium near a mass now follows the working hypothesis that the count of gravitons rises while their active pressure falls. Clock-rate scalings that were asserted are marked as assumptions still to be derived. The predicted wavelength dependence of light bending is set against existing radio and optical measurements. Claims are labelled **\[Hypothesis\]** or **\[Open\]** where they are not yet derived.
+This paper sets out the current working model of the medium for the Unified Framework. It states each position as it now stands. What changed in the November 2026 revision is listed at the end, under Changes in This Revision.
 
 # The Opening Observation: Reality Works
 
@@ -2746,7 +2748,7 @@ The net effect is:
 
 $$\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}$$
 
-The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster has not yet been derived from the medium’s dynamics. **\[Open\]** GPT’s principle (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>) is that the tick rate scales as $\sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$ fixed by the measured redshift. **\[Hypothesis\]** The result is:
+The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster has not yet been derived from the medium’s dynamics. **\[Open\]**GPT’s principle (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>) is that the tick rate scales as $\sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$ fixed by the measured redshift. **\[Hypothesis\]** The result is:
 
 $$\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}$$
 
@@ -4822,7 +4824,7 @@ This appears to depend on $r^{3/2}$. However, this is the *total* density. The b
 
 #### Step 3: Separate background and perturbation.
 
-Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. Continuity with $v = \sqrt{2GM/r}$ gives a count of gravitons that rises toward the mass as $r^{-3/2}$ near it, returning to the background $\rho_0$ far away; the form of the transition depends on the large-scale boundary conditions. An earlier version of this appendix stated that “the full solution (including the back-reaction of the medium on itself)” gives $\delta\rho = \rho_0\,2GM/c^2 r$, so that the density is uniform to first order. That solution was not shown, and it is not needed: the results of this paper use the active pressure $P_g = P_0(1 - 2GM/c^2 r)$, which follows from Bernoulli’s relation (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>), not the count. **\[Open\]**
+Let $\rho_g(r) = \rho_0 + \delta \rho(r)$. Continuity with $v = \sqrt{2GM/r}$ gives a count of gravitons that rises toward the mass as $r^{-3/2}$ near it, returning to the background $\rho_0$ far away; the form of the transition depends on the large-scale boundary conditions. The results of this paper do not depend on that transition: they use the active pressure $P_g = P_0(1 - 2GM/c^2 r)$, which follows from Bernoulli’s relation (Section <a href="#subsec:constant_density" data-reference-type="ref" data-reference="subsec:constant_density">11.6</a>), not the count. The full solution for the density, including the medium’s back-reaction on itself, has not yet been derived. **\[Open\]**
 
 #### Conclusion:
 
@@ -5042,7 +5044,7 @@ The tick duration becomes:
 
 $$\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}$$
 
-The load factor grows faster than the flux enhancement. The ratio has not yet been derived from the medium’s dynamics; **\[Open\]** taking the principle of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>, that the tick rate scales as $\sqrt{P_g/P_0}$ with $P_g/P_0 = 1 - 2GM/c^2 r$, it is: **\[Hypothesis\]**
+The load factor grows faster than the flux enhancement. The ratio has not yet been derived from the medium’s dynamics; **\[Open\]**taking the principle of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>, that the tick rate scales as $\sqrt{P_g/P_0}$ with $P_g/P_0 = 1 - 2GM/c^2 r$, it is: **\[Hypothesis\]**
 
 $$\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}$$
 
@@ -5184,3 +5186,35 @@ The mathematical relationship is: $g_{\mu\nu}^{\text{GR}}$ is an effective metri
 | F            | Unified Lagrangian                         | Formal field equations                                                                               |
 
 </div>
+
+# Changes in This Revision
+
+This list records what changed in the November 2026 revision, which brings the paper into line with the second edition of the Unified Framework. Corrections first shown in October 2026 as notes beside the web version are now part of the text. Changes to the argument alter what the paper claims or how it supports a claim; clarifications correct wording, notation or slips whose results are unchanged.
+
+## Changes to the argument
+
+- Pressure and force (Section 11). With $P \propto \rho v^2$ the pressure would be highest near the mass and the force would push outward. The pressure is now the static (Bernoulli) pressure $P_g = P_0 - \tfrac12\rho_g v^2$, whose gradient gives an inward force with $\kappa = 1/\rho_g$. This changes how the force is derived.
+
+- Density near a mass (Sections 10 and 23, Appendix A). The paper no longer states that the density is uniform to first order, a result whose derivation was not shown. It follows the working hypothesis that the count of gravitons rises toward a mass while the active pressure falls; light, clocks and lensing are described by the pressure profile.
+
+- Light deflection (Sections 14 and 23). The coefficient is no longer described as fixed by matching observations or as derived in Appendix C. The index $n = P_0/P \approx 1 + 2GM/c^2 r$ follows from the pressure profile and one principle, that clocks and rulers scale together; the same index gives the Shapiro delay (see the Introduction, Appendix 1.A).
+
+- Clocks (Sections 16 and 25, Appendix E). The clock rate from matter waves is now $\tau = \tau_0\sqrt{n}$, which gives the measured shift; $\tau_0 n$ gave twice it. The load factor no longer cites a detailed-balance argument in Appendix D, which is about charge. The $\sqrt{P/P_0}$ principle is marked as a hypothesis, and the $\gamma^2$ load for moving clocks as assumed.
+
+- Cosmology (Section 27). Acceleration needs $P_g < -\tfrac13\rho_g c^2$. $\Lambda$ has units of 1/m<sup>2</sup>, so the dimensionally consistent form is $\Lambda_{\text{eff}} = (\nabla\cdot\mathbf{u})^2/3c^2 = 3H^2/c^2$. This changes the number compared with the observed $\Lambda$.
+
+- Appendix B. The cross-section now has units of area, $\sigma = \kappa(\hbar/m_{\text{atom}}c)^2$. Because $v^2 = 2gR$ is an input, the condition fixes $\sigma$ rather than predicting $g$, and that $\sigma$ depends on the body; a body-independent cross-section is open.
+
+- Lensing (Section 24), waves (Section 22) and the Lagrangian (Appendix F): the lensing deflection uses the mass inside the impact radius, and shear comes from second derivatives of the lensing potential; the vector-potential equation has the source with the correct sign; the couplings in the Lagrangian now reproduce Section 19’s equation, and the Ampère-like equation is a wave equation.
+
+- The predicted wavelength dependence of light bending is set against radio and optical measurements, which agree to a few parts in a thousand.
+
+## Clarifications
+
+- Sign and notation slips whose results are unchanged: the surface condition in Section 10; the coupling $k$ ($k = v/2$ at each radius); the velocity profile ($v = \sqrt{2GM/r}$ stands); the charge interaction energy and the Gauss’s-law step (Sections 17–18); $1/(\varepsilon_0\mu_0)$ as a product, not a ratio; the light-deflection integral (1.75 arcseconds stands).
+
+- The Laplace resonance: Io, Europa and Ganymede orbit with frequencies in the ratio 4 : 2 : 1. Appendix C: a torque needs the volume the gradient acts on. The graviton flux is written $\Phi_{\text{flux}}$ so it is not confused with the potential.
+
+- The Shapiro delay is given for a single pass, and in GR it comes from both the time and space parts of the metric. The summary of appendices now matches the appendices; a missing label and a mis-declared table are fixed; a duplicated line is removed.
+
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.

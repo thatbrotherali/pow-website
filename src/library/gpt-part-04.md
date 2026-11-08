@@ -4,15 +4,17 @@
 
 By Shareef Ali Rashada
 
-# A Note on This Edition
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-The first edition of this chapter told the story of gravity in two acts: Newton, who described its effects without a cause, and Einstein, who replaced force with geometry, again without a cause. That story is true as far as it goes. But it stops in 1916, and much has happened since.
+# About This Paper
 
-This edition carries the story forward to the present. It records the great confirmations of the last century, because they are real and must be stated plainly. It records, just as plainly, the places where the story does not fit: the matter that has never been found, the energy that cannot be explained, the measurements that disagree, and above all the failure, after nearly a century of effort, to join gravity to quantum theory.
+This paper tells the story of gravity from Newton to the present. Newton described its effects without a cause. Einstein replaced force with geometry, again without a cause. Much has happened since 1916, and the story is carried forward here to 2026.
 
-And it draws out what the first edition only hinted at. Gravity today is not explained by one theory. It is handled by several, each assigned its own territory—Newton for the engineer and the galaxy, Einstein for the clock and the black hole, quantum mechanics for the falling neutron, particle physics for the hypothetical graviton, unseen matter and energy for the rest. The borders between these territories are not features of nature. They are features of our explanations. Gravity does not change what it is when a calculation changes hands.
+It records the great confirmations of the last century, because they are real and must be stated plainly. It records, just as plainly, the places where the story does not fit: the matter that has never been found, the energy that cannot be explained, the measurements that disagree, and above all the failure, after nearly a century of effort, to join gravity to quantum theory.
 
-The status labels of the second edition apply: **\[Established\]**, **\[Argued\]**, **\[Hypothesis\]**, **\[Open\]**. The registers of explanation introduced in Part 3—**\[N\]** Newtonian force, **\[GR\]** geometry, **\[FR\]** frame forces, **\[C\]** contact, **\[EN\]** energy and potential, **\[Q\]** particle exchange, **\[DS\]** the dark sector—are used again here.[^1]
+And it draws out one thing more. Gravity today is not explained by one theory. It is handled by several, each assigned its own territory—Newton for the engineer and the galaxy, Einstein for the clock and the black hole, quantum mechanics for the falling neutron, particle physics for the hypothetical graviton, unseen matter and energy for the rest. The borders between these territories are not features of nature. They are features of our explanations. Gravity does not change what it is when a calculation changes hands.
+
+Claims about Graviton Pressure Theory are marked by their status, as the key shows. The registers of explanation introduced in Part 3—**\[N\]** Newtonian force, **\[GR\]** geometry, **\[FR\]** frame forces, **\[C\]** contact, **\[EN\]** energy and potential, **\[Q\]** particle exchange, **\[DS\]** the dark sector—are used again here.[^1]
 
 # The Promise of Gravity
 
@@ -46,7 +48,7 @@ And throughout it all, the ground still pressed against our feet, bodies still t
 
 # A Century of Advances
 
-General Relativity has passed every precision test put to it for more than a hundred years. **\[Established\]** Any honest account of gravity must say so plainly, and must explain these results, not wave them away.
+General Relativity has passed every precision test put to it for more than a hundred years. Any honest account of gravity must say so plainly, and must explain these results, not wave them away.
 
 | **Year** | **Advance**                                                                                        | **What it showed**                                                                         |
 |:---------|:---------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
@@ -73,7 +75,7 @@ General Relativity has passed every precision test put to it for more than a hun
 <figcaption>A century of advances in gravitational physics. Most confirm General Relativity; the quantum experiments are described with Newton’s potential; and the most recent signals point to what remains unexplained.</figcaption>
 </figure>
 
-GPT must account for every confirmed result in this table. **\[Established\]** Part 1 shows how it obtains two of them—the bending of light and the radar delay—from the medium.[^28] The others are taken up in the parts that follow.
+GPT must account for every confirmed result in this table. Part 1 shows how it obtains two of them—the bending of light and the radar delay—from the medium.[^28] The others are taken up in the parts that follow.
 
 # Where the Story Does Not Fit
 
@@ -81,11 +83,11 @@ Beside the confirmations stand the results that do not fit the standard account 
 
 ## Matter No One Has Found
 
-Since Zwicky in 1933 and Rubin in the 1970s, galaxies and clusters have been seen to move as if they contained far more mass than we can see.[^29] The standard explanation is dark matter: about five times as much unseen matter as ordinary matter.[^30] After four decades of direct searches, no dark-matter particle has been detected. **\[Established\]** In September 2026 the LZ experiment reported a single event it could not explain, at a significance well short of a discovery, and explicitly did not claim to have seen dark matter.[^31]
+Since Zwicky in 1933 and Rubin in the 1970s, galaxies and clusters have been seen to move as if they contained far more mass than we can see.[^29] The standard explanation is dark matter: about five times as much unseen matter as ordinary matter.[^30] After four decades of direct searches, no dark-matter particle has been detected. In September 2026 the LZ experiment reported a single event it could not explain, at a significance well short of a discovery, and explicitly did not claim to have seen dark matter.[^31]
 
 ## A Regularity That Unseen Matter Does Not Predict
 
-Galaxies also show a striking regularity. Across 153 galaxies of every size, the acceleration of stars and gas at each radius is predicted, with small scatter, by the visible matter alone, through a single relation with one characteristic acceleration of about $1.2\times10^{-10}\,\mathrm{m/s^2}$.[^32] Mordehai Milgrom predicted such a relation in 1983 by modifying Newton’s law below that acceleration (MOND).[^33] In the dark-matter picture, the relation has to emerge from the way galaxies form; in MOND, it is built in, but MOND struggles with galaxy clusters and cosmology. Whether wide binary stars, orbiting each other at such low accelerations, deviate from Newton is currently disputed, with opposing analyses of the same Gaia data.[^34] **\[Open\]**
+Galaxies also show a striking regularity. Across 153 galaxies of every size, the acceleration of stars and gas at each radius is predicted, with small scatter, by the visible matter alone, through a single relation with one characteristic acceleration of about $1.2\times10^{-10}\,\mathrm{m/s^2}$.[^32] Mordehai Milgrom predicted such a relation in 1983 by modifying Newton’s law below that acceleration (MOND).[^33] In the dark-matter picture, the relation has to emerge from the way galaxies form; in MOND, it is built in, but MOND struggles with galaxy clusters and cosmology. Whether wide binary stars, orbiting each other at such low accelerations, deviate from Newton is currently disputed, with opposing analyses of the same Gaia data. **\[Open\]**[^34]
 
 ## Energy No One Can Explain
 
@@ -95,7 +97,7 @@ The accelerating expansion is attributed to dark energy, about 68% of the univer
 
 - **The expansion rate.** Measured from the early universe, the Hubble constant is about 67 km/s/Mpc;[^38] measured from nearby supernovae calibrated with Cepheid stars, it is about 73.[^39] Another nearby method gives about 70.[^40] The disagreement, the Hubble tension, is unresolved. **\[Open\]**
 
-- **The strength of gravity itself.** Laboratory measurements of the gravitational constant $G$ disagree with one another by more than their stated uncertainties allow, at the level of a few parts in ten thousand.[^41] $G$ remains the least precisely known fundamental constant. **\[Established\]**
+- **The strength of gravity itself.** Laboratory measurements of the gravitational constant $G$ disagree with one another by more than their stated uncertainties allow, at the level of a few parts in ten thousand.[^41] $G$ remains the least precisely known fundamental constant.
 
 ## The Shape of the Pattern
 
@@ -107,15 +109,15 @@ The deepest gap in gravitational physics is not an anomaly. It is an absence.
 
 ## Two Theories That Do Not Join
 
-Every other known interaction—electromagnetism, the weak force, the strong force—is described by quantum field theory, in which forces are carried by quanta exchanged between particles. Gravity alone is not. General Relativity is a classical theory of smooth geometry; quantum theory is a theory of discrete, probabilistic exchange on a fixed stage. Where both must apply at once—at the centre of a black hole, at the beginning of the universe—the theories give no consistent answer. **\[Established\]**
+Every other known interaction—electromagnetism, the weak force, the strong force—is described by quantum field theory, in which forces are carried by quanta exchanged between particles. Gravity alone is not. General Relativity is a classical theory of smooth geometry; quantum theory is a theory of discrete, probabilistic exchange on a fixed stage. Where both must apply at once—at the centre of a black hole, at the beginning of the universe—the theories give no consistent answer.
 
 ## Why the Obvious Approach Fails
 
-The obvious approach is to treat gravity like the other forces: a field carried by a particle, the graviton, a massless quantum of spin 2. At low energies this works. Treated this way, General Relativity is a perfectly good effective field theory, and it even predicts tiny quantum corrections to Newton’s law.[^42] But at high energies the calculation breaks down: the infinities that are tamed in the other forces cannot be tamed in gravity. This was shown for gravity with matter in 1974, and for pure gravity at two loops in 1986.[^43] **\[Established\]**
+The obvious approach is to treat gravity like the other forces: a field carried by a particle, the graviton, a massless quantum of spin 2. At low energies this works. Treated this way, General Relativity is a perfectly good effective field theory, and it even predicts tiny quantum corrections to Newton’s law.[^42] But at high energies the calculation breaks down: the infinities that are tamed in the other forces cannot be tamed in gravity. This was shown for gravity with matter in 1974, and for pure gravity at two loops in 1986.[^43]
 
 ## A Carrier That Has Never Been Seen
 
-The graviton has never been detected. Freeman Dyson argued in 2013 that detecting a single graviton may be impossible even in principle with any conceivable detector.[^44] The energy at which quantum effects of gravity are expected to become strong, the Planck energy, is about $10^{19}$ GeV—some fifteen orders of magnitude beyond the most powerful particle collider ever built. **\[Established\]** No experiment has yet observed a quantum effect of gravity itself: an entanglement created by gravity, a graviton, or a measured granularity of spacetime. Experiments to test whether gravity can entangle two masses have been proposed, but not yet carried out.[^45] **\[Open\]**
+The graviton has never been detected. Freeman Dyson argued in 2013 that detecting a single graviton may be impossible even in principle with any conceivable detector.[^44] The energy at which quantum effects of gravity are expected to become strong, the Planck energy, is about $10^{19}$ GeV—some fifteen orders of magnitude beyond the most powerful particle collider ever built. No experiment has yet observed a quantum effect of gravity itself: an entanglement created by gravity, a graviton, or a measured granularity of spacetime. Experiments to test whether gravity can entangle two masses have been proposed, but not yet carried out. **\[Open\]**[^45]
 
 <figure>
 <img src="assets/figures/fig4-3-energy-gap.svg" />
@@ -136,11 +138,11 @@ Many routes to quantum gravity have been developed over half a century:
 
 - **Emergent gravity**, in which Einstein’s equations arise like the equations of a fluid or a gas, from something more basic.[^50]
 
-None has made a confirmed prediction that distinguishes it from General Relativity. **\[Established\]** One related idea—that gravity causes the collapse of quantum superpositions—has been tested: its simplest version was ruled out underground in 2021.[^51]
+None has made a confirmed prediction that distinguishes it from General Relativity. One related idea—that gravity causes the collapse of quantum superpositions—has been tested: its simplest version was ruled out underground in 2021.[^51]
 
 ## Problems Built into the Theory
 
-General Relativity also predicts its own limits. Under general conditions, collapsing matter must form a singularity, where the theory’s quantities become infinite.[^52] Black holes should radiate and evaporate, according to a calculation that joins GR to quantum theory, but this radiation has never been observed, and what happens to the information that fell in remains disputed.[^53] And when General Relativity is quantised directly, time disappears from the basic equation—the “problem of time.”[^54] **\[Established\]**
+General Relativity also predicts its own limits. Under general conditions, collapsing matter must form a singularity, where the theory’s quantities become infinite.[^52] Black holes should radiate and evaporate, according to a calculation that joins GR to quantum theory, but this radiation has never been observed, and what happens to the information that fell in remains disputed.[^53] And when General Relativity is quantised directly, time disappears from the basic equation—the “problem of time.”[^54]
 
 ## What the Graviton Reveals
 
@@ -170,7 +172,7 @@ Step back from the individual theories, and a pattern appears. Gravity is not ex
 <figcaption>One gravity, many accounts. Each territory of gravitational physics is handled by a different theory, and the theories disagree about what gravity is.</figcaption>
 </figure>
 
-Within each territory, the account works. Across them, they contradict one another about whether gravity is a force, a geometry, a potential energy, a particle exchange, or something modified at a particular acceleration. **\[Established\]**
+Within each territory, the account works. Across them, they contradict one another about whether gravity is a force, a geometry, a potential energy, a particle exchange, or something modified at a particular acceleration.
 
 ## Where Is the Border?
 
@@ -184,7 +186,7 @@ Or consider the galaxy. Below an acceleration of about $10^{-10}\,\mathrm{m/s^2}
 
 If gravity has a single physical mechanism, then every territory is the same process seen under different conditions. The weak-field and strong-field regimes would differ in degree, not in kind. The quantum experiments would show the mechanism acting on matter waves. The galactic regularity would be a property of the mechanism at low accelerations, not an accident of galaxy formation or an arbitrary change of law. And the frontier between gravity and quantum theory would be a question about the mechanism, not a collision between two incompatible pictures. **\[Argued\]**
 
-Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]** Whether it can account for each territory—including the galactic regularity and the quantum experiments—is a test it must pass, not a claim it can assume. **\[Open\]**
+Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]**Whether it can account for each territory—including the galactic regularity and the quantum experiments—is a test it must pass, not a claim it can assume. **\[Open\]**
 
 # The Gravity We Live With
 
@@ -206,13 +208,43 @@ Graviton Pressure Theory is born from that dissatisfaction, but not from cynicis
 
 Graviton Pressure Theory begins where the others stop. It asks: what if gravity is not a pull, but a push? What if space is not curved, but filled? What if mass does not attract, but shades?
 
-In this model, gravity arises from an imbalance of pressure in a physical medium. **\[Hypothesis\]** Gravitons—real carriers, not abstract quanta—fill space. Mass does not sit idly in a void. It interrupts the medium. It creates shadows. The result is pressure: real, directional and testable.
+**\[Hypothesis: the passage that follows\]**
+
+In this model, gravity arises from an imbalance of pressure in a physical medium. Gravitons—real carriers, not abstract quanta—fill space. Mass does not sit idly in a void. It interrupts the medium. It creates shadows. The result is pressure: real, directional and testable.
 
 This, GPT proposes, is why you fall. This is why the chair pushes back. This is why a pendulum swings and slows. Not illusion, but contact. Not curvature, but flow.
+
+**\[End of passage\]**
 
 GPT does not ask you to believe. It asks you to look again—at the breath you draw, the ground beneath you, the strain in your legs when you rise—and then to test what it proposes, field by field, particle by particle, law by law.
 
 You have seen what gravity does, and how it has been explained. Now let us propose how it works.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- The first edition told the story in two acts, Newton and Einstein, and stopped in 1916. This edition carries it to 2026: A Century of Advances (Section 4.4), Where the Story Does Not Fit (4.5), Quantum Gravity, or the Lack of It (4.6), and Separate Domains, Switching Mechanisms (4.7), which draws out what the first edition only hinted at: that gravity is handled by several theories, each in its own territory.
+
+- “When it came time to verify GR, physicists fell back on Newtonian mechanics… a sleight of hand” overstated the case: the eclipse test used GR’s own prediction. The point is now made precisely with the Mercury calculation (531 arcseconds Newtonian plus 43 from GR), as a description of how the calculation is done, not as a charge of dishonesty.
+
+- “GR had no causality” and “Einstein gives us a metaphor” are now “named no mechanism” and “a geometry”. GR is a precise description, not a metaphor.
+
+- The comparison with electricity and magnetism no longer implies that the other forces pass the interface test without question. Physics names carriers for them; whether “virtual” exchange names what touches what is a question the framework asks of every theory, its own included.
+
+- The closing claims (“This is why you fall… It is contact”) are framed as GPT’s proposal, and gravitons as real carriers are marked as a Hypothesis.
+
+## Clarifications
+
+- New subtitle: *The Evolution of Gravitational Understanding: A Century of Advances, and What Still Does Not Fit*.
+
+- Three new figures: the timeline of advances (4.1), one gravity and its many accounts (4.2), and the energy gap to the Planck scale (4.3).
+
+- “Curvature of rivers” is now “courses of rivers”. The closing line now ends “propose how it works”.
+
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 

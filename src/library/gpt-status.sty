@@ -1,0 +1,44 @@
+% gpt-status.sty -- claim-status marks for the Unified Framework, second edition
+% Established: no mark.  Argued: solid blue underline.  Hypothesis: dashed orange underline.
+% Open: dotted grey underline and a small open circle.  Whole passages: a bar in the margin.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{gpt-status}[2026/11/08]
+\RequirePackage[normalem]{ulem}
+\RequirePackage{xcolor}
+\RequirePackage{pdfrender}
+\RequirePackage[most]{tcolorbox}
+\definecolor{stArg}{HTML}{1F4E9A}
+\definecolor{stHyp}{HTML}{C4620A}
+\definecolor{stOpen}{HTML}{6E767F}
+% The status word, invisible on the page but present in the text layer (for search, screen readers and AI)
+\newcommand{\stword}[1]{\leavevmode\rlap{\textpdfrender{TextRenderingMode=Invisible}{\tiny\ [#1]}}}
+\newcommand{\st@arg}{\bgroup\markoverwith{\textcolor{stArg}{\rule[-0.42ex]{0.1pt}{0.55pt}}}\ULon}
+\newcommand{\st@hyp}{\bgroup\markoverwith{\kern0.08em\textcolor{stHyp}{\rule[-0.45ex]{0.34em}{0.7pt}}\kern0.08em}\ULon}
+\newcommand{\st@open}{\bgroup\markoverwith{\kern0.09em\textcolor{stOpen}{\rule[-0.52ex]{0.13em}{0.13em}}\kern0.09em}\ULon}
+\newcommand{\st@circ}{\nobreak\,{\color{stOpen}\raisebox{0.1ex}{\scriptsize$\circ$}}}
+\newcommand{\argm}[1]{\st@arg{#1}\stword{Argued}}
+\newcommand{\hypm}[1]{\st@hyp{#1}\stword{Hypothesis}}
+\newcommand{\openm}[1]{\st@open{#1}\st@circ\stword{Open}}
+% Passage-level marks: a bar in the margin, in the same line style, with a small tag
+\tcbset{stbar/.style={enhanced,breakable,frame hidden,interior hidden,boxrule=0pt,sharp corners,
+  left=9pt,right=0pt,top=1pt,bottom=1pt,boxsep=0pt,before skip=6pt,after skip=6pt,
+  left skip=-11pt,parbox=false}}
+\newtcolorbox{argbar}{stbar,borderline west={1.1pt}{0pt}{stArg},
+  before upper={\textsf{\scriptsize\textcolor{stArg}{ARGUED}}\par\smallskip}}
+\newtcolorbox{hypbar}{stbar,borderline west={1.2pt}{0pt}{stHyp,dash pattern=on 3.2pt off 1.8pt},
+  before upper={\textsf{\scriptsize\textcolor{stHyp}{HYPOTHESIS}}\par\smallskip}}
+\newtcolorbox{openbar}{stbar,borderline west={1.5pt}{0pt}{stOpen,dash pattern=on 1.4pt off 1.6pt},
+  before upper={\textsf{\scriptsize\textcolor{stOpen}{OPEN\,$\circ$}}\par\smallskip}}
+% The key, printed at the start of each Part
+\newcommand{\statuskey}{%
+  \begin{tcolorbox}[enhanced,colback=black!3,colframe=black!15,boxrule=0.4pt,sharp corners,left=8pt,right=8pt,top=6pt,bottom=6pt]
+  \small\textsf{\textbf{How to read the marks.}} Claims about Graviton Pressure Theory are marked by how far they are established.\par\smallskip
+  \begin{tabular}{@{}p{0.27\linewidth}p{0.66\linewidth}@{}}
+  Established & No mark. Accepted, measured physics.\\[2pt]
+  \argm{Argued} & Solid blue underline. A conclusion this framework argues in detail, which readers can check.\\[2pt]
+  \hypm{Hypothesis} & Dashed orange underline. A proposal of GPT, not yet tested.\\[2pt]
+  \openm{Open} & Dotted grey underline and $\circ$. A question not yet answered; work still owed.\\
+  \end{tabular}\par\smallskip
+  A whole passage with one status carries a bar of the same style in the left margin. The marks are drawn in distinct line styles, so they read in black and white.
+  \end{tcolorbox}}
+\endinput

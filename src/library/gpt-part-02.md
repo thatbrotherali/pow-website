@@ -4,13 +4,13 @@
 
 By Shareef Ali Rashada
 
-# A Note on This Edition
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-The first edition of this paper was titled *The Removal of Intent*. It argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe.
+# About This Paper
 
-That argument still stands. But in the work that followed it, I learned that intent was not the deepest thing removed. Before purpose could be dismissed, the demand for mechanism had already been set aside. And before mechanism was set aside, the very idea of *cause* had begun to be questioned. This edition traces all three removals, in the order they happened, because the order matters: intent did not lose an argument. It lost the ground it stood on.
+Three things were removed from modern science, one after another: purpose, mechanism and cause itself. This paper traces all three removals in the order they happened, because the order matters. Before purpose could be dismissed, the demand for mechanism had already been set aside. And before mechanism was set aside, the very idea of *cause* had begun to be questioned. Intent did not lose an argument. It lost the ground it stood on.
 
-This paper is an essay, not a physics paper. In this second edition the physics papers of the framework make no claims about intent; that case is made here, in the philosophical register, where it belongs. Where this paper refers to Graviton Pressure Theory, each claim is labelled by its status: **\[Established\]** for what is accepted fact, **\[Argued\]** for what this framework argues in detail elsewhere, **\[Hypothesis\]** for what GPT proposes and has not yet tested, and **\[Open\]** for questions that remain unanswered.
+This paper is an essay, not a physics paper. The physics papers of the framework make no claims about intent; that case is made here, in the philosophical register, where it belongs. Where this paper refers to Graviton Pressure Theory, each claim is marked by its status, as the key shows.
 
 # A Universe Without a Voice
 
@@ -185,9 +185,9 @@ Applied to gravity, the test is revealing.
 
 - The equivalence principle states that, locally, gravity and acceleration cannot be told apart. That is an observation about measurement. It does not, by itself, tell us what gravity physically is.
 
-These points are argued in detail elsewhere in this framework—in the Gravity Constraint Set, the GR Silence Map and the paper on the Logical Closure of the Equivalence Principle.[^22] **\[Argued\]** The claim is not that General Relativity is wrong. It is that GR describes, and that it is a mistake to treat its description as the complete mechanism of gravity.
+These points are argued in detail elsewhere in this framework—in the Gravity Constraint Set, the GR Silence Map and the paper on the Logical Closure of the Equivalence Principle.[^22] The claim is not that General Relativity is wrong. It is that GR describes, and that it is a mistake to treat its description as the complete mechanism of gravity. **\[Argued\]**
 
-The same pattern appears where description and observation part ways. When galaxies rotate faster than their visible matter allows, and when the expansion of the universe accelerates, the descriptions are preserved by adding quantities—dark matter and dark energy—that are inferred from the mismatch itself. After decades of searching, there is still no confirmed direct detection of a dark matter particle. **\[Established\]** These names mark where the description needs help. They do not yet name what acts.
+The same pattern appears where description and observation part ways. When galaxies rotate faster than their visible matter allows, and when the expansion of the universe accelerates, the descriptions are preserved by adding quantities—dark matter and dark energy—that are inferred from the mismatch itself. After decades of searching, there is still no confirmed direct detection of a dark matter particle. These names mark where the description needs help. They do not yet name what acts.
 
 When mechanism is no longer required, its absence stops being visible. And when the absence is invisible, questioning it sounds naive.
 
@@ -213,7 +213,7 @@ Nowhere is this tension sharper than in quantum mechanics.
 
 - On measurement, a single definite outcome is found.
 
-What brings about the single outcome? This is the measurement problem, and after a century it remains unsolved. **\[Established\]**
+What brings about the single outcome? This is the measurement problem, and after a century it remains unsolved.
 
 It is important to state the mainstream position accurately. In standard physics, an “observation” is any physical interaction that records a result—a detector, a photographic plate, a stray air molecule—not a conscious mind. The theory of decoherence explains why interference between the possibilities disappears in such interactions. But by most accounts, including those of its own developers, decoherence does not explain why one particular outcome occurs.[^25]
 
@@ -269,7 +269,7 @@ This is not empiricism. It is ideological inertia.
 
 ## Entropy as Destiny
 
-The second law of thermodynamics is among the best-tested laws in physics: in an isolated system, entropy does not decrease.[^34] **\[Established\]** From it, William Thomson (later Lord Kelvin) drew a grand conclusion in 1852—that the universe tends toward a final state in which all useful energy is dissipated, the “heat death.”[^35]
+The second law of thermodynamics is among the best-tested laws in physics: in an isolated system, entropy does not decrease.[^34] From it, William Thomson (later Lord Kelvin) drew a grand conclusion in 1852—that the universe tends toward a final state in which all useful energy is dissipated, the “heat death.”[^35]
 
 But that conclusion is an extrapolation, not an observation. It assumes the universe as a whole behaves like an isolated thermodynamic system. And gravity complicates the picture: self-gravitating systems behave unlike ordinary gases—they can grow hotter as they lose energy, and they tend to clump rather than spread out.[^36] Meanwhile, living systems and other self-organising structures build and maintain order locally, by drawing in energy and exporting entropy to their surroundings, entirely within the second law.[^37]
 
@@ -377,7 +377,7 @@ This is where Graviton Pressure Theory (GPT) enters. It does not begin as a theo
 
 ## Restoring Mechanism and Cause
 
-- General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action. **\[Established\]**
+- General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action.
 
 - Treating that description as the complete mechanism of gravity is a category error, not a finding. **\[Argued\]**
 
@@ -401,7 +401,7 @@ Here the paper moves furthest from what has been tested, and so it must be most 
 
 It is a proposal of this framework that consciousness is not a quirk of evolved chemistry but is connected to sustained, highly integrated coherence—that a mind is, in part, a localised configuration stable enough to remember, interpret and choose. **\[Hypothesis\]** Others have proposed different physical links between consciousness and fundamental physics, notably Hameroff and Penrose.[^42]
 
-What GPT does not yet supply is the interface itself: by what physical exchange coherence in a medium would give rise to awareness, or awareness act back upon matter. Naming that interface is exactly the test this paper has applied to others, and the same test applies here. **\[Open\]**
+What GPT does not yet supply is the interface itself: by what physical exchange coherence in a medium would give rise to awareness, or awareness act back upon matter. **\[Open\]** Naming that interface is exactly the test this paper has applied to others, and the same test applies here.
 
 What restoring mechanism does accomplish is to change the shape of the question. In a universe of inert matter and mute geometry, we must ask how mind could ever arise from what has no inside. In a universe with a physical medium capable of coherence, memory and response, we may ask instead: what conditions allow that coherence to become aware?
 
@@ -456,6 +456,38 @@ It is to become whole.
 And from that wholeness, we may remember:  
 the universe was never silent.  
 We stopped listening.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- The title is now *The Removal of Intent, Cause and Mechanism* (first edition: *The Removal of Intent*). The first edition argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe. That argument stands. This edition adds the two removals that came before it, of mechanism and of cause, and traces all three in historical order, with Aristotle’s four causes as the frame.
+
+- The quantum observer. The first edition implied that mainstream physics conceals that consciousness causes collapse. In standard physics an observation is any recording interaction, and the consciousness reading (London and Bauer; Wigner) is a minority view. The section now states the measurement problem accurately: it is unsolved, and decoherence does not explain why one outcome occurs. The point kept is that the question was set aside by preference, not by evidence.
+
+- Entropy. “Complexity and life actively defy randomness” read as if life breaks the second law. It does not: life builds order by exporting entropy. The section now argues that heat death is an extrapolation, not an observation, and that gravity complicates it.
+
+- The anthropic principle. The weak principle is valid as a selection effect, so it is no longer called an evasion. It accounts for our seeing fine-tuning, not for why the fine-tuning exists. The multiverse is described as currently untestable, with sources.
+
+- Darwin. The claim that biology chose the mechanistic reading to serve a narrative is replaced by the documented history: Wallace rejected mate choice, it was neglected for about a century, and it has since revived (Cronin; Prum).
+
+- GPT’s claims. “Consciousness is the gravimetric signature of will”, “field-level memory” and “a field that prefers resonance” were stated as fact. Each is now marked Hypothesis or Open, and the missing interface between coherence and awareness is named.
+
+- Morality and utilitarianism. “Morality without consciousness is theater” and “eugenics in slow motion” are now framed as risks, with the documented history of Galton’s eugenics as evidence.
+
+## Clarifications
+
+- New sections: Description in Place of Mechanism (with the interface test), and When Mechanism Goes, Intent Has Nowhere to Stand.
+
+- Sourced history added: Bacon (1623) and Descartes (1644) on final causes; Newton to Bentley (1693) and *hypotheses non fingo* (1713); Einstein’s Leiden address (1920); Hume, Mach, Russell and Heisenberg on cause; Mermin’s “shut up and calculate”; Huxley’s steam-whistle; Watson, Ayer and Ryle; Lynden-Bell and Wood, Prigogine, and Ellis and Silk.
+
+- Citations corrected: the note on the detached observer now cites Daston and Galison, and Nagel’s *The View from Nowhere*, in place of Heisenberg, who argued that observation disturbs; the note on suspicion of words like “soul” cites Watson, Ayer and Ryle in place of Nagel’s “What Is It Like to Be a Bat?”; the *Principia* is cited in its 1713 edition, where the General Scholium appears.
+
+- “Most ancient cosmologies” is now “many”. Einstein’s objection to quantum theory is given as he stated it: that the theory was incomplete. A clause that read as self-promotion is removed.
+
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 

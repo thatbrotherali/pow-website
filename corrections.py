@@ -469,3 +469,7 @@ _mm["notes"] = [n for n in _mm["notes"] if not n.startswith("Notation")] + [
     "November 2026: the Shapiro delay is given for a single pass (a radar echo is delayed twice as much), and in GR it comes from both the time and space parts of the metric, not the time part alone.",
     "November 2026, cosmetic: the summary of appendices now matches the appendices; a missing section label and a five-column table that was declared with four columns are fixed; a duplicated end-of-document line is removed.",
 ]
+
+# The second-edition conventions (November 2026): what changed is listed at the end of the paper itself,
+# under "Changes in This Revision", so the page no longer repeats it in a box at the top.
+_mm["notes"] = []

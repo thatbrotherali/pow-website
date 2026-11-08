@@ -119,3 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// A small fixed key on pages that carry claim-status marks
+(function () {
+  if (!document.querySelector(".prose .m, .prose .bar")) return;
+  var d = document.createElement("details");
+  d.className = "key-chip";
+  d.innerHTML = '<summary>Key to the marks</summary><div>' +
+    '<span>Established: no mark</span>' +
+    '<span><span class="m arg">Argued</span></span>' +
+    '<span><span class="m hyp">Hypothesis</span></span>' +
+    '<span><span class="m opn">Open</span></span></div>';
+  document.body.appendChild(d);
+})();

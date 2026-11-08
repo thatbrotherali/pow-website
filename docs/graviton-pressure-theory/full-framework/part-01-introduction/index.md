@@ -4,6 +4,8 @@
 
 By Shareef Ali Rashada
 
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
+
 # The Return of Causality: Purpose and Position of This Framework
 
 Gravity has always been described. It has rarely been explained.
@@ -72,13 +74,17 @@ GPT stands in the lineage of the push models, and it must answer their objection
 
 In outline—each part of the framework develops one layer in detail:
 
-- Gravity is not a pull. It is an **external pressure**: bodies are pressed toward one another by a surrounding medium. **\[Hypothesis\]**
+**\[Hypothesis: the passage that follows\]**
 
-- The medium is made of **gravitons**—real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected;[^12] in GPT it is the physical medium itself. **\[Hypothesis\]**
+- Gravity is not a pull. It is an **external pressure**: bodies are pressed toward one another by a surrounding medium.
 
-- Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. Around every mass this lowers the active pressure of the medium, and the higher pressure beyond presses inward. Gravitational behaviour arises from this **differential pressure**, and mass is the measure of how strongly matter takes part in the exchange. **\[Hypothesis\]**
+- The medium is made of **gravitons**—real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected;[^12] in GPT it is the physical medium itself.
 
-- Weight, tides, orbits, the bending of light and the slowing of clocks are manifestations of one structured interaction in an ever-present field—not separate phenomena requiring separate explanations. **\[Hypothesis\]**
+- Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. Around every mass this lowers the active pressure of the medium, and the higher pressure beyond presses inward. Gravitational behaviour arises from this **differential pressure**, and mass is the measure of how strongly matter takes part in the exchange.
+
+- Weight, tides, orbits, the bending of light and the slowing of clocks are manifestations of one structured interaction in an ever-present field—not separate phenomena requiring separate explanations.
+
+**\[End of passage\]**
 
 These proposals are developed in the parts that follow, and the current working model of the medium—its properties, and how they act together—is set out in *The Mechanics of the Medium*.[^13]
 
@@ -98,17 +104,11 @@ GPT proceeds by the following commitments:
 
 - No stopping point disguised as an answer: where an explanation reaches a primitive, it is marked as the place where a deeper explanation has not yet been found—not as the place where none exists.
 
-## How claims are labelled
+## How claims are marked
 
-So that readers can see at a glance what is claimed and on what footing, the second edition of this framework labels its claims about GPT by status:
+So that readers can see at a glance what is claimed and on what footing, every claim this framework makes about GPT is marked by its status. Accepted fact, independent of GPT, carries no mark. A conclusion this framework argues in detail, **\[Argued\]** which readers can check for themselves, has a solid underline. A proposal of GPT, not yet tested, **\[Hypothesis\]** has a dashed underline. A question the framework has not yet answered **\[Open\]** has a dotted underline and a small circle. A passage that carries one status throughout has a bar of the same style in the margin. The key is repeated at the start of every part.
 
-- **\[Established\]** accepted fact, independent of GPT;
-
-- **\[Argued\]** a conclusion this framework argues in detail, which readers can check for themselves;
-
-- **\[Hypothesis\]** a proposal of GPT, not yet tested;
-
-- **\[Open\]** a question the framework has not yet answered.
+The text states each position as it now stands. Where a position has changed since the first edition, the change is recorded in a list at the end of the part, not in the running text.
 
 ## Two registers
 
@@ -120,23 +120,23 @@ This is not yet a confirmed theory. It is a scaffold of causal reinterpretation,
 
 Honesty about the state of the work is part of the method.
 
-- General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action. **\[Established\]**
+- General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action.
 
-- Treating GR’s description as the complete mechanism of gravity is a category error, not a finding. This is argued in detail in the papers on the Logical Closure and the Operational Constraints of the Equivalence Principle. **\[Argued\]**[^14]
+- Treating GR’s description as the complete mechanism of gravity is a category error, not a finding. **\[Argued\]** This is argued in detail in the papers on the Logical Closure and the Operational Constraints of the Equivalence Principle.[^14]
 
 - GPT accounts qualitatively for the phenomena GR describes, and proposes explanations for the readings attributed to dark matter and dark energy without adding unseen matter. **\[Hypothesis\]**
 
-- **What is calibrated.** Like Newton’s constant $G$, GPT’s strength of gravity is calibrated once, against measured gravity: the inflow of the medium toward a mass is matched to the observed acceleration $g = GM/r^2$. The slowing of clocks near a mass is likewise matched to measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018).[^15] These are calibrations, stated as such. Deriving the clock rate from the medium’s own properties is still to be done. **\[Established\]** **\[Open\]**
+- **What is calibrated.** Like Newton’s constant $G$, GPT’s strength of gravity is calibrated once, against measured gravity: the inflow of the medium toward a mass is matched to the observed acceleration $g = GM/r^2$. The slowing of clocks near a mass is likewise matched to measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018).[^15] These are calibrations, stated as such. Deriving the clock rate from the medium’s own properties is still to be done. **\[Open\]**
 
-- **What then follows without further fitting.** If the medium affects the clocks *and* the rulers of matter in the same proportion—so that light’s speed, measured locally, is always $c$—then the bending of starlight and the radar delay past the Sun follow from the clock calibration alone, with no adjustable constant. Clocks supply half of the bending; rulers supply the other half. The result is GR’s 1.75 arcseconds and GR’s Shapiro delay, by a mechanical route (Appendix 1.A). **\[Argued\]** The principle itself is a hypothesis, and deriving it from the medium is open. **\[Hypothesis\]** **\[Open\]**
+- **What then follows without further fitting.** If the medium affects the clocks *and* the rulers of matter in the same proportion—so that light’s speed, measured locally, is always $c$—then the bending of starlight and the radar delay past the Sun follow from the clock calibration alone, with no adjustable constant. **\[Argued\]** Clocks supply half of the bending; rulers supply the other half. The result is GR’s 1.75 arcseconds and GR’s Shapiro delay, by a mechanical route (Appendix 1.A). The principle itself is a hypothesis, **\[Hypothesis\]** and deriving it from the medium is open. **\[Open\]**
 
 - **What is not yet derived.** The advance of Mercury’s perihelion, and the slowing of moving clocks, have not yet been derived from the medium. **\[Open\]**
 
 - **A constraint to meet.** If light bending is refraction in a medium, it may depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^16] so any such dependence must be smaller than that. Quantifying GPT’s prediction against these limits is open. **\[Open\]**
 
-- The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. The derivations that would confirm these proposals remain to be done. **\[Hypothesis\]** **\[Open\]**
+- The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. **\[Hypothesis\]** The derivations that would confirm these proposals remain to be done. **\[Open\]**
 
-- Distinctive predictions, where GPT and GR should differ measurably, are collected in Part 29, *Experimental Divergence*. Until such tests are carried out, GPT remains a hypothesis. **\[Established\]**
+- Distinctive predictions, where GPT and GR should differ measurably, are collected in Part 29, *Experimental Divergence*. Until such tests are carried out, GPT remains a hypothesis.
 
 A framework that marks its own gaps invites others to close them. That is the intention.
 
@@ -191,7 +191,7 @@ Write the depth of the gravitational potential at distance $r$ from a mass $M$ a
 
 #### 1. Calibration: clocks.
 
-A clock at depth $\Phi$ runs slow, compared with a clock far away, by the factor $(1-\Phi)$. In GPT, this is the effect of the denser medium on the processes inside matter. Its size is taken from measurement—the gravitational redshift—and not derived. **\[Established\]** (as a calibration) **\[Open\]** (as a derivation)
+A clock at depth $\Phi$ runs slow, compared with a clock far away, by the factor $(1-\Phi)$. In GPT, this is the effect of the denser medium on the processes inside matter. Its size is taken from measurement, the gravitational redshift. Deriving it from the medium is still to be done. **\[Open\]**
 
 #### 2. Principle: rulers.
 
@@ -219,7 +219,45 @@ A radar signal passing close to the Sun is delayed by the slower light near it. 
 
 - These are the same first-order results as General Relativity. Agreement here shows that a medium can do what curvature does. It does not, by itself, show that the medium exists.
 
-- Two derivations remain: the clock rate from the medium’s properties, and the principle that rulers change in the same proportion as clocks. Until both are shown from the medium itself, they are calibration and hypothesis respectively. **\[Open\]**
+- Two derivations remain: the clock rate from the medium’s properties, and the principle that rulers change in the same proportion as clocks. **\[Open\]** Until both are shown from the medium itself, they are calibration and hypothesis respectively.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- The claim that GPT “achieves the same observational match—and often greater precision” is withdrawn: it had not been demonstrated. GPT accounts for the phenomena qualitatively, and matching GR’s numbers by independent derivation is marked Open. Where GPT’s numbers agree with GR’s, the text now says which quantities are calibrated and which follow without fitting (Section 1.5 and Appendix 1.A).
+
+- “This is not a speculative idea” is replaced by “This is not yet a confirmed theory. It is a scaffold of causal reinterpretation… built to be tested.”
+
+- Gravitons as “real, massless directional carriers” are marked as a Hypothesis.
+
+- The scope no longer extends to quantum decoherence, which the framework does not treat; it now lists what the thirty parts cover.
+
+- The historic objections to push models (drag and heating) are now named, with this framework’s proposed answers, marked Hypothesis and Open.
+
+- “What Graviton Pressure Theory Proposes” now follows the working model of *The Mechanics of the Medium*: matter takes gravitons in and returns them inactive, the active pressure falls around a mass, and the higher pressure beyond presses inward.
+
+- New Appendix 1.A shows the bending of light and the Shapiro delay following from one calibration and one stated principle.
+
+- The closing line “This is gravitational structure, finally explained” is now “This is gravity, offered for explanation.”
+
+## Clarifications
+
+- The opening now starts from the question of what acts. New sections: Description and Mechanism (with the interface test), How claims are marked, Two registers, and Where the Work Stands.
+
+- The historical arc is extended and sourced: Newton’s letter to Bentley and *hypotheses non fingo*; the push models of Fatio and Le Sage and why they were set aside; Einstein’s 1920 Leiden address; the Planck figures for dark matter and dark energy.
+
+- A fourth commitment is added: a primitive marks where a deeper explanation has not yet been found, not where none exists.
+
+- “Over 90% of the observed universe” is now “about 95% of the universe’s energy content” (Planck 2018). “The void” is now spacetime, since in GR spacetime is not a void.
+
+- Jammer’s *Concepts of Force* is cited to its first edition (1957). “It fulfils them” is now “It seeks to complete them”; “corridors” is now “flows”.
+
+- What Follows now maps all thirty parts in six groups, with Figure 1.4. Figures 1.1–1.3 are new.
+
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 

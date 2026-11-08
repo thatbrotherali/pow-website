@@ -7,7 +7,9 @@ It needs pandoc and pdftotext (poppler). build.py itself needs neither.
 """
 import html
 import json
-import re
+import re, sys
+from pathlib import Path as _P
+sys.path.insert(0, str(_P(__file__).parent))
 import subprocess
 import sys
 from pathlib import Path
@@ -352,8 +354,14 @@ def tex_main_doc(folder, slug, title, subtitle, bib=None, pdf=None):
     macros = "\n".join(l for l in preamble.split("\n") if l.strip().startswith(("\\newcommand", "\\DeclareMathOperator", "\\def")))
     doc = macros + "\n\\begin{document}\n" + (f"\\section*{{Abstract}}\n{abstract}\n" if abstract else "") + body + "\n\\end{document}\n"
     extra = ["--citeproc", "--bibliography", str(folder / bib)] if bib else []
+    import status_marks as SM
+    doc = SM.to_tokens(doc)
+    marked = SM.has_marks(doc)
     h = pandoc(doc, "latex", "html5", ["--mathjax", *extra])
     md = pandoc(doc, "latex", "gfm", extra)
+    h, md = SM.to_html(h), SM.to_md(md)
+    if marked:
+        h, md = SM.KEY_HTML + h, SM.KEY_MD + md
     if pdf:
         import shutil
         shutil.copy(pdf, OUT / f"{slug}.pdf")

@@ -4,19 +4,19 @@
 
 By Shareef Ali Rashada
 
-# A Note on This Edition
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-The first edition of this catalog had one purpose: to record everything gravity does, before any theory was allowed to speak, so that every theory could be judged against the same full record.
+# About This Paper
 
-That purpose remains. This edition adds a second.
+This catalog has two purposes. The first is to record everything gravity does, before any theory is allowed to speak, so that every theory can be judged against the same full record.
 
-In the work that followed the first edition, a pattern became impossible to ignore. Each phenomenon in this catalog comes with an explanation—but not from a single theory. Some are explained by Newton’s force. Some by Einstein’s curved spacetime. Some by forces that both theories call fictitious. Some by the language of energy and potential wells, some by particle exchange, and some by matter no one has detected. Often a single explanation uses several of these at once, switching between them mid-sentence. And the switches are rarely marked.
+The second comes from a pattern that is impossible to ignore. Each phenomenon in this catalog comes with an explanation—but not from a single theory. Some are explained by Newton’s force. Some by Einstein’s curved spacetime. Some by forces that both theories call fictitious. Some by the language of energy and potential wells, some by particle exchange, and some by matter no one has detected. Often a single explanation uses several of these at once, switching between them mid-sentence. And the switches are rarely marked.
 
 These theories do not merely differ in emphasis. On the most basic question—*is gravity a force?*—they give opposite answers. Yet the explanations built from them are presented as one coherent account, and their agreement on the numbers is offered as proof that nothing is wrong.
 
-This edition therefore records, beside each phenomenon, *how it is explained*, and marks which theory each part of the explanation borrows from. It introduces in full the error this framework calls the **Reduction Conflation**, developed in detail in its own paper.[^1] And it applies one test throughout: does the explanation name what acts—what touches what, and what is exchanged—or does it only describe?
+This catalog therefore records, beside each phenomenon, *how it is explained*, and marks which theory each part of the explanation borrows from. It introduces in full the error this framework calls the **Reduction Conflation**, developed in detail in its own paper.[^1] And it applies one test throughout: does the explanation name what acts—what touches what, and what is exchanged—or does it only describe?
 
-The physical claims of Graviton Pressure Theory are not argued here. Where this paper refers to them, the status labels used throughout the second edition apply: **\[Established\]**, **\[Argued\]**, **\[Hypothesis\]**, **\[Open\]**.
+The physical claims of Graviton Pressure Theory are not argued here. Where this paper refers to them, each claim is marked by its status, as the key shows. The tags in square brackets, such as \[N\] and \[GR\], are something different: they mark which theory an explanation borrows from (Section 3.2).
 
 # The Veil of the Obvious
 
@@ -82,7 +82,7 @@ The minimum obligations that follow from this record are distilled, item by item
 
 ## A Second Ledger: The Explanations We Are Given
 
-This edition keeps a second ledger beside the first. For many entries, it records the explanation that is customarily given—in textbooks, in engineering practice, in scientific communication—and marks which theory each part of that explanation is drawn from.
+This catalog keeps a second ledger beside the first. For many entries, it records the explanation that is customarily given—in textbooks, in engineering practice, in scientific communication—and marks which theory each part of that explanation is drawn from.
 
 The purpose is not to ridicule any explanation. Most of them work: they produce the right numbers. The purpose is to make visible something the numbers hide. Read one at a time, each explanation seems sound. Read together, they assert incompatible things about what gravity is.
 
@@ -112,7 +112,7 @@ The explanations given for gravitational phenomena draw on six distinct conceptu
 
 Three facts about this table matter for everything that follows.
 
-**First, the registers contradict one another on the most basic question.** In **\[N\]** and **\[Q\]**, gravity is a force. In **\[GR\]**, gravity is not a force at all, and the force we feel when standing is the floor pushing up **\[C\]**. In **\[FR\]**, the forces used are declared to be unreal by both of the main theories. These are not different levels of detail. They are opposite claims about what exists. **\[Established\]**
+**First, the registers contradict one another on the most basic question.** In **\[N\]** and **\[Q\]**, gravity is a force. In **\[GR\]**, gravity is not a force at all, and the force we feel when standing is the floor pushing up **\[C\]**. In **\[FR\]**, the forces used are declared to be unreal by both of the main theories. These are not different levels of detail. They are opposite claims about what exists.
 
 **Second, almost none of the registers names what acts.** **\[N\]** and **\[GR\]** describe; **\[FR\]** is a bookkeeping device; **\[EN\]** is an accounting; **\[Q\]** names a carrier that has not been detected and that General Relativity does not contain. Only **\[C\]** names a physical interface—and **\[C\]** is not gravity. **\[Argued\]**
 
@@ -124,7 +124,7 @@ Three facts about this table matter for everything that follows.
 
 There is a sentence that appears, in some form, in nearly every exposition of gravitational physics: *in the limit of low velocities and weak fields, General Relativity reduces to Newtonian mechanics.*
 
-As a statement about numbers, it is true. **\[Established\]** In that limit, the equations of General Relativity yield Newtonian trajectories to high accuracy.
+As a statement about numbers, it is true. In that limit, the equations of General Relativity yield Newtonian trajectories to high accuracy.
 
 But that sentence is then used to license something it does not establish: switching freely between the two theories *inside a single causal explanation*. Gravity is described as geometry when sophistication is wanted, and as a downward force when a load, a stress or a strain must be accounted for. When the switch is questioned, the reduction is cited as the reason no contradiction exists.
 
@@ -132,7 +132,7 @@ But that sentence is then used to license something it does not establish: switc
 
 The **Reduction Conflation** is the error of treating numerical agreement between two theories as if it were agreement about what physically exists.[^7]
 
-That two theories produce the same number within a limited domain does not mean they make compatible claims about reality. A lookup table, a fitted curve and a physical field theory may all give the same answer while disagreeing completely about what causes it. In the philosophy of science, a theory reduces to another when the second’s laws can be *derived* from the first under stated conditions;[^8] matching outputs alone is a weaker relation, and it does not carry the first theory’s account of what exists into the second. **\[Argued\]**
+That two theories produce the same number within a limited domain does not mean they make compatible claims about reality. A lookup table, a fitted curve and a physical field theory may all give the same answer while disagreeing completely about what causes it. In the philosophy of science, a theory reduces to another when the second’s laws can be *derived* from the first under stated conditions; matching outputs alone is a weaker relation, and it does not carry the first theory’s account of what exists into the second. **\[Argued\]**[^8]
 
 On gravity, the two theories’ commitments cannot both be true:
 
@@ -168,7 +168,7 @@ Mixing is legitimate when it meets three conditions:[^9]
 
 3.  **The mechanism is left open.** It does not present the combined account as having answered what acts.
 
-It is sometimes said that these tensions are “already acknowledged” by physicists. Acknowledgment is not resolution. An unresolved contradiction that is acknowledged in specialist literature, and then left unmarked in every textbook explanation, has not been resolved. It has been filed away. **\[Argued\]**
+It is sometimes said that these tensions are “already acknowledged” by physicists. Acknowledgment is not resolution. **\[Argued\]** An unresolved contradiction that is acknowledged in specialist literature, and then left unmarked in every textbook explanation, has not been resolved. It has been filed away.
 
 ## The Strongest Reply, and an Answer
 
@@ -176,13 +176,13 @@ A careful physicist will answer this section, and the answer deserves to be stat
 
 > **The reply.** “There is no contradiction. In General Relativity, Newton’s force of gravity is a *fictitious force*—exactly like the centrifugal force felt in a turning car. It appears when motion is described from a frame fixed to the ground instead of from free fall. In the weak-field limit, the theory’s connection coefficients for such a frame reproduce the Newtonian term, $-m\nabla\Phi$, precisely. Engineers who use $F = mg$ are not borrowing from a rival theory; they are using General Relativity in a convenient frame, where a frame-dependent force term is perfectly legitimate. The reduction is a genuine derivation, not a coincidence of numbers.”
 
-Much of this is correct, and it should be granted. It is the right account of how General Relativity treats the Newtonian term, and the weak-field limit is a genuine derivation of that term and of the trajectories that follow from it. **\[Established\]**
+Much of this is correct, and it should be granted. It is the right account of how General Relativity treats the Newtonian term, and the weak-field limit is a genuine derivation of that term and of the trajectories that follow from it.
 
 But the reply does not close the question. It moves it.
 
 1.  **The load is still real.** If the downward force is fictitious, then the compression of every column, every spine and every foundation is being started by something the theory says is not there. In General Relativity, the real force is the ground pushing upward **\[C\]**, and each part of a column, “trying” to follow its free-fall path, is held up by the part beneath it. That is a description of the stress pattern. It does not say what makes every resting particle of matter tend toward the Earth’s centre in the first place—what acts on it, and what is exchanged. The work once done by a force is now attributed to inertia relative to a geometry, and the geometry exchanges no momentum locally and has no energy that can be located at a point.[^10] The gap has been renamed, not filled. **\[Argued\]**
 
-2.  **The analogy holds only locally.** Centrifugal force can be removed everywhere at once by describing motion from a non-rotating frame. Gravity cannot: it can be removed only in a small region, because the tidal part—the convergence of falling bodies toward a centre—remains in every frame. **\[Established\]** Gravity is therefore not simply a fictitious force like the centrifugal one. Something frame-independent is present, and the reply does not say what acts in it.
+2.  **The analogy holds only locally.** Centrifugal force can be removed everywhere at once by describing motion from a non-rotating frame. Gravity cannot: it can be removed only in a small region, because the tidal part—the convergence of falling bodies toward a centre—remains in every frame. Gravity is therefore not simply a fictitious force like the centrifugal one. Something frame-independent is present, and the reply does not say what acts in it.
 
 3.  **The reply is almost never given.** Where explanations do state it—that the force of gravity is frame-dependent, used for its numbers, and that what physically acts is not thereby explained—they meet the conditions for legitimate mixing set out above. The Reduction Conflation is not a claim that physicists cannot answer this question. It is the observation that the explanations we are actually taught do not: they say “gravity pulls”, then “gravity is not a force”, and leave the reader to believe both. **\[Argued\]**
 
@@ -190,7 +190,7 @@ The reply, in other words, is the bracketing that the explanations lack. Stated 
 
 ## What This Catalog Will Show
 
-General Relativity is a description, and lacking a mechanism is no flaw in it *as a description*. It predicts superbly. **\[Established\]** The problem arises only when someone oversteps—when the combination of GR, Newtonian force, frame forces and energy language is presented as a complete account of what gravity is and how it acts.
+General Relativity is a description, and lacking a mechanism is no flaw in it *as a description*. It predicts superbly. The problem arises only when someone oversteps—when the combination of GR, Newtonian force, frame forces and energy language is presented as a complete account of what gravity is and how it acts.
 
 The entries that follow show how often that overstep occurs, and how much of our everyday understanding of gravity depends on it.
 
@@ -371,7 +371,7 @@ Gravity governs the design, construction and stability of every human-made struc
 
 *Why do things bend? Because the load never rests.*
 
-*Explained as:* Structural engineering is wholly Newtonian: a downward body force on every element, load paths to the ground, stress and strain computed from them **\[N\]**, **\[C\]**. General Relativity is not used, and contains no native downward body force to start the stress in a static structure. A physics course teaches that gravity is not a force; the engineering course next door designs every building around one. The transition is rarely mentioned.[^11] **\[Argued\]**
+*Explained as:* Structural engineering is wholly Newtonian: a downward body force on every element, load paths to the ground, stress and strain computed from them **\[N\]**, **\[C\]**. General Relativity is not used, and contains no native downward body force to start the stress in a static structure. A physics course teaches that gravity is not a force; the engineering course next door designs every building around one. The transition is rarely mentioned. **\[Argued\]**[^11]
 
 ## Bridges, Lifts, Cranes and Aircraft
 
@@ -389,7 +389,7 @@ Gravity governs the design, construction and stability of every human-made struc
 
 ## Measuring Gravity Itself
 
-- **Universality of free fall.** All bodies fall at the same rate regardless of mass or composition. Galileo described it; the MICROSCOPE satellite has confirmed it to about one part in $10^{15}$.[^12] **\[Established\]**
+- **Universality of free fall.** All bodies fall at the same rate regardless of mass or composition. Galileo described it; the MICROSCOPE satellite has confirmed it to about one part in $10^{15}$.[^12]
 
 - **Attraction between ordinary objects.** In 1798 Henry Cavendish measured the tiny attraction between lead spheres in a laboratory, using a torsion balance.[^13] The gravitational constant $G$ is still the least precisely known of the fundamental constants.
 
@@ -532,13 +532,13 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 - Gyroscopes in orbit around the Earth slowly change the direction they point, by the amounts predicted for the geodetic effect and for the dragging of space by Earth’s rotation, measured by Gravity Probe B.[^19]
 
-*Explained as:* These effects are explained only in **\[GR\]**. They are among its strongest confirmations. **\[Established\]**
+*Explained as:* These effects are explained only in **\[GR\]**. They are among its strongest confirmations.
 
 ## Unexplained Motions
 
 - The Pioneer spacecraft showed a tiny unexplained deceleration for decades. It is now attributed to the uneven radiation of the spacecraft’s own heat.[^20]
 
-- Several spacecraft flying past Earth have shown small unexplained changes in speed—the flyby anomaly—which remain unresolved.[^21] **\[Open\]**
+- Several spacecraft flying past Earth have shown small unexplained changes in speed—the flyby anomaly—which remain unresolved. **\[Open\]**[^21]
 
 # Stars, Galaxies and the Cosmos
 
@@ -566,7 +566,7 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 - Since 2015, detectors have recorded gravitational waves directly—ripples arriving from colliding black holes and neutron stars, measured as changes in the length of kilometre-long arms smaller than a proton.[^25]
 
-*Explained as:* Both are explained in **\[GR\]**, with great precision. **\[Established\]** Yet the waves carry energy, and that energy moves the detectors’ mirrors. In GR, the gravitational field has no energy that can be located at a point; its energy can be defined only for a region, and only in particular coordinates.[^26] Curvature is real enough to carry energy across the universe and shake a mirror, but not substantial enough to have energy at any particular place. **\[Argued\]**
+*Explained as:* Both are explained in **\[GR\]**, with great precision. Yet the waves carry energy, and that energy moves the detectors’ mirrors. In GR, the gravitational field has no energy that can be located at a point; its energy can be defined only for a region, and only in particular coordinates.[^26] Curvature is real enough to carry energy across the universe and shake a mirror, but not substantial enough to have energy at any particular place. **\[Argued\]**
 
 ## Galaxies
 
@@ -582,7 +582,7 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 - The expansion of the universe appears to be accelerating.[^30]
 
-- In the standard cosmological model, dark matter and dark energy together make up about 95% of the universe’s energy content.[^31] After decades of searching, no dark matter particle has been directly detected. **\[Established\]**
+- In the standard cosmological model, dark matter and dark energy together make up about 95% of the universe’s energy content.[^31] After decades of searching, no dark matter particle has been directly detected.
 
 *Explained as:* This is where the registers are most tightly spliced. Galaxy rotation and cluster motions are almost always analysed with Newtonian gravity and Newtonian dynamics **\[N\]**—GR is not used, because the fields are weak. The shortfall is filled with dark matter **\[DS\]**. The lensing that maps the same dark matter is computed with General Relativity **\[GR\]**. Cosmic expansion is described by GR’s Friedmann equations **\[GR\]**—which can also be derived by a purely Newtonian argument, as Milne and McCrea showed in 1934, and are often taught that way **\[N\]**.[^32] The acceleration is attributed to dark energy, often linked to the energy of the vacuum **\[DS\]**, **\[Q\]**. The agreement of these different measurements on the amount of dark matter is presented as strong confirmation. But the agreement is between a quantity inferred with a force-based theory and a quantity inferred with a theory that says there is no such force. **\[Argued\]**
 
@@ -622,7 +622,7 @@ These are the places where gravity behaves least intuitively, and where any mode
 
 - In a small, closed room, the effects of standing on Earth and of accelerating in a rocket cannot be told apart. Over a larger region, they can: in a gravitational field, falling objects converge toward the centre, and differences in gravity stretch extended bodies. Near a black hole, this stretching becomes destructive.
 
-*Explained as:* General Relativity is built on the local equivalence **\[GR\]**. This framework argues that the inference drawn from it—that gravity therefore *is* acceleration, and not a force—goes further than the observation licenses.[^40] One example: a rocket’s acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth’s surface at once—in opposite directions on opposite sides—while the Earth does not grow. **\[Argued\]**
+*Explained as:* General Relativity is built on the local equivalence **\[GR\]**. This framework argues that the inference drawn from it—that gravity therefore *is* acceleration, and not a force—goes further than the observation licenses. **\[Argued\]**[^40] One example: a rocket’s acceleration requires a continuous input of force from an engine, but no such input is found for the ground, which GR says is accelerating upward at $9.8\,\mathrm{m/s^2}$ at every point of the Earth’s surface at once—in opposite directions on opposite sides—while the Earth does not grow. **\[Argued\]**
 
 <figure>
 <img src="assets/figures/fig3-7-equivalence.svg" />
@@ -653,7 +653,7 @@ This law was remarkably predictive. It explained the planets, the tides and fall
 
 In 1915–16, Einstein proposed that gravity is not a force at all. Mass and energy determine the geometry of spacetime, and freely falling bodies follow the straightest possible paths—geodesics—in that geometry:[^42] $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}\,T_{\mu\nu}$$ Here $G_{\mu\nu}$ describes the curvature of spacetime, $T_{\mu\nu}$ the distribution of matter and energy, $g_{\mu\nu}$ the metric, $\Lambda$ the cosmological constant, and $c$ the speed of light.
 
-GR accounted for what Newton’s law could not—the extra advance of Mercury’s perihelion, the full bending of starlight, the slowing of clocks—and has since passed every precision test put to it. **\[Established\]** Like Newton’s law, it does not name a mechanism. It describes the geometry of motion, not a physical process by which matter shapes that geometry or by which geometry sets a resting body in motion.
+GR accounted for what Newton’s law could not—the extra advance of Mercury’s perihelion, the full bending of starlight, the slowing of clocks—and has since passed every precision test put to it. Like Newton’s law, it does not name a mechanism. It describes the geometry of motion, not a physical process by which matter shapes that geometry or by which geometry sets a resting body in motion.
 
 ## What Was Taught
 
@@ -761,7 +761,7 @@ Across every human-scale entry, General Relativity is either silent or describes
 
 ## Where GR Speaks, and Where It Does Not
 
-General Relativity’s great successes lie in the sky, and they must be stated plainly: the extra advance of Mercury’s perihelion, the full bending of light, the Shapiro delay, the slowing of clocks, frame dragging, the decay of binary pulsar orbits and the detection of gravitational waves. **\[Established\]** In these, GR is not merely descriptive; it predicts what Newton cannot.
+General Relativity’s great successes lie in the sky, and they must be stated plainly: the extra advance of Mercury’s perihelion, the full bending of light, the Shapiro delay, the slowing of clocks, frame dragging, the decay of binary pulsar orbits and the detection of gravitational waves. In these, GR is not merely descriptive; it predicts what Newton cannot.
 
 Yet even across the celestial catalog, most of the working calculations are Newtonian, and GR’s role is often a small correction to a Newtonian result.
 
@@ -801,11 +801,45 @@ Every claim to explain gravity must now address both ledgers.
 
 - And it must say, or admit it cannot yet say, what acts: what touches what, and what is exchanged.
 
-Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]** Whether it succeeds is for the parts that follow, and for experiment, to show. **\[Open\]**
+Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]**Whether it succeeds is for the parts that follow, and for experiment, to show. **\[Open\]**
 
 ## A Threshold, Not a Finale
 
 This is a point of departure. The catalog ends here, and the comparison begins. Gravity is not a symbol or an equation. It is what stands behind standing, what acts through pressure, what reveals itself in swing and orbit. The time has come to question—not abstractly, but with everything we have seen in hand.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- A second purpose. The first edition recorded what gravity does. This edition also records how each phenomenon is customarily explained, tags each part of the explanation by the theory it borrows from (the seven registers of Section 3.2), and sets out the Reduction Conflation in full (Section 3.3), with the strongest reply to it and an answer (3.3.5), and a Ledger of Explanations (3.13).
+
+- Binary stars. The first edition said GR “cannot model the forces binding or forming the binary system”. That overlooked the binary pulsar, one of GR’s greatest successes. GR’s successes are now stated plainly, and the point made is that most celestial calculation is Newtonian in practice, with GR as a small correction.
+
+- Galaxy clusters. “GR’s predictions require dark matter” named the wrong theory: galaxy and cluster dynamics are analysed with Newtonian gravity, and GR is used for lensing. The amount of dark matter therefore comes from two theories that disagree about what gravity is.
+
+- Lagrange points. JWST was said to sit at “a gravitationally stable position”. L1, L2 and L3 are unstable, and JWST needs regular corrections; only L4 and L5 are stable.
+
+- Breathing. “Easier to breathe lying down” is not true for most people: lung volume is larger upright. The entry now describes what changes.
+
+- The heliopause is removed. It is set by the solar wind meeting the interstellar medium, not by gravity.
+
+- The Chandler wobble is a free wobble of the non-rigid Earth, excited mainly by ocean-bottom and atmospheric pressure; it is no longer attributed to external gravitational effects.
+
+- The observation entries no longer use “pull” or “centripetal force”. Those words belong to one register, so they now appear only in the “Explained as” lines, and the observations use neutral words such as load, direction and toward the ground.
+
+## Clarifications
+
+- New subtitle: *What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree*.
+
+- Many phenomena added, all sourced: in the body, the environment, the built world and measurement, the planets, the solar system and the cosmos, and in light and time (among them MICROSCOPE, Gravity Probe B, LIGO, the Event Horizon Telescope, the Bullet Cluster and the GPS clock budget).
+
+- Sourced examples of contradictory explanations: Mercury’s 531 plus 43 arcseconds; Soldner’s half of the bending of light; the two readings of gravitational redshift; Michell’s escape-velocity argument for black holes; the Newtonian derivation of the Friedmann equations; the location of gravitational-wave energy.
+
+- The long-term stability of the planets is now described as stable over billions of years but chaotic in detail. Pound and Rebka are cited to their 1960 result. “Philosophie” is corrected to “Philosophiæ”. The GR evaluation sections are now compact tables, and “GR has no torque model” is now “in practice not used”.
+
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
