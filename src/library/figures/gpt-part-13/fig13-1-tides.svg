@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="595.60951pt" height="205.237672pt" viewBox="0 0 595.60951 205.237672" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-08T17:30:22.915032</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 205.237672 
+L 595.60951 205.237672 
+L 595.60951 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 107.295981 164.160809 
+C 121.345193 164.160809 134.820877 158.578998 144.75517 148.644705 
+C 154.689464 138.710411 160.271275 125.234727 160.271275 111.185515 
+C 160.271275 97.136303 154.689464 83.660618 144.75517 73.726325 
+C 134.820877 63.792032 121.345193 58.210221 107.295981 58.210221 
+C 93.246768 58.210221 79.771084 63.792032 69.836791 73.726325 
+C 59.902498 83.660618 54.320686 97.136303 54.320686 111.185515 
+C 54.320686 125.234727 59.902498 138.710411 69.836791 148.644705 
+C 79.771084 158.578998 93.246768 164.160809 107.295981 164.160809 
+z
+" clip-path="url(#pab9efbe0e4)" style="fill: #cfe2f5; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 272.843775 125.31226 
+C 276.590232 125.31226 280.183748 123.823777 282.832892 121.174632 
+C 285.482037 118.525487 286.97052 114.931972 286.97052 111.185515 
+C 286.97052 107.439058 285.482037 103.845543 282.832892 101.196398 
+C 280.183748 98.547253 276.590232 97.05877 272.843775 97.05877 
+C 269.097319 97.05877 265.503803 98.547253 262.854658 101.196398 
+C 260.205513 103.845543 258.71703 107.439058 258.71703 111.185515 
+C 258.71703 114.931972 260.205513 118.525487 262.854658 121.174632 
+C 265.503803 123.823777 269.097319 125.31226 272.843775 125.31226 
+z
+" clip-path="url(#pab9efbe0e4)" style="fill: #d8d6d0; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="272.843775" y="135.465858" transform="rotate(-0 272.843775 135.465858)">Moon</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(162.478579 91.605409)">near side:</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(162.478579 99.833143)">carried most</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.8px; font-family: 'Inter'; text-anchor: start; fill: #52514e" x="109.503285" y="134.548525" transform="rotate(-0 109.503285 134.548525)">centre</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(23.881204 91.605409)">far side:</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(9.806266 99.833143)">carried least</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.6px; font-family: 'Inter'; text-anchor: start; fill: #52514e" x="10.174608" y="197.270368" transform="rotate(-0 10.174608 197.270368)">the medium's acceleration toward the Moon, falling off with distance</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Inter'; text-anchor: start; fill: #c4620a" x="10.174608" y="29.51527" transform="rotate(-0 10.174608 29.51527)">HYPOTHESIS</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="149.234755" y="14.47875" transform="rotate(-0 149.234755 14.47875)">The Moon's inflow carries each part of the Earth</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 162.268545 111.185515 
+Q 187.859764 111.185515 211.214915 111.185515 
+" clip-path="url(#pab9efbe0e4)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 206.814915 108.985515 
+L 211.214915 111.185515 
+L 206.814915 113.385515 
+z
+" clip-path="url(#pab9efbe0e4)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 109.295137 111.185515 
+Q 128.263043 111.185515 144.994881 111.185515 
+" clip-path="url(#pab9efbe0e4)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 140.594881 108.985515 
+L 144.994881 111.185515 
+L 140.594881 113.385515 
+z
+" clip-path="url(#pab9efbe0e4)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 56.32375 111.185515 
+Q 69.773233 111.185515 80.986649 111.185515 
+" clip-path="url(#pab9efbe0e4)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 76.586649 108.985515 
+L 80.986649 111.185515 
+L 76.586649 113.385515 
+z
+" clip-path="url(#pab9efbe0e4)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m4927cff493" d="M 0 1.75 
+C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
+C 1.565609 0.909265 1.75 0.464105 1.75 0 
+C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
+C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
+C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
+C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
+C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
+C -0.909265 1.565609 -0.464105 1.75 0 1.75 
+z
+" style="stroke: #0b0b0b"/>
+    </defs>
+    <g clip-path="url(#pab9efbe0e4)">
+     <use xlink:href="#m4927cff493" x="160.271275" y="111.185515" style="fill: #0b0b0b; stroke: #0b0b0b"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <g clip-path="url(#pab9efbe0e4)">
+     <use xlink:href="#m4927cff493" x="107.295981" y="111.185515" style="fill: #0b0b0b; stroke: #0b0b0b"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <g clip-path="url(#pab9efbe0e4)">
+     <use xlink:href="#m4927cff493" x="54.320686" y="111.185515" style="fill: #0b0b0b; stroke: #0b0b0b"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 404.435981 160.849853 
+C 421.704804 160.849853 438.268666 155.616905 450.479568 146.303505 
+C 462.69047 136.990105 469.551446 124.356651 469.551446 111.185515 
+C 469.551446 98.014378 462.69047 85.380924 450.479568 76.067524 
+C 438.268666 66.754125 421.704804 61.521177 404.435981 61.521177 
+C 387.167157 61.521177 370.603295 66.754125 358.392393 76.067524 
+C 346.181491 85.380924 339.320515 98.014378 339.320515 111.185515 
+C 339.320515 124.356651 346.181491 136.990105 358.392393 146.303505 
+C 370.603295 155.616905 387.167157 160.849853 404.435981 160.849853 
+z
+" clip-path="url(#p4adc435700)" style="fill: #cfe2f5; stroke-dasharray: 3,2; stroke-dashoffset: 0; stroke: #2a78d6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 404.435981 158.86328 
+C 417.080272 158.86328 429.208388 153.83965 438.149251 144.898786 
+C 447.090115 135.957922 452.113745 123.829806 452.113745 111.185515 
+C 452.113745 98.541224 447.090115 86.413108 438.149251 77.472244 
+C 429.208388 68.53138 417.080272 63.50775 404.435981 63.50775 
+C 391.79169 63.50775 379.663574 68.53138 370.72271 77.472244 
+C 361.781846 86.413108 356.758216 98.541224 356.758216 111.185515 
+C 356.758216 123.829806 361.781846 135.957922 370.72271 144.898786 
+C 379.663574 153.83965 391.79169 158.86328 404.435981 158.86328 
+z
+" clip-path="url(#p4adc435700)" style="fill: #d9d4c7; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 569.983775 125.31226 
+C 573.730232 125.31226 577.323748 123.823777 579.972892 121.174632 
+C 582.622037 118.525487 584.11052 114.931972 584.11052 111.185515 
+C 584.11052 107.439058 582.622037 103.845543 579.972892 101.196398 
+C 577.323748 98.547253 573.730232 97.05877 569.983775 97.05877 
+C 566.237319 97.05877 562.643803 98.547253 559.994658 101.196398 
+C 557.345513 103.845543 555.85703 107.439058 555.85703 111.185515 
+C 555.85703 114.931972 557.345513 118.525487 559.994658 121.174632 
+C 562.643803 123.823777 566.237319 125.31226 569.983775 125.31226 
+z
+" clip-path="url(#p4adc435700)" style="fill: #d8d6d0; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="569.983775" y="135.465858" transform="rotate(-0 569.983775 135.465858)">Moon</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #eb6834" transform="translate(480.755317 88.073723)">ahead of</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #eb6834" transform="translate(478.62341 96.301457)">the centre</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #eb6834" transform="translate(308.876363 88.073723)">left</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #eb6834" transform="translate(302.948145 96.301457)">behind</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.8px; font-family: 'Inter'; text-anchor: middle; fill: #eb6834" x="404.435981" y="35.25426" transform="rotate(-0 404.435981 35.25426)">pressed in</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.6px; font-family: 'Inter'; text-anchor: start; fill: #52514e" x="307.314608" y="197.270368" transform="rotate(-0 307.314608 197.270368)">two bulges, one mechanism: about 1.1 × 10⁻⁶ m/s² (bulges exaggerated)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="446.374755" y="14.47875" transform="rotate(-0 446.374755 14.47875)">Relative to the centre: the tide</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 459.411914 111.185515 
+Q 473.965739 111.185515 486.059889 111.185515 
+" clip-path="url(#p4adc435700)" style="fill: none; stroke: #eb6834; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 481.259889 108.785515 
+L 486.059889 111.185515 
+L 481.259889 113.585515 
+z
+" clip-path="url(#p4adc435700)" style="fill: #eb6834; stroke: #eb6834; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 349.460048 111.185515 
+Q 334.906222 111.185515 322.812072 111.185515 
+" clip-path="url(#p4adc435700)" style="fill: none; stroke: #eb6834; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 327.612072 113.585515 
+L 322.812072 111.185515 
+L 327.612072 108.785515 
+z
+" clip-path="url(#p4adc435700)" style="fill: #eb6834; stroke: #eb6834; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 404.435981 44.755151 
+Q 404.435981 51.586409 404.435981 56.628812 
+" clip-path="url(#p4adc435700)" style="fill: none; stroke: #eb6834; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 406.235981 53.028812 
+L 404.435981 56.628812 
+L 402.635981 53.028812 
+z
+" clip-path="url(#p4adc435700)" style="fill: #eb6834; stroke: #eb6834; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 404.435981 177.615879 
+Q 404.435981 170.784621 404.435981 165.742218 
+" clip-path="url(#p4adc435700)" style="fill: none; stroke: #eb6834; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 402.635981 169.342218 
+L 404.435981 165.742218 
+L 406.235981 169.342218 
+z
+" clip-path="url(#p4adc435700)" style="fill: #eb6834; stroke: #eb6834; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pab9efbe0e4">
+   <rect x="5.76" y="18.47875" width="286.94951" height="180.998922"/>
+  </clipPath>
+  <clipPath id="p4adc435700">
+   <rect x="302.9" y="18.47875" width="286.94951" height="180.998922"/>
+  </clipPath>
+ </defs>
+</svg>

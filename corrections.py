@@ -483,3 +483,4 @@ CORR.pop("gpt-part-07", None)
 
 # Part 11, second edition (November 2026): the first-edition corrections are part of the new text.
 CORR.pop("gpt-part-11", None)
+CORR.pop("gpt-part-13", None)

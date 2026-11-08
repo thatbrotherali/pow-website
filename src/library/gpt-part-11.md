@@ -158,9 +158,9 @@ Take a bowling ball of about 7 kilograms and a feather of about a gram, roughly 
 | **The motion**                                 | **Energy you supply (ball / feather)** | **What gravity does**                                                                |
 |:-----------------------------------------------|:---------------------------------------|:-------------------------------------------------------------------------------------|
 | Released from 10 metres, falling straight down | Nothing / nothing                      | Supplies all of it: 686 joules to the ball, 0.1 joule to the feather                 |
-| Thrown straight up at 14 m/s                   | J / 0.1 J                              | Takes it back as the body climbs 10 metres and stops, and returns it on the way down |
-| Pushed horizontally on a frictionless surface  | J / 0.1 J                              | Neither adds nor takes: the push is at right angles to it                            |
-| Pushed horizontally, unsupported               | J / 0.1 J, all of it sideways          | Adds energy downward at the same time, as the body falls while it is pushed          |
+| Thrown straight up at 14 m/s                   | 686 J / 0.1 J                          | Takes it back as the body climbs 10 metres and stops, and returns it on the way down |
+| Pushed horizontally on a frictionless surface  | 686 J / 0.1 J                          | Neither adds nor takes: the push is at right angles to it                            |
+| Pushed horizontally, unsupported               | 686 J / 0.1 J, all of it sideways      | Adds energy downward at the same time, as the body falls while it is pushed          |
 
 The same speed, given four ways, to a bowling ball and a feather in a vacuum.
 
@@ -190,12 +190,12 @@ One more experiment joins all of these. Stand the ball and the feather each on a
 
 | **The column**                                     | **It reads (ball / feather)**           | **Energy it delivers**                                           |
 |:---------------------------------------------------|:----------------------------------------|:-----------------------------------------------------------------|
-| At rest, supporting                                | N / 0.0098 N, the weight $mg$           | None                                                             |
-| Starting to rise, accelerating upward at 2 m/s$^2$ | N / 0.0118 N, $m(g+a)$                  | To the motion and the climb                                      |
-| Rising at a steady speed                           | N / 0.0098 N, the same as at rest       | $mg \times v$ every second, yet the body’s speed does not change |
-| Slowing to a stop at the top                       | N / 0.0078 N, $m(g-a)$                  | Less, as the climb ends                                          |
-| Extended and holding                               | N / 0.0098 N                            | None if locked; a motor-held column makes heat (Part 6)          |
-| Lowering at a steady speed                         | N / 0.0098 N                            | Negative: the body gives $mg \times v$ back every second         |
+| At rest, supporting                                | 68.7 N / 0.0098 N, the weight $mg$      | None                                                             |
+| Starting to rise, accelerating upward at 2 m/s$^2$ | 82.7 N / 0.0118 N, $m(g+a)$             | To the motion and the climb                                      |
+| Rising at a steady speed                           | 68.7 N / 0.0098 N, the same as at rest  | $mg \times v$ every second, yet the body’s speed does not change |
+| Slowing to a stop at the top                       | 54.7 N / 0.0078 N, $m(g-a)$             | Less, as the climb ends                                          |
+| Extended and holding                               | 68.7 N / 0.0098 N                       | None if locked; a motor-held column makes heat (Part 6)          |
+| Lowering at a steady speed                         | 68.7 N / 0.0098 N                       | Negative: the body gives $mg \times v$ back every second         |
 | Dropping, faster and faster                        | $m(g-a)$, falling toward zero           | Less and less returned                                           |
 | Dropping at $g$                                    | **0 / 0**: it no longer supports either | None: the body is in free fall                                   |
 

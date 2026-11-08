@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="491.4pt" height="227.736pt" viewBox="0 0 491.4 227.736" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-08T17:30:23.995934</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 227.736 
+L 491.4 227.736 
+L 491.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.39784 120.918522 
+L 90.69876 120.918522 
+Q 94.5378 120.918522 94.5378 117.158243 
+L 94.5378 33.022017 
+Q 94.5378 29.261739 90.69876 29.261739 
+L 14.39784 29.261739 
+Q 10.5588 29.261739 10.5588 33.022017 
+L 10.5588 117.158243 
+Q 10.5588 120.918522 14.39784 120.918522 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 110.37384 120.918522 
+L 186.67476 120.918522 
+Q 190.5138 120.918522 190.5138 117.158243 
+L 190.5138 33.022017 
+Q 190.5138 29.261739 186.67476 29.261739 
+L 110.37384 29.261739 
+Q 106.5348 29.261739 106.5348 33.022017 
+L 106.5348 117.158243 
+Q 106.5348 120.918522 110.37384 120.918522 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 206.34984 120.918522 
+L 282.65076 120.918522 
+Q 286.4898 120.918522 286.4898 117.158243 
+L 286.4898 33.022017 
+Q 286.4898 29.261739 282.65076 29.261739 
+L 206.34984 29.261739 
+Q 202.5108 29.261739 202.5108 33.022017 
+L 202.5108 117.158243 
+Q 202.5108 120.918522 206.34984 120.918522 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 302.32584 120.918522 
+L 378.62676 120.918522 
+Q 382.4658 120.918522 382.4658 117.158243 
+L 382.4658 33.022017 
+Q 382.4658 29.261739 378.62676 29.261739 
+L 302.32584 29.261739 
+Q 298.4868 29.261739 298.4868 33.022017 
+L 298.4868 117.158243 
+Q 298.4868 120.918522 302.32584 120.918522 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 398.30184 120.918522 
+L 474.60276 120.918522 
+Q 478.4418 120.918522 478.4418 117.158243 
+L 478.4418 33.022017 
+Q 478.4418 29.261739 474.60276 29.261739 
+L 398.30184 29.261739 
+Q 394.4628 29.261739 394.4628 33.022017 
+L 394.4628 117.158243 
+Q 394.4628 120.918522 398.30184 120.918522 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 96.538276 76.265217 
+Q 100.53835 76.265217 102.74957 76.265217 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 98.74957 74.265217 
+L 102.74957 76.265217 
+L 98.74957 78.265217 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #0b0b0b; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 192.514276 76.265217 
+Q 196.51435 76.265217 198.72557 76.265217 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 194.72557 74.265217 
+L 198.72557 76.265217 
+L 194.72557 78.265217 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #0b0b0b; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 288.490276 76.265217 
+Q 292.49035 76.265217 294.70157 76.265217 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.70157 74.265217 
+L 294.70157 76.265217 
+L 290.70157 78.265217 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #0b0b0b; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 384.466276 76.265217 
+Q 388.46635 76.265217 390.67757 76.265217 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 386.67757 74.265217 
+L 390.67757 76.265217 
+L 386.67757 78.265217 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #0b0b0b; stroke: #0b0b0b; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 167.95944 212.575304 
+L 323.44056 212.575304 
+Q 327.2796 212.575304 327.2796 208.815026 
+L 327.2796 162.281583 
+Q 327.2796 158.521304 323.44056 158.521304 
+L 167.95944 158.521304 
+Q 164.1204 158.521304 164.1204 162.281583 
+L 164.1204 208.815026 
+Q 164.1204 212.575304 167.95944 212.575304 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #fff6ee; stroke-dasharray: 4.4,2.2; stroke-dashoffset: 0; stroke: #c4620a; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 31.570318 124.109703 
+Q 95.738084 153.821227 158.485474 182.875076 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke-dasharray: 5.6,2.8; stroke-dashoffset: 0; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 155.974987 179.729054 
+L 158.485474 182.875076 
+L 154.462365 182.995853 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #c4620a; stroke-dasharray: 5.6,2.8; stroke-dashoffset: 0; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 331.409134 183.37184 
+Q 382.464131 153.821922 432.164428 125.056086 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke-dasharray: 5.6,2.8; stroke-dashoffset: 0; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 428.146998 125.301564 
+L 432.164428 125.056086 
+L 429.950352 128.417317 
+z
+" clip-path="url(#p7f19803bbc)" style="fill: #c4620a; stroke-dasharray: 5.6,2.8; stroke-dashoffset: 0; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 108.9342 125.61887 
+L 476.0424 125.61887 
+" clip-path="url(#p7f19803bbc)" style="fill: none; stroke: #52514e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="52.5483" y="45.278615" transform="rotate(-0 52.5483 45.278615)">The medium</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(23.156363 79.435361)">the Moon's inflow,</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(21.190206 89.162549)">delivered unequally</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(26.4193 99.618611)">across the Earth</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; fill: #2a78d6" transform="translate(119.892206 45.278615)">Structures that</text>
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; fill: #2a78d6" transform="translate(132.609253 54.716311)">gather it</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(120.251175 79.95333)">ocean basins and</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(117.855237 89.081267)">resonance; layered</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(119.999362 98.927986)">water; the ground</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; fill: #2a78d6" transform="translate(225.875972 45.278615)">Signals at</text>
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; fill: #2a78d6" transform="translate(219.545784 54.716311)">the organism</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(210.11355 79.221267)">water level, pressure,</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(210.924769 89.192299)">currents, turbulence,</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(210.355269 98.791986)">exposure, pore water</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="340.4763" y="45.278615" transform="rotate(-0 340.4763 45.278615)">Sensors</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(309.222331 79.221267)">mechanoreceptors,</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(310.989269 89.081267)">statocysts, stretch</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(307.514894 99.009267)">and vibration organs</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #2a78d6" x="436.4523" y="45.278615" transform="rotate(-0 436.4523 45.278615)">A clock</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(409.873331 79.297767)">a self-sustaining</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(404.986894 89.27358)">oscillator, entrained</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(408.441081 98.954549)">over many cycles</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 6.8px; font-family: 'Inter'; text-anchor: middle; fill: #c4620a" x="52.5483" y="55.113652" transform="rotate(-0 52.5483 55.113652)">GPT's mechanism</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 6.8px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="291.2886" y="130.319217" transform="rotate(-0 291.2886 130.319217)">established links</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #c4620a" x="245.7" y="173.128076" transform="rotate(-0 245.7 173.128076)">Ordered structure inside the body</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(174.752625 188.140509)">where the medium's delivery lands depends</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(177.252156 196.368243)">on alignment: the redistribution hypothesis</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(415.449981 170.267923)">rhythms of</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(414.057575 178.495657)">12.42 hours</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #52514e" transform="translate(408.983606 186.723391)">and 14.77 days</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Inter'; text-anchor: start; fill: #c4620a" x="12.9582" y="207.874957" transform="rotate(-0 12.9582 207.874957)">HYPOTHESIS</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7f19803bbc">
+   <rect x="5.76" y="5.76" width="479.88" height="216.216"/>
+  </clipPath>
+ </defs>
+</svg>
