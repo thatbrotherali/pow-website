@@ -473,3 +473,7 @@ _mm["notes"] = [n for n in _mm["notes"] if not n.startswith("Notation")] + [
 # The second-edition conventions (November 2026): what changed is listed at the end of the paper itself,
 # under "Changes in This Revision", so the page no longer repeats it in a box at the top.
 _mm["notes"] = []
+
+# Part 6, second edition (November 2026): the first-edition corrections above are part of the new text,
+# and what changed is listed at the end of the part itself.
+CORR.pop("gpt-part-06", None)

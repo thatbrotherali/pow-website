@@ -57,10 +57,12 @@
    "slug": "gpt-part-06",
    "title": "Redefining Work",
    "subtitle": "A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory",
-   "words": 1992,
-   "lead": "The classical physics definition of work—force times displacement—fails to account for observable energy expenditures in systems actively resisting motion. This contradiction emerges vividly in robotic, magnetic, and structural scenarios where energy consumption and structural stability clearly indicate ongoing “effort,” yet classical physics categorically denies that “work” is being done.",
-   "source": "Part 06 - Redefining work.tex",
-   "part": 6
+   "words": 4980,
+   "lead": "When something is held still against gravity, something is plainly going on, yet the textbook says no work is done. This paper shows that holding does not consume energy (the cost belongs to the holder), and that a held load is never at rest: a steady current of momentum passes through it into its support, and every scale reading measures that current.",
+   "source": "Part 06 - Redefining Work (2nd ed.).tex",
+   "part": 6,
+   "path": "redefining-work",
+   "pdf": true
   },
   {
    "slug": "gpt-part-07",
