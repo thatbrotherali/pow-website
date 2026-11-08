@@ -68,10 +68,12 @@
    "slug": "gpt-part-07",
    "title": "The Illusion of Pull",
    "subtitle": "The Mystery and Mechanism of Attraction",
-   "words": 7138,
-   "lead": "In nearly every domain of inquiry, from gravitational theory to human emotion, the language of “attraction” is used to imply a kind of mystical inevitability. We are told that gravity attracts, that magnets attract, that electrons are attracted to protons, that people are attracted to one another. These declarations have become so entrenched in both scientific discourse and cultural metaphor that they are rarely questioned. Yet, despite their ubiquity, they share a common flaw: they assert the existence of a directional force without identifying the causal mechanism that mediates it.",
-   "source": "Part 07 - The Mechanics of Attraction.tex",
-   "part": 7
+   "words": 8440,
+   "lead": "When something is held still against gravity, something is plainly going on, yet the textbook says no work is done. This paper shows that holding does not consume energy (the cost belongs to the holder), and that a held load is never at rest: a steady current of momentum passes through it into its support, and every scale reading measures that current.",
+   "source": "Part 07 - The Illusion of Pull (2nd ed.).tex",
+   "part": 7,
+   "path": "the-illusion-of-pull",
+   "pdf": true
   },
   {
    "slug": "gpt-part-08",

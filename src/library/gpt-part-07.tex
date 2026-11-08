@@ -1,0 +1,566 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{7.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{7.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\begin{document}
+
+\renewcommand{\thetable}{7.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 7 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries The Illusion of Pull\par}
+\vspace{0.5cm}
+{\Large The Mystery and Mechanism of Attraction\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026 \quad (first edition 12 June 2025)\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+We are told that gravity attracts, that magnets attract, and that opposite charges attract. This paper asks what the word ``attraction'' actually names. Its answer is that it names an effect, a convergence of bodies, without naming what carries it.
+
+The demand the paper makes is simple: \textbf{every force must name its carrier}. It must say what touches what, what is exchanged, where the energy comes from, and what pushes back. The demand is the same whether a force is described as a push or a pull. A rope that pulls is acceptable once we can say what carries its tension. What is not acceptable is a word that stands where a carrier should be.
+
+The paper then sets out Graviton Pressure Theory's proposal for gravity: a falling body is carried by a medium that flows toward the mass, and the push appears only when something stops the fall. It explains why the language of ``pull'' has survived in physics for so long, and it holds GPT's own language to the same test.
+
+Claims about Graviton Pressure Theory are marked by their status, as the key shows. Where an explanation is tagged by the theory it borrows from, the tags of Part~3 are used: \RN{} Newtonian force, \RGR{} geometry, \RFR{} frame forces, \RC{} contact.\fn{rashadaPart3}
+
+\statuskey
+
+\section{The Myth of the Pull}
+
+In nearly every domain of inquiry, from gravitational theory to human emotion, the language of ``attraction'' is used to imply a kind of inevitability. We are told that gravity attracts, that magnets attract, that electrons are attracted to protons, that people are attracted to one another. These statements are so familiar that they are rarely questioned. Yet in physics they share a common flaw: they assert a directed force without identifying what carries it.
+
+Attraction, in this sense, is not a mechanism. It is a placeholder for an effect that has not been explained. The phrase ``$X$ attracts $Y$'' quietly places the cause in the attractor, without saying how energy is transferred, what carries the influence, or what conveys the impulse. In that gap, the word hides the missing explanation under familiarity.
+
+One of the clearest and most neglected examples is suction. People describe suction as pulling, whether it is a vacuum cleaner, a straw or the human lungs. But suction is not a pull. It is the pressure outside pushing toward a region of lower pressure. The ``vacuum'' does not exert force; it permits force. The energy comes from outside. Motion into a vacuum is not drawn; it is driven. What feels like pull can be a push, reshaped by absence. Section~\ref{sec:precedent} shows that physics has already made this correction once, and what it gained by doing so.
+
+Pulling is intuitive. We draw things toward us with our hands and with ropes. The image resonates. But an image is not a mechanism, and when an image enters the foundations of a theory without ever being audited, it stops being a metaphor and becomes a myth.
+
+The thesis of this paper is this: \argm{attraction is the name we gave to an effect whose carrier we have not named}. To become an explanation, it must name its carrier, trace its energy, show its direction and its reciprocal, and obey the conservation laws.
+
+\subsection*{Why This Matters}
+
+The confusion of description with cause is not a matter of words alone. If motion or force can be described without identifying what transfers it, the principles of conservation and testability lose their grip. Newton himself saw this. Action at a distance through a vacuum, ``without the mediation of anything else'', was to him ``so great an absurdity'' that no one competent in philosophy could accept it.\fn{newtonBentley1693}
+
+Conservation of energy and momentum requires that every transfer of motion be accompanied by a traceable interaction. There must be something that carries the transfer: not a mathematical construct alone, but a physical process. To say that a mass or a charge ``attracts'' another without naming what mediates it is to step around that requirement.
+
+The same gap runs through the accepted theories. Newton's inverse-square law describes gravity's behaviour but not its cause.\fn{newton1687} General Relativity replaces force with curvature and names no carrier that transfers momentum locally. Electromagnetism goes furthest: it places energy and momentum in the field, and writes the stress in the field precisely. But its account of attraction ends in a tension along the field lines that is written down, not carried (Section~\ref{sec:em}). In each case, ``attraction'' is the word that covers the last step.
+
+Science must be accountable. Every force must name its carrier. Every motion must account for its energy. If ``pulling'' is allowed to stand for an unexplained influence, rigour gives way to the comfort of a familiar word.
+
+The goal of this paper is not only to critique but to correct: to retire ``attraction'' as an explanation, and to propose in its place a model, Graviton Pressure Theory, in which gravity has a named carrier, and which asks the same of every other force.
+
+\subsection*{How ``Attraction'' Is Used}
+
+Before the concept can be audited, its use must be stated fairly.
+
+In Newtonian gravity, attraction is the idea that a mass exerts a force on another mass, proportional to the product of their masses and inversely proportional to the square of the distance between them. Newton offered no medium or messenger for this force. In the General Scholium of the \emph{Principia} he wrote that he had not been able to discover its cause, and that he would not invent one: \emph{hypotheses non fingo}.\fn{newton1713}
+
+In General Relativity, the word ``attraction'' is avoided. Bodies move along geodesics in curved spacetime, and gravity is not a force at all. Yet the idea that mass ``pulls'' other matter survives in teaching and in popular explanation.\fn{misner1973}
+
+In electrostatics, attraction is the motion of opposite charges toward one another, described by Coulomb's law. The interaction is said to be mediated by the electric field, or in quantum electrodynamics by virtual photons.\fn{feynman1964}
+
+In chemical bonding, ``electrostatic attraction'' and ``bond strength'' are used to explain why atoms come together. Bonds are described as the result of attraction between electrons and nuclei, and their energies are computed with great precision by quantum mechanics.\fn{atkins2006}
+
+In magnetism, attraction is the force between opposite poles, or between a magnet and iron. Field lines are drawn, and the force can be computed from them.\fn{griffiths2017}
+
+In each case, the word ``attraction'' carries assumptions that are rarely examined:
+\begin{itemize}
+  \item that a body can exert force across a distance with nothing between;
+  \item that such a force need not name what carries it;
+  \item that the attracting body can supply the energy of the motion without being changed;
+  \item that the motion is a result of influence, not permission;
+  \item that the cause of the motion lies in the attracting body.
+\end{itemize}
+
+These are not results. They are habits of description, passed on because they are convenient.
+
+\subsection*{The Sleight of Hand in the Language}
+
+The word survives because it is useful, not because it explains. It narrates the force; it does not account for it.
+
+``Gravity pulls us to the Earth'' and ``a magnet pulls iron'' are taught from the first years of school. Both suggest an agency in the body that does not move, the Earth or the magnet, without saying how that agency is exercised. They imply something reaching out, a force being broadcast, a motion being summoned. No carrier is named. No exchange is traced.
+
+Take the gravitational case. An object accelerates toward the Earth. The motion is real. The energy is real. But ``gravity pulls'' assigns the action to the Earth, and the Earth does not supply the energy by reaching out. \hypm{In GPT, the object falls because the medium around it is flowing toward the Earth, and the object is carried with it} (Section~\ref{sec:carrier}).
+
+In electromagnetism, ``opposites attract'' summarises Coulomb's law. The law gives the size of the force; it does not by itself say what carries it. And in chemistry, ``electrons are attracted to nuclei'' is a phrase for the Coulomb term in an equation whose solutions are exact and whose carrier is not described. \hypm{GPT proposes that electrons are held in stable patterns of the medium around the nucleus.} \openm{How such patterns reproduce the measured structure of atoms is still to be shown.}
+
+The pattern repeats:
+\begin{enumerate}
+  \item A metaphor is used to describe a phenomenon.
+  \item The metaphor enters teaching.
+  \item Repetition makes it familiar.
+  \item Familiarity is mistaken for explanation.
+\end{enumerate}
+
+Students learn what to say, not what to ask. And if the cause has already been named, why look for it? That is the real cost. \argm{``Attraction'' is a description of motion that has come to be treated as an explanation of force.}
+
+\section{The Causal Requirements of a Force}
+
+\subsection*{What It Would Take to Pull Something}
+
+If ``pulling'' is to be kept as a scientific term, and not only as a description of direction, it must meet the standards that any physical interaction must meet. These are the requirements:
+
+\begin{enumerate}
+  \item \textbf{A named carrier.} Physics names carriers for the forces it understands best. Electromagnetic forces are said to be carried by photons, the strong force by gluons, and contact forces by the interactions of the materials' atoms. If attraction is a force, what carries it? A real force must name its carrier, and the carrier must say what touches what.
+
+  \item \textbf{A source of energy.} A body that gains kinetic energy must gain it from somewhere. If one body pulls another into motion, the energy must come from the first body, from what lies between them, or from somewhere else that can be named. If the attracting body is unchanged, the energy must be found elsewhere.
+
+  \item \textbf{A direction with a structure.} A force acts along a direction. Something must set and keep that direction: a gradient, a flow, a pressure difference.
+
+  \item \textbf{A reciprocal.} For every action there is an equal and opposite reaction. If A pulls B, then B pulls A, and the momentum books must balance.
+
+  \item \textbf{Conservation.} Energy, momentum and angular momentum must all be accounted for.
+\end{enumerate}
+
+These requirements apply to a push as much as to a pull. \argm{A push that names no carrier is a placeholder too.} ``It was pushed'' says no more than ``it was pulled'' until it says what pushed, and how.
+
+Measured against these requirements, the word ``attraction'' fails. It names no carrier. It does not say where the energy of the motion comes from. It gives a direction without saying what sets it. The reciprocal is stated as a rule, not traced as an exchange.
+
+\subsection*{A Pull That Passes: the Rope}
+
+The requirement is not a ban on the word ``pull''. In a tug of war, the rope pulls, and the carrier is named. The rope is in tension, and tension is a current of momentum running along it. Each team pushes its feet against the ground, the ground pushes back, and momentum flows through the bodies of the players and along the rope. In the mechanics of materials, the stress in the rope is exactly the density of that momentum current, as it is in the loaded table of Part~6.\fn{landau1987,rashadaPart6} The pull is accounted for, and it is reciprocal: each team feels the other's pull through the same rope.
+
+The open question does not disappear. It moves to where it belongs. What carries tension between the atoms of the rope? The standard account answers with the electromagnetic bond, and at the last step that is a name, not a contact. \hypm{GPT's programme is to read every such tension as a pressure deficit: the atoms of the rope held together by the higher pressure of the medium around them, as the halves of an evacuated sphere are held together by the air (Section~\ref{sec:precedent}).} \openm{That reading must still be derived, and it must reproduce the measured strengths of materials.}
+
+The rope shows how the test works. It asks the same question of a rope as of gravity, and when it cannot be answered yet, it says exactly where the gap is.
+
+\subsection*{What Happens Without These}
+
+Without a carrier, a force cannot be transmitted. Without a source of energy, motion breaks conservation. Without a structure for direction, motion is undefined. Without a reciprocal, momentum is not conserved. A force that meets none of these is not an explanation. It is a name.
+
+\hypm{In GPT, gravitational movement has a located cause in the medium: the medium's flow, which carries a falling body, and the medium's pressure, which pushes when the fall is stopped.} Not all motion comes from the medium. A living body that stands up, climbs a stair or throws a ball makes its own motion, against the medium's flow, from energy it carries (Section~\ref{sec:gm}). Section~\ref{sec:audit} asks how far GPT meets its own standard, and marks what is still owed.
+
+\section{A Precedent: The Pull That Became a Push}
+\label{sec:precedent}
+
+Physics has made this correction once already, and it is worth seeing what it gained.
+
+Until the seventeenth century, water rising in a pump was explained by the principle that nature abhors a vacuum. The water was drawn up to prevent an empty space from forming: a pull, with no carrier named. Then the pump makers of Florence reported a limit. A suction pump could raise water only about ten metres, a little over 34 feet, and no higher.\fn{galileo1638} A horror of the vacuum should have no height limit.
+
+In 1643, Evangelista Torricelli named the carrier. The water is not drawn up. It is pushed up, by the weight of the air pressing on the open surface outside. He filled a glass tube with mercury, about thirteen and a half times as dense as water, and inverted it in a dish. The mercury fell until the column was about 76 centimetres tall, and stayed there, with an empty space above it.\fn{torricelli1644}
+
+Once the carrier was named, it made predictions. If the air is what holds the column up, the column should be shorter where there is less air above it. In 1648, at Blaise Pascal's request, Florin P\'erier carried a mercury tube up the Puy de D\^ome. At the summit the column was about three inches shorter than at the foot of the mountain.\fn{pascal1648} In the 1650s, Otto von Guericke showed the size of the push: two copper hemispheres, fitted together and emptied of air, could not be separated by two teams of horses pulling in opposite directions.\fn{guericke1672} For a sphere half a metre across, fully emptied, the outside air presses the halves together with about 20 kilonewtons, roughly the weight of two tonnes.
+
+Naming the carrier did not only change a word. It produced numbers the ``pull'' never could:
+\begin{itemize}
+  \item a limit of about 10.3 metres for water at sea level, set by the pressure of the air, about 101 kilopascals;
+  \item a column that falls with altitude, by an amount set by the weight of the air left above;
+  \item a straw that would not work on the Moon, where there is no air to push.
+\end{itemize}
+
+\argm{This is the change this paper asks for. A pull was replaced by a located push, and the replacement was testable.} The ``horror of the vacuum'' was never wrong about the motion. It was wrong about the cause, and it was the naming of the cause that made physics of it.
+
+\section{Pull Across the Disciplines}
+
+\subsection*{Gravity: Newton to Einstein to GPT}
+
+Newtonian gravity posited a force acting instantaneously at a distance, and Newton himself thought action without mediation absurd.\fn{newtonBentley1693} Einstein removed the force of gravity altogether and replaced it with the curvature of spacetime.\fn{einstein1915} This removed the pull, but it did not supply a carrier. Bodies no longer pulled one another; they followed geodesics in a curved geometry. The geometry describes the motion with great precision. It does not say what touches the falling body, or what is exchanged.
+
+\begin{hypbar}
+Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton's gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth's surface. A falling body is carried by that flow. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium's pressure is lower, an effect bounded by the measured limits on gravitational shielding.\fn{rashadaPart1,rashadaMedium}
+\end{hypbar}
+
+\subsection*{Electromagnetism: Stress Without a Carrier}
+\label{sec:em}
+
+Coulomb's law gives the force between two charges. Classical electromagnetism goes further than the law, and it is important to say so fairly. The field carries energy and momentum: light presses on what it strikes, and the momentum of a field can be measured.\fn{feynman1964} And Maxwell showed that the force between charges or magnets can be computed entirely from a stress in the space between them.\fn{maxwell1873} Along each line of force there is a tension; across the lines, an equal pressure. In empty space, for a magnetic field of strength $B$, each is $B^2/2\mu_0$. The force on a body is that stress summed over any surface that encloses it.
+
+This is the most important fact in the history of ``attraction''. When physics is pressed, it does not leave the force between two magnets at the magnets. It places it in the space between them, as a stress. \argm{The pressure across the lines is a push. The tension along them is a pull, written down but not carried: the theory says how large it is, not what touches what along a line of force.}
+
+Quantum electrodynamics describes the force as the exchange of virtual photons. The usual picture is of two skaters throwing a ball, each recoiling as they throw and catch. The picture explains repulsion. It does not explain attraction, and physics educators say plainly that it is not meant to be taken literally.\fn{illinoisAsk} The mathematics gives the sign of the force. The picture of what touches what is missing.
+
+\hypm{GPT reads charge as a structure of the medium around matter. \emph{The Mechanics of the Medium} treats the electric and magnetic constants as the medium's compressibility and stiffness, and a charge as a stable directional bias in it.}\fn{rashadaMedium} \openm{Maxwell's tension, read as a pressure deficit in the medium, is the precise target GPT must reproduce, and that derivation is still to be done.}
+
+\subsection*{Chemical Bonds}
+
+Covalent and ionic bonds are explained as electrostatic attraction, or as the overlap of orbitals that lowers the energy of the pair.\fn{heitlerLondon1927} The energies are computed exactly. But ``lowering the energy'' is an accounting, not a contact. It says that the bonded state is preferred. It does not say what holds the atoms in it.
+
+\hypm{GPT proposes that a bond is a stable pattern of the medium shared by two atoms, held by the pressure of the medium around them, as the rope's tension is read above.} \openm{This must still reproduce bond energies and lengths, and the corridors of the first edition must be reconciled with the account of charge in \emph{The Mechanics of the Medium}.}
+
+\subsection*{Magnetism}
+
+Magnetic poles are said to attract or repel. Maxwell's stress gives the force, as above, and leaves the tension along the lines without a carrier. One observation deserves notice: when two magnets are free to move, the first thing they do is turn. Opposite poles rotate into alignment before they come together. The interaction is first one of orientation, and only then of approach. Standard physics describes this as the torque on a magnetic dipole.
+
+\hypm{GPT proposes that a magnet is a material whose structure channels the medium in a preferred direction, and that the motion of iron toward it is the medium's pressure acting along that structure.} \openm{The derivation belongs to Parts 21 and 22.}
+
+In each discipline, the language of pull marks the same place: \argm{the step where a carrier should be named, and is not}.
+
+\section{What Instruments Measure}
+\label{sec:instruments}
+
+If gravity pulled, an instrument could register the pull. None does.
+
+An accelerometer resting on a table reads 9.8 metres per second squared, directed upward. That is the push of the table on the instrument. Drop the same accelerometer, and while it falls it reads zero. An accelerometer in an orbiting spacecraft reads zero as well, even though, at 400 kilometres, gravity is still about 8.7 metres per second squared, nearly 90\% of its strength at the surface. A bathroom scale does the same: it reads your weight when it stops your fall, and nothing when you fall together.
+
+\argm{No instrument registers a gravitational pull. Every reading is the push of a support, and in free fall there is nothing to read.} This is what General Relativity says too: a freely falling body feels no force. It is also what Part~6 found from the other side: the normal force is the signature of a momentum current, and every scale reading measures it.\fn{rashadaPart6} \hypm{In GPT, that current is delivered by the medium's inflow. The falling body is carried with the flow, so there is nothing to measure; the supported body is held against it, so the support must push.}
+
+\section{Why Pull Survives: The Reduction Conflation}
+\label{sec:rc}
+
+If no instrument registers a pull, and the accepted theory of gravity says there is none, why does the word survive? Part~3 named the reason: the \emph{Reduction Conflation}, the error of treating matching numbers as matching accounts of what exists.\fn{rashadaPart3}
+
+\textbf{The licence.} General Relativity yields Newton's law in the weak-field limit. The derivation is real, and it licenses the use of the Newtonian picture \RN{}: a force that pulls. Part~3 grants this and answers the strongest form of the reply (Section~3.3.5). The point here is narrower.
+
+\textbf{What the licence covers.} The weak-field limit licenses Newton's numbers. It does not license his ontology. In General Relativity \RGR{}, there is no gravitational force. \argm{The word ``pull'' has been sanctioned for calculation, and carried into explanation without a carrier.}
+
+\textbf{Each theory refers the question to the other.} Asked what pulls, Newtonian gravity has no answer; Newton declined to give one, and the modern answer is that Newton's law is an approximation to General Relativity. Asked the same question, General Relativity answers that nothing pulls: the force is a feature of the Newtonian approximation, a fictitious force like the centrifugal one \RFR{}. \argm{Each account points to the other for the explanation, and neither supplies the carrier. ``Attraction'' lives in the space between them, and the switch is rarely marked.}
+
+The switch can be seen in ordinary explanations:
+\begin{itemize}
+  \item \textbf{The space station.} At 400 kilometres, gravity is about 8.7 metres per second squared. The same explanation says that gravity ``pulls the station around the Earth'' \RN{}, and that the astronauts are weightless because nothing is acting on them as they follow their free-fall path \RGR{}. Part~3 sets out this composite in full.
+  \item \textbf{The classroom.} One chapter teaches that gravity pulls the apple. A later one teaches that gravity is not a force. The change of theory is not flagged.
+  \item \textbf{The instrument.} The accelerometer agrees with General Relativity: it registers no pull. The language agrees with Newton. Both are kept.
+\end{itemize}
+
+This is why ``attraction'' is not simply a mistake that no one has noticed. It is a permitted placeholder, kept in place by agreeing numbers. That is the Reduction Conflation's definition. The cure is the same as in Part~3: mark the switch, state the contradiction, and leave the question of the carrier open until it is answered.
+
+\section{Gravitational Movement Defined}
+\label{sec:gm}
+
+To keep the claims of this paper precise, one term is defined.
+
+\textbf{Gravitational movement} is motion that arises from the medium's flow and pressure alone: the motion of a body carried by the medium, with no internal volition, no mechanical contact and no energy from other forces driving it.
+
+The definition marks three boundaries:
+\begin{enumerate}
+    \item \textbf{Volitional motion.} Motion begun by will, by living agency or by a deciding system is outside this paper. The physics papers of this framework make no claims about intent; that case is made in Part~2.
+    \item \textbf{Mechanical interaction.} Motion caused by direct contact (a collision, a tension, a compression, a propulsion) is not called gravitational movement. That does not mean the medium plays no part in it. Part~6 proposes that contact forces involve the medium too: the normal force is the signature of a momentum current, and solidity is the medium at the boundary between bodies.\fn{rashadaPart6} The term names which effect is gravitational, not which effects involve the medium.
+    \item \textbf{Electromagnetic and other driven motion.} Where motion is driven by applied currents, magnetic fields or radiation, the term is not used.
+\end{enumerate}
+
+The definition keeps GPT's claims within their domain and keeps them testable, and it ensures that the reader is never led to think GPT claims to explain volitional or engineered motion.
+
+\section{The Attractor as Participant}
+
+In the classical picture, attraction is one-sided: the attracting body acts, and the moving body responds. GPT gives a different picture.
+
+\begin{hypbar}
+The attracting body does not reach out. It takes in the medium and ejects it, continuously, and in doing so it sets up the inward flow around it. The larger its mass, the stronger the flow. Every body does this, even the smallest; there is no matter that does nothing to the medium.
+
+The moving body is carried by that flow. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.\fn{touboul2022} Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
+
+What used to be called ``being pulled'' by another mass is a body moving in a flow it did not set up. The attractor is not issuing a command. It is setting the conditions under which bodies fall. And because the flow it sets up acts on everything nearby, the moving body sets up its own flow in turn, which acts on the attractor. That is the reciprocal.
+\end{hypbar}
+
+\openm{How the flows of several moving bodies combine, so that their effects add as Newton's law requires, is still to be derived.} Simple addition of the flow velocities does not work, and the full account must treat bodies that move through several flows at once.
+
+So:
+\begin{quote}
+The attractor sets up the flow.\\
+The flow carries what is near it.\\
+Where the motion is stopped, the medium presses.
+\end{quote}
+
+This is not less than a pull. It is a located process, and it can be tested.
+
+\section{The Comfort of a Familiar Word}
+
+The word ``attraction'' survives for a second reason, beside the Reduction Conflation. It is comfortable. It explains without explaining, because it feels intuitive, and it gives permission to stop asking why.
+
+There is reassurance in the idea that some things simply draw together. It makes the universe feel familiar. But the comfort has a cost: it lets convergence be treated as given, rather than accounted for.
+
+In teaching, the comfort speeds learning, for a while. ``Opposites attract.'' ``Gravity pulls.'' ``The nucleus holds the electrons close.'' Students nod, not because they understand, but because the phrase matches the behaviour. And because the phrases are easy to say and easy to teach, they are carried forward from one generation to the next. Students do not audit what their teachers treat as settled. Scientists rarely revisit what their equations already describe.
+
+This is not a criticism of those who used the word. Clarity was traded for communication, and for a long time there was no carrier to name. A metaphor is a bridge to insight. But once a mechanism can be named, the bridge should be crossed. Where it can be, keeping the metaphor is no longer humility.
+
+GPT offers a candidate for that crossing. The comfort of ``attraction'' should give way to the discipline of naming the carrier: not because the motion it described was wrong, but because the cause can now be looked for.
+
+\section{Every Force Has a Carrier}
+\label{sec:carrier}
+
+\argm{The standard GPT holds itself to is the one it asks of every theory: no force without a named carrier.} For gravity, GPT names one.
+
+\begin{hypbar}
+The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rises as it falls inward is itself accelerating, and its acceleration is
+\[
+a = -\,v\frac{dv}{dr} = \frac{GM}{r^2},
+\]
+directed toward the mass: Newton's acceleration, at every radius. A body in the flow is carried with it and shares that acceleration, whatever it is made of. No pressure acts on the body relative to the flow, and nothing inside it is compressed. That is free fall.
+
+When something stops the fall, the body is held against the flow. The support must then push, with the force $mg$ that keeps the body from being carried. That push is weight, and it is what every scale measures.
+
+The energy is located too. As the medium flows inward, its pressure falls and its speed rises, as in any fluid: pressure is converted into flow. The falling body's kinetic energy is paid by that conversion. ``Gravitational potential energy'' is, on this view, the pressure of the medium.
+\end{hypbar}
+
+This account does more than name a carrier. It reproduces what is observed. Every body falls with the same acceleration, whatever it is made of. An accelerometer in free fall reads zero, and one on a table reads the push of the table. Nothing aboard an orbiting station is compressed. A scale reads $mg$, and a pad under a load stays compressed while the load rests on it. The strength of the inflow is calibrated once, against measured gravity, just as Newton's constant $G$ is. \argm{Everything else in this list follows from the carrier without further fitting. Newton's account matches these outcomes with a force that has no carrier, and General Relativity matches them with no force at all. GPT matches them with a mechanism.}
+
+The last point about energy matters for the Reduction Conflation. In General Relativity, the energy of the gravitational field cannot be located at any point.\fn{misner1973} \hypm{GPT locates it, in the medium's pressure.}
+
+Shading takes part as well, at the scale of atoms and in the region between two masses, where the medium's pressure is lower. \openm{Its size is bounded by the measured limits on gravitational shielding, and where it might be detected is a question for Part~29.}
+
+\begin{quote}
+This is why bodies fall.\\
+This is where weight arises.\\
+This is what was once called ``attraction''.
+\end{quote}
+
+What was called a pull was a carrier no one had named.
+
+\section{The Recast of Interactions}
+
+With a carrier named, the familiar ``pulls'' can be read again. Table~\ref{tab:carriers}, at the end of this section, sets them side by side.
+
+\paragraph{Free fall: carried, not pulled.} \hypm{A falling body is carried by the inward flow of the medium. It is not pulled down, and it is not pushed from above: nothing presses on it relative to the flow. The push appears only when the fall is stopped.}
+
+\paragraph{Orbits: coasting in an accelerating medium.} An orbit is usually described as a balance between a body's sideways speed and a pull toward the centre. \hypm{In GPT, an orbiting body is coasting through a medium that is itself accelerating inward. It is carried, so nothing aboard is compressed: that is why the astronauts on a space station float, though gravity there is nearly 90\% as strong as on the ground.}
+
+\paragraph{Chemical bonds, magnetism and charge.} \hypm{Each is read as the medium's pressure acting through a structure of the medium: a shared pattern in a bond, a preferred direction in a magnet, a directional bias around a charge.} \openm{Each still needs its derivation, and each must reproduce the measured numbers: bond energies, Maxwell's stress and Coulomb's law.}
+
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}@{}}
+\toprule
+\textbf{Phenomenon} & \textbf{Carrier in the standard account} & \textbf{GPT's carrier} & \textbf{Does it match what is observed?} \\
+\midrule
+Water in a straw & The outside air's pressure & The same & Yes, in both accounts \\
+Falling apple & None: a force with no carrier \RN{}, or no force at all \RGR{} & \hypm{The medium's inflow carries it} & Yes. Every body falls alike, to one part in $10^{15}$; a falling accelerometer reads zero \\
+Book on a table & The normal force; at the last step, Pauli exclusion, a rule & \hypm{The medium's pressure at the boundary} & Yes. The scale reads $mg$; the pad stays compressed while loaded \\
+Orbit & As for the apple & \hypm{Coasting in an inward-accelerating medium} & Yes. Nothing aboard is compressed, though gravity is 90\% of its surface value \\
+Rope in tension & Momentum current; at the last step, the atomic bond, a name & \hypm{A pressure deficit between atoms} & \openm{Not yet derived} \\
+Magnet and iron & Field stress; the tension along the lines has no carrier & \hypm{The medium, channelled by the magnet} & \openm{Not yet derived} \\
+Opposite charges & Field stress, or virtual photons; no picture of attraction & \hypm{A structure of the medium} & \openm{Not yet derived} \\
+Chemical bond & Energy lowering, an accounting & \hypm{A shared pattern of the medium} & \openm{Not yet derived} \\
+\bottomrule
+\end{tabular}
+\caption{Phenomena described as ``pulls'', the carrier each account names, and whether GPT's carrier is shown to match what is observed. For gravity, GPT names a carrier and that carrier reproduces every observed outcome in the table. For the other forces, its carriers are proposals with the derivation still to come.}
+\label{tab:carriers}
+\end{table}
+
+\subsection*{The Strongest Objection: the Cavendish Experiment}
+
+A physicist will answer that the gravitational pull between small bodies has been measured. In 1798, Henry Cavendish hung a rod carrying two small lead balls from a fine wire, and brought two large lead balls near them. The rod turned, and from the twist of the wire he found the density of the Earth.\fn{cavendish1798} The experiment is the basis of every measurement of Newton's constant $G$. Is that not a pull, measured?
+
+It is a motion and a twist, measured. Like the accelerometer, the wire records a force; it does not say what carries it. In General Relativity, there is no pull between the balls either. \hypm{In GPT, each large ball sets up its own inflow, and the small balls are carried by it, with the wire pushing back as it twists.} \openm{GPT owes a quantitative account of this experiment: the size of the twist from the flows of the large balls, combined with the Earth's far larger flow, within the measured limits on shielding.}
+
+Raising the objection here, rather than waiting for it, is part of the method.
+
+\section{The Causal Audit}
+\label{sec:audit}
+
+Science is not only the art of describing what happens. It is the discipline of explaining how. The audit asks whether a force, a motion or an interaction is not only describable but accounted for.
+
+\begin{enumerate}
+    \item \textbf{Every force must name its carrier.} A force cannot be described by its effects alone. It must say what touches what, and what is exchanged. \hypm{GPT names the medium as gravity's carrier.}
+
+    \item \textbf{Every motion must account for its energy.} If a body gains kinetic energy, the source must be found. Free fall is not free: \hypm{the falling body's energy is paid by the medium, as its pressure turns into flow}. A living body that climbs pays from its own store of energy, as the muscle of Part~6 does.
+
+    \item \textbf{Every force must show what sets its direction.} \hypm{In GPT, the direction of fall is the direction of the medium's flow.}
+
+    \item \textbf{Every interaction must balance its books.} Energy, momentum and angular momentum must be conserved, with every transfer traced. \openm{In GPT, the momentum books must balance across the body, the Earth and the medium. That accounting, Newton's third law in GPT's form, is still to be written out.}
+
+    \item \textbf{Every model must name a medium.} A field that exerts force must be made of something. \hypm{GPT identifies the medium: a self-repelling medium of gravitons that fills space.}
+\end{enumerate}
+
+GPT is built to answer each of these questions. Where its answers are still owed, they are marked as open. The same audit, applied to an account that rests on ``pulling'', finds:
+\begin{itemize}
+    \item no carrier named for the force;
+    \item energy gained without a located source;
+    \item a direction stated without what sets it;
+    \item a reciprocal stated as a rule, not traced as an exchange;
+    \item comfort, in place of explanation.
+\end{itemize}
+
+Science, if it is to remain science, must submit to this audit, and so must GPT.
+
+\section{The Return to Mechanism}
+
+Modern physics, for all its predictive power, has drifted from its mechanical roots. Its descriptions match observation without always saying what transmits the effect. Fields are written down, but not always as media. Equations give outcomes, but not always causes. In that space, science risks becoming a map without a territory.
+
+\paragraph{Equations must map causes.} A formula describes a pattern; it is not by itself an explanation. \hypm{In GPT, every formula is meant to map to a physical process: the medium carries momentum, its pressure acts on matter, and its flow carries what it meets.} A formula that does not say what does the work is a description, and should be presented as one.
+
+\paragraph{Fields must be media, not metaphors.} A field that exerts force must be made of something. \hypm{GPT's medium flows, and it carries waves: light is a wave of the medium, moving at $c$ relative to it.}
+
+\paragraph{Pull must earn its place.} ``Is pulled'' is a description of direction. It becomes an explanation only when the carrier is named, as it is for the rope. Until then, it marks a gap.
+
+\paragraph{Flow, not fate.} Strip away the metaphors, and the universe is not made of destiny. It is made of structure and process. \hypm{The medium flows because matter takes it in. Bodies fall because the medium carries them. Where they are stopped, the medium presses.} And a living body can move against the flow, by its own effort, paying for every metre it climbs.
+
+To say that an object follows its path ``because of gravity'' says nothing until the carrier is named and the transfer traced. This is the return to mechanism: not a revival of Newtonian rigidity, but a demand that cause, carrier and energy be accounted for.
+
+\section{The Reintroduction of Permission}
+
+In removing the metaphor of attraction, GPT restores an idea that physical explanation had lost: \textbf{permission}.
+
+Permission is not a mystical or psychological idea. \hypm{In GPT, it has a physical meaning. A body in free fall is carried by the medium, unopposed. Nothing presses on it relative to the flow. Its motion is permitted, not commanded.} The push appears only when something opposes the flow.
+
+This shifts the picture from command to participation:
+\begin{itemize}
+    \item The attractor participates by setting up the flow.
+    \item The medium carries the moving body.
+    \item The moving body follows the flow, and sets up its own.
+\end{itemize}
+
+The distinction keeps the explanation physical without borrowing the language of intent. ``Attraction'' suggests intent. ``Force'' suggests reach. ``Permission'' names a flow that is not opposed.
+
+To describe gravitational movement without permission is to leave out half of the process. To restore it is not to mystify the explanation, but to complete it. \argm{Gravitational movement is not the result of being pushed. It is the result of being carried where nothing pushes back.}
+
+\section{The Pressure Narrative Restored}
+
+At the heart of GPT is a return to the oldest physical explanation of force: \textbf{pressure}. Long before fields and metaphors of attraction, pressure was understood as a direct cause. A thing was pushed, and it moved. Pressure was contact made causal.
+
+\hypm{In GPT, this is restored as mechanism. The medium, set flowing by mass, carries what is in it. Where the flow is opposed, by a table, a floor or the ground, the medium presses, and that pressure is weight.} No mystical interaction at a distance is needed, and no geometry is left without a carrier. What is needed is:
+\begin{itemize}
+    \item a medium that exists;
+    \item a flow set up by mass;
+    \item and the recognition that where the flow is opposed, force appears.
+\end{itemize}
+
+This gives matter a role, not as will, but as structure. A body is not a passive recipient of influence. It takes part in the flow that moves it, and in the flow that moves others.
+
+Newton described force as mass times acceleration. Einstein described gravity as the curvature of spacetime. \hypm{GPT describes the acceleration of free fall as the acceleration of the medium itself, and weight as the medium's pressure where the fall is stopped.}
+
+This is the pressure narrative restored:
+\begin{itemize}
+    \item no carrier left unnamed;
+    \item no energy left unlocated;
+    \item no metaphor where a mechanism can be named;
+    \item flow, pressure, and a measurable push.
+\end{itemize}
+
+The universe is not compelled.\\
+It flows,\\
+and where the flow is stopped, it presses.
+
+\section{The End of Pull}
+
+This is the end, not of motion, nor of explanation, but of one of the most persistent illusions in physics: the idea of pull as an explanation.
+
+The word has been handed down like an heirloom, from Newtonian intuition through electromagnetic tradition into quantum metaphor and everyday speech. It has been protected by its usefulness, and by the agreeing numbers of the theories it moves between.
+
+But stated plainly:
+
+\textbf{Pull is a direction, not a carrier.}\\
+\textbf{Pull describes a motion; it does not cause it.}\\
+\textbf{Pull, without a carrier, is a placeholder.}
+
+GPT proposes what the word was standing in for:
+\begin{itemize}
+    \item the carrier: the medium of gravitons;
+    \item the process: the medium's inflow toward mass, and its pressure where the flow is stopped;
+    \item the energy: the medium's pressure, converted into flow;
+    \item the effect: gravitational movement.
+\end{itemize}
+
+What remains to be derived is marked as open: the combination of several flows, the accounting of reciprocity, and the readings of tension, charge and bonding. The marks are part of the claim.
+
+This is not a rejection of history. It is the next step in it.
+\begin{itemize}
+    \item Newton gave us distance.
+    \item Einstein gave us shape.
+    \item GPT proposes the medium that moves.
+\end{itemize}
+
+And it returns science to its founding ethic:
+\begin{itemize}
+    \item no force without a named carrier;
+    \item no gain in energy without a source;
+    \item no metaphor where a mechanism can stand.
+\end{itemize}
+
+\textbf{Let this be the end of pull as an explanation.}\\
+\textbf{Let the word be laid down}, not as an attack on those who spoke it, but as a gift to those who no longer need to.\\
+\textbf{Let us teach motion from the medium, weight from pressure, and force from what can be named.}
+
+The medium is proposed.\\
+The push is measured, on every scale.\\
+The universe is not held together by pulling, but by carriers that can be named.\\
+Now we can look for them.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+  \item ``Every force must name its pusher'' is now ``every force must name its carrier''. The first edition stated that all force is pressure and that every motion has a pusher. The argument of the paper does not need that universal claim: it needs only that every force, push or pull, name what carries it. The section ``All Force Is Pressure'' is now ``Every Force Has a Carrier'' (Section~7.10), and its closing line ``It was never a pull. It was always a push'' is replaced.
+  \item Free fall. The first edition said a falling object is ``pushed from above'' and that ``there is no free fall, only paid motion''. A falling body is now carried by the medium's inflow, with nothing pressing on it relative to the flow; the push appears only when the fall is stopped. Its energy is paid by the medium's pressure turning into flow, so the energy of gravity is located.
+  \item The force law $F=\int_A \rho_g \vec v_g\,dA$ is withdrawn. It depends on area, so foil and a pebble would fall differently, and its units are not those of a force. In its place, the inflow's own acceleration, $GM/r^2$, is shared by every body it carries, and weight is the force that holds a body against the flow.
+  \item Orbits are no longer ``radial pressure equilibrium''. An orbiting body coasts through a medium that is itself accelerating inward, which is why nothing aboard is compressed.
+  \item ``The more inert an object, the less it resists or shapes the field'' is removed: it would make bodies fall differently by composition, which MICROSCOPE rules out to about one part in $10^{15}$. Bodies differ in how much flow they set up (their mass), not in how they are carried.
+  \item Electromagnetism. ``Fields without flow'' and the claim that the field is silent on how force is transmitted are corrected: classical fields carry energy and momentum, and Maxwell's stress places the force in the space between bodies. The gap is now stated precisely: the tension along the lines of force has no carrier. The particle-exchange picture explains repulsion, not attraction.
+  \item Gravitational movement no longer says that contact forces are ``not attributed to graviton pressure''. The term names which effect is gravitational; Part~6 proposes that contact forces involve the medium too.
+  \item ``GPT passes the audit'' is replaced by an audit applied to GPT as well, with what it still owes marked Open: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding. The extensions beyond gravity are marked as hypotheses.
+  \item New: a precedent from history (Section~7.3), in which the ``horror of the vacuum'' was replaced by the pressure of the air, with the measurements that followed; what instruments measure (7.5); why ``pull'' survives, as a case of the Reduction Conflation (7.6); and the Cavendish experiment as the strongest objection, with what GPT owes.
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+  \item The rope in a tug of war is added as a pull that passes the test, and shows where its open question lies.
+  \item Table~7.1 sets each ``pull'' beside the carrier each account names.
+  \item Newton's ``so great an absurdity'' is cited to his letter to Bentley (1693), not the \emph{Principia}; \emph{hypotheses non fingo} is cited to the General Scholium (1713). New sources: Galileo, Torricelli, Pascal, Guericke, Maxwell, Heitler and London, Cavendish, MICROSCOPE.
+  \item Metaphors that stood in for a mechanism in GPT's own text (``sculptor'', ``negotiation'', ``pressure is how it speaks'') are replaced with the process they stood for. The two discussions of the feedback loop of metaphor are merged, and the text is tightened throughout.
+  \item Requirement 2 of the audit is corrected: a body can accelerate without gaining energy (in a circle, for example); what needs a source is a gain in kinetic energy.
+  \item Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part07}
+
+\end{document}

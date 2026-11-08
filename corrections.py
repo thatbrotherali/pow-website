@@ -477,3 +477,6 @@ _mm["notes"] = []
 # Part 6, second edition (November 2026): the first-edition corrections above are part of the new text,
 # and what changed is listed at the end of the part itself.
 CORR.pop("gpt-part-06", None)
+
+# Part 7, second edition (November 2026): the first-edition corrections are part of the new text.
+CORR.pop("gpt-part-07", None)
