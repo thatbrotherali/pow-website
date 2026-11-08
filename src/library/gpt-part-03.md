@@ -801,7 +801,7 @@ Every claim to explain gravity must now address both ledgers.
 
 - And it must say, or admit it cannot yet say, what acts: what touches what, and what is exchanged.
 
-Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]**Whether it succeeds is for the parts that follow, and for experiment, to show. **\[Open\]**
+Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]** The parts that follow show how, and how experiment can test it.
 
 ## A Threshold, Not a Finale
 

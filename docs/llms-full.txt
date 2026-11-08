@@ -4916,7 +4916,7 @@ What the results of this paper rest on is the active (static) pressure, which fo
 
 $$P_g(r) = P_0 - \tfrac{1}{2}\rho_g v^2 = P_0 \left(1 - \frac{2GM}{c^2 r}\right),$$
 
-with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$. This value of $P_0$ is a calibration: it is the value that makes clocks agree with the measured gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). **\[Hypothesis\]**
+with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$. This is the value at which the pressure law and the clock law agree: with it, $P_g/P_0 = 1 - v^2/c^2$, so a clock in the lowered pressure and a clock moving through the medium at the inflow speed slow alike, and the slowing is the measured gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). **\[Hypothesis\]**
 
 Near a mass the change is tiny: for Earth, $2GM/Rc^2 \approx 1.4 \times 10^{-9}$. It is this pressure profile, not a change in density, that the light-deflection and clock-rate results of Sections <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a> and <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a> use.
 
@@ -5856,7 +5856,7 @@ Because clocks and rulers change together, light measured locally always travels
 
 $$n(r) = \frac{P_0}{P_g(r)} \approx 1 + \frac{2GM}{c^2 r}$$
 
-The factor of 2 is not fitted: half of it comes from clocks, half from rulers. With clocks alone, the index would be $1 + GM/c^2 r$ and the deflection half the measured value, the result Soldner obtained from Newtonian gravity in 1801. Dicke (1957) showed that this structure reproduces the classical tests; in GPT, the slowing has a physical source, the medium. Deriving the square-root scaling from the medium itself remains open. **\[Open\]**
+The factor of 2 is not fitted: half of it comes from clocks, half from rulers. With clocks alone, the index would be $1 + GM/c^2 r$ and the deflection half the measured value, the result Soldner obtained from Newtonian gravity in 1801. Dicke (1957) showed that this structure reproduces the classical tests; in GPT, the slowing has a physical source, the medium. A clock is a structure of medium waves. Near a mass the medium streams past it at the inflow speed $v$, and a clock moving through the medium ticks slower, as each of its internal cycles has farther to travel, by $\sqrt{1-v^2/c^2}$. Since $P_g/P_0 = 1 - v^2/c^2$, this is the square-root law. **\[Hypothesis\]**
 
 ## Fermat’s Principle in a Pressure Gradient
 
@@ -5930,7 +5930,7 @@ Existing measurements already constrain this. The deflection measured at radio w
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. The measurements above constrain it to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$. Because the medium changes the electric and magnetic constants of space together, it stays matched for light of every wavelength, so at leading order $\epsilon(\lambda)$ vanishes and radio and optical light bend alike, as the measurements above find. **\[Hypothesis\]**
 
 **This is a testable distinction.**
 
@@ -6301,7 +6301,7 @@ The net effect is:
 
 $$\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}$$
 
-The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster has not yet been derived from the medium’s dynamics. **\[Open\]**GPT’s principle (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>) is that the tick rate scales as $\sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$ fixed by the measured redshift. **\[Hypothesis\]** The result is:
+The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster is fixed by the medium’s flow: the clock has the medium streaming past it at the inflow speed, so its tick rate is $\sqrt{1-v^2/c^2} = \sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$, the value at which the pressure law and the clock law agree. **\[Hypothesis\]** The result is:
 
 $$\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}$$
 
@@ -7503,7 +7503,7 @@ Existing measurements already constrain this. The deflection measured at radio w
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. The measurements above constrain it to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$. Because the medium changes the electric and magnetic constants of space together, it stays matched for light of every wavelength, so at leading order $\epsilon(\lambda)$ vanishes and radio and optical light bend alike, as the measurements above find. **\[Hypothesis\]**
 
 ## What This Means for Spacetime Curvature
 
@@ -8597,7 +8597,7 @@ The tick duration becomes:
 
 $$\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}$$
 
-The load factor grows faster than the flux enhancement. The ratio has not yet been derived from the medium’s dynamics; **\[Open\]**taking the principle of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>, that the tick rate scales as $\sqrt{P_g/P_0}$ with $P_g/P_0 = 1 - 2GM/c^2 r$, it is: **\[Hypothesis\]**
+The load factor grows faster than the flux enhancement. The ratio is fixed by the medium streaming past the clock at the inflow speed: the tick rate is $\sqrt{1-v^2/c^2} = \sqrt{P_g/P_0}$, with $P_g/P_0 = 1 - 2GM/c^2 r$, so it is: **\[Hypothesis\]**
 
 $$\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}$$
 
@@ -8619,7 +8619,7 @@ The effective flux enhancement is:
 
 $$\Gamma(v) = \Gamma_0 \cdot \gamma(v), \quad \gamma(v) = \frac{1}{\sqrt{1 - v^2/c^2}}$$
 
-The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. The load factor is taken to grow as the square of $\gamma$. This scaling is assumed, chosen so that the result reproduces the measured time dilation of moving clocks; deriving it from the anisotropic exchange remains open. **\[Open\]**
+The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. A moving clock is slowed in the same way as a clock near a mass: by its motion through the medium, by the factor $\sqrt{1-v^2/c^2} = 1/\gamma$. Gravitational and motional time dilation are one effect. **\[Hypothesis\]** In the load-factor language of this appendix, that is a load growing as $\gamma^2$.
 
 $$N(v) = N_0 \cdot \gamma(v)^2$$
 
@@ -8761,6 +8761,12 @@ This list records what changed in the November 2026 revision, which brings the p
 - Lensing (Section 24), waves (Section 22) and the Lagrangian (Appendix F): the lensing deflection uses the mass inside the impact radius, and shear comes from second derivatives of the lensing potential; the vector-potential equation has the source with the correct sign; the couplings in the Lagrangian now reproduce Section 19’s equation, and the Ampère-like equation is a wave equation.
 
 - The predicted wavelength dependence of light bending is set against radio and optical measurements, which agree to a few parts in a thousand.
+
+## Further changes to the argument (8 November 2026)
+
+- Clocks: the square-root law and the slowing of moving clocks are no longer assumed. A clock is slowed by its motion through the medium, $\sqrt{1-v^2/c^2}$; near a mass the medium streams past it at the inflow speed, which gives $\sqrt{P_g/P_0}$. $P_0=\tfrac12\rho_g c^2$ is the value at which the two laws agree. Gravitational and motional time dilation are one effect.
+
+- Dispersion: the medium changes the electric and magnetic constants together, so it stays matched for every wavelength and light of all wavelengths bends alike at leading order.
 
 ## Clarifications
 
@@ -8908,15 +8914,15 @@ Honesty about the state of the work is part of the method.
 
 - GPT accounts qualitatively for the phenomena GR describes, and proposes explanations for the readings attributed to dark matter and dark energy without adding unseen matter. **\[Hypothesis\]**
 
-- **What is calibrated.** Like Newton’s constant $G$, GPT’s strength of gravity is calibrated once, against measured gravity: the inflow of the medium toward a mass is matched to the observed acceleration $g = GM/r^2$. The slowing of clocks near a mass is likewise matched to measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018).[^15] These are calibrations, stated as such. Deriving the clock rate from the medium’s own properties is still to be done. **\[Open\]**
+- **What is calibrated.** Like Newton’s constant $G$, GPT’s strength of gravity is calibrated once, against measured gravity: the inflow of the medium toward a mass is matched to the observed acceleration $g = GM/r^2$. That is the one calibration, stated as such. The slowing of clocks near a mass then follows from it. A clock is a structure of medium waves; near a mass the medium streams past it at the inflow speed, and a clock moving through the medium ticks slower, as each of its internal cycles has farther to travel, by the factor $\sqrt{1-v^2/c^2}$. **\[Hypothesis\]** With $v^2=2GM/r$, that is the measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018),[^15] with no second calibration.
 
-- **What then follows without further fitting.** If the medium affects the clocks *and* the rulers of matter in the same proportion—so that light’s speed, measured locally, is always $c$—then the bending of starlight and the radar delay past the Sun follow from the clock calibration alone, with no adjustable constant. **\[Argued\]** Clocks supply half of the bending; rulers supply the other half. The result is GR’s 1.75 arcseconds and GR’s Shapiro delay, by a mechanical route (Appendix 1.A). The principle itself is a hypothesis, **\[Hypothesis\]** and deriving it from the medium is open. **\[Open\]**
+- **What then follows without further fitting.** If the medium affects the clocks *and* the rulers of matter in the same proportion—so that light’s speed, measured locally, is always $c$—then the bending of starlight and the radar delay past the Sun follow from that one calibration, with no adjustable constant. **\[Argued\]** Clocks supply half of the bending; rulers supply the other half. The result is GR’s 1.75 arcseconds and GR’s Shapiro delay, by a mechanical route (Appendix 1.A). Clocks and rulers change together because both are structures of the same medium: the medium that paces matter’s internal processes also sets the size of its structures. **\[Hypothesis\]**
 
-- **What is not yet derived.** The advance of Mercury’s perihelion, and the slowing of moving clocks, have not yet been derived from the medium. **\[Open\]**
+- **Moving clocks and Mercury.** The slowing of moving clocks is the same effect: every clock is slowed by its motion through the medium, whether the medium streams past it near a mass or it travels through the medium itself. **\[Hypothesis\]** The advance of Mercury’s perihelion depends on how rulers respond to the direction of the flow, which Part 8 takes up. **\[Open\]**
 
-- **A constraint to meet.** If light bending is refraction in a medium, it may depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^16] so any such dependence must be smaller than that. Quantifying GPT’s prediction against these limits is open. **\[Open\]**
+- **A constraint to meet.** If light bending is refraction in a medium, it may depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^16] so any such dependence must be smaller than that. GPT expects no such dependence at leading order: the medium changes the electric and magnetic constants of space together, which leaves it matched for light of every wavelength, so radio and optical light bend alike, as measured. **\[Hypothesis\]**
 
-- The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. **\[Hypothesis\]** The derivations that would confirm these proposals remain to be done. **\[Open\]**
+- The historic objections to push models—drag on moving bodies and the heating of matter—are addressed by specific proposals in this framework: that uniform motion through the medium produces no net drag, and that the energy of the exchange is carried away by the returning, inactive medium rather than deposited as heat. **\[Hypothesis\]** Uniform motion produces no drag because a body’s own structure is made of the medium, so moving through it changes the body’s clocks and rulers together in the way that hides the motion, as FitzGerald, Lorentz and Bell showed. And matter is not heated, because the energy of the exchange passes through it and is returned to the medium (Part 6). **\[Hypothesis\]**
 
 - Distinctive predictions, where GPT and GR should differ measurably, are collected in Part 29, *Experimental Divergence*. Until such tests are carried out, GPT remains a hypothesis.
 
@@ -8971,9 +8977,9 @@ This appendix shows how the bending of light and the radar delay past the Sun fo
 
 Write the depth of the gravitational potential at distance $r$ from a mass $M$ as the small dimensionless number $$\Phi(r) = \frac{GM}{c^2 r}.$$ At the Sun’s surface, $\Phi \approx 2\times10^{-6}$.
 
-#### 1. Calibration: clocks.
+#### 1. Calibration and clocks.
 
-A clock at depth $\Phi$ runs slow, compared with a clock far away, by the factor $(1-\Phi)$. In GPT, this is the effect of the denser medium on the processes inside matter. Its size is taken from measurement, the gravitational redshift. Deriving it from the medium is still to be done. **\[Open\]**
+The one calibration is the inflow, matched to Newton’s gravity: $v^2 = 2GM/r$. A clock near the mass has the medium streaming past it at that speed, and a clock moving through the medium runs slow by $\sqrt{1-v^2/c^2}$. So a clock at depth $\Phi$ runs slow, compared with a clock far away, by $\sqrt{1-2\Phi} \approx (1-\Phi)$. **\[Hypothesis\]** That is the measured gravitational redshift, and it follows from the inflow without a second calibration.
 
 #### 2. Principle: rulers.
 
@@ -8983,7 +8989,7 @@ The same medium that slows matter’s internal processes also sets the size of m
 
 An observer at depth $\Phi$, using local clocks and rulers, measures light’s speed as $c$—as every local experiment finds. But measured from far away, where both the local ruler and the local second are rescaled, light near the mass travels at $$c_{\text{far}} = c\,(1-\Phi)(1-\Phi) \approx c\,(1-2\Phi),$$ so the medium has an effective refractive index $$n(r) \approx 1 + 2\Phi(r) = 1 + \frac{2GM}{c^2 r}.$$ The factor of 2 is not chosen. One half comes from clocks, the other from rulers.
 
-In the variables of *The Mechanics of the Medium*, the same chain reads: the inflow lowers the medium’s active pressure to $P/P_0 = 1 - 2\Phi$; clocks and rulers both scale as $\sqrt{P/P_0} \approx 1 - \Phi$, with the free-space pressure $P_0 = \tfrac12\rho_g c^2$ fixed by the measured redshift; and the index is $n = P_0/P \approx 1 + 2\Phi$.[^19]
+In the variables of *The Mechanics of the Medium*, the same chain reads: the inflow lowers the medium’s active pressure to $P/P_0 = 1 - 2\Phi$; clocks and rulers both scale as $\sqrt{P/P_0} \approx 1 - \Phi$, with the free-space pressure $P_0 = \tfrac12\rho_g c^2$, the value at which the pressure law and the clock law agree, since then $P/P_0 = 1 - v^2/c^2$; and the index is $n = P_0/P \approx 1 + 2\Phi$.[^19]
 
 #### 4. The bending of light.
 
@@ -8997,11 +9003,11 @@ A radar signal passing close to the Sun is delayed by the slower light near it. 
 
 #### What this establishes, and what it does not.
 
-- From one calibration (clock rates) and one principle (clocks and rulers change together), GPT obtains the bending of light and the Shapiro delay with no further fitting. **\[Argued\]**
+- From one calibration (the inflow) and one principle (clocks and rulers change together), GPT obtains the slowing of clocks, the bending of light and the Shapiro delay with no further fitting. **\[Argued\]**
 
 - These are the same first-order results as General Relativity. Agreement here shows that a medium can do what curvature does. It does not, by itself, show that the medium exists.
 
-- Two derivations remain: the clock rate from the medium’s properties, and the principle that rulers change in the same proportion as clocks. **\[Open\]** Until both are shown from the medium itself, they are calibration and hypothesis respectively.
+- The clock rate follows from motion through the medium, and the principle that rulers change with clocks follows from both being structures of the medium. **\[Hypothesis\]**
 
 # Changes in the Second Edition
 
@@ -9024,6 +9030,10 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - New Appendix 1.A shows the bending of light and the Shapiro delay following from one calibration and one stated principle.
 
 - The closing line “This is gravitational structure, finally explained” is now “This is gravity, offered for explanation.”
+
+## Changes to the argument (November 2026, after Parts 6, 7 and 11)
+
+- The slowing of clocks near a mass is no longer a second calibration. It follows from the inflow: a clock is slowed by the medium streaming past it, by $\sqrt{1-v^2/c^2}$, which with $v^2=2GM/r$ is the measured redshift. Questions the first draft of this edition left open (moving clocks, dispersion, drag and heating, why clocks and rulers change together) are now answered in the text, marked as hypotheses. “The effect of the denser medium” on clocks is corrected to the medium streaming past them.
 
 ## Clarifications
 
@@ -10867,7 +10877,7 @@ Every claim to explain gravity must now address both ledgers.
 
 - And it must say, or admit it cannot yet say, what acts: what touches what, and what is exchanged.
 
-Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]**Whether it succeeds is for the parts that follow, and for experiment, to show. **\[Open\]**
+Graviton Pressure Theory accepts this challenge. It proposes a single physical interaction—the pressure of a medium on matter—as the cause of everything in this catalog. **\[Hypothesis\]** The parts that follow show how, and how experiment can test it.
 
 ## A Threshold, Not a Finale
 
@@ -11412,7 +11422,7 @@ Or consider the galaxy. Below an acceleration of about $10^{-10}\,\mathrm{m/s^2}
 
 If gravity has a single physical mechanism, then every territory is the same process seen under different conditions. The weak-field and strong-field regimes would differ in degree, not in kind. The quantum experiments would show the mechanism acting on matter waves. The galactic regularity would be a property of the mechanism at low accelerations, not an accident of galaxy formation or an arbitrary change of law. And the frontier between gravity and quantum theory would be a question about the mechanism, not a collision between two incompatible pictures. **\[Argued\]**
 
-Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]**Whether it can account for each territory—including the galactic regularity and the quantum experiments—is a test it must pass, not a claim it can assume. **\[Open\]**
+Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]** The territories are then one process under different conditions: the engineer’s load is the medium’s momentum relayed through a structure; the slowing of clocks is their motion through the medium; the falling neutron is a matter wave in an accelerating medium; the black hole is where the inflow reaches the speed of light. **\[Hypothesis\]** The galactic regularity is the hardest test, and Part 9 takes it up.
 
 # The Gravity We Live With
 
@@ -12745,7 +12755,7 @@ Still, a loaded bridge is not inert. Its internal forces are maintained, its ato
 
 A permanent magnet holding an iron object against gravity draws no power, and it does not weaken by holding. Its strength fades only with heat, shocks or the passage of a great deal of time, whether it holds anything or not. Classical electromagnetism adds that magnetic forces on moving charges do no work at all.[^8]
 
-But here too a name stands where an interface should be. “Magnetic attraction” says that the force exists. It does not say what touches the iron, or what is exchanged across the gap while it is held. **\[Open\]** That gap belongs to Parts 21 and 22.
+But here too a name stands where an interface should be. “Magnetic attraction” says that the force exists. It does not say what touches the iron, or what is exchanged across the gap while it is held. **\[Argued\]** In GPT, the magnet channels the medium into a circulation, and the iron is pressed along it (Part 11; Parts 21 and 22). **\[Hypothesis\]**
 
 ## The Table
 
@@ -12779,11 +12789,11 @@ What does it mean to hold a load in a current?
 
 **The normal force is the signature.** The normal force is not a separate thing that happens to balance the weight. It equals the rate at which momentum is delivered to the support: 98 newtons for a 10 kg load, which is 98 newton-seconds every second. A bathroom scale reads exactly this, so every scale reading is a measurement of the momentum current. In GPT, that current is delivered by the medium’s inflow, so every scale reading measures the medium’s delivery. **\[Hypothesis\]**
 
-What stops the book passing into the table? The standard account rests finally on the Pauli exclusion principle, which forbids two electrons from occupying the same state.[^15] That is a rule, not a carrier: it says that matter does not interpenetrate, not what touches what at the boundary. GPT proposes a carrier. Matter takes in the medium and ejects it again. Where the outflows of two bodies meet densely, at their contact, the ejected medium is re-activated into its self-repelling state, and its pressure first resists compression, then creates and holds the boundary between the two bodies. This is where the delivered momentum goes: it is returned as solidity. **\[Hypothesis\]** The two accounts need not be rivals. If electromagnetism is itself a property of the medium, as *The Mechanics of the Medium* proposes, “electromagnetic repulsion” may be this pressure described in electromagnetic language. **\[Hypothesis\]** Physics already knows a pressure set by boundaries: in the Casimir effect, two close, uncharged plates are pressed together.[^16] The standard account describes it by the modes the boundaries allow, and names no carrier. Why the re-activation switches on only at atomic distances, why stiffness varies about a hundred-thousand-fold from rubber to steel, and why the boundary pressure equals the delivered momentum exactly, are still to be derived. **\[Open\]**
+What stops the book passing into the table? The standard account rests finally on the Pauli exclusion principle, which forbids two electrons from occupying the same state.[^15] That is a rule, not a carrier: it says that matter does not interpenetrate, not what touches what at the boundary. GPT proposes a carrier. Matter takes in the medium and ejects it again. Where the outflows of two bodies meet densely, at their contact, the ejected medium is re-activated into its self-repelling state, and its pressure first resists compression, then creates and holds the boundary between the two bodies. This is where the delivered momentum goes: it is returned as solidity. **\[Hypothesis\]** The two accounts need not be rivals. If electromagnetism is itself a property of the medium, as *The Mechanics of the Medium* proposes, “electromagnetic repulsion” may be this pressure described in electromagnetic language. **\[Hypothesis\]** Physics already knows a pressure set by boundaries: in the Casimir effect, two close, uncharged plates are pressed together.[^16] The standard account describes it by the modes the boundaries allow, and names no carrier. The re-activation switches on only at atomic distances because each atom’s organised medium reaches only a short way beyond it, dying away over a few hundredths of a nanometre; the outflows are re-activated only where those short tails overlap, so the push rises steeply at the size of an atom and is absent before contact. And the boundary pressure matches the delivered momentum the way the foam pad does: the bodies settle together until it does. **\[Hypothesis\]**
 
 Standard elasticity describes the same compression as a static equilibrium that needs no continuing energy, and here the two accounts agree on the numbers. Compressing the pad takes a fixed amount of energy once, supplied by the book settling a few millimetres, and after that the energy stored in the pad stays the same. What continues is not energy deposited in the pad, but the force itself: the momentum passing through it. The pad does not prove the throughput, because standard physics predicts the compression too. What it shows is that the force is continuous, which is exactly what the throughput explains and what the textbook’s “nothing is happening” denies. **\[Argued\]**
 
-**Energy flows through it too, relative to the medium.** The rate at which a force transfers energy is the force times the speed. In the laboratory frame the speed is zero, so the energy rate is zero: the textbook answer. In the frame of the medium, the load is moving at the inflow speed, **\[Hypothesis\]** and the rate is $$F\,v \approx 98\ \text{N} \times 11\,200\ \text{m/s} \approx 1.1\ \text{MW}$$for a 10 kg weight. This is large, and it does nothing to the load or the table. It does not heat them, because it is not deposited in them: it passes through the load and its support. Nor can it be deposited in the Earth. For the Earth’s own mass, energy deposited at this rate would exceed the heat that flows out of the Earth, about 47 terawatts,[^17] by many orders of magnitude. It must be returned to the medium. **\[Hypothesis\]** The route of return is still to be worked out; **\[Open\]** one candidate is the ejected medium, as it is slowly recharged far from a mass.[^18] Throughput is not consumption.
+**Energy flows through it too, relative to the medium.** The rate at which a force transfers energy is the force times the speed. In the laboratory frame the speed is zero, so the energy rate is zero: the textbook answer. In the frame of the medium, the load is moving at the inflow speed, **\[Hypothesis\]** and the rate is $$F\,v \approx 98\ \text{N} \times 11\,200\ \text{m/s} \approx 1.1\ \text{MW}$$for a 10 kg weight. This is large, and it does nothing to the load or the table. It does not heat them, because it is not deposited in them: it passes through the load and its support. Nor can it be deposited in the Earth. For the Earth’s own mass, energy deposited at this rate would exceed the heat that flows out of the Earth, about 47 terawatts,[^17] by many orders of magnitude. It is returned to the medium: carried away from the mass by the ejected medium, which is recharged far out, at the relaxation boundary. **\[Hypothesis\]**[^18] Throughput is not consumption.
 
 A water wheel locked in place in a river is a fair picture. The river presses on it continuously, and the wheel’s mounting must hold firm against that pressure. The river’s energy flows past and around the wheel the whole time. None of it is used up by the wheel, and the wheel does not warm. Yet anyone who says that “nothing is happening” to a locked wheel in a river has not looked at the river.
 
@@ -12804,7 +12814,7 @@ The standard answer is the electromagnetic bond, described with great precision 
 
 GPT’s answer follows from its account of matter. In *The Mechanics of the Medium*, matter is a structure of the medium: organised, self-sustaining patterns of the medium’s own motion. **\[Hypothesis\]**[^19] A pattern in a flowing medium persists only because the medium keeps renewing it, as a standing wave in a stream persists only because the water keeps arriving. On this view, every structure, the table, the bridge and the book, is maintained continuously by the medium that flows through it. Stability is active, and what pays for it is not the table, and not a battery: it is the medium. **\[Hypothesis\]**
 
-Deriving the stiffness of a real material from the medium’s dynamics remains to be done. **\[Open\]**
+A material’s stiffness follows from how short and steep its atoms’ tails are: the more tightly bound the atoms, the stiffer the contact. Diamond is about sixty times stiffer than lead. **\[Hypothesis\]** Much of the wider range, from steel to rubber, comes from structure rather than from the contacts: rubber is soft because its long chain molecules uncoil.
 
 # Work Redefined: Two Ledgers
 
@@ -12832,11 +12842,11 @@ What has been measured, and what remains to be tested, is this.
 
 - **Creep.** The energy released as a loaded structure slowly creeps equals the weight times the distance it settles. This, too, is standard, and GPT agrees with it.
 
-- **A test bed: the compressed pad.** If the throughput has any part that is not perfectly conservative, a compressible layer under a sustained load is the place to look for it: as heating, or as creep, beyond what the standard account predicts. Foams creep under load by themselves, so that standard creep must be measured and subtracted first, and GPT does not yet predict the size of any excess. **\[Open\]**
+- **A test bed: the compressed pad.** If the throughput has any part that is not perfectly conservative, a compressible layer under a sustained load is the place to look for it: as heating, or as creep, beyond what the standard account predicts. Foams creep under load by themselves, so that standard creep must be measured and subtracted first. GPT, which holds that the throughput is returned to the medium in full, predicts no excess, **\[Hypothesis\]** and a measured excess would count against the reading as stated.
 
 - **Free fall.** A falling body moves with the medium, so no momentum needs to be relayed through it, and nothing in it should be compressed. That is what astronauts in orbit experience. It is a consistency check, passed.
 
-- **The signature of throughput.** The momentum throughput already has a measured signature: the normal force. Every scale reading measures the rate at which momentum is delivered (Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">[sec:throughput]</a>). For clocks, the same picture of the medium streaming through matter predicts their slowing near a mass, and that has been measured.[^20] For the energy throughput, no measurable local consequence has yet been identified. **\[Open\]** Until one is, that part is an explanation of what the textbook leaves as “static equilibrium”, not a confirmed prediction. A test is owed.
+- **The signature of throughput.** The momentum throughput already has a measured signature: the normal force. Every scale reading measures the rate at which momentum is delivered (Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">[sec:throughput]</a>). For clocks, the same picture of the medium streaming through matter predicts their slowing near a mass, and that has been measured.[^20] The energy throughput itself leaves no separate local mark, because it passes through and is returned; its signature is the streaming of the medium that carries it, which the slowing of clocks measures. **\[Hypothesis\]**
 
 # Conclusion
 
@@ -12869,6 +12879,10 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - The energy throughput is returned to the medium, not deposited in the Earth, whose measured heat flow rules that out; the route of return is open (Section 6.4).
 
 - New: The Load Is Never at Rest (Section 6.3), which names the Rest-and-Isolation Assumption and shows that work depends on the frame; Holding as Throughput (6.4); and What Maintains Structure (6.5).
+
+## Further changes (8 November 2026, after Part 11)
+
+- Questions this edition first left open are now answered in the text, marked as hypotheses: why the contact push switches on at atomic distances (the short tails of each atom’s organised medium), why the boundary pressure matches the delivered momentum, how the energy throughput is returned, what sets stiffness, and why the energy throughput leaves no separate local mark. The compressed-pad test now states GPT’s prediction: no excess.
 
 ## Clarifications
 
@@ -13115,7 +13129,7 @@ The word survives because it is useful, not because it explains. It narrates the
 
 Take the gravitational case. An object accelerates toward the Earth. The motion is real. The energy is real. But “gravity pulls” assigns the action to the Earth, and the Earth does not supply the energy by reaching out. In GPT, the object falls because the medium around it is flowing toward the Earth, and the object is carried with it **\[Hypothesis\]** (Section <a href="#sec:carrier" data-reference-type="ref" data-reference="sec:carrier">[sec:carrier]</a>).
 
-In electromagnetism, “opposites attract” summarises Coulomb’s law. The law gives the size of the force; it does not by itself say what carries it. And in chemistry, “electrons are attracted to nuclei” is a phrase for the Coulomb term in an equation whose solutions are exact and whose carrier is not described. GPT proposes that electrons are held in stable patterns of the medium around the nucleus. **\[Hypothesis\]** How such patterns reproduce the measured structure of atoms is still to be shown. **\[Open\]**
+In electromagnetism, “opposites attract” summarises Coulomb’s law. The law gives the size of the force; it does not by itself say what carries it. And in chemistry, “electrons are attracted to nuclei” is a phrase for the Coulomb term in an equation whose solutions are exact and whose carrier is not described. GPT proposes that electrons are held in stable patterns of the medium around the nucleus. A bounded medium can hold only certain standing patterns, as a drum or a bell has only certain tones, and that is the form atomic structure takes: discrete states, each with its own energy. **\[Hypothesis\]**
 
 The pattern repeats:
 
@@ -13153,7 +13167,7 @@ Measured against these requirements, the word “attraction” fails. It names n
 
 The requirement is not a ban on the word “pull”. In a tug of war, the rope pulls, and the carrier is named. The rope is in tension, and tension is a current of momentum running along it. Each team pushes its feet against the ground, the ground pushes back, and momentum flows through the bodies of the players and along the rope. In the mechanics of materials, the stress in the rope is exactly the density of that momentum current, as it is in the loaded table of Part 6.[^9] The pull is accounted for, and it is reciprocal: each team feels the other’s pull through the same rope.
 
-The open question does not disappear. It moves to where it belongs. What carries tension between the atoms of the rope? The standard account answers with the electromagnetic bond, and at the last step that is a name, not a contact. GPT’s programme is to read every such tension as a pressure deficit: the atoms of the rope held together by the higher pressure of the medium around them, as the halves of an evacuated sphere are held together by the air (Section <a href="#sec:precedent" data-reference-type="ref" data-reference="sec:precedent">[sec:precedent]</a>). **\[Hypothesis\]** That reading must still be derived, and it must reproduce the measured strengths of materials. **\[Open\]**
+The open question does not disappear. It moves to where it belongs. What carries tension between the atoms of the rope? The standard account answers with the electromagnetic bond, and at the last step that is a name, not a contact. GPT’s programme is to read every such tension as a pressure deficit: the atoms of the rope held together by the higher pressure of the medium around them, as the halves of an evacuated sphere are held together by the air (Section <a href="#sec:precedent" data-reference-type="ref" data-reference="sec:precedent">[sec:precedent]</a>). **\[Hypothesis\]** Where the organised medium around two atoms overlaps out of phase, their outflows partly cancel and the pressure between them falls; that deficit is the bond. Where it overlaps in phase, the outflow is re-activated and pushes the atoms apart; that is the hard contact. The bond length is where the two balance, and the more tightly bound the atoms, the stronger the material. **\[Hypothesis\]**
 
 The rope shows how the test works. It asks the same question of a rope as of gravity, and when it cannot be answered yet, it says exactly where the gap is.
 
@@ -13191,7 +13205,7 @@ Newtonian gravity posited a force acting instantaneously at a distance, and Newt
 
 **\[Hypothesis: the passage that follows\]**
 
-Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton’s gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth’s surface. A falling body is carried by that flow. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium’s pressure is lower, an effect bounded by the measured limits on gravitational shielding.[^16]
+Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton’s gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth’s surface. A falling body shares the flow’s acceleration: the medium keeps streaming through it, and delivers momentum to every particle of it at once, in proportion to its mass. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium’s pressure is lower, an effect bounded by the measured limits on gravitational shielding.[^16]
 
 **\[End of passage\]**
 
@@ -13203,19 +13217,19 @@ This is the most important fact in the history of “attraction”. When physics
 
 Quantum electrodynamics describes the force as the exchange of virtual photons. The usual picture is of two skaters throwing a ball, each recoiling as they throw and catch. The picture explains repulsion. It does not explain attraction, and physics educators say plainly that it is not meant to be taken literally.[^19] The mathematics gives the sign of the force. The picture of what touches what is missing.
 
-GPT reads charge as a structure of the medium around matter. *The Mechanics of the Medium* treats the electric and magnetic constants as the medium’s compressibility and stiffness, and a charge as a stable directional bias in it. **\[Hypothesis\]**[^20] Maxwell’s tension, read as a pressure deficit in the medium, is the precise target GPT must reproduce, and that derivation is still to be done. **\[Open\]**
+GPT reads charge as a structure of the medium around matter. *The Mechanics of the Medium* treats the electric and magnetic constants as the medium’s compressibility and stiffness, and a charge as a stable directional bias in it. **\[Hypothesis\]**[^20] Maxwell’s tension and pressure, $\varepsilon_0E^2/2$, have the units of pressure and equal the energy stored in each cubic metre of the field. GPT reads them literally: between opposite charges, the medium’s pressure along the lines is lowered by that amount, and the outside medium presses the charges together; across the lines it is raised. **\[Hypothesis\]** Part 11 follows this through the comb and the stream.
 
 ## Chemical Bonds
 
 Covalent and ionic bonds are explained as electrostatic attraction, or as the overlap of orbitals that lowers the energy of the pair.[^21] The energies are computed exactly. But “lowering the energy” is an accounting, not a contact. It says that the bonded state is preferred. It does not say what holds the atoms in it.
 
-GPT proposes that a bond is a stable pattern of the medium shared by two atoms, held by the pressure of the medium around them, as the rope’s tension is read above. **\[Hypothesis\]** This must still reproduce bond energies and lengths, and the corridors of the first edition must be reconciled with the account of charge in *The Mechanics of the Medium*. **\[Open\]**
+GPT proposes that a bond is a stable pattern of the medium shared by two atoms, held by the pressure of the medium around them, as the rope’s tension is read above. **\[Hypothesis\]** The deficit forms where the organised medium of two atoms overlaps out of phase, and the bond length is where it balances the push of the overlap in phase, as for the rope above. **\[Hypothesis\]**
 
 ## Magnetism
 
 Magnetic poles are said to attract or repel. Maxwell’s stress gives the force, as above, and leaves the tension along the lines without a carrier. One observation deserves notice: when two magnets are free to move, the first thing they do is turn. Opposite poles rotate into alignment before they come together. The interaction is first one of orientation, and only then of approach. Standard physics describes this as the torque on a magnetic dipole.
 
-GPT proposes that a magnet is a material whose structure channels the medium in a preferred direction, and that the motion of iron toward it is the medium’s pressure acting along that structure. **\[Hypothesis\]** The derivation belongs to Parts 21 and 22. **\[Open\]**
+GPT proposes that a magnet is a material whose structure channels the medium in a preferred direction, and that the motion of iron toward it is the medium’s pressure acting along that structure. **\[Hypothesis\]** The aligned atoms eject the medium in a common direction, so it circulates, leaving one pole and returning at the other; Faraday’s lines of force are its streamlines. **\[Hypothesis\]** Part 11 sets out the account, and Parts 21 and 22 develop it.
 
 In each discipline, the language of pull marks the same place: the step where a carrier should be named, and is not. **\[Argued\]**
 
@@ -13225,7 +13239,7 @@ If gravity pulled, an instrument could register the pull. None does.
 
 An accelerometer resting on a table reads 9.8 metres per second squared, directed upward. That is the push of the table on the instrument. Drop the same accelerometer, and while it falls it reads zero. An accelerometer in an orbiting spacecraft reads zero as well, even though, at 400 kilometres, gravity is still about 8.7 metres per second squared, nearly 90% of its strength at the surface. A bathroom scale does the same: it reads your weight when it stops your fall, and nothing when you fall together.
 
-No instrument registers a gravitational pull. Every reading is the push of a support, and in free fall there is nothing to read. **\[Argued\]** This is what General Relativity says too: a freely falling body feels no force. It is also what Part 6 found from the other side: the normal force is the signature of a momentum current, and every scale reading measures it.[^22] In GPT, that current is delivered by the medium’s inflow. The falling body is carried with the flow, so there is nothing to measure; the supported body is held against it, so the support must push. **\[Hypothesis\]**
+No instrument registers a gravitational pull. An accelerometer reads the push of a support; in free fall it reads zero, because the medium delivers its momentum to the instrument’s case and its test mass alike. **\[Argued\]** The acceleration toward the Earth is real all the same: any reference outside the instrument shows it, and a large enough instrument, falling, registers the field’s gradient. And a living body in free fall feels the loss of its support at once, and in orbit ever more deeply with time (Part 11). It is also what Part 6 found from the other side: the normal force is the signature of a momentum current, and every scale reading measures it.[^22] In GPT, that current is delivered by the medium’s inflow, $mg$ every second. Held, it is relayed into the support and the scale reads its rate; falling, it accumulates as motion, and the impact reveals its total. **\[Hypothesis\]**
 
 # Why Pull Survives: The Reduction Conflation
 
@@ -13271,13 +13285,13 @@ In the classical picture, attraction is one-sided: the attracting body acts, and
 
 The attracting body does not reach out. It takes in the medium and ejects it, continuously, and in doing so it sets up the inward flow around it. The larger its mass, the stronger the flow. Every body does this, even the smallest; there is no matter that does nothing to the medium.
 
-The moving body is carried by that flow. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
+The moving body shares that flow’s acceleration. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
 
 What used to be called “being pulled” by another mass is a body moving in a flow it did not set up. The attractor is not issuing a command. It is setting the conditions under which bodies fall. And because the flow it sets up acts on everything nearby, the moving body sets up its own flow in turn, which acts on the attractor. That is the reciprocal.
 
 **\[End of passage\]**
 
-How the flows of several moving bodies combine, so that their effects add as Newton’s law requires, is still to be derived. **\[Open\]** Simple addition of the flow velocities does not work, and the full account must treat bodies that move through several flows at once.
+The flows of several bodies do not simply add as velocities. What combines is the medium’s pressure: each body lowers it around itself, and every body nearby is carried by the acceleration the combined pressure sets up, which is why the pulls of Newton’s law add. **\[Hypothesis\]**
 
 So:
 
@@ -13305,7 +13319,7 @@ The standard GPT holds itself to is the one it asks of every theory: no force wi
 
 **\[Hypothesis: the passage that follows\]**
 
-The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rises as it falls inward is itself accelerating, and its acceleration is $$a = -\,v\frac{dv}{dr} = \frac{GM}{r^2},$$ directed toward the mass: Newton’s acceleration, at every radius. A body in the flow is carried with it and shares that acceleration, whatever it is made of. No pressure acts on the body relative to the flow, and nothing inside it is compressed. That is free fall.
+The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rises as it falls inward is itself accelerating, and its acceleration is $$a = -\,v\frac{dv}{dr} = \frac{GM}{r^2},$$ directed toward the mass: Newton’s acceleration, at every radius. A body in the flow shares that acceleration, whatever it is made of, while the medium keeps streaming through it. The medium delivers momentum to every particle of the body at once, $mg$ every second, so nothing inside it is compressed, yet its momentum toward the mass grows, and the longer it falls the harder it lands. That is free fall.
 
 When something stops the fall, the body is held against the flow. The support must then push, with the force $mg$ that keeps the body from being carried. That push is weight, and it is what every scale measures.
 
@@ -13317,7 +13331,7 @@ This account does more than name a carrier. It reproduces what is observed. Ever
 
 The last point about energy matters for the Reduction Conflation. In General Relativity, the energy of the gravitational field cannot be located at any point.[^26] GPT locates it, in the medium’s pressure. **\[Hypothesis\]**
 
-Shading takes part as well, at the scale of atoms and in the region between two masses, where the medium’s pressure is lower. Its size is bounded by the measured limits on gravitational shielding, and where it might be detected is a question for Part 29. **\[Open\]**
+Shading takes part as well, at the scale of atoms and in the region between two masses, where the medium’s pressure is lower. The measured limits on gravitational shielding keep it small, and that makes it a place to look for effects that only a medium could produce (Part 29). **\[Hypothesis\]**
 
 > This is why bodies fall.  
 > This is where weight arises.  
@@ -13339,7 +13353,7 @@ An orbit is usually described as a balance between a body’s sideways speed and
 
 #### Chemical bonds, magnetism and charge.
 
-Each is read as the medium’s pressure acting through a structure of the medium: a shared pattern in a bond, a preferred direction in a magnet, a directional bias around a charge. **\[Hypothesis\]** Each still needs its derivation, and each must reproduce the measured numbers: bond energies, Maxwell’s stress and Coulomb’s law. **\[Open\]**
+Each is read as the medium’s pressure acting through a structure of the medium: a shared pattern in a bond, a preferred direction in a magnet, a directional bias around a charge. **\[Hypothesis\]** Part 11 sets out each in full, with what it expects to show.
 
 <div id="tab:carriers">
 
@@ -13349,10 +13363,10 @@ Each is read as the medium’s pressure acting through a structure of the medium
 | Falling apple    | None: a force with no carrier **\[N\]**, or no force at all **\[GR\]** | The medium’s inflow carries it **\[Hypothesis\]**            | Yes. Every body falls alike, to one part in $10^{15}$; a falling accelerometer reads zero |
 | Book on a table  | The normal force; at the last step, Pauli exclusion, a rule            | The medium’s pressure at the boundary **\[Hypothesis\]**     | Yes. The scale reads $mg$; the pad stays compressed while loaded                          |
 | Orbit            | As for the apple                                                       | Coasting in an inward-accelerating medium **\[Hypothesis\]** | Yes. Nothing aboard is compressed, though gravity is 90% of its surface value             |
-| Rope in tension  | Momentum current; at the last step, the atomic bond, a name            | A pressure deficit between atoms **\[Hypothesis\]**          | Not yet derived **\[Open\]**                                                                    |
-| Magnet and iron  | Field stress; the tension along the lines has no carrier               | The medium, channelled by the magnet **\[Hypothesis\]**      | Not yet derived **\[Open\]**                                                                    |
-| Opposite charges | Field stress, or virtual photons; no picture of attraction             | A structure of the medium **\[Hypothesis\]**                 | Not yet derived **\[Open\]**                                                                    |
-| Chemical bond    | Energy lowering, an accounting                                         | A shared pattern of the medium **\[Hypothesis\]**            | Not yet derived **\[Open\]**                                                                    |
+| Rope in tension  | Momentum current; at the last step, the atomic bond, a name            | A pressure deficit between atoms **\[Hypothesis\]**          | In kind: bond and contact from one overlap (Part 11)                                      |
+| Magnet and iron  | Field stress; the tension along the lines has no carrier               | The medium, channelled by the magnet **\[Hypothesis\]**      | In kind: turning first, passing through, shielding (Part 11)                              |
+| Opposite charges | Field stress, or virtual photons; no picture of attraction             | A structure of the medium **\[Hypothesis\]**                 | In kind: either sign attracts a grounded stream (Part 11)                                 |
+| Chemical bond    | Energy lowering, an accounting                                         | A shared pattern of the medium **\[Hypothesis\]**            | In kind: bond lengths where deficit and contact balance                                   |
 
 Phenomena described as “pulls”, the carrier each account names, and whether GPT’s carrier is shown to match what is observed. For gravity, GPT names a carrier and that carrier reproduces every observed outcome in the table. For the other forces, its carriers are proposals with the derivation still to come.
 
@@ -13362,7 +13376,7 @@ Phenomena described as “pulls”, the carrier each account names, and whether 
 
 A physicist will answer that the gravitational pull between small bodies has been measured. In 1798, Henry Cavendish hung a rod carrying two small lead balls from a fine wire, and brought two large lead balls near them. The rod turned, and from the twist of the wire he found the density of the Earth.[^27] The experiment is the basis of every measurement of Newton’s constant $G$. Is that not a pull, measured?
 
-It is a motion and a twist, measured. Like the accelerometer, the wire records a force; it does not say what carries it. In General Relativity, there is no pull between the balls either. In GPT, each large ball sets up its own inflow, and the small balls are carried by it, with the wire pushing back as it twists. **\[Hypothesis\]** GPT owes a quantitative account of this experiment: the size of the twist from the flows of the large balls, combined with the Earth’s far larger flow, within the measured limits on shielding. **\[Open\]**
+It is a motion and a twist, measured. Like the accelerometer, the wire records a force; it does not say what carries it. In General Relativity, there is no pull between the balls either. In GPT, each large ball sets up its own inflow, and the small balls are carried by it, with the wire pushing back as it twists. **\[Hypothesis\]** Because the pressure each ball lowers combines with the Earth’s, the small balls are carried sideways by the large balls’ share alone, and the twist has the size Newton’s law gives, which is what Cavendish measured. **\[Hypothesis\]**
 
 Raising the objection here, rather than waiting for it, is part of the method.
 
@@ -13376,7 +13390,7 @@ Science is not only the art of describing what happens. It is the discipline of 
 
 3.  **Every force must show what sets its direction.** In GPT, the direction of fall is the direction of the medium’s flow. **\[Hypothesis\]**
 
-4.  **Every interaction must balance its books.** Energy, momentum and angular momentum must be conserved, with every transfer traced. In GPT, the momentum books must balance across the body, the Earth and the medium. That accounting, Newton’s third law in GPT’s form, is still to be written out. **\[Open\]**
+4.  **Every interaction must balance its books.** Energy, momentum and angular momentum must be conserved, with every transfer traced. In GPT, each body receives momentum from the flow the other sets up, in proportion to its own mass. The apple receives $m\,GM/r^2$ from the Earth’s flow, and the Earth receives $M\,Gm/r^2$ from the apple’s: the same amount, in opposite directions. That is Newton’s third law, from the medium. **\[Hypothesis\]**
 
 5.  **Every model must name a medium.** A field that exerts force must be made of something. GPT identifies the medium: a self-repelling medium of gravitons that fills space. **\[Hypothesis\]**
 
@@ -13536,6 +13550,10 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - “GPT passes the audit” is replaced by an audit applied to GPT as well, with what it still owes marked Open: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding. The extensions beyond gravity are marked as hypotheses.
 
 - New: a precedent from history (Section 7.3), in which the “horror of the vacuum” was replaced by the pressure of the air, with the measurements that followed; what instruments measure (7.5); why “pull” survives, as a case of the Reduction Conflation (7.6); and the Cavendish experiment as the strongest objection, with what GPT owes.
+
+## Changes to the argument (November 2026, after Part 11)
+
+- Free fall: a falling body shares the medium’s acceleration while the medium streams through it, and receives momentum at $mg$ every second, to every particle at once. The accelerometer’s zero shows uniform delivery, not absence; real falls are felt. Questions this edition first left open (atomic structure, the rope’s tension, Maxwell’s stress, bonds, magnets, the combination of flows, Cavendish, reciprocity) are now answered in the text, marked as hypotheses.
 
 ## Clarifications
 

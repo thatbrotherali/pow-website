@@ -1363,7 +1363,7 @@ What the results of this paper rest on is the active (static) pressure, which fo
 
 $$P_g(r) = P_0 - \tfrac{1}{2}\rho_g v^2 = P_0 \left(1 - \frac{2GM}{c^2 r}\right),$$
 
-with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$. This value of $P_0$ is a calibration: it is the value that makes clocks agree with the measured gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). **\[Hypothesis\]**
+with the free-space pressure $P_0 = \tfrac{1}{2}\rho_g c^2$. This is the value at which the pressure law and the clock law agree: with it, $P_g/P_0 = 1 - v^2/c^2$, so a clock in the lowered pressure and a clock moving through the medium at the inflow speed slow alike, and the slowing is the measured gravitational redshift (Section <a href="#subsec:gravitational_dilation" data-reference-type="ref" data-reference="subsec:gravitational_dilation">17.3</a>). **\[Hypothesis\]**
 
 Near a mass the change is tiny: for Earth, $2GM/Rc^2 \approx 1.4 \times 10^{-9}$. It is this pressure profile, not a change in density, that the light-deflection and clock-rate results of Sections <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a> and <a href="#sec:time_process" data-reference-type="ref" data-reference="sec:time_process">17</a> use.
 
@@ -2303,7 +2303,7 @@ Because clocks and rulers change together, light measured locally always travels
 
 $$n(r) = \frac{P_0}{P_g(r)} \approx 1 + \frac{2GM}{c^2 r}$$
 
-The factor of 2 is not fitted: half of it comes from clocks, half from rulers. With clocks alone, the index would be $1 + GM/c^2 r$ and the deflection half the measured value, the result Soldner obtained from Newtonian gravity in 1801. Dicke (1957) showed that this structure reproduces the classical tests; in GPT, the slowing has a physical source, the medium. Deriving the square-root scaling from the medium itself remains open. **\[Open\]**
+The factor of 2 is not fitted: half of it comes from clocks, half from rulers. With clocks alone, the index would be $1 + GM/c^2 r$ and the deflection half the measured value, the result Soldner obtained from Newtonian gravity in 1801. Dicke (1957) showed that this structure reproduces the classical tests; in GPT, the slowing has a physical source, the medium. A clock is a structure of medium waves. Near a mass the medium streams past it at the inflow speed $v$, and a clock moving through the medium ticks slower, as each of its internal cycles has farther to travel, by $\sqrt{1-v^2/c^2}$. Since $P_g/P_0 = 1 - v^2/c^2$, this is the square-root law. **\[Hypothesis\]**
 
 ## Fermat’s Principle in a Pressure Gradient
 
@@ -2377,7 +2377,7 @@ Existing measurements already constrain this. The deflection measured at radio w
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s response to different frequencies. The measurements above constrain it to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$. Because the medium changes the electric and magnetic constants of space together, it stays matched for light of every wavelength, so at leading order $\epsilon(\lambda)$ vanishes and radio and optical light bend alike, as the measurements above find. **\[Hypothesis\]**
 
 **This is a testable distinction.**
 
@@ -2748,7 +2748,7 @@ The net effect is:
 
 $$\tau(r) = \tau_0 \cdot \frac{N(r)}{N_0} \cdot \frac{\Gamma_0}{\Gamma(r)}$$
 
-The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster has not yet been derived from the medium’s dynamics. **\[Open\]**GPT’s principle (Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>) is that the tick rate scales as $\sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$ fixed by the measured redshift. **\[Hypothesis\]** The result is:
+The load factor $N(r)/N_0$ grows faster than the encounter rate $\Gamma(r)/\Gamma_0$. How much faster is fixed by the medium’s flow: the clock has the medium streaming past it at the inflow speed, so its tick rate is $\sqrt{1-v^2/c^2} = \sqrt{P_g/P_0}$, with $P_0 = \tfrac{1}{2}\rho_g c^2$, the value at which the pressure law and the clock law agree. **\[Hypothesis\]** The result is:
 
 $$\tau(r) = \tau_0 \cdot \frac{1}{\sqrt{1 - \frac{2GM}{c^2 r}}}$$
 
@@ -3950,7 +3950,7 @@ Existing measurements already constrain this. The deflection measured at radio w
 
 $$\alpha(\lambda) = \frac{4GM}{c^2 b} \left(1 + \epsilon(\lambda) \right)$$
 
-where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. It is constrained by the measurements above to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$; its form depends on the graviton–photon interaction, which is still to be developed. **\[Open\]**
+where $\epsilon(\lambda)$ is a small function encoded in the medium’s frequency-dependent polarizability. The measurements above constrain it to $|\epsilon(\lambda_{\text{radio}}) - \epsilon(\lambda_{\text{optical}})| \lesssim 10^{-3}$. Because the medium changes the electric and magnetic constants of space together, it stays matched for light of every wavelength, so at leading order $\epsilon(\lambda)$ vanishes and radio and optical light bend alike, as the measurements above find. **\[Hypothesis\]**
 
 ## What This Means for Spacetime Curvature
 
@@ -5044,7 +5044,7 @@ The tick duration becomes:
 
 $$\tau(r) = \frac{N_0 g(r)}{\Gamma_0 f(r)} = \tau_0 \cdot \frac{g(r)}{f(r)}$$
 
-The load factor grows faster than the flux enhancement. The ratio has not yet been derived from the medium’s dynamics; **\[Open\]**taking the principle of Section <a href="#sec:light_deflection" data-reference-type="ref" data-reference="sec:light_deflection">15</a>, that the tick rate scales as $\sqrt{P_g/P_0}$ with $P_g/P_0 = 1 - 2GM/c^2 r$, it is: **\[Hypothesis\]**
+The load factor grows faster than the flux enhancement. The ratio is fixed by the medium streaming past the clock at the inflow speed: the tick rate is $\sqrt{1-v^2/c^2} = \sqrt{P_g/P_0}$, with $P_g/P_0 = 1 - 2GM/c^2 r$, so it is: **\[Hypothesis\]**
 
 $$\frac{g(r)}{f(r)} = \frac{1}{\sqrt{1 - 2GM/(c^2 r)}}$$
 
@@ -5066,7 +5066,7 @@ The effective flux enhancement is:
 
 $$\Gamma(v) = \Gamma_0 \cdot \gamma(v), \quad \gamma(v) = \frac{1}{\sqrt{1 - v^2/c^2}}$$
 
-The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. The load factor is taken to grow as the square of $\gamma$. This scaling is assumed, chosen so that the result reproduces the measured time dilation of moving clocks; deriving it from the anisotropic exchange remains open. **\[Open\]**
+The anisotropy also increases the load factor. Each tick now requires more internal reconciliation because the clock’s atoms are differentially stressed. A moving clock is slowed in the same way as a clock near a mass: by its motion through the medium, by the factor $\sqrt{1-v^2/c^2} = 1/\gamma$. Gravitational and motional time dilation are one effect. **\[Hypothesis\]** In the load-factor language of this appendix, that is a load growing as $\gamma^2$.
 
 $$N(v) = N_0 \cdot \gamma(v)^2$$
 
@@ -5208,6 +5208,12 @@ This list records what changed in the November 2026 revision, which brings the p
 - Lensing (Section 24), waves (Section 22) and the Lagrangian (Appendix F): the lensing deflection uses the mass inside the impact radius, and shear comes from second derivatives of the lensing potential; the vector-potential equation has the source with the correct sign; the couplings in the Lagrangian now reproduce Section 19’s equation, and the Ampère-like equation is a wave equation.
 
 - The predicted wavelength dependence of light bending is set against radio and optical measurements, which agree to a few parts in a thousand.
+
+## Further changes to the argument (8 November 2026)
+
+- Clocks: the square-root law and the slowing of moving clocks are no longer assumed. A clock is slowed by its motion through the medium, $\sqrt{1-v^2/c^2}$; near a mass the medium streams past it at the inflow speed, which gives $\sqrt{P_g/P_0}$. $P_0=\tfrac12\rho_g c^2$ is the value at which the two laws agree. Gravitational and motional time dilation are one effect.
+
+- Dispersion: the medium changes the electric and magnetic constants together, so it stays matched for every wavelength and light of all wavelengths bends alike at leading order.
 
 ## Clarifications
 

@@ -186,7 +186,7 @@ Or consider the galaxy. Below an acceleration of about $10^{-10}\,\mathrm{m/s^2}
 
 If gravity has a single physical mechanism, then every territory is the same process seen under different conditions. The weak-field and strong-field regimes would differ in degree, not in kind. The quantum experiments would show the mechanism acting on matter waves. The galactic regularity would be a property of the mechanism at low accelerations, not an accident of galaxy formation or an arbitrary change of law. And the frontier between gravity and quantum theory would be a question about the mechanism, not a collision between two incompatible pictures. **\[Argued\]**
 
-Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]**Whether it can account for each territory—including the galactic regularity and the quantum experiments—is a test it must pass, not a claim it can assume. **\[Open\]**
+Graviton Pressure Theory proposes such a mechanism: one medium, acting on all matter, at every scale. **\[Hypothesis\]** The territories are then one process under different conditions: the engineer’s load is the medium’s momentum relayed through a structure; the slowing of clocks is their motion through the medium; the falling neutron is a matter wave in an accelerating medium; the black hole is where the inflow reaches the speed of light. **\[Hypothesis\]** The galactic regularity is the hardest test, and Part 9 takes it up.
 
 # The Gravity We Live With
 

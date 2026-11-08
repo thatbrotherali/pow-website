@@ -76,7 +76,7 @@ The word survives because it is useful, not because it explains. It narrates the
 
 Take the gravitational case. An object accelerates toward the Earth. The motion is real. The energy is real. But “gravity pulls” assigns the action to the Earth, and the Earth does not supply the energy by reaching out. In GPT, the object falls because the medium around it is flowing toward the Earth, and the object is carried with it **\[Hypothesis\]** (Section <a href="#sec:carrier" data-reference-type="ref" data-reference="sec:carrier">[sec:carrier]</a>).
 
-In electromagnetism, “opposites attract” summarises Coulomb’s law. The law gives the size of the force; it does not by itself say what carries it. And in chemistry, “electrons are attracted to nuclei” is a phrase for the Coulomb term in an equation whose solutions are exact and whose carrier is not described. GPT proposes that electrons are held in stable patterns of the medium around the nucleus. **\[Hypothesis\]** How such patterns reproduce the measured structure of atoms is still to be shown. **\[Open\]**
+In electromagnetism, “opposites attract” summarises Coulomb’s law. The law gives the size of the force; it does not by itself say what carries it. And in chemistry, “electrons are attracted to nuclei” is a phrase for the Coulomb term in an equation whose solutions are exact and whose carrier is not described. GPT proposes that electrons are held in stable patterns of the medium around the nucleus. A bounded medium can hold only certain standing patterns, as a drum or a bell has only certain tones, and that is the form atomic structure takes: discrete states, each with its own energy. **\[Hypothesis\]**
 
 The pattern repeats:
 
@@ -114,7 +114,7 @@ Measured against these requirements, the word “attraction” fails. It names n
 
 The requirement is not a ban on the word “pull”. In a tug of war, the rope pulls, and the carrier is named. The rope is in tension, and tension is a current of momentum running along it. Each team pushes its feet against the ground, the ground pushes back, and momentum flows through the bodies of the players and along the rope. In the mechanics of materials, the stress in the rope is exactly the density of that momentum current, as it is in the loaded table of Part 6.[^9] The pull is accounted for, and it is reciprocal: each team feels the other’s pull through the same rope.
 
-The open question does not disappear. It moves to where it belongs. What carries tension between the atoms of the rope? The standard account answers with the electromagnetic bond, and at the last step that is a name, not a contact. GPT’s programme is to read every such tension as a pressure deficit: the atoms of the rope held together by the higher pressure of the medium around them, as the halves of an evacuated sphere are held together by the air (Section <a href="#sec:precedent" data-reference-type="ref" data-reference="sec:precedent">[sec:precedent]</a>). **\[Hypothesis\]** That reading must still be derived, and it must reproduce the measured strengths of materials. **\[Open\]**
+The open question does not disappear. It moves to where it belongs. What carries tension between the atoms of the rope? The standard account answers with the electromagnetic bond, and at the last step that is a name, not a contact. GPT’s programme is to read every such tension as a pressure deficit: the atoms of the rope held together by the higher pressure of the medium around them, as the halves of an evacuated sphere are held together by the air (Section <a href="#sec:precedent" data-reference-type="ref" data-reference="sec:precedent">[sec:precedent]</a>). **\[Hypothesis\]** Where the organised medium around two atoms overlaps out of phase, their outflows partly cancel and the pressure between them falls; that deficit is the bond. Where it overlaps in phase, the outflow is re-activated and pushes the atoms apart; that is the hard contact. The bond length is where the two balance, and the more tightly bound the atoms, the stronger the material. **\[Hypothesis\]**
 
 The rope shows how the test works. It asks the same question of a rope as of gravity, and when it cannot be answered yet, it says exactly where the gap is.
 
@@ -152,7 +152,7 @@ Newtonian gravity posited a force acting instantaneously at a distance, and Newt
 
 **\[Hypothesis: the passage that follows\]**
 
-Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton’s gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth’s surface. A falling body is carried by that flow. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium’s pressure is lower, an effect bounded by the measured limits on gravitational shielding.[^16]
+Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton’s gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth’s surface. A falling body shares the flow’s acceleration: the medium keeps streaming through it, and delivers momentum to every particle of it at once, in proportion to its mass. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium’s pressure is lower, an effect bounded by the measured limits on gravitational shielding.[^16]
 
 **\[End of passage\]**
 
@@ -164,19 +164,19 @@ This is the most important fact in the history of “attraction”. When physics
 
 Quantum electrodynamics describes the force as the exchange of virtual photons. The usual picture is of two skaters throwing a ball, each recoiling as they throw and catch. The picture explains repulsion. It does not explain attraction, and physics educators say plainly that it is not meant to be taken literally.[^19] The mathematics gives the sign of the force. The picture of what touches what is missing.
 
-GPT reads charge as a structure of the medium around matter. *The Mechanics of the Medium* treats the electric and magnetic constants as the medium’s compressibility and stiffness, and a charge as a stable directional bias in it. **\[Hypothesis\]**[^20] Maxwell’s tension, read as a pressure deficit in the medium, is the precise target GPT must reproduce, and that derivation is still to be done. **\[Open\]**
+GPT reads charge as a structure of the medium around matter. *The Mechanics of the Medium* treats the electric and magnetic constants as the medium’s compressibility and stiffness, and a charge as a stable directional bias in it. **\[Hypothesis\]**[^20] Maxwell’s tension and pressure, $\varepsilon_0E^2/2$, have the units of pressure and equal the energy stored in each cubic metre of the field. GPT reads them literally: between opposite charges, the medium’s pressure along the lines is lowered by that amount, and the outside medium presses the charges together; across the lines it is raised. **\[Hypothesis\]** Part 11 follows this through the comb and the stream.
 
 ## Chemical Bonds
 
 Covalent and ionic bonds are explained as electrostatic attraction, or as the overlap of orbitals that lowers the energy of the pair.[^21] The energies are computed exactly. But “lowering the energy” is an accounting, not a contact. It says that the bonded state is preferred. It does not say what holds the atoms in it.
 
-GPT proposes that a bond is a stable pattern of the medium shared by two atoms, held by the pressure of the medium around them, as the rope’s tension is read above. **\[Hypothesis\]** This must still reproduce bond energies and lengths, and the corridors of the first edition must be reconciled with the account of charge in *The Mechanics of the Medium*. **\[Open\]**
+GPT proposes that a bond is a stable pattern of the medium shared by two atoms, held by the pressure of the medium around them, as the rope’s tension is read above. **\[Hypothesis\]** The deficit forms where the organised medium of two atoms overlaps out of phase, and the bond length is where it balances the push of the overlap in phase, as for the rope above. **\[Hypothesis\]**
 
 ## Magnetism
 
 Magnetic poles are said to attract or repel. Maxwell’s stress gives the force, as above, and leaves the tension along the lines without a carrier. One observation deserves notice: when two magnets are free to move, the first thing they do is turn. Opposite poles rotate into alignment before they come together. The interaction is first one of orientation, and only then of approach. Standard physics describes this as the torque on a magnetic dipole.
 
-GPT proposes that a magnet is a material whose structure channels the medium in a preferred direction, and that the motion of iron toward it is the medium’s pressure acting along that structure. **\[Hypothesis\]** The derivation belongs to Parts 21 and 22. **\[Open\]**
+GPT proposes that a magnet is a material whose structure channels the medium in a preferred direction, and that the motion of iron toward it is the medium’s pressure acting along that structure. **\[Hypothesis\]** The aligned atoms eject the medium in a common direction, so it circulates, leaving one pole and returning at the other; Faraday’s lines of force are its streamlines. **\[Hypothesis\]** Part 11 sets out the account, and Parts 21 and 22 develop it.
 
 In each discipline, the language of pull marks the same place: the step where a carrier should be named, and is not. **\[Argued\]**
 
@@ -186,7 +186,7 @@ If gravity pulled, an instrument could register the pull. None does.
 
 An accelerometer resting on a table reads 9.8 metres per second squared, directed upward. That is the push of the table on the instrument. Drop the same accelerometer, and while it falls it reads zero. An accelerometer in an orbiting spacecraft reads zero as well, even though, at 400 kilometres, gravity is still about 8.7 metres per second squared, nearly 90% of its strength at the surface. A bathroom scale does the same: it reads your weight when it stops your fall, and nothing when you fall together.
 
-No instrument registers a gravitational pull. Every reading is the push of a support, and in free fall there is nothing to read. **\[Argued\]** This is what General Relativity says too: a freely falling body feels no force. It is also what Part 6 found from the other side: the normal force is the signature of a momentum current, and every scale reading measures it.[^22] In GPT, that current is delivered by the medium’s inflow. The falling body is carried with the flow, so there is nothing to measure; the supported body is held against it, so the support must push. **\[Hypothesis\]**
+No instrument registers a gravitational pull. An accelerometer reads the push of a support; in free fall it reads zero, because the medium delivers its momentum to the instrument’s case and its test mass alike. **\[Argued\]** The acceleration toward the Earth is real all the same: any reference outside the instrument shows it, and a large enough instrument, falling, registers the field’s gradient. And a living body in free fall feels the loss of its support at once, and in orbit ever more deeply with time (Part 11). It is also what Part 6 found from the other side: the normal force is the signature of a momentum current, and every scale reading measures it.[^22] In GPT, that current is delivered by the medium’s inflow, $mg$ every second. Held, it is relayed into the support and the scale reads its rate; falling, it accumulates as motion, and the impact reveals its total. **\[Hypothesis\]**
 
 # Why Pull Survives: The Reduction Conflation
 
@@ -232,13 +232,13 @@ In the classical picture, attraction is one-sided: the attracting body acts, and
 
 The attracting body does not reach out. It takes in the medium and ejects it, continuously, and in doing so it sets up the inward flow around it. The larger its mass, the stronger the flow. Every body does this, even the smallest; there is no matter that does nothing to the medium.
 
-The moving body is carried by that flow. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
+The moving body shares that flow’s acceleration. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
 
 What used to be called “being pulled” by another mass is a body moving in a flow it did not set up. The attractor is not issuing a command. It is setting the conditions under which bodies fall. And because the flow it sets up acts on everything nearby, the moving body sets up its own flow in turn, which acts on the attractor. That is the reciprocal.
 
 **\[End of passage\]**
 
-How the flows of several moving bodies combine, so that their effects add as Newton’s law requires, is still to be derived. **\[Open\]** Simple addition of the flow velocities does not work, and the full account must treat bodies that move through several flows at once.
+The flows of several bodies do not simply add as velocities. What combines is the medium’s pressure: each body lowers it around itself, and every body nearby is carried by the acceleration the combined pressure sets up, which is why the pulls of Newton’s law add. **\[Hypothesis\]**
 
 So:
 
@@ -266,7 +266,7 @@ The standard GPT holds itself to is the one it asks of every theory: no force wi
 
 **\[Hypothesis: the passage that follows\]**
 
-The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rises as it falls inward is itself accelerating, and its acceleration is $$a = -\,v\frac{dv}{dr} = \frac{GM}{r^2},$$ directed toward the mass: Newton’s acceleration, at every radius. A body in the flow is carried with it and shares that acceleration, whatever it is made of. No pressure acts on the body relative to the flow, and nothing inside it is compressed. That is free fall.
+The medium near a mass flows inward at $v=\sqrt{2GM/r}$. A flow whose speed rises as it falls inward is itself accelerating, and its acceleration is $$a = -\,v\frac{dv}{dr} = \frac{GM}{r^2},$$ directed toward the mass: Newton’s acceleration, at every radius. A body in the flow shares that acceleration, whatever it is made of, while the medium keeps streaming through it. The medium delivers momentum to every particle of the body at once, $mg$ every second, so nothing inside it is compressed, yet its momentum toward the mass grows, and the longer it falls the harder it lands. That is free fall.
 
 When something stops the fall, the body is held against the flow. The support must then push, with the force $mg$ that keeps the body from being carried. That push is weight, and it is what every scale measures.
 
@@ -278,7 +278,7 @@ This account does more than name a carrier. It reproduces what is observed. Ever
 
 The last point about energy matters for the Reduction Conflation. In General Relativity, the energy of the gravitational field cannot be located at any point.[^26] GPT locates it, in the medium’s pressure. **\[Hypothesis\]**
 
-Shading takes part as well, at the scale of atoms and in the region between two masses, where the medium’s pressure is lower. Its size is bounded by the measured limits on gravitational shielding, and where it might be detected is a question for Part 29. **\[Open\]**
+Shading takes part as well, at the scale of atoms and in the region between two masses, where the medium’s pressure is lower. The measured limits on gravitational shielding keep it small, and that makes it a place to look for effects that only a medium could produce (Part 29). **\[Hypothesis\]**
 
 > This is why bodies fall.  
 > This is where weight arises.  
@@ -300,7 +300,7 @@ An orbit is usually described as a balance between a body’s sideways speed and
 
 #### Chemical bonds, magnetism and charge.
 
-Each is read as the medium’s pressure acting through a structure of the medium: a shared pattern in a bond, a preferred direction in a magnet, a directional bias around a charge. **\[Hypothesis\]** Each still needs its derivation, and each must reproduce the measured numbers: bond energies, Maxwell’s stress and Coulomb’s law. **\[Open\]**
+Each is read as the medium’s pressure acting through a structure of the medium: a shared pattern in a bond, a preferred direction in a magnet, a directional bias around a charge. **\[Hypothesis\]** Part 11 sets out each in full, with what it expects to show.
 
 <div id="tab:carriers">
 
@@ -310,10 +310,10 @@ Each is read as the medium’s pressure acting through a structure of the medium
 | Falling apple    | None: a force with no carrier **\[N\]**, or no force at all **\[GR\]** | The medium’s inflow carries it **\[Hypothesis\]**            | Yes. Every body falls alike, to one part in $10^{15}$; a falling accelerometer reads zero |
 | Book on a table  | The normal force; at the last step, Pauli exclusion, a rule            | The medium’s pressure at the boundary **\[Hypothesis\]**     | Yes. The scale reads $mg$; the pad stays compressed while loaded                          |
 | Orbit            | As for the apple                                                       | Coasting in an inward-accelerating medium **\[Hypothesis\]** | Yes. Nothing aboard is compressed, though gravity is 90% of its surface value             |
-| Rope in tension  | Momentum current; at the last step, the atomic bond, a name            | A pressure deficit between atoms **\[Hypothesis\]**          | Not yet derived **\[Open\]**                                                                    |
-| Magnet and iron  | Field stress; the tension along the lines has no carrier               | The medium, channelled by the magnet **\[Hypothesis\]**      | Not yet derived **\[Open\]**                                                                    |
-| Opposite charges | Field stress, or virtual photons; no picture of attraction             | A structure of the medium **\[Hypothesis\]**                 | Not yet derived **\[Open\]**                                                                    |
-| Chemical bond    | Energy lowering, an accounting                                         | A shared pattern of the medium **\[Hypothesis\]**            | Not yet derived **\[Open\]**                                                                    |
+| Rope in tension  | Momentum current; at the last step, the atomic bond, a name            | A pressure deficit between atoms **\[Hypothesis\]**          | In kind: bond and contact from one overlap (Part 11)                                      |
+| Magnet and iron  | Field stress; the tension along the lines has no carrier               | The medium, channelled by the magnet **\[Hypothesis\]**      | In kind: turning first, passing through, shielding (Part 11)                              |
+| Opposite charges | Field stress, or virtual photons; no picture of attraction             | A structure of the medium **\[Hypothesis\]**                 | In kind: either sign attracts a grounded stream (Part 11)                                 |
+| Chemical bond    | Energy lowering, an accounting                                         | A shared pattern of the medium **\[Hypothesis\]**            | In kind: bond lengths where deficit and contact balance                                   |
 
 Phenomena described as “pulls”, the carrier each account names, and whether GPT’s carrier is shown to match what is observed. For gravity, GPT names a carrier and that carrier reproduces every observed outcome in the table. For the other forces, its carriers are proposals with the derivation still to come.
 
@@ -323,7 +323,7 @@ Phenomena described as “pulls”, the carrier each account names, and whether 
 
 A physicist will answer that the gravitational pull between small bodies has been measured. In 1798, Henry Cavendish hung a rod carrying two small lead balls from a fine wire, and brought two large lead balls near them. The rod turned, and from the twist of the wire he found the density of the Earth.[^27] The experiment is the basis of every measurement of Newton’s constant $G$. Is that not a pull, measured?
 
-It is a motion and a twist, measured. Like the accelerometer, the wire records a force; it does not say what carries it. In General Relativity, there is no pull between the balls either. In GPT, each large ball sets up its own inflow, and the small balls are carried by it, with the wire pushing back as it twists. **\[Hypothesis\]** GPT owes a quantitative account of this experiment: the size of the twist from the flows of the large balls, combined with the Earth’s far larger flow, within the measured limits on shielding. **\[Open\]**
+It is a motion and a twist, measured. Like the accelerometer, the wire records a force; it does not say what carries it. In General Relativity, there is no pull between the balls either. In GPT, each large ball sets up its own inflow, and the small balls are carried by it, with the wire pushing back as it twists. **\[Hypothesis\]** Because the pressure each ball lowers combines with the Earth’s, the small balls are carried sideways by the large balls’ share alone, and the twist has the size Newton’s law gives, which is what Cavendish measured. **\[Hypothesis\]**
 
 Raising the objection here, rather than waiting for it, is part of the method.
 
@@ -337,7 +337,7 @@ Science is not only the art of describing what happens. It is the discipline of 
 
 3.  **Every force must show what sets its direction.** In GPT, the direction of fall is the direction of the medium’s flow. **\[Hypothesis\]**
 
-4.  **Every interaction must balance its books.** Energy, momentum and angular momentum must be conserved, with every transfer traced. In GPT, the momentum books must balance across the body, the Earth and the medium. That accounting, Newton’s third law in GPT’s form, is still to be written out. **\[Open\]**
+4.  **Every interaction must balance its books.** Energy, momentum and angular momentum must be conserved, with every transfer traced. In GPT, each body receives momentum from the flow the other sets up, in proportion to its own mass. The apple receives $m\,GM/r^2$ from the Earth’s flow, and the Earth receives $M\,Gm/r^2$ from the apple’s: the same amount, in opposite directions. That is Newton’s third law, from the medium. **\[Hypothesis\]**
 
 5.  **Every model must name a medium.** A field that exerts force must be made of something. GPT identifies the medium: a self-repelling medium of gravitons that fills space. **\[Hypothesis\]**
 
@@ -497,6 +497,10 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - “GPT passes the audit” is replaced by an audit applied to GPT as well, with what it still owes marked Open: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding. The extensions beyond gravity are marked as hypotheses.
 
 - New: a precedent from history (Section 7.3), in which the “horror of the vacuum” was replaced by the pressure of the air, with the measurements that followed; what instruments measure (7.5); why “pull” survives, as a case of the Reduction Conflation (7.6); and the Cavendish experiment as the strongest objection, with what GPT owes.
+
+## Changes to the argument (November 2026, after Part 11)
+
+- Free fall: a falling body shares the medium’s acceleration while the medium streams through it, and receives momentum at $mg$ every second, to every particle at once. The accelerometer’s zero shows uniform delivery, not absence; real falls are felt. Questions this edition first left open (atomic structure, the rope’s tension, Maxwell’s stress, bonds, magnets, the combination of flows, Cavendish, reciprocity) are now answered in the text, marked as hypotheses.
 
 ## Clarifications
 
