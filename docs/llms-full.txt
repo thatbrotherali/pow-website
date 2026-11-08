@@ -13048,7 +13048,7 @@ UNESCO World Heritage Centre. 1985. “Pont Du Gard (Roman Aqueduct).” <https:
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
-Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Cite as: Rashada, S. A. (2026). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
 
 
 # The Illusion of Pull
@@ -13761,7 +13761,7 @@ University of Illinois Department of Physics. n.d. “Explaining Attractive Forc
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
-Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Cite as: Rashada, S. A. (2026). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
 
 
 # Defining the break
@@ -16746,660 +16746,598 @@ Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In T
 
 By Shareef Ali Rashada
 
-## Four Misleading Proofs—A Reckoning of Everyday Misunderstandings
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-This document is not a theory pitch. It is a confrontation.
+# About This Paper
 
-There are four demonstrations known to almost anyone who has brushed against modern science:
+Four demonstrations are known to almost anyone who has met modern science:
 
-1.  The Equivalence Principle (Einstein’s sealed-box thought experiment[^1])
+1.  Einstein’s sealed box, the thought experiment behind the equivalence principle;
 
-2.  The Feather and the Bowling Ball in a Vacuum
+2.  the feather and the bowling ball falling together in a vacuum;
 
-3.  The Comb and the Stream of Water
+3.  the comb that bends a stream of water;
 
-4.  The Phenomenon of Magnetism
+4.  the magnet that holds iron.
 
-Each is taught as if it confirms the mainstream narrative of physics— General Relativity, Newtonian [^2] mechanics, or Electromagnetism. But each of these experiments, when examined fairly, completely, and causally, does not say what it is claimed to say.
+Each is taught as a confirmation: of General Relativity, of Newtonian mechanics, of electromagnetism. Each shows something real. But in each case the explanation attached to the demonstration is a separate claim from the result it shows, and the explanation often stops at a name.
 
-They are not proofs. They are warnings.
+This paper reads each demonstration in four steps:
 
-Warnings that something essential has been lost from science:
+1.  what it actually shows;
 
-- The requirement to identify force mediation
+2.  the standard explanation, stated fairly, and the exact point where it stops at a name;
 
-- The duty to preserve causal energy balance
+3.  what Graviton Pressure Theory proposes, and whether that proposal matches what is observed;
 
-- The obligation to define mechanisms—not just offer mathematical matches
+4.  what is still open.
 
-- The courage to say “we don’t know” rather than hiding ignorance in curves and equations
+The demonstrations are not proofs of the theories that claim them. They are warnings that something has been set aside: the requirement to name what carries a force, the duty to account for energy and momentum, the obligation to give mechanisms and not only matching numbers, and the courage to say “we do not yet know”.
 
-This document will address each experiment, exhaustively, through two lenses:
+Claims about Graviton Pressure Theory are marked by their status, as the key shows. Where an explanation is tagged by the theory it borrows from, the tags of Part 3 are used: **\[N\]** Newtonian force, **\[GR\]** geometry, **\[FR\]** frame forces, **\[C\]** contact.[^1]
 
-1.  What current science says it shows— and why that explanation fails under its own logic.
+# The Sealed Box
 
-2.  What Graviton Pressure Theory reveals beneath the illusion— mechanism, coherence, causality, and correction.
+## What the Box Shows
 
-There will be no skipping steps. No appeal to authority. No shortcut through metaphor.
+Imagine standing in a closed room with no windows. The thought experiment compares two pairs of rooms.
 
-This is a full reconstruction from first principles. This is the return of pressure, structure, and truth to physics.
+**Weight.** If the room stands on the surface of the Earth, you are pressed against the floor with your usual weight. If the same room is in deep space, far from any mass, carried forward by a rocket accelerating at 9.8 metres per second squared, you are pressed against the floor in exactly the same way. Drop a ball in either room and it falls to the floor in the same time.
 
-## The Equivalence Principle — A Box of False Promises
+**Weightlessness.** If the room is a lift near the Earth whose cable has been cut, falling freely, you float. If the same room is drifting in deep space with its engines off, you float in exactly the same way. Release a ball in either room and it stays where you left it.
 
-Einstein’s sealed-box thought experiment is often described as elegant in its simplicity: If you were inside a windowless box, you could not tell whether the force pressing you downward was gravity from a planet— or acceleration from a rocket.
+Einstein saw in 1907 that no experiment inside such a room could tell either pair apart, and he later called it the happiest thought of his life.[^2]
 
-From this, Einstein claimed that gravity and acceleration were not just similar, but equivalent. This idea— now foundational to General Relativity— says that gravitational and inertial mass are indistinguishable because their effects are the same.
+The fact behind it has been measured with extraordinary care. All bodies fall with the same acceleration, whatever they are made of. Loránd Eötvös tested it with torsion balances in the early twentieth century;[^3] the MICROSCOPE satellite has confirmed it to about one part in $10^{15}$.[^4] On the Moon in 1971, the astronaut David Scott dropped a hammer and a falcon feather together, and they landed together.[^5]
 
-But this principle, when examined with the full rigor of physics, collapses under its own contradictions. Let us dissect it with honesty.
+This is the equivalence principle, and as an observation it holds.
 
-### The Rocket Box — Acceleration with Energy
+## The Standard Reading
 
-If you are in a box being pushed upward in space by a rocket, you are accelerating. That acceleration:
+From the box, General Relativity draws a conclusion: gravity is not a force. A body falling freely is following its natural path, a geodesic in curved spacetime, and nothing acts on it. The person standing on the floor of the Earth room is the one being acted on. The floor pushes them off their natural path, and that push is real: it is their weight, measured by any scale **\[GR\]**, **\[C\]**.
 
-- Is caused by an engine
+Stated fairly, this reading does not deny that the standing person feels a force. It denies that gravity is the force. And it does not break the conservation of energy. The rocket needs fuel because, seen from outside, the room is gaining speed and kinetic energy every second. The room on the Earth gains none. The two rooms differ in where their energy goes, not in whether energy is conserved.
 
-- Requires fuel
+## Where the Reading Stops
 
-- Produces thrust
+The conclusion rests on the box, and the box has been built to remove the evidence. The observer inside has had three things taken away.
 
-- Consumes measurable energy
+#### The window.
 
-- Generates heat and stress in the structure
+Open a window, and every pair separates at once. The rocket shows the stars, its exhaust, and its own speed growing every second; the room on the Earth shows a world at rest. The falling lift shows the walls of the shaft rushing upward, faster every second, and a radar signal bounced off the bottom of the shaft returns with a growing Doppler shift; the room drifting in deep space shows nothing changing at all. The falling lift’s acceleration toward the Earth is real, and it is measured whenever there is a reference outside it. Only the closed room hides it.
 
-You are not simply “being moved.” You are being forced against your resistance through continual energy expenditure. That energy is flowing from the engine through the structure of the box into you as pressure.
+#### The size.
 
-This is a causally closed system. It satisfies all the laws of motion, energy conservation, and mediation. You know why you feel pressed to the floor: there is a measurable force, a clear source, and a mechanism of delivery.
+The equivalence holds only in a small room. Over a larger one, the Earth’s field is not uniform: it strengthens by about $3\times10^{-6}$ metres per second squared for every metre of descent, and its lines converge toward the Earth’s centre. In the room on the Earth, two balls dropped at opposite walls fall very slightly toward each other; in the rocket they fall exactly parallel. In the falling lift, two floating balls drift very slowly together side to side and apart top to bottom; in deep space they stay where they are. A large enough instrument registers this from inside, while falling. Between 2009 and 2013, the European Space Agency’s GOCE satellite, in continuous free fall, carried a gravity gradiometer that mapped the Earth’s field in fine detail by measuring exactly this.[^6] A rocket’s push, and empty space, have no such gradient.
 
-### The Earth Box — Gravity Without Energy?
+#### The time.
 
-Now imagine standing in a sealed box on the surface of the Earth. You feel the same pressure on your feet. Your body weighs the same. Your muscles must resist your own descent. And Einstein said: this is the same experience.
+The equivalence holds only for a short time. The rocket must keep burning fuel, and its speed grows without end; the room on the Earth stays where it is, for nothing. The falling lift meets the bottom of its shaft, and the impact delivers, all at once, the momentum it gathered on the way down; the room drifting in deep space never meets anything. And a living body inside the falling lift does not wait for the impact to know that something has changed (see below).
 
-But where is the energy? Where is the fuel? What engine is pushing upward on you?
+The equivalence principle is a true statement about what a deliberately limited observer can know: no window, a small room, a short time. General Relativity takes that limited view, the “local inertial frame”, as its foundation, and concludes from it that free fall is not acceleration and that gravity is not a force. **\[Argued\]** Part 6 named the habit of building the laws of force and work from a body that is at rest and isolated, two conditions that never occur: the Rest-and-Isolation Assumption.[^7] The sealed box is the same assumption, applied to falling: a theory of gravity built from a body that is falling and isolated, with no surroundings, no extent and no duration. **\[Argued\]**
 
-General Relativity answers: none. There is no force. Spacetime is curved, and you are merely following a natural path through that curve. You are being accelerated by the geometry of space.
+#### What the accelerometer reads.
 
-But this is an abstraction, not an explanation. Geometry does not produce pressure. It does not deliver force. It does not mediate energy.
+An accelerometer falling freely reads zero. This is often given as proof that nothing acts on a falling body. But an accelerometer is a small test mass inside a case, and it measures only the difference between how the two move: the push needed to keep the test mass with the case. If the case and the test mass receive the same momentum at the same moment, there is no difference to measure. The zero reading shows that whatever acts on a falling body acts on all of it alike. It does not show that nothing acts. **\[Argued\]**
 
-And yet your body must do work to remain upright. Your muscles must contract. Your bones must resist. You can measure the stress. You can collapse from exhaustion. That is real energy expenditure.
+#### Where the momentum comes from.
 
-So if GR says there is no force, but your experience requires a counter-force, then either:
+A falling body’s momentum toward the Earth grows by $mg$ every second. In General Relativity no force supplies it, and the energy and momentum of the gravitational field cannot be located at any point.[^8] The growth is real, and measured at every impact, but the theory that denies the force names no local source for it. **\[Argued\]**
 
-1.  GR is wrong to deny the existence of gravitational force
+## A Real Fall Is Felt
 
-2.  Or your body is hallucinating energetic load where none exists
+It is often said that a person in free fall feels nothing. That is true only of the idealised fall, in a vacuum, for a moment. A real fall from a height is felt from the first instant. The body leaves its support, and the organs, no longer held in the usual way, shift: the “stomach drop”. The inner ear registers the change at once. The air pushes harder each second, and after about twelve seconds a skydiver reaches terminal velocity, about 200 kilometres per hour, where the air holds them up as the floor did, and their full weight returns. Then the fall ends at the ground.
 
-Only one of these options respects physical law.
+Even sustained free fall, in orbit, is felt, and more deeply with time. Many astronauts suffer space motion sickness in their first days. Body fluid moves toward the head. The spine lengthens by several centimetres. Muscle wastes, and the weight-bearing bones of the legs lose mass, by about 0.8% a month on the best current estimate.[^9] A body is built to carry, all its life, the steady push that passes through it when it stands. Take that push away and the body registers its absence, at once and then cumulatively. A rock in orbit is indifferent to the loss of its weight. A living body is not.
 
-### Where the Equivalence Principle Breaks
+## What GPT Proposes
 
-The principle only appears valid when you ignore energy and causality. But science does not permit that.
+**\[Hypothesis: the passage that follows\]**
 
-- The rocket requires a source of energy to produce acceleration.
+Space is filled with a medium, and near the Earth it flows inward, at about 11.2 kilometres per second at the surface. A flow whose speed rises as it falls inward is itself accelerating, at $GM/r^2$: 9.8 metres per second squared at the surface.[^10]
 
-- Earth-based “gravity” in GR does not.
+In the rocket, the floor pushes you forward through a medium that is not flowing. On the Earth, the floor holds you still while the medium accelerates past you. In both rooms, you are being accelerated at 9.8 metres per second squared *relative to the medium around you*. That is the one thing an instrument inside the room can detect, and it is why the two rooms cannot be told apart. The second pair follows in the same way. The falling lift shares the medium’s acceleration, and the drifting room is in a medium that is not accelerating: in neither are you accelerated relative to the medium around you, so in both you float.
 
-- Yet both produce identical measurable force on the person inside.
+The sources differ. In the rocket, the engine pays. On the Earth, the medium pays: as it flows inward, its pressure is converted into flow, and that is the energy of gravity, located.
 
-This means either:
+In free fall, the medium delivers momentum to every particle of a body at once, in proportion to its mass: $mg$ every second. That is why every body falls alike, why nothing inside a falling body is compressed, and why an accelerometer reads zero. The medium does not stop streaming through a falling body: a ball dropped from rest is still passing through the medium at almost 11.2 kilometres per second. The body shares the medium’s acceleration, not its speed.
 
-- One of them is violating conservation of energy
+**\[End of passage\]**
 
-- Or one of them is not what it claims to be
+<figure id="fig:rooms">
+<img src="assets/figures/fig11-1-two-rooms.svg" />
+<figcaption>The first pair of rooms. In the rocket, in deep space, the floor pushes the person through a medium at rest, and the engine pays. On the Earth, the floor holds the person still while the medium accelerates past, streaming through room and person alike, and the medium pays. In both, the person is accelerated at <span class="math inline"><em>g</em></span> relative to the medium, which is why the closed room cannot tell them apart. Right: the three things the closed room takes away. (Hypothesis)</figcaption>
+</figure>
 
-GPT delivers the correction:
+On this account the equivalence principle is not an axiom. It is a consequence: the uniform delivery of the medium’s momentum explains why the box cannot tell; the reality of that delivery explains why the body accelerates. **\[Hypothesis\]** General Relativity keeps the first by treating the second as unreal. GPT keeps both. And beyond the small room the two cases separate, as they should: the Earth’s flow converges toward its centre, while the rocket’s push does not.
 
-> You are not being pulled by a curve. You are not following a geodesic. You are being pressed downward by a structured, external, directional pressure field— formed by coherent graviton flow inward toward mass.
->
-> The rocket simulates this by forceful push. Earth generates this by existing within a dynamic field of graviton corridors.
->
-> In both cases, you feel pressure because you are being acted upon by force through a medium.
->
-> There is no equivalence. There is only similarity in symptoms— not in source.
+#### Does it match what is observed?
 
-GPT restores:
+Yes. Every body falls alike, to one part in $10^{15}$; an accelerometer reads zero in free fall and the push of its support when held; a large instrument in free fall registers the gradient of the field; and the falling body’s momentum grows by $mg$ each second, as every impact shows. **\[Argued\]** The equivalence holds in energy as well: the medium pays each falling body exactly what that body’s inertia demands (Section <a href="#sec:feather" data-reference-type="ref" data-reference="sec:feather">[sec:feather]</a>). The strength of the inflow is calibrated once, against measured gravity, as Newton’s constant is. The rest follows without further fitting.
 
-- **Causality:** Pressure is applied by field, not imagined geometry.
+#### The drag is inside.
 
-- **Energy accounting:** Real force requires real mediation.
+Moving steadily through the medium, a body is not slowed down and loses no energy: the planets have kept their orbits for billions of years. But it is resisted, and the resistance has a mechanism. A body exchanges continuously with the medium. Moving, it meets the medium head-on at its leading face and takes it in faster there, and more slowly at its trailing face. That imbalance between front and back is the body’s momentum: a path it carves through the medium as it goes. Held steady, the path costs nothing, and the body coasts. **\[Hypothesis\]**
 
-- **Mechanism:** Graviton corridors create asymmetric, coherent flow that produces the measurable effect we call gravity.
+Because the exchange is wave-like, the front rate rises by a factor $k=\sqrt{(1+v/c)/(1-v/c)}$ and the back rate falls by $1/k$. Half their sum is exactly $\gamma$, the body’s energy relative to its rest energy; half their difference is exactly $\gamma v/c$, its momentum. At six-tenths of the speed of light, $k=2$: the front exchanges at twice its rest rate and the back at half, and $(2+\tfrac12)/2 = 1.25$ and $(2-\tfrac12)/2 = 0.75$, the energy and momentum of special relativity. These identities are exact; the leading-edge picture gives special relativity’s energy and momentum with no further assumption. **\[Argued\]** The rate shared by front and back is always the body’s rest rate, and that shared part runs its internal cycles; everything above it, $\gamma-1$, is committed to carving the path, and is its kinetic energy. So a moving body’s clocks run slow by exactly $1/\gamma$: that is the drag, acting on the inside. And as the speed nears $c$, the medium’s own wave speed, the front rate grows without bound, so carving the path faster costs ever more energy, without limit. **\[Hypothesis\]** The measurements are direct: muons circling in a storage ring at $\gamma \approx 29$ live 29 times longer than muons at rest,[^11] and no particle accelerator has brought a body to $c$. The motion is not hidden, either: it shows in moving clocks compared with clocks elsewhere, and through a window onto the cosmic background. A closed room cannot see it, because every process inside it slows together.
 
-The box doesn’t prove equivalence. It proves we’ve accepted metaphor over mechanism for too long. The sealed box does not unify physics. It exposes its greatest fracture.
+# The Feather and the Bowling Ball
 
-## The Feather and the Bowling Ball — What Falls, What Accelerates, and Whats Being Hidden
+## What the Demonstration Shows
 
-In a vacuum chamber, a bowling ball and a feather are released. They fall together and strike the floor at the same time. The result is often met with awe, and then the standard conclusion: gravity acts equally on all masses.
+In a large vacuum chamber, a bowling ball and a handful of feathers are released together. With the air removed, they fall side by side and reach the floor together. The demonstration has been filmed in a NASA vacuum chamber in Ohio, and done on the Moon with a hammer and a feather.[^12] It shows that, once air resistance is removed, bodies of very different mass fall with the same acceleration.
 
-But this interpretation is not just simplistic— it is fundamentally wrong.
+## The Standard Reading
 
-Let’s walk through it carefully. The experiment shows two things:
+In Newton’s account, gravity pulls on each body in proportion to its mass, and each body resists acceleration in proportion to its mass. The two cancel, and every body falls alike **\[N\]**. Why the mass that gravity acts on should equal the mass that resists acceleration, Newton could not say; he tested the equality with pendulums and found it held. In General Relativity, the equality is built in: both bodies follow the same geodesic **\[GR\]**.
 
-1.  When air resistance is removed, objects of different mass fall at the same rate.
+Neither account says why the two masses are equal. In Newton’s it is a coincidence confirmed by experiment; in Einstein’s it is a postulate. **\[Argued\]**
 
-2.  That rate is a uniform acceleration— 9.8 m/s<sup>2</sup> on Earth.
+## What GPT Proposes
 
-But now the questions:
+**\[Hypothesis: the passage that follows\]**
 
-- What is doing the accelerating?
+In GPT, mass is not a label attached to matter. It is the measure of how strongly matter takes part in its exchange with the medium: how much of the medium it takes in and ejects.[^13] That one exchange does two things.
 
-- What is the mechanism?
+It sets the body’s *weight*. Near the Earth the medium is accelerating inward, and a body taking part in it receives the medium’s momentum in proportion to how strongly it takes part: $mg$ every second. The bowling ball takes part far more strongly than the feather, so it receives far more momentum.
 
-- Where is the energy transfer occurring?
+It also sets the body’s *inertia*. To change a body’s motion relative to the medium, its whole exchange with the medium must be redirected, and the stronger the exchange, the more momentum that takes. The bowling ball resists a change of motion far more than the feather, in exactly the same proportion.
 
-- What explains the force we observe as acceleration?
+So the ball receives more momentum and needs more momentum, in the same ratio, and both gain speed at the same rate. The mass that gravity acts on and the mass that resists acceleration are equal because they are the same thing: the strength of the body’s exchange with the medium. That is why the equality holds to one part in $10^{15}$, for every material ever tested, and why the composition of a body makes no difference to how it falls.
 
-General Relativity’s answer? None. GR does not recognize gravity as a force. It claims that both objects are simply following the natural path of curved spacetime. But this curvature, as elegant as it sounds, provides no physical interaction. No transfer. No carrier. No push.
+**\[End of passage\]**
 
-That is a fatal omission. Because what we are witnessing is not velocity— it is acceleration. And acceleration requires force. It is not an illusion. It is a measurable, persistent change in velocity caused by some agent. If you say gravity causes acceleration, you must identify the mechanism.
+Newton had to accept the equality as a fact of experiment, and Einstein made it a postulate. GPT derives it from a single exchange, and that is a reason, where the other accounts offer a coincidence or an axiom. **\[Argued\]**
 
-Graviton Pressure Theory provides one.
+## What Made Up the Difference?
 
-### Acceleration Is Not Passive — It Is Pressed Motion
+The demonstration is usually shown to answer one question: do heavy and light bodies fall at the same rate? It raises a deeper one, which the demonstration rarely prompts anyone to ask. The remarkable thing is not that the two bodies move at the same speed. It is how much more energy it takes to bring a bowling ball to the same speed as a feather, and what supplies the difference.
 
-In GPT, space is not a void. It is structured by a sea of directional, coherent graviton corridors— flows of field pressure that push inward toward mass. When an object is released in this field, it does not “fall.” It is not drawn in. It is pressed downward, with force, through these corridors.
+Take a bowling ball of about 7 kilograms and a feather of about a gram, roughly 7,000 times lighter, in a vacuum. Give each the same motion, a speed of 14 metres per second, in four different ways.
 
-The bowling ball and the feather are both subject to this field. But their resistance— not their mass alone— is what determines how they respond. In atmosphere, the feather’s shape disrupts corridor flow and produces turbulence (what we call “air resistance”). But in vacuum, that resistance is removed.
+<div id="tab:difference">
 
-So do the objects fall together? Yes.  
-But are they being affected equally? No.  
-They are being acted upon by the same external pressure field, but the feather’s structure does not resist that pressure when air is gone. They are not pulled— they are being pushed, with resistance held constant.
+| **The motion**                                 | **Energy you supply (ball / feather)** | **What gravity does**                                                                |
+|:-----------------------------------------------|:---------------------------------------|:-------------------------------------------------------------------------------------|
+| Released from 10 metres, falling straight down | Nothing / nothing                      | Supplies all of it: 686 joules to the ball, 0.1 joule to the feather                 |
+| Thrown straight up at 14 m/s                   | J / 0.1 J                              | Takes it back as the body climbs 10 metres and stops, and returns it on the way down |
+| Pushed horizontally on a frictionless surface  | J / 0.1 J                              | Neither adds nor takes: the push is at right angles to it                            |
+| Pushed horizontally, unsupported               | J / 0.1 J, all of it sideways          | Adds energy downward at the same time, as the body falls while it is pushed          |
 
-### Why This Is Not Kinetic Energy
+The same speed, given four ways, to a bowling ball and a feather in a vacuum.
 
-The standard model interprets the impact force at the end of the fall as the result of kinetic energy: $$KE = \frac{1}{2}mv^2$$ But this formula only measures velocity and mass. It does not track how that velocity was acquired. It contains no memory. A ball dropped from 10 meters and one shot from a cannon to reach 14 m/s have the same kinetic energy on paper. But in GPT, their interaction with the pressure field is not the same.
+</div>
 
-- An object in freefall is not accelerating because of “gravity” as a curved spacetime path.
+The frictionless surface isolates inertia. Pushed sideways, gravity does no work, and the whole cost is the body’s resistance to a change of motion. The ball costs 7,000 times as much as the feather, and you pay the difference. You would pay the same far out in space.
 
-- It is being sustainedly pressed by coherent external field corridors.
+The drop is the same difference, paid by something else. Released, both bodies reach 14 metres per second, and the ball carries 7,000 times the feather’s energy. You supplied none of it. In the same 1.4 seconds, something delivered 686 joules to the ball and a tenth of a joule to the feather: by the end of the fall, energy is reaching the ball at about 960 watts, and the feather at about a seventh of a watt. It pays each body exactly what that body’s inertia demands: not approximately, but to one part in $10^{15}$, for every material ever tested. **\[Argued\]**
 
-- This field compression builds over time— not as speed, but as resistance to continued pressure.
+Thrown upward, the books close. You pay 686 joules; the ball climbs 10 metres, stops, falls back and arrives at 14 metres per second again. The energy went somewhere and came back. Pushed sideways while unsupported, the body falls exactly as if it had been dropped, as Galileo found: a horizontal push changes nothing about what gravity delivers.
 
-The moment the falling object hits a resistant surface, that built-up corridor compression is released as an impact spike. It is not the velocity that causes the damage. It is the collapsed field structure snapping against resistance.
+Newton’s account must accept the exact match as a coincidence between two kinds of mass, and calls the energy that comes and goes “potential energy”, a quantity with no location. General Relativity makes the match a postulate, and has nowhere to put the energy, because in that theory the energy of gravity cannot be located at any point.[^14] Neither can answer the question the demonstration raises: what made up the difference? **\[Argued\]**
 
-This is why:
+**\[Hypothesis: the passage that follows\]**
 
-- A longer fall with the same speed produces a sharper impact.
+The medium made up the difference, and it can do so exactly because of what mass is. A body’s mass is the strength of its exchange with the medium. That one exchange sets what it costs to change the body’s motion, which you pay on the frictionless surface, and what the medium delivers to the body as it falls, which the medium pays in the drop. They are the same quantity, so the medium always pays exactly the inertial difference.
 
-- A sudden interruption of a freefall produces rebound or audible shock that cannot be explained by speed alone.
+The energy comes from the medium’s pressure. As the medium flows inward, its pressure is converted into flow, and that conversion pays the falling body. Throw the body upward and the conversion runs the other way: your work is taken into the medium’s pressure as the body rises, and returned as it falls. “Potential energy” is the medium’s pressure, located.
 
-- Objects that appear to have “no more kinetic energy” (because their speed is matched) still behave differently when their fall duration is altered.
+**\[End of passage\]**
 
-This is not stored kinetic energy.  
-This is field-mediated compression.  
-And GR has no concept or mechanism for this— because it removed force from gravity.
+## The Rising Column
 
-### The Landing Reveals the Lie
+One more experiment joins all of these. Stand the ball and the feather each on a column that can rise and fall, and that reads, at every moment, the force it exerts. Let the column move through each stage below, and read the dial.
 
-The equivalence principle claims that mass does not affect fall rate— and yet, it ignores what happens upon landing.
+<div id="tab:column">
 
-- Place a foam pad beneath both the feather and the bowling ball. Only one deforms the surface.
+| **The column**                                     | **It reads (ball / feather)**           | **Energy it delivers**                                           |
+|:---------------------------------------------------|:----------------------------------------|:-----------------------------------------------------------------|
+| At rest, supporting                                | N / 0.0098 N, the weight $mg$           | None                                                             |
+| Starting to rise, accelerating upward at 2 m/s$^2$ | N / 0.0118 N, $m(g+a)$                  | To the motion and the climb                                      |
+| Rising at a steady speed                           | N / 0.0098 N, the same as at rest       | $mg \times v$ every second, yet the body’s speed does not change |
+| Slowing to a stop at the top                       | N / 0.0078 N, $m(g-a)$                  | Less, as the climb ends                                          |
+| Extended and holding                               | N / 0.0098 N                            | None if locked; a motor-held column makes heat (Part 6)          |
+| Lowering at a steady speed                         | N / 0.0098 N                            | Negative: the body gives $mg \times v$ back every second         |
+| Dropping, faster and faster                        | $m(g-a)$, falling toward zero           | Less and less returned                                           |
+| Dropping at $g$                                    | **0 / 0**: it no longer supports either | None: the body is in free fall                                   |
 
-- Place a steel plate. Only one creates sound, impact, or rebound.
+A column that reads the force it exerts, carrying a 7 kg bowling ball and a 1 g feather.
 
-If both objects fell under equal influence, they should interact with matter identically. But they don’t. The energy delivered on impact reveals that mass-dependent force was built up during descent.
+</div>
 
-This isn’t a passive glide down a geodesic. It’s pressure-accelerated mass colliding with structural resistance.
+<figure id="fig:column">
+<img src="assets/figures/fig11-3-column.svg" />
+<figcaption>The rising column. Left: what the column reads as its downward acceleration changes. One straight line serves for both bodies, on scales 7<span>,</span>000 times apart (ball, left axis; feather, right axis), and both are released at the same point, when the column drops at <span class="math inline"><em>g</em></span>. Right: the medium delivers <span class="math inline"><em>m</em><em>g</em></span> to the body every second, whatever the column does; the column intercepts all of it at rest or moving steadily, half of it dropping at <span class="math inline"><em>g</em>/2</span>, and none in free fall, where the whole delivery goes into the body’s fall. (Hypothesis)</figcaption>
+</figure>
 
-GR ends the story at motion. GPT continues it through interaction.
+#### The dial never shows a pull.
 
-### What the Vacuum Test Actually Proves
+At every stage it reads its own push. When the column falls away at $g$, the reading is zero, and there is nothing left for it to measure.
 
-It does not prove that mass doesn’t matter.  
-It does not prove that gravity is blind.  
-It proves that when interference is removed, a structured, directional, coherent pressure field acts uniformly through matter regardless of shape— until resistance re-enters.
+#### Both lose support at the same moment.
 
-The test is elegant, but its interpretation is corrupt. It is used to hide the absence of a cause behind a spectacle of symmetry.
+The reading is $m(g-a)$ for both bodies, so it reaches zero at $a=g$ for the ball and the feather together. The column cannot fall away from one before the other. The 7,000-fold difference in mass scales every reading and never changes the point of release. That is the equivalence principle, on a dial.
 
-GPT reclaims the falling ball and the feather. It tells us:
+#### The same force, with and without energy.
 
-- What is doing the pressing.
+At rest, the column pushes with 68.7 newtons and delivers nothing. Rising steadily, it pushes with the same 68.7 newtons and delivers about 69 joules for every metre it rises, while the ball’s speed does not change. The dial cannot tell the two apart. Force is not energy: these are the two ledgers of Part 6, coming apart in front of us.[^15] The rising column’s work goes into the medium: it pushes the ball against the inflow, the work is stored in the medium’s pressure, and it comes back on the way down. **\[Hypothesis\]**
 
-- Where the energy is.
+#### The energy comes back.
 
-- Why acceleration requires a force.
+Lowered at a steady speed, the column reads 68.7 newtons, and now the ball delivers energy to it. Lifts with regenerative drives capture this energy when a heavy car descends and return it to the building’s supply. In GPT, that is the medium’s stored pressure returning, through the body, into the machine. **\[Hypothesis\]** The energy has a source that can be named.
 
-- And why duration, resistance, and coherence all matter.
+#### What the dial measures.
 
-This is not a parlor trick.  
-This is the most honest demonstration of graviton pressure at work.
+The medium delivers momentum to the body at $mg$ every second, whatever the column does. The dial measures how much of that delivery the column intercepts. At rest, or moving steadily, it intercepts all of it and relays it into the ground, and reads $mg$. Accelerating upward, it intercepts all of it and pushes more besides. Dropping at less than $g$, it intercepts only part, and the rest accumulates in the body as motion. Dropping at $g$, it intercepts none, and the whole delivery goes into the body’s fall. **\[Hypothesis\]** Newton reads the same numbers as gravity’s force plus the column’s extra, with no carrier for gravity’s part. General Relativity reads them as how hard the column drives the body off its free-fall path, so that a column at rest on the Earth is “accelerating upward” at $g$. The numbers agree in all three accounts. GPT’s says what is being intercepted: the inflow of a medium that is itself accelerating at $g$. **\[Argued\]**
 
-We move now to a comb, a stream of water, and the most casually accepted violation of energy conservation in modern education.
+#### Free fall is gravity unopposed, not gravity cancelled.
 
-## The Comb and the Stream — Force Without Flow, and the Theft of Causality
+It is often said that gravity “cancels” in free fall: hence “zero gravity”. The column shows otherwise. As its downward acceleration rises from zero to $g$, the reading falls smoothly from $mg$ to zero, and the body’s own acceleration rises from zero to $g$. At the last stage, the medium is still delivering momentum at the full $mg$ every second, and energy faster than ever. Aboard an orbiting station, gravity is still about 90% of its strength at the ground, and bends the station’s path into a circle every ninety minutes. Nothing cancels except the difference between the body and its support, which receive the same delivery. Free fall is the one stage at which gravity acts completely unopposed. “Weightless” means unsupported, not free of gravity. **\[Argued\]**
 
-You’ve seen it in classrooms or science videos: a stream of water flows smoothly from a faucet, and when a plastic comb is charged by running it through hair, the water bends toward it. The lesson is straightforward:
+## Carried Alike, Stopped Differently
 
-> “Electrostatic attraction causes the water molecules to polarize and move toward the charged comb.”
+The demonstration usually ends at the moment of landing. That is where it has the most to say.
 
-It’s presented as a fact— neat, observable, and accessible. But if this demonstration were truly understood, it would collapse a century of assumptions about fields, energy, and cause.
+Put a foam pad under the falling feather and the falling bowling ball. The feather leaves no mark; the ball leaves a deep one. Drop the ball from higher, and the dent is deeper still. This is not a contradiction of the equivalence principle, which claims equal acceleration, not equal impact. But it shows something the principle leaves out.
 
-Because the explanation given is not just incomplete— it is physically impossible under fair examination.
+During the fall, momentum is delivered to the ball the whole way down. After $t$ seconds of falling, the ball has received momentum $mgt$. A ball dropped from ten metres falls for 1.4 seconds and arrives at 14 metres per second; every second of the fall added another $mg$ to the momentum it carries. At impact, all of that accumulated momentum must be handed to the ground, in a few thousandths of a second. The dent is that momentum made visible. The longer the fall, the more momentum has been delivered, and the deeper the dent. The feather received momentum in proportion to its tiny mass, and it has almost nothing to hand over.
 
-Let us take it apart.
+<figure id="fig:fall">
+<img src="assets/figures/fig11-2-fall.svg" />
+<figcaption>A 7 kg ball dropped from 10 metres. Left: its momentum grows by <span class="math inline"><em>m</em><em>g</em></span> every second, reaching 98 N<span class="math inline">⋅</span>s at impact; a ball fired from a cannon at 14 m/s carries the same momentum, gained in a fraction of a second, and makes the same dent. Right: the energy the medium delivers grows as the square of the time, to 686 J, at a rate that reaches 960 W. The feather receives 7<span>,</span>000 times less, in exactly the same proportion as its inertia.</figcaption>
+</figure>
 
-### What the Standard Model Claims
+The momentum current that the medium delivers is the same whether a body is held or falling: $mg$ every second. Held, it is relayed straight through the body into its support, and the scale reads its rate (Part 6). Falling, it accumulates in the body as motion, and the impact reveals its total. The scale and the dent measure the same current in two ways. **\[Argued\]**
 
-In classical physics:
+Equal speed means equal impact, however the speed was gained. A ball fired from a cannon at 14 metres per second hits as hard as one dropped from ten metres: the cannon delivered the same momentum in a fraction of a second, where the fall took 1.4 seconds. Drop tests and crash tests rely on this. What makes a longer fall more damaging is the extra momentum delivered, and the extra speed is its record. Nothing else is stored during the fall.
 
-- Rubbing the comb removes or adds electrons, giving it a net charge.
+At the moment of contact, the stopping is done at the boundary between the ball and the ground, by the pressure of the medium re-activated between the two surfaces (Part 6). **\[Hypothesis\]** The ball does not stop all at once. A wave of compression runs back through it from the point of contact at the speed of sound in the material, and outward through the ground: the momentum current of Part 6, suddenly very large, passing through the boundaries between atoms in every direction. Nothing pushes back before contact because each atom’s organised medium reaches only a short way beyond it, dying away over a few hundredths of a nanometre, and the outflows of two bodies are re-activated only where those short tails overlap. That is why the push switches on so sharply, at the size of an atom, and why it rises so steeply once it does. **\[Hypothesis\]**
 
-- That charge sets up an electrostatic field.
+#### Does the direction of motion matter?
 
-- Nearby water molecules (being polar) align to that field.
+Gravity’s effect on a moving body depends slightly on its speed and on the direction of its motion relative to the mass. The effect scales as the square of the body’s speed divided by the square of the speed of light. For the falling ball at 14 metres per second, that is about $2\times10^{-15}$: far too small to show in any dent. For Mercury, moving at about 47 kilometres per second, it is about $3\times10^{-8}$ on each orbit, and over a century it accumulates into the 43 arcseconds of extra advance of its perihelion. For light, crossing the flow at $c$, it is as large as it can be, and it is why light bends twice the Newtonian amount.[^16] In GPT, these are effects of motion along and across the medium’s flow. **\[Hypothesis\]**
 
-- The water is “attracted” and bends toward the comb.
+# The Comb and the Stream
 
-This sounds plausible. But now ask:
+## What the Demonstration Shows
 
-- What does the attracting?
+A thin stream of water falls from a tap. A plastic comb, charged by running it through dry hair, is brought near. The stream bends toward the comb. A rod charged the other way bends the stream toward itself too.
 
-- Where is the energy transfer?
+## The Classroom Explanation, and Its Correction
 
-- Why does the comb continue to exert force without losing charge or expending measurable energy?
+The classroom explanation is that water molecules are polar, with a slightly positive end and a slightly negative end, and that they line up in the comb’s field and are attracted to it. The demonstration is used in chemistry teaching to show that water is a polar liquid.
 
-In other words: How is the water being moved?
+That explanation is wrong, and the mainstream’s own literature says so. In 2000, Ziaei-Moayyed, Goodman and Williams published a study of the demonstration under the title “a misunderstood demonstration”.[^17] A molecule’s polarity cannot be the cause: in a uniform field, a dipole is only turned, never pulled, yet the authors deflected streams in a uniform field. Droplets formed in a screened region, away from the field, were not deflected at all, even in a strongly non-uniform field. The deflection comes from charge induced on the stream as it forms: the comb’s field draws charge of the opposite sign into the water, which is connected through the tap to the ground, and the charged stream is drawn toward the comb. That is why a rod of either sign bends the stream the same way. Even a nonpolar liquid deflects slightly, from traces of charge.
 
-This is not a semantic point. The water has weight. It is being acted upon by gravity. Diverting it requires force. That means energy is being used to change its trajectory. In Newtonian terms: $$F = ma$$ And mass is being accelerated sideways. That requires work.
+A demonstration repeated for generations as a lesson about molecules is, by the mainstream’s own study, about something else. The phrase “polar molecules are attracted” was a name standing in for the mechanism, and it was the wrong name. **\[Argued\]**
 
-But from where? The comb is:
+## Where the Standard Account Stops
 
-- Not connected to any power source.
+The force on the charged stream is computed from the electric field, and the field, as Maxwell showed, carries a stress: a tension along its lines and an equal pressure across them, each of size $\varepsilon_0E^2/2$ for a field of strength $E$.[^18] The tension that draws the stream toward the comb is written down, not carried: the theory gives its size exactly, and does not say what touches the water. **\[Argued\]** Part 7 traces the same gap in every electrical “attraction”.[^19]
 
-- Not discharging current.
+## What GPT Proposes
 
-- Not showing a measurable drop in voltage.
+**\[Hypothesis: the passage that follows\]**
 
-So where is the work being done?
+**The field is the medium under strain.** In *The Mechanics of the Medium*, the electric constant $\varepsilon_0$ is the medium’s compressibility, and a charge is a stable directional bias in matter’s exchange with the medium: a charged body takes in and ejects the medium with a set polarity.[^20] Around it, the medium is held in a strained state. That strained region is what physics calls the electric field.
 
-Nowhere— under standard physics.
+**Maxwell’s stress is the medium’s pressure.** Maxwell’s tension and pressure, $\varepsilon_0E^2/2$, have the units of pressure, and they equal the energy stored in each cubic metre of the field. GPT reads them literally. Along the lines between opposite charges, the medium’s active pressure is *lowered* by that amount: their opposed biases partly cancel each other’s outflow in the space between them. Across the lines, it is *raised*. Between like charges, the outflows reinforce, and the pressure between them rises.
 
-This is a blatant violation of the conservation of energy.  
-It is action at a distance with no mediator, no loss, no mechanism.  
-It is magic dressed in mathematics.
+**How the stream moves.** Rubbing gives the comb a bias. Brought near the stream, the comb’s strained medium induces the opposite bias in the water as it leaves the tap, which is connected to the ground and supplies it: this is the induced charge of the 2000 study. Now the space between comb and stream is a region of lowered pressure, and the medium on the far side of the stream presses it into that region. The water is not pulled. It is pressed toward the comb by the medium behind it, as the halves of an evacuated sphere are pressed together by the air.
 
-### GPT Reveals the Corridor Collapse
+**Where the energy comes from, and why the comb loses none.** The comb is not the engine; it is the structure that sets up the pressure difference. The energy that moves the stream sideways is a few millionths of a joule each second, drawn from the strained medium around the comb: the same energy that rubbing put into the field. As each charged droplet falls away, fresh water takes its place and is biased in turn, drawing its charge from the ground through the tap. The comb’s own bias is not spent by doing this. It is only maintained, and it fades slowly as charge leaks to the air. The comb behaves like the evacuated sphere: it does not pay for the push; it shapes where the surrounding pressure acts.
 
-In Graviton Pressure Theory, there is no “pulling” of the water. What happens instead is far more structured, coherent, and causal.
+**\[End of passage\]**
 
-Here’s what really occurs:
+<figure id="fig:comb">
+<img src="assets/figures/fig11-4-comb.svg" />
+<figcaption>The comb and the stream, as GPT describes them. The comb’s charge holds the medium around it in a strained state. The stream takes up the opposite charge from the ground as it leaves the tap. Between them the medium’s pressure is lowered, and the medium behind the stream presses it toward the comb. (Hypothesis)</figcaption>
+</figure>
 
-- When you rub the comb, it doesn’t just gain a charge— it restructures its surface field geometry.
+#### What the mechanism expects to show.
 
-- This surface geometry disrupts local graviton field coherence, creating an anisotropic corridor collapse— a narrow, directional pressure gap.
+- A conducting stream, fed from the ground, deflects toward a rod of either sign, because the bias induced in it is always opposite. **\[Hypothesis\]** That is what is seen.
 
-- The water, already under graviton pressure from above, senses this new low-pressure zone.
+- A stream that cannot take up a bias, such as droplets formed in a screened region, or a liquid free of charge carriers, deflects little or not at all. **\[Hypothesis\]** That too is what the 2000 study found.
 
-- It is not “pulled.” It is pressed toward the area of least resistance— exactly as a fluid moves through a venturi or down a pressure gradient.
+- If the field is a change in the medium’s pressure, and light’s speed is set by that pressure (Part 1), then light crossing a very strong field should be slowed very slightly. **\[Hypothesis\]** Laser experiments that search for this effect in strong magnetic fields have set tight limits on it,[^21] and any such coupling in GPT must fall within them.
 
-This also explains why:
+#### The form of the force.
 
-- The effect is orientation-dependent. The comb must be aligned with its teeth facing the stream for maximum field distortion.
+The strain around a small charged body spreads out over ever larger spheres, so it weakens as the square of the distance; and the deficit between two charges depends on the strength of both biases. That is the form of Coulomb’s law. Its strength is set by $\varepsilon_0$, the medium’s compressibility, the same constant that appears in Coulomb’s law. **\[Hypothesis\]**
 
-- The effect is temporary. Once field coherence around the comb dissipates, the water returns to normal flow.
+# The Magnet
 
-- The comb does not lose energy— because it is not providing energy. It is rerouting external pressure.
+## What the Demonstration Shows
 
-A particularly revealing demonstration shows that **both positively and negatively charged rods** bend the water stream **in the same direction**. This completely undermines the standard polarity-based explanation. If charge interaction with polar water molecules were the cause, the orientation and behavior of the deflection should reverse or vary. Instead, the result is nearly identical regardless of the sign of the charge. This strongly supports the GPT model:  
-*The charged object is not attracting. It is disrupting coherence. It opens a corridor for structured pressure to flow, and the water is simply being pushed along the gradient of least resistance.*
+A refrigerator magnet holds a note to the door for years. It draws no power, carries no battery and does not weaken by holding. Two magnets free to move first turn, until their opposite poles face, and only then come together.
 
-In this model:
+## The Standard Reading, Stated Fairly
 
-- The water moves not because the comb attracts it, but because the comb creates a structural sink in the external pressure field.
+The magnet does no work in holding, and needs no supply. A force that holds a weight still moves nothing, and so delivers no energy: Part 6 showed that the cost of holding belongs to the holder, and a magnet, like a table, pays nothing.[^22]
 
-- No law is violated.
+The magnetism between electric currents follows exactly from the electric force and special relativity. Purcell’s standard textbook derives it.[^23] Relativity does not make magnetism unreal for an observer at rest. It shows that electric and magnetic fields are two aspects of one field, which mix as the observer’s motion changes. A permanent magnet is a different case: its magnetism comes from the aligned intrinsic magnetic moments of its electrons, their “spin”, not from any motion of the bulk material.[^24] The turning of two magnets before they approach is the torque on a magnetic dipole.
 
-- No mystery remains.
+## Where the Reading Stops
 
-- And causality is restored.
+“Spin” is measured with great precision, and no mechanism is given for it: it is a property assigned to the electron, a primitive. **\[Argued\]** And the force between magnets, like the force between charges, is computed from Maxwell’s stress in the space between them, with a tension along the lines that has no carrier.[^25] The standard account computes the magnet’s force exactly. It does not say what touches the iron.
 
-### The Stealth of an Impossible Force
+## What GPT Proposes
 
-Why is this not recognized as a contradiction?  
-Because the story has been told too often. Because the math of field strength and polarization gives the illusion of explanation. Because the energetic paradox is not asked, and because students are taught to memorize outcomes, not question processes.
+**\[Hypothesis: the passage that follows\]**
 
-But consider this:
+**Magnetism is structured outflow.** In *The Mechanics of the Medium*, the magnetic constant $\mu_0$ is the medium’s stiffness, and magnetism is the medium’s outflow given a direction.[^26] In a permanent magnet, the atoms’ biases are aligned, so they eject the medium in a common direction. The result is a circulation: the medium leaves the magnet at one pole and returns at the other. Faraday’s lines of force are the streamlines of that circulation. They are given content at last: they are where the medium goes.
 
-- The water stream resists gravity.
+**Why the magnets turn first.** Iron’s own atoms are free to turn their biases. Brought into a magnet’s circulation, they turn until their outflow runs with the magnet’s: the iron becomes a magnet itself, which is what is seen, since iron near a magnet is magnetised by it. Two magnets do the same as wholes: they rotate until their circulations join, opposite poles facing, before they approach.
 
-- The comb changes that path.
+**Why they then come together.** Once the circulations join, the medium flows from one body into the other along the lines between them. Along that shared stream the medium’s active pressure is lowered, and across it the outflow raises the pressure. The medium outside presses the iron toward the magnet along the lines, and the lines push one another apart sideways. That is Maxwell’s tension along the lines and pressure across them, now with a carrier: the medium, flowing.
 
-- Something is doing the work.
+**Why a magnet costs nothing and does not weaken.** The circulation is not fuel the magnet burns. It is the medium’s own throughput, the same that maintains every structure (Part 6), given a direction by the magnet’s aligned structure. So the magnet holds its iron indefinitely and pays nothing, like a table. It weakens only when its structure is disturbed: by a blow, or by heat. Iron loses its magnetism entirely above 770 C, its Curie temperature, where its atoms’ biases can no longer stay aligned. When iron snaps to a magnet, the energy of the motion is the medium’s pressure converted into flow, as in a fall.
 
-If physics cannot say what, then physics has failed its duty.
+**\[End of passage\]**
 
-GPT steps in and says:
+<figure id="fig:magnet">
+<img src="assets/figures/fig11-5-magnet.svg" />
+<figcaption>Left: a magnet’s field lines, read in GPT as the streamlines of a circulation of the medium, leaving one pole and returning at the other. Right: brought near, iron aligns and its circulation joins the magnet’s; along the shared lines the medium’s pressure is lowered, across them it is raised, and the iron is pressed toward the magnet. The lines are the standard field of two aligned magnetic dipoles. (Hypothesis)</figcaption>
+</figure>
 
-- The universe is a structured pressure field.
+#### What the mechanism expects to show.
 
-- Fields are not abstractions— they are corridors of coherent flow.
+- Magnetic force passes through wood, glass and plastic, because the circulation passes through matter that does not redirect it. **\[Hypothesis\]** That is what is seen.
 
-- All movement is caused by pressure and resistance— never spontaneous action at a distance.
+- Materials whose structure can carry the circulation easily should gather it and lead it around a space, shielding what is inside. **\[Hypothesis\]** That is how magnetic shielding with high-permeability alloys works.
 
-This experiment does not demonstrate electrostatic attraction.  
-It demonstrates corridor collapse and asymmetric graviton field distortion— just as GPT predicts.  
-The comb does not “pull.”  
-It opens a gate.  
-And when pressure finds the gap, something must flow.
+- Only materials whose atoms can align their biases, such as iron, nickel and cobalt, respond strongly. **\[Hypothesis\]** That too is what is seen.
 
-## Magnetism — Silent Force, Structured Flow, and the Lie of Relativity
+#### Why the force falls off so fast, and why heat ends it.
 
-The magnet is perhaps the most quietly astonishing object in our everyday world.
+The circulation leaves one pole and returns at the other, close by. Far from the magnet, the outgoing and returning streams nearly cancel, and what remains weakens as the cube of the distance, faster than the square law of a single charge: that is why a magnet’s grip fades so quickly as it is drawn away. And the alignment of the atoms’ biases is held against the agitation of heat; at the Curie temperature the agitation wins, the circulation dissolves, and the magnetism is gone. **\[Hypothesis\]** Parts 21 and 22 develop the account in full.
 
-- It does no work.
+# What the Four Were Always Telling Us
 
-- It emits no heat.
+Each of the four is presented as a triumph of a theory. Read again, each separates a result from an explanation.
 
-- It carries no battery.
+- **The sealed box** shows that, in a small room, for a short time, with no window, gravity cannot be told from acceleration. It does not show that a falling body is unaccelerated or that nothing acts on it. **\[Argued\]** GPT explains the equivalence: the medium’s momentum is delivered to every part of a body alike. **\[Hypothesis\]**
 
-- It does not move.
+- **The feather and the bowling ball** show that all bodies fall alike. GPT explains why: each receives momentum in proportion to its mass. **\[Hypothesis\]** At the landing, the same current that a scale reads when the body is held is revealed as a total.
 
-And yet it can attract, repel, push, pull, and suspend weight— indefinitely.
+- **The comb** shows a charged body bending a stream of water. Its classroom explanation is wrong by the mainstream’s own study, and the corrected explanation names no carrier; GPT names one.
 
-Mainstream physics explains magnetism as a relativistic side effect: a consequence of moving electric charges and frame-dependent length contraction. That is, from the perspective of a moving observer, the electric field appears compressed, resulting in magnetic behavior.
+- **The magnet** shows holding without cost, as Part 6 found for every passive holder, and a force computed exactly whose carrier the standard account does not name, and GPT does.
 
-This is clever math. But it is not physics.
+The lesson is the same in each. A demonstration shows a result. The explanation attached to it is a separate claim, and it often stops at a name: geometry, polarity, spin, attraction. Table <a href="#tab:four" data-reference-type="ref" data-reference="tab:four">3</a> sets the four side by side.
 
-Because none of that motion is occurring in the permanent magnet.
+<div id="tab:four">
 
-- The atoms are not in motion relative to you.
+| **Demonstration** | **What it shows**                                      | **Standard explanation, and where it stops**                                                                 | **GPT’s account**                                                              | **Matches what is observed?**                      |
+|:------------------|:-------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:---------------------------------------------------|
+| Sealed box        | Locally, gravity and acceleration cannot be told apart | Gravity is geometry **\[GR\]**; rests on a limited observer; no local source for the falling body’s momentum | Uniform delivery of the medium’s momentum **\[Hypothesis\]**                               | Yes                                                |
+| Feather and ball  | All bodies fall alike                                  | Equal masses: a coincidence **\[N\]** or a postulate **\[GR\]**                                              | Momentum delivered in proportion to mass **\[Hypothesis\]**                                | Yes                                                |
+| Comb and stream   | A charged body bends water                             | Polar molecules (wrong); induced charge (right), with the field’s tension uncarried                          | A pressure deficit in the strained medium between comb and stream **\[Hypothesis\]**       | Yes: either sign; screened droplets do not deflect |
+| Magnet            | Holding without cost                                   | Aligned spins, a primitive; field stress with the tension uncarried                                          | Structured outflow: a circulation of the medium, joined along the lines **\[Hypothesis\]** | Yes: turning first, passing through, shielding     |
 
-- The magnet sits still on a table.
+The four demonstrations: what each shows, where its standard explanation stops, and GPT’s account. For the two gravitational demonstrations, GPT’s carrier reproduces what is observed. For the two electromagnetic ones, GPT’s mechanisms account for what is seen.
 
-- And yet, it exerts real force on other objects— through space, through time, with no visible cost.
+</div>
 
-This is where the standard model fails. Magnetism is real force— but modern theory gives it no real source.
+## Reclamation Is Restoration
 
-### The Impossible Perpetual Force
+We do not discard these demonstrations. We reclaim them: not as curiosities, but as evidence; not as tricks, but as testimony.
 
-A refrigerator magnet holds up a metal note holder for ten years.[^3] By Newtonian and relativistic standards:
+The box is not proof that gravity is geometry. It is proof of what a limited observer cannot see.  
+The vacuum fall is not only a celebration of universality. It is the medium’s delivery, made visible at the landing.  
+The comb is not a lesson about polar molecules. It is a lesson about how a name can stand in for a mechanism, even the wrong one.  
+The magnet is not a perpetual force. It is a holder that pays nothing, channelling a medium that does.
 
-- It is doing work by opposing gravity.
+These were never tricks. They were testimonies. Read with care for energy, momentum and cause, they ask for what this framework asks for: that every force name its carrier, that every gain in energy and momentum be traced to its source, and that every explanation say where it stops.
 
-- It is sustaining a force against mass.
-
-- It has no battery or supply of energy.
-
-Yet it does not weaken. It does not lose energy.
-
-This is a violation of conservation of energy under any standard force model.
-
-Physicists sidestep this with abstraction:
-
-- “No work is done because there is no movement.”
-
-- “The force is potential, not active.”
-
-- “The field is static, so energy is not being transferred.”
-
-But this is verbal gymnastics. The fact remains: something is exerting pressure through space and holding weight. If that pressure were mechanical or hydraulic, we would require a pressurized source. But in EM theory, there is no pressurizing agent.
-
-This is the illusion of magnetism under modern theory. A real effect produced by an imaginary cause.
-
-### GPT and the Corridor of Structured Flow
-
-Graviton Pressure Theory sees the magnet not as a mystical object— but as a precision alignment tool.
-
-In ferromagnetic materials:
-
-- Atomic spin domains become aligned.
-
-- This alignment does not just influence internal structure— it extends outward.
-
-- The aligned spin opens a coherent channel through the graviton field, forming a pressure corridor.
-
-This corridor:
-
-- Is directional.
-
-- Has structure.
-
-- Exerts real, coherent pressure across space.
-
-Other materials with matching structure (ferrous metals) couple to this corridor. They are not “attracted.” They are pressed into the channel— flowing along a pressure gradient established by the magnet’s internal spin structure.
-
-This explains why:
-
-- Only certain materials are affected (due to lattice resonance with the corridor).
-
-- The force can pass through other substances (because the corridor passes through without disruption).
-
-- The magnet does not lose strength unless its coherence is disrupted (by heat, vibration, or electromagnetic fields).
-
-In GPT, the magnet is not doing work. It is shaping the path of a force that already exists. It is a graviton corridor conduit, redirecting pressure flows that permeate the universe.
-
-This reintroduces causality:
-
-- Magnetic force is not emitted.
-
-- It is channeled.
-
-- The source of energy is the graviton field, and the magnet is the architect of the corridor.
-
-### Why Relativity Fails Here
-
-Relativistic models of magnetism depend on the idea that magnetic fields only exist from the viewpoint of a moving observer. But:
-
-- The magnet is not moving.
-
-- The iron nail is not moving.
-
-- The force is still real.
-
-This contradicts the frame-dependence model directly.
-
-Furthermore, relativity gives us no mechanism for how spin alignment reaches across space to affect other objects. It uses field lines— but never defines what those lines are made of.  
-It invokes virtual photons— but admits they cannot be measured.  
-It shows vectors— but provides no agent of delivery.
-
-Magnetism in standard physics is a collection of unexplained tools wrapped in post-hoc equations.
-
-GPT, by contrast, provides:
-
-- A structured medium (graviton field)
-
-- A channeling mechanism (spin-aligned lattice domains)
-
-- A pressure flow (coherent directional force)
-
-- A testable structure-field relationship (different materials, same shape different force response)
-
-Magnetism is not a relic of special relativity.  
-It is the signature of a structured field responding to coherent matter.  
-Magnets do not attract.  
-They press through the corridor they shape.
-
-## Unification — What the Four Were Always Telling Us
-
-Each of the four experiments we’ve examined is presented in science classrooms and popular media as a triumph of modern physics. But beneath their elegance lies something much more potent— and much more disturbing:
-
-They are not confirmations of current theory.  
-They are living contradictions of it.
-
-When viewed fairly, with full regard for energy, mediation, structure, and cause, these four demonstrations do not support the frameworks that claim them. Instead, they reveal the cracks in our foundational understanding:
-
-- The sealed box shows that you cannot have acceleration without an energy source. Yet General Relativity denies the need for one when gravity is involved. That is a logical and physical impossibility.
-
-- The falling feather and bowling ball demonstrate not mass-insensitive force, but structure-sensitive pressure acting through a corridor— proving causality and field mediation, not abstract curvature.
-
-- The comb bending water shows that directional force is applied to a falling mass against gravity, with no loss of charge, no energy expenditure, and no current. A clear violation— unless an external pressure gradient is at work.
-
-- The magnet holds weight indefinitely, with no energy source and no moving parts, violating conservation principles unless it is redirecting a structured force that exists independent of itself.
-
-Each experiment fails under its mainstream explanation— but thrives under GPT.
-
-### What They Were Always Saying
-
-The feather, the comb, the magnet, and the sealed box are not puzzles. They are proofs of a missing structure. Each one whispers a different part of the same truth:
-
-Force is real. Pressure is directional. Fields are structured. Mechanisms matter.
-
-They do not say “trust the theory.” They say “look again.”
-
-- They point to a universe filled with external pressure, not empty geometry.
-
-- They demand that acceleration, deflection, and suspension must be traced to a physical mediator.
-
-- They show us that duration, resistance, and coherence all affect outcome— and that no law can claim universality without including these factors.
-
-Graviton Pressure Theory restores what these four examples have been trying to say:
-
-- That energy must be sourced.
-
-- That cause must precede effect.
-
-- That motion must be pressed, not permitted.
-
-- That fields must have content, direction, and flow.
-
-### Reclamation Is Restoration
-
-We do not discard these demonstrations. We do not dismiss their value. We reclaim them.
-
-- Not as curiosities, but as evidence.
-
-- Not as thought experiments, but as mechanical truths.
-
-- Not as teaching props, but as messages from the physical world.
-
-The box is not proof of equivalence— it is proof of inconsistency.  
-The vacuum fall is not a celebration of universality— it is an unveiling of coherence.  
-The comb is not a static miracle— it is a pressure gate.  
-The magnet is not a toy— it is a map.
-
-These were never tricks.  
-They were testimonies.
-
-And now— with Graviton Pressure Theory— they can be read, understood, and restored to their rightful place:
-
-As the silent witnesses of a universe filled with structure, flow, pressure, and meaning.
-
-Let this be the beginning of the new literacy.  
+Let this be the beginning of a new literacy.  
 Where cause matters again.  
-Where pressure is not metaphor.  
+Where pressure is not a metaphor.  
 Where energy is never abstract.  
-Where physics is honest.  
-Where matter speaks.  
-Where truth is pressed into form— and never ignored again.
+Where physics is honest about what it knows, and about what it does not yet know.
 
-## Tides — Graviton Outflow, Shadow Structure, and the Proof of Pressure
+# Changes in the Second Edition
 
-In a final example of misunderstood and mis-attributed causes and explanations of gravitational effects - we examine tides, which are among the most predictable, rhythmic forces on Earth. Their rise and fall are measured with precision, used to schedule harbors, power turbines, and inspire mythologies. And yet, like many other phenomena long claimed by Newton and then reinterpreted by Einstein, the tides have never been fully explained in terms of causality.
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
 
-### The Classic Explanation
+## Changes to the argument
 
-Mainstream physics offers a familiar narrative:
+- The sealed box. The first edition argued that the equivalence principle “collapses”: that the Earth box has no source of energy, that one of the two boxes must violate the conservation of energy, and that the standing person is following a geodesic with no force acting. Each is corrected. In General Relativity the standing person is pushed off their geodesic by the floor, a real force; the rocket’s fuel goes into the room’s growing kinetic energy, which the Earth room does not gain. The critique now falls on the inference, not the observation: the principle holds for a limited observer (no window, a small room, a short time), and the conclusion that gravity is not a force is built on that limit, the Rest-and-Isolation Assumption applied to falling.
 
-- The Moon exerts a gravitational pull on the Earth.
+- “There is no equivalence” is withdrawn. GPT now explains why inertial and gravitational mass are equal: both are the strength of a body’s exchange with the medium (Section 11.2). Bodies fall alike to one part in $10^{15}$. GPT now explains the equivalence: in both rooms the person is accelerated relative to the medium, and the medium delivers its momentum to every part of a falling body alike. The sources differ: the engine pays in one room, the medium in the other.
 
-- This pull draws water toward the Moon, creating a bulge[^4] .
+- “Your body must do work to remain upright” is removed, in line with Part 6: the cost of holding belongs to the holder.
 
-- A second bulge occurs on the opposite side, due to the Earth being pulled more strongly than the water on the far side[^5] .
+- Momentum is given a mechanism: the faster intake at a moving body’s leading face, which carves its path through the medium; the front and back exchange rates give special relativity’s energy and momentum exactly, the slowing of moving clocks, and the unlimited cost of approaching $c$. “A person in free fall feels nothing” is corrected: real falls are felt, at once and, in orbit, cumulatively. The accelerometer’s zero reading shows uniform delivery, not absence; the falling body’s acceleration is detected as soon as there is a reference outside it, and a large enough instrument detects the field’s gradient while falling.
 
-This model relies on differential gravity and the concept of a non-rigid Earth responding elastically to the Moon’s proximity. While this may predict tidal timing with some accuracy, it never addresses:
+- The feather and the bowling ball. “Pressed downward, with force, through corridors” is replaced by the medium’s delivery of momentum to every particle in proportion to its mass. New subsections, “What Made Up the Difference?” and “The Rising Column”, follow the energy and the readings of a support through every kind of motion: the medium pays each falling body exactly what its inertia demands, a support’s reading measures how much of the medium’s delivery it intercepts, and free fall is gravity unopposed, not cancelled. The section “Why This Is Not Kinetic Energy”, which claimed that a longer fall at the same speed gives a sharper impact through stored “field compression”, is withdrawn: equal speeds give equal impacts. “The Landing Reveals the Lie” is replaced by an account of the landing: momentum is delivered throughout the fall, the impact hands over its total, and the scale and the dent measure the same current in two ways.
 
-- What mediates the Moon’s force across space?
+- The comb and the stream. The claim that the demonstration is “a blatant violation of the conservation of energy” is withdrawn: the energy books balance. The claim that rods of either sign bending the stream the same way “undermines” the standard account is corrected: induced charge predicts it. The section now reports that the classroom explanation by polar molecules is wrong by the mainstream’s own study (Ziaei-Moayyed, Goodman and Williams, 2000), and that the corrected explanation still names no carrier. GPT’s mechanism is set out in full: the field as the medium under strain, Maxwell’s stress as the medium’s pressure, the stream pressed into the region of lowered pressure, the energy drawn from the strained medium, and what the mechanism expects to show.
 
-- Why two bulges appear simultaneously without internal reflection delay?
+- Magnetism. “The lie of relativity” and the claim that magnetism exists only for a moving observer are withdrawn: relativity mixes electric and magnetic fields, and the magnetism of currents follows exactly from it (Purcell). Permanent magnetism is attributed to aligned electron spins. The claim that a magnet holding a weight violates energy conservation is withdrawn (Part 6). The critique now names spin as a primitive and the tension in the field as uncarried, and GPT’s account (structured outflow, a circulation of the medium) is set out with what it expects to show.
 
-- How energy is conserved during continuous global fluid displacement?
+- “Motion must be pressed, not permitted” is removed: it contradicts Part 7, where free fall is permission and the push appears only when the fall is stopped.
 
-The mechanism is not identified. The field has no carrier. The energy pathway is invisible.
+## Clarifications
 
-### Graviton Pressure Theory — A New Causal View
+- The section on tides moves to Part 13, *The Moon and Gravimetric Modulation*, where the Moon’s effects are treated, and will be revised there.
 
-Graviton Pressure Theory does not require gravitational “pull.” Instead, it asserts:
+- Each demonstration is now read in four steps: what it shows, the standard explanation and where it stops, GPT’s account and whether it matches what is observed, and what is open. Tables 11.1 and 11.2 follow the energy and the column’s readings; Table 11.3 summarises the four. Five figures are new: the two rooms, the fall, the rising column, the comb and the magnet.
 
-- The Moon does not pull on the Earth.
+- Words that made accusations (“lie”, “theft”, “corrupt”, “magic”) are removed. The opening frame, that the demonstrations are warnings, is kept.
 
-- The Moon blocks and redirects structured graviton flow.
+- New sources: Einstein (1907), Eötvös, MICROSCOPE, Apollo 15, GOCE, the meta-analysis of bone loss in spaceflight, Ziaei-Moayyed et al., Purcell and Maxwell. Unsupported details (that the comb’s teeth must face the stream) are removed.
 
-- This obstruction creates a pressure shadow.
-
-Earth exists within an omnidirectional sea of graviton pressure. As the Moon interposes itself in this flow:
-
-- A shadow is cast on the near side of Earth— a region of reduced pressure.
-
-- Fluids, being less resistant and more responsive, migrate toward this zone.
-
-- A second bulge forms on the far side, not due to a secondary pull, but because that side is more fully exposed to coherent pressure while the Earth’s mass absorbs some flow.
-
-The result: two pressure-driven movements— not symmetrical attractions, but \*\*corridor-induced shifts\*\*. The water is being pushed, not pulled. It flows toward the lower pressure created by the Moon’s presence.
-
-### Outflow, Not Just Obstruction
-
-In GPT, mass does more than block flow— it also influences \*\*outward structuring\*\*.
-
-The Moon does not just absorb pressure— it alters the shape of surrounding flow fields. Its coherence disturbs the equilibrium in local corridor alignment, redirecting streamlines around its body.
-
-This redirection creates not just a shadow, but a \*\*dynamic redistribution of pressure vectors\*\* across Earth’s surface. The tide is the result of:
-
-- Obstruction of coherent inflow
-
-- Disruption of structural outflow
-
-- Redistribution of lateral pressure gradients
-
-In GPT, the tides are not a residual outcome of universal attraction. They are the \*\*direct response of coherent matter to structured pressure disturbance.\*\*
-
-### Why This Matters
-
-This reinterpretation restores:
-
-- A physical cause with a known mediator
-
-- A conserved energy path, sourced from pressure, not abstraction
-
-- A prediction of effects based on structure and coherence, not mass alone
-
-Tides are not the gravitational echo of distant motion.  
-They are the living memory of structured fields disrupted by nearby coherence.
-
-In GPT, the ocean doesn’t rise because it is called.  
-It rises because it is pressed.  
-And the Moon does not reach across emptiness to command the sea.  
-It \*\*stands in the flow\*\*— and the world moves around it.
+- Status labels in square brackets are replaced by marks drawn under the text (see the key at the start). The status of each claim is unchanged.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-cartwright1999" class="csl-entry">
+<div id="ref-bailey1977" class="csl-entry">
 
-Cartwright, David Edgar. 1999. *Tides: A Scientific History*. Cambridge University Press.
-
-</div>
-
-<div id="ref-einstein1915" class="csl-entry">
-
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
+Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Positive and Negative Muons in a Circular Orbit.” *Nature* 268: 301–5.
 
 </div>
 
-<div id="ref-feynman1964" class="csl-entry">
+<div id="ref-einstein1907" class="csl-entry">
 
-Feynman, Richard P., Robert B. Leighton, and Matthew Sands. 1964. *The Feynman Lectures on Physics, Vol. II*. Addison-Wesley.
-
-</div>
-
-<div id="ref-newton1687" class="csl-entry">
-
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+Einstein, Albert. 1907. “Über Das Relativitätsprinzip Und Die Aus Demselben Gezogenen Folgerungen.” *Jahrbuch Der Radioaktivität Und Elektronik* 4: 411–62.
 
 </div>
 
+<div id="ref-pvlas2020" class="csl-entry">
+
+Ejlli, A., F. Della Valle, U. Gastaldi, G. Messineo, R. Pengo, G. Ruoso, and G. Zavattini. 2020. “The PVLAS Experiment: A 25 Year Effort to Measure Vacuum Magnetic Birefringence.” *Physics Reports* 871: 1–74.
+
 </div>
 
-[^1]: See (Einstein 1915) for the field equations of General Relativity and their consequences for motion.
+<div id="ref-eotvos1922" class="csl-entry">
 
-[^2]: See (Newton 1687) for the classical gravitational law and equations of motion.
+Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen Der Physik* 68: 11–66.
 
-[^3]: Feynman [^6], R. P., Leighton, R. B., & Sands, M. (1964). *The Feynman Lectures on Physics, Vol. II*. Addison-Wesley. Chapter 13 discusses magnetic fields and forces in static conditions.
+</div>
 
-[^4]: National Research Council. (1998). *Tides and Water Levels*. NOAA, Office of Coast Survey.
+<div id="ref-griffiths2017" class="csl-entry">
 
-[^5]: (Cartwright 1999)
+Griffiths, David J. 2017. *Introduction to Electrodynamics*. 4th ed. Cambridge University Press.
+
+</div>
+
+<div id="ref-maxwell1873" class="csl-entry">
+
+Maxwell, James Clerk. 1873. *A Treatise on Electricity and Magnetism*. Oxford: Clarendon Press.
+
+</div>
+
+<div id="ref-misner1973" class="csl-entry">
+
+Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitation*. San Francisco: W. H. Freeman.
+
+</div>
+
+<div id="ref-apollo15" class="csl-entry">
+
+NASA. 1971. “The Apollo 15 Hammer–Feather Drop.” Apollo 15 Lunar Surface Journal, 2 August 1971, <https://www.hq.nasa.gov/alsj/a15/a15.clsout3.html>.
+
+</div>
+
+<div id="ref-purcell2013" class="csl-entry">
+
+Purcell, Edward M., and David J. Morin. 2013. *Electricity and Magnetism*. 3rd ed. Cambridge University Press.
+
+</div>
+
+<div id="ref-rashadaPart1" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Introduction to the Unified Framework (Part 1, Second Edition), Appendix 1.a.” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+
+</div>
+
+<div id="ref-rashadaPart6" class="csl-entry">
+
+———. 2026b. “Redefining Work (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+
+</div>
+
+<div id="ref-rashadaPart3" class="csl-entry">
+
+———. 2026c. “The Gravity Catalog (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+
+</div>
+
+<div id="ref-rashadaPart7" class="csl-entry">
+
+———. 2026d. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+
+</div>
+
+<div id="ref-rashadaMedium" class="csl-entry">
+
+———. 2026e. “The Mechanics of the Medium.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/>.
+
+</div>
+
+<div id="ref-rummel2011" class="csl-entry">
+
+Rummel, Reiner, Weiyong Yi, and Claudia Stummer. 2011. “GOCE Gravitational Gradiometry.” *Journal of Geodesy* 85: 777–90.
+
+</div>
+
+<div id="ref-stavnichuk2020" class="csl-entry">
+
+Stavnichuk, Mariya, Nicholas Mikolajewicz, Tatsuya Corlett, Martin Morris, and Svetlana V. Komarova. 2020. “A Systematic Review and Meta-Analysis of Bone Loss in Space Travelers.” *Npj Microgravity* 6: 13.
+
+</div>
+
+<div id="ref-touboul2022" class="csl-entry">
+
+Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle.” *Physical Review Letters* 129: 121102.
+
+</div>
+
+<div id="ref-ziaei2000" class="csl-entry">
+
+Ziaei-Moayyed, Mina, Edward Goodman, and Peter Williams. 2000. “Electrical Deflection of Polar Liquid Streams: A Misunderstood Demonstration.” *Journal of Chemical Education* 77 (11): 1520–23.
+
+</div>
+
+</div>
+
+[^1]: (Rashada 2026c).
+
+[^2]: (Einstein 1907).
+
+[^3]: (Eötvös, Pekár, and Fekete 1922).
+
+[^4]: (Touboul et al. 2022).
+
+[^5]: (NASA 1971).
+
+[^6]: (Rummel, Yi, and Stummer 2011).
+
+[^7]: (Rashada 2026b).
+
+[^8]: (Misner, Thorne, and Wheeler 1973).
+
+[^9]: (Stavnichuk et al. 2020).
+
+[^10]: (Rashada 2026d).
+
+[^11]: (Bailey et al. 1977).
+
+[^12]: (NASA 1971).
+
+[^13]: (Rashada 2026a).
+
+[^14]: (Misner, Thorne, and Wheeler 1973).
+
+[^15]: (Rashada 2026b).
+
+[^16]: (Rashada 2026a).
+
+[^17]: (Ziaei-Moayyed, Goodman, and Williams 2000).
+
+[^18]: (Maxwell 1873).
+
+[^19]: (Rashada 2026d).
+
+[^20]: (Rashada 2026e).
+
+[^21]: (Ejlli et al. 2020).
+
+[^22]: (Rashada 2026b).
+
+[^23]: (Purcell and Morin 2013).
+
+[^24]: (Griffiths 2017).
+
+[^25]: (Maxwell 1873).
+
+[^26]: (Rashada 2026e).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
-Cite as: Rashada, S. A. (2025). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
+Cite as: Rashada, S. A. (2026). Re-examining the Four. In The Unified Framework for the Graviton Pressure Theory, part 11. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/
 
 
 # The Collapse of Materialist Epistemology

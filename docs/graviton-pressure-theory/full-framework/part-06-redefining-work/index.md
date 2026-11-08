@@ -352,4 +352,4 @@ UNESCO World Heritage Centre. 1985. “Pont Du Gard (Roman Aqueduct).” <https:
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
-Cite as: Rashada, S. A. (2025). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/
+Cite as: Rashada, S. A. (2026). Redefining Work. In The Unified Framework for the Graviton Pressure Theory, part 6. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/

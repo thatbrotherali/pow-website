@@ -106,10 +106,12 @@
    "slug": "gpt-part-11",
    "title": "Re-examining the Four",
    "subtitle": "Graviton Pressure Theory and the Return to Causal Physics",
-   "words": 4416,
-   "lead": "Each is taught as if it confirms the mainstream narrative of physics— General Relativity, Newtonian mechanics, or Electromagnetism. But each of these experiments, when examined fairly, completely, and causally, does not say what it is claimed to say.",
-   "source": "Part 11 - Re-examining the four.tex",
-   "part": 11
+   "words": 9171,
+   "lead": "When something is held still against gravity, something is plainly going on, yet the textbook says no work is done. This paper shows that holding does not consume energy (the cost belongs to the holder), and that a held load is never at rest: a steady current of momentum passes through it into its support, and every scale reading measures that current.",
+   "source": "Part 11 - Re-examining the Four (2nd ed.).tex",
+   "part": 11,
+   "path": "re-examining-the-four",
+   "pdf": true
   },
   {
    "slug": "gpt-part-12",

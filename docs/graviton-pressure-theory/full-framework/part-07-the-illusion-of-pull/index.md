@@ -708,4 +708,4 @@ University of Illinois Department of Physics. n.d. “Explaining Attractive Forc
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
-Cite as: Rashada, S. A. (2025). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
+Cite as: Rashada, S. A. (2026). The Illusion of Pull. In The Unified Framework for the Graviton Pressure Theory, part 7. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/
