@@ -116,11 +116,13 @@
   {
    "slug": "gpt-part-12",
    "title": "The Collapse of Materialist Epistemology",
-   "subtitle": "Exposing the Logical and Scientific Limits of an Unraveling Paradigm",
-   "words": 2347,
-   "lead": "Materialism—the belief that physical matter is the primary and only fundamental substance of reality—has shaped modern science for centuries. It claimed to offer a clean, consistent, and rational framework in which all phenomena could be explained by particles, forces, and blind interactions.",
-   "source": "Part 12 - The Collapse of Material Epistemology.tex",
-   "part": 12
+   "subtitle": "Exposing the Logical and Scientific Limits of an Unravelling Paradigm",
+   "words": 4229,
+   "lead": "Materialism treats the method of science as a finding about reality. Applying one test to its central explanations (does it name a mechanism, or a name in place of one?), this paper examines emergence, the moving living body, dark matter and dark energy, and the measurement problem, and proposes a higher standard for knowledge: coherence, mechanism and fit with observation, together.",
+   "source": "Part 12 - The Collapse of Materialist Epistemology (2nd ed.).tex",
+   "part": 12,
+   "path": "the-collapse-of-materialist-epistemology",
+   "pdf": true
   },
   {
    "slug": "gpt-part-13",
