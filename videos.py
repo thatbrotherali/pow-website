@@ -117,6 +117,13 @@ ANTHOLOGY = ["ytcdXMOjBto", "PKdBHPLgxxY", "A_u0J_JcYis", "hmjPAoZ9qhw", "Zy5nzX
              "65NBzouOGW0", "2zE2wyy5p_I"]
 
 
+# Deep dives made from a part's first edition, withdrawn once that part was
+# revised in the second edition (they no longer match the text). Kept here as
+# a record; they stay on YouTube. Remove an id from this set to restore it.
+OUTDATED = {"tF4WsjNVT7U", "ugnWAbwUogo", "HTiwFsd8zfQ", "fA_2Y6WCQZI", "ZK_ukR9jkCQ",
+            "xRCPn3brKcc", "w_dqq9Z7k6A", "L27ZLngwJIU"}
+
+
 def by_place(place):
     return [v for v in VIDEOS if place in v[6]]
 
@@ -289,3 +296,8 @@ def podcast_feed(site_url):
 </channel>
 </rss>
 """
+
+
+VIDEOS = [v for v in VIDEOS if v[0] not in OUTDATED]
+AUDIO = [a for a in AUDIO if a[6] not in OUTDATED]
+ANTHOLOGY = [v for v in ANTHOLOGY if v not in OUTDATED]
