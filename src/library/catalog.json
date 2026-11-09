@@ -149,11 +149,13 @@
   {
    "slug": "gpt-part-15",
    "title": "Gravitons",
-   "subtitle": "The Causal Engine Behind Gravity",
-   "words": 3534,
-   "lead": "In the previous parts, we dismantled the conceptual scaffolding—both logical and metaphysical—of General Relativity and exposed the absence of causal clarity in its most cherished formulations. From this point forward, we construct. This is the transition from critique to creation, from descriptive symmetry to mechanistic structure. Graviton Pressure Theory begins here in earnest—not with metaphor, but with the real, directional, and causally grounded architecture of motion. The graviton is not a speculative quantum—it’s the medium of interaction, the mover of matter, and the encoder of field-based structure. Everything to come—mass, time, force, coherence, and resonance—unfolds from its behavior. This is the foundation stone.",
-   "source": "Part 15 - Gravitons.tex",
-   "part": 15
+   "subtitle": "The Constituent of the Medium, and the Causal Engine Behind Gravity",
+   "words": 5294,
+   "lead": "What is a graviton, literally? This paper asks first what electrons and protons are, then defines the graviton as the constituent of the medium and states the one rule from which pressure, contact and bonds follow: phase decides push. Matter ejects gravitons out of phase, and the medium's re-phasing sets the boundary where gravity changes form around every mass.",
+   "source": "Part 15 - Gravitons (2nd ed.).tex",
+   "part": 15,
+   "path": "gravitons",
+   "pdf": true
   },
   {
    "slug": "gpt-part-16",

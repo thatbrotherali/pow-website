@@ -1,0 +1,336 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{15.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{15.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{15.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 15 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries Gravitons\par}
+\vspace{0.5cm}
+{\Large The Constituent of the Medium, and the Causal Engine Behind Gravity\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026 \quad (first edition 12 June 2025)\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+This paper says what a graviton is. It begins with a question that physics usually leaves unasked: what, literally, are the particles we already know, such as electrons and protons? It then defines the graviton as the constituent of the medium, the thing of which every other structure is a pattern; sets out its properties; and states the one rule from which the medium's pressure, the solidity of contact and the hold of a bond all follow: \emph{phase decides push}. It closes with a glossary of the framework's terms.
+
+The equations of the medium are in Part~23 and the summary of the model in Part~14; this paper supplies what those equations are about.\fn{rashadaPart23}\fn{rashadaPart14} Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+In the parts before this one, we examined the conceptual scaffolding of the gravitational theories of the last century and found, again and again, description standing where a mechanism should be. From this point forward, we construct. This is the transition from critique to creation, from descriptive symmetry to mechanistic structure.
+
+Graviton Pressure Theory begins here in earnest, not with metaphors but with a thing: the graviton. Every account of gravity must say what carries it. General Relativity says nothing carries it, because there is no force, only geometry. The quantum programme names a graviton but has never found one, and does not say what it would be made of. GPT says: gravity is carried by a medium, and the medium is made of gravitons.
+
+\section{What Are Particles, Literally?}
+\label{sec:particles}
+
+Before saying what a graviton is, it is worth asking what physics says the particles we already know are.
+
+\paragraph{The electron.} In quantum field theory, the most precisely tested theory in physics, an electron is not a small ball. It is a quantised excitation of a field that fills all of space: a disturbance that comes only in whole units. It has definite properties (charge, mass, spin), and its magnetism is predicted and measured to about one part in a trillion. It has no measured size: experiments put any structure below about $10^{-18}$ metres. When nothing detects it, it behaves as a wave; electrons, and even whole molecules of sixty carbon atoms, pass through two slits at once and interfere.\fn{arndt1999} When detected, it arrives as a single event. In modern physics, ``particle'' means ``comes in whole lumps'', not ``is a small thing''.
+
+\paragraph{The proton.} A proton is a composite: three quarks in a field of gluons, about 0.84 femtometres across. The quarks' own masses make up only about one per cent of the proton's mass. The other ninety-nine per cent is the energy of the field's motion and binding inside it. Most of the mass of everything that can be touched is organised field energy, not ``stuff''.
+
+\paragraph{The question left open.} Quantum field theory describes these excitations with extraordinary precision. It does not say what the fields are. They are taken as fundamental, defined by their equations, with no substance. \argm{This is the same pattern Part~12 found in cosmology and Part~4 in General Relativity: precise description, and no named medium.} The fields are, in effect, a medium that is never allowed to be anything.
+
+\paragraph{What follows for GPT.} \hypm{There is one medium, and every particle is an organised pattern of it.} Matter is made of standing patterns: they have a place where they are at rest, and so a rest rate, a mass (Part~23). Light is a travelling wave of the medium, with no rest frame and so no mass. Electrons and protons are stable, localised patterns, whose spin is a rotation of the pattern and whose charge may be the sense of its circulation. Section~\ref{sec:matter} returns to this.
+
+\section{What a Graviton Is}
+\label{sec:graviton}
+
+\begin{hypbar}
+The graviton is the constituent of the medium: the thing of which every other structure, matter, light and fields alike, is a pattern. Gravitons together form the medium; the medium's flow into every mass is gravity.
+\end{hypbar}
+
+\paragraph{A note on the name.} In mainstream physics, ``graviton'' means something else: the hypothetical quantum of a gravitational wave, as the photon is the quantum of light, with spin 2. In GPT that role belongs to a quantum of the medium's transverse waves (Part~23, Section~23.11). The two meanings should not be confused. GPT's graviton is not a carrier exchanged between masses; it is what the medium, and everything in it, is made of.
+
+\section{The Properties of the Graviton}
+\label{sec:properties}
+
+\begin{enumerate}
+\item \textbf{It moves, and carries momentum.} \hypm{Gravitons are in constant motion and carry momentum, as light does.} Pressure is nothing other than a flux of momentum, so a medium of moving gravitons has pressure from its motion. The inflow into a mass is the gravitons' slow collective drift, 11.2 kilometres per second at the Earth's surface, as wind is the slow drift of air whose molecules move at hundreds of metres per second. How fast a single graviton moves is a different question from how fast the medium's waves travel, as air's molecules move faster than its sound. The speed of light, $c$, is the speed of the medium's transverse waves, and so the limit for every pattern made of the medium: matter, light and any signal. The gravitons' own speed follows from the medium's equation of state, which is owed (Part~23).
+\item \textbf{It oscillates, and has a phase.} \hypm{Each graviton carries an oscillation, and its phase relative to its neighbours decides how it interacts with them.} This is the property on which the rest depend (Section~\ref{sec:phase}).
+\item \textbf{It repels, as a consequence of phase.} \hypm{Gravitons in phase with one another push apart.} Self-repulsion is not a separate property but a consequence of phase and oscillation; it is what gives the medium its pressure.
+\item \textbf{It is conserved.} \hypm{Gravitons are taken in by matter and ejected again; they are not destroyed.} What matter changes is their phase: it ejects them in its own phase, out of step with the medium around it (Section~\ref{sec:flow}).
+\item \textbf{It acts on what is organised.} \hypm{What interacts with the medium is not a body's outer surface but the boundaries of all the patterns it is made of: the total amount of medium organised into them.} \argm{That amount is the body's energy, so the delivery tracks total energy, binding included.} Titanium and platinum differ by about a tenth of a per cent in how much of their mass is nuclear binding energy, yet they fall alike to about one part in $10^{15}$:\fn{touboul2022} binding energy is acted on exactly as the rest of the mass is, to about one part in $10^{12}$. Within a structured body, where the delivery lands may depend on the body's order (Part~13 and Section~\ref{sec:not}).
+\item \textbf{It is fine-grained.} If the medium is made of discrete gravitons, the grain is far below anything yet measured. A grainy medium would make gravity fluctuate, as Brownian motion revealed the molecules of a liquid; no such noise has been seen. And light of very different energies from a gamma-ray burst seven billion light-years away arrived together, which rules out a grain coarse enough to disperse light at around the Planck scale.\fn{abdo2009}
+\end{enumerate}
+
+\section{Phase Decides Push}
+\label{sec:phase}
+
+\begin{hypbar}
+One rule governs how gravitons, and the patterns made of them, act on one another:
+\begin{itemize}
+\item \textbf{In phase, they push.} Gravitons in step with their neighbours push them apart. The medium's pressure is the push of its in-phase population.
+\item \textbf{Out of phase, they do not.} A graviton out of step with its neighbours cannot couple to them. It still moves and carries momentum, but it does not press.
+\end{itemize}
+\end{hypbar}
+
+\argm{The same rule, at three scales, gives three things that are usually explained separately} (Figure~\ref{fig:phase}):
+\begin{enumerate}
+\item \textbf{The medium's pressure}: the push of in-phase gravitons on each other.
+\item \textbf{Contact}: each atom, a standing pattern of the medium, carries a thin tail of organised medium beyond it, decaying over about 0.06 nanometres. When two atoms' tails overlap in phase, they push: the push switches on over about 0.03 nanometres, the measured steepness of contact, and it is the normal force (Part~11).\fn{rashadaPart11}
+\item \textbf{The bond}: when two tails overlap out of phase, the push between them cancels; the medium around presses the atoms together. That is the hold of a chemical bond.
+\end{enumerate}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig15-1-phase.pdf}
+\caption{Phase decides push. Left: gravitons in phase push one another apart; the push of the in-phase population is the medium's pressure. Centre: the tails of organised medium around two atoms overlap in phase and push, which is contact and the normal force. Right: tails overlapping out of phase cancel their push, and the surrounding medium presses the atoms together, which is the bond. \hyptag}
+\label{fig:phase}
+\end{figure}
+
+\section{The Flow Around a Mass}
+\label{sec:flow}
+
+\begin{hypbar}
+Every mass takes in the medium and ejects it again. It ejects the gravitons in its own phase, not in the phase of the medium around it. Out of step with their surroundings, the ejected gravitons are \emph{neutral}: they are present and moving, but they do not press. The medium near a mass therefore holds two populations:
+\begin{itemize}
+\item the \textbf{active} population, in phase with the medium, which carries the pressure; and
+\item the \textbf{neutral} population, ejected by the mass and not yet brought back into step.
+\end{itemize}
+\end{hypbar}
+
+\argm{This is what the equations of Part~23 require.} The inflow into a mass, at $v^2 = 2GM/r$, conserves the medium only if the count of gravitons rises toward the mass as $r^{-3/2}$; and the active pressure, $P = P_0 - \tfrac12\rho_g v^2$, falls toward the mass. Both hold together because the extra gravitons near a mass are neutral: counted, but not pressing. And because pressure, not count, is what bodies feel, the flow delivers to every body the momentum that Newton's law requires.
+
+\paragraph{The circularity General Relativity leaves.} General Relativity asserts that mass curves spacetime, and that the curvature tells mass how to move. Curvature is not a physical cause; it is a mathematical outcome, offering no mediator. GPT removes the circle. \argm{Gravitons flow. Matter takes them in and ejects them out of phase. The active pressure falls toward the mass, and bodies are carried by the medium's acceleration.} Mass does not curve anything: it takes in the medium, and the inflow is the field. Geometry, where it appears, is the record of what the flow does to rods and clocks, which are patterns of the medium (Part~23, Section~23.7).
+
+\section{Re-phasing and the Relaxation Boundary}
+\label{sec:rephasing}
+
+\begin{hypbar}
+Neutral gravitons do not stay neutral. The ambient medium brings them back into step, at some rate set by the medium itself. Near a mass, the mass supplies neutral gravitons faster than the medium can re-phase them; far away, the medium wins. The change-over is the relaxation boundary of Parts~14 and~23.
+\end{hypbar}
+
+\paragraph{Why the boundary is set by an acceleration.} \hypm{The flux of neutral gravitons at a distance $r$ from a mass is the intake $Q$ spread over a sphere, $Q/4\pi r^2$. If the intake is proportional to the mass, this flux is proportional to $GM/r^2$, which is the gravitational acceleration itself. So the point where the flux of ejecta falls below the medium's own re-phasing rate is the point where the acceleration falls below a fixed value, the same for every mass:}
+\begin{equation}
+r_{a_0} = \sqrt{\frac{GM}{a_0}}.
+\end{equation}
+This is the boundary at which galaxies depart from Newton, with $a_0 \approx 1.2\times10^{-10}$ metres per second squared (Part~23, Section~23.13). The universality of $a_0$ across galaxies, which the observations demand, follows from the mechanism instead of being fitted. The argument depends on the intake being proportional to the mass, which is owed; and the value of $a_0$ is set by the medium's re-phasing rate in free space, which is owed too (Figure~\ref{fig:populations}).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.85\textwidth]{fig15-2-populations.pdf}
+\caption{The two populations around a mass (schematic). The count of gravitons rises toward the mass, because the gravitons it has ejected out of phase, the neutral population, accumulate there; the active population, which carries the pressure, stays near its free-space level. Far from the mass, the ambient medium brings the ejecta back into phase faster than the mass supplies them. Where the flux of ejecta falls below that rate lies the relaxation boundary, at the same acceleration, $a_0$, around every mass. \hyptag}
+\label{fig:populations}
+\end{figure}
+
+\section{Matter as Patterns of the Medium}
+\label{sec:matter}
+
+\begin{hypbar}
+If the medium is the one substance, matter is organised motion of it:
+\begin{itemize}
+\item a \textbf{mass} is a standing pattern, with a leading and a trailing exchange with the medium, and so a rest rate (Part~23, Section~23.9);
+\item \textbf{light} is a travelling wave of the medium, with only a front, and so no mass;
+\item \textbf{spin} is a rotation of a pattern;
+\item \textbf{charge} may be the sense of a pattern's circulation.
+\end{itemize}
+\end{hypbar}
+
+The idea has a history. In 1867 Lord Kelvin proposed that atoms are knotted vortex rings in the ether, stable because a knot cannot untie itself.\fn{kelvin1867} In 1962 Tony Skyrme described protons and neutrons as knots in a field, a model still used in nuclear physics.\fn{skyrme1962} The proton's mass, ninety-nine per cent the energy of organised motion inside it, is what this picture expects.
+
+\paragraph{Why charge comes in whole units.} \hypm{If charge is a topological property of a pattern, like the number of twists in a knot, it can only take whole values.} That would explain one of the most exact facts in physics: the charges of the electron and the proton cancel to better than one part in $10^{21}$.\fn{bressi2011} The derivation, and Maxwell's equations from the medium, are owed (Part~21).
+
+\section{Weight, Order and Shells: What the Measurements Allow}
+\label{sec:not}
+
+Several first-edition claims are restated here in the form the measurements allow. A claim is withdrawn only where it conflicts with a measurement of the outcome itself, which binds the whole mechanism however many parts it has. Where only part of the mechanism has been tested, the claim stays open, with the missing parts named.
+
+\paragraph{Coherence changes mass, through energy.} Because the delivery tracks total energy, a change in a body's order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. The direction matches the first edition's: ordered matter has less mass, disordered matter more. The size is set by energy. \argm{For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material's coherence affects its weight by $\Delta E/c^2$ and no more.} Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,\fn{faller1990} but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. \openm{It is listed in Part~29.}
+
+\paragraph{Weight and internal alignment.} \hypm{The medium's delivery may be shared out unevenly inside a body according to its internal alignment, while the total stays fixed.} Some forms of this are tested: torsion pendulums carrying some $10^{23}$ aligned electron spins show no extra gravitational effect, and a superconducting sphere weighs normally. Others are not, as far as is known: whether a single crystal weighs differently in different orientations, or whether its centre of gravity shifts from its centre of mass as it is turned. A mass comparator can weigh a kilogram to about one part in $10^{10}$, and a torsion balance can detect the torque an uneven delivery would produce. Both tests are listed in Part~29 as predictions of GPT.
+
+\paragraph{Free fall and weight are one delivery, with two destinations.} Falling, the delivery accumulates as the body's motion; held, it is relayed into the support, whose reading is the delivery (Parts~6 and~11). They are not the same thing, and the framework does not treat them as the same.
+
+\paragraph{Rising and falling are opposite exchanges.} A body thrown upward gives its energy back to the medium as it rises: momentum is removed, and the pressure is restored. Coming down, the medium gives the energy back. The rate of delivery is the same in both directions, to order $v^2/c^2$, and so the motion is symmetric. That symmetry is measured: gravimeters that toss a mass upward and time it rising and falling agree with gravimeters that only drop it, to about one part in $10^9$ of $g$. \argm{Rising and falling differ in which way energy passes between body and medium, not in the motion.}
+
+\paragraph{Shells: pattern, regularity and a medium to carry them.} \hypm{Without mass, the medium is at rest. A mass sets up two flows: the active medium flowing in, and a counterflow of unphased ejecta flowing out. The body's speed, spin and rotation are written into that counterflow as a pattern, and the regularity of the pattern, repeating with every turn, is what makes a shell and what lets the shell act. Where a body's counterflow re-phases lies the relaxation boundary (Section~\ref{sec:rephasing}), the shell every mass has. Within it, a regular pattern may stand as further shells, spaced by the body's period and the counterflow's speed; where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form.}
+
+These traits would mean nothing without a medium. In Newton's gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged: a body's spin and speed have no reach beyond it, and only an uneven shape lets a rotation act on what is outside. \argm{In GPT, the medium carries them.} Some of this reach is measured: a rotating Earth drags gyroscopes around it, as Gravity Probe B found (Part~23). And what is observed around rotating, orbiting bodies is regular structure built over time. Gaps were cleared from the asteroid belt and from Saturn's rings at resonant distances; migrating planets are captured into resonant chains and held there, as in the seven planets of TRAPPIST-1; neighbouring planets in compact systems tend to be evenly spaced; moons lock their spins to their orbits. A rotating body's own rhythm is written into the material around it: Saturn's oscillations drive waves in its rings, and the rings of the dwarf planets Haumea and Quaoar lie at resonances with their spins.\fn{hedman2013}\fn{ortiz2017}\fn{morgado2023} The standard account attributes such resonances to a body's uneven shape. \hypm{GPT expects a rotational imprint beyond what the shape accounts for, because the medium carries the spin itself;} that is a test (Part~29).
+
+\argm{At any instant, a shell's push on a body is small:} satellites orbit at every altitude, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. A shell's effect is the slow sorting of bodies over long times, through their rhythms. \openm{The counterflow's speed, and so the spacing of shells within the boundary, are still to be derived.} Part~16 develops this.
+
+\paragraph{Withdrawn: in conflict with a measured outcome.}
+\begin{itemize}
+\item \textbf{Acceleration set by the material.} The first edition wrote $a = -\nabla P_g/\rho_{\text{imp}}$, with $\rho_{\text{imp}}$ the graviton impedance of the material. Every material falls alike, to $10^{-15}$. The medium's own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part~23).
+\item \textbf{Gravitational repulsion between masses of ordinary matter.} All matter falls, and so does antimatter: antihydrogen falls downward at the rate expected.\fn{alphag2023}
+\item \textbf{Gravitational waves as pressure waves.} They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations. They are transverse waves of the medium (Part~23).
+\item \textbf{Gravitational and motional slowing that differs between kinds of clock.} Each clock's own rate is set by its structure, as the first edition held: time is the rate of a structure's internal refresh. But the factor by which the medium's speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part~23).
+\end{itemize}
+
+\paragraph{Superseded, and open: tested only in part.}
+\begin{itemize}
+\item \textbf{The self-repulsion law.} The first edition wrote $\mathbf{F}_{\text{self}} = k_g(\mathbf{r}_1-\mathbf{r}_2)/|\mathbf{r}_1-\mathbf{r}_2|^3$. It is superseded by the phase account: in-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. \openm{The law itself is owed.}
+\item \textbf{Interference between structures.} The first edition let intersecting flows attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section~\ref{sec:phase}). \openm{Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open.}
+\item \textbf{Order and the slowing of clocks.} \openm{Whether a change in a clock's internal order (one crystal ordered and disordered, or a material above and below a transition) alters the factor by which the medium slows it has not been tested.} It is listed in Part~29.
+\item \textbf{Rotation curves from ``coherent field saturation and corridor interference''.} Galaxies depart from Newton at the relaxation boundary (Section~\ref{sec:rephasing}). \openm{Whether saturation is the same mechanism under another name has not been worked out.}
+\end{itemize}
+
+\section{Energy}
+\label{sec:energy}
+
+\hypm{The energy of gravity is located in the medium.} When a body falls, the energy it gains is delivered by the medium at the body, at every particle, at the rate the body's inertia demands: 686 joules to a 7-kilogram ball falling 10 metres, and a tenth of a joule to a 1-gram feather (Part~11). When the fall is stopped, the same delivery continues and is relayed into the support, where the scale reads it (Part~6).
+
+Heat remains what kinetic theory says it is: the random motion of molecules. GPT's contribution is to say what that motion is made of and through what it is exchanged, not to replace a theory that predicts specific heats and the behaviour of gases to high precision. The Casimir effect, the attraction of two close metal plates in vacuum, is a precedent for a pressure set by boundaries; GPT's account must reproduce its measured size, $\pi^2\hbar c/240d^4$ per unit area, which is owed.
+
+\section{What Remains to Be Derived}
+\label{sec:owed}
+
+\begin{itemize}
+\item \openm{The coupling rule: how strongly, and over what range, in-phase gravitons push.}
+\item \openm{The medium's re-phasing rate in free space, which sets the value of $a_0$.}
+\item \openm{The relation between a mass and its intake; the argument for $a_0$ needs it to be proportional.}
+\item \openm{The factor $\tfrac12$ in $P_0 = \tfrac12\rho_g c^2$, from the phase-coupling rule.}
+\item \openm{The speed of a single graviton, from the medium's equation of state.}
+\item \openm{The speed of the counterflow of ejecta, and so the spacing of shells within the relaxation boundary.}
+\item \openm{Charge as a topological property, and Maxwell's equations from the medium.}
+\item \openm{The Casimir pressure, from boundaries in the medium.}
+\end{itemize}
+Each is a question with a definite answer, and in each the interface is named.
+
+\section{Glossary}
+\label{sec:glossary}
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.7\textwidth}@{}}
+\toprule
+\textbf{Term} & \textbf{Meaning in the framework} \\
+\midrule
+Medium & The substance that fills space, made of gravitons; its flow into every mass is gravity. \\
+Graviton & The constituent of the medium. Not the mainstream graviton, the quantum of a gravitational wave. \\
+Phase & The step of a graviton's oscillation relative to its neighbours; it decides whether gravitons push. \\
+Active & In phase with the surrounding medium, and so pressing. \\
+Neutral & Ejected by matter out of phase with the surrounding medium: present and moving, but not pressing. \\
+Re-phasing & The ambient medium bringing neutral gravitons back into step. \\
+Inflow & The medium's drift into a mass, $v^2 = 2GM/r$. \\
+Active pressure & The push of the in-phase population, $P = P_0 - \tfrac12\rho_g v^2$; in pascals. \\
+Count & The number of gravitons per volume, active and neutral; it rises toward a mass as $r^{-3/2}$. \\
+Relaxation boundary & Where re-phasing overtakes the ejecta, at $\sqrt{GM/a_0}$: every mass's own shell. \\
+Delivery & The momentum the medium hands to a body, $mg$ each second, in proportion to its mass. \\
+Coherence & The order of a structure's internal phase. It sets the structure's own rates and, through its energy, its mass ($\Delta E/c^2$); it may change where delivery lands inside a body. \\
+Counterflow & The outflow of neutral ejecta from a mass, carrying the pattern of its speed, spin and rotation. \\
+Shell & A region where a regular pattern in the counterflow stands, or where the counterflows of several bodies meet and their rhythms lock. The relaxation boundary is the shell every mass has. \\
+Corridor & Either a path along which delivery is redistributed inside ordered matter, or a streamline of a magnet's circulation (Part~21). \\
+Tail & The thin layer of organised medium around an atom, about 0.06 nm deep, whose overlap gives contact and bonds. \\
+gp & The first edition's name for the unit of the medium's pressure. It is the pascal. \\
+\bottomrule
+\end{tabular}
+\caption{Terms used throughout the framework.}
+\label{tab:glossary}
+\end{table}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+Gravitons in GPT are real: the constituents of a medium that fills space, moving, carrying momentum, and oscillating in phase with one another. In phase, they push; out of phase, they do not. From that one rule come the medium's pressure, the solidity of contact and the hold of a bond. Matter takes in the medium and ejects it out of step; the active pressure falls toward every mass, and bodies are carried by the medium's acceleration. Far from each mass, the medium brings its ejecta back into step, and gravity changes its form at the same acceleration around every mass.
+
+With this, GPT moves gravitational theory from metaphor to mechanics, from inference to interaction, and from passive geometry to a medium that does the work.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item The graviton is defined as the constituent of the medium, distinct from the mainstream graviton, the quantum of a gravitational wave. A new opening section asks what electrons and protons are, and proposes that every particle is a pattern of the one medium.
+\item Self-repulsion is no longer a separate property. It follows from phase and oscillation: in phase, gravitons push. The same rule gives contact and bonds (``phase decides push'').
+\item Gravitons carry momentum and deliver it to every particle in proportion to mass. The first edition's ``no momentum transfer via collisions, but pressure buildup at resistant boundaries'' is replaced: pressure is a flux of momentum, and weight is not a surface effect.
+\item ``Spin-sympathetic interaction'' and ``material-specific gravitational coupling'' are restated: what interacts with the medium is the organised boundary of a body's patterns, which tracks total energy, binding included; for materials as they are, coherence changes mass by $\Delta E/c^2$ and no more, and weighing a body through a change of order is proposed as a test; internal alignment may redistribute the delivery, and orientation-dependent weight in single crystals is proposed as a test.
+\item Shells are restated. A mass sets up an inflow and a counterflow of unphased ejecta; its speed, spin and rotation write a pattern into the counterflow, and the pattern's regularity makes the shell and lets it act. Every mass has one shell, the relaxation boundary; further shells may stand within it, and systems of bodies build theirs where counterflows meet and rhythms lock over time. A shell's instant push is small; its effect is slow sorting (Section~\ref{sec:not}, Part~16).
+\item Free fall and weight are stated as one delivery with two destinations, and rising and falling as opposite exchanges at the same rate.
+\item The ``disappearance'' of gravitons that created vacancies is replaced by ejection out of phase: gravitons are conserved, and the neutral population is why the count rises toward a mass while the active pressure falls.
+\item New: re-phasing, and a proposed reason why the relaxation boundary falls at the same acceleration around every mass.
+\item The first edition's material-dependent acceleration $a = -\nabla P_g/\rho_{\text{imp}}$, gravitational and motional slowing that differs between kinds of clock (each clock's own rate is still set by its structure), gravitational repulsion between ordinary masses, and gravitational waves as pressure waves are withdrawn, because each conflicts with a measured outcome (Section~\ref{sec:not}, Part~23). Its inverse-square self-repulsion law is superseded by the phase account. Its interference account and its rotation curves from corridor saturation are open: they have been tested only in part.
+\item ``Mass does not create the field; it interacts with it'' becomes: mass takes in the medium, and the inflow is the field.
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The subtitle changes from \emph{The Causal Engine Behind Gravity} to \emph{The Constituent of the Medium, and the Causal Engine Behind Gravity}.
+\item ``Intentional'' and ``pattern-responsive'' flow: claims about intent are left to Part~2; the physics papers make none.
+\item The proposals to reanalyse existing data are moved to Part~29.
+\item A glossary, two figures, status marks and this list are added.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part15}
+
+\end{document}
