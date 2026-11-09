@@ -10,7 +10,7 @@ By Shareef Ali Rashada
 
 This paper sets out the equations of Graviton Pressure Theory: the flow of the medium into a mass, its pressure, the motion of bodies and of light within it, the slowing of clocks, the effect of rotation, the waves the medium carries, and its scale. Each equation is checked against what is measured, and every other part of the framework cites this one set.
 
-The central result is simple to state. A flowing medium in flat space, with light moving at $c$ through it and with rods and clocks behaving as moving rods and clocks do, reproduces the predictions of General Relativity for a single mass exactly. The numbers that General Relativity calculates from the geometry of spacetime, GPT obtains from the motion of a medium. What General Relativity treats as geometry, GPT treats as the kinematics of rods and clocks moving through a medium. This form of the equations is known in the physics literature as the river model,[^1] and the wider study of flows that mimic gravity as analogue gravity;[^2] GPT reads it not as an analogy but as the mechanism.
+The central result is simple to state. A flowing medium in flat space, with light moving at $c$ through it, and with rods and clocks, which are patterns of the medium, squashed and slowed by the medium streaming through them, reproduces the predictions of General Relativity for a single mass exactly. The numbers that General Relativity calculates from the geometry of spacetime, GPT obtains from the motion of a medium. What General Relativity treats as geometry, GPT treats as what the medium’s streaming does to rods and clocks. This form of the equations is known in the physics literature as the river model,[^1] and the wider study of flows that mimic gravity as analogue gravity;[^2] GPT reads it not as an analogy but as the mechanism.
 
 The paper states, too, what the equations do not yet contain: the derivations still owed are listed with each topic and gathered at the end. Claims are marked by their status, as the key shows.
 
@@ -55,7 +55,7 @@ The first edition wrote the force as $\mathbf{F} = -m\nabla P_g$. That expressio
 # Pressure
 
 Integrating Equation <a href="#eq:euler" data-reference-type="eqref" data-reference="eq:euler">[eq:euler]</a> along the inflow gives Bernoulli’s relation: **\[Argued\]** $$P(r) = P_0 - \tfrac12\rho_g v^2 = P_0 - \frac{\rho_g GM}{r} = P_0 + \rho_g\,\Phi.
-\label{eq:pressure}$$ The active pressure is lower near a mass, by an amount set by the Newtonian potential $\Phi$. The free-space value is $P_0 = \tfrac12\rho_g c^2$, **\[Hypothesis\]** the value at which the pressure law and the clock law of Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">[sec:clocks]</a> agree. With it, $$\frac{P}{P_0} = 1 - \frac{v^2}{c^2} = 1 - \frac{2GM}{c^2 r}.
+\label{eq:pressure}$$ The active pressure is lower near a mass, by an amount set by the Newtonian potential $\Phi$. The free-space value is $P_0 = \tfrac12\rho_g c^2$, **\[Hypothesis\]** the value at which the pressure law and the clock law of Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">“Clocks”</a> agree. With it, $$\frac{P}{P_0} = 1 - \frac{v^2}{c^2} = 1 - \frac{2GM}{c^2 r}.
 \label{eq:ratio}$$
 
 # Continuity
@@ -80,7 +80,7 @@ Combining by pressure recovers Newtonian dynamics for many bodies exactly: **\[A
 
 **\[Hypothesis: the passage that follows\]**
 
-A clock is a structure of medium waves, and it ticks more slowly the faster the medium streams through it. A clock moving with velocity $\mathbf{u}$ through a medium flowing at $\mathbf{v}$ moves through the medium at $\mathbf{w} = \mathbf{u} - \mathbf{v}$, and its rate is $$\frac{d\tau}{dt} = \sqrt{1 - \frac{|\mathbf{u}-\mathbf{v}|^2}{c^2}}.
+A clock is a structure of medium waves, and it ticks more slowly the faster the medium streams through it; why, and why rods are squashed by the same factor, is set out in Section <a href="#sec:rulers" data-reference-type="ref" data-reference="sec:rulers">“Rods and Clocks: What the Streaming Does”</a>. A clock moving with velocity $\mathbf{u}$ through a medium flowing at $\mathbf{v}$ moves through the medium at $\mathbf{w} = \mathbf{u} - \mathbf{v}$, and its rate is $$\frac{d\tau}{dt} = \sqrt{1 - \frac{|\mathbf{u}-\mathbf{v}|^2}{c^2}}.
 \label{eq:clock}$$
 
 **\[End of passage\]**
@@ -97,18 +97,42 @@ For a clock held still ($\mathbf{u}=0$), the medium streams past at the inflow s
 
 - **Fast muons.** Muons circulating at $\gamma \approx 29.3$ in a storage ring, under accelerations of about $10^{18}\,g$, lived $\gamma$ times longer and no more: the rate depends on speed through the medium, not on acceleration.[^6]
 
-# Rulers, and the Whole Geometry
+# Rods and Clocks: What the Streaming Does
 
 **\[Hypothesis: the passage that follows\]**
 
-A rod moving through the medium is shortened along its motion by the same factor that slows a clock, as moving rods are; this is the kinematics that Lorentz and FitzGerald proposed and that Bell showed follows from the dynamics of the rod’s own structure.[^7][^8] A rod held still near a mass has the medium streaming through it along the radius, and so is shortened along the flow, and only along it.
+A rod and a clock are patterns of the medium, held together by bonds, and a bond is kept up by exchanges that cross it at $c$ through the medium. When the medium streams through a pattern at speed $w$, those exchanges take longer, and longer along the flow than across it. Across a bond of length $L$, the round trip takes $$t_\perp = \frac{2L}{\sqrt{c^2-w^2}} = \frac{2L}{c}\,\gamma ;$$ along the flow, against it and then with it, a bond of length $L_\parallel$ takes $$t_\parallel = \frac{L_\parallel}{c-w} + \frac{L_\parallel}{c+w} = \frac{2L_\parallel}{c}\,\gamma^2 ,
+\qquad \gamma = \frac{1}{\sqrt{1-w^2/c^2}} .$$ At rest, a pattern settles where its exchanges balance in every direction. In the stream it settles again where they balance, and that is where $t_\parallel = t_\perp$: $$L_\parallel = \frac{L}{\gamma} .
+\label{eq:squash}$$ The pattern is squashed along the flow, and only along it. Every exchange in it now takes $\gamma$ times as long, so every cycle in it runs slower by the same factor: Equation <a href="#eq:clock" data-reference-type="eqref" data-reference="eq:clock">[eq:clock]</a>. One mechanism gives both effects, which is why the factor that slows clocks and the factor that squashes rods are always equal.
 
 **\[End of passage\]**
 
-Clocks slowed by Equation <a href="#eq:clock" data-reference-type="eqref" data-reference="eq:clock">[eq:clock]</a> and rods shortened along the flow, in a flat space through which the medium flows at Equation <a href="#eq:inflow" data-reference-type="eqref" data-reference="eq:inflow">[eq:inflow]</a>, are described together by one expression: **\[Argued\]** $$c^2 d\tau^2 = c^2 dt^2 - \left|\,d\mathbf{x} - \mathbf{v}\,dt\,\right|^2 .
-\label{eq:pg}$$ This is the Schwarzschild solution of General Relativity, in the form Painlevé and Gullstrand found in 1921 and 1922.[^9][^10] Every prediction General Relativity makes for a single non-rotating mass therefore follows from GPT unchanged. General Relativity reads Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a> as the geometry of spacetime; GPT reads it as what rods and clocks do in a flowing medium. The numbers are the same; the cause is named.
+This is FitzGerald’s and Lorentz’s proposal, that motion through the medium changes the forces that hold a body together, given its carrier: the exchanges of the medium itself. Bell showed the same result for a single atom: as it moves, its electron’s orbit flattens along the motion and its period lengthens, both from the atom’s own dynamics.[^7][^8]
 
-The first edition’s form, in which rulers shrank equally in every direction, gave the wrong advance of Mercury’s perihelion (57$''$ per century instead of 43$''$). Rulers that shrink along the flow only give the right one.
+#### The same for every material.
+
+Every bond is a pattern of the same medium, kept up by exchanges at the same speed, so every material is squashed alike. That is required by measurement. If the medium is at rest relative to the cosmic background radiation, the Earth streams through it at about 370 kilometres per second, and its laboratories are squashed along that direction by about 8 parts in $10^7$; that squash is exactly what makes light’s round trips come out the same in every direction. Were it a strain that depended on how stiff a material is, cavities of different materials would disagree. Cavities of glass-ceramic and of sapphire crystal find light’s round trip the same in every direction to about one part in $10^{17}$.[^9][^10] The squash is in the bonds’ own balance, not a load pressing on them.
+
+#### Nothing across the flow.
+
+Experiments with arms of unequal length, which would show any change of a body’s overall size with its speed, find none: the size across the flow is unchanged.[^11] Why the exchanges across the flow keep their length is still owed. **\[Open\]**
+
+#### Stress while the streaming changes.
+
+A body whose speed through the medium changes is out of balance until its bonds re-settle: for that time it is under stress, and then it holds its new shape without any. The re-settling takes a time set by the medium’s response, the same relaxation time Part 14 predicts for clocks. **\[Hypothesis\]**
+
+#### Two kinds of squashing.
+
+A body squashed by a load is a different thing. A support pushing on a body compresses it by an amount set by the load and the material’s stiffness: a column shortens under its own weight, and an astronaut’s spine lengthens by several centimetres when the load is gone (Part 11). That depends on $g$ and on the material. Squashing by streaming depends on the medium’s speed through the body, $w$, and is the same for every material. A rod held still at the Earth’s surface has the medium streaming through it at 11.2 kilometres per second along the vertical, and is squashed along the vertical by $1-\sqrt{1-v^2/c^2} = 7.0\times10^{-10}$, the same fraction that slows a clock there.
+
+#### Why General Relativity says space is stretched.
+
+Around a mass, the distance between two spherical shells, measured with rods held still, comes out larger than flat geometry gives. General Relativity reads this as space stretched. In GPT space is flat; the held rods are squashed along the flow, so more of them fit into the same gap.
+
+Clocks slowed and rods squashed by the streaming, in a flat space through which the medium flows at Equation <a href="#eq:inflow" data-reference-type="eqref" data-reference="eq:inflow">[eq:inflow]</a>, are described together by one expression: **\[Argued\]** $$c^2 d\tau^2 = c^2 dt^2 - \left|\,d\mathbf{x} - \mathbf{v}\,dt\,\right|^2 .
+\label{eq:pg}$$ This is the Schwarzschild solution of General Relativity, in the form Painlevé and Gullstrand found in 1921 and 1922.[^12][^13] Every prediction General Relativity makes for a single non-rotating mass therefore follows from GPT unchanged. General Relativity reads Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a> as the geometry of spacetime; in GPT it is the record of what the streaming does to rods and clocks. The numbers are the same; the mechanism is named.
+
+The first edition’s form, in which rulers shrank equally in every direction, gave the wrong advance of Mercury’s perihelion (57$''$ per century instead of 43$''$). Squashing along the flow only gives the right one.
 
 # Light
 
@@ -123,9 +147,9 @@ Measured locally, by rods and clocks that are themselves in the medium, its spee
 
 - **Bending**: $\Delta\theta = 4GM/c^2 b$ for a ray passing at distance $b$, which is 1.75$''$ at the Sun’s edge. **\[Argued\]** The traced rays give $\Delta\theta\, b\,c^2/GM = 4.016$, $4.002$ and $4.0005$ for $b = 10^3$, $10^4$ and $10^5$ times $GM/c^2$, approaching 4 as the path lengthens.
 
-- **Delay**: a signal passing the Sun is delayed by $(2GM/c^3)\ln(4r_1r_2/b^2)$ each way, **\[Argued\]** as Shapiro predicted and radar and spacecraft measured; the Cassini spacecraft confirmed it to about one part in $10^5$.[^11][^12]
+- **Delay**: a signal passing the Sun is delayed by $(2GM/c^3)\ln(4r_1r_2/b^2)$ each way, **\[Argued\]** as Shapiro predicted and radar and spacecraft measured; the Cassini spacecraft confirmed it to about one part in $10^5$.[^14][^15]
 
-- **Redshift**: a signal climbing from a lower to a higher clock is received by a faster clock, so it appears redder by $\Delta\Phi/c^2$, as in Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">[sec:clocks]</a>.
+- **Redshift**: a signal climbing from a lower to a higher clock is received by a faster clock, so it appears redder by $\Delta\Phi/c^2$, as in Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">“Clocks”</a>.
 
 In the language of refraction, the medium near a mass acts on light with an index $n \approx 1 + 2GM/c^2 r$. From Equation <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a>, that is $$n \approx 2 - \frac{P}{P_0}:$$ the lower the active pressure, the higher the index, and the slower light travels as measured from far away. The first edition had the sign reversed, with light slowing where the pressure was higher.
 
@@ -143,7 +167,7 @@ A body moving through the medium at $\mathbf{w}$ takes in the medium faster at i
 
 The arithmetic is exact. **\[Argued\]** Half the sum of the front and back rates, $\tfrac12(k + 1/k)$, is $\gamma = 1/\sqrt{1-w^2/c^2}$; half the difference, $\tfrac12(k - 1/k)$, is $\gamma w/c$. So the body’s energy and momentum are $$E = \gamma m c^2, \qquad \mathbf{p} = \gamma m \mathbf{w}.$$ Their shared rate, the geometric mean $\sqrt{k \cdot 1/k} = 1$, is the rest rate that runs the body’s internal cycles, which is why a moving clock slows by $1/\gamma$; the excess $\gamma - 1$ is its kinetic energy. A force along the motion changes the speed at a cost $\gamma^3$ times that at rest, and a force across it at a cost $\gamma$. Approaching $c$, the front rate grows without bound, and so does the energy needed.
 
-The path of a body moving freely in the medium follows from Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a>: **\[Argued\]** it is the path General Relativity calls a geodesic. For an orbit, it gives Kepler’s ellipses with a slow advance of the perihelion, $$\Delta\varpi = \frac{6\pi GM}{c^2 a (1-e^2)} \ \text{per orbit},$$ which is 43.0$''$ per century for Mercury, as observed after the pull of the other planets (532$''$ per century) is removed.[^13]
+The path of a body moving freely in the medium follows from Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a>: **\[Argued\]** it is the path General Relativity calls a geodesic. For an orbit, it gives Kepler’s ellipses with a slow advance of the perihelion, $$\Delta\varpi = \frac{6\pi GM}{c^2 a (1-e^2)} \ \text{per orbit},$$ which is 43.0$''$ per century for Mercury, as observed after the pull of the other planets (532$''$ per century) is removed.[^16]
 
 Matter and light differ in one respect. Matter is a standing pattern of the medium, with both a leading and a trailing exchange, and so a rest rate: a mass. Light is a travelling wave of the medium, with only a front, so its rest rate is zero: it has energy and momentum, $E = pc$, but no mass.
 
@@ -155,7 +179,7 @@ A rotating mass gives the medium flowing into it a swirl, as a spinning drain gi
 
 **\[End of passage\]**
 
-This is the frame-dragging of General Relativity: **\[Argued\]** the river model of a rotating black hole contains exactly this swirl.[^14] Gravity Probe B measured the dragging of its gyroscopes around the Earth at $37.2 \pm 7.2$ milliarcseconds a year, against 39.2 predicted, and the precession of their spin axes by the inflow itself at $6602 \pm 18$ milliarcseconds a year, against 6606.[^15] The orbits of the LAGEOS satellites are dragged as predicted, to about ten per cent.[^16]
+This is the frame-dragging of General Relativity: **\[Argued\]** the river model of a rotating black hole contains exactly this swirl.[^17] Gravity Probe B measured the dragging of its gyroscopes around the Earth at $37.2 \pm 7.2$ milliarcseconds a year, against 39.2 predicted, and the precession of their spin axes by the inflow itself at $6602 \pm 18$ milliarcseconds a year, against 6606.[^18] The orbits of the LAGEOS satellites are dragged as predicted, to about ten per cent.[^19]
 
 # Waves in the Medium
 
@@ -167,11 +191,11 @@ The medium carries stress as well as pressure, and so it carries transverse wave
 
 What is measured fixes the form of these waves: **\[Argued\]**
 
-- **Speed.** Gravitational waves and light from the neutron-star merger of August 2017 arrived within two seconds of each other after travelling 130 million years: their speeds agree to about one part in $10^{15}$.[^17] In GPT this is expected, since both are waves of the same medium.
+- **Speed.** Gravitational waves and light from the neutron-star merger of August 2017 arrived within two seconds of each other after travelling 130 million years: their speeds agree to about one part in $10^{15}$.[^20] In GPT this is expected, since both are waves of the same medium.
 
-- **Polarisation.** With three detectors, the pattern of stretching fitted the two transverse, tensor polarisations better than scalar or vector patterns.[^18] The waves are not pressure waves of the medium; a pressure wave would be a single, breathing polarisation.
+- **Polarisation.** With three detectors, the pattern of stretching fitted the two transverse, tensor polarisations better than scalar or vector patterns.[^21] The waves are not pressure waves of the medium; a pressure wave would be a single, breathing polarisation.
 
-- **Energy carried.** The orbit of the binary pulsar PSR B1913+16 shrinks exactly as the energy carried away by gravitational waves requires: the measured rate is $0.9983 \pm 0.0016$ times the predicted one.[^19]
+- **Energy carried.** The orbit of the binary pulsar PSR B1913+16 shrinks exactly as the energy carried away by gravitational waves requires: the measured rate is $0.9983 \pm 0.0016$ times the predicted one.[^22]
 
 How one medium carries two kinds of transverse wave, vector waves for light and tensor waves for gravity, at the same speed, is still owed. **\[Open\]** The elastic models of the luminiferous medium in the nineteenth century are the precedent to study. The first edition’s scalar wave equation for the pressure, with a speed that might exceed $c$, is withdrawn: it gives the wrong polarisation and the wrong speed.
 
@@ -189,11 +213,11 @@ Both pass. The first edition’s higher values, $10^{10}$ to $10^{12}$ pascals i
 
 The scale has a coincidence worth noting: $\tfrac12\rho_c c^2$, for the critical density of the universe, is $3.8\times10^{-10}$ pascals, and the pressure attributed to dark energy has a magnitude of $5.3\times10^{-10}$ pascals. **\[Hypothesis\]** In General Relativity the dark-energy pressure is negative, and the medium’s is positive; any link must come through a different route, the expansion of a self-repelling medium that is not confined, and must be derived (Part 14).
 
-The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">[sec:waves]</a>. The first edition’s inverse-square repulsion between gravitons is withdrawn: a medium whose parts repel at long range without limit has no equilibrium.
+The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>. The first edition’s inverse-square repulsion between gravitons is superseded by the phase account of Part 15: gravitons in phase push one another, and neutral ones do not, so the law cannot be one inverse square over all pairs.
 
 # The Relaxation Boundary
 
-Galaxies rotate as though held by more matter than they contain, and the departure from Newton follows a single pattern. Across 153 galaxies of every size, the acceleration observed at each radius is fixed by the acceleration expected from the visible matter alone, with a scatter of about 0.13 dex, by the relation[^20] $$g_{\text{obs}} = \frac{g_{\text{bar}}}{1 - e^{-\sqrt{g_{\text{bar}}/a_0}}}, \qquad a_0 \approx 1.2\times10^{-10}\ \text{m/s}^2.
+Galaxies rotate as though held by more matter than they contain, and the departure from Newton follows a single pattern. Across 153 galaxies of every size, the acceleration observed at each radius is fixed by the acceleration expected from the visible matter alone, with a scatter of about 0.13 dex, by the relation[^23] $$g_{\text{obs}} = \frac{g_{\text{bar}}}{1 - e^{-\sqrt{g_{\text{bar}}/a_0}}}, \qquad a_0 \approx 1.2\times10^{-10}\ \text{m/s}^2.
 \label{eq:rar}$$ Where $g_{\text{bar}}$ is large, $g_{\text{obs}} = g_{\text{bar}}$: Newton holds. Where it is small, $g_{\text{obs}} \to \sqrt{g_{\text{bar}}\,a_0}$, and a star orbiting at a large radius moves at a speed that no longer falls with distance, $v^4 = GMa_0$ (Figure <a href="#fig:rar" data-reference-type="ref" data-reference="fig:rar">1</a>).
 
 **\[Hypothesis: the passage that follows\]**
@@ -207,7 +231,7 @@ GPT places a boundary around every mass where its inflow’s acceleration falls 
 <figcaption>What the relaxation boundary must reproduce: the acceleration observed in galaxies against the acceleration expected from their visible matter, in the fitted form of the measured relation (Equation <a href="#eq:rar" data-reference-type="ref" data-reference="eq:rar">[eq:rar]</a>). Above <span class="math inline"><em>a</em><sub>0</sub></span>, Newton holds; below it, the observed acceleration approaches <span class="math inline">$\sqrt{g_{\text{bar}}a_0}$</span>, and rotation curves flatten. GPT places the change at the boundary where each mass’s inflow falls to <span class="math inline"><em>a</em><sub>0</sub></span>. (Hypothesis)</figcaption>
 </figure>
 
-The law of the boundary, from which Equation <a href="#eq:rar" data-reference-type="eqref" data-reference="eq:rar">[eq:rar]</a> must follow, is still owed. **\[Open\]** It is GPT’s central distinctive prediction (Part 14). Tests at the scale of the Sun’s boundary already exist: wide binary stars separated by thousands of astronomical units, whose orbits are currently disputed in both directions.[^21][^22]
+The law of the boundary, from which Equation <a href="#eq:rar" data-reference-type="eqref" data-reference="eq:rar">[eq:rar]</a> must follow, is still owed. **\[Open\]** It is GPT’s central distinctive prediction (Part 14). Tests at the scale of the Sun’s boundary already exist: wide binary stars separated by thousands of astronomical units, whose orbits are currently disputed in both directions.[^24][^25]
 
 # Summary
 
@@ -231,7 +255,7 @@ The equations of the medium and the measurements they meet.
 
 Table <a href="#tab:summary" data-reference-type="ref" data-reference="tab:summary">2</a> gathers the results. Every measurement that General Relativity passes for a single mass, GPT passes with the same numbers, because it contains the same equations; what it adds is the cause, a medium flowing through flat space, and a single prediction of its own at the scale of galaxies.
 
-The derivations still owed are: the relation between intake and mass (Section <a href="#sec:continuity" data-reference-type="ref" data-reference="sec:continuity">[sec:continuity]</a>); the full rule for combining flows in strong fields (Section <a href="#sec:combining" data-reference-type="ref" data-reference="sec:combining">[sec:combining]</a>); the two transverse waves of one medium (Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">[sec:waves]</a>); the equation of state (Section <a href="#sec:scale" data-reference-type="ref" data-reference="sec:scale">[sec:scale]</a>); and the law of the relaxation boundary (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">[sec:boundary]</a>).
+The derivations still owed are: the relation between intake and mass (Section <a href="#sec:continuity" data-reference-type="ref" data-reference="sec:continuity">“Continuity”</a>); the full rule for combining flows in strong fields (Section <a href="#sec:combining" data-reference-type="ref" data-reference="sec:combining">“Combining Flows”</a>); the two transverse waves of one medium (Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>); the equation of state (Section <a href="#sec:scale" data-reference-type="ref" data-reference="sec:scale">“The Medium’s Scale”</a>); and the law of the relaxation boundary (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">“The Relaxation Boundary”</a>).
 
 The path ahead is not curved. It is pressurised. And it is measurable.
 
@@ -258,6 +282,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - The frame-dragging force $\mathbf{F} = m(\mathbf{v}_g\times\boldsymbol\omega)$ is replaced by the swirl of the inflow, which gives the measured rate.
 
 - The proposed tests of particle lifetimes underground and at altitude are moved to Part 29: the predicted differences are about one part in $10^{12}$ per ten kilometres of height, the same as in General Relativity. The proposals for detectors, biological sensor arrays, chronobiology in space and accelerator tests are likewise moved to Part 29, where they are set beside the framework’s distinctive predictions.
+
+- Section <a href="#sec:rulers" data-reference-type="ref" data-reference="sec:rulers">“Rods and Clocks: What the Streaming Does”</a> (rewritten 9 November): rods and clocks are given their mechanism. The medium streaming through a pattern lengthens the exchanges that keep up its bonds, more along the flow than across it; the pattern re-settles where they balance, squashed along the flow by $1/\gamma$, and every cycle in it slows by $\gamma$. The section separates squashing by streaming (the same for every material) from squashing by load (set by stiffness), and explains General Relativity’s “stretched space” as more squashed rods fitting into the same gap. The first edition’s inverse-square self-repulsion is now described as superseded by the phase account of Part 15, not withdrawn on grounds of equilibrium.
 
 ## Clarifications
 
@@ -335,6 +361,12 @@ Ciufolini, I., and E. C. Pavlis. 2004. “A Confirmation of the General Relativi
 
 </div>
 
+<div id="ref-eisele2009" class="csl-entry">
+
+Eisele, Ch., A. Yu. Nevsky, and S. Schiller. 2009. “Laboratory Test of the Isotropy of Light Propagation at the $10^{-17}$ Level.” *Physical Review Letters* 103: 090401.
+
+</div>
+
 <div id="ref-everitt2011" class="csl-entry">
 
 Everitt, C. W. F. et al. 2011. “Gravity Probe b: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
@@ -353,9 +385,21 @@ Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The River Model of Black Ho
 
 </div>
 
+<div id="ref-kennedy1932" class="csl-entry">
+
+Kennedy, Roy J., and Edward M. Thorndike. 1932. “Experimental Establishment of the Relativity of Time.” *Physical Review* 42: 400–418.
+
+</div>
+
 <div id="ref-mcgaugh2016" class="csl-entry">
 
 McGaugh, Stacy S., Federico Lelli, and James M. Schombert. 2016. “Radial Acceleration Relation in Rotationally Supported Galaxies.” *Physical Review Letters* 117: 201101.
+
+</div>
+
+<div id="ref-nagel2015" class="csl-entry">
+
+Nagel, Moritz et al. 2015. “Direct Terrestrial Test of Lorentz Symmetry in Electrodynamics to $10^{-18}$.” *Nature Communications* 6: 8174.
 
 </div>
 
@@ -413,33 +457,39 @@ Will, Clifford M. 2014. “The Confrontation Between General Relativity and Expe
 
 [^8]: (Brown 2005).
 
-[^9]: (Painlevé 1921).
+[^9]: (Eisele, Nevsky, and Schiller 2009).
 
-[^10]: (Gullstrand 1922).
+[^10]: (Nagel et al. 2015).
 
-[^11]: (Shapiro 1964).
+[^11]: (Kennedy and Thorndike 1932).
 
-[^12]: (Bertotti, Iess, and Tortora 2003).
+[^12]: (Painlevé 1921).
 
-[^13]: (Will 2014).
+[^13]: (Gullstrand 1922).
 
-[^14]: (Hamilton and Lisle 2008).
+[^14]: (Shapiro 1964).
 
-[^15]: (Everitt et al. 2011).
+[^15]: (Bertotti, Iess, and Tortora 2003).
 
-[^16]: (Ciufolini and Pavlis 2004).
+[^16]: (Will 2014).
 
-[^17]: (Abbott et al. 2017a).
+[^17]: (Hamilton and Lisle 2008).
 
-[^18]: (Abbott et al. 2017b).
+[^18]: (Everitt et al. 2011).
 
-[^19]: (Weisberg and Huang 2016).
+[^19]: (Ciufolini and Pavlis 2004).
 
-[^20]: (McGaugh, Lelli, and Schombert 2016).
+[^20]: (Abbott et al. 2017a).
 
-[^21]: (Chae 2023).
+[^21]: (Abbott et al. 2017b).
 
-[^22]: (Banik et al. 2024).
+[^22]: (Weisberg and Huang 2016).
+
+[^23]: (McGaugh, Lelli, and Schombert 2016).
+
+[^24]: (Chae 2023).
+
+[^25]: (Banik et al. 2024).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/

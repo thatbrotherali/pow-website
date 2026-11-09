@@ -53,7 +53,7 @@ A bridge carries its own weight and its traffic through cables in tension and be
 
 The evidence points elsewhere. Fatigue is driven mainly by *changing* loads: traffic, wind and the daily cycle of heating and cooling.[^5] A constant load does cause creep, a slow, real rearrangement within the material, but the energy for it comes from the load itself settling slightly lower, not from outside.[^6] Maintenance repairs damage; it does not hold the bridge up. The Roman aqueduct at the Pont du Gard has carried its own weight for nearly two thousand years. Its repairs have mended damage, but nothing has ever been fed into it to hold it up.[^7]
 
-Still, a loaded bridge is not inert. Its internal forces are maintained, its atoms are pressed together, and slowly, under creep, it changes. Something sustains that state. What it is, is the question of Section <a href="#sec:structure" data-reference-type="ref" data-reference="sec:structure">[sec:structure]</a>.
+Still, a loaded bridge is not inert. Its internal forces are maintained, its atoms are pressed together, and slowly, under creep, it changes. Something sustains that state. What it is, is the question of Section <a href="#sec:structure" data-reference-type="ref" data-reference="sec:structure">“What Maintains Structure”</a>.
 
 ## The Magnet
 
@@ -63,7 +63,7 @@ But here too a name stands where an interface should be. “Magnetic attraction�
 
 ## The Table
 
-Finally, the most ordinary holder of all. A table holds a book for years at no cost. The textbook explanation of what is going on is the *normal force*: the atoms of the book’s cover and the table’s surface repel one another electromagnetically, and the table compresses very slightly until that repulsion matches the weight.[^9] That describes the balance. What the normal force measures, and what carries it, are taken up in Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">[sec:throughput]</a>.
+Finally, the most ordinary holder of all. A table holds a book for years at no cost. The textbook explanation of what is going on is the *normal force*: the atoms of the book’s cover and the table’s surface repel one another electromagnetically, and the table compresses very slightly until that repulsion matches the weight.[^9] That describes the balance. What the normal force measures, and what carries it, are taken up in Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">“Holding as Throughput”</a>.
 
 This is the clearest case of all, and it shows the pattern. Motors and muscles pay continuously, because they make their force by a continuous process. Shelves, arches, magnets and tables pay nothing, because their force comes from their structure. **The cost of holding belongs to the design of the holder, not to holding itself.**
 
@@ -150,7 +150,7 @@ What has been measured, and what remains to be tested, is this.
 
 - **Free fall.** A falling body moves with the medium, so no momentum needs to be relayed through it, and nothing in it should be compressed. That is what astronauts in orbit experience. It is a consistency check, passed.
 
-- **The signature of throughput.** The momentum throughput already has a measured signature: the normal force. Every scale reading measures the rate at which momentum is delivered (Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">[sec:throughput]</a>). For clocks, the same picture of the medium streaming through matter predicts their slowing near a mass, and that has been measured.[^20] The energy throughput itself leaves no separate local mark, because it passes through and is returned; its signature is the streaming of the medium that carries it, which the slowing of clocks measures. **\[Hypothesis\]**
+- **The signature of throughput.** The momentum throughput already has a measured signature: the normal force. Every scale reading measures the rate at which momentum is delivered (Section <a href="#sec:throughput" data-reference-type="ref" data-reference="sec:throughput">“Holding as Throughput”</a>). For clocks, the same picture of the medium streaming through matter predicts their slowing near a mass, and that has been measured.[^20] The energy throughput itself leaves no separate local mark, because it passes through and is returned; its signature is the streaming of the medium that carries it, which the slowing of clocks measures. **\[Hypothesis\]**
 
 # Conclusion
 

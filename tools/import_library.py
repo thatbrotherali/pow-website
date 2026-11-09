@@ -67,7 +67,20 @@ def first_para(h):
     return ""
 
 
+def resolve_refs(frag_html, md):
+    """Pandoc leaves \\ref to unnumbered sections as "[label]": show the heading's title instead."""
+    heads = {m.group(2): html.unescape(re.sub(r"<[^>]+>", "", m.group(3))).strip()
+             for m in re.finditer(r'<h([1-6])[^>]*\bid="([^"]+)"[^>]*>(.*?)</h\1>', frag_html, re.S)}
+    def fix(m):
+        t = heads.get(m.group(1))
+        return f'<a href="#{m.group(1)}"{m.group(2)}>\u201c{html.escape(t)}\u201d</a>' if t else m.group(0)
+    frag_html = re.sub(r'<a href="#([^"]+)"( data-reference-type="ref" data-reference="[^"]+")>\[[^\]]*\]</a>', fix, frag_html)
+    md = re.sub(r'<a href="#([^"]+)"( data-reference-type="ref" data-reference="[^"]+")>\[[^\]]*\]</a>', fix, md)
+    return frag_html, md
+
+
 def save(slug, title, subtitle, frag_html, md, source):
+    frag_html, md = resolve_refs(frag_html, md)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / f"{slug}.html").write_text(frag_html, encoding="utf-8")
     md_head = f"# {title}\n\n" + (f"*{subtitle}*\n\n" if subtitle else "") + "By Shareef Ali Rashada\n\n"

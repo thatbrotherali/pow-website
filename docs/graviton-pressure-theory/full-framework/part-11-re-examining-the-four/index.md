@@ -111,7 +111,7 @@ On this account the equivalence principle is not an axiom. It is a consequence: 
 
 #### Does it match what is observed?
 
-Yes. Every body falls alike, to one part in $10^{15}$; an accelerometer reads zero in free fall and the push of its support when held; a large instrument in free fall registers the gradient of the field; and the falling body’s momentum grows by $mg$ each second, as every impact shows. **\[Argued\]** The equivalence holds in energy as well: the medium pays each falling body exactly what that body’s inertia demands (Section <a href="#sec:feather" data-reference-type="ref" data-reference="sec:feather">[sec:feather]</a>). The strength of the inflow is calibrated once, against measured gravity, as Newton’s constant is. The rest follows without further fitting.
+Yes. Every body falls alike, to one part in $10^{15}$; an accelerometer reads zero in free fall and the push of its support when held; a large instrument in free fall registers the gradient of the field; and the falling body’s momentum grows by $mg$ each second, as every impact shows. **\[Argued\]** The equivalence holds in energy as well: the medium pays each falling body exactly what that body’s inertia demands (Section <a href="#sec:feather" data-reference-type="ref" data-reference="sec:feather">“The Feather and the Bowling Ball”</a>). The strength of the inflow is calibrated once, against measured gravity, as Newton’s constant is. The rest follows without further fitting.
 
 #### The drag is inside.
 
