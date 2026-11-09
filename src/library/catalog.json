@@ -160,11 +160,13 @@
   {
    "slug": "gpt-part-16",
    "title": "The Properties of Gravitational Fields",
-   "subtitle": "Layered Structure, Directional Flow, and Coherent Memory",
-   "words": 5048,
-   "lead": "Graviton Pressure Theory (GPT) redefines gravity not as curvature, force, or attraction, but as the structured behavior of coherence under pressure. This framework introduces gravitons as directional, oscillatory agents that move inward along coherence gradients, forming gravitational fields through dynamic interaction rather than static geometry. Mass , in GPT, is not the source of gravity—it is the resonance core where coherence is retained, and from which structured field behavior emerges.",
-   "source": "Part 16 - The properties of Gravitational fields.tex",
-   "part": 16
+   "subtitle": "Inflow, Counterflow, and the Shells That Rhythm Builds",
+   "words": 5655,
+   "lead": "A gravitational field is the medium in motion around a mass: an inflow that carries bodies, and a counterflow of medium ejected out of phase that carries the pattern of the body's speed, spin and rotation. Seen in three dimensions, the field is wound around each body's axis and carried with its motion; its regularity builds the shells that sort planets, moons and rings over time.",
+   "source": "Part 16 - The Properties of Gravitational Fields (2nd ed.).tex",
+   "part": 16,
+   "path": "the-properties-of-gravitational-fields",
+   "pdf": true
   },
   {
    "slug": "gpt-part-17",

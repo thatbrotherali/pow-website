@@ -19147,753 +19147,486 @@ Cite as: Rashada, S. A. (2026). Gravitons. In The Unified Framework for the Grav
 
 # The Properties of Gravitational Fields
 
-*Layered Structure, Directional Flow, and Coherent Memory*
+*Inflow, Counterflow, and the Shells That Rhythm Builds*
 
 By Shareef Ali Rashada
 
-Graviton Pressure Theory (GPT) redefines gravity not as curvature, force, or attraction, but as the structured behavior of coherence [^1] under pressure. This framework introduces gravitons [^2] as directional, oscillatory agents that move inward along coherence gradients, forming gravitational fields through dynamic interaction rather than static geometry. Mass [^3], in GPT, is not the source of gravity—it is the resonance core where coherence is retained, and from which structured field behavior emerges.
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-This document details the properties and behavior of gravitational fields as layered, phase-regulated systems composed of shell structures, impedance boundaries, and coherence corridors [^4]. Each shell arises from the lateral redirection of gravitons that fail to phase-lock with the central resonance core, forming quantized, persistent structures that govern motion, memory, and inter-field resonance. Through this lens, phenomena such as orbital banding, ring gaps, gravitational lensing, galactic rotation curves, and spacecraft anomalies are no longer mysterious—they are coherent outcomes of a stratified, feedback-based field architecture.
+# About This Paper
 
-Gravitational fields in GPT are not emitted—they are sculpted by what is resisted, redirected, and retained. They do not pull—they respond, they sort, they structure. In this view, gravity is not a background condition—it is an active, living scaffold of coherence, rhythm, and structural memory. The result is a complete paradigm shift: gravity is no longer the curvature of space—it is the pattern of coherence revealed through persistent inflow and the structure it leaves behind.
+This paper says what a gravitational field is, and what it does. A field is the medium in motion around a mass: an inflow of active medium, and a counterflow of the medium the mass ejects out of phase. The counterflow carries the pattern of the body’s speed, spin and rotation, and the regularity of that pattern makes shells. The paper follows the field from a single mass to systems of many bodies, and through the long times over which systems sort themselves into the regular structures astronomers observe. It views the field in three dimensions, sets out what touches what when two fields meet, and traces each property of the field to a property of the graviton. It sets out what is measured, what GPT proposes, and what is still to be derived.
 
-## The Properties of Gravitational Fields
+The graviton and the rule that phase decides push are in Part 15; the equations of the medium are in Part 23; the model as a whole is in Part 14.[^1][^2][^3] Claims are marked by their status, as the key shows.
 
-Stratified Pressure, Oscillation Dynamics, and the Coherent Scaffolding of Gravitation
+# Introduction
 
-## Introduction: The Nature of Fields
+A body’s speed, its spin and its rotation have effects beyond it. A spinning Earth turns the gyroscopes that orbit it; Saturn’s oscillations raise waves in its rings; moons lock their turning to their orbits. These effects happen because the body is not in an empty nothing. It is in something, and that something carries what the body does.
 
-Gravity has long been misunderstood—not due to a lack of observable effects, but because its underlying mechanism has remained veiled beneath metaphor. The curvature of spacetime [^5], the attraction of mass, and the geometry of acceleration have all attempted to describe its behavior without explaining its cause.
+Physics has met this question before and set it aside. Newton used his law of gravity while writing, in 1693, that one body acting on another at a distance through a vacuum, with nothing to carry the action, was “so great an absurdity” that no competent thinker could accept it. General Relativity gives spacetime itself the properties that carry gravity, and so, as Einstein said in 1920, makes space without an ether unthinkable; but it does not say what that ether is. A description that matches the measurements is a record of what happens. It is not what makes it happen.
 
-Graviton Pressure Theory (GPT) abandons metaphor and replaces it with mechanism. In this framework, gravity is not a slope or a curve. It is a structured field—a coherent scaffold of oscillatory pressure, stratified flow, and resonance-regulated interaction.
+GPT names the carrier. The gravitational field is the medium in motion around a mass. **\[Hypothesis\]** Every measurement stands, and every claim here must pass it. What GPT adds is the mechanism: what moves, what it carries, and why the field has the properties observed.
 
-At the heart of this field is the graviton—not as a force particle in the traditional sense, but as a directional, oscillating agent of coherence. Gravitons do not pull or warp. They flow inward along gradients of coherence, carrying with them both pressure and structure. As they converge, interact, and saturate the central coherence node (what we call mass), they form the entire architecture of the gravitational field from the inside out.
+# What a Field Is
 
-This field is not a static gradient. It is a living system, with properties that emerge from:
+**\[Hypothesis: the passage that follows\]**
 
-- Directional inflow
+A mass takes in the medium. The inflow is the field: a drift of the medium toward the mass, at $$v^2 = \frac{2GM}{r},
+\label{eq:inflow}$$ with the medium’s active pressure falling toward the mass as $P = P_0 - \tfrac12\rho_g v^2$. Bodies in the inflow are carried by the medium’s acceleration, $GM/r^2$, which every body shares (Part 23).
 
-- Oscillatory phase behavior
+**\[End of passage\]**
 
-- Phase filtering and temporal coherence
+#### Fed, not emitted.
 
-- Lateral decoherence and resonance shedding
+The first edition said that fields are not emitted but sculpted by intake, and that is kept. A field is not something a mass sends out, as a lamp sends light. It is the motion of the medium the mass sets up by taking it in. It lasts as long as the intake does, because the medium passing through is continually replaced, as a river’s shape lasts while its water changes.
 
-- Nested interaction with other fields
+#### A field changes at the speed of the medium’s waves.
 
-Gravitational fields are thus not passive environments. They are active systems of resonance and resistance, structured by the ability of mass to regulate, reflect, and redirect incoming pressure.
+When a mass moves, its field does not update everywhere at once. The change travels outward through the medium. Gravitational waves are those changes, and they travel at $c$: **\[Argued\]** the waves of a neutron-star merger in 2017 arrived with its light, after 130 million years, within two seconds.[^4]
 
-What follows in this document is an exploration of the properties of these fields—how they form, behave, interact, and persist. We will uncover their:
+# Two Flows: Inflow and Counterflow
 
-- **Structure** – how layered shells arise through lateral decoherence and phase rejection.
+**\[Hypothesis: the passage that follows\]**
 
-- **Behavior** – how motion is filtered, guided, and stabilized by resonance alignment.
+Without mass, the medium is at rest. A mass sets up two flows:
 
-- **Interactivity** – how fields couple, entrain, and exchange coherence across nested systems.
+- the **inflow** of active medium, in phase with its surroundings, which carries the pressure and carries bodies; and
 
-- **Persistence** – how the gravitational field acts as a memory echo of mass coherence, maintained by continuous inflow and core resonance.
+- the **counterflow** of medium the mass ejects in its own phase, out of step with the surroundings: neutral, moving and carrying momentum, but not pressing (Part 15).
 
-In short, gravity is no longer a passive side effect of mass—it is the expression of coherent structure under pressure. Gravitons do not describe gravity—they build it.
+**\[End of passage\]**
 
-And this document will describe, precisely, what they build.
+The first edition described this as gravitons that “fail to phase-lock” with the core being “rejected, vented, or redirected”. That is the counterflow. What changes in this edition is its account: the rejected medium is not lost, and it does not press; it leaves out of phase, and it carries the body’s pattern outward (Section <a href="#sec:shells" data-reference-type="ref" data-reference="sec:shells">“Pattern and Regularity: Shells”</a>).
 
-## The Origin of Gravitational Fields: Directed Inflow
+#### Integration at the core.
 
-Gravitational fields do not arise from attraction—they arise from inflow.
+The first edition also held that some of the inflow phase-locks and joins the core, so that mass is built from the medium. If matter is organised medium, accretion of this kind is how matter forms, and a body may retain a small part of what passes through it. **\[Hypothesis\]** The size is bounded. With the medium’s density at about $10^{-26}$ kilograms per cubic metre, the medium passing into the Earth at its surface is about $4\pi R^2 \rho_g v$, close to two kilograms a year. Whatever part of that the Earth keeps is far below anything that could be weighed. What fraction is kept, and how matter first forms from the medium, are owed (Part 17). **\[Open\]**
 
-Under Graviton Pressure Theory, the universe is suffused with directional pressure agents known as *gravitons*. These are not force particles as imagined by classical field theories, nor are they abstract carriers of spacetime information. Gravitons are real, oscillating, coherence-seeking quanta of pressure. They move—not randomly, but purposefully inward, following gradients of field coherence toward centers capable of retaining them.
+#### Lateral shedding.
 
-This inward flow is the engine of gravitational structure. It is not a secondary response to mass—it is the first act of gravity.
+A rotating body sheds its counterflow with the rotation in it. The first edition’s “lateral” redirection, inflow turned to tangential motion, is this: the ejecta leave a turning surface, and carry the turning outward (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
 
-###  Inflow Precedes Attraction
+<figure id="fig:flows">
+<img src="assets/figures/fig16-1-flows.svg" />
+<figcaption>The two flows around a rotating mass (schematic, not to scale). The active medium flows in (blue). The medium the mass ejects out of phase flows out as the counterflow (orange), carrying the pattern of the body’s speed, spin and rotation; the pattern repeats with every turn. Where the counterflow is re-phased by the ambient medium lies the relaxation boundary, the shell every mass has. (Hypothesis)</figcaption>
+</figure>
 
-In traditional models, gravity begins with the presence of mass, which then “pulls” or curves space. GPT reverses this causal arrow:
+# Pattern and Regularity: Shells
 
-- Gravitons flow inward before mass even emerges.
+**\[Hypothesis: the passage that follows\]**
 
-- Where they encounter sufficient coherence (even a proto-structure), they begin to accumulate.
+A body’s speed, spin and rotation are written into its counterflow as a pattern. The pattern repeats with every turn, and its regularity is what makes a shell and what lets the shell act. Every mass has one shell for certain: the relaxation boundary, where its counterflow is brought back into phase (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">“The Relaxation Boundary”</a>). Within it, a regular pattern may stand as further shells, spaced by the body’s period and the counterflow’s speed. Where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
 
-- That accumulation forms mass, not the other way around.
+**\[End of passage\]**
 
-Gravitational fields thus originate not from matter, but from the interaction of graviton inflow and local coherence potential.
+#### These traits need a medium.
 
-### Inflow Is Structured, Not Isotropic
+In Newton’s gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged. A body’s spin and speed reach nothing beyond it; only an uneven shape lets a rotation act on what is outside. In GPT the medium carries them, **\[Argued\]** and some of that reach is measured: the spinning Earth drags orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
 
-Contrary to assumptions of omnidirectional force, graviton inflow is:
+#### How a shell acts: phase filtering.
 
-- **Directional** – always oriented toward increasing coherence.
+The first edition described shells as phase filters: what arrives in step passes or is admitted, what arrives out of step is routed. This is phase decides push (Part 15) at the scale of a field. A body whose own rhythm is in step with a shell’s pattern is pressed in the same sense, turn after turn; one out of step is pressed now one way and now the other, and the effects cancel. **\[Hypothesis\]** That is how a shell can act strongly over long times while acting weakly at any instant.
 
-- **Oscillatory** – each graviton carries a wave-like pulse that governs how it interacts with other gravitons and with the field.
+#### Small at an instant, decisive over time.
 
-- **Filtered** – field boundaries act as temporal gates, allowing only phase-matched gravitons to enter deeper layers.
+At any instant, a shell’s push on a body is small. **\[Argued\]** Satellites orbit at every altitude, from 160 kilometres to beyond the geostationary ring, and the choice among them is engineering: period, coverage, drag. The Earth’s gravity is mapped smoothly by satellites and by ranging to the Moon, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. What shells do is sort: slowly, through the rhythms of the bodies in them, **\[Argued\]** into the regular structures of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>.
 
-This means that the field is sculpted from within—not by curvature, but by structured intake.
+#### Shells as a record.
 
-### Field Formation as the Search for Equilibrium
+The first edition called shells memory echoes of the core: records of its accretion, its rotation and its changes. A system’s present structure is the record of its history: of where bodies migrated, which rhythms they were caught by, and how long they have been held. **\[Hypothesis\]** This is the counterpart, for systems, of the activation record of Part 13: a pattern set at one time and carried forward.
 
-Gravitons do not seek collapse—they seek balance.
+# The Relaxation Boundary
 
-- As they flow inward, they compress, saturate, and attempt to phase-lock with central structures.
+**\[Hypothesis: the passage that follows\]**
 
-- Where equilibrium is found, a resonance node is born—the seed of mass.
+The counterflow spreads as it travels, and the ambient medium brings it back into phase at its own rate. Near a mass, the mass supplies neutral medium faster than the surroundings can re-phase it; far away, the surroundings win. If the intake is proportional to the mass, the flux of ejecta at distance $r$ is proportional to $GM/r^2$, so the change-over falls at the same acceleration, $a_0 \approx 1.2\times10^{-10}$ metres per second squared, around every mass (Part 15): $$r_{a_0} = \sqrt{\frac{GM}{a_0}} .$$
 
-- Where coherence cannot be sustained, gravitons are rejected, vented, or redirected into lateral pathways.
+**\[End of passage\]**
 
-This process builds the entire shell structure of the gravitational field. Each shell is a trace of a failed or redirected attempt to join the center—a memory of interaction rather than a product of force.
+For the Sun this is about 7,000 astronomical units, far beyond the planets and inside the Oort cloud. For the visible mass of the Milky Way it is about 8 to 11 kiloparsecs, near the Sun’s own distance from the centre. Beyond the boundary, gravity changes its form: **\[Argued\]** it falls more slowly than Newton’s law, and the orbital speeds of stars and gas in galaxies stay level instead of falling. Across 153 galaxies, the acceleration observed tracks the acceleration expected from visible matter alone along one curve, with the change at $a_0$.[^5]
 
-### The Gravitational Field Begins With Pressure, Not Pull
+The first edition explained flat rotation curves as “nested shell coherence”. That survives in this form: the relaxation boundary is the shell every mass has, and the galaxy’s outer orbits lie beyond it. The law that governs gravity beyond the boundary, from which the observed curve must follow, is owed (Part 23). **\[Open\]** The boundary around the Sun can already be tested: pairs of stars thousands of astronomical units apart orbit slowly enough to probe it, and the analyses so far disagree.[^6][^7]
 
-There is no pulling in GPT—only inward graviton motion, continuously supplied by the universal background.
+# Rotation’s Reach
 
-- The apparent attraction between bodies is the alignment of their inflow corridors.
+A rotating mass turns gyroscopes around it. **\[Argued\]** Gravity Probe B carried four gyroscopes in a polar orbit around the Earth and measured their turning by the Earth’s rotation at $37.2 \pm 7.2$ milliarcseconds a year, against 39.2 predicted; the LAGEOS satellites’ orbits are turned as predicted, to about ten per cent.[^8][^9] The measured effect has a definite shape. A gyroscope is turned at $$\boldsymbol{\Omega} = \frac{G}{c^2 r^3}\left[\,3(\mathbf{J}\cdot\hat{\mathbf{r}})\,\hat{\mathbf{r}} - \mathbf{J}\,\right],$$ where $\mathbf{J}$ is the body’s angular momentum: one way over the poles and the other way over the equator, falling as $1/r^3$. General Relativity gives this formula; it is the target GPT’s mechanism must reach.
 
-- Objects “fall” not because they are pulled, but because they are entering resonance alignment with a local graviton stream.
+**\[Hypothesis: the passage that follows\]**
 
-This subtle but foundational shift redefines gravity not as an interaction between objects—but as an interaction between fields and flow, coherence and compression.
+In GPT, the rotation reaches outward through the medium, and every part of the field takes part:
 
-In the next section, we will examine what happens when this inflow reaches a central coherence threshold—how it builds not just a field, but the core of mass itself.
+- the **counterflow** leaves a turning surface and carries the turning outward;
 
-## Coherence Saturation and the Resonance Core
+- the **medium’s own coupling** passes the turning from layer to layer, by the same stiffness across the flow that lets the medium carry transverse waves (light and gravitational waves);
 
-At the heart of every gravitational field lies not a point of infinite compression, but a *resonance node*—a region where graviton inflow achieves saturation and coherence becomes self-sustaining.
+- the **inflow** carries turning medium back toward the body; and
 
-This is not a singularity. It is not a collapse point. It is a core of structural memory formed from the successful phase-locking of directional, oscillatory gravitons.
+- **re-phasing** relaxes the turning in the counterflow as it goes.
 
-### The Core as a Resonance Node
+A gyroscope carried in the medium is turned by how the medium twists where it is: by half the curl of the medium’s swirl. The measured shape requires a swirl whose speed falls as $1/r^2$, $$\mathbf{v}_{\text{swirl}} = \frac{2G}{c^2}\,\frac{\mathbf{J}\times\mathbf{r}}{r^3},$$ whose half-curl is exactly the formula above.
 
-When gravitons flow inward toward mass, they do so seeking coherence alignment—a rhythmic compatibility with the standing oscillatory pattern of the core. When this alignment is achieved, the graviton does not bounce, scatter, or reflect—it integrates.
+**\[End of passage\]**
 
-This integration is not destruction. It is assimilation into structure.
+The parts must be taken together. A counterflow on its own, each parcel keeping its angular momentum, would give a swirl falling as $1/r$, which turns gyroscopes in the wrong pattern; the inflow and re-phasing return and relax part of that turning. A medium that passes rotation from layer to layer gives the $1/r^2$ pattern by itself: it is what a sphere turning in a viscous liquid produces, and what a sphere twisting an elastic solid produces. The measurement fixes the combination, not which part carries most. The derivation of the combined swirl from the four parts, and its strength $2G/c^2$, are owed. **\[Open\]**
 
-Each successful phase-lock becomes part of the field’s memory. It reinforces the core’s pattern, increasing its coherence density and, by extension, its ability to shape and sustain an external field.
+#### What the Earth’s spin allows.
 
-### Phase-Locking as Structural Memory
+A medium that drags on a spinning body takes angular momentum from it, so a viscous medium would slow the Earth. The day is lengthening, by about 1.8 milliseconds a century. Tidal braking by the Moon and Sun would lengthen it by about 2.3; the crust’s slow rebound since the ice ages shortens it by about half a millisecond; together they account for what is seen.[^10] Whatever spin the medium takes from the Earth is small enough to hide in that balance. **\[Argued\]** A medium that holds its twist, as a solid does, takes none at all once the twist is set up; a medium that relaxes its twist, through re-phasing, takes a little. The Earth’s spin history bounds which.
 
-Gravitons that lock into phase do not merely cease movement. They vibrate in synchrony with the existing core field. This resonance creates:
+#### An imprint beyond shape.
 
-- A stable coherence node (the “mass” we perceive)
+The standard account explains why rings and moons lock to a body’s spin through the body’s uneven shape. GPT expects a rotational imprint beyond what the shape accounts for, because the medium carries the spin itself. **\[Hypothesis\]** That is a test (Part 29).
 
-- A central oscillator that radiates harmonic structure outward
+# The Field in Three Dimensions
 
-- A dynamic attractor for continued graviton inflow
+A flat drawing shows one slice of the field. The field itself is three-dimensional, and the three dimensions are where much of its behaviour comes from (Figure <a href="#fig:three" data-reference-type="ref" data-reference="fig:three">2</a>).
 
-This is the gravitational identity of an object—not its particle count, but its ability to retain phase-coherent inflow.
+**\[Hypothesis: the passage that follows\]**
 
-### Redirected Inflow: Decoherence and Lateral Escape
+- **The inflow arrives from every direction.** It is the same at every angle around a body, which is why a body’s steady pull is the same in every direction.
 
-Not all gravitons entering a field reach coherence.
+- **The counterflow is wound around the spin axis.** The ejecta leave a turning surface, and the surface turns fastest at the equator and not at all at the poles. So the turning the counterflow carries is strongest toward the equatorial plane and weakest along the axis; the medium is twisted one way over the poles and the other way over the equator, which is the shape the gyroscope measurements require (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
 
-- Those that are out of phase with the core’s oscillatory structure are rejected.
+- **The pattern is most regular toward the equatorial plane**, so that is where shells act most strongly.
 
-- But this rejection is not a reversal—it is a lateral transformation.
+- **The whole structure is moving.** Nothing is at rest: the Sun travels through the galaxy at about 230 kilometres per second, and its field travels with it. The counterflow is pressed together ahead of the motion and drawn out behind it, as the wave and wake of a ship are. Far out, where the counterflow is weak, the difference can be large: the relaxation boundary lies closer in front of a moving body than behind it.
 
-- Gravitons that cannot integrate are shed sideways, forming concentric resonance structures around the core.
+**\[End of passage\]**
 
-This is the genesis of shell layers—zones of redirected pressure, formed from decohered inflow that could not phase-match with the core.
+<figure id="fig:three">
+<img src="assets/figures/fig16-2-three-d.svg" />
+<figcaption>The field of a rotating, moving mass in three dimensions (schematic). The inflow arrives from every direction; the counterflow is wound around the spin axis and strongest toward the equator; and the whole structure moves with the body, so the relaxation boundary is drawn in ahead of the motion and out behind it. (Hypothesis)</figcaption>
+</figure>
 
-### The Core Determines the Field
+The equatorial plane is where structure is observed. **\[Argued\]** Saturn’s rings lie in its equatorial plane; the large moons of the giant planets orbit close to their planets’ equators; the planets orbit within about seven degrees of the Sun’s equator. The standard account explains the flattening by the angular momentum of the collapsing cloud each system formed from, and that stands. GPT adds that the medium’s own turning, carried by the counterflow, is strongest in that same plane, so the pattern that sorts bodies is most regular where the bodies are. **\[Hypothesis\]**
 
-The structure and coherence of the central node determines:
+#### A test from the wake.
 
-- The number and thickness of field shells
+If the boundary is drawn in ahead of a moving body and out behind it, then wide pairs of stars near the Sun’s boundary should behave differently according to their direction from the Sun relative to its motion through the galaxy. **\[Hypothesis\]** The analyses of wide binaries so far, which disagree with each other, do not sort the pairs by direction (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">“The Relaxation Boundary”</a>). That is a test (Part 29).
 
-- The oscillatory filtering properties of each layer
+#### What touches what when two fields meet.
 
-- The location of impedance boundaries and motion corridors
+A body in the field of another is not in an abstract influence. It is in four things, each with a carrier:
 
-- The graviton behavior at all distances from the center
+- the other’s **inflow**, which carries it, as its own inflow carries the other; their pressures combine (Section <a href="#sec:many" data-reference-type="ref" data-reference="sec:many">“Many Bodies”</a>);
 
-In this way, the field is not “emanated” by mass in a radiative sense—it is structured by the resonance profile of the core.
+- the **difference** in that inflow across it, which stretches it: the tides (Part 13);
 
-Mass is thus not a static object—it is the coherence engine at the center of a dynamic pressure system.
+- the other’s **swirl**, which turns its spin axis and its orbit, as the Earth’s turns orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>); and
 
-What we call gravitational strength is simply the degree of field structure produced by the resonance retention of the core.
+- the other’s **counterflow**, which passes through it carrying the other’s rhythm, while its own counterflow passes back.
 
-In the next section, we explore how the graviton inflow that cannot integrate with the core builds the external field—how shell layers arise, not from shape, but from phase shedding and lateral decoherence.
+An orbiting body also lays its own pattern along its orbit as it goes. Two bodies whose orbital periods are in a ratio of small whole numbers meet again and again at the same places: Io overtakes Europa always at the same points of their orbits. At those places their patterns meet in step, turn after turn, which is where the medium’s pressing adds up instead of cancelling. **\[Hypothesis\]** That is the mechanism of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>, seen in three dimensions.
 
-## Shell Formation and Lateral Decoherence
+# From the Graviton to the Field
 
-Gravitational shells are not geometric layers formed by the bending of space or the diminishing influence of mass. They are *coherence structures*—phase-sorted resonance bands born from graviton inflow that could not integrate with the core.
+Every property of the field so far follows from a property of the graviton, or of the medium the gravitons make (Part 15). Table <a href="#tab:traits" data-reference-type="ref" data-reference="tab:traits">1</a> sets them side by side.
 
-Each shell is a record of rejection—a stratified layer where coherence failed, and decoherence was transformed into structure.
+<div id="tab:traits">
 
-### Where Phase Entry Fails, Structure Emerges
+| **The graviton, or the medium**    | **What it gives the field**                                                                                                                               |
+|:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Moves and carries momentum         | The inflow delivers momentum to every body it carries; the field’s changes travel through the medium at $c$; a moving body’s field has a wave and a wake. |
+| Oscillates, and has a phase        | The counterflow, ejected out of phase, does not press; it carries the body’s timing outward as a pattern.                                                 |
+| In phase, pushes                   | The medium’s pressure, which carries bodies; shells press bodies whose rhythms are in step with them, turn after turn.                                    |
+| Conserved                          | What flows in flows out again: the counterflow; the count of gravitons rises toward a mass as $r^{-3/2}$.                                                 |
+| Acts on what is organised          | Bodies are patterns with rhythms of their own, which is what lets them lock to shells; the delivery tracks a body’s energy.                               |
+| Fine-grained                       | At an instant the field is smooth, and an orbit is possible at any radius; the pattern is regular, not noisy.                                             |
+| Stiff across the flow (the medium) | The medium passes a body’s turning from layer to layer; it carries transverse waves, light and gravitational waves.                                       |
+| Re-phases (the medium)             | The counterflow is brought back into step at the relaxation boundary, the shell every mass has.                                                           |
 
-As gravitons approach the resonance core, they are tested against its oscillatory structure. Those that match become part of the mass memory. But those that fail to phase-lock do not vanish. They decohere—and are redirected.
+Where the field’s properties come from.
 
-This redirection is not outward emission. It is a lateral resonance event—a transformation from radial inflow to tangential propagation.
+</div>
 
-The result is a pressure band: a stable layer of motion where decohered gravitons circulate, interfere, and reinforce a shared oscillatory pattern. This is the birth of a shell.
+No one of these produces the field alone. The field is all of them acting at once, in three dimensions, around bodies that turn and move. **\[Hypothesis\]** That is why the field’s properties are linked: why a body’s turning, its motion and the structure of its system are one subject, not unrelated facts. **\[Argued\]**
 
-### Shells as Stratified Resonance Corridors
+# Many Bodies
 
-Each shell is:
+**\[Hypothesis: the passage that follows\]**
 
-- A coherence-defined zone of redirected pressure
+Where several bodies share a region, their effects combine through the medium’s pressure. Pressures add, and every body is carried by the acceleration the combined pressure sets up (Part 23). Their counterflows meet, and their patterns overlap.
 
-- Formed by gravitons with similar energy, phase, and timing characteristics
+**\[End of passage\]**
 
-- Stratified by the geometry of their lateral escape and interference
+Combining by pressure gives Newton’s dynamics for many bodies exactly: **\[Argued\]** the orbits of the planets, the tides (Part 13), and the Lagrange points. The first edition described the Lagrange points as harmonic nodes where overlapping shells reach equilibrium. In the rotating frame of two bodies, they are the five points where the two accelerations and the turning of the frame balance; the medium supplies the accelerations, and the points follow.[^11] Where the counterflows of the bodies meet, their rhythms can lock, which is how the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>). The full rule for combining flows in strong fields, and the direction of the medium’s motion around many bodies, are owed (Part 23). **\[Open\]**
 
-These are not “altitudes” or radii in the classical sense. They are *resonance corridors*—regions where decoherence stabilizes into persistent structure.
+# Systems Built over Time
 
-Shells therefore:
+The first edition held that fields interlock: they interpenetrate, modulate one another and entrain the motion within them; that moons lock into orbital chains and planets into harmonic spacing; that motion reinforces the structure it moves in. This is what astronomers observe, once time is allowed for. **\[Argued\]**
 
-- Support tangential motion (e.g., orbits)
+- **Gaps cleared at resonances.** The Kirkwood gaps in the asteroid belt lie where an asteroid would circle the Sun three times for each orbit of Jupiter, five times for every two, or twice for each one. The inner edge of the Cassini Division in Saturn’s rings lies where a ring particle would circle twice for each orbit of the moon Mimas. The Encke and Keeler gaps each contain the small moon that keeps them open, Pan and Daphnis.
 
-- Create stable zones for particulate or satellite alignment
+- **Chains captured and held.** Io, Europa and Ganymede circle Jupiter in the ratio 1:2:4. The seven planets of TRAPPIST-1 form an unbroken resonant chain (Figure <a href="#fig:chain" data-reference-type="ref" data-reference="fig:chain">3</a>); the four planets of Kepler-223 circle in the ratio 3:4:6:8.[^12][^13] Such chains are formed as planets migrate through the disc they formed in and are caught one by one.
 
-- Lock-in motion that matches their internal rhythm
+- **Regular spacing.** Neighbouring planets in compact systems tend to be similar in size and evenly spaced in the ratios of their periods.[^14]
 
-### Impedance Boundaries and Transition Turbulence
+- **Spins locked to orbits.** The Moon keeps one face to the Earth; Mercury turns three times for every two orbits; Pluto and Charon each keep one face to the other. The Moon in turn steadies the tilt of the Earth’s axis, which without it would wander widely.[^15]
 
-Between shells are the impedance boundaries—zones where phase patterns diverge, and resonance continuity fails.
+- **A body’s own rhythm written around it.** Saturn’s internal oscillations drive waves in its C ring, so that the rings record the planet’s interior.[^16] The rings of the dwarf planets Haumea and Quaoar lie at resonances with their spins.[^17][^18]
 
-These boundaries:
+<figure id="fig:chain">
+<img src="assets/figures/fig16-3-chain.svg" />
+<figcaption>TRAPPIST-1’s seven planets, with the ratio of each neighbouring pair of orbital periods. Each is close to a ratio of small whole numbers: a chain of rhythms locked over time (Luger et al., 2017).</figcaption>
+</figure>
 
-- Reject mismatched motion
+In GPT, these are the shells of systems. Each body’s counterflow carries its rhythm; where rhythms are in step, the medium presses in the same sense, turn after turn, and over long times the bodies are caught and held. Motion reinforces the structure it moves in, as the first edition said: a body held in a resonance adds its own rhythm to it. **\[Hypothesis\]** The standard account calculates these same structures from the bodies’ combined accelerations, tidal friction and migration; GPT supplies what carries the forcing from one body to another, and why rhythm, not just distance, decides where bodies settle. **\[Argued\]**
 
-- Redirect bodies or particles attempting to transition between shells
+# Motion in the Field
 
-- Cause snapback, drift, or coherence re-locking events
+The first edition spoke of motion as granted by the field: bodies held in resonance by the shell they occupy, and inertia as resonance retention. The instinct is right in one respect: a body’s motion is a relation with the medium, not a property it has in isolation. **\[Hypothesis\]** A moving body takes in the medium faster at its leading face than at its trailing face; that imbalance is its momentum, and it costs nothing to keep (Part 23, Section 23.9). Motion continues because of the body’s relation to the medium, not in spite of it. **\[Argued\]**
 
-In effect, they function as field membranes, filtering graviton motion and material behavior by phase compatibility.
+It continues without permission or payment. **\[Argued\]** Spacecraft coast between the planets for decades; the Voyager probes, launched in 1977, are still travelling outward. Satellites orbit at every altitude, and an orbit decays smoothly, at a rate set by atmospheric drag that rises and falls with the Sun’s activity. The first edition’s quantised orbits, its “snapback” at shell boundaries and its stepwise decay are withdrawn as instant effects. What survives is the slow version: capture into resonance over long times (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
 
-This explains phenomena such as:
+# Light in the Field
 
-- Orbital banding
+Light crossing a field is bent because the medium flows, not because space is curved. **\[Argued\]** Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part 23). The first edition’s account, refraction rather than geometry, is kept. Its layers of different index are not: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$, and the delay of signals passing the Sun to about one part in $10^5$,[^19] so any layering of the index is far smaller than that.
 
-- Ring system gaps
+# Anomalies
 
-- Sudden course corrections in satellite trajectories
+The first edition took deep-space anomalies as shell crossings. The Pioneer anomaly is resolved: **\[Argued\]** a small constant acceleration of the Pioneer 10 and 11 spacecraft toward the Sun, about $9\times10^{-10}$ metres per second squared, is accounted for by heat radiated unevenly from the spacecraft, modelled from their design and flight data.[^20] The flyby anomaly, small unexplained changes in the speed of some spacecraft swinging past the Earth, remains unexplained, **\[Open\]**[^21] and several later flybys showed none within their errors. It is not evidence for shells, but it is not yet explained.
 
-- Resistance zones in field mapping
+# What Remains to Be Derived
 
-### Shells as Pressure Memory
+- The swirl of a rotating mass from all four of its parts, and its strength. **\[Open\]**
 
-Shells are not formed once—they are continually updated by the ongoing inflow of gravitons.
+- The counterflow’s speed, and so the spacing of shells within the relaxation boundary. **\[Open\]**
 
-Every new graviton that cannot phase-lock and decoheres laterally becomes part of the pressure pattern at the shell level. In this way, shells are:
+- The law of gravity beyond the relaxation boundary, from which the observed galaxy curve must follow. **\[Open\]**
 
-- Living records of field interaction
+- The relation between a mass and its intake, on which the universality of $a_0$ depends. **\[Open\]**
 
-- Harmonic layers of rejected coherence
+- The full rule for combining flows in strong fields. **\[Open\]**
 
-- Memory structures that stabilize gravitational behavior
+- How much of the inflow a body retains, and how matter forms from the medium. **\[Open\]**
 
-Each shell is thus both a boundary and a resonance basin—a dynamic equilibrium born not from force, but from filtered oscillation and redirected inflow.
+- The shape of a moving body’s field: how far its boundary is drawn in ahead and out behind. **\[Open\]**
 
-In the next section, we will examine how these shells act not as barriers, but as phase filters—how they determine which gravitons and which forms of motion may pass through, and which must remain or be redirected.
+Each is a question about a named interface: what moves, what it carries, and what it meets.
 
-## Oscillation Timing and Phase Filtering
+# Conclusion
 
-Gravitational shells do not form through mass-induced spacing or geometric layering—they arise from temporal phase filtering, governed by the oscillatory behavior of gravitons.
+A gravitational field is the medium in motion around a mass: an inflow of active medium, which carries bodies, and a counterflow of medium ejected out of phase, which carries the pattern of the body’s speed, spin and rotation. The regularity of that pattern makes shells. Every mass has one, the relaxation boundary, where gravity changes form; systems of bodies build more where their rhythms meet and lock, slowly, over long times. At any instant the field is smooth enough that an orbit is possible at any radius; over the life of a system it sorts bodies into chains, gaps and locks.
 
-At the heart of this process is the fact that gravitons are not just directional—they are rhythmic. Each graviton carries with it a waveform: a frequency, a timing signature, a phase. Whether it is absorbed, redirected, or allowed to pass deeper into the field depends entirely on whether that signature matches the standing resonance of the field layer it encounters.
+In three dimensions the field is wound around each body’s spin axis, strongest toward its equator, and carried along with its motion, so that it has a wave ahead and a wake behind. Every property of it traces back to the graviton and the medium the gravitons make, and the properties are linked because they are one structure.
 
-### Gravitons as Phase-Sensitive Agents
+None of this would happen in an empty nothing. A body’s traits have effects because the medium carries them.
 
-Gravitons approach each shell boundary as waveform encounters:
+# Changes in the Second Edition
 
-- If their oscillation is in phase with the layer’s standing wave: they pass through.
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
 
-- If they are out of phase: they are reflected, redirected, or absorbed into the shell’s lateral motion.
+## Changes to the argument
 
-This is not resistance in the mechanical sense. It is temporal incompatibility. The field does not push the graviton back—it simply cannot accommodate it without disruption.
+- The field is stated as the medium’s inflow, $v^2 = 2GM/r$, with its pressure and acceleration (Part 23). “Fed, not emitted” is kept.
 
-Thus, each shell acts as a resonance gate: a phase-sensitive boundary that only admits properly timed energy.
+- The first edition’s rejected and redirected gravitons are the counterflow of neutral ejecta (Part 15). It carries the pattern of the body’s speed, spin and rotation; the pattern’s regularity makes shells.
 
-### Graviton Sorting, Not Blocking
+- Shells are restated. Every mass has one, the relaxation boundary; further shells may stand within it; systems build theirs where rhythms lock over time. At any instant a shell’s push is small. Quantised orbits, impedance membranes that forbid altitudes, “snapback” and stepwise decay are withdrawn as instant effects, because satellites orbit at every altitude and decay is tracked continuously; their slow form, capture into resonance, is kept.
 
-Traditional field models imagine force interactions as pass/fail—either a force acts or it doesn’t. GPT replaces this with a sorting framework:
+- Phase filtering at shells is restated as phase decides push at the scale of a field: rhythms in step are pressed in the same sense turn after turn.
 
-- Gravitons are not stopped, they are routed.
+- Rotation curves from nested shell coherence are restated through the relaxation boundary, the shell every mass has.
 
-- Their fate is determined by the phase relationship between their oscillation and the local field.
+- Rotation’s reach is given its measured form (Gravity Probe B, LAGEOS) and a mechanism built from all four parts of the field: counterflow, the medium’s coupling, inflow and re-phasing. The combined derivation is owed. The Earth’s spin history bounds the medium’s drag.
 
-This sorting creates:
+- Orbital chains, harmonic spacing and entrainment are kept, with the observations (resonant gaps, the Laplace resonance, TRAPPIST-1, Kepler-223, regular spacing, spin locks, ring waves driven by Saturn’s oscillations, the rings of Haumea and Quaoar). GPT supplies the carrier of the forcing; the standard dynamics are not replaced. A rotational imprint beyond shape is proposed as a test.
 
-- Shell entry for phase-matched gravitons
+- “Inertia as resonance retention” and “no universal tendency to continue motion” are withdrawn: bodies coast. What is kept is that motion is a relation with the medium (Part 23).
 
-- Lateral redirection for near-match coherence
+- New: the field in three dimensions. The inflow arrives from every direction; the counterflow is wound around the spin axis and strongest toward the equator, where structure is observed; a moving body’s field has a wave and a wake, so its relaxation boundary lies closer ahead than behind, which gives a test with wide binary stars sorted by direction. What touches what when two fields meet is set out, and a table traces each property of the field to a property of the graviton or the medium.
 
-- Full reflection or rejection for phase-opposed entries
+- Lensing is by a smooth refractive index; layers of different index are withdrawn, being bounded by the measured bending and delay.
 
-The gravitational field is thus a temporal filter—a structure of rhythmic selectivity.
+- The Pioneer anomaly is resolved as uneven heat radiation; the flyby anomaly is marked open.
 
-### Frequency Determines Access
+- “Inflow precedes mass” is kept as a hypothesis on the origin of matter, with the size of retention bounded.
 
-Each shell is tuned to a narrow band of graviton oscillatory profiles:
+- The “micro-vacancies” of the closing passage are replaced by ejection out of phase (Part 15).
 
-- Lower shells correspond to higher coherence and tighter frequency windows.
+## Clarifications
 
-- Outer shells allow for broader frequency tolerance.
+- The subtitle changes from *Layered Structure, Directional Flow, and Coherent Memory* to *Inflow, Counterflow, and the Shells That Rhythm Builds*.
 
-This creates a quantized field structure:
+- “Graviton exchange is the carrier of inter-field intelligence”, and descriptions of fields as “living”, are left to Part 2; the physics papers make no claims about intent. “Memory” is kept in its physical sense: structure that records history.
 
-- Only certain graviton “notes” can harmonize with deeper layers.
-
-- The result is a layered symphony of pressure, where each shell plays its own phase melody.
-
-This also explains:
-
-- Why orbital paths are quantized
-
-- Why transitions between layers are abrupt
-
-- Why some objects persist in motion while others drift or collapse
-
-### Shells Are Temporal, Not Merely Spatial
-
-The position of a shell is not defined purely by distance from the center—it is defined by timing:
-
-- The shell exists where a given phase relationship can be sustained.
-
-- That relationship is dependent on the oscillatory environment, which is living and dynamic.
-
-As the resonance core evolves or external inflow changes, the filtering behavior of each shell can shift.
-
-- Shells can expand, contract, or even merge.
-
-- The field is not static—it breathes with its coherence.
-
-This dynamic filtering explains how fields adapt to motion, mass accumulation, and external influences without collapsing or unraveling.
-
-Gravitational shells are not walls. They are phase membranes—selective, oscillation-governed filters that determine the shape, structure, and behavior of everything that moves within them.
-
-In the next section, we explore how this filtering not only determines graviton behavior, but also regulates the motion of matter—why some paths are stable, others are repelled, and motion becomes a product of resonance, not of force.
-
-## Motion Through the Field: Resonance Permission
-
-Motion through a gravitational field is not the consequence of curved geometry or inertial drift—it is a resonance negotiation between a moving body and the layered oscillatory structure of the field. Every object in motion within a graviton field is not just influenced by force—it is subject to *permission*, determined by phase alignment with the standing wave corridors of the field.
-
-### Resonance as the Gatekeeper of Motion
-
-Under Graviton Pressure Theory, motion is not continuously permitted across all zones. It is filtered by resonance:
-
-- Bodies can only maintain stable motion in regions where their internal coherence and the local field phase are aligned.
-
-- These regions are the tangential corridors within shell layers—zones of minimal impedance and maximal coherence match.
-
-When an object moves in resonance:
-
-- It is carried by the field with no resistance.
-
-- Its path appears stable and natural—this is the origin of persistent orbits.
-
-When out of resonance:
-
-- The field resists the motion.
-
-- Redirection, drift correction, or repulsion occurs.
-
-### Tangential Corridors: Where Motion Persists
-
-Each shell contains a band of tangential phase alignment—a circular path where motion is not opposed but sustained.
-
-These corridors:
-
-- Permit orbital paths to persist with minimal energy loss.
-
-- Allow mass to move as if “invisible to the field”—not by bypassing it, but by harmonizing with it.
-
-- Are quantized and discrete; not all distances support such motion.
-
-These corridors explain:
-
-- Why moons orbit in bands
-
-- Why rings form at specific radii
-
-- Why satellites lock into narrow altitude windows
-
-Motion is not free—it is granted by coherence.
-
-### Boundary Crossing: Snapback, Drift, and Re-locking
-
-When an object attempts to cross a shell boundary, several outcomes are possible:
-
-- **Snapback:** If the motion is phase-incompatible with the next shell, the object is repelled back toward its origin layer.
-
-- **Drift Decay:** If the motion is weakly mismatched, the object slowly loses coherence and drifts until it finds a new resonance zone.
-
-- **Re-locking:** If the motion adapts (via energy or external influence), the object may find phase alignment with the next layer and stabilize.
-
-This explains many orbital anomalies:
-
-- Sudden course corrections in unstable satellites
-
-- Orbital decay that is stepwise, not smooth
-
-- Ring particle migration toward stable phase bands
-
-### Inertia as Resonance Retention
-
-In GPT, inertia is not a conserved force—it is a coherence echo.
-
-- A body in motion remains in motion because it is held in phase by the shell corridor it occupies.
-
-- When that resonance is disturbed (e.g., by interaction, energy loss, or boundary interference), inertia is broken, not by force, but by phase loss.
-
-This reframes the entire concept of motion:
-
-- There is no universal tendency to continue motion.
-
-- There is only field-aligned continuation, and its breakdown when coherence is lost.
-
-Thus, motion through a gravitational field is not about being pulled, pushed, or coasting. It is about being held in resonance.
-
-Motion is a phase relationship. And when that relationship ends, so does the path.
-
-In the next section, we’ll examine how these fields do not end at one body’s shell system—but extend, connect, and resonate across systems, forming the nested inter-field architecture of the cosmos.
-
-## Nested Fields and Graviton Exchange Between Systems
-
-Gravitational fields are not self-contained. They do not terminate cleanly at a boundary, nor do they exist in solitude. Under Graviton Pressure Theory, each field is a coherence engine, but one that is continuously participating in a larger network of interacting resonance structures.
-
-Gravitons that escape one field do not vanish into space—they enter a shared medium in which multiple field systems overlap. In this medium, gravitons can:
-
-- Enter another body’s shell structure (if phase-matched)
-
-- Reflect back to their origin (if mismatched)
-
-- Drift, interfering and interacting until they find a resonance corridor between systems
-
-This process reveals gravity as a field-interactive architecture, not a collection of separate forces.
-
-### Fields Are Interlocked, Not Isolated
-
-Each body (planet, moon, star) generates a stratified graviton field. But in a system of multiple bodies, these fields:
-
-- Interpenetrate—shells from different masses overlap
-
-- Modulate—coherence in one field affects the pressure gradients in others
-
-- Entrain—motion within one system stabilizes in resonance with another
-
-This explains why:
-
-- Moons lock into orbital chains
-
-- Planets form stable harmonic spacing
-
-- Star systems cohere within spiral arms
-
-Gravitational structure is not object-centric—it is networked resonance.
-
-### Graviton Transfer Between Fields
-
-When a graviton decoheres from one core and escapes laterally:
-
-- It enters the ambient graviton matrix
-
-- Its trajectory carries it toward the shell structure of a neighboring mass
-
-The outcome is determined by phase compatibility:
-
-- **Phase Match $\rightarrow$ Field Transfer:**
-
-  - The graviton’s oscillation aligns with the standing wave of the target shell.
-
-  - It is absorbed into the resonance structure of that new body.
-
-  - This creates gravitational binding, resonance reinforcement, and orbital coherence.
-
-- **Phase Mismatch $\rightarrow$ Reflection or Return:**
-
-  - The graviton is rejected by the second field.
-
-  - It either reflects back toward the originating field or drifts.
-
-- **Partial Match $\rightarrow$ Drift and Entrainment:**
-
-  - The graviton moves between multiple shell layers, sometimes for extended distances.
-
-  - Over time, it can create corridors of partial coherence between two or more fields.
-
-This is the mechanism of field communication.
-
-### Inter-Field Resonance and System Coherence
-
-These graviton exchanges stabilize large-scale structures:
-
-- **Orbital Chains:**
-
-  - Multiple moons or satellites orbiting in ratios
-
-  - Result from repeated graviton exchange and shared coherence thresholds
-
-- **Lagrange Points:**
-
-  - Locations where overlapping shell structures create net-phase equilibrium
-
-  - Gravitons from both fields cancel or reinforce, forming a harmonic node
-
-- **Resonance Corridors:**
-
-  - Graviton flow paths that consistently permit transfer between systems
-
-  - Support ring systems, tidal locks, and synchronized orbital families
-
-This turns gravitational “pull” into shared pattern logic.
-
-What binds objects into orbits is not just mass—it is entrainment of graviton dynamics across phase-compatible shells.
-
-### A Cosmos of Coupled Fields
-
-Every body is a field participant, not just a source.
-
-- The Sun’s graviton field is shaped by every orbiting planet
-
-- The Earth’s coherence pattern affects the Moon’s field stability
-
-- Galaxies are structured by nested entrainment, not by dark matter scaffolds
-
-This picture transforms the gravitational universe into a nested resonance web, where:
-
-- Every field both shapes and is shaped by others
-
-- Stability emerges from shared timing, not just distance
-
-- Graviton exchange is the carrier of inter-field intelligence
-
-In the next section, we will reinterpret known gravitational phenomena using this framework—showing how shell structure, phase filtering, and inter-field coherence resolve the mysteries of ring gaps, lensing arcs, orbital spacing, and more.
-
-## Emergent Phenomena from Field Properties
-
-When gravitational fields are understood as layered, oscillatory, and coherence-regulated structures—as Graviton Pressure Theory reveals—they begin to make sense of a wide array of observed phenomena that previously required theoretical patchwork, metaphysical constructs, or unexplained fudge factors.
-
-What seemed anomalous under Newtonian [^6] force models or spacetime curvature now becomes expected under the logic of field structure, phase filtering, and resonance regulation.
-
-This section reinterprets well-documented gravitational behaviors as direct consequences of field dynamics.
-
-### Ring Gaps as Impedance Boundaries
-
-In planetary ring systems, such as Saturn’s, gaps like the Cassini Division have long puzzled observers. GPT explains these not as voids caused merely by external gravitational influences, but as shell transition zones—regions between resonance layers where graviton inflow becomes phase-incompatible with the shell structure.
-
-In these zones, tangential motion becomes destabilized. Particulate matter attempting to orbit within such boundaries cannot sustain resonance and is either redirected or excluded. Moons may reinforce these gaps, but they are not the primary cause. The gaps arise naturally from impedance mismatch within the field.
-
-### Orbital Banding as Shell Resonance
-
-Moons, satellites, and even artificial spacecraft do not distribute randomly in altitude. Instead, they cluster in discrete bands—stable corridors where coherence with the central graviton field allows sustained motion.
-
-Under GPT, these corridors are formed by lateral decoherence of gravitons that failed to integrate into the core, creating shell layers with distinct oscillatory profiles. Objects that align with the timing and phase of these corridors experience minimal resistance and persist in stable orbits. Deviation from resonance causes drift, snapback, or energy loss.
-
-This field-based explanation accounts for quantized orbital spacing, long-term orbital stability, and the apparent "banded" structure of orbital environments.
-
-### Lensing Arcs as Refractive Shell Interactions
-
-Classical models attribute gravitational lensing to the curvature of spacetime. GPT replaces this metaphor with a physical interaction model: light passing through a graviton field does not bend because space is warped—it refracts because it crosses regions of varying pressure and coherence.
-
-Each shell within a gravitational field presents a different refractive index. When light enters these shells at shallow angles, its path is redirected, producing arcs and ring-like distortions. This is akin to atmospheric refraction, not geometric deformation. The observed lensing is thus a signature of phase-mediated light interaction with pressure layers.
-
-### Galactic Flat Rotation Curves as Nested Shell Coherence
-
-One of astrophysics’ greatest challenges has been explaining why stars orbit galaxies at nearly constant speeds regardless of distance from the galactic center. GPT resolves this without invoking dark matter.
-
-Galaxies are seen not as point-mass concentrations, but as multi-shell resonance systems. Each star resides within a nested graviton shell, where tangential coherence and radial inflow are balanced. Stars are not pulled from the center—they are stabilized by shell resonance.
-
-This framework replaces the need for invisible matter with a model of coherent field retention, where the field is not weak at the edges but structured and self-sustaining.
-
-### Spacecraft and Probe Anomalies as Threshold Crossings
-
-Several deep-space missions have recorded inertial anomalies and unpredicted trajectory variations. Rather than attributing these to instrumentation error or thermal recoil, GPT explains them as gravitational shell transitions.
-
-As spacecraft move from one shell to another, they cross impedance boundaries. During this transition, gravimetric coherence is temporarily disrupted. The result is measurable drift, loss of synchronization, or signal irregularities. These are not glitches—they are consistent with the behavior of a stratified, phase-regulated field.
-
-These phenomena, once explained through patchwork or speculation, now fall into a single cohesive system:
-
-- Shells filter motion
-
-- Boundaries create structure
-
-- Graviton phase behavior explains resonance and rejection
-
-- And what we observe is not gravitational mystery—but coherence in action
-
-In the next section, we close the loop by exploring how such structures persist—why they don’t decay or collapse, and how motion itself contributes to the active memory of the gravitational field.
-
-## Persistence and Feedback of Shell Structures
-
-Gravitational fields are not static artifacts—they are living structures, dynamically maintained by the ongoing interaction of graviton inflow, core coherence, and phase-regulated motion.
-
-Shells do not fade. They do not dissipate like ripples on a pond. They persist—because they are the product of two ongoing forces:
-
-- Inward graviton pressure
-
-- Outward resonance memory from the core
-
-Together, these forces form a self-sustaining feedback system that continuously reinforces the gravitational field structure.
-
-### Continuous Inflow Maintains Field Integrity
-
-Graviton pressure is not a momentary event. It is a constant inflow from the universal background. This continuous supply of coherence-seeking quanta:
-
-- Attempts to integrate with the core
-
-- Reinforces the resonance node when successful
-
-- Forms new shell structure when rejected
-
-As long as graviton inflow continues—and it always does—the field continues to receive structure.
-
-The shells, then, are not remnants. They are active byproducts of an ever-renewing saturation cycle.
-
-### The Core Emits Coherence as a Standing Pressure Wave
-
-The resonance core, built from phase-locked gravitons, does not radiate energy in the classical sense—it radiates pattern.
-
-This pattern forms a standing wave—a pressure rhythm that imprints itself into the field structure. It defines:
-
-- Shell spacing
-
-- Phase filtering characteristics
-
-- The timing and thickness of coherence corridors
-
-This standing wave is the gravitational identity of the mass. It is not imposed on the field—it *is* the field.
-
-### Motion Reinforces Structure
-
-Objects moving through the field are not passive passengers. Their motion:
-
-- Interacts with shell boundaries
-
-- Leaves coherence traces
-
-- Adds rhythmic reinforcement to the existing pressure pattern
-
-This is why stable orbits strengthen over time:
-
-- The moving object contributes to the phase regularity of the shell it occupies
-
-- This creates a resonance loop: motion sustains structure, structure sustains motion
-
-In GPT, this is the replacement for the concept of inertia. Inertia is not a universal principle—it is the field’s memory of permitted motion.
-
-### Shells as Memory Echoes of Mass Coherence
-
-Each shell is a historical and dynamic echo of the core’s coherence capacity:
-
-- Where the core was able to sustain inflow, shells formed
-
-- Where it rejected inflow, pressure stabilized into layered lateral resonance
-
-These shells record not just what the core is now, but what it has been:
-
-- Accretion history
-
-- Rotational dynamics
-
-- Phase transitions across time
-
-They are the memory architecture of gravity—not static, but alive with retained information, rewritten continuously by motion and inflow.
-
-Thus, gravitational shells persist because they are fed, resonated, and remembered.
-
-- Fed by graviton inflow
-
-- Resonated by the coherence core
-
-- Remembered through motion and phase pattern
-
-In GPT, gravity is not merely a field. It is a coherence recording system—a self-updating, pressure-maintained structure built from phase, motion, and memory.
-
-In the final section, we will draw these properties together to redefine gravitational fields as active participants in cosmic structure, not bystanders of mass.
-
-## Conclusion: Gravity as the Behavior of Structured Coherence
-
-Gravity is not the bending of spacetime. It is the behavior of coherence under pressure.
-
-Gravitational fields are not mathematical abstractions or geometric conveniences. They are living scaffolds—built from the continuous inflow of oscillatory, coherence-seeking gravitons that form structure where they are denied.
-
-Each field is an expression of interaction:
-
-- Between inward pressure and phase regulation
-
-- Between mass coherence and lateral redirection
-
-- Between oscillation timing and resonance memory
-
-### Gravitons Carry Structure, Not Just Force
-
-Gravitons are not messengers of mass. They are agents of formation.
-
-- They carry oscillatory timing, not just energy
-
-- They build the resonance core through phase-locking
-
-- They form shell structures through decoherence
-
-They create boundaries, filter motion, and govern interaction—not through pull or push, but through compatibility with coherence.
-
-### Fields Are Filtering, Not Emitting
-
-Gravitational fields do not emanate outward like radiation.
-
-- They form from the rejection and redirection of what cannot integrate
-
-- Shells filter graviton inflow, not radiate mass influence
-
-- Every layer of the field is a resonance decision point—accept, reject, redirect
-
-### The Universe is Structured by What Cannot Be Contained
-
-Where the core cannot absorb coherence, it creates structure.
-
-- Shells are the harmonics of rejected graviton inflow
-
-- Corridors of motion are the pathways left open by phase alignment
-
-- Impedance boundaries and drift zones are the scars of mismatch
-
-The universe is not shaped by what is held—it is shaped by what is deflected and retained as memory.
-
-### Gravitational Fields Are Coherence Machines
-
-They sort motion.  
-They encode mass identity.  
-They bind systems through nested resonance. Gravitational behavior is no longer an enigma—it is a coherence logic, a phase-based ordering system for motion, form, and interconnection. Gravity is not a force field.  
-It is a memory field.  
-A rhythm field.  
-A filter that reveals what coherence can hold, and what must become structure instead.
-
-### Final Understanding
-
-The universe is built from inward flow,  
-shaped by what coherence cannot consume,  
-and stabilized by the structure that emerges in its place.  
-Graviton Pressure Theory does not merely explain gravity—it redefines it.  
-Not as attraction.  
-But as structure.  
-Not as curvature.  
-The coherence of the field is not passive stability—it is actively sustained through continuous graviton refresh. Each interaction between an inflowing graviton and a coherent structure may result in absorption, redirection, or phase delay. These interactions create micro-vacancies in the flow—a disappearance that invites replacement. This refresh cycle is the heartbeat of gravitational continuity. Field pressure is not simply present—it is perpetually restored, shaped moment by moment through this cycling dance of coherence and disappearance.
+- Three figures, a table, status marks and this list are added.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-abbott2017speed" class="csl-entry">
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+Abbott, B. P. et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *The Astrophysical Journal Letters* 848: L13.
+
+</div>
+
+<div id="ref-anderson2008" class="csl-entry">
+
+Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed During Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
+
+</div>
+
+<div id="ref-banik2024" class="csl-entry">
+
+Banik, Indranil et al. 2024. “Strong Constraints on the Gravitational Law from Gaia DR3 Wide Binaries.” *Monthly Notices of the Royal Astronomical Society* 527: 4573–4615.
+
+</div>
+
+<div id="ref-bertotti2003" class="csl-entry">
+
+Bertotti, B., L. Iess, and P. Tortora. 2003. “A Test of General Relativity Using Radio Links with the Cassini Spacecraft.” *Nature* 425: 374–76.
+
+</div>
+
+<div id="ref-chae2023" class="csl-entry">
+
+Chae, Kyu-Hyun. 2023. “Breakdown of the Newton–Einstein Standard Gravity at Low Acceleration in Internal Dynamics of Wide Binary Stars.” *The Astrophysical Journal* 952: 128.
+
+</div>
+
+<div id="ref-ciufolini2004" class="csl-entry">
+
+Ciufolini, I., and E. C. Pavlis. 2004. “A Confirmation of the General Relativistic Prediction of the Lense–Thirring Effect.” *Nature* 431: 958–60.
+
+</div>
+
+<div id="ref-everitt2011" class="csl-entry">
+
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+
+</div>
+
+<div id="ref-hedman2013" class="csl-entry">
+
+Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in <span class="nocase">Saturn’s C Ring</span> to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
+
+</div>
+
+<div id="ref-laskar1993" class="csl-entry">
+
+Laskar, J., F. Joutel, and P. Robutel. 1993. “Stabilization of the <span class="nocase">Earth’s</span> Obliquity by the Moon.” *Nature* 361: 615–17.
+
+</div>
+
+<div id="ref-luger2017" class="csl-entry">
+
+Luger, Rodrigo et al. 2017. “A Seven-Planet Resonant Chain in TRAPPIST-1.” *Nature Astronomy* 1: 0129.
+
+</div>
+
+<div id="ref-mcgaugh2016" class="csl-entry">
+
+McGaugh, Stacy S., Federico Lelli, and James M. Schombert. 2016. “Radial Acceleration Relation in Rotationally Supported Galaxies.” *Physical Review Letters* 117: 201101.
+
+</div>
+
+<div id="ref-mills2016" class="csl-entry">
+
+Mills, Sean M. et al. 2016. “A Resonant Chain of Four Transiting, Sub-Neptune Planets.” *Nature* 533: 509–12.
+
+</div>
+
+<div id="ref-morgado2023" class="csl-entry">
+
+Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar Outside Its Roche Limit.” *Nature* 614: 239–43.
+
+</div>
+
+<div id="ref-ortiz2017" class="csl-entry">
+
+Ortiz, J. L. et al. 2017. “The Size, Shape, Density and Ring of the Dwarf Planet Haumea from a Stellar Occultation.” *Nature* 550: 219–23.
+
+</div>
+
+<div id="ref-rashadaPart14" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026b. “Gravitons (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+
+</div>
+
+<div id="ref-rashadaPart23" class="csl-entry">
+
+———. 2026c. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart13" class="csl-entry">
+
+———. 2026d. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+
+</div>
+
+<div id="ref-stephenson2016" class="csl-entry">
+
+Stephenson, F. R., L. V. Morrison, and C. Y. Hohenkerk. 2016. “Measurement of the <span class="nocase">Earth’s</span> Rotation: 720 BC to AD 2015.” *Proceedings of the Royal Society A* 472: 20160404.
+
+</div>
+
+<div id="ref-turyshev2012" class="csl-entry">
+
+Turyshev, Slava G. et al. 2012. “Support for the Thermal Origin of the Pioneer Anomaly.” *Physical Review Letters* 108: 241101.
+
+</div>
+
+<div id="ref-weiss2018" class="csl-entry">
+
+Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod: Planets in a Kepler Multi-Planet System Are Similar in Size and Regularly Spaced.” *The Astronomical Journal* 155: 48.
 
 </div>
 
 </div>
 
-[^1]: See Part 19 – Graviton Coherence for discussion of structured field behavior.
+[^1]: (Rashada 2026b).
 
-[^2]: See Part 15 – Gravitons for the underlying field particle properties.
+[^2]: (Rashada 2026c).
 
-[^3]: See Part 17 – The Definition of Mass for how mass arises as field resistance.
+[^3]: (Rashada 2026a).
 
-[^4]: See Part 20 – Graviton Corridors for how directional field paths develop.
+[^4]: (Abbott et al. 2017).
 
-[^5]: See Part 18 – The Nature of Time for time as field refresh modulation.
+[^5]: (McGaugh, Lelli, and Schombert 2016).
 
-[^6]: See (Newton 1687) for classical definitions of gravitational force.
+[^6]: (Chae 2023).
+
+[^7]: (Banik et al. 2024).
+
+[^8]: (Everitt et al. 2011).
+
+[^9]: (Ciufolini and Pavlis 2004).
+
+[^10]: (Stephenson, Morrison, and Hohenkerk 2016).
+
+[^11]: (Rashada 2026d).
+
+[^12]: (Luger et al. 2017).
+
+[^13]: (Mills et al. 2016).
+
+[^14]: (Weiss et al. 2018).
+
+[^15]: (Laskar, Joutel, and Robutel 1993).
+
+[^16]: (Hedman and Nicholson 2013).
+
+[^17]: (Ortiz et al. 2017).
+
+[^18]: (Morgado et al. 2023).
+
+[^19]: (Bertotti, Iess, and Tortora 2003).
+
+[^20]: (Turyshev et al. 2012).
+
+[^21]: (Anderson et al. 2008).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
-Cite as: Rashada, S. A. (2025). The Properties of Gravitational Fields. In The Unified Framework for the Graviton Pressure Theory, part 16. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
+Cite as: Rashada, S. A. (2026). The Properties of Gravitational Fields. In The Unified Framework for the Graviton Pressure Theory, part 16. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/
 
 
 # The Definition of Mass
