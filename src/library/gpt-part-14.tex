@@ -1,0 +1,266 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{14.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{14.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{14.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 14 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries From Revelation to Foundation\par}
+\vspace{0.5cm}
+{\Large Graviton Pressure Theory, Stated in One Piece\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026 \quad (first edition 12 June 2025)\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+This paper is the turning point of the framework. What comes before it is a reckoning: an examination of how gravity is described, and of where description has been allowed to stand in for mechanism. What comes after it is the construction: the medium, its fields, mass, time, coherence, magnetism, the mathematics and the experiments.
+
+Its purpose is to state Graviton Pressure Theory in one piece, so that a reader can see the whole model before its parts are developed. Each premise is given with its status and with the part of the framework where it is worked out. What the model reproduces, what it predicts that is its own, and what it still owes are set out plainly.
+
+Claims about Graviton Pressure Theory are marked by their status, as the key shows.
+
+\statuskey
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+What precedes this point has been a necessary reckoning.
+
+We have examined abstraction, challenged orthodoxy, and exposed the conceptual shortcuts embedded in the gravitational theories that shaped the last century. Each part has pulled back a curtain: not to dismiss the insights of Newton or Einstein, but to show the gaps their successors left open and the questions they left unanswered.
+
+But deconstruction is not enough. This is the turning point. We now move into the second half of the framework: the foundation, articulation and expansion of \textbf{Graviton Pressure Theory}.
+
+GPT does not reject what has been measured. Every number that Newton and Einstein got right, it must get right too. What it restores is the thing the numbers were never given:
+\begin{itemize}
+\item It restores force where geometry obscured it.
+\item It restores directionality where equations grew silent.
+\item It restores coherence where abstraction unravelled.
+\item And above all, it restores causality, \textit{where physics lost its voice}.
+\end{itemize}
+
+\section{What the First Half Established}
+\label{sec:first}
+
+The first half of the framework makes one argument, from many sides: \textbf{description is not mechanism}. An equation can predict an outcome to many decimal places and still say nothing about what touches what, or what is exchanged. The test applied throughout, to the mainstream's explanations and to GPT's own, is the \emph{interface test}: name the interface, or mark the gap.\fn{rashadaPart1}
+\begin{itemize}
+\item \textbf{Description took the place of cause} (Part~2). Modern science traded explanation for description, and left no room for mind, meaning or purpose.\fn{rashadaPart2}
+\item \textbf{The explanations do not agree} (Part~3). Every gravitational phenomenon has a Newtonian account, a geometric account, and often a frame-force or energy account; each borrows from the others where its own runs out. Matching numbers are not matching ontology: the Reduction Conflation.\fn{rashadaPart3}
+\item \textbf{A century of advances left the mechanism open} (Part~4). General Relativity is geometrically elegant and precise, and causally incomplete; Newtonian force laws work, without a defined mechanism of transmission.\fn{rashadaPart4}
+\item \textbf{Holding is throughput} (Part~6). A held load is never at rest in the medium; a steady current of momentum passes through it into its support, and every scale reading measures that current.\fn{rashadaPart6}
+\item \textbf{Every force must name its carrier} (Part~7). No carrier for a pull has ever been named. Free fall is permission, not pull, and the push appears when the fall is stopped.\fn{rashadaPart7}
+\item \textbf{The Four re-examined} (Part~11). Falling is felt, gravity is unopposed in free fall, not cancelled, and momentum is the path a moving body carves through the medium.\fn{rashadaPart11}
+\item \textbf{The dark sector names what it cannot supply} (Parts~3 and~12). The observations behind dark matter and dark energy are real and precise; the placeholders sit exactly where a mechanism should be.\fn{rashadaPart12}
+\item \textbf{The Moon and the tides} (Part~13). The tides, both bulges, follow from one located mechanism, and reach life through structures that gather a small forcing into a large signal.\fn{rashadaPart13}
+\end{itemize}
+Parts~8 to~10, on the break with General Relativity, the existing evidence and practical applications, will be brought into line with the premises stated here. Part~12 set the standard by which every claim that follows is to be judged: \textbf{coherence, mechanism and fit with observation, together}.
+
+\section{The Model in One Piece}
+\label{sec:model}
+
+\begin{hypbar}
+Space is filled with a medium of gravitons, self-repelling, which every mass takes in and ejects. Around each mass the medium flows inward, and the speed of the inflow is set by the mass: $v^2 = 2GM/r$. As it speeds up toward the mass, its active pressure falls, $P = P_0 - \tfrac12\rho v^2$, while the count of gravitons rises. Every body in the flow is carried by the flow's acceleration, $GM/r^2$, and receives momentum from it in proportion to its own mass, at every particle at once. That is gravity.
+
+A falling body shares the medium's acceleration while the medium streams through it. A held body relays the same current of momentum into its support, and the support's reading is that current. A moving body takes in the medium faster at its leading face than at its trailing face; the imbalance is its momentum, the path it carves. A clock is a structure of medium waves, and it ticks more slowly when the medium streams past it faster, whether because the clock moves or because the medium does. Light is a wave of the medium, moving at $c$ through it, and bends where the medium flows.
+\end{hypbar}
+
+Figure~\ref{fig:model} shows the model in one picture, and Table~\ref{tab:premises} sets out its premises, each with its status and the part where it is developed.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig14-1-model.pdf}
+\caption{Graviton Pressure Theory in one picture (not to scale). The medium flows into a mass at $v^2 = 2GM/r$, and its active pressure falls toward the mass. A falling body shares the medium's acceleration, receiving momentum at every particle; a held body relays the same current into its support; a moving body carves its path by faster intake at its leading face; clocks tick more slowly where the medium streams past faster; light, a wave of the medium, bends where the medium flows. Far from the mass, where the inflow's acceleration falls to $a_0$, lies the relaxation boundary. \hyptag}
+\label{fig:model}
+\end{figure}
+
+\begin{table}[p]
+\centering
+\small
+\renewcommand{\arraystretch}{1.22}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.26\textwidth}>{\raggedright\arraybackslash}p{0.49\textwidth}>{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
+\toprule
+\textbf{Premise} & \textbf{What GPT asserts} & \textbf{Developed in} \\
+\midrule
+The medium & \hypm{Gravitons form a self-repelling medium that fills space. Matter takes it in and ejects it; the phase of the ejected medium is set by its surroundings.} & Parts 1, 15, 16; MotM \\
+The inflow & \hypm{The medium flows into every mass at $v^2 = 2GM/r$, calibrated once to Newton. Its acceleration, $GM/r^2$, is shared by every body it carries.} & Parts 1, 15, 16 \\
+Pressure & \hypm{Active pressure falls toward a mass, $P = P_0 - \tfrac12\rho v^2$ with $P_0 = \tfrac12\rho c^2$, while the count of gravitons rises.} & Parts 1, 16; MotM \\
+The scale & \hypm{$P_0 \approx 4.5\times10^{-10}$ Pa, $\rho \approx 10^{-26}$ kg/m$^3$: within the heat budget of every planet and star.} & MotM; Parts 19, 24, 25 \\
+Combining flows & \hypm{Flows combine by their pressure, not as velocities; every body is carried by the acceleration the combined pressure sets up.} & Parts 7, 16, 23 \\
+Free fall and weight & \argm{Free fall is permission; weight is push.} \hypm{A falling body shares the medium's acceleration; momentum $mg$ is delivered each second to every particle; held, the same current is relayed into the support.} & Parts 6, 7, 11 \\
+Mass & \hypm{Mass is the strength of a body's exchange with the medium; the one quantity gives both weight and inertia.} & Parts 11, 17 \\
+Momentum & \hypm{Momentum is the path a moving body carves by faster intake at its leading face; the drag is inside.} \argm{Its arithmetic is exact: energy $\gamma$, momentum $\gamma v/c$.} & Parts 11, 17; MotM \\
+Clocks & \hypm{A clock is a structure of medium waves and ticks as $\sqrt{1-v^2/c^2}$, the medium streaming past it; gravitational and motional time dilation are one effect.} & Parts 1, 18 \\
+Rulers & \hypm{Rulers contract along the flow (the river form), which reproduces the Schwarzschild solution exactly.} & Parts 1, 23 \\
+Light & \hypm{Light is a wave of the medium, moving at $c$ relative to it.} \argm{It bends by 1.75$''$ at the Sun and is delayed in passing, as measured.} & Part 1, App.~1.A \\
+Waves in the medium & \hypm{The medium carries stress as well as pressure, so it carries transverse waves at $c$: gravitational waves.} & Parts 16, 23 \\
+Contact and solidity & \hypm{Momentum entering an object is returned as solidity; the normal force is the pressure of re-activated outflow where two bodies meet.} & Parts 6, 11, 27 \\
+The energy of gravity & \hypm{A falling body's energy is paid by the medium's pressure; gravitational energy has a location.} & Parts 7, 11 \\
+Structure & \hypm{The total delivery to a body is fixed and the same for every composition; where it lands inside a structured body depends on its order and alignment.} & Parts 13, 17, 19 \\
+Shading & \hypm{Shading by absorption acts as well as the flow, bounded by the measured limits on gravitational shielding.} & Parts 1, 15 \\
+The relaxation boundary & \hypm{Far from a mass, where the inflow's acceleration falls to $a_0 \approx 1.2\times10^{-10}$ m/s$^2$, the ejected medium is recharged, and gravity changes its form.} & Parts 9, 16, 29 \\
+\bottomrule
+\end{tabular}
+\caption{The premises of Graviton Pressure Theory, with their status and the parts where they are developed. Marks follow the key: argued (solid), hypothesis (dashed).}
+\label{tab:premises}
+\end{table}
+
+\section{What the Model Reproduces}
+\label{sec:reproduces}
+
+A new account of gravity must first give back everything that is measured. \argm{GPT reproduces the following, each with a named mechanism:}
+\begin{itemize}
+\item \textbf{Free fall is the same for every body}, to one part in $10^{15}$, because momentum is delivered in proportion to mass.\fn{touboul2022}
+\item \textbf{A scale reads $mg$}, because it measures the current of momentum relayed through the held body; an accelerometer reads zero in free fall, because the delivery is uniform.
+\item \textbf{Orbits}, because a body coasting through a medium that is itself accelerating inward follows the Newtonian path; and the advance of Mercury's perihelion, 43$''$ per century, in the river form.
+\item \textbf{Clocks}: the slowing of clocks in gravity and in motion, as one effect, to the precision the GPS system requires, and the lengthened lives of fast muons.
+\item \textbf{Light}: bending by 1.75$''$ at the Sun, verified by tracing rays through the flowing medium, and the delay of signals passing the Sun.
+\item \textbf{Tides}: both bulges, the Sun's share, the solid-Earth tide, and the slowing of the Earth's spin as the Moon recedes.
+\end{itemize}
+These are not small matters. They are the tests that every theory of gravity since Newton has had to pass, and GPT passes them with a cause at each step.
+
+\section{What the Model Predicts That Is Its Own}
+\label{sec:own}
+
+A theory that only reproduces is a translation. GPT makes predictions that the standard accounts do not.
+
+\paragraph{The relaxation boundary.} \hypm{Galaxies rotate as though held by more matter than they contain, and the departure from Newton follows a single acceleration, $a_0 \approx 1.2\times10^{-10}$ metres per second squared, across many galaxies. GPT places a boundary where each mass's inflow falls to that acceleration, at $r = \sqrt{GM/a_0}$: about 7,000 astronomical units from the Sun, far beyond the planets, and 8 to 11 kiloparsecs from the centre of the Milky Way, where its rotation curve flattens.} One constant of the medium replaces a separate fit for every galaxy. This is GPT's central distinctive prediction, developed in Parts~9 and~16 and tested in Part~29.
+
+\paragraph{The scale of the medium.} \hypm{The medium's free-space pressure, $P_0 \approx 4.5\times10^{-10}$ pascals, is numerically the pressure that would be set by the critical density of the universe, and of the same size as the pressure attributed to dark energy.} The match is in magnitude only. In General Relativity the pressure of dark energy is negative, and only a negative pressure accelerates the expansion; the medium's pressure is positive. If the match is more than a coincidence, the medium must drive the expansion by a different route, as a self-repelling medium that is not confined expands, and that route must be derived. It is a hypothesis to be tested, labelled as one.
+
+\paragraph{Structure inside bodies.} \hypm{Because the medium's delivery is shared out by a body's structure, order inside living and non-living matter can change where weight falls without changing what the body weighs.} Part~13 set out the tests: rhythms in sealed vessels, a tonne of lead standing in for the Moon, and the settling of grains in living cells.
+
+\paragraph{Shading.} \hypm{Where masses line up, as in eclipses, shading by absorption may leave small signatures, bounded by the shielding limits.}
+
+\paragraph{The response of clocks.} \hypm{A clock moved into a stronger flow should settle to its new rate over a short relaxation time of the medium, rather than at once.}
+
+\section{What Remains to Be Derived}
+\label{sec:remains}
+
+The model owes these derivations, and the parts that follow take them up:
+\begin{itemize}
+\item \openm{The full rule by which flows combine by pressure, for two and many bodies.}
+\item \openm{The transverse waves of the medium, at exactly $c$, with the two polarisations of gravitational waves.}
+\item \openm{The rate and range of re-activation at contact, and the range of stiffness from rubber to diamond.}
+\item \openm{A quantitative account of the Cavendish torsion balance.}
+\item \openm{The route by which energy passed through a held body returns to the medium.}
+\end{itemize}
+Each is a question with a definite answer. None is a placeholder: in each, the interface is named, and the derivation is owed.
+
+\section{The Road Ahead}
+\label{sec:road}
+
+From here, the framework unfolds constructively:
+\begin{itemize}
+\item \textbf{The graviton} (Part~15): the carrier, not as a placeholder particle, but as the constituent of the medium.
+\item \textbf{The field} (Part~16): the medium's structure around a mass: inflow, pressure, the relaxation boundary, and waves.
+\item \textbf{Mass} (Part~17): mass as the strength of a body's exchange with the medium, and momentum as its carved path.
+\item \textbf{Time} (Part~18): clocks as structures of the medium, and time dilation as one effect.
+\item \textbf{Coherence and structure} (Parts~19 and~20): order in matter, and how it shares out the medium's delivery.
+\item \textbf{Magnetism} (Parts~21 and~22): the magnet as structured outflow, and the materials that make it.
+\item \textbf{The mathematics and the units} (Parts~23 to~25): the equations of the medium, its units and its constants.
+\item \textbf{Planets, force and resonance} (Parts~26 to~28): planetary mechanics, the forces of nature, and transmission through the medium.
+\item \textbf{The experiments} (Part~29): where GPT and the standard accounts part ways, and how to tell them apart.
+\item \textbf{Conclusion} (Part~30).
+\end{itemize}
+Each part will be judged by the standard of Part~12: coherence, mechanism and fit with observation.
+
+This is not the continuation of General Relativity.\\
+This is the ground it never had.
+
+Welcome to the foundation.\\
+Welcome to the second beginning.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition (12 June 2025) and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was. The first edition's purpose, its voice and its closing lines are kept.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item The paper now states the model in one piece: a summary of the mechanism, a figure, and a table of seventeen premises, each with its status and the part where it is developed.
+\item Four decisions are stated as premises (9 November 2026): rulers contract along the flow (the river form), which gives the Schwarzschild solution exactly and Mercury's 43$''$ per century; the medium's scale is $P_0 \approx 4.5\times10^{-10}$ Pa, within the heat budget; the medium carries stress as well as pressure, and so transverse waves; and the relaxation boundary at $a_0$ is GPT's central distinctive prediction.
+\item The summary of the first half is corrected. The first edition said modern cosmology ``has survived not through precision, but through patchwork assumptions''; cosmology is precise, and what it lacks is mechanism.
+\item The promise that the field ``explains everything from planetary motion to time dilation, galactic rotation to gravitational lensing, biological tides to quantum cohesion'' is replaced by three accounts: what the model reproduces, what it predicts that is its own, and what it still owes.
+\item ``GPT is not a speculative replacement'' becomes ``GPT does not reject what has been measured'': much of GPT is a hypothesis, marked as one, and the claim it can defend is that it restores cause.
+\item ``Governs motion'' is scoped to gravitational motion: living bodies move themselves (Part~7).
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The subtitle changes from \emph{Transitioning into Graviton Pressure Theory} to \emph{Graviton Pressure Theory, Stated in One Piece}.
+\item ``Pressure corridors'' and ``coherent directional force'' are not used here; their place in the framework will be settled when Parts~19 to~22 are revised.
+\item The road ahead is given by topic, and will be brought into line as each later part is revised.
+\item An ``About This Paper'' section, a figure, a table, status marks and this list are added.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part14}
+
+\end{document}

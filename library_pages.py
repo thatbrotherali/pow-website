@@ -17,7 +17,7 @@ DATES = {"framework": "2025-06-12", "transitional-mechanics": "2025-06-12", "wha
          "from-gr-to-gpt": "2025-03-18", "reduction-conflation": "2026-10-03", "paradox-of-the-boulder": "2026",
          "causal-audit-of-motion": "2026", "structure-before-uncertainty": "2026-01-04", "mechanics-of-the-medium": "2026-10-12",
          "logical-closure-of-the-ep": "2026-10-28", "operational-constraints-of-the-ep": "2026-10-28",
-         "gpt-part-01": "2026-11-03", "gpt-part-02": "2026-11-03", "gpt-part-03": "2026-11-03", "gpt-part-04": "2026-11-03", "gpt-part-06": "2026-11-08", "gpt-part-07": "2026-11-08", "gpt-part-11": "2026-11-08", "gpt-part-13": "2026-11-09", "gpt-part-12": "2026-11-09",
+         "gpt-part-01": "2026-11-03", "gpt-part-02": "2026-11-03", "gpt-part-03": "2026-11-03", "gpt-part-04": "2026-11-03", "gpt-part-06": "2026-11-08", "gpt-part-07": "2026-11-08", "gpt-part-11": "2026-11-08", "gpt-part-13": "2026-11-09", "gpt-part-12": "2026-11-09", "gpt-part-14": "2026-11-09", "gpt-part-23": "2026-11-09",
          "plan": "2025", "new-morality": "2025-07-28", "cosmic-mind": "2025-03-08"}
 
 PAPERS = [  # order, plain description
@@ -277,7 +277,7 @@ def build(B):
                                        else PROGRAMMES[e["programme"]] + " · The Plan to End Poverty" if e["coll"] == "working" else coll_name[e["coll"]])
         mj = ""
         if 'class="math' in frag:
-            mj = ('\n<script>window.MathJax={tex:{inlineMath:[["\\\\(","\\\\)"]],displayMath:[["\\\\[","\\\\]"]]},'
+            mj = ('\n<script>window.MathJax={tex:{inlineMath:[["\\\\(","\\\\)"]],displayMath:[["\\\\[","\\\\]"]],tags:"ams"},'
                   'chtml:{scale:1.05,matchFontHeight:true},options:{enableMenu:false}};</script>'
                   '\n<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>')
         B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e) + mj + vld, e["date"])

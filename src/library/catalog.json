@@ -138,11 +138,13 @@
   {
    "slug": "gpt-part-14",
    "title": "From Revelation to Foundation",
-   "subtitle": "Transitioning into Graviton Pressure Theory",
-   "words": 321,
-   "lead": "We have dismantled abstraction, challenged orthodoxy, and exposed the conceptual shortcuts embedded within the gravitational theories that shaped the last century. Each chapter has pulled back the curtain: not to dismiss the insights of Newton or Einstein, but to reveal the gaps their successors ignored and the questions they left unanswered.",
-   "source": "Part 14 - Transitioning into GPT.tex",
-   "part": 14
+   "subtitle": "Graviton Pressure Theory, Stated in One Piece",
+   "words": 3077,
+   "lead": "The turning point of the framework. Graviton Pressure Theory is stated in one piece: the mechanism, a figure, and its seventeen premises with their status, followed by what the model reproduces, what it predicts that is its own, and what it still owes.",
+   "source": "Part 14 - From Revelation to Foundation (2nd ed.).tex",
+   "part": 14,
+   "path": "from-revelation-to-foundation",
+   "pdf": true
   },
   {
    "slug": "gpt-part-15",
@@ -218,12 +220,14 @@
   },
   {
    "slug": "gpt-part-23",
-   "title": "The Mathematical foundation",
-   "subtitle": "Empirical Foundation of Graviton Pressure Theory",
-   "words": 2665,
-   "lead": "Graviton Pressure Theory (GPT) advances gravitational understanding beyond the abstract curvature of spacetime by grounding gravity in anisotropic pressure gradients of a real, directional graviton field. This section establishes the mathematical and empirical basis of GPT, detailing the equations that govern graviton pressure dynamics and their effects on time dilation, orbital mechanics, gravitational lensing, and frame-dragging. GPT redefines these phenomena as interactions within a pressurized medium, offering causal clarity and predictive precision. GPT departs from General Relativity’s abstract geometries and introduces testable mechanisms with explicit field interactions and measurable responses. A suite of proposed experiments—spanning particle decay, gravitational redshift, wave detection, biological entrainment, and accelerator physics— demonstrates the theory’s empirical viability. These experiments serve to validate GPT’s testable claims while also expanding the frontier of gravitational science, integrating physics, biology, and cosmology into a coherent, measurable framework of interaction.",
-   "source": "Part 23 - Mathematical foundation.tex",
-   "part": 23
+   "title": "The Mathematical Foundation",
+   "subtitle": "The Equations of the Medium, and What They Reproduce",
+   "words": 4444,
+   "lead": "The equations of the medium: inflow, pressure, continuity, combining flows, clocks, rulers, light, motion, rotation, waves, scale and the relaxation boundary. A flowing medium in flat space reproduces General Relativity's predictions for a single mass exactly; GPT supplies the cause, and one prediction of its own at the scale of galaxies.",
+   "source": "Part 23 - The Mathematical Foundation (2nd ed.).tex",
+   "part": 23,
+   "path": "the-mathematical-foundation",
+   "pdf": true
   },
   {
    "slug": "gpt-part-24",
