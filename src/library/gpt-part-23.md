@@ -85,7 +85,7 @@ A clock is a structure of medium waves, and it ticks more slowly the faster the 
 
 **\[End of passage\]**
 
-For a clock held still ($\mathbf{u}=0$), the medium streams past at the inflow speed, and Equations <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a> and <a href="#eq:clock" data-reference-type="eqref" data-reference="eq:clock">[eq:clock]</a> give $$\frac{d\tau}{dt} = \sqrt{1 - \frac{2GM}{c^2 r}} = \sqrt{\frac{P}{P_0}}.$$ Gravitational and motional time dilation are one effect: both are the speed of the medium through the clock. **\[Argued\]** The rate depends on where the clock is and how it moves, not on what it is made of. Every kind of clock compared so far, from caesium and hydrogen masers to optical clocks of strontium, ytterbium, aluminium and mercury ions, slows by the same factor.
+For a clock held still ($\mathbf{u}=0$), the medium streams past at the inflow speed, and Equations <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a> and <a href="#eq:clock" data-reference-type="eqref" data-reference="eq:clock">[eq:clock]</a> give $$\frac{d\tau}{dt} = \sqrt{1 - \frac{2GM}{c^2 r}} = \sqrt{\frac{P}{P_0}}.$$ Gravitational and motional time dilation are one effect: both are the speed of the medium through the clock. **\[Argued\]** Each clock’s own rate is set by its structure: a caesium clock ticks about 9.2 billion times a second and a strontium clock about 429 trillion, and a change in a clock’s order, temperature or stress changes its rate. The factor by which the medium’s speed slows that rate depends on where the clock is and how it moves, and is the same for every kind of clock compared so far: **\[Argued\]** nuclear transitions (the iron-57 gamma rays of the Pound–Rebka tower), caesium and hydrogen masers, optical clocks of strontium, ytterbium, aluminium and mercury ions, and the weak-force decay of muons. Whether a change in a clock’s internal order alters that factor has not been tested. **\[Open\]**
 
 #### Checks.
 
@@ -260,6 +260,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - The proposed tests of particle lifetimes underground and at altitude are moved to Part 29: the predicted differences are about one part in $10^{12}$ per ten kilometres of height, the same as in General Relativity. The proposals for detectors, biological sensor arrays, chronobiology in space and accelerator tests are likewise moved to Part 29, where they are set beside the framework’s distinctive predictions.
 
 ## Clarifications
+
+- Section on clocks (corrected 9 November): each clock’s own rate is set by its structure; what is the same for every kind of clock is the factor by which the medium’s speed slows it. An earlier wording of this edition said the rate does not depend on what the clock is made of. Whether a change of internal order alters the factor is marked open.
 
 - The subtitle changes from *Empirical Foundation of Graviton Pressure Theory* to *The Equations of the Medium, and What They Reproduce*.
 

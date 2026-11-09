@@ -232,7 +232,7 @@ In the classical picture, attraction is one-sided: the attracting body acts, and
 
 The attracting body does not reach out. It takes in the medium and ejects it, continuously, and in doing so it sets up the inward flow around it. The larger its mass, the stronger the flow. Every body does this, even the smallest; there is no matter that does nothing to the medium.
 
-The moving body shares that flow’s acceleration. What it is made of does not matter: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
+The moving body shares that flow’s acceleration. What it is made of does not change how it falls: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.[^25] Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
 
 What used to be called “being pulled” by another mass is a body moving in a flow it did not set up. The attractor is not issuing a command. It is setting the conditions under which bodies fall. And because the flow it sets up acts on everything nearby, the moving body sets up its own flow in turn, which acts on the attractor. That is the reciprocal.
 
@@ -503,6 +503,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - Free fall: a falling body shares the medium’s acceleration while the medium streams through it, and receives momentum at $mg$ every second, to every particle at once. The accelerometer’s zero shows uniform delivery, not absence; real falls are felt. Questions this edition first left open (atomic structure, the rope’s tension, Maxwell’s stress, bonds, magnets, the combination of flows, Cavendish, reciprocity) are now answered in the text, marked as hypotheses.
 
 ## Clarifications
+
+- Section 7.8 (9 November): “what it is made of does not matter” is scoped to “does not change how it falls”. A body’s structure matters to much else, including where the delivery lands inside it (Part 13).
 
 - The rope in a tug of war is added as a pull that passes the test, and shows where its open question lies.
 
