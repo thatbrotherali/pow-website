@@ -1,0 +1,428 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{17.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{17.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{17.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 17 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries The Definition of Mass\par}
+\vspace{0.5cm}
+{\Large Energy Slowed Down: Matter as Sustained Circulation in the Medium\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026 \quad (first edition 2025)\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+This paper says what mass is. Physics measures mass with great precision and names its properties, but does not say what it is. GPT proposes that matter is energy slowed down: motion of the medium at the speed of light, wound into a knot so that it goes nowhere, and kept in being by a continual turnover of the medium through it. The paper sets out the evidence that matter is confined motion, the scale at which that motion runs, the turnover that sustains them, why inertia and weight are one exchange, what changes a body's mass and by how much, the numbers of particles, atoms, nuclei and stars, why gravity is weak, and the numbers still to be derived. It marks what is measured, what GPT proposes, and what is still to be derived.
+
+The graviton is in Part~15, the field in Part~16, the equations of the medium in Part~23, and the model as a whole in Part~14.\fn{rashadaPart15}\fn{rashadaPart16}\fn{rashadaPart23}\fn{rashadaPart14} Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Mass is measured more precisely than almost anything in physics. A body's resistance to being pushed and its weight agree, for every material tested, to one part in $10^{15}$.\fn{touboul2022} A body's mass rises with every joule of energy added to it and falls with every joule taken away, in the ratio $E = mc^2$. These are among the best-established facts there are.
+
+What mass \emph{is} has no answer in the standard account. Newton defined it by the force needed to accelerate it; General Relativity makes it a source of spacetime curvature; the Standard Model gives each elementary particle a number for its coupling to a field that fills all space, measured and not derived. Each describes how mass behaves. None says what is there.
+
+GPT's first edition defined mass as a structure's resistance to the flow of the medium. That instinct is kept: \hypm{mass is a relation between a pattern and the medium it is made of.} This edition says what the pattern is, what the relation is, and why the measured facts follow.
+
+One principle guides it. The universe began hot and energetic, expanded and cooled, and everything in it came from that one beginning. So nothing can be made of anything else: each thing is a later phase or process of what came before, cooled energy settled into some form. The medium is the first such form; light is its travelling wave; matter is its knotted circulation; nuclei, atoms and everything after are made of the knots. ``Fundamental'' means earliest, not uncaused. How knots form, why they need three dimensions, and how they build nuclei and atoms is the subject of Part~19, \emph{The Pathway to Matter}. This paper is about what confined energy does, and about its numbers.
+
+\section{What Mass Measures}
+\label{sec:measures}
+
+\argm{Mass is measured in three ways, and they always agree.} \emph{Inertial} mass is how hard a body is to accelerate. \emph{Passive gravitational} mass is how strongly it is carried toward another mass; torsion balances and the MICROSCOPE satellite find it in the same ratio to inertial mass for every material, to one part in $10^{15}$. \emph{Active gravitational} mass is how strongly a body draws other bodies toward it; ranging to the Moon, whose iron core and rocky mantle would pull unequally if active and passive mass differed, finds them equal to about one part in $10^{12}$.\fn{bartlett1986}
+
+\argm{Mass is energy.} Every change in a body's energy changes its mass by $\Delta m = \Delta E/c^2$:
+\begin{itemize}
+\item \textbf{Heat.} Warming a kilogram of water by 100 degrees adds 419 kilojoules and $4.7\times10^{-12}$ kilograms.
+\item \textbf{Binding.} A helium nucleus weighs 0.76 per cent less than the two protons and two neutrons it is made of; the difference is the energy released in binding them.
+\item \textbf{Motion.} A body's energy, and its resistance to further acceleration, rise as $\gamma = 1/\sqrt{1-v^2/c^2}$. Electrons at the LEP collider reached $\gamma \approx 2\times10^5$.
+\item \textbf{Stored energy.} A phone battery charged with 15 watt-hours gains $6\times10^{-13}$ kilograms.
+\item \textbf{Phase changes.} Freezing a kilogram of water releases 334 kilojoules; the ice has less mass by $3.7\times10^{-12}$ kilograms.
+\end{itemize}
+The conservation of mass in chemistry is the conservation of energy, at energies too small for $\Delta E/c^2$ to be weighed. Any account of mass must give all of this exactly.
+
+\section{Matter Is Energy Slowed Down}
+\label{sec:slowed}
+
+\begin{hypbar}
+Matter is motion of the medium at the speed of light, confined to a small region so that it goes nowhere. Its energy is the energy of that motion; its mass is that energy divided by $c^2$; and its rest is an average over motion at $c$.
+\end{hypbar}
+
+The mainstream already contains most of the evidence for this, without drawing the conclusion.
+
+\paragraph{A box of light has mass.} Light trapped between two mirrors carries energy $E$ but, bouncing back and forth, goes nowhere. The box with the light in it weighs more, by $E/c^2$, and it is harder to accelerate by the same amount. The reason is mechanical (Figure~\ref{fig:box}). Push the box, and the rear mirror moves into the light arriving at it, which strikes it shifted up in frequency and pushes harder; the front mirror moves away from the light arriving at it, which strikes shifted down and pushes less. The light resists the acceleration, and the resistance comes out exactly $m = E/c^2$. \argm{Trapped motion at $c$ behaves as mass, with inertia, from the imbalance of what it delivers to front and back.}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.98\textwidth]{fig17-1-box.pdf}
+\caption{A mirrored box of light. At rest, the light pushes both mirrors equally. Accelerated, the rear mirror meets the light and is pushed harder than the front, which runs from it: the trapped light resists the acceleration as a mass $E/c^2$.}
+\label{fig:box}
+\end{figure}
+
+\paragraph{The arithmetic of the box.} Let the trapped light be two pulses, each of energy $E/2$, running opposite ways. Move the box at speed $v$, with $\beta = v/c$. The pulse running forward is shifted up in frequency by the factor $k = \sqrt{(1+\beta)/(1-\beta)}$, and the pulse running back is shifted down by $1/k$. Their total energy and momentum are then
+\begin{equation}
+E_{\text{box}} = \frac{E}{2}\left(k + \frac1k\right) = \gamma E,
+\qquad
+p_{\text{box}} = \frac{E}{2c}\left(k - \frac1k\right) = \gamma\,\frac{E}{c^2}\,v ,
+\label{eq:box}
+\end{equation}
+with $\gamma = 1/\sqrt{1-\beta^2}$. \argm{That is exactly the energy and momentum of a body of mass $m = E/c^2$ moving at $v$.} Nothing was assumed about mass: the light had none. The factor $k$ is the same one that sets the leading and trailing exchanges of a moving body in GPT (Part~23): a moving body's momentum is the imbalance between its front and back. Pushing on Equation~\eqref{eq:box} gives inertia its measured shape at high speed: a body resists a push along its motion as $\gamma^3 m$ and across it as $\gamma m$.
+
+\paragraph{The proton is almost all confined motion.} The three quarks in a proton account, by their own masses, for about one per cent of its mass. The rest is the energy of the motion and binding confined inside it.\fn{yang2018} A calculation from the theory of the strong force divides the proton's mass roughly into a tenth from the quarks' own masses and their interaction with the vacuum, about a third from the quarks' motion, about a third from the energy of the field that binds them, and about a quarter from a quantum effect of that field.\fn{yang2018} \argm{Most of the mass of everything that can be touched is confined energy.}
+
+\paragraph{The electron moves at $c$.} Dirac's equation for the electron, one of the best-tested equations in physics, says that at every instant the electron's velocity is $\pm c$. What is seen as its motion is an average over a rapid trembling, which Schr\"odinger named \emph{Zitterbewegung}: about $10^{21}$ times a second over a distance near the electron's Compton wavelength.\fn{schrodinger1930} It is too fast to observe in a free electron, but the same equation has been reproduced in trapped ions, and the trembling seen.\fn{gerritsma2010}
+
+\paragraph{An electron cannot be made smaller.} Trying to confine an electron within less than its Compton wavelength, $2.4\times10^{-12}$ metres, does not produce a smaller electron. It produces new pairs of electrons and positrons.
+
+\paragraph{Matter and light turn into each other.} An electron and a positron that meet become two flashes of light. Light with enough energy, passing a nucleus, becomes an electron and a positron;\fn{anderson1933} and in collisions of light with light alone, pairs of matter have been made from nothing but light.\fn{star2021} \argm{Matter is made of the same thing light is made of, in another form.} In GPT that thing is the medium: light is the medium's travelling wave, and matter is its confined circulation.
+
+\section{The Numbers of a Particle}
+\label{sec:scale}
+
+If an electron is circulation at $c$ carrying its spin, $\hbar/2$, its momentum $m_e c$ goes round a loop of radius
+\begin{equation}
+r = \frac{\hbar}{2 m c},
+\label{eq:loop}
+\end{equation}
+and every other number follows from its mass. Table~\ref{tab:numbers} gives them for the elementary particles, the electron, muon and tau, from Equation~\eqref{eq:loop}, and for two composite particles, the pion and the proton, from their measured sizes.
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \textbf{Mass} & \textbf{Loop radius} & \textbf{Turns} & \textbf{Acceleration} & \textbf{Force to} \\
+ & (MeV) & (m) & (per second) & (m/s$^2$) & \textbf{hold it} (N) \\
+\midrule
+Electron & 0.511 & $1.9\times10^{-13}$ & $2.5\times10^{20}$ & $4.7\times10^{29}$ & 0.42 \\
+Muon & 105.7 & $9.3\times10^{-16}$ & $5.1\times10^{22}$ & $9.6\times10^{31}$ & $1.8\times10^{4}$ \\
+Tau & 1777 & $5.6\times10^{-17}$ & $8.6\times10^{23}$ & $1.6\times10^{33}$ & $5.1\times10^{6}$ \\
+Pion (measured size) & 139.6 & $6.6\times10^{-16}$ & $7.2\times10^{22}$ & $1.4\times10^{32}$ & $3.4\times10^{4}$ \\
+Proton (measured size) & 938.3 & $8.4\times10^{-16}$ & $5.7\times10^{22}$ & $1.1\times10^{32}$ & $1.8\times10^{5}$ \\
+\bottomrule
+\end{tabular}
+\caption{What a particle is doing while it appears to rest, if its energy circulates at $c$: loop radius, turns per second $c/2\pi r$, acceleration $c^2/r$, and the force $mc^2/r$ needed to keep its momentum on the loop. \hyptag}
+\label{tab:numbers}
+\end{table}
+
+\paragraph{Dirac's equation already contains the loop.} \argm{The trembling of Dirac's electron runs at $2m_ec^2/\hbar \approx 1.55\times10^{21}$ radians a second, which is $2.5\times10^{20}$ cycles a second, over an amplitude of $\hbar/2m_ec$.} Those are exactly the turns per second and the loop radius of Equation~\eqref{eq:loop}. A loop at $c$ carrying the electron's spin and the trembling Dirac found in his equation are the same motion, described twice.
+
+\paragraph{The magnetic moment.} The electron's magnetic moment, measured to thirteen figures, is $g = 2.00231930436$ times what its spin would give if its charge circulated like its mass. A simple charged loop at $c$ carrying spin $\hbar/2$ gives $g = 1$; models in which the energy is shared between the circulation and the field around it give $g = 2$.\fn{hestenes1990} The remaining $0.00116$ is, to within $0.15$ per cent, $\alpha/2\pi$, where $\alpha \approx 1/137$ is the strength of the electron's coupling to light: the first correction for the electron's interaction with its own field. \hypm{In GPT, that is the knot's interaction with its own counterflow.} \openm{Deriving the 2, and then the correction, is the test of the full pattern.}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.92\textwidth]{fig17-3-scale.pdf}
+\caption{Accelerations, from the Earth's surface to the circulation inside matter, on a logarithmic scale. The circulation figures assume matter's energy runs at $c$ around a loop of the particle's size. \hyptag}
+\label{fig:scale}
+\end{figure}
+
+\argm{``Rest'' is the most extreme motion there is,} wrapped so that it looks still (Figure~\ref{fig:scale}). That is the deepest form of GPT's premise that nothing is at rest. It has three consequences already met in this framework.
+\begin{itemize}
+\item \textbf{Clocks and rods.} A moving body's circulation must still run at $c$ through the medium, so each of its cycles takes longer and the pattern settles squashed along its motion: the slowing of clocks and the squashing of rods, by the same factor (Part~23).
+\item \textbf{Phase.} The phase of matter is the phase of a rhythm of $10^{20}$ or more a second. That is why the medium's interactions are so fine-grained, and why the pattern a body writes into its counterflow is regular enough to build shells (Part~16).
+\item \textbf{The electron still looks like a point.} Collisions find no size in the electron down to about $10^{-18}$ metres. So the loop is the \emph{path} of something much smaller moving at $c$, not a ring spread out over $10^{-13}$ metres.
+\end{itemize}
+
+\section{The Turnover in Three Dimensions}
+\label{sec:turnover}
+
+\begin{hypbar}
+Matter is kept in being by a cycle that runs through it and out into space (Figure~\ref{fig:cycle}).
+\begin{enumerate}
+\item \textbf{Arrival.} In-phase gravitons arrive at a knot from every direction, pressing. Around a lone knot the arrivals balance, and there is no net push. But the knot continually turns pressing medium into neutral medium, so the region around it holds slightly fewer pressing gravitons than the region far away. That deficit is a pressure gradient, and the medium drifts gently inward down it: the drift is the field, $v^2 = 2GM/r$.
+\item \textbf{Transfer.} A graviton reaching the knot meets its phase boundary and is drawn into step with the circulation, as one oscillator locks onto a stronger one nearby. The self-repulsive energy it had from being in step with its surroundings goes into the circulation.
+\item \textbf{Departure.} It leaves carrying the knot's phase: neutral to the surrounding pressure, but moving and carrying momentum. It travels out through the rest of the body, past its edges and into space, as the counterflow, carrying the pattern of the body's spin and motion (Part~16).
+\item \textbf{Return.} Far out, the surrounding medium brings the neutral gravitons back into step. That re-phasing is the relaxation boundary (Part~15). In phase again, they press again, and are available to flow in again.
+\end{enumerate}
+\textbf{Matter is a turnover, not a lump,} and matter and the medium are partners in one circulation. The pattern lasts while the medium passing through it changes, as a whirlpool or a flame keeps its shape while water or fuel passes through.
+\end{hypbar}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.8\textwidth]{fig17-5-cycle.pdf}
+\caption{The turnover. In-phase medium is pressed in; its pressing energy goes into the circulation of the body's knots; it leaves neutral, carrying the knots' phase and the energy as motion; far away it is re-phased and available to flow in again. \hyptag}
+\label{fig:cycle}
+\end{figure}
+
+The first edition said that mass is ``not a frozen property'': that ``each moment of graviton interaction reaffirms'' it, and that mass is ``the stabilized echo of resistance in a perpetually refreshed field''. It also said that gravitons are absorbed, depositing energy. Both are kept, and joined: the deposit is what keeps the pattern in being.
+
+\paragraph{Where the energy goes.} In a steady state a knot does not grow, so the energy it takes in must leave. \hypm{It leaves as the motion of the neutral gravitons: pressing energy in, energy of motion out, with the knot as the converter. Far away, re-phasing turns that motion back into pressing energy, closing the loop of energy as well as of flow.} Whatever escapes the loop as heat is bounded by the Earth's heat budget, which is how the medium's density was fixed (Part~23); whatever stays is accretion, at most about two kilograms a year for the whole Earth (Part~16).
+
+\paragraph{Why every electron is the same.} Every electron has the same mass, and so does every proton. On a picture in which each particle carries a stored amount from its birth, that is a coincidence of origin. \hypm{On the turnover it follows: a knot's energy is the balance between what it takes in and what it sheds for its winding, as every whirlpool in a given current settles to the same size. Mass is an equilibrium set by the medium, not an amount each particle carries.} That gives a test. Where the medium's state differed, masses would differ. \argm{The ratio of the proton's mass to the electron's was the same seven billion years ago, in light absorbed by molecules in a distant galaxy, to about one part in $10^7$,}\fn{bagdonaite2013} so the medium's state, as knots feel it, has been steady at least that long.
+
+\paragraph{Why a body's draw follows its energy.} \hypm{A knot takes in a fixed amount of the medium with each turn of its circulation.} It cannot be area that sets the intake: a heavier particle is a smaller knot, its size falling as one over its mass. But its turns per second are its energy divided by $h$, so a fixed take per turn makes its intake proportional to its energy. In a body of many knots every circulation contributes; binding lowers the circulating energy, and the intake falls with it. \argm{So a body's draw on the medium, its active gravitational mass, follows its total energy, binding included,} which is what the Moon's ranging shows, and it puts the relaxation boundary at one acceleration, $a_0$, around every mass (Part~15). \openm{The size of the take per turn is owed.}
+
+\paragraph{Why matter is nearly transparent.} If each knot took most of what reached it, the outer knots of a body would starve the inner ones, and mass would depend on shape, as in Le Sage's shadowing theory. Mass adds exactly, and gravitational shielding is bounded far below what such shadowing needs. \argm{So each knot takes only a tiny share of what passes, and the medium flows through matter almost freely,} as neutrinos pass through the Earth. Every knot in a body receives its share, and the body's total is their sum.
+
+\paragraph{What makes a particle an entity.} A knot's material is replaced continually, so its identity cannot lie in its material. \hypm{It lies in what the turnover cannot change: its winding (its charge and its baryon or lepton number), its handedness, its spin and its balance energy.} These are exactly the quantities conserved in every interaction. A particle persists as a whirlpool does: as the invariants of a pattern the flow passes through.
+
+\paragraph{Holding and supplying are different jobs.} The medium's free-space pressure, $P_0 \approx 4.5\times10^{-10}$ pascals, acting over an electron-sized area, gives a force of about $10^{-35}$ newtons, some $10^{34}$ times too small to hold an electron's circulation on its loop. \hypm{So the surrounding pressure does not hold a particle together. The knot holds itself, by the phase boundary it makes and the stiffness of the in-phase medium against it, and its strands are kept apart by their common phase (Part~19); the inflow supplies the turnover.} Kelvin proposed in 1867 that atoms are knotted vortices of a medium;\fn{kelvin1867} his version failed on the spectra of atoms, but stability from knotting survived, in Skyrme's particles and their successors.\fn{skyrme1962}
+
+\paragraph{A second role for the counterflow.} The departing gravitons are neutral to the surrounding pressure, but they carry the knot's phase. Passing through other knots, they meet a phase that is in step or out of step with it. \hypm{If charge is the phase a knot emits (Part~19), the counterflow is gravitationally neutral and electrically active at once,} and in a neutral atom equal and opposite phases cancel at a distance.
+
+\section{Inertia, Falling and Weight}
+\label{sec:inertia}
+
+\begin{hypbar}
+Each of the three masses has its interface.
+\begin{itemize}
+\item \textbf{Inertial mass} is the confined circulation. Pushed, the circulation's turning is unbalanced front to back, as in the box of light, where what turns it is the knot's own boundary in place of mirrors. A moving body's imbalance is its momentum, and it costs nothing to keep (Part~23); the resistance to changing it is inertia, and its size is the circulating energy.
+\item \textbf{Passive gravitational mass}: \textbf{a pattern of the medium is carried by the medium.} Matter is circulation of the medium, so when the medium accelerates toward a mass, the pattern goes with it. Every body falls alike because every body is made of the medium it falls in.
+\item \textbf{Active gravitational mass} is the body's draw on the medium: a fixed take per turn, so proportional to its energy (Section~\ref{sec:turnover}).
+\end{itemize}
+Weight is the support's relay of the push needed to keep the pattern from being carried (Part~11).
+\end{hypbar}
+
+\argm{Inertial and passive gravitational mass agree for every material because both follow from what matter is: circulation of the medium.} Active mass agrees with them because the take per turn makes a body's draw follow the same energy. The first edition held that inertia and gravity are ``resistance within the graviton field''. What changes is what the resistance is: not a static impedance, but the circulation of the pattern and its turnover, whose size is the pattern's energy.
+
+The exchange also gives inertia its measured shape at high speed. Along the motion a body resists further acceleration as $\gamma^3 m$, across it as $\gamma m$: the longitudinal and transverse masses of relativistic mechanics, confirmed in every particle accelerator.
+
+\paragraph{Motion is a relation with the medium.} The first edition said there is no universal tendency to continue motion. That is withdrawn: spacecraft coast for decades. But the instinct behind it is kept. A body's motion is not a property it has in isolation; it is its relation with the medium, and it continues because of that relation, not in spite of it.
+
+\section{What Changes a Body's Mass}
+\label{sec:changes}
+
+The first edition listed what changes mass, and the direction of every change it gave is right. What it lacked was the size. In this edition each change has the size measurement requires: $\Delta E/c^2$, no more (Table~\ref{tab:changes}).
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.41\textwidth}@{}}
+\toprule
+\textbf{Change} & \textbf{First edition} & \textbf{Measured} \\
+\midrule
+Heating & Raises mass & Raises it by $\Delta E/c^2$: $+4.7\times10^{-12}$ kg for a kilogram of water warmed by 100 degrees \\
+Binding & Reduces mass & Reduces it by the binding energy$/c^2$: 0.76\% for helium \\
+Stress & Raises mass & Raises it by the stored elastic energy$/c^2$ \\
+Speed & Raises resistance & Raises it as $\gamma$ (across) and $\gamma^3$ (along) \\
+Melting & Raises mass & Raises it by the latent heat$/c^2$: $+3.7\times10^{-12}$ kg per kilogram of ice \\
+Depth in a field & Raises resistance & Unchanged locally; seen from far away, a body lowered toward a mass has less energy, by $GMm/r$: $7\times10^{-10}$ of its mass at the Earth's surface \\
+\bottomrule
+\end{tabular}
+\caption{What changes a body's mass. The first edition's directions are right except for depth in a field; the sizes are $\Delta E/c^2$.}
+\label{tab:changes}
+\end{table}
+
+\paragraph{Coherence and structure.} \argm{For materials as they are, mass tracks energy, binding included, to about one part in $10^{12}$,} because materials whose nuclei hold different fractions of binding energy fall alike to one part in $10^{15}$. A material's order changes its mass by the energy the order holds, and no more. The first edition's ``equal matter, different mass'' is restated: equal \emph{energy}, equal mass; and the structure of a body decides where in it the medium's delivery lands, not its total (Part~15).
+
+\paragraph{Mass from surroundings: a real effect at another level.} The first edition's environmental mass has a true counterpart. An electron moving through a crystal responds to a push as if it had a different mass, because it moves in constant exchange with the lattice around it: in gallium arsenide about 0.067 of its free mass, and in some metals hundreds of times its free mass.\fn{stewart1984} The electron's own mass does not change; its \emph{effective} mass is set by its interaction with its surroundings. \argm{That is inertia arising from exchange with a surrounding medium, measured in the laboratory every day.} GPT proposes that a body's own mass arises the same way, from its exchange with the medium of space.
+
+\paragraph{Changing mass beyond $\Delta E/c^2$.} The first edition proposed mass-tuning devices. Changing mass by more than $\Delta E/c^2$ is not excluded by measurement in every form, but it is bounded: spinning rotors weigh normally.\fn{faller1990} \openm{Whether a body changing its order weighs differently while it changes is open, and an experiment is under way to weigh the energy released when a material becomes superconducting.}\fn{calloni2014} It is a test for Part~29.
+
+\section{Mass in Atoms, Nuclei and Stars}
+\label{sec:binding}
+
+\paragraph{The atom.} \argm{A hydrogen atom weighs less than a free proton and a free electron by its binding energy, 13.6 electronvolts: $1.45\times10^{-8}$ of its mass.} Its numbers fit the circulation picture closely. The electron in hydrogen's lowest state moves at $\alpha c$, about 2,190 kilometres a second, so \hypm{the electron moves round the atom at $1/137$ of the speed at which its own energy circulates.} And the atom's radius, $5.29\times10^{-11}$ metres, is the electron's circulation scale, $\hbar/m_e c$, divided by $\alpha$: the atom is 137 times larger than the electron's own loop. The number $\alpha \approx 1/137.036$ is the strength with which one charged pattern couples to another; \openm{why it has that value is unexplained in every theory, and is owed.}
+
+\paragraph{Nuclei.} Nuclei weigh less than their parts by much more: about 8 MeV for each nucleon, nearly one per cent of its mass. The binding per nucleon rises from 1.1 MeV in the deuteron to a peak of 8.8 MeV at iron and nickel, and falls slowly to 7.6 MeV in uranium (Figure~\ref{fig:binding}). Joining light nuclei, up to iron, releases energy; splitting heavy ones does too. \argm{A formula with five terms, the liquid-drop formula, fits the binding of the heavier nuclei to about one per cent,} and in GPT each of its terms has a mechanism (Table~\ref{tab:semf}; Part~19).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.92\textwidth]{fig17-7-binding.pdf}
+\caption{Binding energy per nucleon. Measured values and the smooth part of the liquid-drop formula (volume, surface, charge and balance terms, with standard coefficients).}
+\label{fig:binding}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.4\textwidth}@{}}
+\toprule
+\textbf{Term} & \textbf{Form} & \textbf{Size (MeV)} & \textbf{In GPT} \\
+\midrule
+Volume & $+a_V A$ & 15.8 & Each nucleon's outer lobes overlap its neighbours' out of phase and bind; each has only so many lobes, so binding grows with the number of nucleons \\
+Surface & $-a_S A^{2/3}$ & 17.8 & Nucleons at the surface have fewer neighbours to interlock with \\
+Charge & $-a_C Z^2/A^{1/3}$ & 0.71 & Protons emit in phase with one another and push apart \\
+Balance & $-a_A (N-Z)^2/A$ & 23.7 & A proton and a neutron bind; two protons or two neutrons alone do not, so equal numbers bind best \\
+Pairing & $\pm a_P/A^{1/2}$ & 11.2 & Two identical nucleons of opposite spin are out of phase and can share a state \\
+\bottomrule
+\end{tabular}
+\caption{The liquid-drop formula for the binding energy of a nucleus with $A$ nucleons, $Z$ protons and $N$ neutrons. Its coefficients are fitted to measurement; in GPT each term has a mechanism. \hyptag}
+\label{tab:semf}
+\end{table}
+
+\paragraph{Stars.} \argm{Fusing four hydrogen nuclei into helium releases 0.7 per cent of their mass; splitting a uranium nucleus releases about 0.09 per cent.} The Sun shines by the first: it turns about 4.3 million tonnes of mass into light every second, and in its 4.6 billion years has lost about three ten-thousandths of its mass that way.
+
+\section{Why Gravity Is Weak}
+\label{sec:weak}
+
+\argm{Between two protons, the electric push is $1.2\times10^{36}$ times the gravitational pull; between two electrons, $4.2\times10^{42}$ times.} Put another way, gravity's strength between two protons, $Gm_p^2/\hbar c$, is $5.9\times10^{-39}$, against $\alpha \approx 7.3\times10^{-3}$ for the electric coupling. No theory explains the gap; it is known as the hierarchy problem.
+
+\hypm{GPT gives the direction of the answer.} A body's gravity is its draw on the medium, and the draw is a tiny take per turn (Section~\ref{sec:turnover}): matter is nearly transparent to the medium, and must be, or bodies would shade one another. A charged pattern's effect on another is its emitted phase acting directly on the other's circulation. \hypm{Gravity is weak because each knot takes so little of what passes through it; charge is strong because phase acts on phase directly.} \openm{The size of the gap, $10^{36}$, should follow from the size of the take per turn and the strength of phase coupling; both are owed.}
+
+\section{The Numbers to Be Derived}
+\label{sec:numbers}
+
+These are the numbers a theory of mass is asked for (Table~\ref{tab:derive}). \argm{No theory derives any of them.} In the Standard Model the masses of the electron, muon and tau and the strength of charge are measured inputs: the electron's mass enters through a coupling to the Higgs field of $2.9\times10^{-6}$, itself measured. The theory of the strong force computes the proton's mass, to about one per cent, from the quarks' masses and the strong coupling, which are again measured. GPT does not yet derive them either; Table~\ref{tab:derive} is its target.
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.38\textwidth}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.3\textwidth}@{}}
+\toprule
+\textbf{Quantity} & \textbf{Measured} & \textbf{In GPT, it should follow from} \\
+\midrule
+Electron's mass & 0.51099895 MeV & The threshold of the simplest knot \\
+Proton-to-electron mass ratio & 1836.15267 & The three-lobed knot against the single one \\
+Neutron minus proton & 1.29333 MeV & The difference of one lobe's twist \\
+Muon and tau to electron & 206.768 and 3477.2 & Excited windings of the electron's knot \\
+Strength of charge, $1/\alpha$ & 137.035999 & The coupling of phase to phase \\
+Electric to gravitational, two protons & $1.24\times10^{36}$ & Phase coupling against the take per turn \\
+Electron's magnetic moment, $g$ & 2.00231930436 & The knot with its field \\
+Neutrino masses & below 0.45 eV; differences squared $7.4\times10^{-5}$ and $2.5\times10^{-3}$ eV$^2$ & Patterns holding very little energy \\
+\bottomrule
+\end{tabular}
+\caption{The numbers of mass. \hyptag}
+\label{tab:derive}
+\end{table}
+
+\paragraph{Regularities that any account must explain.} \argm{The three charged leptons satisfy Koide's relation, $(m_e+m_\mu+m_\tau)/(\sqrt{m_e}+\sqrt{m_\mu}+\sqrt{m_\tau})^2 = 0.666661$, against $2/3$, to within the uncertainty of the tau's mass.} No one knows why. A weaker curiosity, noted in 1951, is that $6\pi^5 = 1836.118$, within two parts in $10^5$ of the proton-to-electron ratio; it may mean nothing. \hypm{If the masses are thresholds and excited windings of knots, relations of this kind are what the geometry of the knots should produce.}
+
+\section{Light, Neutrinos and the Massless}
+\label{sec:massless}
+
+\hypm{Light is the medium's travelling wave; matter is its confined circulation.} A travelling wave has only a front: there is no back for it to deliver to, and no frame in which it is at rest. Its energy and momentum are related by $E = pc$, and its mass is zero. Matter has a front and a back, a frame in which it is at rest, and mass $E/c^2$. The first edition said photons are ``fully aligned'' with the flow and have ``zero impedance''; that is restated: light is not confined.
+
+\argm{Neutrinos have mass.} They change from one type to another as they travel, which they could not do without mass,\fn{fukuda1998} and direct measurement puts the mass of the electron's neutrino below about half an electronvolt, less than a millionth of the electron's.\fn{katrin2025} The differences between the squares of the three masses, measured from the changes, are $7.4\times10^{-5}$ and $2.5\times10^{-3}$ eV$^2$, so the heaviest neutrino is at least 0.05 eV. \openm{What makes a neutrino's pattern carry so little energy is open.}
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.14\textwidth}>{\raggedright\arraybackslash}p{0.44\textwidth}>{\raggedright\arraybackslash}p{0.32\textwidth}@{}}
+\toprule
+\textbf{Particle} & \textbf{In GPT} & \textbf{Measured} \\
+\midrule
+Photon & The medium's travelling wave: not confined & No mass; $E = pc$ \\
+Neutrino & A confined pattern holding very little energy & Mass below about 0.45 eV; three types that change into one another \\
+Electron & A single knot of circulation at $c$, one handedness & 0.511 MeV; charge $-1$; looks like a point to $10^{-18}$ m \\
+Proton & A composite knot; almost all confined motion & 938 MeV; charge $+1$; radius 0.84 fm \\
+\bottomrule
+\end{tabular}
+\caption{Particles as patterns of the medium. \hyptag}
+\label{tab:particles}
+\end{table}
+
+\section{What Remains to Be Derived}
+\label{sec:owed}
+
+\begin{itemize}
+\item \openm{The numbers of Table~\ref{tab:derive}, from the medium's non-linear response, which sets the thresholds at which knots form (Part~19).}
+\item \openm{The size of the take per turn, and the re-phasing rate that closes the loop.}
+\item \openm{The electron's magnetic moment, $g = 2$ and its correction, from the full pattern and its field.}
+\item \openm{The coefficients of the liquid-drop formula from the overlap of lobes.}
+\item \openm{Whether a body changing its order weighs differently while it changes.}
+\end{itemize}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+Mass is energy, and matter is energy slowed down: motion of the medium at the speed of light, confined so that it goes nowhere. Light trapped in a box has exactly the energy and momentum of a mass $E/c^2$; the proton is almost all confined motion; Dirac's electron already contains a loop at $c$ of radius $\hbar/2mc$, turning $2.5\times10^{20}$ times a second. The medium pressed into matter gives up its in-phase energy to the circulation and leaves as the neutral counterflow, to be re-phased far away and return: that turnover keeps matter in being, its balance gives every electron the same mass, and the inflow that supplies it is gravity. A pattern of the medium is carried by the medium, which is why every body falls alike; a fixed take per turn makes a body's draw follow its energy, and the smallness of that take is why gravity is $10^{36}$ times weaker than charge. Every change of energy changes mass by $\Delta E/c^2$, from a charged battery to the binding of nuclei and the light of the Sun. The numbers of mass, the electron's 0.511 MeV, the ratio 1836, the strength $1/137$, are derived by no theory yet; they are GPT's target.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item Mass is defined as the energy of a confined circulation of the medium at $c$, divided by $c^2$, in place of an impedance profile $\rho_{\text{imp}} = f(\text{coherence, geometry, phase})$. The evidence that matter is confined motion is added: the box of light, the proton's mass, Dirac's electron, pairs from confinement, matter made from light.
+\item The scale of that motion is set out: the electron's loop, frequency, acceleration and force, and the conclusion that rest is the most extreme motion there is.
+\item Inertia's measured shape at high speed ($\gamma$ across, $\gamma^3$ along) is given. ``No universal tendency to continue motion'' is withdrawn; motion is kept as a relation with the medium.
+\item The effects of heat, binding, stress, speed and melting on mass are kept, with their directions, and given their measured size, $\Delta E/c^2$. Depth in a field is corrected: locally unchanged, reduced as seen from far away.
+\item ``Equal matter, different mass'' and mass-tuning devices are restated: mass tracks energy to about $10^{-12}$; changes beyond $\Delta E/c^2$ are bounded and open. Effective mass in crystals is added as a measured case of inertia from exchange with a surrounding medium.
+\item Photons are restated as the medium's unconfined travelling wave. Neutrinos are given their measured mass. The classification table is replaced.
+\item The turnover is added, joining the first edition's ``perpetually refreshed'' mass and its absorption of gravitons, and set out as a full cycle in three dimensions, with its return through re-phasing, its energy route, every electron's identical mass as a balance (tested by the constancy of the proton-to-electron mass ratio), a fixed take per turn giving a body's draw in proportion to its energy, the transparency of matter, and identity as the invariants of the pattern.
+\item Inertial, passive and active gravitational mass are separated. Passive mass follows from matter being made of the medium it falls in; an earlier wording of this edition, that a body is carried at a rate set by its own intake, is corrected.
+\item New: the numbers of mass. The arithmetic of the box of light, giving $\gamma E$ and $\gamma (E/c^2) v$; the proton's mass budget; a table of loop radius, turns, acceleration and holding force for five particles; the match between the loop and Dirac's trembling; the magnetic moment and its correction; mass in the hydrogen atom and the meaning of $1/137$ as the ratio of the electron's orbital speed to its circulation; nuclear binding, with each term of the liquid-drop formula given a mechanism; mass and the stars; why gravity is weak; and a table of the numbers still to be derived, with Koide's relation.
+\item The formation of knots, their three dimensions, charge, the fragments of forced dissolution, and the path from knots to atoms, drafted for this paper, are moved to Part~19, \emph{The Pathway to Matter}. Mass is how much; matter is how it is arranged.
+\item The energy equation $E = \int \Delta P_g\, dV$ and the reinterpretation of redshift through variable mass are withdrawn.
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The subtitle changes from \emph{Impedance, Coherence, and the Graviton Field} to \emph{Energy Slowed Down: Matter as Sustained Circulation in the Medium}.
+\item ``Massless, self-repulsive'' gravitons are described as in Part~15. References to corridors and to ``reflection'' of gravitons are replaced by the inflow, the counterflow and the turnover.
+\item Four figures, five tables, status marks and this list are added; the principle that everything is a later phase of what came before is stated in the introduction.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part17}
+
+\end{document}

@@ -171,11 +171,13 @@
   {
    "slug": "gpt-part-17",
    "title": "The Definition of Mass",
-   "subtitle": "Impedance, Coherence, and the Graviton Field",
-   "words": 1955,
-   "lead": "Within Graviton Pressure Theory (GPT), mass is redefined as a field-dependent resistance to directional graviton flow—one that depends on structural coherence and field impedance. Rejecting traditional interpretations that treat mass as an intrinsic scalar or as a curvature-inducing quantity, GPT introduces a mechanistic understanding: mass becomes the measurable impedance a structure presents against a real, anisotropic pressure field of self-repulsive, massless gravitons .",
-   "source": "Part 17 - The Definition of Mass.tex",
-   "part": 17
+   "subtitle": "Energy Slowed Down: Matter as Sustained Circulation in the Medium",
+   "words": 6604,
+   "lead": "Mass is energy slowed down: motion of the medium at the speed of light, confined so that it goes nowhere, and kept in being by a turnover of the medium through it whose inflow is gravity. With the numbers: the box of light, the electron's loop and Dirac's trembling, 1/137 in the hydrogen atom, nuclear binding term by term, why gravity is weak, and the numbers no theory yet derives.",
+   "source": "Part 17 - The Definition of Mass (2nd ed.).tex",
+   "part": 17,
+   "path": "the-definition-of-mass",
+   "pdf": true
   },
   {
    "slug": "gpt-part-18",
