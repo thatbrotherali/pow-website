@@ -76,7 +76,7 @@ VIDEOS = [
      "deepdive", ["gpt-part-19"]),
     ("Qm_xkBtRBZA", "Deep Dive, Parts 20 to 22: Magnetism in GPT", 1161, "2025-10-16",
      "Where does a magnet's energy come from, and why does its force not fade? Magnetism as graviton corridors and resonance.",
-     "deepdive", ["gpt-part-20", "gpt-part-21", "gpt-part-22"]),
+     "deepdive", ["gpt-part-21", "gpt-part-22"]),
     ("q5I0Z2h8PmQ", "Deep Dive, Part 26: Planetary Mechanics in GPT", 833, "2025-10-16",
      "Planetary motion and rotational stability as field coherence and structured pressure, rather than inertia or curvature.",
      "deepdive", ["gpt-part-26"]),

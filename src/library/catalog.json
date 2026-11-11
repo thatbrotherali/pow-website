@@ -214,12 +214,14 @@
   },
   {
    "slug": "gpt-part-20",
-   "title": "Graviton Corridors and Lattice Resonance",
-   "subtitle": "Field Structuring and the Path to Gravitational Participation",
-   "words": 5766,
-   "lead": "Graviton Pressure Theory (GPT) redefines gravity not as mystical attraction, but as the coherent, directional flow of self-repulsive, massless particles—gravitons —organized by a cosmic imperative toward coherence and pattern fidelity and stability. This document expands GPT beyond theoretical mechanics, articulating a framework where matter becomes both conduit and composer of field flow. Through concepts such as graviton corridors, lattice resonance, and the Graviton Compatibility Index (GCI)—a proposed scalar for field-material resonance alignment, we explore how structured matter shapes—and is shaped by—gravitational pressure.",
-   "source": "Part 20 - Graviton Corridors.tex",
-   "part": 21
+   "title": "Graviton Corridors",
+   "subtitle": "How Structure Directs Medium Flow Inside Matter",
+   "words": 4779,
+   "lead": "Six things flow through matter: the medium itself, load, heat, charge, waves and spin. A corridor is a line of patterns held in step and re-made every turn. The normal force as momentum passed through bonds; transport set by order; spin directing flow; and whether the medium inside a body follows the same lines.",
+   "source": "Part 21 - Graviton Corridors (2nd ed.).tex",
+   "part": 21,
+   "path": "graviton-corridors-and-lattice-resonance",
+   "pdf": true
   },
   {
    "slug": "gpt-part-21",
