@@ -203,12 +203,14 @@
   },
   {
    "slug": "gpt-part-19",
-   "title": "Graviton Coherence",
-   "subtitle": "Field-Based Phase Transitions and the Collapse of Coherence",
-   "words": 2764,
-   "lead": "Graviton Pressure Theory (GPT) offers a unified causal framework for phase transitions, revealing them as coherence-dependent field responses rather than purely thermodynamic outcomes. Departing from classical thermodynamic and electromagnetic interpretations, GPT posits that all phase changes—including melting, magnetism loss, and fluid behavior—arise from the coherence dynamics of graviton pressure corridors within material structures. Solidity, magnetism, and fluidity are reframed as coherence states of internal graviton flow. Thermal energy acts not as an energizer but as a decoherence catalyst—disrupting the directional integrity of the field.",
-   "source": "Part 19 - Graviton Coherence.tex",
-   "part": 20
+   "title": "Coherence",
+   "subtitle": "The Order and Structure of Matter",
+   "words": 6149,
+   "lead": "Order comes in levels, built as the universe cooled and removed by heat in reverse, each at its measured cost. Heat is energy, and what it does is disorder: order holds while locking through the medium beats the knocks. How order is held decides how it is lost; solids, liquids, glass, gases, plasmas, magnets and shared phase, and universality as evidence.",
+   "source": "Part 20 - Coherence (2nd ed.).tex",
+   "part": 20,
+   "path": "graviton-coherence",
+   "pdf": true
   },
   {
    "slug": "gpt-part-20",

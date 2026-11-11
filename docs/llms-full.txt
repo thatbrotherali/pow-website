@@ -20914,402 +20914,483 @@ Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/par
 Cite as: Rashada, S. A. (2026). The Pathway to Matter. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/
 
 
-# Graviton Coherence
+# Coherence
 
-*Field-Based Phase Transitions and the Collapse of Coherence*
+*The Order and Structure of Matter*
 
 By Shareef Ali Rashada
 
-> Editor's corrections (October 2026): Units: a change of 5–10 micro-g would be about 10⁻⁴ m/s². The figure in brackets, about 10⁻⁸ m/s², corresponds to microgals, so the unit now reads μGal.
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-Graviton Pressure Theory (GPT) offers a unified causal framework for phase transitions, revealing them as coherence-dependent field responses rather than purely thermodynamic outcomes. Departing from classical thermodynamic and electromagnetic interpretations, GPT posits that all phase changes—including melting, magnetism loss<a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a>, and fluid behavior—arise from the coherence dynamics of graviton pressure corridors <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> within material structures. Solidity, magnetism, and fluidity are reframed as coherence states of internal graviton flow. Thermal energy acts not as an energizer but as a decoherence catalyst—disrupting the directional integrity of the field.
+# About This Paper
 
-The document introduces precise definitions of melting points and Curie temperatures as coherence collapse thresholds, formalizes anisotropic phase transitions as directional corridor failure, and reframes liquids, gases, and plasmas as gradations of graviton alignment integrity. Key metrics such as internal pressure gradients, coherence indices, and field-sensitive viscosity are proposed for experimental validation. A gravimetric micro-shift experiment is outlined to detect coherence collapse at the melting point of iron, offering a predictive test for GPT.
+Part 19 said what the states of matter are: degrees of collective phase order among the knots of a body, from the fixed arrangement of a crystal to the shared phase of a superconductor.[^1] This paper is about the order and structure of matter, and above all how matter changes its order: how each level of order is held, what heat does to it, why some substances lose their order at one temperature and others over a range, with a definite exchange of energy, why it forms again on cooling and what it keeps when it does, and what each kind of order allows, from the stiffness of a solid to the flow of a liquid with no friction at all.
 
-This work extends the gravitational ontology of matter, positioning all classical phase behaviors as field-interaction events, governed not by energy surplus but by structural alignment with self-repulsive, directional graviton flow. In doing so, it dissolves the boundary between thermodynamics, material science, and gravitational field <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> theory—revealing each phase transition as a coherence memory collapse within a graviton-stabilized structure.
+Its central idea is the first edition’s, and it stands stronger now than when it was written: heat does not destroy structure by force; it destroys the timing that order requires. **\[Argued\]** Part 18 supplied the mechanism, rhythms locking through what they share, and Part 19 supplied what is locked, the phases of the knots.[^2] The graviton is in Part 15, the field in Part 16 and mass in Part 17.[^3][^4][^5] Claims are marked by their status, as the key shows.
 
-## Graviton Coherence and Phase Transitions
+# Order Has Levels
 
-In classical physics, phase transitions such as melting, boiling, or the loss of magnetism are typically interpreted through thermal agitation or electromagnetic domain theory. These phenomena are often attributed to increased energy disrupting atomic bonds, overcoming structural thresholds, or altering spin alignments. While descriptively effective, these interpretations remain incomplete, lacking a unified causal mechanism.
+**\[Argued: the passage that follows\]**
 
-Graviton Pressure Theory (GPT) reframes these phase transitions as manifestations of graviton coherence dynamics. Rather than isolated thermodynamic or electromagnetic shifts, transitions are seen as coherence modulations in graviton-stabilized field structures. Solidity, fluidity, and magnetism are therefore treated not as static states of matter, but as outcomes of graviton corridor stability and coherence density.
+Matter was built in levels as the universe cooled (Part 19): knots, then nucleons and nuclei, then atoms, then bonds between atoms, then arrangements of many atoms. **Heating takes the levels off again in the reverse order, each at its own measured cost.** What a body loses at a transition is one level of order; everything beneath it is kept.
 
-In GPT, all matter is immersed in and stabilized by directional graviton pressure fields. These fields are composed of anisotropic, self-repulsive streams of gravitons <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> that exert external pressure and induce alignment within structured matter. When atomic or subatomic arrangements align phase-coherently with graviton flow, stable material states such as solidity and magnetism emerge. As coherence decreases, matter transitions to less structured phases, driven by decoherence mechanisms such as thermal agitation.
+**\[End of passage\]**
 
-GPT defines temperature not as a fundamental cause, but as an agent of decoherence—a measure of disruption in the timing and phase alignment necessary to maintain graviton corridor integrity. From this view, structural phase change is a field-level event: a loss or gain of coherence with the directional graviton lattice.
+Iron shows the whole ladder (Figure <a href="#fig:ladder" data-reference-type="ref" data-reference="fig:ladder">1</a>). At 1,043 kelvin its aligned spins disorder and it stops being a magnet. At 1,811 kelvin it melts, taking in 13.8 kilojoules a mole, 0.14 electronvolts an atom. At 3,134 kelvin it boils, taking in about 340 kilojoules a mole, 3.5 electronvolts an atom, twenty-five times as much. Hotter again, near ten thousand kelvin and beyond, its atoms lose their outer electrons, 7.9 electronvolts for the first. Its nuclei hold together until energies of 8.8 million electronvolts a nucleon, and the nucleons themselves dissolve into a single liquid of their parts only near two trillion kelvin, in the collisions of heavy nuclei at the largest accelerators.[^6] The knots at the bottom of it all, the electron and the proton’s lobes, are not undone by heat at all; a knot is unmade only by meeting its mirror (Part 19).
 
-The objective of this work is to unify electromagnetic, thermodynamic, and solid-state behavior under the framework of graviton coherence. Solidity, melting, magnetism, and fluidity are reinterpreted as coherence thresholds within the graviton field, extending prior analyses introduced in *Magnetism as Gravimetric Resonance* and positioning graviton coherence as a central regulator of material behavior.
+<figure id="fig:ladder">
+<img src="assets/figures/fig20-1-ladder.svg" />
+<figcaption>The ladder of order, read upward: the energy per particle needed to undo each level, with the same energy as a temperature on the top scale. Each step costs more than the one beneath it, by factors from about two to a million. Heating removes the levels from the bottom of the figure upward; the cooling universe built them in the opposite order (Part 19).</figcaption>
+</figure>
 
-## Solidity: Graviton Pressure Containment
+The ladder answers a question the first edition raised. **\[Argued\]** It said that “melting is not caused by bond dissociation, but by the structural collapse of graviton coherence”. The numbers agree. The energy of iron’s bonds, its cohesive energy, is 4.3 electronvolts an atom, about $5.8\times10^{10}$ joules in every cubic metre; melting takes 0.14 electronvolts an atom, about 3% of it. So melting removes the long-range arrangement of the atoms and leaves their bonds almost whole; it is boiling that breaks the bonds. A liquid is a solid that has lost its arrangement and kept its bonds.
 
-In Graviton Pressure Theory, solidity is defined as a stable coherence state—a resonance condition between internal atomic structure and external graviton pressure fields. Traditional interpretations involving chemical bonds or electromagnetic repulsion are reframed as field-level agreements between structure and anisotropic pressure.
+The same reading corrects a gas. The first edition called a gas “fully decoherent”, with “all phase-aligned oscillation” lost. A gas has lost only the order *between* its atoms; every atom in it keeps all of its own internal order, its electron patterns locked around its nucleus, its nucleons bound, its knots intact. Coherence is nested, and a transition is the loss of one level of it. Some substances show the levels coming off one at a time. **\[Argued\]** A liquid crystal such as 8CB is a crystal below 21.5 $^\circ$C; above it, its rod-shaped molecules lose their fixed positions but stay in layers; above 33.5 $^\circ$C they lose the layers but still point the same way; above 40.5 $^\circ$C they lose that too and the substance is an ordinary liquid. Three transitions, each removing one kind of order and keeping the rest.
 
-Solidity arises when a material’s internal configuration permits the symmetrical absorption and redirection of graviton pressure across all spatial axes, without corridor leakage or phase instability. This can be expressed through the graviton pressure gradient force equation:
+# What Heat Is
 
-<span class="math display">\\F = -\nabla P_g,\\</span>
+Heat is energy delivered as disordered motion. **\[Argued\]** It reaches a body in two ways, and each can be followed to what touches what.
 
-where <span class="math inline">\\F\\</span> is the net structural force response and <span class="math inline">\\P_g\\</span> is the local graviton pressure. In solids, this pressure is absorbed and neutralized through internally closed-loop corridors—coherent channels of graviton flow contained within the structure.
+- **By knocks.** At a contact the patterns of two atoms overlap, and patterns of the same circulation push each other apart (exclusion, Part 19). A fast atom striking a slow one hands over momentum through that push. Each knock shifts the struck pattern’s motion and its phase relative to its neighbours.
 
-The defining condition of solidity in GPT is **locked phase symmetry**. Each lattice site in a solid maintains both spatial and temporal coherence, supporting a pressure-stable configuration. This phase alignment minimizes decoherence and prevents directional graviton ejection, resulting in structural rigidity.
+- **By light.** Light is a transverse wave of the medium (Part 15). Its energy is taken up by the electron patterns, which shift into higher standing patterns and pass the energy to their neighbours as they settle, again as knocks.
 
-Solids thus act as *graviton pressure traps*—fields in which every point participates in redistributing incoming graviton pressure without forming external corridors. There is no net flow; only internal coherence.
+So heat acts on order through phase. **\[Hypothesis\]** The first edition said that heat is “not an energizer but a decoherence catalyst”. Measurement requires both readings at once. Heat is energy: ice takes in 334 kilojoules a kilogram to melt, and a body’s mass rises by the energy it holds divided by $c^2$, so a kilogram of iron melted is heavier by $2.8\times10^{-12}$ of its mass (Part 17). And what that energy does is disorder: it scatters the phases that order keeps aligned. The energy is how much is delivered; decoherence is what it does. **\[Argued\]** Temperature measures the average energy of the disordered motion, about $kT$ for each way a particle can move, where $k$ is Boltzmann’s constant. It is a measure of the knocking, not a separate cause.
 
-Material strength correlates with the **graviton coherence threshold**—the maximum external pressure that can be absorbed before corridor breakdown. Lattice density, spatial symmetry, and spin-coupling all contribute to this threshold, establishing the field-level definition of structural stability.
+# Locking against Knocks
 
-In GPT, solidity is not the cessation of motion but the condition of maximal internal resonance. It is a dynamic equilibrium—the successful containment of field pressure via coherent structure. Solidity is redefined as the active maintenance of internal graviton agreement: a coherence state sustained against entropy by field alignment.
+**\[Hypothesis: the passage that follows\]**
 
-## Magnetism: Graviton Pressure Externalization
+Part 18 showed that coupled rhythms lock: each nudges the other through something they share, and if the nudging is stronger than the difference between their rates, they keep step. In GPT the coupling between the patterns of a body is carried by the medium, through their overlap and exchange. Heat adds random knocks to every rhythm. **Order holds while locking restores step faster than knocks destroy it; a transition is where the knocks win.**
 
-In the framework of Graviton Pressure Theory (GPT), magnetism is reinterpreted as a mode of graviton pressure resolution. Rather than arising from electric current or spin alignment in isolation, magnetism represents a material’s capacity to externalize internal coherence via directional graviton flow. It is a structured leakage of graviton pressure, dictated by internal symmetry in spin and lattice configurations.
+**\[End of passage\]**
 
-In ferromagnetic <a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a> materials such as iron, nickel, and cobalt, electron spins align under specific conditions, forming coherent magnetic domains. This spin-phase alignment opens graviton corridors, enabling pressure to escape along defined axes. These corridors constitute physical pressure-guided pathways, forming what are traditionally recognized as magnetic field lines.
+This is a known piece of mathematics before it is a claim about matter. In 1975 Yoshiki Kuramoto described a population of rhythms, each with its own natural rate, each pulled toward the common phase of all.[^7] Below a critical strength of coupling the rhythms run independently; above it a common phase appears suddenly and grows. Adding random knocks has the same effect as weakening the coupling: with the coupling fixed, order falls as the knocks strengthen and vanishes at a definite point (Figure <a href="#fig:locking" data-reference-type="ref" data-reference="fig:locking">2</a>). The same mathematics describes flashing fireflies, the pacemaker cells of the heart and arrays of electrical oscillators; Part 18 named each as an example of locking.
 
-GPT defines the strength of a magnetic field by the coherent density of graviton flow, given by: <span class="math display">\\P_g \propto n_g^3\\</span> where:
+<figure id="fig:locking">
+<img src="assets/figures/fig20-2-locking.svg" />
+<figcaption>A model of locking against knocks: 500 coupled rhythms with a spread of natural rates and random knocks added. Left: the order, how far their phases keep step, as the knocks strengthen; it falls away near the point where the knocks outpace the coupling, as the model’s theory predicts. Right: each oscillator’s phase as a dot on a circle, locked under weak knocks and spread round the circle under strong ones.</figcaption>
+</figure>
 
-- <span class="math inline">\\P_g\\</span> is the graviton pressure magnitude,
+The first edition already had the measure of this order. Its part on magnetism (Part 22 in this edition) defined the coherence of $n$ spins with phases $\phi_i$ as $$C_s = \frac{1}{n}\left|\sum_{i=1}^{n} e^{i\phi_i}\right|,$$ which is 1 when every phase is the same and near 0 when they are scattered round the circle. It is the same quantity Kuramoto’s model uses to measure how far a population keeps step, and it is what Figure <a href="#fig:locking" data-reference-type="ref" data-reference="fig:locking">2</a> plots.
 
-- <span class="math inline">\\n_g\\</span> is the coherent graviton density.
+Matter shows the signs of this contest in measured rules. **\[Argued\]**
 
-This cubic dependence reflects the non-linear amplification of pressure gradients with increasing coherence. Classical electromagnetism models magnetic strength through field line addition, but GPT models it as anisotropic pressure gradients formed by coherent graviton corridor resonance.
+- **Lindemann’s rule (1910).** A solid melts when the jiggling of its atoms reaches about a tenth of the distance between them.[^8] The first edition’s version: collapse comes “when internal oscillations can no longer align”. It was already measured.
 
-The critical distinction between magnetism and solidity lies in their pressure handling mechanisms:
+- **Richards’s rule (1897).** For metals, the energy taken in on melting is close to $kT$ at the melting point for every atom: iron takes 0.143 electronvolts an atom at 1,811 kelvin, where $kT$ is 0.156.[^9] Melting costs about one typical knock’s worth of energy per atom. In GPT that is the price of releasing each atom from the common phase of the lattice. **\[Hypothesis\]**
 
-- **Solids:** Trap graviton pressure internally, resolving it isotropically.
+- **Trouton’s rule.** Boiling takes about ten times $kT$ per molecule at the boiling point for most liquids, and somewhat more for metals (iron, thirteen). Bonds cost an order of magnitude more to undo than arrangement.
 
-- **Magnetic materials:** Resolve pressure anisotropically, along spin-aligned axes.
+#### How order is lost depends on how it is held.
 
-The resulting graviton flows manifest as recognizable geometries such as dipoles, toroids, and hourglass-shaped fields—all expressions of gravitationally structured internal coherence.
+Some substances lose their order at one temperature, and others over a range. Which one happens is set by the structure, not by the kind of transition.
 
-Materials lacking ordered spin or lattice symmetry fail to support external graviton corridors, resolving pressure internally or dissipating it through decoherence. In superconductors, complete internal coherence leads to graviton field reflection. The Meissner effect—magnetic field expulsion—is thus redefined in GPT as corridor reflection rather than electromagnetic exclusion.
+- **At one temperature:** pure, uniform crystals such as metals, ice and salt. At its melting point a solid takes in its latent heat at a fixed temperature, and while it does, solid and liquid sit side by side.
 
-GPT classifies graviton pressure behavior as:
+- **Over a range:** glasses, waxes, butter and many plastics have no melting point; they soften gradually. Most alloys melt between two temperatures: common 60/40 tin–lead solder is pasty between 183 and 190 $^\circ$C, while the one exact mixture called the eutectic, 63/37, melts sharply at 183.
 
-- **Containment:** Solids stabilize pressure internally with no corridor leakage.
+- **Different arrangements of one substance:** cocoa butter can crystallise in six forms, which melt at six temperatures between about 17 and 36 $^\circ$C. Same molecules, different order, different melting point.
 
-- **Externalization:** Magnets channel pressure into coherent external corridors.
+- **Fewer neighbours, weaker hold:** even a sharply melting crystal begins to melt at its surfaces and grain boundaries, where atoms have fewer neighbours. Ice carries a liquid-like layer at its surface below 0 $^\circ$C, as Faraday proposed in 1850, and gold particles a few nanometres across melt hundreds of degrees below bulk gold.[^10]
 
-- **Reflection:** Superconductors reflect graviton fields due to perfect coherence.
+In GPT the reason is how each pattern is held in step: by its neighbours, through the medium. **\[Hypothesis\]** In the mathematics of locking, the pull that brings each rhythm back into step grows with how many of the others are already in step. So the lock reinforces itself, and its loss can cascade: when some patterns let go, their neighbours lose part of their hold and follow. Where every pattern is held the same way, as in a uniform crystal, all reach their limit together and the loss cascades through the whole body at one temperature. Where the hold varies from place to place, as in a glass, a mixture or a body with many surfaces, each region lets go at its own temperature and the loss spreads over a range. **\[Hypothesis\]** The small particles show that the hold depends on the neighbours: fewer neighbours, a weaker hold, a lower melting point. How the hold is carried inside a body, what flows through its structure and what directs that flow, is the subject of Part 21.[^11]
 
-Magnetism in GPT emerges from coherence asymmetry—a gravitational solution to directional pressure resolution. Magnetic influence is thus interpreted as a graviton pathway structured by matter and projected through alignment. Magnetism is not separate from gravity; it is gravity resolved anisotropically through coherent structure.
+# Cooling: Order Forms, and Needs a Seed
 
-## Heat as Decoherence
+When a body cools through a transition, the order forms again and the energy comes back out: freezing water gives up the same 334 kilojoules a kilogram it took to melt it. In GPT the released energy is the disorder handed back to the medium, as light and as knocks to the surroundings, when the patterns fall into step. **\[Hypothesis\]**
 
-In Graviton Pressure Theory (GPT), heat is not simply defined as energy or molecular agitation. Instead, it is fundamentally understood as a  
-decoherence mechanism  
-within structured graviton fields. Heat disrupts the synchronization required to sustain graviton corridor integrity, undermining the temporal and phase coherence necessary for maintaining structure.
+Order needs somewhere to start. **\[Argued\]** Clean water can be cooled far below its freezing point and stay liquid; small droplets of pure water reach about $-38$ $^\circ$C before they freeze on their own.[^12] A dust grain, a scratch or a crystal of ice dropped in starts the freezing at once, and it spreads from that point. In the language of locking, the common phase needs a first group of patterns already in step, large enough that it pulls its neighbours in faster than knocks pull them out. A seed is a region already locked, and freezing is the lock spreading. **\[Hypothesis\]**
 
-### Thermal Energy as Phase Disruption
+Order formed on cooling keeps a record of the conditions in which it formed. **\[Argued\]** Lava cooling through iron’s Curie point is magnetised in the direction of the Earth’s field at that moment and keeps it for hundreds of millions of years; the record of the field’s reversals in the ocean floor is read this way.[^13] A magnet’s magnetisation depends on its history as well as on the field it is in now, the effect called hysteresis. Part 18 said that the past exists as persisting structure. Memory in matter is literal: it is order that was set at a transition and has not since been undone. **\[Argued\]** The first edition’s phrase “heat erases memory” is kept in this sense. Part 13’s activation record proposes the same principle for living things: a small bias at a moment of ordering decides a lasting order.[^14]
 
-Thermal energy is characterized by random atomic and subatomic vibrations. These vibrational modes introduce:
+# Solids: Arrangement Held in Step
 
-- Phase instability,
+**\[Hypothesis: the passage that follows\]**
 
-- Temporal interference,
+A solid is a body whose atoms keep a fixed, long-range arrangement. In GPT each atom is a standing pattern of the medium, locked around its nucleus (Part 19). In a solid these patterns are also locked to one another:
 
-- Spatial desynchronization.
+- **Bonds** are patterns overlapping in spatial phase, reinforcing between the atoms, shared by two electrons of opposite circulation (Part 19).
 
-As these disturbances increase with temperature, they diminish a material’s ability to support graviton coherence. The graviton corridors—structures that transmit directed graviton pressure—depend on phase-locked resonance between field and lattice.
+- **Stiffness and hardness** come from exclusion: patterns of the same circulation cannot occupy one place, and resist being pushed together (Part 15).
 
-### Coherence Threshold Breakdown
+- **The arrangement** is the common phase of the whole lattice, renewed every turn of every pattern.
 
-Graviton field corridors require precise phase timing. As thermal agitation increases:
+**\[End of passage\]**
 
-- Atoms oscillate out of sync,
+The first edition described solids as “graviton pressure traps”, with “closed-loop corridors” resolving the pressure of the medium inside them. The restatement names what touches what: patterns overlapping, sharing electrons, pushing back where their circulations match. Its point survives: solidity is not the absence of motion but the active maintenance of order. **\[Argued\]** Every pattern in a solid turns at its own rhythm, $10^{20}$ times a second for an electron (Part 18), and holds its place by staying in step.
 
-- Spin orientations become disordered,
+#### Two pressures.
 
-- Lattice intervals fluctuate.
+The first edition gave the internal pressure of a solid as $10^{10}$ to $10^{12}$ pascals. That is a real quantity, but not the medium’s pressure in empty space. It is the energy density of matter’s binding: iron’s cohesive energy is $5.8\times10^{10}$ joules a cubic metre, and its resistance to compression, its bulk modulus, is $1.7\times10^{11}$ pascals. Read in GPT, it is the energy of the medium organised into a solid’s bonds. **\[Hypothesis\]** The medium’s pressure in free space is about $4.5\times10^{-10}$ pascals, the value that passes the heat budget (Part 15). The two are different quantities and both stand. What does not stand is the first edition’s statement that melting iron is a fall in internal pressure from $10^{12}$ to $10^{10}$ pascals: melting takes about 3% of the binding energy, not 99% (Section <a href="#sec:levels" data-reference-type="ref" data-reference="sec:levels">“Order Has Levels”</a>).
 
-This results in graviton flow scattering and corridor collapse. The coherent interaction with the graviton field is lost.
+#### Directions.
 
-### Two Forms of Decoherence
+A crystal is not the same in every direction, and its order can fail unevenly. Many crystals expand by different amounts along different axes when heated; magnetic crystals have easy axes along which their spins prefer to point. The first edition’s “anisotropic collapse” is kept with these as its examples.
 
-Heat induces two distinct decoherence modes:
+# Liquids, Glass and Flow
 
-1.  **Structural Decoherence (Loss of Solidity)**:
+A liquid keeps order between neighbours only, and that order is constantly broken and re-formed. **\[Argued\]** X-ray and neutron scattering show it directly: in a liquid each atom has a shell of nearest neighbours at a well-defined distance, a fainter second shell, and almost no order beyond.
 
-    - Graviton corridors break internally.
+**\[Hypothesis: the passage that follows\]**
 
-    - Lattice can no longer reinforce pressure symmetry.
+**Viscosity is the time order takes to re-form.** When a liquid is sheared, each atom’s cage of neighbours is distorted; it resists as a solid would until the cage breaks and re-forms in a new place. The resistance is the stiffness of the local order multiplied by the time it takes to re-form, Maxwell’s relation $\eta = G\tau$. This is Part 18’s relaxation, the rate at which order returns, applied to matter.
 
-    - Material melts or deforms due to failed phase coherence.
+**\[End of passage\]**
 
-2.  **Directional Decoherence (Loss of Magnetism)**:
+The relation runs across an enormous range. In water the local order re-forms in about a picosecond, and its viscosity is a thousandth of a pascal-second. Pitch looks solid and shatters under a hammer, but it flows: in the experiment begun at the University of Queensland in 1927, a drop falls from a funnel about once a decade, and its viscosity is about $2\times10^{8}$ pascal-seconds.[^15] A glass is a liquid that ran out of time to arrange itself. **\[Argued\]** As a liquid that does not crystallise cools, its local order takes longer and longer to re-form, until at about $10^{12}$ pascal-seconds the re-forming takes minutes and the liquid is held in place, disordered but fixed. That is the glass transition. The first edition’s three “exotic” cases each now have a mechanism:
 
-    - Spin-aligned domains destabilize.
+- **Glass:** order held without arrangement, because the time to arrange grew longer than the cooling allowed.
 
-    - External graviton corridors collapse.
+- **Viscoelasticity:** a material that acts as a solid for pushes faster than its relaxation time and as a liquid for slower ones.
 
-    - Material becomes magnetically neutral.
+- **Superfluidity:** flow with no viscosity at all, because the whole body shares one phase and there are no neighbours to slip past (Section <a href="#sec:shared" data-reference-type="ref" data-reference="sec:shared">“Shared Phase”</a>).
 
-### Heat as Field Noise
+# Gases and Plasmas
 
-Heat introduces high-frequency field interference, disrupting the graviton-lattice coupling necessary for coherence. Unlike mass <a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a> (which resists through impedance), heat blurs timing—it undermines the structure’s ability to maintain field phase alignment.
+In a gas the atoms or molecules keep no lasting relation between their phases; **\[Argued\]** each moves freely between collisions and is knocked into a new motion at each one. What it keeps is everything inside it (Section <a href="#sec:levels" data-reference-type="ref" data-reference="sec:levels">“Order Has Levels”</a>).
 
-### Coherence Resilience and Material Thresholds
+A plasma is a gas in which the outer electron patterns have come loose from their nuclei. **\[Argued\]** The first edition called it “hyper-decoherence”. That is half right. One level of order is lost, the locking of electron patterns around nuclei, at the measured ionisation energies: 13.6 electronvolts for hydrogen, 7.9 for iron’s first electron. But loose charges organise themselves strongly through what they carry, and plasmas are full of collective order: waves, filaments, sheets, and the reconnection of magnetic fields that drives solar flares. A plasma loses one level of order and gains a new collective order through charge, **\[Hypothesis\]** the hand of the knot (Part 19).
 
-Materials with high melting or Curie temperatures exhibit:
+# Aligned Spins and the Curie Point
 
-- Stronger lattice symmetry,
+In a magnet the spins of unpaired electrons point together across regions called domains. **\[Argued\]** Above the Curie point, 1,043 kelvin for iron, 627 for nickel and 1,388 for cobalt, the knocks outpace the coupling that aligns them and the alignment is lost (Section <a href="#sec:locking" data-reference-type="ref" data-reference="sec:locking">“Locking against Knocks”</a>). Below it, the alignment returns as the metal cools.
 
-- Greater spin coupling,
+Spin is real rotation, exchanged with the body that holds it. **\[Argued\]** In 1915 Einstein and de Haas magnetised a suspended iron rod and it turned: aligning its electrons’ spins took angular momentum that the rod gave up as rotation. Barnett showed the reverse the same year: spinning a rod of iron magnetises it.[^16] In GPT this is expected: spin is the circulation of a knot (Part 19), and aligning spins aligns circulations. **\[Hypothesis\]**
 
-- Higher gravitational coherence thresholds.
+**\[Hypothesis: the passage that follows\]**
 
-These properties allow them to maintain corridor integrity under greater thermal stress.
+**A magnet has two locks.** One is the arrangement of its atoms, the lattice; the other is the alignment of its electrons’ circulations, the spins. They are separate levels, which is why iron loses its magnetism at 1,043 kelvin, long before it melts at 1,811. In iron the alignment fades continuously to nothing at the Curie point, with no latent heat, because the lattice holds while the spins let go. **Where the two locks depend on each other, the loss is abrupt**: in manganese arsenide near 40 $^\circ$C, and in iron–rhodium near 80 $^\circ$C, the magnetic order and the arrangement of the lattice change together, at one temperature, with latent heat.
 
-### Summary
+**\[End of passage\]**
 
-- Heat <span class="math inline">\\\Rightarrow\\</span> Decoherence agent
+Part 19 proposed what the alignment does: each spinning knot’s counterflow carries a swirl, and swirls aligned across a material add, so that magnetism is the collective swirl of aligned matter. **\[Hypothesis\]** The first edition described magnetism as the “externalization” of graviton pressure, with the strength of a magnet growing as the cube of a “coherent graviton density”. The cube law had no derivation and is withdrawn, and so is the statement that magnetism is gravity resolved along an axis: torsion balances carrying masses with $10^{23}$ aligned electron spins show no change in their gravity.[^17] Gravity and magnetism are different modes of the same medium, inflow and swirl. The first edition’s magnetism parts also gave spin alignment a role in directing the medium’s path through a material, and named the timing that requires. That account, with the full treatment of magnetism, belongs to Parts 21 and 22.[^18]
 
-- Decoherence <span class="math inline">\\\Rightarrow\\</span> Graviton corridor collapse
+# Shared Phase
 
-- Corridor collapse <span class="math inline">\\\Rightarrow\\</span> Structural or magnetic failure
+**\[Argued: the passage that follows\]**
 
-In GPT, heat does not destroy structure through force. It destroys the *timing* that coherence requires. It interferes with *memory*—the phase-locked rhythm that sustains matter’s stability.  
+The coldest order is the most complete: many particles moving in *one* phase across a whole body. It appears in three measured forms.
 
-## Collapse Thresholds
+- **Superconductors** carry current with no resistance at all, below 9.3 kelvin for niobium and about 93 for some copper oxides. A current set going in a superconducting ring has been watched for years without measurable decay.
 
-In Graviton Pressure Theory (GPT), phase transitions are governed not by temperature alone, but by the loss of coherence in graviton corridor networks. Classical concepts such as melting point and Curie temperature are reinterpreted as coherence collapse thresholds. These thresholds represent the failure of a material to maintain graviton phase alignment, leading to a breakdown in the structured pressure containment or externalization that defines its phase.
+- **Superfluid helium**, below 2.17 kelvin, flows through channels too narrow for any ordinary liquid, with no viscosity, and climbs the walls of its container as a film.[^19][^20]
 
-### Melting Point: Structural Corridor Collapse
+- **Atomic condensates**, clouds of atoms cooled to billionths of a kelvin, fall into a single shared state (Part 19).
 
-Structural solidity in GPT arises from internal graviton corridors that phase-lock atomic lattices into a stable, coherent geometry. With increasing thermal agitation, phase alignment begins to degrade. At a critical decoherence energy, <span class="math inline">\\E_c\\</span>, these corridors collapse: <span class="math display">\\E_c = k P_g\\</span> where:
+**\[End of passage\]**
 
-- <span class="math inline">\\E_c\\</span> is the critical decoherence energy,
+In GPT phase is literal, **\[Argued\]** the medium’s own phase in each pattern (Part 19), and shared phase is the medium in a body keeping one step throughout it. Measurement shows that phase directly. In a superconducting ring the magnetic flux trapped inside comes only in whole units of $h/2e$, Planck’s constant over twice the electron’s charge.[^21] The standard account explains this as the shared phase having to close on itself around the ring a whole number of times. In GPT this is literal: the medium’s phase around the ring must return to itself, so the swirl it encloses comes in whole turns. **\[Hypothesis\]** The $2e$ shows that the current is carried by electrons in pairs. In GPT a pair is two knots of opposite circulation sharing one pattern, as two electrons share a bond **\[Hypothesis\]** (Part 19); the pairs in ordinary superconductors are indeed made of electrons of opposite spin.
 
-- <span class="math inline">\\P_g\\</span> is the internal graviton pressure,
+#### Superconductors do not reflect gravity.
 
-- <span class="math inline">\\k\\</span> is a proportionality constant dependent on lattice symmetry and density.
+The first edition said that superconductors reflect graviton fields, and read the Meissner effect, the expulsion of a magnetic field from a superconductor, as “corridor reflection”. Superconductors weigh normally: superconducting gravimeters float a niobium sphere in a magnetic field and measure the Earth’s gravity through it to about one part in $10^{11}$.[^22] The claim is withdrawn. The Meissner effect is measured as currents circulating within a thin layer at the surface, about 40 nanometres deep in niobium, which cancel the field inside.[^23] In GPT a magnetic field is a swirl of the medium (Part 16), and a body in one shared phase cannot hold a swirl inside it without breaking that phase; its surface circulates against the swirl and keeps it out. **\[Hypothesis\]**
 
-**Interpretation:** Melting is not caused by bond dissociation, but by the structural collapse of graviton coherence. Solidity yields when coherent corridor architecture can no longer sustain directional pressure.
+# Universality
 
-*Example:* Iron’s melting point at 1538 <span class="math inline">\\^\circ\\</span>C corresponds to <span class="math inline">\\E_c\\</span> where iron’s graviton-stabilizing corridors lose phase integrity.
+The first edition’s central claim, that the loss of magnetism and the behaviour of fluids have one cause, has measured support. **\[Argued\]** Near the critical point of a liquid, where liquid and gas become indistinguishable, the difference between their densities shrinks as the temperature rises, following a power of the distance from the critical temperature. In 1945 Edward Guggenheim plotted the measurements for eight different substances, neon, argon, krypton, xenon, nitrogen, oxygen, carbon monoxide and methane, and they fell on one curve, with a power close to one third.[^24] Magnets whose spins can point only one of two ways lose their magnetisation near the Curie point with the same power, about 0.33.[^25] Substances that share nothing chemically, and transitions that look nothing alike, behave identically there.
 
-### Curie Point: Magnetic Corridor Collapse
+The standard account explains this. Near a critical point, regions of order grow so large that the details of what is ordered stop mattering; only the dimension of space and the number of ways the order can point remain. GPT adds what the order is: in every case a phase relation among patterns of one medium. **\[Hypothesis\]** The first edition’s instinct was to treat melting, magnetism and fluid behaviour as one subject. Universality shows that, near their critical points, they are.
 
-In ferromagnetic materials, coherence is directional. Spin-aligned domains maintain external graviton corridors. With rising temperature, spin phase alignment deteriorates, leading to corridor decoherence. The magnetic field collapses when coherence drops below the domain retention threshold.
+# What Order Does Not Do
 
-*Example:* For iron, this occurs at the Curie temperature (770 <span class="math inline">\\^\circ\\</span>C), where graviton corridor alignment becomes unsustainable and magnetism ceases.
+A change of order changes a body’s weight only by the energy it takes in or gives out. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its structure (Part 15). Freezing a kilogram of water lowers its mass by $3.7\times10^{-12}$ of itself; melting a kilogram of iron raises it by $2.8\times10^{-12}$. Nothing else in the total is predicted to change. What may change is where inside the body the delivery lands: **\[Hypothesis\]** an ordered body may receive it differently along its planes than a disordered one, so that its centre of gravity shifts slightly from its centre of mass. Whether it does is untested, and the tests are below.
 
-### Anisotropic Collapse
+# Tests
 
-Not all graviton corridor collapse is isotropic. Some materials exhibit anisotropic decoherence, where phase-lock degradation occurs unevenly across spatial axes. This results in:
+The first edition proposed heating a kilogram of iron through its melting point with a gravimeter 1 to 2 centimetres away, and predicted a change in gravity of “5–10 $\mu$g”; the units it meant were microgals, $10^{-8}$ metres per second squared. The test needs reshaping. The iron’s own gravity at 2 centimetres is about $1.7\times10^{-7}$ metres per second squared, and iron changes its density by a few per cent on melting, so the change of shape alone alters the reading by $10^{-9}$ to $10^{-8}$, the size of the predicted effect. The iron also passes its Curie point first, at 770 $^\circ$C, where magnetic forces would swamp everything. And the agreed account predicts no change in the total beyond the mass change, $2.8\times10^{-12}$. Better versions:
 
-- Directional demagnetization (failure along specific vector axes),
+- **Weigh gallium through its melting point,** at 29.8 $^\circ$C: room temperature, no magnetism, and a mass change of $9\times10^{-13}$, far below what mass comparators resolve (about $10^{-10}$ on a kilogram). The prediction is null in the total; any change in the weighing beyond the change of shape would be a signal. **\[Hypothesis\]** Water through freezing is a second case.
 
-- Asymmetric deformation (localized melting or warping).
+- **Look for a shift in where the delivery lands.** A torsion balance carrying a single crystal, turned through its orientations and taken through a change of order, looks for the centre of gravity moving away from the centre of mass. This test is shared with Part 29.[^26]
 
-This directional coherence failure is attributed to variations in corridor strength—due to lattice elongation, domain layering, or stress-induced anisotropy.
+- **Weigh a superconductor through its transition.** An experiment of this kind, named Archimedes, is being built to weigh the energy of the vacuum in a layered superconductor as it changes state.[^27] Its result will bound any change in weight with the onset of shared phase.
 
-### Summary of GPT Collapse Dynamics
+- **One clock in two states of order.** Every kind of clock tested is slowed alike by the medium (Part 18). Whether a single clock taken through a change of its own order is slowed by the same factor is untested.
 
-*Collapse is not simply a loss of structure, but of timing. When internal oscillations can no longer align with the graviton refresh rhythm, coherence vanishes—not from damage, but from temporal incompatibility.*
+# What Remains to Be Derived
 
-- **Melting:** Internal coherence collapse of pressure containment structures.
+- The temperatures of transitions from the phase relations of the knots: why iron melts at 1,811 kelvin and loses its magnetism at 1,043. **\[Open\]**
 
-- **Demagnetization:** External coherence collapse of graviton flow corridors.
+- The strength of the coupling between neighbouring patterns, carried by the medium, in terms of the medium’s own properties. **\[Open\]**
 
-- **Anisotropy:** Direction-specific coherence failure.
+- Why pairs form in superconductors, and the temperature at which they do, in terms of knots of opposite circulation sharing a pattern. **\[Open\]**
 
-Phase transitions under GPT are redefined as gravitational reconfigurations—events triggered by decoherence that erode the structure’s ability to resolve directional graviton flow. This approach not only reframes material behavior but offers predictive metrics for design and gravitational material engineering.
+- The relaxation times of liquids, and so their viscosities, from the rate at which the medium restores order (Part 18). **\[Open\]**
 
-## Liquids and Gases as Coherence States
+- Whether a change of order shifts the centre of gravity of a body, and by how much. **\[Open\]**
 
-In the GPT framework, states of matter are defined not by particle spacing or thermal energy alone, but by the degree of  
-textitgraviton coherence sustained within the material’s structure. Solids, liquids, gases, and plasmas represent sequential coherence regimes within a continuous spectrum of graviton corridor integrity.
+# Conclusion
 
-### Liquids: Semi-Coherent Corridor Matrices
+Order comes in levels, built as the universe cooled and taken off again by heat in the reverse order, each at its measured cost: the arrangement of atoms first, then their bonds, then their electron patterns, then their nuclei. Heat is energy, and what it does is disorder: it knocks the patterns of a body out of step. Order holds while locking through the medium restores step faster than the knocks destroy it, and a transition is where the knocks win. How the order is held decides how it goes: all at once where every pattern is held alike and the loss cascades, over a range where the hold varies. Cooling reverses it, given a seed, and the order it forms keeps a record of the moment it formed. A solid holds its arrangement in step; a liquid keeps its bonds and loses its arrangement, and its viscosity is the time the arrangement takes to re-form; a glass ran out of that time; a gas keeps everything but the relations between its atoms; a plasma loses its electrons’ locking and gains order through charge. The coldest order is one phase shared across a whole body, and in a superconducting ring that phase can be counted. Near their critical points, transitions as different as boiling and the loss of magnetism behave identically, because in every case what changes is a phase relation. Heat does not destroy; it erases memory, and memory in matter is order that has not yet been undone.
 
-Liquids represent an intermediate coherence state. The graviton corridor lattice that characterizes a solid has partially degraded, but coherence fragments remain:
+# Changes in the Second Edition
 
-- Liquids are composed of broken graviton corridors suspended in localized coherence pockets.
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
 
-- Viscosity corresponds to residual graviton coupling strength.
+## Changes to the argument
 
-- Internal pressure gradients persist as semi-stable, fluctuating resistance pathways.
+- The central idea is kept and given its mechanism: heat destroys the timing order requires; order holds while locking through the medium beats the knocks (Part 18), with Kuramoto’s model, Lindemann’s rule and Richards’s rule as its measured anchors.
 
-These structures explain:
+- New: order comes in levels, and heating removes them in the reverse order of the cooling that built them (Part 19), each at its measured cost. Melting takes about 3% of iron’s bond energy, which supports the first edition’s statement that melting is not the breaking of bonds.
 
-- Conformity to containers alongside resistance to rapid motion.
+- “Heat is not an energizer” becomes “heat is energy, and what it does is disorder”: latent heat and the change of mass by $\Delta E/c^2$ are measured.
 
-- Surface tension and flow patterns as expressions of localized corridor retention.
+- “Gases are fully decoherent” becomes: a gas loses only the order between its atoms. Plasma is restated as one level lost and a new collective order through charge gained.
 
-Liquids in GPT are defined by partial coherence—enough to resist chaos, but insufficient to maintain structural rigidity.
+- Solidity is restated in terms of bonds, exclusion and common phase (Part 19), in place of pressure traps and closed-loop corridors. The internal pressure of $10^{10}$–$10^{12}$ pascals is identified as the energy density of binding, distinct from the medium’s free-space pressure; the fall from $10^{12}$ to $10^{10}$ pascals at melting is withdrawn.
 
-### Gases: Full Decoherence and Corridor Collapse
+- New: viscosity as the time order takes to re-form (Maxwell’s relation), with glass, viscoelasticity and superfluidity each given a mechanism.
 
-Gases are the result of complete coherence failure:
+- New: cooling, seeds and memory: supercooling, nucleation, the magnetic record in lava, hysteresis.
 
-- Atoms/molecules lose all phase-aligned oscillation.
+- New: how order is lost depends on how it is held. Uniform crystals lose it at one temperature, because the lock reinforces itself and its loss cascades; glasses, mixtures, polymorphs, surfaces and small particles lose it over a range or at other temperatures. Liquid crystals show the levels coming off one at a time.
 
-- Graviton interactions become stochastic and unstructured.
+- New: a magnet has two locks, the lattice and the alignment of circulations; where they depend on each other the loss is abrupt. Spin as real rotation (Einstein and de Haas, Barnett). The first edition’s coherence measure $C_s$ is identified as the order parameter of locking.
 
-- No sustained pressure pathways exist.
+- Magnetism as the externalization of graviton pressure, the cube law $P_g\propto n_g^3$ and “magnetism is gravity resolved anisotropically” are withdrawn; magnetism is restated as the collective swirl of aligned matter and moved to Part 22.
 
-Consequently, gases:
+- “Superconductors reflect graviton fields” is withdrawn: superconductors weigh normally. The Meissner effect is restated as a hypothesis about a body in shared phase keeping out a swirl. New: flux quantisation as the medium’s phase closing on itself, and pairs as knots of opposite circulation.
 
-- Exhibit no shape retention.
+- New: universality as measured support for the first edition’s claim that these transitions share one cause.
 
-- Are dominated by density and temperature distributions.
+- The gravimetric test at the melting of iron is reshaped: the predicted size was comparable to the change of shape alone, and the iron passes its Curie point first. It is replaced by weighing gallium, a torsion test for a shift in where the delivery lands, the Archimedes superconductor weighing and a clock in two states of order.
 
-- Behave according to macro-level fluid and thermodynamic laws.
+## Clarifications
 
-In GPT, gases are not merely separated particles, but field-disordered systems.
+- The title changes from *Graviton Coherence* to *Coherence*, and the subtitle from *Field-Based Phase Transitions and the Collapse of Coherence* to *The Order and Structure of Matter*. This part was Part 19 in the first edition.
 
-### Plasmas: Chaotic Graviton Feedback Fields
+- The unit of the predicted signal is corrected from micro-g to microgal.
 
-Plasma represents a state of hyper-decoherence:
+- “Corridors” and “graviton pressure fields” are replaced by the terms of Parts 15 to 19; the cross-references are renumbered.
 
-- Energy input is so high that coherence not only collapses, but feeds back into instability.
+- The lines on purpose in matter (“alignment becomes intentional”, “matter speaks”) are moved to the second register, beside Part 2.
 
-- Graviton interference forms dynamic corridor vortices or pressure surges.
+- Two figures, status marks and this list are added.
 
-- These generate transient structures such as magnetic reconnection zones or fusion loci.
+<div id="refs" class="references csl-bib-body hanging-indent">
 
-Unlike gases:
+<div id="ref-allen1938" class="csl-entry">
 
-- Plasmas are *reactively unstable*.
+Allen, J. F., and A. D. Misener. 1938. “Flow of Liquid Helium II.” *Nature* 141: 75.
 
-- Corridor reformation occurs temporarily, followed by collapse.
+</div>
 
-### Summary: Phase States as Coherence States
+<div id="ref-bazavov2019" class="csl-entry">
 
-- **Solids:** Fully coherent corridor lattices.
+Bazavov, A. et al. 2019. “Chiral Crossover in QCD at Zero and Non-Zero Chemical Potentials.” *Physics Letters B* 795: 15–21.
 
-- **Liquids:** Semi-coherent fragments; viscosity as a measure of residual organization.
+</div>
 
-- **Gases:** Fully decoherent; random graviton flow.
+<div id="ref-buffat1976" class="csl-entry">
 
-- **Plasmas:** Hyper-decoherent; emergent instability from feedback turbulence.
+Buffat, Ph., and J.-P. Borel. 1976. “Size Effect on the Melting Temperature of Gold Particles.” *Physical Review A* 13: 2287–98.
 
-GPT reframes the states of matter as gravitational coherence phases. Each transition reflects not a change in substance, but a change in field-structural alignment with graviton pressure.
+</div>
 
-## Implications and Predictions
+<div id="ref-calloni2016" class="csl-entry">
 
-Graviton Pressure Theory (GPT) redefines phase transitions as coherence collapses within graviton corridor networks. This framework not only offers an explanatory model for solidity and magnetism but also enables quantitative prediction and experimental validation.
+Calloni, E. et al. 2016. “The Archimedes Experiment.” arXiv:1511.00609; Nuclear Instruments and Methods in Physics Research A 824 (2016).
 
-Classically, melting points and Curie temperatures are empirical constants. In GPT, these thresholds correspond to specific graviton pressure drops indicating the failure of corridor integrity.
+</div>
 
-For example:
+<div id="ref-deaver1961" class="csl-entry">
 
-- Iron’s melting point (<span class="math inline">\\\sim 1538^{\circ}\mathrm{C}\\</span>) represents a coherence collapse, where graviton containment corridors can no longer stabilize the lattice.
+Deaver, Bascom S., and William M. Fairbank. 1961. “Experimental Evidence for Quantized Flux in Superconducting Cylinders.” *Physical Review Letters* 7: 43–46.
 
-- This corresponds to a pressure drop from: <span class="math display">\\P_g \approx 10^{12} \\ \mathrm{N/m^2} \rightarrow 10^{10} \\ \mathrm{N/m^2}\\</span>
+</div>
 
-This transition reflects a loss of synchronization with the material’s structural blueprint.
+<div id="ref-edgeworth1984" class="csl-entry">
 
-### Experimental Proposal: Microgravity Shift at Phase Transition
+Edgeworth, R., B. J. Dalton, and T. Parnell. 1984. “The Pitch Drop Experiment.” *European Journal of Physics* 5: 198–200.
 
-If phase transitions reflect coherence collapse, localized anomalies in gravitational interaction should be observable.
+</div>
 
-**Proposed test:**
+<div id="ref-einstein1915" class="csl-entry">
 
-- Heat a 1 kg iron sample through its melting point.
+Einstein, A., and W. J. de Haas. 1915. “Experimenteller Nachweis Der <span class="nocase">Amp<span class="nocase">è</span>reschen</span> <span class="nocase">Molekularstr<span class="nocase">ö</span>me</span>.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 17: 152–70.
 
-- Position a torsion balance or ultra-sensitive gravimeter 1–2 cm from the sample.
+</div>
 
-- As the sample crosses <span class="math inline">\\1538^{\circ}\mathrm{C}\\</span>, monitor for a change in gravitational acceleration: <span class="math display">\\\Delta g \approx 5 - 10 \\ \mu\mathrm{Gal} \quad (\sim 5\text{–}10 \times 10^{-8} \\ \mathrm{m/s^2})\\</span>
+<div id="ref-goodkind1999" class="csl-entry">
 
-This <span class="math inline">\\\Delta g\\</span> results from corridor collapse and subsequent loss of pressure symmetry.
+Goodkind, John M. 1999. “The Superconducting Gravimeter.” *Review of Scientific Instruments* 70: 4131–52.
 
-### New Metrics: Coherence Indices and Exotic Transitions
+</div>
 
-GPT enables the definition of *coherence indices*—quantitative markers of resistance to phase disruption:
+<div id="ref-guggenheim1945" class="csl-entry">
 
-- **Glass transitions:** Partial corridor collapse without full lattice loss.
+Guggenheim, E. A. 1945. “The Principle of Corresponding States.” *Journal of Chemical Physics* 13: 253–61.
 
-- **Superfluidity:** Extreme corridor flexibility with retained graviton synchrony.
+</div>
 
-- **Viscoelasticity:** Temporal lag in corridor realignment under stress.
+<div id="ref-heckel2008" class="csl-entry">
 
-These transitions, once anomalous, are modeled via GPT’s pressure coherence framework.
+Heckel, B. R. et al. 2008. “Preferred-Frame and CP-Violation Tests with Polarized Electrons.” *Physical Review D* 78: 092006.
 
-### Viscosity as Coherence Retention
+</div>
 
-GPT redefines viscosity as:
+<div id="ref-kapitza1938" class="csl-entry">
 
-- A measure of partial graviton synchronization.
+Kapitza, P. 1938. “Viscosity of Liquid Helium Below the $\lambda$-Point.” *Nature* 141: 74.
 
-- High viscosity: Strong corridor remnants, higher resistance to flow.
+</div>
 
-- Low viscosity: Fragmented corridors, low alignment.
+<div id="ref-koop2000" class="csl-entry">
 
-Thus, viscosity reflects proximity to structural or flow collapse.
+Koop, Thomas, Beiping Luo, Athanasios Tsias, and Thomas Peter. 2000. “Water Activity as the Determinant for Homogeneous Ice Nucleation in Aqueous Solutions.” *Nature* 406: 611–14.
 
-### Summary
+</div>
 
-- Phase transitions are graviton corridor collapses, not mere energy thresholds.
+<div id="ref-kuramoto1975" class="csl-entry">
 
-- These collapses yield measurable microgravity effects.
+Kuramoto, Yoshiki. 1975. “Self-Entrainment of a Population of Coupled Non-Linear Oscillators.” In *International Symposium on Mathematical Problems in Theoretical Physics*, 39:420–22. Lecture Notes in Physics. Springer.
 
-- GPT enables predictive metrics for exotic material states.
+</div>
 
-GPT is not just an explanation—it is a new toolkit for observing matter’s gravitational coherence.
+<div id="ref-lindemann1910" class="csl-entry">
 
-## Conclusion
+Lindemann, F. A. 1910. “Über Die Berechnung Molekularer Eigenfrequenzen.” *Physikalische Zeitschrift* 11: 609–12.
 
-Phase transitions are not thermal accidents—they are gravitational reorganizations of coherence under pressure. Melting, boiling, or loss of magnetism all reflect collapse or transformation of graviton corridor structures that define matter’s stability, flow, or force expression.
+</div>
 
-GPT reframes solids, liquids, gases, and plasmas as gradations of coherence integrity:
+<div id="ref-meissner1933" class="csl-entry">
 
-- **Solidity:** Complete graviton flow containment.
+Meissner, W., and R. Ochsenfeld. 1933. “Ein Neuer Effekt Bei Eintritt Der <span class="nocase">Supraleitf<span class="nocase">ä</span>higkeit</span>.” *Die Naturwissenschaften* 21: 787–88.
 
-- **Magnetism:** Coherence retained and externalized directionally.
+</div>
 
-- **Melting:** Coherence collapse.
+<div id="ref-pelissetto2002" class="csl-entry">
 
-- **Plasma:** Feedback-driven decoherence instability.
+Pelissetto, Andrea, and Ettore Vicari. 2002. “Critical Phenomena and Renormalization-Group Theory.” *Physics Reports* 368: 549–727.
 
-GPT provides what classical physics cannot: a causal mechanism rooted in gravitational field dynamics. It dissolves artificial boundaries between thermodynamics and field physics—showing heat not as energy overcoming resistance, but as decoherence overcoming synchronization.
+</div>
 
-With GPT, we gain predictive clarity for viscosity, superfluidity, anisotropic deformation, and magnetic collapse. This model enables engineering through coherence orchestration—not brute force.
+<div id="ref-rashadaPart29" class="csl-entry">
 
-Finally, GPT reintroduces purpose into matter. Structure becomes meaningful, alignment becomes intentional. Every shift and threshold reflects how well matter remembers its place in the graviton field.
+Rashada, Shareef Ali. 2025a. “Experimental Divergence (Part 29, First Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
-*Heat does not destroy. It erases memory. Matter speaks through graviton corridors. And GPT lets us begin to listen.*
+</div>
 
-------------------------------------------------------------------------
+<div id="ref-rashadaPart21" class="csl-entry">
 
-1.  <div id="fn1">
+———. 2025b. “Graviton Corridors and Lattice Resonance (Part 21, First Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
 
-    See Part 21 – Magnetism as Gravimetric Resonance for coherence-based electromagnetic effects.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart22" class="csl-entry">
 
-2.  <div id="fn2">
+———. 2025c. “Magnetism as Gravimetric Resonance (Part 22, First Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
-    See Part 20 – Graviton Corridors for channeling of coherence through structure.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart15" class="csl-entry">
 
-3.  <div id="fn3">
+———. 2026a. “Gravitons (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
-    See Part 16 – The Properties of Gravitational Fields for structural dynamics.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart17" class="csl-entry">
 
-4.  <div id="fn4">
+———. 2026b. “The Definition of Mass (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
-    See Part 15 – Gravitons for their foundational properties and interactions.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart13" class="csl-entry">
 
-5.  <div id="fn5">
+———. 2026c. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
-    See Part 22 – Cross-Analysis of Magnetic Materials for material behavior under field resonance.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart18" class="csl-entry">
 
-6.  <div id="fn6">
+———. 2026d. “The Nature of Time (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
-    See Part 17 – The Definition of Mass for field resistance and particle definition.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+</div>
 
-    </div>
+<div id="ref-rashadaPart19" class="csl-entry">
+
+———. 2026e. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+
+</div>
+
+<div id="ref-rashadaPart16" class="csl-entry">
+
+———. 2026f. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+
+</div>
+
+<div id="ref-richards1897" class="csl-entry">
+
+Richards, Theodore W. 1897. “Relation of the Latent Heat of Fusion to the Melting Point.” *Chemical News* 75: 278–79.
+
+</div>
+
+<div id="ref-vine1963" class="csl-entry">
+
+Vine, F. J., and D. H. Matthews. 1963. “Magnetic Anomalies over Oceanic Ridges.” *Nature* 199: 947–49.
+
+</div>
+
+</div>
+
+[^1]: (Rashada 2026e).
+
+[^2]: (Rashada 2026d).
+
+[^3]: (Rashada 2026a).
+
+[^4]: (Rashada 2026f).
+
+[^5]: (Rashada 2026b).
+
+[^6]: (Bazavov et al. 2019).
+
+[^7]: (Kuramoto 1975).
+
+[^8]: (Lindemann 1910).
+
+[^9]: (Richards 1897).
+
+[^10]: (Buffat and Borel 1976).
+
+[^11]: (Rashada 2025b).
+
+[^12]: (Koop et al. 2000).
+
+[^13]: (Vine and Matthews 1963).
+
+[^14]: (Rashada 2026c).
+
+[^15]: (Edgeworth, Dalton, and Parnell 1984).
+
+[^16]: (Einstein and Haas 1915).
+
+[^17]: (Heckel et al. 2008).
+
+[^18]: (Rashada 2025c).
+
+[^19]: (Kapitza 1938).
+
+[^20]: (Allen and Misener 1938).
+
+[^21]: (Deaver and Fairbank 1961).
+
+[^22]: (Goodkind 1999).
+
+[^23]: (Meissner and Ochsenfeld 1933).
+
+[^24]: (Guggenheim 1945).
+
+[^25]: (Pelissetto and Vicari 2002).
+
+[^26]: (Rashada 2025a).
+
+[^27]: (Calloni et al. 2016).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/
-Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/
+Cite as: Rashada, S. A. (2026). Coherence. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/
 
 
 # Graviton Corridors and Lattice Resonance

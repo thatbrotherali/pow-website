@@ -120,7 +120,7 @@ ANTHOLOGY = ["ytcdXMOjBto", "PKdBHPLgxxY", "A_u0J_JcYis", "hmjPAoZ9qhw", "Zy5nzX
 # Deep dives made from a part's first edition, withdrawn once that part was
 # revised in the second edition (they no longer match the text). Kept here as
 # a record; they stay on YouTube. Remove an id from this set to restore it.
-OUTDATED = {"1JLG4Q95Sqw", "tF4WsjNVT7U", "ugnWAbwUogo", "HTiwFsd8zfQ", "fA_2Y6WCQZI", "ZK_ukR9jkCQ",
+OUTDATED = {"WClk5ySCDpg", "1JLG4Q95Sqw", "tF4WsjNVT7U", "ugnWAbwUogo", "HTiwFsd8zfQ", "fA_2Y6WCQZI", "ZK_ukR9jkCQ",
             "xRCPn3brKcc", "w_dqq9Z7k6A", "L27ZLngwJIU", "xU_QZkUFX-Y"}
 
 
