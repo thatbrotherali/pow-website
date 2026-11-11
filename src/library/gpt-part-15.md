@@ -74,19 +74,21 @@ One rule governs how gravitons, and the patterns made of them, act on one anothe
 
 - **Out of phase, they do not.** A graviton out of step with its neighbours cannot couple to them. It still moves and carries momentum, but it does not press.
 
+Phase here is the phase of what is emitted, set by the sense and timing of a pattern’s circulation: its spin and its hand. It governs push between separate things. A second meaning of phase, the spatial phase of a standing pattern spread over a region, governs how overlapping patterns add: in phase they reinforce, out of phase they cancel, leaving a node.
+
 **\[End of passage\]**
 
 The same rule, at three scales, gives three things that are usually explained separately **\[Argued\]** (Figure <a href="#fig:phase" data-reference-type="ref" data-reference="fig:phase">1</a>):
 
 1.  **The medium’s pressure**: the push of in-phase gravitons on each other.
 
-2.  **Contact**: each atom, a standing pattern of the medium, carries a thin tail of organised medium beyond it, decaying over about 0.06 nanometres. When two atoms’ tails overlap in phase, they push: the push switches on over about 0.03 nanometres, the measured steepness of contact, and it is the normal force (Part 11).[^6]
+2.  **Contact**: each atom, a standing pattern of the medium, carries a thin tail of organised medium beyond it, decaying over about 0.06 nanometres. When two atoms’ filled outer patterns overlap, their electrons cannot share, because two patterns of the same circulation in the same place are in phase and push each other out. The push switches on over about 0.03 nanometres, the measured steepness of contact, and it is the normal force (Part 11).[^6] The standard account traces the hardness of matter to the same exclusion.
 
-3.  **The bond**: when two tails overlap out of phase, the push between them cancels; the medium around presses the atoms together. That is the hold of a chemical bond.
+3.  **The bond**: where two atoms’ outer patterns overlap in spatial phase, they reinforce between the atoms; two electrons of opposite circulation, which do not push each other out, can share that reinforced pattern, and it holds the atoms together. That is chemistry’s measured rule, a pair of opposite spins in a bonding pattern. Overlap out of spatial phase leaves a node between the atoms and pushes them apart; it is why two helium atoms do not bond.
 
 <figure id="fig:phase">
 <img src="assets/figures/fig15-1-phase.svg" />
-<figcaption>Phase decides push. Left: gravitons in phase push one another apart; the push of the in-phase population is the medium’s pressure. Centre: the tails of organised medium around two atoms overlap in phase and push, which is contact and the normal force. Right: tails overlapping out of phase cancel their push, and the surrounding medium presses the atoms together, which is the bond. (Hypothesis)</figcaption>
+<figcaption>Phase decides push. Left: gravitons in phase push one another apart; the push of the in-phase population is the medium’s pressure. Centre: filled outer patterns cannot share, because patterns of the same circulation push each other out, which is contact and the normal force. Right: the atoms’ patterns reinforce in phase between them, and a pair of electrons of opposite circulation shares the reinforced pattern, which is the bond. (Hypothesis)</figcaption>
 </figure>
 
 # The Flow Around a Mass
@@ -250,7 +252,7 @@ Terms used throughout the framework.
 
 # Conclusion
 
-Gravitons in GPT are real: the constituents of a medium that fills space, moving, carrying momentum, and oscillating in phase with one another. In phase, they push; out of phase, they do not. From that one rule come the medium’s pressure, the solidity of contact and the hold of a bond. Matter takes in the medium and ejects it out of step; the active pressure falls toward every mass, and bodies are carried by the medium’s acceleration. Far from each mass, the medium brings its ejecta back into step, and gravity changes its form at the same acceleration around every mass.
+Gravitons in GPT are real: the constituents of a medium that fills space, moving, carrying momentum, and oscillating in phase with one another. In phase, they push; out of phase, they do not. From that rule come the medium’s pressure and the solidity of contact; with the spatial phase of shared patterns, it gives the hold of a bond. Matter takes in the medium and ejects it out of step; the active pressure falls toward every mass, and bodies are carried by the medium’s acceleration. Far from each mass, the medium brings its ejecta back into step, and gravity changes its form at the same acceleration around every mass.
 
 With this, GPT moves gravitational theory from metaphor to mechanics, from inference to interaction, and from passive geometry to a medium that does the work.
 
@@ -260,9 +262,11 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Changes to the argument
 
+- Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a> (corrected 11 November): two meanings of phase are distinguished. The phase of emission, set by a pattern’s circulation, governs push between separate things; the spatial phase of a standing pattern governs how overlapping patterns add. Contact is restated as exclusion between filled patterns, and the bond as a pattern reinforced in spatial phase and shared by two electrons of opposite circulation. An earlier wording of this edition said a bond forms where two atoms’ tails overlap out of phase; that reversed chemistry’s measured rule.
+
 - The graviton is defined as the constituent of the medium, distinct from the mainstream graviton, the quantum of a gravitational wave. A new opening section asks what electrons and protons are, and proposes that every particle is a pattern of the one medium.
 
-- Self-repulsion is no longer a separate property. It follows from phase and oscillation: in phase, gravitons push. The same rule gives contact and bonds (“phase decides push”).
+- Self-repulsion is no longer a separate property. It follows from phase and oscillation: in phase, gravitons push. The same rule gives contact, and, with the spatial phase of shared patterns, bonds (“phase decides push”).
 
 - Gravitons carry momentum and deliver it to every particle in proportion to mass. The first edition’s “no momentum transfer via collisions, but pressure buildup at resistant boundaries” is replaced: pressure is a flux of momentum, and weight is not a surface effect.
 

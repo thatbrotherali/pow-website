@@ -249,13 +249,13 @@ Nuclei weigh less than their parts by much more: about 8 MeV for each nucleon, n
 
 <div id="tab:semf">
 
-| **Term** | **Form**           | **Size (MeV)** | **In GPT**                                                                                                                                          |
-|:---------|:-------------------|:---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Volume   | $+a_V A$           | 15.8           | Each nucleon’s outer lobes overlap its neighbours’ out of phase and bind; each has only so many lobes, so binding grows with the number of nucleons |
-| Surface  | $-a_S A^{2/3}$     | 17.8           | Nucleons at the surface have fewer neighbours to interlock with                                                                                     |
-| Charge   | $-a_C Z^2/A^{1/3}$ | 0.71           | Protons emit in phase with one another and push apart                                                                                               |
-| Balance  | $-a_A (N-Z)^2/A$   | 23.7           | A proton and a neutron bind; two protons or two neutrons alone do not, so equal numbers bind best                                                   |
-| Pairing  | $\pm a_P/A^{1/2}$  | 11.2           | Two identical nucleons of opposite spin are out of phase and can share a state                                                                      |
+| **Term** | **Form**           | **Size (MeV)** | **In GPT**                                                                                                                                                                                 |
+|:---------|:-------------------|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Volume   | $+a_V A$           | 15.8           | Each nucleon’s outer pattern overlaps its neighbours’ and reinforces between them, binding them; each has only so many neighbours, so binding grows with the number of nucleons            |
+| Surface  | $-a_S A^{2/3}$     | 17.8           | Nucleons at the surface have fewer neighbours to interlock with                                                                                                                            |
+| Charge   | $-a_C Z^2/A^{1/3}$ | 0.71           | Protons emit in phase with one another and push apart                                                                                                                                      |
+| Balance  | $-a_A (N-Z)^2/A$   | 23.7           | A proton and a neutron, different knots, can bind with parallel spins; two of a kind cannot, since identical knots of the same circulation push each other out, so equal numbers bind best |
+| Pairing  | $\pm a_P/A^{1/2}$  | 11.2           | Two identical nucleons of opposite circulation do not push each other out and can share a pattern                                                                                          |
 
 The liquid-drop formula for the binding energy of a nucleus with $A$ nucleons, $Z$ protons and $N$ neutrons. Its coefficients are fitted to measurement; in GPT each term has a mechanism. (Hypothesis)
 
@@ -360,6 +360,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - The energy equation $E = \int \Delta P_g\, dV$ and the reinterpretation of redshift through variable mass are withdrawn.
 
 ## Clarifications
+
+- Table <a href="#tab:semf" data-reference-type="ref" data-reference="tab:semf">3</a> (11 November): the volume, balance and pairing terms are reworded to the two meanings of phase (Part 15): overlapping patterns reinforce in spatial phase; identical knots of the same circulation push each other out.
 
 - The subtitle changes from *Impedance, Coherence, and the Graviton Field* to *Energy Slowed Down: Matter as Sustained Circulation in the Medium*.
 
