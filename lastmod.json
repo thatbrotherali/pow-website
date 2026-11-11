@@ -4,8 +4,8 @@
 "d": "2026-11-05"
 },
 "ai.html": {
-"h": "b20c33080570285a",
-"d": "2026-11-10"
+"h": "90af7afa06b1b97a",
+"d": "2026-11-11"
 },
 "audiobook.html": {
 "h": "40764a3d74946621",
@@ -56,8 +56,8 @@
 "d": "2026-11-05"
 },
 "graviton-pressure-theory/full-framework/index.html": {
-"h": "cc943e2f567c4f49",
-"d": "2026-11-10"
+"h": "b8e5da25c24bebe3",
+"d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-01-introduction/index.html": {
 "h": "6612cc23883826ce",
@@ -124,32 +124,48 @@
 "d": "2026-11-09"
 },
 "graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/index.html": {
-"h": "b5ef9a8780ce112d",
+"h": "8e7e73e717410211",
 "d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/index.html": {
-"h": "3307b1ffc35403f7",
-"d": "2026-11-09"
+"h": "23e4045ee0998e3c",
+"d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-19-graviton-coherence/index.html": {
 "h": "3c9190dac788e846",
 "d": "2026-11-09"
 },
+"graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/index.html": {
+"h": "7f59ca70a51d7da7",
+"d": "2026-11-11"
+},
+"graviton-pressure-theory/full-framework/part-20-graviton-coherence/index.html": {
+"h": "0a2909efff418dd8",
+"d": "2026-11-11"
+},
 "graviton-pressure-theory/full-framework/part-20-graviton-corridors-and-lattice-resonance/index.html": {
 "h": "3b81d66d57e46d3e",
 "d": "2026-11-09"
+},
+"graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/index.html": {
+"h": "90542f2fefd888f7",
+"d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-21-magnetism-as-gravimetric-resonance/index.html": {
 "h": "32694165bf64af02",
 "d": "2026-11-09"
 },
 "graviton-pressure-theory/full-framework/part-22-cross-analysis-of-magnetic-materials/index.html": {
-"h": "515c4e5c62c5393a",
-"d": "2026-11-09"
+"h": "1a6f608d518e5510",
+"d": "2026-11-11"
+},
+"graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/index.html": {
+"h": "371dc6c8eb4d51ee",
+"d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/index.html": {
-"h": "866b06dba828aa8d",
-"d": "2026-11-09"
+"h": "945f09ff25175611",
+"d": "2026-11-11"
 },
 "graviton-pressure-theory/full-framework/part-24-gpt-unit-system/index.html": {
 "h": "45da680e779628c4",
@@ -584,8 +600,8 @@
 "d": "2026-11-05"
 },
 "videos.html": {
-"h": "531c6aa06ae1f32c",
-"d": "2026-11-10"
+"h": "ae31dbd1d1e9532e",
+"d": "2026-11-11"
 },
 "why.html": {
 "h": "bf7b52e1a78a056c",

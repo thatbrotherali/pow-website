@@ -209,7 +209,7 @@ If matter absorbed the medium flowing into it and kept its energy as heat, the i
 
 - the Sun would absorb $3.4\times10^{15}$ watts, a hundred-billionth of its output.
 
-Both pass. The first edition’s higher values, $10^{10}$ to $10^{12}$ pascals in Part 19 and $10^{-6}$ to $10^{-4}$ pascals in Part 25, are retired as the medium’s free-space pressure: the first would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. The $10^{10}$ to $10^{11}$ pascals of Part 19 survives as a different quantity, the energy density of the bonds that hold matter together (iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre).
+Both pass. The first edition’s higher values, $10^{10}$ to $10^{12}$ pascals in the first edition’s Part 19 (now Part 20) and $10^{-6}$ to $10^{-4}$ pascals in Part 25, are retired as the medium’s free-space pressure: the first would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. The $10^{10}$ to $10^{11}$ pascals of that part survives as a different quantity, the energy density of the bonds that hold matter together (iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre).
 
 The scale has a coincidence worth noting: $\tfrac12\rho_c c^2$, for the critical density of the universe, is $3.8\times10^{-10}$ pascals, and the pressure attributed to dark energy has a magnitude of $5.3\times10^{-10}$ pascals. **\[Hypothesis\]** In General Relativity the dark-energy pressure is negative, and the medium’s is positive; any link must come through a different route, the expansion of a self-repelling medium that is not confined, and must be derived (Part 14).
 

@@ -48,8 +48,8 @@ OLD_PAGES = {
     "Part 11 - Reclaiming the Four": FW + "part-11-re-examining-the-four/", "Part 15 - The Graviton": FW + "part-15-gravitons/",
     "Part 16 - Properties of Gravity Field": FW + "part-16-the-properties-of-gravitational-fields/",
     "Part 17 - The Definition of Mass": FW + "part-17-the-definition-of-mass/", "Part 18 - The Nature of Time in GPT": FW + "part-18-the-nature-of-time-in-gpt/",
-    "Part 19 - Graviton Coherence": FW + "part-19-graviton-coherence/", "Part 20 - Graviton Corridors": FW + "part-20-graviton-corridors-and-lattice-resonance/",
-    "Part 21 - Magnetism in GPT": FW + "part-21-magnetism-as-gravimetric-resonance/", "Part 23 - The Math of GPT": FW + "part-23-the-mathematical-foundation/",
+    "Part 19 - Graviton Coherence": FW + "part-20-graviton-coherence/", "Part 20 - Graviton Corridors": FW + "part-21-graviton-corridors-and-lattice-resonance/",
+    "Part 21 - Magnetism in GPT": FW + "part-22-magnetism-as-gravimetric-resonance/", "Part 23 - The Math of GPT": FW + "part-23-the-mathematical-foundation/",
     "Part 24 - GPT Unit System": FW + "part-24-gpt-unit-system/", "Part 26 - Planetary Mechanics in GPT": FW + "part-26-planetary-mechanics/",
     "Part 27 - Natural Forces Re-Imagined": FW + "part-27-natural-force-re-imagined/", "Part 28 - Resonance Transmissions": FW + "part-28-resonance-transmissions/",
     "CIVIC CREDITS": PLAN + "civic-credits/", "Civic Credit Proposal": PLAN + "civic-credits/civic-credits-system-proposal/",
@@ -108,8 +108,16 @@ def wix_slug(name):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+# Pages of this site that moved when Part 19, The Pathway to Matter, was inserted (11 November 2026)
+MOVED = {
+    FW + "part-19-graviton-coherence": FW + "part-20-graviton-coherence/",
+    FW + "part-20-graviton-corridors-and-lattice-resonance": FW + "part-21-graviton-corridors-and-lattice-resonance/",
+    FW + "part-21-magnetism-as-gravimetric-resonance": FW + "part-22-magnetism-as-gravimetric-resonance/",
+}
+
+
 def table():
-    out = {}
+    out = dict(MOVED)
     for name, target in OLD_PAGES.items():
         out[wix_slug(name)] = target
     out.update(SEEN)

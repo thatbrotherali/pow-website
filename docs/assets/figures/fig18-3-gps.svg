@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="471.708pt" height="208.2955pt" viewBox="0 0 471.708 208.2955" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-10T21:05:06.298143</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 208.2955 
+L 471.708 208.2955 
+L 471.708 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.902629 176.660109 
+L 465.948 176.660109 
+L 465.948 14.2555 
+L 49.902629 14.2555 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 68.813782 143.223866 
+L 150.391306 143.223866 
+L 150.391306 34.078416 
+L 68.813782 34.078416 
+z
+" clip-path="url(#p09114fd154)" style="fill: #2a78d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 217.136553 143.223866 
+L 298.714076 143.223866 
+L 298.714076 160.419648 
+L 217.136553 160.419648 
+z
+" clip-path="url(#p09114fd154)" style="fill: #c4620a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 365.459323 143.223866 
+L 447.036847 143.223866 
+L 447.036847 51.274198 
+L 365.459323 51.274198 
+z
+" clip-path="url(#p09114fd154)" style="fill: #5a6470"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0bad168595" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0bad168595" x="109.602544" y="176.660109" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 7.8px; font-family: 'Inter'; fill: #52514e" transform="translate(61.694091 191.216359)">higher, where the medium</text>
+      <text style="font-size: 7.8px; font-family: 'Inter'; fill: #52514e" transform="translate(71.643966 200.654055)">streams more slowly</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0bad168595" x="257.925314" y="176.660109" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="257.925314" y="191.216359" transform="rotate(-0 257.925314 191.216359)">moving at 3.9 km/s</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m0bad168595" x="406.248085" y="176.660109" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 7.8px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="406.248085" y="191.216359" transform="rotate(-0 406.248085 191.216359)">net, every day</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m7bc2f80405" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="167.106897" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="171.70846" transform="rotate(-0 42.902629 171.70846)">−10</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="143.223866" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="147.825429" transform="rotate(-0 42.902629 147.825429)">0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="119.340835" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="123.942398" transform="rotate(-0 42.902629 123.942398)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="95.457805" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="100.059367" transform="rotate(-0 42.902629 100.059367)">20</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="71.574774" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="76.176336" transform="rotate(-0 42.902629 76.176336)">30</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="47.691743" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="52.293306" transform="rotate(-0 42.902629 52.293306)">40</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m7bc2f80405" x="49.902629" y="23.808712" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: end; fill: #52514e" x="42.902629" y="28.410275" transform="rotate(-0 42.902629 28.410275)">50</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="20.468547" y="95.457805" transform="rotate(-90 20.468547 95.457805)">microseconds per day</text>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <path d="M 49.902629 143.223866 
+L 465.948 143.223866 
+" clip-path="url(#p09114fd154)" style="fill: none; stroke: #9aa3ad; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 49.902629 176.660109 
+L 49.902629 14.2555 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 49.902629 176.660109 
+L 465.948 176.660109 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.2px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="109.602544" y="30.495961" transform="rotate(-0 109.602544 30.495961)">+45.7 µs</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="257.925314" y="171.167012" transform="rotate(-0 257.925314 171.167012)">-7.2 µs</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.2px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="406.248085" y="47.691743" transform="rotate(-0 406.248085 47.691743)">+38.5 µs</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(192.450924 29.18482)">uncorrected, the net gain would put a</text>
+    <text style="font-size: 7.4px; font-family: 'Inter'; fill: #52514e" transform="translate(191.679127 38.138531)">GPS position out by about 11 km a day</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 6.8px; font-family: 'Inter'; text-anchor: start; fill: #8a8984" x="5.76" y="12.3475" transform="rotate(-0 5.76 12.3475)">ESTABLISHED</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p09114fd154">
+   <rect x="49.902629" y="14.2555" width="416.045371" height="162.404609"/>
+  </clipPath>
+ </defs>
+</svg>

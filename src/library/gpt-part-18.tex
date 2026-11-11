@@ -1,0 +1,257 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{18.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{18.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{18.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 18 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries The Nature of Time\par}
+\vspace{0.5cm}
+{\Large Rhythm, Sequence, and the Periodicity That Allows Structure\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026 \quad (first edition 2025)\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+This paper says what time is in GPT, and why it comes before matter. Time is rhythm and sequence: the medium's own oscillation, the cycles of every pattern made of it, and the order in which events recur. A clock is a pattern's rhythm; a body's mass sets the rhythm of its circulation; rhythms come into step by locking to one another; and stable structure is rhythm that keeps returning to the same state. The periodic sequencing of events is what allows structure that can become matter, which is the subject of Part~19. The paper sets out the measured facts of clocks, the mechanism by which the medium slows every clock by the same factor, the medium's own rest, relaxation, the past as persisting structure, the direction of time, and time as it is experienced.
+
+The graviton is in Part~15, the field in Part~16, mass in Part~17 and the equations of the medium in Part~23.\fn{rashadaPart15}\fn{rashadaPart16}\fn{rashadaPart17}\fn{rashadaPart23} Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Time is measured better than anything else in physics. The best clocks agree to one part in $10^{18}$, and they register the slowing of time between two heights a millimetre apart. Yet the standard account does not say what time is. Newton made it an absolute parameter, flowing uniformly whatever happens; General Relativity made it a coordinate of a curved spacetime, stretched by mass and by motion. Both describe how clocks behave. Neither says what ticks, or why every kind of clock is slowed alike.
+
+The first edition said this plainly: in both models ``time is assumed rather than derived'', and they ``describe effects but offer no structural origin''. Its answer is kept. \hypm{Time is the rate at which a structure's internal state is refreshed.} This edition says what the refresh is, why its rate is set by the structure while its slowing is set by the medium, and why rhythm comes first in the order of things.
+
+\section{What Clocks Measure}
+\label{sec:measured}
+
+\argm{Every clock is a regular process counted.} The second is defined by one: 9,192,631,770 cycles of the radiation from a transition in the caesium atom. The measured facts about clocks are these.
+
+\begin{itemize}
+\item \textbf{Height slows clocks.} Light climbing 22.5 metres up a tower at Harvard arrived shifted by $2.5\times10^{-15}$, the amount predicted, to one per cent.\fn{pound1960} Optical clocks register the difference between two heights 33 centimetres apart,\fn{chou2010} and across a cloud of atoms a millimetre deep.\fn{bothwell2022} Galileo navigation satellites on eccentric orbits confirm the effect to $2.5\times10^{-5}$.\fn{delva2018}
+\item \textbf{Motion slows clocks.} Caesium clocks flown round the world in 1971 lost 59 nanoseconds flying east and gained 273 flying west, against the ground, as predicted from their height and speed together.\fn{hafele1972} Muons circling at $\gamma = 29.3$ in a storage ring lived 29.3 times longer than muons at rest, to one part in a thousand, while being accelerated at about $10^{18}$ times the Earth's gravity; the acceleration added nothing.\fn{bailey1977}
+\item \textbf{Every kind of clock is slowed by the same factor.} Nuclear transitions, caesium and hydrogen masers, optical clocks of strontium, ytterbium, aluminium and mercury, and the decay of muons all agree (Part~23).
+\item \textbf{The slowing is in use every day.} Clocks on the GPS satellites run faster than clocks on the ground by 45.7 microseconds a day because they are higher, and slower by 7.2 because they move; the net 38.5 microseconds is corrected every day, or positions would drift by about 11 kilometres a day (Figure~\ref{fig:gps}).
+\end{itemize}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.82\textwidth]{fig18-3-gps.pdf}
+\caption{The daily rate of a GPS satellite clock against the ground: faster because it is higher, slower because it moves.}
+\label{fig:gps}
+\end{figure}
+
+\section{Time before Matter: The Medium's Rhythm}
+\label{sec:before}
+
+\begin{hypbar}
+Time comes before matter. The universe began hot and energetic and cooled, and everything in it is a later phase of what came before (Part~17). The first rhythm is the graviton's own oscillation: every graviton is at some point in its cycle, and that point is its phase (Part~15). As the medium cooled, its gravitons settled into a common, in-phase order: a shared rhythm running through all of space. That shared rhythm is the background against which any structure stands out.
+\end{hypbar}
+
+\hypm{Structure needs time in this sense before it can exist.} A knot is circulation that closes on itself and keeps repeating; a shell is a place where rhythms recur in step, turn after turn; an atom holds where an electron's wave fits a whole number of times around it. Each requires a sequence of events that recurs regularly. \argm{Stable means periodic:} a pattern lasts because its cycle keeps returning to the same state, and the short-lived fragments of colliders fail because their cycles do not complete (Part~19). The periodic sequencing of events is what allows structure that can become matter.
+
+\section{Every Clock Is a Pattern's Rhythm}
+\label{sec:rhythm}
+
+\begin{hypbar}
+A clock is a pattern of the medium, and its rate is the rate at which the pattern refreshes. In GPT the refresh is literal: with each turn of its circulation, a pattern takes in a fixed amount of the medium (Part~17). The first edition said that ``each graviton-structure interaction induces a state update, equivalent to a discrete unit of temporal evolution''. That is the turnover, and its count is the clock.
+\end{hypbar}
+
+\argm{A pattern's rhythm is its energy divided by Planck's constant.} An atomic clock counts the rhythm of a change between two states of an atom, at the frequency $\Delta E/h$: caesium's two states differ by $3.8\times10^{-5}$ electronvolts, and its rhythm is 9.19 billion a second. A particle's own energy, $E = mc^2$, is a rhythm in the same way: the electron's is $1.24\times10^{20}$ a second, the proton's $2.27\times10^{23}$, as de Broglie proposed in 1924. \hypm{A heavier pattern turns faster: mass is rhythm as much as it is energy.} The rhythms of things span twenty-eight orders of magnitude (Figure~\ref{fig:rhythms}).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.94\textwidth]{fig18-1-rhythms.pdf}
+\caption{Rhythms, from a day to the proton's energy expressed as a rhythm, on a logarithmic scale. Each is set by the structure that keeps it.}
+\label{fig:rhythms}
+\end{figure}
+
+\paragraph{Structure sets the rate.} \argm{Every clock's own rate is set by its structure.} A quartz watch runs at 32,768 cycles a second because of the size and stiffness of its crystal; a caesium clock at 9.19 billion because of the structure of the caesium atom. Change a clock's order, temperature or stress, and its rate changes: the heat around an optical clock shifts it by parts in $10^{15}$, and clockmakers correct for it. The first edition's claim that structure and coherence set a clock's rate is kept, and is how every clock is built. Living rhythms are set by their structures too: a body's daily clock keeps nearly the same period across a wide range of temperatures, by the design of its chemistry, and is brought into step with the Sun each morning by light.
+
+\section{How Rhythms Come into Step}
+\label{sec:locking}
+
+\argm{Rhythms that are coupled lock together.} In 1665 Huygens noticed that two pendulum clocks hung from the same beam came to swing in exact opposition, whatever their starting points; the beam carried each clock's swing to the other.\fn{bennett2002} Fireflies of some species flash in unison across whole trees; the cells of the heart's pacemaker fire together; a body's daily clock locks to the Sun. In each case each rhythm nudges the other through something they share, and if the nudging is stronger than the difference between their natural rates, the difference closes and stays closed (Figure~\ref{fig:locking}).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.94\textwidth]{fig18-2-locking.pdf}
+\caption{Two coupled rhythms. When the coupling is weaker than the difference between their natural rates, their phase difference slips round and round; when it is stronger, it settles to a fixed value and the two keep step.}
+\label{fig:locking}
+\end{figure}
+
+\hypm{Locking is the mechanism GPT uses at every scale.} A graviton entering a knot is drawn into step with the circulation (Part~17); an electron's pattern locks into step around a nucleus (Part~19); bodies whose rhythms are in step are pressed the same way, turn after turn, and are caught into resonance (Part~16); the medium itself, cooling, locked into common order. What carries the coupling is always the medium, as the beam carried Huygens's swings. The first edition said that systems synchronise when they share matching update rates, ``independent of signal exchange''. That is restated: \argm{rhythms lock through what they share, and what all things share is the medium.}
+
+\section{Why Every Clock Slows Alike}
+\label{sec:slowing}
+
+\begin{hypbar}
+A clock's cycle is carried by exchanges that cross its bonds at $c$ through the medium. When the medium streams through the clock at speed $w$, either because the clock moves through it or because it is held where the medium flows toward a mass, those exchanges take longer: across a bond by the factor $\gamma = 1/\sqrt{1-w^2/c^2}$, along it by $\gamma^2$. The pattern re-settles where they balance, squashed along the flow, and every cycle in it then takes $\gamma$ times as long (Part~23).
+\begin{equation}
+\frac{d\tau}{dt} = \sqrt{1 - \frac{w^2}{c^2}} .
+\label{eq:clock}
+\end{equation}
+\end{hypbar}
+
+The first edition called this ``refresh latency'': gravitational time dilation as ``latency in graviton alignment''. The word is right. The latency is the lengthened round trip of every exchange in a pattern the medium streams through.
+
+\paragraph{Why every kind of clock agrees.} \argm{Every clock is a pattern of the same medium, kept by exchanges at the same speed, so the same streaming slows every clock by the same factor,} whatever it is made of. Its own rate is set by its structure; its slowing is set by the medium. Near the Earth's surface the medium streams at the escape speed, 11.2 kilometres a second, and slows clocks by 7.0 parts in $10^{10}$; at the GPS orbit it streams more slowly, and clocks there run faster.
+
+\paragraph{Acceleration adds nothing.} The first edition said acceleration increases impedance. That is withdrawn: muons accelerated at $10^{18}$ times the Earth's gravity were slowed by their speed alone. In GPT that follows: the slowing depends on the speed of the medium through the clock, and acceleration changes the speed only gradually.
+
+\paragraph{A clock's own mass does not slow it.} The first edition said that mass induces temporal drag. That is withdrawn: the slowing depends on where a clock is and how it moves, not on how massive it is. A clock's own mass sets its own rhythm, which is faster, not slower, for a heavier pattern.
+
+\paragraph{What is open.} \openm{Every kind of clock tested is slowed alike; whether a change of order in one clock (one crystal oscillator ordered and disordered, a material above and below a transition) alters its slowing has not been tested.} It is a test for Part~29.
+
+\paragraph{Settling.} \hypm{When a clock's speed through the medium changes, its patterns are out of balance until their bonds re-settle, and the clock reaches its new rate over a relaxation time set by the medium's response (Part~14).} For the clocks tested, re-settling is too fast to have been seen. \openm{How fast is owed.}
+
+\section{The Medium's Own Rest}
+\label{sec:rest}
+
+\hypm{GPT has a physical rest: the frame in which the medium, on average, does not flow.} Motion through it cannot be detected by rods and clocks alone, because the motion squashes every rod and slows every clock exactly enough to hide it (Part~23). Lorentz and FitzGerald held the same of their ether; Bell showed that it follows from the dynamics of the atom.\fn{bell1976} \argm{But motion through the universe can be seen by looking outward:} the cosmic background radiation is warmer ahead of the Sun's motion and cooler behind, and shows that the Sun moves at about 370 kilometres a second relative to it.\fn{planck2020dipole} \hypm{If the medium is at rest with the cosmic background, that is the Sun's speed through the medium, and that frame's ``now'' is the medium's.} \openm{Whether the medium's rest and the background's rest are the same is open.}
+
+\section{Relaxation: How Fast Order Returns}
+\label{sec:relaxation}
+
+Time in GPT has rates of return as well as rates of rhythm. \hypm{Disturbed order comes back at a rate set by the medium's response.} A clock re-settles to a new speed (Section~\ref{sec:slowing}); the neutral counterflow of a mass is re-phased by its surroundings, and where re-phasing overtakes it lies the relaxation boundary, at one acceleration around every mass (Part~15); the medium, disordered in the hot early universe, returned to order as it cooled (Section~\ref{sec:before}). \openm{The re-phasing rate, which governs all three, is owed;} the relaxation boundary fixes its ratio to a mass's supply of ejecta, and the clock tests bound how fast a clock re-settles.
+
+\section{Past, Present and Future}
+\label{sec:becoming}
+
+The first edition described the past as ``stabilised coherent pressure corridors'', the present as the ``active refresh rate'', and the future as ``resonant alignment potential''. \hypm{In the terms of this edition:}
+\begin{itemize}
+\item \textbf{The past persists as structure.} A crystal's lattice, a planetary system's resonances, the layers of rock, the sequence of a gene, the activation record set when a structure first formed (Part~13): each is the past held in the arrangement of the present. A system's structure is the record of its history (Part~16).
+\item \textbf{The present is the current cycle:} the refresh now under way in every pattern.
+\item \textbf{The future is what present rhythms allow:} what can lock, what can form, and what will persist.
+\end{itemize}
+\argm{Memory in a brain is held in the strength of connections between nerve cells,} changed by use; that is established. GPT's activation record is a proposal about how structures record influences more generally, not a replacement for it. The first edition's integral of ``becoming'', $B = \int C\, dV$, is withdrawn: its quantity $C$ was never defined. Its claim that deterministic resonance replaces probability in quantum measurement is open (Part~12).
+
+\section{The Direction of Time}
+\label{sec:arrow}
+
+\argm{The equations of motion run equally well backward; the world does not.} The standard account locates the difference in the universe's beginning: it started in a state of low entropy, and disorder has grown since. The first edition located it in ``structured coherence against entropy''.
+
+\hypm{GPT locates two arrows in the medium.} The first is the cooling: the medium began hot and disordered and settled into order, and everything formed in that order in sequence, medium before light, light before knots, knots before atoms (Part~19). The second is in every particle: the turnover takes in-phase medium and sheds it neutral, never the reverse, and the neutral medium is re-phased only far away. Reversed, every particle would draw in neutral medium and emit pressing medium. \openm{Whether the turnover's direction shows in anything beyond the small violations of time-symmetry measured in the decays of some particles is open.}\fn{lees2012}
+
+\section{Time as It Is Experienced}
+\label{sec:experienced}
+
+The first edition held that coherence accelerates time as it is experienced: that in moments of threat, or in meditation, the refresh rate rises and time seems to slow. \argm{That was tested.} People falling 31 metres into a net, at the moment they most felt time slow, could read numbers flashed too fast to read at rest no better than at rest. What changes is memory: frightening moments are remembered in more detail, so they seem in retrospect to have lasted longer.\fn{stetson2007} \argm{Experienced time is set by the rhythms of the brain, which are structures, and by memory; it is not the rate of the body's clocks, which every measurement finds the same.} The first edition's devices for controlled time dilation, for enhancing cognition by coherence, and for neural ``field chambers'' are withdrawn as physics: every clock is slowed alike by the medium, and no material has changed that.
+
+\section{What Remains to Be Derived}
+\label{sec:owed}
+
+\begin{itemize}
+\item \openm{The re-phasing rate, which sets how fast clocks re-settle, where the relaxation boundary lies relative to a mass's supply of ejecta, and how fast the cooling medium ordered.}
+\item \openm{The graviton's own rhythm, from the medium's equation of state (Part~23).}
+\item \openm{Whether a change of order in one clock alters its slowing.}
+\item \openm{Whether the medium's rest is the rest of the cosmic background.}
+\item \openm{Whether the turnover's direction appears in measured violations of time-symmetry.}
+\end{itemize}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+Time is rhythm and sequence. The medium's own oscillation is the first rhythm, and as the medium cooled into common order it gave every later structure a background to stand against. A clock is a pattern's rhythm, counted: its rate is set by its structure, its energy divided by $h$, and its slowing is set by the medium, because the streaming medium lengthens every exchange that carries its cycle. That is why every kind of clock is slowed by the same factor, and why the GPS clocks gain 38.5 microseconds a day. Rhythms lock through what they share, and what all things share is the medium; stable structure is rhythm that keeps returning to the same state. So time comes before matter: the periodic sequencing of events is what allows structure that can become matter.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item Time as the rate of a structure's internal refresh is kept, and the refresh is named: the turnover, a fixed take of the medium per turn of a pattern's circulation (Part~17).
+\item New: time comes before matter. The medium's oscillation is the first rhythm; cooling ordered it; stable means periodic; the periodic sequencing of events allows structure that can become matter (Part~19).
+\item A pattern's rhythm is its energy divided by $h$. Structure sets each clock's own rate, as the first edition held; the formula $T_{\text{local}} = 1/(k_g C_s)$ is replaced.
+\item New: rhythms lock through what they share (Huygens, fireflies, heart cells, the daily clock), and locking is GPT's mechanism at every scale. ``Synchronisation independent of signal exchange'' is restated as locking through the medium.
+\item The slowing of clocks is given its mechanism, the lengthened exchanges of a pattern the medium streams through (Part~23), which the first edition called refresh latency. Every kind of clock is slowed alike; whether a change of order alters the slowing is open.
+\item ``Mass induces temporal drag'' and ``acceleration increases impedance'' are withdrawn: the slowing depends on where a clock is and how it moves, and accelerations of $10^{18}$ times the Earth's gravity add nothing.
+\item The measured facts are added: Pound and Rebka, the 33-centimetre and millimetre height tests, the Galileo satellites, Hafele and Keating, the muons, and the GPS clocks.
+\item New: the medium's own rest, undetectable by rods and clocks, and its relation to the cosmic background; relaxation as a second kind of rate; past, present and future restated; the direction of time located in the cooling and in the turnover.
+\item Coherence-accelerated experienced time is withdrawn, after the free-fall test; experienced time is set by the brain's rhythms and by memory. The devices for controlled time dilation and cognitive enhancement are withdrawn as physics. The integral of becoming is withdrawn; deterministic resonance in measurement is open.
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The title changes from \emph{The Nature of Time in GPT} to \emph{The Nature of Time}, and the subtitle from \emph{Phase, Flow, and the Mechanics of Becoming} to \emph{Rhythm, Sequence, and the Periodicity That Allows Structure}.
+\item ``Massless, self-repulsive'' gravitons, ``impedance'' and ``corridors'' are replaced by the terms of Parts 15 to 17.
+\item Three figures, status marks and this list are added.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part18}
+
+\end{document}

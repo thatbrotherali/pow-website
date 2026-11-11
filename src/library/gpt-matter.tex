@@ -1,0 +1,324 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{19.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{19.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{19.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 19 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries The Pathway to Matter\par}
+\vspace{0.5cm}
+{\Large How Knots Are Born, What Fails, and How Atoms and Materials Are Built\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize New in the second edition, November 2026\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+Mass is how much; matter is how it is arranged. Part~17 said what mass is: energy slowed down, motion of the medium at the speed of light confined so that it goes nowhere, with the same properties whatever it is made of. This paper follows the other pathway: how confined energy becomes things. It traces matter from one hot beginning through the birth of the first knots, those that did not last, the building of nucleons and nuclei, what happens when matter is split or decays, atoms and chemistry, and finally the states of matter, which are degrees of collective order among the knots. Everything that differs between things lives here, and the parts that follow, on phase transitions and coherence, corridors and lattices, and magnetism, are built on it.
+
+Time comes first (Part~18): the periodic sequencing of events is what allows structure that can become matter. The graviton is in Part~15, the field in Part~16 and mass in Part~17.\fn{rashadaPart15}\fn{rashadaPart16}\fn{rashadaPart17}\fn{rashadaPart18} Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section{One Beginning}
+\label{sec:beginning}
+
+\begin{hypbar}
+The universe began hot and energetic, expanded and cooled, and everything in it came from that one beginning. So nothing is made of anything else: each thing is a later phase or process of what came before, cooled energy settled into some form. The medium is the first such form; light is its travelling wave; matter is its knotted circulation; nuclei, atoms and everything after are made of the knots. ``Fundamental'' means earliest, not uncaused. And cooling is not only the loss of energy: it is the medium settling into common, in-phase order, the background against which any knot can stand out.
+\end{hypbar}
+
+\argm{The standard history of the cooling universe gives the sequence} (Figure~\ref{fig:timeline}). At about twenty millionths of a second, at around $10^{12}$ kelvin, protons and neutrons formed; at about a second, at $10^{10}$ kelvin, neutrinos stopped interacting and went their own way; at about three minutes, at $10^{9}$ kelvin, the first nuclei formed, mostly helium; at 380,000 years, at 3,000 kelvin, electrons settled onto nuclei as the first atoms, and the light released then is the cosmic background, cooled now to 2.7 kelvin; the first stars lit some two hundred million years later. GPT names what was cooling at every step: the medium.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig19-1-timeline.pdf}
+\caption{The cooling universe, on a logarithmic scale of time, with the temperature at each stage. Orange: what did not last.}
+\label{fig:timeline}
+\end{figure}
+
+\section{The Birth of a Knot}
+\label{sec:form}
+
+\begin{hypbar}
+A knot is circulation at $c$ that has closed on itself and holds itself. Four things are needed for one to form.
+\begin{enumerate}
+\item \textbf{An ordered background.} A knot is a region whose phase differs from its surroundings. That is only possible where the surroundings share a common phase. In the hot early universe the medium's phase was disordered everywhere, and there was nothing for a knot to be distinct from. As the medium cooled, it settled into common, in-phase order: the backdrop against which knots could form and hold. Cooling is not only the loss of energy; it is the medium becoming ordered, and that is what made matter possible.
+\item \textbf{Enough energy in a small enough region.} A wave intense enough shifts the medium's local phase, and the shift bends the wave back on itself. Below a threshold the wave travels on as light; above it, the wave can close. The threshold is the knot's mass: at least 1.022 MeV for an electron and a positron together.
+\item \textbf{Something to turn the wave.} A single photon in empty space cannot become a pair; energy and momentum do not balance. It needs a nucleus nearby, whose strong local pattern turns it and takes up the spare momentum, or a second wave, each turning the other.
+\item \textbf{A partner of opposite hand.} Hold a ribbon at both ends and twist its middle: one side twists one way and the other side the opposite way. Twist cannot be made in one place alone. A wave has no winding, so if it closes into circulation with a winding, an opposite winding forms with it. That is why matter is always made together with antimatter, and why charge is conserved.
+\end{enumerate}
+Once closed, the circulation carries its own phase, out of step with its surroundings, and that difference of phase is its boundary: a wall it makes for itself.
+\end{hypbar}
+
+\argm{Light can do both halves of this.} It can circulate with no mirrors, held by a boundary: inside a polished crystal sphere, light runs round just under the surface for some $10^{11}$ cycles, held only by the change of material at the edge.\fn{grudinin2006} And it can make its own boundary: in some materials, light intense enough changes the material where it passes, which bends the beam back on itself so that it guides itself without spreading. That self-trapping was shown in 1964, and it has a threshold.\fn{chiao1964} \hypm{A knot is both at once: a wave intense enough to make its own boundary, circulating inside it.}
+
+\paragraph{What self-repulsion does.} Gravitons in phase push each other. That push orders the background, gives the medium the stiffness that resists the knot's phase region and so turns its circulation round its loop, and keeps the strands of a knot apart (Section~\ref{sec:three}).
+
+\paragraph{What phase does.} Phase defines the knot, as a region with its own phase; it makes the boundary, the difference that traps the circulation; it carries the knot's handedness, which way the phase winds, and so its charge; and it runs the turnover, since gravitons passing through take on the knot's phase and leave neutral (Part~17).
+
+\openm{How strongly a concentration of energy shifts the medium's phase, its non-linear response, is owed. It sets the thresholds, and so should give the masses of the knots, and it sets the strength of the knot's boundary.}
+
+\section{Knots Need Three Dimensions}
+\label{sec:three}
+
+\argm{A knot can exist only in three dimensions.} In two dimensions a closed loop cannot cross itself, so every loop is a deformed circle; in four dimensions every knotted loop can be untied, because there is room to pass one strand around another. Only in three is a loop truly knotted. \hypm{If matter is knotted circulation, matter can hold only because space has three dimensions.}
+
+A drawing on a page loses most of what a knot is (Figure~\ref{fig:knot3d}).
+\begin{itemize}
+\item \textbf{It is a tube of flow, not a line.} A smoke ring shows the motion: the air flows round the ring and rolls around its core at once. A knotted circulation does both, so the medium spirals along the knotted tube.
+\item \textbf{It has a hand.} The trefoil, the simplest true knot, comes in a left-handed and a right-handed form, mirror images that cannot be turned into each other without cutting. \hypm{A knot's handedness is part of its shape, and two hands give two kinds of charge} (Section~\ref{sec:charge}).
+\item \textbf{It is tethered to everything around it.} The knot is fed by the inflow from every direction and sheds its counterflow in every direction. In three dimensions an object connected to its surroundings must turn twice, through 720 degrees, before its connections return to how they began, as Dirac showed with a belt. \hypm{The electron's spin of one half, returning to itself only after two full turns, is what a knot tethered to the medium does.}
+\end{itemize}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.78\textwidth]{fig19-2-knot3d.pdf}
+\caption{A knot in three dimensions (schematic): a closed tube of the medium circulating at $c$, spiralling along and around itself, fed from every direction and shedding neutral medium in every direction. \hyptag}
+\label{fig:knot3d}
+\end{figure}
+
+\paragraph{What protects the knot.} Knotted vortices made in water, with 3D-printed hydrofoils, untie within moments: strands come close and reconnect, and the knot comes apart.\fn{kleckner2013} They behave like collider fragments, formed by force and dissolving. Matter's knots hold, so the medium must have what water lacks. \hypm{The phase rule supplies it. The strands of one knot share the phase of its circulation, so they push each other apart, never come close enough to reconnect, and the knot cannot untie. A knot and its mirror image, matter and antimatter, are out of phase, so their strands are drawn together, meet, reconnect and unwind into light: annihilation. An electron and a proton attract but do not annihilate, because the proton is not the electron's mirror knot; they can bind, as in hydrogen, but cannot unwind each other.} \openm{What balances the strands' outward push, and so sets the knot's size, is owed.}
+
+
+\section{Charge: The Hand of the Knot}
+\label{sec:charge}
+
+\begin{hypbar}
+A pattern that turns while it moves through a flowing medium has a handedness relative to the flow: it turns one way or the other about its direction. Two handednesses give two kinds of charge. The phase of what a charged pattern emits is set by its handedness; and phase decides push (Part~15). Like charges emit in phase and push each other apart; unlike charges emit out of phase and leave a deficit between them, so they are pressed together. Gravity comes from the inflow, which always runs inward, so it has one sign and adds up; charge comes from the phase of emission, so it has two signs and, in equal amounts, cancels. That is why ordinary matter is neutral while its gravity accumulates.
+\end{hypbar}
+
+Read this way, the knot and the charge are one thing, and several facts follow.
+\begin{itemize}
+\item \textbf{Charge comes in whole units and is conserved exactly}, because a knot's winding is a whole number and cannot change without cutting it. The electron and the proton are entirely different structures, yet their charges are equal and opposite to one part in $10^{21}$.\fn{bressi2011} Equality between unrelated structures is what a count of windings gives.
+\item \textbf{Charge always comes with mass}, because charge is a property of a knot, and every knot is matter.
+\item \textbf{Annihilation and creation.} An electron and a positron, knots of opposite handedness, unwind each other into light. Making a pair takes at least 1.022 MeV, the energy of two knots tied in opposite senses, and a nucleus nearby to take up the spare momentum.
+\end{itemize}
+
+\paragraph{What charge is not.} \argm{Charge is not lopsidedness in where mass sits.} A lopsided spinning body is not charged; Blackett tested in 1952 whether massive rotating bodies are magnetised by their rotation, and found nothing;\fn{blackett1952} the Earth's magnetic field reverses while its spin does not. The electron is round: any offset of its charge from its centre is below $4\times10^{-30}$ electron-centimetres.\fn{roussy2023} Charge is a twist with a direction, perfectly symmetric in shape. \argm{Internal asymmetry does act at the scale of particles:} the neutron has no net charge, yet it is magnetic, through the arrangement of the charged quarks inside it.
+
+\paragraph{The magnetic moment.} A simple charged loop carrying the electron's spin at $c$ gives half the electron's measured magnetic moment. Models in which the energy is shared between the circulation and the field around it recover the measured value.\fn{hestenes1990} \openm{The full pattern must include its field, and the electron's magnetic moment is the test.}
+
+\section{Those That Did Not Last}
+\label{sec:lost}
+
+Most of what formed in the early universe did not last.
+
+\paragraph{Pairs that unwound.} \argm{For every proton in the universe there are about 1.6 billion photons in the cosmic background radiation.} In the hot early universe knots formed in opposite pairs, and nearly all of them met their mirror partners and unwound into light; the matter there is now is the one in a billion or so where one handedness outnumbered the other. The standard account tells the same history; why one hand won is unexplained in it, and is still open in GPT.
+
+\paragraph{Neutrons that found a home in time.} \argm{About one second after the beginning, there was roughly one neutron for every six protons; by three minutes, as free neutrons decayed, about one for every seven.} Then nuclei could hold, and almost every remaining neutron was bound into helium. That fixes how much helium the universe made: about a quarter of all ordinary matter by mass, which is what is measured in the oldest gas, along with about 2.5 deuterium nuclei for every hundred thousand of hydrogen.\fn{fields2020}\fn{cooke2018} \hypm{It is stability depending on context, at the scale of the universe: free, a neutron comes apart in fifteen minutes; bound in a nucleus, it lasts. The neutrons that survived are the ones that found a supporting structure in time.} \openm{The same calculation predicts about three times more lithium than is seen; that discrepancy is open in all of physics.}
+
+\section{Knots Build: Nucleons and Nuclei}
+\label{sec:atoms}
+
+Each stage of matter is made of the one before, and the same rule, phase decides push, acts at each scale (Figure~\ref{fig:ladder}).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig19-3-ladder.pdf}
+\caption{From the medium to the atom (schematic): the cooled, ordered medium; a knot, the electron; a three-lobed knot, a proton or neutron; a nucleus of interlocked knots; an atom, whose electron patterns stand in step around the nucleus. \hyptag}
+\label{fig:ladder}
+\end{figure}
+
+\paragraph{Three kinds of knot.} The electron is the simplest self-holding knot: light, one whole unit of charge, and point-like in collisions. The proton and the neutron are heavier and composite: collisions show three parts inside each, the quarks, whose charges come in thirds and which are never seen alone. \hypm{The trefoil, the simplest true knot, has three lobes; if charge is winding, a winding shared among three lobes comes in thirds.} \openm{That is suggestive, not derived: the lobes would need different twists, $+\tfrac23$, $+\tfrac23$ and $-\tfrac13$ for the proton.}
+
+\paragraph{Why a quark cannot be pulled out.} \hypm{To pull one lobe out of a knot is to stretch its tube, which costs energy until there is enough to tie a new pair.} That is what colliders see: pulling quarks apart makes new pairs of quarks, never a lone one. The tension of that stretched tube is measured at about 0.9 GeV per femtometre, about $1.4\times10^5$ newtons. The force needed to keep a proton's circulation on its loop, estimated in Part~17, was about $2\times10^5$ newtons. \argm{Two independent routes give a force of the same size.}
+
+\paragraph{Nuclei.} \argm{The force between nucleons has a distinctive shape:} strongly attractive at about one femtometre and gone beyond about two; fiercely repulsive inside about half a femtometre; and saturated, each nucleon bonding only to its neighbours, so that every nucleus has the same density, 0.16 nucleons per cubic femtometre. \hypm{The phase rule, with both its meanings (Section~\ref{sec:atomic}), gives that shape. The outer patterns of neighbouring knots overlap and reinforce between them, which binds them; patterns must overlap, so the range is a knot's size; pressed closer, the cores push, as filled patterns do at contact; and each knot has only so many neighbours to bind.} It also gives a pairing rule. Identical knots of the same circulation push each other out; different knots do not. So a proton and a neutron can take the most binding arrangement, with their spins parallel, while two protons or two neutrons cannot. \argm{That is what is measured:} the deuteron, a proton and a neutron, is bound by 2.22 MeV with its spins parallel, while neither two protons nor two neutrons form a bound pair. \openm{Heavier nuclei, where spin pairing and the neutrons' role as charge-free binding enter, are owed.}
+
+\section{Splitting Matter: What Collisions Leave}
+\label{sec:fragments}
+
+\argm{Stability is the default.} The universe is made almost entirely of patterns that hold. No proton has ever been seen to decay; the limit is beyond $10^{34}$ years, some $10^{24}$ times the age of the universe. The electron is stable beyond $6\times10^{28}$ years. Light and neutrinos persist.
+
+The short-lived particles of the ``particle zoo'' appear only where energy is forced into a small region: in colliders, where stable knots are smashed together at enormous energy; in cosmic rays striking the atmosphere; in the cores of exploding stars. \hypm{What a collision produces are the fragments of a forced dissolution: the medium, wound up by the impact, briefly holding excited windings before they re-form into the stable patterns they came from, giving off light and neutrinos.} Detectors never see the fragments themselves. They record the stable debris, and the fragments are reconstructed from its energies.
+
+\paragraph{How long a fragment lasts.} If a particle's energy $E$ is circulation, its natural rhythm is $E/h$, and the number of turns it makes before it re-forms is its rhythm multiplied by its lifetime, $E/(2\pi\Gamma)$, worked from its measured width $\Gamma$ (Table~\ref{tab:turns}). The shortest-lived fragments do not complete one turn, or complete only a few. The width and the lifetime are related as they are for anything that rings: a bell that rings briefly has a smeared pitch, and one that rings long has a sharp one.
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Particle} & \textbf{Lifetime} & \textbf{Turns before it re-forms} \\
+\midrule
+$\rho$ meson & $4\times10^{-24}$ s & under 1 \\
+$\Delta(1232)$ & $6\times10^{-24}$ s & about 2 \\
+Z boson & $3\times10^{-25}$ s & about 6 \\
+Top quark & $5\times10^{-25}$ s & about 20 \\
+Higgs boson & $2\times10^{-22}$ s & about 5{,}000 \\
+J/$\psi$ & $7\times10^{-21}$ s & about 5{,}000 \\
+Charged pion & $2.6\times10^{-8}$ s & about $10^{15}$ \\
+Muon & $2.2\times10^{-6}$ s & about $6\times10^{16}$ \\
+Free neutron & 880 s & about $2\times10^{26}$ \\
+Proton, electron & stable & none seen \\
+\bottomrule
+\end{tabular}
+\caption{Lifetimes, from measured widths, and the turns each would make if its energy circulates at its natural rhythm $E/h$. \hyptag}
+\label{tab:turns}
+\end{table}
+
+\paragraph{The zoo is a spectrum.} An atom struck by a collision is pushed into an excited state and falls back within nanoseconds, giving off light at sharp frequencies; those lines revealed the atom's structure. \hypm{The collider zoo is the same, one level down: the spectrum of matter's knot, read through its debris.} Its regularities are clues to the knot's form. Excited hadrons fall on straight lines when their mass squared is plotted against their spin, which is what a structure turning with its ends at the speed of light produces. And in every decay, charge, baryon number and lepton number are conserved exactly, as a knot's windings are, since they cannot change without cutting it; in Skyrme's model baryon number \emph{is} a winding number.\fn{skyrme1962}
+
+\paragraph{The electron's heavier copies.} The muon and the tau behave in every way as heavier electrons, and each falls back to an electron, giving off neutrinos, as an excited atom falls to its ground state giving off light. \hypm{They are excited windings of the electron's knot.} The standard account does not explain why there are three. A numerical regularity hints at hidden structure: the three masses satisfy Koide's relation, $(m_e + m_\mu + m_\tau)/(\sqrt{m_e}+\sqrt{m_\mu}+\sqrt{m_\tau})^2 = 2/3$, to about one part in $10^5$, and no one knows why. \openm{An account of the knot's windings should explain both.}
+
+\paragraph{Stability depends on context.} A free neutron comes apart in about fifteen minutes; bound in a nucleus it lasts as long as the nucleus, for most nuclei indefinitely. A pattern held within a supporting structure persists; the same pattern torn out of it dissolves.
+
+\paragraph{Fragments and transitions.} The standard account counts the W and Z, the top quark and the Higgs among the fundamental particles, because the mathematics takes fields as its basic things; the W also takes part in natural processes, the decay of the neutron and the fusion that powers the Sun. \hypm{In GPT, the W is the configuration a knot passes through when it changes its winding, as a neutron becomes a proton: a transition, not a building block.} \argm{The standard theory predicts the widths and decay fractions of these states with great precision, the Z's width to about 0.1 per cent; an account by knots must reproduce those numbers, not only the picture.}
+
+\section{Decay and Shedding}
+\label{sec:decay}
+
+\paragraph{The neutron is its own knot.} It is not a proton holding an electron. That was Rutherford's early idea, and measurement rules it out: a proton and an electron together would have a whole-number spin, but the neutron's is one half, and confining an electron within a femtometre would cost about 200 MeV, when the neutron is only 0.78 MeV heavier than a proton and an electron together.
+
+\paragraph{Shedding: how a neutron decays.} \hypm{A free neutron decays by re-forming. One of its lobes changes its twist to the proton's; the old and new windings differ, and the difference, which cannot vanish, pinches off as new closed circulation, tied from the 0.78 MeV the re-forming releases. It comes out as a matched pair: an electron, with charge $-1$ and lepton number $+1$, and an antineutrino, with neither charge and lepton number $-1$.} Twist a cord too far and the twist suddenly becomes a loop that pops out sideways; vortices in fluids reconnect and pinch off rings the same way. \argm{The electrons of beta decay come out with every energy from zero to the maximum, not one energy,} which is what a release shared among the pieces of a pinch-off gives; that spread is why Pauli proposed the neutrino in 1930.
+
+\paragraph{Why the neutron waits.} The weak force acts over only about $2.5\times10^{-18}$ metres, a thousandth of a proton. \hypm{In knot terms, reconnection needs two strands to come that close; strands of one knot share its phase and push each other apart, so such approaches are rare.} A free neutron makes about $2\times10^{26}$ turns before it decays (Section~\ref{sec:fragments}): the waiting time for one rare close approach. On this reading the weak force is weak because reconnection is rare, and the W is the brief, stressed neck of the pinch-off. In a nucleus the neutron's lobes are interlocked with its neighbours'; re-forming no longer releases energy, no pinch-off happens, and the neutron lasts.
+
+\paragraph{Four kinds of shedding.} \hypm{Matter sheds in four ways:} the counterflow, medium leaving every knot continually; alpha decay, in which a heavy nucleus ejects a helium nucleus that already exists inside it as a bound group, a smaller knot-complex ejected whole; beta decay, the re-forming pinch-off that ties new knots; and gamma decay, in which a nucleus settling into a lower state sheds the difference as light, a wave with no knot.
+
+\section{Atoms, Exclusion and Chemistry}
+\label{sec:atomic}
+
+\paragraph{Atoms: shells that form at once.} \hypm{An electron in an atom is not a point circling the nucleus. Its pattern stands around the nucleus, and must be in step with it: the states allowed are those that fit a whole number of the electron's waves around it.} The ground state of hydrogen fits exactly one, as Bohr and de Broglie found. That is the mechanism of the shells of systems in Part~16, rhythms in step pressed the same way turn after turn, at another scale. \argm{It answers why atomic shells are strict while planetary orbits are free.} For an electron, its own wave is as large as its orbit, so only whole-number fits survive, and since its rhythms run at $10^{15}$ to $10^{20}$ a second the shells form at once. For a planet, its wave is about $10^{-63}$ metres against an orbit of $10^{11}$; any radius fits, and the sorting shows only over long times, as resonances. One mechanism, strict and fast in atoms, slow and statistical in planetary systems.
+
+\paragraph{Two meanings of phase.} Phase decides push (Part~15), and at the scale of atoms it has two meanings that must be kept apart. \hypm{The phase of circulation, the sense and timing of a knot's turning, its spin and its hand, sets the phase of what it emits, and governs push between separate things: patterns of the same circulation in the same place push each other out. The spatial phase of a standing pattern spread over a region governs how overlapping patterns add: in phase they reinforce, out of phase they cancel, leaving a node.}
+
+\paragraph{The shapes of atoms.} The standard account draws the electron's states as ``probability clouds'' (Figure~\ref{fig:orbitals}). \argm{Their shapes are not peculiar to atoms.} They are the standing patterns that any wave confined around a centre can form in three dimensions: the same shapes appear in the vibrations of a drop of water, in the sound of a spherical cavity, and in the oscillations of the Sun, whose modes astronomers label with the same numbers, $l$ and $m$. \hypm{In GPT an atomic state is the standing pattern of the electron's knot around the nucleus, locked in step with it. The cloud is where the pattern is densest, averaged over time; the knot's small core is what a detector finds at a point, guided by the pattern,} as de Broglie and Bohm proposed, and as droplets bouncing on a vibrating bath are guided by their own waves into quantised orbits. \argm{The nodes are physical:} the nodal structure of an excited hydrogen atom has been imaged directly.\fn{stodolna2013} The two lobes of a p state have opposite signs in the standard account; \hypm{in GPT, opposite spatial phase.}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig19-4-orbitals.pdf}
+\caption{Cross-sections of five states of the hydrogen atom, through the nucleus (black dot). Colour shows the pattern's phase, blue and orange opposite; dotted lines are nodes, where the phase flips. Each panel has its own scale.}
+\label{fig:orbitals}
+\end{figure}
+
+\hypm{The quantum numbers become features of the pattern.} $n$ counts the whole waves it fits around the nucleus, which sets the levels at $-13.6/n^2$ electronvolts; $l$ counts the surfaces across which its phase flips, 0 for s, 1 for p, 2 for d; $m$ is its orientation about an axis, which shows only when an axis is imposed, as when a magnetic field splits the levels by $m$; and spin is the sense of the knot's circulation.
+
+\paragraph{How the shells fill.} No two electrons share the same state. \hypm{Two identical patterns of the same circulation in the same place push each other out; two of opposite circulation can share.} So each new electron must take a pattern that avoids those already filled, two of opposite spin to each. With no flip-surface there is one pattern; with one, three mutually perpendicular dumbbells; with two, five; with three, seven: the $2l+1$ independent patterns that fit around a centre. \argm{Three regularities of the periodic table follow the same logic.} Electrons fill a set of equal patterns singly, with spins parallel, before any pair, which is Hund's rule: same-circulation patterns spread apart first. A filled set of patterns adds up to a perfect sphere, so a closed shell presents nothing to its neighbours, and the noble gases are inert. And s patterns, which alone have no node at the centre, pass through the nucleus itself, as is measured when a nucleus captures one of its own s electrons; passing through where the inflow is strongest, they lie lower, which is why 4s fills before 3d. The standard account treats exclusion as a rule of symmetry, not a force, but its effects act as a push: it is the hardness of matter at contact (Part~15), and the pressure of electrons that cannot share states holds up white dwarf stars.
+
+\paragraph{Bonds and the shapes of molecules.} \argm{Two atoms bond where their outer patterns overlap in spatial phase and reinforce between them, and two electrons of opposite circulation share the reinforced pattern;} overlap out of spatial phase leaves a node between the atoms and pushes them apart. Two helium atoms do not bond, because their bonding and anti-bonding patterns are both full and cancel; oxygen is drawn into a magnet, because two of its electrons sit unpaired in anti-bonding patterns. \argm{The shapes of molecules follow from self-repulsion,} and chemistry already predicts them that way: pairs of electrons push each other apart in three dimensions and settle as far apart as they can. Four pairs give a tetrahedron, 109.5 degrees, as in methane; ammonia's angle closes to 107 degrees and water's to 104.5, because pairs that are not shared push harder than pairs in bonds. Molecules and materials follow.
+
+\paragraph{The premise this tests.} In an ordinary liquid, two bodies pulsating in phase attract; Bjerknes showed this in the 1880s, and noted that it is the opposite of electricity. \hypm{GPT says emissions in phase push, and that rests on the medium's self-repulsion, which ordinary fluids lack.} The sign of the circulation rule is where the premise of self-repulsion does its work.
+
+\section{Many Atoms Together: States as Order}
+\label{sec:states}
+
+\begin{hypbar}
+When many atoms are together, what matters is how their phases relate across the whole body. In GPT phase is literal: the medium's own phase in each pattern. \textbf{A state of matter is a degree of collective phase order.}
+\begin{itemize}
+\item \textbf{Gas:} no lasting relation between the atoms' phases.
+\item \textbf{Liquid:} relations between neighbours only, constantly re-forming.
+\item \textbf{Solid:} a fixed, long-range arrangement, the crystal lattice.
+\item \textbf{Aligned spins:} the knots' hands and spins pointing together across a region, as in the domains of a magnet.
+\item \textbf{Shared phase:} many particles moving in one phase across the whole body, as in a superconductor, a superfluid, or a cloud of atoms cooled until they act as one.
+\end{itemize}
+\end{hypbar}
+
+\argm{Each kind of order sets in at a definite temperature and with a definite exchange of energy.} Ice melts at 273.15 kelvin, taking in 334 kilojoules a kilogram; water boils at 373.15 kelvin, taking in 2,260. Iron loses its magnetism above 1,043 kelvin, when its aligned spins disorder. Aluminium becomes superconducting below 1.2 kelvin, niobium below 9.3, and some copper oxides below about 93. Helium becomes a superfluid below 2.17 kelvin; and in 1995 a cloud of rubidium atoms cooled to 170 billionths of a kelvin above absolute zero was seen to fall into a single shared state.\fn{anderson1995} The standard account describes these states by ``order parameters'', quantities that are zero in the disordered state and grow as order sets in. \hypm{In GPT the order parameter is the phase relation itself: how far the knots of a body keep step with one another.}
+
+\section{What Order Does}
+\label{sec:order}
+
+\argm{Order does not change a body's mass beyond the energy it holds} (Part~17): ice weighs less than its water by $3.7\times10^{-12}$ of its mass, and no more. \hypm{But order changes three other things, and they are where matter's differences live.}
+\begin{itemize}
+\item \textbf{Where the medium's delivery lands.} The total delivery to a body tracks its energy; where it lands inside depends on the body's order (Part~15). Whether a crystal weighs differently in different orientations, or its centre of gravity shifts as it is turned, is untested and is a test for Part~29.
+\item \textbf{How counterflows combine.} Each spinning knot's counterflow carries a swirl (Part~16). In a disordered body the swirls point every way and cancel; aligned across a material, they add. \hypm{Magnetism would then be the collective swirl of aligned matter,} the same kind of thing as the Earth's dragging of gyroscopes, from knots whose rhythms run $10^{20}$ times a second (Part~22).
+\item \textbf{How the medium passes through.} An ordered lattice presents the same arrangement along whole lines and planes, and the medium passing through meets it in step. \hypm{Ordered matter may channel the medium, as a crystal channels particles fired along its planes} (Part~21).
+\end{itemize}
+How matter moves between degrees of order, and what each change releases or takes in, is the subject of Part~20.
+
+
+\section{What Remains to Be Derived}
+\label{sec:owed}
+
+\begin{itemize}
+\item \openm{The medium's non-linear response: how strongly concentrated energy shifts its phase, which sets the thresholds at which knots form and the strength of their boundaries (Part~17).}
+\item \openm{What balances a knot's outward push, and so its size.}
+\item \openm{Why the lobes of nucleons carry thirds of charge.}
+\item \openm{Why one hand of knot outnumbered the other in the early universe.}
+\item \openm{The binding of heavier nuclei, and the energy levels of atoms as numbers.}
+\item \openm{The temperatures at which each kind of order sets in, from the phase relations of the knots.}
+\end{itemize}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+Matter has a pathway. The medium, cooling, settled into common order; where energy was concentrated enough, turned, and paired with its mirror, it closed into knots, circulation at $c$ that holds itself, possible only in three dimensions, with a hand that is its charge. Most pairs unwound into light, and one in a billion lasted. Knots built nucleons and nuclei, bound where their patterns overlap and reinforce; neutrons lasted where they found a nucleus to hold them. Split by force, matter shows its spectrum in fragments that last a few turns; left alone, it decays by pinching off new knots. Electron patterns lock in step around nuclei as atoms, exclusion fills their shells, and patterns reinforced in phase and shared by electrons of opposite circulation bond them into molecules. Many atoms together keep step to a degree, and that degree is their state. Mass is how much; matter is how it is arranged, and the arrangement is phase.
+
+\section*{About This New Part}
+\addcontentsline{toc}{section}{About This New Part}
+
+This part is new in the second edition. Its material was first drafted for Part~17, \emph{The Definition of Mass}, and was moved here when mass and matter were separated: mass is how much, matter is how it is arranged. Its place, after Part~18, \emph{The Nature of Time}, follows from the principle that the periodic sequencing of events is what allows structure that can become matter. The first edition's Parts 19 and 20, on coherence and on corridors, become Parts 20 and 21, and its two parts on magnetism, 21 and 22, are joined as Part 22. Two figures first drawn for Part 17 appear here: the knot in three dimensions and the ladder from the medium to the atom. The timeline of the cooling universe is new.
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part19}
+
+\end{document}

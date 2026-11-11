@@ -392,5 +392,5 @@ Finally, GPT reintroduces purpose into matter. Structure becomes meaningful, ali
     </div>
 
 ---
-Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
-Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 19. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-graviton-coherence/
+Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/
+Cite as: Rashada, S. A. (2025). Graviton Coherence. In The Unified Framework for the Graviton Pressure Theory, part 20. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/
