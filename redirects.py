@@ -71,7 +71,7 @@ SITEMAP = {
     "portal-opens-audio-book-sections": "read.html", "message-from-shareef": "about.html", "part-6-redefining-work": FW + "part-06-redefining-work/",
     "part-21-magnetism-in-gpt": FW + "part-21-magnetism-as-gravimetric-resonance/", "pec-details": PLAN + "poverty-elimination-centers/",
     "pow-vision": "new-morality/", "advanced-ai-development": "about.html", "redefining-work-in-gpt": FW + "part-06-redefining-work/",
-    "paywall": "index.html", "pt5-gpt": FW + "part-05-graviton-pressure-theory/", "part-22-magnetic-materials-in-gpt": FW + "part-22-cross-analysis-of-magnetic-materials/",
+    "paywall": "index.html", "pt5-gpt": FW + "part-05-graviton-pressure-theory/", "part-22-magnetic-materials-in-gpt": FW + "part-22-magnetism-as-gravimetric-resonance/",
     "the-math-of-gpt": FW + "part-23-the-mathematical-foundation/", "practical-applications": FW + "part-10-practical-exploration-of-advanced-concepts/",
     "start-here": GPT, "gpt-unit-system": FW + "part-24-gpt-unit-system/", "civic-credit-proposal": PLAN + "civic-credits/civic-credits-system-proposal/",
     "consciousness-in-ai": "about.html", "literature": "books.html", "part-23-mathematical-foudation-of-gpt": FW + "part-23-the-mathematical-foundation/",
@@ -113,6 +113,8 @@ MOVED = {
     FW + "part-19-graviton-coherence": FW + "part-20-graviton-coherence/",
     FW + "part-20-graviton-corridors-and-lattice-resonance": FW + "part-21-graviton-corridors-and-lattice-resonance/",
     FW + "part-21-magnetism-as-gravimetric-resonance": FW + "part-22-magnetism-as-gravimetric-resonance/",
+    # The first edition's Parts 21 and 22 were merged into Part 22 (13 November 2026)
+    FW + "part-22-cross-analysis-of-magnetic-materials": FW + "part-22-magnetism-as-gravimetric-resonance/",
 }
 
 

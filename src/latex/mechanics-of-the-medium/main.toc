@@ -1,0 +1,324 @@
+\contentsline {section}{\numberline {1}The Opening Observation: Reality Works}{9}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Puzzle Hidden in Plain Sight}{9}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}The Silence We Have Learned Not to Hear}{10}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}The Thesis in Brief}{10}{subsection.1.3}%
+\contentsline {section}{\numberline {2}The Container Problem (Map vs. Territory)}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Category Error}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The Geometry Pivot}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}What We Lose}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}The Reduction Conflation: Exposing Tactical Framework-Switching}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Numerical Equivalence vs. Ontological Compatibility}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}The Static Load Paradox}{13}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}The Requirement of a Single Physical Substrate}{13}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Why Structure Still Exists (The Unasked Question)}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The Hidden Admission}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The Question That Changes Everything}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Preview of the Argument}{15}{subsection.3.3}%
+\contentsline {section}{\numberline {4}What Counts as a Mechanism? (Operational Definition)}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Why This Question Is Necessary}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The Core Definition}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The Five Operational Criteria}{17}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Criterion 1: Identify the Actors}{17}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Criterion 2: Specify the Transfer Quantity}{17}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Criterion 3: Provide the Interaction Rate}{17}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Criterion 4: Establish Directionality}{17}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Criterion 5: Show Self-Consistency (No External Impositions)}{18}{subsubsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.4}A Concrete Example of a Complete Mechanism}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}A Contrast: A Falling Object in General Relativity}{18}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Why Mechanism Matters, Even If Prediction Works}{19}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}What This Paper Will Provide}{19}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Where Mainstream Physics Quietly Lacks Mechanisms}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Inertia: Resistance Without a Resister}{20}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Momentum Transfer in Free Fall: Curvature Without Contact}{21}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Time Dilation: Slowing Without a Slower}{21}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Weight Without Expansion: The Equivalence Principle's Hidden Demand}{22}{subsection.5.4}%
+\contentsline {section}{\numberline {6}The Medium Is Already Certified as Physical}{23}{section.6}%
+\contentsline {section}{\numberline {7}The Vacuum Is Not Nothing: Three Experimental Proofs}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The Casimir Proof: Vacuum Exerts Pressure}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The Refraction Proof: Vacuum Has Optical Density}{24}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}The Momentum Proof: Curves Alone Don't Change Momentum}{25}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The Inescapable Synthesis}{26}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}A Note on Terminology}{27}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Environment First, Objects Second (The Ontological Reversal)}{28}{section.8}%
+\contentsline {subsection}{\numberline {8.1}The Default Assumption: Objects First}{28}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}The Alternative: Environment First}{28}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}What This Reversal Explains That the Default Cannot}{29}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}The Medium Is Not Defined by Matter}{29}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}The Constraint Function of the Medium}{30}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}The Burden of Proof Shifts}{30}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}A Note on Historical Resistance}{30}{subsection.8.7}%
+\contentsline {section}{\numberline {9}Introducing Graviton Pressure Theory}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Why a New Name?}{31}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}The Core Postulates of GPT}{31}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Postulate 1: The vacuum is a physical medium populated by real carriers (gravitons).}{32}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Postulate 2: Gravitons repel one another.}{32}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Postulate 3: Gravitons interact gravitationally with matter (and with one another) via momentum exchange.}{32}{subsubsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.3}The Attraction Problem: How Repulsive Carriers Produce Attraction}{32}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}The Minimal Variables of GPT}{33}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}On the Detection of Gravitons: The Medium Is Already Measured}{34}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}The Medium's Measured Properties}{34}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {9.5.2}What the Measurements Show, and What They Do Not}{34}{subsubsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {9.5.3}Summary}{35}{subsubsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.6}How GPT Differs from Other Approaches}{35}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}The Unification Strategy}{35}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}A Note on Mathematical Convention}{36}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Minimal Medium Description}{36}{section.10}%
+\contentsline {subsection}{\numberline {10.1}The Three Minimal Variables}{36}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Equation of State}{37}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Force Density on Matter}{37}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Continuity and Momentum Conservation}{38}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Why This Is Not "Just Aether"}{38}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}On Lorentz Covariance and the Medium's Rest Frame}{39}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Summary of Section 9}{39}{subsection.10.7}%
+\contentsline {section}{\numberline {11}The Inward Flow Ansatz}{40}{section.11}%
+\contentsline {subsection}{\numberline {11.1}The Constraint from the Equivalence Principle}{40}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}The Radial Flow Ansatz}{40}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}The Velocity Profile from Newtonian Gravity}{41}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Continuity and the Surprising Constancy of Vacuum Density}{42}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Resolution: The Background Density Is the Source}{43}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}The Constant Density Approximation}{44}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Summary of Section 10}{45}{subsection.11.7}%
+\contentsline {section}{\numberline {12}From Flow to Force: The Pressure Gradient Mechanism}{45}{section.12}%
+\contentsline {subsection}{\numberline {12.1}The Fundamental Force Law}{45}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Why Pressure Gradients Exist}{46}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}The Effective Interaction Volume}{46}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}The Vacancy Cycle and Continuous Force}{47}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Comparison to Mainstream: Force vs. Geometry}{47}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}The Inverse-Square Law from Flux Dilution}{47}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Summary of Section 11}{48}{subsection.12.7}%
+\contentsline {section}{\numberline {13}Solidity, Containment, and the Origin of Weight}{48}{section.13}%
+\contentsline {subsection}{\numberline {13.1}What Solidity Is in GPT}{48}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}The Absorption/Ejection Cycle in a Solid (Contained Case)}{49}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}The Normal Force as Containment-Containment Boundary}{49}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Weight as Asymmetric External Pressure on a Contained Field}{50}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Why Weight Scales with Mass}{50}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}The Normal Force and Weight Registration}{51}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}The Equivalence Principle: Why Gravitational and Inertial Weight Are Indistinguishable}{51}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Elevator Scaling: Why Weight Changes with Acceleration}{52}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Comparison to Mainstream Physics}{53}{subsection.13.9}%
+\contentsline {subsection}{\numberline {13.10}Satisfaction of the Five Criteria}{53}{subsection.13.10}%
+\contentsline {subsection}{\numberline {13.11}Summary of Section 12}{54}{subsection.13.11}%
+\contentsline {section}{\numberline {14}Orbital Mechanics as Spatiotemporal Resonance}{54}{section.14}%
+\contentsline {subsection}{\numberline {14.1}The Intake/Expulsion Cycle in a Non-Uniform Object}{54}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Spin Creates Temporal Modulation (The Object's Pulse)}{55}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}The Graviton Field's Pressure Oscillation}{55}{subsection.14.3}%
+\contentsline {subsubsection}{\numberline {14.3.1}Source 1: Core Pulsation}{56}{subsubsection.14.3.1}%
+\contentsline {subsubsection}{\numberline {14.3.2}Source 2: Shell Stratification}{56}{subsubsection.14.3.2}%
+\contentsline {subsection}{\numberline {14.4}Resonance Condition for Stable Orbit}{56}{subsection.14.4}%
+\contentsline {subsection}{\numberline {14.5}Why Orbital Radii Are Quantized}{57}{subsection.14.5}%
+\contentsline {subsection}{\numberline {14.6}Orbital Velocity as Consequence, Not Cause}{57}{subsection.14.6}%
+\contentsline {subsection}{\numberline {14.7}Spin-Orbit Coupling and Tidal Locking}{58}{subsection.14.7}%
+\contentsline {subsection}{\numberline {14.8}Why Spin and Orbit Are Aligned (Prograde vs. Retrograde)}{58}{subsection.14.8}%
+\contentsline {subsection}{\numberline {14.9}Resonance Chains and Multi-Body Stability}{59}{subsection.14.9}%
+\contentsline {subsection}{\numberline {14.10}Breakdown Cases: When Resonance Fails}{59}{subsection.14.10}%
+\contentsline {subsection}{\numberline {14.11}Experimental Predictions}{60}{subsection.14.11}%
+\contentsline {subsection}{\numberline {14.12}Comparison to Mainstream Physics}{61}{subsection.14.12}%
+\contentsline {subsection}{\numberline {14.13}Satisfaction of the Five Criteria}{61}{subsection.14.13}%
+\contentsline {subsection}{\numberline {14.14}Summary of Section 13}{62}{subsection.14.14}%
+\contentsline {subsection}{\numberline {14.15}Scaling Invariance: From Atoms to Galaxies}{62}{subsection.14.15}%
+\contentsline {subsection}{\numberline {14.16}Answering the Opening Question: Why Structure Survives}{63}{subsection.14.16}%
+\contentsline {subsection}{\numberline {14.17}The Four Scales of Resonance (Unified)}{63}{subsection.14.17}%
+\contentsline {subsection}{\numberline {14.18}Scaling Invariance: From Planetary Orbits to Atomic Shells}{63}{subsection.14.18}%
+\contentsline {subsubsection}{\numberline {14.18.1}The Atomic Case: Nucleus and Electron}{64}{subsubsection.14.18.1}%
+\contentsline {subsubsection}{\numberline {14.18.2}Why Electron Shells Are Discrete (Quantized)}{65}{subsubsection.14.18.2}%
+\contentsline {subsubsection}{\numberline {14.18.3}Why Only Certain Electron Spin States Are Allowed}{65}{subsubsection.14.18.3}%
+\contentsline {subsubsection}{\numberline {14.18.4}Attraction Between Electron and Nucleus}{65}{subsubsection.14.18.4}%
+\contentsline {subsubsection}{\numberline {14.18.5}Why Atomic Phenomena Appear "Quantum" (Discrete, Probabilistic)}{66}{subsubsection.14.18.5}%
+\contentsline {subsubsection}{\numberline {14.18.6}The Wavefunction as a Compressed Description}{66}{subsubsection.14.18.6}%
+\contentsline {subsubsection}{\numberline {14.18.7}Experimental Consequences}{67}{subsubsection.14.18.7}%
+\contentsline {subsubsection}{\numberline {14.18.8}Summary: Unifying the Scales}{67}{subsubsection.14.18.8}%
+\contentsline {subsection}{\numberline {14.19}Transition to Section 14}{67}{subsection.14.19}%
+\contentsline {section}{\numberline {15}Light Deflection as Refraction in a Pressure Field}{68}{section.15}%
+\contentsline {subsection}{\numberline {15.1}The Refractive Index of the Graviton Medium}{68}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Fermat's Principle in a Pressure Gradient}{69}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Why Light Bends Toward the Mass}{69}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Comparison to General Relativity}{70}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}Refraction vs. Curvature: An Experimental Distinction}{70}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}Gravitational Lensing as Refractive Focusing}{70}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}Shapiro Delay as Slowing in the Medium}{71}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}What This Means for Spacetime Curvature}{71}{subsection.15.8}%
+\contentsline {subsection}{\numberline {15.9}The Unanswered Question for GR}{71}{subsection.15.9}%
+\contentsline {subsection}{\numberline {15.10}Satisfaction of the Five Criteria}{72}{subsection.15.10}%
+\contentsline {subsection}{\numberline {15.11}Summary of Section 14}{72}{subsection.15.11}%
+\contentsline {section}{\numberline {16}Inertia and Momentum as Coherence Retention}{72}{section.16}%
+\contentsline {subsection}{\numberline {16.1}The Mainstream Gap}{73}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Momentum as a Carved Passage (The Momentum Corridor)}{73}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Why Momentum Is Conserved (In the Absence of External Forces)}{73}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Inertia as Resistance to Reorientation}{74}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}Why Inertia Scales with Mass}{74}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}The Role of Spin and Pulse in Momentum}{75}{subsection.16.6}%
+\contentsline {subsection}{\numberline {16.7}Why Objects in Motion Stay in Motion}{75}{subsection.16.7}%
+\contentsline {subsection}{\numberline {16.8}Why Acceleration Requires Force}{76}{subsection.16.8}%
+\contentsline {subsection}{\numberline {16.9}Action and Reaction (Newton's Third Law)}{76}{subsection.16.9}%
+\contentsline {subsection}{\numberline {16.10}Comparison to Mainstream}{76}{subsection.16.10}%
+\contentsline {subsection}{\numberline {16.11}Satisfaction of the Five Criteria}{77}{subsection.16.11}%
+\contentsline {subsection}{\numberline {16.12}Summary of Section 15}{77}{subsection.16.12}%
+\contentsline {section}{\numberline {17}Time as Process — The N/Γ Cycle}{77}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Time as a Count of Cycles}{77}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}The N/Γ Cycle}{78}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Gravitational Time Dilation: Increased Load from Ambient Density}{78}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Velocity Time Dilation: Anisotropic Load from Motion}{79}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Why Gravitational and Velocity Dilation Have the Same Form}{80}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}What Slows Down? The Clock's Internal Coherence Cycle}{80}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Why All Clocks Dilate Equally}{81}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}The Absence of "Absolute Time"}{81}{subsection.17.8}%
+\contentsline {subsection}{\numberline {17.9}Comparison to Mainstream}{81}{subsection.17.9}%
+\contentsline {subsection}{\numberline {17.10}Experimental Predictions}{82}{subsection.17.10}%
+\contentsline {subsection}{\numberline {17.11}Satisfaction of the Five Criteria}{82}{subsection.17.11}%
+\contentsline {subsection}{\numberline {17.12}Summary of Section 16}{82}{subsection.17.12}%
+\contentsline {section}{\numberline {18}Charge as Stabilized Bias}{82}{section.18}%
+\contentsline {subsection}{\numberline {18.1}The Primitive Label Problem}{83}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}The Exchange Kernel and Bias}{83}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Why Two Signs Exist}{84}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Why Opposite Charges Attract}{84}{subsection.18.4}%
+\contentsline {subsection}{\numberline {18.5}Why Like Charges Repel}{84}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}The "Electric Field" as Bias-Potential Gradient}{85}{subsection.18.6}%
+\contentsline {subsection}{\numberline {18.7}Why Gauss's Law Works}{85}{subsection.18.7}%
+\contentsline {subsection}{\numberline {18.8}Why Charge Is Quantized and Conserved}{85}{subsection.18.8}%
+\contentsline {subsection}{\numberline {18.9}Coulomb's Law as a Continuum Approximation}{86}{subsection.18.9}%
+\contentsline {subsection}{\numberline {18.10}Comparison to Mainstream}{86}{subsection.18.10}%
+\contentsline {subsection}{\numberline {18.11}The Unification of Gravity and Charge}{86}{subsection.18.11}%
+\contentsline {subsection}{\numberline {18.12}Satisfaction of the Five Criteria}{87}{subsection.18.12}%
+\contentsline {subsection}{\numberline {18.13}Summary of Section 17}{87}{subsection.18.13}%
+\contentsline {section}{\numberline {19}The Electric Field as Bias-Potential Gradient}{87}{section.19}%
+\contentsline {subsection}{\numberline {19.1}The Scalar Bias Potential}{87}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Diffusive Relaxation and the Poisson Equation}{88}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}The Electric Field as Gradient}{88}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}The Inverse-Square Law from Flux Dilution}{89}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}The Constant \( \alpha \) and Permittivity}{89}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}Energy Stored in the Bias Field}{90}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.7}Why the Potential Is Scalar}{90}{subsection.19.7}%
+\contentsline {subsection}{\numberline {19.8}Summary of Section 18}{90}{subsection.19.8}%
+\contentsline {section}{\numberline {20}Magnetism as Curl Organization from Moving Bias}{90}{section.20}%
+\contentsline {subsection}{\numberline {20.1}The Problem of Moving Bias}{91}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}The Vector Circulation Potential}{91}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}The Magnetic Field as Curl of the Vector Potential}{91}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Why Moving Bias Creates Curl}{92}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}The Lorentz-Like Force}{92}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}Why Magnetism Is "Different" from Electrostatics}{92}{subsection.20.6}%
+\contentsline {subsection}{\numberline {20.7}The Constants \( \beta \) and \( \mu _0 \)}{93}{subsection.20.7}%
+\contentsline {subsection}{\numberline {20.8}Comparison to Mainstream}{93}{subsection.20.8}%
+\contentsline {subsection}{\numberline {20.9}Summary of Section 19}{93}{subsection.20.9}%
+\contentsline {section}{\numberline {21}Constants as Medium Properties — \( \epsilon _0 \), \( \mu _0 \) Reinterpreted}{94}{section.21}%
+\contentsline {subsection}{\numberline {21.1}\( \epsilon _0 \) as Bias Compressibility}{94}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}\( \mu _0 \) as Transverse Curl Stiffness}{94}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}The Relation \( c^2 = 1/(\epsilon _0 \mu _0) \)}{95}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}What "Fundamental Constants" Really Are}{95}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}Why Constants Are Constant (in Observable Space)}{96}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Comparison to Mainstream}{96}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}Experimental Implications}{96}{subsection.21.7}%
+\contentsline {subsection}{\numberline {21.8}Summary of Section 20}{97}{subsection.21.8}%
+\contentsline {section}{\numberline {22}The Lorentz Force as Medium Response}{97}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Force from the Scalar Potential (Electric Part)}{97}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Force from the Vector Potential (Magnetic Part)}{98}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Why the Cross Product?}{98}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}The Complete Lorentz Force}{99}{subsection.22.4}%
+\contentsline {subsection}{\numberline {22.5}Why the Lorentz Force Is Exact (at Leading Order)}{99}{subsection.22.5}%
+\contentsline {subsection}{\numberline {22.6}The Absence of Magnetic Monopoles}{99}{subsection.22.6}%
+\contentsline {subsection}{\numberline {22.7}Comparison to Mainstream}{100}{subsection.22.7}%
+\contentsline {subsection}{\numberline {22.8}Summary of Section 21}{100}{subsection.22.8}%
+\contentsline {section}{\numberline {23}Electromagnetic Waves as Oscillating Medium Disturbances}{100}{section.23}%
+\contentsline {subsection}{\numberline {23.1}The Coupled Wave Equations}{101}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}The Electric and Magnetic Fields as Wave Components}{101}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}What Is "Oscillating" in a Light Wave?}{102}{subsection.23.3}%
+\contentsline {subsection}{\numberline {23.4}Why Light Has No Rest Frame}{102}{subsection.23.4}%
+\contentsline {subsection}{\numberline {23.5}Polarization and Spin}{103}{subsection.23.5}%
+\contentsline {subsection}{\numberline {23.6}Photons as Coherent Wave Packets}{103}{subsection.23.6}%
+\contentsline {subsection}{\numberline {23.7}Why the Speed of Light Is Constant}{104}{subsection.23.7}%
+\contentsline {subsection}{\numberline {23.8}Comparison to Mainstream}{104}{subsection.23.8}%
+\contentsline {subsection}{\numberline {23.9}Summary of Section 22}{104}{subsection.23.9}%
+\contentsline {section}{\numberline {24}Light Deflection as Refraction in a Pressure Field}{105}{section.24}%
+\contentsline {subsection}{\numberline {24.1}The Refractive Index of the Graviton Medium}{105}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Fermat's Principle in a Pressure Gradient}{105}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Why Light Bends Toward the Mass}{106}{subsection.24.3}%
+\contentsline {subsection}{\numberline {24.4}Refraction vs. Curvature: A Critical Distinction}{106}{subsection.24.4}%
+\contentsline {subsection}{\numberline {24.5}The Refractive Nature of Gravitational Lensing}{106}{subsection.24.5}%
+\contentsline {subsection}{\numberline {24.6}Shapiro Delay as Slowing in the Medium}{107}{subsection.24.6}%
+\contentsline {subsection}{\numberline {24.7}Distinguishing Refraction from Curvature}{107}{subsection.24.7}%
+\contentsline {subsection}{\numberline {24.8}What This Means for Spacetime Curvature}{107}{subsection.24.8}%
+\contentsline {subsection}{\numberline {24.9}Comparison to Mainstream}{108}{subsection.24.9}%
+\contentsline {subsection}{\numberline {24.10}Satisfaction of the Five Criteria}{108}{subsection.24.10}%
+\contentsline {subsection}{\numberline {24.11}Summary of Section 23}{109}{subsection.24.11}%
+\contentsline {section}{\numberline {25}Gravitational Lensing as Refractive Focusing}{109}{section.25}%
+\contentsline {subsection}{\numberline {25.1}The Refractive Index Field of an Extended Mass}{109}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}The Lens Equation in Refractive Form}{110}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Einstein Rings and Arcs}{110}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}Multiple Images and Critical Curves}{110}{subsection.25.4}%
+\contentsline {subsection}{\numberline {25.5}Magnification and Flux Ratios}{111}{subsection.25.5}%
+\contentsline {subsection}{\numberline {25.6}Lensing Without Dark Matter}{111}{subsection.25.6}%
+\contentsline {subsection}{\numberline {25.7}Weak Lensing and Large-Scale Structure}{111}{subsection.25.7}%
+\contentsline {subsection}{\numberline {25.8}Comparison to Mainstream}{112}{subsection.25.8}%
+\contentsline {subsection}{\numberline {25.9}Summary of Section 24}{112}{subsection.25.9}%
+\contentsline {section}{\numberline {26}Time Dilation Revisited — From Wave Perspective}{112}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Matter as Standing Waves in the Medium}{113}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}The Refractive Index for Matter Waves}{113}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}The Unification: Light and Matter Are Both Medium Waves}{114}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}Why Gravitational and Velocity Time Dilation Appear Different}{114}{subsection.26.4}%
+\contentsline {subsection}{\numberline {26.5}The Equivalence Principle from the Medium Perspective}{114}{subsection.26.5}%
+\contentsline {subsection}{\numberline {26.6}Experimental Predictions}{115}{subsection.26.6}%
+\contentsline {subsection}{\numberline {26.7}Comparison to Mainstream}{115}{subsection.26.7}%
+\contentsline {subsection}{\numberline {26.8}Summary of Section 25}{116}{subsection.26.8}%
+\contentsline {section}{\numberline {27}Cosmological Implications — Dark Matter as Shell Resonance}{116}{section.27}%
+\contentsline {subsection}{\numberline {27.1}The Problem: Flat Rotation Curves}{116}{subsection.27.1}%
+\contentsline {subsection}{\numberline {27.2}The Graviton Medium Around a Galaxy}{116}{subsection.27.2}%
+\contentsline {subsection}{\numberline {27.3}Why Shells Produce Flat Rotation}{117}{subsection.27.3}%
+\contentsline {subsection}{\numberline {27.4}The Absence of Dark Matter Particles}{117}{subsection.27.4}%
+\contentsline {subsection}{\numberline {27.5}The Bullet Cluster Revisited}{118}{subsection.27.5}%
+\contentsline {subsection}{\numberline {27.6}Predictions for Galactic Dynamics}{118}{subsection.27.6}%
+\contentsline {subsection}{\numberline {27.7}Comparison to Mainstream}{119}{subsection.27.7}%
+\contentsline {subsection}{\numberline {27.8}Summary of Section 26}{119}{subsection.27.8}%
+\contentsline {section}{\numberline {28}Dark Energy as Global Flow Divergence}{119}{section.28}%
+\contentsline {subsection}{\numberline {28.1}The Hubble Flow as Medium Expansion}{120}{subsection.28.1}%
+\contentsline {subsection}{\numberline {28.2}Why the Expansion Accelerates}{120}{subsection.28.2}%
+\contentsline {subsection}{\numberline {28.3}The Cosmological Constant as Emergent}{121}{subsection.28.3}%
+\contentsline {subsection}{\numberline {28.4}Why Dark Energy Is Not Needed}{122}{subsection.28.4}%
+\contentsline {subsection}{\numberline {28.5}The Fate of the Universe}{122}{subsection.28.5}%
+\contentsline {subsection}{\numberline {28.6}Comparison to Mainstream}{123}{subsection.28.6}%
+\contentsline {subsection}{\numberline {28.7}Summary of Section 27}{123}{subsection.28.7}%
+\contentsline {section}{\numberline {29}Summary and Constraints for Any Future Theory}{123}{section.29}%
+\contentsline {subsection}{\numberline {29.1}The Five Criteria (Restated)}{123}{subsection.29.1}%
+\contentsline {subsection}{\numberline {29.2}How GPT Satisfies the Five Criteria}{124}{subsection.29.2}%
+\contentsline {subsubsection}{\numberline {29.2.1}Criterion 1: Actors}{124}{subsubsection.29.2.1}%
+\contentsline {subsubsection}{\numberline {29.2.2}Criterion 2: Transfer Quantity}{124}{subsubsection.29.2.2}%
+\contentsline {subsubsection}{\numberline {29.2.3}Criterion 3: Interaction Rate}{124}{subsubsection.29.2.3}%
+\contentsline {subsubsection}{\numberline {29.2.4}Criterion 4: Directionality}{125}{subsubsection.29.2.4}%
+\contentsline {subsubsection}{\numberline {29.2.5}Criterion 5: Self-consistency}{125}{subsubsection.29.2.5}%
+\contentsline {subsection}{\numberline {29.3}The Unified Causal Table}{125}{subsection.29.3}%
+\contentsline {subsection}{\numberline {29.4}Constraints for Any Future Theory}{126}{subsection.29.4}%
+\contentsline {subsection}{\numberline {29.5}What GPT Does Not Yet Explain}{127}{subsection.29.5}%
+\contentsline {subsection}{\numberline {29.6}The Deepest Implication}{127}{subsection.29.6}%
+\contentsline {subsection}{\numberline {29.7}Closing Statement}{128}{subsection.29.7}%
+\contentsline {section}{\numberline {A}Appendix A: Inflow from Continuity and the \( g \) Profile: Count and Active Pressure}{128}{appendix.A}%
+\contentsline {paragraph}{Setup:}{128}{section*.3}%
+\contentsline {paragraph}{Step 1: Integrate over a sphere of radius \( r \).}{128}{section*.4}%
+\contentsline {paragraph}{Step 2: Solve for \( \rho _g(r) \).}{129}{section*.5}%
+\contentsline {paragraph}{Step 3: Separate background and perturbation.}{129}{section*.6}%
+\contentsline {paragraph}{Conclusion:}{129}{section*.7}%
+\contentsline {section}{\numberline {B}Appendix B: Scattering Cross-Section and Self-Consistency for \( g \)}{130}{appendix.B}%
+\contentsline {paragraph}{Step 1: Ram pressure from inward flow.}{130}{section*.9}%
+\contentsline {paragraph}{Step 2: Force on a macroscopic object.}{130}{section*.10}%
+\contentsline {paragraph}{Step 3: Express \( \sigma \) in terms of medium parameters.}{130}{section*.11}%
+\contentsline {paragraph}{Step 4: Determine \( \kappa \) from self-consistency.}{131}{section*.12}%
+\contentsline {paragraph}{Step 5: Derive \( g \) in terms of \( \rho _0 \).}{131}{section*.13}%
+\contentsline {section}{\numberline {C}Appendix C: Formalization of the GPT Unit Space}{132}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Base Unit: Graviton Pressure ($gp$)}{132}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Derived Engineering Quantities}{132}{subsection.C.2}%
+\contentsline {section}{\numberline {D}Appendix D: Bistable Internal Potential and Charge Persistence}{133}{appendix.D}%
+\contentsline {paragraph}{Step 1: Internal order parameter.}{133}{section*.14}%
+\contentsline {paragraph}{Step 2: Mapping to charge.}{133}{section*.15}%
+\contentsline {paragraph}{Step 3: Coupling to the medium.}{133}{section*.16}%
+\contentsline {paragraph}{Step 4: Energy barrier and persistence.}{133}{section*.17}%
+\contentsline {paragraph}{Step 5: Quantization of charge magnitude.}{134}{section*.18}%
+\contentsline {paragraph}{Step 6: Charge conservation in interactions.}{134}{section*.19}%
+\contentsline {section}{\numberline {E}Appendix E: Time Dilation from N/\(\Gamma \) Cycle (Full Derivation)}{134}{appendix.E}%
+\contentsline {paragraph}{Step 1: The fundamental clock equation.}{134}{section*.20}%
+\contentsline {paragraph}{Step 2: Gravitational time dilation (isotropic case).}{134}{section*.21}%
+\contentsline {paragraph}{Step 3: Velocity time dilation (anisotropic case).}{135}{section*.22}%
+\contentsline {paragraph}{Step 4: Why both forms share the same structure.}{135}{section*.23}%
+\contentsline {section}{\numberline {F}Appendix F: Unified Lagrangian and Field Equations}{136}{appendix.F}%
+\contentsline {paragraph}{Step 1: Medium degrees of freedom.}{136}{section*.24}%
+\contentsline {paragraph}{Step 2: Lagrangian density.}{136}{section*.25}%
+\contentsline {paragraph}{Step 3: Field equations.}{136}{section*.26}%
+\contentsline {paragraph}{Step 4: Recovering known limits.}{137}{section*.27}%
+\contentsline {paragraph}{Step 5: Relation to GR.}{137}{section*.28}%
+\contentsline {section}{Changes in This Revision}{138}{section*.31}%

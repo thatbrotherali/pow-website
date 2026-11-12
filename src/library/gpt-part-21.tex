@@ -1,0 +1,295 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\renewcommand{\thefigure}{22.\arabic{figure}}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{22.\arabic{section}}
+
+% Footnote citation in the style of the first edition
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+
+% Claim-status marks (underlines, margin bars and the key)
+\usepackage{gpt-status}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+% Explanatory registers
+\newcommand{\reg}[1]{\textsf{\small\textbf{[#1]}}}
+\newcommand{\RN}{\reg{N}}
+\newcommand{\RGR}{\reg{GR}}
+\newcommand{\RFR}{\reg{FR}}
+\newcommand{\RC}{\reg{C}}
+\newcommand{\REN}{\reg{EN}}
+\newcommand{\RQ}{\reg{Q}}
+\newcommand{\RDS}{\reg{DS}}
+\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\why}[1]{\par\textit{#1}\par}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\begin{document}
+\renewcommand{\thetable}{22.\arabic{table}}
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+{\Huge\bfseries Graviton Pressure Theory\par}
+\vspace{0.4cm}
+{\Large The Unified Framework\par}
+{\large Individual Submission\par}
+\vspace{0.3cm}
+{\normalsize This document is part of a multi-part scientific framework\par}
+\vspace{1.6cm}
+{\large Part 22 of 30\par}
+\vspace{0.6cm}
+{\huge\bfseries Magnetism\par}
+\vspace{0.5cm}
+{\Large External Pressure from Extended Graviton Corridors\par}
+\vspace{1.4cm}
+\begin{minipage}{0.82\textwidth}\centering\small
+This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see \url{https://peopleoftheworld.net/graviton-pressure-theory/}.
+\end{minipage}
+\vfill
+{\large Author: Shareef Ali Rashada\par}
+{\normalsize shareef@peopleoftheworld.net\par}
+\vspace{0.3cm}
+{\normalsize Second edition, November 2026\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+Part~21 followed the flows inside matter and found them directed by structure: load, heat, charge, waves and the alignment of spins all pass along lines of patterns held in step.\fn{rashadaPart21} Magnetism is what happens when that interior order reaches out. The aligned circulations inside a magnet organise the medium around it, along lines that leave the magnet, cross the space around it and return; and along and across those lines the medium carries a pressure that can be felt with the hands. This paper describes that reach: what organises the medium outside a magnet, what the lines are, what the pressure is, how matter of every kind responds to it, and how it differs from gravity, which is the same medium in another mode.
+
+This second edition merges the first edition's Parts 21 and 22, \emph{Magnetism as Gravimetric Resonance} and \emph{Cross-Analysis of Magnetic Materials}. Their second-register sections are removed; the list at the end says what changed and why. Matter and charge are in Part~19, order in Part~20.\fn{rashadaPart19}\fn{rashadaPart20} Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section{A Medium Reading, from the Start}
+\label{sec:maxwell}
+
+The first edition began by saying that electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
+
+\argm{Maxwell's equations were derived from a medium.} In 1861, in \emph{On Physical Lines of Force}, James Clerk Maxwell modelled the magnetic field as a medium filled with small rotating vortices, with idle particles between them to pass on their motion.\fn{maxwell1861} From that mechanical picture he obtained the displacement current, which completed the equations, and the speed of waves in the medium, which he compared with the speed of light. Five years earlier Weber and Kohlrausch had measured the ratio of the electric units and found $3.1\times10^{8}$ metres a second.\fn{weber1856} The two agreed, and Maxwell concluded that light is a wave of the same medium that carries electric and magnetic effects. The constants in his equations, $\varepsilon_0$ and $\mu_0$, are properties of empty space, and the speed of light is $c=1/\sqrt{\varepsilon_0\mu_0}$.
+
+\argm{The medium was set aside for economy, not by measurement.} After Michelson and Morley's null result and Einstein's paper of 1905, physics kept Maxwell's equations and dropped the medium they came from. Lorentz's theory, which kept a medium, predicted the same results as special relativity, and no experiment has separated them.\fn{lorentz1904} Einstein himself said in 1920 that under general relativity ``space without ether is unthinkable'', because space has physical properties.\fn{einstein1920}
+
+So GPT does not need a new prediction to read magnetism as a state of the medium: \argm{the medium reading and the field reading make the same predictions, because they use the same equations.} What decides between them is mechanism. The field reading names a quantity, $\mathbf{B}$, and stops. The medium reading names what carries the measured pressure, energy and momentum of a magnetic field: the medium itself, organised. New predictions are needed only for claims that go beyond Maxwell's equations, and Section~\ref{sec:gravity} lists those that have been tested.
+
+\section{Magnetism Is Swirl}
+\label{sec:swirl}
+
+\begin{hypbar}
+\textbf{A magnetic field is the medium turning}: its local rotation, what fluid mechanics calls vorticity. The first edition wrote the field as a curl, $\mathbf{B}\propto\nabla\times(\dots)$, and that was the right form. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium's circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
+\end{hypbar}
+
+\argm{The lines of a magnetic field always close.} No isolated magnetic pole has ever been found, in a century of searches up to the collisions of the Large Hadron Collider;\fn{moedal2021} every line that leaves a magnet's north end returns at its south end, and the total flux out of any closed surface is zero, $\nabla\cdot\mathbf{B}=0$. \hypm{In a medium this is what rotation does.} Helmholtz proved in 1858 that in a fluid a line of rotation cannot begin or end within the fluid; it must close on itself or end at a boundary.\fn{helmholtz1858} Kelvin built his vortex atoms on this theorem (Part~15). The absence of magnetic poles, a fact that the field reading simply records, is a property of rotation in a medium.
+
+\argm{Gravity has a swirl of the same form.} A rotating mass drags the medium around it, and general relativity calls the resulting field \emph{gravitomagnetism}, because its equations take the same form as magnetism's. Gravity Probe B measured it: gyroscopes in orbit turned by 37.2 milliarcseconds a year, against 39.2 predicted.\fn{everitt2011} Part~16 read this as the swirl of the medium around the rotating Earth.\fn{rashadaPart16} \hypm{GPT's reading is that there are two swirls of one medium: one driven by rotating mass, one by circulating charge.}
+
+\section{Where the Swirl Comes From}
+\label{sec:sources}
+
+\argm{Moving charge makes a magnetic field, with no material structure at all.} In 1820 Ørsted found that a current in a wire turns a compass needle, and that the field circles the wire. The same year Ampère found that two parallel wires carrying currents in the same direction are pushed together, and in opposite directions pushed apart. The Earth's own field is made by currents in its liquid iron core, at four to six thousand kelvin, far above the temperature at which iron can hold magnetism as a solid.
+
+\argm{Spin makes a magnetic field.} Every electron is a small magnet; in iron, about two electrons per atom have their spins aligned, and the alignment of $10^{23}$ such spins in a few grams of iron is a permanent magnet. Spin is real rotation: aligning it turns the body that holds it, and turning the body aligns it (Einstein and de Haas, Barnett; Part~20).
+
+\begin{hypbar}
+\textbf{In GPT both sources are knots with a hand, setting the medium turning.} A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part~19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part~16). Aligned across a material, the swirls add (Part~20); this is magnetisation. The first edition's suggestion that charge might be ``a structural bias in graviton flux absorption or emission'' anticipated Part~19's account.
+\end{hypbar}
+
+\section{The Extended Corridor}
+\label{sec:corridor}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.9\textwidth]{fig22-1-corridor.pdf}
+\caption{A bar magnet as an extended corridor. Inside, aligned circulations held in step; outside, the medium organised along lines that leave the north end, cross the space around the magnet and return at the south end. Across the lines the medium presses outward; along them it pulls in.}
+\label{fig:corridor}
+\end{figure}
+
+\begin{hypbar}
+Part~21 defined a corridor inside matter as a line of patterns held in step, re-made on every turn. \textbf{A magnet's field is that corridor extended into the medium} (Figure~\ref{fig:corridor}). Inside the magnet, the corridor is the aligned circulations of its electrons, relaying in step (Part~21). At the magnet's surface the order passes from matter's patterns to the medium itself, which is organised into a swirl along each line; the line crosses the space around the magnet and re-enters it at the other end. Each line is one closed loop, part in matter, part in the medium, as Helmholtz's theorem requires.
+\end{hypbar}
+
+\argm{The lines can be seen.} Iron filings scattered round a magnet gather along them, because each filing is magnetised by the field and pulled into line with its neighbours. Faraday, who first mapped them, regarded the lines of force as physical states of the space around the magnet, not as a mathematical device. In GPT that is what they are: lines along which the medium is organised.
+
+\section{Magnetism Is Pressure}
+\label{sec:pressure}
+
+\argm{The first edition's observation that magnetism feels like pressure is exact.} A magnetic field carries a pressure across its lines and a tension along them, both of size
+\begin{equation}
+P_B = \frac{B^2}{2\mu_0},
+\label{eq:pressure}
+\end{equation}
+about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell's stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun's hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
+
+\begin{hypbar}
+\textbf{Poles push and pull through the pressure of the medium between them.}
+\begin{itemize}
+\item \textbf{Like poles} send their lines side by side into the gap between them. The lines cannot cross or join, so they crowd together, and the pressure across them pushes the magnets apart.
+\item \textbf{Unlike poles} join their lines across the gap, so that each line runs from one magnet into the other. The tension along the joined lines draws the magnets together; in GPT, the medium's pressure along each line is lower than across it, and the surrounding medium presses the magnets toward each other.
+\item \textbf{Parallel currents} (Ampère): between two wires carrying current the same way, their circling fields run in opposite directions and cancel, so the pressure between them is lower than outside, and they are pressed together. Opposite currents reinforce the field between them and are pushed apart.
+\end{itemize}
+In every case the push is delivered by the medium's pressure, as gravity's is. The first edition said this: ``matter orchestrates the conditions; graviton flux supplies the energy.''
+\end{hypbar}
+
+\paragraph{A caution about the sign.} In an ordinary fluid, faster swirl means \emph{lower} pressure: the air in the core of a tornado is at low pressure. A magnetic field is the reverse: where it is stronger, it presses outward harder. So the medium cannot behave here like water in a single large whirl. Maxwell met this problem and solved it with his vortex cells: a medium made of many small spinning cells, each of which presses outward across its axis as it spins and draws in along it, gives exactly Maxwell's stress, pressure across the lines and tension along them.\fn{maxwell1861} \openm{In GPT the cells may be the counterflows of the knots and the swirls they organise in the medium, but how the medium's swirl carries outward pressure across the lines is owed.}
+
+\section{Circulation Where the Field Is Zero}
+\label{sec:ab}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig22-2-ab.pdf}
+\caption{The Aharonov--Bohm arrangement. Electrons pass on both sides of a magnet whose field is entirely enclosed and shielded, so that none of it reaches their paths. Their interference is shifted by the amount of field enclosed.}
+\label{fig:ab}
+\end{figure}
+
+\argm{Electrons are affected by a magnetic field they never touch.} In 1959 Aharonov and Bohm predicted that electrons passing on either side of a long magnet, through regions where the magnetic field is exactly zero, would have their interference shifted by the amount of field enclosed between their paths.\fn{aharonov1959} Tonomura and colleagues confirmed it in 1986 with a ring magnet sealed inside a superconductor, which kept every trace of the field from leaking out; the shift appeared, and because the superconductor holds a field only in whole units, it was half a wavelength when an odd number of units was trapped and none when an even number was (Figure~\ref{fig:ab}).\fn{tonomura1986}
+
+\argm{The standard account describes this without a mechanism.} It says the vector potential $\mathbf{A}$, which is not zero outside the magnet, is physically real, but it does not say what $\mathbf{A}$ is the potential \emph{of}, or what touches the electron. \hypm{In a medium it is expected.} A line vortex in a fluid has rotation only in its core, yet the fluid outside circulates around it; the circulation round any loop enclosing the core equals the rotation inside it. In GPT the medium outside the shielded magnet is circulating, though not rotating, and the electron's guiding pattern (Part~19) meets that circulation on its way past. Its phase is shifted by the circulation it travels through, which is fixed by the swirl enclosed. The trapped field came in whole units, the units that Part~20 read as the medium's phase closing on itself around a superconducting ring.
+
+\section{How Matter Answers a Field}
+\label{sec:matter}
+
+The first edition's companion paper argued that magnetic materials match its criteria for corridors one for one: high crystallinity, aligned spins, low decoherence, suitable density and stable phase timing. Some of that match holds and some does not, and the correction makes the mechanism sharper.
+
+\argm{Crystal order is neither needed nor enough for magnetism.} Copper and aluminium are fully crystalline and are not magnets. Metallic glasses, alloys cooled so fast that their atoms have no long-range order, can be strongly ferromagnetic, and are used for transformer cores. Liquid oxygen, poured between the poles of a strong magnet, hangs there. What magnetism requires, measured, is this:
+\begin{enumerate}
+\item \textbf{Unpaired circulations.} An atom whose electrons are all paired, opposite circulation with opposite circulation (Part~19), has no net spin to align. An atom with unpaired electrons, in any state of matter, can be turned by a field.
+\item \textbf{Neighbours spaced to lock in parallel.} Whether neighbouring spins align or oppose depends on the distance between atoms compared with the size of their electron shells (the Bethe--Slater curve, Part~21). This is local spacing, which a glass can have as well as a crystal.
+\item \textbf{A temperature below the point where knocks outpace the lock} (Part~20).
+\end{enumerate}
+\argm{The first edition's spin alignment and phase timing survive; high crystallinity does not.} Long-range crystal order governs how well a material carries heat and charge (Part~21); magnetism needs unpaired hands and the right spacing.
+
+\paragraph{Every substance answers.} Matter responds to a field in four measured ways.
+\begin{itemize}
+\item \textbf{Diamagnetism, in everything.} Every substance is weakly pushed out of a strong field. Water is pushed out with a strength of about nine parts in a million; in a 16-tesla field this is enough to levitate a drop of water, a strawberry, or a living frog.\fn{berry1997} Pyrolytic graphite floats above a row of ordinary magnets at room temperature. \hypm{In GPT each atom's patterns turn against an imposed swirl, as a superconductor's surface does in full (Part~20).}
+\item \textbf{Paramagnetism, where circulations are unpaired.} Each unpaired spin is turned toward the field, against the knocks of heat. Curie found in 1895 that the effect weakens in proportion to the temperature.\fn{curie1895} \hypm{That is alignment against knocks for circulations that are not locked to their neighbours:} the field turns each one, and heat turns it back.
+\item \textbf{Ferromagnetism, where neighbours lock in parallel:} iron, cobalt, nickel, and gadolinium, which loses its magnetism on a warm day, at 20\,$^\circ$C.
+\item \textbf{Antiferromagnetism, where neighbours lock opposed.} In manganese oxide the spins alternate, each opposite its neighbour, so that no field reaches outside. Neutrons, which have spin themselves, revealed the alternating pattern directly in 1949.\fn{shull1949}
+\end{itemize}
+
+\section{Domains, Memory and Saturation}
+\label{sec:domains}
+
+\argm{A magnet is divided into domains, each aligned within itself.} Weiss proposed them in 1907; they have since been seen directly, with fine magnetic powders and with polarised light. In an unmagnetised piece of iron the domains point in many directions and their fields close among themselves; magnetising it grows the domains that point along the field at the expense of the others.
+
+\argm{Magnetisation proceeds in jumps.} In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.\fn{barkhausen1919} The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. \hypm{These are the same defects that scatter heat and charge in Part~21: places where the common order is broken, holding the boundary between two orders until it is pushed past them.} Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
+
+\argm{Remanence is memory, and saturation is completeness.} A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part~20's sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; the first edition's ``coherence limit'' is this.
+
+\section{Heat and the Curie Point}
+\label{sec:curie}
+
+\argm{Heat removes magnetism at a definite temperature}, the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part~20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. The first edition's formula $\mathcal{C}_g(T)=\mathcal{C}_0e^{-\alpha T}$, coherence falling exponentially with temperature, has the wrong shape. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part~20, universality). The first edition's ``structural forgetting'' is kept: the lava that cooled through the Curie point holds the direction of the Earth's field at that moment (Part~20).
+
+\section{Induction}
+\label{sec:induction}
+
+\argm{A changing swirl drives a circulating push around it.} Faraday found in 1831 that changing the magnetic field through a loop of wire drives a current round the loop, in proportion to how fast the enclosed flux changes. Lenz found in 1834 that the current always flows so as to oppose the change. A magnet dropped down a copper pipe falls slowly, held back by the currents it drives in the copper.
+
+The first edition wrote induction as $V=\int_0^\ell\nabla P_g\cdot d\mathbf{r}$, a voltage from a pressure gradient. That cannot work: the integral of a gradient around a closed loop is zero, and induction is a push \emph{around} a loop. \hypm{In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop.} Lenz's rule is then the response of the knots' circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part~20).
+
+\section{Light}
+\label{sec:light}
+
+\argm{Light is a transverse wave in which the electric and magnetic effects alternate}, travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium's own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light's polarisation. \hypm{In GPT light is the medium's transverse wave (Part~15), in which its displacement and its rotation pass into each other as the wave travels}, as in Maxwell's vortex medium. The first edition's description of electromagnetic waves as ``density modulations'' is replaced: a density wave is longitudinal, and light is transverse. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part~15).
+
+\section{Gravity and Magnetism}
+\label{sec:gravity}
+
+\begin{argbar}
+\textbf{Two modes of one medium.} Gravity is the medium's inflow, toward every mass, always inward, one sign, adding up. Magnetism is the medium's swirl, organised by aligned or moving charge, closing on itself, with two senses that cancel in disordered matter. Both act on matter through the medium's pressure. The evidence that the medium is one: light and gravitational waves travel at the same speed; the gravitomagnetic swirl of a rotating mass has the form of magnetism; the speed of light is set by constants of empty space.
+\end{argbar}
+
+\argm{Magnetism does not change gravity or time.} The first edition predicted that magnetised materials would amplify gravity, and that clocks near aligned magnetic domains would run differently. Both have been tested:
+\begin{itemize}
+\item torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;\fn{heckel2008}
+\item muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.\fn{bailey1977}
+\end{itemize}
+Both predictions are withdrawn. A magnet's swirl and the Earth's inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part~15). This is the boundary on the first edition's ``magnetism is gravity''. Magnetism is not gravity; it is the same medium, organised differently.
+
+\section{Tests}
+\label{sec:tests}
+
+\begin{itemize}
+\item \textbf{The pressure carrier.} \openm{Derive Maxwell's stress, pressure across the lines and tension along them, from the medium's swirl, including its sign.} This is the first quantitative test of the medium reading of magnetism.
+\item \textbf{The Aharonov--Bohm circulation.} The measured shift is proportional to the particle's charge, and neutral particles show none. \hypm{In GPT the medium's circulation acts on a knot through its hand, so a knot with no net hand is not shifted.} The mirror case is also measured: a neutral particle with a magnetic moment, a neutron, passing around a line of charge is shifted (the Aharonov--Casher effect, 1989).\fn{cimmino1989} \openm{The medium reading must give both shifts from one coupling of hand and circulation.}
+\item \textbf{Magnetism without order.} Paramagnetic liquids and metallic glasses show that local spacing, not long-range order, sets magnetic locking. \hypm{The relay of Part~21 predicts that the strength of the lock follows the spacing measured in turns of the electron's rhythm}; the measured Bethe--Slater curve is the data to compare.
+\item \textbf{The swirl of a rotating body.} The gravitomagnetic swirl of the Earth is measured by orbiting gyroscopes and by satellites' orbits; GPT reads it as the swirl of the medium (Part~16), and the strength of that swirl from all of its parts is owed.
+\end{itemize}
+
+\section{What Remains to Be Derived}
+\label{sec:owed}
+
+\begin{itemize}
+\item \openm{Maxwell's equations from the medium: the swirl as $\mathbf{B}$, the circulating flow as $\mathbf{A}$, and the emission phase of charged knots as the electric field.}
+\item \openm{The pressure across and tension along the lines, from the medium's swirl (Section~\ref{sec:pressure}).}
+\item \openm{The magnetic moment of the electron, from its circulation and the swirl it organises (Part~19).}
+\item \openm{The spacing rule for locking neighbours in parallel or opposed, as a timing condition (Part~21).}
+\item \openm{The strength of the gravitomagnetic swirl of a rotating mass from all four of its parts (Part~16), and how it relates to the magnetic swirl of moving charge.}
+\end{itemize}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+Maxwell's equations were derived from a medium, and the field reading that replaced it predicts nothing the medium reading does not. In GPT a magnetic field is the medium turning: the swirl that moving and spinning knots set going, closed on itself because rotation in a medium cannot begin or end, and carrying a pressure across its lines and a tension along them that can be felt with the hands and measured in every motor. A magnet is a corridor extended: aligned circulations inside, held in step, and the medium organised along closed lines outside. Like poles are pushed apart and unlike poles pressed together by the medium's pressure. The medium circulates even where the field is zero, and electrons passing a shielded magnet meet that circulation. Every substance answers a field, by turning against it, by turning with it against the knocks of heat, or by locking with its neighbours; and what magnetism needs is unpaired hands and the right spacing, not crystal order. Magnetism is not gravity. It is the same medium, organised differently: gravity is its inflow, magnetism its swirl.
+
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item The first edition's Parts 21 and 22 are merged into one part.
+\item The first edition's claim that electromagnetism lacks a causal account is restated with its history: Maxwell's equations were derived from a medium of vortices (1861); the medium was set aside for economy, not by measurement; the medium and field readings share their predictions, and the choice between them rests on mechanism.
+\item Kept and promoted: the field as a curl. The magnetic field is restated as the medium's swirl, and the vector potential as its circulating flow. New: the closure of field lines as Helmholtz's theorem for rotation in a medium; gravitomagnetism as the same form for mass.
+\item Kept: magnetism is pressure. Restated as Maxwell's stress, $B^2/2\mu_0$ across and along the lines, with the attraction and repulsion of poles and of parallel currents from the medium's pressure, and a caution about the sign.
+\item New: a magnet's field as Part~21's corridor extended into the medium, each line closing through the magnet.
+\item New: the Aharonov--Bohm effect as the medium's circulation outside a shielded magnet; the standard account is treated as a description.
+\item The materials analysis is corrected: crystal order is neither needed nor enough for magnetism (copper, metallic glasses, liquid oxygen); what is needed is unpaired circulations, spacing that locks neighbours, and a temperature below the Curie point. Spin alignment and phase timing are kept; high crystallinity is withdrawn as a criterion. Diamagnetism, paramagnetism (Curie's law) and antiferromagnetism are added.
+\item Domains, hysteresis, remanence and saturation are kept, with Barkhausen's jumps and the defects of Part~21 as their mechanism.
+\item The thermal formula $\mathcal{C}_0e^{-\alpha T}$ is replaced by the measured behaviour at the Curie point.
+\item Induction as $V=\int\nabla P_g\cdot d\mathbf{r}$ is withdrawn (the integral of a gradient round a loop is zero) and replaced by a circulating push from a changing swirl, with Lenz's rule.
+\item Electromagnetic waves as ``density modulations'' are replaced by transverse waves of the medium.
+\item ``Magnetism is gravity'' becomes ``magnetism and gravity are two modes of one medium''. The predictions that magnets amplify gravity and alter clock rates are withdrawn: both have been tested and found null.
+\item The claim that magnetometer records confirm gravitons is restated: a magnetometer measures a state of the medium, its swirl, which is the medium reading of the same measurement; it is not evidence of new gravitational effects.
+\item Removed, as too far from the core: magnetism as language (``pattern as phoneme, coherence as syntax''); the human body as a gravitational instrument; ``a return to meaning''; the technological and philosophical implications; the experimental proposals for lensing with Möbius coils, beam deflection near domains and spintronic timing; the coherence and pressure formulas $\Gamma$, $\Psi$, $P_m$ and $\mathcal{F}$, which had no derivation.
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The title changes from \emph{Magnetism as Gravimetric Resonance} (with the companion \emph{Cross-Analysis of Magnetic Materials}) to \emph{Magnetism}, with the subtitle \emph{External Pressure from Extended Graviton Corridors}. These parts were Parts 21 and 22 in the first edition.
+\item ``Self-repulsive gravitons'', ``impedance'' and ``stability's intent'' are replaced by the terms of Parts 15 to 21.
+\item Two figures, status marks and this list are added.
+\end{itemize}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{part22}
+
+\end{document}

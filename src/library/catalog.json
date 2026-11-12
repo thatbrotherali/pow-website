@@ -57,7 +57,7 @@
    "slug": "gpt-part-06",
    "title": "Redefining Work",
    "subtitle": "A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory",
-   "words": 5165,
+   "words": 5171,
    "lead": "When something is held still against gravity, something is plainly going on, yet the textbook says no work is done. This paper shows that holding does not consume energy (the cost belongs to the holder), and that a held load is never at rest: a steady current of momentum passes through it into its support, and every scale reading measures that current.",
    "source": "Part 06 - Redefining Work (2nd ed.).tex",
    "part": 6,
@@ -139,7 +139,7 @@
    "slug": "gpt-part-14",
    "title": "From Revelation to Foundation",
    "subtitle": "Graviton Pressure Theory, Stated in One Piece",
-   "words": 3192,
+   "words": 3202,
    "lead": "The turning point of the framework. Graviton Pressure Theory is stated in one piece: the mechanism, a figure, and its seventeen premises with their status, followed by what the model reproduces, what it predicts that is its own, and what it still owes.",
    "source": "Part 14 - From Revelation to Foundation (2nd ed.).tex",
    "part": 14,
@@ -150,7 +150,7 @@
    "slug": "gpt-part-15",
    "title": "Gravitons",
    "subtitle": "The Constituent of the Medium, and the Causal Engine Behind Gravity",
-   "words": 5547,
+   "words": 5553,
    "lead": "What is a graviton, literally? This paper asks first what electrons and protons are, then defines the graviton as the constituent of the medium and states the one rule from which pressure, contact and bonds follow: phase decides push. Matter ejects gravitons out of phase, and the medium's re-phasing sets the boundary where gravity changes form around every mass.",
    "source": "Part 15 - Gravitons (2nd ed.).tex",
    "part": 15,
@@ -225,21 +225,14 @@
   },
   {
    "slug": "gpt-part-21",
-   "title": "Magnetism as Gravimetric Resonance",
-   "subtitle": "",
-   "words": 6081,
-   "lead": "Magnetism is revered as one of nature’s fundamental forces, rigorously modeled within the framework of electromagnetism. Maxwell’s equations, Lorentz force dynamics, and quantum spin formalism provide an intricate and highly predictive map of magnetic behavior. Yet beneath this precision lies a critical omission: the absence of causal explanation. Graviton Pressure Theory (GPT) challenges this omission by introducing a deeper mechanistic model—one grounded in coherent field dynamics and graviton self-repulsion.",
-   "source": "Part 21 - Magnetism as Gravimetric Resonance.tex",
-   "part": 22
-  },
-  {
-   "slug": "gpt-part-22",
-   "title": "Cross-Analysis of Magnetic Materials",
-   "subtitle": "as Graviton Corridor",
-   "words": 3076,
-   "lead": "Graviton Pressure Theory (GPT) proposes that magnetism is localized graviton resonance and modulation. This addendum extends the framework introduced in *\"Magnetism as Gravimetric Resonance\"*, refining its core thesis by examining material structure through graviton corridor compatibility. Here, we systematically compare GPT’s theoretical criteria for effective graviton corridors with the empirically observed traits of magnetic and non-magnetic materials, revealing a remarkable alignment, a one-to-one match that bridges theoretical prediction with empirical evidence. In addition, we propose a path to measure this resonance, self-repulsive gravitons ready to speak through precision instruments.",
-   "source": "Part 22 - Cross-Analysis of Magnetic Materials.tex",
-   "part": 22
+   "title": "Magnetism",
+   "subtitle": "External Pressure from Extended Graviton Corridors",
+   "words": 5102,
+   "lead": "Maxwell derived his equations from a medium, and the field reading that replaced it predicts nothing the medium reading does not. A magnetic field is the medium's swirl; a magnet is a corridor of aligned matter extended into the medium along closed lines, carrying a pressure across them and a tension along them. Circulation where the field is zero, how every substance answers a field, and gravity and magnetism as two modes of one medium.",
+   "source": "Part 22 - Magnetism (2nd ed.).tex",
+   "part": 22,
+   "path": "magnetism-as-gravimetric-resonance",
+   "pdf": true
   },
   {
    "slug": "gpt-part-23",
@@ -440,7 +433,7 @@
    "title": "The Mechanics of the Medium",
    "subtitle": "The origin of primitives",
    "words": 43585,
-   "lead": "Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.",
+   "lead": "Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is the medium's swirl, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.",
    "source": "LaTeX source",
    "pdf": true
   }

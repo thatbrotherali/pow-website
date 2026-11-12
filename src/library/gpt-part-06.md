@@ -172,7 +172,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - The bridge. The first edition argued that material fatigue shows an ongoing energy input. Fatigue comes mainly from changing loads; creep under a constant load is real, but its energy comes from the load settling; maintenance repairs damage rather than holding the bridge up. The Pont du Gard is the counterexample. The point that a loaded bridge is not inert is kept.
 
-- The magnet. The claim that a magnet’s grip consumes energy is withdrawn. “Magnetic attraction” is marked as a name without an interface, to be taken up in Parts 21 and 22.
+- The magnet. The claim that a magnet’s grip consumes energy is withdrawn. “Magnetic attraction” is marked as a name without an interface, taken up in Part 22, where the medium’s pressure across the field is the interface.
 
 - The definition of work. The first edition proposed $W_{\text{GPT}}=\int (F\cdot d_{\text{coherence}})\,dt$. As written, it mixes units (force times distance times time is not energy) and does not say what $d_{\text{coherence}}$ is. It is replaced by the two ledgers of Section 6.6, with the classical definition kept.
 

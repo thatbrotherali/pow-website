@@ -169,7 +169,7 @@ From here, the framework unfolds constructively:
 
 - **Coherence and structure** (Parts 19 and 20): order in matter, and how it shares out the medium’s delivery.
 
-- **Magnetism** (Parts 21 and 22): the magnet as structured outflow, and the materials that make it.
+- **Magnetism** (Part 22): the magnet’s field as the medium’s swirl, a corridor of aligned matter extended into the medium, and what matter needs to make it.
 
 - **The mathematics and the units** (Parts 23 to 25): the equations of the medium, its units and its constants.
 

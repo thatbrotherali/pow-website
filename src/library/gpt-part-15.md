@@ -242,7 +242,7 @@ Each is a question with a definite answer, and in each the interface is named.
 | Coherence           | The order of a structure’s internal phase. It sets the structure’s own rates and, through its energy, its mass ($\Delta E/c^2$); it may change where delivery lands inside a body.        |
 | Counterflow         | The outflow of neutral ejecta from a mass, carrying the pattern of its speed, spin and rotation.                                                                                          |
 | Shell               | A region where a regular pattern in the counterflow stands, or where the counterflows of several bodies meet and their rhythms lock. The relaxation boundary is the shell every mass has. |
-| Corridor            | Either a path along which delivery is redistributed inside ordered matter, or a streamline of a magnet’s circulation (Part 21).                                                           |
+| Corridor            | Either a path along which delivery is redistributed inside ordered matter, or a line of a magnet’s swirl extended into the medium (Parts 21 and 22).                                      |
 | Tail                | The thin layer of organised medium around an atom, about 0.06 nm deep, whose overlap gives contact and bonds.                                                                             |
 | gp                  | The first edition’s name for the unit of the medium’s pressure. It is the pascal.                                                                                                         |
 

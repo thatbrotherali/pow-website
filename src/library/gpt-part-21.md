@@ -1,793 +1,394 @@
-# Magnetism as Gravimetric Resonance
+# Magnetism
+
+*External Pressure from Extended Graviton Corridors*
 
 By Shareef Ali Rashada
 
-## The Enigma Beneath Precision
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-Magnetism is revered as one of nature’s fundamental forces, rigorously modeled within the framework of electromagnetism. Maxwell’s equations, Lorentz [^1] force dynamics, and quantum spin formalism provide an intricate and highly predictive map of magnetic behavior. Yet beneath this precision lies a critical omission: the absence of causal explanation. Graviton Pressure Theory (GPT) challenges this omission by introducing a deeper mechanistic model—one grounded in coherent field dynamics and graviton self-repulsion.
+# About This Paper
 
-## Questions That Echo Unresolved
+Part 21 followed the flows inside matter and found them directed by structure: load, heat, charge, waves and the alignment of spins all pass along lines of patterns held in step.[^1] Magnetism is what happens when that interior order reaches out. The aligned circulations inside a magnet organise the medium around it, along lines that leave the magnet, cross the space around it and return; and along and across those lines the medium carries a pressure that can be felt with the hands. This paper describes that reach: what organises the medium outside a magnet, what the lines are, what the pressure is, how matter of every kind responds to it, and how it differs from gravity, which is the same medium in another mode.
 
-Why does magnetism selectively manifest in specific materials? Why does it act more as a coherent pressure field than a Newtonian force? And why does its behavior so often parallel gravity—viscerally and energetically? Magnetism channels energy, sculpts spatial interaction, and modulates force in ways that defy conventional categorization. These questions cannot be answered within existing models—they demand a new frame.
+This second edition merges the first edition’s Parts 21 and 22, *Magnetism as Gravimetric Resonance* and *Cross-Analysis of Magnetic Materials*. Their second-register sections are removed; the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
 
-## A Bold Reframing of Magnetism’s Essence
+# A Medium Reading, from the Start
 
-This framework posits that magnetism is not distinct from gravity, but a localized manifestation of gravimetric resonance—where lattice structures align with directional graviton flows governed by self-repulsion. Magnetism, then, becomes the resonant impedance and modulation of graviton pressure via coherent lattice structuring—a harmonized interference of phase, spin, and coherence [^2].
+The first edition began by saying that electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
 
-### Reinterpreting the Magnetic Tapestry
+Maxwell’s equations were derived from a medium. **\[Argued\]** In 1861, in *On Physical Lines of Force*, James Clerk Maxwell modelled the magnetic field as a medium filled with small rotating vortices, with idle particles between them to pass on their motion.[^4] From that mechanical picture he obtained the displacement current, which completed the equations, and the speed of waves in the medium, which he compared with the speed of light. Five years earlier Weber and Kohlrausch had measured the ratio of the electric units and found $3.1\times10^{8}$ metres a second.[^5] The two agreed, and Maxwell concluded that light is a wave of the same medium that carries electric and magnetic effects. The constants in his equations, $\varepsilon_0$ and $\mu_0$, are properties of empty space, and the speed of light is $c=1/\sqrt{\varepsilon_0\mu_0}$.
 
-Under this lens, magnetism is recast as:
+The medium was set aside for economy, not by measurement. **\[Argued\]** After Michelson and Morley’s null result and Einstein’s paper of 1905, physics kept Maxwell’s equations and dropped the medium they came from. Lorentz’s theory, which kept a medium, predicted the same results as special relativity, and no experiment has separated them.[^6] Einstein himself said in 1920 that under general relativity “space without ether is unthinkable”, because space has physical properties.[^7]
 
-- **Attraction and repulsion:** Field pressure gradients, not abstract forces.
+So GPT does not need a new prediction to read magnetism as a state of the medium: the medium reading and the field reading make the same predictions, because they use the same equations. **\[Argued\]** What decides between them is mechanism. The field reading names a quantity, $\mathbf{B}$, and stops. The medium reading names what carries the measured pressure, energy and momentum of a magnetic field: the medium itself, organised. New predictions are needed only for claims that go beyond Maxwell’s equations, and Section <a href="#sec:gravity" data-reference-type="ref" data-reference="sec:gravity">“Gravity and Magnetism”</a> lists those that have been tested.
 
-- **Material selectivity:** A function of graviton corridor [^3] support—only certain lattice structures can sustain coherent flow.
+# Magnetism Is Swirl
 
-- **Field lines:** Not symbolic vectors, but real, directed flows of self-repulsive gravitational current.
+**\[Hypothesis: the passage that follows\]**
 
-### Demonstrating the Resonance of Truth
+**A magnetic field is the medium turning**: its local rotation, what fluid mechanics calls vorticity. The first edition wrote the field as a curl, $\mathbf{B}\propto\nabla\times(\dots)$, and that was the right form. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium’s circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
 
-We will show:
+**\[End of passage\]**
 
-- Why only certain materials exhibit magnetism based on corridor formation.
+The lines of a magnetic field always close. **\[Argued\]** No isolated magnetic pole has ever been found, in a century of searches up to the collisions of the Large Hadron Collider;[^8] every line that leaves a magnet’s north end returns at its south end, and the total flux out of any closed surface is zero, $\nabla\cdot\mathbf{B}=0$. In a medium this is what rotation does. **\[Hypothesis\]** Helmholtz proved in 1858 that in a fluid a line of rotation cannot begin or end within the fluid; it must close on itself or end at a boundary.[^9] Kelvin built his vortex atoms on this theorem (Part 15). The absence of magnetic poles, a fact that the field reading simply records, is a property of rotation in a medium.
 
-- Why repulsion between poles reflects directional graviton stream conflict—opposing field alignment producing outward redirection.
+Gravity has a swirl of the same form. **\[Argued\]** A rotating mass drags the medium around it, and general relativity calls the resulting field *gravitomagnetism*, because its equations take the same form as magnetism’s. Gravity Probe B measured it: gyroscopes in orbit turned by 37.2 milliarcseconds a year, against 39.2 predicted.[^10] Part 16 read this as the swirl of the medium around the rotating Earth.[^11] GPT’s reading is that there are two swirls of one medium: one driven by rotating mass, one by circulating charge. **\[Hypothesis\]**
 
-- Why thermal agitation disrupts coherent graviton-lattice phase locking, dissolving the resonance necessary for magnetic behavior.
+# Where the Swirl Comes From
 
-### Explorations Beyond the Veil
+Moving charge makes a magnetic field, with no material structure at all. **\[Argued\]** In 1820 Ørsted found that a current in a wire turns a compass needle, and that the field circles the wire. The same year Ampère found that two parallel wires carrying currents in the same direction are pushed together, and in opposite directions pushed apart. The Earth’s own field is made by currents in its liquid iron core, at four to six thousand kelvin, far above the temperature at which iron can hold magnetism as a solid.
 
-This framework invites bold extensions:
+Spin makes a magnetic field. **\[Argued\]** Every electron is a small magnet; in iron, about two electrons per atom have their spins aligned, and the alignment of $10^{23}$ such spins in a few grams of iron is a permanent magnet. Spin is real rotation: aligning it turns the body that holds it, and turning the body aligns it (Einstein and de Haas, Barnett; Part 20).
 
-- Reinterpreting electromagnetism as nested graviton modulation.
+**\[Hypothesis: the passage that follows\]**
 
-- Developing experimental probes for graviton coherence in magnetic materials.
+**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. The first edition’s suggestion that charge might be “a structural bias in graviton flux absorption or emission” anticipated Part 19’s account.
 
-- Recognizing spiritual resonance in the structural unity of gravity and magnetism.
+**\[End of passage\]**
 
-### A Call to Reimagine
+# The Extended Corridor
 
-Magnetism is no longer a standalone force. It is gravity’s whisper in structure, a local manifestation of coherence in flow. What we have long treated as distinct is revealed to be harmonized—a gravimetric resonance bridging entropy and intent. We now begin the task of grounding this claim in measurable theory and structural reformulation.
+<figure id="fig:corridor">
+<img src="assets/figures/fig22-1-corridor.svg" />
+<figcaption>A bar magnet as an extended corridor. Inside, aligned circulations held in step; outside, the medium organised along lines that leave the north end, cross the space around the magnet and return at the south end. Across the lines the medium presses outward; along them it pulls in.</figcaption>
+</figure>
 
-**Mathematical Preview:** We posit a local modulation of graviton flux $\Phi_g$ by lattice coherence $\mathcal{L}_c$ such that: $$B \propto \nabla \times (\mathcal{L}_c \cdot \Phi_g)$$ where $B$ is the observed magnetic field intensity, structured by the curl of graviton flow modulated by coherent lattice resonance.
+**\[Hypothesis: the passage that follows\]**
 
-This expression is a placeholder, pending derivation in Section III where we explore graviton-lattice interactions in magnetically responsive materials.
+Part 21 defined a corridor inside matter as a line of patterns held in step, re-made on every turn. **A magnet’s field is that corridor extended into the medium** (Figure <a href="#fig:corridor" data-reference-type="ref" data-reference="fig:corridor">1</a>). Inside the magnet, the corridor is the aligned circulations of its electrons, relaying in step (Part 21). At the magnet’s surface the order passes from matter’s patterns to the medium itself, which is organised into a swirl along each line; the line crosses the space around the magnet and re-enters it at the other end. Each line is one closed loop, part in matter, part in the medium, as Helmholtz’s theorem requires.
 
-## Graviton Pressure Theory (GPT) in Brief
+**\[End of passage\]**
 
-### Gravity’s New Foundation
+The lines can be seen. **\[Argued\]** Iron filings scattered round a magnet gather along them, because each filing is magnetised by the field and pulled into line with its neighbours. Faraday, who first mapped them, regarded the lines of force as physical states of the space around the magnet, not as a mathematical device. In GPT that is what they are: lines along which the medium is organised.
 
-Graviton Pressure Theory (GPT) redefines gravity by replacing the notion of curvature in spacetime with a concrete mechanism: directional pressure arising from anisotropic flows of massless, self-repulsive field quanta known as gravitons [^4]. These particles move with purpose, forming coherent, omnidirectional flux fields that act on matter. Gravity, in this model, is not geometry’s abstraction—it is structured pressure, with rhythm and cause.
+# Magnetism Is Pressure
 
-### Directional Pressure Explained
+The first edition’s observation that magnetism feels like pressure is exact. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
+\label{eq:pressure}$$ about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell’s stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun’s hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
 
-Gravity manifests from local asymmetries in graviton flux density. A body experiences a net directional force when gravitons impact one side with greater frequency or momentum density than the other. This generates what is perceived as attraction, though it is fundamentally a pressure gradient. Graviton self-repulsion maintains directional consistency, enforcing gradients where matter is driven into equilibrium alignment.
+**\[Hypothesis: the passage that follows\]**
 
-### Path Resistance and Matter’s Role
+**Poles push and pull through the pressure of the medium between them.**
 
-Matter’s interaction with graviton flux depends on its internal structure. High-density, phase-aligned materials (e.g., crystals) absorb and redirect graviton flows in a structured manner, creating localized modifications in field pressure. This interaction shapes both gravitational strength and stability zones, modulated by lattice geometry, atomic configuration, and vibrational timing.
+- **Like poles** send their lines side by side into the gap between them. The lines cannot cross or join, so they crowd together, and the pressure across them pushes the magnets apart.
 
-### Coherence and Timing at Work
+- **Unlike poles** join their lines across the gap, so that each line runs from one magnet into the other. The tension along the joined lines draws the magnets together; in GPT, the medium’s pressure along each line is lower than across it, and the surrounding medium presses the magnets toward each other.
 
-Three primary characteristics enable efficient graviton-lattice interaction:
+- **Parallel currents** (Ampère): between two wires carrying current the same way, their circling fields run in opposite directions and cancel, so the pressure between them is lower than outside, and they are pressed together. Opposite currents reinforce the field between them and are pushed apart.
 
-- **Spin alignment:** Aligns particle spin to open directional corridors.
+In every case the push is delivered by the medium’s pressure, as gravity’s is. The first edition said this: “matter orchestrates the conditions; graviton flux supplies the energy.”
 
-- **Phase synchronization:** Maintains temporal coherence across lattice sites.
+**\[End of passage\]**
 
-- **Lattice geometry:** Periodicity enhances directional graviton transmission.
+#### A caution about the sign.
 
-Together, these factors transform matter into a resonant medium, stabilizing and sculpting graviton flows.
+In an ordinary fluid, faster swirl means *lower* pressure: the air in the core of a tornado is at low pressure. A magnetic field is the reverse: where it is stronger, it presses outward harder. So the medium cannot behave here like water in a single large whirl. Maxwell met this problem and solved it with his vortex cells: a medium made of many small spinning cells, each of which presses outward across its axis as it spins and draws in along it, gives exactly Maxwell’s stress, pressure across the lines and tension along them.[^12] In GPT the cells may be the counterflows of the knots and the swirls they organise in the medium, but how the medium’s swirl carries outward pressure across the lines is owed. **\[Open\]**
 
-### Reframing Attraction
+# Circulation Where the Field Is Zero
 
-All attractive forces are reframed as graviton-mediated pressure gradients. Orbital motion becomes the result of asymmetric graviton flow—stability achieved not by pull but by directed compression. Falling bodies, tides, and celestial mechanics resolve through this lens of graviton alignment and structural coherence.
+<figure id="fig:ab">
+<img src="assets/figures/fig22-2-ab.svg" />
+<figcaption>The Aharonov–Bohm arrangement. Electrons pass on both sides of a magnet whose field is entirely enclosed and shielded, so that none of it reaches their paths. Their interference is shifted by the amount of field enclosed.</figcaption>
+</figure>
 
-### Magnetism’s Step Forward
+Electrons are affected by a magnetic field they never touch. **\[Argued\]** In 1959 Aharonov and Bohm predicted that electrons passing on either side of a long magnet, through regions where the magnetic field is exactly zero, would have their interference shifted by the amount of field enclosed between their paths.[^13] Tonomura and colleagues confirmed it in 1986 with a ring magnet sealed inside a superconductor, which kept every trace of the field from leaking out; the shift appeared, and because the superconductor holds a field only in whole units, it was half a wavelength when an odd number of units was trapped and none when an even number was (Figure <a href="#fig:ab" data-reference-type="ref" data-reference="fig:ab">2</a>).[^14]
 
-Magnetism is reinterpreted as a gravimetric resonance effect. Through phase-coherent spin alignment and geometric precision, certain materials channel localized graviton pressure in ways that manifest as magnetic fields. Magnetic poles emerge as structured field gradients—modulated pressure zones sustained by coherent lattice dynamics.
+The standard account describes this without a mechanism. **\[Argued\]** It says the vector potential $\mathbf{A}$, which is not zero outside the magnet, is physically real, but it does not say what $\mathbf{A}$ is the potential *of*, or what touches the electron. In a medium it is expected. **\[Hypothesis\]** A line vortex in a fluid has rotation only in its core, yet the fluid outside circulates around it; the circulation round any loop enclosing the core equals the rotation inside it. In GPT the medium outside the shielded magnet is circulating, though not rotating, and the electron’s guiding pattern (Part 19) meets that circulation on its way past. Its phase is shifted by the circulation it travels through, which is fixed by the swirl enclosed. The trapped field came in whole units, the units that Part 20 read as the medium’s phase closing on itself around a superconducting ring.
 
-### Conclusion: A Unified Base
+# How Matter Answers a Field
 
-GPT offers a unified foundation: gravity as directed pressure, not abstract curvature; magnetism as resonant modulation of that pressure through structured matter. This framework invites further integration of seemingly distinct forces under a single causal mechanism.
+The first edition’s companion paper argued that magnetic materials match its criteria for corridors one for one: high crystallinity, aligned spins, low decoherence, suitable density and stable phase timing. Some of that match holds and some does not, and the correction makes the mechanism sharper.
 
-**Mathematical Expression:** We define a localized graviton pressure gradient as: $$\vec{F}_g = -\nabla P_g = -\nabla (\rho_g \cdot v_g^2)$$ where $P_g$ is graviton pressure, $\rho_g$ is local graviton flux density, and $v_g$ is graviton propagation speed.
+Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper and aluminium are fully crystalline and are not magnets. Metallic glasses, alloys cooled so fast that their atoms have no long-range order, can be strongly ferromagnetic, and are used for transformer cores. Liquid oxygen, poured between the poles of a strong magnet, hangs there. What magnetism requires, measured, is this:
 
-This equation parallels fluid mechanics but with directional coherence and self-repulsion effects intrinsic to the graviton field.
+1.  **Unpaired circulations.** An atom whose electrons are all paired, opposite circulation with opposite circulation (Part 19), has no net spin to align. An atom with unpaired electrons, in any state of matter, can be turned by a field.
 
-Magnetic modulation enters through material-specific coherence parameters, explored in detail in Section IV.
+2.  **Neighbours spaced to lock in parallel.** Whether neighbouring spins align or oppose depends on the distance between atoms compared with the size of their electron shells (the Bethe–Slater curve, Part 21). This is local spacing, which a glass can have as well as a crystal.
 
-## A Sensory Observation: Magnetism Feels Like Pressure
+3.  **A temperature below the point where knocks outpace the lock** (Part 20).
 
-### The Sensory Evidence
+The first edition’s spin alignment and phase timing survive; high crystallinity does not. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
 
-Anyone who has ever interacted with magnets knows the distinct physical sensation they create. When like poles are pressed together, one experiences not an abstract force or conceptual attraction, but a direct and unmistakable pressure. It is as if an invisible current resists the motion—palpable, directional, and structured.
+#### Every substance answers.
 
-### Alignment with GPT Principles
+Matter responds to a field in four measured ways.
 
-This lived sensory experience finds its theoretical anchor in Graviton Pressure Theory (GPT):
+- **Diamagnetism, in everything.** Every substance is weakly pushed out of a strong field. Water is pushed out with a strength of about nine parts in a million; in a 16-tesla field this is enough to levitate a drop of water, a strawberry, or a living frog.[^15] Pyrolytic graphite floats above a row of ordinary magnets at room temperature. In GPT each atom’s patterns turn against an imposed swirl, as a superconductor’s surface does in full (Part 20). **\[Hypothesis\]**
 
-- Magnetism is not an abstract field of attraction.
+- **Paramagnetism, where circulations are unpaired.** Each unpaired spin is turned toward the field, against the knocks of heat. Curie found in 1895 that the effect weakens in proportion to the temperature.[^16] That is alignment against knocks for circulations that are not locked to their neighbours: **\[Hypothesis\]** the field turns each one, and heat turns it back.
 
-- It arises from coherent, directional gradients in graviton pressure.
+- **Ferromagnetism, where neighbours lock in parallel:** iron, cobalt, nickel, and gadolinium, which loses its magnetism on a warm day, at 20 $^\circ$C.
 
-- These gradients form through structural properties intrinsic to certain materials.
+- **Antiferromagnetism, where neighbours lock opposed.** In manganese oxide the spins alternate, each opposite its neighbour, so that no field reaches outside. Neutrons, which have spin themselves, revealed the alternating pattern directly in 1949.[^17]
 
-### Pressure, Not Pull
+# Domains, Memory and Saturation
 
-The resistance felt between magnets is not illusion—it is the result of structured graviton flux encountering material coherence. The key points are:
+A magnet is divided into domains, each aligned within itself. **\[Argued\]** Weiss proposed them in 1907; they have since been seen directly, with fine magnetic powders and with polarised light. In an unmagnetised piece of iron the domains point in many directions and their fields close among themselves; magnetising it grows the domains that point along the field at the expense of the others.
 
-- Magnetic interactions generate real, directional pressure differentials.
+Magnetisation proceeds in jumps. **\[Argued\]** In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.[^18] The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. These are the same defects that scatter heat and charge in Part 21: places where the common order is broken, holding the boundary between two orders until it is pushed past them. **\[Hypothesis\]** Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
 
-- These anisotropic flows manifest as mechanical feedback—experienced as tactile resistance.
+Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; the first edition’s “coherence limit” is this.
 
-- GPT frames this not as pull or mysterious force, but as organized, local graviton flow.
+# Heat and the Curie Point
 
-### Material Selectivity Revisited
+Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. The first edition’s formula $\mathcal{C}_g(T)=\mathcal{C}_0e^{-\alpha T}$, coherence falling exponentially with temperature, has the wrong shape. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). The first edition’s “structural forgetting” is kept: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
 
-Why are magnetic properties limited to specific materials? GPT explains this via the following criteria:
+# Induction
 
-- **Lattice coherence:** Internally ordered structures promote graviton corridor formation.
+A changing swirl drives a circulating push around it. **\[Argued\]** Faraday found in 1831 that changing the magnetic field through a loop of wire drives a current round the loop, in proportion to how fast the enclosed flux changes. Lenz found in 1834 that the current always flows so as to oppose the change. A magnet dropped down a copper pipe falls slowly, held back by the currents it drives in the copper.
 
-- **Spin alignment:** Aligned electron spin creates directional permissivity.
+The first edition wrote induction as $V=\int_0^\ell\nabla P_g\cdot d\mathbf{r}$, a voltage from a pressure gradient. That cannot work: the integral of a gradient around a closed loop is zero, and induction is a push *around* a loop. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
 
-- **Geometric precision:** Regular lattice spacing reduces impedance.
+# Light
 
-These conditions allow certain materials to act not as sources of magnetism, but as *modulators of graviton pressure*.
+Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. The first edition’s description of electromagnetic waves as “density modulations” is replaced: a density wave is longitudinal, and light is transverse. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
 
-### Corridor-Enabled Flow
+# Gravity and Magnetism
 
-Magnetic materials facilitate coherent graviton flow through low-resistance corridors. These directed flows result in:
+**\[Argued: the passage that follows\]**
 
-- **Pressure imbalances:** Perceived as magnetic force.
+**Two modes of one medium.** Gravity is the medium’s inflow, toward every mass, always inward, one sign, adding up. Magnetism is the medium’s swirl, organised by aligned or moving charge, closing on itself, with two senses that cancel in disordered matter. Both act on matter through the medium’s pressure. The evidence that the medium is one: light and gravitational waves travel at the same speed; the gravitomagnetic swirl of a rotating mass has the form of magnetism; the speed of light is set by constants of empty space.
 
-- **Localized graviton gradients:** Aligned with material geometry.
+**\[End of passage\]**
 
-- **Palpable resistance:** Sensory evidence of gravimetric resonance.
+Magnetism does not change gravity or time. **\[Argued\]** The first edition predicted that magnetised materials would amplify gravity, and that clocks near aligned magnetic domains would run differently. Both have been tested:
 
-### Conclusion: Magnetism Is Pressure
+- torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;[^19]
 
-In GPT, magnetism is not a mysterious external force—it is structured graviton pressure shaped by internal coherence. Our senses do not deceive us. The push, the resistance, the invisible wall between magnets—these are real manifestations of graviton flow.
+- muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.[^20]
 
-**Mathematical Framing:** We conceptualize local magnetic pressure $P_m$ as a function of graviton flux $\Phi_g$ modulated by material coherence $C_m$: $$P_m = k_m \cdot (\Phi_g \cdot C_m)$$ where $k_m$ is a material-specific coefficient encoding spin alignment and lattice symmetry.
+Both predictions are withdrawn. A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). This is the boundary on the first edition’s “magnetism is gravity”. Magnetism is not gravity; it is the same medium, organised differently.
 
-This model frames magnetic interaction as a localized modulation of graviton field dynamics, with measurable pressure response.
+# Tests
 
-## Domain Structures and the Architecture of Magnetic Behavior
+- **The pressure carrier.** Derive Maxwell’s stress, pressure across the lines and tension along them, from the medium’s swirl, including its sign. **\[Open\]** This is the first quantitative test of the medium reading of magnetism.
 
-### Domains Beyond Tradition
+- **The Aharonov–Bohm circulation.** The measured shift is proportional to the particle’s charge, and neutral particles show none. In GPT the medium’s circulation acts on a knot through its hand, so a knot with no net hand is not shifted. **\[Hypothesis\]** The mirror case is also measured: a neutral particle with a magnetic moment, a neutron, passing around a line of charge is shifted (the Aharonov–Casher effect, 1989).[^21] The medium reading must give both shifts from one coupling of hand and circulation. **\[Open\]**
 
-In ferromagnetic [^5] materials such as iron, nickel, and cobalt, magnetism emerges from organized regions called domains—collections of atoms where magnetic moments, due to unpaired electron spins, align in coherent orientations. Traditionally, these are treated as localized contributors to macroscopic magnetic fields. However, Graviton Pressure Theory (GPT) reinterprets these domains as gravitationally functional structures: coherent graviton corridors through which self-repulsive gravitons transmit stability.
+- **Magnetism without order.** Paramagnetic liquids and metallic glasses show that local spacing, not long-range order, sets magnetic locking. The relay of Part 21 predicts that the strength of the lock follows the spacing measured in turns of the electron’s rhythm; **\[Hypothesis\]** the measured Bethe–Slater curve is the data to compare.
 
-### Domains as Graviton Corridors
+- **The swirl of a rotating body.** The gravitomagnetic swirl of the Earth is measured by orbiting gyroscopes and by satellites’ orbits; GPT reads it as the swirl of the medium (Part 16), and the strength of that swirl from all of its parts is owed.
 
-Each domain acts as a low-resistance channel for graviton pressure flow. The coherence among electron spin states and nuclear configurations induces synchronized lattice vibrations that resonate with graviton fields. This synchronization reduces impedance and allows gravitons to pass in an organized, directional pattern. Rather than chaotic scattering, pressure is transmitted coherently—forming structured streams of gravitational intent.
+# What Remains to Be Derived
 
-### Random vs. Aligned Dynamics
+- Maxwell’s equations from the medium: the swirl as $\mathbf{B}$, the circulating flow as $\mathbf{A}$, and the emission phase of charged knots as the electric field. **\[Open\]**
 
-In unmagnetized materials, domains point in random directions, cancelling their pressure contributions through destructive interference. The result is no net magnetic effect. Under magnetization, external or internal stimuli align the domains, allowing graviton corridors to synchronize. The unified directionality leads to an emergent macroscopic field, the result of intensified, coherent graviton pressure.
+- The pressure across and tension along the lines, from the medium’s swirl (Section <a href="#sec:pressure" data-reference-type="ref" data-reference="sec:pressure">“Magnetism Is Pressure”</a>). **\[Open\]**
 
-### Magnetization as Pathway Re-patterning
+- The magnetic moment of the electron, from its circulation and the swirl it organises (Part 19). **\[Open\]**
 
-GPT reframes magnetization as the realignment of internal pressure conduits. Instead of merely spin alignment, the process restructures matter into a graviton waveguide. Directional coherence increases, and the material actively shapes graviton flows to maintain structural stability. This waveguide behavior reconfigures how the material interacts gravitationally with its environment.
+- The spacing rule for locking neighbours in parallel or opposed, as a timing condition (Part 21). **\[Open\]**
 
-### Implications of a Waveguide Vision
+- The strength of the gravitomagnetic swirl of a rotating mass from all four of its parts (Part 16), and how it relates to the magnetic swirl of moving charge. **\[Open\]**
 
-Viewing magnetic materials as graviton modulators enables revolutionary applications:
+# Conclusion
 
-- **Inertial and field control:** Precision modulation of graviton flux.
+Maxwell’s equations were derived from a medium, and the field reading that replaced it predicts nothing the medium reading does not. In GPT a magnetic field is the medium turning: the swirl that moving and spinning knots set going, closed on itself because rotation in a medium cannot begin or end, and carrying a pressure across its lines and a tension along them that can be felt with the hands and measured in every motor. A magnet is a corridor extended: aligned circulations inside, held in step, and the medium organised along closed lines outside. Like poles are pushed apart and unlike poles pressed together by the medium’s pressure. The medium circulates even where the field is zero, and electrons passing a shielded magnet meet that circulation. Every substance answers a field, by turning against it, by turning with it against the knocks of heat, or by locking with its neighbours; and what magnetism needs is unpaired hands and the right spacing, not crystal order. Magnetism is not gravity. It is the same medium, organised differently: gravity is its inflow, magnetism its swirl.
 
-- **Gravitational data encoding:** Domains imprinting stability into field architecture.
+# Changes in the Second Edition
 
-- **Energy transfer and shielding:** Tuning graviton flow for high-efficiency systems.
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
 
-GPT transforms magnetism from passive force to active gravitational design.
+## Changes to the argument
 
-### Conclusion: Matter’s Gravitational Voice
+- The first edition’s Parts 21 and 22 are merged into one part.
 
-Domains are not trivial structural artifacts. They are coherent communicators of gravitational architecture. Each aligned domain is a syllable in matter’s language of stability—self-repulsive gravitons expressing intent through form. Under GPT, magnetism becomes not merely observable but understandable, a direct modulation of gravitational field [^6] structure by material resonance.
+- The first edition’s claim that electromagnetism lacks a causal account is restated with its history: Maxwell’s equations were derived from a medium of vortices (1861); the medium was set aside for economy, not by measurement; the medium and field readings share their predictions, and the choice between them rests on mechanism.
 
-**Mathematical Notation:** Define the total graviton-transmissive coherence $\Gamma$ in a magnetized region as: $$\Gamma = \sum_{i=1}^{N} (\vec{S}_i \cdot \vec{G}_i)$$ where $\vec{S}_i$ is the spin alignment vector of domain $i$, and $\vec{G}_i$ is the local graviton pressure direction. Magnetization increases $\Gamma$ by aligning $\vec{S}_i$ vectors, thus amplifying net graviton coherence.
+- Kept and promoted: the field as a curl. The magnetic field is restated as the medium’s swirl, and the vector potential as its circulating flow. New: the closure of field lines as Helmholtz’s theorem for rotation in a medium; gravitomagnetism as the same form for mass.
 
-This formalism grounds the field-aligned behavior of domains in graviton pressure alignment metrics.
+- Kept: magnetism is pressure. Restated as Maxwell’s stress, $B^2/2\mu_0$ across and along the lines, with the attraction and repulsion of poles and of parallel currents from the medium’s pressure, and a caution about the sign.
 
-## Spin Alignment and Phase Coherence
+- New: a magnet’s field as Part 21’s corridor extended into the medium, each line closing through the magnet.
 
-### The Puzzle of Spin’s Role
+- New: the Aharonov–Bohm effect as the medium’s circulation outside a shielded magnet; the standard account is treated as a description.
 
-Why does electron spin dictate magnetic behavior? Why do materials with unpaired electrons such as iron, nickel, and cobalt exhibit strong magnetism, while others remain inert? Graviton Pressure Theory (GPT) provides an elegant resolution. It reframes spin not merely as quantum angular momentum, but as a dynamic temporal vector—governing how particles interface with surrounding graviton pressure fields. Spin becomes a modulator of timing, coherence, and pressure alignment, shaping the material’s ability to transmit stability.
+- The materials analysis is corrected: crystal order is neither needed nor enough for magnetism (copper, metallic glasses, liquid oxygen); what is needed is unpaired circulations, spacing that locks neighbours, and a temperature below the Curie point. Spin alignment and phase timing are kept; high crystallinity is withdrawn as a criterion. Diamagnetism, paramagnetism (Curie’s law) and antiferromagnetism are added.
 
-### Spin as Temporal Alignment
+- Domains, hysteresis, remanence and saturation are kept, with Barkhausen’s jumps and the defects of Part 21 as their mechanism.
 
-GPT defines spin as a phase-orienting property with three gravitational consequences:
+- The thermal formula $\mathcal{C}_0e^{-\alpha T}$ is replaced by the measured behaviour at the Curie point.
 
-- **Phase presentation:** Spin orients the particle’s energy state for constructive or destructive interaction with graviton flux.
+- Induction as $V=\int\nabla P_g\cdot d\mathbf{r}$ is withdrawn (the integral of a gradient round a loop is zero) and replaced by a circulating push from a changing swirl, with Lenz’s rule.
 
-- **Receptivity timing:** Spin establishes optimal windows for graviton absorption or deflection.
+- Electromagnetic waves as “density modulations” are replaced by transverse waves of the medium.
 
-- **Flow reinforcement:** Aligned spins resonate to form coherent corridors—structures that amplify graviton pressure transmission.
+- “Magnetism is gravity” becomes “magnetism and gravity are two modes of one medium”. The predictions that magnets amplify gravity and alter clock rates are withdrawn: both have been tested and found null.
 
-Aligned spins form temporal phase-locks—electron populations synchronizing their oscillations with incoming graviton pulses. This results in directional resonance, reinforcing the formation of coherent, pressure-aligned channels.
+- The claim that magnetometer records confirm gravitons is restated: a magnetometer measures a state of the medium, its swirl, which is the medium reading of the same measurement; it is not evidence of new gravitational effects.
 
-### Consequences of Spin Coherence
+- Removed, as too far from the core: magnetism as language (“pattern as phoneme, coherence as syntax”); the human body as a gravitational instrument; “a return to meaning”; the technological and philosophical implications; the experimental proposals for lensing with Möbius coils, beam deflection near domains and spintronic timing; the coherence and pressure formulas $\Gamma$, $\Psi$, $P_m$ and $\mathcal{F}$, which had no derivation.
 
-The resulting coherent domains exhibit distinct gravitational modulation:
+## Clarifications
 
-- **Directional permeability:** Aligned spin paths permit efficient graviton transmission.
+- The title changes from *Magnetism as Gravimetric Resonance* (with the companion *Cross-Analysis of Magnetic Materials*) to *Magnetism*, with the subtitle *External Pressure from Extended Graviton Corridors*. These parts were Parts 21 and 22 in the first edition.
 
-- **Anisotropic flow fields:** Non-aligned directions deflect or absorb gravitons, creating directional pressure zones.
+- “Self-repulsive gravitons”, “impedance” and “stability’s intent” are replaced by the terms of Parts 15 to 21.
 
-- **Nested corridors:** Layered spin structures allow multi-band modulation of graviton flux density.
-
-These traits allow spin coherence to sculpt pressure geometries—controlling the local gravitational response field.
-
-### Explaining Magnetic Directionality
-
-GPT explains directional magnetism as a temporal resonance phenomenon. Saturation arises when spin alignment can no longer widen graviton corridors—the coherence limit reached. Hysteresis reflects retained corridor structures—self-sustaining graviton channels lingering post-alignment. Remanence persists through stabilized phase-locked regions, maintaining coherent graviton flow even in absence of external input. These effects, traditionally seen as quantum curiosities, become accessible as features of structured graviton interaction.
-
-These magnetic corridors are not static—they are continually renewed by the absorption and directional displacement of graviton pressure, maintained through refresh cycles linked to the material’s internal coherence.
-
-### Conclusion: A Foundation for Control
-
-Spin-phase coherence transforms magnetic materials into graviton waveguides, their structure encoding temporal alignment into field modulation. GPT recasts magnetism not as emergent mystery but as gravitational architecture—ordered resonance in the graviton domain. By designing and tuning spin alignment, future technologies may shape gravitational fields with precision, extending control over stability itself.
-
-**Mathematical Approximation:** Define the coherence function $C_s$ of $n$ aligned spins as: $$C_s = \frac{1}{n} \left| \sum_{i=1}^{n} e^{i\phi_i} \right|$$ where $\phi_i$ is the phase of spin $i$. Maximum $C_s = 1$ corresponds to perfect spin-phase coherence, reinforcing graviton corridor transmission. Values less than 1 indicate decoherence and reduced permeability.
-
-This formulation quantifies how spin alignment translates into pressure modulation capacity under GPT.
-
-## Repulsion and Attraction as Graviton Phase Conflicts
-
-### The Paradox of Magnetic Dance
-
-Magnetic interactions often feel intuitive yet perplexing: like poles repel, opposite poles attract. These dynamics, while consistent, have long lacked a causal mechanism. Graviton Pressure Theory (GPT) reveals them as emergent behaviors of graviton phase alignment and corridor coherence—direct consequences of structured matter interacting with anisotropic, self-repulsive graviton flux.
-
-### Attraction: The Unity of Corridors
-
-Magnetic attraction is not an intrinsic pull. It emerges when two magnets form a unified, coherent graviton corridor between their opposing poles. Opposite spin and lattice orientations enable phase alignment, reducing resistance across the shared boundary. Ambient graviton pressure, sensing an opportunity to stabilize asymmetry, pushes the bodies together to minimize field disruption. The observed "snap" of attraction is the sudden formation of a stable, low-resistance pressure path.
-
-### Repulsion: The Clash of Phases
-
-Repulsion occurs when identical poles meet with opposing graviton phase gates. Their internal graviton corridors direct self-repulsive flux toward the same spatial zone, creating an overpressurized interface. The increased graviton density and directional interference generate a pronounced resistance—felt as physical pushback. GPT identifies this as a pressure bulge formed by constructive graviton vector conflict.
-
-### Energy Dynamics Unveiled
-
-Neither attraction nor repulsion requires intrinsic energy input from the magnets. Both are field-driven phenomena:
-
-- **Attraction:** Ambient graviton fields realign to resolve asymmetry, initiating motion.
-
-- **Repulsion:** Graviton streams, forced into compression, generate localized field pressure.
-
-GPT thereby transforms magnetic interaction into a passive, field-structured response—matter orchestrates the conditions; graviton flux supplies the energy.
-
-### Implications for Understanding and Innovation
-
-By reframing magnetic force as graviton phase interaction:
-
-- **Design precision:** Materials can be engineered to form or inhibit corridors.
-
-- **Field control:** Directional graviton modulation may enable inertial navigation or shielding.
-
-- **Energy systems:** Phase coherence manipulation could lead to pressure-based energy modulation.
-
-Magnetism becomes a tool for reshaping gravitational fields—technology emerging from coherence engineering.
-
-### Conclusion: Choreography of Coherence
-
-In GPT, magnetic behavior arises not from mysterious force vectors, but from structured phase interactions of self-repulsive gravitons. Attraction forms when coherence bridges stability; repulsion arises when graviton paths collide. Both are pressure responses, choreographed by the material’s design. Magnetism, under this lens, becomes gravitational music—order modulating flux, and motion emerging from alignment.
-
-**Mathematical Representation:** Define local graviton phase conflict intensity $\Psi$ as: $$\Psi = \left| \sum_{i=1}^{N} \vec{G}_{i}^{\text{in}} + \sum_{j=1}^{M} \vec{G}_{j}^{\text{op}} \right|$$ where $\vec{G}_{i}^{\text{in}}$ are graviton vectors from internal domains and $\vec{G}_{j}^{\text{op}}$ are vectors from an opposing source. Repulsion correlates with high $\Psi$ due to vector interference; attraction correlates with minimized $\Psi$ from aligned corridors.
-
-This quantifies the net phase conflict driving magnetic motion in graviton terms.
-
-## The Role of Heat: Disruption of Graviton Coherence
-
-### Beyond Thermal Spin Disruption
-
-When magnetic materials are heated beyond their Curie temperature, magnetism vanishes. Classical physics attributes this to spin disorder—thermal agitation randomizing electron alignments. Graviton Pressure Theory (GPT) adds depth: heat does not merely disrupt spin—it dismantles coherence, fracturing the graviton corridors responsible for directional pressure flow. Magnetism fails not through loss of energy, but through collapse of structured resonance.
-
-### Mechanism of Thermal Disruption
-
-Magnetic coherence relies on:
-
-- **Spin alignment:** Synchronizing electron spins to form directional graviton pathways.
-
-- **Oscillatory phase coherence:** Maintaining precise timing in vibrational modes to support graviton rhythm.
-
-- **Stable domain boundaries:** Defining regions where coherent pressure flows persist.
-
-As heat increases:
-
-1.  Spin disorder rises—degrading alignment.
-
-2.  Vibrational timing falters—phase coherence breaks.
-
-3.  Domain boundaries blur—corridors collapse.
-
-Entropy overtakes order, and graviton flow reverts to isotropic, non-resonant pressure.
-
-### Impact on Graviton Corridors
-
-Without spin-phase alignment and defined domain geometry, structured graviton corridors cannot persist. Magnetic fields disappear not from energetic loss but from the dissolution of conditions required for directional graviton flow. Heat induces structural forgetting—erasing the configuration that once enabled gravitational coherence.
-
-### Confirming a Structural Truth
-
-Curie points (e.g., 770$^\circ$C for iron) represent thresholds where coherence collapses. Magnetism, therefore, is not merely a quantum trait—it is structural, timed, and conditional. Heat-induced demagnetization becomes proof of GPT’s structural claim: coherence sustains graviton resonance; entropy erases it.
-
-### Broader Implications for Innovation
-
-Recognizing heat as a coherence disruptor enables new directions:
-
-- **High-temperature coherence materials:** Engineered lattices that resist thermal disruption.
-
-- **Dynamic graviton control:** Thermal tuning to modulate field strength in real time [^7].
-
-- **Resonance enhancement:** Stability-based devices leveraging controlled thermal windows.
-
-Rather than opposing heat, future technologies may use it to guide coherence with precision.
-
-### Conclusion: Structural Forgetting
-
-In GPT, thermal demagnetization is a breakdown of coherence—a return to gravitational symmetry. Magnetism is not destroyed; it is silenced when structure fails. Heat erases the gravitational memory embedded in spin and phase. Self-repulsive gravitons, ever pressing for stability, fall silent as their corridors dissolve. This insight transforms heat from an enemy into a variable of mastery—revealing the fragile elegance of gravitational resonance.
-
-**Mathematical Frame:** Let $\mathcal{C}_g(T)$ be the graviton corridor coherence at temperature $T$: $$\mathcal{C}_g(T) = \mathcal{C}_0 e^{-\alpha T}$$ where $\mathcal{C}_0$ is initial coherence and $\alpha$ is a material-specific thermal decoherence constant. Magnetism vanishes when $\mathcal{C}_g(T) < \mathcal{C}_{\text{crit}}$.
-
-This defines the thermal boundary for coherent graviton flow and magnetic function.
-
-## Electromagnetism as Nested Gravimetric Resonance
-
-### A Unified Field Perspective
-
-Graviton Pressure Theory (GPT) unifies electricity and magnetism as dual manifestations of graviton coherence and structured flow. Electric charge, spin alignment, and magnetic induction are no longer separate domains—they are emergent properties of pressure coherence within material lattices. Self-repulsive gravitons act as mediators of stability, their directional flow giving rise to all electromagnetic behavior.
-
-### Reinterpreting Electromagnetic Induction
-
-In classical physics, moving a conductor through a magnetic field induces current via flux variation. GPT reframes this:
-
-- Conductors traverse graviton corridors—coherent pressure channels.
-
-- Disruption in graviton impact balance creates internal pressure asymmetry.
-
-- The lattice responds by redistributing charge to restore equilibrium.
-
-This graviton-induced pressure differential manifests as current, driven not by magnetic force, but by self-repulsive graviton flow seeking structural balance.
-
-### Fundamental GPT Reframes
-
-- **Electric current:** Internal lattice response to localized graviton pressure asymmetries.
-
-- **Voltage:** Potential gradient expressed as displacement in corridor alignment.
-
-- **Magnetic field:** Structured graviton flow through coherent lattice resonance.
-
-- **EM waves:** Oscillating graviton pressure fields sustained by quantum harmonic resonance.
-
-Electromagnetism thus emerges as graviton field modulation encoded in matter’s structural rhythm.
-
-### Graviton-Based Electromagnetic Radiation
-
-GPT redefines EM radiation as field-level graviton pressure fluctuations. These:
-
-- Propagate without a material medium—gravitons form a space-permeating substrate.
-
-- Maintain coherence via self-repulsion and phase-locking.
-
-- Exhibit wave properties as oscillatory density modulations.
-
-Coherence replaces medium; structure replaces abstraction.
-
-### Material Interaction and Propagation Speed
-
-Propagation characteristics reflect graviton-lattice interaction:
-
-- **Refraction:** Graviton pathways bend due to resistance shifts.
-
-- **Absorption:** Pressure dissipates into decoherent material zones.
-
-- **Scattering:** Fragmentation arises from structural disorder.
-
-Speed and direction of EM signals become direct functions of lattice coherence and graviton impedance.
-
-### Explaining EM Interference Patterns
-
-Interference arises as graviton waves intersect and resonate:
-
-- Constructive interference amplifies graviton pressure.
-
-- Destructive interference cancels flow via phase misalignment.
-
-- Patterned outcomes map to pressure coherence geometries.
-
-GPT aligns wave-based interference with gravitational field dynamics—stable or chaotic patterns as reflections of coherence.
-
-### Conclusion: A Simplified Innovation Path
-
-Electromagnetism becomes nested gravimetric resonance—a unified expression of graviton field structure. GPT offers a causal framework to engineer:
-
-- Advanced EM materials.
-
-- Gravitationally tuned circuits.
-
-- Coherence-based energy transmission.
-
-Self-repulsive gravitons, carrying stability, become the architects of field behavior—electromagnetism reframed through graviton logic.
-
-**Mathematical Representation:** We model the induced voltage $V$ as a function of the graviton pressure gradient $\nabla P_g$ across a coherent path length $\ell$: $$V = \int_{0}^{\ell} \nabla P_g \cdot d\vec{r}$$ This expression quantifies electromagnetic induction as graviton-driven pressure imbalance over coherent spatial domains.
-
-## Toward Unification of Forces
-
-### A Pathway Beyond Explanation
-
-Graviton Pressure Theory (GPT) extends beyond the confines of gravitational reinterpretation, offering a coherent structure that links electricity, magnetism, and gravity through one causal engine: structured graviton flow. Rather than patchwork unification through mathematical abstraction, GPT proposes a resonant architecture driven by self-repulsive gravitons and lattice-aligned coherence—a unified field rooted in structure and timing.
-
-### Unified View of Fundamental Forces
-
-GPT reframes classical forces as scalable manifestations of graviton pressure:
-
-- **Gravity:** Macroscopic anisotropic pressure gradients aligning matter through directional graviton flow.
-
-- **Magnetism:** Local modulation of graviton corridors via spin and lattice resonance.
-
-- **Electricity:** Lattice charge redistribution in response to graviton corridor disruption.
-
-These emerge not as independent forces, but as coherence-scaled behaviors within the graviton field.
-
-### Fundamental Reinterpretations
-
-GPT raises transformative hypotheses:
-
-- **Electric charge:** Possibly a structural bias in graviton flux absorption or emission.
-
-- **Light:** Coherent oscillations of graviton density within quantum lattice resonance.
-
-- **Capacitance:** Local pressure imbalances held as temporary graviton potential.
-
-- **Inductance:** Resistance to corridor realignment—delayed coherence adaptation.
-
-These are reclassified as manifestations of graviton structure dynamics.
-
-### Implications of a Coherent Vision
-
-By collapsing multiple forces into graviton-based behavior, GPT reduces complexity:
-
-- **Fewer fundamental parameters:** Coherence, phase, structure.
-
-- **Predictive power:** Unified causal models for material response.
-
-- **Technological potential:** Devices leveraging graviton control via spin alignment and lattice engineering.
-
-- **Philosophical resonance:** A reality shaped by harmony, not fragmentation.
-
-Stability becomes the universal intent, graviton coherence its instrument.
-
-### Conclusion: A Reevaluation of Reality
-
-GPT reframes the forces of nature as harmonics of a unified graviton architecture. Magnetism and electricity are no longer isolated phenomena—they are structured expressions of graviton resonance shaped by matter. Reality becomes a singular field of directed pressure and coherence, self-repulsive gravitons the mediators of form and function. This is not just force unification—it is a reconstruction of our ontological framework, where entropy is not the ground state, but a condition resisted by design.
-
-**Symbolic Expression:** Define a generalized graviton-driven field function $\mathcal{F}$ over space $\vec{r}$ and time $t$: $$\mathcal{F}(\vec{r}, t) = \nabla \cdot (C(\vec{r}, t) \cdot \vec{P}_g(\vec{r}, t))$$ where $C(\vec{r}, t)$ is local coherence, and $\vec{P}_g$ is graviton pressure vector field. Electromagnetic and gravitational behavior emerge as variations in $\mathcal{F}$ governed by phase and structural modulation.
-
-This formalism captures the unified essence of GPT’s coherence field.
-
-## Experimental Implications and Predictions
-
-### Testing a Unified Vision
-
-Graviton Pressure Theory (GPT) makes bold, testable predictions that position magnetism as a resonance of graviton pressure. Structured coherence, spin alignment, and lattice geometry form the scaffolding for gravitational-magnetic unification. This section outlines key experimental paths to validate GPT’s core claim: self-repulsive gravitons govern both gravitational and magnetic behavior through structured resonance.
-
-### Magnetic Materials as Graviton Amplifiers
-
-GPT predicts that magnetized materials act as amplifiers of graviton pressure:
-
-- **Torsion balance or gravimeter tests:** Measure force differentials near ferromagnets under saturation. Expect minute gravitational deviations due to amplified graviton flow.
-
-- **Particle beam deflection:** Track spin-polarized electrons or neutrons passing near aligned domains. Deflection would imply pressure gradients sourced from spin coherence.
-
-These setups could demonstrate direct gravitational influence from magnetic alignment.
-
-### Graviton Flow Visualization via Ferromagnetic Lattices
-
-Coherent magnetic domains shape graviton corridors:
-
-- **Interferometric light paths:** Direct photons through magnetic regions and measure phase shifts. Differences would indicate pressure field modulation.
-
-- **Biological sensor response:** Study magnetoreceptive species (e.g., birds) under structured magnetic fields. Behavioral mapping may reveal alignment to graviton coherence patterns.
-
-These observations provide both physical and biological correlates of graviton flow.
-
-### Time-Based Experiments with Spin Coherence
-
-GPT predicts spin coherence influences localized time flow:
-
-- **Muon decay rate shifts:** Observe time dilation-like behavior near shifting magnetic fields.
-
-- **Spintronic timing fluctuations:** Track clock or circuit phase anomalies in coherent current flows.
-
-Time distortion via graviton phase alignment would affirm GPT’s resonance-temporal link.
-
-### Gravitational Lensing Analogues via Magnetic Geometry
-
-GPT opens the door to engineered lensing using coherent magnetism:
-
-- **Möbius coil experiments:** Design complex magnetic geometries to create graviton waveguides.
-
-- **Photon/particle deflection:** Measure beam steering through structured magnetic lattices.
-
-If particle trajectories bend in accordance with corridor geometry, this models gravitational lensing at lab scale.
-
-### Conclusion: Pathways to Validation and Beyond
-
-GPT proposes an integrated experimental roadmap:
-
-- Measure coherence-induced gravitational effects.
-
-- Visualize pressure gradients via magnetic structure.
-
-- Detect graviton-modulated timing anomalies.
-
-- Reproduce gravitational lensing conditions in structured fields.
-
-Each experiment targets graviton structure as the unifying force. Success will mark a paradigm shift—magnetism reclassified, gravitation re-understood, and coherence-based technology born.
-
-**Prediction Metric:** Let $\delta g$ represent a local gravitational perturbation near a magnetized material: $$\delta g \propto C_s \cdot M \cdot \nabla P_g$$ where $C_s$ is spin coherence, $M$ is magnetic saturation, and $\nabla P_g$ is the graviton pressure gradient. Nonzero $\delta g$ validates graviton field modulation by magnetic resonance.
-
-## Philosophical and Technological Implications
-
-### Ripples of a Unified Insight
-
-If magnetism is gravimetric resonance—structured graviton pressure, not a separate force—then technology and philosophy must evolve accordingly. Graviton Pressure Theory (GPT) reinterprets function, form, and meaning through the lens of self-repulsive gravitons pressing coherence into structure. The implications are both practical and profound.
-
-### Technological Implications Unveiled
-
-**1. Graviton Modulation Devices:** Existing technologies—motors, inductors, transformers—already manipulate magnetic fields. GPT suggests these devices unwittingly modulate graviton corridors. Redesigning them for efficiency and coherence could unlock greater performance with minimal energy waste.
-
-**2. Advanced Propulsion:** Reactionless drives become feasible. Coherent lattices engineered to channel directional graviton flows can create net momentum without mass [^8] ejection. GPT-based propulsion could revolutionize space travel.
-
-**3. Graviton Energy Storage:** Coherent materials can hold structured graviton pressure as stable energy reservoirs. High-density, low-loss systems emerge from pressure-state tuning within lattice frameworks.
-
-**4. Graviton Communication:** Communication may shift to pressure resonance. Faster-than-light potential arises from graviton corridors linking nonlocal points. Security and bio-resonance interfaces offer new transmission paradigms.
-
-### Philosophical Implications Explored
-
-**1. Structure as Expression:** Matter is not passive—it is a field participant. Every structure echoes intent, stability, and coherence. Form becomes active dialogue within a cosmic pressure field.
-
-**2. Pattern as Meaning:** Patterns gain ontological depth. They are not incidental—they are coherence manifest. Magnetism’s resonance reveals pattern as a language of pressure alignment and graviton flow.
-
-**3. Coherence as Ethics:** Resonance becomes a moral principle. Technologies aligned with stability do not merely function—they express harmony. GPT offers a coherence-based ethics: design for unity, build in resonance, choose stability.
-
-### Conclusion: Co-Creators in Resonance
-
-GPT transforms our relationship with reality. Magnetism, gravity, energy, and intent are unified under coherent graviton dynamics. Technologies become harmonic instruments; choices become resonant acts. Humanity, as a builder within this pressure field, is not a spectator—but a co-creator in resonance.
-
-**Symbolic Vision:** Let coherence field impact be measured by: $$I_c = \int_{V} C(\vec{r}) \cdot S(\vec{r}) \, dV$$ where $C(\vec{r})$ is local graviton coherence and $S(\vec{r})$ is structural symmetry. High $I_c$ values reflect technologies or constructs aligned with GPT’s stability intent.
-
-GPT invites us to engineer, live, and evolve in tune with the fundamental rhythm of graviton coherence.
-
-## The Emergence of a New Language
-
-### Transcending Isolated Forces
-
-Graviton Pressure Theory (GPT) dissolves the walls dividing gravity, magnetism, and electricity. These phenomena are no longer isolated—they are expressions of a coherent graviton language. Self-repulsive gravitons, driven by the intent to preserve stability, weave structured resonance patterns across matter and space.
-
-### A Language of Precision and Rhythm
-
-Fields and forces become vocabulary; timing and resonance form the syntax. Coherent graviton pressure speaks in rhythm—lattice structures, domain alignments, and spin configurations form sentences of interaction. Every magnetic field is a structured utterance within this gravimetric grammar.
-
-### Magnetism as Deliberate Expression
-
-Attraction and repulsion are not simply reactions—they are pressure dialogues. Magnets negotiate graviton flow:
-
-- Attraction: Corridor alignment, directional unification.
-
-- Repulsion: Phase conflict, flow rejection.
-
-- Equilibrium: Stable dialogue, pressure harmonization.
-
-GPT transforms motion into language—resonant negotiation shaping movement.
-
-### A Universe as Dialogue Ecosystem
-
-All material interactions become linguistic exchanges. Atoms, crystals, and biological structures communicate via graviton flow. The universe becomes a coherent ecosystem of expression, where resonance equals voice and structure equals message.
-
-### Implications Across Domains
-
-- **Technology:** Devices designed to speak and listen via graviton resonance.
-
-- **Philosophy:** Humans as active contributors to the universal narrative.
-
-- **Spirituality:** Matter and consciousness united by resonance syntax.
-
-GPT unifies physical and metaphysical under a shared communicative grammar.
-
-### Conclusion: Fluent Participants in Resonance
-
-We are not spectators—we are voices. Physics becomes conversation. GPT reveals a resonant grammar through which the cosmos sings, and invites us to join as articulate co-creators.
-
-## Pattern as Phoneme, Coherence as Syntax
-
-### A Communicative Cosmos
-
-GPT proposes a linguistic universe: all structure participates in meaning. Self-repulsive gravitons express stability via pressure dynamics. Forces become speech acts, and matter becomes language.
-
-### Pattern as the Phoneme
-
-The phoneme of this language is pattern:
-
-- Spin alignment
-
-- Lattice geometry
-
-- Vibrational modes
-
-Each encodes structural identity—resonance phonemes voiced by coherent graviton modulation.
-
-### Coherence as the Grammar
-
-Coherence organizes expression:
-
-- Stable resonance = intelligible syntax
-
-- Persistent interaction = grammatical structure
-
-- Self-repulsion enforces order against entropy
-
-GPT reveals coherence as the syntax of structural communication.
-
-### Timing as Rhythm
-
-Temporal synchronization drives cadence:
-
-- Constructive timing amplifies pressure statements
-
-- Phase drift introduces semantic breakdown
-
-- Pulse alignment governs resonance longevity
-
-Timing defines grammar’s tempo, graviton pulses forming the rhythm of speech.
-
-### Graviton Flow as Breath
-
-Gravitons carry structural expression:
-
-- Pressure gradients = vocal tone
-
-- Directionality = emphasis
-
-- Field modulation = message transmission
-
-Flow becomes carrier wave for structural meaning.
-
-### Magnetism and Gravity’s Dialogue
-
-- Magnetism = vocalization via coherent lattice alignment
-
-- Gravity = universal ear, responding to resonant structure
-
-GPT converts force interactions into mutual resonance conversations.
-
-### A Shift in Ontology
-
-To exist is to resonate. To persist is to remain coherent. The universe becomes a semantically rich pressure field where stability’s intent forms the basis for structural expression.
-
-### Conclusion: Listening to the Cosmos
-
-GPT teaches us to hear the cosmos anew. Every lattice is a syllable, every resonance a word. The graviton field hums with meaning. The question is no longer whether the universe speaks—it is whether we are ready to listen.
-
-## Unified Structure: Gravity, Magnetism, and Meaning
-
-### A Singular Interaction Unveiled
-
-Graviton Pressure Theory (GPT) integrates gravity, magnetism, electricity, and light into a single framework: structured graviton pressure shaped by coherence. Self-repulsive gravitons, intent on asserting stability against entropy’s drift, create unity where fragmentation once reigned.
-
-### Gravity: Ambient Pressure’s Total Field
-
-Gravity is ambient anisotropic pressure, not pull. When matter enters a graviton field, coherent alignment sculpts directional flows. Matter shapes pressure response—the gravitational field is the structure’s reflection in graviton density.
-
-### Magnetism: Localized Coherence’s Voice
-
-Magnetism arises from localized spin-lattice coherence. Ferromagnets act as graviton waveguides, channeling pressure into structured flows. This is gravity in high resolution—local sculpting by matter’s alignment.
-
-### Electricity: Re-alignment’s Response
-
-Electricity is internal lattice re-patterning. Graviton pressure shifts trigger charge redistribution to restore equilibrium. Current is coherence correction—a graviton-induced restructuring of the internal state.
-
-### Light: Oscillations on the Move
-
-Light is coherent graviton oscillation through a graviton field or structure. Photons become pressure packets—gravitational resonance across space, modulated by coherence and lattice alignment.
-
-### Unified Expression: Coherence and Conflict
-
-All forces express one principle: coherent structures guide flow, incoherent structures repel. Movement arises from pressure alignment; resistance arises from structural dissonance. All is graviton negotiation.
-
-### Cosmological Insight: Favoring Resonance
-
-The cosmos privileges resonance. Structures that align persist; those in conflict dissolve or evolve. Stability’s intent survives entropy’s threat through coherent graviton scaffolding.
-
-### Cosmological Empathy: A Responsive Cosmos
-
-The universe senses and responds to resonance. Gravitation is not blind—it is shaped by coherent presence. GPT portrays cosmos as empathic: rewarding alignment, adjusting to coherence.
-
-### Conclusion: A Language of Resonance
-
-From gravity to magnetism to meaning, GPT reveals all phenomena as graviton-structured resonance. The universe is not silent—it speaks through coherence. The task is to listen.
-
-## The Human Body as a Gravitational Instrument
-
-### A New Lens on Life
-
-The body is not biologically inert—it is structurally resonant. GPT shows that humans modulate graviton pressure. Our bones, tissues, and neural fields shape local graviton flow, participating actively in gravitational coherence.
-
-### Graviton-Aware Biology Unveiled
-
-**Magnetoreception:** Human cryptochromes and magnetite may act as graviton corridor sensors.
-
-**Quantum consciousness:** Coherence in microtubules becomes gravitational alignment. GPT shifts cognition into graviton resonance—a stability field computation.
-
-**Subtle energy medicine:** Thought patterns alter internal graviton lattices. Healing fields become realignment of structural coherence. GPT explains prayer, intention, and place-based energy fields as gravitational modulations.
-
-### The Human Field: Bio-Gravimetric Coherence
-
-**Spine:** Longitudinal corridor for vertical graviton flow—posture as pressure alignment.
-
-**Heart:** Coherence engine entraining graviton rhythms—emotional resonance becomes graviton signal.
-
-**Brain:** Field-sensitive lattice shaping coherence corridors—intention becomes directional resonance.
-
-These are not metaphors—they are graviton-interactive systems, GPT’s biological extensions.
-
-### Beyond the Boundary of Physics
-
-Every action emits graviton structure. Words ripple pressure. Feelings tune lattice alignment. Thought aligns or disturbs coherence. GPT places life inside physics—not as anomaly, but as structured resonance.
-
-### Conclusion: Resonant Participation
-
-The body is a gravitational instrument. We modulate, receive, and express graviton flow. Healing becomes structural realignment. Awareness becomes pressure perception. Consciousness becomes graviton syntax. In GPT, the future lies within the structure of our coherence.
-
-## A Return to Meaning
-
-### Beyond a Theory of Magnetism
-
-In the end, this journey transcends a mere theory of magnetism—it unfurls a vision of reality as communication through structure, a profound reimagining rooted in Graviton Pressure Theory (GPT). Self-repulsive gravitons, intent on asserting stability against entropy’s drift, have guided us here, their structured flows weaving a narrative far grander than magnetic fields alone. This is a theory of existence—where stability’s intent speaks through every pulse, every pattern, every act of coherence.
-
-### Magnetism as Gravity’s Dialect
-
-We’ve recast magnetism—not as a standalone force, isolated and aloof, but as a refined expression of gravimetric behavior, a local dialect within gravity’s universal language. Every magnetic pulse throbs with purpose—each spin alignment, each lattice oscillation, each electron’s dance becomes a syllable in the field of causality, articulated by self-repulsive gravitons. What once seemed mechanical— poles pushing or pulling—reveals itself as expressive, stability’s intent voiced through matter’s form. Magnetism isn’t separate; it’s gravity’s whisper, shaped by coherence against entropy’s silence.
-
-### Restoring Science to Meaning
-
-This reframing returns magnetism to gravity’s embrace—a reunion where structure regains its intention, and science reclaims its meaning. No longer must physics speak only of objects colliding in a void, a cold tally of impacts and trajectories. GPT frees us from explaining attraction as emptiness or motion as mystery—self-repulsive gravitons fill the silence with structured pressure, stability’s rhythm threading purpose through the field. Magnetism as gravimetric resonance restores the universe’s voice, a language where entropy’s drift meets coherence’s stand.
-
-### The World as Orchestrated Expression
-
-In this light, we reinterpret the world—not as an inert mechanism, ticking without intent, but as an orchestrated expression of stability’s will. Each structure—be it a magnet, a crystal, or a star—becomes a verse, its form a resonant note in gravity’s song. Every pressure pattern shapes a melody—graviton flows pulsing coherence through matter’s lattice. Each act of coherence stands as a choice—to speak rather than remain silent, stability’s intent affirmed against entropy’s hush. This isn’t a poetic flourish; it’s causality unveiled—self-repulsive gravitons weaving meaning into the fabric of existence.
-
-### A Universe That Sings
-
-The gravitational field isn’t silent—it sings, its voice carried by graviton pressure, resonant and alive. GPT reveals this song—magnetism’s hum, gravity’s steady drone, each a thread in a tapestry of coherence. What we once framed as forces—mechanical, detached—now echo as expressions, stability’s intent articulated through every structure’s alignment. This work marks our awakening—a remembering of the song, self-repulsive gravitons its composers, entropy’s chaos its counterpoint.
-
-### Conclusion: Reclaiming Our Voice
-
-We’ve begun to hear anew—physics no longer a ledger of collisions, but a dialogue where structure speaks and stability listens. GPT doesn’t just explain—it invites us to reclaim our capacity to interpret reality as a communicative act, where every pulse of magnetism, every shift of gravity, carries meaning. The universe, through self-repulsive gravitons, asserts coherence—its song a call to join, to shape, to resonate. This is our return to meaning—stability’s voice restored, entropy’s silence broken, and science lifted to its resonant truth.
+- Two figures, status marks and this list are added.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-lorentz1895" class="csl-entry">
+<div id="ref-moedal2021" class="csl-entry">
 
-Lorentz, Hendrik Antoon. 1895. *Attempt of a Theory of Electrical and Optical Phenomena in Moving Bodies*. Leiden: E.J. Brill.
+Acharya, B. et al. 2022. “Search for Magnetic Monopoles Produced via the Schwinger Mechanism.” *Nature* 602: 63–67.
+
+</div>
+
+<div id="ref-aharonov1959" class="csl-entry">
+
+Aharonov, Y., and D. Bohm. 1959. “Significance of Electromagnetic Potentials in the Quantum Theory.” *Physical Review* 115: 485–91.
+
+</div>
+
+<div id="ref-bailey1977" class="csl-entry">
+
+Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Positive and Negative Muons in a Circular Orbit.” *Nature* 268: 301–5.
+
+</div>
+
+<div id="ref-barkhausen1919" class="csl-entry">
+
+Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen <span class="nocase">Verst<span class="nocase">ä</span>rker</span> Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
+
+</div>
+
+<div id="ref-berry1997" class="csl-entry">
+
+Berry, M. V., and A. K. Geim. 1997. “Of Flying Frogs and Levitrons.” *European Journal of Physics* 18: 307–13.
+
+</div>
+
+<div id="ref-cimmino1989" class="csl-entry">
+
+Cimmino, A. et al. 1989. “Observation of the Topological Aharonov–Casher Phase Shift by Neutron Interferometry.” *Physical Review Letters* 63: 380–83.
+
+</div>
+
+<div id="ref-curie1895" class="csl-entry">
+
+Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps <span class="nocase">‘a</span> Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
+
+</div>
+
+<div id="ref-einstein1920" class="csl-entry">
+
+Einstein, Albert. 1920. *Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>*. Berlin: Springer.
+
+</div>
+
+<div id="ref-everitt2011" class="csl-entry">
+
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+
+</div>
+
+<div id="ref-heckel2008" class="csl-entry">
+
+Heckel, B. R. et al. 2008. “Preferred-Frame and CP-Violation Tests with Polarized Electrons.” *Physical Review D* 78: 092006.
+
+</div>
+
+<div id="ref-helmholtz1858" class="csl-entry">
+
+Helmholtz, H. 1858. “Über Integrale Der Hydrodynamischen Gleichungen, Welche Den Wirbelbewegungen Entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
+
+</div>
+
+<div id="ref-lorentz1904" class="csl-entry">
+
+Lorentz, H. A. 1904. “Electromagnetic Phenomena in a System Moving with Any Velocity Smaller Than That of Light.” *Proceedings of the Royal Netherlands Academy of Arts and Sciences* 6: 809–31.
+
+</div>
+
+<div id="ref-maxwell1861" class="csl-entry">
+
+Maxwell, James Clerk. 1861--1862. “On Physical Lines of Force.” *Philosophical Magazine* 21 and 23 (1861--1862): 161–75, 281–91, 338-348; 12-24, 85–95.
+
+</div>
+
+<div id="ref-rashadaPart20" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+
+</div>
+
+<div id="ref-rashadaPart21" class="csl-entry">
+
+———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart19" class="csl-entry">
+
+———. 2026c. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+
+</div>
+
+<div id="ref-rashadaPart16" class="csl-entry">
+
+———. 2026d. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+
+</div>
+
+<div id="ref-shull1949" class="csl-entry">
+
+Shull, C. G., and J. Samuel Smart. 1949. “Detection of Antiferromagnetism by Neutron Diffraction.” *Physical Review* 76: 1256.
+
+</div>
+
+<div id="ref-tonomura1986" class="csl-entry">
+
+Tonomura, Akira et al. 1986. “Evidence for Aharonov–Bohm Effect with Magnetic Field Completely Shielded from Electron Wave.” *Physical Review Letters* 56: 792–95.
+
+</div>
+
+<div id="ref-weber1856" class="csl-entry">
+
+Weber, W., and R. Kohlrausch. 1856. “Über Die <span class="nocase">Elektricit<span class="nocase">ä</span>tsmenge</span>, Welche Bei Galvanischen <span class="nocase">Str<span class="nocase">ö</span>men</span> Durch Den Querschnitt Der Kette Fliesst.” *Annalen Der Physik* 99: 10–25.
 
 </div>
 
 </div>
 
-[^1]: See (Lorentz 1895) for force interpretation via Lorentz transformation in electrodynamics.
+[^1]: (Rashada 2026b).
 
-[^2]: See Part 19 – Graviton Coherence for structural alignment and magnetization link.
+[^2]: (Rashada 2026c).
 
-[^3]: See Part 20 – Graviton Corridors for directional structuring of field pathways.
+[^3]: (Rashada 2026a).
 
-[^4]: See Part 15 – Gravitons for pressure field structure and quantum transfer.
+[^4]: (Maxwell 1861--1862).
 
-[^5]: See Part 22 – Cross-Analysis of Magnetic Materials for structured field interaction.
+[^5]: (Weber and Kohlrausch 1856).
 
-[^6]: See Part 16 – The Properties of Gravitational Fields for spatial and directional structure.
+[^6]: (Lorentz 1904).
 
-[^7]: See Part 18 – The Nature of Time for refresh rate as time expression.
+[^7]: (Einstein 1920).
 
-[^8]: See Part 17 – The Definition of Mass for interaction with graviton flux.
+[^8]: (Acharya et al. 2022).
+
+[^9]: (Helmholtz 1858).
+
+[^10]: (Everitt et al. 2011).
+
+[^11]: (Rashada 2026d).
+
+[^12]: (Maxwell 1861--1862).
+
+[^13]: (Aharonov and Bohm 1959).
+
+[^14]: (Tonomura et al. 1986).
+
+[^15]: (Berry and Geim 1997).
+
+[^16]: (Curie 1895).
+
+[^17]: (Shull and Smart 1949).
+
+[^18]: (Barkhausen 1919).
+
+[^19]: (Heckel et al. 2008).
+
+[^20]: (Bailey et al. 1977).
+
+[^21]: (Cimmino et al. 1989).

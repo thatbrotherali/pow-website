@@ -8,7 +8,7 @@ By Shareef Ali Rashada
 
 # Abstract
 
-Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is structured outflow, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.
+Modern physics predicts outcomes with extraordinary precision yet fails to provide causal mechanisms for inertia, momentum transfer in free fall, time dilation, charge persistence, or the stability of matter. The Equivalence Principle demands mechanical completeness, but General Relativity substitutes geometry for mechanism. This paper restores causality by identifying the vacuum as a pressurized, flowing medium — the graviton field — whose dynamics produce all observed phenomena. We derive inward flow from the Equivalence Principle and static radius constraint, show that weight is ram pressure, inertia is resistance to corridor reorientation, momentum is carved medium structure, time dilation is load-dependent cycle slowing, charge is stabilized directional bias, magnetism is the medium’s swirl, and light is coupled medium oscillations. The framework resolves dark matter and dark energy without placeholders. We present five causal criteria and show that GPT satisfies them where mainstream physics does not. Uncertainty is not fundamental — it is undersampling of a deterministic medium operating below measurement resolution.
 
 # How to Read This Paper
 
@@ -895,97 +895,33 @@ $$\mathbf{f} = -\nabla P_g$$
 
 This is not a new force law. It is the standard force density in any fluid: matter is pushed from high pressure to low pressure. The entire phenomenology of gravity will be derived from this single expression plus the flow dynamics of the medium.
 
-## On the Detection of Gravitons: They Are Already Measured
+## On the Detection of Gravitons: The Medium Is Already Measured
 
-A predictable objection: "If gravitons are real, why haven’t we detected them?"
+A predictable objection: “If gravitons are real, why haven’t we detected them?”
 
-The objection presumes we have not. That presumption is false.
+The objection presumes that the medium has not been measured. It has been, continuously, under other names. What has not been measured is a graviton in the mainstream sense, a quantum of a gravitational wave; GPT’s graviton is the constituent of the medium (Part 15), and the medium shows itself through its measured properties.
 
-**We have been detecting gravitons for centuries. We call the measurements magnetism.**
+### The Medium’s Measured Properties
 
-Let us be explicit.
+- **Its constants set the speed of light.** Empty space has two measured constants, $\varepsilon_0$ and $\mu_0$, and the speed of light is $c = 1/\sqrt{\varepsilon_0\mu_0}$. Weber and Kohlrausch measured the ratio of the electric units in 1856 and found $3.1\times10^{8}$ m/s before light was known to be electromagnetic.
 
-### Magnetometers Are Graviton Detectors
+- **It carries magnetism.** Maxwell derived his equations in 1861 from a medium of small rotating vortices, and obtained the speed of light from it. Physics later kept the equations and set the medium aside for economy, not because a measurement ruled it out; the medium and field readings make the same predictions because they use the same equations. In GPT a magnetic field is the medium’s swirl, organised by aligned or moving charge, and every magnetometer reading is a measurement of that swirl (Part 22).
 
-A magnetometer measures magnetic field strength. In GPT, a magnetic field is not an abstract entity. It is *coherent, structured graviton flow* channeled through materials with high Graviton Compatibility Index (GCI)—ferromagnets such as iron, nickel, and cobalt.
+- **It carries a measurable pressure.** A magnetic field presses across its lines and pulls along them with a stress of $B^2/2\mu_0$, about four atmospheres at 1 tesla, measured in every motor and every plasma held in a magnetic cage.
 
-When a magnetometer registers a field, it is measuring:
+- **It circulates where no field is.** Electrons passing a fully shielded magnet have their interference shifted by the field enclosed (Aharonov and Bohm, 1959; Tonomura and colleagues, 1986). In GPT the medium outside the magnet is circulating, though not rotating (Part 22).
 
-- The density of gravitons flowing through the material
+- **It acts between uncharged plates.** The Casimir force (Section <a href="#subsec:casimir" data-reference-type="ref" data-reference="subsec:casimir">7.1</a>).
 
-- The directional coherence of that flow
+### What the Measurements Show, and What They Do Not
 
-- The pressure gradient produced by structured graviton flux
+Each of these is a measurement that the field reading records and the medium reading explains: the field reading names a quantity, the medium reading names what carries the measured pressure, energy and momentum. That is the claim, and it rests on mechanism, not on a new prediction.
 
-There is no separate "magnetic field" floating independently. There is only the graviton medium, organized by material coherence into directional flow.
+The measurements do not show that magnetism changes gravity or time. **\[Argued\]** Earlier versions of this paper predicted a gravitational perturbation near strong magnets, $\delta g \propto C_s M \nabla P_g$, and timing deviations in atomic clocks near magnetised domains. Both have been tested: torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity (Heckel and colleagues, 2008), and muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand (Bailey and colleagues, 1977). Both predictions are withdrawn. Magnetism and gravity are two modes of one medium, swirl and inflow: the swirl organises what is charged and spinning, while the inflow delivers the same total to every body by its energy (Part 15). Earlier versions also described magnetic materials by a “Graviton Compatibility Index”; it had no measured values and is withdrawn, and Part 22 gives what magnetism measurably requires: unpaired circulations, spacing that locks neighbours in parallel, and a temperature below the Curie point.
 
-### Why Mainstream Physics Missed This
+### Summary
 
-The reason is categorical, not experimental.
-
-Mainstream physics treats gravity and electromagnetism as separate fundamental forces. They have different equations, different coupling constants, different experimental traditions. No serious effort has been made to ask whether the same substrate could produce both under different coherence conditions—because the question was not considered legitimate.
-
-GPT asks that question. The answer is forced by the evidence:
-
-<div class="center">
-
-| **Observable**      | **Mainstream Interpretation** | **GPT Interpretation**                                               |
-|:--------------------|:------------------------------|:---------------------------------------------------------------------|
-| Magnetic field      | Fundamental vector field      | Coherent, structured graviton flow                                   |
-| Hysteresis curve    | Domain alignment memory       | Graviton corridor retention under phase coherence                    |
-| Curie point         | Thermal spin randomization    | Coherence collapse threshold for graviton corridors                  |
-| Magnetic saturation | Maximum domain alignment      | Maximum graviton flux density through material                       |
-| Lorentz force       | Charge moving through B-field | Momentum transfer from structured graviton flow to charged particles |
-
-</div>
-
-Each mainstream interpretation is a *description* of what happens. Each GPT interpretation is a *mechanism* for *why* it happens.
-
-### Historical Data as Graviton Evidence
-
-If magnetism is structured graviton flow, then every existing magnetic measurement is already graviton data.
-
-- Hysteresis curves chart graviton corridor stability and retention
-
-- Saturation thresholds measure maximum graviton flux density in a given material
-
-- Domain wall propagation maps local graviton pressure gradients
-
-- Curie temperature identifies the coherence threshold for graviton flow
-
-No new experiments are required to confirm that gravitons exist. They are already confirmed. The only thing missing was the *recognition* that magnetic measurements are graviton measurements.
-
-### Why Gravitons Are Not "Too Weak to Detect"
-
-The standard perturbative quantum gravity argument—that gravitons are too weakly interacting to detect—assumes gravitons are *rare* and *point-like* mediators of a fundamental force.
-
-GPT makes no such assumption. Gravitons are not rare. They are the *constituents of the medium itself*. The ambient graviton density $\rho_0 \approx 10^{-26} \, \text{kg/m}^3$ is small but nonzero. More importantly, when gravitons are *coherently structured* by magnetic materials, their collective effect is easily measurable.
-
-A single diffuse graviton transfers negligible momentum. But a *coherent stream* of aligned gravitons—focused by a ferromagnetic lattice—transfers momentum sufficient to move a compass needle, align magnetic domains, or induce current in a conductor.
-
-This is not a violation of known physics. It is the same principle by which a laser (coherent photons) cuts steel while a light bulb (incoherent photons) does not. The carrier is the same. The *coherence* is different.
-
-### Experimental Predictions for Graviton Detection
-
-GPT makes specific, testable predictions that distinguish it from mainstream interpretations:
-
-1.  **Gravitational perturbation near magnets:** A precision gravimeter placed near a strong magnet (e.g., neodymium) should detect a minute but reproducible gravitational anomaly $\delta g \propto C_s \cdot M \cdot \nabla P_g$, where $C_s$ is spin coherence and $M$ is magnetization.
-
-2.  **Time dilation near coherent structures:** Atomic clocks placed near coherently aligned magnetic domains should show measurable timing deviations correlated with magnetization state.
-
-3.  **Corridor collapse timing:** The decay of magnetic remanence after demagnetization should follow a coherence decay function $\mathcal{C}_g(t) = \mathcal{C}_0 e^{-t/\tau}$, with $\tau$ dependent on lattice purity and thermal environment.
-
-These predictions are not philosophical. They are experimental handles.
-
-### Summary: Detection Is Not the Problem
-
-The claim that gravitons are undetected is a category error. They have been detected continuously for two centuries. We simply labeled the phenomenon "magnetism" and stopped asking what magnetic field lines are *made of*.
-
-GPT answers that question: they are made of structured graviton flow.
-
-The burden of proof has shifted. The skeptic must now explain: if magnetic fields are *not* structured graviton flow, what *are* they? What physical substance composes them? What carries their momentum? What produces their pressure?
-
-Mainstream physics has no answer to these questions. It has only the description: "a magnetic field is a vector field." That is not a mechanism. That is a placeholder.
+The medium is not undetected. Its constants set the speed of light, its swirl is what magnetometers read, its stress is felt between magnets, and its circulation shifts electrons that never touch a field. What the medium reading claims is mechanism for measurements already made; where it has predicted new effects of magnetism on gravity or time, those have been tested and found null.
 
 ## How GPT Differs from Other Approaches
 
@@ -4948,7 +4884,7 @@ The baseline vacuum background pressure far from mass sinks is denoted as $P_0 \
 
 ## Derived Engineering Quantities
 
-1.  **Coherence Resistance ($C_{\text{res}}$):** Measures an atomic lattice’s impedance to coherent graviton flow\[cite: 5\]. It quantifies the pressure drop required to maintain structural alignment\[cite: 5\]: $$C_{\text{res}} = \frac{\Delta P_g}{\Phi_{\text{flux}}} \quad \left[\frac{\text{gp}}{\text{m}^3/\text{s}}\right]$$ High $C_{\text{res}}$ materials (e.g., dense ferromagnets) produce steep local pressure gradients and high GCI (Graviton Compatibility Index) values\[cite: 1, 5\].
+1.  **Coherence Resistance ($C_{\text{res}}$):** Measures an atomic lattice’s impedance to coherent graviton flow\[cite: 5\]. It quantifies the pressure drop required to maintain structural alignment\[cite: 5\]: $$C_{\text{res}} = \frac{\Delta P_g}{\Phi_{\text{flux}}} \quad \left[\frac{\text{gp}}{\text{m}^3/\text{s}}\right]$$ No measured values of $C_{\text{res}}$ exist. The total delivery of the medium to a body is fixed by its energy whatever its structure (Part 15); a structural quantity of this kind could describe only where inside a body the delivery lands (Part 21). The earlier “Graviton Compatibility Index” is withdrawn.
 
 2.  **Graviton Torque ($T_{gp}$):** The rotational shear stress induced on a spinning or non-uniform mass by anisotropic graviton inflow\[cite: 5\]: $$T_{gp} = \vec{r} \times (-V_{\text{eff}}\nabla P_g) \quad [\text{N} \cdot \text{m} = \text{gp} \cdot \text{m}^3]$$ This governs spin-orbit resonance locking, tidal synchronization, and gyroscopic corridor retention\[cite: 1, 5\].
 
