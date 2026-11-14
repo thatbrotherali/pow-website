@@ -268,11 +268,13 @@
   {
    "slug": "gpt-part-26",
    "title": "Planetary Mechanics",
-   "subtitle": "and Rotational Stability in Graviton Corridors",
-   "words": 5835,
-   "lead": "This paper reframes planetary motion and rotational stability through the lens of Graviton Pressure Theory (GPT), proposing a causal model grounded in field coherence and structured pressure dynamics. Traditional explanations—whether Newtonian or relativistic—describe planetary behavior as the result of inertia or spacetime curvature, but they fail to reveal the underlying mechanism of stability, order, and persistence. GPT introduces the concept of graviton corridors: quantized, directional flow structures in the graviton field that maintain orbital paths and rotational locks via tension gradients and phase coherence. Planets do not simply fall or drift—they are held within these corridors by quantized tension gradients, resonance locks, and feedback mechanisms between internal coherence and external field dynamics.",
-   "source": "Part 26 - Planetary Mechanics.tex",
-   "part": 26
+   "subtitle": "Orbits, Spin and Stability in a Flowing Medium",
+   "words": 4459,
+   "lead": "A planet coasts sideways through a medium flowing inward and accelerating toward the Sun. Its orbit closes because that acceleration weakens as the inverse square, and advances each orbit by 3π times the drop in the medium's pressure. Escape as the inflow run backward; spin reaching out; tides, locks and companions; systems that build their own structure; and one unexplained measurement near a spinning Earth.",
+   "source": "Part 26 - Planetary Mechanics (2nd ed.).tex",
+   "part": 26,
+   "path": "planetary-mechanics",
+   "pdf": true
   },
   {
    "slug": "gpt-part-27",

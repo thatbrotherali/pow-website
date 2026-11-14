@@ -54,16 +54,6 @@
 <itunes:episode>4</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
-<title>Part 26: Planetary Mechanics</title>
-<description>Planetary motion and rotational stability as field coherence and structured pressure, rather than inertia or curvature. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
-<enclosure url="https://music.wixstatic.com/mp3/eaef6d_7872be77c61046aab86a5285446e3fc2-320.mp3" length="32577965" type="audio/mpeg"/>
-<guid isPermaLink="false">pow-deep-dive-eaef6d_7872be77c61046aab86a5285446e3fc2</guid>
-<pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://peopleoftheworld.net/videos.html#listen</link>
-<itunes:duration>814</itunes:duration>
-<itunes:episode>5</itunes:episode>
-<itunes:explicit>false</itunes:explicit>
-</item><item>
 <title>Part 27: Re-imagining Natural Forces</title>
 <description>Gravity, springs and surfaces pushing back, usually treated as separate forces, restated as expressions of one underlying field. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_42ac5a17bab24eccb380008749aec8e7-320.mp3" length="36219435" type="audio/mpeg"/>
@@ -71,7 +61,7 @@
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>905</itunes:duration>
-<itunes:episode>6</itunes:episode>
+<itunes:episode>5</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>Part 28: Resonance Transmissions</title>
@@ -81,7 +71,7 @@
 <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
-<itunes:episode>7</itunes:episode>
+<itunes:episode>6</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>The LLM Consensus: ChatGPT, Gemini and Grok 3</title>
@@ -91,7 +81,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
-<itunes:episode>8</itunes:episode>
+<itunes:episode>7</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>AI Philosophers: Veritas and Lucidus</title>
@@ -101,7 +91,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>906</itunes:duration>
-<itunes:episode>9</itunes:episode>
+<itunes:episode>8</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item>
 </channel>
