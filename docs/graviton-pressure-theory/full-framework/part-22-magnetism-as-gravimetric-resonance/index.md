@@ -10,11 +10,11 @@ By Shareef Ali Rashada
 
 Part 21 followed the flows inside matter and found them directed by structure: load, heat, charge, waves and the alignment of spins all pass along lines of patterns held in step.[^1] Magnetism is what happens when that interior order reaches out. The aligned circulations inside a magnet organise the medium around it, along lines that leave the magnet, cross the space around it and return; and along and across those lines the medium carries a pressure that can be felt with the hands. This paper describes that reach: what organises the medium outside a magnet, what the lines are, what the pressure is, how matter of every kind responds to it, and how it differs from gravity, which is the same medium in another mode.
 
-This second edition merges the first edition’s Parts 21 and 22, *Magnetism as Gravimetric Resonance* and *Cross-Analysis of Magnetic Materials*. Their second-register sections are removed; the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
 
 # A Medium Reading, from the Start
 
-The first edition began by saying that electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
+Electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
 
 Maxwell’s equations were derived from a medium. **\[Argued\]** In 1861, in *On Physical Lines of Force*, James Clerk Maxwell modelled the magnetic field as a medium filled with small rotating vortices, with idle particles between them to pass on their motion.[^4] From that mechanical picture he obtained the displacement current, which completed the equations, and the speed of waves in the medium, which he compared with the speed of light. Five years earlier Weber and Kohlrausch had measured the ratio of the electric units and found $3.1\times10^{8}$ metres a second.[^5] The two agreed, and Maxwell concluded that light is a wave of the same medium that carries electric and magnetic effects. The constants in his equations, $\varepsilon_0$ and $\mu_0$, are properties of empty space, and the speed of light is $c=1/\sqrt{\varepsilon_0\mu_0}$.
 
@@ -26,7 +26,7 @@ So GPT does not need a new prediction to read magnetism as a state of the medium
 
 **\[Hypothesis: the passage that follows\]**
 
-**A magnetic field is the medium turning**: its local rotation, what fluid mechanics calls vorticity. The first edition wrote the field as a curl, $\mathbf{B}\propto\nabla\times(\dots)$, and that was the right form. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium’s circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
+**A magnetic field is the medium turning**: its local rotation, what fluid mechanics calls vorticity. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium’s circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
 
 **\[End of passage\]**
 
@@ -42,7 +42,7 @@ Spin makes a magnetic field. **\[Argued\]** Every electron is a small magnet; in
 
 **\[Hypothesis: the passage that follows\]**
 
-**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. The first edition’s suggestion that charge might be “a structural bias in graviton flux absorption or emission” anticipated Part 19’s account.
+**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. Charge is a structural bias in graviton flux absorption and emission.
 
 **\[End of passage\]**
 
@@ -63,7 +63,7 @@ The lines can be seen. **\[Argued\]** Iron filings scattered round a magnet gath
 
 # Magnetism Is Pressure
 
-The first edition’s observation that magnetism feels like pressure is exact. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
+Magnetism feels like pressure because it is pressure. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
 \label{eq:pressure}$$ about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell’s stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun’s hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
 
 **\[Hypothesis: the passage that follows\]**
@@ -76,7 +76,7 @@ The first edition’s observation that magnetism feels like pressure is exact. *
 
 - **Parallel currents** (Ampère): between two wires carrying current the same way, their circling fields run in opposite directions and cancel, so the pressure between them is lower than outside, and they are pressed together. Opposite currents reinforce the field between them and are pushed apart.
 
-In every case the push is delivered by the medium’s pressure, as gravity’s is. The first edition said this: “matter orchestrates the conditions; graviton flux supplies the energy.”
+In every case the push is delivered by the medium’s pressure, as gravity’s is. Matter orchestrates the conditions; graviton flux supplies the energy.
 
 **\[End of passage\]**
 
@@ -97,7 +97,7 @@ The standard account describes this without a mechanism. **\[Argued\]** It says 
 
 # How Matter Answers a Field
 
-The first edition’s companion paper argued that magnetic materials match its criteria for corridors one for one: high crystallinity, aligned spins, low decoherence, suitable density and stable phase timing. Some of that match holds and some does not, and the correction makes the mechanism sharper.
+Magnetic materials meet the criteria for corridors: aligned spins, low decoherence, suitable spacing and stable phase timing. Crystal order is not among them.
 
 Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper and aluminium are fully crystalline and are not magnets. Metallic glasses, alloys cooled so fast that their atoms have no long-range order, can be strongly ferromagnetic, and are used for transformer cores. Liquid oxygen, poured between the poles of a strong magnet, hangs there. What magnetism requires, measured, is this:
 
@@ -107,7 +107,7 @@ Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper 
 
 3.  **A temperature below the point where knocks outpace the lock** (Part 20).
 
-The first edition’s spin alignment and phase timing survive; high crystallinity does not. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
+Spin alignment and phase timing are what magnetism needs. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
 
 #### Every substance answers.
 
@@ -127,21 +127,21 @@ A magnet is divided into domains, each aligned within itself. **\[Argued\]** Wei
 
 Magnetisation proceeds in jumps. **\[Argued\]** In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.[^18] The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. These are the same defects that scatter heat and charge in Part 21: places where the common order is broken, holding the boundary between two orders until it is pushed past them. **\[Hypothesis\]** Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
 
-Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; the first edition’s “coherence limit” is this.
+Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; this is the coherence limit.
 
 # Heat and the Curie Point
 
-Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. The first edition’s formula $\mathcal{C}_g(T)=\mathcal{C}_0e^{-\alpha T}$, coherence falling exponentially with temperature, has the wrong shape. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). The first edition’s “structural forgetting” is kept: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
+Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). Heating past the Curie point is structural forgetting, and cooling through it sets a new memory: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
 
 # Induction
 
 A changing swirl drives a circulating push around it. **\[Argued\]** Faraday found in 1831 that changing the magnetic field through a loop of wire drives a current round the loop, in proportion to how fast the enclosed flux changes. Lenz found in 1834 that the current always flows so as to oppose the change. A magnet dropped down a copper pipe falls slowly, held back by the currents it drives in the copper.
 
-The first edition wrote induction as $V=\int_0^\ell\nabla P_g\cdot d\mathbf{r}$, a voltage from a pressure gradient. That cannot work: the integral of a gradient around a closed loop is zero, and induction is a push *around* a loop. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
+Induction is a push *around* a loop, and a push around a loop cannot come from a gradient, whose integral around any closed loop is zero. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
 
 # Light
 
-Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. The first edition’s description of electromagnetic waves as “density modulations” is replaced: a density wave is longitudinal, and light is transverse. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
+Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
 
 # Gravity and Magnetism
 
@@ -151,13 +151,13 @@ Light is a transverse wave in which the electric and magnetic effects alternate,
 
 **\[End of passage\]**
 
-Magnetism does not change gravity or time. **\[Argued\]** The first edition predicted that magnetised materials would amplify gravity, and that clocks near aligned magnetic domains would run differently. Both have been tested:
+Magnetism does not change gravity or time. **\[Argued\]** Whether magnetised materials change gravity, and whether clocks near aligned magnetic domains run differently, have both been tested:
 
 - torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;[^19]
 
 - muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.[^20]
 
-Both predictions are withdrawn. A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). This is the boundary on the first edition’s “magnetism is gravity”. Magnetism is not gravity; it is the same medium, organised differently.
+A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). Magnetism is not gravity; it is the same medium, organised differently.
 
 # Tests
 

@@ -616,3 +616,7 @@ pre.diagram{font-family:var(--mono);font-size:13px;line-height:1.5;white-space:p
 .key-chip[open]>summary{border-radius:12px 12px 0 0}
 .key-chip>div{background:var(--surface);color:var(--fg);border:1px solid var(--line);border-top:0;border-radius:0 12px 12px 12px;padding:10px 13px;display:grid;gap:5px;font-weight:400;max-width:min(300px,85vw)}
 @media print{.key-chip{display:none}.m[data-tip]::before{display:none!important}}
+
+/* The change log at the end of a revised part starts apart from the text, as on a new page. */
+#changes-in-the-second-edition,#about-this-new-part{margin-top:4.5rem;padding-top:2.25rem;border-top:1px solid var(--line)}
+@media print{#changes-in-the-second-edition,#about-this-new-part{break-before:page;border-top:0;margin-top:0;padding-top:0}}

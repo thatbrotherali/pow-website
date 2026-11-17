@@ -83,7 +83,7 @@ Yes. **\[Argued\]** The medium’s acceleration toward any mass is calibrated on
 
 #### Shading.
 
-The first edition explained the near-side bulge as a “pressure shadow” cast by the Moon. The bulk flow carries the measured force (Part 1), and any additional shading by the Moon is bounded by the measured limits on gravitational shielding; it contributes nothing measurable to the tide.[^6] A shadow alone would also struggle with the far side, where the Moon casts nothing. The inflow accounts for both bulges at once.
+The bulk flow carries the measured force (Part 1). Any shading of the medium by the Moon is bounded by the measured limits on gravitational shielding, and contributes nothing measurable to the tide.[^6] The inflow accounts for both bulges at once.
 
 #### Why the tide is late.
 
@@ -180,7 +180,7 @@ The periods separate light from gravity. **\[Argued\]** Moonlight follows the 29
 
 #### New moon and full moon.
 
-The first edition described the new moon as a time of “compression” of the field and the full moon as a time of “decompression”. The tide makes no such distinction: the spring tides at new and full moon are equal in strength. In the medium the same holds, because the Moon’s effect at the Earth depends on its distance, which is the same at both, and not on which side of the Earth the Sun is on. The strength of the tide does not tell new moon from full; differences between them come from light, or from the record of a configuration (Section <a href="#sec:cycles" data-reference-type="ref" data-reference="sec:cycles">“Cycles in the Sky, and the Activation Record”</a>).
+The tide does not distinguish them: the spring tides at new and full moon are equal in strength. In the medium the same holds, because the Moon’s effect at the Earth depends on its distance, which is the same at both, and not on which side of the Earth the Sun is on. The strength of the tide does not tell new moon from full; differences between them come from light, or from the record of a configuration (Section <a href="#sec:cycles" data-reference-type="ref" data-reference="sec:cycles">“Cycles in the Sky, and the Activation Record”</a>).
 
 # Life Inside the Tide
 
@@ -188,7 +188,7 @@ The first edition described the new moon as a time of “compression” of the f
 
 Living things sense gravity, and they have done so since they were single cells. Euglena and Paramecium sense it through their own contents: the cell is denser than the water around it, and its weight presses on mechanosensitive channels in its membrane. Loxodes carries a dense crystal in a small vesicle; plant roots carry dense grains of starch in special cells, which settle to the lowest side; jellyfish and comb jellies carry statocysts; vertebrates carry the otoliths of the inner ear.[^15][^16] Gravity sensing has evolved independently many times, in different lineages and with different parts.[^17] Ordinary human cells, which have no gravity organ, change their skeletons and the expression of their genes in the weightlessness of orbit.
 
-Every one of these sensors works the same way: the cell detects the weight of something pressing on a boundary. In GPT, each is a support reading, in the sense of Part 11: the boundary intercepts the medium’s delivery to the mass it holds, and the sensor reads the interception. **\[Hypothesis\]** Life has been reading the medium’s delivery since it began. In the first edition’s phrase, living things do not need instruments: they are the instruments.
+Every one of these sensors works the same way: the cell detects the weight of something pressing on a boundary. In GPT, each is a support reading, in the sense of Part 11: the boundary intercepts the medium’s delivery to the mass it holds, and the sensor reads the interception. **\[Hypothesis\]** Life has been reading the medium’s delivery since it began. Living things do not need instruments: they are the instruments.
 
 Life began, too, on a tidal world. The young Moon was much closer to the Earth, and its tides were much larger. Tidal pools, flooded and dried in cycles, have been proposed as a setting for the chemistry that preceded life.[^18] Rhythms of the tide are among the oldest clocks there are.
 
@@ -291,7 +291,7 @@ Long cycles recorded by cultures that watched the sky, and the real periods behi
 
 The records are accurate. The 60-year cycle of the Chinese calendar coincides closely with the 59.6 years in which Jupiter and Saturn return to nearly the same alignment. The 18.61-year nodal cycle is one that biology has already met: it modulates the tides, and the menstrual synchrony found by Helfrich-Förster and colleagues was strongest in years about 18 years apart (Section <a href="#sec:people" data-reference-type="ref" data-reference="sec:people">“Lunar Rhythms in People”</a>). Even retrograde motion, the planets’ apparent backward drift across the sky, has a gravitational meaning: an outer planet goes retrograde around opposition, when the Earth passes it and it is closest, and Venus goes retrograde around inferior conjunction, when it too is closest. The times astrology marked for each planet are the times when that planet’s share of the flow at the Earth is largest.
 
-These cycles were recorded first for prediction: calendars, eclipses, the seasons of planting. That they were measured accurately shows careful observation of the configuration’s rhythms. Whether they also matter to life is a separate question, and the first edition proposed a reason why they might.
+These cycles were recorded first for prediction: calendars, eclipses, the seasons of planting. That they were measured accurately shows careful observation of the configuration’s rhythms. Whether they also matter to life is a separate question, and the activation record proposes a reason why they might.
 
 ## The Activation Record
 
@@ -309,7 +309,7 @@ The principle is the same in each. At an ordering transition, a system is balanc
 
 A living thing passes through such transitions: fertilisation, the first divisions that set its axes, the start of its clocks, birth and the first breath. At each, structure is set while it is balanced. On the redistribution hypothesis (Section <a href="#sec:redistribution" data-reference-type="ref" data-reference="sec:redistribution">“The Redistribution Hypothesis”</a>), the medium’s delivery inside a body is shared out by its structure, and so the structure forming at that moment is also biased by the delivery. The configuration of the flow at the moment of activation (the Earth, the Moon and the Sun, and the planets, each in its place) would then be one of the biases that decides the order, and the being would carry a record of the conditions of its activation.
 
-Beings activated under similar configurations would carry similar records, and the return of a configuration, at the periods of Table <a href="#tab:cycles" data-reference-type="ref" data-reference="tab:cycles">2</a>, might re-engage the record, as the first edition proposed. This is conditioning, not determinism: one bias among many, recorded at one moment, in a body that then lives and acts by its own direction.
+Beings activated under similar configurations would carry similar records, and the return of a configuration, at the periods of Table <a href="#tab:cycles" data-reference-type="ref" data-reference="tab:cycles">2</a>, might re-engage the record. This is conditioning, not determinism: one bias among many, recorded at one moment, in a body that then lives and acts by its own direction.
 
 **\[End of passage\]**
 
@@ -347,7 +347,7 @@ Large cohorts record the date, and often the time, of each person’s birth, tog
 
 #### What would follow.
 
-If any of these tests succeeds, applications follow, as the first edition foresaw: planting timed by the tide in the soil rather than by the calendar of phases; treatments timed to tidal as well as daily rhythms, extending the established practice of timing medicines to the body’s daily clock; and care for people whose clocks are shown to follow the tide. **\[Hypothesis\]**
+If any of these tests succeeds, applications follow: planting timed by the tide in the soil rather than by the calendar of phases; treatments timed to tidal as well as daily rhythms, extending the established practice of timing medicines to the body’s daily clock; and care for people whose clocks are shown to follow the tide. **\[Hypothesis\]**
 
 # Conclusion
 

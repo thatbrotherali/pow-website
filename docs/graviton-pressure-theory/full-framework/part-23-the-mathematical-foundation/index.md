@@ -49,7 +49,7 @@ The medium flows into a mass $M$ along radial lines, with a speed calibrated onc
 The medium accelerates as it flows in, and its acceleration is exactly Newton’s gravity: **\[Argued\]** $$\mathbf{a}_{\text{medium}} = (\mathbf{v}\cdot\nabla)\mathbf{v} = v_r\,\frac{dv_r}{dr}\,\hat{\mathbf{r}} = -\frac{GM}{r^2}\,\hat{\mathbf{r}}.
 \label{eq:accel}$$ Every body in the flow receives momentum from it in proportion to its own mass, at every particle at once (Part 7, Part 11), and so shares this acceleration: $$\mathbf{F} = m\,\mathbf{a}_{\text{medium}} = -\frac{GMm}{r^2}\,\hat{\mathbf{r}}.$$ Because the delivery is proportional to mass, every body falls alike, whatever it is made of; the MICROSCOPE mission found this true to about one part in $10^{15}$.[^3]
 
-The first edition wrote the force as $\mathbf{F} = -m\nabla P_g$. That expression has the wrong units (kilograms times pascals per metre is not a newton), and it cannot be repaired by a constant, because the pressure gradient acts on the medium, not on the body. The medium’s own equation of steady flow (Euler’s equation) gives the correct link: the medium’s acceleration is set by its pressure gradient and its own density, and bodies share that acceleration. $$(\mathbf{v}\cdot\nabla)\mathbf{v} = -\frac{\nabla P}{\rho_g}.
+The pressure gradient acts on the medium, not on the body. The medium’s own equation of steady flow (Euler’s equation) gives the link: the medium’s acceleration is set by its pressure gradient and its own density, and bodies share that acceleration. $$(\mathbf{v}\cdot\nabla)\mathbf{v} = -\frac{\nabla P}{\rho_g}.
 \label{eq:euler}$$
 
 # Pressure
@@ -132,7 +132,7 @@ Around a mass, the distance between two spherical shells, measured with rods hel
 Clocks slowed and rods squashed by the streaming, in a flat space through which the medium flows at Equation <a href="#eq:inflow" data-reference-type="eqref" data-reference="eq:inflow">[eq:inflow]</a>, are described together by one expression: **\[Argued\]** $$c^2 d\tau^2 = c^2 dt^2 - \left|\,d\mathbf{x} - \mathbf{v}\,dt\,\right|^2 .
 \label{eq:pg}$$ This is the Schwarzschild solution of General Relativity, in the form Painlevé and Gullstrand found in 1921 and 1922.[^12][^13] Every prediction General Relativity makes for a single non-rotating mass therefore follows from GPT unchanged. General Relativity reads Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a> as the geometry of spacetime; in GPT it is the record of what the streaming does to rods and clocks. The numbers are the same; the mechanism is named.
 
-The first edition’s form, in which rulers shrank equally in every direction, gave the wrong advance of Mercury’s perihelion (57$''$ per century instead of 43$''$). Squashing along the flow only gives the right one.
+Squashing along the flow only gives the measured advance of Mercury’s perihelion, 43$''$ per century; rulers shrinking equally in every direction would give 57$''$.
 
 # Light
 
@@ -151,11 +151,11 @@ Measured locally, by rods and clocks that are themselves in the medium, its spee
 
 - **Redshift**: a signal climbing from a lower to a higher clock is received by a faster clock, so it appears redder by $\Delta\Phi/c^2$, as in Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">“Clocks”</a>.
 
-In the language of refraction, the medium near a mass acts on light with an index $n \approx 1 + 2GM/c^2 r$. From Equation <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a>, that is $$n \approx 2 - \frac{P}{P_0}:$$ the lower the active pressure, the higher the index, and the slower light travels as measured from far away. The first edition had the sign reversed, with light slowing where the pressure was higher.
+In the language of refraction, the medium near a mass acts on light with an index $n \approx 1 + 2GM/c^2 r$. From Equation <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a>, that is $$n \approx 2 - \frac{P}{P_0}:$$ the lower the active pressure, the higher the index, and the slower light travels as measured from far away.
 
 #### No colour in the bending.
 
-Because light moves at $c$ through the medium whatever its frequency, the bending is the same for radio and for visible light. It is: radio and optical measurements agree to a few parts in a thousand, and radio interferometry fixes the bending to about one part in $10^4$. The first edition’s suggestion of colour-dependent lensing is withdrawn.
+Because light moves at $c$ through the medium whatever its frequency, the bending is the same for radio and for visible light. It is: radio and optical measurements agree to a few parts in a thousand, and radio interferometry fixes the bending to about one part in $10^4$.
 
 # Motion
 
@@ -197,7 +197,7 @@ What is measured fixes the form of these waves: **\[Argued\]**
 
 - **Energy carried.** The orbit of the binary pulsar PSR B1913+16 shrinks exactly as the energy carried away by gravitational waves requires: the measured rate is $0.9983 \pm 0.0016$ times the predicted one.[^22]
 
-How one medium carries two kinds of transverse wave, vector waves for light and tensor waves for gravity, at the same speed, is still owed. **\[Open\]** The elastic models of the luminiferous medium in the nineteenth century are the precedent to study. The first edition’s scalar wave equation for the pressure, with a speed that might exceed $c$, is withdrawn: it gives the wrong polarisation and the wrong speed.
+How one medium carries two kinds of transverse wave, vector waves for light and tensor waves for gravity, at the same speed, is still owed. **\[Open\]** The elastic models of the luminiferous medium in the nineteenth century are the precedent to study.
 
 # The Medium’s Scale
 
@@ -209,11 +209,11 @@ If matter absorbed the medium flowing into it and kept its energy as heat, the i
 
 - the Sun would absorb $3.4\times10^{15}$ watts, a hundred-billionth of its output.
 
-Both pass. The first edition’s higher values, $10^{10}$ to $10^{12}$ pascals in the first edition’s Part 19 (now Part 20) and $10^{-6}$ to $10^{-4}$ pascals in Part 25, are retired as the medium’s free-space pressure: the first would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. The $10^{10}$ to $10^{11}$ pascals of that part survives as a different quantity, the energy density of the bonds that hold matter together (iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre).
+Both pass. Pressures of $10^{10}$ pascals and more are not the medium’s free-space pressure: they would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. They are a different quantity, the energy density of the bonds that hold matter together: iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre (Part 20).
 
 The scale has a coincidence worth noting: $\tfrac12\rho_c c^2$, for the critical density of the universe, is $3.8\times10^{-10}$ pascals, and the pressure attributed to dark energy has a magnitude of $5.3\times10^{-10}$ pascals. **\[Hypothesis\]** In General Relativity the dark-energy pressure is negative, and the medium’s is positive; any link must come through a different route, the expansion of a self-repelling medium that is not confined, and must be derived (Part 14).
 
-The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>. The first edition’s inverse-square repulsion between gravitons is superseded by the phase account of Part 15: gravitons in phase push one another, and neutral ones do not, so the law cannot be one inverse square over all pairs.
+The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>. Gravitons in phase push one another (Part 15), and neutral ones do not, so the law cannot be one inverse square over all pairs.
 
 # The Relaxation Boundary
 
@@ -278,6 +278,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - Redshift as energy lost by light to the pressure of the medium is replaced by the slower clocks below.
 
 - The scalar wave equation for the pressure, with a speed that might exceed $c$, and the predicted dispersion, echoes and non-tensor waves, are withdrawn: the measured speed, polarisation and absence of dispersion rule them out.
+
+- Light slowing where the pressure is higher is reversed: the active pressure is lower toward a mass, and the index higher. Colour-dependent lensing is withdrawn: radio and visible light are bent alike. The medium’s free-space pressure of $10^{10}$–$10^{12}$ pascals (first-edition Part 19) and $10^{-6}$–$10^{-4}$ pascals (Part 25) is retired on the heat budget; $10^{10}$–$10^{11}$ pascals is identified as the energy density of binding. Inverse-square repulsion between gravitons is superseded by the phase account (Part 15).
 
 - The frame-dragging force $\mathbf{F} = m(\mathbf{v}_g\times\boldsymbol\omega)$ is replaced by the swirl of the inflow, which gives the measured rate.
 

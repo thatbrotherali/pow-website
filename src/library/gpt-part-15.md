@@ -150,11 +150,11 @@ If charge is a topological property of a pattern, like the number of twists in a
 
 # Weight, Order and Shells: What the Measurements Allow
 
-Several first-edition claims are restated here in the form the measurements allow. A claim is withdrawn only where it conflicts with a measurement of the outcome itself, which binds the whole mechanism however many parts it has. Where only part of the mechanism has been tested, the claim stays open, with the missing parts named.
+Order, weight and shells meet the measurements at several points. A measurement of the outcome itself binds the whole mechanism, however many parts it has; where only part of the mechanism has been tested, the question stays open, with the missing parts named.
 
 #### Coherence changes mass, through energy.
 
-Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. The direction matches the first edition’s: ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
+Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. Ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
 
 #### Weight and internal alignment.
 
@@ -176,25 +176,25 @@ These traits would mean nothing without a medium. In Newton’s gravity the fiel
 
 At any instant, a shell’s push on a body is small: **\[Argued\]** satellites orbit at every altitude, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. A shell’s effect is the slow sorting of bodies over long times, through their rhythms. The counterflow’s speed, and so the spacing of shells within the boundary, are still to be derived. **\[Open\]** Part 16 develops this.
 
-#### Withdrawn: in conflict with a measured outcome.
+#### What the measurements fix.
 
-- **Acceleration set by the material.** The first edition wrote $a = -\nabla P_g/\rho_{\text{imp}}$, with $\rho_{\text{imp}}$ the graviton impedance of the material. Every material falls alike, to $10^{-15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
+- **Every material is carried alike**, to one part in $10^{15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
 
-- **Gravitational repulsion between masses of ordinary matter.** All matter falls, and so does antimatter: antihydrogen falls downward at the rate expected.[^14]
+- **All matter is carried toward mass, antimatter included**: antihydrogen is carried downward at the rate expected.[^14]
 
-- **Gravitational waves as pressure waves.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations. They are transverse waves of the medium (Part 23).
+- **Gravitational waves are transverse waves of the medium.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations (Part 23).
 
-- **Gravitational and motional slowing that differs between kinds of clock.** Each clock’s own rate is set by its structure, as the first edition held: time is the rate of a structure’s internal refresh. But the factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
+- **Each clock’s own rate is set by its structure**: time is the rate of a structure’s internal refresh. The factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
 
-#### Superseded, and open: tested only in part.
+#### Open: tested only in part.
 
-- **The self-repulsion law.** The first edition wrote $\mathbf{F}_{\text{self}} = k_g(\mathbf{r}_1-\mathbf{r}_2)/|\mathbf{r}_1-\mathbf{r}_2|^3$. It is superseded by the phase account: in-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
+- **The self-repulsion law.** In-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
 
-- **Interference between structures.** The first edition let intersecting flows attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
+- **Interference between structures.** Intersecting flows may attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
 
 - **Order and the slowing of clocks.** Whether a change in a clock’s internal order (one crystal ordered and disordered, or a material above and below a transition) alters the factor by which the medium slows it has not been tested. **\[Open\]** It is listed in Part 29.
 
-- **Rotation curves from “coherent field saturation and corridor interference”.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>). Whether saturation is the same mechanism under another name has not been worked out. **\[Open\]**
+- **Rotation curves.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>). Whether coherent field saturation and corridor interference are the same mechanism under another name has not been worked out. **\[Open\]**
 
 # Energy
 
@@ -244,7 +244,7 @@ Each is a question with a definite answer, and in each the interface is named.
 | Shell               | A region where a regular pattern in the counterflow stands, or where the counterflows of several bodies meet and their rhythms lock. The relaxation boundary is the shell every mass has. |
 | Corridor            | Either a path along which delivery is redistributed inside ordered matter, or a line of a magnet’s swirl extended into the medium (Parts 21 and 22).                                      |
 | Tail                | The thin layer of organised medium around an atom, about 0.06 nm deep, whose overlap gives contact and bonds.                                                                             |
-| gp                  | The first edition’s name for the unit of the medium’s pressure. It is the pascal.                                                                                                         |
+| gp                  | The graviton-pressure unit; it is the pascal.                                                                                                                                             |
 
 Terms used throughout the framework.
 

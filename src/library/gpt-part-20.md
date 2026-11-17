@@ -8,9 +8,9 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. The first edition called such paths *graviton corridors*, and its central question was the right one: how does structure direct flow? Much of the answer has since been measured, often in the first edition’s own terms. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
+Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. Such paths are *graviton corridors*, and the central question is how structure directs flow. Much of the answer is measured. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
 
-The first edition’s engineering and second-register sections are removed; the list at the end says what was removed and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
+This is the second edition; the list at the end says what changed from the first and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
 
 # What Flows Inside Matter
 
@@ -36,15 +36,15 @@ The total of the first is fixed; its distribution may not be. **\[Argued\]** The
 
 # What a Corridor Is
 
-The first edition required three things of a corridor: *temporal synchronisation*, oscillations in step with the medium’s rhythm; *spin alignment*, particles locked in a common spin or phase; and *coherent phase delay*, timing held across boundaries. It added a fourth idea that turns out to be central: *“each moment of stable graviton flow through a corridor is refreshed by coherent disappearance and replenishment. The corridor does not merely transmit pressure; it perpetually recreates its channel.”*
+A corridor requires three things: *temporal synchronisation*, oscillations in step with the medium’s rhythm; *spin alignment*, particles locked in a common spin or phase; and *coherent phase delay*, timing held across boundaries. A fourth idea is central: *each moment of stable graviton flow through a corridor is refreshed by coherent intake and release. The corridor does not merely transmit pressure; it perpetually recreates its channel.*
 
 **\[Hypothesis: the passage that follows\]**
 
-**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The first edition’s refresh is the turnover, and its corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
+**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The refresh is the turnover, and a corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
 
 **\[End of passage\]**
 
-The first edition’s list of what breaks a corridor is the measured list of what scatters flow in matter: **\[Argued\]** heat (“noise drowns phase”), stress and deformation (“deformed symmetry births timing flaws”), disorder (“amorphous materials… disrupt phase continuity”), and disordered spins (“spin scatter”). The sections that follow give the measurements, flow by flow.
+What breaks a corridor is what scatters flow in matter: **\[Argued\]** heat, where noise drowns phase; stress and deformation, where deformed symmetry births timing flaws; disorder, where amorphous materials disrupt phase continuity; and spin scatter. The sections that follow give the measurements, flow by flow.
 
 # Load: The Normal Force as Momentum Passed On
 
@@ -64,7 +64,7 @@ Every part of this is measured.
 
 - **The surfaces touch at points.** Two flat metal surfaces pressed together touch over a very small fraction of the area they seem to share, as little as a ten-thousandth under light loads; the whole load passes through the tips of their roughness.[^10]
 
-These are corridors of load, measured. **\[Argued\]** The first edition’s claim that structure channels pressure is true of the load a body passes on, and the force chains are its plainest picture. They show that how a load is passed depends on the arrangement, not on the substance: identical discs carry it along a few paths or many, depending only on how they are packed.
+These are corridors of load, measured. **\[Argued\]** Structure channels the load a body passes on, and the force chains are its plainest picture. They show that how a load is passed depends on the arrangement, not on the substance: identical discs carry it along a few paths or many, depending only on how they are packed.
 
 # Heat and Charge: Transport Set by Order
 
@@ -73,7 +73,7 @@ These are corridors of load, measured. **\[Argued\]** The first edition’s clai
 <figcaption>How well materials carry heat, from ordered crystals to disordered glasses and plastics. Crystalline quartz and fused silica are the same substance, silicon dioxide, differing only in order. In metals such as copper most of the heat is carried by the electrons; in the others, by the lattice itself.</figcaption>
 </figure>
 
-Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig:heat" data-reference-type="ref" data-reference="fig:heat">1</a>). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it. The first edition ranked materials by an invented “compatibility index”: diamond 0.91, quartz 0.82, iron 0.74, glass 0.31. The numbers were invented, but the ranking is the measured ranking of how well they carry heat.
+Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig:heat" data-reference-type="ref" data-reference="fig:heat">1</a>). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -81,7 +81,7 @@ Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig
 
 **\[End of passage\]**
 
-Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^11] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. The first edition’s list of what breaks a corridor, heat, stress and disorder, is Matthiessen’s rule.
+Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^11] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. What breaks a corridor, heat, stress and disorder, is what Matthiessen’s rule measures.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -94,9 +94,9 @@ Heat and charge in a metal follow the same paths. **\[Argued\]** Wiedemann and F
 # Lattices and Waves
 
 A lattice redirects a wave only when its spacing matches the wave. **\[Argued\]** X-rays striking a crystal are reflected only at angles where the spacing $d$ of its planes and the wavelength $\lambda$ satisfy $$2d\sin\theta = n\lambda,
-\label{eq:bragg}$$ for a whole number $n$ (W. L. Bragg, 1913).[^13] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^14] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. The first edition’s “wavelength match” as a condition of resonance is this rule.
+\label{eq:bragg}$$ for a whole number $n$ (W. L. Bragg, 1913).[^13] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^14] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. Wavelength match as a condition of resonance is this rule.
 
-Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^15] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. The first edition’s lattice resonance, with its “filtering”, “focusing” and “redirection”, exists, measured, for light and sound. It does not exist for the total pull of gravity, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">“What Flows Inside Matter”</a>).
+Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^15] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. Lattice resonance, with its filtering, focusing and redirection, is measured for light and sound. It does not exist for the medium’s total delivery to a body, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">“What Flows Inside Matter”</a>).
 
 Particles fired along a crystal’s planes travel far deeper than particles fired at random angles. **\[Argued\]** The effect, called channelling, was predicted and measured in 1963.[^16] A charged particle entering between two planes of atoms is steered back toward the middle each time it approaches one, and travels down the open lane. These are corridors in the most literal sense: open lanes through a lattice along which a flow passes with little loss, and which close when the crystal is tilted away from them.
 
@@ -104,7 +104,7 @@ Particles fired along a crystal’s planes travel far deeper than particles fire
 
 A crystal yields one row at a time. **\[Argued\]** A perfect crystal sheared as a whole would need forces thousands of times larger than real metals need. In 1934 Taylor, Orowan and Polanyi independently proposed why: a crystal contains lines along which the arrangement is out of step, called dislocations, and it deforms by moving these lines, re-locking one row of atoms at a time.[^17] Dislocations were seen directly in 1956.[^18] Crystals grown nearly free of them, thin whiskers, approach the strength of the perfect lattice.[^19]
 
-In GPT a dislocation is a line where the common phase of the lattice is broken, **\[Hypothesis\]** and its movement is the lock passing from row to row. It explains the first edition’s “stress births timing flaws” in measured form. Hammering a metal multiplies its dislocations; they tangle and pin one another, so the metal becomes harder; and they scatter both heat and charge, so it carries both a little worse. Heating it lets the arrangement re-lock, annealing, and its softness and conductivity return. Grain boundaries, where crystals of different orientation meet, scatter in the same way, which is why a single crystal carries heat and charge better than the same metal made of many small grains.
+In GPT a dislocation is a line where the common phase of the lattice is broken, **\[Hypothesis\]** and its movement is the lock passing from row to row. Stress births timing flaws, in measured form. Hammering a metal multiplies its dislocations; they tangle and pin one another, so the metal becomes harder; and they scatter both heat and charge, so it carries both a little worse. Heating it lets the arrangement re-lock, annealing, and its softness and conductivity return. Grain boundaries, where crystals of different orientation meet, scatter in the same way, which is why a single crystal carries heat and charge better than the same metal made of many small grains.
 
 # Spin: Structure That Directs Flow
 
@@ -129,7 +129,7 @@ Spin alignment directs the flow of heat. **\[Argued\]** A disturbance of the ali
 
 **\[Hypothesis: the passage that follows\]**
 
-**The first edition’s account of spin directing the medium’s path, restated.** The first edition said that aligned spins “open directional corridors”, that spin sets “windows for graviton absorption or deflection”, and that aligned spins form “temporal phase-locks”, synchronising with the medium’s rhythm. In the present terms:
+**Spin directs the medium’s path.** Aligned spins open directional corridors; spin sets windows for graviton absorption or deflection; and aligned spins form temporal phase-locks, synchronising with the medium’s rhythm. In terms of patterns of the medium:
 
 - **The window is the turnover.** Each knot takes its share of the medium at a definite point in each turn of its circulation (Part 17), so what reaches a knot meets it either in step with that point or not.
 
@@ -149,7 +149,7 @@ Every flow in this paper whose paths are measured, load, heat, charge, waves and
 
 **\[End of passage\]**
 
-This is the core of the first edition’s corridor, kept with the constraint that measurement places on it. It predicts nothing for weight, and everything it predicts is inside:
+This is the core of the corridor, with the constraint that measurement places on it. It predicts nothing for weight, and everything it predicts is inside:
 
 - **Same substance, two orders.** Crystalline quartz and fused silica of equal mass weigh the same, to the limit of the best balances; GPT predicts no difference in the total. Whether their centres of gravity sit exactly at their centres of mass is untested.
 
@@ -157,7 +157,7 @@ This is the core of the first edition’s corridor, kept with the constraint tha
 
 - **One crystal, aligned and not.** The same test on a magnetic crystal above and below its Curie point asks whether the relay of spin directs the delivery.
 
-A null result in all of these would mean the through-flow is spread by structure no differently from the mass itself, **\[Argued\]** and the corridors of this paper would be corridors of load, heat, charge, waves and spin only. That would still be the first edition’s question answered: structure directs flow.
+A null result in all of these would mean the through-flow is spread by structure no differently from the mass itself, **\[Argued\]** and the corridors of this paper would be corridors of load, heat, charge, waves and spin only. That would still answer the central question: structure directs flow.
 
 # What Remains to Be Derived
 
@@ -204,6 +204,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - “Self-repulsive, massless gravitons”, “impedance” and “stability’s intent” are replaced by the terms of Parts 15 to 20.
 
 - “Coherence as Moral Geometry” and “Matter as Dialogue” are moved to the second register, beside Part 2.
+
+- The compatibility index (diamond 0.91, quartz 0.82, iron 0.74, glass 0.31) is removed: its numbers had no measured basis, and its ranking of quartz above iron is the reverse of how well they carry heat. “Refresh by disappearance and replenishment” is reworded as intake and release, since gravitons are conserved (Part 15).
 
 - Two figures, status marks and this list are added.
 

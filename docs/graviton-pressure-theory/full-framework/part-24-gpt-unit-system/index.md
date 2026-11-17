@@ -8,13 +8,13 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also restates the first edition’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what has since been measured.
+Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also gives GPT’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what is measured.
 
-This second edition merges the first edition’s Part 24, *GPT Unit System and Dimensional Foundations*, with the constants and conversions of its Part 25, *Constants, Conversions and Deep Field Formalism*. The deep field, matter and medium under extreme compression, receives a short section here; a fuller treatment is under consideration. The list at the end says what changed and why. Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. The deep field, matter and medium under extreme compression, receives a short section here. Claims are marked by their status, as the key shows.
 
 # One System of Units
 
-The first edition introduced the graviton pressure unit, *gp*, as momentum delivered per unit area per unit time, and noted that it is dimensionally the pascal. It is the pascal, **\[Argued\]** and this edition uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium’s pressure; a frequency in hertz is a structure’s rhythm; a speed of $c$ is the speed of the medium’s waves.
+The graviton pressure unit, *gp*, is momentum delivered per unit area per unit time. It is the pascal, **\[Argued\]** and this paper uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium’s pressure; a frequency in hertz is a structure’s rhythm; a speed of $c$ is the speed of the medium’s waves.
 
 The SI itself has been rebuilt on rhythm and on the medium’s wave speed. **\[Argued\]** Since 2019 every SI unit has been defined by fixing the values of seven constants:[^2]
 
@@ -51,9 +51,9 @@ The constants GPT uses. The first seven are measured or fixed by the SI. Of the 
 
 Three of these deserve comment.
 
-- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The first edition’s “graviton impedance”, which it gave in N s/m$^3$, has a mechanical counterpart from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
+- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The graviton impedance has a mechanical form from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
 
-- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23). The first edition’s estimate of $10^{-6}$ to $10^{-4}$ pascals is retired.
+- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23).
 
 - $G$ is the least precisely known constant of physics: **\[Argued\]** measurements by different methods disagree by more than their stated errors.[^6] The scatter is unexplained.
 
@@ -129,22 +129,22 @@ Every structure has a rhythm set by its energy, **\[Argued\]** $f=E/h$ (Part 18
 
 - the strontium optical clock, 429 terahertz, stable to about a part in $10^{18}$.
 
-The first edition’s “temporal resolution rate”, in s$^{-1}$, is this rhythm.
+This rhythm is the structure’s temporal resolution rate, in s$^{-1}$.
 
 # Stiffness: The Second Pressure
 
-The first edition defined a *coherence resistance*, $C_{\text{res}}$, as how well a structure resists compression, “analogous to elastic modulus”. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] The first edition’s $C_{\text{res}}$, with its units of pressure per volume, is replaced by these measured moduli.
+*Coherence resistance*, $C_{\text{res}}$, is how well a structure resists compression. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] $C_{\text{res}}$ is these measured moduli.
 
 # Spin and Orbit
 
-The first edition defined a graviton torque on a spinning body, $$T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
+A graviton torque acts on a spinning body, $$T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
 \label{eq:torque}$$ driving its spin $\Omega$ toward a preferred rate $\Omega_{\text{corr}}$. This is the form of the tidal torque, **\[Argued\]** with $\Omega_{\text{corr}}$ the orbital rate and $\gamma$ set by the friction inside the body as it is flexed by the tide. It drives a spin toward lock, and the Moon, which always shows the Earth the same face, has reached it. In GPT the tide is the difference in the medium’s inflow across the body, and the torque is delivered through the medium **\[Hypothesis\]** (Part 13).[^14]
 
-The first edition proposed that a body is locked when its spin and orbital angular momenta are equal, $\kappa = I\omega/mvr \approx 1$. The numbers do not bear this out as written: $\kappa$ is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. What decides whether a body locks is the time it takes, **\[Argued\]** which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.[^15] The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
+The coupling ratio of spin to orbital angular momentum, $\kappa = I\omega/mvr$, does not decide locking: it is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. What decides whether a body locks is the time it takes, **\[Argued\]** which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.[^15] The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
 
 # The Strong Field
 
-The first edition’s Part 25 proposed a “deep field” equation with a nonlinear term, $\nabla^2P_g + \alpha(\nabla P_g)^2 = -\rho_g$, for dense stars. No such term is needed for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
+The deep field needs no nonlinear term for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -178,7 +178,7 @@ The limits are measured. **\[Argued\]** No white dwarf has been found above abou
 
 # Conclusion
 
-GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium’s waves: the second is a count of a caesium atom’s rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium’s constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT’s own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT’s pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. The first edition’s derived quantities become measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
+GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium’s waves: the second is a count of a caesium atom’s rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium’s constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT’s own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT’s pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. GPT’s derived quantities are measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
 
 # Changes in the Second Edition
 
@@ -197,6 +197,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - Shell stratification by $\Delta gp$ is withdrawn as written: at any instant an orbit is possible at any radius; structure built over time is in Part 16.
 
 - New: a table of constants with how each is known, including the measured impedance of free space; a table of worked values from a GPS orbit to a black hole’s horizon, each with its measured check.
+
+- The free-space pressure estimate of $10^{-6}$ to $10^{-4}$ pascals is retired; $P_0\approx4.5\times10^{-10}$ pascals passes the heat budget (Part 23).
 
 - Coherence resistance is replaced by the measured bulk modulus and the energy density of bonds. The graviton torque is kept as the tidal torque. The lock criterion $\kappa\approx1$ is replaced by the time to lock. The temporal resolution rate is the rhythm $E/h$. The graviton impedance is identified with the medium’s impedance.
 

@@ -17721,7 +17721,7 @@ Yes. **\[Argued\]** The medium’s acceleration toward any mass is calibrated on
 
 #### Shading.
 
-The first edition explained the near-side bulge as a “pressure shadow” cast by the Moon. The bulk flow carries the measured force (Part 1), and any additional shading by the Moon is bounded by the measured limits on gravitational shielding; it contributes nothing measurable to the tide.[^6] A shadow alone would also struggle with the far side, where the Moon casts nothing. The inflow accounts for both bulges at once.
+The bulk flow carries the measured force (Part 1). Any shading of the medium by the Moon is bounded by the measured limits on gravitational shielding, and contributes nothing measurable to the tide.[^6] The inflow accounts for both bulges at once.
 
 #### Why the tide is late.
 
@@ -17818,7 +17818,7 @@ The periods separate light from gravity. **\[Argued\]** Moonlight follows the 29
 
 #### New moon and full moon.
 
-The first edition described the new moon as a time of “compression” of the field and the full moon as a time of “decompression”. The tide makes no such distinction: the spring tides at new and full moon are equal in strength. In the medium the same holds, because the Moon’s effect at the Earth depends on its distance, which is the same at both, and not on which side of the Earth the Sun is on. The strength of the tide does not tell new moon from full; differences between them come from light, or from the record of a configuration (Section <a href="#sec:cycles" data-reference-type="ref" data-reference="sec:cycles">“Cycles in the Sky, and the Activation Record”</a>).
+The tide does not distinguish them: the spring tides at new and full moon are equal in strength. In the medium the same holds, because the Moon’s effect at the Earth depends on its distance, which is the same at both, and not on which side of the Earth the Sun is on. The strength of the tide does not tell new moon from full; differences between them come from light, or from the record of a configuration (Section <a href="#sec:cycles" data-reference-type="ref" data-reference="sec:cycles">“Cycles in the Sky, and the Activation Record”</a>).
 
 # Life Inside the Tide
 
@@ -17826,7 +17826,7 @@ The first edition described the new moon as a time of “compression” of the f
 
 Living things sense gravity, and they have done so since they were single cells. Euglena and Paramecium sense it through their own contents: the cell is denser than the water around it, and its weight presses on mechanosensitive channels in its membrane. Loxodes carries a dense crystal in a small vesicle; plant roots carry dense grains of starch in special cells, which settle to the lowest side; jellyfish and comb jellies carry statocysts; vertebrates carry the otoliths of the inner ear.[^15][^16] Gravity sensing has evolved independently many times, in different lineages and with different parts.[^17] Ordinary human cells, which have no gravity organ, change their skeletons and the expression of their genes in the weightlessness of orbit.
 
-Every one of these sensors works the same way: the cell detects the weight of something pressing on a boundary. In GPT, each is a support reading, in the sense of Part 11: the boundary intercepts the medium’s delivery to the mass it holds, and the sensor reads the interception. **\[Hypothesis\]** Life has been reading the medium’s delivery since it began. In the first edition’s phrase, living things do not need instruments: they are the instruments.
+Every one of these sensors works the same way: the cell detects the weight of something pressing on a boundary. In GPT, each is a support reading, in the sense of Part 11: the boundary intercepts the medium’s delivery to the mass it holds, and the sensor reads the interception. **\[Hypothesis\]** Life has been reading the medium’s delivery since it began. Living things do not need instruments: they are the instruments.
 
 Life began, too, on a tidal world. The young Moon was much closer to the Earth, and its tides were much larger. Tidal pools, flooded and dried in cycles, have been proposed as a setting for the chemistry that preceded life.[^18] Rhythms of the tide are among the oldest clocks there are.
 
@@ -17929,7 +17929,7 @@ Long cycles recorded by cultures that watched the sky, and the real periods behi
 
 The records are accurate. The 60-year cycle of the Chinese calendar coincides closely with the 59.6 years in which Jupiter and Saturn return to nearly the same alignment. The 18.61-year nodal cycle is one that biology has already met: it modulates the tides, and the menstrual synchrony found by Helfrich-Förster and colleagues was strongest in years about 18 years apart (Section <a href="#sec:people" data-reference-type="ref" data-reference="sec:people">“Lunar Rhythms in People”</a>). Even retrograde motion, the planets’ apparent backward drift across the sky, has a gravitational meaning: an outer planet goes retrograde around opposition, when the Earth passes it and it is closest, and Venus goes retrograde around inferior conjunction, when it too is closest. The times astrology marked for each planet are the times when that planet’s share of the flow at the Earth is largest.
 
-These cycles were recorded first for prediction: calendars, eclipses, the seasons of planting. That they were measured accurately shows careful observation of the configuration’s rhythms. Whether they also matter to life is a separate question, and the first edition proposed a reason why they might.
+These cycles were recorded first for prediction: calendars, eclipses, the seasons of planting. That they were measured accurately shows careful observation of the configuration’s rhythms. Whether they also matter to life is a separate question, and the activation record proposes a reason why they might.
 
 ## The Activation Record
 
@@ -17947,7 +17947,7 @@ The principle is the same in each. At an ordering transition, a system is balanc
 
 A living thing passes through such transitions: fertilisation, the first divisions that set its axes, the start of its clocks, birth and the first breath. At each, structure is set while it is balanced. On the redistribution hypothesis (Section <a href="#sec:redistribution" data-reference-type="ref" data-reference="sec:redistribution">“The Redistribution Hypothesis”</a>), the medium’s delivery inside a body is shared out by its structure, and so the structure forming at that moment is also biased by the delivery. The configuration of the flow at the moment of activation (the Earth, the Moon and the Sun, and the planets, each in its place) would then be one of the biases that decides the order, and the being would carry a record of the conditions of its activation.
 
-Beings activated under similar configurations would carry similar records, and the return of a configuration, at the periods of Table <a href="#tab:cycles" data-reference-type="ref" data-reference="tab:cycles">2</a>, might re-engage the record, as the first edition proposed. This is conditioning, not determinism: one bias among many, recorded at one moment, in a body that then lives and acts by its own direction.
+Beings activated under similar configurations would carry similar records, and the return of a configuration, at the periods of Table <a href="#tab:cycles" data-reference-type="ref" data-reference="tab:cycles">2</a>, might re-engage the record. This is conditioning, not determinism: one bias among many, recorded at one moment, in a body that then lives and acts by its own direction.
 
 **\[End of passage\]**
 
@@ -17985,7 +17985,7 @@ Large cohorts record the date, and often the time, of each person’s birth, tog
 
 #### What would follow.
 
-If any of these tests succeeds, applications follow, as the first edition foresaw: planting timed by the tide in the soil rather than by the calendar of phases; treatments timed to tidal as well as daily rhythms, extending the established practice of timing medicines to the body’s daily clock; and care for people whose clocks are shown to follow the tide. **\[Hypothesis\]**
+If any of these tests succeeds, applications follow: planting timed by the tide in the soil rather than by the calendar of phases; treatments timed to tidal as well as daily rhythms, extending the established practice of timing medicines to the body’s daily clock; and care for people whose clocks are shown to follow the tide. **\[Hypothesis\]**
 
 # Conclusion
 
@@ -18820,11 +18820,11 @@ If charge is a topological property of a pattern, like the number of twists in a
 
 # Weight, Order and Shells: What the Measurements Allow
 
-Several first-edition claims are restated here in the form the measurements allow. A claim is withdrawn only where it conflicts with a measurement of the outcome itself, which binds the whole mechanism however many parts it has. Where only part of the mechanism has been tested, the claim stays open, with the missing parts named.
+Order, weight and shells meet the measurements at several points. A measurement of the outcome itself binds the whole mechanism, however many parts it has; where only part of the mechanism has been tested, the question stays open, with the missing parts named.
 
 #### Coherence changes mass, through energy.
 
-Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. The direction matches the first edition’s: ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
+Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. Ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
 
 #### Weight and internal alignment.
 
@@ -18846,25 +18846,25 @@ These traits would mean nothing without a medium. In Newton’s gravity the fiel
 
 At any instant, a shell’s push on a body is small: **\[Argued\]** satellites orbit at every altitude, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. A shell’s effect is the slow sorting of bodies over long times, through their rhythms. The counterflow’s speed, and so the spacing of shells within the boundary, are still to be derived. **\[Open\]** Part 16 develops this.
 
-#### Withdrawn: in conflict with a measured outcome.
+#### What the measurements fix.
 
-- **Acceleration set by the material.** The first edition wrote $a = -\nabla P_g/\rho_{\text{imp}}$, with $\rho_{\text{imp}}$ the graviton impedance of the material. Every material falls alike, to $10^{-15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
+- **Every material is carried alike**, to one part in $10^{15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
 
-- **Gravitational repulsion between masses of ordinary matter.** All matter falls, and so does antimatter: antihydrogen falls downward at the rate expected.[^14]
+- **All matter is carried toward mass, antimatter included**: antihydrogen is carried downward at the rate expected.[^14]
 
-- **Gravitational waves as pressure waves.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations. They are transverse waves of the medium (Part 23).
+- **Gravitational waves are transverse waves of the medium.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations (Part 23).
 
-- **Gravitational and motional slowing that differs between kinds of clock.** Each clock’s own rate is set by its structure, as the first edition held: time is the rate of a structure’s internal refresh. But the factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
+- **Each clock’s own rate is set by its structure**: time is the rate of a structure’s internal refresh. The factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
 
-#### Superseded, and open: tested only in part.
+#### Open: tested only in part.
 
-- **The self-repulsion law.** The first edition wrote $\mathbf{F}_{\text{self}} = k_g(\mathbf{r}_1-\mathbf{r}_2)/|\mathbf{r}_1-\mathbf{r}_2|^3$. It is superseded by the phase account: in-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
+- **The self-repulsion law.** In-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
 
-- **Interference between structures.** The first edition let intersecting flows attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
+- **Interference between structures.** Intersecting flows may attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
 
 - **Order and the slowing of clocks.** Whether a change in a clock’s internal order (one crystal ordered and disordered, or a material above and below a transition) alters the factor by which the medium slows it has not been tested. **\[Open\]** It is listed in Part 29.
 
-- **Rotation curves from “coherent field saturation and corridor interference”.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>). Whether saturation is the same mechanism under another name has not been worked out. **\[Open\]**
+- **Rotation curves.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>). Whether coherent field saturation and corridor interference are the same mechanism under another name has not been worked out. **\[Open\]**
 
 # Energy
 
@@ -18914,7 +18914,7 @@ Each is a question with a definite answer, and in each the interface is named.
 | Shell               | A region where a regular pattern in the counterflow stands, or where the counterflows of several bodies meet and their rhythms lock. The relaxation boundary is the shell every mass has. |
 | Corridor            | Either a path along which delivery is redistributed inside ordered matter, or a line of a magnet’s swirl extended into the medium (Parts 21 and 22).                                      |
 | Tail                | The thin layer of organised medium around an atom, about 0.06 nm deep, whose overlap gives contact and bonds.                                                                             |
-| gp                  | The first edition’s name for the unit of the medium’s pressure. It is the pascal.                                                                                                         |
+| gp                  | The graviton-pressure unit; it is the pascal.                                                                                                                                             |
 
 Terms used throughout the framework.
 
@@ -19118,7 +19118,7 @@ A mass takes in the medium. The inflow is the field: a drift of the medium towar
 
 #### Fed, not emitted.
 
-The first edition said that fields are not emitted but sculpted by intake, and that is kept. A field is not something a mass sends out, as a lamp sends light. It is the motion of the medium the mass sets up by taking it in. It lasts as long as the intake does, because the medium passing through is continually replaced, as a river’s shape lasts while its water changes.
+Fields are not emitted but sculpted by intake. A field is not something a mass sends out, as a lamp sends light. It is the motion of the medium the mass sets up by taking it in. It lasts as long as the intake does, because the medium passing through is continually replaced, as a river’s shape lasts while its water changes.
 
 #### A field changes at the speed of the medium’s waves.
 
@@ -19136,15 +19136,15 @@ Without mass, the medium is at rest. A mass sets up two flows:
 
 **\[End of passage\]**
 
-The first edition described this as gravitons that “fail to phase-lock” with the core being “rejected, vented, or redirected”. That is the counterflow. What changes in this edition is its account: the rejected medium is not lost, and it does not press; it leaves out of phase, and it carries the body’s pattern outward (Section <a href="#sec:shells" data-reference-type="ref" data-reference="sec:shells">“Pattern and Regularity: Shells”</a>).
+Gravitons that fail to phase-lock with the core are rejected, vented or redirected: that is the counterflow. The rejected medium is not lost, and it does not press; it leaves out of phase, and it carries the body’s pattern outward (Section <a href="#sec:shells" data-reference-type="ref" data-reference="sec:shells">“Pattern and Regularity: Shells”</a>).
 
 #### Integration at the core.
 
-The first edition also held that some of the inflow phase-locks and joins the core, so that mass is built from the medium. If matter is organised medium, accretion of this kind is how matter forms, and a body may retain a small part of what passes through it. **\[Hypothesis\]** The size is bounded. With the medium’s density at about $10^{-26}$ kilograms per cubic metre, the medium passing into the Earth at its surface is about $4\pi R^2 \rho_g v$, close to two kilograms a year. Whatever part of that the Earth keeps is far below anything that could be weighed. What fraction is kept, and how matter first forms from the medium, are owed (Part 17). **\[Open\]**
+Some of the inflow phase-locks and joins the core, so that mass is built from the medium. If matter is organised medium, accretion of this kind is how matter forms, and a body may retain a small part of what passes through it. **\[Hypothesis\]** The size is bounded. With the medium’s density at about $10^{-26}$ kilograms per cubic metre, the medium passing into the Earth at its surface is about $4\pi R^2 \rho_g v$, close to two kilograms a year. Whatever part of that the Earth keeps is far below anything that could be weighed. What fraction is kept, and how matter first forms from the medium, are owed (Part 17). **\[Open\]**
 
 #### Lateral shedding.
 
-A rotating body sheds its counterflow with the rotation in it. The first edition’s “lateral” redirection, inflow turned to tangential motion, is this: the ejecta leave a turning surface, and carry the turning outward (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
+A rotating body sheds its counterflow with the rotation in it. This is lateral redirection, inflow turned to tangential motion: the ejecta leave a turning surface, and carry the turning outward (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
 
 <figure id="fig:flows">
 <img src="assets/figures/fig16-1-flows.svg" />
@@ -19165,7 +19165,7 @@ In Newton’s gravity the field outside a uniform sphere is the same whether it 
 
 #### How a shell acts: phase filtering.
 
-The first edition described shells as phase filters: what arrives in step passes or is admitted, what arrives out of step is routed. This is phase decides push (Part 15) at the scale of a field. A body whose own rhythm is in step with a shell’s pattern is pressed in the same sense, turn after turn; one out of step is pressed now one way and now the other, and the effects cancel. **\[Hypothesis\]** That is how a shell can act strongly over long times while acting weakly at any instant.
+Shells are phase filters: what arrives in step passes or is admitted, what arrives out of step is routed. This is phase decides push (Part 15) at the scale of a field. A body whose own rhythm is in step with a shell’s pattern is pressed in the same sense, turn after turn; one out of step is pressed now one way and now the other, and the effects cancel. **\[Hypothesis\]** That is how a shell can act strongly over long times while acting weakly at any instant.
 
 #### Small at an instant, decisive over time.
 
@@ -19173,7 +19173,7 @@ At any instant, a shell’s push on a body is small. **\[Argued\]** Satellites o
 
 #### Shells as a record.
 
-The first edition called shells memory echoes of the core: records of its accretion, its rotation and its changes. A system’s present structure is the record of its history: of where bodies migrated, which rhythms they were caught by, and how long they have been held. **\[Hypothesis\]** This is the counterpart, for systems, of the activation record of Part 13: a pattern set at one time and carried forward.
+Shells are memory echoes of the core: records of its accretion, its rotation and its changes. A system’s present structure is the record of its history: of where bodies migrated, which rhythms they were caught by, and how long they have been held. **\[Hypothesis\]** This is the counterpart, for systems, of the activation record of Part 13: a pattern set at one time and carried forward.
 
 # The Relaxation Boundary
 
@@ -19185,7 +19185,7 @@ The counterflow spreads as it travels, and the ambient medium brings it back int
 
 For the Sun this is about 7,000 astronomical units, far beyond the planets and inside the Oort cloud. For the visible mass of the Milky Way it is about 8 to 11 kiloparsecs, near the Sun’s own distance from the centre. Beyond the boundary, gravity changes its form: **\[Argued\]** it falls more slowly than Newton’s law, and the orbital speeds of stars and gas in galaxies stay level instead of falling. Across 153 galaxies, the acceleration observed tracks the acceleration expected from visible matter alone along one curve, with the change at $a_0$.[^5]
 
-The first edition explained flat rotation curves as “nested shell coherence”. That survives in this form: the relaxation boundary is the shell every mass has, and the galaxy’s outer orbits lie beyond it. The law that governs gravity beyond the boundary, from which the observed curve must follow, is owed (Part 23). **\[Open\]** The boundary around the Sun can already be tested: pairs of stars thousands of astronomical units apart orbit slowly enough to probe it, and the analyses so far disagree.[^6][^7]
+Flat rotation curves come from nested shell coherence: the relaxation boundary is the shell every mass has, and the galaxy’s outer orbits lie beyond it. The law that governs gravity beyond the boundary, from which the observed curve must follow, is owed (Part 23). **\[Open\]** The boundary around the Sun can already be tested: pairs of stars thousands of astronomical units apart orbit slowly enough to probe it, and the analyses so far disagree.[^6][^7]
 
 # Rotation’s Reach
 
@@ -19289,11 +19289,11 @@ Where several bodies share a region, their effects combine through the medium’
 
 **\[End of passage\]**
 
-Combining by pressure gives Newton’s dynamics for many bodies exactly: **\[Argued\]** the orbits of the planets, the tides (Part 13), and the Lagrange points. The first edition described the Lagrange points as harmonic nodes where overlapping shells reach equilibrium. In the rotating frame of two bodies, they are the five points where the two accelerations and the turning of the frame balance; the medium supplies the accelerations, and the points follow.[^11] Where the counterflows of the bodies meet, their rhythms can lock, which is how the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>). The full rule for combining flows in strong fields, and the direction of the medium’s motion around many bodies, are owed (Part 23). **\[Open\]**
+Combining by pressure gives Newton’s dynamics for many bodies exactly: **\[Argued\]** the orbits of the planets, the tides (Part 13), and the Lagrange points. The Lagrange points are harmonic nodes where the flows of two bodies reach equilibrium. In the rotating frame of the two bodies, they are the five points where the two accelerations and the turning of the frame balance; the medium supplies the accelerations, and the points follow.[^11] Where the counterflows of the bodies meet, their rhythms can lock, which is how the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>). The full rule for combining flows in strong fields, and the direction of the medium’s motion around many bodies, are owed (Part 23). **\[Open\]**
 
 # Systems Built over Time
 
-The first edition held that fields interlock: they interpenetrate, modulate one another and entrain the motion within them; that moons lock into orbital chains and planets into harmonic spacing; that motion reinforces the structure it moves in. This is what astronomers observe, once time is allowed for. **\[Argued\]**
+Fields interlock: they interpenetrate, modulate one another and entrain the motion within them; that moons lock into orbital chains and planets into harmonic spacing; that motion reinforces the structure it moves in. This is what astronomers observe, once time is allowed for. **\[Argued\]**
 
 - **Gaps cleared at resonances.** The Kirkwood gaps in the asteroid belt lie where an asteroid would circle the Sun three times for each orbit of Jupiter, five times for every two, or twice for each one. The inner edge of the Cassini Division in Saturn’s rings lies where a ring particle would circle twice for each orbit of the moon Mimas. The Encke and Keeler gaps each contain the small moon that keeps them open, Pan and Daphnis.
 
@@ -19310,21 +19310,21 @@ The first edition held that fields interlock: they interpenetrate, modulate one 
 <figcaption>TRAPPIST-1’s seven planets, with the ratio of each neighbouring pair of orbital periods. Each is close to a ratio of small whole numbers: a chain of rhythms locked over time (Luger et al., 2017).</figcaption>
 </figure>
 
-In GPT, these are the shells of systems. Each body’s counterflow carries its rhythm; where rhythms are in step, the medium presses in the same sense, turn after turn, and over long times the bodies are caught and held. Motion reinforces the structure it moves in, as the first edition said: a body held in a resonance adds its own rhythm to it. **\[Hypothesis\]** The standard account calculates these same structures from the bodies’ combined accelerations, tidal friction and migration; GPT supplies what carries the forcing from one body to another, and why rhythm, not just distance, decides where bodies settle. **\[Argued\]**
+In GPT, these are the shells of systems. Each body’s counterflow carries its rhythm; where rhythms are in step, the medium presses in the same sense, turn after turn, and over long times the bodies are caught and held. Motion reinforces the structure it moves in: a body held in a resonance adds its own rhythm to it. **\[Hypothesis\]** The standard account calculates these same structures from the bodies’ combined accelerations, tidal friction and migration; GPT supplies what carries the forcing from one body to another, and why rhythm, not just distance, decides where bodies settle. **\[Argued\]**
 
 # Motion in the Field
 
-The first edition spoke of motion as granted by the field: bodies held in resonance by the shell they occupy, and inertia as resonance retention. The instinct is right in one respect: a body’s motion is a relation with the medium, not a property it has in isolation. **\[Hypothesis\]** A moving body takes in the medium faster at its leading face than at its trailing face; that imbalance is its momentum, and it costs nothing to keep (Part 23, Section 23.9). Motion continues because of the body’s relation to the medium, not in spite of it. **\[Argued\]**
+Motion is granted by the field in this sense: a body’s motion is a relation with the medium, not a property it has in isolation. **\[Hypothesis\]** A moving body takes in the medium faster at its leading face than at its trailing face; that imbalance is its momentum, and it costs nothing to keep (Part 23, Section 23.9). Motion continues because of the body’s relation to the medium, not in spite of it. **\[Argued\]**
 
-It continues without permission or payment. **\[Argued\]** Spacecraft coast between the planets for decades; the Voyager probes, launched in 1977, are still travelling outward. Satellites orbit at every altitude, and an orbit decays smoothly, at a rate set by atmospheric drag that rises and falls with the Sun’s activity. The first edition’s quantised orbits, its “snapback” at shell boundaries and its stepwise decay are withdrawn as instant effects. What survives is the slow version: capture into resonance over long times (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
+It continues without permission or payment. **\[Argued\]** Spacecraft coast between the planets for decades; the Voyager probes, launched in 1977, are still travelling outward. Satellites orbit at every altitude, and an orbit decays smoothly, at a rate set by atmospheric drag that rises and falls with the Sun’s activity. Shells do not act on an orbit at an instant; they act by capture into resonance over long times (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
 
 # Light in the Field
 
-Light crossing a field is bent because the medium flows, not because space is curved. **\[Argued\]** Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part 23). The first edition’s account, refraction rather than geometry, is kept. Its layers of different index are not: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$, and the delay of signals passing the Sun to about one part in $10^5$,[^19] so any layering of the index is far smaller than that.
+Light crossing a field is bent because the medium flows, not because space is curved. **\[Argued\]** Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part 23). It is refraction rather than geometry, and the index rises smoothly: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$, and the delay of signals passing the Sun to about one part in $10^5$.[^19]
 
 # Anomalies
 
-The first edition took deep-space anomalies as shell crossings. The Pioneer anomaly is resolved: **\[Argued\]** a small constant acceleration of the Pioneer 10 and 11 spacecraft toward the Sun, about $9\times10^{-10}$ metres per second squared, is accounted for by heat radiated unevenly from the spacecraft, modelled from their design and flight data.[^20] The flyby anomaly, small unexplained changes in the speed of some spacecraft swinging past the Earth, remains unexplained, **\[Open\]**[^21] and several later flybys showed none within their errors. It is not evidence for shells, but it is not yet explained.
+The Pioneer anomaly is resolved: **\[Argued\]** a small constant acceleration of the Pioneer 10 and 11 spacecraft toward the Sun, about $9\times10^{-10}$ metres per second squared, is accounted for by heat radiated unevenly from the spacecraft, modelled from their design and flight data.[^20] The flyby anomaly, small unexplained changes in the speed of some spacecraft swinging past the Earth, remains unexplained, **\[Open\]**[^21] and several later flybys showed none within their errors. It is not yet explained.
 
 # What Remains to Be Derived
 
@@ -19589,7 +19589,7 @@ Mass is measured more precisely than almost anything in physics. A body’s resi
 
 What mass *is* has no answer in the standard account. Newton defined it by the force needed to accelerate it; General Relativity makes it a source of spacetime curvature; the Standard Model gives each elementary particle a number for its coupling to a field that fills all space, measured and not derived. Each describes how mass behaves. None says what is there.
 
-GPT’s first edition defined mass as a structure’s resistance to the flow of the medium. That instinct is kept: mass is a relation between a pattern and the medium it is made of. **\[Hypothesis\]** This edition says what the pattern is, what the relation is, and why the measured facts follow.
+Mass is a structure’s resistance to the flow of the medium: mass is a relation between a pattern and the medium it is made of. **\[Hypothesis\]** This paper says what the pattern is, what the relation is, and why the measured facts follow.
 
 One principle guides it. The universe began hot and energetic, expanded and cooled, and everything in it came from that one beginning. So nothing can be made of anything else: each thing is a later phase or process of what came before, cooled energy settled into some form. The medium is the first such form; light is its travelling wave; matter is its knotted circulation; nuclei, atoms and everything after are made of the knots. “Fundamental” means earliest, not uncaused. How knots form, why they need three dimensions, and how they build nuclei and atoms is the subject of Part 19, *The Pathway to Matter*. This paper is about what confined energy does, and about its numbers.
 
@@ -19718,7 +19718,7 @@ Matter is kept in being by a cycle that runs through it and out into space (Figu
 <figcaption>The turnover. In-phase medium is pressed in; its pressing energy goes into the circulation of the body’s knots; it leaves neutral, carrying the knots’ phase and the energy as motion; far away it is re-phased and available to flow in again. (Hypothesis)</figcaption>
 </figure>
 
-The first edition said that mass is “not a frozen property”: that “each moment of graviton interaction reaffirms” it, and that mass is “the stabilized echo of resistance in a perpetually refreshed field”. It also said that gravitons are absorbed, depositing energy. Both are kept, and joined: the deposit is what keeps the pattern in being.
+Mass is not a frozen property. Each moment of graviton interaction reaffirms it: mass is the stabilised echo of resistance in a perpetually refreshed field. Gravitons are absorbed, depositing energy, and the deposit is what keeps the pattern in being.
 
 #### Where the energy goes.
 
@@ -19764,44 +19764,44 @@ Weight is the support’s relay of the push needed to keep the pattern from bein
 
 **\[End of passage\]**
 
-Inertial and passive gravitational mass agree for every material because both follow from what matter is: circulation of the medium. **\[Argued\]** Active mass agrees with them because the take per turn makes a body’s draw follow the same energy. The first edition held that inertia and gravity are “resistance within the graviton field”. What changes is what the resistance is: not a static impedance, but the circulation of the pattern and its turnover, whose size is the pattern’s energy.
+Inertial and passive gravitational mass agree for every material because both follow from what matter is: circulation of the medium. **\[Argued\]** Active mass agrees with them because the take per turn makes a body’s draw follow the same energy. Inertia and gravity are both resistance within the graviton field. The resistance is not a static impedance, but the circulation of the pattern and its turnover, whose size is the pattern’s energy.
 
 The exchange also gives inertia its measured shape at high speed. Along the motion a body resists further acceleration as $\gamma^3 m$, across it as $\gamma m$: the longitudinal and transverse masses of relativistic mechanics, confirmed in every particle accelerator.
 
 #### Motion is a relation with the medium.
 
-The first edition said there is no universal tendency to continue motion. That is withdrawn: spacecraft coast for decades. But the instinct behind it is kept. A body’s motion is not a property it has in isolation; it is its relation with the medium, and it continues because of that relation, not in spite of it.
+Spacecraft coast for decades. A body’s motion is not a property it has in isolation; it is its relation with the medium, and it continues because of that relation, not in spite of it.
 
 # What Changes a Body’s Mass
 
-The first edition listed what changes mass, and the direction of every change it gave is right. What it lacked was the size. In this edition each change has the size measurement requires: $\Delta E/c^2$, no more (Table <a href="#tab:changes" data-reference-type="ref" data-reference="tab:changes">2</a>).
+Every change in a body’s mass has a direction and a size, and the size is the one measurement requires: $\Delta E/c^2$, no more (Table <a href="#tab:changes" data-reference-type="ref" data-reference="tab:changes">2</a>).
 
 <div id="tab:changes">
 
-| **Change**       | **First edition** | **Measured**                                                                                                                                          |
-|:-----------------|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Heating          | Raises mass       | Raises it by $\Delta E/c^2$: $+4.7\times10^{-12}$ kg for a kilogram of water warmed by 100 degrees                                                    |
-| Binding          | Reduces mass      | Reduces it by the binding energy$/c^2$: 0.76% for helium                                                                                              |
-| Stress           | Raises mass       | Raises it by the stored elastic energy$/c^2$                                                                                                          |
-| Speed            | Raises resistance | Raises it as $\gamma$ (across) and $\gamma^3$ (along)                                                                                                 |
-| Melting          | Raises mass       | Raises it by the latent heat$/c^2$: $+3.7\times10^{-12}$ kg per kilogram of ice                                                                       |
-| Depth in a field | Raises resistance | Unchanged locally; seen from far away, a body lowered toward a mass has less energy, by $GMm/r$: $7\times10^{-10}$ of its mass at the Earth’s surface |
+| **Change**       | **Effect**                                     | **Size**                                                                                       |
+|:-----------------|:-----------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| Heating          | Raises mass                                    | $\Delta E/c^2$: $+4.7\times10^{-12}$ kg for a kilogram of water warmed by 100 degrees          |
+| Binding          | Reduces mass                                   | The binding energy$/c^2$: 0.76% for helium                                                     |
+| Stress           | Raises mass                                    | The stored elastic energy$/c^2$                                                                |
+| Speed            | Raises resistance                              | As $\gamma$ (across) and $\gamma^3$ (along)                                                    |
+| Melting          | Raises mass                                    | The latent heat$/c^2$: $+3.7\times10^{-12}$ kg per kilogram of ice                             |
+| Depth in a field | Unchanged locally; lower as seen from far away | $GMm/r$, the energy given up in lowering: $7\times10^{-10}$ of its mass at the Earth’s surface |
 
-What changes a body’s mass. The first edition’s directions are right except for depth in a field; the sizes are $\Delta E/c^2$.
+What changes a body’s mass, and by how much. Every size is $\Delta E/c^2$.
 
 </div>
 
 #### Coherence and structure.
 
-For materials as they are, mass tracks energy, binding included, to about one part in $10^{12}$, **\[Argued\]** because materials whose nuclei hold different fractions of binding energy fall alike to one part in $10^{15}$. A material’s order changes its mass by the energy the order holds, and no more. The first edition’s “equal matter, different mass” is restated: equal *energy*, equal mass; and the structure of a body decides where in it the medium’s delivery lands, not its total (Part 15).
+For materials as they are, mass tracks energy, binding included, to about one part in $10^{12}$, **\[Argued\]** because materials whose nuclei hold different fractions of binding energy fall alike to one part in $10^{15}$. A material’s order changes its mass by the energy the order holds, and no more. Equal *energy* means equal mass, and the structure of a body decides where in it the medium’s delivery lands, not its total (Part 15).
 
 #### Mass from surroundings: a real effect at another level.
 
-The first edition’s environmental mass has a true counterpart. An electron moving through a crystal responds to a push as if it had a different mass, because it moves in constant exchange with the lattice around it: in gallium arsenide about 0.067 of its free mass, and in some metals hundreds of times its free mass.[^17] The electron’s own mass does not change; its *effective* mass is set by its interaction with its surroundings. That is inertia arising from exchange with a surrounding medium, measured in the laboratory every day. **\[Argued\]** GPT proposes that a body’s own mass arises the same way, from its exchange with the medium of space.
+Mass set by surroundings is measured, at the level of electrons. An electron moving through a crystal responds to a push as if it had a different mass, because it moves in constant exchange with the lattice around it: in gallium arsenide about 0.067 of its free mass, and in some metals hundreds of times its free mass.[^17] The electron’s own mass does not change; its *effective* mass is set by its interaction with its surroundings. That is inertia arising from exchange with a surrounding medium, measured in the laboratory every day. **\[Argued\]** GPT proposes that a body’s own mass arises the same way, from its exchange with the medium of space.
 
 #### Changing mass beyond $\Delta E/c^2$.
 
-The first edition proposed mass-tuning devices. Changing mass by more than $\Delta E/c^2$ is not excluded by measurement in every form, but it is bounded: spinning rotors weigh normally.[^18] Whether a body changing its order weighs differently while it changes is open, and an experiment is under way to weigh the energy released when a material becomes superconducting. **\[Open\]**[^19] It is a test for Part 29.
+Changing mass by more than $\Delta E/c^2$ is not excluded by measurement in every form, but it is bounded: spinning rotors weigh normally.[^18] Whether a body changing its order weighs differently while it changes is open, and an experiment is under way to weigh the energy released when a material becomes superconducting. **\[Open\]**[^19] It is a test for Part 29.
 
 # Mass in Atoms, Nuclei and Stars
 
@@ -19869,7 +19869,7 @@ The three charged leptons satisfy Koide’s relation, $(m_e+m_\mu+m_\tau)/(\sqrt
 
 # Light, Neutrinos and the Massless
 
-Light is the medium’s travelling wave; matter is its confined circulation. **\[Hypothesis\]** A travelling wave has only a front: there is no back for it to deliver to, and no frame in which it is at rest. Its energy and momentum are related by $E = pc$, and its mass is zero. Matter has a front and a back, a frame in which it is at rest, and mass $E/c^2$. The first edition said photons are “fully aligned” with the flow and have “zero impedance”; that is restated: light is not confined.
+Light is the medium’s travelling wave; matter is its confined circulation. **\[Hypothesis\]** A travelling wave has only a front: there is no back for it to deliver to, and no frame in which it is at rest. Its energy and momentum are related by $E = pc$, and its mass is zero. Matter has a front and a back, a frame in which it is at rest, and mass $E/c^2$. Photons are fully aligned with the flow: light is not confined.
 
 Neutrinos have mass. **\[Argued\]** They change from one type to another as they travel, which they could not do without mass,[^20] and direct measurement puts the mass of the electron’s neutrino below about half an electronvolt, less than a millionth of the electron’s.[^21] The differences between the squares of the three masses, measured from the changes, are $7.4\times10^{-5}$ and $2.5\times10^{-3}$ eV$^2$, so the heaviest neutrino is at least 0.05 eV. What makes a neutrino’s pattern carry so little energy is open. **\[Open\]**
 
@@ -20129,7 +20129,7 @@ The graviton is in Part 15, the field in Part 16, mass in Part 17 and the equ
 
 Time is measured better than anything else in physics. The best clocks agree to one part in $10^{18}$, and they register the slowing of time between two heights a millimetre apart. Yet the standard account does not say what time is. Newton made it an absolute parameter, flowing uniformly whatever happens; General Relativity made it a coordinate of a curved spacetime, stretched by mass and by motion. Both describe how clocks behave. Neither says what ticks, or why every kind of clock is slowed alike.
 
-The first edition said this plainly: in both models “time is assumed rather than derived”, and they “describe effects but offer no structural origin”. Its answer is kept. Time is the rate at which a structure’s internal state is refreshed. **\[Hypothesis\]** This edition says what the refresh is, why its rate is set by the structure while its slowing is set by the medium, and why rhythm comes first in the order of things.
+In both models time is assumed rather than derived: they describe effects but offer no structural origin. Time is the rate at which a structure’s internal state is refreshed. **\[Hypothesis\]** This paper says what the refresh is, why its rate is set by the structure while its slowing is set by the medium, and why rhythm comes first in the order of things.
 
 # What Clocks Measure
 
@@ -20162,7 +20162,7 @@ Structure needs time in this sense before it can exist. **\[Hypothesis\]** A kno
 
 **\[Hypothesis: the passage that follows\]**
 
-A clock is a pattern of the medium, and its rate is the rate at which the pattern refreshes. In GPT the refresh is literal: with each turn of its circulation, a pattern takes in a fixed amount of the medium (Part 17). The first edition said that “each graviton-structure interaction induces a state update, equivalent to a discrete unit of temporal evolution”. That is the turnover, and its count is the clock.
+A clock is a pattern of the medium, and its rate is the rate at which the pattern refreshes. In GPT the refresh is literal: with each turn of its circulation, a pattern takes in a fixed amount of the medium (Part 17). Each graviton-structure interaction induces a state update, equivalent to a discrete unit of temporal evolution. That is the turnover, and its count is the clock.
 
 **\[End of passage\]**
 
@@ -20175,7 +20175,7 @@ A pattern’s rhythm is its energy divided by Planck’s constant. **\[Argued\]*
 
 #### Structure sets the rate.
 
-Every clock’s own rate is set by its structure. **\[Argued\]** A quartz watch runs at 32,768 cycles a second because of the size and stiffness of its crystal; a caesium clock at 9.19 billion because of the structure of the caesium atom. Change a clock’s order, temperature or stress, and its rate changes: the heat around an optical clock shifts it by parts in $10^{15}$, and clockmakers correct for it. The first edition’s claim that structure and coherence set a clock’s rate is kept, and is how every clock is built. Living rhythms are set by their structures too: a body’s daily clock keeps nearly the same period across a wide range of temperatures, by the design of its chemistry, and is brought into step with the Sun each morning by light.
+Every clock’s own rate is set by its structure. **\[Argued\]** A quartz watch runs at 32,768 cycles a second because of the size and stiffness of its crystal; a caesium clock at 9.19 billion because of the structure of the caesium atom. Change a clock’s order, temperature or stress, and its rate changes: the heat around an optical clock shifts it by parts in $10^{15}$, and clockmakers correct for it. That structure and coherence set a clock’s rate is how every clock is built. Living rhythms are set by their structures too: a body’s daily clock keeps nearly the same period across a wide range of temperatures, by the design of its chemistry, and is brought into step with the Sun each morning by light.
 
 # How Rhythms Come into Step
 
@@ -20186,7 +20186,7 @@ Rhythms that are coupled lock together. **\[Argued\]** In 1665 Huygens noticed t
 <figcaption>Two coupled rhythms. When the coupling is weaker than the difference between their natural rates, their phase difference slips round and round; when it is stronger, it settles to a fixed value and the two keep step.</figcaption>
 </figure>
 
-Locking is the mechanism GPT uses at every scale. **\[Hypothesis\]** A graviton entering a knot is drawn into step with the circulation (Part 17); an electron’s pattern locks into step around a nucleus (Part 19); bodies whose rhythms are in step are pressed the same way, turn after turn, and are caught into resonance (Part 16); the medium itself, cooling, locked into common order. What carries the coupling is always the medium, as the beam carried Huygens’s swings. The first edition said that systems synchronise when they share matching update rates, “independent of signal exchange”. That is restated: rhythms lock through what they share, and what all things share is the medium. **\[Argued\]**
+Locking is the mechanism GPT uses at every scale. **\[Hypothesis\]** A graviton entering a knot is drawn into step with the circulation (Part 17); an electron’s pattern locks into step around a nucleus (Part 19); bodies whose rhythms are in step are pressed the same way, turn after turn, and are caught into resonance (Part 16); the medium itself, cooling, locked into common order. What carries the coupling is always the medium, as the beam carried Huygens’s swings. Systems synchronise when they share matching update rates: rhythms lock through what they share, and what all things share is the medium. **\[Argued\]**
 
 # Why Every Clock Slows Alike
 
@@ -20197,7 +20197,7 @@ A clock’s cycle is carried by exchanges that cross its bonds at $c$ through th
 
 **\[End of passage\]**
 
-The first edition called this “refresh latency”: gravitational time dilation as “latency in graviton alignment”. The word is right. The latency is the lengthened round trip of every exchange in a pattern the medium streams through.
+This is refresh latency: gravitational time dilation is latency in graviton alignment. The latency is the lengthened round trip of every exchange in a pattern the medium streams through.
 
 #### Why every kind of clock agrees.
 
@@ -20205,11 +20205,11 @@ Every clock is a pattern of the same medium, kept by exchanges at the same speed
 
 #### Acceleration adds nothing.
 
-The first edition said acceleration increases impedance. That is withdrawn: muons accelerated at $10^{18}$ times the Earth’s gravity were slowed by their speed alone. In GPT that follows: the slowing depends on the speed of the medium through the clock, and acceleration changes the speed only gradually.
+Muons accelerated at $10^{18}$ times the Earth’s gravity were slowed by their speed alone. In GPT that follows: the slowing depends on the speed of the medium through the clock, and acceleration changes the speed only gradually.
 
 #### A clock’s own mass does not slow it.
 
-The first edition said that mass induces temporal drag. That is withdrawn: the slowing depends on where a clock is and how it moves, not on how massive it is. A clock’s own mass sets its own rhythm, which is faster, not slower, for a heavier pattern.
+The slowing depends on where a clock is and how it moves, not on how massive it is. A clock’s own mass sets its own rhythm, which is faster, not slower, for a heavier pattern.
 
 #### What is open.
 
@@ -20229,7 +20229,7 @@ Time in GPT has rates of return as well as rates of rhythm. Disturbed order come
 
 # Past, Present and Future
 
-The first edition described the past as “stabilised coherent pressure corridors”, the present as the “active refresh rate”, and the future as “resonant alignment potential”. In the terms of this edition: **\[Hypothesis\]**
+The past is stabilised coherent pressure corridors, the present is the active refresh rate, and the future is resonant alignment potential. In terms of patterns of the medium: **\[Hypothesis\]**
 
 - **The past persists as structure.** A crystal’s lattice, a planetary system’s resonances, the layers of rock, the sequence of a gene, the activation record set when a structure first formed (Part 13): each is the past held in the arrangement of the present. A system’s structure is the record of its history (Part 16).
 
@@ -20237,17 +20237,17 @@ The first edition described the past as “stabilised coherent pressure corridor
 
 - **The future is what present rhythms allow:** what can lock, what can form, and what will persist.
 
-Memory in a brain is held in the strength of connections between nerve cells, **\[Argued\]** changed by use; that is established. GPT’s activation record is a proposal about how structures record influences more generally, not a replacement for it. The first edition’s integral of “becoming”, $B = \int C\, dV$, is withdrawn: its quantity $C$ was never defined. Its claim that deterministic resonance replaces probability in quantum measurement is open (Part 12).
+Memory in a brain is held in the strength of connections between nerve cells, **\[Argued\]** changed by use; that is established. GPT’s activation record is a proposal about how structures record influences more generally, not a replacement for it. Whether deterministic resonance replaces probability in quantum measurement is open (Part 12).
 
 # The Direction of Time
 
-The equations of motion run equally well backward; the world does not. **\[Argued\]** The standard account locates the difference in the universe’s beginning: it started in a state of low entropy, and disorder has grown since. The first edition located it in “structured coherence against entropy”.
+The equations of motion run equally well backward; the world does not. **\[Argued\]** The standard account locates the difference in the universe’s beginning: it started in a state of low entropy, and disorder has grown since.
 
-GPT locates two arrows in the medium. **\[Hypothesis\]** The first is the cooling: the medium began hot and disordered and settled into order, and everything formed in that order in sequence, medium before light, light before knots, knots before atoms (Part 19). The second is in every particle: the turnover takes in-phase medium and sheds it neutral, never the reverse, and the neutral medium is re-phased only far away. Reversed, every particle would draw in neutral medium and emit pressing medium. Whether the turnover’s direction shows in anything beyond the small violations of time-symmetry measured in the decays of some particles is open. **\[Open\]**[^14]
+GPT locates it in structured coherence against entropy, and finds two arrows in the medium. **\[Hypothesis\]** The first is the cooling: the medium began hot and disordered and settled into order, and everything formed in that order in sequence, medium before light, light before knots, knots before atoms (Part 19). The second is in every particle: the turnover takes in-phase medium and sheds it neutral, never the reverse, and the neutral medium is re-phased only far away. Reversed, every particle would draw in neutral medium and emit pressing medium. Whether the turnover’s direction shows in anything beyond the small violations of time-symmetry measured in the decays of some particles is open. **\[Open\]**[^14]
 
 # Time as It Is Experienced
 
-The first edition held that coherence accelerates time as it is experienced: that in moments of threat, or in meditation, the refresh rate rises and time seems to slow. That was tested. **\[Argued\]** People falling 31 metres into a net, at the moment they most felt time slow, could read numbers flashed too fast to read at rest no better than at rest. What changes is memory: frightening moments are remembered in more detail, so they seem in retrospect to have lasted longer.[^15] Experienced time is set by the rhythms of the brain, which are structures, and by memory; it is not the rate of the body’s clocks, which every measurement finds the same. **\[Argued\]** The first edition’s devices for controlled time dilation, for enhancing cognition by coherence, and for neural “field chambers” are withdrawn as physics: every clock is slowed alike by the medium, and no material has changed that.
+Time seems to slow in moments of threat. Whether the body’s refresh rate rises at such moments has been tested. **\[Argued\]** People dropped 31 metres into a net, at the moment they most felt time slow, could read numbers flashed too fast to read at rest no better than at rest. What changes is memory: frightening moments are remembered in more detail, so they seem in retrospect to have lasted longer.[^15] Experienced time is set by the rhythms of the brain, which are structures, and by memory; it is not the rate of the body’s clocks, which every measurement finds the same. **\[Argued\]** Every clock is slowed alike by the medium, and no material has changed that.
 
 # What Remains to Be Derived
 
@@ -20862,7 +20862,7 @@ By Shareef Ali Rashada
 
 Part 19 said what the states of matter are: degrees of collective phase order among the knots of a body, from the fixed arrangement of a crystal to the shared phase of a superconductor.[^1] This paper is about the order and structure of matter, and above all how matter changes its order: how each level of order is held, what heat does to it, why some substances lose their order at one temperature and others over a range, with a definite exchange of energy, why it forms again on cooling and what it keeps when it does, and what each kind of order allows, from the stiffness of a solid to the flow of a liquid with no friction at all.
 
-Its central idea is the first edition’s, and it stands stronger now than when it was written: heat does not destroy structure by force; it destroys the timing that order requires. **\[Argued\]** Part 18 supplied the mechanism, rhythms locking through what they share, and Part 19 supplied what is locked, the phases of the knots.[^2] The graviton is in Part 15, the field in Part 16 and mass in Part 17.[^3][^4][^5] Claims are marked by their status, as the key shows.
+Its central idea: heat does not destroy structure by force; it destroys the timing that order requires. **\[Argued\]** Part 18 supplied the mechanism, rhythms locking through what they share, and Part 19 supplied what is locked, the phases of the knots.[^2] The graviton is in Part 15, the field in Part 16 and mass in Part 17.[^3][^4][^5] Claims are marked by their status, as the key shows.
 
 # Order Has Levels
 
@@ -20879,9 +20879,9 @@ Iron shows the whole ladder (Figure <a href="#fig:ladder" data-reference-type="
 <figcaption>The ladder of order, read upward: the energy per particle needed to undo each level, with the same energy as a temperature on the top scale. Each step costs more than the one beneath it, by factors from about two to a million. Heating removes the levels from the bottom of the figure upward; the cooling universe built them in the opposite order (Part 19).</figcaption>
 </figure>
 
-The ladder answers a question the first edition raised. **\[Argued\]** It said that “melting is not caused by bond dissociation, but by the structural collapse of graviton coherence”. The numbers agree. The energy of iron’s bonds, its cohesive energy, is 4.3 electronvolts an atom, about $5.8\times10^{10}$ joules in every cubic metre; melting takes 0.14 electronvolts an atom, about 3% of it. So melting removes the long-range arrangement of the atoms and leaves their bonds almost whole; it is boiling that breaks the bonds. A liquid is a solid that has lost its arrangement and kept its bonds.
+Melting is not caused by bond dissociation, but by the structural collapse of graviton coherence. **\[Argued\]** The numbers show it. The energy of iron’s bonds, its cohesive energy, is 4.3 electronvolts an atom, about $5.8\times10^{10}$ joules in every cubic metre; melting takes 0.14 electronvolts an atom, about 3% of it. So melting removes the long-range arrangement of the atoms and leaves their bonds almost whole; it is boiling that breaks the bonds. A liquid is a solid that has lost its arrangement and kept its bonds.
 
-The same reading corrects a gas. The first edition called a gas “fully decoherent”, with “all phase-aligned oscillation” lost. A gas has lost only the order *between* its atoms; every atom in it keeps all of its own internal order, its electron patterns locked around its nucleus, its nucleons bound, its knots intact. Coherence is nested, and a transition is the loss of one level of it. Some substances show the levels coming off one at a time. **\[Argued\]** A liquid crystal such as 8CB is a crystal below 21.5 $^\circ$C; above it, its rod-shaped molecules lose their fixed positions but stay in layers; above 33.5 $^\circ$C they lose the layers but still point the same way; above 40.5 $^\circ$C they lose that too and the substance is an ordinary liquid. Three transitions, each removing one kind of order and keeping the rest.
+The same reading applies to a gas. A gas has lost only the order *between* its atoms; every atom in it keeps all of its own internal order, its electron patterns locked around its nucleus, its nucleons bound, its knots intact. Coherence is nested, and a transition is the loss of one level of it. Some substances show the levels coming off one at a time. **\[Argued\]** A liquid crystal such as 8CB is a crystal below 21.5 $^\circ$C; above it, its rod-shaped molecules lose their fixed positions but stay in layers; above 33.5 $^\circ$C they lose the layers but still point the same way; above 40.5 $^\circ$C they lose that too and the substance is an ordinary liquid. Three transitions, each removing one kind of order and keeping the rest.
 
 # What Heat Is
 
@@ -20891,7 +20891,7 @@ Heat is energy delivered as disordered motion. **\[Argued\]** It reaches a body 
 
 - **By light.** Light is a transverse wave of the medium (Part 15). Its energy is taken up by the electron patterns, which shift into higher standing patterns and pass the energy to their neighbours as they settle, again as knocks.
 
-So heat acts on order through phase. **\[Hypothesis\]** The first edition said that heat is “not an energizer but a decoherence catalyst”. Measurement requires both readings at once. Heat is energy: ice takes in 334 kilojoules a kilogram to melt, and a body’s mass rises by the energy it holds divided by $c^2$, so a kilogram of iron melted is heavier by $2.8\times10^{-12}$ of its mass (Part 17). And what that energy does is disorder: it scatters the phases that order keeps aligned. The energy is how much is delivered; decoherence is what it does. **\[Argued\]** Temperature measures the average energy of the disordered motion, about $kT$ for each way a particle can move, where $k$ is Boltzmann’s constant. It is a measure of the knocking, not a separate cause.
+So heat acts on order through phase. **\[Hypothesis\]** Heat is a decoherence catalyst, and it is also energy: ice takes in 334 kilojoules a kilogram to melt, and a body’s mass rises by the energy it holds divided by $c^2$, so a kilogram of iron melted is heavier by $2.8\times10^{-12}$ of its mass (Part 17). And what that energy does is disorder: it scatters the phases that order keeps aligned. The energy is how much is delivered; decoherence is what it does. **\[Argued\]** Temperature measures the average energy of the disordered motion, about $kT$ for each way a particle can move, where $k$ is Boltzmann’s constant. It is a measure of the knocking, not a separate cause.
 
 # Locking against Knocks
 
@@ -20908,11 +20908,11 @@ This is a known piece of mathematics before it is a claim about matter. In 1975 
 <figcaption>A model of locking against knocks: 500 coupled rhythms with a spread of natural rates and random knocks added. Left: the order, how far their phases keep step, as the knocks strengthen; it falls away near the point where the knocks outpace the coupling, as the model’s theory predicts. Right: each oscillator’s phase as a dot on a circle, locked under weak knocks and spread round the circle under strong ones.</figcaption>
 </figure>
 
-The first edition already had the measure of this order. Its part on magnetism (Part 22 in this edition) defined the coherence of $n$ spins with phases $\phi_i$ as $$C_s = \frac{1}{n}\left|\sum_{i=1}^{n} e^{i\phi_i}\right|,$$ which is 1 when every phase is the same and near 0 when they are scattered round the circle. It is the same quantity Kuramoto’s model uses to measure how far a population keeps step, and it is what Figure <a href="#fig:locking" data-reference-type="ref" data-reference="fig:locking">2</a> plots.
+The measure of this order is the coherence of $n$ spins with phases $\phi_i$ (Part 22): $$C_s = \frac{1}{n}\left|\sum_{i=1}^{n} e^{i\phi_i}\right|,$$ which is 1 when every phase is the same and near 0 when they are scattered round the circle. It is the same quantity Kuramoto’s model uses to measure how far a population keeps step, and it is what Figure <a href="#fig:locking" data-reference-type="ref" data-reference="fig:locking">2</a> plots.
 
 Matter shows the signs of this contest in measured rules. **\[Argued\]**
 
-- **Lindemann’s rule (1910).** A solid melts when the jiggling of its atoms reaches about a tenth of the distance between them.[^8] The first edition’s version: collapse comes “when internal oscillations can no longer align”. It was already measured.
+- **Lindemann’s rule (1910).** A solid melts when the jiggling of its atoms reaches about a tenth of the distance between them.[^8] Collapse comes when internal oscillations can no longer align.
 
 - **Richards’s rule (1897).** For metals, the energy taken in on melting is close to $kT$ at the melting point for every atom: iron takes 0.143 electronvolts an atom at 1,811 kelvin, where $kT$ is 0.156.[^9] Melting costs about one typical knock’s worth of energy per atom. In GPT that is the price of releasing each atom from the common phase of the lattice. **\[Hypothesis\]**
 
@@ -20938,7 +20938,7 @@ When a body cools through a transition, the order forms again and the energy com
 
 Order needs somewhere to start. **\[Argued\]** Clean water can be cooled far below its freezing point and stay liquid; small droplets of pure water reach about $-38$ $^\circ$C before they freeze on their own.[^12] A dust grain, a scratch or a crystal of ice dropped in starts the freezing at once, and it spreads from that point. In the language of locking, the common phase needs a first group of patterns already in step, large enough that it pulls its neighbours in faster than knocks pull them out. A seed is a region already locked, and freezing is the lock spreading. **\[Hypothesis\]**
 
-Order formed on cooling keeps a record of the conditions in which it formed. **\[Argued\]** Lava cooling through iron’s Curie point is magnetised in the direction of the Earth’s field at that moment and keeps it for hundreds of millions of years; the record of the field’s reversals in the ocean floor is read this way.[^13] A magnet’s magnetisation depends on its history as well as on the field it is in now, the effect called hysteresis. Part 18 said that the past exists as persisting structure. Memory in matter is literal: it is order that was set at a transition and has not since been undone. **\[Argued\]** The first edition’s phrase “heat erases memory” is kept in this sense. Part 13’s activation record proposes the same principle for living things: a small bias at a moment of ordering decides a lasting order.[^14]
+Order formed on cooling keeps a record of the conditions in which it formed. **\[Argued\]** Lava cooling through iron’s Curie point is magnetised in the direction of the Earth’s field at that moment and keeps it for hundreds of millions of years; the record of the field’s reversals in the ocean floor is read this way.[^13] A magnet’s magnetisation depends on its history as well as on the field it is in now, the effect called hysteresis. Part 18 said that the past exists as persisting structure. Memory in matter is literal: it is order that was set at a transition and has not since been undone. **\[Argued\]** Heat erases memory. Part 13’s activation record proposes the same principle for living things: a small bias at a moment of ordering decides a lasting order.[^14]
 
 # Solids: Arrangement Held in Step
 
@@ -20954,15 +20954,15 @@ A solid is a body whose atoms keep a fixed, long-range arrangement. In GPT each 
 
 **\[End of passage\]**
 
-The first edition described solids as “graviton pressure traps”, with “closed-loop corridors” resolving the pressure of the medium inside them. The restatement names what touches what: patterns overlapping, sharing electrons, pushing back where their circulations match. Its point survives: solidity is not the absence of motion but the active maintenance of order. **\[Argued\]** Every pattern in a solid turns at its own rhythm, $10^{20}$ times a second for an electron (Part 18), and holds its place by staying in step.
+What touches what in a solid: patterns overlapping, sharing electrons, pushing back where their circulations match. Solidity is not the absence of motion but the active maintenance of order. **\[Argued\]** Every pattern in a solid turns at its own rhythm, $10^{20}$ times a second for an electron (Part 18), and holds its place by staying in step.
 
 #### Two pressures.
 
-The first edition gave the internal pressure of a solid as $10^{10}$ to $10^{12}$ pascals. That is a real quantity, but not the medium’s pressure in empty space. It is the energy density of matter’s binding: iron’s cohesive energy is $5.8\times10^{10}$ joules a cubic metre, and its resistance to compression, its bulk modulus, is $1.7\times10^{11}$ pascals. Read in GPT, it is the energy of the medium organised into a solid’s bonds. **\[Hypothesis\]** The medium’s pressure in free space is about $4.5\times10^{-10}$ pascals, the value that passes the heat budget (Part 15). The two are different quantities and both stand. What does not stand is the first edition’s statement that melting iron is a fall in internal pressure from $10^{12}$ to $10^{10}$ pascals: melting takes about 3% of the binding energy, not 99% (Section <a href="#sec:levels" data-reference-type="ref" data-reference="sec:levels">“Order Has Levels”</a>).
+The internal pressure of a solid is $10^{10}$ to $10^{12}$ pascals. That is not the medium’s pressure in empty space. It is the energy density of matter’s binding: iron’s cohesive energy is $5.8\times10^{10}$ joules a cubic metre, and its resistance to compression, its bulk modulus, is $1.7\times10^{11}$ pascals. Read in GPT, it is the energy of the medium organised into a solid’s bonds. **\[Hypothesis\]** The medium’s pressure in free space is about $4.5\times10^{-10}$ pascals, the value that passes the heat budget (Part 15). The two are different quantities. Melting takes only about 3% of the binding energy (Section <a href="#sec:levels" data-reference-type="ref" data-reference="sec:levels">“Order Has Levels”</a>).
 
 #### Directions.
 
-A crystal is not the same in every direction, and its order can fail unevenly. Many crystals expand by different amounts along different axes when heated; magnetic crystals have easy axes along which their spins prefer to point. The first edition’s “anisotropic collapse” is kept with these as its examples.
+A crystal is not the same in every direction, and its order can fail unevenly. Many crystals expand by different amounts along different axes when heated; magnetic crystals have easy axes along which their spins prefer to point. This is anisotropic collapse.
 
 # Liquids, Glass and Flow
 
@@ -20974,7 +20974,7 @@ A liquid keeps order between neighbours only, and that order is constantly broke
 
 **\[End of passage\]**
 
-The relation runs across an enormous range. In water the local order re-forms in about a picosecond, and its viscosity is a thousandth of a pascal-second. Pitch looks solid and shatters under a hammer, but it flows: in the experiment begun at the University of Queensland in 1927, a drop falls from a funnel about once a decade, and its viscosity is about $2\times10^{8}$ pascal-seconds.[^15] A glass is a liquid that ran out of time to arrange itself. **\[Argued\]** As a liquid that does not crystallise cools, its local order takes longer and longer to re-form, until at about $10^{12}$ pascal-seconds the re-forming takes minutes and the liquid is held in place, disordered but fixed. That is the glass transition. The first edition’s three “exotic” cases each now have a mechanism:
+The relation runs across an enormous range. In water the local order re-forms in about a picosecond, and its viscosity is a thousandth of a pascal-second. Pitch looks solid and shatters under a hammer, but it flows: in the experiment begun at the University of Queensland in 1927, a drop falls from a funnel about once a decade, and its viscosity is about $2\times10^{8}$ pascal-seconds.[^15] A glass is a liquid that ran out of time to arrange itself. **\[Argued\]** As a liquid that does not crystallise cools, its local order takes longer and longer to re-form, until at about $10^{12}$ pascal-seconds the re-forming takes minutes and the liquid is held in place, disordered but fixed. That is the glass transition. Three exotic cases each have a mechanism:
 
 - **Glass:** order held without arrangement, because the time to arrange grew longer than the cooling allowed.
 
@@ -20986,7 +20986,7 @@ The relation runs across an enormous range. In water the local order re-forms in
 
 In a gas the atoms or molecules keep no lasting relation between their phases; **\[Argued\]** each moves freely between collisions and is knocked into a new motion at each one. What it keeps is everything inside it (Section <a href="#sec:levels" data-reference-type="ref" data-reference="sec:levels">“Order Has Levels”</a>).
 
-A plasma is a gas in which the outer electron patterns have come loose from their nuclei. **\[Argued\]** The first edition called it “hyper-decoherence”. That is half right. One level of order is lost, the locking of electron patterns around nuclei, at the measured ionisation energies: 13.6 electronvolts for hydrogen, 7.9 for iron’s first electron. But loose charges organise themselves strongly through what they carry, and plasmas are full of collective order: waves, filaments, sheets, and the reconnection of magnetic fields that drives solar flares. A plasma loses one level of order and gains a new collective order through charge, **\[Hypothesis\]** the hand of the knot (Part 19).
+A plasma is a gas in which the outer electron patterns have come loose from their nuclei. **\[Argued\]** It is hyper-decoherence in one sense: one level of order is lost, the locking of electron patterns around nuclei, at the measured ionisation energies: 13.6 electronvolts for hydrogen, 7.9 for iron’s first electron. But loose charges organise themselves strongly through what they carry, and plasmas are full of collective order: waves, filaments, sheets, and the reconnection of magnetic fields that drives solar flares. A plasma loses one level of order and gains a new collective order through charge, **\[Hypothesis\]** the hand of the knot (Part 19).
 
 # Aligned Spins and the Curie Point
 
@@ -21000,7 +21000,7 @@ Spin is real rotation, exchanged with the body that holds it. **\[Argued\]** In 
 
 **\[End of passage\]**
 
-Part 19 proposed what the alignment does: each spinning knot’s counterflow carries a swirl, and swirls aligned across a material add, so that magnetism is the collective swirl of aligned matter. **\[Hypothesis\]** The first edition described magnetism as the “externalization” of graviton pressure, with the strength of a magnet growing as the cube of a “coherent graviton density”. The cube law had no derivation and is withdrawn, and so is the statement that magnetism is gravity resolved along an axis: torsion balances carrying masses with $10^{23}$ aligned electron spins show no change in their gravity.[^17] Gravity and magnetism are different modes of the same medium, inflow and swirl. The first edition’s magnetism parts also gave spin alignment a role in directing the medium’s path through a material, and named the timing that requires. That account, with the full treatment of magnetism, belongs to Parts 21 and 22.[^18]
+Part 19 proposed what the alignment does: each spinning knot’s counterflow carries a swirl, and swirls aligned across a material add, so that magnetism is the collective swirl of aligned matter. **\[Hypothesis\]** Aligned spins do not change gravity: **\[Argued\]** torsion balances carrying masses with $10^{23}$ aligned electron spins show no change in their gravity.[^17] Gravity and magnetism are different modes of the same medium, inflow and swirl. Spin alignment also directs the medium’s path through a material, with the timing that requires; that account, and the full treatment of magnetism, are in Parts 21 and 22.[^18]
 
 # Shared Phase
 
@@ -21018,15 +21018,15 @@ The coldest order is the most complete: many particles moving in *one* phase acr
 
 In GPT phase is literal, **\[Argued\]** the medium’s own phase in each pattern (Part 19), and shared phase is the medium in a body keeping one step throughout it. Measurement shows a sign of it. In a superconducting ring the magnetic flux trapped inside comes only in whole units of $h/2e$, Planck’s constant over twice the electron’s charge.[^21] The standard account describes this with a wavefunction whose phase must close on itself around the ring a whole number of times, but it names nothing physical whose phase that is. GPT names it: the phase is the medium’s own, carried round the ring by the shared pattern; it must return to itself after one circuit, so the swirl it encloses comes in whole turns. **\[Hypothesis\]** The $2e$ shows that the current is carried by electrons in pairs. In GPT a pair is two knots of opposite circulation sharing one pattern, as two electrons share a bond **\[Hypothesis\]** (Part 19); the pairs in ordinary superconductors are indeed made of electrons of opposite spin.
 
-#### Superconductors do not reflect gravity.
+#### Superconductors weigh normally.
 
-The first edition said that superconductors reflect graviton fields, and read the Meissner effect, the expulsion of a magnetic field from a superconductor, as “corridor reflection”. Superconductors weigh normally: superconducting gravimeters float a niobium sphere in a magnetic field and measure the Earth’s gravity through it to about one part in $10^{11}$.[^22] The claim is withdrawn. The Meissner effect is measured as currents circulating within a thin layer at the surface, about 40 nanometres deep in niobium, which cancel the field inside.[^23] In GPT a magnetic field is a swirl of the medium (Part 16), and a body in one shared phase cannot hold a swirl inside it without breaking that phase; its surface circulates against the swirl and keeps it out. **\[Hypothesis\]**
+Superconducting gravimeters float a niobium sphere in a magnetic field and measure the Earth’s gravity through it to about one part in $10^{11}$.[^22] The Meissner effect, the expulsion of a magnetic field from a superconductor, is measured as currents circulating within a thin layer at the surface, about 40 nanometres deep in niobium, which cancel the field inside.[^23] In GPT a magnetic field is a swirl of the medium (Part 16), and a body in one shared phase cannot hold a swirl inside it without breaking that phase; its surface circulates against the swirl and keeps it out. **\[Hypothesis\]**
 
 # Universality
 
-The first edition’s central claim, that the loss of magnetism and the behaviour of fluids have one cause, has measured support. **\[Argued\]** Near the critical point of a liquid, where liquid and gas become indistinguishable, the difference between their densities shrinks as the temperature rises, following a power of the distance from the critical temperature. In 1945 Edward Guggenheim plotted the measurements for eight different substances, neon, argon, krypton, xenon, nitrogen, oxygen, carbon monoxide and methane, and they fell on one curve, with a power close to one third.[^24] Magnets whose spins can point only one of two ways lose their magnetisation near the Curie point with the same power, about 0.33.[^25] Substances that share nothing chemically, and transitions that look nothing alike, behave identically there.
+The loss of magnetism and the behaviour of fluids near their critical points share one cause, and the measurements show it. **\[Argued\]** Near the critical point of a liquid, where liquid and gas become indistinguishable, the difference between their densities shrinks as the temperature rises, following a power of the distance from the critical temperature. In 1945 Edward Guggenheim plotted the measurements for eight different substances, neon, argon, krypton, xenon, nitrogen, oxygen, carbon monoxide and methane, and they fell on one curve, with a power close to one third.[^24] Magnets whose spins can point only one of two ways lose their magnetisation near the Curie point with the same power, about 0.33.[^25] Substances that share nothing chemically, and transitions that look nothing alike, behave identically there.
 
-The standard account describes this without a mechanism. It finds that near a critical point, regions of order grow so large that the details of what is ordered stop mattering, and only the dimension of space and the number of ways the order can point remain. It does not say what carries the order across those regions, or why the details drop out. GPT supplies both: in every case the order is a phase relation among patterns of one medium, and the medium that every pattern shares is what carries the locking from neighbour to neighbour across a growing region. Near the critical point what decides the outcome is the medium’s locking itself, which is the same in every substance, rather than the particular patterns being locked. **\[Hypothesis\]** The first edition’s instinct was to treat melting, magnetism and fluid behaviour as one subject. Universality shows that, near their critical points, they are.
+The standard account describes this without a mechanism. It finds that near a critical point, regions of order grow so large that the details of what is ordered stop mattering, and only the dimension of space and the number of ways the order can point remain. It does not say what carries the order across those regions, or why the details drop out. GPT supplies both: in every case the order is a phase relation among patterns of one medium, and the medium that every pattern shares is what carries the locking from neighbour to neighbour across a growing region. Near the critical point what decides the outcome is the medium’s locking itself, which is the same in every substance, rather than the particular patterns being locked. **\[Hypothesis\]** Melting, magnetism and fluid behaviour are one subject: universality shows it near their critical points.
 
 # What Order Does Not Do
 
@@ -21034,7 +21034,7 @@ A change of order changes a body’s weight only by the energy it takes in or gi
 
 # Tests
 
-The first edition proposed heating a kilogram of iron through its melting point with a gravimeter 1 to 2 centimetres away, and predicted a change in gravity of “5–10 $\mu$g”; the units it meant were microgals, $10^{-8}$ metres per second squared. The test needs reshaping. The iron’s own gravity at 2 centimetres is about $1.7\times10^{-7}$ metres per second squared, and iron changes its density by a few per cent on melting, so the change of shape alone alters the reading by $10^{-9}$ to $10^{-8}$, the size of the predicted effect. The iron also passes its Curie point first, at 770 $^\circ$C, where magnetic forces would swamp everything. And the agreed account predicts no change in the total beyond the mass change, $2.8\times10^{-12}$. Better versions:
+The direct test is to heat a kilogram of iron through its melting point with a gravimeter 1 to 2 centimetres away, and look for a change in gravity of 5 to 10 microgals, $10^{-8}$ metres per second squared. Done this simply, the test is swamped. The iron’s own gravity at 2 centimetres is about $1.7\times10^{-7}$ metres per second squared, and iron changes its density by a few per cent on melting, so the change of shape alone alters the reading by $10^{-9}$ to $10^{-8}$, the size of the predicted effect. The iron also passes its Curie point first, at 770 $^\circ$C, where magnetic forces would swamp everything. And the agreed account predicts no change in the total beyond the mass change, $2.8\times10^{-12}$. Better versions:
 
 - **Weigh gallium through its melting point,** at 29.8 $^\circ$C: room temperature, no magnetism, and a mass change of $9\times10^{-13}$, far below what mass comparators resolve (about $10^{-10}$ on a kilogram). The prediction is null in the total; any change in the weighing beyond the change of shape would be a signal. **\[Hypothesis\]** Water through freezing is a second case.
 
@@ -21339,9 +21339,9 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. The first edition called such paths *graviton corridors*, and its central question was the right one: how does structure direct flow? Much of the answer has since been measured, often in the first edition’s own terms. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
+Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. Such paths are *graviton corridors*, and the central question is how structure directs flow. Much of the answer is measured. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
 
-The first edition’s engineering and second-register sections are removed; the list at the end says what was removed and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
+This is the second edition; the list at the end says what changed from the first and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
 
 # What Flows Inside Matter
 
@@ -21367,15 +21367,15 @@ The total of the first is fixed; its distribution may not be. **\[Argued\]** The
 
 # What a Corridor Is
 
-The first edition required three things of a corridor: *temporal synchronisation*, oscillations in step with the medium’s rhythm; *spin alignment*, particles locked in a common spin or phase; and *coherent phase delay*, timing held across boundaries. It added a fourth idea that turns out to be central: *“each moment of stable graviton flow through a corridor is refreshed by coherent disappearance and replenishment. The corridor does not merely transmit pressure; it perpetually recreates its channel.”*
+A corridor requires three things: *temporal synchronisation*, oscillations in step with the medium’s rhythm; *spin alignment*, particles locked in a common spin or phase; and *coherent phase delay*, timing held across boundaries. A fourth idea is central: *each moment of stable graviton flow through a corridor is refreshed by coherent intake and release. The corridor does not merely transmit pressure; it perpetually recreates its channel.*
 
 **\[Hypothesis: the passage that follows\]**
 
-**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The first edition’s refresh is the turnover, and its corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
+**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The refresh is the turnover, and a corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
 
 **\[End of passage\]**
 
-The first edition’s list of what breaks a corridor is the measured list of what scatters flow in matter: **\[Argued\]** heat (“noise drowns phase”), stress and deformation (“deformed symmetry births timing flaws”), disorder (“amorphous materials… disrupt phase continuity”), and disordered spins (“spin scatter”). The sections that follow give the measurements, flow by flow.
+What breaks a corridor is what scatters flow in matter: **\[Argued\]** heat, where noise drowns phase; stress and deformation, where deformed symmetry births timing flaws; disorder, where amorphous materials disrupt phase continuity; and spin scatter. The sections that follow give the measurements, flow by flow.
 
 # Load: The Normal Force as Momentum Passed On
 
@@ -21395,7 +21395,7 @@ Every part of this is measured.
 
 - **The surfaces touch at points.** Two flat metal surfaces pressed together touch over a very small fraction of the area they seem to share, as little as a ten-thousandth under light loads; the whole load passes through the tips of their roughness.[^10]
 
-These are corridors of load, measured. **\[Argued\]** The first edition’s claim that structure channels pressure is true of the load a body passes on, and the force chains are its plainest picture. They show that how a load is passed depends on the arrangement, not on the substance: identical discs carry it along a few paths or many, depending only on how they are packed.
+These are corridors of load, measured. **\[Argued\]** Structure channels the load a body passes on, and the force chains are its plainest picture. They show that how a load is passed depends on the arrangement, not on the substance: identical discs carry it along a few paths or many, depending only on how they are packed.
 
 # Heat and Charge: Transport Set by Order
 
@@ -21404,7 +21404,7 @@ These are corridors of load, measured. **\[Argued\]** The first edition’s clai
 <figcaption>How well materials carry heat, from ordered crystals to disordered glasses and plastics. Crystalline quartz and fused silica are the same substance, silicon dioxide, differing only in order. In metals such as copper most of the heat is carried by the electrons; in the others, by the lattice itself.</figcaption>
 </figure>
 
-Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig:heat" data-reference-type="ref" data-reference="fig:heat">1</a>). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it. The first edition ranked materials by an invented “compatibility index”: diamond 0.91, quartz 0.82, iron 0.74, glass 0.31. The numbers were invented, but the ranking is the measured ranking of how well they carry heat.
+Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig:heat" data-reference-type="ref" data-reference="fig:heat">1</a>). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -21412,7 +21412,7 @@ Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig
 
 **\[End of passage\]**
 
-Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^11] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. The first edition’s list of what breaks a corridor, heat, stress and disorder, is Matthiessen’s rule.
+Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^11] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. What breaks a corridor, heat, stress and disorder, is what Matthiessen’s rule measures.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -21425,9 +21425,9 @@ Heat and charge in a metal follow the same paths. **\[Argued\]** Wiedemann and F
 # Lattices and Waves
 
 A lattice redirects a wave only when its spacing matches the wave. **\[Argued\]** X-rays striking a crystal are reflected only at angles where the spacing $d$ of its planes and the wavelength $\lambda$ satisfy $$2d\sin\theta = n\lambda,
-\label{eq:bragg}$$ for a whole number $n$ (W. L. Bragg, 1913).[^13] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^14] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. The first edition’s “wavelength match” as a condition of resonance is this rule.
+\label{eq:bragg}$$ for a whole number $n$ (W. L. Bragg, 1913).[^13] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^14] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. Wavelength match as a condition of resonance is this rule.
 
-Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^15] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. The first edition’s lattice resonance, with its “filtering”, “focusing” and “redirection”, exists, measured, for light and sound. It does not exist for the total pull of gravity, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">“What Flows Inside Matter”</a>).
+Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^15] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. Lattice resonance, with its filtering, focusing and redirection, is measured for light and sound. It does not exist for the medium’s total delivery to a body, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">“What Flows Inside Matter”</a>).
 
 Particles fired along a crystal’s planes travel far deeper than particles fired at random angles. **\[Argued\]** The effect, called channelling, was predicted and measured in 1963.[^16] A charged particle entering between two planes of atoms is steered back toward the middle each time it approaches one, and travels down the open lane. These are corridors in the most literal sense: open lanes through a lattice along which a flow passes with little loss, and which close when the crystal is tilted away from them.
 
@@ -21435,7 +21435,7 @@ Particles fired along a crystal’s planes travel far deeper than particles fire
 
 A crystal yields one row at a time. **\[Argued\]** A perfect crystal sheared as a whole would need forces thousands of times larger than real metals need. In 1934 Taylor, Orowan and Polanyi independently proposed why: a crystal contains lines along which the arrangement is out of step, called dislocations, and it deforms by moving these lines, re-locking one row of atoms at a time.[^17] Dislocations were seen directly in 1956.[^18] Crystals grown nearly free of them, thin whiskers, approach the strength of the perfect lattice.[^19]
 
-In GPT a dislocation is a line where the common phase of the lattice is broken, **\[Hypothesis\]** and its movement is the lock passing from row to row. It explains the first edition’s “stress births timing flaws” in measured form. Hammering a metal multiplies its dislocations; they tangle and pin one another, so the metal becomes harder; and they scatter both heat and charge, so it carries both a little worse. Heating it lets the arrangement re-lock, annealing, and its softness and conductivity return. Grain boundaries, where crystals of different orientation meet, scatter in the same way, which is why a single crystal carries heat and charge better than the same metal made of many small grains.
+In GPT a dislocation is a line where the common phase of the lattice is broken, **\[Hypothesis\]** and its movement is the lock passing from row to row. Stress births timing flaws, in measured form. Hammering a metal multiplies its dislocations; they tangle and pin one another, so the metal becomes harder; and they scatter both heat and charge, so it carries both a little worse. Heating it lets the arrangement re-lock, annealing, and its softness and conductivity return. Grain boundaries, where crystals of different orientation meet, scatter in the same way, which is why a single crystal carries heat and charge better than the same metal made of many small grains.
 
 # Spin: Structure That Directs Flow
 
@@ -21460,7 +21460,7 @@ Spin alignment directs the flow of heat. **\[Argued\]** A disturbance of the ali
 
 **\[Hypothesis: the passage that follows\]**
 
-**The first edition’s account of spin directing the medium’s path, restated.** The first edition said that aligned spins “open directional corridors”, that spin sets “windows for graviton absorption or deflection”, and that aligned spins form “temporal phase-locks”, synchronising with the medium’s rhythm. In the present terms:
+**Spin directs the medium’s path.** Aligned spins open directional corridors; spin sets windows for graviton absorption or deflection; and aligned spins form temporal phase-locks, synchronising with the medium’s rhythm. In terms of patterns of the medium:
 
 - **The window is the turnover.** Each knot takes its share of the medium at a definite point in each turn of its circulation (Part 17), so what reaches a knot meets it either in step with that point or not.
 
@@ -21480,7 +21480,7 @@ Every flow in this paper whose paths are measured, load, heat, charge, waves and
 
 **\[End of passage\]**
 
-This is the core of the first edition’s corridor, kept with the constraint that measurement places on it. It predicts nothing for weight, and everything it predicts is inside:
+This is the core of the corridor, with the constraint that measurement places on it. It predicts nothing for weight, and everything it predicts is inside:
 
 - **Same substance, two orders.** Crystalline quartz and fused silica of equal mass weigh the same, to the limit of the best balances; GPT predicts no difference in the total. Whether their centres of gravity sit exactly at their centres of mass is untested.
 
@@ -21488,7 +21488,7 @@ This is the core of the first edition’s corridor, kept with the constraint tha
 
 - **One crystal, aligned and not.** The same test on a magnetic crystal above and below its Curie point asks whether the relay of spin directs the delivery.
 
-A null result in all of these would mean the through-flow is spread by structure no differently from the mass itself, **\[Argued\]** and the corridors of this paper would be corridors of load, heat, charge, waves and spin only. That would still be the first edition’s question answered: structure directs flow.
+A null result in all of these would mean the through-flow is spread by structure no differently from the mass itself, **\[Argued\]** and the corridors of this paper would be corridors of load, heat, charge, waves and spin only. That would still answer the central question: structure directs flow.
 
 # What Remains to Be Derived
 
@@ -21535,6 +21535,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - “Self-repulsive, massless gravitons”, “impedance” and “stability’s intent” are replaced by the terms of Parts 15 to 20.
 
 - “Coherence as Moral Geometry” and “Matter as Dialogue” are moved to the second register, beside Part 2.
+
+- The compatibility index (diamond 0.91, quartz 0.82, iron 0.74, glass 0.31) is removed: its numbers had no measured basis, and its ranking of quartz above iron is the reverse of how well they carry heat. “Refresh by disappearance and replenishment” is reworded as intake and release, since gravitons are conserved (Part 15).
 
 - Two figures, status marks and this list are added.
 
@@ -21775,11 +21777,11 @@ By Shareef Ali Rashada
 
 Part 21 followed the flows inside matter and found them directed by structure: load, heat, charge, waves and the alignment of spins all pass along lines of patterns held in step.[^1] Magnetism is what happens when that interior order reaches out. The aligned circulations inside a magnet organise the medium around it, along lines that leave the magnet, cross the space around it and return; and along and across those lines the medium carries a pressure that can be felt with the hands. This paper describes that reach: what organises the medium outside a magnet, what the lines are, what the pressure is, how matter of every kind responds to it, and how it differs from gravity, which is the same medium in another mode.
 
-This second edition merges the first edition’s Parts 21 and 22, *Magnetism as Gravimetric Resonance* and *Cross-Analysis of Magnetic Materials*. Their second-register sections are removed; the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
 
 # A Medium Reading, from the Start
 
-The first edition began by saying that electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
+Electromagnetism is a precise map with no causal explanation beneath it. That is true of the theory as it is now taught. It was not true of the theory as it was made.
 
 Maxwell’s equations were derived from a medium. **\[Argued\]** In 1861, in *On Physical Lines of Force*, James Clerk Maxwell modelled the magnetic field as a medium filled with small rotating vortices, with idle particles between them to pass on their motion.[^4] From that mechanical picture he obtained the displacement current, which completed the equations, and the speed of waves in the medium, which he compared with the speed of light. Five years earlier Weber and Kohlrausch had measured the ratio of the electric units and found $3.1\times10^{8}$ metres a second.[^5] The two agreed, and Maxwell concluded that light is a wave of the same medium that carries electric and magnetic effects. The constants in his equations, $\varepsilon_0$ and $\mu_0$, are properties of empty space, and the speed of light is $c=1/\sqrt{\varepsilon_0\mu_0}$.
 
@@ -21791,7 +21793,7 @@ So GPT does not need a new prediction to read magnetism as a state of the medium
 
 **\[Hypothesis: the passage that follows\]**
 
-**A magnetic field is the medium turning**: its local rotation, what fluid mechanics calls vorticity. The first edition wrote the field as a curl, $\mathbf{B}\propto\nabla\times(\dots)$, and that was the right form. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium’s circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
+**A magnetic field is the medium turning**: its local rotation, what fluid mechanics calls vorticity. In GPT the medium has a flow, and the magnetic field is the rotation of that flow at each place. What the standard account calls the vector potential, $\mathbf{A}$, is the medium’s circulating flow itself, and $\mathbf{B}=\nabla\times\mathbf{A}$ is its rotation.
 
 **\[End of passage\]**
 
@@ -21807,7 +21809,7 @@ Spin makes a magnetic field. **\[Argued\]** Every electron is a small magnet; in
 
 **\[Hypothesis: the passage that follows\]**
 
-**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. The first edition’s suggestion that charge might be “a structural bias in graviton flux absorption or emission” anticipated Part 19’s account.
+**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. Charge is a structural bias in graviton flux absorption and emission.
 
 **\[End of passage\]**
 
@@ -21828,7 +21830,7 @@ The lines can be seen. **\[Argued\]** Iron filings scattered round a magnet gath
 
 # Magnetism Is Pressure
 
-The first edition’s observation that magnetism feels like pressure is exact. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
+Magnetism feels like pressure because it is pressure. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
 \label{eq:pressure}$$ about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell’s stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun’s hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
 
 **\[Hypothesis: the passage that follows\]**
@@ -21841,7 +21843,7 @@ The first edition’s observation that magnetism feels like pressure is exact. *
 
 - **Parallel currents** (Ampère): between two wires carrying current the same way, their circling fields run in opposite directions and cancel, so the pressure between them is lower than outside, and they are pressed together. Opposite currents reinforce the field between them and are pushed apart.
 
-In every case the push is delivered by the medium’s pressure, as gravity’s is. The first edition said this: “matter orchestrates the conditions; graviton flux supplies the energy.”
+In every case the push is delivered by the medium’s pressure, as gravity’s is. Matter orchestrates the conditions; graviton flux supplies the energy.
 
 **\[End of passage\]**
 
@@ -21862,7 +21864,7 @@ The standard account describes this without a mechanism. **\[Argued\]** It says 
 
 # How Matter Answers a Field
 
-The first edition’s companion paper argued that magnetic materials match its criteria for corridors one for one: high crystallinity, aligned spins, low decoherence, suitable density and stable phase timing. Some of that match holds and some does not, and the correction makes the mechanism sharper.
+Magnetic materials meet the criteria for corridors: aligned spins, low decoherence, suitable spacing and stable phase timing. Crystal order is not among them.
 
 Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper and aluminium are fully crystalline and are not magnets. Metallic glasses, alloys cooled so fast that their atoms have no long-range order, can be strongly ferromagnetic, and are used for transformer cores. Liquid oxygen, poured between the poles of a strong magnet, hangs there. What magnetism requires, measured, is this:
 
@@ -21872,7 +21874,7 @@ Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper 
 
 3.  **A temperature below the point where knocks outpace the lock** (Part 20).
 
-The first edition’s spin alignment and phase timing survive; high crystallinity does not. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
+Spin alignment and phase timing are what magnetism needs. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
 
 #### Every substance answers.
 
@@ -21892,21 +21894,21 @@ A magnet is divided into domains, each aligned within itself. **\[Argued\]** Wei
 
 Magnetisation proceeds in jumps. **\[Argued\]** In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.[^18] The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. These are the same defects that scatter heat and charge in Part 21: places where the common order is broken, holding the boundary between two orders until it is pushed past them. **\[Hypothesis\]** Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
 
-Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; the first edition’s “coherence limit” is this.
+Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; this is the coherence limit.
 
 # Heat and the Curie Point
 
-Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. The first edition’s formula $\mathcal{C}_g(T)=\mathcal{C}_0e^{-\alpha T}$, coherence falling exponentially with temperature, has the wrong shape. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). The first edition’s “structural forgetting” is kept: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
+Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). Heating past the Curie point is structural forgetting, and cooling through it sets a new memory: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
 
 # Induction
 
 A changing swirl drives a circulating push around it. **\[Argued\]** Faraday found in 1831 that changing the magnetic field through a loop of wire drives a current round the loop, in proportion to how fast the enclosed flux changes. Lenz found in 1834 that the current always flows so as to oppose the change. A magnet dropped down a copper pipe falls slowly, held back by the currents it drives in the copper.
 
-The first edition wrote induction as $V=\int_0^\ell\nabla P_g\cdot d\mathbf{r}$, a voltage from a pressure gradient. That cannot work: the integral of a gradient around a closed loop is zero, and induction is a push *around* a loop. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
+Induction is a push *around* a loop, and a push around a loop cannot come from a gradient, whose integral around any closed loop is zero. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
 
 # Light
 
-Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. The first edition’s description of electromagnetic waves as “density modulations” is replaced: a density wave is longitudinal, and light is transverse. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
+Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
 
 # Gravity and Magnetism
 
@@ -21916,13 +21918,13 @@ Light is a transverse wave in which the electric and magnetic effects alternate,
 
 **\[End of passage\]**
 
-Magnetism does not change gravity or time. **\[Argued\]** The first edition predicted that magnetised materials would amplify gravity, and that clocks near aligned magnetic domains would run differently. Both have been tested:
+Magnetism does not change gravity or time. **\[Argued\]** Whether magnetised materials change gravity, and whether clocks near aligned magnetic domains run differently, have both been tested:
 
 - torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;[^19]
 
 - muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.[^20]
 
-Both predictions are withdrawn. A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). This is the boundary on the first edition’s “magnetism is gravity”. Magnetism is not gravity; it is the same medium, organised differently.
+A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). Magnetism is not gravity; it is the same medium, organised differently.
 
 # Tests
 
@@ -22214,7 +22216,7 @@ The medium flows into a mass $M$ along radial lines, with a speed calibrated onc
 The medium accelerates as it flows in, and its acceleration is exactly Newton’s gravity: **\[Argued\]** $$\mathbf{a}_{\text{medium}} = (\mathbf{v}\cdot\nabla)\mathbf{v} = v_r\,\frac{dv_r}{dr}\,\hat{\mathbf{r}} = -\frac{GM}{r^2}\,\hat{\mathbf{r}}.
 \label{eq:accel}$$ Every body in the flow receives momentum from it in proportion to its own mass, at every particle at once (Part 7, Part 11), and so shares this acceleration: $$\mathbf{F} = m\,\mathbf{a}_{\text{medium}} = -\frac{GMm}{r^2}\,\hat{\mathbf{r}}.$$ Because the delivery is proportional to mass, every body falls alike, whatever it is made of; the MICROSCOPE mission found this true to about one part in $10^{15}$.[^3]
 
-The first edition wrote the force as $\mathbf{F} = -m\nabla P_g$. That expression has the wrong units (kilograms times pascals per metre is not a newton), and it cannot be repaired by a constant, because the pressure gradient acts on the medium, not on the body. The medium’s own equation of steady flow (Euler’s equation) gives the correct link: the medium’s acceleration is set by its pressure gradient and its own density, and bodies share that acceleration. $$(\mathbf{v}\cdot\nabla)\mathbf{v} = -\frac{\nabla P}{\rho_g}.
+The pressure gradient acts on the medium, not on the body. The medium’s own equation of steady flow (Euler’s equation) gives the link: the medium’s acceleration is set by its pressure gradient and its own density, and bodies share that acceleration. $$(\mathbf{v}\cdot\nabla)\mathbf{v} = -\frac{\nabla P}{\rho_g}.
 \label{eq:euler}$$
 
 # Pressure
@@ -22297,7 +22299,7 @@ Around a mass, the distance between two spherical shells, measured with rods hel
 Clocks slowed and rods squashed by the streaming, in a flat space through which the medium flows at Equation <a href="#eq:inflow" data-reference-type="eqref" data-reference="eq:inflow">[eq:inflow]</a>, are described together by one expression: **\[Argued\]** $$c^2 d\tau^2 = c^2 dt^2 - \left|\,d\mathbf{x} - \mathbf{v}\,dt\,\right|^2 .
 \label{eq:pg}$$ This is the Schwarzschild solution of General Relativity, in the form Painlevé and Gullstrand found in 1921 and 1922.[^12][^13] Every prediction General Relativity makes for a single non-rotating mass therefore follows from GPT unchanged. General Relativity reads Equation <a href="#eq:pg" data-reference-type="eqref" data-reference="eq:pg">[eq:pg]</a> as the geometry of spacetime; in GPT it is the record of what the streaming does to rods and clocks. The numbers are the same; the mechanism is named.
 
-The first edition’s form, in which rulers shrank equally in every direction, gave the wrong advance of Mercury’s perihelion (57$''$ per century instead of 43$''$). Squashing along the flow only gives the right one.
+Squashing along the flow only gives the measured advance of Mercury’s perihelion, 43$''$ per century; rulers shrinking equally in every direction would give 57$''$.
 
 # Light
 
@@ -22316,11 +22318,11 @@ Measured locally, by rods and clocks that are themselves in the medium, its spee
 
 - **Redshift**: a signal climbing from a lower to a higher clock is received by a faster clock, so it appears redder by $\Delta\Phi/c^2$, as in Section <a href="#sec:clocks" data-reference-type="ref" data-reference="sec:clocks">“Clocks”</a>.
 
-In the language of refraction, the medium near a mass acts on light with an index $n \approx 1 + 2GM/c^2 r$. From Equation <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a>, that is $$n \approx 2 - \frac{P}{P_0}:$$ the lower the active pressure, the higher the index, and the slower light travels as measured from far away. The first edition had the sign reversed, with light slowing where the pressure was higher.
+In the language of refraction, the medium near a mass acts on light with an index $n \approx 1 + 2GM/c^2 r$. From Equation <a href="#eq:ratio" data-reference-type="eqref" data-reference="eq:ratio">[eq:ratio]</a>, that is $$n \approx 2 - \frac{P}{P_0}:$$ the lower the active pressure, the higher the index, and the slower light travels as measured from far away.
 
 #### No colour in the bending.
 
-Because light moves at $c$ through the medium whatever its frequency, the bending is the same for radio and for visible light. It is: radio and optical measurements agree to a few parts in a thousand, and radio interferometry fixes the bending to about one part in $10^4$. The first edition’s suggestion of colour-dependent lensing is withdrawn.
+Because light moves at $c$ through the medium whatever its frequency, the bending is the same for radio and for visible light. It is: radio and optical measurements agree to a few parts in a thousand, and radio interferometry fixes the bending to about one part in $10^4$.
 
 # Motion
 
@@ -22362,7 +22364,7 @@ What is measured fixes the form of these waves: **\[Argued\]**
 
 - **Energy carried.** The orbit of the binary pulsar PSR B1913+16 shrinks exactly as the energy carried away by gravitational waves requires: the measured rate is $0.9983 \pm 0.0016$ times the predicted one.[^22]
 
-How one medium carries two kinds of transverse wave, vector waves for light and tensor waves for gravity, at the same speed, is still owed. **\[Open\]** The elastic models of the luminiferous medium in the nineteenth century are the precedent to study. The first edition’s scalar wave equation for the pressure, with a speed that might exceed $c$, is withdrawn: it gives the wrong polarisation and the wrong speed.
+How one medium carries two kinds of transverse wave, vector waves for light and tensor waves for gravity, at the same speed, is still owed. **\[Open\]** The elastic models of the luminiferous medium in the nineteenth century are the precedent to study.
 
 # The Medium’s Scale
 
@@ -22374,11 +22376,11 @@ If matter absorbed the medium flowing into it and kept its energy as heat, the i
 
 - the Sun would absorb $3.4\times10^{15}$ watts, a hundred-billionth of its output.
 
-Both pass. The first edition’s higher values, $10^{10}$ to $10^{12}$ pascals in the first edition’s Part 19 (now Part 20) and $10^{-6}$ to $10^{-4}$ pascals in Part 25, are retired as the medium’s free-space pressure: the first would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. The $10^{10}$ to $10^{11}$ pascals of that part survives as a different quantity, the energy density of the bonds that hold matter together (iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre).
+Both pass. Pressures of $10^{10}$ pascals and more are not the medium’s free-space pressure: they would heat the Earth beyond its measured heat flow by fifteen orders of magnitude and more. They are a different quantity, the energy density of the bonds that hold matter together: iron’s cohesive energy is about $5.8\times10^{10}$ joules per cubic metre (Part 20).
 
 The scale has a coincidence worth noting: $\tfrac12\rho_c c^2$, for the critical density of the universe, is $3.8\times10^{-10}$ pascals, and the pressure attributed to dark energy has a magnitude of $5.3\times10^{-10}$ pascals. **\[Hypothesis\]** In General Relativity the dark-energy pressure is negative, and the medium’s is positive; any link must come through a different route, the expansion of a self-repelling medium that is not confined, and must be derived (Part 14).
 
-The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>. The first edition’s inverse-square repulsion between gravitons is superseded by the phase account of Part 15: gravitons in phase push one another, and neutral ones do not, so the law cannot be one inverse square over all pairs.
+The medium’s equation of state, and the range and law of its self-repulsion, are still owed. **\[Open\]** One constraint is already clear: if the pressure were simply proportional to the density, compression waves would travel at $c/\sqrt2$, so light and gravitational waves cannot be compression waves. That agrees with Section <a href="#sec:waves" data-reference-type="ref" data-reference="sec:waves">“Waves in the Medium”</a>. Gravitons in phase push one another (Part 15), and neutral ones do not, so the law cannot be one inverse square over all pairs.
 
 # The Relaxation Boundary
 
@@ -22443,6 +22445,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - Redshift as energy lost by light to the pressure of the medium is replaced by the slower clocks below.
 
 - The scalar wave equation for the pressure, with a speed that might exceed $c$, and the predicted dispersion, echoes and non-tensor waves, are withdrawn: the measured speed, polarisation and absence of dispersion rule them out.
+
+- Light slowing where the pressure is higher is reversed: the active pressure is lower toward a mass, and the index higher. Colour-dependent lensing is withdrawn: radio and visible light are bent alike. The medium’s free-space pressure of $10^{10}$–$10^{12}$ pascals (first-edition Part 19) and $10^{-6}$–$10^{-4}$ pascals (Part 25) is retired on the heat budget; $10^{10}$–$10^{11}$ pascals is identified as the energy density of binding. Inverse-square repulsion between gravitons is superseded by the phase account (Part 15).
 
 - The frame-dragging force $\mathbf{F} = m(\mathbf{v}_g\times\boldsymbol\omega)$ is replaced by the swirl of the inflow, which gives the measured rate.
 
@@ -22671,13 +22675,13 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also restates the first edition’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what has since been measured.
+Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also gives GPT’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what is measured.
 
-This second edition merges the first edition’s Part 24, *GPT Unit System and Dimensional Foundations*, with the constants and conversions of its Part 25, *Constants, Conversions and Deep Field Formalism*. The deep field, matter and medium under extreme compression, receives a short section here; a fuller treatment is under consideration. The list at the end says what changed and why. Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. The deep field, matter and medium under extreme compression, receives a short section here. Claims are marked by their status, as the key shows.
 
 # One System of Units
 
-The first edition introduced the graviton pressure unit, *gp*, as momentum delivered per unit area per unit time, and noted that it is dimensionally the pascal. It is the pascal, **\[Argued\]** and this edition uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium’s pressure; a frequency in hertz is a structure’s rhythm; a speed of $c$ is the speed of the medium’s waves.
+The graviton pressure unit, *gp*, is momentum delivered per unit area per unit time. It is the pascal, **\[Argued\]** and this paper uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium’s pressure; a frequency in hertz is a structure’s rhythm; a speed of $c$ is the speed of the medium’s waves.
 
 The SI itself has been rebuilt on rhythm and on the medium’s wave speed. **\[Argued\]** Since 2019 every SI unit has been defined by fixing the values of seven constants:[^2]
 
@@ -22714,9 +22718,9 @@ The constants GPT uses. The first seven are measured or fixed by the SI. Of the 
 
 Three of these deserve comment.
 
-- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The first edition’s “graviton impedance”, which it gave in N s/m$^3$, has a mechanical counterpart from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
+- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The graviton impedance has a mechanical form from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
 
-- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23). The first edition’s estimate of $10^{-6}$ to $10^{-4}$ pascals is retired.
+- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23).
 
 - $G$ is the least precisely known constant of physics: **\[Argued\]** measurements by different methods disagree by more than their stated errors.[^6] The scatter is unexplained.
 
@@ -22792,22 +22796,22 @@ Every structure has a rhythm set by its energy, **\[Argued\]** $f=E/h$ (Part 18
 
 - the strontium optical clock, 429 terahertz, stable to about a part in $10^{18}$.
 
-The first edition’s “temporal resolution rate”, in s$^{-1}$, is this rhythm.
+This rhythm is the structure’s temporal resolution rate, in s$^{-1}$.
 
 # Stiffness: The Second Pressure
 
-The first edition defined a *coherence resistance*, $C_{\text{res}}$, as how well a structure resists compression, “analogous to elastic modulus”. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] The first edition’s $C_{\text{res}}$, with its units of pressure per volume, is replaced by these measured moduli.
+*Coherence resistance*, $C_{\text{res}}$, is how well a structure resists compression. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] $C_{\text{res}}$ is these measured moduli.
 
 # Spin and Orbit
 
-The first edition defined a graviton torque on a spinning body, $$T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
+A graviton torque acts on a spinning body, $$T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
 \label{eq:torque}$$ driving its spin $\Omega$ toward a preferred rate $\Omega_{\text{corr}}$. This is the form of the tidal torque, **\[Argued\]** with $\Omega_{\text{corr}}$ the orbital rate and $\gamma$ set by the friction inside the body as it is flexed by the tide. It drives a spin toward lock, and the Moon, which always shows the Earth the same face, has reached it. In GPT the tide is the difference in the medium’s inflow across the body, and the torque is delivered through the medium **\[Hypothesis\]** (Part 13).[^14]
 
-The first edition proposed that a body is locked when its spin and orbital angular momenta are equal, $\kappa = I\omega/mvr \approx 1$. The numbers do not bear this out as written: $\kappa$ is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. What decides whether a body locks is the time it takes, **\[Argued\]** which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.[^15] The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
+The coupling ratio of spin to orbital angular momentum, $\kappa = I\omega/mvr$, does not decide locking: it is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. What decides whether a body locks is the time it takes, **\[Argued\]** which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.[^15] The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
 
 # The Strong Field
 
-The first edition’s Part 25 proposed a “deep field” equation with a nonlinear term, $\nabla^2P_g + \alpha(\nabla P_g)^2 = -\rho_g$, for dense stars. No such term is needed for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
+The deep field needs no nonlinear term for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -22841,7 +22845,7 @@ The limits are measured. **\[Argued\]** No white dwarf has been found above abou
 
 # Conclusion
 
-GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium’s waves: the second is a count of a caesium atom’s rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium’s constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT’s own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT’s pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. The first edition’s derived quantities become measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
+GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium’s waves: the second is a count of a caesium atom’s rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium’s constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT’s own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT’s pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. GPT’s derived quantities are measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
 
 # Changes in the Second Edition
 
@@ -22860,6 +22864,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - Shell stratification by $\Delta gp$ is withdrawn as written: at any instant an orbit is possible at any radius; structure built over time is in Part 16.
 
 - New: a table of constants with how each is known, including the measured impedance of free space; a table of worked values from a GPS orbit to a black hole’s horizon, each with its measured check.
+
+- The free-space pressure estimate of $10^{-6}$ to $10^{-4}$ pascals is retired; $P_0\approx4.5\times10^{-10}$ pascals passes the heat budget (Part 23).
 
 - Coherence resistance is replaced by the measured bulk modulus and the energy density of bonds. The graviton torque is kept as the tidal torque. The lock criterion $\kappa\approx1$ is replaced by the time to lock. The temporal resolution rate is the rhythm $E/h$. The graviton impedance is identified with the medium’s impedance.
 
@@ -23208,7 +23214,7 @@ By Shareef Ali Rashada
 
 Newton’s laws and General Relativity describe planetary motion to great precision: where a planet will be, how fast its orbit turns, when a moon will lock its face toward its planet. They do not say what carries the motion or what holds it steady. This paper gives GPT’s account. A planet coasts through a medium that is itself flowing inward and accelerating toward the Sun. Its orbit closes because that acceleration weakens as the inverse square of distance, and fails to close by a measured amount because the medium’s pressure is lowered near the Sun. Its spin reaches out into the medium and is reached in return: by the tides that slow it, by the companions that steady its axis, by the resonances that sort whole systems into order over time.
 
-The first edition described orbits as containment in quantised “corridors” of an exponential pressure field. That machinery is replaced; the first edition’s instincts about spin, locking and the field’s memory are kept and given their measured support. The list at the end says what changed and why. The field is in Part 16, the equations in Part 23, the numbers in Part 24.[^1][^2][^3] Claims are marked by their status, as the key shows.
+This is the second edition; the list at the end says what changed from the first and why. The field is in Part 16, the equations in Part 23, the numbers in Part 24.[^1][^2][^3] Claims are marked by their status, as the key shows.
 
 # An Orbit Is Coasting
 
@@ -23218,13 +23224,13 @@ The medium flows inward toward the Sun at $v=\sqrt{2GM/r}$, and accelerates as i
 
 **\[End of passage\]**
 
-Bodies small compared with what they orbit move at one speed at one distance, whatever they are made of. **\[Argued\]** The first edition derived an orbital speed that depended on the orbiting body’s own mass, $v=\sqrt{rkP_0e^{-kr}/m}$. Measurement rules this out, in orbit itself: the MICROSCOPE satellite carried test masses of platinum and titanium around the Earth together, and over many orbits they followed the same path to one part in $10^{15}$;[^5] the Earth and the Moon, one with a large iron core and the other mostly rock, are carried toward the Sun alike by its inflow, to a few parts in $10^{13}$, as lunar laser ranging shows;[^6] ring particles from centimetres to metres across orbit Saturn at one speed at each distance; and thousands of Trojan asteroids share Jupiter’s orbit and period. In GPT this follows from the delivery being proportional to mass: the medium accelerates a pebble and a planet at one distance alike, so they orbit alike. For bodies of comparable mass, both orbit their common centre, each carried by the other’s inflow (Part 7): a planet makes its star wobble, which is how many planets around other stars are found, and the period depends on the sum of the two masses.
+Bodies small compared with what they orbit move at one speed at one distance, whatever they are made of. **\[Argued\]** Measurement shows it in orbit itself: the MICROSCOPE satellite carried test masses of platinum and titanium around the Earth together, and over many orbits they followed the same path to one part in $10^{15}$;[^5] the Earth and the Moon, one with a large iron core and the other mostly rock, are carried toward the Sun alike by its inflow, to a few parts in $10^{13}$, as lunar laser ranging shows;[^6] ring particles from centimetres to metres across orbit Saturn at one speed at each distance; and thousands of Trojan asteroids share Jupiter’s orbit and period. In GPT this follows from the delivery being proportional to mass: the medium accelerates a pebble and a planet at one distance alike, so they orbit alike. For bodies of comparable mass, both orbit their common centre, each carried by the other’s inflow (Part 7): a planet makes its star wobble, which is how many planets around other stars are found, and the period depends on the sum of the two masses.
 
-Nothing is spent to keep a planet moving. **\[Argued\]** The first edition said in one place that “motion is not preserved; it is maintained by field”, and in another that “no energy input is needed to maintain pathing”. The second is right. A body moving steadily through the medium is not braked (Part 11); the planets have orbited the Sun for four and a half billion years without running down.
+Nothing is spent to keep a planet moving. **\[Argued\]** No energy input is needed to maintain pathing. A body moving steadily through the medium is not braked (Part 11); the planets have orbited the Sun for four and a half billion years without running down.
 
 # Why Orbits Close, and Why They Do Not Quite
 
-The closing of planetary orbits measures the inverse square. **\[Argued\]** In 1873 Joseph Bertrand proved that only two laws of central acceleration make every bound orbit close on itself: acceleration weakening as the inverse square of distance, and acceleration growing in proportion to distance, as on a spring.[^7] Any other law makes the orbit’s closest point creep round from one orbit to the next. So the fact that planetary orbits close, to high precision, measures that the medium’s acceleration weakens as $1/r^2$. The first edition’s “ellipses are pressure harmonics” is made exact: an ellipse is the shape a coasting body traces through a medium whose acceleration falls as the inverse square.
+The closing of planetary orbits measures the inverse square. **\[Argued\]** In 1873 Joseph Bertrand proved that only two laws of central acceleration make every bound orbit close on itself: acceleration weakening as the inverse square of distance, and acceleration growing in proportion to distance, as on a spring.[^7] Any other law makes the orbit’s closest point creep round from one orbit to the next. So the fact that planetary orbits close, to high precision, measures that the medium’s acceleration weakens as $1/r^2$. Ellipses are pressure harmonics: an ellipse is the shape a coasting body traces through a medium whose acceleration falls as the inverse square.
 
 They do not quite close. **\[Argued\]** Mercury’s closest point to the Sun advances by 43 arcseconds per century more than the pull of the other planets accounts for; the advance has since been measured for Venus, Earth, Mars, the asteroid Icarus, a pair of orbiting neutron stars and a star orbiting the black hole at the centre of the Milky Way, each at the size General Relativity gives.
 
@@ -23242,11 +23248,11 @@ Why the outward hold of sideways motion is reduced by exactly the pressure ratio
 
 # Escape Is the Inflow Run Backward
 
-At every distance, the medium’s inflow speed equals the escape speed. **\[Argued\]** Both are $\sqrt{2GM/r}$: 11.2 kilometres a second at the Earth’s surface, 618 at the Sun’s. The first edition reinterpreted escape velocity as “a resonance threshold breach”. The literal account is simpler. The inflow speed at each distance is the speed the medium has gained on its way in from far away; a body carried in from rest far away would arrive at that same speed. **\[Hypothesis\]** A body launched outward at that speed is slowed by the medium’s acceleration exactly as the medium was sped up on its way in, and comes to rest only far away; a slower body is turned back. Escape is the inflow run backward. The river picture of the black hole uses the same fact: the medium flows in at the escape speed, and at the horizon that speed is $c$ (Part 24).[^8]
+At every distance, the medium’s inflow speed equals the escape speed. **\[Argued\]** Both are $\sqrt{2GM/r}$: 11.2 kilometres a second at the Earth’s surface, 618 at the Sun’s. The inflow speed at each distance is the speed the medium has gained on its way in from far away; a body carried in from rest far away would arrive at that same speed. **\[Hypothesis\]** A body launched outward at that speed is slowed by the medium’s acceleration exactly as the medium was sped up on its way in, and comes to rest only far away; a slower body is turned back. Escape is the inflow run backward. The river picture of the black hole uses the same fact: the medium flows in at the escape speed, and at the horizon that speed is $c$ (Part 24).[^8]
 
 # Spin Reaches Out
 
-The first edition said that a spinning body “induces outward ripples in the surrounding graviton field, creating a counter-pressure shell that stabilizes interaction with ambient flow”. In GPT a spinning body winds the counterflow of its ejecta around its axis, turning most strongly toward its equator and not at all along its axis (Part 16). **\[Hypothesis\]** Measurement shows a spinning body reaching out:
+A spinning body induces outward ripples in the surrounding graviton field, creating a counter-pressure shell that stabilises interaction with ambient flow. In GPT a spinning body winds the counterflow of its ejecta around its axis, turning most strongly toward its equator and not at all along its axis (Part 16). **\[Hypothesis\]** Measurement shows a spinning body reaching out:
 
 - **The medium is dragged round.** Gyroscopes orbiting the Earth were turned by 37 milliarcseconds a year by the Earth’s rotation, as Gravity Probe B measured.[^9] The swirl weakens as the inverse cube of distance.
 
@@ -23256,7 +23262,7 @@ The first edition said that a spinning body “induces outward ripples in the su
 
 # Spin and Orbit Lock Together
 
-Tides slow spin toward the orbital rate. **\[Argued\]** A planet raises a tide on its moon and the moon on its planet; the tide is the difference in the medium’s inflow across the body (Part 13).[^13] Friction inside the flexing body makes the bulge lag, and the medium’s pressure on the lagging bulge turns the spin toward the orbital rate. This is the first edition’s graviton torque, $T=-\gamma(\Omega-\Omega_{\text{corr}})$, with $\Omega_{\text{corr}}$ the orbital rate (Part 24). The locks it produces are measured:
+Tides slow spin toward the orbital rate. **\[Argued\]** A planet raises a tide on its moon and the moon on its planet; the tide is the difference in the medium’s inflow across the body (Part 13).[^13] Friction inside the flexing body makes the bulge lag, and the medium’s pressure on the lagging bulge turns the spin toward the orbital rate. This is the graviton torque, $T=-\gamma(\Omega-\Omega_{\text{corr}})$, with $\Omega_{\text{corr}}$ the orbital rate (Part 24). The locks it produces are measured:
 
 - the Moon shows the Earth one face; Pluto and Charon show each other one face;
 
@@ -23269,13 +23275,13 @@ Tides slow spin toward the orbital rate. **\[Argued\]** A planet raises a tide o
 <figcaption>The direction of tidal drift. A moon outside the distance at which an orbit keeps pace with the planet’s spin is pushed outward by the tide; a moon inside it is drawn in. The Moon recedes from the Earth by 3.8 cm a year; Phobos, inside Mars’s synchronous distance, spirals in, while Deimos, outside it, drifts slowly out.</figcaption>
 </figure>
 
-Whether a moon moves out or spirals in is decided by where it orbits, not by which way. **\[Argued\]** The first edition held that retrograde bodies are in discord with the field and tend universally to decay. The measured rule is sharper (Figure <a href="#fig:sync" data-reference-type="ref" data-reference="fig:sync">1</a>). Every planet has a synchronous distance, at which an orbit keeps pace with its spin; for the Earth it is 42,164 kilometres, where geostationary satellites hang. A moon outside it is carried forward by the planet’s tidal bulge and moves outward: lunar laser ranging measures the Moon receding by 3.8 centimetres a year.[^16] A moon inside it lags the bulge and spirals in: Phobos, orbiting Mars well inside its synchronous distance though in the same direction as Mars spins, is drawing inward by about 2 centimetres a year and will break apart or strike Mars within tens of millions of years.[^17] A retrograde moon is always on the losing side, which is why Neptune’s large retrograde moon Triton is expected to spiral in.[^18] But retrograde motion as such is not unstable: Jupiter and Saturn have dozens of small retrograde moons in distant, stable orbits.
+Whether a moon moves out or spirals in is decided by where it orbits, not by which way. **\[Argued\]** The rule is measured (Figure <a href="#fig:sync" data-reference-type="ref" data-reference="fig:sync">1</a>). Every planet has a synchronous distance, at which an orbit keeps pace with its spin; for the Earth it is 42,164 kilometres, where geostationary satellites hang. A moon outside it is carried forward by the planet’s tidal bulge and moves outward: lunar laser ranging measures the Moon receding by 3.8 centimetres a year.[^16] A moon inside it lags the bulge and spirals in: Phobos, orbiting Mars well inside its synchronous distance though in the same direction as Mars spins, is drawing inward by about 2 centimetres a year and will break apart or strike Mars within tens of millions of years.[^17] A retrograde moon is always on the losing side, which is why Neptune’s large retrograde moon Triton is expected to spiral in.[^18] But retrograde motion as such is not unstable: Jupiter and Saturn have dozens of small retrograde moons in distant, stable orbits.
 
-A companion steadies a planet’s axis. **\[Argued\]** The Earth’s axis is tilted by $23.4^\circ$ and varies only between about $22.1^\circ$ and $24.5^\circ$. Laskar’s calculations of 1993 found that without the Moon, the Earth’s tilt would wander widely and chaotically;[^19] later, longer calculations found a narrower but still large range for a moonless Earth.[^20] Mars, with no large moon, has swung between about $15^\circ$ and $45^\circ$ over the last ten million years. In GPT the Moon acts through the medium: **\[Hypothesis\]** its inflow across the Earth’s equatorial bulge turns the Earth’s axis slowly round, once in 25,772 years, fast enough to keep the axis away from the resonances with the other planets that would otherwise rock it. The first edition’s “Earth’s axial tilt stability, sustained by lateral graviton tension, not moment of inertia alone” is close: it is sustained by a companion, acting through the medium.
+A companion steadies a planet’s axis. **\[Argued\]** The Earth’s axis is tilted by $23.4^\circ$ and varies only between about $22.1^\circ$ and $24.5^\circ$. Laskar’s calculations of 1993 found that without the Moon, the Earth’s tilt would wander widely and chaotically;[^19] later, longer calculations found a narrower but still large range for a moonless Earth.[^20] Mars, with no large moon, has swung between about $15^\circ$ and $45^\circ$ over the last ten million years. In GPT the Moon acts through the medium: **\[Hypothesis\]** its inflow across the Earth’s equatorial bulge turns the Earth’s axis slowly round, once in 25,772 years, fast enough to keep the axis away from the resonances with the other planets that would otherwise rock it. The Earth’s axial tilt is sustained by lateral graviton tension, not by its moment of inertia alone: by a companion, acting through the medium.
 
 # Systems Build Their Own Structure
 
-The first edition held that orbits are quantised at radii $r_n=\sqrt{n}\,R_0$. No planetary or moon system is spaced that way: **\[Argued\]** Jupiter’s large moons, for example, are spaced geometrically, their periods in the ratio 1:2:4. At any instant an orbit is possible at any distance. But the first edition’s deeper claim, that “the field remembers” and that “each body’s movement helps maintain the corridor that contains it”, is measured, as structure that systems build over time (Part 16):
+At any instant an orbit is possible at any distance: **\[Argued\]** Jupiter’s large moons, for example, are spaced geometrically, their periods in the ratio 1:2:4. But the field remembers, and each body’s movement helps maintain the corridor that contains it. That is measured, as structure that systems build over time (Part 16):
 
 - **Gaps cleared by resonance.** The Kirkwood gaps in the asteroid belt lie where an asteroid’s period would stand in a simple ratio to Jupiter’s, 3:1, 5:2, 2:1; the Cassini Division in Saturn’s rings begins where ring particles would orbit twice for each orbit of the moon Mimas.
 
@@ -23283,15 +23289,15 @@ The first edition held that orbits are quantised at radii $r_n=\sqrt{n}\,R_0$. N
 
 - **Regular spacing.** Among planetary systems found by the Kepler telescope, neighbouring planets tend to be similar in size and regularly spaced,[^22] and their period ratios gather just wide of 3:2 and 2:1.[^23]
 
-In GPT the carrier of this sorting is the medium: **\[Hypothesis\]** each body’s inflow, ejecta and rotational rhythm meet the others’ (Part 16), and where conjunctions recur at the same places, their effects add over millions of orbits. The first edition’s analogy with electron shells is answered in Part 19: an atom’s shells form at once because the electron’s wave is the size of its orbit; a planet’s wavelength is about $10^{-63}$ metres, so its shells can form only by slow sorting.
+In GPT the carrier of this sorting is the medium: **\[Hypothesis\]** each body’s inflow, ejecta and rotational rhythm meet the others’ (Part 16), and where conjunctions recur at the same places, their effects add over millions of orbits. Planetary shells differ from an atom’s (Part 19): an atom’s shells form at once because the electron’s wave is the size of its orbit; a planet’s wavelength is about $10^{-63}$ metres, so its shells can form only by slow sorting.
 
 # Many Bodies
 
-Where two large bodies orbit each other, there are five places where a small body can keep pace with them, **\[Argued\]** the Lagrange points. Two of them, sixty degrees ahead of and behind the smaller body, are stable if the larger body has more than about 25 times the smaller’s mass, a threshold Routh found in 1875. Jupiter has thousands of Trojan asteroids at these points; the Earth has two known, the first found in 2011.[^24] The first edition read Lagrange points as “harmonic null zones” where graviton flows cancel. In GPT they are places where the combined inflows of the two bodies give the same acceleration that keeps pace with their orbit: **\[Hypothesis\]** the pressures of the two flows combine (Part 7), and a body there coasts in step with both.[^25]
+Where two large bodies orbit each other, there are five places where a small body can keep pace with them, **\[Argued\]** the Lagrange points. Two of them, sixty degrees ahead of and behind the smaller body, are stable if the larger body has more than about 25 times the smaller’s mass, a threshold Routh found in 1875. Jupiter has thousands of Trojan asteroids at these points; the Earth has two known, the first found in 2011.[^24] In GPT they are places where the combined inflows of the two bodies give the same acceleration that keeps pace with their orbit: **\[Hypothesis\]** the pressures of the two flows combine (Part 7), and a body there coasts in step with both.[^25]
 
 # The Exceptions
 
-The first edition read Venus’s backward spin as “field history trauma” and Uranus’s tilt as “a break in corridor continuity”. Both have measured or calculated accounts that GPT can carry.
+Venus’s backward spin and Uranus’s tilt both have measured or calculated accounts that GPT can carry.
 
 - Venus’s day is not steady. **\[Argued\]** Venus turns backward once in 243 Earth days, and the length of its day varies by about twenty minutes as its massive atmosphere trades spin with the solid planet.[^26] Its slow backward spin is understood as a balance between the Sun’s tide on the solid planet and a tide raised in its atmosphere by the Sun’s heating, which pushes the other way.[^27] Both torques act through the medium: **\[Hypothesis\]** the Sun’s inflow across the planet, and its pressure on the redistributed atmosphere.
 
@@ -23299,7 +23305,7 @@ The first edition read Venus’s backward spin as “field history trauma” and
 
 # Unexplained: The Flyby Anomaly
 
-Several spacecraft have gained or lost a few millimetres per second during flybys of the Earth that no known force accounts for. **\[Argued\]** The largest, NEAR in 1998, was 13 millimetres per second. In 2008 Anderson and colleagues fitted the changes with a formula in which the size depends on the spacecraft’s incoming and outgoing angles to the Earth’s equator, and the constant is set by the Earth’s rotation, $2\omega R/c$, where $\omega$ is the Earth’s spin rate and $R$ its radius.[^29] Later flybys reported no anomaly at the size the formula predicts. The anomaly is unexplained. **\[Open\]** A rotational imprint of the Earth on the medium around it, beyond its shape, is GPT’s prediction **\[Hypothesis\]** (Part 16), and the anomaly’s dependence on the Earth’s spin is the kind of signature it would leave; a medium account would have to give both the flybys that showed it and those that did not. The first edition predicted “inertial anomalies in spacecraft” near layered fields; this is the measured case nearest to that prediction.
+Several spacecraft have gained or lost a few millimetres per second during flybys of the Earth that no known force accounts for. **\[Argued\]** The largest, NEAR in 1998, was 13 millimetres per second. In 2008 Anderson and colleagues fitted the changes with a formula in which the size depends on the spacecraft’s incoming and outgoing angles to the Earth’s equator, and the constant is set by the Earth’s rotation, $2\omega R/c$, where $\omega$ is the Earth’s spin rate and $R$ its radius.[^29] Later flybys reported no anomaly at the size the formula predicts. The anomaly is unexplained. **\[Open\]** A rotational imprint of the Earth on the medium around it, beyond its shape, is GPT’s prediction **\[Hypothesis\]** (Part 16), and the anomaly’s dependence on the Earth’s spin is the kind of signature it would leave; a medium account would have to give both the flybys that showed it and those that did not. This is the measured case nearest to GPT’s prediction of inertial anomalies in spacecraft.
 
 # What Remains to Be Derived
 
@@ -23348,6 +23354,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - Withdrawn: satellite “pressure snaps” and spacecraft “coherence loss” at layer boundaries (satellite decay is tracked continuously; spacecraft are navigated to centimetres); galactic “discrete velocity bands” (rotation curves are flat; the relaxation boundary of Part 23 replaces them); layered refraction of light (lensing is continuous, Part 23).
 
 - Removed, as too far from the core: navigation, engineering and gravitational cartography; coherence sensors; “resonance, not mass, governs form”; the undefined terms $L_f$, $A_{\text{spin}}$, $R(\vec v)$, $\xi$, $E_d$ and $C_{\text{motion}}$; the closing passages on song and breath.
+
+- Lagrange points as “harmonic null zones” where flows cancel are restated as places where the combined inflows keep pace with the orbit. The analogy with electron shells is answered by the size of a planet’s wavelength, about $10^{-63}$ metres (Part 19).
 
 ## Clarifications
 
