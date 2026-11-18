@@ -106,6 +106,9 @@ VIDEOS = [
      "The urge to love deeper, forgive harder and grow higher is not just conscience: it is the source within, guiding you.", "spirit", ["seekers"]),
     ("E6hi6EvLJ_4", "The New Morality: Foundation of People of the World", 456, "2025-10-04",
      "Why there are myths and stories about God, and how Jesus changed the spiritual course of Earth.", "spirit", ["new-morality"]),
+    ("KaBQrKla7sM", "The True Meaning of the Pentecost", 395, "2026-11-18",
+     "The events of the Pentecost have been obscured and mistaken for centuries. Examine the true meaning and implications of the most important event that has ever occurred on the planet Earth.",
+     "spirit", ["seekers", "new-morality"]),
     ("Z_7nVSGs9Q0", "People of the World: The Novel", 51, "2025-09-28",
      "A lesson wrapped in a question, presented as a novel.", "spirit", ["books"]),
 ]
@@ -147,7 +150,7 @@ def player(v, compact=False):
     return f"""<figure class="video{' video-compact' if compact else ''}">
 <button class="video-play" type="button" data-yt="{vid}" aria-label="Play video: {e(title)} ({mmss(secs)})">
 <img src="{thumb(vid)}" alt="" loading="lazy" width="480" height="360"><span class="video-btn" aria-hidden="true"></span><span class="video-len">{mmss(secs)}</span></button>
-<figcaption><strong>{e(title)}</strong><span class="muted">{e(desc)}</span><a class="video-yt" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">Watch on YouTube</a></figcaption>
+<figcaption><strong><a class="video-title" href="watch/{vslug(v)}/">{e(title)}</a></strong><span class="muted">{e(desc)}</span><a class="video-yt" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">Watch on YouTube</a></figcaption>
 </figure>"""
 
 
@@ -173,16 +176,105 @@ def section(place, heading, site_url, page_url, intro=""):
     return body, jsonld(vids, site_url, page_url) if vids else ""
 
 
+# Short addresses for videos people will share; every other video gets one made from its title.
+SLUGS = {"KaBQrKla7sM": "pentecost"}
+
+# Where a video's "places" lead, for the Related links on its own page.
+PLACE_LINKS = {
+    "seekers": ("The Search for Meaning: free spiritual teachings", "seekers.html"),
+    "new-morality": ("Read: Salvation and the New Morality", "new-morality/"),
+    "science": ("Graviton Pressure Theory", "science.html"),
+    "books": ("All the books", "books.html"),
+    "hub": ("People of the World: the hub", "index.html"),
+}
+
+
+def _slugify(s):
+    import re
+    return re.sub(r"[^a-z0-9]+", "-", s.lower().replace("’", "").replace("'", "")).strip("-")
+
+
+def vslug(v):
+    return SLUGS.get(v[0]) or _slugify(v[1])
+
+
+def nice_date(d):
+    from datetime import date
+    x = date.fromisoformat(d)
+    return f"{x.day} {x.strftime('%B %Y')}"
+
+
+def _library_links():
+    """Library slugs (gpt-part-07 ...) to (title, page address), read from the catalogue."""
+    from pathlib import Path
+    cat = json.loads((Path(__file__).parent / "src/library/catalog.json").read_text(encoding="utf-8"))
+    out = {}
+    for c in cat.get("framework", []):
+        if c.get("part") and c.get("path"):
+            out[c["slug"]] = (f"Read Part {c['part']}: {c['title']}", f"{LIB_PART}part-{c['part']:02d}-{c['path']}/")
+    return out
+
+
+def related(v, lib):
+    return [PLACE_LINKS.get(p) or lib.get(p) for p in v[6] if PLACE_LINKS.get(p) or lib.get(p)]
+
+
+def latest(n=3):
+    return sorted(VIDEOS, key=lambda v: v[3], reverse=True)[:n]
+
+
+def build_watch_pages(B):
+    """One page per video, at watch/<slug>/, so each has its own link to share."""
+    esc = B.esc
+    lib = _library_links()
+    names = {k: n for k, n, _ in GROUPS}
+    seen = set()
+    for v in VIDEOS:
+        vid, title, secs, date, desc, group = v[:6]
+        s = vslug(v)
+        assert s not in seen, f"two videos share the address watch/{s}/"
+        seen.add(s)
+        fname = f"watch/{s}/index.html"
+        url = f"{B.SITE_URL}/watch/{s}/"
+        rel = related(v, lib)
+        rel_html = ("<div class=\"stack\" style=\"gap:8px\"><p class=\"eyebrow\">Related</p>"
+                    + "".join(f'<a href="{h}" style="font-weight:600">{esc(t)} →</a>' for t, h in rel) + "</div>") if rel else ""
+        more = [x for x in VIDEOS if x[5] == group and x[0] != vid]
+        more = sorted(more, key=lambda x: x[3], reverse=True)[:6]
+        more_html = (f"""<section class="section band-alt"><div class="wrap stack" style="gap:24px">
+<h2 class="h-lg">More in {esc(names.get(group, "Videos"))}</h2>
+<div class="video-grid">{"".join(player(x) for x in more)}</div>
+<p><a class="btn btn-outline" href="videos.html#{group}">See every video</a></p></div></section>""") if more else ""
+        body = f"""{B.header("Watch", "People of the World on video", [("All videos", "videos.html", False, None), ("Subscribe", CHANNEL + "?sub_confirmation=1", True, None)])}
+<main>
+<section class="section"><div class="wrap stack watch-page" style="gap:22px">
+<p class="eyebrow accent"><a href="videos.html#{group}">{esc(names.get(group, "Videos"))}</a></p>
+<figure class="video video-wide"><button class="video-play" type="button" data-yt="{vid}" aria-label="Play video: {esc(title)} ({mmss(secs)})">
+<img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg" onerror="this.onerror=null;this.src='{thumb(vid)}'" alt="" width="1280" height="720"><span class="video-btn" aria-hidden="true"></span><span class="video-len">{mmss(secs)}</span></button></figure>
+<h1 class="h-xl" style="font-size:clamp(30px,5vw,48px)">{esc(title)}</h1>
+<p class="muted">{nice_date(date)} · {mmss(secs)}</p>
+<p class="lead" style="max-width:720px">{esc(desc)}</p>
+<div class="actions"><a class="btn btn-door" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">Watch on YouTube</a>
+<span class="copy-row"><span class="muted">{url}</span><button class="copy-btn" type="button" data-copy="{url}">Copy link</button></span></div>
+{rel_html}
+</div></section>
+{more_html}
+</main>
+{B.footer()}"""
+        B.page(fname, f"{title} · Videos · People of the World", desc, body,
+               extra_head=jsonld([v], B.SITE_URL, url), lastmod=date)
+
+
 def build(B):
     esc = B.esc
     groups = []
     for key, name, intro in GROUPS:
         vids = [v for v in VIDEOS if v[5] == key]
-        groups.append(f"""<section class="section{' band-alt' if len(groups) % 2 else ''}" id="{key}"><div class="wrap stack" style="gap:24px">
+        groups.append(f"""<section class="section{'' if len(groups) % 2 else ' band-alt'}" id="{key}"><div class="wrap stack" style="gap:24px">
 <div class="stack intro"><h2 class="h-lg">{esc(name)}</h2><p class="lead muted">{esc(intro)}</p></div>
 <div class="video-grid">{''.join(player(v) for v in vids)}</div></div></section>""")
     total = sum(v[2] for v in VIDEOS)
-    body = f"""{B.header("Watch", "People of the World on video", [("Start here", "#start", False, None), ("The Deep Dive", "#deepdive", False, None),
+    body = f"""{B.header("Watch", "People of the World on video", [("Latest", "#latest", False, None), ("Start here", "#start", False, None), ("The Deep Dive", "#deepdive", False, None),
                         ("Listen", "#listen", False, None), ("YouTube channel", CHANNEL, True, None)])}
 <main>
 <section class="band"><div class="wrap section stack" style="gap:20px">
@@ -191,6 +283,9 @@ def build(B):
 <p class="lead muted" style="max-width:680px">{len(VIDEOS)} videos and {len(AUDIO)} podcast episodes: short introductions, a part-by-part walkthrough of Graviton Pressure Theory, and talks on The Portal Opens and the New Morality.</p>
 <div class="actions"><a class="btn btn-door" href="#start">Start with the introductions</a><a class="btn btn-ghost" href="{CHANNEL}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a></div>
 </div></section>
+<section class="section" id="latest"><div class="wrap stack" style="gap:24px">
+<div class="stack intro"><h2 class="h-lg">Latest</h2><p class="lead muted">The newest videos, most recent first.</p></div>
+<div class="video-grid">{''.join(player(v) for v in latest())}</div></div></section>
 {''.join(groups)}
 <section class="section band-alt" id="listen"><div class="wrap stack" style="gap:24px">
 <div class="stack intro"><h2 class="h-lg">Listen: The Deep Dive podcast</h2>
@@ -208,6 +303,7 @@ def build(B):
            body, extra_head=jsonld(VIDEOS, B.SITE_URL, f"{B.SITE_URL}/videos.html")
            + f'\n<link rel="alternate" type="application/rss+xml" title="The Deep Dive podcast" href="{B.SITE_URL}/podcast.xml">')
     (B.OUT / "podcast.xml").write_text(podcast_feed(B.SITE_URL), encoding="utf-8")
+    build_watch_pages(B)
 
 
 # ---------------------------------------------------------------- audio: The Deep Dive podcast

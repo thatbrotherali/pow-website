@@ -91,6 +91,10 @@ def head(title, desc, fname="", extra=""):
 
 def header(name="People of the World", sub=None, nav=()):
     sub_html = f'<span class="brand-sub">{esc(sub)}</span>' if sub else ""
+    nav = list(nav)
+    if name != "Watch" and not any(h.split("#")[0] == "videos.html" or h.startswith("watch/") for _, h, *_ in nav):
+        at = next((i for i, (_, _, btn, _) in enumerate(nav) if btn), len(nav))
+        nav.insert(at, ("Watch", "videos.html", False, None))
     links = "".join(
         f'<a href="{h}"{" class=\"btn btn-door\"" if btn else ""}{" data-link=\"" + dl + "\"" if dl else ""}>{esc(t)}</a>'
         for t, h, btn, dl in nav)

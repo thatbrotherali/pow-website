@@ -620,3 +620,11 @@ pre.diagram{font-family:var(--mono);font-size:13px;line-height:1.5;white-space:p
 /* The change log at the end of a revised part starts apart from the text, as on a new page. */
 #changes-in-the-second-edition,#about-this-new-part{margin-top:4.5rem;padding-top:2.25rem;border-top:1px solid var(--line)}
 @media print{#changes-in-the-second-edition,#about-this-new-part{break-before:page;border-top:0;margin-top:0;padding-top:0}}
+
+/* Video channel: titles link to each video's own page */
+.video-title{color:inherit;text-decoration:none}
+.video-title:hover,.video-title:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.watch-page .eyebrow a{color:inherit;text-decoration:none}
+.watch-page .video-wide{max-width:960px;width:100%}
+.watch-page .copy-row{flex-wrap:wrap;min-width:0}
+.watch-page .copy-row>span{overflow-wrap:anywhere;min-width:0}
