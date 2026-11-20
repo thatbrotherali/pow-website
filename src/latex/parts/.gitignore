@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*(2nd ed, review).pdf
+part*/part*.pdf

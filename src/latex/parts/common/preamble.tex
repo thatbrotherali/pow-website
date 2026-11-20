@@ -1,0 +1,52 @@
+% Shared preamble for the second edition of Graviton Pressure Theory.
+% A part's own file sets \gptpart, \gpttitle, \gptsubtitle and \gptdate, then \input{../common/preamble}.
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs,array,tabularx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+\usepackage[authoryear,round]{natbib}
+\usepackage{titlesec}
+\usepackage[titles]{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}
+\renewcommand{\cftsecleader}{\hfill}\setlength{\cftsecnumwidth}{3.2em}
+\usepackage{gpt-status}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parindent}{0pt}
+\setlist{itemsep=2pt,topsep=3pt}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\renewcommand{\thesection}{\gptpart.\arabic{section}}
+\renewcommand{\thetable}{\gptpart.\arabic{table}}
+\renewcommand{\thefigure}{\gptpart.\arabic{figure}}
+\renewcommand{\theequation}{\gptpart.\arabic{equation}}
+\setcounter{tocdepth}{1}
+\makeatletter\renewcommand{\@pnumwidth}{2.2em}\renewcommand{\@tocrmarg}{3em}
+\makeatother
+\bibliographystyle{plainnat}
+\newcommand{\gptitle}{%
+  \begin{titlepage}\centering
+  \vspace*{3cm}
+  {\Huge\bfseries Graviton Pressure Theory\par}\vspace{0.8cm}
+  {\Large The Unified Framework\par}\vspace{0.2cm}
+  {\large Individual Submission\par}\vspace{0.6cm}
+  {\normalsize This document is part of a multi-part scientific framework\par}\vspace{2cm}
+  {\normalsize Part \gptpart\ of 30\par}\vspace{0.8cm}
+  {\huge\bfseries \gpttitle\par}\vspace{0.6cm}
+  {\Large \gptsubtitle\par}\vspace{1.5cm}
+  {\small\begin{minipage}{0.75\textwidth}\centering This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see https://peopleoftheworld.net/graviton-pressure-theory/.\end{minipage}\par}
+  \vfill
+  {\large Author: Shareef Ali Rashada\par}\vspace{0.2cm}
+  {\normalsize shareef@peopleoftheworld.net\par}\vspace{0.5cm}
+  {\normalsize Second edition, \gptdate\par}
+  \end{titlepage}
+  \setcounter{page}{1}\tableofcontents\clearpage}

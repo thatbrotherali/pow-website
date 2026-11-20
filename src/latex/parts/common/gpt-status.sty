@@ -1,0 +1,45 @@
+% gpt-status.sty -- claim-status marks for the second edition of Graviton Pressure Theory.
+% \argm{..} Argued: solid blue underline.   \hypm{..} Hypothesis: dashed orange underline.
+% \openm{..} Open: dotted grey underline and a small circle.
+% argbar / hypbar / openbar: a whole passage, with a bar of the same style in the left margin.
+% \statuskey prints the key.  Each mark also carries its status word as invisible text,
+% so that copied text, screen readers and AI readers see "[Argued]" etc.
+% Underlines do not break across lines: keep marked phrases to a line or two.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{gpt-status}[2026/11/20 GPT claim-status marks]
+\RequirePackage{xcolor}
+\RequirePackage{tikz}
+\RequirePackage[framemethod=TikZ]{mdframed}
+\RequirePackage{pdfrender}
+\definecolor{gptarg}{HTML}{1F5FAD}
+\definecolor{gpthyp}{HTML}{C8650A}
+\definecolor{gptopen}{HTML}{8A8A8A}
+\newcommand{\gpt@hidden}[1]{\rlap{\textpdfrender{TextRenderingMode=Invisible}{\,[#1]}}}
+\newcommand{\gpt@ul}[3]{% style, colour, text
+  \tikz[baseline=(t.base)]{\node[inner sep=0pt,outer sep=0pt](t){#3};
+    \draw[#2,line width=0.6pt,#1]([yshift=-2.2pt]t.south west)--([yshift=-2.2pt]t.south east);}}
+\newcommand{\gpt@mark}[4]{\gpt@ul{#1}{#2}{#4}\gpt@hidden{#3}}% style, colour, word, text
+\newcommand{\argm}[1]{\gpt@mark{}{gptarg}{Argued}{#1}}
+\newcommand{\hypm}[1]{\gpt@mark{dash pattern=on 2.6pt off 1.6pt}{gpthyp}{Hypothesis}{#1}}
+\newcommand{\openm}[1]{\gpt@mark{dotted}{gptopen}{Open}{#1}\,{\color{gptopen}$\circ$}}
+\newcommand{\gpt@bartag}[2]{{\sffamily\fontsize{6.5}{8}\selectfont\color{#1}\MakeUppercase{#2}\par}\vspace{2pt}}
+\mdfdefinestyle{gpt@bar}{topline=false,bottomline=false,rightline=false,leftline=true,
+  linewidth=1.1pt,innerleftmargin=10pt,innerrightmargin=0pt,innertopmargin=2pt,innerbottommargin=2pt,
+  leftmargin=-12pt,rightmargin=0pt,skipabove=8pt,skipbelow=6pt,backgroundcolor=white}
+\newenvironment{argbar}{\begin{mdframed}[style=gpt@bar,linecolor=gptarg]\gpt@bartag{gptarg}{Argued}\gpt@hidden{Argued: the passage that follows}}{\end{mdframed}}
+\newenvironment{hypbar}{\begin{mdframed}[style=gpt@bar,linecolor=gpthyp,tikzsetting={draw=gpthyp,line width=1.1pt,dash pattern=on 4pt off 2.5pt}]\gpt@bartag{gpthyp}{Hypothesis}\gpt@hidden{Hypothesis: the passage that follows}}{\end{mdframed}}
+\newenvironment{openbar}{\begin{mdframed}[style=gpt@bar,linecolor=gptopen,tikzsetting={draw=gptopen,line width=1.1pt,dash pattern=on 1pt off 2pt}]\gpt@bartag{gptopen}{Open}\gpt@hidden{Open: the passage that follows}}{\end{mdframed}}
+\newcommand{\statuskey}{%
+  \par\medskip\noindent\fcolorbox{black!35}{black!3}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule}\small\sffamily
+  \textbf{How to read the marks.} Claims about Graviton Pressure Theory are marked by how far they are established.\par\smallskip
+  \begin{tabular}{@{}p{0.27\linewidth}p{0.66\linewidth}@{}}
+  Established & No mark. Accepted, measured physics.\\
+  \argm{Argued} & Solid blue underline. A conclusion this framework argues in detail, which readers can check.\\
+  \hypm{Hypothesis} & Dashed orange underline. A proposal of GPT, not yet tested.\\
+  \openm{Open} & Dotted grey underline and $\circ$. A question not yet answered; work still owed.
+  \end{tabular}\par\smallskip
+  A whole passage with one status carries a bar of the same style in the left margin. The marks are drawn in distinct line styles, so they read in black and white.
+  \end{minipage}}\par\medskip}
+% \fn{key}: a citation as a footnote.  Inside a box use \footnotemark and \footnotetext after it.
+\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
+\endinput
