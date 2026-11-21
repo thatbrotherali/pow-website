@@ -88,8 +88,14 @@ def main():
     # pandoc numbers nothing on the web; drop the unnumbered class it would add to starred sections
     h = re.sub(r'<figure>\s*<img src="(assets/figures/[^"]+)"[^>]*/>', r'<figure>\n<img src="\1" alt="" />', h)
     # numbered sections carry their print numbers (starred ones stay unnumbered)
-    n = iter(range(1, 1000))
-    h = re.sub(r'<h2 id="([^"]+)">', lambda m: f'<h2 id="{m.group(1)}"><span class="secno">{part}.{next(n)}</span> ', h)
+    sec = [0, 0]
+    def num(m):
+        if m.group(1) == "2":
+            sec[0] += 1; sec[1] = 0; no = f"{part}.{sec[0]}"
+        else:
+            sec[1] += 1; no = f"{part}.{sec[0]}.{sec[1]}"
+        return f'<h{m.group(1)} id="{m.group(2)}"><span class="secno">{no}</span> '
+    h = re.sub(r'<h([23]) id="([^"]+)">', num, h)
     # tables and figures carry their numbers on the web as in print; widths are left to the stylesheet
     h = re.sub(r'<table style="[^"]*">', "<table>", h)
     h = re.sub(r'<col style="[^"]*" />', "<col />", h)

@@ -39,7 +39,7 @@ The figures are measured.[^4][^5][^6][^7] The Sun’s outflow fills a bubble abo
 
 These contents act on light, and physicists correct for them every day. The plasma slows radio waves, slightly more at lower frequencies, and astronomers measure the gas between us and a distant pulsar by how much later its low-frequency pulses arrive.[^9] Near the Sun the effect is large enough that the Cassini mission sent its signals on two radio frequencies to cancel it, before it could measure the delay the Sun itself causes.[^10] In practice, then, space acts as a medium for light.
 
-Interplanetary space is also sparse. Five particles in a cubic centimetre is emptier than the best laboratory vacuum, which still holds tens of thousands of molecules in the same volume. At visible frequencies the plasma’s effect on light is almost nil, and light still travels at exactly $c$, with the same measured properties of space that set $c$ in a laboratory. So the measured matter alone does not set **\[Hypothesis\]** the speed of light, and something else is there whose properties those are. The star, its outflow, its light and the medium act as one system, **\[Hypothesis\]** not as four things to be weighed one at a time.
+Interplanetary space is also sparse. Five particles in a cubic centimetre is emptier than the best laboratory vacuum, which still holds thousands of molecules in the same volume. At visible frequencies the plasma’s effect on light is almost nil, and light still travels at exactly $c$, with the same measured properties of space that set $c$ in a laboratory. So the measured matter alone does not set **\[Hypothesis\]** the speed of light, and something else is there whose properties those are. The star, its outflow, its light and the medium act as one system, **\[Hypothesis\]** not as four things to be weighed one at a time.
 
 # One Medium, Many Voices
 
@@ -129,7 +129,7 @@ Light is a transverse wave of the medium: the medium’s own sideways motion, ha
 
 **Speed.** Measured locally, with local rulers and clocks, light’s speed is always $c$, in every direction and at every place. Every ruler and clock is itself a pattern of the medium, changed by the medium’s streaming in the same proportion as light (Part 23), so a local measurement of light’s speed always gives $c$. **\[Argued\]**
 
-Seen from far away, light is slowed near a mass. The medium’s index rises **\[Hypothesis\]** where its active pressure is lowered, toward a mass (Part 23). This slowing is measured directly: radio signals passing close to the Sun arrive later than they would by a straight path through unslowed space, by about a quarter of a millisecond on a round trip to Mars when it lies behind the Sun, an effect first predicted by Shapiro in 1964 and confirmed by Cassini to one part in 100,000.[^18][^19] The same slowing bends light by 1.75 arcseconds at the edge of the Sun, as a lens of graded glass bends it.
+Seen from far away, light is slowed near a mass. The medium’s index rises **\[Hypothesis\]** where its active pressure is lowered, toward a mass (Part 23). This slowing is measured directly: radio signals passing close to the Sun arrive later than they would by a straight path through unslowed space, by about a quarter of a millisecond on a round trip to Mars when it lies behind the Sun, an effect first predicted by Shapiro in 1964 and confirmed by Cassini to a few parts in 100,000.[^18][^19] The same slowing bends light by 1.75 arcseconds at the edge of the Sun, as a lens of graded glass bends it.
 
 **Every colour at one speed.** In space, light of every frequency travels at the same speed. Gamma rays of very different energies from a burst seven billion years away arrived within a second of each other.[^20] The medium does not spread light out by colour. **\[Argued\]** Matter does: in glass, blue light is slowed more than red, which is how a prism separates them.
 
@@ -155,7 +155,7 @@ Matter answers light by rhythm. Each pattern of matter has rhythms of its own, i
 |:------------|:-------------------|:------------------------------------------------------------------------------|
 | Radio       | below 300 MHz      | Charges in conductors, moving together: antennas                              |
 | Microwave   | 300 MHz to 300 GHz | Molecules turning: water heated in an oven                                    |
-| Infrared    | to 400 THz         | Bonds vibrating: heat radiated and absorbed                                   |
+| Infrared    | to 430 THz         | Bonds vibrating: heat radiated and absorbed                                   |
 | Visible     | 430–750 THz        | Outer electrons changing pattern: sight, photosynthesis                       |
 | Ultraviolet | to 30 PHz          | Outer electrons freed, bonds broken: sunburn, damage to DNA                   |
 | X-rays      | to about 30 EHz    | Inner electrons; light atoms pass it, heavy atoms stop it: bone shows on film |
@@ -171,7 +171,7 @@ One spectrum, many answers. What in matter responds to light at each rhythm.
 
 # Electricity in the Medium
 
-**Charge.** Charge is the handedness of matter’s knot **\[Hypothesis\]** (Part 19): a pattern circulating at the speed of light, turning one way or the other relative to the medium’s flow. Like hands send out the medium in phase and push each other apart; unlike hands leave a deficit between them and are drawn together. Charge is exactly quantised and conserved because a winding comes in whole turns and cannot be undone except by its mirror image.
+**Charge.** Charge is the handedness of matter’s knot **\[Hypothesis\]** (Part 19): a pattern circulating at the speed of light, turning one way or the other relative to the medium’s flow. Like hands send out the medium in phase and push each other apart; unlike hands leave a deficit between them, and the medium’s pressure from outside pushes them together. Charge is exactly quantised and conserved because a winding comes in whole turns and cannot be undone except by its mirror image.
 
 **The electric field and voltage.** The electric field is the medium’s strain **\[Hypothesis\]** around a charge, as Maxwell’s medium had it: an elastic displacement held while the charge is there. Voltage is the energy given to each unit of charge as it moves through that strain from one place to another. A capacitor stores energy in the strained medium between its plates, $\tfrac12\varepsilon_0E^2$ in every cubic metre; a dielectric between the plates stores more, because its own patterns yield to the strain as well. The same yielding slows light in that material, so for frequencies the material’s patterns can follow, the dielectric constant and the refractive index are one measurement, $n^2 = \varepsilon_r$.
 

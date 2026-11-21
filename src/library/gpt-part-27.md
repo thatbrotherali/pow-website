@@ -1,435 +1,422 @@
-# Natural Force Re-imagined
+# Natural Force
 
-*The Collapse of Force Categories Through Graviton Field Coherence*
+*Every Force and Its Carrier*
 
 By Shareef Ali Rashada
 
-## The Historical Fracturing of Force
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-Classical physics, born of observation and mechanical simplification, broke the experience of interaction into labeled categories:
+# About This Paper
 
-- Weight
+Classical physics broke the experience of interaction into labelled categories: weight, tension, compression, friction, the normal force, the spring force, shear, buoyancy, inertia and reaction. They were named separately not because they come from separate causes, but because the framework that named them had no way to unify them. Each was treated as a phenomenon with its own rules, applied as needed. Even within Newton’s mechanics, the normal force is a placeholder, friction an empirical rule, inertia a mystery labelled as a property, and action and reaction a rule without a mechanism. General Relativity recast gravity as geometry and left the rest as it was.
 
-- Tension
+This paper gives each force its mechanism in the medium: what touches what, what is exchanged, and what the measurements say. It then treats the structure of solids as field dynamics: how a material springs back, yields, hardens and breaks, and what each stage means for the phase relations that hold it together. It ends with phase itself, as the gate that decides what passes through structured matter. In each section GPT’s account comes first and the measurements that check it follow.
 
-- Compression
+This is the second edition; what changed from the first is listed at the end. Claims are marked by their status, as the key shows.
 
-- Friction
+# One Medium, Many Carriers
 
-- Normal force
+All classical forces are expressions of the interaction between external graviton field pressure and the internal coherence structure of matter. Every force must name its carrier, **\[Argued\]** and not every force is a push (Part 7).[^1] A force that draws bodies together is acceptable once its carrier is named; a push that names no carrier is a placeholder too. The external medium, and the internal structure of matter that the medium has organised, are between them the source of every everyday force.
 
-- Spring force
+<div id="tab:carriers">
 
-- Shear
+| **Force**                  | **Carrier in GPT**                                                                                          | **Measured law**            | **Where**             |
+|:---------------------------|:------------------------------------------------------------------------------------------------------------|:----------------------------|:----------------------|
+| Weight                     | the medium’s inflow, delivering momentum to every particle; a scale reads the rate at which it is passed on | $W=mg$                      | Parts 6, 7, 11        |
+| Normal force               | delivered momentum passed through the bonds of the support, with exclusion where the surfaces meet          | equals the load passed on   | Section 27.2; Part 21 |
+| Tension                    | a line of bonds, each lengthened slightly and holding; fails at a threshold                                 | Hooke’s law; speed of sound | Section 27.5          |
+| Compression, spring, shear | bonds displaced and re-settling; the phase relation of the lattice held                                     | Hooke’s law; moduli         | Section 27.7          |
+| Friction                   | the two surfaces’ patterns locking where they are in step                                                   | $F=\mu N$                   | Section 27.6          |
+| Buoyancy                   | the fluid’s own load, passed down through it                                                                | Archimedes’ principle       | Section 27.9          |
+| Centripetal force          | not a separate force: whichever carrier turns the path                                                      | $mv^2/r$                    | Part 26               |
+| Inertia                    | the carved path: a moving body’s front-to-back imbalance in its exchange with the medium                    | $F=ma$                      | Section 27.4          |
+| Reaction                   | pressure acting equally both ways at a contact; each body carried by the other’s inflow                     | equal and opposite          | Section 27.3          |
 
-- Reaction
+Everyday forces, their carriers in GPT, the laws they obey and where each is worked out.
 
-These were named not because they emerged from separate causes, but because the prevailing framework had no way to unify them. Each force type was treated as:
+</div>
 
-- A distinct phenomenon
+<span id="tab:carriers" label="tab:carriers"></span>
 
-- With its own rules
+**\[Hypothesis: the passage that follows\]**
 
-- Applied as needed to model observable outcomes
+**In GPT every carrier is the medium, or a pattern of it.** Matter is made of knots of the medium (Part 19).[^2] So:
 
-And yet, this system has always been an uneasy patchwork. Even within Newtonian [^1] mechanics:
+- **gravity** is carried by the medium’s inflow, which delivers momentum to every particle in proportion to its mass (Part 14);
 
-- “Normal force” is a placeholder
+- **contact and hardness** are carried by exclusion: patterns of the same circulation cannot occupy one place and push each other apart (Part 19);
 
-- “Friction” is an empirical approximation
+- **bonds** are carried by patterns overlapping in spatial phase and shared by electrons of opposite circulation (Part 19);
 
-- “Inertia” is a mystery labeled as property
+- **magnetism** is carried by the medium’s swirl (Part 22).[^3]
 
-- “Action-reaction” is a tautology without mechanism
+The everyday forces are these, passed through the structure of matter. The internal coherence structure of matter is that structure: the bonds and their phase relations, the lines along which load is passed (Part 21), and the order that holds them in step (Part 20).
 
-General Relativity recast force as geometry, abstracting it into spacetime curvature—but this move sacrificed causality and physical mechanism. Now, Graviton Pressure Theory (GPT) invites us to restore the causality: Not by explaining each force separately, but by revealing that all forces are expressions of graviton field pressure acting on coherent structures[^2].
+**\[End of passage\]**
 
-## Reunifying Matter and Pressure in GPT
+Table 27.1 lists each everyday force with its carrier, the law it obeys, and where it is worked out.
 
-## From Conceptual Fracture to Causal Reinterpretation
+# The Normal Force
 
-Having revealed the fragmented and metaphor-driven legacy of classical force categories, we now move to explicitly reinterpret these interactions through the coherent pressure dynamics of GPT. This is not merely a semantic shift, but a mechanistic redefinition grounded in directional graviton flow, coherence resistance, and internal field symmetry.
+Named alone, the normal force is a placeholder. Consider a person on a scale. The medium’s pressure passes through the person into the Earth; the person’s structure resists it; the surface beneath provides structural resistance; the scale measures the resistance, not a pull. The carrier of that resistance is the structure itself. **\[Hypothesis\]** The medium delivers momentum to every particle of the person in proportion to its mass (Part 14). Each layer of the body passes that momentum to the layer beneath, through its bonds, and at the soles of the feet the patterns of skin and scale push each other apart. The scale passes it to the floor, and the floor to the Earth. A scale reads the rate at which momentum arrives through it (Part 6).[^4]
 
-### From Classical Force to Graviton Field Tension
+Every part of this is measured **\[Argued\]** (Part 21):[^5] the bonds shorten under the load, by nanometres in a table under a book; the load takes time to pass, travelling at the speed of sound in the material; and it follows paths set by structure, as the force chains in a pile of grains show. The reading does not depend on the area of contact: a scale reads the same whether a person stands on one foot or two.
 
-In traditional mechanics, forces are treated as distinct, often unconnected interactions: gravity pulls, springs resist, surfaces push back. Each is treated as a distinct cause, demanding its own postulate, empirical fudge, or geometric patch. But under Graviton Pressure Theory (GPT), all mechanical forces are redefined as manifestations of a single underlying reality:
+# Action and Reaction
 
-> All classical forces are expressions of the interaction between external graviton field pressure and the internal coherence structure of matter.
+Stated alone, action and reaction is a tautology without mechanism. GPT gives it one, in two cases. **\[Hypothesis\]**
 
-This reinterpretation provides a unified causal basis for what were previously unrelated mechanical behaviors. GPT preserves predictive validity while replacing the metaphorical scaffolding with field-based causality rooted in pressure gradients, coherence thresholds, and structural resistance to compression.
+- **At a contact**, two surfaces push each other apart through the pressure where their patterns meet. Pressure acts equally in every direction, so the push on each side is the same.
 
-This document provides a direct, systematic mapping of classical mechanics into the GPT framework, offering equations, scenarios, and visual conversions where applicable.
+- **In gravity**, each body is carried by the other’s inflow, in proportion to its own mass: the Earth delivers $m\cdot GM/r^2$ to a body of mass $m$, and the body delivers $M\cdot Gm/r^2$ to the Earth. The two are equal and opposite (Part 7).
 
-## Unified Interpretation Table: Classical vs GPT
+Measurement agrees in both cases: **\[Argued\]** forces at contacts balance in every test, and the Earth and Moon orbit their common centre, the Earth swinging round it once a month.
 
-| **Classical Force** | **Mechanism (Classical)**               | **GPT Interpretation**                                                                         |
-|:--------------------|:----------------------------------------|:-----------------------------------------------------------------------------------------------|
-| Weight (Fg)         | $F = mg$ (downward force)               | Graviton field pressure resisted by body coherence                                             |
-| Normal Force        | Surface pushes upward to balance weight | Local field resistance of lattice prevents compression                                         |
-| Tension             | String transmits pulling force          | Alignment of coherent corridors under tensile graviton pressure                                |
-| Spring Force        | $F = -kx$ (Hooke’s Law)                 | Compression modifies coherence density; restoring force arises from graviton field realignment |
-| Friction            | Surface resists motion via interlocking | Shear deformation of coherence fields; energy dissipation via pressure redistribution          |
-| Inertia             | Mass resists acceleration               | Coherent field absorbs incoming graviton flux with temporal lag                                |
-| Centripetal Force   | Radial inward force                     | Coherence boundary resists graviton deflection pressure in curved motion                       |
-| Buoyancy            | Archimedes’ Principle                   | Graviton field net pressure is reduced in denser surrounding medium                            |
+# Inertia and Acceleration
 
-### Example: A Person Standing on a Scale
+Inertia is a matter of graviton field saturation and directional memory, in three parts:
 
-**Classical View:**
+- *Field imprint*: when a body moves, its structure establishes a dominant directional resonance with the field;
 
-- Gravity pulls mass downward with $F = mg$.
+- *directional preference*: any change of direction must overcome that established resonance, and this is perceived as inertia;
 
-- Surface of the scale pushes upward with equal and opposite normal force.
+- *mass connection*: mass is the degree of saturation and phase stability; higher saturation needs more pressure to reconfigure, so more inertia.
 
-- Scale measures this force as weight.
+**\[Hypothesis: the passage that follows\]**
 
-**GPT View:**
+**Each has a mechanism, worked out in Parts 11, 17 and 19.**
 
-- Graviton field exerts anisotropic pressure from above, passing through the person into the Earth.
+- **The imprint is the carved path.** A moving body takes in the medium faster at its leading face than at its trailing face, and that front-to-back imbalance is its momentum (Part 11).[^6] It is a direction written into the body’s exchange with the medium.
 
-- The person’s internal coherence structure resists this pressure.
+- **The preference is the cost of rewriting it.** Held steady, the imbalance costs nothing, and the body coasts. Changing its direction or size means changing the exchange at every face, and that costs force: $F=ma$, rising as $\gamma^3$ along the motion as the speed of light is approached.
 
-- The surface provides structural resistance; the pressure differential across the base compresses into the scale.
+- **The saturation is the circulation.** Mass is energy confined in circulation at the speed of light: a knot of the medium turning on itself (Parts 17 and 19). The more energy circulates in a body, the more there is whose direction of exchange must be rewritten, and the greater the inertia.
 
-- Scale measures the net coherent resistance to field pressure—field tension, not pulling force.
+**\[End of passage\]**
 
-**Equation (GPT)**: $$P_g = \frac{F_{\text{net}}}{A} \rightarrow F_{\text{GPT}} = A \cdot P_g = A \cdot \frac{\nabla P_g}{\rho}$$ Where:
+Acceleration is a rewriting **\[Argued\]** that travels through the body. Acceleration is a restructuring of internal corridor alignment: sudden acceleration causes field stress; gradual pressure changes allow smoother reconfiguration. That is measured. A push applied to one face of a body does not reach the far face at once: it travels through at the speed of sound in the material, about 5,900 metres a second in steel, as each layer of bonds is compressed and passes the change on. Applied slowly, the push reaches every layer before the next increment arrives, and the body accelerates as a whole with little internal stress. Applied suddenly, as in an impact, the change is concentrated in a front that runs through the body, and the stress there can far exceed what the same final force would cause if applied gradually. This is why a blow breaks what a steady load of the same size does not. A body’s mass is the same however quickly it is pushed; only the stress inside it depends on how quickly.
 
-- $P_g$ is graviton pressure at surface contact
+# Tension
 
-- $A$ is contact area
+Tension is a bidirectional stabilising pressure: corridors are established along the length of a rope or beam; a load at its ends challenges their alignment; the structure responds to restore it; and when the applied gradient exceeds the material’s coherence threshold, the corridors collapse and it breaks. The threshold correlates directly to tensile strength.
 
-- $\rho$ is local graviton permeability (inverse coherence density)
+**\[Hypothesis: the passage that follows\]**
 
-- $\nabla P_g$ is the graviton pressure gradient
+**The corridor is a line of bonds.** A rope under tension is a line of bonds, each lengthened slightly and holding against further lengthening, along which the load is passed from end to end: a corridor of load in the sense of Part 21. Loaded harder, each bond lengthens further until the weakest gives; the threshold at which the line of bonds fails is the tensile strength. The carrier is named, as Part 7 requires: the rope.
 
-In Newtonian mechanics, **tension** is modeled as a pulling force transmitted through a string, cable, or structural element. It is considered uniform along a massless, ideal medium, with the force acting outward from the object and inward toward the center of the tether.
+**\[End of passage\]**
 
-**In GPT**, tension is redefined as a *bidirectional stabilizing pressure* resulting from the internal graviton field coherence within a tethered medium. The medium (e.g., a rope or beam) is not passively conducting force—it is *resisting deformation* due to graviton pressure alignment being challenged by external vector displacements at its ends.
+Tension travels at the speed of sound, **\[Argued\]** not instantly. A Slinky held from its top and released shows it: its bottom stays where it was, hanging in mid-air, until the change in tension travelling down the spring reaches it.[^7] Why a stretched bond resists lengthening, **\[Open\]** in terms of what touches what in the medium, is owed. GPT’s programme (Part 7) reads every force that seems to draw things together as a deficit of pressure relative to the surroundings, as the atmosphere presses together the two halves of an evacuated sphere; for the bond, that account is not yet worked out.
 
-- **Mechanism:** Graviton field corridors are established along the length of the object. When a pulling force is applied at one or both ends, the coherence of these internal corridors is challenged. Tension arises as a *field compression response*, restoring corridor alignment.
+# Friction
 
-- **Transmission:** Because graviton fields propagate pressure at near-instant response time across coherent lattices, tension stabilizes bidirectionally along the length of the object *without requiring mass transfer*. No particles “pull”—the field reconfigures to resist spatial distortion.
+Friction is the medium’s resistance at the junction of two structures. Each body in contact possesses its own internal graviton corridor alignment. When one body attempts to move across another, the interface fields attempt to remain synchronised. The energy lost to friction becomes heat, a manifestation of failed graviton alignment at field junctions.
 
-- **Failure Mode:** When the applied pressure gradient exceeds the graviton coherence threshold of the material, the internal corridor structure collapses—causing a break. This correlates directly to tensile strength.
+**\[Hypothesis: the passage that follows\]**
 
-### Friction as Decoherence Dissonance
+**Friction is the interface staying in step.** Where the patterns of two surfaces are in step, they lock together, as two meshing combs do, and sliding one over the other means lifting every contact out of its place at once. That locked relation is what resists. Where the two surfaces’ patterns are out of step, there is nothing to lock: at every moment as many contacts are being lifted as are settling, the pushes cancel, and the surfaces glide (Figure 27.1).
 
-In classical physics, **friction** is described as a resistive force arising from surface irregularities and electromagnetic interactions at the atomic level. It opposes relative motion.
+**\[End of passage\]**
 
-**GPT reframes friction** as *decoherence dissonance*—the graviton field’s resistance to abrupt transitions between unaligned coherence domains.
+<figure id="fig:friction">
+<img src="assets/figures/fig27-1-friction.svg" />
+<figcaption>Why surfaces in step grip and surfaces out of step glide. Above: a rigid layer of atoms resting on a surface, in step (left) and with a different spacing (right). Below: the resistance to sliding, per atom, as the layer is moved. In step, every atom must climb out of its hollow together; out of step, the climbing and descending atoms cancel.</figcaption>
+</figure>
 
-- **Surface Contact:** Each body in contact possesses its own internal graviton corridor alignment. When one body attempts to move across another, the interface fields attempt to remain synchronized.
+This is measured. **\[Argued\]** In 2004 Dienwiebel and colleagues slid a tiny flake of graphite across a graphite surface. When the flake’s lattice was turned into step with the surface beneath, the two locked and resisted sliding; turned out of step, the flake slid with almost no friction at all, a state now called superlubricity.[^8] Synchronisation decides friction: in step, the surfaces hold; out of step, they glide.
 
-- **Resulting Resistance:** Misaligned field coherence at the boundary generates *non-harmonic interference*, which acts as an opposing field pressure. This is perceived macroscopically as friction.
+Ordinary surfaces touch only at the tips **\[Argued\]** of their roughness. Friction is proportional to the load pressing two surfaces together and does not depend on their apparent area (Amontons, 1699), because the real area of contact, the tips of the roughness pressed together, grows in proportion to the load.[^9] Each tip is a small interface where the two surfaces’ patterns meet; **\[Hypothesis\]** where they come into step they lock, and sliding breaks and re-forms these locked junctions. More load, more junctions, more friction.
 
-- **Thermal Conversion:** Energy lost to friction is graviton resonance energy converted into stochastic decoherence. Thermal agitation (heat) is thus reframed as a manifestation of failed graviton alignment at field junctions.
+The energy friction takes becomes heat. **\[Argued\]** In Part 20’s account, heat is energy delivered as disordered motion: the breaking of locked junctions sets the atoms near the surface jostling out of step, and the jostling spreads as knocks.[^10]
 
-### Inertia as Graviton Field Saturation Memory
+# Deformation as Field Dynamics
 
-**Inertia**, classically, is the resistance of an object to changes in its state of motion—quantified via mass.
+Deformation is the visible sign of field phase failure: a solid is held by the phase relations of its internal structure, and how it deforms is how those relations give way. Parts 20 and 21 give this a measured foundation.
 
-**In GPT**, inertia is *not a property of mass*, but a *property of graviton field saturation and directional memory*.
+## Three regimes
 
-- **Field Imprint:** When a body moves through space, its coherent graviton field corridors establish a dominant directional resonance.
+**\[Hypothesis: the passage that follows\]**
 
-- **Directional Preference:** Any attempt to change that direction must overcome the established corridor resonance. This is perceived as inertia.
+There are three regimes, and each corresponds to a measured mechanism.
 
-- **Mass Connection:** What we call "mass" is the degree of field saturation and phase stability. Higher saturation requires greater external pressure to reconfigure—thus greater inertia.
+- **Elastic deformation is partial phase misalignment that recovers.** The bonds are stretched or compressed, the lattice’s arrangement is distorted, but its common phase holds, and when the load is removed each bond re-settles where it was. This is Hooke’s law: the deformation is in proportion to the load.
 
-### Acceleration as Phase-Shifted Corridor Rewriting
+- **Plastic deformation is local phase collapse and re-locking in a new arrangement.** A crystal yields not all at once but along lines where its arrangement is out of step, dislocations, which move by re-locking one row of atoms at a time (Part 21). Each passage leaves the lattice locked again, but shifted: coherence is exceeded and reorganises under a new flow topology.
 
-Acceleration is usually defined as the change in velocity due to net external force.
+- **Fracture is irrecoverable failure.** Bonds separate along a path, and the lines along which the load was passed are severed: the corridors are severed, and no reconstitution pathway remains.
 
-In GPT, **acceleration is a restructuring of internal corridor alignment**.
+**\[End of passage\]**
 
-- **Force Applied:** External graviton pressure gradients push against the internal field stability of a body.
+## Yield and the distortion ratio
 
-- **Field Response:** Acceleration occurs when the internal corridors begin to realign their phase and orientation to match the incoming directional pressure.
+Yield strength is the maximum differential pressure a structure can resist before realignment becomes energetically favoured over phase retention. The graviton coherence distortion ratio, the applied gradient over the structure’s coherence, measures how close a structure is to it: when the ratio exceeds unity, plastic deformation becomes irreversible.
 
-- **Limits:** Sudden acceleration causes field stress—manifesting as inertial resistance. Gradual pressure changes allow smoother reconfiguration.
+The measured law has exactly this form. **\[Argued\]** Schmid found in 1924 that a single crystal begins to slip when the shear stress resolved onto one of its slip planes reaches a fixed critical value, whatever the direction of the load.[^11] The ratio of the resolved stress to that critical value is the distortion ratio, and slip begins where it reaches one. In GPT the critical value is the stress **\[Hypothesis\]** at which a dislocation can re-lock the next row more readily than the lattice can keep its present arrangement: realignment energetically favoured over phase retention.
 
-### Conclusion 
+## Stress, strain and elasticity
 
-This segment recontextualizes tension, friction, inertia, and acceleration as *graviton field phenomena*. No Newtonian force primitives are required. All behavior is explained through the interplay between external graviton pressure and internal structural coherence.
+Stress is momentum passed through the bonds. **\[Hypothesis\]** Stress is the incoming pressure gradient relative to the coherence resistance of the material, and strain is the degree of corridor reconfiguration. In the terms of Part 21, stress is the momentum passed through each area of a material each second, along its bonds, and strain is how far each bond has re-settled to pass it.
 
-## Structural Deformation and Field-Based Mechanics
+Elasticity is coherence memory: the more coherent the material’s field, the greater its tendency to restore its prior shape. Stiffness tracks the energy of the bonds. **\[Argued\]** Across the metals, the resistance to compression follows from how much energy the bonds hold and how quickly it changes as they are squeezed, one relation fitting them all.[^12] Diamond, with its bonds packed densely, is the stiffest solid known, with a bulk modulus of 443 gigapascals; lead’s is 46 (Part 24).[^13] In GPT the energy of the bonds is the energy of the medium **\[Hypothesis\]** organised into them, the second pressure of Part 20, and stiffness is how strongly that organisation returns.
 
-### Deformation as Field Phase Failure
+## Plasticity: hardening, brittleness and ductility
 
-In classical mechanics, deformation is the alteration of a body’s shape under applied force. It is split into elastic (reversible) and plastic (permanent) regimes. Graviton Pressure Theory (GPT) reframes this entirely:
+Three behaviours of plastic materials follow from how their order can reconfigure.
 
-**Deformation is not the consequence of applied force. It is the visible sign of graviton field phase failure.**
+- Brittleness: **\[Argued\]** high field coherence but low plastic adaptability causes immediate rupture. Diamond and ceramics, whose dislocations can barely move, cannot yield, and when loaded past their strength they break.
 
-Each material structure is sustained by an internal graviton lattice that defines its equilibrium state. When external pressure from the graviton field overwhelms this coherence:
+- Ductility: **\[Argued\]** field networks that reconfigure gradually, rather than snapping. Metals such as copper, gold and aluminium have many planes along which dislocations move easily, and they stretch a long way before breaking: gold can be beaten into leaf a few hundred atoms thick.
 
-- Elastic deformation is *partial phase misalignment* — the graviton lattice distorts, but retains enough memory to recover its prior configuration.
+- Work hardening: **\[Argued\]** added disorder that blocks re-locking. Bending or hammering a metal multiplies its dislocations a millionfold or more; they run into each other, tangle and pin one another, so further yielding needs more force. Heating the metal lets the arrangement re-lock and the dislocations clear, annealing, and its softness returns (Part 21).
 
-- Plastic deformation is *total local phase collapse* — coherence is exceeded and reorganizes under a new graviton flow topology.
+## Fracture
 
-- Fracture is *irrecoverable coherence failure* — corridors are severed, and no reconstitution pathway remains.
+Fracture is a phase singularity event: phase delays no longer propagate across it, and the lattice can no longer carry waves over it. A crack does block what passes through a structure. **\[Argued\]** Sound does not cross a crack; it is reflected from it, and this is how cracks in rails, aircraft and welds are found, by the echoes they return to an ultrasonic probe. Cracks concentrate the load. **\[Argued\]** In 1921 Griffith showed that solids break far below the strength of their bonds because tiny cracks concentrate the stress at their tips, and that a crack grows when the energy released by opening it exceeds the energy of the new surfaces it makes. His thin glass fibres, too fine to hold large cracks, were far stronger than thick glass.[^14] Fracture is bonds separating, along a path set by the flaws in the structure, and the severing of the lines that carried the load.
 
-### Yield Strength and Graviton Field Capacity
+## Tuning yield
 
-Traditionally, yield strength is the point at which a material deforms plastically. In GPT:
+By modulating field exposure directionally, one can tune yield behaviour, opening paths to dynamically hardening or softening materials in real time. Several such effects are measured. **\[Argued\]**
 
-> *Yield strength corresponds to the maximum differential graviton field pressure a structure can resist before corridor realignment becomes energetically favored over phase retention.*
+- **Current.** Short, strong pulses of electric current through a metal make it yield at lower stress while they flow, the electroplastic effect, found by Troitskii in 1969.[^15]
 
-This reconceptualizes stress-strain curves not as force-response graphs, but as **field phase maps**, tracking the material’s resonant alignment under directional pressure.
+- **Sound.** Ultrasound passed through a metal softens it while it is applied; Blaha and Langenecker found in 1955 that zinc crystals under ultrasound yielded at a much lower stress.[^16]
 
-Materials with high yield strength (e.g., diamond, graphene) possess:
+- **Magnetic field.** In some non-magnetic crystals, a steady magnetic field changes how readily dislocations move, the magnetoplastic effect.[^17]
 
-- Highly regular graviton corridor networks.
+In GPT each delivers energy at the scale of the lattice **\[Hypothesis\]** to the places where its order is broken: moving charge knocking the dislocations, sound shaking them free of what pins them, and the field changing the circulation of the paired electrons at the defects that hold them. Each helps the row-by-row re-locking past an obstacle. How large each effect should be, **\[Open\]** from the medium, is owed.
 
-- Deep coherence wells in their lattice structures.
+# Phase as a Gate
 
-- Low entropy susceptibility under field fluctuation.
+Phase is the logic of communication in structured matter: constructive overlap amplifies, destructive offset cancels, and phase can open, close or redirect what passes. That is the spatial phase of Part 19: **\[Hypothesis\]** patterns overlapping in step reinforce, out of step cancel. It decides what passes through structured matter as well as how surfaces grip.
 
-GPT predicts that by modulating field exposure directionally, one can *tune* yield behavior, opening paths to dynamically hardening or softening materials in real time.
+It is measured for every wave **\[Argued\]** that structured matter carries. A lattice reflects a wave only when its spacing matches the wave’s (Part 21); lattices built to the scale of light or sound forbid whole bands of wavelengths from passing. Built structures steer light around an object so that it passes as if nothing were there, a cloak first shown for microwaves in 2006;[^18] and structures that pass sound one way but not the other, acoustic diodes, have been built.[^19] Gates, diodes and cloaks exist, for light and sound. They do not exist for the total delivery of the medium to a body, which no structure changes (Part 15).
 
-### Stress and Strain Reinterpreted
+# Buoyancy
 
-Stress ($\sigma$) and strain ($\epsilon$) are not mysterious forces and deformations:
+A body in a fluid is pushed up by the weight of the fluid it displaces (Archimedes). Buoyancy is the fluid’s own load. **\[Hypothesis\]** Every layer of a fluid receives its weight from the medium, as every particle does, and passes it to the layer beneath, through the contacts between its molecules (Part 21). So the pressure in the fluid grows with depth, by $\rho_{\text{fluid}}\,g$ for every metre. A submerged body is pressed harder on its underside than on its top by exactly the weight of fluid it has displaced.
 
-- **Stress** becomes the *incoming graviton pressure gradient relative to the coherence resistance of the material*.
+# Light Through Gradients
 
-- **Strain** is the *degree of corridor reconfiguration* under this gradient — not just displacement, but **field reflow**.
+Light’s path bends because it crosses a gradient of the medium: graviton lensing is refraction, not curvature. The medium’s refractive index rises **\[Hypothesis\]** where its pressure is lowered, toward a mass, and light bends as it does through a lens of graded glass, by 1.75 arcseconds at the edge of the Sun (Part 23).[^20] The bending does not depend on the light’s energy: radio waves and visible light are bent alike.
 
-GPT expresses this via the Graviton Coherence Distortion Ratio (GCDR): $$\text{GCDR} = \frac{\nabla P_g}{C_\text{internal}}$$
+# Work
 
-Where:
+Work is force times the distance moved, $W=\int F\,dx$. Elastic materials temporarily store coherence-phase compression, while friction dissipates graviton misalignment into local resonance decay. A stretched spring holds the energy in its displaced bonds and returns it; friction turns it into the disordered motion that is heat (Part 20). Where the energy of a held or lifted load is located is in Parts 6 and 11.
 
-- $\nabla P_g$ is the local graviton pressure gradient.
+# What Remains to Be Derived
 
-- $C_\text{internal}$ is the field coherence density of the structure.
+- Why a stretched bond resists lengthening, **\[Open\]** in terms of what touches what in the medium.
 
-A high GCDR implies breakdown. When this exceeds unity, plastic deformation becomes irreversible.
+- The coefficient of friction, **\[Open\]** from the locking of two surfaces’ patterns, including superlubricity.
 
-### Elasticity as Phase Memory
+- The critical shear stress of a crystal **\[Open\]** from the re-locking of a row.
 
-Hooke’s Law ($\sigma = E \epsilon$) still holds at low deformation — but GPT explains *why*:
+- The stiffness of a bond **\[Open\]** from the exchanges that keep it up.
 
-> The elastic modulus $E$ is the ratio of graviton field disturbance to the ability of the internal structure to rephase without permanent decoherence.
+- How large the effects on yielding should be, **\[Open\]** for current, sound and magnetic field, from the medium.
 
-**Elasticity is coherence memory.** The more coherent the material’s field, the greater its tendency to restore its prior shape.
+# Conclusion
 
-### Plasticity and Structural Rewriting
+The forces of everyday experience have separate names but not separate causes. Every one has a carrier, and every carrier is the medium or a pattern of it: the inflow that delivers weight, the exclusion that makes contact hard, the bonds that pass a load from atom to atom, the swirl of a magnet. The normal force is delivered momentum passed through bonds; inertia is the carved path, and acceleration a rewriting of it that travels through the body at the speed of sound; tension is a corridor of bonds that fails at a threshold. Friction is the interface staying in step: surfaces in step lock, and out of step they glide. A solid is held by the phase relations of its structure, and deforms as they give way: elastically, recovering; plastically, re-locking one row at a time once a critical ratio is reached; and by fracture, where the lines that carried the load are severed. Brittle and ductile materials differ in how their order can reconfigure; current, sound and magnetic fields can tune it. Phase gates what structured matter passes. All of this is field dynamics, and the measurements bear it out.
 
-When elastic limits are surpassed, corridor topology changes permanently. GPT defines plasticity as:
+# Changes in the Second Edition
 
-> The reorganization of graviton corridors into new minimum-energy pathways under sustained anisotropic field compression.
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
 
-This redefinition helps to explain:
+## Changes to the argument
 
-- Work hardening: Increased deformation aligns new corridors, increasing coherence temporarily.
+- “All classical forces are expressions of graviton field pressure” is restated as “every force names its carrier, and every carrier is the medium or a pattern of it” (Part 7). The unified table becomes a catalogue of carriers, measured laws and cross-references.
 
-- Brittleness: High field coherence but low plastic adaptability causes immediate corridor rupture.
+- Kept and given their mechanisms: the normal force (momentum passed through bonds), action and reaction, and the first edition’s account of inertia as imprint, directional preference and saturation (the carved path, the cost of rewriting it, and mass as confined circulation). Acceleration as a rewriting is kept, with sudden and gradual loading measured; inertia from “latency” is withdrawn.
 
-- Ductility: Field networks that reconfigure gradually, rather than snapping.
+- Tension as corridors of bonds that fail at a threshold is kept; “near-instant” transmission is withdrawn.
 
-GPT gives us a new axis of material design: **field coherence adaptability**. Not just strength, but *tunable corridor reconfiguration thresholds*.
+- Friction: the first edition’s account of the interface staying synchronised is confirmed (superlubricity); its sentence attributing resistance to misalignment is reversed.
 
-### Fracture and Entropic Collapse
+- Deformation: the three regimes as phase failure are kept and matched to measured mechanisms; yield and the distortion ratio are identified with Schmid’s law; stress as momentum passed through bonds; elasticity tracking bond energy; brittleness and ductility confirmed; work hardening corrected from added coherence to added disorder; fracture as severed load paths kept, with ultrasonic crack detection and Griffith’s cracks; “fracture is not a mechanical separation” withdrawn; “the lattice can no longer support graviton wave traversal” restated as the lattice no longer carrying waves across a crack, since no structure blocks the medium’s delivery (Part 15).
 
-When local graviton pressure exceeds all corridor coherence thresholds, structure fails.
+- Tuning yield by field exposure is kept: the electroplastic, acoustoplastic and magnetoplastic effects are measured.
 
-GPT frames fracture as a **phase singularity event**:
+- Phase as a gate is kept and identified with spatial phase, measured in engineered lattices, cloaks and acoustic diodes for light and sound; gravitational diodes, cloaking and holography are withdrawn, since no structure changes the total delivery.
 
-- Field lines disconnect.
+- Buoyancy from the medium’s pressure difference is withdrawn (about $10^{-25}$ pascals per metre); buoyancy is the fluid’s own load.
 
-- Phase delays no longer propagate.
+- Graviton lensing as refraction is kept; its formula, chromatic lensing and wake effects are withdrawn.
 
-- The lattice can no longer support graviton wave traversal.
+- The area-based formulas for the scale, tension and friction, and the work formula $\int\nabla P_g\,dx$, are withdrawn.
 
-Fracture is *not* a mechanical separation. It is a *collapse of coherent field transmission*.
+- Removed, as too far from the core: inertial stabilisers and null zones; lensing navigation; field-resonant stabilisers; “field software”; the closing on music.
 
-### Summary: Deformation as Field Dynamics
+## Clarifications
 
-> Classical mechanics views deformation as shape responding to force. GPT views it as graviton phase response to external anisotropic pressure.
+- The title changes from *Natural Force Re-imagined* to *Natural Force*, and the subtitle from *The Collapse of Force Categories Through Graviton Field Coherence* to *Every Force and Its Carrier*.
 
-This shift is more than interpretation. It is a mechanistic replacement:
+- Wording that described forces as pulls, such as a pull at a rope’s ends, is restated as loads and pressure differences, in line with Part 7.
 
-- All materials are **graviton field coherence matrices**.
+- The cross-references are renumbered.
 
-- All stress and strain are **field pressure disturbances**.
-
-- All deformation is **resonant corridor reorganization**.
-
-In GPT, **the mechanics of form are the music of pressure**. And to shape matter is to tune a field.
-
-## Graviton Lensing and Inertial Stabilization
-
-### Introduction: Beyond Light, Beyond Optics
-
-Gravitational lensing, as understood within General Relativity, describes the curvature of spacetime altering the path of photons, producing visual distortions near massive objects. While effective descriptively, this model relies on geometric abstractions that cannot be directly tested as causal agents. Graviton Pressure Theory (GPT) offers a new interpretation: lensing is not the result of curved space but of directional graviton pressure gradients interacting with the coherence of both light and mass fields. This model reveals not just optical distortion—but fundamental inertial modulation.
-
-### Graviton Lensing: The Causal Mechanism
-
-**Definition:** Graviton lensing occurs when anisotropic graviton flow alters the effective trajectory of a moving object or waveform through differential field pressure and phase displacement.
-
-Key causal features:
-
-- **Directional Compression:** Graviton inflow toward a massive body is not isotropic. It intensifies along density gradients, causing non-uniform field resistance.
-
-- **Photon-Field Interaction:** Photons traverse these gradients and undergo pressure-based refraction—not curvature. Their path changes due to coherent momentum transfer across field variations.
-
-- **Interference Overlay:** In high-density zones, coherent graviton wavefronts intersect with photon or mass-bound fields, generating localized deflection corridors.
-
-Unlike GR, which treats spacetime as a passive stage, GPT models the lensing as the result of active graviton interference and coherence phase thresholds.
-
-### Mathematical Framing of Lensing
-
-Let $\nabla P_g$ represent the gradient of graviton pressure near a mass $M$, and $\theta_d$ the angular deflection: $$\theta_d = \frac{r \cdot \nabla P_g}{E_f}$$ Where:
-
-- $r$ is the radial distance from the mass center
-
-- $\nabla P_g$ is the local pressure differential
-
-- $E_f$ is the field energy density of the photon or traversing object
-
-This formulation replaces spacetime curvature with calculable anisotropic resistance.
-
-### Experimental Predictions
-
-- **Deviation Under Local Mass Conditions:** Small lensing effects measurable in laboratory setups using graviton field modulators and interferometry.
-
-- **Frequency-Dependent Lensing:** Unlike GR, which predicts equal deflection regardless of wavelength, GPT allows for pressure-based chromatic deflection.
-
-- **Graviton Wake Effects:** Residual deflections trailing after high-velocity mass transits, akin to gravitational "ripples," measurable by phase drift in ultra-stable lasers.
-
-### Inertial Stabilization: Field Anchoring
-
-Mass in motion experiences a stabilizing pressure equilibrium via graviton inflow. This stabilizing effect—*inertial coherence anchoring*—is not mass-intrinsic but field-maintained:
-
-- **Equilibrium Zone:** A coherent field aligns its corridors with prevailing graviton vectors, minimizing turbulence.
-
-- **Inertial Drift:** Disturbance or misalignment increases local field impedance, manifesting as inertia.
-
-- **Inertial Response Time:** The latency in restoring coherence determines inertial mass behavior, not intrinsic mass.
-
-### Implications for Navigation and Propulsion
-
-- **Field-Resonant Stabilizers:** Vehicles can embed phase-matched lattice structures to reduce turbulence and inertial lag.
-
-- **Graviton Lensing Navigation:** Like light through lenses, spacecraft can exploit local pressure gradients to bend trajectories with minimal energy use.
-
-- **Inertial Null Zones:** By phase-canceling incoming pressure waves, localized gravity-null regions can be temporarily formed for rapid shifts.
-
-### Conclusion: A New Optics of Force
-
-Graviton lensing reframes our understanding of distortion, not as a curvature illusion but as a pressure interaction. The lens is not a bend in space—it is a gradient of flow. And mass does not resist motion by nature—but by delay in realigning its internal coherence. GPT reveals that both vision and inertia are field experiences—sensitive to structure, flow, and resonance.
-
-In the next section, we will explore how these principles lead to *graviton phase modulation devices*—instruments capable of lensing, stabilizing, or shielding by mastering coherence thresholds in dynamic graviton flow.
-
-## Graviton Phase Modulation and Field Engineering
-
-### Introduction: The Precision of Phase
-
-If graviton corridors provide the channels, and lattice resonance supplies the harmonic match, then phase modulation becomes the scalpel—an instrument of precision in shaping gravitational behavior. Graviton Phase Modulation (GPM) introduces a method of dynamically altering the pressure coherence within a localized region by deliberately shifting phase alignment.
-
-This is not merely reactive shielding or structural resonance—it is active participation in the temporal and inertial encoding of the field. With it comes the dawn of graviton-based engineering: propulsion, isolation, and coherence-based computation.
-
-### The Concept of Phase as Causal Gate
-
-Each graviton corridor possesses an intrinsic phase rhythm—the temporal sequence in which coherent field refresh cycles propagate. Alignment between corridors permits graviton continuity; misalignment results in impedance, dissipation, or redirection.
-
-Phase, therefore, is not simply a frequency trait. It is the logic of gravitational communication.
-
-- **Constructive Phase Overlap:** Two or more field systems in phase amplify one another’s stability and coherence.
-
-- **Destructive Phase Offset:** Phase variance beyond critical thresholds creates pressure nodes, cancels field interaction, or redirects graviton inflow.
-
-- **Phase Drift:** Time-variable modulation can change field receptivity and modify inertial behavior.
-
-Field behavior, under GPM, becomes not a passive structure, but a programmable waveform.
-
-### Modulation Techniques
-
-**1. Oscillatory Crystal Networks:**  
-Using piezoelectric lattices that flex with pulsed voltage, phase delay can be micro-managed within corridor-aligned paths. These networks serve as resonant field routers—redirecting, gating, or nulling gravitational flow.
-
-**2. Magnetic Phase Biasing:**  
-Spin-aligned magnetic domains (e.g., patterned ferromagnetic [^3] thin films) can alter field access points by introducing coherent phase delay at atomic lattice junctions. This not only inhibits flow in certain directions, but permits unidirectional corridor propagation—a form of gravitational diode.
-
-**3. Temporal Chaining and Interleaving:**  
-Field zones are modulated in subharmonic waveforms with carefully interleaved refresh windows. The result is artificial corridor gating—opening and closing graviton channels with femtosecond timing to favor directional thrust or inertial cancellation.
-
-### Applications of Phase Modulation
-
-- **Directional Propulsion:** Gated corridor thrust with controllable pressure onset and directionality.
-
-- **Inertial Dampening:** Localized corridor suppression to reduce field pressure differentials across objects in motion.
-
-- **Phase-Based Cloaking:** By matching environmental phase variance, corridors can be shifted out of phase with ambient graviton flow—effectively making structures invisible to graviton coherence-based detection.
-
-- **Gravitational Holography:** Interference of phased graviton corridors can project stable pressure patterns across space without direct material presence.
-
-### Theoretical Implications
-
-Phase modulation opens the door to deeper field logic:
-
-- It demonstrates that gravity is not static.
-
-- It suggests that graviton inflow is not just directional, but phase-addressable.
-
-- It reveals that resonance alone is insufficient—timing is causal.
-
-In a GPT world, matter is programmable by structure, but motion, interaction, and coherence are programmable by phase.
-
-### Conclusion: The Arrival of Field Software
-
-With phase modulation, the graviton field is no longer simply a medium to be shaped passively by matter—it becomes a programmable substrate. Every shift in phase is a change in graviton access, a decision about what can move, what can hold, what can rise.
-
-Just as we moved from circuits to quantum gates, we now move from structural resonance to temporal causality. In the pressure-based architecture of GPT, *phase is power*.
-
-## Extended GPT Field Equations for Classical Forces
-
-To ensure clarity and usability, we offer additional causal expressions derived from GPT’s unified pressure framework:
-
-- **Friction (dynamic)**: $$F_{\text{friction}} = \mu \cdot \nabla_{\parallel} P_g$$ where $\mu$ is the local coherence-interference factor along the contact plane, and $\nabla_{\parallel} P_g$ is the lateral pressure gradient.
-
-- **Tension in a cable or string**: $$F_{\text{tension}} = -\frac{\partial P_g}{\partial r} \cdot A$$ where $A$ is the cross-sectional area of the strand, and $\frac{\partial P_g}{\partial r}$ is the radial field pressure differential along its axis.
-
-- **Buoyancy (newly added)**: $$F_{\text{buoyancy}} = \Delta P_g \cdot A = (P_{\text{bottom}} - P_{\text{top}}) \cdot A$$ capturing the difference in graviton pressure across vertical surfaces of a submerged body.
-
-- **Internal Elasticity (spring behavior)**: $$F_{\text{internal}} = -k_c \cdot \Delta x$$ where $k_c$ is a coherence-modulated graviton corridor recoil factor, and $\Delta x$ is the deformation from equilibrium.
-
-—
-
-## Force Table Footnotes and Unit Expansion
-
-**GPT Quantity Units Reference:**
-
-- $P_g$: graviton pressure (gp or N/m$^2$)
-
-- $\nabla P_g$: pressure gradient (N/m$^3$)
-
-- $F$: force (N)
-
-These definitions provide dimensional integrity for all field-based force expressions.
-
-—
-
-## Energy Transfer and Coherence Work
-
-Under GPT, work is defined as graviton displacement against structural coherence. That is:
-
-$$W = \int F \cdot dx = \int \nabla P_g \cdot dx$$
-
-This models energy transfer as the result of pressure overcoming impedance barriers—whether through heat, motion, or internal deformation. Elastic materials temporarily store coherence-phase compression, while friction dissipates graviton misalignment into local resonance decay.
+- One figure, one table, status marks and this list are added.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-newton1687" class="csl-entry">
+<div id="ref-blaha1955" class="csl-entry">
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+Blaha, F., and B. Langenecker. 1955. “Dehnung von Zink-Kristallen Unter Ultraschalleinwirkung.” *Die Naturwissenschaften* 42: 556.
+
+</div>
+
+<div id="ref-bowden1950" class="csl-entry">
+
+Bowden, F. P., and D. Tabor. 1950. *The Friction and Lubrication of Solids*. Oxford University Press.
+
+</div>
+
+<div id="ref-cross2012" class="csl-entry">
+
+Cross, R. C., and M. S. Wheatland. 2012. “Modeling a Falling Slinky.” *American Journal of Physics* 80: 1051–60.
+
+</div>
+
+<div id="ref-dienwiebel2004" class="csl-entry">
+
+Dienwiebel, Martin et al. 2004. “Superlubricity of Graphite.” *Physical Review Letters* 92: 126101.
+
+</div>
+
+<div id="ref-golovin2004" class="csl-entry">
+
+Golovin, Yu. I. 2004. “Magnetoplastic Effects in Solids.” *Physics of the Solid State* 46: 789–824.
+
+</div>
+
+<div id="ref-griffith1921" class="csl-entry">
+
+Griffith, A. A. 1921. “The Phenomena of Rupture and Flow in Solids.” *Philosophical Transactions of the Royal Society A* 221: 163–98.
+
+</div>
+
+<div id="ref-liang2010" class="csl-entry">
+
+Liang, Bin et al. 2010. “An Acoustic Rectifier.” *Nature Materials* 9: 989–92.
+
+</div>
+
+<div id="ref-rashadaPart20" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+
+</div>
+
+<div id="ref-rashadaPart21" class="csl-entry">
+
+———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart22" class="csl-entry">
+
+———. 2026c. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart6" class="csl-entry">
+
+———. 2026d. “Redefining Work (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+
+</div>
+
+<div id="ref-rashadaPart11" class="csl-entry">
+
+———. 2026e. “Re-Examining the Four (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+
+</div>
+
+<div id="ref-rashadaPart7" class="csl-entry">
+
+———. 2026f. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+
+</div>
+
+<div id="ref-rashadaPart23" class="csl-entry">
+
+———. 2026g. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart19" class="csl-entry">
+
+———. 2026h. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+
+</div>
+
+<div id="ref-rashadaPart24" class="csl-entry">
+
+———. 2026i. “Units, Constants and Conversions: The Numbers of the Medium (Part 24, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/>.
+
+</div>
+
+<div id="ref-rose1984" class="csl-entry">
+
+Rose, James H., John R. Smith, Francisco Guinea, and John Ferrante. 1984. “Universal Features of the Equation of State of Metals.” *Physical Review B* 29: 2963–69.
+
+</div>
+
+<div id="ref-schmid1935" class="csl-entry">
+
+Schmid, E., and W. Boas. 1935. *Kristallplastizität*. Berlin: Springer.
+
+</div>
+
+<div id="ref-schurig2006" class="csl-entry">
+
+Schurig, D. et al. 2006. “Metamaterial Electromagnetic Cloak at Microwave Frequencies.” *Science* 314: 977–80.
+
+</div>
+
+<div id="ref-troitskii1969" class="csl-entry">
+
+Troitskii, O. A. 1969. “Electromechanical Effect in Metals.” *JETP Letters* 10: 18–22.
 
 </div>
 
 </div>
 
-[^1]: See (Newton 1687) for classical definitions of force and inertia.
+[^1]: (Rashada 2026f).
 
-[^2]: See Part 19 – Graviton Coherence for reinforcement patterns in force resolution.
+[^2]: (Rashada 2026h).
 
-[^3]: See Part 21 – Magnetism as Gravimetric Resonance for discrete pathway alignment in crystalline domains.
+[^3]: (Rashada 2026c).
+
+[^4]: (Rashada 2026d).
+
+[^5]: (Rashada 2026b).
+
+[^6]: (Rashada 2026e).
+
+[^7]: (Cross and Wheatland 2012).
+
+[^8]: (Dienwiebel et al. 2004).
+
+[^9]: (Bowden and Tabor 1950).
+
+[^10]: (Rashada 2026a).
+
+[^11]: (Schmid and Boas 1935).
+
+[^12]: (Rose et al. 1984).
+
+[^13]: (Rashada 2026i).
+
+[^14]: (Griffith 1921).
+
+[^15]: (Troitskii 1969).
+
+[^16]: (Blaha and Langenecker 1955).
+
+[^17]: (Golovin 2004).
+
+[^18]: (Schurig et al. 2006).
+
+[^19]: (Liang et al. 2010).
+
+[^20]: (Rashada 2026g).
