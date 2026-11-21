@@ -31,7 +31,7 @@ A mass takes in the medium. The inflow is the field: a drift of the medium towar
 
 #### Fed, not emitted.
 
-Fields are not emitted but sculpted by intake. A field is not something a mass sends out, as a lamp sends light. It is the motion of the medium the mass sets up by taking it in. It lasts as long as the intake does, because the medium passing through is continually replaced, as a river’s shape lasts while its water changes.
+The first edition said that fields are not emitted but sculpted by intake, and that is kept. A field is not something a mass sends out, as a lamp sends light. It is the motion of the medium the mass sets up by taking it in. It lasts as long as the intake does, because the medium passing through is continually replaced, as a river’s shape lasts while its water changes.
 
 #### A field changes at the speed of the medium’s waves.
 
@@ -49,15 +49,15 @@ Without mass, the medium is at rest. A mass sets up two flows:
 
 **\[End of passage\]**
 
-Gravitons that fail to phase-lock with the core are rejected, vented or redirected: that is the counterflow. The rejected medium is not lost, and it does not press; it leaves out of phase, and it carries the body’s pattern outward (Section <a href="#sec:shells" data-reference-type="ref" data-reference="sec:shells">“Pattern and Regularity: Shells”</a>).
+The first edition described this as gravitons that “fail to phase-lock” with the core being “rejected, vented, or redirected”. That is the counterflow. What changes in this edition is its account: the rejected medium is not lost, and it does not press; it leaves out of phase, and it carries the body’s pattern outward (Section <a href="#sec:shells" data-reference-type="ref" data-reference="sec:shells">3</a>).
 
 #### Integration at the core.
 
-Some of the inflow phase-locks and joins the core, so that mass is built from the medium. If matter is organised medium, accretion of this kind is how matter forms, and a body may retain a small part of what passes through it. **\[Hypothesis\]** The size is bounded. With the medium’s density at about $10^{-26}$ kilograms per cubic metre, the medium passing into the Earth at its surface is about $4\pi R^2 \rho_g v$, close to two kilograms a year. Whatever part of that the Earth keeps is far below anything that could be weighed. What fraction is kept, and how matter first forms from the medium, are owed (Part 17). **\[Open\]**
+The first edition also held that some of the inflow phase-locks and joins the core, so that mass is built from the medium. If matter is organised medium, accretion of this kind is how matter forms, and a body may retain a small part of what passes through it. **\[Hypothesis\]** The size is bounded. With the medium’s density at about $10^{-26}$ kilograms per cubic metre, the medium passing into the Earth at its surface is about $4\pi R^2 \rho_g v$, close to two kilograms a year. Whatever part of that the Earth keeps is far below anything that could be weighed. What fraction is kept, and how matter first forms from the medium, are owed (Part 17). **\[Open\]**
 
 #### Lateral shedding.
 
-A rotating body sheds its counterflow with the rotation in it. This is lateral redirection, inflow turned to tangential motion: the ejecta leave a turning surface, and carry the turning outward (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
+A rotating body sheds its counterflow with the rotation in it. The first edition’s “lateral” redirection, inflow turned to tangential motion, is this: the ejecta leave a turning surface, and carry the turning outward (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">5</a>).
 
 <figure id="fig:flows">
 <img src="assets/figures/fig16-1-flows.svg" />
@@ -68,25 +68,25 @@ A rotating body sheds its counterflow with the rotation in it. This is lateral r
 
 **\[Hypothesis: the passage that follows\]**
 
-A body’s speed, spin and rotation are written into its counterflow as a pattern. The pattern repeats with every turn, and its regularity is what makes a shell and what lets the shell act. Every mass has one shell for certain: the relaxation boundary, where its counterflow is brought back into phase (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">“The Relaxation Boundary”</a>). Within it, a regular pattern may stand as further shells, spaced by the body’s period and the counterflow’s speed. Where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
+A body’s speed, spin and rotation are written into its counterflow as a pattern. The pattern repeats with every turn, and its regularity is what makes a shell and what lets the shell act. Every mass has one shell for certain: the relaxation boundary, where its counterflow is brought back into phase (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">4</a>). Within it, a regular pattern may stand as further shells, spaced by the body’s period and the counterflow’s speed. Where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">9</a>).
 
 **\[End of passage\]**
 
 #### These traits need a medium.
 
-In Newton’s gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged. A body’s spin and speed reach nothing beyond it; only an uneven shape lets a rotation act on what is outside. In GPT the medium carries them, **\[Argued\]** and some of that reach is measured: the spinning Earth drags orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
+In Newton’s gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged. A body’s spin and speed reach nothing beyond it; only an uneven shape lets a rotation act on what is outside. In GPT the medium carries them, **\[Argued\]** and some of that reach is measured: the spinning Earth drags orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">5</a>).
 
 #### How a shell acts: phase filtering.
 
-Shells are phase filters: what arrives in step passes or is admitted, what arrives out of step is routed. This is phase decides push (Part 15) at the scale of a field. A body whose own rhythm is in step with a shell’s pattern is pressed in the same sense, turn after turn; one out of step is pressed now one way and now the other, and the effects cancel. **\[Hypothesis\]** That is how a shell can act strongly over long times while acting weakly at any instant.
+The first edition described shells as phase filters: what arrives in step passes or is admitted, what arrives out of step is routed. This is phase decides push (Part 15) at the scale of a field. A body whose own rhythm is in step with a shell’s pattern is pressed in the same sense, turn after turn; one out of step is pressed now one way and now the other, and the effects cancel. **\[Hypothesis\]** That is how a shell can act strongly over long times while acting weakly at any instant.
 
 #### Small at an instant, decisive over time.
 
-At any instant, a shell’s push on a body is small. **\[Argued\]** Satellites orbit at every altitude, from 160 kilometres to beyond the geostationary ring, and the choice among them is engineering: period, coverage, drag. The Earth’s gravity is mapped smoothly by satellites and by ranging to the Moon, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. What shells do is sort: slowly, through the rhythms of the bodies in them, **\[Argued\]** into the regular structures of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>.
+At any instant, a shell’s push on a body is small. **\[Argued\]** Satellites orbit at every altitude, from 160 kilometres to beyond the geostationary ring, and the choice among them is engineering: period, coverage, drag. The Earth’s gravity is mapped smoothly by satellites and by ranging to the Moon, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. What shells do is sort: slowly, through the rhythms of the bodies in them, **\[Argued\]** into the regular structures of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">9</a>.
 
 #### Shells as a record.
 
-Shells are memory echoes of the core: records of its accretion, its rotation and its changes. A system’s present structure is the record of its history: of where bodies migrated, which rhythms they were caught by, and how long they have been held. **\[Hypothesis\]** This is the counterpart, for systems, of the activation record of Part 13: a pattern set at one time and carried forward.
+The first edition called shells memory echoes of the core: records of its accretion, its rotation and its changes. A system’s present structure is the record of its history: of where bodies migrated, which rhythms they were caught by, and how long they have been held. **\[Hypothesis\]** This is the counterpart, for systems, of the activation record of Part 13: a pattern set at one time and carried forward.
 
 # The Relaxation Boundary
 
@@ -98,7 +98,7 @@ The counterflow spreads as it travels, and the ambient medium brings it back int
 
 For the Sun this is about 7,000 astronomical units, far beyond the planets and inside the Oort cloud. For the visible mass of the Milky Way it is about 8 to 11 kiloparsecs, near the Sun’s own distance from the centre. Beyond the boundary, gravity changes its form: **\[Argued\]** it falls more slowly than Newton’s law, and the orbital speeds of stars and gas in galaxies stay level instead of falling. Across 153 galaxies, the acceleration observed tracks the acceleration expected from visible matter alone along one curve, with the change at $a_0$.[^5]
 
-Flat rotation curves come from nested shell coherence: the relaxation boundary is the shell every mass has, and the galaxy’s outer orbits lie beyond it. The law that governs gravity beyond the boundary, from which the observed curve must follow, is owed (Part 23). **\[Open\]** The boundary around the Sun can already be tested: pairs of stars thousands of astronomical units apart orbit slowly enough to probe it, and the analyses so far disagree.[^6][^7]
+The first edition explained flat rotation curves as “nested shell coherence”. That survives in this form: the relaxation boundary is the shell every mass has, and the galaxy’s outer orbits lie beyond it. The law that governs gravity beyond the boundary, from which the observed curve must follow, is owed (Part 23). **\[Open\]** The boundary around the Sun can already be tested: pairs of stars thousands of astronomical units apart orbit slowly enough to probe it, and the analyses so far disagree.[^6][^7]
 
 # Rotation’s Reach
 
@@ -132,13 +132,13 @@ The standard account explains why rings and moons lock to a body’s spin throug
 
 # The Field in Three Dimensions
 
-A flat drawing shows one slice of the field. The field itself is three-dimensional, and the three dimensions are where much of its behaviour comes from (Figure <a href="#fig:three" data-reference-type="ref" data-reference="fig:three">2</a>).
+A flat drawing shows one slice of the field. The field itself is three-dimensional, and the three dimensions are where much of its behaviour comes from (Figure 16.2).
 
 **\[Hypothesis: the passage that follows\]**
 
 - **The inflow arrives from every direction.** It is the same at every angle around a body, which is why a body’s steady pull is the same in every direction.
 
-- **The counterflow is wound around the spin axis.** The ejecta leave a turning surface, and the surface turns fastest at the equator and not at all at the poles. So the turning the counterflow carries is strongest toward the equatorial plane and weakest along the axis; the medium is twisted one way over the poles and the other way over the equator, which is the shape the gyroscope measurements require (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>).
+- **The counterflow is wound around the spin axis.** The ejecta leave a turning surface, and the surface turns fastest at the equator and not at all at the poles. So the turning the counterflow carries is strongest toward the equatorial plane and weakest along the axis; the medium is twisted one way over the poles and the other way over the equator, which is the shape the gyroscope measurements require (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">5</a>).
 
 - **The pattern is most regular toward the equatorial plane**, so that is where shells act most strongly.
 
@@ -155,25 +155,25 @@ The equatorial plane is where structure is observed. **\[Argued\]** Saturn’s r
 
 #### A test from the wake.
 
-If the boundary is drawn in ahead of a moving body and out behind it, then wide pairs of stars near the Sun’s boundary should behave differently according to their direction from the Sun relative to its motion through the galaxy. **\[Hypothesis\]** The analyses of wide binaries so far, which disagree with each other, do not sort the pairs by direction (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">“The Relaxation Boundary”</a>). That is a test (Part 29).
+If the boundary is drawn in ahead of a moving body and out behind it, then wide pairs of stars near the Sun’s boundary should behave differently according to their direction from the Sun relative to its motion through the galaxy. **\[Hypothesis\]** The analyses of wide binaries so far, which disagree with each other, do not sort the pairs by direction (Section <a href="#sec:boundary" data-reference-type="ref" data-reference="sec:boundary">4</a>). That is a test (Part 29).
 
 #### What touches what when two fields meet.
 
 A body in the field of another is not in an abstract influence. It is in four things, each with a carrier:
 
-- the other’s **inflow**, which carries it, as its own inflow carries the other; their pressures combine (Section <a href="#sec:many" data-reference-type="ref" data-reference="sec:many">“Many Bodies”</a>);
+- the other’s **inflow**, which carries it, as its own inflow carries the other; their pressures combine (Section <a href="#sec:many" data-reference-type="ref" data-reference="sec:many">8</a>);
 
 - the **difference** in that inflow across it, which stretches it: the tides (Part 13);
 
-- the other’s **swirl**, which turns its spin axis and its orbit, as the Earth’s turns orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">“Rotation’s Reach”</a>); and
+- the other’s **swirl**, which turns its spin axis and its orbit, as the Earth’s turns orbiting gyroscopes (Section <a href="#sec:rotation" data-reference-type="ref" data-reference="sec:rotation">5</a>); and
 
 - the other’s **counterflow**, which passes through it carrying the other’s rhythm, while its own counterflow passes back.
 
-An orbiting body also lays its own pattern along its orbit as it goes. Two bodies whose orbital periods are in a ratio of small whole numbers meet again and again at the same places: Io overtakes Europa always at the same points of their orbits. At those places their patterns meet in step, turn after turn, which is where the medium’s pressing adds up instead of cancelling. **\[Hypothesis\]** That is the mechanism of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>, seen in three dimensions.
+An orbiting body also lays its own pattern along its orbit as it goes. Two bodies whose orbital periods are in a ratio of small whole numbers meet again and again at the same places: Io overtakes Europa always at the same points of their orbits. At those places their patterns meet in step, turn after turn, which is where the medium’s pressing adds up instead of cancelling. **\[Hypothesis\]** That is the mechanism of Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">9</a>, seen in three dimensions.
 
 # From the Graviton to the Field
 
-Every property of the field so far follows from a property of the graviton, or of the medium the gravitons make (Part 15). Table <a href="#tab:traits" data-reference-type="ref" data-reference="tab:traits">1</a> sets them side by side.
+Every property of the field so far follows from a property of the graviton, or of the medium the gravitons make (Part 15). Table 16.1 sets them side by side.
 
 <div id="tab:traits">
 
@@ -202,15 +202,15 @@ Where several bodies share a region, their effects combine through the medium’
 
 **\[End of passage\]**
 
-Combining by pressure gives Newton’s dynamics for many bodies exactly: **\[Argued\]** the orbits of the planets, the tides (Part 13), and the Lagrange points. The Lagrange points are harmonic nodes where the flows of two bodies reach equilibrium. In the rotating frame of the two bodies, they are the five points where the two accelerations and the turning of the frame balance; the medium supplies the accelerations, and the points follow.[^11] Where the counterflows of the bodies meet, their rhythms can lock, which is how the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>). The full rule for combining flows in strong fields, and the direction of the medium’s motion around many bodies, are owed (Part 23). **\[Open\]**
+Combining by pressure gives Newton’s dynamics for many bodies exactly: **\[Argued\]** the orbits of the planets, the tides (Part 13), and the Lagrange points. The first edition described the Lagrange points as harmonic nodes where overlapping shells reach equilibrium. In the rotating frame of two bodies, they are the five points where the two accelerations and the turning of the frame balance; the medium supplies the accelerations, and the points follow.[^11] Where the counterflows of the bodies meet, their rhythms can lock, which is how the shells of systems form (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">9</a>). The full rule for combining flows in strong fields, and the direction of the medium’s motion around many bodies, are owed (Part 23). **\[Open\]**
 
 # Systems Built over Time
 
-Fields interlock: they interpenetrate, modulate one another and entrain the motion within them; that moons lock into orbital chains and planets into harmonic spacing; that motion reinforces the structure it moves in. This is what astronomers observe, once time is allowed for. **\[Argued\]**
+The first edition held that fields interlock: they interpenetrate, modulate one another and entrain the motion within them; that moons lock into orbital chains and planets into harmonic spacing; that motion reinforces the structure it moves in. This is what astronomers observe, once time is allowed for. **\[Argued\]**
 
 - **Gaps cleared at resonances.** The Kirkwood gaps in the asteroid belt lie where an asteroid would circle the Sun three times for each orbit of Jupiter, five times for every two, or twice for each one. The inner edge of the Cassini Division in Saturn’s rings lies where a ring particle would circle twice for each orbit of the moon Mimas. The Encke and Keeler gaps each contain the small moon that keeps them open, Pan and Daphnis.
 
-- **Chains captured and held.** Io, Europa and Ganymede circle Jupiter in the ratio 1:2:4. The seven planets of TRAPPIST-1 form an unbroken resonant chain (Figure <a href="#fig:chain" data-reference-type="ref" data-reference="fig:chain">3</a>); the four planets of Kepler-223 circle in the ratio 3:4:6:8.[^12][^13] Such chains are formed as planets migrate through the disc they formed in and are caught one by one.
+- **Chains captured and held.** Io, Europa and Ganymede circle Jupiter in the ratio 1:2:4. The seven planets of TRAPPIST-1 form an unbroken resonant chain (Figure 16.3); the four planets of Kepler-223 circle in the ratio 3:4:6:8.[^12][^13] Such chains are formed as planets migrate through the disc they formed in and are caught one by one.
 
 - **Regular spacing.** Neighbouring planets in compact systems tend to be similar in size and evenly spaced in the ratios of their periods.[^14]
 
@@ -223,21 +223,21 @@ Fields interlock: they interpenetrate, modulate one another and entrain the moti
 <figcaption>TRAPPIST-1’s seven planets, with the ratio of each neighbouring pair of orbital periods. Each is close to a ratio of small whole numbers: a chain of rhythms locked over time (Luger et al., 2017).</figcaption>
 </figure>
 
-In GPT, these are the shells of systems. Each body’s counterflow carries its rhythm; where rhythms are in step, the medium presses in the same sense, turn after turn, and over long times the bodies are caught and held. Motion reinforces the structure it moves in: a body held in a resonance adds its own rhythm to it. **\[Hypothesis\]** The standard account calculates these same structures from the bodies’ combined accelerations, tidal friction and migration; GPT supplies what carries the forcing from one body to another, and why rhythm, not just distance, decides where bodies settle. **\[Argued\]**
+In GPT, these are the shells of systems. Each body’s counterflow carries its rhythm; where rhythms are in step, the medium presses in the same sense, turn after turn, and over long times the bodies are caught and held. Motion reinforces the structure it moves in, as the first edition said: a body held in a resonance adds its own rhythm to it. **\[Hypothesis\]** The standard account calculates these same structures from the bodies’ combined accelerations, tidal friction and migration; GPT supplies what carries the forcing from one body to another, and why rhythm, not just distance, decides where bodies settle. **\[Argued\]**
 
 # Motion in the Field
 
-Motion is granted by the field in this sense: a body’s motion is a relation with the medium, not a property it has in isolation. **\[Hypothesis\]** A moving body takes in the medium faster at its leading face than at its trailing face; that imbalance is its momentum, and it costs nothing to keep (Part 23, Section 23.9). Motion continues because of the body’s relation to the medium, not in spite of it. **\[Argued\]**
+The first edition spoke of motion as granted by the field: bodies held in resonance by the shell they occupy, and inertia as resonance retention. The instinct is right in one respect: a body’s motion is a relation with the medium, not a property it has in isolation. **\[Hypothesis\]** A moving body takes in the medium faster at its leading face than at its trailing face; that imbalance is its momentum, and it costs nothing to keep (Part 23, Section 23.9). Motion continues because of the body’s relation to the medium, not in spite of it. **\[Argued\]**
 
-It continues without permission or payment. **\[Argued\]** Spacecraft coast between the planets for decades; the Voyager probes, launched in 1977, are still travelling outward. Satellites orbit at every altitude, and an orbit decays smoothly, at a rate set by atmospheric drag that rises and falls with the Sun’s activity. Shells do not act on an orbit at an instant; they act by capture into resonance over long times (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">“Systems Built over Time”</a>).
+It continues without permission or payment. **\[Argued\]** Spacecraft coast between the planets for decades; the Voyager probes, launched in 1977, are still travelling outward. Satellites orbit at every altitude, and an orbit decays smoothly, at a rate set by atmospheric drag that rises and falls with the Sun’s activity. The first edition’s quantised orbits, its “snapback” at shell boundaries and its stepwise decay are withdrawn as instant effects. What survives is the slow version: capture into resonance over long times (Section <a href="#sec:time" data-reference-type="ref" data-reference="sec:time">9</a>).
 
 # Light in the Field
 
-Light crossing a field is bent because the medium flows, not because space is curved. **\[Argued\]** Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part 23). It is refraction rather than geometry, and the index rises smoothly: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$, and the delay of signals passing the Sun to about one part in $10^5$.[^19]
+Light crossing a field is bent because the medium flows, not because space is curved. **\[Argued\]** Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part 23). The first edition’s account, refraction rather than geometry, is kept. Its layers of different index are not: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$,[^19] and the delay of signals passing the Sun to about one part in $10^5$,[^20] so any layering of the index is far smaller than that.
 
 # Anomalies
 
-The Pioneer anomaly is resolved: **\[Argued\]** a small constant acceleration of the Pioneer 10 and 11 spacecraft toward the Sun, about $9\times10^{-10}$ metres per second squared, is accounted for by heat radiated unevenly from the spacecraft, modelled from their design and flight data.[^20] The flyby anomaly, small unexplained changes in the speed of some spacecraft swinging past the Earth, remains unexplained, **\[Open\]**[^21] and several later flybys showed none within their errors. It is not yet explained.
+The first edition took deep-space anomalies as shell crossings. The Pioneer anomaly is resolved: **\[Argued\]** a small constant acceleration of the Pioneer 10 and 11 spacecraft toward the Sun, about $9\times10^{-10}$ metres per second squared, is accounted for by heat radiated unevenly from the spacecraft, modelled from their design and flight data.[^21] The flyby anomaly, small unexplained changes in the speed of some spacecraft swinging past the Earth, remains unexplained, **\[Open\]**[^22] and several later flybys showed none within their errors. It is not evidence for shells, but it is not yet explained.
 
 # What Remains to Be Derived
 
@@ -315,7 +315,7 @@ Abbott, B. P. et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary N
 
 <div id="ref-anderson2008" class="csl-entry">
 
-Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed During Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
+Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed during Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
 
 </div>
 
@@ -381,7 +381,7 @@ Mills, Sean M. et al. 2016. “A Resonant Chain of Four Transiting, Sub-Neptune 
 
 <div id="ref-morgado2023" class="csl-entry">
 
-Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar Outside Its Roche Limit.” *Nature* 614: 239–43.
+Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar outside Its Roche Limit.” *Nature* 614: 239–43.
 
 </div>
 
@@ -393,25 +393,31 @@ Ortiz, J. L. et al. 2017. “The Size, Shape, Density and Ring of the Dwarf Plan
 
 <div id="ref-rashadaPart14" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026b. “Gravitons (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026b. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026c. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026c. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026d. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026d. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+
+</div>
+
+<div id="ref-shapiro2004" class="csl-entry">
+
+Shapiro, S. S., J. L. Davis, D. E. Lebach, and J. S. Gregory. 2004. “Measurement of the solar gravitational deflection of radio waves using geodetic very-long-baseline interferometry data, 1979–1999.” *Physical Review Letters* 92: 121101.
 
 </div>
 
@@ -429,7 +435,7 @@ Turyshev, Slava G. et al. 2012. “Support for the Thermal Origin of the Pioneer
 
 <div id="ref-weiss2018" class="csl-entry">
 
-Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod: Planets in a Kepler Multi-Planet System Are Similar in Size and Regularly Spaced.” *The Astronomical Journal* 155: 48.
+Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod: Planets in a Kepler Multi-planet System Are Similar in Size and Regularly Spaced.” *The Astronomical Journal* 155: 48.
 
 </div>
 
@@ -471,11 +477,13 @@ Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod:
 
 [^18]: (Morgado et al. 2023).
 
-[^19]: (Bertotti, Iess, and Tortora 2003).
+[^19]: (Shapiro et al. 2004).
 
-[^20]: (Turyshev et al. 2012).
+[^20]: (Bertotti, Iess, and Tortora 2003).
 
-[^21]: (Anderson et al. 2008).
+[^21]: (Turyshev et al. 2012).
+
+[^22]: (Anderson et al. 2008).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/

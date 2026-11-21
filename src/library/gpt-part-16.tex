@@ -1,3 +1,7 @@
+% Part metadata for the publishing tool
+\newcommand{\gptpart}{16}
+\newcommand{\gpttitle}{The Properties of Gravitational Fields}
+\newcommand{\gptsubtitle}{Inflow, Counterflow, and the Shells That Rhythm Builds}
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -24,7 +28,6 @@
 \renewcommand{\thesection}{16.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -46,6 +49,7 @@
 \newcommand{\why}[1]{\par\textit{#1}\par}
 \usepackage{tocloft}
 \renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\graphicspath{{figs/}}
 \begin{document}
 \renewcommand{\thetable}{16.\arabic{table}}
 \begin{titlepage}
@@ -71,7 +75,7 @@ This submission is part of the broader Graviton Pressure Theory (GPT) project, a
 {\large Author: Shareef Ali Rashada\par}
 {\normalsize shareef@peopleoftheworld.net\par}
 \vspace{0.3cm}
-{\normalsize Second edition, November 2026 \quad (first edition 2025)\par}
+{\normalsize Second edition, November 2026 \quad (first edition 12 June 2025)\par}
 \end{titlepage}
 
 \tableofcontents
@@ -298,7 +302,7 @@ The first edition spoke of motion as granted by the field: bodies held in resona
 \section{Light in the Field}
 \label{sec:light}
 
-\argm{Light crossing a field is bent because the medium flows, not because space is curved.} Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part~23). The first edition's account, refraction rather than geometry, is kept. Its layers of different index are not: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$, and the delay of signals passing the Sun to about one part in $10^5$,\fn{bertotti2003} so any layering of the index is far smaller than that.
+\argm{Light crossing a field is bent because the medium flows, not because space is curved.} Light moves at $c$ through the medium, and the medium near a mass acts on it as a medium with a refractive index, $n \approx 1 + 2GM/c^2 r$, that rises smoothly toward the mass (Part~23). The first edition's account, refraction rather than geometry, is kept. Its layers of different index are not: the bending of radio waves by the Sun follows the smooth law to about one part in $10^4$,\fn{shapiro2004} and the delay of signals passing the Sun to about one part in $10^5$,\fn{bertotti2003} so any layering of the index is far smaller than that.
 
 \section{Anomalies}
 \label{sec:anomalies}
@@ -328,6 +332,7 @@ In three dimensions the field is wound around each body's spin axis, strongest t
 
 None of this would happen in an empty nothing. A body's traits have effects because the medium carries them.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 
