@@ -119,6 +119,10 @@ Moving steadily through the medium, a body is not slowed down and loses no energ
 
 Because the exchange is wave-like, the front rate rises by a factor $k=\sqrt{(1+v/c)/(1-v/c)}$ and the back rate falls by $1/k$. Half their sum is exactly $\gamma$, the body’s energy relative to its rest energy; half their difference is exactly $\gamma v/c$, its momentum. At six-tenths of the speed of light, $k=2$: the front exchanges at twice its rest rate and the back at half, and $(2+\tfrac12)/2 = 1.25$ and $(2-\tfrac12)/2 = 0.75$, the energy and momentum of special relativity. These identities are exact; the leading-edge picture gives special relativity’s energy and momentum with no further assumption. **\[Argued\]** The rate shared by front and back is always the body’s rest rate, and that shared part runs its internal cycles; everything above it, $\gamma-1$, is committed to carving the path, and is its kinetic energy. So a moving body’s clocks run slow by exactly $1/\gamma$: that is the drag, acting on the inside. And as the speed nears $c$, the medium’s own wave speed, the front rate grows without bound, so carving the path faster costs ever more energy, without limit. **\[Hypothesis\]** The measurements are direct: muons circling in a storage ring at $\gamma \approx 29$ live 29 times longer than muons at rest,[^11] and no particle accelerator has brought a body to $c$. The motion is not hidden, either: it shows in moving clocks compared with clocks elsewhere, and through a window onto the cosmic background. A closed room cannot see it, because every process inside it slows together.
 
+#### What is still open.
+
+How much of the medium a particle takes in at each turn of its circulation. That take is what makes the delivery exactly proportional to mass (Part 17); its size is not yet derived. **\[Open\]**
+
 # The Feather and the Bowling Ball
 
 ## What the Demonstration Shows
@@ -255,6 +259,10 @@ At the moment of contact, the stopping is done at the boundary between the ball 
 
 Gravity’s effect on a moving body depends slightly on its speed and on the direction of its motion relative to the mass. The effect scales as the square of the body’s speed divided by the square of the speed of light. For the falling ball at 14 metres per second, that is about $2\times10^{-15}$: far too small to show in any dent. For Mercury, moving at about 47 kilometres per second, it is about $3\times10^{-8}$ on each orbit, and over a century it accumulates into the 43 arcseconds of extra advance of its perihelion. For light, crossing the flow at $c$, it is as large as it can be, and it is why light bends twice the Newtonian amount.[^16] In GPT, these are effects of motion along and across the medium’s flow. **\[Hypothesis\]**
 
+#### What is still open.
+
+How each particle receives its share of the momentum: the coupling at the scale of a single particle, set by the same take per turn, is not yet derived. **\[Open\]**
+
 # The Comb and the Stream
 
 ## What the Demonstration Shows
@@ -304,6 +312,10 @@ The force on the charged stream is computed from the electric field, and the fie
 
 The strain around a small charged body spreads out over ever larger spheres, so it weakens as the square of the distance; and the deficit between two charges depends on the strength of both biases. That is the form of Coulomb’s law. Its strength is set by $\varepsilon_0$, the medium’s compressibility, the same constant that appears in Coulomb’s law. **\[Hypothesis\]**
 
+#### What is still open.
+
+The derivation that the tension Maxwell found along field lines is a pressure deficit in the medium. The sign needs care: in a single whirl, faster swirl means lower pressure, and Maxwell’s own cells are needed to give the right one. Whether a strong field slows light is also unsettled: laser experiments have seen nothing within their limits, and a hint from the light of a neutron star is unconfirmed. **\[Open\]** (Ejlli et al. 2020; Mignani et al. 2017)
+
 # The Magnet
 
 ## What the Demonstration Shows
@@ -350,6 +362,10 @@ The magnetism between electric currents follows exactly from the electric force 
 #### Why the force falls off so fast, and why heat ends it.
 
 The circulation leaves one pole and returns at the other, close by. Far from the magnet, the outgoing and returning streams nearly cancel, and what remains weakens as the cube of the distance, faster than the square law of a single charge: that is why a magnet’s grip fades so quickly as it is drawn away. And the alignment of the atoms’ biases is held against the agitation of heat; at the Curie temperature the agitation wins, the circulation dissolves, and the magnetism is gone. **\[Hypothesis\]** Parts 21 and 22 develop the account in full.
+
+#### What is still open.
+
+The single coupling between a particle’s handedness and the medium’s circulation, from which a magnet’s lasting circulation would follow, is not yet derived (Part 22). **\[Open\]**
 
 # What the Four Were Always Telling Us
 
@@ -419,6 +435,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Clarifications
 
+- Each demonstration now closes with what is still open, the fourth step the introduction promises.
 - The section on tides moves to Part 13, *The Moon and Gravimetric Modulation*, where the Moon’s effects are treated, and will be revised there.
 
 - Each demonstration is now read in four steps: what it shows, the standard explanation and where it stops, GPT’s account and whether it matches what is observed, and what is open. Tables 11.1 and 11.2 follow the energy and the column’s readings; Table 11.3 summarises the four. Five figures are new: the two rooms, the fall, the rising column, the comb and the magnet.
