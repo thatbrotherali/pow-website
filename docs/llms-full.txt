@@ -17659,7 +17659,7 @@ The idea has a history. In 1867 Lord Kelvin proposed that atoms are knotted vort
 
 #### Why charge comes in whole units.
 
-If charge is a topological property of a pattern, like the number of twists in a knot, it can only take whole values. **\[Hypothesis\]** That would explain one of the most exact facts in physics: the charges of the electron and the proton cancel to better than one part in $10^{21}$.[^9] The derivation, and Maxwell’s equations from the medium, are owed (Part 21).
+If charge is a topological property of a pattern, like the number of twists in a knot, it can only take whole values. **\[Hypothesis\]** That would explain one of the most exact facts in physics: the charges of the electron and the proton cancel to better than one part in $10^{21}$.[^9] The derivation, and Maxwell’s equations from the medium, are owed (Parts 17, 22 and 28).
 
 # Weight, Order and Shells: What the Measurements Allow
 
