@@ -77,12 +77,13 @@
   },
   {
    "slug": "gpt-part-08",
-   "title": "Defining the break",
-   "subtitle": "Exposing the Irreconcilable Contradictions Between General Relativity and Graviton Pressure Theory",
-   "words": 8995,
-   "lead": "General Relativity (GR), while historically transformative, remains structurally incomplete and causally opaque. It offers no physical mechanism for gravity, relies on abstract curvature without substance, and collapses under scrutiny in domains demanding force-based explanations. The Graviton Pressure Theory (GPT) is presented here as a coherent, mechanistic, and testable replacement for GR. Unlike GR, GPT does not defer to metaphor or approximation—it offers explicit pressure-field causality, medium-based wave transmission, and structural coherence. This paper examines GR’s philosophical and mechanical failures, presents GPT as a total replacement, and outlines the future of gravitational science through the lens of structure, coherence, and field interaction. The break is not cosmetic—it is foundational, final, and necessary for the restoration of causality in physics.",
-   "source": "Part 08 - Defining the break.tex",
-   "part": 8
+   "title": "Defining the Break",
+   "subtitle": "The Irreconcilable Differences Between General Relativity and Graviton Pressure Theory",
+   "words": 5436,
+   "lead": "General relativity is one of the best-tested theories in physics, and any account of gravity must give its numbers. This paper asks what it says exists and what causes what. Stated fairly, it does not borrow Newton, does not lack a field, and its author did not say space is nothing; its gaps are two equalities without a mechanism, an energy of gravity with no address, and a language of force with no carrier. It treats spacetime as real, giving it curvature, waves, energy, stiffness, rotation and a frame of rest, without saying what it is. Identifying it would require a local energy, a state of motion, an exchange with matter and a constitution: a medium. The same numbers read as a medium flowing in flat space show that the numbers cannot decide; mechanism must. The break is philosophical before it is mathematical.",
+   "source": "Part 8 - Defining the Break (2nd ed.).tex",
+   "part": 8,
+   "pdf": true
   },
   {
    "slug": "gpt-part-09",

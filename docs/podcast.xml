@@ -24,16 +24,6 @@
 <itunes:episode>1</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
-<title>Part 8: Irreconcilable Differences</title>
-<description>Where General Relativity's account of gravity and Graviton Pressure Theory cannot both be right, and why the contradictions matter. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
-<enclosure url="https://music.wixstatic.com/mp3/eaef6d_d8de58fa133e43fa8206a4444bcd10d4-320.mp3" length="31594716" type="audio/mpeg"/>
-<guid isPermaLink="false">pow-deep-dive-eaef6d_d8de58fa133e43fa8206a4444bcd10d4</guid>
-<pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://peopleoftheworld.net/videos.html#listen</link>
-<itunes:duration>790</itunes:duration>
-<itunes:episode>2</itunes:episode>
-<itunes:explicit>false</itunes:explicit>
-</item><item>
 <title>The LLM Consensus: ChatGPT, Gemini and Grok 3</title>
 <description>How three leading AI systems, ChatGPT, Gemini and Grok 3, responded to the Graviton Pressure Theory framework. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_83ff64da5b8d43548839d3cff1ce0ae7-320.mp3" length="34102471" type="audio/mpeg"/>
@@ -41,7 +31,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
-<itunes:episode>3</itunes:episode>
+<itunes:episode>2</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>AI Philosophers: Veritas and Lucidus</title>
@@ -51,7 +41,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>906</itunes:duration>
-<itunes:episode>4</itunes:episode>
+<itunes:episode>3</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item>
 </channel>
