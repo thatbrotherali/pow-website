@@ -47,7 +47,8 @@ The idea that light is a wave of a medium did not begin with GPT. Electromagneti
 
 In 1861 James Clerk Maxwell modelled electric and magnetic effects as the behaviour of a medium filling space: magnetism as the medium’s swirl, and the electric field as an elastic displacement of the medium. He worked out how fast a sideways (transverse) wave would travel through such a medium, using only electrical measurements made on a laboratory bench by Weber and Kohlrausch.[^11] The answer was 310,740 km/s. Fizeau had measured the speed of light directly at 314,858 km/s. The two agree to within about 1.3 per cent. Maxwell wrote that “we can scarcely avoid the inference that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena”.[^12]
 
-Physics kept Maxwell’s equations and, in 1905, set his medium aside, because the equations could be used without it. The equations still say what the medium did: light’s speed is set by two measured properties of space, its permittivity $\varepsilon_0$ and its permeability $\mu_0$, $$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 299{,}792{,}458~\text{m/s}.$$ These are properties of something. A permittivity, a permeability and an impedance are properties of a substance, **\[Argued\]** and the standard account assigns them to a space it calls empty (Part 23).
+Physics kept Maxwell’s equations and, in 1905, set his medium aside, because the equations could be used without it. The equations still say what the medium did: light’s speed is set by two measured properties of space, its permittivity $\varepsilon_0$ and its permeability $\mu_0$, $$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 299{,}792{,}458~\text{m/s}.
+\tag{1}$$ These are properties of something. A permittivity, a permeability and an impedance are properties of a substance, **\[Argued\]** and the standard account assigns them to a space it calls empty (Part 23).
 
 GPT returns the medium. Light, sound, electricity, magnetism and radiation are modes of one medium, **\[Hypothesis\]** differing in what carries them and how:
 
@@ -65,9 +66,12 @@ Each is a transmission: a pattern handed on through a medium, to be received els
 
 # What Every Wave Needs
 
-Every wave needs two things in what carries it: stiffness, which pushes a disturbed part back, and inertia, which carries it past where it started. The speed of the wave is set by the two together: $$v = \sqrt{\frac{\text{stiffness}}{\text{inertia}}}.$$ For sound in a material the stiffness is its bulk modulus $K$ (Part 24’s coherence resistance) and the inertia its density $\rho$, so $v = \sqrt{K/\rho}$. For light in space, $1/\varepsilon_0$ plays the part of the stiffness and $\mu_0$ the inertia, which is what Maxwell found and what the equation for $c$ says.
+Every wave needs two things in what carries it: stiffness, which pushes a disturbed part back, and inertia, which carries it past where it started. The speed of the wave is set by the two together: $$v = \sqrt{\frac{\text{stiffness}}{\text{inertia}}}.
+\tag{2}$$ For sound in a material the stiffness is its bulk modulus $K$ (Part 24’s coherence resistance) and the inertia its density $\rho$, so $v = \sqrt{K/\rho}$. For light in space, $1/\varepsilon_0$ plays the part of the stiffness and $\mu_0$ the inertia, which is what Maxwell found and what the equation for $c$ says.
 
-A medium that carries waves also has an *impedance*: how hard it pushes back for a given motion, set by stiffness and inertia multiplied, $Z = \sqrt{\text{stiffness}\times\text{inertia}}$. For sound in a material it is $\rho v$. For light in space it is $$Z_0 = \sqrt{\frac{\mu_0}{\varepsilon_0}} = 376.73~\Omega.$$ Radio engineers match their antennas to this number, as audio engineers match a loudspeaker to the air. A wave meeting a boundary between two media is partly reflected, and the fraction reflected follows the same rule for sound and for light, $$R = \left(\frac{Z_1 - Z_2}{Z_1 + Z_2}\right)^2 .$$
+A medium that carries waves also has an *impedance*: how hard it pushes back for a given motion, set by stiffness and inertia multiplied, $Z = \sqrt{\text{stiffness}\times\text{inertia}}$. For sound in a material it is $\rho v$. For light in space it is $$Z_0 = \sqrt{\frac{\mu_0}{\varepsilon_0}} = 376.73~\Omega.
+\tag{3}$$ Radio engineers match their antennas to this number, as audio engineers match a loudspeaker to the air. A wave meeting a boundary between two media is partly reflected, and the fraction reflected follows the same rule for sound and for light, $$R = \left(\frac{Z_1 - Z_2}{Z_1 + Z_2}\right)^2 .
+\tag{4}$$
 
 <div id="tab:waves">
 

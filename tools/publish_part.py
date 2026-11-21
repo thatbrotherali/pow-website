@@ -77,6 +77,8 @@ def number_refs(b, part):
 
 def to_web(b, part, slug):
     b = b.replace("\\textsuperscript{,}", "")
+    # pandoc drops a number that opens a cell in a >{\raggedright\arraybackslash} column: keep the spec plain
+    b = re.sub(r">\{\\raggedright(\\arraybackslash)?\}", "", b)
     b = re.sub(r"\\fn\{([^}]+)\}", r"\\footnote{\\citealp{\1}.}", b)
     b = resolve_footnotemarks(b)
     b = number_refs(b, part)

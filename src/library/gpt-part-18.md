@@ -16,7 +16,7 @@ The graviton is in Part 15, the field in Part 16, mass in Part 17 and the equ
 
 Time is measured better than anything else in physics. The best clocks agree to one part in $10^{18}$, and they register the slowing of time between two heights a millimetre apart. Yet the standard account does not say what time is. Newton made it an absolute parameter, flowing uniformly whatever happens; General Relativity made it a coordinate of a curved spacetime, stretched by mass and by motion. Both describe how clocks behave. Neither says what ticks, or why every kind of clock is slowed alike.
 
-In both models time is assumed rather than derived: they describe its effects and give it no structural origin. Time is the rate at which a structure’s internal state is refreshed. **\[Hypothesis\]** This paper says what the refresh is, why its rate is set by the structure while its slowing is set by the medium, and why rhythm comes first in the order of things.
+In both models time is assumed rather than derived: they describe effects but offer no structural origin. Time is the rate at which a structure’s internal state is refreshed. **\[Hypothesis\]** This paper says what the refresh is, why its rate is set by the structure while its slowing is set by the medium, and why rhythm comes first in the order of things.
 
 # What Clocks Measure
 
@@ -49,7 +49,7 @@ Structure needs time in this sense before it can exist. **\[Hypothesis\]** A kno
 
 **\[Hypothesis: the passage that follows\]**
 
-A clock is a pattern of the medium, and its rate is the rate at which the pattern refreshes. In GPT the refresh is literal: with each turn of its circulation, a pattern takes in a fixed amount of the medium (Part 17). Each exchange between the medium and a pattern is a state update, a discrete unit of change: that is the turnover, and its count is the clock.
+A clock is a pattern of the medium, and its rate is the rate at which the pattern refreshes. In GPT the refresh is literal: with each turn of its circulation, a pattern takes in a fixed amount of the medium (Part 17). Each graviton-structure interaction induces a state update, equivalent to a discrete unit of temporal evolution. That is the turnover, and its count is the clock.
 
 **\[End of passage\]**
 
@@ -62,7 +62,7 @@ A pattern’s rhythm is its energy divided by Planck’s constant. **\[Argued\]*
 
 #### Structure sets the rate.
 
-Every clock’s own rate is set by its structure. **\[Argued\]** A quartz watch runs at 32,768 cycles a second because of the size and stiffness of its crystal; a caesium clock at 9.19 billion because of the structure of the caesium atom. Change a clock’s order, temperature or stress, and its rate changes: the heat around an optical clock shifts it by parts in $10^{15}$, and clockmakers correct for it. Structure and order set a clock’s rate: that is how every clock is built. Living rhythms are set by their structures too: a body’s daily clock keeps nearly the same period across a wide range of temperatures, by the design of its chemistry, and is brought into step with the Sun each morning by light.
+Every clock’s own rate is set by its structure. **\[Argued\]** A quartz watch runs at 32,768 cycles a second because of the size and stiffness of its crystal; a caesium clock at 9.19 billion because of the structure of the caesium atom. Change a clock’s order, temperature or stress, and its rate changes: the heat around an optical clock shifts it by parts in $10^{15}$, and clockmakers correct for it. That structure and coherence set a clock’s rate is how every clock is built. Living rhythms are set by their structures too: a body’s daily clock keeps nearly the same period across a wide range of temperatures, by the design of its chemistry, and is brought into step with the Sun each morning by light.
 
 # How Rhythms Come into Step
 
@@ -73,7 +73,7 @@ Rhythms that are coupled lock together. **\[Argued\]** In 1665 Huygens noticed t
 <figcaption>Two coupled rhythms. When the coupling is weaker than the difference between their natural rates, their phase difference slips round and round; when it is stronger, it settles to a fixed value and the two keep step.</figcaption>
 </figure>
 
-Locking is the mechanism GPT uses at every scale. **\[Hypothesis\]** A graviton entering a knot is drawn into step with the circulation (Part 17); an electron’s pattern locks into step around a nucleus (Part 19); bodies whose rhythms are in step are pressed the same way, turn after turn, and are caught into resonance (Part 16); the medium itself, cooling, locked into common order. What carries the coupling is always the medium, as the beam carried Huygens’s swings. Rhythms lock through what they share, and what all things share is the medium. **\[Argued\]**
+Locking is the mechanism GPT uses at every scale. **\[Hypothesis\]** A graviton entering a knot is drawn into step with the circulation (Part 17); an electron’s pattern locks into step around a nucleus (Part 19); bodies whose rhythms are in step are pressed the same way, turn after turn, and are caught into resonance (Part 16); the medium itself, cooling, locked into common order. What carries the coupling is always the medium, as the beam carried Huygens’s swings. Systems synchronise when they share matching update rates: rhythms lock through what they share, and what all things share is the medium. **\[Argued\]**
 
 # Why Every Clock Slows Alike
 
@@ -85,7 +85,7 @@ A clock’s cycle is carried by exchanges that cross its bonds at $c$ through th
 
 **\[End of passage\]**
 
-Gravitational time dilation is a latency in the refresh: the lengthened round trip of every exchange in a pattern the medium streams through.
+This is refresh latency: gravitational time dilation is latency in graviton alignment. The latency is the lengthened round trip of every exchange in a pattern the medium streams through.
 
 #### Why every kind of clock agrees.
 
@@ -117,7 +117,7 @@ Time in GPT has rates of return as well as rates of rhythm. Disturbed order come
 
 # Past, Present and Future
 
-Past, present and future can be stated in terms of the medium: **\[Hypothesis\]**
+The past is stabilised structure, the present is the active refresh rate, and the future is resonant alignment potential. In terms of patterns of the medium: **\[Hypothesis\]**
 
 - **The past persists as structure.** A crystal’s lattice, a planetary system’s resonances, the layers of rock, the sequence of a gene, the activation record set when a structure first formed (Part 13): each is the past held in the arrangement of the present. A system’s structure is the record of its history (Part 16).
 
@@ -125,17 +125,17 @@ Past, present and future can be stated in terms of the medium: **\[Hypothesis\]*
 
 - **The future is what present rhythms allow:** what can lock, what can form, and what will persist.
 
-Memory in a brain is held in the strength of connections between nerve cells, **\[Argued\]** changed by use; that is established. GPT’s activation record is a proposal about how structures record influences more generally, not a replacement for it. Whether deterministic resonance replaces probability in quantum measurement is open **\[Open\]** (Part 12).
+Memory in a brain is held in the strength of connections between nerve cells, **\[Argued\]** changed by use; that is established. GPT’s activation record is a proposal about how structures record influences more generally, not a replacement for it. Whether deterministic resonance replaces probability in quantum measurement is open (Part 12).
 
 # The Direction of Time
 
 The equations of motion run equally well backward; the world does not. **\[Argued\]** The standard account locates the difference in the universe’s beginning: it started in a state of low entropy, and disorder has grown since.
 
-GPT locates two arrows in the medium. **\[Hypothesis\]** The first is the cooling: the medium began hot and disordered and settled into order, and everything formed in that order in sequence, medium before light, light before knots, knots before atoms (Part 19). The second is in every particle: the turnover takes in-phase medium and sheds it neutral, never the reverse, and the neutral medium is re-phased only far away. Reversed, every particle would draw in neutral medium and emit pressing medium. Whether the turnover’s direction shows in anything beyond the small violations of time-symmetry measured in the decays of some particles is open. **\[Open\]**[^14]
+GPT locates it in structured coherence against entropy, and finds two arrows in the medium. **\[Hypothesis\]** The first is the cooling: the medium began hot and disordered and settled into order, and everything formed in that order in sequence, medium before light, light before knots, knots before atoms (Part 19). The second is in every particle: the turnover takes in-phase medium and sheds it neutral, never the reverse, and the neutral medium is re-phased only far away. Reversed, every particle would draw in neutral medium and emit pressing medium. Whether the turnover’s direction shows in anything beyond the small violations of time-symmetry measured in the decays of some particles is open. **\[Open\]**[^14]
 
 # Time as It Is Experienced
 
-Does order speed up time as it is experienced, so that in moments of threat, or in meditation, the refresh rate rises and time seems to slow? That was tested. **\[Argued\]** People falling 31 metres into a net, at the moment they most felt time slow, could read numbers flashed too fast to read at rest no better than at rest. What changes is memory: frightening moments are remembered in more detail, so they seem in retrospect to have lasted longer.[^15] Experienced time is set by the rhythms of the brain, which are structures, and by memory; it is not the rate of the body’s clocks, which every measurement finds the same. **\[Argued\]** Every clock is slowed alike by the medium, and no material has changed that.
+Time seems to slow in moments of threat. Whether the body’s refresh rate rises at such moments has been tested. **\[Argued\]** People dropped 31 metres into a net, at the moment they most felt time slow, could read numbers flashed too fast to read at rest no better than at rest. What changes is memory: frightening moments are remembered in more detail, so they seem in retrospect to have lasted longer.[^15] Experienced time is set by the rhythms of the brain, which are structures, and by memory; it is not the rate of the body’s clocks, which every measurement finds the same. **\[Argued\]** Every clock is slowed alike by the medium, and no material has changed that.
 
 # What Remains to Be Derived
 

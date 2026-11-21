@@ -18,7 +18,7 @@ Mass is measured more precisely than almost anything in physics. A body’s resi
 
 What mass *is* has no answer in the standard account. Newton defined it by the force needed to accelerate it; General Relativity makes it a source of spacetime curvature; the Standard Model gives each elementary particle a number for its coupling to a field that fills all space, measured and not derived. Each describes how mass behaves. None says what is there.
 
-GPT’s first edition defined mass as a structure’s resistance to the flow of the medium. That instinct is kept: mass is a relation between a pattern and the medium it is made of. **\[Hypothesis\]** This edition says what the pattern is, what the relation is, and why the measured facts follow.
+Mass is a structure’s resistance to the flow of the medium: mass is a relation between a pattern and the medium it is made of. **\[Hypothesis\]** This paper says what the pattern is, what the relation is, and why the measured facts follow.
 
 One principle guides it. The universe began hot and energetic, expanded and cooled, and everything in it came from that one beginning. So nothing can be made of anything else: each thing is a later phase or process of what came before, cooled energy settled into some form. The medium is the first such form; light is its travelling wave; matter is its knotted circulation; nuclei, atoms and everything after are made of the knots. “Fundamental” means earliest, not uncaused. How knots form, why they need three dimensions, and how they build nuclei and atoms is the subject of Part 19, *The Pathway to Matter*. This paper is about what confined energy does, and about its numbers.
 
@@ -149,7 +149,7 @@ Matter is kept in being by a cycle that runs through it and out into space (Figu
 <figcaption>The turnover. In-phase medium is pressed in; its pressing energy goes into the circulation of the body’s knots; it leaves neutral, carrying the knots’ phase and the energy as motion; far away it is re-phased and available to flow in again. (Hypothesis)</figcaption>
 </figure>
 
-The first edition said that mass is “not a frozen property”: that “each moment of graviton interaction reaffirms” it, and that mass is “the stabilized echo of resistance in a perpetually refreshed field”. It also said that gravitons are absorbed, depositing energy. Both are kept, and joined: the deposit is what keeps the pattern in being.
+Mass is not a frozen property. Each moment of graviton interaction reaffirms it: mass is the stabilised echo of resistance in a perpetually refreshed field. Gravitons are absorbed, depositing energy, and the deposit is what keeps the pattern in being.
 
 #### Where the energy goes.
 
@@ -195,44 +195,44 @@ Weight is the support’s relay of the push needed to keep the pattern from bein
 
 **\[End of passage\]**
 
-Inertial and passive gravitational mass agree for every material because both follow from what matter is: circulation of the medium. **\[Argued\]** Active mass agrees with them because the take per turn makes a body’s draw follow the same energy. The first edition held that inertia and gravity are “resistance within the graviton field”. What changes is what the resistance is: not a static impedance, but the circulation of the pattern and its turnover, whose size is the pattern’s energy.
+Inertial and passive gravitational mass agree for every material because both follow from what matter is: circulation of the medium. **\[Argued\]** Active mass agrees with them because the take per turn makes a body’s draw follow the same energy. Inertia and gravity are both resistance within the graviton field. The resistance is not a static impedance, but the circulation of the pattern and its turnover, whose size is the pattern’s energy.
 
 The exchange also gives inertia its measured shape at high speed. Along the motion a body resists further acceleration as $\gamma^3 m$, across it as $\gamma m$: the longitudinal and transverse masses of relativistic mechanics, confirmed in every particle accelerator.
 
 #### Motion is a relation with the medium.
 
-The first edition said there is no universal tendency to continue motion. That is withdrawn: spacecraft coast for decades. But the instinct behind it is kept. A body’s motion is not a property it has in isolation; it is its relation with the medium, and it continues because of that relation, not in spite of it.
+Spacecraft coast for decades. A body’s motion is not a property it has in isolation; it is its relation with the medium, and it continues because of that relation, not in spite of it.
 
 # What Changes a Body’s Mass
 
-The first edition listed what changes mass, and the direction of every change it gave is right. What it lacked was the size. In this edition each change has the size measurement requires: $\Delta E/c^2$, no more (Table 17.2).
+Every change in a body’s mass has a direction and a size, and the size is the one measurement requires: $\Delta E/c^2$, no more (Table 17.2).
 
 <div id="tab:changes">
 
-| **Change**       | **First edition** | **Measured**                                                                                                                                          |
-|:-----------------|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Heating          | Raises mass       | Raises it by $\Delta E/c^2$: $+4.7\times10^{-12}$ kg for a kilogram of water warmed by 100 degrees                                                    |
-| Binding          | Reduces mass      | Reduces it by the binding energy$/c^2$: 0.76% for helium                                                                                              |
-| Stress           | Raises mass       | Raises it by the stored elastic energy$/c^2$                                                                                                          |
-| Speed            | Raises resistance | Raises it as $\gamma$ (across) and $\gamma^3$ (along)                                                                                                 |
-| Melting          | Raises mass       | Raises it by the latent heat$/c^2$: $+3.7\times10^{-12}$ kg per kilogram of ice                                                                       |
-| Depth in a field | Raises resistance | Unchanged locally; seen from far away, a body lowered toward a mass has less energy, by $GMm/r$: $7\times10^{-10}$ of its mass at the Earth’s surface |
+| **Change**       | **Effect**                                     | **Size**                                                                                       |
+|:-----------------|:-----------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| Heating          | Raises mass                                    | $\Delta E/c^2$: $+4.7\times10^{-12}$ kg for a kilogram of water warmed by 100 degrees          |
+| Binding          | Reduces mass                                   | The binding energy$/c^2$: 0.76% for helium                                                     |
+| Stress           | Raises mass                                    | The stored elastic energy$/c^2$                                                                |
+| Speed            | Raises resistance                              | As $\gamma$ (across) and $\gamma^3$ (along)                                                    |
+| Melting          | Raises mass                                    | The latent heat$/c^2$: $+3.7\times10^{-12}$ kg per kilogram of ice                             |
+| Depth in a field | Unchanged locally; lower as seen from far away | $GMm/r$, the energy given up in lowering: $7\times10^{-10}$ of its mass at the Earth’s surface |
 
-What changes a body’s mass. The first edition’s directions are right except for depth in a field; the sizes are $\Delta E/c^2$.
+What changes a body’s mass, and by how much. Every size is $\Delta E/c^2$.
 
 </div>
 
 #### Coherence and structure.
 
-For materials as they are, mass tracks energy, binding included, to about one part in $10^{12}$, **\[Argued\]** because materials whose nuclei hold different fractions of binding energy fall alike to one part in $10^{15}$. A material’s order changes its mass by the energy the order holds, and no more. The first edition’s “equal matter, different mass” is restated: equal *energy*, equal mass; and the structure of a body decides where in it the medium’s delivery lands, not its total (Part 15).
+For materials as they are, mass tracks energy, binding included, to about one part in $10^{12}$, **\[Argued\]** because materials whose nuclei hold different fractions of binding energy fall alike to one part in $10^{15}$. A material’s order changes its mass by the energy the order holds, and no more. Equal *energy* means equal mass, and the structure of a body decides where in it the medium’s delivery lands, not its total (Part 15).
 
 #### Mass from surroundings: a real effect at another level.
 
-The first edition’s environmental mass has a true counterpart. An electron moving through a crystal responds to a push as if it had a different mass, because it moves in constant exchange with the lattice around it: in gallium arsenide about 0.067 of its free mass, and in some metals hundreds of times its free mass.[^17] The electron’s own mass does not change; its *effective* mass is set by its interaction with its surroundings. That is inertia arising from exchange with a surrounding medium, measured in the laboratory every day. **\[Argued\]** GPT proposes that a body’s own mass arises the same way, from its exchange with the medium of space.
+Mass set by surroundings is measured, at the level of electrons. An electron moving through a crystal responds to a push as if it had a different mass, because it moves in constant exchange with the lattice around it: in gallium arsenide about 0.067 of its free mass, and in some metals hundreds of times its free mass.[^17] The electron’s own mass does not change; its *effective* mass is set by its interaction with its surroundings. That is inertia arising from exchange with a surrounding medium, measured in the laboratory every day. **\[Argued\]** GPT proposes that a body’s own mass arises the same way, from its exchange with the medium of space.
 
 #### Changing mass beyond $\Delta E/c^2$.
 
-The first edition proposed mass-tuning devices. Changing mass by more than $\Delta E/c^2$ is not excluded by measurement in every form, but it is bounded: spinning rotors weigh normally.[^18] Whether a body changing its order weighs differently while it changes is open, and an experiment is under way to weigh the energy released when a material becomes superconducting. **\[Open\]**[^19] It is a test for Part 29.
+Changing mass by more than $\Delta E/c^2$ is not excluded by measurement in every form, but it is bounded: spinning rotors weigh normally.[^18] Whether a body changing its order weighs differently while it changes is open, and an experiment is under way to weigh the energy released when a material becomes superconducting. **\[Open\]**[^19] It is a test for Part 29.
 
 # Mass in Atoms, Nuclei and Stars
 
@@ -253,11 +253,11 @@ Nuclei weigh less than their parts by much more: about 8 MeV for each nucleon, n
 
 | **Term** | **Form**           | **Size (MeV)** | **In GPT**                                                                                                                                                                                 |
 |:---------|:-------------------|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Volume   | $+a_V A$           |                | Each nucleon’s outer pattern overlaps its neighbours’ and reinforces between them, binding them; each has only so many neighbours, so binding grows with the number of nucleons            |
-| Surface  | $-a_S A^{2/3}$     |                | Nucleons at the surface have fewer neighbours to interlock with                                                                                                                            |
-| Charge   | $-a_C Z^2/A^{1/3}$ |                | Protons emit in phase with one another and push apart                                                                                                                                      |
-| Balance  | $-a_A (N-Z)^2/A$   |                | A proton and a neutron, different knots, can bind with parallel spins; two of a kind cannot, since identical knots of the same circulation push each other out, so equal numbers bind best |
-| Pairing  | $\pm a_P/A^{1/2}$  |                | Two identical nucleons of opposite circulation do not push each other out and can share a pattern                                                                                          |
+| Volume   | $+a_V A$           | 15.8           | Each nucleon’s outer pattern overlaps its neighbours’ and reinforces between them, binding them; each has only so many neighbours, so binding grows with the number of nucleons            |
+| Surface  | $-a_S A^{2/3}$     | 17.8           | Nucleons at the surface have fewer neighbours to interlock with                                                                                                                            |
+| Charge   | $-a_C Z^2/A^{1/3}$ | 0.71           | Protons emit in phase with one another and push apart                                                                                                                                      |
+| Balance  | $-a_A (N-Z)^2/A$   | 23.7           | A proton and a neutron, different knots, can bind with parallel spins; two of a kind cannot, since identical knots of the same circulation push each other out, so equal numbers bind best |
+| Pairing  | $\pm a_P/A^{1/2}$  | 11.2           | Two identical nucleons of opposite circulation do not push each other out and can share a pattern                                                                                          |
 
 The liquid-drop formula for the binding energy of a nucleus with $A$ nucleons, $Z$ protons and $N$ neutrons. Its coefficients are fitted to measurement; in GPT each term has a mechanism. (Hypothesis)
 
@@ -281,13 +281,13 @@ These are the numbers a theory of mass is asked for (Table 17.4). No theory der
 
 | **Quantity**                           | **Measured**                                                                        | **In GPT, it should follow from**           |
 |:---------------------------------------|:------------------------------------------------------------------------------------|:--------------------------------------------|
-| Electron’s mass                        | MeV                                                                                 | The threshold of the simplest knot          |
-| Proton-to-electron mass ratio          |                                                                                     | The three-lobed knot against the single one |
-| Neutron minus proton                   | MeV                                                                                 | The difference of one lobe’s twist          |
-| Muon and tau to electron               | and 3477.2                                                                          | Excited windings of the electron’s knot     |
-| Strength of charge, $1/\alpha$         |                                                                                     | The coupling of phase to phase              |
+| Electron’s mass                        | 0.51099895 MeV                                                                      | The threshold of the simplest knot          |
+| Proton-to-electron mass ratio          | 1836.15267                                                                          | The three-lobed knot against the single one |
+| Neutron minus proton                   | 1.29333 MeV                                                                         | The difference of one lobe’s twist          |
+| Muon and tau to electron               | 206.768 and 3477.2                                                                  | Excited windings of the electron’s knot     |
+| Strength of charge, $1/\alpha$         | 137.035999                                                                          | The coupling of phase to phase              |
 | Electric to gravitational, two protons | $1.24\times10^{36}$                                                                 | Phase coupling against the take per turn    |
-| Electron’s magnetic moment, $g$        |                                                                                     | The knot with its field                     |
+| Electron’s magnetic moment, $g$        | 2.00231930436                                                                       | The knot with its field                     |
 | Neutrino masses                        | below 0.45 eV; differences squared $7.4\times10^{-5}$ and $2.5\times10^{-3}$ eV$^2$ | Patterns holding very little energy         |
 
 The numbers of mass. (Hypothesis)
@@ -300,7 +300,7 @@ The three charged leptons satisfy Koide’s relation, $(m_e+m_\mu+m_\tau)/(\sqrt
 
 # Light, Neutrinos and the Massless
 
-Light is the medium’s travelling wave; matter is its confined circulation. **\[Hypothesis\]** A travelling wave has only a front: there is no back for it to deliver to, and no frame in which it is at rest. Its energy and momentum are related by $E = pc$, and its mass is zero. Matter has a front and a back, a frame in which it is at rest, and mass $E/c^2$. The first edition said photons are “fully aligned” with the flow and have “zero impedance”; that is restated: light is not confined.
+Light is the medium’s travelling wave; matter is its confined circulation. **\[Hypothesis\]** A travelling wave has only a front: there is no back for it to deliver to, and no frame in which it is at rest. Its energy and momentum are related by $E = pc$, and its mass is zero. Matter has a front and a back, a frame in which it is at rest, and mass $E/c^2$. Photons are fully aligned with the flow: light is not confined.
 
 Neutrinos have mass. **\[Argued\]** They change from one type to another as they travel, which they could not do without mass,[^20] and direct measurement puts the mass of the electron’s neutrino below about half an electronvolt, less than a millionth of the electron’s.[^21] The differences between the squares of the three masses, measured from the changes, are $7.4\times10^{-5}$ and $2.5\times10^{-3}$ eV$^2$, so the heaviest neutrino is at least 0.05 eV. What makes a neutrino’s pattern carry so little energy is open. **\[Open\]**
 
@@ -310,8 +310,8 @@ Neutrinos have mass. **\[Argued\]** They change from one type to another as they
 |:-------------|:----------------------------------------------------|:-------------------------------------------------------------------|
 | Photon       | The medium’s travelling wave: not confined          | No mass; $E = pc$                                                  |
 | Neutrino     | A confined pattern holding very little energy       | Mass below about 0.45 eV; three types that change into one another |
-| Electron     | A single knot of circulation at $c$, one handedness | MeV; charge $-1$; looks like a point to $10^{-18}$ m               |
-| Proton       | A composite knot; almost all confined motion        | MeV; charge $+1$; radius 0.84 fm                                   |
+| Electron     | A single knot of circulation at $c$, one handedness | 0.511 MeV; charge $-1$; looks like a point to $10^{-18}$ m         |
+| Proton       | A composite knot; almost all confined motion        | 938 MeV; charge $+1$; radius 0.84 fm                               |
 
 Particles as patterns of the medium. (Hypothesis)
 
