@@ -16,7 +16,7 @@ Graviton Pressure Theory (GPT) is an attempt to answer those questions: a physic
 
 <figure>
 <img src="assets/figures/fig1-1-three-apples.svg" />
-<figcaption>Three accounts of the same falling apple. Newton names a force but not its carrier; General Relativity describes geometry and says no force acts; GPT proposes that both masses sit in a medium of gravitons; each shades the other, lowering the pressure between them, so the stronger pressure on their outer sides presses them together. This remains a hypothesis.</figcaption>
+<figcaption>Three accounts of the same falling apple. Newton names a force but not its carrier; General Relativity describes geometry and says no force acts; GPT proposes that both masses sit in a medium of gravitons that flows into every mass, because matter takes the medium in and returns it inactive. The apple is carried by the Earth's inflow, which gives momentum to each of its particles alike; where something stops the carrying, the push is weight. This remains a hypothesis.</figcaption>
 </figure>
 
 GPT does not seek to discard its predecessors. It seeks to complete them.
@@ -76,11 +76,11 @@ In outline—each part of the framework develops one layer in detail:
 
 **\[Hypothesis: the passage that follows\]**
 
-- Gravity is not a pull. It is an **external pressure**: bodies are pressed toward one another by a surrounding medium.
+- Gravity is not a pull. A medium **flows into every mass**, and bodies are carried by that flow; where the carrying is stopped, the push is weight.
 
 - The medium is made of **gravitons**—real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected;[^12] in GPT it is the physical medium itself.
 
-- Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. Around every mass this lowers the active pressure of the medium, and the higher pressure beyond presses inward. Gravitational behaviour arises from this **differential pressure**, and mass is the measure of how strongly matter takes part in the exchange.
+- Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. This sets up an inflow into every mass, with the active pressure lowered where the medium flows fastest, and every body in the flow is carried by it. Gravitational behaviour arises from this **inflow**, and mass is the measure of how strongly matter takes part in the exchange.
 
 - Weight, tides, orbits, the bending of light and the slowing of clocks are manifestations of one structured interaction in an ever-present field—not separate phenomena requiring separate explanations.
 
@@ -245,6 +245,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Changes to the argument (November 2026, after Parts 6, 7 and 11)
 
+- Figure 1.1 and “What Graviton Pressure Theory Proposes” now follow Part 5: the shadow between the masses, and the stronger pressure on their outer sides pressing them together, are replaced by the medium flowing into every mass and carrying each body, momentum given to every particle alike. A push on a body's outer surface would scale with its area, and every material is measured to be carried alike.
 - The slowing of clocks near a mass is no longer a second calibration. It follows from the inflow: a clock is slowed by the medium streaming past it, by $\sqrt{1-v^2/c^2}$, which with $v^2=2GM/r$ is the measured redshift. Questions the first draft of this edition left open (moving clocks, dispersion, drag and heating, why clocks and rulers change together) are now answered in the text, marked as hypotheses. “The effect of the denser medium” on clocks is corrected to the medium streaming past them.
 
 ## Clarifications
