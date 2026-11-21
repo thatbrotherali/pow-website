@@ -1,3 +1,7 @@
+% Part metadata for the publishing tool
+\newcommand{\gptpart}{15}
+\newcommand{\gpttitle}{Gravitons}
+\newcommand{\gptsubtitle}{The Constituent of the Medium, and the Causal Engine Behind Gravity}
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -24,7 +28,6 @@
 \renewcommand{\thesection}{15.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -46,6 +49,7 @@
 \newcommand{\why}[1]{\par\textit{#1}\par}
 \usepackage{tocloft}
 \renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\graphicspath{{figs/}}
 \begin{document}
 \renewcommand{\thetable}{15.\arabic{table}}
 \begin{titlepage}
@@ -212,7 +216,7 @@ Several first-edition claims are restated here in the form the measurements allo
 
 \paragraph{Coherence changes mass, through energy.} Because the delivery tracks total energy, a change in a body's order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. The direction matches the first edition's: ordered matter has less mass, disordered matter more. The size is set by energy. \argm{For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material's coherence affects its weight by $\Delta E/c^2$ and no more.} Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,\fn{faller1990} but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. \openm{It is listed in Part~29.}
 
-\paragraph{Weight and internal alignment.} \hypm{The medium's delivery may be shared out unevenly inside a body according to its internal alignment, while the total stays fixed.} Some forms of this are tested: torsion pendulums carrying some $10^{23}$ aligned electron spins show no extra gravitational effect, and a superconducting sphere weighs normally. Others are not, as far as is known: whether a single crystal weighs differently in different orientations, or whether its centre of gravity shifts from its centre of mass as it is turned. A mass comparator can weigh a kilogram to about one part in $10^{10}$, and a torsion balance can detect the torque an uneven delivery would produce. Both tests are listed in Part~29 as predictions of GPT.
+\paragraph{Weight and internal alignment.} \hypm{The medium's delivery to a body is the same for every composition, and it may be shared out unevenly inside the body according to its internal alignment.} Falling and holding are different acts. In a fall, the delivery builds up as motion in every particle at once; nothing passes from one part of the body to another, so structure plays no part, and every body falls alike, as measured to one part in $10^{15}$.\fn{touboul2022} Held, the delivery must pass through the structure, layer by layer, into the support. \hypm{GPT proposes that the route depends on the body's structure and its alignment to the inflow, and that the share reaching the support may depend on it too: part of the delivery could leave with the counterflow instead.} Standard physics expects a held body's weight to be set by its mass alone, apart from its height and the air it displaces. \openm{Which is right has not been tested.} Some forms of alignment have been: torsion pendulums carrying some $10^{23}$ aligned electron spins show no extra gravitational effect, and a superconducting sphere weighs normally. Others have not, as far as is known: whether one material weighs the same as flat sheets, upright sheets, honeycomb and a solid block, at equal mass and equal height, in vacuum; whether a single crystal weighs differently in different orientations; and whether its centre of gravity shifts from its centre of mass as it is turned. A mass comparator can weigh a kilogram to about one part in $10^{10}$, and a torsion balance can detect the torque an uneven delivery would produce. These tests belong to Part~29, the experiments.
 
 \paragraph{Free fall and weight are one delivery, with two destinations.} Falling, the delivery accumulates as the body's motion; held, it is relayed into the support, whose reading is the delivery (Parts~6 and~11). They are not the same thing, and the framework does not treat them as the same.
 
@@ -303,6 +307,7 @@ Gravitons in GPT are real: the constituents of a medium that fills space, moving
 
 With this, GPT moves gravitational theory from metaphor to mechanics, from inference to interaction, and from passive geometry to a medium that does the work.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 
@@ -310,6 +315,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 \subsection*{Changes to the argument}
 \begin{itemize}
+  \item Weight and internal alignment (22 November 2026): falling and holding are separated. Every body falls alike, because a fall passes nothing from part to part; holding passes the delivery through the structure, and GPT proposes that the share reaching the support may depend on the structure. This is untested, and differs from the standard expectation. The configuration test (sheets, honeycomb and solid, at equal mass and height, in vacuum) is added.
 \item Section~\ref{sec:phase} (corrected 11 November): two meanings of phase are distinguished. The phase of emission, set by a pattern's circulation, governs push between separate things; the spatial phase of a standing pattern governs how overlapping patterns add. Contact is restated as exclusion between filled patterns, and the bond as a pattern reinforced in spatial phase and shared by two electrons of opposite circulation. An earlier wording of this edition said a bond forms where two atoms' tails overlap out of phase; that reversed chemistry's measured rule.
 \item The graviton is defined as the constituent of the medium, distinct from the mainstream graviton, the quantum of a gravitational wave. A new opening section asks what electrons and protons are, and proposes that every particle is a pattern of the one medium.
 \item Self-repulsion is no longer a separate property. It follows from phase and oscillation: in phase, gravitons push. The same rule gives contact, and, with the spatial phase of shared patterns, bonds (``phase decides push'').

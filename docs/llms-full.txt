@@ -17549,7 +17549,7 @@ Quantum field theory describes these excitations with extraordinary precision. I
 
 #### What follows for GPT.
 
-There is one medium, and every particle is an organised pattern of it. **\[Hypothesis\]** Matter is made of standing patterns: they have a place where they are at rest, and so a rest rate, a mass (Part 23). Light is a travelling wave of the medium, with no rest frame and so no mass. Electrons and protons are stable, localised patterns, whose spin is a rotation of the pattern and whose charge may be the sense of its circulation. Section <a href="#sec:matter" data-reference-type="ref" data-reference="sec:matter">“Matter as Patterns of the Medium”</a> returns to this.
+There is one medium, and every particle is an organised pattern of it. **\[Hypothesis\]** Matter is made of standing patterns: they have a place where they are at rest, and so a rest rate, a mass (Part 23). Light is a travelling wave of the medium, with no rest frame and so no mass. Electrons and protons are stable, localised patterns, whose spin is a rotation of the pattern and whose charge may be the sense of its circulation. Section <a href="#sec:matter" data-reference-type="ref" data-reference="sec:matter">7</a> returns to this.
 
 # What a Graviton Is
 
@@ -17567,13 +17567,13 @@ In mainstream physics, “graviton” means something else: the hypothetical qua
 
 1.  **It moves, and carries momentum.** Gravitons are in constant motion and carry momentum, as light does. **\[Hypothesis\]** Pressure is nothing other than a flux of momentum, so a medium of moving gravitons has pressure from its motion. The inflow into a mass is the gravitons’ slow collective drift, 11.2 kilometres per second at the Earth’s surface, as wind is the slow drift of air whose molecules move at hundreds of metres per second. How fast a single graviton moves is a different question from how fast the medium’s waves travel, as air’s molecules move faster than its sound. The speed of light, $c$, is the speed of the medium’s transverse waves, and so the limit for every pattern made of the medium: matter, light and any signal. The gravitons’ own speed follows from the medium’s equation of state, which is owed (Part 23).
 
-2.  **It oscillates, and has a phase.** Each graviton carries an oscillation, and its phase relative to its neighbours decides how it interacts with them. **\[Hypothesis\]** This is the property on which the rest depend (Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>).
+2.  **It oscillates, and has a phase.** Each graviton carries an oscillation, and its phase relative to its neighbours decides how it interacts with them. **\[Hypothesis\]** This is the property on which the rest depend (Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">4</a>).
 
 3.  **It repels, as a consequence of phase.** Gravitons in phase with one another push apart. **\[Hypothesis\]** Self-repulsion is not a separate property but a consequence of phase and oscillation; it is what gives the medium its pressure.
 
-4.  **It is conserved.** Gravitons are taken in by matter and ejected again; they are not destroyed. **\[Hypothesis\]** What matter changes is their phase: it ejects them in its own phase, out of step with the medium around it (Section <a href="#sec:flow" data-reference-type="ref" data-reference="sec:flow">“The Flow Around a Mass”</a>).
+4.  **It is conserved.** Gravitons are taken in by matter and ejected again; they are not destroyed. **\[Hypothesis\]** What matter changes is their phase: it ejects them in its own phase, out of step with the medium around it (Section <a href="#sec:flow" data-reference-type="ref" data-reference="sec:flow">5</a>).
 
-5.  **It acts on what is organised.** What interacts with the medium is not a body’s outer surface but the boundaries of all the patterns it is made of: the total amount of medium organised into them. **\[Hypothesis\]** That amount is the body’s energy, so the delivery tracks total energy, binding included. **\[Argued\]** Titanium and platinum differ by about a tenth of a per cent in how much of their mass is nuclear binding energy, yet they fall alike to about one part in $10^{15}$:[^4] binding energy is acted on exactly as the rest of the mass is, to about one part in $10^{12}$. Within a structured body, where the delivery lands may depend on the body’s order (Part 13 and Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">“Weight, Order and Shells: What the Measurements Allow”</a>).
+5.  **It acts on what is organised.** What interacts with the medium is not a body’s outer surface but the boundaries of all the patterns it is made of: the total amount of medium organised into them. **\[Hypothesis\]** That amount is the body’s energy, so the delivery tracks total energy, binding included. **\[Argued\]** Titanium and platinum differ by about a tenth of a per cent in how much of their mass is nuclear binding energy, yet they fall alike to about one part in $10^{15}$:[^4] binding energy is acted on exactly as the rest of the mass is, to about one part in $10^{12}$. Within a structured body, where the delivery lands may depend on the body’s order (Part 13 and Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">8</a>).
 
 6.  **It is fine-grained.** If the medium is made of discrete gravitons, the grain is far below anything yet measured. A grainy medium would make gravity fluctuate, as Brownian motion revealed the molecules of a liquid; no such noise has been seen. And light of very different energies from a gamma-ray burst seven billion light-years away arrived together, which rules out a grain coarse enough to disperse light at around the Planck scale.[^5]
 
@@ -17591,7 +17591,7 @@ Phase here is the phase of what is emitted, set by the sense and timing of a pat
 
 **\[End of passage\]**
 
-The same rule, at three scales, gives three things that are usually explained separately **\[Argued\]** (Figure <a href="#fig:phase" data-reference-type="ref" data-reference="fig:phase">1</a>):
+The same rule, at three scales, gives three things that are usually explained separately **\[Argued\]** (Figure 15.1):
 
 1.  **The medium’s pressure**: the push of in-phase gravitons on each other.
 
@@ -17632,11 +17632,11 @@ Neutral gravitons do not stay neutral. The ambient medium brings them back into 
 
 #### Why the boundary is set by an acceleration.
 
-The flux of neutral gravitons at a distance $r$ from a mass is the intake $Q$ spread over a sphere, $Q/4\pi r^2$. If the intake is proportional to the mass, this flux is proportional to $GM/r^2$, which is the gravitational acceleration itself. So the point where the flux of ejecta falls below the medium’s own re-phasing rate is the point where the acceleration falls below a fixed value, the same for every mass: **\[Hypothesis\]** $$r_{a_0} = \sqrt{\frac{GM}{a_0}}.$$ This is the boundary at which galaxies depart from Newton, with $a_0 \approx 1.2\times10^{-10}$ metres per second squared (Part 23, Section 23.13). The universality of $a_0$ across galaxies, which the observations demand, follows from the mechanism instead of being fitted. The argument depends on the intake being proportional to the mass, which is owed; and the value of $a_0$ is set by the medium’s re-phasing rate in free space, which is owed too (Figure <a href="#fig:populations" data-reference-type="ref" data-reference="fig:populations">2</a>).
+The flux of neutral gravitons at a distance $r$ from a mass is the intake $Q$ spread over a sphere, $Q/4\pi r^2$. If the intake is proportional to the mass, this flux is proportional to $GM/r^2$, which is the gravitational acceleration itself. So the point where the flux of ejecta falls below the medium’s own re-phasing rate is the point where the acceleration falls below a fixed value, the same for every mass: **\[Hypothesis\]** $$r_{a_0} = \sqrt{\frac{GM}{a_0}}.$$ This is the boundary at which galaxies depart from Newton, with $a_0 \approx 1.2\times10^{-10}$ metres per second squared (Part 23, Section 23.13). The universality of $a_0$ across galaxies, which the observations demand, follows from the mechanism instead of being fitted. The argument depends on the intake being proportional to the mass, which is owed; and the value of $a_0$ is set by the medium’s re-phasing rate in free space, which is owed too (Figure 15.2).
 
 <figure id="fig:populations">
 <img src="assets/figures/fig15-2-populations.svg" />
-<figcaption>The two populations around a mass (schematic). The count of gravitons rises toward the mass, because the gravitons it has ejected out of phase, the neutral population, accumulate there; the active population, which carries the pressure, stays near its free-space level. Far from the mass, the ambient medium brings the ejecta back into phase faster than the mass supplies them. Where the flux of ejecta falls below that rate lies the relaxation boundary, at the same acceleration, <span class="math inline"><em>a</em><sub>0</sub></span>, around every mass. (Hypothesis)</figcaption>
+<figcaption>The two populations around a mass (schematic). The count of gravitons rises toward the mass, because the gravitons it has ejected out of phase, the neutral population, accumulate there; the active population, which carries the pressure, stays near its free-space level. Far from the mass, the ambient medium brings the ejecta back into phase faster than the mass supplies them. Where the flux of ejecta falls below that rate lies the relaxation boundary, at the same acceleration, <span class="math inline">\(a_0\)</span>, around every mass. (Hypothesis)</figcaption>
 </figure>
 
 # Matter as Patterns of the Medium
@@ -17659,19 +17659,19 @@ The idea has a history. In 1867 Lord Kelvin proposed that atoms are knotted vort
 
 #### Why charge comes in whole units.
 
-If charge is a topological property of a pattern, like the number of twists in a knot, it can only take whole values. **\[Hypothesis\]** That would explain one of the most exact facts in physics: the charges of the electron and the proton cancel to better than one part in $10^{21}$.[^9] The derivation, and Maxwell’s equations from the medium, are owed (Parts 17, 22 and 28).
+If charge is a topological property of a pattern, like the number of twists in a knot, it can only take whole values. **\[Hypothesis\]** That would explain one of the most exact facts in physics: the charges of the electron and the proton cancel to better than one part in $10^{21}$.[^9] The derivation, and Maxwell’s equations from the medium, are owed (Parts 17, 22 and 28).
 
 # Weight, Order and Shells: What the Measurements Allow
 
-Order, weight and shells meet the measurements at several points. A measurement of the outcome itself binds the whole mechanism, however many parts it has; where only part of the mechanism has been tested, the question stays open, with the missing parts named.
+Several first-edition claims are restated here in the form the measurements allow. A claim is withdrawn only where it conflicts with a measurement of the outcome itself, which binds the whole mechanism however many parts it has. Where only part of the mechanism has been tested, the claim stays open, with the missing parts named.
 
 #### Coherence changes mass, through energy.
 
-Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. Ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
+Because the delivery tracks total energy, a change in a body’s order changes its mass by exactly the energy the change releases or absorbs, divided by $c^2$. Freezing a kilogram of water releases 334 kilojoules, so the ice has less mass by $3.7\times10^{-12}$ kilograms; disorder that absorbs energy adds mass in the same way. The direction matches the first edition’s: ordered matter has less mass, disordered matter more. The size is set by energy. For materials as they are, mass tracks energy to about one part in $10^{12}$, so a material’s coherence affects its weight by $\Delta E/c^2$ and no more. **\[Argued\]** Whether a body changing its order weighs differently by more than $\Delta E/c^2$ while it changes is tested only in part: spinning rotors weigh normally,[^10] but heated crystals, freezing liquids and compacted powders have not been weighed through the change at that level. It is listed in Part 29. **\[Open\]**
 
 #### Weight and internal alignment.
 
-The medium’s delivery may be shared out unevenly inside a body according to its internal alignment, while the total stays fixed. **\[Hypothesis\]** Some forms of this are tested: torsion pendulums carrying some $10^{23}$ aligned electron spins show no extra gravitational effect, and a superconducting sphere weighs normally. Others are not, as far as is known: whether a single crystal weighs differently in different orientations, or whether its centre of gravity shifts from its centre of mass as it is turned. A mass comparator can weigh a kilogram to about one part in $10^{10}$, and a torsion balance can detect the torque an uneven delivery would produce. Both tests are listed in Part 29 as predictions of GPT.
+The medium’s delivery to a body is the same for every composition, and it may be shared out unevenly inside the body according to its internal alignment. **\[Hypothesis\]** Falling and holding are different acts. In a fall, the delivery builds up as motion in every particle at once; nothing passes from one part of the body to another, so structure plays no part, and every body falls alike, as measured to one part in $10^{15}$.[^11] Held, the delivery must pass through the structure, layer by layer, into the support. GPT proposes that the route depends on the body’s structure and its alignment to the inflow, and that the share reaching the support may depend on it too: part of the delivery could leave with the counterflow instead. **\[Hypothesis\]** Standard physics expects a held body’s weight to be set by its mass alone, apart from its height and the air it displaces. Which is right has not been tested. **\[Open\]** Some forms of alignment have been: torsion pendulums carrying some $10^{23}$ aligned electron spins show no extra gravitational effect, and a superconducting sphere weighs normally. Others have not, as far as is known: whether one material weighs the same as flat sheets, upright sheets, honeycomb and a solid block, at equal mass and equal height, in vacuum; whether a single crystal weighs differently in different orientations; and whether its centre of gravity shifts from its centre of mass as it is turned. A mass comparator can weigh a kilogram to about one part in $10^{10}$, and a torsion balance can detect the torque an uneven delivery would produce. These tests belong to Part 29, the experiments.
 
 #### Free fall and weight are one delivery, with two destinations.
 
@@ -17683,31 +17683,31 @@ A body thrown upward gives its energy back to the medium as it rises: momentum i
 
 #### Shells: pattern, regularity and a medium to carry them.
 
-Without mass, the medium is at rest. A mass sets up two flows: the active medium flowing in, and a counterflow of unphased ejecta flowing out. The body’s speed, spin and rotation are written into that counterflow as a pattern, and the regularity of the pattern, repeating with every turn, is what makes a shell and what lets the shell act. Where a body’s counterflow re-phases lies the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>), the shell every mass has. Within it, a regular pattern may stand as further shells, spaced by the body’s period and the counterflow’s speed; where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form. **\[Hypothesis\]**
+Without mass, the medium is at rest. A mass sets up two flows: the active medium flowing in, and a counterflow of unphased ejecta flowing out. The body’s speed, spin and rotation are written into that counterflow as a pattern, and the regularity of the pattern, repeating with every turn, is what makes a shell and what lets the shell act. Where a body’s counterflow re-phases lies the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">6</a>), the shell every mass has. Within it, a regular pattern may stand as further shells, spaced by the body’s period and the counterflow’s speed; where the counterflows of several bodies meet, and their rhythms lock, the shells of systems form. **\[Hypothesis\]**
 
-These traits would mean nothing without a medium. In Newton’s gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged: a body’s spin and speed have no reach beyond it, and only an uneven shape lets a rotation act on what is outside. In GPT, the medium carries them. **\[Argued\]** Some of this reach is measured: a rotating Earth drags gyroscopes around it, as Gravity Probe B found (Part 23). And what is observed around rotating, orbiting bodies is regular structure built over time. Gaps were cleared from the asteroid belt and from Saturn’s rings at resonant distances; migrating planets are captured into resonant chains and held there, as in the seven planets of TRAPPIST-1; neighbouring planets in compact systems tend to be evenly spaced; moons lock their spins to their orbits. A rotating body’s own rhythm is written into the material around it: Saturn’s oscillations drive waves in its rings, and the rings of the dwarf planets Haumea and Quaoar lie at resonances with their spins.[^11][^12][^13] The standard account attributes such resonances to a body’s uneven shape. GPT expects a rotational imprint beyond what the shape accounts for, because the medium carries the spin itself; **\[Hypothesis\]** that is a test (Part 29).
+These traits would mean nothing without a medium. In Newton’s gravity the field outside a uniform sphere is the same whether it spins or not, and moves with it unchanged: a body’s spin and speed have no reach beyond it, and only an uneven shape lets a rotation act on what is outside. In GPT, the medium carries them. **\[Argued\]** Some of this reach is measured: a rotating Earth drags gyroscopes around it, as Gravity Probe B found (Part 23). And what is observed around rotating, orbiting bodies is regular structure built over time. Gaps were cleared from the asteroid belt and from Saturn’s rings at resonant distances; migrating planets are captured into resonant chains and held there, as in the seven planets of TRAPPIST-1; neighbouring planets in compact systems tend to be evenly spaced; moons lock their spins to their orbits. A rotating body’s own rhythm is written into the material around it: Saturn’s oscillations drive waves in its rings, and the rings of the dwarf planets Haumea and Quaoar lie at resonances with their spins.[^12][^13][^14] The standard account attributes such resonances to a body’s uneven shape. GPT expects a rotational imprint beyond what the shape accounts for, because the medium carries the spin itself; **\[Hypothesis\]** that is a test (Part 29).
 
 At any instant, a shell’s push on a body is small: **\[Argued\]** satellites orbit at every altitude, and planetary ranging finds no extra acceleration anywhere near $10^{-9}$ metres per second squared. A shell’s effect is the slow sorting of bodies over long times, through their rhythms. The counterflow’s speed, and so the spacing of shells within the boundary, are still to be derived. **\[Open\]** Part 16 develops this.
 
-#### What the measurements fix.
+#### Withdrawn: in conflict with a measured outcome.
 
-- **Every material is carried alike**, to one part in $10^{15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
+- **Acceleration set by the material.** The first edition wrote $a = -\nabla P_g/\rho_{\text{imp}}$, with $\rho_{\text{imp}}$ the graviton impedance of the material. Every material falls alike, to $10^{-15}$. The medium’s own acceleration, $(\mathbf{v}\cdot\nabla)\mathbf{v} = -\nabla P/\rho_g$, is shared by every body (Part 23).
 
-- **All matter is carried toward mass, antimatter included**: antihydrogen is carried downward at the rate expected.[^14]
+- **Gravitational repulsion between masses of ordinary matter.** All matter falls, and so does antimatter: antihydrogen falls downward at the rate expected.[^15]
 
-- **Gravitational waves are transverse waves of the medium.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations (Part 23).
+- **Gravitational waves as pressure waves.** They travel at $c$ to one part in $10^{15}$ and carry tensor polarisations. They are transverse waves of the medium (Part 23).
 
-- **Each clock’s own rate is set by its structure**: time is the rate of a structure’s internal refresh. The factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
+- **Gravitational and motional slowing that differs between kinds of clock.** Each clock’s own rate is set by its structure, as the first edition held: time is the rate of a structure’s internal refresh. But the factor by which the medium’s speed slows that rate is the same for every kind of clock tested, from nuclear transitions and atomic clocks to the decay of muons (Part 23).
 
-#### Open: tested only in part.
+#### Superseded, and open: tested only in part.
 
-- **The self-repulsion law.** In-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
+- **The self-repulsion law.** The first edition wrote $\mathbf{F}_{\text{self}} = k_g(\mathbf{r}_1-\mathbf{r}_2)/|\mathbf{r}_1-\mathbf{r}_2|^3$. It is superseded by the phase account: in-phase gravitons push, and neutral ones do not, so the law cannot be one inverse square over all pairs. The law itself is owed. **\[Open\]**
 
-- **Interference between structures.** Intersecting flows may attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
+- **Interference between structures.** The first edition let intersecting flows attract or repel according to phase. Phase decides push between atoms (contact and bonds, Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">4</a>). Whether phase interference changes gravity under other conditions than ordinary matter has not been tested with the full phase picture, and is open. **\[Open\]**
 
 - **Order and the slowing of clocks.** Whether a change in a clock’s internal order (one crystal ordered and disordered, or a material above and below a transition) alters the factor by which the medium slows it has not been tested. **\[Open\]** It is listed in Part 29.
 
-- **Rotation curves.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">“Re-phasing and the Relaxation Boundary”</a>). Whether coherent field saturation and corridor interference are the same mechanism under another name has not been worked out. **\[Open\]**
+- **Rotation curves from “coherent field saturation and corridor interference”.** Galaxies depart from Newton at the relaxation boundary (Section <a href="#sec:rephasing" data-reference-type="ref" data-reference="sec:rephasing">6</a>). Whether saturation is the same mechanism under another name has not been worked out. **\[Open\]**
 
 # Energy
 
@@ -17757,7 +17757,7 @@ Each is a question with a definite answer, and in each the interface is named.
 | Shell               | A region where a regular pattern in the counterflow stands, or where the counterflows of several bodies meet and their rhythms lock. The relaxation boundary is the shell every mass has. |
 | Corridor            | Either a path along which delivery is redistributed inside ordered matter, or a line of a magnet’s swirl extended into the medium (Parts 21 and 22).                                      |
 | Tail                | The thin layer of organised medium around an atom, about 0.06 nm deep, whose overlap gives contact and bonds.                                                                             |
-| gp                  | The graviton-pressure unit; it is the pascal.                                                                                                                                             |
+| gp                  | The first edition’s name for the unit of the medium’s pressure. It is the pascal.                                                                                                         |
 
 Terms used throughout the framework.
 
@@ -17775,7 +17775,9 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Changes to the argument
 
-- Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">“Phase Decides Push”</a> (corrected 11 November): two meanings of phase are distinguished. The phase of emission, set by a pattern’s circulation, governs push between separate things; the spatial phase of a standing pattern governs how overlapping patterns add. Contact is restated as exclusion between filled patterns, and the bond as a pattern reinforced in spatial phase and shared by two electrons of opposite circulation. An earlier wording of this edition said a bond forms where two atoms’ tails overlap out of phase; that reversed chemistry’s measured rule.
+- Weight and internal alignment (22 November 2026): falling and holding are separated. Every body falls alike, because a fall passes nothing from part to part; holding passes the delivery through the structure, and GPT proposes that the share reaching the support may depend on the structure. This is untested, and differs from the standard expectation. The configuration test (sheets, honeycomb and solid, at equal mass and height, in vacuum) is added.
+
+- Section <a href="#sec:phase" data-reference-type="ref" data-reference="sec:phase">4</a> (corrected 11 November): two meanings of phase are distinguished. The phase of emission, set by a pattern’s circulation, governs push between separate things; the spatial phase of a standing pattern governs how overlapping patterns add. Contact is restated as exclusion between filled patterns, and the bond as a pattern reinforced in spatial phase and shared by two electrons of opposite circulation. An earlier wording of this edition said a bond forms where two atoms’ tails overlap out of phase; that reversed chemistry’s measured rule.
 
 - The graviton is defined as the constituent of the medium, distinct from the mainstream graviton, the quantum of a gravitational wave. A new opening section asks what electrons and protons are, and proposes that every particle is a pattern of the one medium.
 
@@ -17785,7 +17787,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - “Spin-sympathetic interaction” and “material-specific gravitational coupling” are restated: what interacts with the medium is the organised boundary of a body’s patterns, which tracks total energy, binding included; for materials as they are, coherence changes mass by $\Delta E/c^2$ and no more, and weighing a body through a change of order is proposed as a test; internal alignment may redistribute the delivery, and orientation-dependent weight in single crystals is proposed as a test.
 
-- Shells are restated. A mass sets up an inflow and a counterflow of unphased ejecta; its speed, spin and rotation write a pattern into the counterflow, and the pattern’s regularity makes the shell and lets it act. Every mass has one shell, the relaxation boundary; further shells may stand within it, and systems of bodies build theirs where counterflows meet and rhythms lock over time. A shell’s instant push is small; its effect is slow sorting (Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">“Weight, Order and Shells: What the Measurements Allow”</a>, Part 16).
+- Shells are restated. A mass sets up an inflow and a counterflow of unphased ejecta; its speed, spin and rotation write a pattern into the counterflow, and the pattern’s regularity makes the shell and lets it act. Every mass has one shell, the relaxation boundary; further shells may stand within it, and systems of bodies build theirs where counterflows meet and rhythms lock over time. A shell’s instant push is small; its effect is slow sorting (Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">8</a>, Part 16).
 
 - Free fall and weight are stated as one delivery with two destinations, and rising and falling as opposite exchanges at the same rate.
 
@@ -17793,7 +17795,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - New: re-phasing, and a proposed reason why the relaxation boundary falls at the same acceleration around every mass.
 
-- The first edition’s material-dependent acceleration $a = -\nabla P_g/\rho_{\text{imp}}$, gravitational and motional slowing that differs between kinds of clock (each clock’s own rate is still set by its structure), gravitational repulsion between ordinary masses, and gravitational waves as pressure waves are withdrawn, because each conflicts with a measured outcome (Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">“Weight, Order and Shells: What the Measurements Allow”</a>, Part 23). Its inverse-square self-repulsion law is superseded by the phase account. Its interference account and its rotation curves from corridor saturation are open: they have been tested only in part.
+- The first edition’s material-dependent acceleration $a = -\nabla P_g/\rho_{\text{imp}}$, gravitational and motional slowing that differs between kinds of clock (each clock’s own rate is still set by its structure), gravitational repulsion between ordinary masses, and gravitational waves as pressure waves are withdrawn, because each conflicts with a measured outcome (Section <a href="#sec:not" data-reference-type="ref" data-reference="sec:not">8</a>, Part 23). Its inverse-square self-repulsion law is superseded by the phase account. Its interference account and its rotation curves from corridor saturation are open: they have been tested only in part.
 
 - “Mass does not create the field; it interacts with it” becomes: mass takes in the medium, and the inflow is the field.
 
@@ -17847,7 +17849,7 @@ Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Wave
 
 <div id="ref-morgado2023" class="csl-entry">
 
-Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar Outside Its Roche Limit.” *Nature* 614: 239–43.
+Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar outside Its Roche Limit.” *Nature* 614: 239–43.
 
 </div>
 
@@ -17859,19 +17861,19 @@ Ortiz, J. L. et al. 2017. “The Size, Shape, Density and Ring of the Dwarf Plan
 
 <div id="ref-rashadaPart14" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026b. “Re-Examining the Four (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026b. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026c. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026c. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
@@ -17915,13 +17917,15 @@ Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of
 
 [^10]: (Faller et al. 1990).
 
-[^11]: (Hedman and Nicholson 2013).
+[^11]: (Touboul et al. 2022).
 
-[^12]: (Ortiz et al. 2017).
+[^12]: (Hedman and Nicholson 2013).
 
-[^13]: (Morgado et al. 2023).
+[^13]: (Ortiz et al. 2017).
 
-[^14]: (Anderson et al. 2023).
+[^14]: (Morgado et al. 2023).
+
+[^15]: (Anderson et al. 2023).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/
