@@ -240,7 +240,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - New subtitle: *The Evolution of Gravitational Understanding: A Century of Advances, and What Still Does Not Fit*.
 
-- Three new figures: the timeline of advances (4.1), one gravity and its many accounts (4.2), and the energy gap to the Planck scale (4.3).
+- Three new figures: the timeline of advances (4.1), the energy gap to the Planck scale (4.2), and one gravity and its many accounts (4.3).
 
 - “Curvature of rivers” is now “courses of rivers”. The closing line now ends “propose how it works”.
 
