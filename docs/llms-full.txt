@@ -11385,13 +11385,13 @@ Graviton Pressure Theory is born from that dissatisfaction, but not from cynicis
 
 # What Comes Next: A Gravity You Can Touch
 
-Graviton Pressure Theory begins where the others stop. It asks: what if gravity is not a pull, but a push? What if space is not curved, but filled? What if mass does not attract, but shades?
+Graviton Pressure Theory begins where the others stop. It asks: what if gravity is not a pull, but a push? What if space is not curved, but filled? What if mass does not attract, but takes in?
 
 **\[Hypothesis: the passage that follows\]**
 
-In this model, gravity arises from an imbalance of pressure in a physical medium. Gravitons—real carriers, not abstract quanta—fill space. Mass does not sit idly in a void. It interrupts the medium. It creates shadows. The result is pressure: real, directional and testable.
+In this model, gravity is the work of a physical medium. Gravitons—real carriers, not abstract quanta—fill space. Mass does not sit idly in a void. It takes the medium in and returns it changed, so the medium flows into every mass, its pressure lowered where it flows fastest. Every body in that flow is carried by it: real, directional and testable.
 
-This, GPT proposes, is why you fall. This is why the chair pushes back. This is why a pendulum swings and slows. Not illusion, but contact. Not curvature, but flow.
+This, GPT proposes, is why you fall. This is why the chair pushes back: it stops the carrying, and the push is your weight. This is why a pendulum swings. Not illusion, but contact. Not curvature, but flow.
 
 **\[End of passage\]**
 
@@ -11414,6 +11414,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 - The comparison with electricity and magnetism no longer implies that the other forces pass the interface test without question. Physics names carriers for them; whether “virtual” exchange names what touches what is a question the framework asks of every theory, its own included.
 
 - The closing claims (“This is why you fall… It is contact”) are framed as GPT’s proposal, and gravitons as real carriers are marked as a Hypothesis.
+- Section 4.10 now follows Part 5: mass takes the medium in and returns it changed, and bodies are carried by the inflow, in place of mass shading the medium and casting shadows. “Swings and slows” becomes “swings”: a pendulum slows mainly through air and friction at its pivot.
 
 ## Clarifications
 
