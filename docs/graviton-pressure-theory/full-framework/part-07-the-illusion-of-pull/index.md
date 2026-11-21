@@ -447,7 +447,7 @@ GPT proposes what the word was standing in for:
 
 - the effect: gravitational movement.
 
-What remains to be derived is marked as open: the combination of several flows, the accounting of reciprocity, and the readings of tension, charge and bonding. The marks are part of the claim.
+The questions this edition first left open (the combination of several flows, the accounting of reciprocity, and the readings of tension, charge and bonding) are now answered in the text, marked as hypotheses; their full derivations are still owed. The marks are part of the claim.
 
 This is not a rejection of history. It is the next step in it.
 
@@ -494,7 +494,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - Gravitational movement no longer says that contact forces are “not attributed to graviton pressure”. The term names which effect is gravitational; Part 6 proposes that contact forces involve the medium too.
 
-- “GPT passes the audit” is replaced by an audit applied to GPT as well, with what it still owes marked Open: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding. The extensions beyond gravity are marked as hypotheses.
+- “GPT passes the audit” is replaced by an audit applied to GPT as well, with what it owes marked: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding, each now answered in the text as a hypothesis, with its full derivation still owed (see the November changes below). The extensions beyond gravity are marked as hypotheses.
 
 - New: a precedent from history (Section 7.3), in which the “horror of the vacuum” was replaced by the pressure of the air, with the measurements that followed; what instruments measure (7.5); why “pull” survives, as a case of the Reduction Conflation (7.6); and the Cavendish experiment as the strongest objection, with what GPT owes.
 

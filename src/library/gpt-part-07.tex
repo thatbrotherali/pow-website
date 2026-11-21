@@ -11,6 +11,7 @@
 \usepackage[margin=2.6cm]{geometry}
 \usepackage[round]{natbib}
 \usepackage{titlesec}
+\usepackage[titles]{tocloft}\setlength{\cftsecnumwidth}{2.4em}\setlength{\cftsubsecindent}{2.4em}\setlength{\cftsubsecnumwidth}{3.2em}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
@@ -24,7 +25,6 @@
 \renewcommand{\thesection}{7.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -220,8 +220,9 @@ Naming the carrier did not only change a word. It produced numbers the ``pull'' 
 Newtonian gravity posited a force acting instantaneously at a distance, and Newton himself thought action without mediation absurd.\fn{newtonBentley1693} Einstein removed the force of gravity altogether and replaced it with the curvature of spacetime.\fn{einstein1915} This removed the pull, but it did not supply a carrier. Bodies no longer pulled one another; they followed geodesics in a curved geometry. The geometry describes the motion with great precision. It does not say what touches the falling body, or what is exchanged.
 
 \begin{hypbar}
-Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton's gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth's surface. A falling body shares the flow's acceleration: the medium keeps streaming through it, and delivers momentum to every particle of it at once, in proportion to its mass. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium's pressure is lower, an effect bounded by the measured limits on gravitational shielding.\fn{rashadaPart1,rashadaMedium}
+Graviton Pressure Theory proposes a carrier. Space is filled with a medium of gravitons, and near a mass the medium flows inward, at the speed the framework calibrates to Newton's gravity, $v=\sqrt{2GM/r}$: about 11.2 kilometres per second at the Earth's surface. A falling body shares the flow's acceleration: the medium keeps streaming through it, and delivers momentum to every particle of it at once, in proportion to its mass. When something stops the fall, the medium presses the body against its support, and that is weight. Shading also plays a part: matter takes in the medium, so between two masses the medium's pressure is lower, an effect bounded by the measured limits on gravitational shielding.\footnotemark{}
 \end{hypbar}
+\footnotetext{\citealp{rashadaPart1,rashadaMedium}.}
 
 \subsection*{Electromagnetism: Stress Without a Carrier}
 \label{sec:em}
@@ -230,7 +231,7 @@ Coulomb's law gives the force between two charges. Classical electromagnetism go
 
 This is the most important fact in the history of ``attraction''. When physics is pressed, it does not leave the force between two magnets at the magnets. It places it in the space between them, as a stress. \argm{The pressure across the lines is a push. The tension along them is a pull, written down but not carried: the theory says how large it is, not what touches what along a line of force.}
 
-Quantum electrodynamics describes the force as the exchange of virtual photons. The usual picture is of two skaters throwing a ball, each recoiling as they throw and catch. The picture explains repulsion. It does not explain attraction, and physics educators say plainly that it is not meant to be taken literally.\fn{illinoisAsk} The mathematics gives the sign of the force. The picture of what touches what is missing.
+Quantum electrodynamics describes the force as the exchange of virtual photons. The usual picture is of two skaters throwing a ball, each recoiling as they throw and catch. The picture explains repulsion. It does not explain attraction, and physics educators say plainly that it is not meant to be taken literally.\footnote{\citealp{illinoisAsk}} The mathematics gives the sign of the force. The picture of what touches what is missing.
 
 \hypm{GPT reads charge as a structure of the medium around matter. \emph{The Mechanics of the Medium} treats the electric and magnetic constants as the medium's compressibility and stiffness, and a charge as a stable directional bias in it.}\fn{rashadaMedium} \hypm{Maxwell's tension and pressure, $\varepsilon_0E^2/2$, have the units of pressure and equal the energy stored in each cubic metre of the field. GPT reads them literally: between opposite charges, the medium's pressure along the lines is lowered by that amount, and the outside medium presses the charges together; across the lines it is raised.} Part~11 follows this through the comb and the stream.
 
@@ -300,10 +301,11 @@ In the classical picture, attraction is one-sided: the attracting body acts, and
 \begin{hypbar}
 The attracting body does not reach out. It takes in the medium and ejects it, continuously, and in doing so it sets up the inward flow around it. The larger its mass, the stronger the flow. Every body does this, even the smallest; there is no matter that does nothing to the medium.
 
-The moving body shares that flow's acceleration. What it is made of does not change how it falls: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.\fn{touboul2022} Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
+The moving body shares that flow's acceleration. What it is made of does not change how it falls: every body near the Earth falls with the same acceleration, as the MICROSCOPE satellite has confirmed to about one part in $10^{15}$.\footnotemark{} Bodies differ in how much flow they set up, which is their mass. They do not differ in how they are carried.
 
 What used to be called ``being pulled'' by another mass is a body moving in a flow it did not set up. The attractor is not issuing a command. It is setting the conditions under which bodies fall. And because the flow it sets up acts on everything nearby, the moving body sets up its own flow in turn, which acts on the attractor. That is the reciprocal.
 \end{hypbar}
+\footnotetext{\citealp{touboul2022}.}
 
 \hypm{The flows of several bodies do not simply add as velocities. What combines is the medium's pressure: each body lowers it around itself, and every body nearby is carried by the acceleration the combined pressure sets up, which is why the pulls of Newton's law add.}
 
@@ -506,7 +508,7 @@ GPT proposes what the word was standing in for:
     \item the effect: gravitational movement.
 \end{itemize}
 
-What remains to be derived is marked as open: the combination of several flows, the accounting of reciprocity, and the readings of tension, charge and bonding. The marks are part of the claim.
+The questions this edition first left open (the combination of several flows, the accounting of reciprocity, and the readings of tension, charge and bonding) are now answered in the text, marked as hypotheses; their full derivations are still owed. The marks are part of the claim.
 
 This is not a rejection of history. It is the next step in it.
 \begin{itemize}
@@ -531,6 +533,7 @@ The push is measured, on every scale.\\
 The universe is not held together by pulling, but by carriers that can be named.\\
 Now we can look for them.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 
@@ -545,7 +548,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
   \item ``The more inert an object, the less it resists or shapes the field'' is removed: it would make bodies fall differently by composition, which MICROSCOPE rules out to about one part in $10^{15}$. Bodies differ in how much flow they set up (their mass), not in how they are carried.
   \item Electromagnetism. ``Fields without flow'' and the claim that the field is silent on how force is transmitted are corrected: classical fields carry energy and momentum, and Maxwell's stress places the force in the space between bodies. The gap is now stated precisely: the tension along the lines of force has no carrier. The particle-exchange picture explains repulsion, not attraction.
   \item Gravitational movement no longer says that contact forces are ``not attributed to graviton pressure''. The term names which effect is gravitational; Part~6 proposes that contact forces involve the medium too.
-  \item ``GPT passes the audit'' is replaced by an audit applied to GPT as well, with what it still owes marked Open: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding. The extensions beyond gravity are marked as hypotheses.
+  \item ``GPT passes the audit'' is replaced by an audit applied to GPT as well, with what it owes marked: the combination of several flows, the accounting of reciprocity, and the derivations for tension, charge, magnetism and bonding, each now answered in the text as a hypothesis, with its full derivation still owed (see the November changes below). The extensions beyond gravity are marked as hypotheses.
   \item New: a precedent from history (Section~7.3), in which the ``horror of the vacuum'' was replaced by the pressure of the air, with the measurements that followed; what instruments measure (7.5); why ``pull'' survives, as a case of the Reduction Conflation (7.6); and the Cavendish experiment as the strongest objection, with what GPT owes.
 \end{itemize}
 
