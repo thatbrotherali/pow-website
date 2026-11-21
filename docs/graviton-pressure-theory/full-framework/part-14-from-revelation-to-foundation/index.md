@@ -42,17 +42,25 @@ The first half of the framework makes one argument, from many sides: **descripti
 
 - **A century of advances left the mechanism open** (Part 4). General Relativity is geometrically elegant and precise, and causally incomplete; Newtonian force laws work, without a defined mechanism of transmission.[^4]
 
-- **Holding is throughput** (Part 6). A held load is never at rest in the medium; a steady current of momentum passes through it into its support, and every scale reading measures that current.[^5]
+- **The mechanism in one piece** (Part 5). A medium fills space; matter takes it in, so it flows into every mass; every body in the flow is carried, and a held body passes the same delivery into its support.[^5]
 
-- **Every force must name its carrier** (Part 7). No carrier for a pull has ever been named. Free fall is permission, not pull, and the push appears when the fall is stopped.[^6]
+- **Holding is throughput** (Part 6). A held load is never at rest in the medium; a steady current of momentum passes through it into its support, and every scale reading measures that current.[^6]
 
-- **The Four re-examined** (Part 11). Falling is felt, gravity is unopposed in free fall, not cancelled, and momentum is the path a moving body carves through the medium.[^7]
+- **Every force must name its carrier** (Part 7). No carrier for a pull has ever been named. Free fall is permission, not pull, and the push appears when the fall is stopped.[^7]
 
-- **The dark sector names what it cannot supply** (Parts 3 and 12). The observations behind dark matter and dark energy are real and precise; the placeholders sit exactly where a mechanism should be.[^8]
+- **The break with General Relativity** (Part 8). Stated fairly, General Relativity gives the numbers without naming a mechanism; the same numbers read as a medium flowing in flat space, and spacetime, if real, would be a medium.[^8]
 
-- **The Moon and the tides** (Part 13). The tides, both bulges, follow from one located mechanism, and reach life through structures that gather a small forcing into a large signal.[^9]
+- **The evidence, graded** (Part 9). The medium is already present in the standard formulation, and the galaxies’ single rotation relation is the relaxation boundary’s main support.[^9]
 
-Parts 8 to 10, on the break with General Relativity, the existing evidence and practical applications, will be brought into line with the premises stated here. Part 12 set the standard by which every claim that follows is to be judged: **coherence, mechanism and fit with observation, together**.
+- **The practical tests** (Part 10). Light refracted by the medium’s lowered pressure, and clocks slowed by the medium streaming past them, measured.[^10]
+
+- **The Four re-examined** (Part 11). Falling is felt, gravity is unopposed in free fall, not cancelled, and momentum is the path a moving body carves through the medium.[^11]
+
+- **The dark sector names what it cannot supply** (Parts 3 and 12). The observations behind dark matter and dark energy are real and precise; the placeholders sit exactly where a mechanism should be.[^12]
+
+- **The Moon and the tides** (Part 13). The tides, both bulges, follow from one located mechanism, and reach life through structures that gather a small forcing into a large signal.[^13]
+
+Part 12 set the standard by which every claim that follows is to be judged: **coherence, mechanism and fit with observation, together**.
 
 # The Model in One Piece
 
@@ -64,11 +72,11 @@ A falling body shares the medium’s acceleration while the medium streams throu
 
 **\[End of passage\]**
 
-Figure <a href="#fig:model" data-reference-type="ref" data-reference="fig:model">1</a> shows the model in one picture, and Table <a href="#tab:premises" data-reference-type="ref" data-reference="tab:premises">1</a> sets out its premises, each with its status and the part where it is developed.
+Figure 14.1 shows the model in one picture, and Table 14.1 sets out its premises, each with its status and the part where it is developed.
 
 <figure id="fig:model">
 <img src="assets/figures/fig14-1-model.svg" />
-<figcaption>Graviton Pressure Theory in one picture (not to scale). The medium flows into a mass at <span class="math inline"><em>v</em><sup>2</sup> = 2<em>G</em><em>M</em>/<em>r</em></span>, and its active pressure falls toward the mass. A falling body shares the medium’s acceleration, receiving momentum at every particle; a held body relays the same current into its support; a moving body carves its path by faster intake at its leading face; clocks tick more slowly where the medium streams past faster; light, a wave of the medium, bends where the medium flows. Far from the mass, where the inflow’s acceleration falls to <span class="math inline"><em>a</em><sub>0</sub></span>, lies the relaxation boundary. (Hypothesis)</figcaption>
+<figcaption>Graviton Pressure Theory in one picture (not to scale). The medium flows into a mass at <span class="math inline">\(v^2 = 2GM/r\)</span>, and its active pressure falls toward the mass. A falling body shares the medium’s acceleration, receiving momentum at every particle; a held body relays the same current into its support; a moving body carves its path by faster intake at its leading face; clocks tick more slowly where the medium streams past faster; light, a wave of the medium, bends where the medium flows. Far from the mass, where the inflow’s acceleration falls to <span class="math inline">\(a_0\)</span>, lies the relaxation boundary. (Hypothesis)</figcaption>
 </figure>
 
 <div id="tab:premises">
@@ -93,7 +101,7 @@ Figure <a href="#fig:model" data-reference-type="ref" data-reference="fig:model
 | Shading                 | Shading by absorption acts as well as the flow, bounded by the measured limits on gravitational shielding. **\[Hypothesis\]**                                                                                                                                                                                                           | Parts 1, 15            |
 | The relaxation boundary | Far from a mass, where the inflow’s acceleration falls to $a_0 \approx 1.2\times10^{-10}$ m/s$^2$, the ejected medium is recharged, and gravity changes its form. **\[Hypothesis\]**                                                                                                                                                    | Parts 9, 16, 29        |
 
-The premises of Graviton Pressure Theory, with their status and the parts where they are developed. Marks follow the key: argued (solid), hypothesis (dashed).
+The premises of Graviton Pressure Theory, with their status and the parts where they are developed. MotM is *The Mechanics of the Medium* (Rashada 2026l). Marks follow the key: argued (solid), hypothesis (dashed).
 
 </div>
 
@@ -101,7 +109,7 @@ The premises of Graviton Pressure Theory, with their status and the parts where 
 
 A new account of gravity must first give back everything that is measured. GPT reproduces the following, each with a named mechanism: **\[Argued\]**
 
-- **Free fall is the same for every body**, to one part in $10^{15}$, because momentum is delivered in proportion to mass.[^10]
+- **Free fall is the same for every body**, to one part in $10^{15}$, because momentum is delivered in proportion to mass.[^14]
 
 - **A scale reads $mg$**, because it measures the current of momentum relayed through the held body; an accelerometer reads zero in free fall, because the delivery is uniform.
 
@@ -151,7 +159,7 @@ The model owes these derivations, and the parts that follow take them up:
 
 - A quantitative account of the Cavendish torsion balance. **\[Open\]**
 
-- The route by which energy passed through a held body returns to the medium. **\[Open\]**
+- The rate at which energy passed through a held body returns to the medium. **\[Open\]** The route is proposed: carried away by the ejected medium and recharged at the relaxation boundary (Part 6).
 
 Each is a question with a definite answer. None is a placeholder: in each, the interface is named, and the derivation is owed.
 
@@ -167,11 +175,17 @@ From here, the framework unfolds constructively:
 
 - **Time** (Part 18): clocks as structures of the medium, and time dilation as one effect.
 
-- **Coherence and structure** (Parts 19 and 20): order in matter, and how it shares out the medium’s delivery.
+- **Matter** (Part 19): the pathway to matter, from knots of the medium to atoms.
+
+- **Coherence** (Part 20): order in matter, and how it shares out the medium’s delivery.
+
+- **Corridors** (Part 21): how structure directs the medium’s flow inside matter.
 
 - **Magnetism** (Part 22): the magnet’s field as the medium’s swirl, a corridor of aligned matter extended into the medium, and what matter needs to make it.
 
-- **The mathematics and the units** (Parts 23 to 25): the equations of the medium, its units and its constants.
+- **The mathematics and the units** (Parts 23 and 24): the equations of the medium, its units and its constants.
+
+- **The medium at its limits** (Part 25): the inflow followed to the speed of light.
 
 - **Planets, force and resonance** (Parts 26 to 28): planetary mechanics, the forces of nature, and transmission through the medium.
 
@@ -213,65 +227,95 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - The subtitle changes from *Transitioning into Graviton Pressure Theory* to *Graviton Pressure Theory, Stated in One Piece*.
 
-- “Pressure corridors” and “coherent directional force” are not used here; their place in the framework will be settled when Parts 19 to 22 are revised.
+- “Pressure corridors” and “coherent directional force” are not used here; corridors now have their place inside matter (Part 21) and in magnets (Part 22).
 
-- The road ahead is given by topic, and will be brought into line as each later part is revised.
+- The road ahead is given by topic and follows the revised parts, with Part 19 (the pathway to matter) inserted and Coherence and Corridors renumbered 20 and 21. The summary of the first half now includes Parts 5 and 8 to 10.
 
 - An “About This Paper” section, a figure, a table, status marks and this list are added.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
+<div id="ref-rashadaPart8" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Defining the Break: The Irreconcilable Differences Between General Relativity and Graviton Pressure Theory (Part 8, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/>.
+
+</div>
+
+<div id="ref-rashadaPart9" class="csl-entry">
+
+———. 2026b. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+
+</div>
+
 <div id="ref-rashadaPart4" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “From Newton to GPT (Part 4, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/>.
+———. 2026c. “From Newton to GPT (Part 4, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/>.
+
+</div>
+
+<div id="ref-rashadaPart5" class="csl-entry">
+
+———. 2026d. “Graviton Pressure Theory: Causality Restored (Part 5, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/>.
 
 </div>
 
 <div id="ref-rashadaPart1" class="csl-entry">
 
-———. 2026b. “Introduction (Part 1, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+———. 2026e. “Introduction (Part 1, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+
+</div>
+
+<div id="ref-rashadaPart10" class="csl-entry">
+
+———. 2026f. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026c. “Redefining Work (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026g. “Redefining Work (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026d. “Re-Examining the Four (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026h. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart12" class="csl-entry">
 
-———. 2026e. “The Collapse of Materialist Epistemology (Part 12, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/>.
+———. 2026i. “The Collapse of Materialist Epistemology (Part 12, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/>.
 
 </div>
 
 <div id="ref-rashadaPart3" class="csl-entry">
 
-———. 2026f. “The Gravity Catalog (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+———. 2026j. “The Gravity Catalog (Part 3, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026g. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026k. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+
+</div>
+
+<div id="ref-rashadaMedium" class="csl-entry">
+
+———. 2026l. “The Mechanics of the Medium: The Origin of Primitives.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026h. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026m. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
 </div>
 
 <div id="ref-rashadaPart2" class="csl-entry">
 
-———. 2026i. “The Removal of Intent, Cause and Mechanism (Part 2, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
+———. 2026n. “The Removal of Intent, Cause and Mechanism (Part 2, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
 
 </div>
 
@@ -283,25 +327,33 @@ Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of
 
 </div>
 
-[^1]: (Rashada 2026b).
+[^1]: (Rashada 2026e).
 
-[^2]: (Rashada 2026i).
+[^2]: (Rashada 2026n).
 
-[^3]: (Rashada 2026f).
+[^3]: (Rashada 2026j).
 
-[^4]: (Rashada 2026a).
+[^4]: (Rashada 2026c).
 
-[^5]: (Rashada 2026c).
+[^5]: (Rashada 2026d).
 
 [^6]: (Rashada 2026g).
 
-[^7]: (Rashada 2026d).
+[^7]: (Rashada 2026k).
 
-[^8]: (Rashada 2026e).
+[^8]: (Rashada 2026a).
 
-[^9]: (Rashada 2026h).
+[^9]: (Rashada 2026b).
 
-[^10]: (Touboul et al. 2022).
+[^10]: (Rashada 2026f).
+
+[^11]: (Rashada 2026h).
+
+[^12]: (Rashada 2026i).
+
+[^13]: (Rashada 2026m).
+
+[^14]: (Touboul et al. 2022).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/

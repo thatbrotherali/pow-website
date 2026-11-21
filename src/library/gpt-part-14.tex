@@ -1,3 +1,7 @@
+% Part metadata for the publishing tool
+\newcommand{\gptpart}{14}
+\newcommand{\gpttitle}{From Revelation to Foundation}
+\newcommand{\gptsubtitle}{Graviton Pressure Theory, Stated in One Piece}
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -24,7 +28,6 @@
 \renewcommand{\thesection}{14.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -46,6 +49,7 @@
 \newcommand{\why}[1]{\par\textit{#1}\par}
 \usepackage{tocloft}
 \renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\graphicspath{{figs/}}
 \begin{document}
 \renewcommand{\thetable}{14.\arabic{table}}
 \begin{titlepage}
@@ -113,13 +117,17 @@ The first half of the framework makes one argument, from many sides: \textbf{des
 \item \textbf{Description took the place of cause} (Part~2). Modern science traded explanation for description, and left no room for mind, meaning or purpose.\fn{rashadaPart2}
 \item \textbf{The explanations do not agree} (Part~3). Every gravitational phenomenon has a Newtonian account, a geometric account, and often a frame-force or energy account; each borrows from the others where its own runs out. Matching numbers are not matching ontology: the Reduction Conflation.\fn{rashadaPart3}
 \item \textbf{A century of advances left the mechanism open} (Part~4). General Relativity is geometrically elegant and precise, and causally incomplete; Newtonian force laws work, without a defined mechanism of transmission.\fn{rashadaPart4}
+\item \textbf{The mechanism in one piece} (Part~5). A medium fills space; matter takes it in, so it flows into every mass; every body in the flow is carried, and a held body passes the same delivery into its support.\fn{rashadaPart5}
 \item \textbf{Holding is throughput} (Part~6). A held load is never at rest in the medium; a steady current of momentum passes through it into its support, and every scale reading measures that current.\fn{rashadaPart6}
 \item \textbf{Every force must name its carrier} (Part~7). No carrier for a pull has ever been named. Free fall is permission, not pull, and the push appears when the fall is stopped.\fn{rashadaPart7}
+\item \textbf{The break with General Relativity} (Part~8). Stated fairly, General Relativity gives the numbers without naming a mechanism; the same numbers read as a medium flowing in flat space, and spacetime, if real, would be a medium.\fn{rashadaPart8}
+\item \textbf{The evidence, graded} (Part~9). The medium is already present in the standard formulation, and the galaxies' single rotation relation is the relaxation boundary's main support.\fn{rashadaPart9}
+\item \textbf{The practical tests} (Part~10). Light refracted by the medium's lowered pressure, and clocks slowed by the medium streaming past them, measured.\fn{rashadaPart10}
 \item \textbf{The Four re-examined} (Part~11). Falling is felt, gravity is unopposed in free fall, not cancelled, and momentum is the path a moving body carves through the medium.\fn{rashadaPart11}
 \item \textbf{The dark sector names what it cannot supply} (Parts~3 and~12). The observations behind dark matter and dark energy are real and precise; the placeholders sit exactly where a mechanism should be.\fn{rashadaPart12}
 \item \textbf{The Moon and the tides} (Part~13). The tides, both bulges, follow from one located mechanism, and reach life through structures that gather a small forcing into a large signal.\fn{rashadaPart13}
 \end{itemize}
-Parts~8 to~10, on the break with General Relativity, the existing evidence and practical applications, will be brought into line with the premises stated here. Part~12 set the standard by which every claim that follows is to be judged: \textbf{coherence, mechanism and fit with observation, together}.
+Part~12 set the standard by which every claim that follows is to be judged: \textbf{coherence, mechanism and fit with observation, together}.
 
 \section{The Model in One Piece}
 \label{sec:model}
@@ -141,9 +149,9 @@ Figure~\ref{fig:model} shows the model in one picture, and Table~\ref{tab:premis
 
 \begin{table}[p]
 \centering
-\small
-\renewcommand{\arraystretch}{1.22}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.26\textwidth}>{\raggedright\arraybackslash}p{0.49\textwidth}>{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}p{0.56\textwidth}>{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
 \toprule
 \textbf{Premise} & \textbf{What GPT asserts} & \textbf{Developed in} \\
 \midrule
@@ -166,7 +174,7 @@ Shading & \hypm{Shading by absorption acts as well as the flow, bounded by the m
 The relaxation boundary & \hypm{Far from a mass, where the inflow's acceleration falls to $a_0 \approx 1.2\times10^{-10}$ m/s$^2$, the ejected medium is recharged, and gravity changes its form.} & Parts 9, 16, 29 \\
 \bottomrule
 \end{tabular}
-\caption{The premises of Graviton Pressure Theory, with their status and the parts where they are developed. Marks follow the key: argued (solid), hypothesis (dashed).}
+\caption{The premises of Graviton Pressure Theory, with their status and the parts where they are developed. MotM is \emph{The Mechanics of the Medium} \citep{rashadaMedium}. Marks follow the key: argued (solid), hypothesis (dashed).}
 \label{tab:premises}
 \end{table}
 
@@ -208,7 +216,7 @@ The model owes these derivations, and the parts that follow take them up:
 \item \openm{The transverse waves of the medium, at exactly $c$, with the two polarisations of gravitational waves.}
 \item \openm{The rate and range of re-activation at contact, and the range of stiffness from rubber to diamond.}
 \item \openm{A quantitative account of the Cavendish torsion balance.}
-\item \openm{The route by which energy passed through a held body returns to the medium.}
+\item \openm{The rate at which energy passed through a held body returns to the medium.} The route is proposed: carried away by the ejected medium and recharged at the relaxation boundary (Part~6).
 \end{itemize}
 Each is a question with a definite answer. None is a placeholder: in each, the interface is named, and the derivation is owed.
 
@@ -221,9 +229,12 @@ From here, the framework unfolds constructively:
 \item \textbf{The field} (Part~16): the medium's structure around a mass: inflow, pressure, the relaxation boundary, and waves.
 \item \textbf{Mass} (Part~17): mass as the strength of a body's exchange with the medium, and momentum as its carved path.
 \item \textbf{Time} (Part~18): clocks as structures of the medium, and time dilation as one effect.
-\item \textbf{Coherence and structure} (Parts~19 and~20): order in matter, and how it shares out the medium's delivery.
+\item \textbf{Matter} (Part~19): the pathway to matter, from knots of the medium to atoms.
+\item \textbf{Coherence} (Part~20): order in matter, and how it shares out the medium's delivery.
+\item \textbf{Corridors} (Part~21): how structure directs the medium's flow inside matter.
 \item \textbf{Magnetism} (Part~22): the magnet's field as the medium's swirl, a corridor of aligned matter extended into the medium, and what matter needs to make it.
-\item \textbf{The mathematics and the units} (Parts~23 to~25): the equations of the medium, its units and its constants.
+\item \textbf{The mathematics and the units} (Parts~23 and~24): the equations of the medium, its units and its constants.
+\item \textbf{The medium at its limits} (Part~25): the inflow followed to the speed of light.
 \item \textbf{Planets, force and resonance} (Parts~26 to~28): planetary mechanics, the forces of nature, and transmission through the medium.
 \item \textbf{The experiments} (Part~29): where GPT and the standard accounts part ways, and how to tell them apart.
 \item \textbf{Conclusion} (Part~30).
@@ -236,6 +247,7 @@ This is the ground it never had.
 Welcome to the foundation.\\
 Welcome to the second beginning.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 
@@ -256,8 +268,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 \item Premises table, rods (9 November): the ruler premise is given its mechanism, the medium streaming through a rod's bonds (Part~23), in place of the river form's description alone.
 \item Premises table, clocks (9 November): a clock's own rate is set by its structure; the factor by which the medium slows it is common to every kind of clock.
 \item The subtitle changes from \emph{Transitioning into Graviton Pressure Theory} to \emph{Graviton Pressure Theory, Stated in One Piece}.
-\item ``Pressure corridors'' and ``coherent directional force'' are not used here; their place in the framework will be settled when Parts~19 to~22 are revised.
-\item The road ahead is given by topic, and will be brought into line as each later part is revised.
+\item ``Pressure corridors'' and ``coherent directional force'' are not used here; corridors now have their place inside matter (Part~21) and in magnets (Part~22).
+\item The road ahead is given by topic and follows the revised parts, with Part~19 (the pathway to matter) inserted and Coherence and Corridors renumbered 20 and 21. The summary of the first half now includes Parts~5 and~8 to~10.
 \item An ``About This Paper'' section, a figure, a table, status marks and this list are added.
 \end{itemize}
 
