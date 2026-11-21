@@ -258,12 +258,13 @@
   },
   {
    "slug": "gpt-part-25",
-   "title": "Constants, Conversions",
-   "subtitle": "and Deep Field Formalism",
-   "words": 859,
-   "lead": "This addendum to Part 22 of the Graviton Pressure Theory (GPT) framework serves a dual function: to formally define the constants, unit systems, and conversion protocols necessary for experimental replication and simulation fidelity, and to extend the field formalism of GPT into high-density, high-energy, and deep cosmological domains.",
+   "title": "The Medium at Its Limits",
+   "subtitle": "Following the Inflow to the Speed of Light (in preparation)",
+   "words": 110,
+   "lead": "In preparation: the medium's inflow followed from the Earth inward through white dwarfs and neutron stars to a black hole's horizon. The first edition's constants and conversions are now in Part 24.",
    "source": "Part 25 - Constant Conversions.tex",
-   "part": 25
+   "part": 25,
+   "path": "constants-conversions"
   },
   {
    "slug": "gpt-part-26",
