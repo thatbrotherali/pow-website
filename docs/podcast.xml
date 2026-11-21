@@ -64,16 +64,6 @@
 <itunes:episode>5</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
-<title>Part 28: Resonance Transmissions</title>
-<description>Light, radiation and electrical behaviour as coherent modulations in the graviton medium. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
-<enclosure url="https://music.wixstatic.com/mp3/eaef6d_ebdb7c8ff55443cab5e2b4983b1c8405-320.mp3" length="34072169" type="audio/mpeg"/>
-<guid isPermaLink="false">pow-deep-dive-eaef6d_ebdb7c8ff55443cab5e2b4983b1c8405</guid>
-<pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://peopleoftheworld.net/videos.html#listen</link>
-<itunes:duration>852</itunes:duration>
-<itunes:episode>6</itunes:episode>
-<itunes:explicit>false</itunes:explicit>
-</item><item>
 <title>The LLM Consensus: ChatGPT, Gemini and Grok 3</title>
 <description>How three leading AI systems, ChatGPT, Gemini and Grok 3, responded to the Graviton Pressure Theory framework. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_83ff64da5b8d43548839d3cff1ce0ae7-320.mp3" length="34102471" type="audio/mpeg"/>
@@ -81,7 +71,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
-<itunes:episode>7</itunes:episode>
+<itunes:episode>6</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>AI Philosophers: Veritas and Lucidus</title>
@@ -91,7 +81,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>906</itunes:duration>
-<itunes:episode>8</itunes:episode>
+<itunes:episode>7</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item>
 </channel>

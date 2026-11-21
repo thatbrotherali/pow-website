@@ -288,11 +288,13 @@
   {
    "slug": "gpt-part-28",
    "title": "Resonance Transmissions",
-   "subtitle": "",
-   "words": 10218,
-   "lead": "Resonance Transmissions reframes the entirety of electromagnetic behavior—from photon emission to circuit function—not as abstractions or probabilistic waves in vacuum, but as mechanically grounded coherence in a physical graviton medium, but as structured coherence modulations within a causal, memory-bearing graviton lattice. In this framework, radiation, light, and electromagnetic fields are all revealed as consequences of tension differentials, alignment patterns, and shear memory dynamics across a structured medium.",
-   "source": "Part 28 - Resonance Transmissions.tex",
-   "part": 28
+   "subtitle": "Light, Sound and Electricity in the Medium",
+   "words": 5840,
+   "lead": "Space is full: a star fills its system with wind, light and field, and the matter in that space does not by itself set light's speed. Sound and light follow one rule for speed and one for reflection; energy is handed on in a travelling wave and sloshes in a standing one; a circuit's energy travels through the space around its wires. Measurements that bear on the medium, and the questions a medium account still owes.",
+   "source": "Part 28 - Resonance Transmissions (2nd ed.).tex",
+   "part": 28,
+   "pdf": true,
+   "path": "resonance-transmissions"
   },
   {
    "slug": "gpt-part-29",

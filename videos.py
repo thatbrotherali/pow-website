@@ -124,7 +124,7 @@ ANTHOLOGY = ["ytcdXMOjBto", "PKdBHPLgxxY", "A_u0J_JcYis", "hmjPAoZ9qhw", "Zy5nzX
 # revised in the second edition (they no longer match the text). Kept here as
 # a record; they stay on YouTube. Remove an id from this set to restore it.
 OUTDATED = {"q5I0Z2h8PmQ", "Qm_xkBtRBZA", "WClk5ySCDpg", "1JLG4Q95Sqw", "tF4WsjNVT7U", "ugnWAbwUogo", "HTiwFsd8zfQ", "fA_2Y6WCQZI", "ZK_ukR9jkCQ",
-            "xRCPn3brKcc", "w_dqq9Z7k6A", "L27ZLngwJIU", "xU_QZkUFX-Y"}
+            "xRCPn3brKcc", "w_dqq9Z7k6A", "L27ZLngwJIU", "xU_QZkUFX-Y", "WpzEok_XsYk"}
 
 
 def by_place(place):

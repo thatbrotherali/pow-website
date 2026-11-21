@@ -38,7 +38,7 @@ ax[1,1].text(0.02,1.58,"They swap: energy stays and sloshes",fontsize=7.8)
 for a in ax.flat:
     for s in ["top","right"]: a.spines[s].set_visible(False)
     a.set_xticks([])
-plt.tight_layout(); plt.savefig("fig28-1-energy.pdf"); plt.savefig("fig28-1-energy.png",dpi=200)
+plt.tight_layout(); plt.savefig("fig28-1-energy.pdf"); plt.savefig("fig28-1-energy.svg"); plt.savefig("fig28-1-energy.png",dpi=200)
 
 # ---------- Figure 28.2: where a circuit's energy travels ----------
 fig,ax=plt.subplots(figsize=(7.0,3.6)); ax.set_xlim(0,10); ax.set_ylim(0,5); ax.axis("off")
@@ -65,5 +65,5 @@ for xx in np.linspace(2.2,7.6,7):
     ax.add_patch(Circle((xx,1.0),0.07,color=ORANGE,zorder=5))
     ax.add_patch(FancyArrowPatch((xx-0.15,0.72),(xx+0.15,0.72),arrowstyle="-|>",mutation_scale=7,color=ORANGE,lw=0.9))
 ax.text(4.9,0.15,"Electrons in the wire drift at about 0.07 mm/s (1 A in 1 mm² of copper);\nswitched on, the lamp lights at once, because the energy does not ride on them",ha="center",fontsize=8.3,color=ORANGE)
-plt.tight_layout(); plt.savefig("fig28-2-circuit.pdf"); plt.savefig("fig28-2-circuit.png",dpi=200)
+plt.tight_layout(); plt.savefig("fig28-2-circuit.pdf"); plt.savefig("fig28-2-circuit.svg"); plt.savefig("fig28-2-circuit.png",dpi=200)
 print("ok")
