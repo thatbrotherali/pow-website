@@ -14,16 +14,6 @@
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>serial</itunes:type>
 <item>
-<title>Part 5: Graviton Pressure Theory</title>
-<description>Newton described gravity as attraction and Einstein as curvature, but neither said what gravity is made of. Part 5 sets out the graviton pressure mechanism. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
-<enclosure url="https://music.wixstatic.com/mp3/eaef6d_b6160f6032214a9c994b6d73205f3efb-320.mp3" length="37534961" type="audio/mpeg"/>
-<guid isPermaLink="false">pow-deep-dive-eaef6d_b6160f6032214a9c994b6d73205f3efb</guid>
-<pubDate>Wed, 15 Oct 2025 12:00:00 +0000</pubDate>
-<link>https://peopleoftheworld.net/videos.html#listen</link>
-<itunes:duration>938</itunes:duration>
-<itunes:episode>1</itunes:episode>
-<itunes:explicit>false</itunes:explicit>
-</item><item>
 <title>The LLM Consensus: ChatGPT, Gemini and Grok 3</title>
 <description>How three leading AI systems, ChatGPT, Gemini and Grok 3, responded to the Graviton Pressure Theory framework. This episode is an AI-generated conversation made with Google NotebookLM from Shareef Ali Rashada's texts.</description>
 <enclosure url="https://music.wixstatic.com/mp3/eaef6d_83ff64da5b8d43548839d3cff1ce0ae7-320.mp3" length="34102471" type="audio/mpeg"/>
@@ -31,7 +21,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>852</itunes:duration>
-<itunes:episode>2</itunes:episode>
+<itunes:episode>1</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item><item>
 <title>AI Philosophers: Veritas and Lucidus</title>
@@ -41,7 +31,7 @@
 <pubDate>Wed, 22 Oct 2025 12:00:00 +0000</pubDate>
 <link>https://peopleoftheworld.net/videos.html#listen</link>
 <itunes:duration>906</itunes:duration>
-<itunes:episode>3</itunes:episode>
+<itunes:episode>2</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item>
 </channel>

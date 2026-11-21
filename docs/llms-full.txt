@@ -11893,741 +11893,597 @@ Cite as: Rashada, S. A. (2026). From Newton to GPT. In The Unified Framework for
 
 By Shareef Ali Rashada
 
-> Editor's corrections (October 2026): Subscripts: the source wrote P\_g with an escaped underscore, so subscripts displayed as literal underscores. They now display as subscripts. Flow-field force: the divergence of a vector field is a scalar, so it cannot equal a force vector. The flow's divergence now appears as a sink term, and the force comes from the pressure gradient over the body's volume V. Pressure from flux: pressure is a momentum flux, ρv², not ρv; and the gradient of pressure is a force per unit volume, so it is written as f. Newtonian sum: the subscripts were garbled in conversion; restored. Lensing: an angle cannot be a vector dotted with a length; it now uses the size of the density gradient across the path.
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-## From Description to Mechanism
+# About This Paper
 
-Every revolution in physics begins not with an answer, but with a refusal to accept a placeholder. The history of science is a series of protests against convenient description in favor of causal understanding. Graviton Pressure Theory (GPT) belongs to that lineage. It does not arrive to contest the math of earlier frameworks, but to restore what they surrendered: force, contact, and cause.
+Every advance in physics begins not with an answer, but with a refusal to accept a placeholder. Parts 1 to 4 set out the refusal: gravity is described with great precision, and its cause is left unnamed. This paper sets out what Graviton Pressure Theory puts in its place, in one piece, so that the claims of Parts 6 to 13 can be read with the mechanism in hand.
 
-The time for metaphors has passed. The notion of curved space guiding matter along invisible lines may satisfy an aesthetic impulse, but it cannot answer the child who asks, "Why do I fall?" Nor can it inform the engineer bracing a bridge, or the dancer adjusting to strain. These are not abstractions—they are demands. They are the body asking for the blueprint, not the poetry.
+It is written for that purpose. Each section gives one part of the mechanism: what it is, what touches what, what is exchanged, and what it is measured against. It does not derive everything; the derivations are in Parts 14 to 28, and each section says where. A table at the end shows which part of the mechanism each of Parts 6 to 13 relies on.
 
-Graviton Pressure Theory proposes gravity as it is experienced: as a force, directional and felt, governed not by passive geometry but by the movement of coherent structures in space. It replaces description with mechanism, and metaphor with interaction. In this document, we lay the foundation.
+The whole of it is short enough to state at once. Space is filled with a medium. Matter is a pattern of that medium, kept in being by taking it in; so the medium flows into every mass, and its pressure is lowered where it flows fastest. Every body in the flow is carried by it, and every clock and rod in it is slowed and squashed by the medium streaming through. **\[Hypothesis\]** Everything else in this paper follows that statement into its consequences.
 
-### The Nature of Force: What Is Pressure?
+This is the second edition; what changed from the first is listed at the end. Claims are marked by their status, as the key shows.
 
-In every domain of physical inquiry, a force requires a transmitter. Electric force requires the electric field. Magnetic force requires alignment and flow. But gravity, as conventionally conceived, is said to be present without medium, without carrier, and—most troubling of all—without exertion. GPT rejects this void.
+# From Description to Mechanism
 
-Pressure is the most intuitive and measurable form of force. It is force applied over an area, experienced when two entities resist mutual occupation of space. It manifests in compression, in recoil, in fatigue. It is the hand that holds, the wall that resists, the earth that pushes back. Pressure is the language of physical contact.
+## The test
 
-In GPT, gravity is pressure.
+A description is not a mechanism. **\[Argued\]** A formula that gives the right number says what happens and how much. It does not say what makes it happen. Newton’s law gives the force between two masses and names no carrier; Newton himself thought action at a distance through nothing an absurdity, and left the cause open.[^1] General relativity gives the motion as geometry and names no exchange between matter and geometry (Part 8).[^2] Both are accurate. Neither answers the child who asks what holds her to the ground.
 
-But not omnidirectional pressure, nor uniform background pressure. It is directional, structured, and responsive. It is caused by the organized movement of gravitons—fundamental, field-based carriers that apply force by flow, interruption, and redirection.
+So every explanation in this framework, the mainstream’s and GPT’s alike, is held to one test: does it name what touches what, and what is exchanged? **\[Argued\]** A name is not an answer. “Curvature”, “potential energy”, “pull” and “field” are names; each says that something happens and stops before saying what does it (Parts 1 and 2).[^3]
 
-### The Graviton: Structured Carrier, Not Hypothetical Particle
+## Four errors the test catches
 
-The term "graviton" has existed in theoretical physics as a placeholder for a quantum of gravitational interaction. In conventional thought, it is often treated like the photon—a massless particle that mediates force. But this analogy breaks down, because gravity does not behave like light, nor like charge. It penetrates mass, accumulates without polarity, and cannot be shielded.
+- **The Reduction Conflation** (Part 3).[^4] Two accounts that give the same numbers are taken to say the same thing about what exists. Matching numbers are not matching mechanisms: one solution of general relativity can be read as curved space or as a medium flowing in flat space, and the numbers cannot choose between them (Part 8).
 
-In GPT, the graviton is not a hypothetical quantum—it is a structured wave-packet, a coherence-preserving carrier of directional pressure. It does not pull. It presses.
+- **A force with no carrier** (Part 7).[^5] Push or pull, a force must say what touches what, where its energy comes from, and what pushes back. A pull is acceptable once its carrier is named, as with a rope. Gravity’s pull has never had one.
 
-Gravitons do not orbit, scatter, or reflect in conventional ways. They pass through and around matter, but their behavior is altered by internal structure. Coherent masses disrupt, delay, or redirect them. This disruption is not abstract—it produces a real gradient, an imbalance, a net directional force. That force is gravity.
+- **The Rest-and-Isolation Assumption** (Part 6).[^6] Physics usually begins with a body at rest, alone, in nothing. No real body is either. Every body is moving through several flows at once, and every action of a body happens in something.
 
-### Mass as Resistance to Coherent Compression
+- **The idealisation taken for the event** (Part 28).[^7] An idealisation (a vacuum, a point mass, a frictionless plane) may approximate. It may not decide what exists. “Empty space” is the case: physics computes as if nothing were there, and then adds back what space contains as corrections, constants and new entities, so that nothing space does can enter as a cause.
 
-Mass, in GPT, is not merely a scalar quantity of matter. It is a coherent field pattern—a resistance to compression that manifests as both inertia and gravitational response. The more resistant a structure is to coherent graviton flow, the more it disrupts that flow and creates a pressure shadow.
+Pressure is the language of physical contact. **\[Argued\]** It is what a hand feels holding a weight, what a wall returns, what a floor gives back. GPT proposes that gravity is spoken in the same language, and names the thing that speaks it.
 
-Imagine a river encountering a stone. The water does not stop—it flows around, building up pressure at the front and reducing it behind. The stone is not moved because the water is attracted to it. It is moved because the pressure differential pushes it downstream.
+# The Medium
 
-Mass resists coherent compression. This is why it “generates” gravitational interaction—not through attraction, but through interruption. Its very presence creates a difference in graviton flow density. This difference manifests as directional force.
+## Space is full
 
-### Directional Pressure and the Creation of Force
+Space is not empty, and the measurements say so. **\[Argued\]** The vacuum has a permittivity and a permeability, measured on the bench; together they set the speed of light, $c = 1/\sqrt{\mu_0\varepsilon_0}$, and the impedance every antenna is matched to, 376.73 ohms (Part 28). Space carries waves of gravity at the speed of light, with energy (Part 8). Empty of matter, it holds energy, about $5\times10^{-10}$ joules in every cubic metre.[^8] It has a frame of rest, seen in the dipole of the background light, about 370 km/s.[^9] In 1920 Einstein said that space without an ether is unthinkable.[^10]
 
-A key tenet of GPT is that graviton flow is not isotropic. It has directionality. Space is not filled with uniform noise, but with structured flow fields—corridors of coherent graviton movement. Where flow is unimpeded, no net force arises. Where flow is resisted, interrupted, or occluded, gradients form. These gradients are not theoretical—they are measurable in the form of acceleration, tension, and structural strain.
+**\[Hypothesis: the passage that follows\]**
 
-The earth, the moon, the sun—each is a mass structure immersed in a sea of gravitons. These bodies do not create gravity. They create resistance to flow. That resistance produces directional imbalance, and that imbalance results in a net force. When an object “falls,” it is not pulled. It is pressed—gently, pervasively, and continuously—by a pressure differential shaped by nearby mass.
+**The medium.** Space is filled with a medium. Its constituent is what GPT calls the graviton: not the mainstream’s hypothetical quantum of a gravitational wave, but the thing that everything else (matter, light, fields) is a pattern of (Part 15).[^11] The medium is not a gas of separate particles drifting through emptiness; it is the background in which all motion and all structure occur.
 
-This is why weight exists. Not because the ground attracts the body, but because the body’s interference with graviton flow leads to downward pressure. The ground resists this pressure, and the body responds with strain. The system stabilizes not through curvature, but through balance of force.
+- **It has a pressure.** Gravitons in step with one another push each other apart, so the medium is self-repelling and presses on what is in it. Its undisturbed pressure is about $4.5\times10^{-10}$ pascals, from a density of about $10^{-26}$ kilograms in a cubic metre moving at $c$: $P_0 = \tfrac12\rho c^2$ (Part 24).
 
-### The Flow of Gravitons: Field Dynamics, Not Geometry
+- **Phase decides push.** Whether two parts of the medium push each other depends on their phase, the timing of their oscillation. In step, they push; out of step, they pass without pressing. The same rule, at the scale of atoms, gives contact and the bond (Parts 15 and 19).
 
-Gravitons travel not through abstract geometry, but through structured fields. These fields can be mapped, measured, and modeled. They are shaped by the relative configuration of mass, the coherence of internal structures, and the topology of surrounding flow. They interact not as particles in a void, but as waves in a continuum.
+- **It carries waves.** Light is a transverse wave of the medium, and so is a gravitational wave; both travel at the speed the medium’s stiffness and inertia allow, which is $c$ (Part 28).
 
-In GPT, every region of space has a graviton vector density—a measure of how many coherent gravitons are moving through a given volume, in what direction, with what phase alignment. When mass is introduced, it perturbs this density, creating compression zones, redirection corridors, and occlusion shadows.
+**\[End of passage\]**
 
-It is this dynamic flow, not static curvature, that gives rise to gravitational force.
+Without matter, the medium has one way of moving: its own oscillation, everywhere and in no direction, pressing equally from every side. **\[Hypothesis\]** Once matter forms, it has a second: flow. Each particle takes the medium in, so the medium flows into it, and out again as counterflow. And because no mass forms alone, every new body forms inside flows already set up by the matter around it, and adds its own **\[Argued\]** (Part 18).[^12]
 
-### Interference, Occlusion, and the Shadowing Effect
+# Matter in the Medium
 
-When multiple masses are present, their interactions do not require entanglement or curvature blending. They require field interference. One mass can occlude graviton flow to another, creating a lower pressure zone—what might traditionally be called a "gravitational attraction" becomes a convergence of imbalance.
+**\[Hypothesis: the passage that follows\]**
 
-This shadowing effect is why the moon affects tides, why planets pull on each other, and why orbital paths are stable. Not because of spacetime depressions, but because graviton flow fields interact, compress, and stabilize through feedback.
+**Matter is a pattern of the medium, kept in being by taking the medium in.** An electron or a proton is motion of the medium at the speed of light, closed on itself in a knot so that it goes nowhere (Part 17).[^13] Its mass is that confined motion: energy slowed down. A pattern of moving medium is not a fixed object; like a whirlpool or a flame, it keeps its shape while its material changes. So every particle of matter continuously takes in the medium, in step with the medium around it; gives up the in-step energy to its own circulation; and sends the medium on, out of step, as a counterflow that does not press.
 
-Two masses in proximity will experience a mutual net pressure gradient that results in acceleration toward each other. Not due to innate attraction, but due to graviton interference patterns that alter the density and directionality of pressure vectors in their overlapping regions.
+**\[End of passage\]**
 
-### Why Things Fall: Gravity as Net Pressure Differential
+This is what the first edition meant by mass resisting coherent compression. **\[Argued\]** The medium arriving in step is turned out of step by the matter it enters; the matter does not stop the flow, it converts it. Three consequences follow, and Parts 6 to 13 use all three.
 
-When a book falls from a shelf, we do not need to imagine it sliding down a curve in spacetime. We need only understand that the local graviton field has been disrupted by the book’s resistance. That resistance reduces coherent flow above the book, while the field below remains dense. The result: a downward pressure that accelerates the book until contact is made.
+- The intake makes the inflow. **\[Hypothesis\]** Matter takes in the medium from every side, so the medium around it flows inward, and the more matter, the more flow.
 
-Falling is not the absence of support—it is the presence of pressure imbalance.
+- The intake is set by energy, not by size or material. **\[Hypothesis\]** Each turn of a particle’s circulation takes in a fixed share, so the intake follows the particle’s energy, binding energy included. That is why every material, measured, is carried alike (Part 17).
 
-This explains why all masses fall at the same rate in a vacuum—not because gravity ignores mass, but because pressure differential scales with resistance, not with quantity. A feather and a hammer disrupt flow differently, but the net imbalance imposed upon them is the same—hence the same acceleration.
+- Mass is one quantity. **\[Hypothesis\]** The mass that resists a change of motion and the mass that is carried by the medium are the same confined motion; that is why they are equal (Part 11).[^14]
 
-### The Surface Experience: Weight, Strain, and Ground Reaction
+# The Inflow
 
-Why does a floor press upward against a person’s feet? Why does standing still cause fatigue? Why does lifting an object induce strain? These questions are not answered by geodesics. They are answered by pressure.
+## Speed, acceleration and pressure
 
-Weight is the measure of resistance to graviton flow in a given direction. The ground is not “supporting” the body. It is preventing further compression by redirecting graviton pressure back into the resisting mass. This feedback creates the sensation of stability, but it is not a passive state—it is a dynamic balance of opposing flows.
+<figure id="fig:inflow">
+<img src="assets/figures/fig05-1-inflow.svg" />
+<figcaption>The medium around the Earth. (a) The medium flows in from every side, faster lower down. A body that is let go is carried: momentum is delivered to each of its particles alike, so nothing inside it is compressed. A held body receives the same delivery and passes it into its support; that current is what a scale reads. (b) The inflow speed drops with height, from 11.2 km/s at the ground; a clock is slowed by the medium streaming past it, so a clock higher up runs faster. A GPS satellite’s clock gains 45.7 microseconds a day from the slower stream and loses 7.2 from its own motion through the medium: 38.5 a day in all, as measured.</figcaption>
+</figure>
 
-Strain, then, is the internal response to these interactions. Muscles resist compression. Bones distribute force. Structures carry load. All of this occurs not because we live in a curved space, but because we live in a structured field of coherent, pressing energy.
+**\[Hypothesis: the passage that follows\]**
 
-### Conclusion: Gravitational Force Reclaimed
+**The inflow.** Around a mass $M$, the medium flows inward at $$v = \sqrt{2GM/r},$$ the Newtonian escape speed: 11.2 km/s at the Earth’s surface, 618 km/s at the Sun’s (Part 16).[^15] Flowing inward, the medium speeds up, and its own acceleration is $$a = GM/r^2,$$ the acceleration of Newton’s law. Its pressure is lowered where it flows fastest, as a moving fluid’s is: $$P/P_0 = 1 - v^2/c^2 = 1 - 2GM/rc^2.$$ At the Earth’s surface the lowering is about one part in 700 million; at the Sun’s, four parts in a million (Figure 5.1).
 
-Graviton Pressure Theory does not ask you to believe in abstractions. It asks you to observe reality and demand an answer that honors your experience. You feel gravity because it is real. Not in the poetic sense, but in the physical, causal, measurable sense.
+**\[End of passage\]**
 
-This is not curvature. This is not metaphor. This is force.
+The inflow is calibrated, not fitted: **\[Argued\]** its speed is chosen so that its acceleration is Newton’s, and from that one choice the pressure, the clock rates, the bending of light and the turning of Mercury’s orbit all follow without further adjustment (Part 23).[^16] The same flow, written in the language of general relativity, is the Painlevé–Gullstrand form of the solution outside a mass, the “river model” of black holes.[^17]
 
-We have reclaimed gravity not from Newton <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> or Einstein <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a>, but from the void they left unexamined. We now begin again, with causality at the center, and pressure as the language through which gravity speaks.
+## The shadow, restated
 
-## The Nature of the Graviton: Structure, Flow, and Causal Interaction
+The first edition described a mass as casting a shadow in a flow of gravitons, with bodies pushed into the shadow. Two parts of that picture stand, and one does not.
 
-In the framework of Graviton Pressure Theory (GPT), the graviton is not a hypothetical quantum placeholder but a real, structured entity with physical behavior, field interaction, and causal impact. Unlike the graviton posited in quantum field theory—a massless spin-2 boson required to quantize General Relativity—the graviton in GPT is neither a mathematical necessity nor a symmetry artifact. It is a *functional carrier of pressure*. It exists not to satisfy quantization, but to explain gravity as a force—with direction, magnitude, and mechanical transmission.
+- The region between two masses is a region of lowered pressure. **\[Argued\]** Each mass’s inflow lowers the pressure around it, and between two masses both inflows act. In that sense “shadow” still describes it.
 
-In this section, we establish the graviton’s essential properties, its coherent behavior, and its role in generating gravitational pressure. The aim is to move from conceptual metaphor to physical mechanism: a causal entity in a structured field.
+- Shading by absorption acts as well, **\[Hypothesis\]** at the scale of the atom and possibly when bodies line up, as in eclipses. It is small: each particle takes only a tiny share of the medium passing through it, and measurements bound any shielding of gravity by matter far below what could carry weight (Part 15).
 
-### The Graviton as a Structured Carrier
+- The force is carried by the flow, not by the shadow. **\[Argued\]** A body is not pushed into a shadow from behind; it is carried by the medium flowing around and through it. This is the first edition’s river and stone, with the river flowing toward the mass, and the stone carried by it.
 
-We define a **graviton** in GPT as a localized, coherence-preserving bundle of oscillatory pressure. It is not a point particle but a field excitation with orientation, persistence, and interaction constraints. Its defining features are:
+# Carried and Held
 
-- **Directional propagation**: Gravitons travel along structured flow paths, not isotropic wavefronts.
+This section is the mechanism Parts 6, 7 and 11 rely on most.
 
-- **Causal delay**: They exhibit finite propagation time, leading to observable temporal effects.
+## Carried
 
-- **Pressure transmission**: Each graviton carries and transfers mechanical pressure to masses it encounters.
+**\[Hypothesis: the passage that follows\]**
 
-- **Field coherence**: Their motion and influence are governed by large-scale coherence fields, not random scattering.
+**A body let go is carried.** The medium streams through every body, and every particle of the body takes it in; so the medium delivers momentum to every particle at once, in proportion to its mass. A body of mass $m$ receives $mg$ of momentum each second, and shares the medium’s acceleration $g$ (Part 7). It does not move with the medium; the medium still streams through it at close to 11.2 km/s. It shares the medium’s acceleration, not its speed.
 
-- **Self-repulsion**: Gravitons do not clump—they maintain spacing due to phase-phase repulsion.
+**\[End of passage\]**
 
-This structure enables them to convey directional force continuously. Gravitons are not entangled with matter in the quantum sense; rather, they are *interrupted* by matter, redirected by coherence gradients, and accumulated into net pressure differentials.
+This accounts for what is measured in free fall. **\[Argued\]**
 
-### The Nature of Graviton Flow
+- **Every body is carried alike.** Delivery is in proportion to mass, so the acceleration is the same for a feather and a hammer. Measured: titanium and platinum alike to about one part in $10^{15}$ (MICROSCOPE); the Earth and the Moon alike toward the Sun to about $10^{-13}$.[^18][^19]
 
-In GPT, **graviton flow** is the source of all gravitational behavior. Gravitons move through space as part of pre-existing, large-scale coherent currents. These flows are not generated by mass—they *predate* it. Mass interrupts them.
+- **Nothing inside is compressed.** Delivery reaches every particle at once, so no part presses on another, and an accelerometer reads zero. A zero reading means uniform delivery, not no delivery: the acceleration is real, and is seen against any outside reference (Part 11).
 
-The flow field <span class="math inline">\\\vec{G}(\vec{r})\\</span> at position <span class="math inline">\\\vec{r}\\</span> is a vector field describing the density and direction of graviton movement. Its local divergence gives rise to net force:
+- **Free fall is not the absence of gravity; it is gravity unopposed.** It is permission: the medium carries, and nothing stops it.
 
-<span class="math display">\\\nabla \cdot \vec{G}(\vec{r}) = -s(\vec{r}), \qquad \vec{F}\_g = -V\\\nabla P_G(\vec{r})\\</span>
+## Held
 
-In regions of free space, <span class="math inline">\\\nabla \cdot \vec{G} = 0\\</span> and no force is felt. In the presence of mass, obstruction and redirection of flow create spatial gradients, generating a net pressure.
+**\[Hypothesis: the passage that follows\]**
 
-### Mass as Flow Disruptor: Resistance to Coherent Compression
+**A body held receives the same delivery and passes it on.** Holding is not a state in which nothing happens. The medium still streams through the held body and still delivers $mg$ of momentum every second; the body relays it, as compression, into its support, and the support into the ground (Part 6).[^20] The push appears only where the motion is stopped. That push is weight.
 
-Mass is not simply "stuff"—in GPT, it is a structured region of space that **resists coherent graviton compression**. It is characterized by:
+**\[End of passage\]**
 
-- **Coherence resistance coefficient** <span class="math inline">\\\kappa_m\\</span>: how strongly a given material resists directional graviton flow
+- One current, two destinations. **\[Argued\]** Held, the current passes into the support, and the scale reads its rate. Let go, it accumulates as motion, and an impact shows its total (Parts 6 and 11).
 
-- **Phase disruption index** <span class="math inline">\\\delta\\</span>: how much the incoming graviton stream is delayed or deflected by the mass
+- Holding is throughput, not consumption. **\[Argued\]** A table, an arch or a permanent magnet holds indefinitely with no input. Measured against the medium, momentum and energy flow through a held load (about 1.1 megawatts through 10 kilograms, at 11.2 km/s), and are passed on, not used up (Part 6). “No work is done” is true in the frame of the laboratory; it is not true in the medium’s.
 
-The greater the resistance to coherent compression, the greater the disruption in flow, and therefore, the larger the gravitational shadow. This shadow—a deficit in flow density behind the object—is responsible for the net force.
+- Solidity is the boundary’s answer. **\[Hypothesis\]** Where two bodies meet, the counterflow from each, crowded at the contact, is brought back into step and presses. That pressure is the normal force: it resists compression, and creates and holds the boundary between the bodies. Its rate equals the momentum delivered, which is why every scale reading is a reading of the current (Parts 6 and 27).[^21] The first edition called this the compression barrier.
 
-### Gravitational Force as Pressure Differential
+## Where the energy is
 
-In GPT, the gravitational force on a body of cross-sectional area <span class="math inline">\\A\\</span> is derived from the net pressure difference across its surface:
+A body carried toward the Earth gains energy, and in GPT the energy has an address. **\[Argued\]** The medium pays it, from its pressure, converted into flow. **\[Hypothesis\]** Lifting a body returns that energy to the medium’s pressure; letting it go draws it back. “Gravitational potential energy” is the medium’s pressure, located (Part 7). General relativity cannot say where gravitational energy is at any point (Part 8).
 
-<span class="math display">\\F = A (P\_{\text{in}} - P\_{\text{out}})\\</span>
+## Orbit
 
-Where:
+An orbit is a body coasting sideways through a medium that is itself accelerating inward. **\[Argued\]** Nothing is paid to keep it going, and nothing inside it is compressed. The orbit closes because the inflow’s acceleration weakens as the inverse square; it turns slowly, 43 arcseconds a century for Mercury, because the medium’s lowered pressure weakens the outward hold of the sideways motion **\[Hypothesis\]** by the same factor that slows clocks (Part 26).[^22]
 
-- <span class="math inline">\\P\_{\text{in}}\\</span> is the graviton pressure incident from the direction of lower obstruction
+# Motion and Inertia
 
-- <span class="math inline">\\P\_{\text{out}}\\</span> is the pressure from the opposite side (typically occluded by nearby mass)
+The first edition described inertia as a corridor: a moving body takes in more of the medium ahead of it than behind, carving a path that favours continued motion, so that a change of motion costs the work of carving a new one. The second edition keeps the mechanism and states it in measured terms.
 
-This simple mechanical relation explains why bodies accelerate toward regions of reduced pressure: they are *pushed* by graviton flow.
+**\[Hypothesis: the passage that follows\]**
 
-### The Self-Regulating Nature of Graviton Fields
+**Momentum is the carved path.** A body moving through the medium takes it in faster at its leading face than at its trailing face. That front-to-back imbalance is its momentum (Part 11). The exchange is wave-like: at speed $v$, the front rate is raised by a factor $k = \sqrt{(1+v/c)/(1-v/c)}$ and the back rate lowered by the same factor. Half their sum is $\gamma = 1/\sqrt{1-v^2/c^2}$, the energy factor; half their difference is $\gamma v/c$, the momentum factor. At six-tenths of the speed of light, $k = 2$: 1.25 and 0.75.
 
-Because gravitons self-repel, they distribute themselves to maintain coherent density. This ensures gravitational force scales with obstruction but remains uniform per unit mass in free fall:
+**\[End of passage\]**
 
-- Gravitons do not amplify near small masses—they equalize
+- Held steady, the path costs nothing. **\[Argued\]** The imbalance is kept without braking: orbits last, particles coast. This is what the first edition called the field’s preference for continued motion.
 
-- Massive objects create broad shadows rather than sharp wells
+- Changing it costs. **\[Argued\]** A new speed or direction needs a new imbalance, and that is what a force pays for. Approaching $c$, the front rate grows without limit, so does the cost, and no body reaches the speed of light.
 
-- This results in smooth, predictable gravitational gradients
+- The drag is inside. **\[Hypothesis\]** The shared rate of the two faces is the body’s rate at rest and runs its internal cycles; the excess carves the path. So a moving body’s internal processes slow by $1/\gamma$: muons circulating at $\gamma \approx 29$ live 29 times longer.[^23]
 
-This self-regulation explains why objects of different mass fall at the same rate in a gravitational field—they are all equally exposed to the same differential field.
+- A gyroscope is a circulation. **\[Hypothesis\]** Its spin is matter’s circulation on a larger scale, set turning in the medium; reorienting it means reorienting that circulation, and the resistance is its angular momentum. The spinning Earth sets the medium around it turning, and a gyroscope’s axis is carried by that swirl, measured by Gravity Probe B (Part 16).[^24]
 
-### Conclusion
+# Clocks, Rods and Light
 
-The graviton, as defined by Graviton Pressure Theory, is a causal, structured, coherence-driven entity. It restores to gravity what abstraction has removed: force, contact, and direction. Its presence transforms gravitational theory from a geometry of deference to a physics of interaction. By understanding its flow, its field, and its interruptions, we gain not just a new explanation of gravity, but a tool for unifying force with form, experience with mechanism, and structure with motion.
+This section is the mechanism Parts 8 and 10 rely on.
 
-In the next section, we will explore the graviton flow field itself—how space becomes directional, how gravitational corridors are formed, and how this structure allows planetary motion, orbital stability, and galactic interaction without invoking curvature or attraction.
+**\[Hypothesis: the passage that follows\]**
 
-## Graviton Flow Fields: Corridors, Density, and Directionality
+**A clock is slowed by the medium streaming past it.** A clock is a pattern of the medium whose cycles are carried by exchanges across it at $c$. Where the medium streams through it at speed $w$, the exchanges take longer, and every cycle slows by $$\sqrt{1 - w^2/c^2} = \sqrt{P/P_0}.$$ In the inflow, $w$ is the inflow speed, and the slowing is gravitational time dilation; for a moving clock, $w$ includes its own motion through the medium, and the slowing is motional. **They are one effect** (Parts 10 and 18).[^25]
 
-### Space is Not Empty
+**\[End of passage\]**
 
-In the Graviton Pressure Theory (GPT), space is not a neutral void. It is an active medium permeated by coherent streams of gravitons in directional motion. These streams do not move randomly nor uniformly. They exhibit flow, density variation, and structure—all shaped by the interaction of matter, coherence gradients, and interference boundaries. Where General Relativity replaces force with curvature, GPT replaces emptiness with flow.
+The numbers follow with no fitted constant. **\[Argued\]** Two optical clocks a third of a metre apart in height run at measurably different rates; a gamma ray climbing 22.5 metres arrives shifted by 2.5 parts in $10^{15}$; and a GPS clock gains 38.5 microseconds a day, 45.7 from the slower stream at its height and $-7.2$ from its own motion (Figure 5.1).[^26][^27][^28]
 
-Graviton flow fields are the true landscape of gravity. They are invisible to the eye but not to their effects. They determine the net pressure exerted on any body immersed within them. These flows give rise to all gravitational behavior: orbital dynamics, free-fall acceleration, tidal forces, and even cosmic structure formation. In this section, we examine how graviton flows operate, how directional corridors form, and how mass alters these flows through resistance and occlusion.
+Structure sets each clock’s own rate; the medium sets a common slowing. **\[Argued\]** Temperature, stress and order change a clock’s rate, and differ from clock to clock. The factor by which the medium’s streaming slows that rate is the same for every kind of clock tested: nuclear, atomic, optical, and the decay of muons (Part 18).
 
-### Graviton Vector Fields and Spatial Density
+Rods are squashed along the flow by the same streaming. **\[Hypothesis\]** A rod’s bonds are kept up by exchanges across it; streaming lengthens the round trips more along the flow than across it, and the rod re-settles shorter along the flow by the same factor that slows the clock. One mechanism gives both factors, which is why they are equal. Space is flat; what general relativity calls stretched space is more of the squashed rods fitting in the same gap (Part 23).
 
-Each point in space contains a local graviton vector <span class="math inline">\\\vec{G}(\vec{r})\\</span>, describing the direction and magnitude of graviton flow at that location. The **graviton flux density** <span class="math inline">\\\rho_G(\vec{r})\\</span> measures how concentrated the flow is in a given direction.
+Light is refracted by the medium’s lowered pressure. **\[Hypothesis\]** Light is a wave of the medium and travels at $c$ through the medium where it is. Where the pressure is lowered, its index is raised: $n = P_0/P \approx 1 + 2GM/rc^2$. Passing the Sun’s edge, light is bent 1.75 arcseconds and delayed, as measured; the standard account’s own lensing calculations use the same index (Parts 8 and 10).[^29][^30]
 
-In absence of mass, these vectors are evenly distributed, with <span class="math inline">\\\nabla \cdot \vec{G} = 0\\</span> and <span class="math inline">\\\rho_G\\</span> constant. In the presence of mass, graviton flux is occluded, redirected, and densified in surrounding regions. These disruptions are not theoretical—they are causal, producing pressure gradients that generate measurable force:
+Redshift is the difference between clocks. **\[Hypothesis\]** Light keeps the rhythm of its source; a source deep in the inflow is slowed, and the light carries that slower rhythm to where clocks run faster. The redshift is the same at every wavelength, as measured.[^31]
 
-<span class="math display">\\\vec{f} = -\nabla P_G(\vec{r}) = -\nabla \left(\rho_G\\ v_G^2\right)\\</span>
+# Many Bodies, Rotation and Time
 
-where <span class="math inline">\\v_G\\</span> is the average graviton propagation velocity in the local field. The pressure at a point is determined by the graviton density and directionality—not by the intrinsic properties of space, but by its structured occupancy.
+This section is the mechanism Parts 12 and 13 rely on, and the first edition’s interference, corridors, memory and hysteresis restated.
 
-### Formation of Gravitational Corridors
+## Many bodies
 
-A **gravitational corridor** is a coherent region of space where graviton flow is aligned, unidirectional, and minimally obstructed. These corridors form naturally between masses, especially in two-body or orbital systems, where reciprocal occlusion establishes a stabilized, dynamic pressure gradient.
+- Pressures combine; flows do not simply add. **\[Hypothesis\]** Where two inflows meet, what combines is the medium’s pressure, and every body is carried by the acceleration the combined pressure sets up (Part 7). This is the first edition’s “interference”: the medium is one, and the bodies in it share it.
 
-Corridors are not force lines. They are flow zones—stable paths where pressure differential remains relatively constant. A planet orbiting a star remains within a curved corridor, not because it is constrained by curvature, but because the corridor itself is a self-regulating flow channel.
+- The forces are equal and opposite. **\[Hypothesis\]** Each body receives momentum from the other’s inflow in proportion to its own mass: $m \cdot GM/r^2$ and $M \cdot Gm/r^2$ (Part 7).
 
-These corridors exhibit:
+- Tides are differences in carrying. **\[Argued\]** The Moon’s inflow carries the near side of the Earth a little more than the centre, and the centre more than the far side: about $1.1\times10^{-6}$ m/s$^2$ at the surface. Large bodies amplify that small forcing into large signals: ocean basins into metres, soft layers into internal tides (Part 13).[^32]
 
-- **Directional coherence**: graviton vectors align within a narrow angular range
+## Rotation and the field in three dimensions
 
-- **Lateral symmetry**: pressure gradients balance centripetally
+**\[Hypothesis: the passage that follows\]**
 
-- **Temporal persistence**: changes propagate smoothly, allowing stable orbital feedback
+**A field is the medium in motion around a mass: an inflow and a counterflow.** The inflow arrives from every side and carries bodies. The counterflow, the medium sent on out of step, carries the pattern of the body’s spin and motion. A spinning body sets both turning, most strongly toward its equator and not at all along its axis, and the whole structure moves with the body through space (Part 16). Where the counterflow is brought back into step, at the distance where the inflow’s acceleration has dropped to about $1.2\times10^{-10}$ m/s$^2$, the medium relaxes; this relaxation boundary is about 7,000 times the Earth’s distance from the Sun for the Sun, and lies within the disc of a galaxy, where it gives the measured rotation of galaxies from their visible mass alone (Part 9).[^33]
 
-Where Newtonian mechanics sees centripetal acceleration, GPT sees corridor coherence.
+**\[End of passage\]**
 
-### Obstruction, Shadowing, and Redirection
+The first edition’s corridors are kept where they belong. **\[Argued\]** Inside matter, a corridor is a line of patterns held in step, along which the medium, load, heat and charge are passed (Part 21);[^34] a magnet is a corridor extended into the medium outside (Part 22).[^35] Between orbiting bodies, the counterflows meet in step at repeated conjunctions, and over long times systems are sorted into regular shells and resonances: the gaps in rings and in the asteroid belt, and the chains of planets in resonance (Parts 16 and 26).
 
-When mass is introduced into a graviton flow field, it obstructs coherent flow. This obstruction does not absorb gravitons, but delays, redirects, or scatters them. The result is an anisotropic field with measurable net force. The region downstream from the obstruction becomes a **gravitational shadow**, characterized by reduced pressure and altered flow vectors.
+## Time and the field
 
-This shadow is not merely a region of lower density; it is a directional absence. The object now experiences greater pressure on its exposed side and reduced pressure in the shadow. The resulting net force accelerates the object into the region of lower resistance—not because it is "attracted," but because it is being *pushed unevenly*.
+- Changes in the field travel at the speed of light. **\[Argued\]** Gravitational waves and light from the same event arrived together, to about one part in $10^{15}$.[^36] The first edition’s finite propagation delay stands, with its speed now measured.
 
-Multiple masses in proximity create overlapping shadows and interference patterns, generating complex corridors with oscillatory boundaries. This accounts for orbital precession, tidal locking, and non-Newtonian orbital anomalies.
+- The field keeps a record over time. **\[Argued\]** What the first edition called gravitational memory and hysteresis are measured where they are expected. Tides lag behind the Moon, because the oceans and the solid Earth take time to respond; the lag passes the Earth’s spin to the Moon’s orbit, and the Moon recedes 3.8 centimetres a year.[^37] Systems are sorted over long times into lasting resonances, and a transition in a growing body may be biased by the configuration of the medium at that moment, and carry it as a record **\[Hypothesis\]** (Part 13).
 
-### Flow Field Interactions and Stable Structures
+# What the Mechanism Must Pass
 
-Graviton fields are dynamic. They respond in real time to changes in mass configuration, velocity, and coherence. Yet due to their self-repelling structure and intrinsic coherence, they tend to stabilize into symmetric, predictable configurations.
+GPT never argues against a measurement. **\[Argued\]** Every test result stands, and every part of the mechanism must pass it. Table 5.1 lists the outcome tests that constrain the whole mechanism, whatever its parts.
 
-Stable orbital systems arise because feedback mechanisms between mass occlusion and graviton corridor formation create self-correcting patterns. When an orbiting body drifts from its corridor, pressure imbalances arise, producing a restoring force that gently redirects the body back into alignment. This is *not* the result of fine-tuned curvature, but of coarse-tuned flow regulation.
+<div id="tab:pass">
 
-Galaxies, too, are structured by these fields. The unexplained flatness of rotation curves—normally attributed to dark matter—can be modeled as large-scale graviton corridor formation, where coherent flow across galactic planes resists expected falloff in pressure differential.
+| **Measurement**                                                                              | **How the mechanism passes**                                      |
+|:---------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+| Every material carried alike, to $10^{-15}$ (Touboul et al. 2022)                            | delivery in proportion to mass, set by energy                     |
+| Gravity is not shielded by matter, to far below what weight needs                            | each particle takes a tiny share; the force is the flow (Part 15) |
+| Gravitational waves at the speed of light, two transverse polarisations (Abbott et al. 2017) | transverse waves of the medium, at its wave speed                 |
+| Every kind of clock slowed by the same factor (Chou et al. 2010; Bailey et al. 1977)         | the medium’s streaming slows every cycle alike                    |
+| The Earth’s heat flow, about 47 terawatts                                                    | throughput is passed on, not deposited                            |
+| Light bent 1.75 arcseconds; Mercury’s orbit turned 43 arcseconds a century                   | the index $P_0/P$; the sideways hold weakened by $P/P_0$          |
+| Frame dragging, $37\pm7$ milliarcseconds a year (Everitt et al. 2011)                        | the medium’s swirl                                                |
 
-### Conclusion
-
-Graviton flow fields are the true geometry of gravity—not curves in a mathematical manifold, but streams of directional, coherent pressure that shape motion, form, and equilibrium. They offer a causal, mechanistic explanation for every gravitational phenomenon traditionally mapped onto curvature or left unexplained.
-
-In the next section, we will examine **mass** not as a passive participant, but as an *active resistor to coherent compression*—and show how its internal structure determines the degree of graviton flow disruption, shaping gravitational interaction in both strength and scope.
-
-## Mass and the Resistance to Coherent Compression
-
-### Introduction: Mass Is Not Passive
-
-In classical physics, mass is treated as a scalar quantity—a measure of inertia and gravitational charge. It is defined by its response to force, not by its internal character. Even in General Relativity, mass is reduced to a source term in the stress-energy tensor—a placeholder, not an actor. But in Graviton Pressure Theory (GPT), mass is not inert. It is a structural participant in gravitational interaction. Its internal organization—its resistance to coherent compression—determines how it interacts with graviton flow.
-
-To understand gravity in causal terms, we must redefine mass not as "that which is acted upon," but as *that which resists coherence*. In this section, we explore the mechanics of that resistance, how it shapes gravitational shadows, and why different materials—even at identical masses—can interact differently with graviton fields.
-
-### Coherence and Material Structure
-
-All mass-bearing systems have internal structure, whether crystalline, molecular, or subatomic. GPT introduces the concept of a material’s **coherence profile**, which describes how well the material’s internal pattern aligns or misaligns with incoming graviton flow. The more a material disrupts that flow, the stronger its resistance to compression.
-
-We define two fundamental properties:
-
-- **Coherence Resistance Coefficient** <span class="math inline">\\\kappa_m\\</span>: Quantifies a material’s resistance to directional graviton alignment. High <span class="math inline">\\\kappa_m\\</span> materials disrupt coherent flow more strongly.
-
-- **Phase Delay Index** <span class="math inline">\\\delta_m\\</span>: Measures the average phase lag induced in graviton wavefronts as they interact with the material’s structure.
-
-These properties are not metaphysical. They emerge from measurable phenomena: energy retention, pressure deflection, gravitational shadow depth. A material with high <span class="math inline">\\\kappa_m\\</span> and <span class="math inline">\\\delta_m\\</span> will occlude more graviton flow, leading to stronger net force effects.
-
-### Occlusion, Internal Scattering, and Reflection
-
-Graviton interaction with mass is not absorption but *interruption*. Gravitons that enter a mass are delayed, redirected, or scattered depending on the internal alignment of field domains. Much like photons scatter differently in rough versus smooth materials, gravitons scatter differently depending on coherence discontinuities.
-
-This interaction leads to three primary effects:
-
-- **Directional Occlusion**: The reduction of graviton pressure behind a mass due to coherent flow being blocked or redirected.
-
-- **Internal Scattering**: Disruption within the mass that causes phase cancellation and lateral pressure diffusion.
-
-- **Reflective Redirection**: A portion of incoming graviton pressure is redirected outward, modifying local field structure.
-
-Together, these effects determine the gravitational "shadow" and the magnitude of net force experienced by the mass.
-
-### Differential Gravitational Response by Material Type
-
-Because mass is no longer a mere scalar, gravitational response becomes **material-dependent**. Two objects of identical mass but different internal coherence will produce slightly different shadows, and thus, slightly different pressure gradients.
-
-This does not violate the observed equivalence of inertial and gravitational mass in vacuum experiments. It *explains* it: in free-fall, where obstruction is removed, all objects experience the same net field. But in dynamic systems—especially near surfaces, in non-uniform fields, or in rapidly changing configurations—the coherence profile becomes relevant.
-
-This leads to potential experimental predictions:
-
-- Slight deviations in gravitational interaction between high-coherence and low-coherence materials
-
-- Time-dependent pressure effects in materials undergoing phase transitions
-
-- Shadow asymmetry in rapidly rotating or structurally dynamic masses
-
-These phenomena are currently unexplored in conventional physics because the models lack a causal mechanism sensitive to internal structure. GPT reintroduces that sensitivity.
-
-### The Compression Barrier and Stabilization
-
-As graviton flow encounters increasing resistance within a mass, pressure accumulates at the boundary. This results in a **compression barrier**—a self-stabilizing zone where internal disruption matches incoming pressure. This explains why objects maintain integrity under gravitational force: they resist not because of passive mass, but because of *active phase mismatch* with graviton flow.
-
-The compression barrier is why tables hold books, and why bodies do not collapse under their own weight. Resistance is not an abstract property of mass; it is the emergent outcome of structural misalignment with the incoming coherence field.
-
-### Conclusion
-
-Mass in Graviton Pressure Theory is not a placeholder—it is a participatory field structure. Its resistance to coherent compression defines its gravitational influence, not by attracting, but by occluding, delaying, and reshaping the directional graviton flow.
-
-This shift redefines gravitational mechanics from inertial submission to interactive opposition. It is not curvature that explains resistance; it is structure. In the next section, we will examine how time delays, field coherence, and graviton phase interactions generate observable temporal effects—including gravitational memory, time dilation, and energy retention in dynamic systems.
-
-## Temporal Effects and Gravitational Memory
-
-### Introduction: Time Is Not a Background Variable
-
-In Graviton Pressure Theory (GPT), time is not a passive coordinate. It is not a static backdrop upon which matter moves. Rather, time is a dynamic participant in gravitational interaction, directly linked to the behavior and structure of graviton fields. The phenomenon of gravity—as pressure applied through coherent flow—inevitably introduces delays, storage, and phase relationships. These are not mathematical abstractions, but physically meaningful events in time.
-
-This section explores how graviton propagation introduces real temporal effects: phase delay, gravitational memory, and time dilation. These effects are not consequences of curved geometry, but of flow-based interaction—where time is measured by the coherence and resistance of field transmission.
-
-### Graviton Propagation and Finite Delay
-
-In GPT, gravitons propagate at finite velocity. While not yet numerically specified, this speed is constrained to be at or near <span class="math inline">\\c\\</span>, the speed of light. This finite transmission introduces real delays between cause and effect in gravitational interaction.
-
-When a mass accelerates, the disruption it introduces into the surrounding graviton flow field is not instantaneously registered at a distance. Instead, the perturbation propagates outward with delay:
-
-<span class="math display">\\\Delta t = \frac{r}{v_g}\\</span>
-
-where <span class="math inline">\\\Delta t\\</span> is the delay, <span class="math inline">\\r\\</span> is radial distance, and <span class="math inline">\\v_g\\</span> is graviton propagation velocity.
-
-This delay introduces a subtle but important distinction: *gravitational response is not perfectly real-time*. Systems with rapidly changing configurations experience memory effects—echoes of previous field states that influence current dynamics.
-
-### Gravitational Memory and Residual Fields
-
-A mass in motion imprints a deformation on the surrounding graviton field. When it stops or changes direction, the previous field configuration does not vanish instantly. Instead, a trailing field distortion continues to propagate—a **gravitational memory**.
-
-This memory effect results in:
-
-- **Residual pressure zones**: lingering flow imbalances in previously occupied spatial corridors
-
-- **Oscillatory feedback**: cyclical redirection and overcorrection in multi-body systems
-
-- **Gravitational wake**: directional phase dissonance trailing behind high-velocity masses
-
-Gravitational memory is analogous to electromagnetic field lag in accelerating charge systems, but with additional coherence and phase structure. It provides a mechanism for long-duration influence in systems with variable configurations.
-
-### Time Dilation as Coherence Delay
-
-Traditional models explain time dilation through relative velocity or potential differences in spacetime curvature. GPT offers a new cause: **temporal phase delay due to coherence resistance**.
-
-When a clock is placed deeper in a graviton pressure well—such as closer to a large mass—its internal processes are subjected to continuous, coherent pressure. Each graviton interaction introduces a minute delay in the transmission of internal force fields and energy cycles. Over time, these delays accumulate, manifesting as a slower clock rate.
-
-This model predicts:
-
-- Time dilation scales with graviton flux density <span class="math inline">\\\rho_G\\</span>
-
-- Phase delays are more significant in highly coherent materials or fields
-
-- Dilation is a mechanical outcome of resistance to coherent transfer—not a deformation of time itself
-
-This framing allows time dilation to be reinterpreted as *field-dependent clock interference*, supporting the notion that time is emergent from coherent oscillation, not a universal invariant.
-
-### Energy Storage and Gravitational Hysteresis
-
-When graviton fields interact with complex structures over time, they can introduce **gravitational hysteresis**—a lag between applied pressure and structural response. This occurs in:
-
-- Rotating systems with varying coherence angles
-
-- Elastic materials with high internal damping coefficients
-
-- Astronomical systems undergoing tidal deformation
-
-Energy is not lost, but *temporarily stored* in the form of altered flow pattern memory. This stored energy slowly re-radiates or redirects, influencing system evolution. Gravitational hysteresis offers a new explanation for secular variation in planetary systems and for the damping of orbital eccentricities.
-
-### Conclusion
-
-Time, in GPT, is not a background dimension but a response medium. It measures the delay between force and interaction, between pressure and resistance. Graviton propagation, coherence misalignment, and phase delays all conspire to produce a gravity that has memory, depth, and mechanical drag.
-
-Where General Relativity warps time as a geometric consequence, GPT delays time as a physical interaction. It is not space that curves—it is force that lingers.
-
-In the next section, we will explore how overlapping graviton fields interact—how multiple sources of mass influence the same region of space, and how coherent interference generates emergent gravitational complexity beyond pairwise attraction.
-
-## Inertia Rewritten: The Memory and Potential in the Graviton Field
-
-### The Classical Inheritance
-
-In classical Newtonian physics, inertia is described as the tendency of an object to maintain its state of motion unless acted upon by an external force. Newton’s first law—“an object in motion remains in motion, and an object at rest remains at rest”—establishes this tendency as a principle, but not a cause. Inertia is treated as an intrinsic and inexplicable feature of mass, not something arising from deeper structure or interaction.
-
-General Relativity inherits this limitation. Though it replaces force with the geometry of spacetime, it offers no causal mechanism for why objects persist in geodesic motion. In both classical and relativistic physics, inertia functions as a placeholder—a named behavior standing in for a mechanism not yet understood.
-
-Graviton Pressure Theory (GPT) closes this explanatory gap. It reframes inertia not as an intrinsic resistance to change, but as the result of coherent interaction with the graviton field. In GPT, inertia is neither passive nor automatic—it is an active memory formed through patterned absorption and alignment. It is not a trait of the object alone, but of the relationship between motion, coherence, and field structure. Inertia is the continuity of a negotiated path through a responsive field.
-
-### Motion Leaves a Field Signature
-
-In GPT, motion is not the passive traversal of empty space—it is the active shaping of the graviton field. When a coherent object moves, it does more than displace field elements. It intakes gravitons asymmetrically, primarily from the forward direction, and in doing so, it alters the local field conditions in its path.
-
-Each clock cycle—the fundamental beat of interaction and refresh—delivers a new wave of gravitons to every surface. A moving coherent object encounters more gravitons on its leading edge. Its coherent structure allows it to absorb many of these gravitons before they exert opposing pressure. The result is an area of localized depletion ahead of the object—a drop in graviton density and directional resistance. This effect builds up over time, forming what GPT calls a *graviton corridor*.
-
-This corridor is not theoretical—it is measurable. It is a directional channel of reduced field pressure and structured alignment, created by the object’s sustained forward absorption. The corridor favors continued motion because the field has already been shaped to support it. To remain in motion is not to overcome resistance, but to follow the line of least opposition that the object itself has sculpted.
-
-When the object attempts to change speed or direction, it exits this prepared corridor and must begin absorbing gravitons from new directions. These new regions are not yet depleted—they present full opposition. This realignment requires additional energy. Thus, the effort required to change motion is not due to intrinsic reluctance, but to the cost of rewriting a corridor that the field already recognizes and sustains.
-
-From this perspective, inertia is no longer a property. It is a field memory. It is the echo of past motion encoded into the graviton structure, and the universe responds not by resisting change, but by preserving the efficiency of what has already been established.
-
-This explains why the continuation of motion requires no new energy, while any deviation demands work. The field is not resisting—it is honoring a pattern. Inertia, then, is the physical expression of that pattern’s persistence: motion continued not by fiat, but by fidelity to the memory inscribed into the graviton flow.
-
-This understanding does more than explain motion. It reveals the field as an intelligent medium—one that remembers, prefers coherence, and supports continuation until a stronger, causally justified intervention occurs.
-
-### Coherence as the Anchor of Inertia
-
-In Graviton Pressure Theory (GPT), mass is not a count of material substance—it is a measure of coherence. Coherence describes the internal harmony of a structure: the degree to which its components operate in alignment, reinforce one another’s fields, and present a unified interface to the graviton medium.
-
-This coherence determines how an object sculpts the graviton field. A highly coherent structure interacts with gravitons in a patterned, predictable way, allowing it to reshape the field more efficiently and more permanently. It does not merely pass through space—it tunes the space around it.
-
-When a coherent object moves, it doesn’t just leave behind a disturbed trail. It forms a graviton corridor—a structured alignment of depleted and redirected pressure that favors its continued motion. This corridor is not an artifact of the object’s inertia—it *is* the inertia, expressed through field memory.
-
-The deeper the coherence, the deeper the corridor. The more harmonized the object’s internal structure, the more convincingly it teaches the field how to respond. This results in a persistent pattern—a field-level echo of past motion that guides the object’s future path.
-
-Thus, inertia is not a property possessed by the object. It is a reflection of the field’s memory of the object’s coherence in motion. An object continues moving not because of its own momentum, but because it has already educated the field to support that direction. The field has been shaped to prefer continuation. It would take more effort to undo the established alignment than to sustain it.
-
-When one attempts to alter the motion of a coherent object—whether by speeding it up, slowing it down, or changing direction—the field must be rewritten. A new corridor must be built. The existing alignment must be unraveled, and a fresh intake pattern must be formed. This process demands energy, not because the object is reluctant to change, but because the field has already been optimized to preserve its existing path.
-
-This is the deeper meaning of inertia: not the reluctance of matter, but the loyalty of the field. The more coherent the object, the more thoroughly it has embedded its path into the graviton structure. In this view, coherence is the anchor of inertia because it is what gives inertia its form, its memory, and its resistance to redirection.
-
-GPT thus redefines inertia as an external phenomenon—a signature of prior success. It is not mass that resists change, but coherence that has already succeeded in changing the field. In this way, inertia becomes not an obstacle, but a legacy—the universe’s structured memory of a path once taken well.
-
-### Acceleration as Corridor Rewriting
-
-In Graviton Pressure Theory (GPT), acceleration is not merely a change in velocity. It is a structural act—an event that disrupts and reshapes the established pattern of interaction between a coherent object and the graviton field. It is the energetic rewriting of permission.
-
-When a coherent object moves, it absorbs gravitons from the field in an asymmetrical pattern, favoring the forward direction. This creates a directional depletion of graviton density ahead of the object. Over time, this structured interaction forms a corridor—a region of the field that is not just navigated but reshaped to support continuation of motion.
-
-Acceleration is the attempt to abandon that corridor.
-
-To accelerate—whether by increasing speed or altering direction—is to demand that the graviton field form a new asymmetry. The object must now begin absorbing gravitons from a different angular distribution, one that the field has not yet been taught to support. This realignment requires energy because it is not a continuation, but a transformation.
-
-In GPT, force is no longer simply a vector quantity applied to a mass. It is the cost of rewriting the field. The deeper and more coherent the original corridor, the more energy is required to erase it. Acceleration, therefore, is not resisted by the object—it is resisted by the memory the object has embedded into its environment. The field itself becomes the medium through which change must be negotiated.
-
-This reframing yields a new causal model:
-
-- Force becomes the energetic input necessary to break field loyalty.
-
-- Mass (coherence) determines how deeply the corridor is inscribed.
-
-- Acceleration reflects the cost of forging a new direction through field interaction.
-
-GPT restores meaning to motion by showing that acceleration is not a neutral transition—it is a rewriting of field permission. It is a declaration that the old path is no longer preferred, and that a new graviton alignment must be initiated.
-
-The deeper the original motion—the longer and more coherent its history—the more the field resists abandoning it. Not because of stubbornness or inertia as an object-bound trait, but because the universe has already structured itself to support that motion.
-
-Acceleration, then, is not an internal act of force. It is an external transformation of alignment—a new signature written into the graviton field. It is the cost of changing what has already been made easy, and the investment required to shift what the universe has already learned to allow.
-
-## Momentum as Field Persistence
-
-In classical mechanics, momentum is defined as the product of mass and velocity. This mathematical construct reliably predicts outcomes of motion and collision, but it lacks an underlying cause. Momentum is treated as a conserved quantity—an unchanging result of initial conditions—without explanation for why it resists change.
-
-Graviton Pressure Theory (GPT) reframes momentum as a field phenomenon. It is not a number. It is a structural memory—an enduring imprint of coherence and direction encoded into the graviton field.
-
-In GPT, velocity is more than a label for speed and direction. It reflects the orientation of graviton intake and corridor formation. As a coherent object moves, it sculpts the surrounding graviton lattice into a structured pathway of reduced resistance. Over time, this alignment deepens. Motion becomes easier, not because the object gains energy, but because the field has been reshaped to support it.
-
-Mass, in GPT, is coherence. It is the degree to which an object sustains a unified, resonant interaction with the graviton field. A more coherent structure absorbs gravitons more predictably, alters the field more thoroughly, and leaves a more durable pathway in its wake.
-
-Momentum, therefore, is the coupling of coherence and corridor. It is the measure of how deeply a coherent object has written its directional motion into the surrounding field. This is why fast or massive objects are harder to stop—not because they possess stored momentum, but because the field around them has already been tuned to allow their motion.
-
-To change momentum is to restructure the field. It requires undoing an existing corridor and initiating a new one. This costs energy. The more deeply inscribed the prior pattern, the more energy is required to overwrite it. GPT thus replaces the notion of momentum as inertial mass with a causal model:
-
-- Momentum is not mass times velocity.
-
-- Momentum is the persistence of a graviton corridor.
-
-- It is coherence expressed over time, locked into field alignment.
-
-This redefinition has far-reaching consequences. It explains inertial resistance, but also suggests new techniques of motion manipulation: if momentum is a field structure, it can potentially be dampened, redirected, or erased—not through force, but through field coherence engineering.
-
-In this way, GPT restores momentum to causality. It is no longer a given. It is a history—a traceable residue of successful, coherent interaction with the structure of the universe itself.
-
-## Experimental Parallels and Implications
-
-This reinterpretation of inertia through the lens of Graviton Pressure Theory (GPT) is not just philosophically elegant—it is empirically generative. By restoring causality to motion, GPT unlocks a set of testable predictions and reinterpretations that bridge theory and observation. Behaviors once explained through metaphors or statistical tendencies now gain transparent field-based mechanisms. The graviton corridor becomes not only a theoretical tool, but a measurable structure.
-
-#### Satellites and Orbital Persistence
-
-In classical mechanics, orbital stability is often attributed to the balance between centripetal force and inertial momentum. But GPT offers a deeper mechanism: the persistence of motion in orbit is supported by a previously sculpted graviton corridor. As satellites move through space, their coherent structure gradually aligns and depletes gravitons along their orbital path. Once formed, this corridor presents reduced resistance to continued motion. Little to no fuel is required to sustain this state—not because of a perfect balance of forces, but because the field already favors their continuation. Fuel is only needed when the object exits this alignment, requiring field restructuring.
-
-#### Gyroscopic Resistance as Corridor Shear
-
-Gyroscopes resist changes in orientation due to their conserved spin. In GPT, this is reframed: the spinning coherent mass of a gyroscope creates radial graviton alignment—a vortex of directional corridor structure around its axis. Attempting to reorient the gyroscope’s axis introduces a mismatch between the existing graviton pattern and the new motion vector. This requires shearing through the established field alignment—a process energetically costly. The higher the coherence and spin rate, the deeper the corridor’s entrenchment, and the more resistance to reorientation emerges. What was once angular momentum becomes corridor loyalty.
-
-#### Inertial Weakening at the Edge of Coherence
-
-GPT predicts that inertial behavior is not fixed. It is contingent upon the coherence of the object-field interaction. At the edge of coherence—such as in environments of high energy, quantum decoherence, extreme heat, or electromagnetic turbulence—the structured absorption of gravitons breaks down. When this happens:
-
-- Objects may experience reduced inertia or apparent mass loss
-
-- Resistance to motion or redirection may weaken unpredictably
-
-- Motion becomes erratic as field interaction becomes unstructured
-
-These effects suggest several experimental pursuits:
-
-- Investigate inertial changes in materials subjected to intense ionization, entanglement disruption, or plasma environments
-
-- Monitor anomalies in high-velocity spacecraft re-entry where field conditions become chaotic
-
-- Explore new propulsion mechanisms through deliberate coherence disruption or corridor redirection
-
-#### Nonlinear Inertia and Propulsion Futures
-
-Traditional propulsion systems treat mass as fixed and overcome inertia through thrust. GPT suggests another route: manipulate the graviton field directly.
-
-- **Field-structuring drives**: Project coherence beams or resonance fields ahead of a vessel to pre-form graviton corridors, reducing startup inertia.
-
-- **Inertial dampening**: Temporarily disrupt an object’s internal coherence, allowing easier reorientation or motion with minimal energy.
-
-- **Directional biasing**: Create graviton depletion zones asymmetrically to induce passive acceleration.
-
-These technologies may evolve not by increasing force, but by sculpting permission into the path ahead. Motion becomes the result of field hospitality—not brute effort.
-
-#### Conclusion
-
-Graviton Pressure Theory transforms inertia from a passive constant into a living relationship between coherence, motion, and memory. The implications are vast: orbital mechanics, gyroscopic behavior, high-energy plasma dynamics, and propulsion engineering are all recontextualized. The field is no longer neutral. It responds. <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a> And with GPT, humanity begins to learn not just how to move through it—but how to shape it.
-
-## Graviton Field Interference and Multi-Body Coherence
-
-### Introduction: Gravity is a Collective Phenomenon
-
-In traditional physics, gravitational effects are calculated by summing pairwise interactions—each mass contributes a force vector, and the total is the linear sum. This approach, while mathematically tractable, treats each interaction as isolated and neglects the dynamics of interference, phase relation, and directional occlusion.
-
-Graviton Pressure Theory (GPT) replaces linear superposition with **field interference**. In GPT, every mass shapes the graviton flow field not just by existing, but by *resisting* flow. When multiple masses are present, their flow disruptions combine in ways that are **nonlinear**, **dynamic**, and **coherence-dependent**. This interference produces emergent gravitational corridors, altered pressure zones, and complex stabilization effects.
-
-In this section, we explore how graviton fields overlap, interfere, and modulate one another—resulting in gravitational behavior that transcends additive force and enters the realm of *structured causal interaction*.
-
-### Superposition Replaced by Interference
-
-In Newtonian physics: <span class="math display">\\\vec{F}\_\text{total} = \vec{F}\_{12} + \vec{F}\_{13} + \vec{F}\_{23} + \cdots\\</span>
-
-This model assumes that each mass emits an independent influence, and that these influences sum linearly. In GPT, however, the field is a **shared medium**. Gravitons from different directions interact with one another:
-
-- Gravitons can reinforce (constructive interference)
-
-- Gravitons can cancel (destructive interference)
-
-- Gravitons can be occluded or redirected by intervening mass
-
-This means the final field configuration is not the sum of separate fields, but the *product of interaction*. At every point, the net pressure is the outcome of overlapping flow vectors, phase coherence, and local resistance.
-
-### Mutual Shadowing and Corridor Deformation
-
-When two or more masses are present, each one casts a graviton shadow. These shadows deform the corridor structure of surrounding flow fields. In binary systems, the corridor between two masses may stabilize. In triple systems, the interference becomes dynamic:
-
-- **Shadow overlap** reduces pressure in certain regions, altering local net force
-
-- **Corridor redirection** leads to curved or oscillatory graviton paths
-
-- **Occlusion asymmetry** can cause oscillatory drift or precession
-
-These interactions produce **field-mediated feedback loops**, which influence the motion of bodies even in the absence of direct contact. In orbital systems, this feedback can lead to apparent anomalies—such as non-Keplerian drift—that are explained by evolving graviton corridors.
-
-### Interference as Causal Structure Formation
-
-Because graviton flow is coherent and self-repelling, interference does not simply create chaotic noise. It often resolves into structured patterns:
-
-- **Nodal corridors**: regions where interference minimizes gradient, producing local stability
-
-- **Rotational symmetry**: stable flow shells around equidistant centers of mass
-
-- **Phase-locked oscillation**: regular cycling of pressure gradients around shared orbits
-
-These field patterns explain phenomena like Lagrange points, tidal locking, and resonant orbits not as delicate balances of force, but as *stable phase states* in an interactive pressure lattice.
-
-### Flow Saturation and Nonlinearity
-
-Graviton fields are not infinite in capacity. Just as a fluid medium saturates under pressure, a graviton corridor has **density thresholds**. When the field reaches maximum coherent density in a region:
-
-- Additional graviton flow is diverted
-
-- Pressure gradient flattens, producing equilibrium
-
-- Structural compression induces local field reflection or phase cancellation
-
-This is a nonlinear effect—one that cannot be captured by additive models. It leads to **dynamical ceilings** in gravitational compression and explains why extreme gravitational systems (e.g. neutron stars, tidal bridges in galaxies) exhibit pressure saturation rather than collapse.
-
-### Conclusion
-
-Gravitational interaction is not reducible to the sum of individual influences. In Graviton Pressure Theory, gravity is the *emergent behavior of interacting coherent fields*. This interaction produces not only net force, but form, rhythm, and memory. Multi-body systems do not solve into chaos—they **converge into coherent interference patterns** that guide motion, stabilize orbits, and regulate the geometry of systems.
-
-In the final sections, we will explore how GPT accounts for classical gravitational phenomena—not as echoes of prior frameworks, but as inevitable consequences of a pressure-based causal universe.
-
-## Classical Phenomena Revisited: GPT’s Explanatory Reach
-
-### Introduction: Restoring the Observable World
-
-Graviton Pressure Theory (GPT) does not discard the successes of classical or relativistic physics—it recontextualizes them. What Newton described as force, and what Einstein described as curvature, GPT describes as *directional pressure gradients arising from structured graviton flow*. The difference lies not in the outcomes predicted, but in the **mechanism** by which those outcomes occur.
-
-This section demonstrates how GPT accounts for core gravitational phenomena—free-fall acceleration, orbital mechanics, time dilation, and gravitational lensing—without invoking abstract attraction or geometric warping. In each case, GPT offers a more causally grounded explanation, restoring force, contact, and continuity to the gravitational narrative.
-
-### Free-Fall Acceleration and the Illusion of Weightlessness
-
-In conventional physics, an object in free fall is said to be weightless because it follows a geodesic—experiencing no force. In GPT, this condition is explained as **uniform exposure to graviton pressure on all sides**. There is no "pull" downward; rather, the object is *not resisting* the downward-directed graviton flow. It is carried within the corridor, experiencing no net strain.
-
-Weightlessness, then, is not a null state—it is a **state of perfect flow alignment**. The body is still under pressure, but that pressure produces no internal resistance. This reframes astronaut experience in orbit, drop-tower experiments, and microgravity phenomena as coherent outcomes of pressure balance.
-
-### Orbital Motion: Corridor Alignment, Not Inertial Escape
-
-Newtonian mechanics explains orbit as a constant fall around a center of mass. GPT refines this by showing that an orbiting body remains within a **graviton corridor of stable gradient**. The force experienced is not due to centripetal curvature but to lateral pressure symmetry.
-
-An orbiting satellite stays in motion not because of Newton’s first law, but because the graviton field around the host body *naturally bends* due to occlusion and redirection. The satellite moves through a self-regulating corridor—adjusting its trajectory based on the corridor’s shape, not merely on initial velocity.
-
-This model allows for direct causal explanations of:
-
-- Stable and unstable orbits (as corridor stability phenomena)
-
-- Orbital decay (as corridor distortion through phase drag)
-
-- Resonance locking (as harmonics in field interference)
-
-### Time Dilation: Pressure-Based Phase Delay
-
-Einsteinian relativity attributes time dilation to potential difference in curved spacetime. GPT attributes it to **coherence resistance under sustained pressure**. A clock deeper in a graviton field encounters higher phase disruption, leading to delayed internal transitions.
-
-This produces the same effect—a slowed clock rate—but with a mechanistic explanation: <span class="math display">\\\Delta t' = \Delta t \left(1 + \alpha \cdot \rho_G \cdot \delta_m\right)\\</span>
-
-Where <span class="math inline">\\\rho_G\\</span> is the graviton density, <span class="math inline">\\\delta_m\\</span> is the phase delay index of the clock’s material, and <span class="math inline">\\\alpha\\</span> is a field constant.
-
-This reformulation predicts not just gravitational time dilation, but material-dependent variations—allowing new classes of precision experiments.
-
-### Gravitational Lensing: Refractive Flow, Not Curved Trajectories
-
-In General Relativity, light bends due to spacetime curvature. In GPT, it bends because light propagates through a region of **differential pressure and coherent graviton flow**. The effect is refractive, not geometric.
-
-Graviton pressure gradients induce a variable index of transmission in the surrounding field. This causes the path of electromagnetic waves to bend: <span class="math display">\\\theta \propto \left\|\nabla\_{\perp} \rho_G\right\| \ell\\</span>
-
-Where <span class="math inline">\\\theta\\</span> is the deflection angle, <span class="math inline">\\\nabla \rho_G\\</span> is the graviton density gradient, and <span class="math inline">\\\ell\\</span> is the path length through the field. The model parallels Snell’s Law, offering a physical basis for lensing with a clear causal mechanism.
-
-### Gravitational Redshift: Oscillation Drag in Coherent Pressure
-
-Redshift occurs when photons emitted from within a gravitational well appear reduced in frequency. GPT explains this not as an energy loss to escape velocity, but as a **drag effect on oscillatory coherence**.
-
-As the photon emerges, its field-based oscillation is continuously resisted by graviton density. This leads to a phase elongation and frequency reduction, not unlike a wave moving through viscous media.
-
-The prediction aligns with observation, but also predicts subtle material dependencies in radiation sources—offering potential experimental divergence from GR.
-
-### Conclusion
-
-GPT does not invalidate classical or relativistic predictions—it refines them. Where past models describe what gravity *does*, GPT explains *how* it does it. It turns geometry into interaction, weightlessness into pressure balance, lensing into refraction, and dilation into phase interference.
-
-By revisiting classical phenomena through the lens of graviton pressure, we rediscover a universe that is not curved, but **coherently structured**. Every observation becomes not just predictable, but **understandable**. This is not a rejection of gravity’s past—it is gravity’s causal future.
-
-## Gravity as Coherence: Toward a Unified Causal Framework
-
-### Introduction: Beyond Force, Beyond Geometry
-
-Graviton Pressure Theory (GPT) began with a question that neither Newtonian force nor Einsteinian geometry could fully answer: *What causes gravity?* Not what it predicts, not how it is calculated—but what *makes it happen*. The journey through structured graviton flow, coherent mass interaction, and directional pressure has revealed gravity to be something far more intimate than curvature and more dynamic than attraction.
-
-Gravity, in GPT, is the behavior of **coherence under pressure**. It is the emergent result of structured fields, coherent resistance, temporal delay, and nonlinear interference. It is not something imposed upon space; it is something revealed within space, whenever coherence meets flow.
-
-This final section synthesizes the journey: from gravitational phenomena to coherent structure, from mass and time to field memory and interference, until all points converge on a singular insight—*gravity is coherence navigating resistance*.
-
-### The Coherence Field as Fundamental Substrate
-
-All gravitational behavior in GPT emerges from the properties of the graviton field. But this field is not defined by energy alone—it is defined by **coherence**:
-
-- Gravitons move in structured paths, maintaining phase relationships
-
-- Mass resists not by bulk, but by disrupting coherence
-
-- Time emerges from the regular oscillation and interference within these coherent flows
-
-Coherence is the connective tissue of physical reality. It makes pressure possible. It gives structure to space. It converts interaction into memory. <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> The graviton field does not just push—it *remembers how* it has pushed, and it transmits that structure.
-
-### Gravity as a Result of Opposition to Coherence
-
-Mass is revealed, in GPT, to be the opposition to coherent compression. <a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a> That resistance does not merely reflect force—it **generates** it. All pressure, all weight, all acceleration is a consequence of this misalignment.
-
-Thus:
-
-> *Wherever coherence is uninterrupted, gravity is not felt. Wherever coherence is resisted, gravity becomes real.*
-
-This single principle unites inertial motion, free fall, structural load, and orbital acceleration. Gravity is not something *added to* the universe—it is what *happens* when flow meets form.
-
-### Returning Gravity’s Physicality
-
-The elegance of geometry has masked the absence of mechanism. GPT restores the physical:
-
-- Pressure is not a metaphor, but a measurable gradient
-
-- Fields are not abstractions, but structured patterns
-
-- Force is not an illusion, but a directional imbalance
-
-This restoration allows gravity to rejoin the family of forces—not as a curvature but as **a causally grounded interaction**. It does not ask the reader to unlearn Einstein, but to continue the work—to reconnect the map to the terrain, the description to the experience.
-
-### Toward a Unified Framework
-
-By redefining gravity as pressure within a coherence-regulated field, GPT offers a new architecture for physical theory:
-
-- It enables integration with thermodynamic systems through field energy transfer
-
-- It opens channels to reinterpret electromagnetism as a resonance-induced graviton modulation
-
-- It lays groundwork for unifying temporal mechanics with spatial coherence
-
-Each step of GPT is a movement toward **unified causal description**—one in which matter, motion, time, and energy emerge from coherent interaction, not abstract geometry.
-
-### Conclusion: Gravity Is the Signature of Structure
-
-At the heart of all gravitational experience is this: something is resisting coherence. Something is standing in the path of flow. And that resistance, through the gentle yet persistent press of directional fields, becomes weight, becomes orbit, becomes time.
-
-Gravity, in Graviton Pressure Theory, is not just a force—it is **the shape of coherence under stress**. <a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a> It is the signature left behind when structured flow meets internal order.
-
-It is causal. It is directional. It is real.
-
-And now, for the first time, it is explained.
-
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-
-<div id="ref-einstein1915" class="csl-entry" role="listitem">
-
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
+The measurements every part of the mechanism must pass, and how it passes them.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry" role="listitem">
+<span id="tab:pass" label="tab:pass"></span>
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
+# Reading Parts 6 to 13
+
+Table 5.2 shows which part of the mechanism each of the next eight papers relies on, and where that part is derived in full.
+
+<div id="tab:map">
+
+| **Part**                     | **Its central claim**                                                                  | **Here**      | **Derived**  |
+|:-----------------------------|:---------------------------------------------------------------------------------------|:--------------|:-------------|
+| 6, Redefining Work           | holding is throughput; the normal force is the current’s signature                     | 5.5           | Parts 23, 27 |
+| 7, The Illusion of Pull      | every force names its carrier; free fall is permission, weight is push; energy located | 5.1, 5.5      | Parts 16, 23 |
+| 8, Defining the Break        | spacetime, if real, is a medium; the numbers cannot decide                             | 5.2, 5.4, 5.7 | Parts 14, 23 |
+| 9, Existing Evidence         | the medium already in the formulation; the relaxation boundary in galaxies             | 5.2, 5.8      | Parts 16, 23 |
+| 10, Practical Exploration    | light refracted; clocks slowed by streaming; the tests                                 | 5.7           | Parts 18, 23 |
+| 11, Re-examining the Four    | equivalence by uniform delivery; one current, two destinations                         | 5.3, 5.5      | Parts 17, 27 |
+| 12, Materialist Epistemology | a description is not a mechanism                                                       | 5.1           | Parts 1, 2   |
+| 13, The Moon and the Tides   | tides as differences in carrying; amplification; the record                            | 5.8           | Parts 16, 26 |
+
+Parts 6 to 13: what each claims, the mechanism it relies on, and where the mechanism is set out here and derived in full.
+
+</div>
+
+<span id="tab:map" label="tab:map"></span>
+
+# Conclusion
+
+Graviton Pressure Theory does not ask the reader to believe in abstractions. It asks what touches what. Its answer is a medium that fills space; matter as a pattern of that medium, kept in being by taking it in; an inflow into every mass, with its pressure lowered where it flows fastest; and every body in it carried, every clock slowed and every rod squashed by the medium streaming through. Held, a body passes the medium’s delivery into its support, and that is weight; let go, it is carried, and that is free fall. A moving body carves its path through the medium, and that is momentum. Light is refracted by the medium’s lowered pressure, and that is lensing. A spinning body sets the medium turning, and that is frame dragging. Each gives the measured number, and each names its carrier.
+
+Gravity is what happens when flow meets form. The first edition reclaimed it from the void that Newton and Einstein left unexamined. The second edition sets out what fills the void, and holds every part of it to the measurements.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- **The paper’s role is stated.** It sets out the mechanism Parts 6 to 13 rely on, with a reading map, and points to Parts 14 to 28 for the derivations.
+
+- **Where the flow comes from.** The first edition described pre-existing currents of gravitons that mass interrupts. Kept and restated: before matter, the medium has only its own oscillation; once matter forms, it has flow as well, set up by matter taking the medium in; and every mass forms within flows already set by the matter around it, so for any particular body the flow does come first (Parts 16, 17 and 18).
+
+- **Mass.** “Resistance to coherent compression” is restated as matter converting the in-step medium it takes in (Part 17). The coherence resistance coefficient $\kappa_m$, the phase delay index $\delta_m$, and material-dependent gravitational response are withdrawn: every material is carried alike to $10^{-15}$. Where inside a structured body the delivery lands may depend on its order (Part 13).
+
+- **The force laws.** $\vec F_g = -\nabla\cdot\vec G$, $F = A(P_\text{in} - P_\text{out})$ and $\vec F = -\nabla(\rho_G v_G)$ are withdrawn: the force on a body does not scale with its area, and the first does not have the units of force. Replaced by the inflow, $v = \sqrt{2GM/r}$, and delivery in proportion to mass.
+
+- **The shadow.** The shadow as the cause of the force is replaced by the flow; the lowered pressure between masses and a small shading by absorption are kept, within the measured bounds.
+
+- **Free fall.** “Uniform exposure to pressure on all sides” and “falling is the presence of pressure imbalance” are replaced by carrying: momentum delivered to every particle in proportion to its mass. “Pressure differential scales with resistance” is replaced by delivery in proportion to mass.
+
+- **Weight and the ground.** “Weight is resistance to graviton flow” and the compression barrier are restated as the relayed current and the boundary’s re-activated counterflow (Parts 6 and 27).
+
+- **Inertia and momentum.** The corridor and field-memory account of inertia is kept as the carved path, with its exact factors (front and back rates, $k$). The metaphors of the field’s “loyalty”, “hospitality” and “intelligence” are removed. Gyroscopic “corridor shear” is restated as the body’s circulation and the medium’s swirl.
+
+- **Withdrawn:** inertial weakening at the edge of coherence; field-structuring drives, inertial dampening and directional biasing for propulsion; the erasure of momentum by coherence engineering. No measurement supports them, and the bounds on shielding and on clock universality exclude the means.
+
+- **Corridors.** Corridors as channels holding planets in orbit, and as the explanation of flat rotation curves, are replaced by coasting orbits and the relaxation boundary (Parts 9 and 26). Corridors are kept inside matter and in magnets (Parts 21 and 22).
+
+- **Multi-body interference.** “Superposition replaced by interference” is restated as pressures combining; Lagrange points and resonances are restated as the long-time sorting of systems. Flow saturation in extreme systems is left to Part 25.
+
+- **Time.** Time dilation as coherence delay, with $\Delta t' = \Delta t(1 + \alpha\rho_G\delta_m)$ and material-dependent dilation, is withdrawn: every kind of clock is slowed alike. Replaced by the streaming medium, $\sqrt{P/P_0}$. Propagation delay is kept with its speed measured ($c$). Gravitational memory and hysteresis are restated as tidal lag, long-time sorting and the record of transitions.
+
+- **Lensing and redshift.** $\theta \propto \nabla\rho_G\,\ell$ is replaced by the index $n = P_0/P$. Redshift as “oscillation drag”, with material dependence, is replaced by the difference between clocks.
+
+## Clarifications
+
+- The tone is changed: “the time for metaphors has passed”, “now, for the first time, it is explained” and similar phrases are removed. “Gravity as coherence” is kept in the form “gravity is what happens when flow meets form”.
+
+- The sections are reordered to follow the mechanism: the medium, matter, the inflow, carried and held, motion, clocks and light, many bodies.
+
+- One figure and two tables are added; sources are added for each measurement.
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-abbott2017speed" class="csl-entry">
+
+Abbott, B. P. et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
+
+</div>
+
+<div id="ref-ashby2003" class="csl-entry">
+
+Ashby, Neil. 2003. “Relativity in the Global Positioning System.” *Living Reviews in Relativity* 6: 1.
+
+</div>
+
+<div id="ref-bailey1977" class="csl-entry">
+
+Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Positive and Negative Muons in a Circular Orbit.” *Nature* 268: 301–5.
+
+</div>
+
+<div id="ref-bertotti2003" class="csl-entry">
+
+Bertotti, Bruno, Luciano Iess, and Paolo Tortora. 2003. “A Test of General Relativity Using Radio Links with the Cassini Spacecraft.” *Nature* 425: 374–76.
+
+</div>
+
+<div id="ref-chou2010" class="csl-entry">
+
+Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical Clocks and Relativity.” *Science* 329: 1630–33.
+
+</div>
+
+<div id="ref-dickey1994" class="csl-entry">
+
+Dickey, J. O. et al. 1994. “Lunar Laser Ranging: A Continuing Legacy of the Apollo Program.” *Science* 265: 482–90.
+
+</div>
+
+<div id="ref-einstein1920" class="csl-entry">
+
+Einstein, Albert. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+
+</div>
+
+<div id="ref-everitt2011" class="csl-entry">
+
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+
+</div>
+
+<div id="ref-fixsen2009" class="csl-entry">
+
+Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *Astrophysical Journal* 707: 916–20.
+
+</div>
+
+<div id="ref-hamilton2008" class="csl-entry">
+
+Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The River Model of Black Holes.” *American Journal of Physics* 76: 519–32.
+
+</div>
+
+<div id="ref-newton1687" class="csl-entry">
+
+Newton, Isaac. 1687. *Philosophiæ Naturalis Principia Mathematica*. London: Royal Society.
+
+</div>
+
+<div id="ref-okun2000" class="csl-entry">
+
+Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the Interpretation of the Redshift in a Static Gravitational Field.” *American Journal of Physics* 68: 115–19.
+
+</div>
+
+<div id="ref-planck2018vi" class="csl-entry">
+
+Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy and Astrophysics* 641: A6.
+
+</div>
+
+<div id="ref-pound1960" class="csl-entry">
+
+Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical Review Letters* 4: 337–41.
+
+</div>
+
+<div id="ref-rashadaPart8" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Defining the Break: The Irreconcilable Differences Between General Relativity and Graviton Pressure Theory (Part 8, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/>.
+
+</div>
+
+<div id="ref-rashadaPart9" class="csl-entry">
+
+———. 2026b. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+
+</div>
+
+<div id="ref-rashadaPart21" class="csl-entry">
+
+———. 2026c. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026d. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+
+</div>
+
+<div id="ref-rashadaPart1" class="csl-entry">
+
+———. 2026e. “Introduction to the Unified Framework of the Graviton Pressure Theory — from Description to Mechanism (Part 1, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+
+</div>
+
+<div id="ref-rashadaPart22" class="csl-entry">
+
+———. 2026f. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart27" class="csl-entry">
+
+———. 2026g. “Natural Force: Every Force and Its Carrier (Part 27, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
+
+</div>
+
+<div id="ref-rashadaPart26" class="csl-entry">
+
+———. 2026h. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
+
+</div>
+
+<div id="ref-rashadaPart10" class="csl-entry">
+
+———. 2026i. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
+
+</div>
+
+<div id="ref-rashadaPart6" class="csl-entry">
+
+———. 2026j. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+
+</div>
+
+<div id="ref-rashadaPart11" class="csl-entry">
+
+———. 2026k. “Re-Examining the Four: Graviton Pressure Theory and the Return to Causal Physics (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+
+</div>
+
+<div id="ref-rashadaPart28" class="csl-entry">
+
+———. 2026l. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+
+</div>
+
+<div id="ref-rashadaPart17" class="csl-entry">
+
+———. 2026m. “The Definition of Mass: Energy Slowed down (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+
+</div>
+
+<div id="ref-rashadaPart3" class="csl-entry">
+
+———. 2026n. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+
+</div>
+
+<div id="ref-rashadaPart7" class="csl-entry">
+
+———. 2026o. “The Illusion of Pull: The Mystery and Mechanism of Attraction (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+
+</div>
+
+<div id="ref-rashadaPart23" class="csl-entry">
+
+———. 2026p. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart13" class="csl-entry">
+
+———. 2026q. “The Moon, the Tides and the Rhythms of Life: How the Medium Moves the Oceans, and How Life Keeps Time with Them (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+
+</div>
+
+<div id="ref-rashadaPart18" class="csl-entry">
+
+———. 2026r. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+
+</div>
+
+<div id="ref-rashadaPart16" class="csl-entry">
+
+———. 2026s. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+
+</div>
+
+<div id="ref-schneider1992" class="csl-entry">
+
+Schneider, Peter, Jürgen Ehlers, and Emilio E. Falco. 1992. *Gravitational Lenses*. Springer.
+
+</div>
+
+<div id="ref-touboul2022" class="csl-entry">
+
+Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle.” *Physical Review Letters* 129: 121102.
+
+</div>
+
+<div id="ref-williams2012" class="csl-entry">
+
+Williams, James G., Slava G. Turyshev, and Dale H. Boggs. 2012. “Lunar Laser Ranging Tests of the Equivalence Principle.” *Classical and Quantum Gravity* 29: 184004.
 
 </div>
 
 </div>
 
-------------------------------------------------------------------------
+[^1]: (Newton 1687).
 
-1.  <div id="fn1">
+[^2]: (Rashada 2026a).
 
-    See <span class="citation" cites="newton1687">(Newton 1687)</span> for the classical formulation of gravity.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+[^3]: (Rashada 2026e).
 
-    </div>
+[^4]: (Rashada 2026n).
 
-2.  <div id="fn2">
+[^5]: (Rashada 2026o).
 
-    See <span class="citation" cites="einstein1915">(Einstein 1915)</span> for the foundational field equations.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+[^6]: (Rashada 2026j).
 
-    </div>
+[^7]: (Rashada 2026l).
 
-3.  <div id="fn3">
+[^8]: (Planck Collaboration 2020).
 
-    See Part 7 – *The Illusion of Pull* for how directional field interaction replaces pulling metaphors.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+[^9]: (Fixsen 2009).
 
-    </div>
+[^10]: (Einstein 1920).
 
-4.  <div id="fn4">
+[^11]: (Rashada 2026d).
 
-    See Part 16 – *The properties of Gravitational fields* for how field memory and coherence shape causal structure.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+[^12]: (Rashada 2026r).
 
-    </div>
+[^13]: (Rashada 2026m).
 
-5.  <div id="fn5">
+[^14]: (Rashada 2026k).
 
-    See Part 17 – *The Definition of Mass* for how resistance to coherence defines mass.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+[^15]: (Rashada 2026s).
 
-    </div>
+[^16]: (Rashada 2026p).
 
-6.  <div id="fn6">
+[^17]: (Hamilton and Lisle 2008).
 
-    See Part 15 – *The Graviton* for a full exploration of graviton structure and behavior.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+[^18]: (Touboul et al. 2022).
 
-    </div>
+[^19]: (Williams, Turyshev, and Boggs 2012).
+
+[^20]: (Rashada 2026j).
+
+[^21]: (Rashada 2026g).
+
+[^22]: (Rashada 2026h).
+
+[^23]: (Bailey et al. 1977).
+
+[^24]: (Everitt et al. 2011).
+
+[^25]: (Rashada 2026i); (Rashada 2026r).
+
+[^26]: (Chou et al. 2010).
+
+[^27]: (Pound and Rebka 1960).
+
+[^28]: (Ashby 2003).
+
+[^29]: (Schneider, Ehlers, and Falco 1992).
+
+[^30]: (Bertotti, Iess, and Tortora 2003).
+
+[^31]: (Okun, Selivanov, and Telegdi 2000).
+
+[^32]: (Rashada 2026q).
+
+[^33]: (Rashada 2026b).
+
+[^34]: (Rashada 2026c).
+
+[^35]: (Rashada 2026f).
+
+[^36]: (Abbott et al. 2017).
+
+[^37]: (Dickey et al. 1994).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
-Cite as: Rashada, S. A. (2025). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+Cite as: Rashada, S. A. (2026). Graviton Pressure Theory. In The Unified Framework for the Graviton Pressure Theory, part 5. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
 
 
 # Redefining Work
