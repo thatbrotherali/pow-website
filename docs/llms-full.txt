@@ -19313,7 +19313,7 @@ The universe began hot and energetic, expanded and cooled, and everything in it 
 
 **\[End of passage\]**
 
-The standard history of the cooling universe gives the sequence **\[Argued\]** (Figure <a href="#fig:timeline" data-reference-type="ref" data-reference="fig:timeline">1</a>). At about twenty millionths of a second, at around $10^{12}$ kelvin, protons and neutrons formed; at about a second, at $10^{10}$ kelvin, neutrinos stopped interacting and went their own way; at about three minutes, at $10^{9}$ kelvin, the first nuclei formed, mostly helium; at 380,000 years, at 3,000 kelvin, electrons settled onto nuclei as the first atoms, and the light released then is the cosmic background, cooled now to 2.7 kelvin; the first stars lit some two hundred million years later. GPT names what was cooling at every step: the medium.
+The standard history of the cooling universe gives the sequence **\[Argued\]** (Figure 19.1). At about twenty millionths of a second, at around $10^{12}$ kelvin, protons and neutrons formed; at about a second, at $10^{10}$ kelvin, neutrinos stopped interacting and went their own way; at about three minutes, at $10^{9}$ kelvin, the first nuclei formed, mostly helium; at 380,000 years, at 3,000 kelvin, electrons settled onto nuclei as the first atoms, and the light released then is the cosmic background, cooled now to 2.7 kelvin; the first stars lit some two hundred million years later. GPT names what was cooling at every step: the medium.
 
 <figure id="fig:timeline">
 <img src="assets/figures/fig19-1-timeline.svg" />
@@ -19342,7 +19342,7 @@ Light can do both halves of this. **\[Argued\]** It can circulate with no mirror
 
 #### What self-repulsion does.
 
-Gravitons in phase push each other. That push orders the background, gives the medium the stiffness that resists the knot’s phase region and so turns its circulation round its loop, and keeps the strands of a knot apart (Section <a href="#sec:three" data-reference-type="ref" data-reference="sec:three">“Knots Need Three Dimensions”</a>).
+Gravitons in phase push each other. That push orders the background, gives the medium the stiffness that resists the knot’s phase region and so turns its circulation round its loop, and keeps the strands of a knot apart (Section <a href="#sec:three" data-reference-type="ref" data-reference="sec:three">3</a>).
 
 #### What phase does.
 
@@ -19354,17 +19354,17 @@ How strongly a concentration of energy shifts the medium’s phase, its non-line
 
 A knot can exist only in three dimensions. **\[Argued\]** In two dimensions a closed loop cannot cross itself, so every loop is a deformed circle; in four dimensions every knotted loop can be untied, because there is room to pass one strand around another. Only in three is a loop truly knotted. If matter is knotted circulation, matter can hold only because space has three dimensions. **\[Hypothesis\]**
 
-A drawing on a page loses most of what a knot is (Figure <a href="#fig:knot3d" data-reference-type="ref" data-reference="fig:knot3d">2</a>).
+A drawing on a page loses most of what a knot is (Figure 19.2).
 
 - **It is a tube of flow, not a line.** A smoke ring shows the motion: the air flows round the ring and rolls around its core at once. A knotted circulation does both, so the medium spirals along the knotted tube.
 
-- **It has a hand.** The trefoil, the simplest true knot, comes in a left-handed and a right-handed form, mirror images that cannot be turned into each other without cutting. A knot’s handedness is part of its shape, and two hands give two kinds of charge **\[Hypothesis\]** (Section <a href="#sec:charge" data-reference-type="ref" data-reference="sec:charge">“Charge: The Hand of the Knot”</a>).
+- **It has a hand.** The trefoil, the simplest true knot, comes in a left-handed and a right-handed form, mirror images that cannot be turned into each other without cutting. A knot’s handedness is part of its shape, and two hands give two kinds of charge **\[Hypothesis\]** (Section <a href="#sec:charge" data-reference-type="ref" data-reference="sec:charge">4</a>).
 
 - **It is tethered to everything around it.** The knot is fed by the inflow from every direction and sheds its counterflow in every direction. In three dimensions an object connected to its surroundings must turn twice, through 720 degrees, before its connections return to how they began, as Dirac showed with a belt. The electron’s spin of one half, returning to itself only after two full turns, is what a knot tethered to the medium does. **\[Hypothesis\]**
 
 <figure id="fig:knot3d">
 <img src="assets/figures/fig19-2-knot3d.svg" />
-<figcaption>A knot in three dimensions (schematic): a closed tube of the medium circulating at <span class="math inline"><em>c</em></span>, spiralling along and around itself, fed from every direction and shedding neutral medium in every direction. (Hypothesis)</figcaption>
+<figcaption>A knot in three dimensions (schematic): a closed tube of the medium circulating at <span class="math inline">\(c\)</span>, spiralling along and around itself, fed from every direction and shedding neutral medium in every direction. (Hypothesis)</figcaption>
 </figure>
 
 #### What protects the knot.
@@ -19409,7 +19409,7 @@ About one second after the beginning, there was roughly one neutron for every si
 
 # Knots Build: Nucleons and Nuclei
 
-Each stage of matter is made of the one before, and the same rule, phase decides push, acts at each scale (Figure <a href="#fig:ladder" data-reference-type="ref" data-reference="fig:ladder">3</a>).
+Each stage of matter is made of the one before, and the same rule, phase decides push, acts at each scale (Figure 19.3).
 
 <figure id="fig:ladder">
 <img src="assets/figures/fig19-3-ladder.svg" />
@@ -19426,7 +19426,7 @@ To pull one lobe out of a knot is to stretch its tube, which costs energy until 
 
 #### Nuclei.
 
-The force between nucleons has a distinctive shape: **\[Argued\]** strongly attractive at about one femtometre and gone beyond about two; fiercely repulsive inside about half a femtometre; and saturated, each nucleon bonding only to its neighbours, so that every nucleus has the same density, 0.16 nucleons per cubic femtometre. The phase rule, with both its meanings (Section <a href="#sec:atomic" data-reference-type="ref" data-reference="sec:atomic">“Atoms, Exclusion and Chemistry”</a>), gives that shape. The outer patterns of neighbouring knots overlap and reinforce between them, which binds them; patterns must overlap, so the range is a knot’s size; pressed closer, the cores push, as filled patterns do at contact; and each knot has only so many neighbours to bind. **\[Hypothesis\]** It also gives a pairing rule. Identical knots of the same circulation push each other out; different knots do not. So a proton and a neutron can take the most binding arrangement, with their spins parallel, while two protons or two neutrons cannot. That is what is measured: **\[Argued\]** the deuteron, a proton and a neutron, is bound by 2.22 MeV with its spins parallel, while neither two protons nor two neutrons form a bound pair. Heavier nuclei, where spin pairing and the neutrons’ role as charge-free binding enter, are owed. **\[Open\]**
+The force between nucleons has a distinctive shape: **\[Argued\]** strongly attractive at about one femtometre and gone beyond about two; fiercely repulsive inside about half a femtometre; and saturated, each nucleon bonding only to its neighbours, so that every nucleus has the same density, 0.16 nucleons per cubic femtometre. The phase rule, with both its meanings (Section <a href="#sec:atomic" data-reference-type="ref" data-reference="sec:atomic">9</a>), gives that shape. The outer patterns of neighbouring knots overlap and reinforce between them, which binds them; patterns must overlap, so the range is a knot’s size; pressed closer, the cores push, as filled patterns do at contact; and each knot has only so many neighbours to bind. **\[Hypothesis\]** It also gives a pairing rule. Identical knots of the same circulation push each other out; different knots do not. So a proton and a neutron can take the most binding arrangement, with their spins parallel, while two protons or two neutrons cannot. That is what is measured: **\[Argued\]** the deuteron, a proton and a neutron, is bound by 2.22 MeV with its spins parallel, while neither two protons nor two neutrons form a bound pair. Heavier nuclei, where spin pairing and the neutrons’ role as charge-free binding enter, are owed. **\[Open\]**
 
 # Splitting Matter: What Collisions Leave
 
@@ -19436,7 +19436,7 @@ The short-lived particles of the “particle zoo” appear only where energy is 
 
 #### How long a fragment lasts.
 
-If a particle’s energy $E$ is circulation, its natural rhythm is $E/h$, and the number of turns it makes before it re-forms is its rhythm multiplied by its lifetime, $E/(2\pi\Gamma)$, worked from its measured width $\Gamma$ (Table <a href="#tab:turns" data-reference-type="ref" data-reference="tab:turns">1</a>). The shortest-lived fragments do not complete one turn, or complete only a few. The width and the lifetime are related as they are for anything that rings: a bell that rings briefly has a smeared pitch, and one that rings long has a sharp one.
+If a particle’s energy $E$ is circulation, its natural rhythm is $E/h$, and the number of turns it makes before it re-forms is its rhythm multiplied by its lifetime, $E/(2\pi\Gamma)$, worked from its measured width $\Gamma$ (Table 19.1). The shortest-lived fragments do not complete one turn, or complete only a few. The width and the lifetime are related as they are for anything that rings: a bell that rings briefly has a smeared pitch, and one that rings long has a sharp one.
 
 <div id="tab:turns">
 
@@ -19485,7 +19485,7 @@ A free neutron decays by re-forming. One of its lobes changes its twist to the p
 
 #### Why the neutron waits.
 
-The weak force acts over only about $2.5\times10^{-18}$ metres, a thousandth of a proton. In knot terms, reconnection needs two strands to come that close; strands of one knot share its phase and push each other apart, so such approaches are rare. **\[Hypothesis\]** A free neutron makes about $2\times10^{26}$ turns before it decays (Section <a href="#sec:fragments" data-reference-type="ref" data-reference="sec:fragments">“Splitting Matter: What Collisions Leave”</a>): the waiting time for one rare close approach. On this reading the weak force is weak because reconnection is rare, and the W is the brief, stressed neck of the pinch-off. In a nucleus the neutron’s lobes are interlocked with its neighbours’; re-forming no longer releases energy, no pinch-off happens, and the neutron lasts.
+The weak force acts over only about $2.5\times10^{-18}$ metres, a thousandth of a proton. In knot terms, reconnection needs two strands to come that close; strands of one knot share its phase and push each other apart, so such approaches are rare. **\[Hypothesis\]** A free neutron makes about $2\times10^{26}$ turns before it decays (Section <a href="#sec:fragments" data-reference-type="ref" data-reference="sec:fragments">7</a>): the waiting time for one rare close approach. On this reading the weak force is weak because reconnection is rare, and the W is the brief, stressed neck of the pinch-off. In a nucleus the neutron’s lobes are interlocked with its neighbours’; re-forming no longer releases energy, no pinch-off happens, and the neutron lasts.
 
 #### Four kinds of shedding.
 
@@ -19503,7 +19503,7 @@ Phase decides push (Part 15), and at the scale of atoms it has two meanings tha
 
 #### The shapes of atoms.
 
-The standard account draws the electron’s states as “probability clouds” (Figure <a href="#fig:orbitals" data-reference-type="ref" data-reference="fig:orbitals">4</a>). Their shapes are not peculiar to atoms. **\[Argued\]** They are the standing patterns that any wave confined around a centre can form in three dimensions: the same shapes appear in the vibrations of a drop of water, in the sound of a spherical cavity, and in the oscillations of the Sun, whose modes astronomers label with the same numbers, $l$ and $m$. In GPT an atomic state is the standing pattern of the electron’s knot around the nucleus, locked in step with it. The cloud is where the pattern is densest, averaged over time; the knot’s small core is what a detector finds at a point, guided by the pattern, **\[Hypothesis\]** as de Broglie and Bohm proposed, and as droplets bouncing on a vibrating bath are guided by their own waves into quantised orbits. The nodes are physical: **\[Argued\]** the nodal structure of an excited hydrogen atom has been imaged directly.[^15] The two lobes of a p state have opposite signs in the standard account; in GPT, opposite spatial phase. **\[Hypothesis\]**
+The standard account draws the electron’s states as “probability clouds” (Figure 19.4). Their shapes are not peculiar to atoms. **\[Argued\]** They are the standing patterns that any wave confined around a centre can form in three dimensions: the same shapes appear in the vibrations of a drop of water, in the sound of a spherical cavity, and in the oscillations of the Sun, whose modes astronomers label with the same numbers, $l$ and $m$. In GPT an atomic state is the standing pattern of the electron’s knot around the nucleus, locked in step with it. The cloud is where the pattern is densest, averaged over time; the knot’s small core is what a detector finds at a point, guided by the pattern, **\[Hypothesis\]** as de Broglie and Bohm proposed, and as droplets bouncing on a vibrating bath are guided by their own waves into quantised orbits. The nodes are physical: **\[Argued\]** the nodal structure of an excited hydrogen atom has been imaged directly.[^15] The two lobes of a p state have opposite signs in the standard account; in GPT, opposite spatial phase. **\[Hypothesis\]**
 
 <figure id="fig:orbitals">
 <img src="assets/figures/fig19-4-orbitals.svg" />
@@ -19548,7 +19548,7 @@ Each kind of order sets in at a definite temperature and with a definite exchang
 
 Order does not change a body’s mass beyond the energy it holds **\[Argued\]** (Part 17): ice weighs less than its water by $3.7\times10^{-12}$ of its mass, and no more. But order changes three other things, and they are where matter’s differences live. **\[Hypothesis\]**
 
-- **Where the medium’s delivery lands.** The total delivery to a body tracks its energy; where it lands inside depends on the body’s order (Part 15). Whether a crystal weighs differently in different orientations, or its centre of gravity shifts as it is turned, is untested and is a test for Part 29.
+- **Where the medium’s delivery lands.** The total delivery to a body tracks its energy; where it lands inside depends on the body’s order (Part 15). A body that falls is carried alike whatever its order, because a fall passes nothing from one part to another. A body that is held must pass the delivery through its structure into the support, and GPT proposes that the share reaching the support may depend on that structure too. **\[Hypothesis\]** Whether it does has not been tested: **\[Open\]** weighing a crystal in different orientations, weighing one material as sheets, honeycomb and a solid block at equal mass and height, and watching a crystal’s centre of gravity as it is turned are tests for Part 29.
 
 - **How counterflows combine.** Each spinning knot’s counterflow carries a swirl (Part 16). In a disordered body the swirls point every way and cancel; aligned across a material, they add. Magnetism would then be the collective swirl of aligned matter, **\[Hypothesis\]** the same kind of thing as the Earth’s dragging of gyroscopes, from knots whose rhythms run $10^{20}$ times a second (Part 22).
 
@@ -19576,7 +19576,7 @@ Matter has a pathway. The medium, cooling, settled into common order; where ener
 
 # About This New Part
 
-This part is new in the second edition. Its material was first drafted for Part 17, *The Definition of Mass*, and was moved here when mass and matter were separated: mass is how much, matter is how it is arranged. Its place, after Part 18, *The Nature of Time*, follows from the principle that the periodic sequencing of events is what allows structure that can become matter. The first edition’s Parts 19 and 20, on coherence and on corridors, become Parts 20 and 21, and its two parts on magnetism, 21 and 22, are joined as Part 22. Two figures first drawn for Part 17 appear here: the knot in three dimensions and the ladder from the medium to the atom. The timeline of the cooling universe is new.
+This part is new in the second edition. Its material was first drafted for Part 17, *The Definition of Mass*, and was moved here when mass and matter were separated: mass is how much, matter is how it is arranged. Its place, after Part 18, *The Nature of Time*, follows from the principle that the periodic sequencing of events is what allows structure that can become matter. The first edition’s Parts 19 and 20, on coherence and on corridors, become Parts 20 and 21, and its two parts on magnetism, 21 and 22, are joined as Part 22. Two figures first drawn for Part 17 appear here: the knot in three dimensions and the ladder from the medium to the atom. The timeline of the cooling universe and the cross-sections of hydrogen’s states are new.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
@@ -19612,7 +19612,7 @@ Cooke, Ryan J., Max Pettini, and Charles C. Steidel. 2018. “One Percent Determ
 
 <div id="ref-fields2020" class="csl-entry">
 
-Fields, Brian D., Keith A. Olive, Tsung-Han Yeh, and Charles Young. 2020. “Big-Bang Nucleosynthesis After Planck.” *Journal of Cosmology and Astroparticle Physics* 2020 (03): 010.
+Fields, Brian D., Keith A. Olive, Tsung-Han Yeh, and Charles Young. 2020. “Big-Bang Nucleosynthesis after Planck.” *Journal of Cosmology and Astroparticle Physics* 2020 (03): 010.
 
 </div>
 
@@ -19636,25 +19636,25 @@ Kleckner, Dustin, and William T. M. Irvine. 2013. “Creation and Dynamics of Kn
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Gravitons (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+Rashada, Shareef Ali. 2026a. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026b. “The Definition of Mass (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026b. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026c. “The Nature of Time (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026c. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026d. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026d. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -19672,7 +19672,7 @@ Skyrme, T. H. R. 1962. “A Unified Field Theory of Mesons and Baryons.” *Nucl
 
 <div id="ref-stodolna2013" class="csl-entry">
 
-Stodolna, A. S. et al. 2013. “Hydrogen Atoms Under Magnification: Direct Observation of the Nodal Structure of Stark States.” *Physical Review Letters* 110: 213001.
+Stodolna, A. S. et al. 2013. “Hydrogen Atoms under Magnification: Direct Observation of the Nodal Structure of Stark States.” *Physical Review Letters* 110: 213001.
 
 </div>
 
