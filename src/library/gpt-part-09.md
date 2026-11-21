@@ -34,7 +34,7 @@ Matching numbers are not matching mechanisms **\[Argued\]** (Part 3).[^1] Where 
 
 Stars in the outer parts of spiral galaxies orbit at nearly constant speeds, even where the visible matter thins out. Newton’s law, applied to the visible matter alone, says the speeds should decline, as the planets’ do with distance from the Sun: $v = \sqrt{GM(r)/r}$, with $M(r)$ the mass inside radius $r$. Instead the rotation curves stay flat. Rubin, Ford and Thonnard showed it in 1980 for 21 galaxies out to the giant UGC 2885;[^2] radio measurements of hydrogen gas, as in NGC 3198, carried the flat curves far beyond the stars.[^3] The Triangulum galaxy, M33, our near neighbour, has a flat curve too.[^4]
 
-The standard account adds dark matter: an invisible mass in a halo around each galaxy, its amount and shape fitted galaxy by galaxy. After four decades of searching, no particle of it has been detected; the most sensitive search yet, LZ, found none.[^5]
+The standard account adds dark matter: an invisible mass in a halo around each galaxy, its amount and shape fitted galaxy by galaxy. After four decades of searching, no particle of it has been detected; the most sensitive search yet, LZ, found none.[^5] In September 2026 LZ reported a single event it could not explain, at a significance well short of a discovery, and did not claim to have seen dark matter.[^6]
 
 ## What the data show: one curve for every galaxy
 
@@ -43,13 +43,13 @@ The standard account adds dark matter: an invisible mass in a halo around each g
 <figcaption>The radial acceleration relation, rebuilt here from the public SPARC tables. Each point compares, at one radius in one galaxy, the acceleration measured from the rotation with the acceleration Newton’s law gives from the visible stars and gas alone. Above about <span class="math inline">\(10^{-10}\)</span> m/s² the two agree (dashed line). Below it, the measured acceleration is larger, but by an amount fixed by the visible matter alone: every galaxy follows one curve, with one acceleration scale, <span class="math inline">\(a_0\)</span>. Lower panel: the scatter about the curve.</figcaption>
 </figure>
 
-The SPARC database gives the rotation curves of 175 disc galaxies together with their stars, measured in the near infrared, and their gas.[^6] In 2016 McGaugh, Lelli and Schombert compared, point by point, the acceleration measured from the rotation with the acceleration Newton’s law gives from the visible matter alone.[^7]
+The SPARC database gives the rotation curves of 175 disc galaxies together with their stars, measured in the near infrared, and their gas.[^7] In 2016 McGaugh, Lelli and Schombert compared, point by point, the acceleration measured from the rotation with the acceleration Newton’s law gives from the visible matter alone.[^8]
 
 Every galaxy follows one curve. **\[Argued\]** Figure 9.1 rebuilds their result from the public tables: 2,696 points in 147 galaxies, chosen as they chose them. Where the visible matter’s acceleration is high, the measured acceleration equals it. Where it is low, the measured acceleration is larger, but by an amount set entirely by the visible matter, through one acceleration scale: $a_0 = 1.16\times10^{-10}$ m/s² in this rebuild, $1.20\times10^{-10}$ in theirs. The scatter about the curve is 0.13 dex, about 35 per cent, and most of that is measurement error. Large and small galaxies, gas-rich and star-dominated, bright and faint, all lie on it.
 
-Similar visible mass, similar rotation. **\[Argued\]** Galaxies with similar visible mass distributions exhibit similar rotation profiles. A flat speed $v$ goes with a visible mass $M = v^4/(G a_0)$, with no parameter fitted to any galaxy (Figure 9.2). This is the baryonic Tully–Fisher relation, and its scatter is small.[^8] For NGC 3198, the stars and gas give $3.4\times10^{10}$ solar masses, and the relation gives a flat speed of 151 km/s; the measured speed is $150\pm4$. For UGC 2885 the relation gives 250 km/s against a measured 290: lower by 15 per cent, within the uncertainty in how much mass each unit of starlight represents.
+Similar visible mass, similar rotation. **\[Argued\]** Galaxies with similar visible mass distributions exhibit similar rotation profiles. A flat speed $v$ goes with a visible mass $M = v^4/(G a_0)$, with no parameter fitted to any galaxy (Figure 9.2). This is the baryonic Tully–Fisher relation, and its scatter is small.[^9] For NGC 3198, the stars and gas give $3.4\times10^{10}$ solar masses, and the relation gives a flat speed of 151 km/s; the measured speed is $150\pm4$. For UGC 2885 the relation gives 250 km/s against a measured 290: lower by 15 per cent, within the uncertainty in how much mass each unit of starlight represents.
 
-Where the light has a feature, so does the rotation. **\[Argued\]** Sancisi’s rule, from decades of rotation curves: for any feature in the distribution of the visible matter there is a corresponding feature in the rotation curve, and the reverse.[^9] A bump in the light is a bump in the speed. If the extra acceleration came from a smooth halo of other matter, it would smooth such features away; it does not.
+Where the light has a feature, so does the rotation. **\[Argued\]** Sancisi’s rule, from decades of rotation curves: for any feature in the distribution of the visible matter there is a corresponding feature in the rotation curve, and the reverse.[^10] A bump in the light is a bump in the speed. If the extra acceleration came from a smooth halo of other matter, it would smooth such features away; it does not.
 
 <figure id="fig:btfr">
 <img src="assets/figures/fig09-2-btfr.svg" />
@@ -70,17 +70,17 @@ The law beyond the boundary **\[Open\]** is owed: the exact shape of the curve i
 
 ## Further measurements that bear on the boundary
 
-The boundary depends on the surroundings. **\[Argued\]** In a galaxy that sits in the strong acceleration of a large neighbour, the outer rotation curve declines where an isolated galaxy’s stays flat. Chae and colleagues found this external field effect in the SPARC galaxies at more than four standard deviations overall, and at eight to eleven in the clearest cases.[^10] In GPT the boundary is set by the combined flows, **\[Hypothesis\]** the galaxy’s own and its neighbours’, so a galaxy inside a strong outside flow reaches its boundary differently. A halo of dark matter, tied to its own galaxy, has no reason to care what lies outside.
+The boundary depends on the surroundings. **\[Argued\]** In a galaxy that sits in the strong acceleration of a large neighbour, the outer rotation curve declines where an isolated galaxy’s stays flat. Chae and colleagues found this external field effect in the SPARC galaxies at more than four standard deviations overall, and at eight to eleven in the clearest cases.[^11] In GPT the boundary is set by the combined flows, **\[Hypothesis\]** the galaxy’s own and its neighbours’, so a galaxy inside a strong outside flow reaches its boundary differently. A halo of dark matter, tied to its own galaxy, has no reason to care what lies outside.
 
-The flat curves run far beyond the stars. **\[Argued\]** Weak gravitational lensing, the slight distortion of background galaxies by a foreground galaxy, measures the acceleration around galaxies far beyond any star or gas. Mistele and colleagues found the implied speeds stay flat for hundreds of kiloparsecs, possibly to a million parsecs, and follow the same baryonic Tully–Fisher relation.[^11] Light, as well as orbits, follows the same relation.
+The flat curves run far beyond the stars. **\[Argued\]** Weak gravitational lensing, the slight distortion of background galaxies by a foreground galaxy, measures the acceleration around galaxies far beyond any star or gas. Mistele and colleagues found the implied speeds stay flat for hundreds of kiloparsecs, possibly to a million parsecs, and follow the same baryonic Tully–Fisher relation.[^12] Light, as well as orbits, follows the same relation.
 
-Wide binary stars are disputed. **\[Open\]** Pairs of stars thousands of astronomical units apart orbit each other at accelerations near $a_0$, around the Sun’s own boundary distance. Chae reported in 2023 that the widest pairs measured by the Gaia satellite move faster than Newton allows;[^12] Banik and colleagues, analysing the same data differently, found Newton’s law favoured.[^13] The question is open and is one of GPT’s sharpest tests.
+Wide binary stars are disputed. **\[Open\]** Pairs of stars thousands of astronomical units apart orbit each other at accelerations near $a_0$, around the Sun’s own boundary distance. Chae reported in 2023 that the widest pairs measured by the Gaia satellite move faster than Newton allows;[^13] Banik and colleagues, analysing the same data differently, found Newton’s law favoured.[^14] The question is open and is one of GPT’s sharpest tests.
 
-The scale is cosmological. **\[Argued\]** The value of $a_0$ is close to $cH_0/2\pi$, where $H_0$ is the rate at which the universe expands, as Milgrom noted when he first proposed the scale in 1983.[^14] In the standard account this is a coincidence. In GPT $a_0$ is a property of the medium **\[Hypothesis\]** that fills the universe, and a link between it and the universe’s expansion is expected.
+The scale is cosmological. **\[Argued\]** The value of $a_0$ is close to $cH_0/2\pi$, where $H_0$ is the rate at which the universe expands, as Milgrom noted when he first proposed the scale in 1983.[^15] In the standard account this is a coincidence. In GPT $a_0$ is a property of the medium **\[Hypothesis\]** that fills the universe, and a link between it and the universe’s expansion is expected.
 
 # Gravitational Waves: Transverse Waves of the Medium
 
-On 14 September 2015 the two LIGO detectors recorded a signal from two black holes, of 36 and 29 solar masses, merging 1.3 billion light-years away.[^15] The fractional change in the length of each four-kilometre arm was about $10^{-21}$.
+On 14 September 2015 the two LIGO detectors recorded a signal from two black holes, of 36 and 29 solar masses, merging 1.3 billion light-years away.[^16] The fractional change in the length of each four-kilometre arm was about $10^{-21}$.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -88,23 +88,23 @@ On 14 September 2015 the two LIGO detectors recorded a signal from two black hol
 
 **\[End of passage\]**
 
-What LIGO records is a change in light’s travel time **\[Argued\]** along each arm, read as a shift in the phase of the returning laser light. In the description used to calculate the signal, the mirrors stay where they are and the wave changes how long light takes to cross between them.[^16] The signal is a phase signal carried by light crossing the medium.
+What LIGO records is a change in light’s travel time **\[Argued\]** along each arm, read as a shift in the phase of the returning laser light. In the description used to calculate the signal, the mirrors stay where they are and the wave changes how long light takes to cross between them.[^17] The signal is a phase signal carried by light crossing the medium.
 
 The measurements fix what the waves are. **\[Argued\]**
 
-- **Speed.** In 2017 the waves from two neutron stars merging arrived 1.7 seconds before the gamma rays, after a journey of 130 million years: the two travel at the same speed to within a few parts in $10^{15}$.[^17] Within one event, the two LIGO detectors 3,000 kilometres apart recorded GW150914 6.9 milliseconds apart, as expected for waves crossing at that speed.
+- **Speed.** In 2017 the waves from two neutron stars merging arrived 1.7 seconds before the gamma rays, after a journey of 130 million years: the two travel at the same speed to within a few parts in $10^{15}$.[^18] Within one event, the two LIGO detectors 3,000 kilometres apart recorded GW150914 6.9 milliseconds apart, as expected for waves crossing at that speed.
 
-- **Polarisation.** With three detectors, the pattern of response favours the tensor polarisation, a transverse shear, over the alternatives.[^18]
+- **Polarisation.** With three detectors, the pattern of response favours the tensor polarisation, a transverse shear, over the alternatives.[^19]
 
-- **Fading with distance.** Amplitude decreases as $1/r$: the distance read from the 2017 signal matches the distance of its host galaxy, and gives the expansion rate of the universe in agreement with other measures.[^19]
+- **Fading with distance.** Amplitude decreases as $1/r$: the distance read from the 2017 signal matches the distance of its host galaxy, and gives the expansion rate of the universe in agreement with other measures.[^20]
 
-- **Energy carried away.** The orbit of the Hulse–Taylor binary pulsar shrinks at $0.9983\pm0.0016$ times the rate expected from the energy the waves carry.[^20]
+- **Energy carried away.** The orbit of the Hulse–Taylor binary pulsar shrinks at $0.9983\pm0.0016$ times the rate expected from the energy the waves carry.[^21]
 
-Even the standard account describes a medium here. **\[Argued\]** Treated as an elastic solid, space must be extremely stiff, and its waves pure shear, transverse, with no compression waves: Tenev and Horstemeyer, working within general relativity, model it exactly so.[^21] A wave of transverse shear, travelling at a fixed speed set by stiffness and inertia, carrying energy and momentum, is how a medium behaves (Part 28).[^22]
+Even the standard account describes a medium here. **\[Argued\]** Treated as an elastic solid, space must be extremely stiff, and its waves pure shear, transverse, with no compression waves: Tenev and Horstemeyer, working within general relativity, model it exactly so.[^22] A wave of transverse shear, travelling at a fixed speed set by stiffness and inertia, carrying energy and momentum, is how a medium behaves (Part 28).[^23]
 
 # Clocks: One Effect, Measured Everywhere
 
-GPS satellites orbit at 20,200 kilometres. Their clocks run fast compared with clocks on the ground by 38.6 microseconds a day, and the system corrects for it; without the correction, positions would drift by kilometres a day.[^23] The standard account splits the effect in two: a gain of 45.7 microseconds a day from the satellite’s height, by general relativity, and a loss of 7.1 from its speed, by special relativity.
+GPS satellites orbit at 20,200 kilometres. Their clocks run fast compared with clocks on the ground by about 38.6 microseconds a day, and the system corrects for it; without the correction, positions would drift by kilometres a day.[^24] The standard account splits the effect in two: a gain of about 45.7 microseconds a day from the satellite’s height, by general relativity, and a loss of about 7.2 from its speed, by special relativity.
 
 <figure id="fig:gps">
 <img src="assets/figures/fig09-3-gps.svg" />
@@ -117,49 +117,49 @@ GPS satellites orbit at 20,200 kilometres. Their clocks run fast compared with c
 
 **\[End of passage\]**
 
-One effect gives both parts. **\[Argued\]** Adding the inflow and the motion for each clock (Figure 9.3), the ground clock is slowed 60.2 microseconds a day and the satellite clock 21.6: a difference of 38.5, the correction GPS applies. The height gain and the speed loss are one effect: the medium streaming past each clock.
+One effect gives both parts. **\[Argued\]** Adding the inflow and the motion for each clock (Figure 9.3), the ground clock is slowed 60.18 microseconds a day and the satellite clock 21.64: a difference of 38.54, the correction GPS applies. (The full calculation, which includes the Earth’s flattening, gives 38.58.) The height gain and the speed loss are one effect: the medium streaming past each clock.
 
-The system is run in a preferred frame. **\[Argued\]** GPS synchronises all its clocks in one non-rotating frame centred on the Earth; clocks on the turning Earth must be corrected for their motion relative to it (the Sagnac correction).[^24] The frame the system uses is the one in which the Earth’s own inflow has no swirl.
+The system is run in a preferred frame. **\[Argued\]** GPS synchronises all its clocks in one non-rotating frame centred on the Earth; clocks on the turning Earth must be corrected for their motion relative to it (the Sagnac correction).[^25] The frame the system uses is the one in which the Earth’s own inflow has no swirl.
 
-Clocks respond to every mass, by exactly the same law. **\[Argued\]** Optical clocks now detect the change in rate from raising a clock by 33 centimetres,[^25] the height of a 450-metre tower,[^26] the mountains above a tunnel in the Alps,[^27] and a millimetre across a single cloud of atoms.[^28] Near large masses and dense rock, clocks change rate; they do so by the amount the inflow gives, with nothing left over. Clock types as different as atomic transitions, nuclear transitions and decaying muons all slow by the same factor (Part 18).[^29] The Galileo satellites in elongated orbits confirm the factor to 2.5 parts in 100,000.[^30]
+Clocks respond to every mass, by exactly the same law. **\[Argued\]** Optical clocks now detect the change in rate from raising a clock by 33 centimetres,[^26] the height of a 450-metre tower,[^27] the mountains above a tunnel in the Alps,[^28] and a millimetre across a single cloud of atoms.[^29] Near large masses and dense rock, clocks change rate; they do so by the amount the inflow gives, with nothing left over. Clock types as different as atomic transitions, nuclear transitions and decaying muons all slow by the same factor (Part 18).[^30] The Galileo satellites in elongated orbits confirm the factor to 2.5 parts in 100,000.[^31]
 
 # Light Through the Medium: Bending and Delay
 
-Gravitational lensing is calculated as refraction. **\[Argued\]** Light passing a mass bends as if passing through a medium of graded refractive index, $n \approx 1 + 2GM/c^2 r$, higher near the mass. Eddington described it so in 1920,[^31] and the standard textbook on gravitational lenses derives the bending and the delay from exactly this index.[^32] In GPT the index is the medium’s, **\[Hypothesis\]** set by its lowered pressure near a mass, $n = P_0/P$ (Part 23).[^33]
+Gravitational lensing is calculated as refraction. **\[Argued\]** Light passing a mass bends as if passing through a medium of graded refractive index, $n \approx 1 + 2GM/c^2 r$, higher near the mass. Eddington described it so in 1920,[^32] and the standard textbook on gravitational lenses derives the bending and the delay from exactly this index.[^33] In GPT the index is the medium’s, **\[Hypothesis\]** set by its lowered pressure near a mass, $n = P_0/P$ (Part 23).[^34]
 
-The same index gives the delay. **\[Argued\]** Light passing a mass slows, as in any medium of higher index: the Shapiro delay, measured by radar to the planets and by spacecraft (Part 28).[^34] When a distant quasar is lensed into several images, each image’s light takes a different path through the medium, with a different length and a different delay. The quasar RX J1131$-$<!-- -->1231 is lensed into four images. Three arrive within a day or two of each other; the fourth arrives 91 days later, a delay measured to 1.5 per cent.[^35]
+The same index gives the delay. **\[Argued\]** Light passing a mass slows, as in any medium of higher index: the Shapiro delay, measured by radar to the planets and by spacecraft (Part 28).[^35] When a distant quasar is lensed into several images, each image’s light takes a different path through the medium, with a different length and a different delay. The quasar RX J1131$-$<!-- -->1231 is lensed into four images. Three arrive within a day or two of each other; the fourth arrives 91 days later, a delay measured to 1.5 per cent.[^36]
 
-The delays measure the universe’s expansion. **\[Argued\]** Given a model of the lens, the delays give the distance to it, and from that the expansion rate of the universe. From six lensed quasars, RX J1131$-$<!-- -->1231 among them, the rate is 73.3 kilometres a second per megaparsec, agreeing with the rate measured from nearby supernovae and in tension with the rate inferred from the early universe.[^36][^37] (Section 9.9.)
+The delays measure the universe’s expansion. **\[Argued\]** Given a model of the lens, the delays give the distance to it, and from that the expansion rate of the universe. From six lensed quasars, RX J1131$-$<!-- -->1231 among them, the rate is 73.3 kilometres a second per megaparsec, agreeing with the rate measured from nearby supernovae and in tension with the rate inferred from the early universe.[^37][^38] (Section 9.9.)
 
 The bending does not depend on colour. **\[Argued\]** Radio waves and visible light are bent alike, to a few parts in a thousand (Part 27). A medium whose index depended on frequency near a mass would split the colours; this one does not.
 
 # The Background Light of the Universe
 
-The cosmic microwave background fills every direction with light at $2.72548\pm0.00057$ kelvin.[^38] Its spectrum is the most perfect thermal spectrum measured in nature, and its temperature is the same in every direction to about one part in 100,000. It was released when the universe cooled enough for atoms to form, about 380,000 years after its hot beginning.
+The cosmic microwave background fills every direction with light at $2.72548\pm0.00057$ kelvin.[^39] Its spectrum is the most perfect thermal spectrum measured in nature, and its temperature is the same in every direction to about one part in 100,000. It was released when the universe cooled enough for atoms to form, about 380,000 years after its hot beginning.
 
-The uniformity is a puzzle for the standard account. **\[Argued\]** Regions on opposite sides of the sky could not have exchanged light before the background was released, yet they have the same temperature. The standard account proposes inflation: an early, brief expansion faster than light. In GPT the medium existed before matter, **\[Hypothesis\]** cooled and ordered as a whole, and gave every region the same starting state: the uniformity is inherited from the medium, not imposed afterward. Matter itself can only form from an ordered medium (Part 19).[^39]
+The uniformity is a puzzle for the standard account. **\[Argued\]** Regions on opposite sides of the sky could not have exchanged light before the background was released, yet they have the same temperature. The standard account proposes inflation: an early, brief expansion faster than light. In GPT the medium existed before matter, **\[Hypothesis\]** cooled and ordered as a whole, and gave every region the same starting state: the uniformity is inherited from the medium, not imposed afterward. Matter itself can only form from an ordered medium (Part 19).[^40]
 
-The background shows sound in a medium. **\[Argued\]** The spots in the background are frozen sound waves. Before atoms formed, light and the hot gas of nuclei and electrons moved together as one fluid, and sound waves ran through it; the background records them as a series of peaks in the size of its spots.[^40] The same sound left a preferred spacing of about 150 megaparsecs in the distribution of galaxies, measured in 2005.[^41] The standard account’s own picture of the early universe is a medium carrying sound.
+The background shows sound in a medium. **\[Argued\]** The spots in the background are frozen sound waves. Before atoms formed, light and the hot gas of nuclei and electrons moved together as one fluid, and sound waves ran through it; the background records them as a series of peaks in the size of its spots.[^41] The same sound left a preferred spacing of about 150 megaparsecs in the distribution of galaxies, measured in 2005.[^42] The standard account’s own picture of the early universe is a medium carrying sound.
 
-The universe has a rest frame. **\[Argued\]** The background is about 0.1 per cent hotter in one direction and colder in the opposite one: we are moving through it at $369.8\pm0.1$ kilometres a second.[^42] Every observer can measure their speed relative to it. The standard account calls this the background’s rest frame and says it has no further meaning; in GPT it is the candidate for the medium’s rest **\[Hypothesis\]** (Part 18).
+The universe has a rest frame. **\[Argued\]** The background is about 0.1 per cent hotter in one direction and colder in the opposite one: we are moving through it at $369.8\pm0.1$ kilometres a second.[^43] Every observer can measure their speed relative to it. The standard account calls this the background’s rest frame and says it has no further meaning; in GPT it is the candidate for the medium’s rest **\[Hypothesis\]** (Part 18).
 
-The largest patterns are odd. **\[Open\]** On the largest scales the background shows features the standard account finds unlikely at the level of a few per cent to a few tenths of a per cent each: too little variation on the largest scales, an alignment of the two largest patterns, more variation in one half of the sky than the other, and a cold spot. Planck confirmed all of them.[^43] Whether they are chance, or structure in the medium, is open.
+The largest patterns are odd. **\[Open\]** On the largest scales the background shows features the standard account finds unlikely at the level of a few per cent to a few tenths of a per cent each: too little variation on the largest scales, an alignment of the two largest patterns, more variation in one half of the sky than the other, and a cold spot. Planck confirmed all of them.[^44] Whether they are chance, or structure in the medium, is open.
 
-The universe is flat. **\[Argued\]** The background’s spots have the size expected in a universe whose large-scale geometry is flat, to within 0.2 per cent.[^44] In GPT flatness is equilibrium: **\[Hypothesis\]** a medium that fills the universe evens out its own pressure over large scales, and space is flat because the medium is (Part 23).
+The universe is flat. **\[Argued\]** The background’s spots have the size expected in a universe whose large-scale geometry is flat, to within 0.2 per cent.[^45] In GPT flatness is equilibrium: **\[Hypothesis\]** a medium that fills the universe evens out its own pressure over large scales, and space is flat because the medium is (Part 23).
 
-The third peak is owed. **\[Open\]** The heights of the background’s peaks depend on how much matter took part in the sound waves. A universe of ordinary matter alone, with no dark matter, correctly predicted in 1999 that the second peak would be low,[^45] but gives a third peak lower than measured. The standard account’s dark matter fits it. GPT must give the third peak from the medium; this is one of its hardest open problems.
+The third peak is owed. **\[Open\]** The heights of the background’s peaks depend on how much matter took part in the sound waves. A universe of ordinary matter alone, with no dark matter, correctly predicted in 1999 that the second peak would be low,[^46] but gives a third peak lower than measured. The standard account’s dark matter fits it. GPT must give the third peak from the medium; this is one of its hardest open problems.
 
 # What Persists Without Being Paid For
 
-A permanent magnet holds its field indefinitely **\[Argued\]** with no energy input and no loss of mass, and a superconducting ring holds its current. File and Mills monitored the current in a superconducting coil and found no measurable decay: its lifetime is more than 100,000 years.[^46] Holding draws no power; only changing does (Part 6).[^47]
+A permanent magnet holds its field indefinitely **\[Argued\]** with no energy input and no loss of mass, and a superconducting ring holds its current. File and Mills monitored the current in a superconducting coil and found no measurable decay: its lifetime is more than 100,000 years.[^47] Holding draws no power; only changing does (Part 6).[^48]
 
 **\[Hypothesis: the passage that follows\]**
 
-**A field that persists is a circulation of the medium, held in place.** A magnetic field is the medium’s swirl (Part 22).[^48] Once the circulations inside a magnet are aligned, the swirl outside is held structurally, requiring no energy to sustain: like a vortex in a fluid, which keeps its circulation unless something acts to change it. Heat or a blow weakens a magnet by disordering its alignment, not by depleting its energy.
+**A field that persists is a circulation of the medium, held in place.** A magnetic field is the medium’s swirl (Part 22).[^49] Once the circulations inside a magnet are aligned, the swirl outside is held structurally, requiring no energy to sustain: like a vortex in a fluid, which keeps its circulation unless something acts to change it. Heat or a blow weakens a magnet by disordering its alignment, not by depleting its energy.
 
 **\[End of passage\]**
 
-Circulation in a medium persists, and comes in fixed amounts. **\[Argued\]** Helmholtz showed in 1858 that rotation in an ideal fluid can neither begin nor end on its own: a vortex keeps its circulation.[^49] In superfluid helium, circulation is quantised: Vinen detected single quanta of it in 1961.[^50] The same year, two groups found that the magnetic flux through a superconducting ring is quantised too, in units of $h/2e$.[^51][^52] A persistent current, a quantised flux, a quantised vortex: the field of a superconductor behaves as circulation in a medium behaves.
+Circulation in a medium persists, and comes in fixed amounts. **\[Argued\]** Helmholtz showed in 1858 that rotation in an ideal fluid can neither begin nor end on its own: a vortex keeps its circulation.[^50] In superfluid helium, circulation is quantised: Vinen detected single quanta of it in 1961.[^51] The same year, two groups found that the magnetic flux through a superconducting ring is quantised too, in units of $h/2e$.[^52][^53] A persistent current, a quantised flux, a quantised vortex: the field of a superconductor behaves as circulation in a medium behaves.
 
 # The Medium Already in the Formulation
 
@@ -174,7 +174,7 @@ Circulation in a medium persists, and comes in fixed amounts. **\[Argued\]** Hel
 | Space as a stiff elastic solid that carries only shear waves (Tenev and Horstemeyer)                                                | the medium’s transverse waves                                                          |
 | A preferred rest frame: the background’s 369.8 km/s dipole; GPS’s non-rotating Earth-centred frame                                  | the medium’s rest, and the Earth’s inflow                                              |
 | Frame dragging: space turned by a spinning mass, 37 milliarcseconds a year around the Earth (Everitt et al. 2011)                   | the medium’s swirl (Part 16)                                                           |
-| A vacuum with measurable energy: the Casimir force between plates; (Lamoreaux 1997) dark energy                                     | a medium with pressure (Part 14); Part 28 gives the other reading of the Casimir force |
+| A vacuum with measurable energy: the Casimir force between plates (Lamoreaux 1997); dark energy                                     | a medium with pressure (Part 14); Part 28 gives the other reading of the Casimir force |
 
 Places where the standard account uses a medium’s properties or a medium’s mathematics.
 
@@ -184,17 +184,17 @@ Places where the standard account uses a medium’s properties or a medium’s m
 
 Table 9.1 gathers the places, across this framework, where the standard account’s own equations treat space as having the properties of a medium.
 
-The medium was set aside, not refuted. **\[Argued\]** Lorentz’s theory of 1904, with a medium at rest and rods and clocks affected by motion through it, predicts exactly what special relativity predicts.[^53] The medium was dropped for economy: it could not be detected by any experiment of the time, so it was declared unnecessary. Einstein himself said in 1920 that “space without ether is unthinkable” under general relativity, and that its ether, unlike ordinary matter, has no parts that can be followed through time.[^54] The question of the medium was set aside, not answered (Part 4).[^55]
+The medium was set aside, not refuted. **\[Argued\]** Lorentz’s theory of 1904, with a medium at rest and rods and clocks affected by motion through it, predicts exactly what special relativity predicts.[^54] The medium was dropped for economy: it could not be detected by any experiment of the time, so it was declared unnecessary. Einstein himself said in 1920 that “space without ether is unthinkable” under general relativity, and that its ether, unlike ordinary matter, has no parts that can be followed through time.[^55] The question of the medium was set aside, not answered (Part 4).[^56]
 
 # Where the Standard Account Is Strained
 
 When corrections outgrow what they correct, it is a sign that the foundation is missing something (Part 14). The standard account of the universe now has these features.
 
-- **Five per cent.** Ordinary matter is about five per cent of the standard account’s universe. Dark matter, never detected directly, is about 27 per cent; dark energy, whose nature is unknown, about 68 per cent.[^56]
+- **Five per cent.** Ordinary matter is about five per cent of the standard account’s universe. Dark matter, never detected directly, is about 27 per cent; dark energy, whose nature is unknown, about 68 per cent.[^57]
 
-- **The expansion rate disagrees with itself.** Measured locally, from supernovae, the expansion rate is $73.0\pm1.0$ kilometres a second per megaparsec;[^57] inferred from the early universe through the standard account, it is $67.4\pm0.5$. The gap is more than five standard deviations, and lensed time delays side with the local value.[^58]
+- **The expansion rate disagrees with itself.** Measured locally, from supernovae, the expansion rate is $73.0\pm1.0$ kilometres a second per megaparsec;[^58] inferred from the early universe through the standard account, it is $67.4\pm0.5$. The gap is more than five standard deviations, and lensed time delays side with the local value.[^59]
 
-- **Dark energy may change.** The DESI survey’s 2025 measurements of galaxy spacing, combined with the background and supernovae, prefer a dark energy that changes over time to the standard account’s constant, at 2.8 to 4.2 standard deviations depending on the supernova sample.[^59]
+- **Dark energy may change.** The DESI survey’s 2025 measurements of galaxy spacing, combined with the background and supernovae, prefer a dark energy that changes over time to the standard account’s constant, at 2.8 to 4.2 standard deviations depending on the supernova sample.[^60]
 
 - **Galaxies follow their visible matter.** The radial acceleration relation, the external field effect and Sancisi’s rule (Section 9.2) must be produced in the standard account by halos of matter that follow the visible matter with no scatter.
 
@@ -204,7 +204,7 @@ Strain is not evidence for GPT. **\[Argued\]** Each of these may yet be explaine
 
 Constraints GPT must pass. **\[Argued\]**
 
-- **Every body is carried alike.** The MICROSCOPE satellite found bodies of titanium and platinum carried by the Earth’s inflow alike to 1 part in $10^{15}$.[^60] GPT’s delivery of momentum is composition-blind (Part 14).
+- **Every body is carried alike.** The MICROSCOPE satellite found bodies of titanium and platinum carried by the Earth’s inflow alike to 1 part in $10^{15}$.[^61] GPT’s delivery of momentum is composition-blind (Part 14).
 
 - **No shielding.** The Moon’s orbit, tracked by laser to millimetres, shows no shadowing of the Sun’s inflow by the Earth during eclipses, to about $10^{-22}$ square metres per kilogram (Part 15).
 
@@ -212,11 +212,11 @@ Constraints GPT must pass. **\[Argued\]**
 
 - **Clocks universal.** Every kind of clock tested slows by the same factor.
 
-- **Galaxy clusters.** The relation of Section 9.2, applied to clusters of galaxies, still leaves about twice the visible mass unaccounted for,[^61] and in the Bullet Cluster the lensing mass is offset from most of the visible gas.[^62] GPT’s account of clusters is owed.
+- **Galaxy clusters.** The relation of Section 9.2, applied to clusters of galaxies, still leaves about twice the visible mass unaccounted for,[^62] and in the Bullet Cluster the lensing mass is offset from most of the visible gas.[^63] GPT’s account of clusters is owed.
 
 - **The third peak** of the background (Section 9.6).
 
-Some anomalies are resolved. **\[Argued\]** The Pioneer spacecraft’s small unexplained deceleration, once cited as a sign of new gravity, is explained by the uneven heat its power source radiates.[^63] It is not evidence for GPT, and is not used here.
+Some anomalies are resolved. **\[Argued\]** The Pioneer spacecraft’s small unexplained deceleration, once cited as a sign of new gravity, is explained by the uneven heat its power source radiates.[^64] It is not evidence for GPT, and is not used here.
 
 # What Remains to Be Done
 
@@ -286,25 +286,25 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-abbott2016" class="csl-entry">
 
-Abbott, B. P. et al. 2016. “Observation of Gravitational Waves from a Binary Black Hole Merger.” *Physical Review Letters* 116: 061102.
+Abbott, B. P. et al. 2016. “Observation of gravitational waves from a binary black hole merger.” *Physical Review Letters* 116: 061102.
 
 </div>
 
 <div id="ref-abbott2017h0" class="csl-entry">
 
-——— et al. 2017a. “A Gravitational-Wave Standard Siren Measurement of the Hubble Constant.” *Nature* 551: 85–88.
+——— et al. 2017a. “A gravitational-wave standard siren measurement of the Hubble constant.” *Nature* 551: 85–88.
 
 </div>
 
 <div id="ref-abbott2017speed" class="csl-entry">
 
-——— et al. 2017b. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
+——— et al. 2017b. “Gravitational waves and gamma-rays from a binary neutron star merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
 
 </div>
 
 <div id="ref-abbott2017pol" class="csl-entry">
 
-——— et al. 2017c. “GW170814: A Three-Detector Observation of Gravitational Waves from a Binary Black Hole Coalescence.” *Physical Review Letters* 119: 141101.
+——— et al. 2017c. “GW170814: a three-detector observation of gravitational waves from a binary black hole coalescence.” *Physical Review Letters* 119: 141101.
 
 </div>
 
@@ -316,79 +316,79 @@ Ashby, Neil. 2003. “Relativity in the Global Positioning System.” *Living Re
 
 <div id="ref-banik2024" class="csl-entry">
 
-Banik, Indranil, Charalambos Pittordis, Will Sutherland, et al. 2024. “Strong Constraints on the Gravitational Law from Gaia DR3 Wide Binaries.” *Monthly Notices of the Royal Astronomical Society* 527: 4573–4615.
+Banik, Indranil, Charalambos Pittordis, Will Sutherland, et al. 2024. “Strong constraints on the gravitational law from Gaia DR3 wide binaries.” *Monthly Notices of the Royal Astronomical Society* 527: 4573–4615.
 
 </div>
 
 <div id="ref-barcelo2011" class="csl-entry">
 
-Barceló, Carlos, Stefano Liberati, and Matt Visser. 2011. “Analogue Gravity.” *Living Reviews in Relativity* 14: 3.
+Barceló, Carlos, Stefano Liberati, and Matt Visser. 2011. “Analogue gravity.” *Living Reviews in Relativity* 14: 3.
 
 </div>
 
 <div id="ref-begeman1989" class="csl-entry">
 
-Begeman, K. G. 1989. “HI Rotation Curves of Spiral Galaxies. I. NGC 3198.” *Astronomy and Astrophysics* 223: 47–60.
+Begeman, K. G. 1989. “HI rotation curves of spiral galaxies. I. NGC 3198.” *Astronomy and Astrophysics* 223: 47–60.
 
 </div>
 
 <div id="ref-bothwell2022" class="csl-entry">
 
-Bothwell, Tobias et al. 2022. “Resolving the Gravitational Redshift Across a Millimetre-Scale Atomic Sample.” *Nature* 602: 420–24.
+Bothwell, Tobias et al. 2022. “Resolving the gravitational redshift across a millimetre-scale atomic sample.” *Nature* 602: 420–24.
 
 </div>
 
 <div id="ref-chae2023" class="csl-entry">
 
-Chae, Kyu-Hyun. 2023. “Breakdown of the Newton–Einstein Standard Gravity at Low Acceleration in Internal Dynamics of Wide Binary Stars.” *Astrophysical Journal* 952: 128.
+Chae, Kyu-Hyun. 2023. “Breakdown of the Newton–Einstein standard gravity at low acceleration in internal dynamics of wide binary stars.” *Astrophysical Journal* 952: 128.
 
 </div>
 
 <div id="ref-chae2020" class="csl-entry">
 
-Chae, Kyu-Hyun, Federico Lelli, Harry Desmond, Stacy S. McGaugh, Pengfei Li, and James M. Schombert. 2020. “Testing the Strong Equivalence Principle: Detection of the External Field Effect in Rotationally Supported Galaxies.” *Astrophysical Journal* 904: 51.
+Chae, Kyu-Hyun, Federico Lelli, Harry Desmond, Stacy S. McGaugh, Pengfei Li, and James M. Schombert. 2020. “Testing the strong equivalence principle: detection of the external field effect in rotationally supported galaxies.” *Astrophysical Journal* 904: 51.
 
 </div>
 
 <div id="ref-chou2010" class="csl-entry">
 
-Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical Clocks and Relativity.” *Science* 329: 1630–33.
+Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical clocks and relativity.” *Science* 329: 1630–33.
 
 </div>
 
 <div id="ref-clowe2006" class="csl-entry">
 
-Clowe, Douglas et al. 2006. “A Direct Empirical Proof of the Existence of Dark Matter.” *Astrophysical Journal Letters* 648: L109–13.
+Clowe, Douglas et al. 2006. “A direct empirical proof of the existence of dark matter.” *Astrophysical Journal Letters* 648: L109–13.
 
 </div>
 
 <div id="ref-corbelli2000" class="csl-entry">
 
-Corbelli, Edvige, and Paolo Salucci. 2000. “The Extended Rotation Curve and the Dark Matter Halo of M33.” *Monthly Notices of the Royal Astronomical Society* 311: 441–47.
+Corbelli, Edvige, and Paolo Salucci. 2000. “The extended rotation curve and the dark matter halo of M33.” *Monthly Notices of the Royal Astronomical Society* 311: 441–47.
 
 </div>
 
 <div id="ref-deaver1961" class="csl-entry">
 
-Deaver, Bascom S., and William M. Fairbank. 1961. “Experimental Evidence for Quantized Flux in Superconducting Cylinders.” *Physical Review Letters* 7: 43–46.
+Deaver, Bascom S., and William M. Fairbank. 1961. “Experimental evidence for quantized flux in superconducting cylinders.” *Physical Review Letters* 7: 43–46.
 
 </div>
 
 <div id="ref-delva2018" class="csl-entry">
 
-Delva, P. et al. 2018. “Gravitational Redshift Test Using Eccentric Galileo Satellites.” *Physical Review Letters* 121: 231101.
+Delva, P. et al. 2018. “Gravitational redshift test using eccentric Galileo satellites.” *Physical Review Letters* 121: 231101.
 
 </div>
 
 <div id="ref-desi2025" class="csl-entry">
 
-DESI Collaboration. 2025. “DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints.” Physical Review D, doi:10.1103/tr6y-kpc6; arXiv:2503.14738.
+DESI Collaboration. 2025. “DESI DR2 results II: measurements of baryon acoustic oscillations and cosmological constraints.” Physical Review D, doi:10.1103/tr6y-kpc6; arXiv:2503.14738.
 
 </div>
 
 <div id="ref-doll1961" class="csl-entry">
 
-Doll, R., and M. Näbauer. 1961. “Experimental Proof of Magnetic Flux Quantization in a Superconducting Ring.” *Physical Review Letters* 7: 51–52.
+Doll, R., and M. Näbauer. 1961. “Experimental proof of magnetic flux quantization in a superconducting ring.” *Physical Review Letters* 7: 51–52.
 
 </div>
 
@@ -406,31 +406,31 @@ Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the Un
 
 <div id="ref-eisenstein2005" class="csl-entry">
 
-Eisenstein, Daniel J. et al. 2005. “Detection of the Baryon Acoustic Peak in the Large-Scale Correlation Function of SDSS Luminous Red Galaxies.” *Astrophysical Journal* 633: 560–74.
+Eisenstein, Daniel J. et al. 2005. “Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies.” *Astrophysical Journal* 633: 560–74.
 
 </div>
 
 <div id="ref-everitt2011" class="csl-entry">
 
-Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: final results of a space experiment to test general relativity.” *Physical Review Letters* 106: 221101.
 
 </div>
 
 <div id="ref-file1963" class="csl-entry">
 
-File, J., and R. G. Mills. 1963. “Observation of Persistent Current in a Superconducting Solenoid.” *Physical Review Letters* 10: 93–96.
+File, J., and R. G. Mills. 1963. “Observation of persistent current in a superconducting solenoid.” *Physical Review Letters* 10: 93–96.
 
 </div>
 
 <div id="ref-fixsen2009" class="csl-entry">
 
-Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *Astrophysical Journal* 707: 916–20.
+Fixsen, D. J. 2009. “The temperature of the cosmic microwave background.” *Astrophysical Journal* 707: 916–20.
 
 </div>
 
 <div id="ref-grotti2018" class="csl-entry">
 
-Grotti, Jacopo et al. 2018. “Geodesy and Metrology with a Transportable Optical Clock.” *Nature Physics* 14: 437–41.
+Grotti, Jacopo et al. 2018. “Geodesy and metrology with a transportable optical clock.” *Nature Physics* 14: 437–41.
 
 </div>
 
@@ -442,157 +442,163 @@ Helmholtz, Hermann. 1858. “Über Integrale der hydrodynamischen Gleichungen, w
 
 <div id="ref-hu2002" class="csl-entry">
 
-Hu, Wayne, and Scott Dodelson. 2002. “Cosmic Microwave Background Anisotropies.” *Annual Review of Astronomy and Astrophysics* 40: 171–216.
+Hu, Wayne, and Scott Dodelson. 2002. “Cosmic microwave background anisotropies.” *Annual Review of Astronomy and Astrophysics* 40: 171–216.
 
 </div>
 
 <div id="ref-lamoreaux1997" class="csl-entry">
 
-Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 $\mu$m Range.” *Physical Review Letters* 78: 5–8.
+Lamoreaux, Steve K. 1997. “Demonstration of the Casimir force in the 0.6 to 6 $\mu$m range.” *Physical Review Letters* 78: 5–8.
 
 </div>
 
 <div id="ref-lelli2016" class="csl-entry">
 
-Lelli, Federico, Stacy S. McGaugh, and James M. Schombert. 2016a. “SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.” *Astronomical Journal* 152: 157.
+Lelli, Federico, Stacy S. McGaugh, and James M. Schombert. 2016a. “SPARC: mass models for 175 disk galaxies with Spitzer photometry and accurate rotation curves.” *Astronomical Journal* 152: 157.
 
 </div>
 
 <div id="ref-lelli2016btfr" class="csl-entry">
 
-———. 2016b. “The Small Scatter of the Baryonic Tully–Fisher Relation.” *Astrophysical Journal Letters* 816: L14.
+———. 2016b. “The small scatter of the baryonic Tully–Fisher relation.” *Astrophysical Journal Letters* 816: L14.
 
 </div>
 
 <div id="ref-lorentz1904" class="csl-entry">
 
-Lorentz, H. A. 1904. “Electromagnetic Phenomena in a System Moving with Any Velocity Smaller Than That of Light.” *Proceedings of the Royal Netherlands Academy of Arts and Sciences* 6: 809–31.
+Lorentz, H. A. 1904. “Electromagnetic phenomena in a system moving with any velocity smaller than that of light.” *Proceedings of the Royal Netherlands Academy of Arts and Sciences* 6: 809–31.
 
 </div>
 
 <div id="ref-lz2025" class="csl-entry">
 
-LZ Collaboration. 2025. “Dark Matter Search Results from 4.2 Tonne-Years of Exposure of the LUX-ZEPLIN (LZ) Experiment.” Physical Review Letters, doi:10.1103/4dyc-z8zf.
+LZ Collaboration. 2025. “Dark matter search results from 4.2 tonne-years of exposure of the LUX-ZEPLIN (LZ) experiment.” Physical Review Letters, doi:10.1103/4dyc-z8zf.
+
+</div>
+
+<div id="ref-lz2026" class="csl-entry">
+
+———. 2026. “LZ Sees Surprising Result in Search for Dark Matter.” U.S. Department of Energy announcement, 1 September.
 
 </div>
 
 <div id="ref-mcgaugh1999" class="csl-entry">
 
-McGaugh, Stacy S. 1999. “Distinguishing Between Cold Dark Matter and Modified Newtonian Dynamics: Predictions for the Microwave Background.” *Astrophysical Journal Letters* 523: L99–102.
+McGaugh, Stacy S. 1999. “Distinguishing between cold dark matter and modified Newtonian dynamics: predictions for the microwave background.” *Astrophysical Journal Letters* 523: L99–102.
 
 </div>
 
 <div id="ref-mcgaugh2016" class="csl-entry">
 
-McGaugh, Stacy S., Federico Lelli, and James M. Schombert. 2016. “Radial Acceleration Relation in Rotationally Supported Galaxies.” *Physical Review Letters* 117: 201101.
+McGaugh, Stacy S., Federico Lelli, and James M. Schombert. 2016. “Radial acceleration relation in rotationally supported galaxies.” *Physical Review Letters* 117: 201101.
 
 </div>
 
 <div id="ref-milgrom1983" class="csl-entry">
 
-Milgrom, M. 1983. “A Modification of the Newtonian Dynamics as a Possible Alternative to the Hidden Mass Hypothesis.” *Astrophysical Journal* 270: 365–70.
+Milgrom, M. 1983. “A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis.” *Astrophysical Journal* 270: 365–70.
 
 </div>
 
 <div id="ref-mistele2024" class="csl-entry">
 
-Mistele, Tobias, Stacy McGaugh, Federico Lelli, James Schombert, and Pengfei Li. 2024. “Indefinitely Flat Circular Velocities and the Baryonic Tully–Fisher Relation from Weak Lensing.” *Astrophysical Journal Letters* 969: L3.
+Mistele, Tobias, Stacy McGaugh, Federico Lelli, James Schombert, and Pengfei Li. 2024. “Indefinitely flat circular velocities and the baryonic Tully–Fisher relation from weak lensing.” *Astrophysical Journal Letters* 969: L3.
 
 </div>
 
 <div id="ref-planck2018i" class="csl-entry">
 
-Planck Collaboration. 2020a. “Planck 2018 Results. I. Overview and the Cosmological Legacy of Planck.” *Astronomy and Astrophysics* 641: A1.
+Planck Collaboration. 2020a. “Planck 2018 results. I. Overview and the cosmological legacy of Planck.” *Astronomy and Astrophysics* 641: A1.
 
 </div>
 
 <div id="ref-planck2018vi" class="csl-entry">
 
-———. 2020b. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy and Astrophysics* 641: A6.
+———. 2020b. “Planck 2018 results. VI. Cosmological parameters.” *Astronomy and Astrophysics* 641: A6.
 
 </div>
 
 <div id="ref-planck2018vii" class="csl-entry">
 
-———. 2020c. “Planck 2018 Results. VII. Isotropy and Statistics of the CMB.” *Astronomy and Astrophysics* 641: A7.
+———. 2020c. “Planck 2018 results. VII. Isotropy and statistics of the CMB.” *Astronomy and Astrophysics* 641: A7.
 
 </div>
 
 <div id="ref-rashadaPart4" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “From Newton to GPT: The Evolution of Gravitational Understanding: A Century of Advances, and What Still Does Not Fit (Part 4, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/>.
+Rashada, Shareef Ali. 2026a. “From Newton to GPT: The Evolution of Gravitational Understanding: A Century of Advances, and What Still Does Not Fit (Part 4, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-04-from-newton-to-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026b. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026b. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026c. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026c. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart28" class="csl-entry">
 
-———. 2026d. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+———. 2026d. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
 
 </div>
 
 <div id="ref-rashadaPart3" class="csl-entry">
 
-———. 2026e. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+———. 2026e. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026f. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026f. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026g. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026g. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026h. “The Pathway to Matter: How Knots Are Born, What Fails, and How Atoms and Materials Are Built (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026h. “The Pathway to Matter: How Knots Are Born, What Fails, and How Atoms and Materials Are Built (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-riess2022" class="csl-entry">
 
-Riess, Adam G. et al. 2022. “A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 Km s$^{-1}$ Mpc$^{-1}$ Uncertainty from the Hubble Space Telescope and the SH0ES Team.” *Astrophysical Journal Letters* 934: L7.
+Riess, Adam G. et al. 2022. “A comprehensive measurement of the local value of the Hubble constant with 1 km s$^{-1}$ Mpc$^{-1}$ uncertainty from the Hubble Space Telescope and the SH0ES team.” *Astrophysical Journal Letters* 934: L7.
 
 </div>
 
 <div id="ref-rubin1980" class="csl-entry">
 
-Rubin, Vera C., W. Kent Ford, and Norbert Thonnard. 1980. “Rotational Properties of 21 Sc Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (r = 4 Kpc) to UGC 2885 (r = 122 Kpc).” *Astrophysical Journal* 238: 471–87.
+Rubin, Vera C., W. Kent Ford, and Norbert Thonnard. 1980. “Rotational properties of 21 Sc galaxies with a large range of luminosities and radii, from NGC 4605 (r = 4 kpc) to UGC 2885 (r = 122 kpc).” *Astrophysical Journal* 238: 471–87.
 
 </div>
 
 <div id="ref-sancisi2004" class="csl-entry">
 
-Sancisi, R. 2004. “The Visible Matter – Dark Matter Coupling.” In *Dark Matter in Galaxies, IAU Symposium 220*, edited by S. Ryder et al., 233–44. Astronomical Society of the Pacific.
+Sancisi, R. 2004. “The visible matter – dark matter coupling.” In *Dark Matter in Galaxies, IAU Symposium 220*, edited by S. Ryder et al., 233–44. Astronomical Society of the Pacific.
 
 </div>
 
 <div id="ref-sanders2003" class="csl-entry">
 
-Sanders, R. H. 2003. “Clusters of Galaxies with Modified Newtonian Dynamics.” *Monthly Notices of the Royal Astronomical Society* 342: 901–8.
+Sanders, R. H. 2003. “Clusters of galaxies with modified Newtonian dynamics.” *Monthly Notices of the Royal Astronomical Society* 342: 901–8.
 
 </div>
 
 <div id="ref-saulson1997" class="csl-entry">
 
-Saulson, Peter R. 1997. “If Light Waves Are Stretched by Gravitational Waves, How Can We Use Light as a Ruler to Detect Gravitational Waves?” *American Journal of Physics* 65: 501–5.
+Saulson, Peter R. 1997. “If light waves are stretched by gravitational waves, how can we use light as a ruler to detect gravitational waves?” *American Journal of Physics* 65: 501–5.
 
 </div>
 
@@ -604,61 +610,61 @@ Schneider, Peter, Jürgen Ehlers, and Emilio E. Falco. 1992. *Gravitational Lens
 
 <div id="ref-shapiro1964" class="csl-entry">
 
-Shapiro, Irwin I. 1964. “Fourth Test of General Relativity.” *Physical Review Letters* 13: 789–91.
+Shapiro, Irwin I. 1964. “Fourth test of general relativity.” *Physical Review Letters* 13: 789–91.
 
 </div>
 
 <div id="ref-suyu2013" class="csl-entry">
 
-Suyu, S. H. et al. 2013. “Two Accurate Time-Delay Distances from Strong Lensing: Implications for Cosmology.” *Astrophysical Journal* 766: 70.
+Suyu, S. H. et al. 2013. “Two accurate time-delay distances from strong lensing: implications for cosmology.” *Astrophysical Journal* 766: 70.
 
 </div>
 
 <div id="ref-takamoto2020" class="csl-entry">
 
-Takamoto, Masao et al. 2020. “Test of General Relativity by a Pair of Transportable Optical Lattice Clocks.” *Nature Photonics* 14: 411–15.
+Takamoto, Masao et al. 2020. “Test of general relativity by a pair of transportable optical lattice clocks.” *Nature Photonics* 14: 411–15.
 
 </div>
 
 <div id="ref-tenev2018" class="csl-entry">
 
-Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The Mechanics of Spacetime: A Solid Mechanics Perspective on the Theory of General Relativity.” *International Journal of Modern Physics D* 27: 1850083.
+Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The mechanics of spacetime: a solid mechanics perspective on the theory of general relativity.” *International Journal of Modern Physics D* 27: 1850083.
 
 </div>
 
 <div id="ref-tewes2013" class="csl-entry">
 
-Tewes, M. et al. 2013. “COSMOGRAIL: The COSmological MOnitoring of GRAvItational Lenses. XIII. Time Delays and 9-Yr Optical Monitoring of the Lensed Quasar RX J1131$-$<!-- -->1231.” *Astronomy and Astrophysics* 556: A22.
+Tewes, M. et al. 2013. “<span class="nocase">COSMOGRAIL: the COSmological MOnitoring of GRAvItational Lenses. XIII. Time delays and 9-yr optical monitoring of the lensed quasar RX J1131$-$<!-- -->1231</span>.” *Astronomy and Astrophysics* 556: A22.
 
 </div>
 
 <div id="ref-touboul2022" class="csl-entry">
 
-Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle.” *Physical Review Letters* 129: 121102.
+Touboul, Pierre et al. 2022. “MICROSCOPE mission: final results of the test of the equivalence principle.” *Physical Review Letters* 129: 121102.
 
 </div>
 
 <div id="ref-turyshev2012" class="csl-entry">
 
-Turyshev, Slava G. et al. 2012. “Support for the Thermal Origin of the Pioneer Anomaly.” *Physical Review Letters* 108: 241101.
+Turyshev, Slava G. et al. 2012. “Support for the thermal origin of the Pioneer anomaly.” *Physical Review Letters* 108: 241101.
 
 </div>
 
 <div id="ref-vinen1961" class="csl-entry">
 
-Vinen, W. F. 1961. “The Detection of Single Quanta of Circulation in Liquid Helium II.” *Proceedings of the Royal Society of London A* 260: 218–36.
+Vinen, W. F. 1961. “The detection of single quanta of circulation in liquid helium II.” *Proceedings of the Royal Society of London A* 260: 218–36.
 
 </div>
 
 <div id="ref-weisberg2016" class="csl-entry">
 
-Weisberg, J. M., and Y. Huang. 2016. “Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16.” *Astrophysical Journal* 829: 55.
+Weisberg, J. M., and Y. Huang. 2016. “Relativistic measurements from timing the binary pulsar PSR B1913+16.” *Astrophysical Journal* 829: 55.
 
 </div>
 
 <div id="ref-wong2020" class="csl-entry">
 
-Wong, Kenneth C. et al. 2020. “H0LiCOW XIII. A 2.4 Per Cent Measurement of H$_0$ from Lensed Quasars: 5.3$\sigma$ Tension Between Early- and Late-Universe Probes.” *Monthly Notices of the Royal Astronomical Society* 498: 1420–39.
+Wong, Kenneth C. et al. 2020. “H0LiCOW XIII. A 2.4 per cent measurement of H$_0$ from lensed quasars: 5.3$\sigma$ tension between early- and late-Universe probes.” *Monthly Notices of the Royal Astronomical Society* 498: 1420–39.
 
 </div>
 
@@ -674,118 +680,120 @@ Wong, Kenneth C. et al. 2020. “H0LiCOW XIII. A 2.4 Per Cent Measurement of H$_
 
 [^5]: (LZ Collaboration 2025).
 
-[^6]: (Lelli, McGaugh, and Schombert 2016a).
+[^6]: (LZ Collaboration 2026).
 
-[^7]: (McGaugh, Lelli, and Schombert 2016).
+[^7]: (Lelli, McGaugh, and Schombert 2016a).
 
-[^8]: (Lelli, McGaugh, and Schombert 2016b).
+[^8]: (McGaugh, Lelli, and Schombert 2016).
 
-[^9]: (Sancisi 2004).
+[^9]: (Lelli, McGaugh, and Schombert 2016b).
 
-[^10]: (Chae et al. 2020).
+[^10]: (Sancisi 2004).
 
-[^11]: (Mistele et al. 2024).
+[^11]: (Chae et al. 2020).
 
-[^12]: (Chae 2023).
+[^12]: (Mistele et al. 2024).
 
-[^13]: (Banik et al. 2024).
+[^13]: (Chae 2023).
 
-[^14]: (Milgrom 1983).
+[^14]: (Banik et al. 2024).
 
-[^15]: (Abbott et al. 2016).
+[^15]: (Milgrom 1983).
 
-[^16]: (Saulson 1997).
+[^16]: (Abbott et al. 2016).
 
-[^17]: (Abbott et al. 2017b).
+[^17]: (Saulson 1997).
 
-[^18]: (Abbott et al. 2017c).
+[^18]: (Abbott et al. 2017b).
 
-[^19]: (Abbott et al. 2017a).
+[^19]: (Abbott et al. 2017c).
 
-[^20]: (Weisberg and Huang 2016).
+[^20]: (Abbott et al. 2017a).
 
-[^21]: (Tenev and Horstemeyer 2018).
+[^21]: (Weisberg and Huang 2016).
 
-[^22]: (Rashada 2026d).
+[^22]: (Tenev and Horstemeyer 2018).
 
-[^23]: (Ashby 2003).
+[^23]: (Rashada 2026d).
 
 [^24]: (Ashby 2003).
 
-[^25]: (Chou et al. 2010).
+[^25]: (Ashby 2003).
 
-[^26]: (Takamoto et al. 2020).
+[^26]: (Chou et al. 2010).
 
-[^27]: (Grotti et al. 2018).
+[^27]: (Takamoto et al. 2020).
 
-[^28]: (Bothwell et al. 2022).
+[^28]: (Grotti et al. 2018).
 
-[^29]: (Rashada 2026g).
+[^29]: (Bothwell et al. 2022).
 
-[^30]: (Delva et al. 2018).
+[^30]: (Rashada 2026g).
 
-[^31]: (Eddington 1920).
+[^31]: (Delva et al. 2018).
 
-[^32]: (Schneider, Ehlers, and Falco 1992).
+[^32]: (Eddington 1920).
 
-[^33]: (Rashada 2026f).
+[^33]: (Schneider, Ehlers, and Falco 1992).
 
-[^34]: (Shapiro 1964).
+[^34]: (Rashada 2026f).
 
-[^35]: (Tewes et al. 2013).
+[^35]: (Shapiro 1964).
 
-[^36]: (Suyu et al. 2013).
+[^36]: (Tewes et al. 2013).
 
-[^37]: (Wong et al. 2020).
+[^37]: (Suyu et al. 2013).
 
-[^38]: (Fixsen 2009).
+[^38]: (Wong et al. 2020).
 
-[^39]: (Rashada 2026h).
+[^39]: (Fixsen 2009).
 
-[^40]: (Hu and Dodelson 2002).
+[^40]: (Rashada 2026h).
 
-[^41]: (Eisenstein et al. 2005).
+[^41]: (Hu and Dodelson 2002).
 
-[^42]: (Planck Collaboration 2020a).
+[^42]: (Eisenstein et al. 2005).
 
-[^43]: (Planck Collaboration 2020c).
+[^43]: (Planck Collaboration 2020a).
 
-[^44]: (Planck Collaboration 2020b).
+[^44]: (Planck Collaboration 2020c).
 
-[^45]: (McGaugh 1999).
+[^45]: (Planck Collaboration 2020b).
 
-[^46]: (File and Mills 1963).
+[^46]: (McGaugh 1999).
 
-[^47]: (Rashada 2026c).
+[^47]: (File and Mills 1963).
 
-[^48]: (Rashada 2026b).
+[^48]: (Rashada 2026c).
 
-[^49]: (Helmholtz 1858).
+[^49]: (Rashada 2026b).
 
-[^50]: (Vinen 1961).
+[^50]: (Helmholtz 1858).
 
-[^51]: (Deaver and Fairbank 1961).
+[^51]: (Vinen 1961).
 
-[^52]: (Doll and Näbauer 1961).
+[^52]: (Deaver and Fairbank 1961).
 
-[^53]: (Lorentz 1904).
+[^53]: (Doll and Näbauer 1961).
 
-[^54]: (Einstein 1920).
+[^54]: (Lorentz 1904).
 
-[^55]: (Rashada 2026a).
+[^55]: (Einstein 1920).
 
-[^56]: (Planck Collaboration 2020b).
+[^56]: (Rashada 2026a).
 
-[^57]: (Riess et al. 2022).
+[^57]: (Planck Collaboration 2020b).
 
-[^58]: (Wong et al. 2020).
+[^58]: (Riess et al. 2022).
 
-[^59]: (DESI Collaboration 2025).
+[^59]: (Wong et al. 2020).
 
-[^60]: (Touboul et al. 2022).
+[^60]: (DESI Collaboration 2025).
 
-[^61]: (Sanders 2003).
+[^61]: (Touboul et al. 2022).
 
-[^62]: (Clowe et al. 2006).
+[^62]: (Sanders 2003).
 
-[^63]: (Turyshev et al. 2012).
+[^63]: (Clowe et al. 2006).
+
+[^64]: (Turyshev et al. 2012).

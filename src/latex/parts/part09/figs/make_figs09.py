@@ -59,7 +59,7 @@ parts = {"Ground clock": (f(2 * GM / rg), f((om * rg) ** 2)), "GPS satellite clo
 fig, ax = plt.subplots(figsize=(6.6, 2.6))
 for i, (lab, (a, b)) in enumerate(parts.items()):
     ax.barh(i, a, color=BLUE, height=0.5); ax.barh(i, b, left=a, color=ORANGE, height=0.5)
-    ax.text(a + b + 0.8, i, f"{a + b:.1f} µs a day", va="center", fontsize=7.5)
+    ax.text(a + b + 0.8, i, f"{a + b:.2f} µs a day", va="center", fontsize=7.5)
 ax.set_yticks([0, 1]); ax.set_yticklabels(list(parts)); ax.invert_yaxis()
 ax.set_xlabel("slowing of the clock by the medium streaming past it (microseconds a day)")
 from matplotlib.patches import Patch
@@ -68,7 +68,7 @@ ax.legend(handles=[Patch(color=BLUE, label="the inflow streaming down past the c
           frameon=False, fontsize=7, loc="upper right", bbox_to_anchor=(1.0, 0.72))
 g_, s_ = sum(parts["Ground clock"]), sum(parts["GPS satellite clock"])
 ax.annotate("", xy=(s_, 1.42), xytext=(g_, 1.42), arrowprops=dict(arrowstyle="<->", color=DARK, lw=0.8))
-ax.text((g_ + s_) / 2, 1.62, f"difference {g_ - s_:.1f} µs a day: the satellite clock runs fast", ha="center", fontsize=7, color=DARK)
+ax.text((g_ + s_) / 2, 1.62, f"difference {g_ - s_:.2f} µs a day: the satellite clock runs fast", ha="center", fontsize=7, color=DARK)
 ax.set_xlim(0, 75); ax.set_ylim(1.95, -0.5)
 for sp in ("top", "right"): ax.spines[sp].set_visible(False)
 plt.tight_layout(); save("fig09-3-gps")
