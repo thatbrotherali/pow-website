@@ -28,6 +28,9 @@ def body_of(t):
     for pat in (r"\\gptitle", r"\\addcontentsline\{[^}]*\}\{[^}]*\}\{[^}]*\}", r"\\clearpage", r"\\newpage",
                 r"\\bibliography\{[^}]*\}", r"\\enlargethispage\{[^}]*\}", r"\\FloatBarrier"):
         b = re.sub(pat, "", b)
+    # standalone sources (Parts 1-4, 6, 7, 11-24) carry their own title page and contents
+    b = re.sub(r"\\begin\{titlepage\}.*?\\end\{titlepage\}", "", b, flags=re.S)
+    b = re.sub(r"\\tableofcontents|\\thispagestyle\{[^}]*\}|\\setcounter\{page\}\{\d+\}", "", b)
     return b
 
 

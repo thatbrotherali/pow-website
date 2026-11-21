@@ -16143,17 +16143,17 @@ Materialism often claims superiority on the grounds of predictive power. Yet the
 
 Dark matter was proposed within Newtonian dynamics, not to rescue General Relativity. In 1933 Fritz Zwicky found that the galaxies of the Coma cluster move too fast to be held together by the matter that can be seen;[^8] in the 1970s Vera Rubin and colleagues found that the outer parts of spiral galaxies orbit as fast as the inner parts, when the visible matter says they should orbit more slowly.[^9] Since then, several independent lines of evidence have been read the same way: the bending of light by clusters of galaxies, most famously in the Bullet Cluster;[^10] the pattern of fluctuations in the cosmic microwave background;[^11] and the growth of structure in the universe.
 
-The evidence that *something* is missing is strong. What is missing is the thing itself. Decades of searches for a dark-matter particle, in detectors deep underground, have found nothing, and the most sensitive of them continue to set tighter limits.[^12] And with each null result, the hypothesis moves: to lighter particles, weaker interactions, new candidates. A hypothesis that survives every failure by changing its parameters is falsifiable in principle and adjustable in practice.
+The evidence that *something* is missing is strong. What is missing is the thing itself. Decades of searches for a dark-matter particle, in detectors deep underground, have found nothing, and the most sensitive of them continue to set tighter limits.[^12] In September 2026 the LZ experiment reported a single event it could not explain, at a significance well short of a discovery, and did not claim to have seen dark matter.[^13] And with each null result, the hypothesis moves: to lighter particles, weaker interactions, new candidates. A hypothesis that survives every failure by changing its parameters is falsifiable in principle and adjustable in practice.
 
-The astronomer Stacy McGaugh, comparing the dark-matter paradigm with its main rival, wrote of the fixes added to models of galaxy formation to make them match what is seen: “My fear is that feedback has become a modern version of the epicycle.”[^13] The comparison is apt. In the Ptolemaic system, epicycles were not errors; they were fixes. They extended a flawed cosmology by patching over inconsistency, not by correcting its foundation.
+The astronomer Stacy McGaugh, comparing the dark-matter paradigm with its main rival, wrote of the fixes added to models of galaxy formation to make them match what is seen: “My fear is that feedback has become a modern version of the epicycle.”[^14] The comparison is apt. In the Ptolemaic system, epicycles were not errors; they were fixes. They extended a flawed cosmology by patching over inconsistency, not by correcting its foundation.
 
 #### Dark energy.
 
-In 1998, observations of distant supernovae showed that the expansion of the universe is accelerating.[^14][^15] The cause was named dark energy. It has no mechanism: the simplest version, a constant energy of empty space, is smaller than the value quantum theory suggests by a factor so large that it is often called the worst prediction in physics. Recent surveys hint that dark energy may be changing over time, which, if confirmed, would mean the placeholder itself is not stable.[^16]
+In 1998, observations of distant supernovae showed that the expansion of the universe is accelerating.[^15][^16] The cause was named dark energy. It has no mechanism: the simplest version, a constant energy of empty space, is smaller than the value quantum theory suggests by a factor so large that it is often called the worst prediction in physics. Recent surveys hint that dark energy may be changing over time, which, if confirmed, would mean the placeholder itself is not stable.[^17]
 
 #### What the ghost forces show.
 
-Dark matter and dark energy are not frauds, and the observations behind them are real. They are names for what the observations require and the theory cannot supply. They are the dark sector of Part 3: explanations that account for an effect without naming what touches what.[^17] The framework’s own proposal, taken up in Part 9, is that the medium itself behaves differently far from a mass, where its flow is weakest; that proposal must meet the same data, and name its mechanism. **\[Hypothesis\]** Whatever the answer proves to be, a science that holds itself to mechanism cannot count a placeholder as a discovery.
+Dark matter and dark energy are not frauds, and the observations behind them are real. They are names for what the observations require and the theory cannot supply. They are the dark sector of Part 3: explanations that account for an effect without naming what touches what.[^18] The framework’s own proposal, taken up in Part 9, is that the medium itself behaves differently far from a mass, where its flow is weakest; that proposal must meet the same data, and name its mechanism. **\[Hypothesis\]**[^19] Whatever the answer proves to be, a science that holds itself to mechanism cannot count a placeholder as a discovery.
 
 # The Neglect of Coherence
 
@@ -16171,7 +16171,7 @@ Materialism upholds objectivity as its central virtue: the removal of human subj
 
 > “Matter as primary” is not an observation. It is an assumption.
 
-Quantum mechanics is often cited at this point, in both directions, and it needs to be cited accurately. John Wheeler wrote that “no elementary phenomenon is a phenomenon until it is a registered (observed) phenomenon”.[^18] But Wheeler meant registration by an irreversible act of amplification, such as the blackening of a grain of photographic emulsion or the click of a detector, and he said plainly that consciousness has nothing to do with the quantum process itself. Whether a mind plays any part in measurement is a question of interpretation, on which physicists disagree, and the data do not decide it. The claim that intention or expectation changes quantum outcomes is not supported.
+Quantum mechanics is often cited at this point, in both directions, and it needs to be cited accurately. John Wheeler wrote that “no elementary phenomenon is a phenomenon until it is a registered (observed) phenomenon”.[^20] But Wheeler meant registration by an irreversible act of amplification, such as the blackening of a grain of photographic emulsion or the click of a detector, and he said plainly that consciousness has nothing to do with the quantum process itself. Whether a mind plays any part in measurement is a question of interpretation, on which physicists disagree, and the data do not decide it. The claim that intention or expectation changes quantum outcomes is not supported.
 
 What quantum mechanics does show is more useful to this paper’s argument. Physics has a measurement problem, and has had one for a century. The theory describes a system evolving smoothly through many possibilities, and then, when it is measured, a single outcome. What happens in between is called “collapse”. “Collapse” is a name, not a mechanism: it does not say what touches what, or what is exchanged, when a possibility becomes a fact. **\[Argued\]** The rival interpretations (Copenhagen, many worlds, pilot waves, spontaneous collapse) agree on every prediction and disagree on what is happening. The foundation of modern physics, in other words, describes outcomes with great precision and leaves its central event unexplained.
 
@@ -16252,6 +16252,8 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Clarifications
 
+- The dark-matter searches are cited to LZ’s 2025 results and its September 2026 report, as in Parts 4 and 9; Part 9 is cited where its proposal is named.
+
 - The quotation attributed to Chalmers (“consciousness is not explained by functional organization—it is something extra”) could not be found in the cited paper and is replaced by his own question, with his proposal to take experience as fundamental given in paraphrase.
 
 - The quotation attributed to McGaugh (“We invented dark matter … It’s the 21st century’s epicycle”) could not be found in the cited paper and is replaced by his actual sentence about feedback as “a modern version of the epicycle”.
@@ -16264,12 +16266,6 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-lz2023" class="csl-entry">
-
-Aalbers, J., and others (LZ Collaboration). 2023. “First Dark Matter Search Results from the LUX-ZEPLIN (LZ) Experiment.” *Physical Review Letters* 131: 041002.
-
-</div>
-
 <div id="ref-bourget2023" class="csl-entry">
 
 Bourget, David, and David J. Chalmers. 2023. “Philosophers on Philosophy: The 2020 PhilPapers Survey.” *Philosophers’ Imprint* 23 (11).
@@ -16278,7 +16274,7 @@ Bourget, David, and David J. Chalmers. 2023. “Philosophers on Philosophy: The 
 
 <div id="ref-chalmers1995" class="csl-entry">
 
-Chalmers, David J. 1995. “Facing up to the Problem of Consciousness.” *Journal of Consciousness Studies* 2 (3): 200–219.
+Chalmers, David J. 1995. “Facing Up to the Problem of Consciousness.” *Journal of Consciousness Studies* 2 (3): 200–219.
 
 </div>
 
@@ -16291,6 +16287,18 @@ Clowe, Douglas et al. 2006. “A Direct Empirical Proof of the Existence of Dark
 <div id="ref-desi2025" class="csl-entry">
 
 DESI Collaboration. 2025. “DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints.” arXiv:2503.14738.
+
+</div>
+
+<div id="ref-lz2025" class="csl-entry">
+
+LZ Collaboration. 2025. “Dark matter search results from 4.2 tonne-years of exposure of the LUX-ZEPLIN (LZ) experiment.” Physical Review Letters, doi:10.1103/4dyc-z8zf.
+
+</div>
+
+<div id="ref-lz2026" class="csl-entry">
+
+———. 2026. “LZ Sees Surprising Result in Search for Dark Matter.” U.S. Department of Energy announcement, 1 September.
 
 </div>
 
@@ -16318,27 +16326,33 @@ Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.
 
 </div>
 
+<div id="ref-rashadaPart9" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+
+</div>
+
 <div id="ref-rashadaPart1" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Introduction to the Unified Framework (Part 1, Second Edition), Appendix 1.a.” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+———. 2026b. “Introduction to the Unified Framework (Part 1, second edition), Appendix 1.A.” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
 
 </div>
 
 <div id="ref-rashadaPart3" class="csl-entry">
 
-———. 2026b. “The Gravity Catalog (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+———. 2026c. “The Gravity Catalog (Part 3, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026c. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026d. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart2" class="csl-entry">
 
-———. 2026d. “The Removal of Intent, Cause and Mechanism (Part 2, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
+———. 2026e. “The Removal of Intent, Cause and Mechanism (Part 2, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
 
 </div>
 
@@ -16356,27 +16370,27 @@ Rubin, Vera C., W. Kent Ford, and Norbert Thonnard. 1980. “Rotational Properti
 
 <div id="ref-wheeler1983" class="csl-entry">
 
-Wheeler, John Archibald. 1983. “Law Without Law.” In *Quantum Theory and Measurement*, edited by John Archibald Wheeler and Wojciech H. Zurek, 182–213. Princeton University Press.
+Wheeler, John Archibald. 1983. “Law without Law.” In *Quantum Theory and Measurement*, edited by John Archibald Wheeler and Wojciech H. Zurek, 182–213. Princeton University Press.
 
 </div>
 
 <div id="ref-zwicky1933" class="csl-entry">
 
-Zwicky, Fritz. 1933. “Die Rotverschiebung von Extragalaktischen Nebeln.” *Helvetica Physica Acta* 6: 110–27.
+Zwicky, Fritz. 1933. “Die Rotverschiebung von extragalaktischen Nebeln.” *Helvetica Physica Acta* 6: 110–27.
 
 </div>
 
 </div>
 
-[^1]: (Rashada 2026a).
+[^1]: (Rashada 2026b).
 
-[^2]: (Rashada 2026d).
+[^2]: (Rashada 2026e).
 
 [^3]: (Bourget and Chalmers 2023).
 
 [^4]: (Chalmers 1995).
 
-[^5]: (Rashada 2026c).
+[^5]: (Rashada 2026d).
 
 [^6]: (Peebles and Ratra 2003).
 
@@ -16390,19 +16404,23 @@ Zwicky, Fritz. 1933. “Die Rotverschiebung von Extragalaktischen Nebeln.” *He
 
 [^11]: (Planck Collaboration 2020).
 
-[^12]: (Aalbers and Collaboration) 2023).
+[^12]: (LZ Collaboration 2025).
 
-[^13]: (McGaugh 2015).
+[^13]: (LZ Collaboration 2026).
 
-[^14]: (Riess et al. 1998).
+[^14]: (McGaugh 2015).
 
-[^15]: (Perlmutter et al. 1999).
+[^15]: (Riess et al. 1998).
 
-[^16]: (DESI Collaboration 2025).
+[^16]: (Perlmutter et al. 1999).
 
-[^17]: (Rashada 2026b).
+[^17]: (DESI Collaboration 2025).
 
-[^18]: (Wheeler 1983).
+[^18]: (Rashada 2026c).
+
+[^19]: (Rashada 2026a).
+
+[^20]: (Wheeler 1983).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-12-the-collapse-of-materialist-epistemology/
