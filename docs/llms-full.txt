@@ -11961,7 +11961,7 @@ Without matter, the medium has one way of moving: its own oscillation, everywher
 
 **\[End of passage\]**
 
-This is what the first edition meant by mass resisting coherent compression. **\[Argued\]** The medium arriving in step is turned out of step by the matter it enters; the matter does not stop the flow, it converts it. Three consequences follow, and Parts 6 to 13 use all three.
+This is mass resisting coherent compression. **\[Argued\]** The medium arriving in step is turned out of step by the matter it enters; the matter does not stop the flow, it converts it. Three consequences follow, and Parts 6 to 13 use all three.
 
 - The intake makes the inflow. **\[Hypothesis\]** Matter takes in the medium from every side, so the medium around it flows inward, and the more matter, the more flow.
 
@@ -11988,13 +11988,13 @@ The inflow is calibrated, not fitted: **\[Argued\]** its speed is chosen so that
 
 ## The shadow, restated
 
-The first edition described a mass as casting a shadow in a flow of gravitons, with bodies pushed into the shadow. Two parts of that picture stand, and one does not.
+A mass is often pictured as casting a shadow in a flow of gravitons, with bodies pushed into the shadow. Two parts of that picture stand, and one does not.
 
 - The region between two masses is a region of lowered pressure. **\[Argued\]** Each mass’s inflow lowers the pressure around it, and between two masses both inflows act. In that sense “shadow” still describes it.
 
 - Shading by absorption acts as well, **\[Hypothesis\]** at the scale of the atom and possibly when bodies line up, as in eclipses. It is small: each particle takes only a tiny share of the medium passing through it, and measurements bound any shielding of gravity by matter far below what could carry weight (Part 15).
 
-- The force is carried by the flow, not by the shadow. **\[Argued\]** A body is not pushed into a shadow from behind; it is carried by the medium flowing around and through it. This is the first edition’s river and stone, with the river flowing toward the mass, and the stone carried by it.
+- The force is carried by the flow, not by the shadow. **\[Argued\]** A body is not pushed into a shadow from behind; it is carried by the medium flowing around and through it. The river meets the stone: the river flows toward the mass, and the stone is carried by it.
 
 # Carried and Held
 
@@ -12028,7 +12028,7 @@ This accounts for what is measured in free fall. **\[Argued\]**
 
 - Holding is throughput, not consumption. **\[Argued\]** A table, an arch or a permanent magnet holds indefinitely with no input. Measured against the medium, momentum and energy flow through a held load (about 1.1 megawatts through 10 kilograms, at 11.2 km/s), and are passed on, not used up (Part 6). “No work is done” is true in the frame of the laboratory; it is not true in the medium’s.
 
-- Solidity is the boundary’s answer. **\[Hypothesis\]** Where two bodies meet, the counterflow from each, crowded at the contact, is brought back into step and presses. That pressure is the normal force: it resists compression, and creates and holds the boundary between the bodies. Its rate equals the momentum delivered, which is why every scale reading is a reading of the current (Parts 6 and 27).[^21] The first edition called this the compression barrier.
+- Solidity is the boundary’s answer. **\[Hypothesis\]** Where two bodies meet, the counterflow from each, crowded at the contact, is brought back into step and presses. That pressure is the normal force: it resists compression, and creates and holds the boundary between the bodies. Its rate equals the momentum delivered, which is why every scale reading is a reading of the current (Parts 6 and 27).[^21] This is the compression barrier.
 
 ## Where the energy is
 
@@ -12040,7 +12040,7 @@ An orbit is a body coasting sideways through a medium that is itself acceleratin
 
 # Motion and Inertia
 
-The first edition described inertia as a corridor: a moving body takes in more of the medium ahead of it than behind, carving a path that favours continued motion, so that a change of motion costs the work of carving a new one. The second edition keeps the mechanism and states it in measured terms.
+Inertia is a corridor: a moving body takes in more of the medium ahead of it than behind, carving a path that favours continued motion, so that a change of motion costs the work of carving a new one. In measured terms:
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -12048,7 +12048,7 @@ The first edition described inertia as a corridor: a moving body takes in more o
 
 **\[End of passage\]**
 
-- Held steady, the path costs nothing. **\[Argued\]** The imbalance is kept without braking: orbits last, particles coast. This is what the first edition called the field’s preference for continued motion.
+- Held steady, the path costs nothing. **\[Argued\]** The imbalance is kept without braking: orbits last, particles coast. This is the field’s preference for continued motion.
 
 - Changing it costs. **\[Argued\]** A new speed or direction needs a new imbalance, and that is what a force pays for. Approaching $c$, the front rate grows without limit, so does the cost, and no body reaches the speed of light.
 
@@ -12078,11 +12078,11 @@ Redshift is the difference between clocks. **\[Hypothesis\]** Light keeps the rh
 
 # Many Bodies, Rotation and Time
 
-This section is the mechanism Parts 12 and 13 rely on, and the first edition’s interference, corridors, memory and hysteresis restated.
+This section is the mechanism Parts 12 and 13 rely on: interference, corridors, memory and hysteresis in the medium.
 
 ## Many bodies
 
-- Pressures combine; flows do not simply add. **\[Hypothesis\]** Where two inflows meet, what combines is the medium’s pressure, and every body is carried by the acceleration the combined pressure sets up (Part 7). This is the first edition’s “interference”: the medium is one, and the bodies in it share it.
+- Pressures combine; flows do not simply add. **\[Hypothesis\]** Where two inflows meet, what combines is the medium’s pressure, and every body is carried by the acceleration the combined pressure sets up (Part 7). This is interference: the medium is one, and the bodies in it share it.
 
 - The forces are equal and opposite. **\[Hypothesis\]** Each body receives momentum from the other’s inflow in proportion to its own mass: $m \cdot GM/r^2$ and $M \cdot Gm/r^2$ (Part 7).
 
@@ -12096,13 +12096,13 @@ This section is the mechanism Parts 12 and 13 rely on, and the first edition’s
 
 **\[End of passage\]**
 
-The first edition’s corridors are kept where they belong. **\[Argued\]** Inside matter, a corridor is a line of patterns held in step, along which the medium, load, heat and charge are passed (Part 21);[^34] a magnet is a corridor extended into the medium outside (Part 22).[^35] Between orbiting bodies, the counterflows meet in step at repeated conjunctions, and over long times systems are sorted into regular shells and resonances: the gaps in rings and in the asteroid belt, and the chains of planets in resonance (Parts 16 and 26).
+Corridors belong inside matter and in magnets. **\[Argued\]** Inside matter, a corridor is a line of patterns held in step, along which the medium, load, heat and charge are passed (Part 21);[^34] a magnet is a corridor extended into the medium outside (Part 22).[^35] Between orbiting bodies, the counterflows meet in step at repeated conjunctions, and over long times systems are sorted into regular shells and resonances: the gaps in rings and in the asteroid belt, and the chains of planets in resonance (Parts 16 and 26).
 
 ## Time and the field
 
-- Changes in the field travel at the speed of light. **\[Argued\]** Gravitational waves and light from the same event arrived together, to about one part in $10^{15}$.[^36] The first edition’s finite propagation delay stands, with its speed now measured.
+- Changes in the field travel at the speed of light. **\[Argued\]** Gravitational waves and light from the same event arrived together, to about one part in $10^{15}$.[^36] The field’s propagation delay is real, and its speed is measured.
 
-- The field keeps a record over time. **\[Argued\]** What the first edition called gravitational memory and hysteresis are measured where they are expected. Tides lag behind the Moon, because the oceans and the solid Earth take time to respond; the lag passes the Earth’s spin to the Moon’s orbit, and the Moon recedes 3.8 centimetres a year.[^37] Systems are sorted over long times into lasting resonances, and a transition in a growing body may be biased by the configuration of the medium at that moment, and carry it as a record **\[Hypothesis\]** (Part 13).
+- The field keeps a record over time. **\[Argued\]** Gravitational memory and hysteresis are measured where they are expected. Tides lag behind the Moon, because the oceans and the solid Earth take time to respond; the lag passes the Earth’s spin to the Moon’s orbit, and the Moon recedes 3.8 centimetres a year.[^37] Systems are sorted over long times into lasting resonances, and a transition in a growing body may be biased by the configuration of the medium at that moment, and carry it as a record **\[Hypothesis\]** (Part 13).
 
 # What the Mechanism Must Pass
 
@@ -12153,7 +12153,7 @@ Parts 6 to 13: what each claims, the mechanism it relies on, and where the mecha
 
 Graviton Pressure Theory does not ask the reader to believe in abstractions. It asks what touches what. Its answer is a medium that fills space; matter as a pattern of that medium, kept in being by taking it in; an inflow into every mass, with its pressure lowered where it flows fastest; and every body in it carried, every clock slowed and every rod squashed by the medium streaming through. Held, a body passes the medium’s delivery into its support, and that is weight; let go, it is carried, and that is free fall. A moving body carves its path through the medium, and that is momentum. Light is refracted by the medium’s lowered pressure, and that is lensing. A spinning body sets the medium turning, and that is frame dragging. Each gives the measured number, and each names its carrier.
 
-Gravity is what happens when flow meets form. The first edition reclaimed it from the void that Newton and Einstein left unexamined. The second edition sets out what fills the void, and holds every part of it to the measurements.
+Gravity is what happens when flow meets form. Reclaimed from the void that Newton and Einstein left unexamined, it is set out here as what fills that void, with every part of it held to the measurements.
 
 # Changes in the Second Edition
 
