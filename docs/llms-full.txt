@@ -13636,16 +13636,16 @@ General relativity treats spacetime as real. It does not only describe how bodie
 
 <div id="tab:given">
 
-| **Spacetime, in the standard account**                                                    | **Measured**                                                                                        |
-|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| It is curved by matter, and its curvature is a physical state                             | clocks slowed with height; light bent; orbits turned (Will 2014)                                    |
-| It carries waves at the speed of light, with two polarisations                            | LIGO, Virgo; speed equal to light’s to $10^{-15}$ (Abbott et al. 2016, 2017)                        |
-| The waves carry energy and momentum                                                       | binary pulsar orbits shrink as the waves carry energy away (Isaacson 1968; Weisberg and Huang 2016) |
-| It is stiff: a strain needs a stress of order $c^4/8\pi G \approx 5\times10^{42}$ newtons | the smallness of the strain from violent events, $10^{-21}$ (Tenev and Horstemeyer 2018)            |
-| It is dragged around by a spinning mass                                                   | Gravity Probe B: $37\pm7$ milliarcseconds a year (Everitt et al. 2011)                              |
-| It expands                                                                                | the redshift of distant galaxies                                                                    |
-| Empty of matter, it holds energy: about $5\times10^{-10}$ joules per cubic metre          | dark energy, inferred from the expansion (Planck Collaboration 2020)                                |
-| In cosmology it has a frame of rest                                                       | the background light’s dipole, 370 km/s (Fixsen 2009)                                               |
+| **Spacetime, in the standard account**                                                 | **Measured**                                                                                        |
+|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| It is curved by matter, and its curvature is a physical state                          | clocks slowed with height; light bent; orbits turned (Will 2014)                                    |
+| It carries waves at the speed of light, with two polarisations                         | LIGO, Virgo; speed equal to light’s to $10^{-15}$ (Abbott et al. 2016, 2017)                        |
+| The waves carry energy and momentum                                                    | binary pulsar orbits shrink as the waves carry energy away (Isaacson 1968; Weisberg and Huang 2016) |
+| It is stiff: its stiffness, $c^4/8\pi G$, is a force of about $5\times10^{42}$ newtons | the smallness of the strain from violent events, $10^{-21}$ (Tenev and Horstemeyer 2018)            |
+| It is dragged around by a spinning mass                                                | Gravity Probe B: $37\pm7$ milliarcseconds a year (Everitt et al. 2011)                              |
+| It expands                                                                             | the redshift of distant galaxies                                                                    |
+| Empty of matter, it holds energy: about $5\times10^{-10}$ joules per cubic metre       | dark energy, inferred from the expansion (Planck Collaboration 2020)                                |
+| In cosmology it has a frame of rest                                                    | the background light’s dipole, 370 km/s (Fixsen 2009)                                               |
 
 What spacetime is given in the standard account, and how each is measured.
 
@@ -13859,25 +13859,25 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-abbott2016" class="csl-entry">
 
-Abbott, B. P. et al. 2016. “Observation of Gravitational Waves from a Binary Black Hole Merger.” *Physical Review Letters* 116: 061102.
+Abbott, B. P. et al. 2016. “Observation of gravitational waves from a binary black hole merger.” *Physical Review Letters* 116: 061102.
 
 </div>
 
 <div id="ref-abbott2017speed" class="csl-entry">
 
-——— et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
+——— et al. 2017. “Gravitational waves and gamma-rays from a binary neutron star merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
 
 </div>
 
 <div id="ref-deser1970" class="csl-entry">
 
-Deser, S. 1970. “Self-Interaction and Gauge Invariance.” *General Relativity and Gravitation* 1: 9–18.
+Deser, S. 1970. “Self-interaction and gauge invariance.” *General Relativity and Gravitation* 1: 9–18.
 
 </div>
 
 <div id="ref-earman1987" class="csl-entry">
 
-Earman, John, and John D. Norton. 1987. “What Price Spacetime Substantivalism? The Hole Story.” *British Journal for the Philosophy of Science* 38: 515–25.
+Earman, John, and John D. Norton. 1987. “What price spacetime substantivalism? The hole story.” *British Journal for the Philosophy of Science* 38: 515–25.
 
 </div>
 
@@ -13889,7 +13889,7 @@ Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University P
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 844–47.
+Einstein, Albert. 1915. “Die Feldgleichungen der Gravitation.” *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 844–47.
 
 </div>
 
@@ -13901,13 +13901,13 @@ Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberi
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+———. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation (Methuen, 1922), “Ether and the Theory of Relativity,” in *Sidelights on Relativity*.
 
 </div>
 
 <div id="ref-everitt2011" class="csl-entry">
 
-Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: final results of a space experiment to test general relativity.” *Physical Review Letters* 106: 221101.
 
 </div>
 
@@ -13919,25 +13919,25 @@ Feynman, Richard P., Fernando B. Morinigo, and William G. Wagner. 1995. *Feynman
 
 <div id="ref-fixsen2009" class="csl-entry">
 
-Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *Astrophysical Journal* 707: 916–20.
+Fixsen, D. J. 2009. “The temperature of the cosmic microwave background.” *Astrophysical Journal* 707: 916–20.
 
 </div>
 
 <div id="ref-gullstrand1922" class="csl-entry">
 
-Gullstrand, Allvar. 1922. “Allgemeine lösung Des Statischen Einkörperproblems in Der Einsteinschen Gravitationstheorie.” *Arkiv för Matematik, Astronomi Och Fysik* 16 (8): 1–15.
+Gullstrand, Allvar. 1922. “Allgemeine Lösung des statischen Einkörperproblems in der Einsteinschen Gravitationstheorie.” *Arkiv för Matematik, Astronomi Och Fysik* 16 (8): 1–15.
 
 </div>
 
 <div id="ref-hamilton2008" class="csl-entry">
 
-Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The River Model of Black Holes.” *American Journal of Physics* 76: 519–32.
+Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The river model of black holes.” *American Journal of Physics* 76: 519–32.
 
 </div>
 
 <div id="ref-isaacson1968" class="csl-entry">
 
-Isaacson, Richard A. 1968. “Gravitational Radiation in the Limit of High Frequency. II. Nonlinear Terms and the Effective Stress Tensor.” *Physical Review* 166: 1272–80.
+Isaacson, Richard A. 1968. “Gravitational radiation in the limit of high frequency. II. Nonlinear terms and the effective stress tensor.” *Physical Review* 166: 1272–80.
 
 </div>
 
@@ -13949,79 +13949,79 @@ Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. 1973. *Gravitatio
 
 <div id="ref-okun2000" class="csl-entry">
 
-Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the Interpretation of the Redshift in a Static Gravitational Field.” *American Journal of Physics* 68: 115–19.
+Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the interpretation of the redshift in a static gravitational field.” *American Journal of Physics* 68: 115–19.
 
 </div>
 
 <div id="ref-painleve1921" class="csl-entry">
 
-Painlevé, Paul. 1921. “La mécanique Classique Et La Théorie de La Relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
+Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
 
 </div>
 
 <div id="ref-planck2018vi" class="csl-entry">
 
-Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy and Astrophysics* 641: A6.
+Planck Collaboration. 2020. “Planck 2018 results. VI. Cosmological parameters.” *Astronomy and Astrophysics* 641: A6.
 
 </div>
 
 <div id="ref-rashadaPart9" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+Rashada, Shareef Ali. 2026a. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
 
 </div>
 
 <div id="ref-rashadaPart14" class="csl-entry">
 
-———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026c. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026c. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart26" class="csl-entry">
 
-———. 2026d. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
+———. 2026d. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
 
 </div>
 
 <div id="ref-rashadaPart10" class="csl-entry">
 
-———. 2026e. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
+———. 2026e. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
 
 </div>
 
 <div id="ref-rashadaPart28" class="csl-entry">
 
-———. 2026f. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+———. 2026f. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
 
 </div>
 
 <div id="ref-rashadaPart3" class="csl-entry">
 
-———. 2026g. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+———. 2026g. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026h. “The Illusion of Pull: The Mystery and Mechanism of Attraction (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026h. “The Illusion of Pull: The Mystery and Mechanism of Attraction (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026i. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026i. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026j. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026j. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -14033,7 +14033,7 @@ Schneider, Peter, Jürgen Ehlers, and Emilio E. Falco. 1992. *Gravitational Lens
 
 <div id="ref-tenev2018" class="csl-entry">
 
-Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The Mechanics of Spacetime: A Solid Mechanics Perspective on the Theory of General Relativity.” *International Journal of Modern Physics D* 27: 1850083.
+Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The mechanics of spacetime: a solid mechanics perspective on the theory of general relativity.” *International Journal of Modern Physics D* 27: 1850083.
 
 </div>
 
@@ -14045,7 +14045,7 @@ Weinberg, Steven. 1972. *Gravitation and Cosmology: Principles and Applications 
 
 <div id="ref-weisberg2016" class="csl-entry">
 
-Weisberg, J. M., and Y. Huang. 2016. “Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16.” *Astrophysical Journal* 829: 55.
+Weisberg, J. M., and Y. Huang. 2016. “Relativistic measurements from timing the binary pulsar PSR B1913+16.” *Astrophysical Journal* 829: 55.
 
 </div>
 
@@ -14057,7 +14057,7 @@ Wheeler, John Archibald. 1990. *A Journey into Gravity and Spacetime*. Scientifi
 
 <div id="ref-will2014" class="csl-entry">
 
-Will, Clifford M. 2014. “The Confrontation Between General Relativity and Experiment.” *Living Reviews in Relativity* 17: 4.
+Will, Clifford M. 2014. “The confrontation between general relativity and experiment.” *Living Reviews in Relativity* 17: 4.
 
 </div>
 
