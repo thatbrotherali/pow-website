@@ -60,7 +60,18 @@ def number_refs(b, part):
         for i, m in enumerate(re.finditer(r"\\begin\{" + env + r"\}.*?\\end\{" + env + r"\}", b, re.S), 1):
             for lab in re.findall(r"\\label\{([^}]+)\}", m.group(0)):
                 labels[lab] = f"{part}.{i}"
-    b = re.sub(r"\\ref\{([^}]+)\}", lambda m: labels.get(m.group(1), m.group(0)), b)
+    # equations: number them as print does, (1), (2), ..., and show the number on the web with \tag
+    eq, count = {}, [0]
+    def tag_eq(m):
+        body = m.group(0); count[0] += 1; no = str(count[0])
+        labs = re.findall(r"\\label\{([^}]+)\}", body)
+        for lab in labs:
+            eq[lab] = no
+            body = body.replace("\\label{" + lab + "}", "")
+        return body.replace("\\end{equation}", "\\tag{" + no + "}\\end{equation}")
+    b = re.sub(r"\\begin\{equation\}.*?\\end\{equation\}", tag_eq, b, flags=re.S)
+    b = re.sub(r"\\eqref\{([^}]+)\}", lambda m: f"({eq[m.group(1)]})" if m.group(1) in eq else m.group(0), b)
+    b = re.sub(r"\\ref\{([^}]+)\}", lambda m: labels.get(m.group(1), eq.get(m.group(1), m.group(0))), b)
     return b
 
 
