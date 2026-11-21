@@ -30,6 +30,7 @@ def fix(text):
     for t in TITLES:
         text, k = re.subn(re.escape(t), t, text, flags=re.IGNORECASE)
         n += k
+    text, k = re.subn(r"Gravity Probe b\b", "Gravity Probe B", text); n += k  # citeproc lowercases the lone letter
     return text, n
 if __name__ == "__main__":
     for p in map(pathlib.Path, sys.argv[1:]):

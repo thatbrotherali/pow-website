@@ -915,9 +915,15 @@ Event Horizon Telescope Collaboration. 2019. “First M87 Event Horizon Telescop
 
 </div>
 
+<div id="ref-eht2022" class="csl-entry">
+
+———. 2022. “First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way.” *Astrophysical Journal Letters* 930: L12.
+
+</div>
+
 <div id="ref-everitt2011" class="csl-entry">
 
-Everitt, C. W. F. et al. 2011. “Gravity Probe b: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
 
 </div>
 
@@ -1109,7 +1115,7 @@ Zwicky, Fritz. 1933. “Die Rotverschiebung von Extragalaktischen Nebeln.” *He
 
 [^21]: (Anderson et al. 2008).
 
-[^22]: (Event Horizon Telescope Collaboration 2019).
+[^22]: (Event Horizon Telescope Collaboration 2019, 2022).
 
 [^23]: (Michell 1784).
 

@@ -11,6 +11,7 @@
 \usepackage[margin=2.6cm]{geometry}
 \usepackage[round]{natbib}
 \usepackage{titlesec}
+\usepackage[titles]{tocloft}\setlength{\cftsecnumwidth}{2.4em}\setlength{\cftsubsecindent}{2.4em}\setlength{\cftsubsecnumwidth}{3.2em}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
@@ -24,7 +25,6 @@
 \renewcommand{\thesection}{3.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -40,7 +40,7 @@
 \newcommand{\REN}{\reg{EN}}
 \newcommand{\RQ}{\reg{Q}}
 \newcommand{\RDS}{\reg{DS}}
-\newcommand{\expl}[1]{\par\noindent\hspace*{1.2em}\begin{minipage}[t]{\dimexpr\linewidth-1.2em}\small\textit{Explained as:} #1\end{minipage}\par\smallskip}
+\newcommand{\expl}[1]{\par\begingroup\leftskip=1.2em\small\noindent\textit{Explained as:} #1\par\endgroup\smallskip}% no minipage, so footnotes keep the document's numbering
 \newcommand{\why}[1]{\par\textit{#1}\par}
 \begin{document}
 \begin{titlepage}
@@ -667,7 +667,7 @@ Beyond Earth's neighbourhood, the same influence arranges an entire planetary sy
 \subsection{Black Holes}
 
 \begin{itemize}
-  \item Stars orbit an unseen compact object of about four million solar masses at the centre of our galaxy. Images of the glowing gas around the black holes in the galaxy M87 and in our own galaxy were published in 2019 and 2022.\fn{eht2019}
+  \item Stars orbit an unseen compact object of about four million solar masses at the centre of our galaxy. Images of the glowing gas around the black holes in the galaxy M87 and in our own galaxy were published in 2019 and 2022.\fn{eht2019,eht2022}
   \item Matter falling toward such objects forms hot discs and powerful jets.
 \end{itemize}
 
@@ -961,6 +961,7 @@ Graviton Pressure Theory accepts this challenge. \hypm{It proposes a single phys
 
 This is a point of departure. The catalog ends here, and the comparison begins. Gravity is not a symbol or an equation. It is what stands behind standing, what acts through pressure, what reveals itself in swing and orbit. The time has come to question---not abstractly, but with everything we have seen in hand.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 

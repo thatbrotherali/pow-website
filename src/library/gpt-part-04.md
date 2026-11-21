@@ -352,7 +352,7 @@ Event Horizon Telescope Collaboration. 2019. “First M87 Event Horizon Telescop
 
 <div id="ref-everitt2011" class="csl-entry">
 
-Everitt, C. W. F. et al. 2011. “Gravity Probe b: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
 
 </div>
 
