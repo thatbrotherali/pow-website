@@ -12044,7 +12044,7 @@ The first edition described inertia as a corridor: a moving body takes in more o
 
 **\[Hypothesis: the passage that follows\]**
 
-**Momentum is the carved path.** A body moving through the medium takes it in faster at its leading face than at its trailing face. That front-to-back imbalance is its momentum (Part 11). The exchange is wave-like: at speed $v$, the front rate is raised by a factor $k = \sqrt{(1+v/c)/(1-v/c)}$ and the back rate lowered by the same factor. Half their sum is $\gamma = 1/\sqrt{1-v^2/c^2}$, the energy factor; half their difference is $\gamma v/c$, the momentum factor. At six-tenths of the speed of light, $k = 2$: 1.25 and 0.75.
+**Momentum is the carved path.** A body moving through the medium takes it in faster at its leading face than at its trailing face. That front-to-back imbalance is its momentum (Part 11). The exchange is wave-like: at speed $v$, the front rate is raised by a factor $k = \sqrt{(1+v/c)/(1-v/c)}$ and the back rate lowered by the same factor. Half their sum is $\gamma = 1/\sqrt{1-v^2/c^2}$, the energy factor; half their difference is $\gamma v/c$, the momentum factor. At six-tenths of the speed of light, $k = 2$, so the energy factor is 1.25 and the momentum factor 0.75.
 
 **\[End of passage\]**
 
@@ -12199,7 +12199,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-abbott2017speed" class="csl-entry">
 
-Abbott, B. P. et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
+Abbott, B. P. et al. 2017. “Gravitational waves and gamma-rays from a binary neutron star merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
 
 </div>
 
@@ -12211,19 +12211,19 @@ Ashby, Neil. 2003. “Relativity in the Global Positioning System.” *Living Re
 
 <div id="ref-bailey1977" class="csl-entry">
 
-Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Positive and Negative Muons in a Circular Orbit.” *Nature* 268: 301–5.
+Bailey, J. et al. 1977. “Measurements of relativistic time dilatation for positive and negative muons in a circular orbit.” *Nature* 268: 301–5.
 
 </div>
 
 <div id="ref-bertotti2003" class="csl-entry">
 
-Bertotti, Bruno, Luciano Iess, and Paolo Tortora. 2003. “A Test of General Relativity Using Radio Links with the Cassini Spacecraft.” *Nature* 425: 374–76.
+Bertotti, Bruno, Luciano Iess, and Paolo Tortora. 2003. “A test of general relativity using radio links with the Cassini spacecraft.” *Nature* 425: 374–76.
 
 </div>
 
 <div id="ref-chou2010" class="csl-entry">
 
-Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical Clocks and Relativity.” *Science* 329: 1630–33.
+Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland. 2010. “Optical clocks and relativity.” *Science* 329: 1630–33.
 
 </div>
 
@@ -12235,25 +12235,25 @@ Dickey, J. O. et al. 1994. “Lunar Laser Ranging: A Continuing Legacy of the Ap
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation (Methuen, 1922), “Ether and the Theory of Relativity,” in *Sidelights on Relativity*.
 
 </div>
 
 <div id="ref-everitt2011" class="csl-entry">
 
-Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity.” *Physical Review Letters* 106: 221101.
+Everitt, C. W. F. et al. 2011. “Gravity Probe B: final results of a space experiment to test general relativity.” *Physical Review Letters* 106: 221101.
 
 </div>
 
 <div id="ref-fixsen2009" class="csl-entry">
 
-Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *Astrophysical Journal* 707: 916–20.
+Fixsen, D. J. 2009. “The temperature of the cosmic microwave background.” *Astrophysical Journal* 707: 916–20.
 
 </div>
 
 <div id="ref-hamilton2008" class="csl-entry">
 
-Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The River Model of Black Holes.” *American Journal of Physics* 76: 519–32.
+Hamilton, Andrew J. S., and Jason P. Lisle. 2008. “The river model of black holes.” *American Journal of Physics* 76: 519–32.
 
 </div>
 
@@ -12265,133 +12265,133 @@ Newton, Isaac. 1687. *Philosophiæ Naturalis Principia Mathematica*. London: Roy
 
 <div id="ref-okun2000" class="csl-entry">
 
-Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the Interpretation of the Redshift in a Static Gravitational Field.” *American Journal of Physics* 68: 115–19.
+Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the interpretation of the redshift in a static gravitational field.” *American Journal of Physics* 68: 115–19.
 
 </div>
 
 <div id="ref-planck2018vi" class="csl-entry">
 
-Planck Collaboration. 2020. “Planck 2018 Results. VI. Cosmological Parameters.” *Astronomy and Astrophysics* 641: A6.
+Planck Collaboration. 2020. “Planck 2018 results. VI. Cosmological parameters.” *Astronomy and Astrophysics* 641: A6.
 
 </div>
 
 <div id="ref-pound1960" class="csl-entry">
 
-Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical Review Letters* 4: 337–41.
+Pound, R. V., and G. A. Rebka. 1960. “Apparent weight of photons.” *Physical Review Letters* 4: 337–41.
 
 </div>
 
 <div id="ref-rashadaPart8" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Defining the Break: The Irreconcilable Differences Between General Relativity and Graviton Pressure Theory (Part 8, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/>.
+Rashada, Shareef Ali. 2026a. “Defining the Break: The Irreconcilable Differences Between General Relativity and Graviton Pressure Theory (Part 8, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-08-defining-the-break/>.
 
 </div>
 
 <div id="ref-rashadaPart9" class="csl-entry">
 
-———. 2026b. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+———. 2026b. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
 
 </div>
 
 <div id="ref-rashadaPart21" class="csl-entry">
 
-———. 2026c. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+———. 2026c. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026d. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026d. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart1" class="csl-entry">
 
-———. 2026e. “Introduction to the Unified Framework of the Graviton Pressure Theory — from Description to Mechanism (Part 1, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
+———. 2026e. “Introduction to the Unified Framework of the Graviton Pressure Theory — From Description to Mechanism (Part 1, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-01-introduction/>.
 
 </div>
 
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026f. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026f. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart27" class="csl-entry">
 
-———. 2026g. “Natural Force: Every Force and Its Carrier (Part 27, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
+———. 2026g. “Natural Force: Every Force and Its Carrier (Part 27, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
 
 </div>
 
 <div id="ref-rashadaPart26" class="csl-entry">
 
-———. 2026h. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
+———. 2026h. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
 
 </div>
 
 <div id="ref-rashadaPart10" class="csl-entry">
 
-———. 2026i. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
+———. 2026i. “Practical Exploration of Advanced Concepts: Translating Graviton Dynamics into Testable and Applied Realities (Part 10, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026j. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026j. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026k. “Re-Examining the Four: Graviton Pressure Theory and the Return to Causal Physics (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026k. “Re-examining the Four: Graviton Pressure Theory and the Return to Causal Physics (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart28" class="csl-entry">
 
-———. 2026l. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+———. 2026l. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026m. “The Definition of Mass: Energy Slowed down (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026m. “The Definition of Mass: Energy Slowed Down (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart3" class="csl-entry">
 
-———. 2026n. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
+———. 2026n. “The Gravity Catalog: What Gravity Does, How It Is Explained, and Why the Explanations Do Not Agree (Part 3, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-03-the-gravity-catalog/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026o. “The Illusion of Pull: The Mystery and Mechanism of Attraction (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026o. “The Illusion of Pull: The Mystery and Mechanism of Attraction (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026p. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026p. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026q. “The Moon, the Tides and the Rhythms of Life: How the Medium Moves the Oceans, and How Life Keeps Time with Them (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026q. “The Moon, the Tides and the Rhythms of Life: How the Medium Moves the Oceans, and How Life Keeps Time with Them (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026r. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026r. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026s. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026s. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -12403,7 +12403,7 @@ Schneider, Peter, Jürgen Ehlers, and Emilio E. Falco. 1992. *Gravitational Lens
 
 <div id="ref-touboul2022" class="csl-entry">
 
-Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle.” *Physical Review Letters* 129: 121102.
+Touboul, Pierre et al. 2022. “MICROSCOPE mission: final results of the test of the equivalence principle.” *Physical Review Letters* 129: 121102.
 
 </div>
 
