@@ -99,10 +99,12 @@
    "slug": "gpt-part-10",
    "title": "Practical Exploration of Advanced Concepts",
    "subtitle": "Translating Graviton Dynamics into Testable and Applied Realities",
-   "words": 3555,
-   "lead": "This document presents a detailed exploration of advanced gravitational phenomena reinterpreted through the lens of graviton field dynamics. GPT recasts gravitational lensing , time dilation , gravitational redshift . , and galactic rotation anomalies not as outcomes of spacetime curvature but as emergent behaviors of directional graviton pressure, saturation, and field coherence. It offers causal mechanisms to replace the geometric metaphors of General Relativity (GR), introducing graviton-induced temporal drag and anisotropic field resistance as explanatory foundations.",
-   "source": "Part 10 - Advanced concepts.tex",
-   "part": 10
+   "words": 4771,
+   "lead": "Four of GPT's ideas turned into measurements, with the results of tests since made. Light refracted by the medium's graded index; clocks slowed by the medium streaming past them, the redshift as the difference between clocks, and clocks now mapping the inflow; decaying muons, Galileo satellites in elongated orbits and pulsar timing; the medium responding to sudden change at the speed of light, recorded before the ground shook in the 2011 Tohoku earthquake; and the galaxies still owed.",
+   "source": "Part 10 - Practical Exploration of Advanced Concepts (2nd ed.).tex",
+   "part": 10,
+   "pdf": true,
+   "path": "practical-exploration-of-advanced-concepts"
   },
   {
    "slug": "gpt-part-11",

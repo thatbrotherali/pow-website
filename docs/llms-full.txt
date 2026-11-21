@@ -15891,511 +15891,493 @@ Cite as: Rashada, S. A. (2026). Existing Evidence Supporting Graviton Pressure T
 
 By Shareef Ali Rashada
 
-> Editor's corrections (October 2026): Lensing integral: for a radially varying index the deflection is −2b∫(dn/dr) dr / (r√(r²−b²)); the factor 2b/r was missing.
+*How to read the marks.* Claims about Graviton Pressure Theory are marked by status. Established claims carry no mark. **\[Argued\]** marks a conclusion this framework argues in detail; **\[Hypothesis\]** a proposal of GPT, not yet tested; **\[Open\]** a question not yet answered. On the web page and in the PDF these appear as solid, dashed and dotted underlines.
 
-This document presents a detailed exploration of advanced gravitational phenomena reinterpreted through the lens of graviton field dynamics. GPT recasts gravitational lensing <a href="#fn1" id="fnref1" class="footnote-ref" role="doc-noteref"><sup>1</sup></a> , time dilation <a href="#fn2" id="fnref2" class="footnote-ref" role="doc-noteref"><sup>2</sup></a> , gravitational redshift <a href="#fn3" id="fnref3" class="footnote-ref" role="doc-noteref"><sup>3</sup></a>. , and galactic rotation anomalies not as outcomes of spacetime curvature but as emergent behaviors of directional graviton pressure, saturation, and field coherence. It offers causal mechanisms to replace the geometric metaphors of General Relativity (GR), introducing graviton-induced temporal drag and anisotropic field resistance as explanatory foundations.
+# About This Paper
 
-GPT distinguishes itself by presenting testable alternatives to GR—such as decay-time drift in high-density graviton fields, satellite-based time dilation in elliptical orbits, and pressure-based explanations for galactic rotation without invoking dark matter. The “Snapback Effect” further exposes limitations in GR’s static curvature assumptions, proposing a field-based inertia response to sudden mass-energy changes. Each refinement reflects GPT’s goal: to offer structural clarity, predictive testability, and a unified, causal model of gravity rooted in self-repulsive graviton behavior. This section bridges philosophical insight with applied physics—enabling both causal explanation and real-world engineering potential.
+This paper takes four of Graviton Pressure Theory’s central ideas and turns each into something that can be measured: light bending as it crosses the medium; clocks slowed by the medium streaming past them; the medium’s response when a mass changes suddenly; and the rotation of galaxies. For each it gives the mechanism, the tests GPT proposes, and what those tests have shown.
 
-## Introduction
+Several of the tests proposed here have since been carried out by others, for their own reasons. Clocks have flown in elongated orbits; decay rates have been watched over years; pulsars have been timed for decades; the change in gravity from a great earthquake has been recorded arriving at the speed of light, ahead of the ground’s shaking. Their results are reported here as they came out. Where a test agreed with GPT’s mechanism, that is said; where it bounded or ruled out a proposal, that is said too.
 
-The purpose of this section is to extend the core framework of Graviton Pressure Theory (GPT) into the realm of predictive modeling, experimental validation, and comparative analysis with established gravitational paradigms. While previous sections of the framework redefined gravity and magnetism as expressions of structured, directional pressure mediated by self-repulsive gravitons, this segment focuses on translating those conceptual shifts into testable hypotheses and mechanistic refinements.
+This section does not close the framework; it opens it, by translating insight into implementation, and theory into testable design.
 
-Graviton Pressure Theory proposes that gravity is not a geometric deformation of spacetime, but a pressure-based interaction resulting from anisotropic flux of self-repulsive graviton particles. These particles do not merely react to mass—they actively sculpt motion, time flow, and energetic states through resistance, coherence, and saturation. In contrast to the passive curvature model of General Relativity (GR), GPT treats gravitation as a dynamic, responsive, and structurally modulated field.
+This is the second edition; what changed from the first is listed at the end. Claims are marked by their status, as the key shows.
 
-This section begins with a full reinterpretation of gravitational lensing, time dilation and gravitational redshift, replacing abstract curvature with coherent pressure interactions. It introduces mathematical formulations based on graviton saturation ratios and predicts slight divergences from GR in extreme-density or transitional gravitational zones. It also proposes experimental avenues to empirically distinguish GPT from GR—focusing on decay timing, satellite orbital differentials, photon transit delays, and large-scale astrophysical timing correlations.
+# Light Through a Graded Medium
 
-Later portions of this section explore contradictions inherent to GR—such as the inability to account for field responsiveness and inertia in gravitational reconfigurations—by introducing the Snapback Effect. GPT resolves this by modeling gravity as a delayed-response field system with fluid-like shockwave characteristics, introducing new predictions for temporal gravitational rebound.
+## Refraction, not geodesics
 
-Finally, this section addresses the galactic rotation curve dilemma. GPT eliminates the need for unobserved dark matter by explaining velocity plateaus through the interference and redirection of graviton pressure in galactic structures. By framing outer-star stabilization as the result of field-based equilibrium, GPT restores explanatory causality without invoking hypothetical mass.
+General relativity describes the bending of light near a mass as light following the straightest path through curved spacetime. As description it is exact; as mechanism it leaves the question open: how does a geometry act on a wave, and what carries the action?
 
-The concepts herein build a crucial bridge between foundational theory and real-world observables. They elevate GPT from philosophical model to applied science—revealing a path toward engineering, calibration, and empirical confirmation. This section does not close the framework; it opens it—by translating insight into implementation, and theory into testable design.
+**\[Hypothesis: the passage that follows\]**
 
-## Gravitational Lensing and Optical Refraction via Pressure Differentials
+**Light is refracted by the medium it travels through.** Space is not empty; it is filled by the medium, and light is a transverse wave of that medium (Part 28).[^1] Near a mass the medium flows inward and its active pressure is lowered; there its refractive index is higher, $n = P_0/P \approx 1 + 2GM/c^2r$ (Part 23).[^2] Light crossing the graded index slows on the side nearer the mass and turns toward it, as light turns entering denser glass. Each layer adds a little turning; together they make the bending.
 
-## Introduction: Beyond Curved Light Paths
+**\[End of passage\]**
 
-General Relativity (GR) describes gravitational lensing as the result of spacetime curvature near massive bodies. According to this model, light follows a geodesic path through a non-Euclidean geometry. While mathematically consistent, this view offers no causal mechanism—*how* does curved space affect a massless wave? What medium facilitates this interaction?
+<figure id="fig:refraction">
+<img src="assets/figures/fig10-1-refraction.svg" />
+<figcaption>Light refracted by a graded medium. Parallel rays pass a mass whose surrounding index is raised (darker shading); each ray slows on its nearer side and turns toward the mass, and rays passing close are turned most. The strength is exaggerated so that the turning can be seen; past the Sun it is 1.75 arcseconds.</figcaption>
+</figure>
 
-Graviton Pressure Theory (GPT) replaces abstraction with structure. In GPT, space is not empty—it is a graviton-saturated field. Light does not follow geometry; it propagates through a pressure medium, and bends not from curvature, but from **refractive distortion due to graviton pressure gradients**.
+The standard account calculates lensing this way. **\[Argued\]** Eddington described the bending of starlight in 1920 as the effect of a medium of graded index around the Sun,[^3] and the standard textbook on gravitational lenses derives the bending and the delay from exactly such an index.[^4] Figure 10.1 shows the mechanism. Light is not bent by a force acting on it across empty space. It is refracted by the medium it travels through.
 
-**Key Thesis:**
+Mirages and lenses work the same way. **\[Argued\]** Over hot ground, air near the surface is thinner and its index lower, and light from the sky is turned upward into the eye: a mirage. A glass lens bends light by slowing it more in its thick middle than at its thin edge. A mass surrounds itself with a graded index in the medium, highest nearest the mass, and light passing it is turned toward it. In each case the cause is the same: the speed of light changes across the wavefront, and the wavefront turns.
 
-> Light is not pulled by gravity. It is refracted by structural compression.
+## What is measured
 
-## The Graviton Field as a Refractive Medium
+The bending and the slowing are measured, and agree. **\[Argued\]** Radio waves passing the Sun are bent by the amount the index gives, confirmed by radio interferometry from 1979 to 1999 to about 4 parts in 10,000.[^5] Radar sent past the Sun to the planets returns late by the amount the same index gives: light’s effective speed there is $c/n$ (Part 28). Radio waves and visible light are bent alike (Part 27).[^6] The index belongs to the medium, not to the light.
 
-In GPT, light is understood as a **coherence ripple**—a self-propagating resonance pattern traversing the graviton field. As such, its behavior resembles that of a wave in a compressible medium rather than a massless particle.
+Light passing a lensed galaxy takes paths of different length through different index, **\[Argued\]** and arrives at different times. The time difference between images of a lensed quasar has two parts: the difference in the paths’ lengths, and the difference in how long each spends in the region of raised index (Part 9).[^7] Both belong to the same picture: a wave crossing a graded medium.
 
-**Core Mechanism of Refraction:**
+## The proposals, tested
 
-- **Graviton Pressure Increase Near Mass:** The field becomes compressed as it approaches coherent mass structures.
+A moving lens bends light where it is. **\[Argued\]** In 2002 Fomalont and Kopeikin measured the bending of a quasar’s radio waves as Jupiter passed in front of it. The bending depended on Jupiter’s position and motion as the light passed, measured to about 20 per cent.[^8] What the measurement shows about the speed of gravity is debated. In GPT the medium’s pattern moves with the body **\[Hypothesis\]** that sets it up (Part 16),[^9] so a moving lens bends light according to where its pattern is.
 
-- **Gradient Formation:** This compression forms anisotropic pressure gradients—zones of directional field density.
+A rotating lens bends light unevenly. **\[Argued\]** Near a spinning mass, light passing on the side moving toward it is bent differently from light on the side moving away. General relativity predicts this, and the effect is far too small to measure past the Sun or a planet; near spinning black holes it shapes the images of their surroundings. In GPT the unevenness is the medium’s swirl **\[Hypothesis\]** (Part 16), the same swirl Gravity Probe B measured around the Earth.
 
-- **Coherence Impedance:** As light enters a zone of higher graviton pressure, its wavefront encounters increasing impedance. This alters the effective phase velocity.
+Gravity does not rotate polarisation. **\[Argued\]** A lens turns the direction of light; to first order it leaves the direction of its polarisation unchanged.[^10] Where the polarisation of two images of one radio source differs, the difference is traced to magnetised plasma in the lensing galaxy, which turns polarisation by an amount that depends on wavelength; gravity’s bending does not depend on wavelength at all.[^11] A twist of polarisation by the medium’s gradient alone is not seen.
 
-- **Angular Deviation:** The change in phase velocity induces refraction, similar to the way light bends entering a denser optical medium.
+Interference between lensed images **\[Open\]** is owed. Where two images of one source differ in path by less than the length over which the waves stay in step, they can interfere. This is expected for gravitational waves lensed by galaxies, whose waves stay in step over great lengths. It has not yet been seen, and finer structure in how lensed light layers is not expected beyond what the index gives.
 
-**Mathematical Expression:** Let <span class="math inline">\\P_g(r)\\</span> be the local graviton pressure as a function of radial distance from mass. The effective refractive index <span class="math inline">\\n_g\\</span> can be modeled as: <span class="math display">\\n_g(r) = 1 + \beta P_g(r)\\</span>
+# Clocks and Redshift
 
-Where:
+## The clock law
 
-- <span class="math inline">\\\beta\\</span> is a coupling constant relating graviton pressure to optical impedance.
+**\[Hypothesis: the passage that follows\]**
 
-- <span class="math inline">\\P_g(r)\\</span> increases as <span class="math inline">\\r\\</span> approaches the mass center.
+**A clock is slowed by the medium streaming past it.** Time is the rate of a structure’s internal change (Part 18).[^12] A clock is a structure of the medium’s waves, and every cycle of it is carried by exchanges with the medium. Where the medium streams past the clock, those exchanges take longer and every cycle slows: compared with a clock far away, its rate is $\sqrt{P/P_0} = \sqrt{1 - w^2/c^2}$, where $w$ is the speed of the medium past it (Part 14).[^13] Near a mass the inflow is faster, the count of gravitons is higher and their active pressure is lower: a clock deeper in the well is in a denser, faster stream of the medium, and runs slower.
 
-The angular deviation <span class="math inline">\\\theta\\</span> of light through this gradient is then: <span class="math display">\\\theta \approx \int \nabla\_{\perp} n_g(r) \cdot ds\\</span> Where <span class="math inline">\\ds\\</span> is the differential path element orthogonal to the pressure gradient.
+**\[End of passage\]**
 
-**Interpretation:** Gravitational lensing <a href="#fn4" id="fnref4" class="footnote-ref" role="doc-noteref"><sup>4</sup></a> is not an optical illusion caused by curvature—it is a *real deviation of phase propagation due to compression anisotropy in the graviton field*. The graviton field acts like a variable-index lens. This causal reframing lays the foundation for deeper insight into both astrophysical lensing and coherent field optics.
+Gravitational and motional slowing are one effect. **\[Argued\]** The medium streaming past a clock may be the inflow, the clock’s own motion through the medium, or both; the clock responds to the total. GPS clocks show it: their gain from height and their loss from speed come out together as 38.5 microseconds a day (Part 9). In 1971 Hafele and Keating flew atomic clocks around the world: the clocks flown eastward, moving faster through the medium, lost 59 nanoseconds against the ground; those flown westward gained 273.[^14]
 
-## Gravitational Lensing as Refractive Phenomenon
+The redshift is the difference between clocks. **\[Argued\]** A source deep in a mass’s well emits light at its own rhythm, slowed by the faster stream of the medium there. The light carries that rhythm upward unchanged, and arrives where clocks run faster: compared with them, it is red. Pound and Rebka measured it up a 22.5-metre tower in 1960.[^15] The light is not drained of energy on its way up; the clocks at the two ends differ.[^16] The ratio of frequencies is the ratio of clock rates: $\nu_{\text{received}}/\nu_{\text{emitted}} = \sqrt{P_{\text{source}}/P_{\text{receiver}}}$.
 
-Under Graviton Pressure Theory, a massive object does not "bend space"—it compresses the surrounding graviton field, forming nested pressure gradients. As coherence waves (light) pass through these concentric compression layers, their trajectory shifts progressively.
+## Maps of the medium, from clocks
 
-**Mechanism of Refraction:**
+Clocks now map the medium’s inflow. **\[Argued\]** Because a clock’s rate follows the inflow where it stands, a precise enough clock is a map of the Earth’s gravity: clock rates and gravity maps are two readings of one quantity. Optical clocks detect the change in rate from a 450-metre tower,[^17] from the mountains above a tunnel through the Alps,[^18] and across a single millimetre of atoms.[^19] Geodesists now use clocks to measure heights, and gravity maps to predict clock rates: the use of gravimetric maps to estimate local time dilation is practice. Near large masses and dense rock, clocks change rate by exactly what the inflow gives.
 
-- **Layered Pressure Shells:** Each layer near the mass acts like a refractive boundary, altering the local graviton impedance.
+# Tests Proposed, and Their Results
 
-- **Phase Velocity Shift:** As the coherence wavefront enters a higher-pressure zone, its local propagation speed decreases.
+<figure id="fig:galileo">
+<img src="assets/figures/fig10-2-galileo.svg" />
+<figcaption>A clock in an elongated orbit. Two Galileo navigation satellites, placed by mistake in orbits that carry them between about 17,000 and 26,000 kilometres from the Earth’s surface, lose time around closest approach, where the inflow is faster and they move faster through it, and gain it around the farthest point. Their clocks follow this curve, swinging by 380 nanoseconds each orbit; the measured swing matches it to a few parts in 100,000.</figcaption>
+</figure>
 
-- **Cumulative Deviation:** Each micro-deflection compounds, resulting in the macroscopic bending of the light path around the mass.
+GPT proposes four tests of its clock law. Each has now been made, by others and for their own reasons. Table 10.1 summarises them.
 
-**Observable Consequences:**
+<div id="tab:tests">
 
-- **Einstein <a href="#fn5" id="fnref5" class="footnote-ref" role="doc-noteref"><sup>5</sup></a> Rings:** Arise from symmetrical refraction at equidistant impact parameters.
+| **Test**                     | **What GPT expects**                                                         | **Result**                                                                                                                                                                 |
+|:-----------------------------|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Decay rates                  | every decaying particle slowed by the same factor as every clock             | muons at 29 times their rest rate of decay slowed by exactly that factor (Bailey et al. 1977); no yearly change with the Earth’s distance from the Sun (Pommé et al. 2016) |
+| Clocks in elongated orbits   | slower near closest approach, by the inflow and speed there                  | Galileo satellites: as expected, to a few parts in 100,000 (Delva et al. 2018; Herrmann et al. 2018)                                                                       |
+| Clocks in different settings | rate set by the medium streaming past, whatever the clock’s construction     | optical, atomic, nuclear and muon clocks all slow alike; rate across 1 mm resolved (Bothwell et al. 2022)                                                                  |
+| Timing of pulsars            | signals from regions of strong flow, and waves of the medium, show in timing | binary pulsar timing as expected (Weisberg and Huang 2016; Kramer et al. 2021); evidence for a background of waves of the medium (Agazie et al. 2023)                      |
 
-- **Galactic Arc Distortions:** Result from light traversing asymmetric field gradients in dense clusters.
-
-- **Time Delay:** Light takes longer to pass through high-pressure zones due to reduced phase coherence velocity—not because of a “longer path,” but due to localized temporal saturation.
-
-**Refractive Deflection Equation:** Assuming a radially symmetric pressure profile <span class="math inline">\\P_g(r)\\</span>, the net deflection <span class="math inline">\\\Theta\\</span> across a lensing path is approximated as: <span class="math display">\\\Theta \approx -2b\int\_{r_0}^{r_f} \frac{\partial n_g(r)}{\partial r} \\ \frac{dr}{r\sqrt{r^2 - b^2}}\\</span> Where:
-
-- <span class="math inline">\\n_g(r)\\</span> is the graviton refractive index.
-
-- <span class="math inline">\\b\\</span> is the impact parameter of the path.
-
-- <span class="math inline">\\r_0\\</span> to <span class="math inline">\\r_f\\</span> defines the lensing region.
-
-**Conclusion:** Light’s curvature is not a geometric illusion—it is a consequence of field-structured refraction. This allows for precision modeling without invoking spacetime distortion.
-
-## Optical Refraction Analogies in Earth-Based Systems
-
-To understand graviton field lensing intuitively, GPT draws upon Earth-based optical systems:
-
-**Comparative Analogies:**
-
-- **Mirages:** Just as thermal air gradients refract light through density differences, graviton pressure layers refract light through coherence impedance.
-
-- **Glass Lenses:** Glass bends light by slowing wavefronts—stellar fields bend light by compressing the medium through which light propagates.
-
-**Reinterpreting Gravitational Redshift** In GPT, gravitational redshift is not the result of time dilation <a href="#fn6" id="fnref6" class="footnote-ref" role="doc-noteref"><sup>6</sup></a> but of phase coherence transformation:
-
-- As light ascends from a high-pressure region, it moves into a zone of lower graviton density.
-
-- This transition reduces coherence reinforcement, decreasing the energy per unit phase.
-
-- The result is a redshift <a href="#fn7" id="fnref7" class="footnote-ref" role="doc-noteref"><sup>7</sup></a>.—**not** because time slows, but because the field no longer supports the same vibrational resonance.
-
-**Equation of Redshift from Field Gradient:** <span class="math display">\\\Delta f \approx -f_0 \cdot \frac{\Delta P_g}{P_c}\\</span> Where:
-
-- <span class="math inline">\\f_0\\</span> is the emitted frequency.
-
-- <span class="math inline">\\\Delta P_g\\</span> is the pressure differential across the escape path.
-
-- <span class="math inline">\\P_c\\</span> is the critical coherence pressure threshold for stable transmission.
-
-This formalism grounds redshift <a href="#fn8" id="fnref8" class="footnote-ref" role="doc-noteref"><sup>8</sup></a>. in field energy loss, not relativistic time deformation—offering both a causal explanation and a testable metric within GPT.
-
-## Predictions and Differentiators from GR
-
-Graviton Pressure Theory (GPT) departs from General Relativity (GR) not only in explanation but in testable predictions. The field-structured model of graviton refraction enables new observational consequences:
-
-1.  **Non-Uniform Bending:**  
-    GPT predicts *asymmetric lensing patterns* based on anisotropic pressure flow and graviton lattice geometry. Light paths near rotating or irregular bodies should experience angle-dependent deviations not predicted by GR’s isotropic curvature.
-
-2.  **Polarization Shift Across Gravitational Gradients:**  
-    As coherence waves cross steep graviton pressure gradients, their polarization vectors should rotate or shear slightly—creating a measurable shift in observed polarization for light passing near massive objects.
-
-3.  **Light Speed Variation in Field Layers:**  
-    GPT expects that light’s *effective* propagation velocity (phase velocity of coherence) decreases near strong graviton fields—not due to time dilation <a href="#fn9" id="fnref9" class="footnote-ref" role="doc-noteref"><sup>9</sup></a>, but due to increased field impedance: <span class="math display">\\c\_{\text{eff}}(r) = \frac{c}{n_g(r)} = \frac{c}{1 + \beta P_g(r)}\\</span>
-
-4.  **Multiple Lensing Planes and Interference:**  
-    In galaxy clusters with overlapping field shells, GPT predicts *layered interference patterns*, not just smooth lensing arcs. These structures could reveal the quantized tension stratification of the field itself.
-
-Each of these predictions diverges from relativistic assumptions and can be probed by high-resolution lensing data from instruments like the James Webb Space Telescope or future gravitational interferometers.
-
-## Summary: Refraction, Not Geodesics
-
-Gravitational lensing <a href="#fn10" id="fnref10" class="footnote-ref" role="doc-noteref"><sup>10</sup></a> is not the deflection of light through curved void—it is **coherence refraction through a structured medium**. The graviton field is:
-
-- Real
-
-- Pressure-based
-
-- Layered with directional impedance
-
-**GPT Model Recap:**
-
-- Light is **coherence**, not a photon particle.
-
-- The field is **structured**, not geometrically void.
-
-- Impedance arises from **pressure**, not abstract curvature.
-
-**Final Insight:**
-
-> The bending of light is not a miracle of warped spacetime. It is the natural response of resonance encountering compression.
-
-Under GPT, gravitational lensing becomes causal, layered, and experimentally falsifiable—a coherent ripple shifting through the invisible skeleton of a patterned universe.
-
-## Graviton Pressure Theory and Time Dilation
-
-### GPT-Based Explanation of Observed Time Dilation
-
-Under General Relativity, time dilation <a href="#fn11" id="fnref11" class="footnote-ref" role="doc-noteref"><sup>11</sup></a> is modeled as a consequence of spacetime curvature—clocks “run slower” in gravitational wells due to their position within a distorted geometry. While this framework offers accurate predictions in certain scenarios, it lacks a mechanistic substrate. Graviton Pressure Theory (GPT) replaces this geometric metaphor with a physical cause: graviton saturation and directional resistance.
-
-In GPT, time is redefined not as a dimension, but as the rate of internal change within a system—governed by its interaction with the ambient graviton field. A system embedded in a high-density graviton environment experiences greater resistance to change, thereby slowing the rate of its internal processes. This results in what is observed as time dilation.
-
-- High graviton density <span class="math inline">\\\Rightarrow\\</span> increased resistance <span class="math inline">\\\Rightarrow\\</span> slower process rate
-
-- Low graviton density <span class="math inline">\\\Rightarrow\\</span> decreased resistance <span class="math inline">\\\Rightarrow\\</span> faster process rate
-
-Thus, a clock deeper in a gravitational well—surrounded by a denser graviton field—experiences greater field resistance, slowing atomic oscillations and producing measurable time dilation. This reframes the effect not as a "warp" in spacetime but as a consequence of temporal drag.
-
-Graviton saturation correlates with known planetary and stellar density profiles. GPT thereby enables the use of gravimetric maps to more precisely estimate localized time dilation, particularly in complex field transitions and layered environments.
-
-**Technological Implications:** Time-dependent systems such as GPS networks, atomic clocks, and quantum synchronization frameworks may benefit from this enhanced model. GPT’s granularity is especially useful where GR’s assumptions break down—such as overlapping gravitational fields or sharply varying densities.
-
-### Mathematical Models and Predictive Accuracy
-
-GPT introduces a novel equation for time dilation based on pressure ratios, substituting spacetime curvature with graviton interaction density:
-
-<span class="math display">\\\frac{\Delta \tau}{\Delta t} = \sqrt{\frac{P_0}{P}}\\</span>
-
-Where:
-
-- <span class="math inline">\\\Delta \tau\\</span> = proper time experienced in graviton-dense field
-
-- <span class="math inline">\\\Delta t\\</span> = coordinate time in graviton-minimal field
-
-- <span class="math inline">\\P\\</span> = local graviton pressure
-
-- <span class="math inline">\\P_0\\</span> = graviton pressure in reference low-density space
-
-This relation holds parity with GR predictions in weak fields but diverges under extreme graviton densities due to nonlinear saturation and field absorption effects.
-
-**Gravitational Redshift d via graviton density in GPT:** A photon escaping a graviton-dense region undergoes frequency loss not due to spacetime stretch, but due to drag from the graviton field. Redshift <a href="#fn12" id="fnref12" class="footnote-ref" role="doc-noteref"><sup>12</sup></a>. becomes a function of resistance per wavelength:
-
-<span class="math display">\\\frac{\nu_0}{\nu} = \sqrt{\frac{P}{P_0}}\\</span>
-
-Here <span class="math inline">\\\nu\\</span> is the observed frequency, and <span class="math inline">\\\nu_0\\</span> is the source frequency in low-pressure regions.
-
-### Comparison with GR Interpretations (Transition Map)
-
-| **Aspect**            |  **General Relativity**   |        **Graviton Pressure Theory**        |
-|:----------------------|:-------------------------:|:------------------------------------------:|
-| Mechanism             |    Spacetime curvature    |        Graviton pressure gradients         |
-| Causality             |    Descriptive (what)     |                Causal (why)                |
-| Time Defined As       |    4D coordinate label    |     Process rate slowed by resistance      |
-| Predictive Limits     | Breaks near singularities |       Extends from quantum to cosmic       |
-| Time Flow Explanation |         Undefined         |      Emergent from field interaction       |
-| Tensor Formalism      |   Central to equations    | Replaced by dynamic field-particle mapping |
-
-Conceptual contrast between GR and GPT
-
-This mapping underscores GPT’s explanatory and predictive edge. Where GR offers elegant description, GPT delivers causality, paving the way for an integrated gravitational-quantum framework.
-
-## Proposed Empirical Validation
-
-Graviton Pressure Theory (GPT) proposes several distinct experimental paths that can distinguish its predictions from those of General Relativity (GR). These experiments focus on the measurable consequences of graviton field pressure, coherence modulation, and dynamic field response. Each test is framed around observable deviations, structured pressure gradients, or inertial effects that emerge only under a particle-based pressure model.
-
-### Experimental Scenarios
-
-1.  **High-Energy Particle Decay Rates**
-
-    - Hypothesis: Particle decay rates (muons, kaons) are modulated by graviton field density.
-
-    - Setup: Conduct decay rate measurements near dense gravitational fields or within graviton-mimicking laboratory conditions.
-
-    - Expectation: Detect deviations from standard decay curves consistent with GPT pressure resistance.
-
-2.  **Orbital Time Dilation in Varying Graviton Densities**
-
-    - Hypothesis: Satellite time dilation <a href="#fn13" id="fnref13" class="footnote-ref" role="doc-noteref"><sup>13</sup></a> varies more dynamically with position than GR predicts.
-
-    - Setup: Analyze time synchronization drift in satellites in elliptical orbits.
-
-    - Expectation: Periapsis should show greater time drag due to elevated graviton saturation.
-
-3.  **Photon Clock Delay Through Variable Media**
-
-    - Hypothesis: Graviton pressure modulates photonic timing independently of vacuum potential.
-
-    - Setup: Construct vacuum chambers with pressure-tunable media and graviton analog field injectors.
-
-    - Expectation: Measurable timing delays in photon clocks under altered local graviton pressure.
-
-4.  **Astrophysical Timing Anomalies in Pulsar/Quasar Signals**
-
-    - Hypothesis: Gravitation-rich regions modify timing regularity of astrophysical lighthouses.
-
-    - Setup: Track pulsar or quasar signals near massive rotating or collapsing bodies.
-
-    - Expectation: Subtle timestamp variations consistent with GPT resistance-delay model.
-
-### Validation and Partnership Opportunities
-
-- **High-Impact, Low-Cost:** Particle decay experiments (muon/kaon beamlines, synchrotrons).
-
-- **Intermediate Scale:** Orbital clock synchrony testing with GPS and elliptical satellites.
-
-- **Long-Horizon:** Cosmic timing tracking (pulsars, quasars) via LIGO, VLA, Deep Space Network.
-
-- **Ideal Collaborators:** CERN, ESA, NASA DSN, LIGO, MIT Haystack Observatory.
-
-## Dynamic Spacetime Contradiction ("Snapback Effect")
-
-### GR Limitations on Dynamic Field Reaction
-
-General Relativity posits that spacetime is curved in response to mass-energy, with changes in curvature mediated through gravitational waves. However, GR lacks an explicit temporal response function for sudden mass-energy redistribution. This creates inconsistencies when examining real-time reactions to motion, removal, or rapid changes in mass.
-
-**Observed Anomalies:**
-
-- Unexpected trajectory adjustments in spacecraft near transient gravitational disturbances.
-
-- Lunar or planetary orbital changes following intense solar mass ejections.
-
-- Light lensing path adjustments post-supernova not fully explained by standard GR models.
-
-### GPT Mechanism for Snapback Response
-
-In GPT, gravity arises from real, flowing self-repulsive graviton fields. Sudden perturbations cause a disequilibrium in graviton density and flow, generating a *Snapback Effect* as the field dynamically re-equilibrates.
-
-**Key Predictions:**
-
-- Field distortions propagate at finite speed (less than or equal to <span class="math inline">\\c\\</span>), akin to pressure waves.
-
-- Temporary field overcompensations or oscillations may occur near the perturbation site.
-
-- Resonant "echoes" or ring-down patterns may emerge as the graviton field resettles.
-
-### Proposed Snapback Experiments
-
-1.  **Satellite Micro-Oscillation Tracking**
-
-    - Use high-precision accelerometers on satellites passing through recent graviton field disturbances (e.g., near quakes, asteroid collisions).
-
-    - Expect detection of post-passage inertial oscillations not predicted by GR.
-
-2.  **Lunar Laser Ranging Arrays**
-
-    - Monitor laser pulse returns for anomalies after major solar activity.
-
-    - Look for microsecond-level orbital position shifts.
-
-3.  **Pulsar Timing vs. Nearby Cataclysmic Events**
-
-    - Correlate precise pulsar beacon timing with known gravitational collapses.
-
-    - Identify systematic lags or phase shifts consistent with pressure field settling.
-
-4.  **Computational Graviton Fluid Simulation**
-
-    - Simulate pressure-based graviton field with real-time disruption inputs.
-
-    - Match predicted waveforms to real gravitational event data.
-
-### Conclusion: Snapback as Dynamic Proof of GPT
-
-Unlike GR, GPT offers a real-time, causal, and dynamic mechanism for gravitational reconfiguration. The Snapback Effect is a necessary consequence of particle-mediated field inertia. Its verification would represent a turning point in gravitational theory, marking the shift from abstract geometry to field-responsive physical reality.
-
-## Dark Matter and Galactic Rotation Curves
-
-### GPT-Based Explanation Without Additional Unseen Mass
-
-One of the longest-standing puzzles in modern astrophysics is the behavior of galactic rotation curves. According to Newtonian <a href="#fn14" id="fnref14" class="footnote-ref" role="doc-noteref"><sup>14</sup></a> dynamics and General Relativity (GR), stars further from the galactic center should orbit more slowly due to diminishing gravitational influence. Instead, observations show a near-constant rotational velocity at increasing radial distances—a phenomenon traditionally explained by invoking dark matter halos.
-
-However, dark matter has never been directly detected, and its existence remains an inference born from the limitations of current gravitational models.
-
-Graviton Pressure Theory (GPT) provides an alternative: the observed rotation patterns are not anomalies—they are the natural outcome of anisotropic graviton pressure dynamics at galactic scales.
-
-In GPT:
-
-- Gravity is not a pull from the center, but a push from external graviton flux.
-
-- The pressure gradient around a galaxy is not spherically uniform—it is directionally reinforced by the motion and rotational structure of the galaxy itself.
-
-- As mass-energy interacts with and blocks graviton flow, a dynamic pressure basin forms, stabilizing outer stellar orbits without the need for invisible mass.
-
-Stars on the galactic periphery are not being “held in” by unseen matter—they are suspended in a pressure resonance zone, shaped by the overall gravitational field equilibrium created by inner mass distributions and graviton field interference patterns.
-
-This removes the necessity for dark matter and restores the explanatory power to physical, observable mechanics.
-
-**Key Distinction:**  
-GR-based models treat mass as creating curvature in a vacuum, requiring additive unseen matter to match observation. GPT treats galaxies as graviton-absorbing structures surrounded by dynamic field gradients, making the velocity plateau a natural equilibrium outcome.
-
-### Observational Data Supporting GPT Predictions
-
-Several lines of astrophysical evidence align more cleanly with GPT predictions than with GR-based dark matter models:
-
-1.  **Flat Rotation Curves Across Varied Galaxy Types**  
-    Observations show flat rotation curves even in galaxies with very different mass distributions. GPT explains this through self-adjusting graviton pressure basins, rather than requiring proportional dark matter distribution per galaxy type.
-
-2.  **Lack of Lensing Consistency in Dark Matter Halos**  
-    Predicted gravitational lensing from dark matter halos often does not match observed lensing maps.<a href="#fn15" id="fnref15" class="footnote-ref" role="doc-noteref"><sup>15</sup></a> GPT predicts lensing based on actual pressure gradients, not inferred mass concentrations—providing a better match in specific irregular systems.
-
-3.  **Rotation of Dwarf Galaxies and Tidal Dwarfs**  
-    Dwarf galaxies and tidal dwarf systems also exhibit anomalous rotation, despite lacking sufficient mass to host dark matter halos. GPT explains these as high-efficiency graviton reflectors, shaped by local field geometry and galactic interaction history.
-
-4.  **Bullet Cluster Interpretations Challenged**  
-    The Bullet Cluster has often been cited as definitive evidence of dark matter due to gravitational lensing offset from visible mass. GPT proposes that graviton pressure lag during high-velocity galactic collisions can explain the apparent offset—without invoking undetectable matter.
-
-### Proposed Research and Simulations
-
-- **Graviton Pressure Mapping Algorithms:** Create field simulations of rotating galactic structures under GPT pressure dynamics.
-
-- **Stellar Trajectory Reconstructions:** Reanalyze observed orbital patterns using anisotropic pressure assumptions.
-
-- **Comparison Studies:** Model identical galaxies under GR+dark matter and GPT-only conditions to compare match with observational data.
-
-What GR views as a mystery requiring a hidden substance, GPT reveals as a predictable field behavior arising from observable mechanisms. There is no need to postulate a cosmic scaffolding of undetectable matter to uphold failing models.
-
-Galactic rotation curves are not problems to be patched—they are signatures of a deeper gravitational truth. With the Graviton Pressure Theory, we do not need to see the invisible. We need only to understand the forces that were there all along.
-
-### Conclusion
-
-The concluding section introduces a suite of phenomena that only GPT can meaningfully predict, explain, and test—from the mechanical essence of time itself to galactic rotation without fictional mass. It invites scientists not only to replace old equations but to think differently about the fabric of interaction. These concepts form the bridge between explanation and engineering—the transition from insight to application.
-
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-
-<div id="ref-einstein1915" class="csl-entry" role="listitem">
-
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
+Tests of the clock law proposed in this paper, and their results.
 
 </div>
 
-<div id="ref-hafele1972" class="csl-entry" role="listitem">
+<span id="tab:tests" label="tab:tests"></span>
 
-Hafele, Joseph C., and Richard E. Keating. 1972. “Around-the-World Atomic Clocks: Predicted Relativistic Time Gains.” *Science* 177 (4044): 166–68. <https://doi.org/10.1126/science.177.4044.166>.
+Decaying particles are clocks. **\[Argued\]** Muons stored in a ring at 99.94 per cent of the speed of light decay 29.3 times more slowly than muons at rest, as the clock law gives, to about one part in a thousand.[^20] A muon’s decay is a clock like any other, slowed by the medium streaming past it by the common factor. It was once reported that radioactive decay rates change through the year as the Earth’s distance from the Sun changes.[^21] Careful measurements of many kinds of decay, over years, found no such change: any yearly variation is smaller than a few parts in 100,000, and for the steadiest sources a few parts in a million.[^22] The medium changes decay rates only as it changes every clock.
+
+Clocks in elongated orbits were tested by accident. **\[Argued\]** In 2014 two satellites of Europe’s Galileo navigation system were launched into elongated orbits instead of circular ones. Their clocks swing ahead and behind as they move in and out, by 380 nanoseconds each orbit (Figure 10.2): slower around closest approach, where the inflow is faster and the satellite moves faster through it, as GPT expects. Two teams, analysing three years of data, found the swing matches the expected amount to a few parts in 100,000.[^23][^24] No extra slowing at closest approach, beyond the clock law, was found.
+
+Pulsars are timed to a ten-millionth of a second over decades. **\[Argued\]** In pairs, they show their companions’ clock effects, the slowing of their signals past the companion, and the loss of energy to waves of the medium, all as expected.[^25] Timed together across the sky, they show a common wandering of their arrival times with the pattern expected from a background of slow waves of the medium passing the Earth: the NANOGrav collaboration found evidence for it at about three standard deviations in 2023, and other arrays agree.[^26] In GPT this background is the medium itself ringing **\[Hypothesis\]** with the waves of countless pairs of giant black holes.
+
+# The Medium’s Response to Sudden Change
+
+## The snapback effect
+
+When a mass changes suddenly, through a collapse, a collision or an explosion, the medium around it must change too. The medium cannot change everywhere at once.
+
+**\[Hypothesis: the passage that follows\]**
+
+**The medium re-settles, and the re-settling travels.** A sudden change in a mass changes its inflow, and the change spreads outward through the medium at the speed of its waves, $c$. Where the change is violent, the medium overshoots and rings before it settles: the snapback effect. It is the response of a real medium with inertia and stiffness, not an instantaneous adjustment of geometry.
+
+**\[End of passage\]**
+
+## What is measured
+
+Changes in gravity travel at the speed of light. **\[Argued\]** When two neutron stars merged in 2017, the change in the medium arrived together with the light, after 130 million years, to within a few parts in $10^{15}$.[^27]
+
+<figure id="fig:pegs">
+<img src="assets/figures/fig10-3-pegs.svg" />
+<figcaption>The medium responds first. When the 2011 Tohoku earthquake moved a vast mass of rock, the change in gravity spread at the speed of light, reaching a station 1,000 kilometres away in three thousandths of a second; the first seismic waves took two minutes. Seismometers and gravimeters 500 to 3,000 kilometres away recorded the gravity signal in the window between.</figcaption>
+</figure>
+
+A great earthquake’s change in gravity was recorded before the ground shook. **\[Argued\]** The magnitude 9.1 earthquake off Japan in 2011 moved an immense mass of rock in a few minutes. The change in gravity this caused spread at the speed of light. A gravimeter 500 kilometres away recorded it before any seismic wave arrived;[^28] about ten seismometers 500 to 3,000 kilometres away recorded it too, a station 1,000 kilometres away more than two minutes before the shaking (Figure 10.3).[^29] Satellites mapping the Earth’s gravity measured the lasting change the earthquake left behind.[^30] The medium responded to the mass’s sudden change at once, at the speed of its waves, everywhere the instruments could see.
+
+After a violent change, the medium rings and settles. **\[Argued\]** Two black holes merging leave the medium around the new black hole ringing at frequencies set by its mass and spin; LIGO recorded the ringing die away in milliseconds.[^31] No repeated “echoes”, which a reflecting surface would produce, have been found.[^32]
+
+Whether the medium is left permanently shifted **\[Open\]** after a wave passes, a “memory” that general relativity also predicts, is not yet measured.[^33]
+
+# Galaxies
+
+Part 9 sets out the measurements: galaxies rotate as their visible matter says, above one acceleration scale, $a_0$, which GPT reads as the relaxation boundary of each mass in the medium. In GPT gravity is not an attraction from the centre but the medium’s inflow, and the boundary is set by the visible mass that is there. Three further cases test the account.
+
+Light around galaxies follows the same relation as orbits. **\[Argued\]** Weak lensing around galaxies shows the same flat speeds and the same relation between visible mass and speed as their rotation, out to hundreds of kiloparsecs.[^34] A galaxy’s effect on light and on orbits is one effect, as it must be if both are the medium’s.
+
+Tidal dwarf galaxies are a challenge. **\[Argued\]** Small galaxies form from the gas torn out when large galaxies collide. Whatever the standard account’s dark matter is, it should not be carried into these, and early measurements seemed to show more mass than their gas and stars.[^35] Later, more careful measurements found their rotation consistent with their visible mass alone, and found them lying off the relation that other galaxies follow.[^36] If they are settled discs, that is a challenge for any account with a universal $a_0$, GPT’s included. They have turned less than once since they formed, so whether they are settled is itself open.
+
+The Bullet Cluster is owed. **\[Open\]** Two clusters of galaxies have passed through each other. Their hot gas, most of their visible mass, collided and lagged behind; their galaxies passed through. The bending of background light follows the galaxies, not the gas.[^37] In GPT a mass’s pattern in the medium moves with it **\[Hypothesis\]** (Part 16), so the pattern around the galaxies may have carried on with them while the gas was stopped. Whether this gives the measured lensing, in size and in place, is not yet worked out.
+
+# What Remains to Be Derived
+
+- Interference between lensed images **\[Open\]** of gravitational waves, and its size.
+
+- The medium’s memory **\[Open\]** after a wave passes.
+
+- The Bullet Cluster’s lensing **\[Open\]** from patterns that move with their galaxies.
+
+- Tidal dwarf galaxies, **\[Open\]** once their state is settled.
+
+# Conclusion
+
+Each of the four ideas has become a measurement. Light is refracted by the medium’s graded index: bent, slowed and delayed by one cause, as the standard account’s own calculations show, with its polarisation untouched by gravity. Clocks are slowed by the medium streaming past them, whatever the reason for the streaming; the redshift is the difference between clocks; and clocks now map the inflow they sit in. The tests GPT proposed have been made: decaying muons slowed by exactly the clock factor, no yearly change in decay with the Sun’s distance, Galileo clocks swinging in their elongated orbits as expected, and pulsars timed across decades showing the medium’s waves. When a mass changes suddenly, the medium responds at the speed of light, as the great earthquake of 2011 showed before the ground shook, and after a violent change it rings and settles. Galaxies and their lensing follow one relation; tidal dwarfs and the Bullet Cluster are the cases still owed. With the Graviton Pressure Theory, we do not need to see the invisible. We need only to understand the medium that was there all along.
+
+# Changes in the Second Edition
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+## Changes to the argument
+
+- **Lensing.** The index $n_g = 1 + \beta P_g$, with pressure rising toward a mass, is replaced by $n = P_0/P \approx 1 + 2GM/c^2r$: the active pressure is lower near a mass and the index higher (Part 23). Lensing as refraction, the mirage and glass analogies, and light’s effective speed $c/n$ are kept. “Not because of a longer path” is restated: the delay between lensed images has both parts, path length and time in the raised index.
+
+- **Lensing predictions.** Asymmetric bending near rotating or moving bodies is kept and restated as the medium’s swirl and moving pattern, with the Jupiter measurement. Polarisation rotation across gravitational gradients is withdrawn: gravity does not rotate polarisation to first order, and observed differences between images are traced to plasma in the lens. “Layered interference patterns” revealing “quantised tension stratification” are withdrawn; interference between lensed images is kept as open.
+
+- **Redshift.** “Phase coherence transformation”, in which the field drains the light’s energy on the way up, and the formula $\Delta f \approx -f_0\,\Delta P_g/P_c$, are replaced: the redshift is the difference between the clocks at the two ends, $\nu_{\text{received}}/\nu_{\text{emitted}} = \sqrt{P_{\text{source}}/P_{\text{receiver}}}$.
+
+- **Time dilation.** The law $\Delta\tau/\Delta t = \sqrt{P_0/P}$ is inverted in the first edition and is corrected to $\sqrt{P/P_0}$. “Temporal drag” in a denser graviton field is kept: the count of gravitons is higher near a mass while their active pressure is lower, and the clock is slowed by the faster stream. The claim that GPT diverges from general relativity in strong fields is withdrawn: the inflow reproduces the same numbers at every strength (Part 23). “GR breaks near singularities; GPT extends from quantum to cosmic” is withdrawn as an unsupported comparison. The use of gravimetric maps to predict clock rates is kept, and is now practice.
+
+- **Tests.** Each proposed test is reported with its result: decay rates (muons; the yearly-variation claim and its refutation), elliptical orbits (Galileo), photon clocks (optical clocks across a millimetre; “pressure-tunable media” and “graviton analog field injectors” are withdrawn), and pulsar timing. Expectations of deviations beyond the clock law are withdrawn: none were found.
+
+- **Snapback.** Kept as the medium re-settling at $c$ and ringing, and supported by the earthquake gravity signal, the 2017 merger and the measured ringdown. The “observed anomalies” (spacecraft trajectory changes near transient disturbances, lunar orbit changes after solar mass ejections, lensing changes after supernovae) are withdrawn: no source was given, and none is known. The claim that general relativity has no response to sudden change is withdrawn: it predicts waves at $c$, ringdown and memory.
+
+- **Galaxies.** The rotation-curve account defers to Part 9’s relaxation boundary. “Pressure basins” formed by mass “blocking” the flow are withdrawn: shielding is bounded far below what this needs (Part 15). The dwarf and tidal-dwarf claim is reversed: tidal dwarfs show no excess mass and lie off the relation, a challenge. “Lack of lensing consistency” is replaced by lensing following the same relation as rotation. The Bullet Cluster’s “pressure lag” is kept as the medium’s pattern moving with its galaxies, marked as owed.
+
+## Clarifications
+
+- “Light is coherence, not a photon particle” is restated in line with Part 28, where single-photon behaviour is kept as an open question.
+
+- Collaborators named as ideal partners are removed.
+
+- Three figures and a table of tests are added; sources are added for every measurement.
+
+- The cross-references are renumbered.
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-abbott2017speed" class="csl-entry">
+
+Abbott, B. P. et al. 2017. “Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A.” *Astrophysical Journal Letters* 848: L13.
 
 </div>
 
-<div id="ref-newton1687" class="csl-entry" role="listitem">
+<div id="ref-abbott2021echo" class="csl-entry">
 
-Newton, Isaac. 1687. *Philosophie Naturalis Principia Mathematica*. Royal Society.
-
-</div>
-
-<div id="ref-pound1959" class="csl-entry" role="listitem">
-
-Pound, R. V., and G. A. Rebka. 1959. “Gravitational Red-Shift in Nuclear Resonance.” *Physical Review Letters* 3 (9): 439–41. <https://doi.org/10.1103/PhysRevLett.3.439>.
+Abbott, R. et al. 2021. “Tests of General Relativity with Binary Black Holes from the Second LIGO-Virgo Gravitational-Wave Transient Catalog.” *Physical Review D* 103: 122002.
 
 </div>
 
-<div id="ref-wambsganss1999" class="csl-entry" role="listitem">
+<div id="ref-agazie2023" class="csl-entry">
 
-Wambsganss, Joachim. 1999. “Gravitational Lensing in Astronomy.” *Living Reviews in Relativity* 1 (12). <https://doi.org/10.1086/307244>.
+Agazie, Gabriella et al. 2023. “The NANOGrav 15 Yr Data Set: Evidence for a Gravitational-Wave Background.” *Astrophysical Journal Letters* 951: L8.
+
+</div>
+
+<div id="ref-bailey1977" class="csl-entry">
+
+Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Positive and Negative Muons in a Circular Orbit.” *Nature* 268: 301–5.
+
+</div>
+
+<div id="ref-bothwell2022" class="csl-entry">
+
+Bothwell, Tobias et al. 2022. “Resolving the Gravitational Redshift Across a Millimetre-Scale Atomic Sample.” *Nature* 602: 420–24.
+
+</div>
+
+<div id="ref-bournaud2007" class="csl-entry">
+
+Bournaud, Frédéric et al. 2007. “Missing Mass in Collisional Debris from Galaxies.” *Science* 316: 1166–69.
+
+</div>
+
+<div id="ref-clowe2006" class="csl-entry">
+
+Clowe, Douglas et al. 2006. “A Direct Empirical Proof of the Existence of Dark Matter.” *Astrophysical Journal Letters* 648: L109–13.
+
+</div>
+
+<div id="ref-delva2018" class="csl-entry">
+
+Delva, P. et al. 2018. “Gravitational Redshift Test Using Eccentric Galileo Satellites.” *Physical Review Letters* 121: 231101.
+
+</div>
+
+<div id="ref-eddington1920" class="csl-entry">
+
+Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University Press.
+
+</div>
+
+<div id="ref-faraoni1993" class="csl-entry">
+
+Faraoni, Valerio. 1993. “On the Rotation of Polarization by a Gravitational Lens.” *Astronomy and Astrophysics* 272: 385–88.
+
+</div>
+
+<div id="ref-fomalont2003" class="csl-entry">
+
+Fomalont, E. B., and S. M. Kopeikin. 2003. “The Measurement of the Light Deflection from Jupiter: Experimental Results.” *Astrophysical Journal* 598: 704–11.
+
+</div>
+
+<div id="ref-grotti2018" class="csl-entry">
+
+Grotti, Jacopo et al. 2018. “Geodesy and Metrology with a Transportable Optical Clock.” *Nature Physics* 14: 437–41.
+
+</div>
+
+<div id="ref-hafele1972" class="csl-entry">
+
+Hafele, J. C., and Richard E. Keating. 1972. “Around-the-World Atomic Clocks: Observed Relativistic Time Gains.” *Science* 177: 168–70.
+
+</div>
+
+<div id="ref-herrmann2018" class="csl-entry">
+
+Herrmann, S. et al. 2018. “Test of the Gravitational Redshift with Galileo Satellites in an Eccentric Orbit.” *Physical Review Letters* 121: 231102.
+
+</div>
+
+<div id="ref-hubner2020" class="csl-entry">
+
+Hübner, Moritz, Colm Talbot, Paul D. Lasky, and Eric Thrane. 2020. “Measuring Gravitational-Wave Memory in the First LIGO/Virgo Gravitational-Wave Transient Catalog.” *Physical Review D* 101: 023011.
+
+</div>
+
+<div id="ref-isi2019" class="csl-entry">
+
+Isi, Maximiliano, Matthew Giesler, Will M. Farr, Mark A. Scheel, and Saul A. Teukolsky. 2019. “Testing the No-Hair Theorem with GW150914.” *Physical Review Letters* 123: 111102.
+
+</div>
+
+<div id="ref-jenkins2009" class="csl-entry">
+
+Jenkins, Jere H. et al. 2009. “Evidence of Correlations Between Nuclear Decay Rates and Earth–Sun Distance.” *Astroparticle Physics* 32: 42–46.
+
+</div>
+
+<div id="ref-kramer2021" class="csl-entry">
+
+Kramer, M. et al. 2021. “Strong-Field Gravity Tests with the Double Pulsar.” *Physical Review X* 11: 041050.
+
+</div>
+
+<div id="ref-lelli2015" class="csl-entry">
+
+Lelli, Federico et al. 2015. “Gas Dynamics in Tidal Dwarf Galaxies: Disc Formation at z = 0.” *Astronomy and Astrophysics* 584: A113.
+
+</div>
+
+<div id="ref-matsuo2011" class="csl-entry">
+
+Matsuo, Koji, and Kosuke Heki. 2011. “Coseismic Gravity Changes of the 2011 Tohoku-Oki Earthquake from Satellite Gravimetry.” *Geophysical Research Letters* 38: L00G12.
+
+</div>
+
+<div id="ref-mistele2024" class="csl-entry">
+
+Mistele, Tobias, Stacy McGaugh, Federico Lelli, James Schombert, and Pengfei Li. 2024. “Indefinitely Flat Circular Velocities and the Baryonic Tully–Fisher Relation from Weak Lensing.” *Astrophysical Journal Letters* 969: L3.
+
+</div>
+
+<div id="ref-montagner2016" class="csl-entry">
+
+Montagner, Jean-Paul et al. 2016. “Prompt Gravity Signal Induced by the 2011 Tohoku-Oki Earthquake.” *Nature Communications* 7: 13349.
+
+</div>
+
+<div id="ref-okun2000" class="csl-entry">
+
+Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the Interpretation of the Redshift in a Static Gravitational Field.” *American Journal of Physics* 68: 115–19.
+
+</div>
+
+<div id="ref-patnaik1999" class="csl-entry">
+
+Patnaik, A. R., A. J. Kemball, R. W. Porcas, and M. A. Garrett. 1999. “Milliarcsec-Scale Polarization Observations of the Gravitational Lens B1422+231.” *Monthly Notices of the Royal Astronomical Society* 307: L1–5.
+
+</div>
+
+<div id="ref-pomme2016" class="csl-entry">
+
+Pommé, S. et al. 2016. “Evidence Against Solar Influence on Nuclear Decay Constants.” *Physics Letters B* 761: 281–86.
+
+</div>
+
+<div id="ref-pound1960" class="csl-entry">
+
+Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical Review Letters* 4: 337–41.
+
+</div>
+
+<div id="ref-rashadaPart9" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “Existing Evidence Supporting Graviton Pressure Theory (Part 9, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-09-existing-evidence-supporting-graviton-pressure-theory/>.
+
+</div>
+
+<div id="ref-rashadaPart14" class="csl-entry">
+
+———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart27" class="csl-entry">
+
+———. 2026c. “Natural Force: Every Force and Its Carrier (Part 27, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
+
+</div>
+
+<div id="ref-rashadaPart28" class="csl-entry">
+
+———. 2026d. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+
+</div>
+
+<div id="ref-rashadaPart23" class="csl-entry">
+
+———. 2026e. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart18" class="csl-entry">
+
+———. 2026f. “The Nature of Time: Rhythm, Sequence, and the Periodicity That Allows Structure (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+
+</div>
+
+<div id="ref-rashadaPart16" class="csl-entry">
+
+———. 2026g. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+
+</div>
+
+<div id="ref-schneider1992" class="csl-entry">
+
+Schneider, Peter, Jürgen Ehlers, and Emilio E. Falco. 1992. *Gravitational Lenses*. Springer.
+
+</div>
+
+<div id="ref-shapiro2004" class="csl-entry">
+
+Shapiro, S. S., J. L. Davis, D. E. Lebach, and J. S. Gregory. 2004. “Measurement of the Solar Gravitational Deflection of Radio Waves Using Geodetic Very-Long-Baseline Interferometry Data, 1979–1999.” *Physical Review Letters* 92: 121101.
+
+</div>
+
+<div id="ref-takamoto2020" class="csl-entry">
+
+Takamoto, Masao et al. 2020. “Test of General Relativity by a Pair of Transportable Optical Lattice Clocks.” *Nature Photonics* 14: 411–15.
+
+</div>
+
+<div id="ref-vallee2017" class="csl-entry">
+
+Vallée, Martin, Jean Paul Ampuero, Kévin Juhel, Pascal Bernard, Jean-Paul Montagner, and Matteo Barsuglia. 2017. “Observations and Modeling of the Elastogravity Signals Preceding Direct Seismic Waves.” *Science* 358: 1164–68.
+
+</div>
+
+<div id="ref-weisberg2016" class="csl-entry">
+
+Weisberg, J. M., and Y. Huang. 2016. “Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16.” *Astrophysical Journal* 829: 55.
 
 </div>
 
 </div>
 
-------------------------------------------------------------------------
+[^1]: (Rashada 2026d).
 
-1.  <div id="fn1">
+[^2]: (Rashada 2026e).
 
-    <span class="citation" cites="wambsganss1999">(Wambsganss 1999)</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+[^3]: (Eddington 1920).
 
-    </div>
+[^4]: (Schneider, Ehlers, and Falco 1992).
 
-2.  <div id="fn2">
+[^5]: (Shapiro et al. 2004).
 
-    <span class="citation" cites="hafele1972">(Hafele and Keating 1972)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+[^6]: (Rashada 2026c).
 
-    </div>
+[^7]: (Rashada 2026a).
 
-3.  <div id="fn3">
+[^8]: (Fomalont and Kopeikin 2003).
 
-    Standard cosmological redshift reinterpreted via graviton density: see <span class="citation" cites="pound1959">(Pound and Rebka 1959)</span><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+[^9]: (Rashada 2026g).
 
-    </div>
+[^10]: (Faraoni 1993).
 
-4.  <div id="fn4">
+[^11]: (Patnaik et al. 1999).
 
-    Gravitational lensing data reinterpreted: <https://doi.org/10.1086/307244>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+[^12]: (Rashada 2026f).
 
-    </div>
+[^13]: (Rashada 2026b).
 
-5.  <div id="fn5">
+[^14]: (Hafele and Keating 1972).
 
-    See <span class="citation" cites="einstein1915">(Einstein 1915)</span> for the formulation of spacetime curvature as gravity.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+[^15]: (Pound and Rebka 1960).
 
-    </div>
+[^16]: (Okun, Selivanov, and Telegdi 2000).
 
-6.  <div id="fn6">
+[^17]: (Takamoto et al. 2020).
 
-    <span class="citation" cites="hafele1972">(Hafele and Keating 1972)</span><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+[^18]: (Grotti et al. 2018).
 
-    </div>
+[^19]: (Bothwell et al. 2022).
 
-7.  <div id="fn7">
+[^20]: (Bailey et al. 1977).
 
-    Standard cosmological redshift reinterpreted via graviton density: see <span class="citation" cites="pound1959">(Pound and Rebka 1959)</span><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+[^21]: (Jenkins et al. 2009).
 
-    </div>
+[^22]: (Pommé et al. 2016).
 
-8.  <div id="fn8">
+[^23]: (Delva et al. 2018).
 
-    Standard cosmological redshift reinterpreted via graviton density: see <span class="citation" cites="pound1959">(Pound and Rebka 1959)</span><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a>
+[^24]: (Herrmann et al. 2018).
 
-    </div>
+[^25]: (Kramer et al. 2021).
 
-9.  <div id="fn9">
+[^26]: (Agazie et al. 2023).
 
-    See Hafele-Keating experiment (1971) and GPS satellite synchronization data.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a>
+[^27]: (B. P. Abbott et al. 2017).
 
-    </div>
+[^28]: (Montagner et al. 2016).
 
-10. <div id="fn10">
+[^29]: (Vallée et al. 2017).
 
-    Gravitational lensing data reinterpreted: <https://doi.org/10.1086/307244>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a>
+[^30]: (Matsuo and Heki 2011).
 
-    </div>
+[^31]: (Isi et al. 2019).
 
-11. <div id="fn11">
+[^32]: (R. Abbott et al. 2021).
 
-    See Hafele-Keating experiment (1971) and GPS satellite synchronization data.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a>
+[^33]: (Hübner et al. 2020).
 
-    </div>
+[^34]: (Mistele et al. 2024).
 
-12. <div id="fn12">
+[^35]: (Bournaud et al. 2007).
 
-    Standard cosmological redshift reinterpreted via graviton density: see <span class="citation" cites="pound1959">(Pound and Rebka 1959)</span><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a>
+[^36]: (Lelli et al. 2015).
 
-    </div>
-
-13. <div id="fn13">
-
-    See Hafele-Keating experiment (1971) and GPS satellite synchronization data.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a>
-
-    </div>
-
-14. <div id="fn14">
-
-    See <span class="citation" cites="newton1687">(Newton 1687)</span> for classical laws of motion and gravity.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a>
-
-    </div>
-
-15. <div id="fn15">
-
-    Gravitational lensing data reinterpreted: <https://doi.org/10.1086/307244>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a>
-
-    </div>
+[^37]: (Clowe et al. 2006).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
-Cite as: Rashada, S. A. (2025). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
+Cite as: Rashada, S. A. (2026). Practical Exploration of Advanced Concepts. In The Unified Framework for the Graviton Pressure Theory, part 10. People of the World. https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-10-practical-exploration-of-advanced-concepts/
 
 
 # Re-examining the Four
