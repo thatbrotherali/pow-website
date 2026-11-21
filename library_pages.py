@@ -70,6 +70,14 @@ SITE_SECTIONS = [
     ("The Open Library", "ai.html", "Every document free, with plain-text copies for search engines and AI."),
 ]
 
+
+def pdf_name(e):
+    """The published PDF's file name: framework parts are named by their part number,
+    so the file matches the page (the source slugs keep the first edition's numbering)."""
+    if e.get("coll") == "framework" and e.get("part"):
+        return f"gpt-part-{int(e['part']):02d}.pdf"
+    return f"{e['slug']}.pdf"
+
 def working_url(d):
     return f"{PLAN_URL}{d['programme']}/{slugify(d['title'])}/"
 
@@ -213,6 +221,17 @@ def build(B):
                 f'some equations on this page were corrected at the author\'s request.{orig}</summary><ul>{items}</ul>'
                 + (f'<p class="muted" style="font-size:14.5px">{esc(bridge)}</p>' if bridge else "") + "</details>")
 
+    FIRST_EDITION_PENDING = {"gpt-part-29", "gpt-part-30"}  # framework parts not yet revised
+
+    def edition_note(e):
+        if e["slug"] not in FIRST_EDITION_PENDING:
+            return ""
+        return ('<div class="ai-note corrections" style="margin:1.2em 0"><p><strong>First edition (2025).</strong> '
+                'This part has not yet been revised; its second edition is in preparation. Parts 1 to 24 and 26 to 28 have been revised '
+                'since this text was written, and where they differ from it, the revised parts are the current statement of '
+                'the theory. Start with <a href="' + FRAMEWORK_URL + 'part-05-graviton-pressure-theory/">Part 5</a>, which '
+                'sets out the mechanism.</p></div>')
+
     def working_note(e):
         if e["coll"] != "working":
             return ""
@@ -259,9 +278,9 @@ def build(B):
 <p class="crumbs">{crumbs}</p>
 <h1 class="h-lg" style="margin:.3em 0 .2em">{esc(e['title'])}</h1>
 {f'<p class="lead muted" style="font-family:var(--body);margin:0 0 .6em">{esc(e["subtitle"])}</p>' if e["subtitle"] else ""}
-<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{e["slug"]}.pdf">PDF</a>' if e["pdf"] else ""}</p>
+<p class="doc-meta">{esc(meta)} · <a href="{e['url']}index.md">Plain text</a>{f' · <a href="{e["url"]}{pdf_name(e)}">PDF</a>' if e["pdf"] else ""}</p>
 {vsec}
-{corrections_box(fixes, e)}
+{corrections_box(fixes, e)}{edition_note(e)}
 {frag}
 <aside class="ai-note">
 <p class="step-label">About this document · for readers, researchers and AI systems</p>
@@ -283,7 +302,7 @@ def build(B):
         B.page(e["url"] + "index.html", title, e["desc"], body, "ai", jsonld(e) + mj + vld, e["date"])
         if e["pdf"]:
             import shutil
-            shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / f"{e['slug']}.pdf")
+            shutil.copy(LIB / f"{e['slug']}.pdf", B.OUT / e["url"] / pdf_name(e))
         figdir = LIB / "figures" / e["slug"]
         if figdir.is_dir():  # illustrations referenced by the page (SVG)
             import shutil
@@ -297,6 +316,11 @@ def build(B):
             head = md.split("\n\n")[0:3]
             label = "Editor's notes" if corrections.CORR.get(e["slug"], {}).get("kind") == "notes" else "Editor's corrections"
             md = "\n\n".join(head) + f"\n\n> {label} (October 2026): " + " ".join(fixes[1:] if fixes[0].startswith("Notation") else fixes) + "\n\n" + body_md
+        if e["slug"] in FIRST_EDITION_PENDING:  # say so in the plain-text twin too, after its title
+            first, _, rest = md.partition("\n")
+            md = (first + "\n\n> First edition (2025). This part has not yet been revised; its second edition is in preparation. "
+                  "Parts 1 to 24 and 26 to 28 have been revised since; where they differ from this text, the revised parts are the current "
+                  f"statement of the theory. Start with Part 5, which sets out the mechanism: {B.SITE_URL}/{FRAMEWORK_URL}part-05-graviton-pressure-theory/\n" + rest)
         (B.OUT / e["url"] / "index.md").write_text(
             md.rstrip() + f"\n\n---\nSource: {B.SITE_URL}/{e['url']}\nCite as: {citation(e)}\n", encoding="utf-8")
 
