@@ -351,13 +351,13 @@ Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Expe
 
 <div id="ref-hedman2013" class="csl-entry">
 
-Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in <span class="nocase">Saturn’s C Ring</span> to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
+Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in Saturn’s C Ring to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
 
 </div>
 
 <div id="ref-laskar1993" class="csl-entry">
 
-Laskar, J., F. Joutel, and P. Robutel. 1993. “Stabilization of the <span class="nocase">Earth’s</span> Obliquity by the Moon.” *Nature* 361: 615–17.
+Laskar, J., F. Joutel, and P. Robutel. 1993. “Stabilization of the Earth’s Obliquity by the Moon.” *Nature* 361: 615–17.
 
 </div>
 
@@ -417,7 +417,7 @@ Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second E
 
 <div id="ref-stephenson2016" class="csl-entry">
 
-Stephenson, F. R., L. V. Morrison, and C. Y. Hohenkerk. 2016. “Measurement of the <span class="nocase">Earth’s</span> Rotation: 720 BC to AD 2015.” *Proceedings of the Royal Society A* 472: 20160404.
+Stephenson, F. R., L. V. Morrison, and C. Y. Hohenkerk. 2016. “Measurement of the Earth’s Rotation: 720 BC to AD 2015.” *Proceedings of the Royal Society A* 472: 20160404.
 
 </div>
 

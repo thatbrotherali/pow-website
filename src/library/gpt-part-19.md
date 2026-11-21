@@ -292,7 +292,7 @@ Edgeworth, R., B. J. Dalton, and T. Parnell. 1984. “The Pitch Drop Experiment.
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, A., and W. J. de Haas. 1915. “Experimenteller Nachweis Der <span class="nocase">Amp<span class="nocase">è</span>reschen</span> <span class="nocase">Molekularstr<span class="nocase">ö</span>me</span>.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 17: 152–70.
+Einstein, A., and W. J. de Haas. 1915. “Experimenteller Nachweis Der Ampèreschen Molekularströme.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 17: 152–70.
 
 </div>
 
@@ -334,13 +334,13 @@ Kuramoto, Yoshiki. 1975. “Self-Entrainment of a Population of Coupled Non-Line
 
 <div id="ref-lindemann1910" class="csl-entry">
 
-Lindemann, F. A. 1910. “Über Die Berechnung Molekularer Eigenfrequenzen.” *Physikalische Zeitschrift* 11: 609–12.
+Lindemann, F. A. 1910. “Über die Berechnung molekularer Eigenfrequenzen.” *Physikalische Zeitschrift* 11: 609–12.
 
 </div>
 
 <div id="ref-meissner1933" class="csl-entry">
 
-Meissner, W., and R. Ochsenfeld. 1933. “Ein Neuer Effekt Bei Eintritt Der <span class="nocase">Supraleitf<span class="nocase">ä</span>higkeit</span>.” *Die Naturwissenschaften* 21: 787–88.
+Meissner, W., and R. Ochsenfeld. 1933. “Ein Neuer Effekt Bei Eintritt Der Supraleitfähigkeit.” *Die Naturwissenschaften* 21: 787–88.
 
 </div>
 

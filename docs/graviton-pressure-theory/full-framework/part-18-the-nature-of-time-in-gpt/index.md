@@ -206,7 +206,7 @@ Bell, John S. 1987. “How to Teach Special Relativity.” In *Speakable and Uns
 
 <div id="ref-bennett2002" class="csl-entry">
 
-Bennett, Matthew, Michael F. Schatz, Heidi Rockwood, and Kurt Wiesenfeld. 2002. “<span class="nocase">Huygens’s</span> Clocks.” *Proceedings of the Royal Society A* 458: 563–79.
+Bennett, Matthew, Michael F. Schatz, Heidi Rockwood, and Kurt Wiesenfeld. 2002. “Huygens’s Clocks.” *Proceedings of the Royal Society A* 458: 563–79.
 
 </div>
 

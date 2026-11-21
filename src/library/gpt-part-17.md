@@ -451,7 +451,7 @@ Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second E
 
 <div id="ref-schrodinger1930" class="csl-entry">
 
-Schrödinger, E. 1930. “Über Die Kräftefreie Bewegung in Der Relativistischen Quantenmechanik.” *Sitzungsberichte Der Preussischen Akademie Der Wissenschaften, Physikalisch-Mathematische Klasse* 24: 418–28.
+Schrödinger, E. 1930. “Über die kräftefreie Bewegung in der relativistischen Quantenmechanik.” *Sitzungsberichte der Preussischen Akademie der Wissenschaften, Physikalisch-mathematische Klasse* 24: 418–28.
 
 </div>
 

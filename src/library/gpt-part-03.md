@@ -905,7 +905,7 @@ Dyson, F. W., A. S. Eddington, and C. Davidson. 1920. “A Determination of the 
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 
@@ -1037,7 +1037,7 @@ Rubin, Vera C., W. Kent Ford, and N. Thonnard. 1980. “Rotational Properties of
 
 <div id="ref-soldner1804" class="csl-entry">
 
-Soldner, Johann Georg von. 1804. “Über Die Ablenkung Eines Lichtstrals von Seiner Geradlinigen Bewegung.” *Berliner Astronomisches Jahrbuch*, 161–72.
+Soldner, Johann Georg von. 1804. “Über die Ablenkung eines Lichtstrals von seiner geradlinigen Bewegung.” *Berliner Astronomisches Jahrbuch*, 161–72.
 
 </div>
 

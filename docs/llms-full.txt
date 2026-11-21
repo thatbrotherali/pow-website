@@ -9016,13 +9016,13 @@ Edwards, Matthew R., ed. 2002. *Pushing Gravity: New Perspectives on Le Sage’s
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+———. 1920. *Äther und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
 
 </div>
 
@@ -9185,7 +9185,7 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Three things were removed from modern science, one after another: purpose, mechanism and cause itself. This paper traces all three removals in the order they happened, because the order matters. Before purpose could be dismissed, the demand for mechanism had already been set aside. And before mechanism was set aside, the very idea of *cause* had begun to be questioned. Intent did not lose an argument. It lost the ground it stood on.
+Three things were removed from modern science, one after another: purpose, mechanism and cause itself. This paper traces all three removals in the order they happened, because the order matters. Purpose was set aside first, as a matter of method; then the demand for mechanism; then the very idea of *cause*. Each removal took away the ground on which the one before it could have returned: without mechanism, purpose has nothing to act through, and without cause, mechanism has nothing to name. Intent did not lose an argument. It lost the ground it stood on.
 
 This paper is an essay, not a physics paper. The physics papers of the framework make no claims about intent; that case is made here, in the philosophical register, where it belongs. Where this paper refers to Graviton Pressure Theory, each claim is marked by its status, as the key shows.
 
@@ -9640,7 +9640,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Changes to the argument
 
-- The title is now *The Removal of Intent, Cause and Mechanism* (first edition: *The Removal of Intent*). The first edition argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe. That argument stands. This edition adds the two removals that came before it, of mechanism and of cause, and traces all three in historical order, with Aristotle’s four causes as the frame.
+- The title is now *The Removal of Intent, Cause and Mechanism* (first edition: *The Removal of Intent*). The first edition argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe. That argument stands. This edition adds the two removals that followed it, of mechanism and of cause, and traces all three in historical order, with Aristotle’s four causes as the frame.
 
 - The quantum observer. The first edition implied that mainstream physics conceals that consciousness causes collapse. In standard physics an observation is any recording interaction, and the consciousness reading (London and Bauer; Wigner) is a minority view. The section now states the measurement problem accurately: it is unsolved, and decoherence does not explain why one outcome occurs. The point kept is that the question was set aside by preference, not by evidence.
 
@@ -9706,7 +9706,7 @@ Chalmers, David J. 1995. “Facing up to the Problem of Consciousness.” *Journ
 
 <div id="ref-clausius1865" class="csl-entry">
 
-Clausius, Rudolf. 1865. “Über Verschiedene für Die Anwendung Bequeme Formen Der Hauptgleichungen Der Mechanischen wärmetheorie.” *Annalen Der Physik* 201 (7): 353–400.
+Clausius, Rudolf. 1865. “Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie.” *Annalen der Physik* 201 (7): 353–400.
 
 </div>
 
@@ -9748,19 +9748,19 @@ Descartes, René. 1644. *Principia Philosophiae (Principles of Philosophy)*.
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. “Die Grundlage Der Allgemeinen Relativitätstheorie.” *Annalen Der Physik* 49: 769–822.
+Einstein, Albert. 1916. “Die Grundlage der allgemeinen Relativitätstheorie.” *Annalen der Physik* 49: 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+———. 1920. *Äther und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
 
 </div>
 
 <div id="ref-einsteinBorn1926" class="csl-entry">
 
-———. 1926. “Letter to Max Born, 4 December 1926.”
+———. 1926. “Letter to Max Born, 4 December.”
 
 </div>
 
@@ -9796,7 +9796,7 @@ Hameroff, Stuart, and Roger Penrose. 2014. “Consciousness in the Universe: A R
 
 <div id="ref-heisenberg1927" class="csl-entry">
 
-Heisenberg, Werner. 1927. “Über Den Anschaulichen Inhalt Der Quantentheoretischen Kinematik Und Mechanik.” *Zeitschrift für Physik* 43: 172–98.
+Heisenberg, Werner. 1927. “Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.” *Zeitschrift für Physik* 43: 172–98.
 
 </div>
 
@@ -10918,7 +10918,7 @@ Dyson, F. W., A. S. Eddington, and C. Davidson. 1920. “A Determination of the 
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 
@@ -11050,7 +11050,7 @@ Rubin, Vera C., W. Kent Ford, and N. Thonnard. 1980. “Rotational Properties of
 
 <div id="ref-soldner1804" class="csl-entry">
 
-Soldner, Johann Georg von. 1804. “Über Die Ablenkung Eines Lichtstrals von Seiner Geradlinigen Bewegung.” *Berliner Astronomisches Jahrbuch*, 161–72.
+Soldner, Johann Georg von. 1804. “Über die Ablenkung eines Lichtstrals von seiner geradlinigen Bewegung.” *Berliner Astronomisches Jahrbuch*, 161–72.
 
 </div>
 
@@ -11513,7 +11513,7 @@ Dyson, Freeman. 2013. “Is a Graviton Detectable?” *International Journal of 
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 
@@ -12228,7 +12228,7 @@ Dickey, J. O. et al. 1994. “Lunar Laser Ranging: A Continuing Legacy of the Ap
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 
@@ -13380,7 +13380,7 @@ Cavendish, Henry. 1798. “Experiments to Determine the Density of the Earth.”
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preußischen Akademie Der Wissenschaften*, 844–47.
+Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844–47.
 
 </div>
 
@@ -13410,7 +13410,7 @@ Guericke, Otto von. 1672. *Experimenta Nova (Ut Vocantur) Magdeburgica de Vacuo 
 
 <div id="ref-heitlerLondon1927" class="csl-entry">
 
-Heitler, Walter, and Fritz London. 1927. “Wechselwirkung Neutraler Atome Und Homöopolare Bindung Nach Der Quantenmechanik.” *Zeitschrift Für Physik* 44: 455–72.
+Heitler, Walter, and Fritz London. 1927. “Wechselwirkung Neutraler Atome Und Homöopolare Bindung Nach Der Quantenmechanik.” *Zeitschrift für Physik* 44: 455–72.
 
 </div>
 
@@ -13882,19 +13882,19 @@ Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University P
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
+Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 844–47.
 
 </div>
 
 <div id="ref-einstein1916" class="csl-entry">
 
-———. 1916. “Die Grundlage Der Allgemeinen <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” *Annalen Der Physik* 49: 769–822.
+———. 1916. “Die Grundlage der allgemeinen Relativitätstheorie.” *Annalen der Physik* 49: 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+———. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 
@@ -14521,7 +14521,7 @@ Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University P
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation in *Sidelights on Relativity*, Methuen, 1922.
+Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 
@@ -14557,7 +14557,7 @@ Grotti, Jacopo et al. 2018. “Geodesy and Metrology with a Transportable Optica
 
 <div id="ref-helmholtz1858" class="csl-entry">
 
-Helmholtz, Hermann. 1858. “Über Integrale Der Hydrodynamischen Gleichungen, Welche Den Wirbelbewegungen Entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
+Helmholtz, Hermann. 1858. “Über Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
 
 </div>
 
@@ -14569,7 +14569,7 @@ Hu, Wayne, and Scott Dodelson. 2002. “Cosmic Microwave Background Anisotropies
 
 <div id="ref-lamoreaux1997" class="csl-entry">
 
-Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 <span class="nocase">$\mu$m</span> Range.” *Physical Review Letters* 78: 5–8.
+Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 $\mu$m Range.” *Physical Review Letters* 78: 5–8.
 
 </div>
 
@@ -14749,7 +14749,7 @@ Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The Mechanics of Spacetime
 
 <div id="ref-tewes2013" class="csl-entry">
 
-Tewes, M. et al. 2013. “COSMOGRAIL: The <span class="nocase">COSmological MOnitoring of GRAvItational Lenses</span>. XIII. Time Delays and 9-Yr Optical Monitoring of the Lensed Quasar RX J1131$-$<!-- -->1231.” *Astronomy and Astrophysics* 556: A22.
+Tewes, M. et al. 2013. “COSMOGRAIL: The COSmological MOnitoring of GRAvItational Lenses. XIII. Time Delays and 9-Yr Optical Monitoring of the Lensed Quasar RX J1131$-$<!-- -->1231.” *Astronomy and Astrophysics* 556: A22.
 
 </div>
 
@@ -15852,7 +15852,7 @@ Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Posi
 
 <div id="ref-einstein1907" class="csl-entry">
 
-Einstein, Albert. 1907. “Über Das Relativitätsprinzip Und Die Aus Demselben Gezogenen Folgerungen.” *Jahrbuch Der Radioaktivität Und Elektronik* 4: 411–62.
+Einstein, Albert. 1907. “Über das Relativitätsprinzip und die aus demselben gezogenen Folgerungen.” *Jahrbuch Der Radioaktivität Und Elektronik* 4: 411–62.
 
 </div>
 
@@ -15864,7 +15864,7 @@ Ejlli, A., F. Della Valle, U. Gastaldi, G. Messineo, R. Pengo, G. Ruoso, and G. 
 
 <div id="ref-eotvos1922" class="csl-entry">
 
-Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen Der Physik* 68: 11–66.
+Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen der Physik* 68: 11–66.
 
 </div>
 
@@ -16848,7 +16848,7 @@ Egbert, G. D., and R. D. Ray. 2000. “Significant Dissipation of Tidal Energy i
 
 <div id="ref-eotvos1922" class="csl-entry">
 
-Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen Der Physik* 68: 11–66.
+Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen der Physik* 68: 11–66.
 
 </div>
 
@@ -17731,7 +17731,7 @@ Faller, J. E., W. J. Hollander, P. G. Nelson, and M. P. McHugh. 1990. “Gyrosco
 
 <div id="ref-hedman2013" class="csl-entry">
 
-Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in <span class="nocase">Saturn’s C Ring</span> to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
+Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in Saturn’s C Ring to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
 
 </div>
 
@@ -18171,13 +18171,13 @@ Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Expe
 
 <div id="ref-hedman2013" class="csl-entry">
 
-Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in <span class="nocase">Saturn’s C Ring</span> to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
+Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in Saturn’s C Ring to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
 
 </div>
 
 <div id="ref-laskar1993" class="csl-entry">
 
-Laskar, J., F. Joutel, and P. Robutel. 1993. “Stabilization of the <span class="nocase">Earth’s</span> Obliquity by the Moon.” *Nature* 361: 615–17.
+Laskar, J., F. Joutel, and P. Robutel. 1993. “Stabilization of the Earth’s Obliquity by the Moon.” *Nature* 361: 615–17.
 
 </div>
 
@@ -18237,7 +18237,7 @@ Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second E
 
 <div id="ref-stephenson2016" class="csl-entry">
 
-Stephenson, F. R., L. V. Morrison, and C. Y. Hohenkerk. 2016. “Measurement of the <span class="nocase">Earth’s</span> Rotation: 720 BC to AD 2015.” *Proceedings of the Royal Society A* 472: 20160404.
+Stephenson, F. R., L. V. Morrison, and C. Y. Hohenkerk. 2016. “Measurement of the Earth’s Rotation: 720 BC to AD 2015.” *Proceedings of the Royal Society A* 472: 20160404.
 
 </div>
 
@@ -18755,7 +18755,7 @@ Rashada, Shareef Ali. 2026a. “From Revelation to Foundation (Part 14, Second E
 
 <div id="ref-schrodinger1930" class="csl-entry">
 
-Schrödinger, E. 1930. “Über Die Kräftefreie Bewegung in Der Relativistischen Quantenmechanik.” *Sitzungsberichte Der Preussischen Akademie Der Wissenschaften, Physikalisch-Mathematische Klasse* 24: 418–28.
+Schrödinger, E. 1930. “Über die kräftefreie Bewegung in der relativistischen Quantenmechanik.” *Sitzungsberichte der Preussischen Akademie der Wissenschaften, Physikalisch-mathematische Klasse* 24: 418–28.
 
 </div>
 
@@ -19052,7 +19052,7 @@ Bell, John S. 1987. “How to Teach Special Relativity.” In *Speakable and Uns
 
 <div id="ref-bennett2002" class="csl-entry">
 
-Bennett, Matthew, Michael F. Schatz, Heidi Rockwood, and Kurt Wiesenfeld. 2002. “<span class="nocase">Huygens’s</span> Clocks.” *Proceedings of the Royal Society A* 458: 563–79.
+Bennett, Matthew, Michael F. Schatz, Heidi Rockwood, and Kurt Wiesenfeld. 2002. “Huygens’s Clocks.” *Proceedings of the Royal Society A* 458: 563–79.
 
 </div>
 
@@ -19456,7 +19456,7 @@ Anderson, M. H., J. R. Ensher, M. R. Matthews, C. E. Wieman, and E. A. Cornell. 
 
 <div id="ref-blackett1952" class="csl-entry">
 
-Blackett, P. M. S. 1952. “A Negative Experiment Relating to Magnetism and the <span class="nocase">Earth’s</span> Rotation.” *Philosophical Transactions of the Royal Society A* 245: 309–70.
+Blackett, P. M. S. 1952. “A Negative Experiment Relating to Magnetism and the Earth’s Rotation.” *Philosophical Transactions of the Royal Society A* 245: 309–70.
 
 </div>
 
@@ -19877,7 +19877,7 @@ Edgeworth, R., B. J. Dalton, and T. Parnell. 1984. “The Pitch Drop Experiment.
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, A., and W. J. de Haas. 1915. “Experimenteller Nachweis Der <span class="nocase">Amp<span class="nocase">è</span>reschen</span> <span class="nocase">Molekularstr<span class="nocase">ö</span>me</span>.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 17: 152–70.
+Einstein, A., and W. J. de Haas. 1915. “Experimenteller Nachweis Der Ampèreschen Molekularströme.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 17: 152–70.
 
 </div>
 
@@ -19919,13 +19919,13 @@ Kuramoto, Yoshiki. 1975. “Self-Entrainment of a Population of Coupled Non-Line
 
 <div id="ref-lindemann1910" class="csl-entry">
 
-Lindemann, F. A. 1910. “Über Die Berechnung Molekularer Eigenfrequenzen.” *Physikalische Zeitschrift* 11: 609–12.
+Lindemann, F. A. 1910. “Über die Berechnung molekularer Eigenfrequenzen.” *Physikalische Zeitschrift* 11: 609–12.
 
 </div>
 
 <div id="ref-meissner1933" class="csl-entry">
 
-Meissner, W., and R. Ochsenfeld. 1933. “Ein Neuer Effekt Bei Eintritt Der <span class="nocase">Supraleitf<span class="nocase">ä</span>higkeit</span>.” *Die Naturwissenschaften* 21: 787–88.
+Meissner, W., and R. Ochsenfeld. 1933. “Ein Neuer Effekt Bei Eintritt Der Supraleitfähigkeit.” *Die Naturwissenschaften* 21: 787–88.
 
 </div>
 
@@ -20337,7 +20337,7 @@ Herring, Conyers, and J. K. Galt. 1952. “Elastic and Plastic Properties of Ver
 
 <div id="ref-heusler1903" class="csl-entry">
 
-Heusler, Fr. 1903. “Über Magnetische Manganlegierungen.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 5: 219.
+Heusler, Fr. 1903. “Über magnetische Manganlegierungen.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 5: 219.
 
 </div>
 
@@ -20349,7 +20349,7 @@ Hirsch, P. B., R. W. Horne, and M. J. Whelan. 1956. “Direct Observations of th
 
 <div id="ref-janssen1895" class="csl-entry">
 
-Janssen, H. A. 1895. “Versuche <span class="nocase">ü</span>ber Getreidedruck in Silozellen.” *Zeitschrift Des Vereines Deutscher Ingenieure* 39: 1045–49.
+Janssen, H. A. 1895. “Versuche über Getreidedruck in Silozellen.” *Zeitschrift Des Vereines Deutscher Ingenieure* 39: 1045–49.
 
 </div>
 
@@ -20427,7 +20427,7 @@ Uchida, K. et al. 2008. “Observation of the Spin Seebeck Effect.” *Nature* 4
 
 <div id="ref-wiedemann1853" class="csl-entry">
 
-Wiedemann, G., and R. Franz. 1853. “Über Die <span class="nocase">W<span class="nocase">ä</span>rme-Leitungsf<span class="nocase">ä</span>higkeit</span> Der Metalle.” *Annalen Der Physik* 165: 497–531.
+Wiedemann, G., and R. Franz. 1853. “Über die Wärme-Leitungsfähigkeit der Metalle.” *Annalen der Physik* 165: 497–531.
 
 </div>
 
@@ -20749,7 +20749,7 @@ Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Posi
 
 <div id="ref-barkhausen1919" class="csl-entry">
 
-Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen <span class="nocase">Verst<span class="nocase">ä</span>rker</span> Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
+Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen Verstärker Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
 
 </div>
 
@@ -20767,13 +20767,13 @@ Cimmino, A. et al. 1989. “Observation of the Topological Aharonov–Casher Pha
 
 <div id="ref-curie1895" class="csl-entry">
 
-Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps <span class="nocase">‘a</span> Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
+Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps ‘a Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. *Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>*. Berlin: Springer.
+Einstein, Albert. 1920. *Äther und Relativitätstheorie*. Berlin: Springer.
 
 </div>
 
@@ -20791,7 +20791,7 @@ Heckel, B. R. et al. 2008. “Preferred-Frame and CP-Violation Tests with Polari
 
 <div id="ref-helmholtz1858" class="csl-entry">
 
-Helmholtz, H. 1858. “Über Integrale Der Hydrodynamischen Gleichungen, Welche Den Wirbelbewegungen Entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
+Helmholtz, H. 1858. “Über Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
 
 </div>
 
@@ -20845,7 +20845,7 @@ Tonomura, Akira et al. 1986. “Evidence for Aharonov–Bohm Effect with Magneti
 
 <div id="ref-weber1856" class="csl-entry">
 
-Weber, W., and R. Kohlrausch. 1856. “Über Die <span class="nocase">Elektricit<span class="nocase">ä</span>tsmenge</span>, Welche Bei Galvanischen <span class="nocase">Str<span class="nocase">ö</span>men</span> Durch Den Querschnitt Der Kette Fliesst.” *Annalen Der Physik* 99: 10–25.
+Weber, W., and R. Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei galvanischen Strömen durch den Querschnitt der Kette fliesst.” *Annalen der Physik* 99: 10–25.
 
 </div>
 
@@ -22968,7 +22968,7 @@ Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *A
 
 <div id="ref-fizeau1851" class="csl-entry">
 
-Fizeau, Hippolyte. 1851. “Sur Les Hypothèses Relatives <span class="nocase">à</span> l’éther Lumineux.” *Comptes Rendus* 33: 349–55.
+Fizeau, Hippolyte. 1851. “Sur Les Hypothèses Relatives à l’éther Lumineux.” *Comptes Rendus* 33: 349–55.
 
 </div>
 
@@ -23022,7 +23022,7 @@ Lamb, Willis E., and Marlan O. Scully. 1969. “The Photoelectric Effect Without
 
 <div id="ref-lamoreaux1997" class="csl-entry">
 
-Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 <span class="nocase">$\mu$m</span> Range.” *Physical Review Letters* 78: 5–8.
+Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 $\mu$m Range.” *Physical Review Letters* 78: 5–8.
 
 </div>
 
@@ -23046,7 +23046,7 @@ Mignani, Roberto P. et al. 2017. “Evidence for Vacuum Birefringence from the F
 
 <div id="ref-millikan1916" class="csl-entry">
 
-Millikan, Robert A. 1916. “A Direct Photoelectric Determination of <span class="nocase">Planck’s</span> ‘h’.” *Physical Review* 7: 355–88.
+Millikan, Robert A. 1916. “A Direct Photoelectric Determination of Planck’s ‘h’.” *Physical Review* 7: 355–88.
 
 </div>
 
@@ -23130,7 +23130,7 @@ Tolman, Richard C., and T. Dale Stewart. 1916. “The Electromotive Force Produc
 
 <div id="ref-weber1856" class="csl-entry">
 
-Weber, Wilhelm, and Rudolf Kohlrausch. 1856. “Über Die Elektricitätsmenge, Welche Bei Galvanischen Strömen Durch Den Querschnitt Der Kette Fliesst.” *Annalen Der Physik* 99: 10–25.
+Weber, Wilhelm, and Rudolf Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei galvanischen Strömen durch den Querschnitt der Kette fliesst.” *Annalen der Physik* 99: 10–25.
 
 </div>
 

@@ -103,6 +103,8 @@ def main():
         n = iter(range(1, 1000))
         h = re.sub(rf"<{tag}>(\s*<p>)?", lambda m: f"<{tag}>{m.group(1) or ''}<strong>{word} {part}.{next(n)}.</strong> ", h)
     md = SM.KEY_MD + SM.to_md(pandoc(web, "latex", "gfm", args))
+    import fix_german_titles as FG  # citeproc title-cases German titles as if English
+    h, md = FG.fix(h)[0], FG.fix(md)[0]
     entry = save(a.slug, title, subtitle, h, md, f"Part {part} - {title} (2nd ed.).tex")
 
     # self-contained LaTeX source, bibliography and PDF beside the web copies

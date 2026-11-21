@@ -249,7 +249,7 @@ Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Posi
 
 <div id="ref-barkhausen1919" class="csl-entry">
 
-Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen <span class="nocase">Verst<span class="nocase">ä</span>rker</span> Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
+Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen Verstärker Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
 
 </div>
 
@@ -267,13 +267,13 @@ Cimmino, A. et al. 1989. “Observation of the Topological Aharonov–Casher Pha
 
 <div id="ref-curie1895" class="csl-entry">
 
-Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps <span class="nocase">‘a</span> Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
+Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps ‘a Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. *Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>*. Berlin: Springer.
+Einstein, Albert. 1920. *Äther und Relativitätstheorie*. Berlin: Springer.
 
 </div>
 
@@ -291,7 +291,7 @@ Heckel, B. R. et al. 2008. “Preferred-Frame and CP-Violation Tests with Polari
 
 <div id="ref-helmholtz1858" class="csl-entry">
 
-Helmholtz, H. 1858. “Über Integrale Der Hydrodynamischen Gleichungen, Welche Den Wirbelbewegungen Entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
+Helmholtz, H. 1858. “Über Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
 
 </div>
 
@@ -345,7 +345,7 @@ Tonomura, Akira et al. 1986. “Evidence for Aharonov–Bohm Effect with Magneti
 
 <div id="ref-weber1856" class="csl-entry">
 
-Weber, W., and R. Kohlrausch. 1856. “Über Die <span class="nocase">Elektricit<span class="nocase">ä</span>tsmenge</span>, Welche Bei Galvanischen <span class="nocase">Str<span class="nocase">ö</span>men</span> Durch Den Querschnitt Der Kette Fliesst.” *Annalen Der Physik* 99: 10–25.
+Weber, W., and R. Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei galvanischen Strömen durch den Querschnitt der Kette fliesst.” *Annalen der Physik* 99: 10–25.
 
 </div>
 

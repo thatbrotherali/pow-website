@@ -295,7 +295,7 @@ Anderson, M. H., J. R. Ensher, M. R. Matthews, C. E. Wieman, and E. A. Cornell. 
 
 <div id="ref-blackett1952" class="csl-entry">
 
-Blackett, P. M. S. 1952. “A Negative Experiment Relating to Magnetism and the <span class="nocase">Earth’s</span> Rotation.” *Philosophical Transactions of the Royal Society A* 245: 309–70.
+Blackett, P. M. S. 1952. “A Negative Experiment Relating to Magnetism and the Earth’s Rotation.” *Philosophical Transactions of the Royal Society A* 245: 309–70.
 
 </div>
 

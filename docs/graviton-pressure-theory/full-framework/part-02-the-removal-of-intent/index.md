@@ -8,7 +8,7 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Three things were removed from modern science, one after another: purpose, mechanism and cause itself. This paper traces all three removals in the order they happened, because the order matters. Before purpose could be dismissed, the demand for mechanism had already been set aside. And before mechanism was set aside, the very idea of *cause* had begun to be questioned. Intent did not lose an argument. It lost the ground it stood on.
+Three things were removed from modern science, one after another: purpose, mechanism and cause itself. This paper traces all three removals in the order they happened, because the order matters. Purpose was set aside first, as a matter of method; then the demand for mechanism; then the very idea of *cause*. Each removal took away the ground on which the one before it could have returned: without mechanism, purpose has nothing to act through, and without cause, mechanism has nothing to name. Intent did not lose an argument. It lost the ground it stood on.
 
 This paper is an essay, not a physics paper. The physics papers of the framework make no claims about intent; that case is made here, in the philosophical register, where it belongs. Where this paper refers to Graviton Pressure Theory, each claim is marked by its status, as the key shows.
 
@@ -463,7 +463,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 ## Changes to the argument
 
-- The title is now *The Removal of Intent, Cause and Mechanism* (first edition: *The Removal of Intent*). The first edition argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe. That argument stands. This edition adds the two removals that came before it, of mechanism and of cause, and traces all three in historical order, with Aristotle’s four causes as the frame.
+- The title is now *The Removal of Intent, Cause and Mechanism* (first edition: *The Removal of Intent*). The first edition argued that modern science had exiled consciousness, meaning and purpose from its picture of the universe. That argument stands. This edition adds the two removals that followed it, of mechanism and of cause, and traces all three in historical order, with Aristotle’s four causes as the frame.
 
 - The quantum observer. The first edition implied that mainstream physics conceals that consciousness causes collapse. In standard physics an observation is any recording interaction, and the consciousness reading (London and Bauer; Wigner) is a minority view. The section now states the measurement problem accurately: it is unsolved, and decoherence does not explain why one outcome occurs. The point kept is that the question was set aside by preference, not by evidence.
 
@@ -529,7 +529,7 @@ Chalmers, David J. 1995. “Facing up to the Problem of Consciousness.” *Journ
 
 <div id="ref-clausius1865" class="csl-entry">
 
-Clausius, Rudolf. 1865. “Über Verschiedene für Die Anwendung Bequeme Formen Der Hauptgleichungen Der Mechanischen wärmetheorie.” *Annalen Der Physik* 201 (7): 353–400.
+Clausius, Rudolf. 1865. “Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie.” *Annalen der Physik* 201 (7): 353–400.
 
 </div>
 
@@ -571,19 +571,19 @@ Descartes, René. 1644. *Principia Philosophiae (Principles of Philosophy)*.
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. “Die Grundlage Der Allgemeinen Relativitätstheorie.” *Annalen Der Physik* 49: 769–822.
+Einstein, Albert. 1916. “Die Grundlage der allgemeinen Relativitätstheorie.” *Annalen der Physik* 49: 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+———. 1920. *Äther und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
 
 </div>
 
 <div id="ref-einsteinBorn1926" class="csl-entry">
 
-———. 1926. “Letter to Max Born, 4 December 1926.”
+———. 1926. “Letter to Max Born, 4 December.”
 
 </div>
 
@@ -619,7 +619,7 @@ Hameroff, Stuart, and Roger Penrose. 2014. “Consciousness in the Universe: A R
 
 <div id="ref-heisenberg1927" class="csl-entry">
 
-Heisenberg, Werner. 1927. “Über Den Anschaulichen Inhalt Der Quantentheoretischen Kinematik Und Mechanik.” *Zeitschrift für Physik* 43: 172–98.
+Heisenberg, Werner. 1927. “Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.” *Zeitschrift für Physik* 43: 172–98.
 
 </div>
 

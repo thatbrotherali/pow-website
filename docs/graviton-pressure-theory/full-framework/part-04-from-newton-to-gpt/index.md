@@ -340,7 +340,7 @@ Dyson, Freeman. 2013. “Is a Graviton Detectable?” *International Journal of 
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 

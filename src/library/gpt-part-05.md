@@ -338,7 +338,7 @@ Dickey, J. O. et al. 1994. “Lunar Laser Ranging: A Continuing Legacy of the Ap
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 

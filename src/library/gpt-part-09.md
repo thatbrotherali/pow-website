@@ -400,7 +400,7 @@ Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University P
 
 <div id="ref-einstein1920" class="csl-entry">
 
-Einstein, Albert. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation in *Sidelights on Relativity*, Methuen, 1922.
+Einstein, Albert. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 
@@ -436,7 +436,7 @@ Grotti, Jacopo et al. 2018. “Geodesy and Metrology with a Transportable Optica
 
 <div id="ref-helmholtz1858" class="csl-entry">
 
-Helmholtz, Hermann. 1858. “Über Integrale Der Hydrodynamischen Gleichungen, Welche Den Wirbelbewegungen Entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
+Helmholtz, Hermann. 1858. “Über Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen.” *Journal für Die Reine Und Angewandte Mathematik* 55: 25–55.
 
 </div>
 
@@ -448,7 +448,7 @@ Hu, Wayne, and Scott Dodelson. 2002. “Cosmic Microwave Background Anisotropies
 
 <div id="ref-lamoreaux1997" class="csl-entry">
 
-Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 <span class="nocase">$\mu$m</span> Range.” *Physical Review Letters* 78: 5–8.
+Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 $\mu$m Range.” *Physical Review Letters* 78: 5–8.
 
 </div>
 
@@ -628,7 +628,7 @@ Tenev, Tichomir G., and Mark F. Horstemeyer. 2018. “The Mechanics of Spacetime
 
 <div id="ref-tewes2013" class="csl-entry">
 
-Tewes, M. et al. 2013. “COSMOGRAIL: The <span class="nocase">COSmological MOnitoring of GRAvItational Lenses</span>. XIII. Time Delays and 9-Yr Optical Monitoring of the Lensed Quasar RX J1131$-$<!-- -->1231.” *Astronomy and Astrophysics* 556: A22.
+Tewes, M. et al. 2013. “COSMOGRAIL: The COSmological MOnitoring of GRAvItational Lenses. XIII. Time Delays and 9-Yr Optical Monitoring of the Lensed Quasar RX J1131$-$<!-- -->1231.” *Astronomy and Astrophysics* 556: A22.
 
 </div>
 

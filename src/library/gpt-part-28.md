@@ -358,7 +358,7 @@ Fixsen, D. J. 2009. “The Temperature of the Cosmic Microwave Background.” *A
 
 <div id="ref-fizeau1851" class="csl-entry">
 
-Fizeau, Hippolyte. 1851. “Sur Les Hypothèses Relatives <span class="nocase">à</span> l’éther Lumineux.” *Comptes Rendus* 33: 349–55.
+Fizeau, Hippolyte. 1851. “Sur Les Hypothèses Relatives à l’éther Lumineux.” *Comptes Rendus* 33: 349–55.
 
 </div>
 
@@ -412,7 +412,7 @@ Lamb, Willis E., and Marlan O. Scully. 1969. “The Photoelectric Effect Without
 
 <div id="ref-lamoreaux1997" class="csl-entry">
 
-Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 <span class="nocase">$\mu$m</span> Range.” *Physical Review Letters* 78: 5–8.
+Lamoreaux, Steve K. 1997. “Demonstration of the Casimir Force in the 0.6 to 6 $\mu$m Range.” *Physical Review Letters* 78: 5–8.
 
 </div>
 
@@ -436,7 +436,7 @@ Mignani, Roberto P. et al. 2017. “Evidence for Vacuum Birefringence from the F
 
 <div id="ref-millikan1916" class="csl-entry">
 
-Millikan, Robert A. 1916. “A Direct Photoelectric Determination of <span class="nocase">Planck’s</span> ‘h’.” *Physical Review* 7: 355–88.
+Millikan, Robert A. 1916. “A Direct Photoelectric Determination of Planck’s ‘h’.” *Physical Review* 7: 355–88.
 
 </div>
 
@@ -520,7 +520,7 @@ Tolman, Richard C., and T. Dale Stewart. 1916. “The Electromotive Force Produc
 
 <div id="ref-weber1856" class="csl-entry">
 
-Weber, Wilhelm, and Rudolf Kohlrausch. 1856. “Über Die Elektricitätsmenge, Welche Bei Galvanischen Strömen Durch Den Querschnitt Der Kette Fliesst.” *Annalen Der Physik* 99: 10–25.
+Weber, Wilhelm, and Rudolf Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei galvanischen Strömen durch den Querschnitt der Kette fliesst.” *Annalen der Physik* 99: 10–25.
 
 </div>
 

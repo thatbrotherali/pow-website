@@ -439,7 +439,7 @@ Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Posi
 
 <div id="ref-einstein1907" class="csl-entry">
 
-Einstein, Albert. 1907. “Über Das Relativitätsprinzip Und Die Aus Demselben Gezogenen Folgerungen.” *Jahrbuch Der Radioaktivität Und Elektronik* 4: 411–62.
+Einstein, Albert. 1907. “Über das Relativitätsprinzip und die aus demselben gezogenen Folgerungen.” *Jahrbuch Der Radioaktivität Und Elektronik* 4: 411–62.
 
 </div>
 
@@ -451,7 +451,7 @@ Ejlli, A., F. Della Valle, U. Gastaldi, G. Messineo, R. Pengo, G. Ruoso, and G. 
 
 <div id="ref-eotvos1922" class="csl-entry">
 
-Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen Der Physik* 68: 11–66.
+Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen der Physik* 68: 11–66.
 
 </div>
 

@@ -321,19 +321,19 @@ Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University P
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preussischen Akademie Der Wissenschaften*, 844–47.
+Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 844–47.
 
 </div>
 
 <div id="ref-einstein1916" class="csl-entry">
 
-———. 1916. “Die Grundlage Der Allgemeinen <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” *Annalen Der Physik* 49: 769–822.
+———. 1916. “Die Grundlage der allgemeinen Relativitätstheorie.” *Annalen der Physik* 49: 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. “Äther Und <span class="nocase">Relativit<span class="nocase">ä</span>tstheorie</span>.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
+———. 1920. “Äther und Relativitätstheorie.” Address at the University of Leiden; English translation, “Ether and the Theory of Relativity,” in *Sidelights on Relativity*, Methuen, 1922.
 
 </div>
 

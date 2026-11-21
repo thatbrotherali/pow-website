@@ -534,7 +534,7 @@ Cavendish, Henry. 1798. “Experiments to Determine the Density of the Earth.”
 
 <div id="ref-einstein1915" class="csl-entry">
 
-Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte Der Königlich Preußischen Akademie Der Wissenschaften*, 844–47.
+Einstein, Albert. 1915. “Die Feldgleichungen Der Gravitation.” *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844–47.
 
 </div>
 
@@ -564,7 +564,7 @@ Guericke, Otto von. 1672. *Experimenta Nova (Ut Vocantur) Magdeburgica de Vacuo 
 
 <div id="ref-heitlerLondon1927" class="csl-entry">
 
-Heitler, Walter, and Fritz London. 1927. “Wechselwirkung Neutraler Atome Und Homöopolare Bindung Nach Der Quantenmechanik.” *Zeitschrift Für Physik* 44: 455–72.
+Heitler, Walter, and Fritz London. 1927. “Wechselwirkung Neutraler Atome Und Homöopolare Bindung Nach Der Quantenmechanik.” *Zeitschrift für Physik* 44: 455–72.
 
 </div>
 

@@ -292,13 +292,13 @@ Edwards, Matthew R., ed. 2002. *Pushing Gravity: New Perspectives on Le Sage’s
 
 <div id="ref-einstein1916" class="csl-entry">
 
-Einstein, Albert. 1916. *Die Grundlage Der Allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
+Einstein, Albert. 1916. *Die Grundlage der allgemeinen Relativitätstheorie*. Annalen der Physik 49, 769–822.
 
 </div>
 
 <div id="ref-einstein1920" class="csl-entry">
 
-———. 1920. *Äther Und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
+———. 1920. *Äther und Relativitätstheorie (Ether and the Theory of Relativity)*. Springer, Berlin.
 
 </div>
 

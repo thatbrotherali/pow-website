@@ -328,7 +328,7 @@ Faller, J. E., W. J. Hollander, P. G. Nelson, and M. P. McHugh. 1990. “Gyrosco
 
 <div id="ref-hedman2013" class="csl-entry">
 
-Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in <span class="nocase">Saturn’s C Ring</span> to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
+Hedman, M. M., and P. D. Nicholson. 2013. “Kronoseismology: Using Density Waves in Saturn’s C Ring to Probe the Planet’s Interior.” *The Astronomical Journal* 146: 12.
 
 </div>
 

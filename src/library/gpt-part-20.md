@@ -273,7 +273,7 @@ Herring, Conyers, and J. K. Galt. 1952. “Elastic and Plastic Properties of Ver
 
 <div id="ref-heusler1903" class="csl-entry">
 
-Heusler, Fr. 1903. “Über Magnetische Manganlegierungen.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 5: 219.
+Heusler, Fr. 1903. “Über magnetische Manganlegierungen.” *Verhandlungen Der Deutschen Physikalischen Gesellschaft* 5: 219.
 
 </div>
 
@@ -285,7 +285,7 @@ Hirsch, P. B., R. W. Horne, and M. J. Whelan. 1956. “Direct Observations of th
 
 <div id="ref-janssen1895" class="csl-entry">
 
-Janssen, H. A. 1895. “Versuche <span class="nocase">ü</span>ber Getreidedruck in Silozellen.” *Zeitschrift Des Vereines Deutscher Ingenieure* 39: 1045–49.
+Janssen, H. A. 1895. “Versuche über Getreidedruck in Silozellen.” *Zeitschrift Des Vereines Deutscher Ingenieure* 39: 1045–49.
 
 </div>
 
@@ -363,7 +363,7 @@ Uchida, K. et al. 2008. “Observation of the Spin Seebeck Effect.” *Nature* 4
 
 <div id="ref-wiedemann1853" class="csl-entry">
 
-Wiedemann, G., and R. Franz. 1853. “Über Die <span class="nocase">W<span class="nocase">ä</span>rme-Leitungsf<span class="nocase">ä</span>higkeit</span> Der Metalle.” *Annalen Der Physik* 165: 497–531.
+Wiedemann, G., and R. Franz. 1853. “Über die Wärme-Leitungsfähigkeit der Metalle.” *Annalen der Physik* 165: 497–531.
 
 </div>
 

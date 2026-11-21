@@ -477,7 +477,7 @@ Egbert, G. D., and R. D. Ray. 2000. “Significant Dissipation of Tidal Energy i
 
 <div id="ref-eotvos1922" class="csl-entry">
 
-Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen Der Physik* 68: 11–66.
+Eötvös, Loránd, Desider Pekár, and Eugen Fekete. 1922. “Beiträge Zum Gesetze Der Proportionalität von Trägheit Und Gravität.” *Annalen der Physik* 68: 11–66.
 
 </div>
 
