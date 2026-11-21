@@ -86,12 +86,14 @@
   },
   {
    "slug": "gpt-part-09",
-   "title": "Existing Evidence supporting Graviton Pressure Theory",
+   "title": "Existing Evidence Supporting Graviton Pressure Theory",
    "subtitle": "",
-   "words": 6379,
-   "lead": "Graviton Pressure Theory (GPT) presents a paradigm shift in understanding gravitational, electromagnetic, and cosmological phenomena through causally coherent, field-structured mechanisms. Rejecting the abstractions of spacetime curvature and unseen mass, GPT reinterprets existing observational data as manifestations of pressure gradients, coherence dynamics, and structured graviton field behavior.",
-   "source": "Part 09 - Existing Data.tex",
-   "part": 9
+   "words": 7437,
+   "lead": "The measurements that bear on the medium, each graded by what it can show: reproduced, the medium already in the formulation, support, or constraint. Galaxies follow one acceleration scale set by their visible matter, rebuilt here from the SPARC data; GPS clocks are slowed by the medium streaming past them as one effect; lensing is calculated as refraction; the background light records sound in a medium and a rest frame. What is owed is stated: clusters and the third peak.",
+   "source": "Part 9 - Existing Evidence Supporting Graviton Pressure Theory (2nd ed.).tex",
+   "part": 9,
+   "pdf": true,
+   "path": "existing-evidence-supporting-graviton-pressure-theory"
   },
   {
    "slug": "gpt-part-10",
