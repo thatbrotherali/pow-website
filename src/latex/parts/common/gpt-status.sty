@@ -4,7 +4,6 @@
 % argbar / hypbar / openbar: a whole passage, with a bar of the same style in the left margin.
 % \statuskey prints the key.  Each mark also carries its status word as invisible text,
 % so that copied text, screen readers and AI readers see "[Argued]" etc.
-% Underlines do not break across lines: keep marked phrases to a line or two.
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{gpt-status}[2026/11/20 GPT claim-status marks]
 \RequirePackage{xcolor}
@@ -15,13 +14,18 @@
 \definecolor{gpthyp}{HTML}{C8650A}
 \definecolor{gptopen}{HTML}{8A8A8A}
 \newcommand{\gpt@hidden}[1]{\rlap{\textpdfrender{TextRenderingMode=Invisible}{\,[#1]}}}
-\newcommand{\gpt@ul}[3]{% style, colour, text
-  \tikz[baseline=(t.base)]{\node[inner sep=0pt,outer sep=0pt](t){#3};
-    \draw[#2,line width=0.6pt,#1]([yshift=-2.2pt]t.south west)--([yshift=-2.2pt]t.south east);}}
-\newcommand{\gpt@mark}[4]{\gpt@ul{#1}{#2}{#4}\gpt@hidden{#3}}% style, colour, word, text
-\newcommand{\argm}[1]{\gpt@mark{}{gptarg}{Argued}{#1}}
-\newcommand{\hypm}[1]{\gpt@mark{dash pattern=on 2.6pt off 1.6pt}{gpthyp}{Hypothesis}{#1}}
-\newcommand{\openm}[1]{\gpt@mark{dotted}{gptopen}{Open}{#1}\,{\color{gptopen}$\circ$}}
+% Underlines from ulem, so that a marked passage may break across lines.
+\RequirePackage[normalem]{ulem}
+\renewcommand{\ULthickness}{0.6pt}
+% Each mark repeats a small coloured piece under the text; the text keeps its own colour.
+\newcommand{\gpt@solid}{\textcolor{gptarg}{\rule[-2.2pt]{2pt}{0.6pt}}}
+\newcommand{\gpt@dash}{\textcolor{gpthyp}{\rule[-2.2pt]{2.6pt}{0.6pt}\kern1.6pt}}
+\newcommand{\gpt@dot}{\textcolor{gptopen}{\rule[-2.2pt]{0.7pt}{0.7pt}\kern1.3pt}}
+\newcommand{\argm}[1]{\bgroup\markoverwith{\gpt@solid}\ULon{#1}\gpt@hidden{Argued}}
+\newcommand{\hypm}[1]{\bgroup\markoverwith{\gpt@dash}\ULon{#1}\gpt@hidden{Hypothesis}}
+\newcommand{\openm}[1]{\bgroup\markoverwith{\gpt@dot}\ULon{#1}\gpt@hidden{Open}\,{\color{gptopen}$\circ$}}
+% A figure caption whose drawing shows a proposal of GPT.
+\providecommand{\hyptag}{\textit{(Hypothesis)}}
 \newcommand{\gpt@bartag}[2]{{\sffamily\fontsize{6.5}{8}\selectfont\color{#1}\MakeUppercase{#2}\par}\vspace{2pt}}
 \mdfdefinestyle{gpt@bar}{topline=false,bottomline=false,rightline=false,leftline=true,
   linewidth=1.1pt,innerleftmargin=10pt,innerrightmargin=0pt,innertopmargin=2pt,innerbottommargin=2pt,
