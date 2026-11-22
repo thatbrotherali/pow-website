@@ -437,13 +437,13 @@ L 475.8048 147.909742
     <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(65.854756 136.871)">source</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(462.085844 153.437897)">interference</text>
-    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(459.665375 161.907623)">shifted by the</text>
-    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(462.160219 170.37735)">trapped flux</text>
+    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(462.085844 161.437897)">interference</text>
+    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(459.665375 169.907623)">shifted by the</text>
+    <text style="font-size: 7px; font-family: 'Inter'; fill: #52514e" transform="translate(462.160219 178.37735)">trapped flux</text>
    </g>
   </g>
   <g id="text_6">
-   <text style="font-size: 6.6px; font-family: 'Inter'; text-anchor: start; fill: #8a8984" x="5.76" y="12.15375" transform="rotate(-0 5.76 12.15375)">SCHEMATIC of a measured effect (Aharonov–Bohm; Tonomura et al., 1986); circulation outside the core is GPT's reading</text>
+   <text style="font-size: 6.6px; font-family: 'Inter'; text-anchor: start; fill: #8a8984" x="11.5" y="12.15375" transform="rotate(-0 11.5 12.15375)">SCHEMATIC of a measured effect (Aharonov–Bohm; Tonomura et al., 1986); circulation outside the core is GPT's reading</text>
   </g>
  </g>
  <defs>

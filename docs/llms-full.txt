@@ -20676,7 +20676,7 @@ By Shareef Ali Rashada
 
 Part 21 followed the flows inside matter and found them directed by structure: load, heat, charge, waves and the alignment of spins all pass along lines of patterns held in step.[^1] Magnetism is what happens when that interior order reaches out. The aligned circulations inside a magnet organise the medium around it, along lines that leave the magnet, cross the space around it and return; and along and across those lines the medium carries a pressure that can be felt with the hands. This paper describes that reach: what organises the medium outside a magnet, what the lines are, what the pressure is, how matter of every kind responds to it, and how it differs from gravity, which is the same medium in another mode.
 
-This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. Matter and charge are in Part 19, order in Part 20.[^2][^3] Claims are marked by their status, as the key shows.
 
 # A Medium Reading, from the Start
 
@@ -20686,7 +20686,7 @@ Maxwell’s equations were derived from a medium. **\[Argued\]** In 1861, in *On
 
 The medium was set aside for economy, not by measurement. **\[Argued\]** After Michelson and Morley’s null result and Einstein’s paper of 1905, physics kept Maxwell’s equations and dropped the medium they came from. Lorentz’s theory, which kept a medium, predicted the same results as special relativity, and no experiment has separated them.[^6] Einstein himself said in 1920 that under general relativity “space without ether is unthinkable”, because space has physical properties.[^7]
 
-So GPT does not need a new prediction to read magnetism as a state of the medium: the medium reading and the field reading make the same predictions, because they use the same equations. **\[Argued\]** What decides between them is mechanism. The field reading names a quantity, $\mathbf{B}$, and stops. The medium reading names what carries the measured pressure, energy and momentum of a magnetic field: the medium itself, organised. New predictions are needed only for claims that go beyond Maxwell’s equations, and Section <a href="#sec:gravity" data-reference-type="ref" data-reference="sec:gravity">“Gravity and Magnetism”</a> lists those that have been tested.
+So GPT does not need a new prediction to read magnetism as a state of the medium: the medium reading and the field reading make the same predictions, because they use the same equations. **\[Argued\]** What decides between them is mechanism. The field reading names a quantity, $\mathbf{B}$, and stops. The medium reading names what carries the measured pressure, energy and momentum of a magnetic field: the medium itself, organised. New predictions are needed only for claims that go beyond Maxwell’s equations, and Section <a href="#sec:gravity" data-reference-type="ref" data-reference="sec:gravity">12</a> lists those that have been tested.
 
 # Magnetism Is Swirl
 
@@ -20696,9 +20696,9 @@ So GPT does not need a new prediction to read magnetism as a state of the medium
 
 **\[End of passage\]**
 
-The lines of a magnetic field always close. **\[Argued\]** No isolated magnetic pole has ever been found, in a century of searches up to the collisions of the Large Hadron Collider;[^8] every line that leaves a magnet’s north end returns at its south end, and the total flux out of any closed surface is zero, $\nabla\cdot\mathbf{B}=0$. In a medium this is what rotation does. **\[Hypothesis\]** Helmholtz proved in 1858 that in a fluid a line of rotation cannot begin or end within the fluid; it must close on itself or end at a boundary.[^9] Kelvin built his vortex atoms on this theorem (Part 15). The absence of magnetic poles, a fact that the field reading simply records, is a property of rotation in a medium.
+The lines of a magnetic field always close. **\[Argued\]** No isolated magnetic pole has ever been found, in a century of searches up to the collisions of the Large Hadron Collider;[^8] every line that leaves a magnet’s north end returns at its south end, and the total flux out of any closed surface is zero, $\nabla\cdot\mathbf{B}=0$. In a medium this is what rotation does. **\[Hypothesis\]** Helmholtz proved in 1858 that in a fluid a line of rotation cannot begin or end within the fluid; it must close on itself or end at a boundary.[^9] Kelvin built his vortex atoms on this theorem (Part 15).[^10] The absence of magnetic poles, a fact that the field reading simply records, is a property of rotation in a medium.
 
-Gravity has a swirl of the same form. **\[Argued\]** A rotating mass drags the medium around it, and general relativity calls the resulting field *gravitomagnetism*, because its equations take the same form as magnetism’s. Gravity Probe B measured it: gyroscopes in orbit turned by 37.2 milliarcseconds a year, against 39.2 predicted.[^10] Part 16 read this as the swirl of the medium around the rotating Earth.[^11] GPT’s reading is that there are two swirls of one medium: one driven by rotating mass, one by circulating charge. **\[Hypothesis\]**
+Gravity has a swirl of the same form. **\[Argued\]** A rotating mass drags the medium around it, and general relativity calls the resulting field *gravitomagnetism*, because its equations take the same form as magnetism’s. Gravity Probe B measured it: gyroscopes in orbit turned by 37.2 milliarcseconds a year, against 39.2 predicted.[^11] Part 16 read this as the swirl of the medium around the rotating Earth.[^12] GPT’s reading is that there are two swirls of one medium: one driven by rotating mass, one by circulating charge. **\[Hypothesis\]**
 
 # Where the Swirl Comes From
 
@@ -20708,7 +20708,7 @@ Spin makes a magnetic field. **\[Argued\]** Every electron is a small magnet; in
 
 **\[Hypothesis: the passage that follows\]**
 
-**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. Charge is a structural bias in graviton flux absorption and emission.
+**In GPT both sources are knots with a hand, setting the medium turning.** A knot is a circulation of the medium, and its charge is its handedness, which sets the phase of what it emits (Part 19). A charged knot moving along a wire turns one way about its direction of motion, and the medium around its path is carried into circulation: the field that circles the wire. A spinning knot carries a swirl in its counterflow (Part 16). Aligned across a material, the swirls add (Part 20); this is magnetisation. Charge is a structural bias in graviton flux absorption and emission.
 
 **\[End of passage\]**
 
@@ -20721,7 +20721,7 @@ Spin makes a magnetic field. **\[Argued\]** Every electron is a small magnet; in
 
 **\[Hypothesis: the passage that follows\]**
 
-Part 21 defined a corridor inside matter as a line of patterns held in step, re-made on every turn. **A magnet’s field is that corridor extended into the medium** (Figure <a href="#fig:corridor" data-reference-type="ref" data-reference="fig:corridor">1</a>). Inside the magnet, the corridor is the aligned circulations of its electrons, relaying in step (Part 21). At the magnet’s surface the order passes from matter’s patterns to the medium itself, which is organised into a swirl along each line; the line crosses the space around the magnet and re-enters it at the other end. Each line is one closed loop, part in matter, part in the medium, as Helmholtz’s theorem requires.
+Part 21 defined a corridor inside matter as a line of patterns held in step, re-made on every turn. **A magnet’s field is that corridor extended into the medium** (Figure 22.1). Inside the magnet, the corridor is the aligned circulations of its electrons, relaying in step (Part 21). At the magnet’s surface the order passes from matter’s patterns to the medium itself, which is organised into a swirl along each line; the line crosses the space around the magnet and re-enters it at the other end. Each line is one closed loop, part in matter, part in the medium, as Helmholtz’s theorem requires.
 
 **\[End of passage\]**
 
@@ -20730,7 +20730,8 @@ The lines can be seen. **\[Argued\]** Iron filings scattered round a magnet gath
 # Magnetism Is Pressure
 
 Magnetism feels like pressure because it is pressure. **\[Argued\]** A magnetic field carries a pressure across its lines and a tension along them, both of size $$P_B = \frac{B^2}{2\mu_0},
-\label{eq:pressure}$$ about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell’s stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun’s hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
+
+\tag{1}$$ about $4\times10^{5}$ pascals, four atmospheres, at 1 tesla. This is Maxwell’s stress, measured in every motor, every electromagnet and every fusion experiment that holds a plasma inside a cage of field; the field of a sunspot holds back the Sun’s hot gas by its pressure. The resistance felt when two like poles are pushed together is this pressure.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -20748,7 +20749,7 @@ In every case the push is delivered by the medium’s pressure, as gravity’s i
 
 #### A caution about the sign.
 
-In an ordinary fluid, faster swirl means *lower* pressure: the air in the core of a tornado is at low pressure. A magnetic field is the reverse: where it is stronger, it presses outward harder. So the medium cannot behave here like water in a single large whirl. Maxwell met this problem and solved it with his vortex cells: a medium made of many small spinning cells, each of which presses outward across its axis as it spins and draws in along it, gives exactly Maxwell’s stress, pressure across the lines and tension along them.[^12] In GPT the cells may be the counterflows of the knots and the swirls they organise in the medium, but how the medium’s swirl carries outward pressure across the lines is owed. **\[Open\]**
+In an ordinary fluid, faster swirl means *lower* pressure: the air in the core of a tornado is at low pressure. A magnetic field is the reverse: where it is stronger, it presses outward harder. So the medium cannot behave here like water in a single large whirl. Maxwell met this problem and solved it with his vortex cells: a medium made of many small spinning cells, each of which presses outward across its axis as it spins and draws in along it, gives exactly Maxwell’s stress, pressure across the lines and tension along them.[^13] In GPT the cells may be the counterflows of the knots and the swirls they organise in the medium, but how the medium’s swirl carries outward pressure across the lines is owed. **\[Open\]**
 
 # Circulation Where the Field Is Zero
 
@@ -20757,7 +20758,7 @@ In an ordinary fluid, faster swirl means *lower* pressure: the air in the core o
 <figcaption>The Aharonov–Bohm arrangement. Electrons pass on both sides of a magnet whose field is entirely enclosed and shielded, so that none of it reaches their paths. Their interference is shifted by the amount of field enclosed.</figcaption>
 </figure>
 
-Electrons are affected by a magnetic field they never touch. **\[Argued\]** In 1959 Aharonov and Bohm predicted that electrons passing on either side of a long magnet, through regions where the magnetic field is exactly zero, would have their interference shifted by the amount of field enclosed between their paths.[^13] Tonomura and colleagues confirmed it in 1986 with a ring magnet sealed inside a superconductor, which kept every trace of the field from leaking out; the shift appeared, and because the superconductor holds a field only in whole units, it was half a wavelength when an odd number of units was trapped and none when an even number was (Figure <a href="#fig:ab" data-reference-type="ref" data-reference="fig:ab">2</a>).[^14]
+Electrons are affected by a magnetic field they never touch. **\[Argued\]** In 1959 Aharonov and Bohm predicted that electrons passing on either side of a long magnet, through regions where the magnetic field is exactly zero, would have their interference shifted by the amount of field enclosed between their paths.[^14] Tonomura and colleagues confirmed it in 1986 with a ring magnet sealed inside a superconductor, which kept every trace of the field from leaking out; the shift appeared, and because the superconductor holds a field only in whole units, it was half a wavelength when an odd number of units was trapped and none when an even number was (Figure 22.2).[^15]
 
 The standard account describes this without a mechanism. **\[Argued\]** It says the vector potential $\mathbf{A}$, which is not zero outside the magnet, is physically real, but it does not say what $\mathbf{A}$ is the potential *of*, or what touches the electron. In a medium it is expected. **\[Hypothesis\]** A line vortex in a fluid has rotation only in its core, yet the fluid outside circulates around it; the circulation round any loop enclosing the core equals the rotation inside it. In GPT the medium outside the shielded magnet is circulating, though not rotating, and the electron’s guiding pattern (Part 19) meets that circulation on its way past. Its phase is shifted by the circulation it travels through, which is fixed by the swirl enclosed. The trapped field came in whole units, the units that Part 20 read as the medium’s phase closing on itself around a superconducting ring.
 
@@ -20773,41 +20774,41 @@ Crystal order is neither needed nor enough for magnetism. **\[Argued\]** Copper 
 
 3.  **A temperature below the point where knocks outpace the lock** (Part 20).
 
-Spin alignment and phase timing are what magnetism needs. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
+Spin alignment and phase timing are what magnetism needs. **\[Argued\]** Long-range crystal order governs how well a material carries heat and charge (Part 21); magnetism needs unpaired hands and the right spacing.
 
 #### Every substance answers.
 
 Matter responds to a field in four measured ways.
 
-- **Diamagnetism, in everything.** Every substance is weakly pushed out of a strong field. Water is pushed out with a strength of about nine parts in a million; in a 16-tesla field this is enough to levitate a drop of water, a strawberry, or a living frog.[^15] Pyrolytic graphite floats above a row of ordinary magnets at room temperature. In GPT each atom’s patterns turn against an imposed swirl, as a superconductor’s surface does in full (Part 20). **\[Hypothesis\]**
+- **Diamagnetism, in everything.** Every substance is weakly pushed out of a strong field. Water is pushed out with a strength of about nine parts in a million; in a 16-tesla field this is enough to levitate a drop of water, a strawberry, or a living frog.[^16] Pyrolytic graphite floats above a row of ordinary magnets at room temperature. In GPT each atom’s patterns turn against an imposed swirl, as a superconductor’s surface does in full (Part 20). **\[Hypothesis\]**
 
-- **Paramagnetism, where circulations are unpaired.** Each unpaired spin is turned toward the field, against the knocks of heat. Curie found in 1895 that the effect weakens in proportion to the temperature.[^16] That is alignment against knocks for circulations that are not locked to their neighbours: **\[Hypothesis\]** the field turns each one, and heat turns it back.
+- **Paramagnetism, where circulations are unpaired.** Each unpaired spin is turned toward the field, against the knocks of heat. Curie found in 1895 that the effect weakens in proportion to the temperature.[^17] That is alignment against knocks for circulations that are not locked to their neighbours: **\[Hypothesis\]** the field turns each one, and heat turns it back.
 
 - **Ferromagnetism, where neighbours lock in parallel:** iron, cobalt, nickel, and gadolinium, which loses its magnetism on a warm day, at 20 $^\circ$C.
 
-- **Antiferromagnetism, where neighbours lock opposed.** In manganese oxide the spins alternate, each opposite its neighbour, so that no field reaches outside. Neutrons, which have spin themselves, revealed the alternating pattern directly in 1949.[^17]
+- **Antiferromagnetism, where neighbours lock opposed.** In manganese oxide the spins alternate, each opposite its neighbour, so that no field reaches outside. Neutrons, which have spin themselves, revealed the alternating pattern directly in 1949.[^18]
 
 # Domains, Memory and Saturation
 
 A magnet is divided into domains, each aligned within itself. **\[Argued\]** Weiss proposed them in 1907; they have since been seen directly, with fine magnetic powders and with polarised light. In an unmagnetised piece of iron the domains point in many directions and their fields close among themselves; magnetising it grows the domains that point along the field at the expense of the others.
 
-Magnetisation proceeds in jumps. **\[Argued\]** In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.[^18] The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. These are the same defects that scatter heat and charge in Part 21: places where the common order is broken, holding the boundary between two orders until it is pushed past them. **\[Hypothesis\]** Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
+Magnetisation proceeds in jumps. **\[Argued\]** In 1919 Barkhausen wound a coil round a piece of iron, connected it to a loudspeaker and magnetised the iron slowly: the speaker crackled.[^19] The walls between domains do not move smoothly; they stick on defects in the metal and break free, one jump at a time. These are the same defects that scatter heat and charge in Part 21: places where the common order is broken, holding the boundary between two orders until it is pushed past them. **\[Hypothesis\]** Hysteresis, the lag of magnetisation behind the field, is this sticking; a material with few defects, soft iron, magnetises and demagnetises easily; a material full of them holds its magnetisation and makes a permanent magnet.
 
-Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; this is the coherence limit.
+Remanence is memory, and saturation is completeness. **\[Argued\]** A magnet that keeps its magnetisation after the field is removed keeps order set at an earlier moment, in Part 20’s sense: order that has not since been undone. Saturation, about 2.15 tesla for iron, is reached when every circulation in it is aligned; this is the coherence limit.
 
 # Heat and the Curie Point
 
-Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). Heating past the Curie point is structural forgetting, and cooling through it sets a new memory: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
+Heat removes magnetism at a definite temperature, **\[Argued\]** the Curie point: 1,043 kelvin for iron, 627 for nickel, 1,388 for cobalt and 293 for gadolinium. Part 20 gave the mechanism: the alignment holds while locking through the medium restores step faster than knocks destroy it. Measured magnetisation stays high until close to the Curie point and then falls to exactly zero there, as a power of the distance from it, with the same power for many different materials (Part 20, universality). Heating past the Curie point is structural forgetting, and cooling through it sets a new memory: the lava that cooled through the Curie point holds the direction of the Earth’s field at that moment (Part 20).
 
 # Induction
 
 A changing swirl drives a circulating push around it. **\[Argued\]** Faraday found in 1831 that changing the magnetic field through a loop of wire drives a current round the loop, in proportion to how fast the enclosed flux changes. Lenz found in 1834 that the current always flows so as to oppose the change. A magnet dropped down a copper pipe falls slowly, held back by the currents it drives in the copper.
 
-Induction is a push *around* a loop, and a push around a loop cannot come from a gradient, whose integral around any closed loop is zero. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
+Induction is a push *around* a loop, and a push around a loop cannot come from a gradient, whose integral around any closed loop is zero. In GPT the push is circulating, not a gradient: a change in the swirl enclosed by a loop sets the medium around it circulating, and that circulation drives the charged knots in the wire round the loop. **\[Hypothesis\]** Lenz’s rule is then the response of the knots’ circulations to an imposed change of swirl, turning against it, as diamagnetism is in every atom and the Meissner effect is in a superconductor (Part 20).
 
 # Light
 
-Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
+Light is a transverse wave in which the electric and magnetic effects alternate, **\[Argued\]** travelling at $c=1/\sqrt{\varepsilon_0\mu_0}$, the speed set by the medium’s own constants. Faraday showed the link directly in 1845: a magnetic field along a beam of light passing through glass rotates the light’s polarisation. In GPT light is the medium’s transverse wave (Part 15), in which its displacement and its rotation pass into each other as the wave travels, **\[Hypothesis\]** as in Maxwell’s vortex medium. That light and gravitational waves travel at the same speed, measured to one part in $10^{15}$ when both arrived from the merger of two neutron stars in 2017, is what one medium carrying both would give (Part 15).
 
 # Gravity and Magnetism
 
@@ -20819,17 +20820,17 @@ Light is a transverse wave in which the electric and magnetic effects alternate,
 
 Magnetism does not change gravity or time. **\[Argued\]** Whether magnetised materials change gravity, and whether clocks near aligned magnetic domains run differently, have both been tested:
 
-- torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;[^19]
+- torsion balances carrying masses with about $10^{23}$ aligned electron spins show no change in their gravity, to the limit of the best measurements;[^20]
 
-- muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.[^20]
+- muons circulating in a 1.45-tesla storage ring live longer exactly as their speed predicts, to one part in a thousand, with no effect of the field on their clocks.[^21]
 
-A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). Magnetism is not gravity; it is the same medium, organised differently.
+A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organises what is charged and spinning, while the inflow delivers the same total to everything by its energy (Part 15). Magnetism is not gravity; it is the same medium, organised differently.
 
 # Tests
 
 - **The pressure carrier.** Derive Maxwell’s stress, pressure across the lines and tension along them, from the medium’s swirl, including its sign. **\[Open\]** This is the first quantitative test of the medium reading of magnetism.
 
-- **The Aharonov–Bohm circulation.** The measured shift is proportional to the particle’s charge, and neutral particles show none. In GPT the medium’s circulation acts on a knot through its hand, so a knot with no net hand is not shifted. **\[Hypothesis\]** The mirror case is also measured: a neutral particle with a magnetic moment, a neutron, passing around a line of charge is shifted (the Aharonov–Casher effect, 1989).[^21] The medium reading must give both shifts from one coupling of hand and circulation. **\[Open\]**
+- **The Aharonov–Bohm circulation.** The measured shift is proportional to the particle’s charge, and neutral particles show none. In GPT the medium’s circulation acts on a knot through its hand, so a knot with no net hand is not shifted. **\[Hypothesis\]** The mirror case is also measured: a neutral particle with a magnetic moment, a neutron, passing around a line of charge is shifted (the Aharonov–Casher effect, 1989).[^22] The medium reading must give both shifts from one coupling of hand and circulation. **\[Open\]**
 
 - **Magnetism without order.** Paramagnetic liquids and metallic glasses show that local spacing, not long-range order, sets magnetic locking. The relay of Part 21 predicts that the strength of the lock follows the spacing measured in turns of the electron’s rhythm; **\[Hypothesis\]** the measured Bethe–Slater curve is the data to compare.
 
@@ -20839,7 +20840,7 @@ A magnet’s swirl and the Earth’s inflow are separate modes: the swirl organi
 
 - Maxwell’s equations from the medium: the swirl as $\mathbf{B}$, the circulating flow as $\mathbf{A}$, and the emission phase of charged knots as the electric field. **\[Open\]**
 
-- The pressure across and tension along the lines, from the medium’s swirl (Section <a href="#sec:pressure" data-reference-type="ref" data-reference="sec:pressure">“Magnetism Is Pressure”</a>). **\[Open\]**
+- The pressure across and tension along the lines, from the medium’s swirl (Section <a href="#sec:pressure" data-reference-type="ref" data-reference="sec:pressure">5</a>). **\[Open\]**
 
 - The magnetic moment of the electron, from its circulation and the swirl it organises (Part 19). **\[Open\]**
 
@@ -20915,7 +20916,7 @@ Bailey, J. et al. 1977. “Measurements of Relativistic Time Dilatation for Posi
 
 <div id="ref-barkhausen1919" class="csl-entry">
 
-Barkhausen, H. 1919. “Zwei Mit Hilfe Der Neuen Verstärker Entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
+Barkhausen, H. 1919. “Zwei mit Hilfe der neuen Verstärker entdeckte Erscheinungen.” *Physikalische Zeitschrift* 20: 401–3.
 
 </div>
 
@@ -20933,7 +20934,7 @@ Cimmino, A. et al. 1989. “Observation of the Topological Aharonov–Casher Pha
 
 <div id="ref-curie1895" class="csl-entry">
 
-Curie, Pierre. 1895. “Propriétés Magnétiques Des Corps ‘a Diverses Températures.” *Annales de Chimie Et de Physique* 5: 289–405.
+Curie, Pierre. 1895. “Propriétés magnétiques des corps à diverses températures.” *Annales de Chimie Et de Physique* 5: 289–405.
 
 </div>
 
@@ -20963,7 +20964,7 @@ Helmholtz, H. 1858. “Über Integrale der hydrodynamischen Gleichungen, welche 
 
 <div id="ref-lorentz1904" class="csl-entry">
 
-Lorentz, H. A. 1904. “Electromagnetic Phenomena in a System Moving with Any Velocity Smaller Than That of Light.” *Proceedings of the Royal Netherlands Academy of Arts and Sciences* 6: 809–31.
+Lorentz, H. A. 1904. “Electromagnetic Phenomena in a System Moving with Any Velocity Smaller than That of Light.” *Proceedings of the Royal Netherlands Academy of Arts and Sciences* 6: 809–31.
 
 </div>
 
@@ -20975,25 +20976,31 @@ Maxwell, James Clerk. 1861--1862. “On Physical Lines of Force.” *Philosophic
 
 <div id="ref-rashadaPart20" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
 
 </div>
 
 <div id="ref-rashadaPart21" class="csl-entry">
 
-———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026c. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026c. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026d. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026d. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026e. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -21019,7 +21026,7 @@ Weber, W., and R. Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei
 
 [^1]: (Rashada 2026b).
 
-[^2]: (Rashada 2026c).
+[^2]: (Rashada 2026d).
 
 [^3]: (Rashada 2026a).
 
@@ -21035,29 +21042,31 @@ Weber, W., and R. Kohlrausch. 1856. “Über die Elektricitätsmenge, welche bei
 
 [^9]: (Helmholtz 1858).
 
-[^10]: (Everitt et al. 2011).
+[^10]: (Rashada 2026c).
 
-[^11]: (Rashada 2026d).
+[^11]: (Everitt et al. 2011).
 
-[^12]: (Maxwell 1861--1862).
+[^12]: (Rashada 2026e).
 
-[^13]: (Aharonov and Bohm 1959).
+[^13]: (Maxwell 1861--1862).
 
-[^14]: (Tonomura et al. 1986).
+[^14]: (Aharonov and Bohm 1959).
 
-[^15]: (Berry and Geim 1997).
+[^15]: (Tonomura et al. 1986).
 
-[^16]: (Curie 1895).
+[^16]: (Berry and Geim 1997).
 
-[^17]: (Shull and Smart 1949).
+[^17]: (Curie 1895).
 
-[^18]: (Barkhausen 1919).
+[^18]: (Shull and Smart 1949).
 
-[^19]: (Heckel et al. 2008).
+[^19]: (Barkhausen 1919).
 
-[^20]: (Bailey et al. 1977).
+[^20]: (Heckel et al. 2008).
 
-[^21]: (Cimmino et al. 1989).
+[^21]: (Bailey et al. 1977).
+
+[^22]: (Cimmino et al. 1989).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/
