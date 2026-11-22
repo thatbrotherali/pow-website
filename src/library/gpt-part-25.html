@@ -1,2 +1,347 @@
-<p><strong>This part is being written.</strong> The second edition’s Part 25, <em>The Medium at Its Limits: Following the Inflow to the Speed of Light</em>, follows the medium’s inflow from the Earth inward through white dwarfs and neutron stars to the horizon of a black hole, giving the mechanism at each stage and the measurements that test it.</p>
-<p>The constants, units and conversions of the first edition’s Part 25 are now in <a href="../part-24-gpt-unit-system/">Part 24, <em>Units, Constants and Conversions: The Numbers of the Medium</em></a>, with what changed listed at its end. Part 24 also gives the worked values from a GPS orbit to a black hole’s horizon. The equations are in <a href="../part-23-the-mathematical-foundation/">Part 23</a>.</p>
+<aside class="status-key" aria-label="How to read the marks">
+<p class="step-label">How to read the marks</p>
+<p>Claims about Graviton Pressure Theory are marked by how far they are established. Hover over or tap a marked passage to see its status.</p>
+<ul>
+<li><span class="k">Established</span> No mark. Accepted, measured physics.</li>
+<li><span class="m arg">Argued</span> Solid underline. A conclusion this framework argues in detail, which readers can check.</li>
+<li><span class="m hyp">Hypothesis</span> Dashed underline. A proposal of GPT, not yet tested.</li>
+<li><span class="m opn">Open</span> Dotted underline and a small circle. A question not yet answered; work still owed.</li>
+</ul>
+<p class="muted">A whole passage with one status has a bar of the same style beside it. Changes since the first edition are listed at the end.</p>
+</aside>
+<h2 class="unnumbered" id="about-this-paper">About This Paper</h2>
+<p>Every mass takes in the medium. The medium flows toward it at <span class="math inline">\(v=\sqrt{2GM/r}\)</span>, faster the closer it comes, and the faster it flows the lower the active pressure it leaves: <span class="math inline">\(P/P_0 = 1 - v^2/c^2\)</span> (Part 23).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> At the surface of the Earth the inflow is 11.2 kilometres a second and the pressure is lowered by about one part in a billion. Nothing in everyday life is near the limit.</p>
+<p>This paper follows the inflow inward, past the Earth and the Sun, to the places where it is pushed toward its limit: the white dwarfs, the neutron stars, the orbits close to a black hole, and the horizon, where the inflow reaches the speed of light and the active pressure reaches zero. At each stage it asks the same questions, in the same order: how fast the inflow is there and what pressure it leaves; what that does to clocks, light and orbits; what holds matter up against it, and where that hold gives way; and what has been measured. The numbers for each stage are worked out in Part 24;<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> this paper is about what happens at each one and why.</p>
+<p>This is the second edition; what changed from the first is listed at the end. Claims are marked by their status, as the key shows.</p>
+<h2 id="one-quantity-to-follow"><span class="secno">25.1</span> One Quantity to Follow</h2>
+<p>Three things change together as the inflow speeds up, and each is set by the same ratio, <span class="math inline">\(P/P_0\)</span>:</p>
+<ul>
+<li><p><strong>Clocks.</strong> A clock is a structure of the medium’s waves, and it ticks more slowly as the medium streams through it. Compared with a clock far away, its rate is <span class="math inline">\(\sqrt{P/P_0}\)</span> (Part 14).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></li>
+<li><p><strong>Light.</strong> Light travels at <span class="math inline">\(c\)</span> through the medium around it. Where the medium is itself flowing inward, light sent outward makes headway at <span class="math inline">\(c-v\)</span> as seen from far away, and light sent inward at <span class="math inline">\(c+v\)</span>.</p></li>
+<li><p><strong>Orbits.</strong> A body’s sideways motion holds it out against the inward acceleration. The same pressure ratio weakens that hold: this is what turns Mercury’s ellipse a little further each orbit (Part 26).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p></li>
+</ul>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">One flow gives all three.<span class="sr"> [Argued]</span></span> The inflow at the Newtonian escape speed, with clocks and rods set by the medium streaming through them, reproduces the exact geometry that general relativity gives outside a non-rotating mass, at every strength (Part 23). That the geometry can be read as a flow was found by Painlevé in 1921 and Gullstrand in 1922, and has been developed since as the “river model” of black holes.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a><a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> In GPT <span class="m hyp" tabindex="0" data-tip="Hypothesis: a proposal of GPT, not yet tested.">the river is the medium,<span class="sr"> [Hypothesis]</span></span> and the flow is its inflow.</p>
+<div id="tab:stages">
+<table>
+<caption><strong>Table 25.1.</strong> The stages of this paper. Inflow speed and pressure ratio at each; the clock rate is compared with a clock far away. Values from Part 24 and the formulas above.</caption>
+<colgroup>
+<col />
+<col />
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Stage</strong></th>
+<th style="text-align: right;"><strong>Inflow <span class="math inline">\(v/c\)</span></strong></th>
+<th style="text-align: right;"><strong><span class="math inline">\(P/P_0\)</span></strong></th>
+<th style="text-align: right;"><strong>Clock rate</strong></th>
+<th style="text-align: left;"><strong>What holds matter up</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Earth’s surface</td>
+<td style="text-align: right;"><span class="math inline">\(3.7\times10^{-5}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(1-1.4\times10^{-9}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(1-7\times10^{-10}\)</span></td>
+<td style="text-align: left;">bonds between atoms</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sun’s surface</td>
+<td style="text-align: right;">0.0021</td>
+<td style="text-align: right;"><span class="math inline">\(1-4.2\times10^{-6}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(1-2.1\times10^{-6}\)</span></td>
+<td style="text-align: left;">the heat of the gas</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">White dwarf (Sirius B)</td>
+<td style="text-align: right;">0.023</td>
+<td style="text-align: right;">0.9995</td>
+<td style="text-align: right;">0.9997</td>
+<td style="text-align: left;">electrons, by exclusion</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neutron star (2 solar masses)</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: left;">neutrons, by exclusion and nuclear repulsion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Last stable orbit</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.67</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: left;">sideways motion, at its limit</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Light’s circle</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.33</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: left;">nothing: only light, and only for a moment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Horizon</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">nothing</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span id="tab:stages" label="tab:stages"></span></p>
+<p>Table 25.1 sets out the stages. The columns change smoothly; the right-hand column does not. At each stage something new holds matter up against the inflow, and at each limit it gives way to the next.</p>
+<h2 id="the-shallow-field-earth-and-sun"><span class="secno">25.2</span> The Shallow Field: Earth and Sun</h2>
+<p>Near the Earth and the Sun the pressure is lowered by parts in a billion and parts in a million. Every effect of the medium is small, and the small effects do not disturb one another, so they can be worked out one at a time and added. That is why Newton’s law, with small corrections, serves so well here. The approximation is a good one because the effects it leaves out are measured to be small and independent; it is not a statement that nothing else is there.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">The clock effect is measured<span class="sr"> [Argued]</span></span> at every scale. In 1960 Pound and Rebka sent gamma rays up and down a 22.5-metre tower and found them shifted by the expected 2.5 parts in <span class="math inline">\(10^{15}\)</span>.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> A hydrogen-maser clock carried to 10,000 kilometres in 1976 ran fast by the expected amount, to 1.4 parts in 10,000;<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> two Galileo navigation satellites, launched into elongated orbits by mistake, confirmed it to 2.5 parts in 100,000.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> GPS satellite clocks run 45.7 microseconds a day fast from their height and 7.2 slow from their speed, and the system corrects for both. The light of the Sun reaches us shifted by <span class="math inline">\(638\pm6\)</span> metres a second, against 633 expected.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<h2 id="white-dwarfs-exclusion-holds"><span class="secno">25.3</span> White Dwarfs: Exclusion Holds</h2>
+<p>A star like the Sun ends its life as a white dwarf: the mass of a star packed into the size of the Earth. Sirius B, the companion of the brightest star in the sky, holds about one solar mass within a radius of 5,600 kilometres. There the inflow reaches 6,900 kilometres a second, 2.3 per cent of the speed of light.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">The clock effect is measured there too.<span class="sr"> [Argued]</span></span> The light of Sirius B is shifted by <span class="math inline">\(80.65\pm0.77\)</span> kilometres a second; the mass this implies, 1.017 solar masses, matches the mass found from its orbit around Sirius A.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<div class="bar hyp" role="note"><p class="bar-tag">Hypothesis</p>
+<p><strong>What holds a white dwarf up is exclusion.</strong> The atoms are crushed together until their electrons no longer belong to separate atoms. Patterns of the same circulation cannot occupy one place: they push each other apart (Part 19).<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> Squeezed into a smaller space, each electron’s pattern must turn faster, and so holds more energy (Part 17).<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> The cost of squeezing them further is the push that holds the star up.</p>
+<p><strong>The hold has a limit, set by the speed of the medium’s waves.</strong> An electron’s circulation already runs at <span class="math inline">\(c\)</span> (Part 17). Squeezed hard enough, its sideways motion inside the star nears <span class="math inline">\(c\)</span> as well, and from then on its energy grows only in step with its momentum, no longer with its square. The push of exclusion then grows no faster with squeezing than the inflow’s compression does, and above a certain mass the compression wins however far the star shrinks.</p>
+</div>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">The limit is measured.<span class="sr"> [Argued]</span></span> Chandrasekhar calculated it in 1931: about 1.4 solar masses.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> No white dwarf has been found above it, and white dwarfs pushed over it by matter from a companion are thought to explode as the supernovae of type Ia, whose brightness is remarkably uniform.</p>
+<h2 id="neutron-stars-matter-re-formed"><span class="secno">25.4</span> Neutron Stars: Matter Re-formed</h2>
+<p>Past the white dwarf’s limit, the electrons are pressed into the protons. Each pair becomes a neutron and a neutrino: the reverse of the decay by which a free neutron becomes a proton, an electron and an antineutrino. <span class="m hyp" tabindex="0" data-tip="Hypothesis: a proposal of GPT, not yet tested.">The knots re-form<span class="sr"> [Hypothesis]</span></span> into one knot of a different winding (Part 17). What remains is a star of neutrons, one and a half to two solar masses within a radius of about twelve kilometres, as dense as an atomic nucleus. Neutron stars were found in 1967 as pulsars, beaming radio pulses as they spin.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<div class="bar hyp" role="note"><p class="bar-tag">Hypothesis</p>
+<p><strong>Two holds act together here.</strong> Neutrons are patterns of the same circulation, so exclusion pushes them apart, as it did the electrons. And their cores, overlapping in phase, push each other apart at short range: the same repulsion that keeps atomic nuclei from collapsing, and that sets the density of every nucleus (Part 17). With both acting, the star can hold more mass than exclusion alone would allow.</p>
+</div>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">The measurements show it.<span class="sr"> [Argued]</span></span> With exclusion alone, Oppenheimer and Volkoff found in 1939 that no neutron star could exceed about 0.7 solar masses.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> The heaviest measured are far heavier: <span class="math inline">\(2.08\pm0.07\)</span> solar masses for the pulsar PSR J0740+6620,<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> and <span class="math inline">\(2.35\pm0.17\)</span> for PSR J0952<span class="math inline">\(-\)</span>0607.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> So the short-range repulsion carries much of the load. The NICER X-ray telescope, timing the hot spots on PSR J0740+6620’s surface as it turns, gives its radius as about twelve to fourteen kilometres.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a><a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+<p>At the surface of a two-solar-mass neutron star the inflow reaches 70 per cent of the speed of light and the pressure is halved. Clocks there run at 71 per cent of the rate of clocks far away. Light leaving the surface is bent so strongly that more than half of the star can be seen at once, and the pulses NICER records carry the shape of that bending.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">Neutron stars in pairs lose energy to waves of the medium.<span class="sr"> [Argued]</span></span> Two neutron stars in orbit stir the medium around them, and the medium’s transverse waves, travelling at <span class="math inline">\(c\)</span>, carry energy away (Part 15).<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> The orbit shrinks. The Hulse–Taylor pulsar’s orbit shrinks at <span class="math inline">\(0.9983\pm0.0016\)</span> times the rate expected;<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> the double pulsar, two pulsars orbiting each other, matches it to 1.3 parts in 10,000.<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> In 2017 the waves from two neutron stars merging were caught directly, arriving with their light (Part 28).<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
+<p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">The upper limit of a neutron star’s mass<span class="sr"> [Open]</span></span> in GPT’s terms is owed: how strongly the cores push at the densities inside, and where the inflow’s compression wins. The mainstream does not know it either; it depends on nuclear forces at densities no laboratory reaches.</p>
+<h2 id="orbits-near-the-limit"><span class="secno">25.5</span> Orbits Near the Limit</h2>
+<figure id="fig:hold">
+<img src="assets/figures/fig25-1-hold.svg" />
+<figcaption><strong>Figure 25.1.</strong> The weakening sideways hold. Left: for a body moving sideways, the medium’s pressure ratio times the hold of its sideways motion, against distance. Where a curve has a hollow, an orbit can rest in it; where it has a crest, an orbit balanced there is unstable. With less sideways motion the hollow and crest move together and merge at three horizon radii: inside that, no orbit holds. Right: light has only a crest, at one and a half horizon radii.</figcaption>
+</figure>
+<p>A planet’s sideways motion carries it past the Sun while the inward acceleration turns it, and the two together close its path (Part 26). Far from a mass, the sideways motion holds the planet out against the inflow almost exactly as Newton’s law says. Closer in, the same pressure ratio that slows clocks weakens that hold: the radial motion of an orbit obeys <span class="math inline">\((dr/d\tau)^2 = E^2 - (P/P_0)\,(c^2 + L^2/r^2)\)</span>, where <span class="math inline">\(L\)</span> is the sideways motion (Part 23). At Mercury the weakening is five parts in a hundred million, and it turns Mercury’s ellipse by 43 arcseconds a century.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">Followed inward, the same weakening ends all orbits.<span class="sr"> [Argued]</span></span> Figure 25.1 shows it. A body with plenty of sideways motion can rest in a hollow, a stable orbit, with a crest further in. With less sideways motion the hollow and the crest draw together, and at three horizon radii they merge: this is the last stable orbit. Inside it, no amount of sideways motion can hold a body out, and anything there spirals in. Light, with no hollow at all, has a single crest at one and a half horizon radii: light aimed exactly sideways there can circle the black hole, but the slightest nudge sends it in or out.</p>
+<div class="bar hyp" role="note"><p class="bar-tag">Hypothesis</p>
+<p><strong>The weakening is the medium’s.</strong> Sideways motion is carried by a body’s exchanges with the medium, the same exchanges that keep its clocks ticking and its bonds in place (Part 11).<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> Where the medium’s active pressure is lower, those exchanges are slowed by the same factor, and so is the hold of the sideways motion. One mechanism gives Mercury’s precession, the last stable orbit and light’s circle; they differ only in how far down the pressure has gone.</p>
+</div>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">The edge of a black hole’s shadow is light’s circle.<span class="sr"> [Argued]</span></span> Light that passes just outside one and a half horizon radii escapes; light that passes inside it is taken in. Seen from far away, the black hole is a dark disc 5.2 horizon radii across, ringed by the light of the hot gas around it. The Event Horizon Telescope measured the ring around the black hole in the galaxy M87 at <span class="math inline">\(42\pm3\)</span> millionths of an arcsecond, and around the black hole at the centre of our galaxy at <span class="math inline">\(51.8\pm2.3\)</span>: each the size expected from the black hole’s mass.<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a><a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> The mass of our galaxy’s black hole, about four million Suns, is known independently from the stars that orbit it. The star S2, passing within 120 astronomical units of it at 2.5 per cent of the speed of light, shows both the clock effect and the turning of its orbit, as expected.<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a><a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a></p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">Space here is full.<span class="sr"> [Argued]</span></span> What the telescopes see is not empty space around a dark object. It is gas spiralling inward in a disc, heated as it goes, threaded by magnetic fields, with jets thrown out along the spin axis. Matter spiralling down to the last stable orbit gives off about 6 per cent of its rest energy as light and heat, and up to 42 per cent around a fast-spinning black hole: many times the 0.7 per cent that fusion releases from hydrogen.<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a> That is why the brightest objects in the universe, the quasars, are fed black holes. In GPT <span class="m hyp" tabindex="0" data-tip="Hypothesis: a proposal of GPT, not yet tested.">that energy is the medium’s pressure,<span class="sr"> [Hypothesis]</span></span> converted into the gas’s inward motion (Part 11) and then, by friction in the disc, into heat.</p>
+<h2 id="the-horizon-where-the-inflow-reaches-light"><span class="secno">25.6</span> The Horizon: Where the Inflow Reaches Light</h2>
+<figure id="fig:light">
+<img src="assets/figures/fig25-2-light.svg" />
+<figcaption><strong>Figure 25.2.</strong> Light in the inflow. Above: the inflow, faster toward the centre, and light sent outward, always at <span class="math inline">\(c\)</span> through the medium around it. Below: the outward progress of that light seen from far away, <span class="math inline">\(c-v\)</span>. Outside the horizon it makes headway; at the horizon, where the inflow equals <span class="math inline">\(c\)</span>, it stands still; inside, the inflow carries it inward.</figcaption>
+</figure>
+<p>At <span class="math inline">\(r=2GM/c^2\)</span> the inflow reaches the speed of light. For a black hole of ten solar masses this is 30 kilometres from the centre; for the one in M87, about 130 astronomical units.</p>
+<div class="bar hyp" role="note"><p class="bar-tag">Hypothesis</p>
+<p><strong>The horizon is where the medium flows inward as fast as its own waves travel.</strong> Light always travels at <span class="math inline">\(c\)</span> through the medium around it. Outside the horizon, light sent outward makes headway against the inflow. At the horizon, it is carried inward exactly as fast as it travels outward, and stands still. Inside, the medium flows inward faster than its waves can travel, and everything carried by those waves, light and every pattern of matter, is carried inward with it (Figure 25.2). Nothing holds matter up there because no pattern of the medium can send its push outward against the flow.</p>
+<p><strong>The active pressure there is zero.</strong> With <span class="math inline">\(P_0 = \tfrac12\rho_g c^2\)</span>, the pressure <span class="math inline">\(P = P_0 - \tfrac12\rho_g v^2\)</span> reaches zero where <span class="math inline">\(v=c\)</span> (Part 24). Clocks at the horizon, compared with clocks far away, stop; light from there reaches far away redshifted without limit. That is how a horizon looks from outside: the last light of anything carried in reddens and fades.</p>
+</div>
+<p><span class="m hyp" tabindex="0" data-tip="Hypothesis: a proposal of GPT, not yet tested.">Carried in, nothing marks the horizon.<span class="sr"> [Hypothesis]</span></span> A body carried in from far away arrives moving with the medium, so the medium does not stream through it; its clocks and bonds go on as before, and it crosses the horizon with no local sign. What it does feel is the difference in the inflow’s acceleration from one end of it to the other: the tide, which near a black hole of a few solar masses tears a body apart before it reaches the horizon. Stars torn apart this way are seen as flares at the centres of galaxies, tidal disruption events.<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a> Near the giant black holes the tide at the horizon is gentle.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">A horizon is what any medium does<span class="sr"> [Argued]</span></span> when its flow outruns its waves. In 1981 Unruh showed that sound in a fluid flowing faster than sound is trapped exactly as light is at a horizon, and obeys the same equations.<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> Such horizons have since been built. In flowing water, waves at a horizon have shown the emission Hawking predicted for black holes, stimulated by incoming waves;<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> in a flowing ultracold gas, a horizon for sound has given off spontaneous radiation with the thermal spectrum and temperature Hawking’s calculation gives.<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a> These horizons are flows of a medium, made in a laboratory. They show that a horizon needs nothing more than a medium flowing faster than its waves, which is GPT’s account of the horizon of a black hole. That is support, not proof: the laboratory shows what a medium does, and it is GPT’s proposal that gravity’s horizon is the same thing.</p>
+<p><span class="m arg" tabindex="0" data-tip="Argued: a conclusion this framework argues in detail, which readers can check.">When two black holes merge, the result rings<span class="sr"> [Argued]</span></span> and settles. The first gravitational waves caught, in 2015, came from two black holes of 36 and 29 solar masses merging into one of 62; three solar masses of energy left as waves of the medium in a fraction of a second.<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a> The final black hole rang at the frequencies expected for its mass and spin, and fell quiet.<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> Searches for repeated “echoes”, which a reflecting surface just outside the horizon would produce, have found none.<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a> That fits GPT’s horizon, which is a speed of flow, not a surface.</p>
+<p><span class="m hyp" tabindex="0" data-tip="Hypothesis: a proposal of GPT, not yet tested.">A spinning black hole twists the inflow.<span class="sr"> [Hypothesis]</span></span> The river picture extends to rotating black holes: the inflow at each place carries a twist as well as a speed.<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> This is the medium’s swirl of Part 16, the same that Gravity Probe B measured around the spinning Earth, at its strongest.<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a> It drags the last stable orbit inward around a fast-spinning black hole, which is why such black holes release the most energy, and it is thought to power the jets.</p>
+<h2 id="beyond-the-horizon"><span class="secno">25.7</span> Beyond the Horizon</h2>
+<div class="bar opn" role="note"><p class="bar-tag">Open</p>
+<p>Inside the horizon the formula gives a pressure below zero, and a self-repelling medium cannot have negative pressure.<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a> Something in the account changes there, and what it is is owed. In general relativity the same region ends at a singularity, a point where the description gives infinite density; that is the description failing, not a mechanism. In GPT the medium has a grain, and matter is made of knots of finite size, so the centre cannot be a point. What it is instead is owed. Hawking’s radiation from real black holes has not been measured: for a black hole of one solar mass its temperature would be 60 billionths of a degree, far colder than the background radiation streaming into it.</p>
+</div>
+<h2 id="what-remains-to-be-derived"><span class="secno">25.8</span> What Remains to Be Derived</h2>
+<ul>
+<li><p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">Why the sideways hold weakens<span class="sr"> [Open]</span></span> by exactly the pressure ratio, in terms of what touches what (Part 26).</p></li>
+<li><p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">The limit of exclusion,<span class="sr"> [Open]</span></span> the Chandrasekhar mass, from the electron’s circulation in the medium.</p></li>
+<li><p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">The upper limit of a neutron star’s mass<span class="sr"> [Open]</span></span> from the push of overlapping cores.</p></li>
+<li><p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">What the medium is inside a horizon,<span class="sr"> [Open]</span></span> where the formula’s pressure goes below zero.</p></li>
+<li><p><span class="m opn" tabindex="0" data-tip="Open: a question not yet answered; work still owed.">What is at the centre<span class="sr"> [Open]</span></span> of a black hole.</p></li>
+</ul>
+<h2 class="unnumbered" id="conclusion">Conclusion</h2>
+<p>One quantity changes from the Earth to the horizon: the speed of the inflow, and with it the active pressure it leaves. Near the Earth and the Sun the pressure is lowered by parts in a billion and a million, and clocks show it. In a white dwarf, matter is held up by exclusion, until the electrons’ motion nears the speed of the medium’s waves and the hold gives way at 1.4 solar masses. In a neutron star, matter re-formed as neutrons is held by exclusion and by the push of overlapping cores, to more than two solar masses. Closer still, the same weakening of the sideways hold that turns Mercury’s orbit ends all orbits at three horizon radii, and leaves light a single circle at one and a half. At the horizon the inflow reaches the speed of light: light sent outward stands still, and the active pressure is zero. Every stage is measured, from a tower in Harvard to the rings around two black holes, and the horizon itself has been built, for sound, in flowing water and in a flowing gas. What lies beyond the horizon, the medium cannot yet say.</p>
+<h2 class="unnumbered" id="changes-in-the-second-edition">Changes in the Second Edition</h2>
+<p>This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.</p>
+<h3 class="unnumbered" id="changes-to-the-argument">Changes to the argument</h3>
+<ul>
+<li><p>The first edition’s Part 25, <em>Constants, Conversions and Deep Field Formalism</em>, set out to define GPT’s constants and units and to extend its field formalism into dense stellar cores, black hole boundaries and high-energy interactions. Its constants, units and conversions are now in Part 24, with their changes listed there. This paper takes up the second aim.</p></li>
+<li><p>The deep-field equation <span class="math inline">\(\nabla^2 P_g + \alpha(\nabla P_g\cdot\nabla P_g) = -\rho_g\)</span> is replaced by the inflow, which holds at every strength. The first edition’s point that the deep field behaves differently from the shallow one is kept: it does, through the pressure ratio’s approach to zero, with no added constant.</p></li>
+<li><p>The resonance-lock wave <span class="math inline">\(P_0\cos(\ldots)e^{-\gamma t}\)</span> is withdrawn: it makes the pressure negative half the time (Part 24). The estimated ranges of <span class="math inline">\(\kappa_g\)</span>, <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\gamma\)</span> are withdrawn: no measurement fixes them.</p></li>
+<li><p>The baseline pressure of <span class="math inline">\(10^{-6}\)</span> to <span class="math inline">\(10^{-4}\)</span> pascals is replaced by about <span class="math inline">\(4.5\times10^{-10}\)</span> pascals (Part 24).</p></li>
+<li><p>High-energy interactions, in colliders, are treated in Part 17.</p></li>
+</ul>
+<h3 class="unnumbered" id="additions">Additions</h3>
+<ul>
+<li><p>The inflow followed in stages, with the pressure ratio, clock rate and hold on matter at each (Section 25.1, Table 25.1).</p></li>
+<li><p>The shallow field and its clock measurements (Section 25.2).</p></li>
+<li><p>White dwarfs held by exclusion, and its limit (Section 25.3).</p></li>
+<li><p>Neutron stars, matter re-formed and held by exclusion and core repulsion; pulsar timing and gravitational waves (Section 25.4).</p></li>
+<li><p>The last stable orbit and light’s circle as the weakening of the sideways hold that gives Mercury’s precession; the black-hole shadows; accretion energy (Section 25.5, Figure 25.1).</p></li>
+<li><p>The horizon as the inflow reaching light, and laboratory horizons in flowing water and gas (Section 25.6, Figure 25.2).</p></li>
+<li><p>What is not yet known inside the horizon (Section 25.7).</p></li>
+</ul>
+<h3 class="unnumbered" id="clarifications">Clarifications</h3>
+<ul>
+<li><p>The title changes from <em>Constants, Conversions and Deep Field Formalism</em> to <em>The Medium at Its Limits: Following the Inflow to the Speed of Light</em>.</p></li>
+<li><p>The cross-references are renumbered.</p></li>
+</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-abbott2016" class="csl-entry" role="listitem">
+Abbott, B. P. et al. 2016. <span>“Observation of gravitational waves from a binary black hole merger.”</span> <em>Physical Review Letters</em> 116: 061102.
+</div>
+<div id="ref-abbott2021echo" class="csl-entry" role="listitem">
+Abbott, R. et al. 2021. <span>“<span class="nocase">Tests of general relativity with binary black holes from the second <span>LIGO-Virgo</span> gravitational-wave transient catalog</span>.”</span> <em>Physical Review D</em> 103: 122002.
+</div>
+<div id="ref-chandrasekhar1931" class="csl-entry" role="listitem">
+Chandrasekhar, S. 1931. <span>“The maximum mass of ideal white dwarfs.”</span> <em>Astrophysical Journal</em> 74: 81–82.
+</div>
+<div id="ref-delva2018" class="csl-entry" role="listitem">
+Delva, P. et al. 2018. <span>“<span class="nocase">Gravitational redshift test using eccentric <span>Galileo</span> satellites</span>.”</span> <em>Physical Review Letters</em> 121: 231101.
+</div>
+<div id="ref-eht2019" class="csl-entry" role="listitem">
+Event Horizon Telescope Collaboration. 2019. <span>“<span class="nocase">First <span>M87</span> <span>Event Horizon Telescope</span> results. <span>I</span>. The shadow of the supermassive black hole</span>.”</span> <em>Astrophysical Journal Letters</em> 875: L1.
+</div>
+<div id="ref-eht2022" class="csl-entry" role="listitem">
+———. 2022. <span>“<span class="nocase">First <span>Sagittarius A*</span> <span>Event Horizon Telescope</span> results. <span>I</span>. The shadow of the supermassive black hole in the center of the <span>Milky Way</span></span>.”</span> <em>Astrophysical Journal Letters</em> 930: L12.
+</div>
+<div id="ref-fonseca2021" class="csl-entry" role="listitem">
+Fonseca, E. et al. 2021. <span>“<span class="nocase">Refined mass and geometric measurements of the high-mass <span>PSR J0740+6620</span></span>.”</span> <em>Astrophysical Journal Letters</em> 915: L12.
+</div>
+<div id="ref-gezari2021" class="csl-entry" role="listitem">
+Gezari, Suvi. 2021. <span>“Tidal disruption events.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 59: 21–58.
+</div>
+<div id="ref-gonzalez2020" class="csl-entry" role="listitem">
+González Hernández, J. I. et al. 2020. <span>“<span class="nocase">The solar gravitational redshift from <span>HARPS-LFC</span> <span>Moon</span> spectra: a test of the general theory of relativity</span>.”</span> <em>Astronomy and Astrophysics</em> 643: A146.
+</div>
+<div id="ref-gravity2018" class="csl-entry" role="listitem">
+GRAVITY Collaboration. 2018. <span>“<span class="nocase">Detection of the gravitational redshift in the orbit of the star <span>S2</span> near the <span>Galactic</span> centre massive black hole</span>.”</span> <em>Astronomy and Astrophysics</em> 615: L15.
+</div>
+<div id="ref-gravity2020" class="csl-entry" role="listitem">
+———. 2020. <span>“<span class="nocase">Detection of the <span>Schwarzschild</span> precession in the orbit of the star <span>S2</span> near the <span>Galactic</span> centre massive black hole</span>.”</span> <em>Astronomy and Astrophysics</em> 636: L5.
+</div>
+<div id="ref-gullstrand1922" class="csl-entry" role="listitem">
+Gullstrand, Allvar. 1922. <span>“<span class="nocase">Allgemeine Lösung des statischen Einkörperproblems in der <span>Einsteinschen</span> Gravitationstheorie</span>.”</span> <em>Arkiv för Matematik, Astronomi Och Fysik</em> 16 (8): 1–15.
+</div>
+<div id="ref-hamilton2008" class="csl-entry" role="listitem">
+Hamilton, Andrew J. S., and Jason P. Lisle. 2008. <span>“The river model of black holes.”</span> <em>American Journal of Physics</em> 76: 519–32.
+</div>
+<div id="ref-hewish1968" class="csl-entry" role="listitem">
+Hewish, A., S. J. Bell, J. D. H. Pilkington, P. F. Scott, and R. A. Collins. 1968. <span>“Observation of a rapidly pulsating radio source.”</span> <em>Nature</em> 217: 709–13.
+</div>
+<div id="ref-isi2019" class="csl-entry" role="listitem">
+Isi, Maximiliano, Matthew Giesler, Will M. Farr, Mark A. Scheel, and Saul A. Teukolsky. 2019. <span>“<span class="nocase">Testing the no-hair theorem with <span>GW150914</span></span>.”</span> <em>Physical Review Letters</em> 123: 111102.
+</div>
+<div id="ref-joyce2018" class="csl-entry" role="listitem">
+Joyce, S. R. G. et al. 2018. <span>“<span class="nocase">The gravitational redshift of <span>Sirius B</span></span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 481: 2361–70.
+</div>
+<div id="ref-kramer2021" class="csl-entry" role="listitem">
+Kramer, M. et al. 2021. <span>“Strong-field gravity tests with the double pulsar.”</span> <em>Physical Review X</em> 11: 041050.
+</div>
+<div id="ref-miller2021" class="csl-entry" role="listitem">
+Miller, M. C. et al. 2021. <span>“<span class="nocase">The radius of <span>PSR J0740+6620</span> from <span>NICER</span> and <span>XMM-Newton</span> data</span>.”</span> <em>Astrophysical Journal Letters</em> 918: L28.
+</div>
+<div id="ref-munoz2019" class="csl-entry" role="listitem">
+Muñoz de Nova, Juan Ramón, Katrine Golubkov, Victor I. Kolobov, and Jeff Steinhauer. 2019. <span>“<span class="nocase">Observation of thermal <span>Hawking</span> radiation and its temperature in an analogue black hole</span>.”</span> <em>Nature</em> 569: 688–91.
+</div>
+<div id="ref-oppenheimer1939" class="csl-entry" role="listitem">
+Oppenheimer, J. R., and G. M. Volkoff. 1939. <span>“On massive neutron cores.”</span> <em>Physical Review</em> 55: 374–81.
+</div>
+<div id="ref-painleve1921" class="csl-entry" role="listitem">
+Painlevé, Paul. 1921. <span>“La mécanique classique et la théorie de la relativité.”</span> <em>Comptes Rendus de l’Acad<span>é</span>mie Des Sciences</em> 173: 677–80.
+</div>
+<div id="ref-pound1960" class="csl-entry" role="listitem">
+Pound, R. V., and G. A. Rebka. 1960. <span>“Apparent weight of photons.”</span> <em>Physical Review Letters</em> 4: 337–41.
+</div>
+<div id="ref-rashadaPart14" class="csl-entry" role="listitem">
+Rashada, Shareef Ali. 2026a. <span>“From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/</a>.
+</div>
+<div id="ref-rashadaPart15" class="csl-entry" role="listitem">
+———. 2026b. <span>“Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/</a>.
+</div>
+<div id="ref-rashadaPart26" class="csl-entry" role="listitem">
+———. 2026c. <span>“Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/</a>.
+</div>
+<div id="ref-rashadaPart11" class="csl-entry" role="listitem">
+———. 2026d. <span>“Re-examining the Four (Part 11, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/</a>.
+</div>
+<div id="ref-rashadaPart28" class="csl-entry" role="listitem">
+———. 2026e. <span>“Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/</a>.
+</div>
+<div id="ref-rashadaPart17" class="csl-entry" role="listitem">
+———. 2026f. <span>“The Definition of Mass: Energy Slowed Down (Part 17, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/</a>.
+</div>
+<div id="ref-rashadaPart23" class="csl-entry" role="listitem">
+———. 2026g. <span>“The Mathematical Foundation (Part 23, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/</a>.
+</div>
+<div id="ref-rashadaPart19" class="csl-entry" role="listitem">
+———. 2026h. <span>“The Pathway to Matter (Part 19, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/</a>.
+</div>
+<div id="ref-rashadaPart16" class="csl-entry" role="listitem">
+———. 2026i. <span>“The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/</a>.
+</div>
+<div id="ref-rashadaPart24" class="csl-entry" role="listitem">
+———. 2026j. <span>“Units, Constants and Conversions: The Numbers of the Medium (Part 24, second edition).”</span> <a href="https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/" class="uri">https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/</a>.
+</div>
+<div id="ref-riley2021" class="csl-entry" role="listitem">
+Riley, Thomas E. et al. 2021. <span>“<span class="nocase">A <span>NICER</span> view of the massive pulsar <span>PSR J0740+6620</span> informed by radio timing and <span>XMM-Newton</span> spectroscopy</span>.”</span> <em>Astrophysical Journal Letters</em> 918: L27.
+</div>
+<div id="ref-romani2022" class="csl-entry" role="listitem">
+Romani, Roger W. et al. 2022. <span>“<span class="nocase"><span>PSR J0952<span class="math inline">\(-\)</span>0607</span>: the fastest and heaviest known galactic neutron star</span>.”</span> <em>Astrophysical Journal Letters</em> 934: L17.
+</div>
+<div id="ref-shapiro1983" class="csl-entry" role="listitem">
+Shapiro, Stuart L., and Saul A. Teukolsky. 1983. <em>Black Holes, White Dwarfs, and Neutron Stars: The Physics of Compact Objects</em>. Wiley.
+</div>
+<div id="ref-unruh1981" class="csl-entry" role="listitem">
+Unruh, W. G. 1981. <span>“Experimental black-hole evaporation?”</span> <em>Physical Review Letters</em> 46: 1351–53.
+</div>
+<div id="ref-vessot1980" class="csl-entry" role="listitem">
+Vessot, R. F. C. et al. 1980. <span>“Test of relativistic gravitation with a space-borne hydrogen maser.”</span> <em>Physical Review Letters</em> 45: 2081–84.
+</div>
+<div id="ref-weinfurtner2011" class="csl-entry" role="listitem">
+Weinfurtner, Silke, Edmund W. Tedford, Matthew C. J. Penrice, William G. Unruh, and Gregory A. Lawrence. 2011. <span>“<span class="nocase">Measurement of stimulated <span>Hawking</span> emission in an analogue system</span>.”</span> <em>Physical Review Letters</em> 106: 021302.
+</div>
+<div id="ref-weisberg2016" class="csl-entry" role="listitem">
+Weisberg, J. M., and Y. Huang. 2016. <span>“<span class="nocase">Relativistic measurements from timing the binary pulsar <span>PSR B1913+16</span></span>.”</span> <em>Astrophysical Journal</em> 829: 55.
+</div>
+</div>
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><span class="citation" data-cites="rashadaPart23">(Rashada 2026g)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><span class="citation" data-cites="rashadaPart24">(Rashada 2026j)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><span class="citation" data-cites="rashadaPart14">(Rashada 2026a)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span class="citation" data-cites="rashadaPart26">(Rashada 2026c)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><span class="citation" data-cites="painleve1921">(Painlevé 1921)</span>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><span class="citation" data-cites="gullstrand1922">(Gullstrand 1922)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="citation" data-cites="hamilton2008">(Hamilton and Lisle 2008)</span>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><span class="citation" data-cites="pound1960">(Pound and Rebka 1960)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p><span class="citation" data-cites="vessot1980">(Vessot et al. 1980)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><span class="citation" data-cites="delva2018">(Delva et al. 2018)</span>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><span class="citation" data-cites="gonzalez2020">(González Hernández et al. 2020)</span>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><span class="citation" data-cites="joyce2018">(Joyce et al. 2018)</span>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><span class="citation" data-cites="rashadaPart19">(Rashada 2026h)</span>.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><span class="citation" data-cites="rashadaPart17">(Rashada 2026f)</span>.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p><span class="citation" data-cites="chandrasekhar1931">(Chandrasekhar 1931)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><span class="citation" data-cites="hewish1968">(Hewish et al. 1968)</span>.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p><span class="citation" data-cites="oppenheimer1939">(Oppenheimer and Volkoff 1939)</span>.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p><span class="citation" data-cites="fonseca2021">(Fonseca et al. 2021)</span>.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p><span class="citation" data-cites="romani2022">(Romani et al. 2022)</span>.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p><span class="citation" data-cites="riley2021">(Riley et al. 2021)</span>.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p><span class="citation" data-cites="miller2021">(Miller et al. 2021)</span>.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p><span class="citation" data-cites="rashadaPart15">(Rashada 2026b)</span>.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p><span class="citation" data-cites="weisberg2016">(Weisberg and Huang 2016)</span>.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p><span class="citation" data-cites="kramer2021">(Kramer et al. 2021)</span>.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p><span class="citation" data-cites="rashadaPart28">(Rashada 2026e)</span>.<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p><span class="citation" data-cites="rashadaPart11">(Rashada 2026d)</span>.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p><span class="citation" data-cites="eht2019">(Event Horizon Telescope Collaboration 2019)</span>.<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p><span class="citation" data-cites="eht2022">(Event Horizon Telescope Collaboration 2022)</span>.<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p><span class="citation" data-cites="gravity2018">(GRAVITY Collaboration 2018)</span>.<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p><span class="citation" data-cites="gravity2020">(GRAVITY Collaboration 2020)</span>.<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p><span class="citation" data-cites="shapiro1983">(Shapiro and Teukolsky 1983)</span>.<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p><span class="citation" data-cites="gezari2021">(Gezari 2021)</span>.<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p><span class="citation" data-cites="unruh1981">(Unruh 1981)</span>.<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p><span class="citation" data-cites="weinfurtner2011">(Weinfurtner et al. 2011)</span>.<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p><span class="citation" data-cites="munoz2019">(Muñoz de Nova et al. 2019)</span>.<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p><span class="citation" data-cites="abbott2016">(B. P. Abbott et al. 2016)</span>.<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p><span class="citation" data-cites="isi2019">(Isi et al. 2019)</span>.<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38"><p><span class="citation" data-cites="abbott2021echo">(R. Abbott et al. 2021)</span>.<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39"><p><span class="citation" data-cites="hamilton2008">(Hamilton and Lisle 2008)</span>.<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40"><p><span class="citation" data-cites="rashadaPart16">(Rashada 2026i)</span>.<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41"><p><span class="citation" data-cites="rashadaPart24">(Rashada 2026j)</span>.<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>

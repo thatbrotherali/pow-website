@@ -1,0 +1,234 @@
+\newcommand{\gptpart}{25}
+\newcommand{\gpttitle}{The Medium at Its Limits}
+\newcommand{\gptsubtitle}{Following the Inflow to the Speed of Light}
+\newcommand{\gptdate}{November 2026}
+% Shared preamble for the second edition of Graviton Pressure Theory.
+% A part's own file sets \gptpart, \gpttitle, \gptsubtitle and \gptdate, then \input{../common/preamble}.
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs,array,tabularx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+\usepackage[authoryear,round]{natbib}
+\usepackage{titlesec}
+\usepackage[titles]{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}
+\renewcommand{\cftsecleader}{\hfill}\setlength{\cftsecnumwidth}{3.2em}
+\usepackage{gpt-status}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parindent}{0pt}
+\setlist{itemsep=2pt,topsep=3pt}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\renewcommand{\thesection}{\gptpart.\arabic{section}}
+\renewcommand{\thetable}{\gptpart.\arabic{table}}
+\renewcommand{\thefigure}{\gptpart.\arabic{figure}}
+\renewcommand{\theequation}{\gptpart.\arabic{equation}}
+\setcounter{tocdepth}{1}
+\makeatletter\renewcommand{\@pnumwidth}{2.2em}\renewcommand{\@tocrmarg}{3em}
+\makeatother
+\bibliographystyle{plainnat}
+\newcommand{\gptitle}{%
+  \begin{titlepage}\centering
+  \vspace*{3cm}
+  {\Huge\bfseries Graviton Pressure Theory\par}\vspace{0.8cm}
+  {\Large The Unified Framework\par}\vspace{0.2cm}
+  {\large Individual Submission\par}\vspace{0.6cm}
+  {\normalsize This document is part of a multi-part scientific framework\par}\vspace{2cm}
+  {\normalsize Part \gptpart\ of 30\par}\vspace{0.8cm}
+  {\huge\bfseries \gpttitle\par}\vspace{0.6cm}
+  {\Large \gptsubtitle\par}\vspace{1.5cm}
+  {\small\begin{minipage}{0.75\textwidth}\centering This submission is part of the broader Graviton Pressure Theory (GPT) project, a redefinition of gravitational interaction rooted in causal field dynamics and physical force transmission. Each document is designed to stand on its own; its full context emerges as part of the larger framework. For the complete series, see https://peopleoftheworld.net/graviton-pressure-theory/.\end{minipage}\par}
+  \vfill
+  {\large Author: Shareef Ali Rashada\par}\vspace{0.2cm}
+  {\normalsize shareef@peopleoftheworld.net\par}\vspace{0.5cm}
+  {\normalsize Second edition, \gptdate \quad (first edition 12 June 2025)\par}
+  \end{titlepage}
+  \setcounter{page}{1}\tableofcontents\clearpage}
+
+\graphicspath{{figs/}}
+\begin{document}
+\gptitle
+
+\section*{About This Paper}
+\addcontentsline{toc}{section}{About This Paper}
+
+Every mass takes in the medium. The medium flows toward it at $v=\sqrt{2GM/r}$, faster the closer it comes, and the faster it flows the lower the active pressure it leaves: $P/P_0 = 1 - v^2/c^2$ (Part 23).\fn{rashadaPart23} At the surface of the Earth the inflow is 11.2 kilometres a second and the pressure is lowered by about one part in a billion. Nothing in everyday life is near the limit.
+
+This paper follows the inflow inward, past the Earth and the Sun, to the places where it is pushed toward its limit: the white dwarfs, the neutron stars, the orbits close to a black hole, and the horizon, where the inflow reaches the speed of light and the active pressure reaches zero. At each stage it asks the same questions, in the same order: how fast the inflow is there and what pressure it leaves; what that does to clocks, light and orbits; what holds matter up against it, and where that hold gives way; and what has been measured. The numbers for each stage are worked out in Part 24;\fn{rashadaPart24} this paper is about what happens at each one and why.
+
+This is the second edition; what changed from the first is listed at the end. Claims are marked by their status, as the key shows.
+
+\statuskey
+
+\section{One Quantity to Follow}
+
+Three things change together as the inflow speeds up, and each is set by the same ratio, $P/P_0$:
+\begin{itemize}
+\item \textbf{Clocks.} A clock is a structure of the medium's waves, and it ticks more slowly as the medium streams through it. Compared with a clock far away, its rate is $\sqrt{P/P_0}$ (Part 14).\fn{rashadaPart14}
+\item \textbf{Light.} Light travels at $c$ through the medium around it. Where the medium is itself flowing inward, light sent outward makes headway at $c-v$ as seen from far away, and light sent inward at $c+v$.
+\item \textbf{Orbits.} A body's sideways motion holds it out against the inward acceleration. The same pressure ratio weakens that hold: this is what turns Mercury's ellipse a little further each orbit (Part 26).\fn{rashadaPart26}
+\end{itemize}
+
+\argm{One flow gives all three.} The inflow at the Newtonian escape speed, with clocks and rods set by the medium streaming through them, reproduces the exact geometry that general relativity gives outside a non-rotating mass, at every strength (Part 23). That the geometry can be read as a flow was found by Painlev\'e in 1921 and Gullstrand in 1922, and has been developed since as the ``river model'' of black holes.\fn{painleve1921}\textsuperscript{,}\fn{gullstrand1922}\textsuperscript{,}\fn{hamilton2008} In GPT \hypm{the river is the medium,} and the flow is its inflow.
+
+\begin{table}[t]\centering\small
+\caption{The stages of this paper. Inflow speed and pressure ratio at each; the clock rate is compared with a clock far away. Values from Part 24 and the formulas above.}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright}X r r r >{\raggedright\arraybackslash}p{0.31\linewidth}@{}}\toprule
+\textbf{Stage} & \textbf{Inflow $v/c$} & \textbf{$P/P_0$} & \textbf{Clock rate} & \textbf{What holds matter up}\\\midrule
+Earth's surface & $3.7\times10^{-5}$ & $1-1.4\times10^{-9}$ & $1-7\times10^{-10}$ & bonds between atoms\\
+Sun's surface & 0.0021 & $1-4.2\times10^{-6}$ & $1-2.1\times10^{-6}$ & the heat of the gas\\
+White dwarf (Sirius B) & 0.023 & 0.9995 & 0.9997 & electrons, by exclusion\\
+Neutron star (2 solar masses) & 0.70 & 0.50 & 0.71 & neutrons, by exclusion and nuclear repulsion\\
+Last stable orbit & 0.58 & 0.67 & 0.82 & sideways motion, at its limit\\
+Light's circle & 0.82 & 0.33 & 0.58 & nothing: only light, and only for a moment\\
+Horizon & 1 & 0 & 0 & nothing\\\bottomrule
+\end{tabularx}\label{tab:stages}\end{table}
+
+Table~\ref{tab:stages} sets out the stages. The columns change smoothly; the right-hand column does not. At each stage something new holds matter up against the inflow, and at each limit it gives way to the next.
+
+\section{The Shallow Field: Earth and Sun}
+
+Near the Earth and the Sun the pressure is lowered by parts in a billion and parts in a million. Every effect of the medium is small, and the small effects do not disturb one another, so they can be worked out one at a time and added. That is why Newton's law, with small corrections, serves so well here. The approximation is a good one because the effects it leaves out are measured to be small and independent; it is not a statement that nothing else is there.
+
+\argm{The clock effect is measured} at every scale. In 1960 Pound and Rebka sent gamma rays up and down a 22.5-metre tower and found them shifted by the expected 2.5 parts in $10^{15}$.\fn{pound1960} A hydrogen-maser clock carried to 10,000 kilometres in 1976 ran fast by the expected amount, to 1.4 parts in 10,000;\fn{vessot1980} two Galileo navigation satellites, launched into elongated orbits by mistake, confirmed it to 2.5 parts in 100,000.\fn{delva2018} GPS satellite clocks run 45.7 microseconds a day fast from their height and 7.2 slow from their speed, and the system corrects for both. The light of the Sun reaches us shifted by $638\pm6$ metres a second, against 633 expected.\fn{gonzalez2020}
+
+\section{White Dwarfs: Exclusion Holds}
+
+A star like the Sun ends its life as a white dwarf: the mass of a star packed into the size of the Earth. Sirius B, the companion of the brightest star in the sky, holds about one solar mass within a radius of 5,600 kilometres. There the inflow reaches 6,900 kilometres a second, 2.3 per cent of the speed of light.
+
+\argm{The clock effect is measured there too.} The light of Sirius B is shifted by $80.65\pm0.77$ kilometres a second; the mass this implies, 1.017 solar masses, matches the mass found from its orbit around Sirius A.\fn{joyce2018}
+
+\begin{hypbar}
+\textbf{What holds a white dwarf up is exclusion.} The atoms are crushed together until their electrons no longer belong to separate atoms. Patterns of the same circulation cannot occupy one place: they push each other apart (Part 19).\footnotemark{} Squeezed into a smaller space, each electron's pattern must turn faster, and so holds more energy (Part 17).\footnotemark{} The cost of squeezing them further is the push that holds the star up.
+
+\textbf{The hold has a limit, set by the speed of the medium's waves.} An electron's circulation already runs at $c$ (Part 17). Squeezed hard enough, its sideways motion inside the star nears $c$ as well, and from then on its energy grows only in step with its momentum, no longer with its square. The push of exclusion then grows no faster with squeezing than the inflow's compression does, and above a certain mass the compression wins however far the star shrinks.
+\end{hypbar}
+\addtocounter{footnote}{-1}\footnotetext{\citealp{rashadaPart19}.}\stepcounter{footnote}\footnotetext{\citealp{rashadaPart17}.}
+
+\argm{The limit is measured.} Chandrasekhar calculated it in 1931: about 1.4 solar masses.\fn{chandrasekhar1931} No white dwarf has been found above it, and white dwarfs pushed over it by matter from a companion are thought to explode as the supernovae of type~Ia, whose brightness is remarkably uniform.
+
+\section{Neutron Stars: Matter Re-formed}
+
+Past the white dwarf's limit, the electrons are pressed into the protons. Each pair becomes a neutron and a neutrino: the reverse of the decay by which a free neutron becomes a proton, an electron and an antineutrino. \hypm{The knots re-form} into one knot of a different winding (Part 17). What remains is a star of neutrons, one and a half to two solar masses within a radius of about twelve kilometres, as dense as an atomic nucleus. Neutron stars were found in 1967 as pulsars, beaming radio pulses as they spin.\fn{hewish1968}
+
+\begin{hypbar}
+\textbf{Two holds act together here.} Neutrons are patterns of the same circulation, so exclusion pushes them apart, as it did the electrons. And their cores, overlapping in phase, push each other apart at short range: the same repulsion that keeps atomic nuclei from collapsing, and that sets the density of every nucleus (Part 17). With both acting, the star can hold more mass than exclusion alone would allow.
+\end{hypbar}
+
+\argm{The measurements show it.} With exclusion alone, Oppenheimer and Volkoff found in 1939 that no neutron star could exceed about 0.7 solar masses.\fn{oppenheimer1939} The heaviest measured are far heavier: $2.08\pm0.07$ solar masses for the pulsar PSR J0740+6620,\fn{fonseca2021} and $2.35\pm0.17$ for PSR J0952$-$0607.\fn{romani2022} So the short-range repulsion carries much of the load. The NICER X-ray telescope, timing the hot spots on PSR J0740+6620's surface as it turns, gives its radius as about twelve to fourteen kilometres.\fn{riley2021}\textsuperscript{,}\fn{miller2021}
+
+At the surface of a two-solar-mass neutron star the inflow reaches 70 per cent of the speed of light and the pressure is halved. Clocks there run at 71 per cent of the rate of clocks far away. Light leaving the surface is bent so strongly that more than half of the star can be seen at once, and the pulses NICER records carry the shape of that bending.
+
+\argm{Neutron stars in pairs lose energy to waves of the medium.} Two neutron stars in orbit stir the medium around them, and the medium's transverse waves, travelling at $c$, carry energy away (Part 15).\fn{rashadaPart15} The orbit shrinks. The Hulse--Taylor pulsar's orbit shrinks at $0.9983\pm0.0016$ times the rate expected;\fn{weisberg2016} the double pulsar, two pulsars orbiting each other, matches it to 1.3 parts in 10,000.\fn{kramer2021} In 2017 the waves from two neutron stars merging were caught directly, arriving with their light (Part 28).\fn{rashadaPart28}
+
+\openm{The upper limit of a neutron star's mass} in GPT's terms is owed: how strongly the cores push at the densities inside, and where the inflow's compression wins. The mainstream does not know it either; it depends on nuclear forces at densities no laboratory reaches.
+
+\section{Orbits Near the Limit}
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{fig25-1-hold.pdf}
+\caption{The weakening sideways hold. Left: for a body moving sideways, the medium's pressure ratio times the hold of its sideways motion, against distance. Where a curve has a hollow, an orbit can rest in it; where it has a crest, an orbit balanced there is unstable. With less sideways motion the hollow and crest move together and merge at three horizon radii: inside that, no orbit holds. Right: light has only a crest, at one and a half horizon radii.}\label{fig:hold}
+\end{figure}
+
+A planet's sideways motion carries it past the Sun while the inward acceleration turns it, and the two together close its path (Part 26). Far from a mass, the sideways motion holds the planet out against the inflow almost exactly as Newton's law says. Closer in, the same pressure ratio that slows clocks weakens that hold: the radial motion of an orbit obeys $(dr/d\tau)^2 = E^2 - (P/P_0)\,(c^2 + L^2/r^2)$, where $L$ is the sideways motion (Part 23). At Mercury the weakening is five parts in a hundred million, and it turns Mercury's ellipse by 43 arcseconds a century.
+
+\argm{Followed inward, the same weakening ends all orbits.} Figure~\ref{fig:hold} shows it. A body with plenty of sideways motion can rest in a hollow, a stable orbit, with a crest further in. With less sideways motion the hollow and the crest draw together, and at three horizon radii they merge: this is the last stable orbit. Inside it, no amount of sideways motion can hold a body out, and anything there spirals in. Light, with no hollow at all, has a single crest at one and a half horizon radii: light aimed exactly sideways there can circle the black hole, but the slightest nudge sends it in or out.
+
+\begin{hypbar}
+\textbf{The weakening is the medium's.} Sideways motion is carried by a body's exchanges with the medium, the same exchanges that keep its clocks ticking and its bonds in place (Part 11).\footnotemark{} Where the medium's active pressure is lower, those exchanges are slowed by the same factor, and so is the hold of the sideways motion. One mechanism gives Mercury's precession, the last stable orbit and light's circle; they differ only in how far down the pressure has gone.
+\end{hypbar}
+\footnotetext{\citealp{rashadaPart11}.}
+
+\argm{The edge of a black hole's shadow is light's circle.} Light that passes just outside one and a half horizon radii escapes; light that passes inside it is taken in. Seen from far away, the black hole is a dark disc 5.2 horizon radii across, ringed by the light of the hot gas around it. The Event Horizon Telescope measured the ring around the black hole in the galaxy M87 at $42\pm3$ millionths of an arcsecond, and around the black hole at the centre of our galaxy at $51.8\pm2.3$: each the size expected from the black hole's mass.\fn{eht2019}\textsuperscript{,}\fn{eht2022} The mass of our galaxy's black hole, about four million Suns, is known independently from the stars that orbit it. The star S2, passing within 120 astronomical units of it at 2.5 per cent of the speed of light, shows both the clock effect and the turning of its orbit, as expected.\fn{gravity2018}\textsuperscript{,}\fn{gravity2020}
+
+\argm{Space here is full.} What the telescopes see is not empty space around a dark object. It is gas spiralling inward in a disc, heated as it goes, threaded by magnetic fields, with jets thrown out along the spin axis. Matter spiralling down to the last stable orbit gives off about 6 per cent of its rest energy as light and heat, and up to 42 per cent around a fast-spinning black hole: many times the 0.7 per cent that fusion releases from hydrogen.\fn{shapiro1983} That is why the brightest objects in the universe, the quasars, are fed black holes. In GPT \hypm{that energy is the medium's pressure,} converted into the gas's inward motion (Part 11) and then, by friction in the disc, into heat.
+
+\section{The Horizon: Where the Inflow Reaches Light}
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{fig25-2-light.pdf}
+\caption{Light in the inflow. Above: the inflow, faster toward the centre, and light sent outward, always at $c$ through the medium around it. Below: the outward progress of that light seen from far away, $c-v$. Outside the horizon it makes headway; at the horizon, where the inflow equals $c$, it stands still; inside, the inflow carries it inward.}\label{fig:light}
+\end{figure}
+
+At $r=2GM/c^2$ the inflow reaches the speed of light. For a black hole of ten solar masses this is 30 kilometres from the centre; for the one in M87, about 130 astronomical units.
+
+\begin{hypbar}
+\textbf{The horizon is where the medium flows inward as fast as its own waves travel.} Light always travels at $c$ through the medium around it. Outside the horizon, light sent outward makes headway against the inflow. At the horizon, it is carried inward exactly as fast as it travels outward, and stands still. Inside, the medium flows inward faster than its waves can travel, and everything carried by those waves, light and every pattern of matter, is carried inward with it (Figure~\ref{fig:light}). Nothing holds matter up there because no pattern of the medium can send its push outward against the flow.
+
+\textbf{The active pressure there is zero.} With $P_0 = \tfrac12\rho_g c^2$, the pressure $P = P_0 - \tfrac12\rho_g v^2$ reaches zero where $v=c$ (Part 24). Clocks at the horizon, compared with clocks far away, stop; light from there reaches far away redshifted without limit. That is how a horizon looks from outside: the last light of anything carried in reddens and fades.
+\end{hypbar}
+
+\hypm{Carried in, nothing marks the horizon.} A body carried in from far away arrives moving with the medium, so the medium does not stream through it; its clocks and bonds go on as before, and it crosses the horizon with no local sign. What it does feel is the difference in the inflow's acceleration from one end of it to the other: the tide, which near a black hole of a few solar masses tears a body apart before it reaches the horizon. Stars torn apart this way are seen as flares at the centres of galaxies, tidal disruption events.\fn{gezari2021} Near the giant black holes the tide at the horizon is gentle.
+
+\argm{A horizon is what any medium does} when its flow outruns its waves. In 1981 Unruh showed that sound in a fluid flowing faster than sound is trapped exactly as light is at a horizon, and obeys the same equations.\fn{unruh1981} Such horizons have since been built. In flowing water, waves at a horizon have shown the emission Hawking predicted for black holes, stimulated by incoming waves;\fn{weinfurtner2011} in a flowing ultracold gas, a horizon for sound has given off spontaneous radiation with the thermal spectrum and temperature Hawking's calculation gives.\fn{munoz2019} These horizons are flows of a medium, made in a laboratory. They show that a horizon needs nothing more than a medium flowing faster than its waves, which is GPT's account of the horizon of a black hole. That is support, not proof: the laboratory shows what a medium does, and it is GPT's proposal that gravity's horizon is the same thing.
+
+\argm{When two black holes merge, the result rings} and settles. The first gravitational waves caught, in 2015, came from two black holes of 36 and 29 solar masses merging into one of 62; three solar masses of energy left as waves of the medium in a fraction of a second.\fn{abbott2016} The final black hole rang at the frequencies expected for its mass and spin, and fell quiet.\fn{isi2019} Searches for repeated ``echoes'', which a reflecting surface just outside the horizon would produce, have found none.\fn{abbott2021echo} That fits GPT's horizon, which is a speed of flow, not a surface.
+
+\hypm{A spinning black hole twists the inflow.} The river picture extends to rotating black holes: the inflow at each place carries a twist as well as a speed.\fn{hamilton2008} This is the medium's swirl of Part 16, the same that Gravity Probe B measured around the spinning Earth, at its strongest.\fn{rashadaPart16} It drags the last stable orbit inward around a fast-spinning black hole, which is why such black holes release the most energy, and it is thought to power the jets.
+
+\section{Beyond the Horizon}
+
+\begin{openbar}
+Inside the horizon the formula gives a pressure below zero, and a self-repelling medium cannot have negative pressure.\footnotemark{} Something in the account changes there, and what it is is owed. In general relativity the same region ends at a singularity, a point where the description gives infinite density; that is the description failing, not a mechanism. In GPT the medium has a grain, and matter is made of knots of finite size, so the centre cannot be a point. What it is instead is owed. Hawking's radiation from real black holes has not been measured: for a black hole of one solar mass its temperature would be 60 billionths of a degree, far colder than the background radiation streaming into it.
+\end{openbar}
+\footnotetext{\citealp{rashadaPart24}.}
+
+\section{What Remains to Be Derived}
+
+\begin{itemize}
+\item \openm{Why the sideways hold weakens} by exactly the pressure ratio, in terms of what touches what (Part 26).
+\item \openm{The limit of exclusion,} the Chandrasekhar mass, from the electron's circulation in the medium.
+\item \openm{The upper limit of a neutron star's mass} from the push of overlapping cores.
+\item \openm{What the medium is inside a horizon,} where the formula's pressure goes below zero.
+\item \openm{What is at the centre} of a black hole.
+\end{itemize}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+
+One quantity changes from the Earth to the horizon: the speed of the inflow, and with it the active pressure it leaves. Near the Earth and the Sun the pressure is lowered by parts in a billion and a million, and clocks show it. In a white dwarf, matter is held up by exclusion, until the electrons' motion nears the speed of the medium's waves and the hold gives way at 1.4 solar masses. In a neutron star, matter re-formed as neutrons is held by exclusion and by the push of overlapping cores, to more than two solar masses. Closer still, the same weakening of the sideways hold that turns Mercury's orbit ends all orbits at three horizon radii, and leaves light a single circle at one and a half. At the horizon the inflow reaches the speed of light: light sent outward stands still, and the active pressure is zero. Every stage is measured, from a tower in Harvard to the rings around two black holes, and the horizon itself has been built, for sound, in flowing water and in a flowing gas. What lies beyond the horizon, the medium cannot yet say.
+
+\clearpage
+\section*{Changes in the Second Edition}
+\addcontentsline{toc}{section}{Changes in the Second Edition}
+
+This list records what changed from the first edition and why. Changes to the argument alter what the paper claims or how it supports a claim; clarifications improve wording, sources or presentation and leave the argument as it was.
+
+\subsection*{Changes to the argument}
+\begin{itemize}
+\item The first edition's Part 25, \textit{Constants, Conversions and Deep Field Formalism}, set out to define GPT's constants and units and to extend its field formalism into dense stellar cores, black hole boundaries and high-energy interactions. Its constants, units and conversions are now in Part 24, with their changes listed there. This paper takes up the second aim.
+\item The deep-field equation $\nabla^2 P_g + \alpha(\nabla P_g\cdot\nabla P_g) = -\rho_g$ is replaced by the inflow, which holds at every strength. The first edition's point that the deep field behaves differently from the shallow one is kept: it does, through the pressure ratio's approach to zero, with no added constant.
+\item The resonance-lock wave $P_0\cos(\ldots)e^{-\gamma t}$ is withdrawn: it makes the pressure negative half the time (Part 24). The estimated ranges of $\kappa_g$, $\alpha$ and $\gamma$ are withdrawn: no measurement fixes them.
+\item The baseline pressure of $10^{-6}$ to $10^{-4}$ pascals is replaced by about $4.5\times10^{-10}$ pascals (Part 24).
+\item High-energy interactions, in colliders, are treated in Part 17.
+\end{itemize}
+
+\subsection*{Additions}
+\begin{itemize}
+\item The inflow followed in stages, with the pressure ratio, clock rate and hold on matter at each (Section 25.1, Table 25.1).
+\item The shallow field and its clock measurements (Section 25.2).
+\item White dwarfs held by exclusion, and its limit (Section 25.3).
+\item Neutron stars, matter re-formed and held by exclusion and core repulsion; pulsar timing and gravitational waves (Section 25.4).
+\item The last stable orbit and light's circle as the weakening of the sideways hold that gives Mercury's precession; the black-hole shadows; accretion energy (Section 25.5, Figure 25.1).
+\item The horizon as the inflow reaching light, and laboratory horizons in flowing water and gas (Section 25.6, Figure 25.2).
+\item What is not yet known inside the horizon (Section 25.7).
+\end{itemize}
+
+\subsection*{Clarifications}
+\begin{itemize}
+\item The title changes from \textit{Constants, Conversions and Deep Field Formalism} to \textit{The Medium at Its Limits: Following the Inflow to the Speed of Light}.
+\item The cross-references are renumbered.
+\end{itemize}
+
+\bibliography{part25}
+\end{document}

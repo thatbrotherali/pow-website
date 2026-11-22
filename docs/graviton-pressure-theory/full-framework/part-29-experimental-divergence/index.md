@@ -1,6 +1,6 @@
 # Experimental Divergence
 
-> First edition (2025). This part has not yet been revised; its second edition is in preparation. Parts 1 to 24 and 26 to 28 have been revised since; where they differ from this text, the revised parts are the current statement of the theory. Start with Part 5, which sets out the mechanism: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
+> First edition (2025). This part has not yet been revised; its second edition is in preparation. Parts 1 to 28 have been revised since; where they differ from this text, the revised parts are the current statement of the theory. Start with Part 5, which sets out the mechanism: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-05-graviton-pressure-theory/
 
 *Empirical Foundations of Graviton Pressure Theory*
 

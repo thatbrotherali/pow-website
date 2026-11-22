@@ -265,12 +265,13 @@
   {
    "slug": "gpt-part-25",
    "title": "The Medium at Its Limits",
-   "subtitle": "Following the Inflow to the Speed of Light (in preparation)",
-   "words": 110,
-   "lead": "In preparation: the medium's inflow followed from the Earth inward through white dwarfs and neutron stars to a black hole's horizon. The first edition's constants and conversions are now in Part 24.",
-   "source": "Part 25 - Constant Conversions.tex",
+   "subtitle": "Following the Inflow to the Speed of Light",
+   "words": 4863,
+   "lead": "The medium's inflow followed from the Earth inward to where it reaches the speed of light. The faster the medium flows into a mass, the lower its active pressure, the slower its clocks and the more it bends light. At the Earth's surface the pressure is lowered by about one part in 700 million; at a white dwarf, by a part in two thousand, held up by electrons; at a neutron star, by half, held up by neutrons; at a black hole's horizon, the inflow reaches the speed of light and the active pressure reaches zero. Each stage is checked against what is measured: Pound and Rebka's tower, GPS, the redshift of the Sun and of Sirius B, the masses of the heaviest pulsars, and the images and waves of black holes.",
+   "source": "Part 25 - The Medium at Its Limits (2nd ed.).tex",
    "part": 25,
-   "path": "constants-conversions"
+   "path": "constants-conversions",
+   "pdf": true
   },
   {
    "slug": "gpt-part-26",
