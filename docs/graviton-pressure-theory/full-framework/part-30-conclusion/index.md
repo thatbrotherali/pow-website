@@ -26,7 +26,7 @@ Space is filled with a medium of gravitons, and every mass takes it in. **\[Hypo
 
 <figure id="fig:one">
 <img src="assets/figures/fig30-1-one-medium.svg" />
-<figcaption>One medium, one inflow. In blue, measured results the inflow reproduces with the standard numbers; in green, a measurement it supports; in orange, predictions that are untested; in grey, what is still owed.</figcaption>
+<figcaption>One medium, one inflow. In blue, measured results the inflow reproduces with the standard numbers; in green, a measurement that supports it; in orange, predictions that are untested; in grey, what is still owed.</figcaption>
 </figure>
 
 - **Falling.** The inflow delivers momentum to every particle of a body in proportion to its mass, so every body falls alike, as measured to one part in $10^{15}$.[^7] Its energy of motion is paid by the medium’s pressure turning into flow: the energy of gravity has a place (Parts 7 and 11).[^8][^9]

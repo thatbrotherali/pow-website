@@ -31,12 +31,12 @@ From that one inflow, calibrated once to Newton’s gravity as Newton’s consta
 
 <figure id="fig:one">
 <img src="assets/figures/fig1-5-one-inflow.svg" />
-<figcaption>One medium, one inflow. In blue, measured results the inflow reproduces with the standard numbers; in green, a measurement it supports; in orange, predictions that are untested; in grey, what is still owed (Part 30).</figcaption>
+<figcaption>One medium, one inflow. In blue, measured results the inflow reproduces with the standard numbers; in green, a measurement that supports it; in orange, predictions that are untested; in grey, what is still owed (Part 30).</figcaption>
 </figure>
 
 ## What is felt every day
 
-Gravity is met most often not in orbits but in weight: a person in a chair, a book on a shelf, a bridge carrying its load. In GPT, holding a weight still requires energy: a continuous flow of the medium’s momentum through the load, through its support, and into the ground, which passes through and is not used up **\[Hypothesis\]** (Part 6).[^11] Stop that flow, and the weight falls. The standard account says that a held weight has no work done on it, and that nothing is happening. GPT says that something is happening, every second, and it names what.
+Gravity is met most often not in orbits but in weight: a person in a chair, a book on a shelf, a bridge carrying its load. In GPT, holding a weight still requires energy. A continuous flow of the medium’s momentum travels through the load, through its support, and into the ground, carrying energy with it relative to the medium; it passes through and is not used up **\[Hypothesis\]** (Part 6).[^11] Stop that flow, and the weight falls. The standard account says that a held weight has no work done on it, and that nothing is happening. GPT says that something is happening, every second, and it names what.
 
 ## Purpose, scope and objective
 
@@ -105,9 +105,9 @@ In outline; each part of the framework develops one layer in detail:
 
 **\[Hypothesis: the passage that follows\]**
 
-- Gravity is not a pull. A medium **flows into every mass**, at $v=\sqrt{2GM/r}$, and bodies are carried by that flow. The medium’s pressure falls as it flows, $P/P_0 = 1-v^2/c^2$ (Parts 5 and 23).[^25]
+- Gravity is not a pull. A medium **flows into every mass**, at $v=\sqrt{2GM/r}$, and bodies are carried by that flow. The medium’s pressure falls as it flows, $P/P_0 = 1-v^2/c^2$ (Parts 5 and 23).
 
-- The medium is made of **gravitons**: real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected;[^26] in GPT it is the physical medium itself.
+- The medium is made of **gravitons**: real, directional carriers of momentum. In mainstream physics, the graviton is a hypothetical quantum of the gravitational field, not yet detected; in GPT it is the physical medium itself.
 
 - Matter interacts with the medium continuously: taking gravitons in, and returning them in a changed, inactive state. This sets up the inflow into every mass, and mass is the measure of how strongly matter takes part in the exchange.
 
@@ -119,7 +119,7 @@ In outline; each part of the framework develops one layer in detail:
 
 **\[End of passage\]**
 
-These proposals are developed in the parts that follow, and the current working model of the medium, its properties and how they act together, is set out in *The Mechanics of the Medium*.[^27]
+These proposals are developed in the parts that follow, and the current working model of the medium, its properties and how they act together, is set out in *The Mechanics of the Medium*.[^25]
 
 The universe, on this view, does not bend. It presses.
 
@@ -149,17 +149,17 @@ The physics papers of this framework make no claims about purpose or intent. The
 
 # Where the Work Stands
 
-Honesty about the state of the work is part of the method. Part 30 gives the full account;[^28] in brief:
+Honesty about the state of the work is part of the method. Part 30 gives the full account;[^26] in brief:
 
 - **Established.** General Relativity predicts gravitational phenomena with great accuracy and does not name a physical carrier of gravitational action. Its field outside a mass can be written exactly as an inflow at the escape speed.
 
-- **Argued.** From the one calibrated inflow, GPT obtains the slowing of clocks, the bending of light, the radar delay, Mercury’s orbit and the horizon, with the measured numbers and no further fitting (Appendix 1.A; Parts 23, 25 and 26). Treating General Relativity’s description as the complete mechanism of gravity is a category error, not a finding. **\[Argued\]**[^29]
+- **Argued.** From the one calibrated inflow, GPT obtains the slowing of clocks, the bending of light, the radar delay, Mercury’s orbit and the horizon, with the measured numbers and no further fitting (Appendix 1.A; Parts 23, 25 and 26). Treating General Relativity’s description as the complete mechanism of gravity is a category error, not a finding. **\[Argued\]**[^27]
 
-- **Hypothesis.** That the inflow is a real medium of gravitons; that matter, time and order are built from it; that a galaxy’s rotation, read as dark matter, is the medium brought back into step where the inflow’s acceleration falls to $a_0\approx1.2\times10^{-10}$ m/s$^2$ (Part 9);[^30] and that the old objections to push models are met: steady motion through the medium is not braked, because momentum is the path a body carves (Part 11),[^31] and matter is not heated, because the exchange passes through it and is returned to the medium (Part 6).
+- **Hypothesis.** That the inflow is a real medium of gravitons; that matter, time and order are built from it; that a galaxy’s rotation, read as dark matter, is the medium brought back into step where the inflow’s acceleration falls to $a_0\approx1.2\times10^{-10}$ m/s$^2$ (Part 9);[^28] and that the old objections to push models are met: steady motion through the medium is not braked, because momentum is the path a body carves (Part 11),[^29] and matter is not heated, because the exchange passes through it and is returned to the medium (Part 6).
 
 - **Owed.** Galaxy clusters and the third peak of the background light; the law beyond the relaxation boundary; the aberration of gravity from GPT’s own inflow; the size of a spinning body’s imprint; the masses of the particles (Part 30).
 
-GPT can be proved wrong, and its tests are named **\[Argued\]** (Part 29):[^32] pairs of stars sorted by their direction of motion, in data that already exist; a held body’s weight against its structure; a crystal turned on a torsion balance; a spinning rotor; a clock with its internal order changed. Until such tests are carried out, GPT remains a hypothesis. A framework that marks its own gaps invites others to close them. That is the intention.
+GPT can be proved wrong, and its tests are named **\[Argued\]** (Part 29):[^30] pairs of stars sorted by their direction of motion, in data that already exist; a held body’s weight against its structure; a crystal turned on a torsion balance; a spinning rotor; a clock with its internal order changed. Until such tests are carried out, GPT remains a hypothesis. A framework that marks its own gaps invites others to close them. That is the intention.
 
 # Why This Framework Matters Now
 
@@ -214,23 +214,23 @@ This is gravity, offered for explanation.
 
 # The Bending of Light: One Calibration, One Principle
 
-This appendix shows how the bending of light and the radar delay past the Sun follow in GPT from one calibrated quantity and one stated principle, with no constant chosen to fit them. The structure is not new: Robert Dicke showed in 1957 that a medium which slows light and matter in this way reproduces the classical tests,[^33] and the idea has been developed since.[^34] What GPT adds is the physical medium that does the slowing.
+This appendix shows how the bending of light and the radar delay past the Sun follow in GPT from one calibrated quantity and one stated principle, with no constant chosen to fit them. The structure is not new: Robert Dicke showed in 1957 that a medium which slows light and matter in this way reproduces the classical tests,[^31] and the idea has been developed since.[^32] What GPT adds is the physical medium that does the slowing.
 
 Write the depth of the gravitational potential at distance $r$ from a mass $M$ as the small dimensionless number $$\Phi(r) = \frac{GM}{c^2 r}.$$ At the Sun’s surface, $\Phi \approx 2\times10^{-6}$.
 
 #### 1. Calibration and clocks.
 
-The one calibration is the inflow, matched to Newton’s gravity: $v^2 = 2GM/r$. A clock is a structure of the medium’s waves. Near the mass the medium streams past it at the inflow speed, and a clock moving through the medium ticks slower, as each of its internal cycles has farther to travel, by $\sqrt{1-v^2/c^2}$. So a clock at depth $\Phi$ runs slow, compared with a clock far away, by $\sqrt{1-2\Phi} \approx (1-\Phi)$. **\[Hypothesis\]** That is the measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018),[^35] and it follows from the inflow without a second calibration. The slowing of moving clocks is the same effect: every clock is slowed by its motion through the medium, whether the medium streams past it near a mass or it travels through the medium itself. **\[Hypothesis\]**
+The one calibration is the inflow, matched to Newton’s gravity: $v^2 = 2GM/r$. A clock is a structure of the medium’s waves. Near the mass the medium streams past it at the inflow speed, and a clock moving through the medium ticks slower, as each of its internal cycles has farther to travel, by $\sqrt{1-v^2/c^2}$. So a clock at depth $\Phi$ runs slow, compared with a clock far away, by $\sqrt{1-2\Phi} \approx (1-\Phi)$. **\[Hypothesis\]** That is the measured gravitational redshift (Pound–Rebka, 1960; the Galileo satellites, 2018),[^33] and it follows from the inflow without a second calibration. The slowing of moving clocks is the same effect: every clock is slowed by its motion through the medium, whether the medium streams past it near a mass or it travels through the medium itself. **\[Hypothesis\]**
 
 #### 2. Principle: rulers.
 
-The same medium that slows matter’s internal processes also sets the size of matter’s structures. GPT’s principle is that it changes both in the same proportion: a ruler at depth $\Phi$ is shorter, as judged from far away, by the same factor $(1-\Phi)$. Clocks and rulers change together because both are structures of the same medium. **\[Hypothesis\]**
+The same medium that slows matter’s internal processes also sets the size of matter’s structures. A ruler held along the flow, pointing toward the mass, is shorter, as judged from far away, by the same factor $(1-\Phi)$ that slows the clock; a ruler held across the flow is unchanged. Clocks and rulers change together because both are structures of the same medium **\[Hypothesis\]** (Part 23). Squashing along the flow only is what gives Mercury’s 43 arcseconds a century; rulers shrinking equally in every direction would give 57. **\[Argued\]**
 
 #### 3. Consequence: light is always measured at $c$ locally.
 
-An observer at depth $\Phi$, using local clocks and rulers, measures light’s speed as $c$, as every local experiment finds. But measured from far away, where both the local ruler and the local second are rescaled, light near the mass travels at $$c_{\text{far}} = c\,(1-\Phi)(1-\Phi) \approx c\,(1-2\Phi),$$ so the medium has an effective refractive index $$n(r) \approx 1 + 2\Phi(r) = 1 + \frac{2GM}{c^2 r}.$$ The factor of 2 is not chosen. One half comes from clocks, the other from rulers.
+An observer at depth $\Phi$, using local clocks and rulers, measures light’s speed as $c$, as every local experiment finds. Measured from far away, light near the mass is slowed. Relabelling the distances from the mass, as Eddington did, shares the squashing of the radial rulers equally among all directions without changing anything that can be measured; **\[Argued\]**[^34] in that description the local second and every local ruler are rescaled by $(1-\Phi)$, and light near the mass travels at $$c_{\text{far}} = c\,(1-\Phi)(1-\Phi) \approx c\,(1-2\Phi),$$ so the medium has an effective refractive index $$n(r) \approx 1 + 2\Phi(r) = 1 + \frac{2GM}{c^2 r}.$$ The factor of 2 is not chosen. One half comes from clocks, the other from rulers.
 
-In the variables of *The Mechanics of the Medium*, the same chain reads: the inflow lowers the medium’s active pressure to $P/P_0 = 1 - 2\Phi$; clocks and rulers both scale as $\sqrt{P/P_0} \approx 1 - \Phi$, with the free-space pressure $P_0 = \tfrac12\rho_g c^2$, the value at which the pressure law and the clock law agree, since then $P/P_0 = 1 - v^2/c^2$; and the index is $n = P_0/P \approx 1 + 2\Phi$.[^36]
+In the variables of *The Mechanics of the Medium*, the same chain reads: the inflow lowers the medium’s active pressure to $P/P_0 = 1 - 2\Phi$; clocks and rulers along the flow both scale as $\sqrt{P/P_0} \approx 1 - \Phi$, with the free-space pressure $P_0 = \tfrac12\rho_g c^2$, the value at which the pressure law and the clock law agree, since then $P/P_0 = 1 - v^2/c^2$; and the index is $n = P_0/P \approx 1 + 2\Phi$.[^35]
 
 #### 4. The bending of light.
 
@@ -240,11 +240,11 @@ With clocks alone, and no change in rulers, the index would be $1 + \Phi$ and th
 
 #### 5. The radar delay.
 
-A radar signal passing close to the Sun is delayed by the slower light near it. With the same index, the delay on a single pass is $$\Delta t = \frac{2GM}{c^3}\,\ln\!\frac{4 r_1 r_2}{b^2},$$ where $r_1$ and $r_2$ are the distances of Earth and the far body from the Sun; a radar echo, which makes the trip twice, is delayed by twice this. This is the Shapiro delay, confirmed by the Cassini spacecraft to about two parts in $10^{5}$.[^37]
+A radar signal passing close to the Sun is delayed by the slower light near it. With the same index, the delay on a single pass is $$\Delta t = \frac{2GM}{c^3}\,\ln\!\frac{4 r_1 r_2}{b^2},$$ where $r_1$ and $r_2$ are the distances of Earth and the far body from the Sun; a radar echo, which makes the trip twice, is delayed by twice this. This is the Shapiro delay, confirmed by the Cassini spacecraft to about two parts in $10^{5}$.[^36]
 
 #### 6. No dependence on colour.
 
-If the bending of light is refraction in a medium, it might depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^38] so any such dependence must be smaller than that. GPT expects none at leading order: the medium changes the electric and magnetic constants of space together, which leaves it matched for light of every wavelength. **\[Hypothesis\]**
+If the bending of light is refraction in a medium, it might depend on wavelength. Radio and optical measurements of the bending agree to within a few parts in a thousand,[^37] so any such dependence must be smaller than that. GPT expects none at leading order: the medium changes the electric and magnetic constants of space together, which leaves it matched for light of every wavelength. **\[Hypothesis\]**
 
 #### What this establishes, and what it does not.
 
@@ -276,7 +276,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 - The slowing of clocks near a mass follows from the inflow, not from a second calibration: a clock is slowed by the medium streaming past it, by $\sqrt{1-v^2/c^2}$, which with $v^2=2GM/r$ is the measured redshift. “The effect of the denser medium” on clocks is corrected to the medium streaming past them.
 
-- New Appendix 1.A shows the bending of light and the Shapiro delay following from one calibration and one stated principle.
+- New Appendix 1.A shows the bending of light and the Shapiro delay following from one calibration and one stated principle: rulers are shortened along the flow only, as Part 23 requires for Mercury’s 43 arcseconds, and Eddington’s relabelling of distances gives the index $1+2\Phi$ without changing anything measured.
 
 - The closing line “This is gravitational structure, finally explained” is now “This is gravity, offered for explanation.”
 
@@ -319,6 +319,12 @@ Delva, P. et al. 2018. “Gravitational Redshift Test Using Eccentric Galileo Sa
 <div id="ref-dicke1957" class="csl-entry">
 
 Dicke, Robert H. 1957. “Gravitation without a Principle of Equivalence.” *Reviews of Modern Physics* 29: 363–76.
+
+</div>
+
+<div id="ref-eddington1920" class="csl-entry">
+
+Eddington, Arthur S. 1920. *Space, Time and Gravitation*. Cambridge University Press.
 
 </div>
 
@@ -466,57 +472,75 @@ Rashada, Shareef Ali. 2026a. “Conclusion: The Restoration of Reality (Part 30,
 
 </div>
 
+<div id="ref-rashadaPart22" class="csl-entry">
+
+———. 2026f. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+
+</div>
+
 <div id="ref-rashadaPart26" class="csl-entry">
 
-———. 2026f. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
+———. 2026g. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026g. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026h. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026h. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026i. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+
+</div>
+
+<div id="ref-rashadaPart17" class="csl-entry">
+
+———. 2026j. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaConstraints" class="csl-entry">
 
-———. 2026i. “The Gravity Constraint Set; The GR Silence Map; Why Graviton Pressure Theory Is Not ‘Alternative Gravity’.” <https://peopleoftheworld.net/graviton-pressure-theory/>.
+———. 2026k. “The Gravity Constraint Set; The GR Silence Map; Why Graviton Pressure Theory Is Not ‘Alternative Gravity’.” <https://peopleoftheworld.net/graviton-pressure-theory/>.
 
 </div>
 
 <div id="ref-rashadaClosure" class="csl-entry">
 
-———. 2026j. “The Logical Closure of the Equivalence Principle; The Operational Constraints of the Equivalence Principle.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/>.
+———. 2026l. “The Logical Closure of the Equivalence Principle; The Operational Constraints of the Equivalence Principle.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026k. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026m. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaMedium" class="csl-entry">
 
-———. 2026l. “The Mechanics of the Medium: The Origin of Primitives.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/>.
+———. 2026n. “The Mechanics of the Medium: The Origin of Primitives.” <https://peopleoftheworld.net/graviton-pressure-theory/papers/mechanics-of-the-medium/>.
 
 </div>
 
 <div id="ref-rashadaPart25" class="csl-entry">
 
-———. 2026m. “The Medium at Its Limits: Following the Inflow to the Speed of Light (Part 25, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/>.
+———. 2026o. “The Medium at Its Limits: Following the Inflow to the Speed of Light (Part 25, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/>.
+
+</div>
+
+<div id="ref-rashadaPart18" class="csl-entry">
+
+———. 2026p. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart2" class="csl-entry">
 
-———. 2026n. “The Removal of Intent, Cause and Mechanism (Part 2 of this framework, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
+———. 2026q. “The Removal of Intent, Cause and Mechanism (Part 2 of this framework, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-02-the-removal-of-intent/>.
 
 </div>
 
@@ -529,12 +553,6 @@ Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of
 <div id="ref-wheeler1990" class="csl-entry">
 
 Wheeler, John Archibald. 1990. *A Journey into Gravity and Spacetime*. Scientific American Library.
-
-</div>
-
-<div id="ref-zee2010" class="csl-entry">
-
-Zee, Anthony. 2010. *Quantum Field Theory in a Nutshell*. 2nd ed. Princeton University Press.
 
 </div>
 
@@ -554,17 +572,17 @@ Zee, Anthony. 2010. *Quantum Field Theory in a Nutshell*. 2nd ed. Princeton Univ
 
 [^7]: (Rashada 2026c).
 
-[^8]: (Rashada 2026k).
+[^8]: (Rashada 2026m).
 
-[^9]: (Rashada 2026m).
+[^9]: (Rashada 2026o).
 
-[^10]: (Rashada 2026f).
+[^10]: (Rashada 2026g).
 
-[^11]: (Rashada 2026g).
+[^11]: (Rashada 2026h).
 
-[^12]: (Rashada 2026n).
+[^12]: (Rashada 2026q).
 
-[^13]: (Rashada 2026i).
+[^13]: (Rashada 2026k).
 
 [^14]: (Rashada 2026b).
 
@@ -588,30 +606,28 @@ Zee, Anthony. 2010. *Quantum Field Theory in a Nutshell*. 2nd ed. Princeton Univ
 
 [^24]: (Planck Collaboration 2020; Peebles and Ratra 2003).
 
-[^25]: (Zee 2010).
+[^25]: (Rashada 2026n).
 
-[^26]: (Rashada 2026e); (Rashada 2026k).
+[^26]: (Rashada 2026a).
 
 [^27]: (Rashada 2026l).
 
-[^28]: (Rashada 2026a).
+[^28]: (McGaugh, Lelli, and Schombert 2016).
 
-[^29]: (Rashada 2026j).
+[^29]: (Rashada 2026i).
 
-[^30]: (McGaugh, Lelli, and Schombert 2016).
+[^30]: (Rashada 2026d).
 
-[^31]: (Rashada 2026h).
+[^31]: (Dicke 1957).
 
-[^32]: (Rashada 2026d).
+[^32]: (Puthoff 2002).
 
-[^33]: (Dicke 1957).
+[^33]: (Pound and Rebka 1960; Delva et al. 2018).
 
-[^34]: (Puthoff 2002).
+[^34]: (Eddington 1920).
 
-[^35]: (Pound and Rebka 1960; Delva et al. 2018).
+[^35]: (Rashada 2026n).
 
-[^36]: (Rashada 2026l).
+[^36]: (Bertotti, Iess, and Tortora 2003).
 
-[^37]: (Bertotti, Iess, and Tortora 2003).
-
-[^38]: (Fomalont et al. 2009; Froeschlé, Mignard, and Arenou 1997).
+[^37]: (Fomalont et al. 2009; Froeschlé, Mignard, and Arenou 1997).
