@@ -23123,7 +23123,7 @@ Friction is the medium’s resistance at the junction of two structures. Each bo
 
 This is measured. **\[Argued\]** In 2004 Dienwiebel and colleagues slid a tiny flake of graphite across a graphite surface. When the flake’s lattice was turned into step with the surface beneath, the two locked and resisted sliding; turned out of step, the flake slid with almost no friction at all, a state now called superlubricity.[^8] Synchronisation decides friction: in step, the surfaces hold; out of step, they glide.
 
-Ordinary surfaces touch only at the tips **\[Argued\]** of their roughness. Friction is proportional to the load pressing two surfaces together and does not depend on their apparent area (Amontons, 1699), because the real area of contact, the tips of the roughness pressed together, grows in proportion to the load.[^9] Each tip is a small interface where the two surfaces’ patterns meet; **\[Hypothesis\]** where they come into step they lock, and sliding breaks and re-forms these locked junctions. More load, more junctions, more friction.
+Ordinary surfaces touch only at the tips **\[Argued\]** of their roughness. Friction is proportional to the load pressing two surfaces together and does not depend on their apparent area (Amontons 1699), because the real area of contact, the tips of the roughness pressed together, grows in proportion to the load.[^9] Each tip is a small interface where the two surfaces’ patterns meet; **\[Hypothesis\]** where they come into step they lock, and sliding breaks and re-forms these locked junctions. More load, more junctions, more friction.
 
 The energy friction takes becomes heat. **\[Argued\]** In Part 20’s account, heat is energy delivered as disordered motion: the breaking of locked junctions sets the atoms near the surface jostling out of step, and the jostling spreads as knocks.[^10]
 
@@ -23257,9 +23257,15 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
+<div id="ref-amontons1699" class="csl-entry">
+
+Amontons, Guillaume. 1699. “De la résistance causée dans les machines.” *Mémoires de l’Académie Royale Des Sciences*.
+
+</div>
+
 <div id="ref-blaha1955" class="csl-entry">
 
-Blaha, F., and B. Langenecker. 1955. “Dehnung von Zink-Kristallen Unter Ultraschalleinwirkung.” *Die Naturwissenschaften* 42: 556.
+Blaha, F., and B. Langenecker. 1955. “Dehnung von Zink-Kristallen unter Ultraschalleinwirkung.” *Die Naturwissenschaften* 42: 556.
 
 </div>
 
@@ -23271,91 +23277,115 @@ Bowden, F. P., and D. Tabor. 1950. *The Friction and Lubrication of Solids*. Oxf
 
 <div id="ref-cross2012" class="csl-entry">
 
-Cross, R. C., and M. S. Wheatland. 2012. “Modeling a Falling Slinky.” *American Journal of Physics* 80: 1051–60.
+Cross, R. C., and M. S. Wheatland. 2012. “Modeling a falling slinky.” *American Journal of Physics* 80: 1051–60.
 
 </div>
 
 <div id="ref-dienwiebel2004" class="csl-entry">
 
-Dienwiebel, Martin et al. 2004. “Superlubricity of Graphite.” *Physical Review Letters* 92: 126101.
+Dienwiebel, Martin et al. 2004. “Superlubricity of graphite.” *Physical Review Letters* 92: 126101.
 
 </div>
 
 <div id="ref-golovin2004" class="csl-entry">
 
-Golovin, Yu. I. 2004. “Magnetoplastic Effects in Solids.” *Physics of the Solid State* 46: 789–824.
+Golovin, Yu. I. 2004. “Magnetoplastic effects in solids.” *Physics of the Solid State* 46: 789–824.
 
 </div>
 
 <div id="ref-griffith1921" class="csl-entry">
 
-Griffith, A. A. 1921. “The Phenomena of Rupture and Flow in Solids.” *Philosophical Transactions of the Royal Society A* 221: 163–98.
+Griffith, A. A. 1921. “The phenomena of rupture and flow in solids.” *Philosophical Transactions of the Royal Society A* 221: 163–98.
 
 </div>
 
 <div id="ref-liang2010" class="csl-entry">
 
-Liang, Bin et al. 2010. “An Acoustic Rectifier.” *Nature Materials* 9: 989–92.
+Liang, Bin et al. 2010. “An acoustic rectifier.” *Nature Materials* 9: 989–92.
 
 </div>
 
 <div id="ref-rashadaPart20" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+
+</div>
+
+<div id="ref-rashadaPart14" class="csl-entry">
+
+———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart21" class="csl-entry">
 
-———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+———. 2026c. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026d. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026c. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026e. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+
+</div>
+
+<div id="ref-rashadaPart26" class="csl-entry">
+
+———. 2026f. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026d. “Redefining Work (Part 6, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026g. “Redefining Work (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026e. “Re-Examining the Four (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026h. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+
+</div>
+
+<div id="ref-rashadaPart17" class="csl-entry">
+
+———. 2026i. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026f. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026j. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026g. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026k. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026h. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026l. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart24" class="csl-entry">
 
-———. 2026i. “Units, Constants and Conversions: The Numbers of the Medium (Part 24, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/>.
+———. 2026m. “Units, Constants and Conversions: The Numbers of the Medium (Part 24, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/>.
 
 </div>
 
 <div id="ref-rose1984" class="csl-entry">
 
-Rose, James H., John R. Smith, Francisco Guinea, and John Ferrante. 1984. “Universal Features of the Equation of State of Metals.” *Physical Review B* 29: 2963–69.
+Rose, James H., John R. Smith, Francisco Guinea, and John Ferrante. 1984. “Universal features of the equation of state of metals.” *Physical Review B* 29: 2963–69.
 
 </div>
 
@@ -23367,29 +23397,29 @@ Schmid, E., and W. Boas. 1935. *Kristallplastizität*. Berlin: Springer.
 
 <div id="ref-schurig2006" class="csl-entry">
 
-Schurig, D. et al. 2006. “Metamaterial Electromagnetic Cloak at Microwave Frequencies.” *Science* 314: 977–80.
+Schurig, D. et al. 2006. “Metamaterial electromagnetic cloak at microwave frequencies.” *Science* 314: 977–80.
 
 </div>
 
 <div id="ref-troitskii1969" class="csl-entry">
 
-Troitskii, O. A. 1969. “Electromechanical Effect in Metals.” *JETP Letters* 10: 18–22.
+Troitskii, O. A. 1969. “Electromechanical effect in metals.” *JETP Letters* 10: 18–22.
 
 </div>
 
 </div>
 
-[^1]: (Rashada 2026f).
+[^1]: (Rashada 2026j).
 
-[^2]: (Rashada 2026h).
+[^2]: (Rashada 2026l).
 
-[^3]: (Rashada 2026c).
+[^3]: (Rashada 2026e).
 
-[^4]: (Rashada 2026d).
+[^4]: (Rashada 2026g).
 
-[^5]: (Rashada 2026b).
+[^5]: (Rashada 2026c).
 
-[^6]: (Rashada 2026e).
+[^6]: (Rashada 2026h).
 
 [^7]: (Cross and Wheatland 2012).
 
@@ -23403,7 +23433,7 @@ Troitskii, O. A. 1969. “Electromechanical Effect in Metals.” *JETP Letters* 
 
 [^12]: (Rose et al. 1984).
 
-[^13]: (Rashada 2026i).
+[^13]: (Rashada 2026m).
 
 [^14]: (Griffith 1921).
 
@@ -23417,7 +23447,7 @@ Troitskii, O. A. 1969. “Electromechanical Effect in Metals.” *JETP Letters* 
 
 [^19]: (Liang et al. 2010).
 
-[^20]: (Rashada 2026g).
+[^20]: (Rashada 2026k).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/
