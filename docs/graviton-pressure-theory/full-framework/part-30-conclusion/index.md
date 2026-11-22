@@ -271,81 +271,87 @@ Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Pa
 
 </div>
 
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026h. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+
+</div>
+
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026h. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026i. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart27" class="csl-entry">
 
-———. 2026i. “Natural Force: Every Force and Its Carrier (Part 27, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
+———. 2026j. “Natural Force: Every Force and Its Carrier (Part 27, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-27-natural-force-re-imagined/>.
 
 </div>
 
 <div id="ref-rashadaPart26" class="csl-entry">
 
-———. 2026j. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
+———. 2026k. “Planetary Mechanics: Orbits, Spin and Stability in a Flowing Medium (Part 26, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-26-planetary-mechanics/>.
 
 </div>
 
 <div id="ref-rashadaPart6" class="csl-entry">
 
-———. 2026k. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
+———. 2026l. “Redefining Work: A Causal Reconstruction of Force, Stability, and Energy Under Graviton Pressure Theory (Part 6, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-06-redefining-work/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026l. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026m. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart28" class="csl-entry">
 
-———. 2026m. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
+———. 2026n. “Resonance Transmissions: Light, Sound and Electricity in the Medium (Part 28, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-28-resonance-transmissions/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026n. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026o. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026o. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026p. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026p. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026q. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart25" class="csl-entry">
 
-———. 2026q. “The Medium at Its Limits: Following the Inflow to the Speed of Light (Part 25, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/>.
+———. 2026r. “The Medium at Its Limits: Following the Inflow to the Speed of Light (Part 25, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-25-constants-conversions/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026r. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026s. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026s. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026t. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026t. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026u. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -367,45 +373,45 @@ Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of
 
 [^5]: (Rashada 2026e).
 
-[^6]: (Rashada 2026p).
+[^6]: (Rashada 2026q).
 
 [^7]: (Touboul et al. 2022).
 
-[^8]: (Rashada 2026o).
+[^8]: (Rashada 2026p).
 
-[^9]: (Rashada 2026l).
+[^9]: (Rashada 2026m).
 
-[^10]: (Rashada 2026k).
+[^10]: (Rashada 2026l).
 
 [^11]: (Rashada 2026c).
 
-[^12]: (Rashada 2026r).
+[^12]: (Rashada 2026s).
 
-[^13]: (Rashada 2026m).
+[^13]: (Rashada 2026n).
 
-[^14]: (Rashada 2026j).
+[^14]: (Rashada 2026k).
 
-[^15]: (Rashada 2026t).
+[^15]: (Rashada 2026u).
 
 [^16]: (Everitt et al. 2011).
 
 [^17]: (Abbott et al. 2017).
 
-[^18]: (Rashada 2026q).
+[^18]: (Rashada 2026r).
 
 [^19]: (McGaugh, Lelli, and Schombert 2016).
 
-[^20]: (Rashada 2026n).
+[^20]: (Rashada 2026o).
 
-[^21]: (Rashada 2026s).
+[^21]: (Rashada 2026t).
 
 [^22]: (Rashada 2026a).
 
 [^23]: (Rashada 2026f).
 
-[^24]: (Rashada 2026h).
+[^24]: (Rashada 2026i).
 
-[^25]: (Rashada 2026i).
+[^25]: (Rashada 2026j).
 
 [^26]: (Painlevé 1921).
 
