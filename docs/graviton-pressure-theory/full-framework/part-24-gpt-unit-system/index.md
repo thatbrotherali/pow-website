@@ -83,14 +83,14 @@ Table 24.2 applies the conversions from a GPS satellite to the horizon of a bla
 
 <div id="tab:worked">
 
-| **Place**                             | **Inflow $v$** | **$\Delta P/P_0$**  | **Clock slowing**               | **$g$ (m/s$^2$)**  | **Measured check**                                            |
-|:--------------------------------------|:---------------|:--------------------|:--------------------------------|:-------------------|:--------------------------------------------------------------|
-| GPS orbit, 26,560 km                  | 5.48 km/s      | $3.3\times10^{-10}$ | $1.7\times10^{-10}$             | 0.57               | GPS clocks gain 45.7 $\mu$s a day over the ground from height |
-| Earth’s surface                       | 11.2 km/s      | $1.4\times10^{-9}$  | $7.0\times10^{-10}$             | 9.8                | 22.5 m tower: $2.5\times10^{-15}$ (Pound and Rebka)           |
-| Sun’s surface                         | 618 km/s       | $4.2\times10^{-6}$  | $2.1\times10^{-6}$              | 274                | redshift 636 m/s; measured $638\pm6$ m/s                      |
-| White dwarf Sirius B                  | 6,930 km/s     | $5.3\times10^{-4}$  | $2.7\times10^{-4}$              | $4.3\times10^{6}$  | redshift 80.0 km/s; measured $80.4\pm4.8$ km/s                |
-| Neutron star, 1.4 solar masses, 12 km | $0.59c$        | 0.35                | 0.19                            | $1.3\times10^{12}$ | radii of 12–13 km measured (NICER)                            |
-| Black hole horizon, $r=2GM/c^2$       | $c$            | 1                   | clocks stop, seen from far away | —                  | shadow sizes measured (EHT)                                   |
+| **Place**                             | **Inflow $v$** | **$\Delta P/P_0$**  | **Clock slowing**               | **$g$ (m/s$^2$)**  | **Measured check**                                                      |
+|:--------------------------------------|:---------------|:--------------------|:--------------------------------|:-------------------|:------------------------------------------------------------------------|
+| GPS orbit, 26,560 km                  | 5.48 km/s      | $3.3\times10^{-10}$ | $1.7\times10^{-10}$             | 0.57               | GPS clocks gain 45.7 $\mu$s a day over the ground from height           |
+| Earth’s surface                       | 11.2 km/s      | $1.4\times10^{-9}$  | $7.0\times10^{-10}$             | 9.8                | 22.5 m tower: $2.5\times10^{-15}$ (Pound and Rebka)                     |
+| Sun’s surface                         | 618 km/s       | $4.2\times10^{-6}$  | $2.1\times10^{-6}$              | 274                | redshift 636 m/s (633 as received at the Earth); measured $638\pm6$ m/s |
+| White dwarf Sirius B                  | 6,930 km/s     | $5.3\times10^{-4}$  | $2.7\times10^{-4}$              | $4.3\times10^{6}$  | redshift 80.0 km/s; measured $80.65\pm0.77$ km/s                        |
+| Neutron star, 1.4 solar masses, 12 km | $0.59c$        | 0.35                | 0.19                            | $1.3\times10^{12}$ | radii of 12–13 km measured (NICER)                                      |
+| Black hole horizon, $r=2GM/c^2$       | $c$            | 1                   | clocks stop, seen from far away | —                  | shadow sizes measured (EHT)                                             |
 
 Worked values. Inflow, pressure fall and clock slowing from the conversions of Section <a href="#sec:conversions" data-reference-type="ref" data-reference="sec:conversions">3</a>; the checks are measurements.
 
@@ -107,9 +107,9 @@ The checks:
 
 - **Pound and Rebka**, 1960: light sent up a 22.5-metre tower at Harvard arrived shifted by $2.5\times10^{-15}$, within 10%, later 1%.[^7]
 
-- **The Sun**: light from its surface is shifted by 638 $\pm$ 6 metres a second, against 636 expected.[^8]
+- **The Sun**: light from its surface reaches us shifted by 638 $\pm$ 6 metres a second, against 633 expected for light received at the Earth’s distance (636 from the surface to far away).[^8]
 
-- **Sirius B**: the Hubble Space Telescope measured its light shifted by $80.4\pm4.8$ kilometres a second, against 80.0 expected from its mass and radius.[^9]
+- **Sirius B**: the Hubble Space Telescope measured its light shifted by $80.65\pm0.77$ kilometres a second, against 80.0 expected from its mass and radius.[^9]
 
 - **Neutron stars**: X-ray timing from the International Space Station has measured their radii, 12 to 13 kilometres for about 1.4 solar masses.[^10]
 
@@ -219,12 +219,6 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-barstow2005" class="csl-entry">
-
-Barstow, M. A. et al. 2005. “Hubble Space Telescope Spectroscopy of the Balmer Lines in Sirius B.” *Monthly Notices of the Royal Astronomical Society* 362: 1134–42.
-
-</div>
-
 <div id="ref-bipm2019" class="csl-entry">
 
 Bureau International des Poids et Mesures. 2019. *The International System of Units (SI)*. Ninth. Sèvres: BIPM.
@@ -258,6 +252,12 @@ Gladman, Brett et al. 1996. “Synchronous Locking of Tidally Evolving Satellite
 <div id="ref-gonzalez2020" class="csl-entry">
 
 González Hernández, J. I. et al. 2020. “The Solar Gravitational Redshift from HARPS-LFC Moon Spectra.” *Astronomy & Astrophysics* 643: A146.
+
+</div>
+
+<div id="ref-joyce2018" class="csl-entry">
+
+Joyce, S. R. G. et al. 2018. “The gravitational redshift of Sirius B.” *Monthly Notices of the Royal Astronomical Society* 481: 2361–70.
 
 </div>
 
@@ -369,7 +369,7 @@ Rothleitner, C., and S. Schlamminger. 2017. “Measurements of the Newtonian Con
 
 [^8]: (González Hernández et al. 2020).
 
-[^9]: (Barstow et al. 2005).
+[^9]: (Joyce et al. 2018).
 
 [^10]: (Riley et al. 2019).
 
