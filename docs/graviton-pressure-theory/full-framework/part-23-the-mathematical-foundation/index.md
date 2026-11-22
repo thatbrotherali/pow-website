@@ -441,45 +441,45 @@ Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical
 
 </div>
 
-<div id="ref-rashadaPart29" class="csl-entry">
+<div id="ref-rashadaPart20" class="csl-entry">
 
-Rashada, Shareef Ali. 2025. “Experimental Divergence (Part 29, first edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
 
 </div>
 
-<div id="ref-rashadaPart20" class="csl-entry">
+<div id="ref-rashadaPart29" class="csl-entry">
 
-———. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+———. 2026b. “Experimental Divergence: Where the Accounts Part Ways, and How to Tell Them Apart (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 
 <div id="ref-rashadaPart14" class="csl-entry">
 
-———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+———. 2026c. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026c. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026d. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart11" class="csl-entry">
 
-———. 2026d. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026e. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026e. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026f. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026f. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026g. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
 </div>
 
@@ -519,13 +519,13 @@ Will, Clifford M. 2014. “The Confrontation between General Relativity and Expe
 
 [^2]: (Barceló, Liberati, and Visser 2011).
 
-[^3]: (Rashada 2026e, 2026d).
+[^3]: (Rashada 2026f, 2026e).
 
 [^4]: (Touboul et al. 2022).
 
-[^5]: (Rashada 2026b).
+[^5]: (Rashada 2026c).
 
-[^6]: (Rashada 2026f).
+[^6]: (Rashada 2026g).
 
 [^7]: (Pound and Rebka 1960).
 
@@ -569,7 +569,7 @@ Will, Clifford M. 2014. “The Confrontation between General Relativity and Expe
 
 [^27]: (Rashada 2026a).
 
-[^28]: (Rashada 2026c).
+[^28]: (Rashada 2026d).
 
 [^29]: (McGaugh, Lelli, and Schombert 2016).
 
@@ -577,7 +577,7 @@ Will, Clifford M. 2014. “The Confrontation between General Relativity and Expe
 
 [^31]: (Banik et al. 2024).
 
-[^32]: (Rashada 2025).
+[^32]: (Rashada 2026b).
 
 ---
 Source: https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/

@@ -32,7 +32,7 @@ Six things flow through a body, and every one of them is carried by patterns of 
 
 **\[End of passage\]**
 
-The total of the first is fixed; its distribution may not be. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its composition or structure, as tested to one part in $10^{15}$ (Part 15). So no arrangement of matter changes how much it weighs, beyond the energy it holds. Where inside the body the delivery lands is untested, and it is the open question this paper ends on (Section <a href="#sec:through" data-reference-type="ref" data-reference="sec:through">8</a>). For the other five flows the paths are measured, and in every case they are set by order.
+The total of the first is fixed; its distribution may not be. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its composition or structure, and every body falls alike, as tested to one part in $10^{15}$ (Part 15). Where inside the body the delivery lands is untested, and so is whether, when the body is held, all of it reaches the support (Part 15). These are the open questions this paper ends on (Section <a href="#sec:through" data-reference-type="ref" data-reference="sec:through">8</a>). For the other five flows the paths are measured, and in every case they are set by order.
 
 # What a Corridor Is
 
@@ -150,9 +150,9 @@ Every flow in this paper whose paths are measured, load, heat, charge, waves and
 
 **\[End of passage\]**
 
-This is the core of the corridor, with the constraint that measurement places on it. It predicts nothing for weight, and everything it predicts is inside:
+This is the core of the corridor, with the constraint that measurement places on it. It predicts nothing for a falling body, and everything it predicts is inside, or in what a held body passes to its support:
 
-- **Same substance, two orders.** Crystalline quartz and fused silica of equal mass weigh the same, to the limit of the best balances; GPT predicts no difference in the total. Whether their centres of gravity sit exactly at their centres of mass is untested.
+- **Same substance, two orders.** Whether a held body’s weight depends on its order, beyond the energy the order holds, is untested; weighing one sample through a change of order, such as gallium melting, tests it (Parts 20 and 29). Whether the centres of gravity of crystalline quartz and fused silica sit exactly at their centres of mass is untested too.
 
 - **One crystal, turned.** A single crystal on a torsion balance, turned through its orientations, would show any shift of its centre of gravity along its axes as a twist that follows the orientation. This test is shared with Part 29.[^28]
 
@@ -174,7 +174,7 @@ A null result in all of these would mean the through-flow is spread by structure
 
 # Conclusion
 
-Things flow through matter: the medium itself, the load a body passes to its support, heat, charge, waves and the alignment of spins. Every one is carried by patterns of the medium, and every one whose paths can be measured passes most freely where the patterns are regular, aligned and in step, and is scattered where they are not. A corridor is a line of patterns held in step and re-made on every turn. The normal force is delivered momentum passed through bonds, along paths that structure sets; heat is knocks passed in step; charge passes freely through an arrangement it meets in step; a lattice redirects a wave only where its spacing matches; a crystal yields one row at a time; and spin, the axis of a knot’s circulation, directs the flow of charge and heat, and may relay the medium itself with a timing set by spacing. The total weight of a body is fixed by its energy. Whether the medium inside it follows the corridors that every other flow follows is the question this paper leaves open, and the tests that would answer it.
+Things flow through matter: the medium itself, the load a body passes to its support, heat, charge, waves and the alignment of spins. Every one is carried by patterns of the medium, and every one whose paths can be measured passes most freely where the patterns are regular, aligned and in step, and is scattered where they are not. A corridor is a line of patterns held in step and re-made on every turn. The normal force is delivered momentum passed through bonds, along paths that structure sets; heat is knocks passed in step; charge passes freely through an arrangement it meets in step; a lattice redirects a wave only where its spacing matches; a crystal yields one row at a time; and spin, the axis of a knot’s circulation, directs the flow of charge and heat, and may relay the medium itself with a timing set by spacing. The total delivery to a body is fixed by its energy, and every body falls alike. Whether a held body passes all of it to its support, and whether the medium inside it follows the corridors that every other flow follows, are the questions this paper leaves open, with the tests that would answer them.
 
 # Changes in the Second Edition
 
@@ -192,7 +192,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 - Spin is given its own section: the axis and sense of a knot’s circulation, shaping exclusion, bonds and magnets, and measured to direct the flow of charge (giant magnetoresistance) and heat (spin waves). The first edition’s spin-directed corridors and their timing are restated as a relay through the turnover, with spacing (Bethe–Slater, Heusler alloys) as its measured control and its timing condition open.
 
-- Corridors changing weight, inertia or the “gravitational experience” of a body are withdrawn: total weight is fixed by energy, whatever the structure, to one part in $10^{15}$. The through-flow is restated as possibly directed inside a body, with tests.
+- Corridors changing weight, inertia or the “gravitational experience” of a body are withdrawn: the total delivery is fixed by energy, whatever the structure, and every body falls alike to one part in $10^{15}$; whether a held body’s weight depends on structure is open (Part 15) and tested in Part 29. The through-flow is restated as possibly directed inside a body, with tests.
 
 - The scale of “$10^{-15}$ m” for corridor wavelengths, the size of a nucleus, is replaced by the scales that matter: the spacing of atoms and the length of the electron’s rhythm.
 
@@ -302,63 +302,63 @@ Matthiessen, A., and C. Vogt. 1864. “On the Influence of Temperature on the El
 
 </div>
 
-<div id="ref-rashadaPart29" class="csl-entry">
+<div id="ref-rashadaPart20" class="csl-entry">
 
-Rashada, Shareef Ali. 2025. “Experimental Divergence (Part 29, first edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
 
 </div>
 
-<div id="ref-rashadaPart20" class="csl-entry">
+<div id="ref-rashadaPart29" class="csl-entry">
 
-———. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+———. 2026b. “Experimental Divergence: Where the Accounts Part Ways, and How to Tell Them Apart (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 
 <div id="ref-rashadaPart14" class="csl-entry">
 
-———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+———. 2026c. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026c. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026d. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026d. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026e. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026e. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026f. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026f. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026g. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026g. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026h. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026h. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026i. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026i. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026j. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -394,23 +394,23 @@ Yablonovitch, Eli. 1987. “Inhibited Spontaneous Emission in Solid-State Physic
 
 </div>
 
-[^1]: (Rashada 2026h).
+[^1]: (Rashada 2026i).
 
 [^2]: (Rashada 2026a).
 
-[^3]: (Rashada 2026c).
+[^3]: (Rashada 2026d).
 
-[^4]: (Rashada 2026i).
+[^4]: (Rashada 2026j).
 
-[^5]: (Rashada 2026e).
+[^5]: (Rashada 2026f).
 
-[^6]: (Rashada 2026g).
+[^6]: (Rashada 2026h).
 
-[^7]: (Rashada 2026d).
+[^7]: (Rashada 2026e).
 
-[^8]: (Rashada 2026b).
+[^8]: (Rashada 2026c).
 
-[^9]: (Rashada 2026f).
+[^9]: (Rashada 2026g).
 
 [^10]: (Cross and Wheatland 2012).
 
@@ -448,7 +448,7 @@ Yablonovitch, Eli. 1987. “Inhibited Spontaneous Emission in Solid-State Physic
 
 [^27]: (Heusler 1903).
 
-[^28]: (Rashada 2025).
+[^28]: (Rashada 2026b).
 
 [^29]: (Eckhardt 1990).
 

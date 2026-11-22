@@ -179,7 +179,7 @@ The standard account describes this without a mechanism. It finds that near a cr
 
 # What Order Does Not Do
 
-A change of order changes a body’s weight only by the energy it takes in or gives out. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its structure (Part 15). Freezing a kilogram of water lowers its mass by $3.7\times10^{-12}$ of itself; melting a kilogram of iron raises it by $2.8\times10^{-12}$. Nothing else in the total is predicted to change. What may change is where inside the body the delivery lands: **\[Hypothesis\]** an ordered body may receive it differently along its planes than a disordered one, so that its centre of gravity shifts slightly from its centre of mass. Whether it does is untested, and the tests are below.
+A change of order changes a body’s mass only by the energy it takes in or gives out. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its structure (Part 15), and a falling body is carried alike whatever its order. Freezing a kilogram of water lowers its mass by $3.7\times10^{-12}$ of itself; melting a kilogram of iron raises it by $2.8\times10^{-12}$. Nothing else in the total delivery is predicted to change. What may change is where inside the body the delivery lands: **\[Hypothesis\]** an ordered body may receive it differently along its planes than a disordered one, so that its centre of gravity shifts slightly from its centre of mass; and when the body is held, the share of the delivery that reaches the support may depend on its order (Part 15). Whether either happens is untested, and the tests are below and in Part 29.
 
 # Tests
 
@@ -359,55 +359,55 @@ Pelissetto, Andrea, and Ettore Vicari. 2002. “Critical Phenomena and Renormali
 
 <div id="ref-rashadaPart29" class="csl-entry">
 
-Rashada, Shareef Ali. 2025. “Experimental Divergence (Part 29, first edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+Rashada, Shareef Ali. 2026a. “Experimental Divergence: Where the Accounts Part Ways, and How to Tell Them Apart (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 
 <div id="ref-rashadaPart21" class="csl-entry">
 
-———. 2026a. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
+———. 2026b. “Graviton Corridors: How Structure Directs Medium Flow Inside Matter (Part 21, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-21-graviton-corridors-and-lattice-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026b. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026c. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
 
 </div>
 
 <div id="ref-rashadaPart22" class="csl-entry">
 
-———. 2026c. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
+———. 2026d. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026d. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026e. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026e. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026f. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026f. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026g. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026g. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026h. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026h. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026i. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -425,15 +425,15 @@ Vine, F. J., and D. H. Matthews. 1963. “Magnetic Anomalies over Oceanic Ridges
 
 </div>
 
-[^1]: (Rashada 2026g).
+[^1]: (Rashada 2026h).
 
-[^2]: (Rashada 2026f).
+[^2]: (Rashada 2026g).
 
-[^3]: (Rashada 2026b).
+[^3]: (Rashada 2026c).
 
-[^4]: (Rashada 2026h).
+[^4]: (Rashada 2026i).
 
-[^5]: (Rashada 2026d).
+[^5]: (Rashada 2026e).
 
 [^6]: (Bazavov et al. 2019).
 
@@ -445,13 +445,13 @@ Vine, F. J., and D. H. Matthews. 1963. “Magnetic Anomalies over Oceanic Ridges
 
 [^10]: (Buffat and Borel 1976).
 
-[^11]: (Rashada 2026a).
+[^11]: (Rashada 2026b).
 
 [^12]: (Koop et al. 2000).
 
 [^13]: (Vine and Matthews 1963).
 
-[^14]: (Rashada 2026e).
+[^14]: (Rashada 2026f).
 
 [^15]: (Edgeworth, Dalton, and Parnell 1984).
 
@@ -461,7 +461,7 @@ Vine, F. J., and D. H. Matthews. 1963. “Magnetic Anomalies over Oceanic Ridges
 
 [^18]: (Heckel et al. 2008).
 
-[^19]: (Rashada 2026c).
+[^19]: (Rashada 2026d).
 
 [^20]: (Kapitza 1938).
 
@@ -477,6 +477,6 @@ Vine, F. J., and D. H. Matthews. 1963. “Magnetic Anomalies over Oceanic Ridges
 
 [^26]: (Pelissetto and Vicari 2002).
 
-[^27]: (Rashada 2025).
+[^27]: (Rashada 2026a).
 
 [^28]: (Calloni et al. 2016).
