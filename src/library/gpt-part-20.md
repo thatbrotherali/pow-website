@@ -8,9 +8,9 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. Such paths are *graviton corridors*, and the central question is how structure directs flow. Much of the answer is measured. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
+Part 19 built matter from knots of the medium, and Part 20 described its order: levels of order, each held by patterns locked in step through the medium, and each lost when knocks outpace the locking.[^1][^2] This paper goes inside. Things flow through matter all the time: the medium itself, the weight a body passes to whatever holds it up, heat, electric charge, waves, and the alignment of spins. Each flow follows paths, and the paths are set by structure. Such paths are *graviton corridors*, and the central question is how structure directs flow. Much of the answer is measured. Every one of these flows is the medium in motion, either the medium itself or patterns of it. This paper sets out what flows, what carries each flow, what directs it, and what is still open.
 
-This is the second edition; the list at the end says what changed from the first and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
+This is the second edition; the list at the end says what changed from the first and why. The graviton is in Part 15, the field in Part 16, mass in Part 17 and time in Part 18.[^3][^4][^5][^6] Claims are marked by their status, as the key shows.
 
 # What Flows Inside Matter
 
@@ -28,11 +28,11 @@ Six things flow through a body, and every one of them is carried by patterns of 
 
 5.  **Waves.** Light, X-rays, and the patterns of moving particles, travelling through the lattice and re-emitted by it.
 
-6.  **Spin and circulation.** The alignment of knots’ circulations, which can be passed from atom to atom, and their swirls, which add when aligned (Part 22).
+6.  **Spin and circulation.** The alignment of knots’ circulations, which can be passed from atom to atom, and their swirls, which add when aligned (Part 22).[^7]
 
 **\[End of passage\]**
 
-The total of the first is fixed; its distribution may not be. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its composition or structure, as tested to one part in $10^{15}$ (Part 15). So no arrangement of matter changes how much it weighs, beyond the energy it holds. Where inside the body the delivery lands is untested, and it is the open question this paper ends on (Section <a href="#sec:through" data-reference-type="ref" data-reference="sec:through">“The Through-Flow”</a>). For the other five flows the paths are measured, and in every case they are set by order.
+The total of the first is fixed; its distribution may not be. **\[Argued\]** The total delivery of the medium to a body tracks its energy, whatever its composition or structure, as tested to one part in $10^{15}$ (Part 15). So no arrangement of matter changes how much it weighs, beyond the energy it holds. Where inside the body the delivery lands is untested, and it is the open question this paper ends on (Section <a href="#sec:through" data-reference-type="ref" data-reference="sec:through">8</a>). For the other five flows the paths are measured, and in every case they are set by order.
 
 # What a Corridor Is
 
@@ -40,7 +40,7 @@ A corridor requires three things: *temporal synchronisation*, oscillations in st
 
 **\[Hypothesis: the passage that follows\]**
 
-**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The refresh is the turnover, and a corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
+**A corridor is a line of patterns held in step, re-made on every turn.** Every knot takes a fixed share of the medium on each turn of its circulation and releases it (the turnover, Part 17). A pattern locked in step with its neighbours meets what they pass on at the same point in its rhythm, every turn. Where the patterns along a line are regular and in step, whatever is passed along that line arrives in step at each one and is passed on; where one is out of step, what arrives no longer matches and is scattered. The refresh is the turnover, and a corridor is not a pipe but a line of patterns renewing the same relation turn after turn.
 
 **\[End of passage\]**
 
@@ -50,7 +50,7 @@ What breaks a corridor is what scatters flow in matter: **\[Argued\]** heat, whe
 
 **\[Hypothesis: the passage that follows\]**
 
-A book on a table receives its weight in every particle: the medium delivers momentum to each in proportion to its mass (Part 14). The book does not fall through the table because that momentum is passed on. Each layer of atoms presses on the layer below; the bonds between them shorten very slightly, until the push they give back balances what is being passed through them; at the surface, the patterns of the book’s atoms and the table’s meet and push each other apart (exclusion, Part 19). The table passes the load on in the same way to the floor, and the floor to the Earth. **The normal force is delivered momentum passed through the bonds of a structure.** Each bond is kept up by exchanges through the medium (Part 23), so the medium is what carries the load from atom to atom.
+A book on a table receives its weight in every particle: the medium delivers momentum to each in proportion to its mass (Part 14).[^8] The book does not fall through the table because that momentum is passed on. Each layer of atoms presses on the layer below; the bonds between them shorten very slightly, until the push they give back balances what is being passed through them; at the surface, the patterns of the book’s atoms and the table’s meet and push each other apart (exclusion, Part 19). The table passes the load on in the same way to the floor, and the floor to the Earth. **The normal force is delivered momentum passed through the bonds of a structure.** Each bond is kept up by exchanges through the medium (Part 23),[^9] so the medium is what carries the load from atom to atom.
 
 **\[End of passage\]**
 
@@ -58,11 +58,11 @@ Every part of this is measured.
 
 - **The bonds shorten.** A table compresses under a book by a few nanometres; a steel column under a building, by millimetres. The shortening is proportional to the load, Hooke’s law, and its constant is the stiffness of the bonds.
 
-- **The load takes time to pass.** Stress travels through a material at its speed of sound, about 5,900 metres a second in steel, not instantly. A Slinky held from its top and released shows it plainly: its bottom stays where it was, hanging in mid-air, until the change in tension travelling down the spring reaches it.[^7] In GPT the delay is the inertia of each pattern: the medium’s exchanges cross each bond at $c$, but each atom’s pattern must be moved before it presses on the next. **\[Hypothesis\]**
+- **The load takes time to pass.** Stress travels through a material at its speed of sound, about 5,900 metres a second in steel, not instantly. A Slinky held from its top and released shows it plainly: its bottom stays where it was, hanging in mid-air, until the change in tension travelling down the spring reaches it.[^10] In GPT the delay is the inertia of each pattern: the medium’s exchanges cross each bond at $c$, but each atom’s pattern must be moved before it presses on the next. **\[Hypothesis\]**
 
-- **The load follows paths set by structure.** Pile discs of a material that changes how it passes light under stress, light them from behind through polarising filters, and the weight is seen running through the pile along branching chains, while many discs carry almost nothing.[^8] In a tall silo the grain turns much of its weight sideways into the walls, so that the pressure at the bottom stops growing however high the grain is piled (Janssen, 1895).[^9]
+- **The load follows paths set by structure.** Pile discs of a material that changes how it passes light under stress, light them from behind through polarising filters, and the weight is seen running through the pile along branching chains, while many discs carry almost nothing.[^11] In a tall silo the grain turns much of its weight sideways into the walls, so that the pressure at the bottom stops growing however high the grain is piled (Janssen, 1895).[^12]
 
-- **The surfaces touch at points.** Two flat metal surfaces pressed together touch over a very small fraction of the area they seem to share, as little as a ten-thousandth under light loads; the whole load passes through the tips of their roughness.[^10]
+- **The surfaces touch at points.** Two flat metal surfaces pressed together touch over a very small fraction of the area they seem to share, as little as a ten-thousandth under light loads; the whole load passes through the tips of their roughness.[^13]
 
 These are corridors of load, measured. **\[Argued\]** Structure channels the load a body passes on, and the force chains are its plainest picture. They show that how a load is passed depends on the arrangement, not on the substance: identical discs carry it along a few paths or many, depending only on how they are packed.
 
@@ -73,7 +73,7 @@ These are corridors of load, measured. **\[Argued\]** Structure channels the loa
 <figcaption>How well materials carry heat, from ordered crystals to disordered glasses and plastics. Crystalline quartz and fused silica are the same substance, silicon dioxide, differing only in order. In metals such as copper most of the heat is carried by the electrons; in the others, by the lattice itself.</figcaption>
 </figure>
 
-Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig:heat" data-reference-type="ref" data-reference="fig:heat">1</a>). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it.
+Order decides how well matter carries heat **\[Argued\]** (Figure 21.1). Diamond carries heat about two thousand times better than glass. Crystalline quartz carries it six to ten times better than fused silica, which is the same substance with its order removed, and better along its axis than across it.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -81,7 +81,7 @@ Order decides how well matter carries heat **\[Argued\]** (Figure <a href="#fig
 
 **\[End of passage\]**
 
-Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^11] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. What breaks a corridor, heat, stress and disorder, is what Matthiessen’s rule measures.
+Order decides how well matter carries charge. **\[Argued\]** In a perfect crystal at low temperature, electrons travel enormous distances without being scattered. The resistance of a metal has two measured parts, as Matthiessen found in 1864: one from impurities and defects, which stays at the lowest temperatures, and one from the vibration of the lattice, which grows with temperature.[^14] Very pure copper at 4 kelvin conducts thousands of times better than at room temperature; bent or hammered copper conducts a few per cent worse than annealed copper, because deformation adds defects. What breaks a corridor, heat, stress and disorder, is what Matthiessen’s rule measures.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -89,20 +89,21 @@ Order decides how well matter carries charge. **\[Argued\]** In a perfect crysta
 
 **\[End of passage\]**
 
-Heat and charge in a metal follow the same paths. **\[Argued\]** Wiedemann and Franz found in 1853 that for metals the ratio of how well they carry heat to how well they carry charge is the same, rising in proportion to temperature.[^12] In metals the same electron patterns carry both, along the same lines of order.
+Heat and charge in a metal follow the same paths. **\[Argued\]** Wiedemann and Franz found in 1853 that for metals the ratio of how well they carry heat to how well they carry charge is the same, rising in proportion to temperature.[^15] In metals the same electron patterns carry both, along the same lines of order.
 
 # Lattices and Waves
 
 A lattice redirects a wave only when its spacing matches the wave. **\[Argued\]** X-rays striking a crystal are reflected only at angles where the spacing $d$ of its planes and the wavelength $\lambda$ satisfy $$2d\sin\theta = n\lambda,
-\label{eq:bragg}$$ for a whole number $n$ (W. L. Bragg, 1913).[^13] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^14] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. Wavelength match as a condition of resonance is this rule.
 
-Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^15] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. Lattice resonance, with its filtering, focusing and redirection, is measured for light and sound. It does not exist for the medium’s total delivery to a body, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">“What Flows Inside Matter”</a>).
+\tag{1}$$ for a whole number $n$ (W. L. Bragg, 1913).[^16] Electrons and neutrons are reflected by the same rule; electrons striking a nickel crystal were found to do so in 1927, which showed that a moving particle has a wavelength.[^17] In GPT the rule is spatial phase **\[Hypothesis\]** (Part 19): each plane of patterns re-emits what reaches it, and the re-emissions from successive planes add only where they arrive in step. The electron’s diffraction is its guiding pattern meeting the lattice. Wavelength match as a condition of resonance is this rule.
 
-Particles fired along a crystal’s planes travel far deeper than particles fired at random angles. **\[Argued\]** The effect, called channelling, was predicted and measured in 1963.[^16] A charged particle entering between two planes of atoms is steered back toward the middle each time it approaches one, and travels down the open lane. These are corridors in the most literal sense: open lanes through a lattice along which a flow passes with little loss, and which close when the crystal is tilted away from them.
+Structured lattices filter and steer waves. **\[Argued\]** A lattice built at the scale of a wave’s length can forbid a whole band of wavelengths from travelling through it, while passing others; for light these are photonic crystals, first proposed in 1987,[^18] and the colours of opals and of some butterflies’ wings come from natural ones. Built lattices of the same kind block or steer sound. Lattice resonance, with its filtering, focusing and redirection, is measured for light and sound. It does not exist for the medium’s total delivery to a body, which no structure changes (Section <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">1</a>).
+
+Particles fired along a crystal’s planes travel far deeper than particles fired at random angles. **\[Argued\]** The effect, called channelling, was predicted and measured in 1963.[^19] A charged particle entering between two planes of atoms is steered back toward the middle each time it approaches one, and travels down the open lane. These are corridors in the most literal sense: open lanes through a lattice along which a flow passes with little loss, and which close when the crystal is tilted away from them.
 
 # Stress and Deformation
 
-A crystal yields one row at a time. **\[Argued\]** A perfect crystal sheared as a whole would need forces thousands of times larger than real metals need. In 1934 Taylor, Orowan and Polanyi independently proposed why: a crystal contains lines along which the arrangement is out of step, called dislocations, and it deforms by moving these lines, re-locking one row of atoms at a time.[^17] Dislocations were seen directly in 1956.[^18] Crystals grown nearly free of them, thin whiskers, approach the strength of the perfect lattice.[^19]
+A crystal yields one row at a time. **\[Argued\]** A perfect crystal sheared as a whole would need forces thousands of times larger than real metals need. In 1934 Taylor, Orowan and Polanyi independently proposed why: a crystal contains lines along which the arrangement is out of step, called dislocations, and it deforms by moving these lines, re-locking one row of atoms at a time.[^20] Dislocations were seen directly in 1956.[^21] Crystals grown nearly free of them, thin whiskers, approach the strength of the perfect lattice.[^22]
 
 In GPT a dislocation is a line where the common phase of the lattice is broken, **\[Hypothesis\]** and its movement is the lock passing from row to row. Stress births timing flaws, in measured form. Hammering a metal multiplies its dislocations; they tangle and pin one another, so the metal becomes harder; and they scatter both heat and charge, so it carries both a little worse. Heating it lets the arrangement re-lock, annealing, and its softness and conductivity return. Grain boundaries, where crystals of different orientation meet, scatter in the same way, which is why a single crystal carries heat and charge better than the same metal made of many small grains.
 
@@ -123,9 +124,9 @@ Spin is real rotation, exchanged with the body that holds it: **\[Argued\]** mag
 <figcaption>Spin directs the flow of charge. Layers of iron a few atoms thick, separated by chromium, carry a current more easily when the spins of neighbouring iron layers are aligned than when they are opposed.</figcaption>
 </figure>
 
-Spin alignment directs the flow of charge. **\[Argued\]** In 1988 Albert Fert’s group, and independently Peter Grünberg’s in 1989, built stacks of iron layers a few atoms thick separated by chromium, in which neighbouring iron layers naturally point their spins in opposite directions. A magnetic field that turned the layers into alignment lowered the stack’s electrical resistance by up to half at 4.2 kelvin (Figure <a href="#fig:gmr" data-reference-type="ref" data-reference="fig:gmr">2</a>).[^20][^21] Electrons of one spin pass a layer more easily than those of the other, according to the layer’s alignment: with the layers aligned, one kind of electron passes all of them; with them opposed, every electron is scattered in one layer or the other. The standard account describes this by counting the states each spin finds open in each layer, which is a count, not a mechanism. In GPT it is the relay described below: a pattern whose circulation suits the layer’s alignment meets each atom in step, and one whose circulation does not is scattered. **\[Hypothesis\]** The effect, giant magnetoresistance, is how the read heads of hard drives detected their data for two decades. The alignment of spins is a structure that directs flow, and it is measured. **\[Argued\]**
+Spin alignment directs the flow of charge. **\[Argued\]** In 1988 Albert Fert’s group, and independently Peter Grünberg’s in 1989, built stacks of iron layers a few atoms thick separated by chromium, in which neighbouring iron layers naturally point their spins in opposite directions. A magnetic field that turned the layers into alignment lowered the stack’s electrical resistance by up to half at 4.2 kelvin (Figure 21.2).[^23][^24] Electrons of one spin pass a layer more easily than those of the other, according to the layer’s alignment: with the layers aligned, one kind of electron passes all of them; with them opposed, every electron is scattered in one layer or the other. The standard account describes this by counting the states each spin finds open in each layer, which is a count, not a mechanism. In GPT it is the relay described below: a pattern whose circulation suits the layer’s alignment meets each atom in step, and one whose circulation does not is scattered. **\[Hypothesis\]** The effect, giant magnetoresistance, is how the read heads of hard drives detected their data for two decades. The alignment of spins is a structure that directs flow, and it is measured. **\[Argued\]**
 
-Spin alignment directs the flow of heat. **\[Argued\]** A disturbance of the alignment in a magnet travels through it as a wave, a spin wave, and spin waves carry heat and can be driven by it: a temperature difference across a magnet drives a flow of spin alignment along it.[^22]
+Spin alignment directs the flow of heat. **\[Argued\]** A disturbance of the alignment in a magnet travels through it as a wave, a spin wave, and spin waves carry heat and can be driven by it: a temperature difference across a magnet drives a flow of spin alignment along it.[^25]
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -139,7 +140,7 @@ Spin alignment directs the flow of heat. **\[Argued\]** A disturbance of the ali
 
 **\[End of passage\]**
 
-What sets whether neighbouring spins lock in step is spacing. **\[Argued\]** The measured rule, summarised in the Bethe–Slater curve, is that whether neighbouring atoms’ spins align or oppose depends on the distance between the atoms compared with the size of their partly filled electron shells: iron, cobalt and nickel fall on the aligning side, manganese and chromium on the opposing side.[^23] Change the spacing and the lock changes: Heusler found in 1903 that an alloy of copper, manganese and aluminium is strongly magnetic, though none of the three is magnetic alone; in the alloy the manganese atoms sit farther apart.[^24] Whether the spacing sets the relay’s timing is open. **\[Open\]** In one turn of the electron’s rhythm the medium travels $h/m_ec = 2.4\times10^{-12}$ metres; iron’s neighbours are about a hundred of those apart. If the relay needs one knot’s output to arrive in step at the next, the spacing measured in turns may be what the Bethe–Slater curve records.
+What sets whether neighbouring spins lock in step is spacing. **\[Argued\]** The measured rule, summarised in the Bethe–Slater curve, is that whether neighbouring atoms’ spins align or oppose depends on the distance between the atoms compared with the size of their partly filled electron shells: iron, cobalt and nickel fall on the aligning side, manganese and chromium on the opposing side.[^26] Change the spacing and the lock changes: Heusler found in 1903 that an alloy of copper, manganese and aluminium is strongly magnetic, though none of the three is magnetic alone; in the alloy the manganese atoms sit farther apart.[^27] Whether the spacing sets the relay’s timing is open. **\[Open\]** In one turn of the electron’s rhythm the medium travels $h/m_ec = 2.4\times10^{-12}$ metres; iron’s neighbours are about a hundred of those apart. If the relay needs one knot’s output to arrive in step at the next, the spacing measured in turns may be what the Bethe–Slater curve records.
 
 # The Through-Flow
 
@@ -153,7 +154,7 @@ This is the core of the corridor, with the constraint that measurement places on
 
 - **Same substance, two orders.** Crystalline quartz and fused silica of equal mass weigh the same, to the limit of the best balances; GPT predicts no difference in the total. Whether their centres of gravity sit exactly at their centres of mass is untested.
 
-- **One crystal, turned.** A single crystal on a torsion balance, turned through its orientations, would show any shift of its centre of gravity along its axes as a twist that follows the orientation. This test is shared with Part 29.[^25]
+- **One crystal, turned.** A single crystal on a torsion balance, turned through its orientations, would show any shift of its centre of gravity along its axes as a twist that follows the orientation. This test is shared with Part 29.[^28]
 
 - **One crystal, aligned and not.** The same test on a magnetic crystal above and below its Curie point asks whether the relay of spin directs the delivery.
 
@@ -195,7 +196,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 - The scale of “$10^{-15}$ m” for corridor wavelengths, the size of a nucleus, is replaced by the scales that matter: the spacing of atoms and the length of the electron’s rhythm.
 
-- Removed, as too far from the core: the applications of tunable lattices (field gates, inertial control surfaces, programmable matter); biological systems as graviton-responsive structure; graviton shielding as engineering (gravitational absorption by matter is bounded at about $10^{-22}$ m$^2$/kg by lunar laser ranging,[^26] and the claimed weight loss above a spinning superconductor was not found on replication[^27]); propulsion by corridor phase cycling; resonance events and the 432 Hz quartz experiment; programmable field devices; field-aware architecture; gravimetric logic and memory; and the Graviton Compatibility Index with its scores.
+- Removed, as too far from the core: the applications of tunable lattices (field gates, inertial control surfaces, programmable matter); biological systems as graviton-responsive structure; graviton shielding as engineering (gravitational absorption by matter is bounded at about $10^{-22}$ m$^2$/kg by lunar laser ranging,[^29] and the claimed weight loss above a spinning superconductor was not found on replication[^30]); propulsion by corridor phase cycling; resonance events and the 432 Hz quartz experiment; programmable field devices; field-aware architecture; gravimetric logic and memory; and the Graviton Compatibility Index with its scores.
 
 ## Clarifications
 
@@ -303,49 +304,67 @@ Matthiessen, A., and C. Vogt. 1864. “On the Influence of Temperature on the El
 
 <div id="ref-rashadaPart29" class="csl-entry">
 
-Rashada, Shareef Ali. 2025. “Experimental Divergence (Part 29, First Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+Rashada, Shareef Ali. 2025. “Experimental Divergence (Part 29, first edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 
 <div id="ref-rashadaPart20" class="csl-entry">
 
-———. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+———. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+
+</div>
+
+<div id="ref-rashadaPart14" class="csl-entry">
+
+———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart15" class="csl-entry">
 
-———. 2026b. “Gravitons (Part 15, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+———. 2026c. “Gravitons (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+
+</div>
+
+<div id="ref-rashadaPart22" class="csl-entry">
+
+———. 2026d. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026c. “The Definition of Mass (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026e. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+
+</div>
+
+<div id="ref-rashadaPart23" class="csl-entry">
+
+———. 2026f. “The Mathematical Foundation: The Equations of the Medium, and What They Reproduce (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026d. “The Nature of Time (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026g. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
 
 </div>
 
 <div id="ref-rashadaPart19" class="csl-entry">
 
-———. 2026e. “The Pathway to Matter (Part 19, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+———. 2026h. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026f. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026i. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
 <div id="ref-robinson1963" class="csl-entry">
 
-Robinson, Mark T., and O. S. Oen. 1963. “Computer Studies of the Slowing down of Energetic Atoms in Crystals.” *Physical Review* 132: 2385–98.
+Robinson, Mark T., and O. S. Oen. 1963. “Computer Studies of the Slowing Down of Energetic Atoms in Crystals.” *Physical Review* 132: 2385–98.
 
 </div>
 
@@ -375,56 +394,62 @@ Yablonovitch, Eli. 1987. “Inhibited Spontaneous Emission in Solid-State Physic
 
 </div>
 
-[^1]: (Rashada 2026e).
+[^1]: (Rashada 2026h).
 
 [^2]: (Rashada 2026a).
 
-[^3]: (Rashada 2026b).
+[^3]: (Rashada 2026c).
 
-[^4]: (Rashada 2026f).
+[^4]: (Rashada 2026i).
 
-[^5]: (Rashada 2026c).
+[^5]: (Rashada 2026e).
 
-[^6]: (Rashada 2026d).
+[^6]: (Rashada 2026g).
 
-[^7]: (Cross and Wheatland 2012).
+[^7]: (Rashada 2026d).
 
-[^8]: (Majmudar and Behringer 2005).
+[^8]: (Rashada 2026b).
 
-[^9]: (Janssen 1895).
+[^9]: (Rashada 2026f).
 
-[^10]: (Bowden and Tabor 1950).
+[^10]: (Cross and Wheatland 2012).
 
-[^11]: (Matthiessen and Vogt 1864).
+[^11]: (Majmudar and Behringer 2005).
 
-[^12]: (Wiedemann and Franz 1853).
+[^12]: (Janssen 1895).
 
-[^13]: (Bragg 1913).
+[^13]: (Bowden and Tabor 1950).
 
-[^14]: (Davisson and Germer 1927).
+[^14]: (Matthiessen and Vogt 1864).
 
-[^15]: (Yablonovitch 1987).
+[^15]: (Wiedemann and Franz 1853).
 
-[^16]: (Robinson and Oen 1963).
+[^16]: (Bragg 1913).
 
-[^17]: (Taylor 1934).
+[^17]: (Davisson and Germer 1927).
 
-[^18]: (Hirsch, Horne, and Whelan 1956).
+[^18]: (Yablonovitch 1987).
 
-[^19]: (Herring and Galt 1952).
+[^19]: (Robinson and Oen 1963).
 
-[^20]: (Baibich et al. 1988).
+[^20]: (Taylor 1934).
 
-[^21]: (Binasch et al. 1989).
+[^21]: (Hirsch, Horne, and Whelan 1956).
 
-[^22]: (Uchida et al. 2008).
+[^22]: (Herring and Galt 1952).
 
-[^23]: (Chikazumi 1997).
+[^23]: (Baibich et al. 1988).
 
-[^24]: (Heusler 1903).
+[^24]: (Binasch et al. 1989).
 
-[^25]: (Rashada 2025).
+[^25]: (Uchida et al. 2008).
 
-[^26]: (Eckhardt 1990).
+[^26]: (Chikazumi 1997).
 
-[^27]: (Hathaway, Cleveland, and Bao 2003).
+[^27]: (Heusler 1903).
+
+[^28]: (Rashada 2025).
+
+[^29]: (Eckhardt 1990).
+
+[^30]: (Hathaway, Cleveland, and Bao 2003).
