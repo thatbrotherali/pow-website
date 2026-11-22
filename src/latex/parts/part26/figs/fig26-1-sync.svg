@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="551.507332pt" height="280.2235pt" viewBox="0 0 551.507332 280.2235" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T06:50:37.127898</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.2235 
+L 551.507332 280.2235 
+L 551.507332 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 125.385813 172.754636 
+C 128.528358 172.754636 131.542615 171.50609 133.764729 169.283975 
+C 135.986844 167.061861 137.23539 164.047604 137.23539 160.90506 
+C 137.23539 157.762515 135.986844 154.748258 133.764729 152.526144 
+C 131.542615 150.304029 128.528358 149.055483 125.385813 149.055483 
+C 122.243269 149.055483 119.229012 150.304029 117.006898 152.526144 
+C 114.784783 154.748258 113.536237 157.762515 113.536237 160.90506 
+C 113.536237 164.047604 114.784783 167.061861 117.006898 169.283975 
+C 119.229012 171.50609 122.243269 172.754636 125.385813 172.754636 
+z
+" clip-path="url(#pb91370ae2e)" style="fill: #cfd8e3; stroke: #cfd8e3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 125.385813 202.378577 
+C 136.384719 202.378577 146.934618 198.008666 154.712019 190.231265 
+C 162.489419 182.453864 166.859331 171.903965 166.859331 160.90506 
+C 166.859331 149.906154 162.489419 139.356255 154.712019 131.578854 
+C 146.934618 123.801454 136.384719 119.431542 125.385813 119.431542 
+C 114.386908 119.431542 103.837009 123.801454 96.059608 131.578854 
+C 88.282207 139.356255 83.912296 149.906154 83.912296 160.90506 
+C 83.912296 171.903965 88.282207 182.453864 96.059608 190.231265 
+C 103.837009 198.008666 114.386908 202.378577 125.385813 202.378577 
+L 125.385813 202.378577 
+z
+" clip-path="url(#pb91370ae2e)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 202.809843 112.380022 
+C 203.988297 112.380022 205.118643 111.911818 205.951936 111.078525 
+C 206.785229 110.245232 207.253434 109.114885 207.253434 107.936431 
+C 207.253434 106.757977 206.785229 105.627631 205.951936 104.794338 
+C 205.118643 103.961045 203.988297 103.49284 202.809843 103.49284 
+C 201.631389 103.49284 200.501042 103.961045 199.667749 104.794338 
+C 198.834456 105.627631 198.366252 106.757977 198.366252 107.936431 
+C 198.366252 109.114885 198.834456 110.245232 199.667749 111.078525 
+C 200.501042 111.911818 201.631389 112.380022 202.809843 112.380022 
+z
+" clip-path="url(#pb91370ae2e)" style="fill: #2a78d6; stroke: #2a78d6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 204.462107 106.806056 
+Q 209.331573 103.474675 212.909185 101.0271 
+" clip-path="url(#pb91370ae2e)" style="fill: none; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 208.92162 101.574209 
+L 212.909185 101.0271 
+L 210.954333 104.545417 
+z
+" clip-path="url(#pb91370ae2e)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 6.8px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="125.385813" y="211.265759" transform="rotate(-0 125.385813 211.265759)">synchronous distance</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(208.734631 91.808979)">Moon</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(208.734631 100.036714)">recedes 3.8 cm/yr</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.4px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="125.385813" y="50.309013" transform="rotate(-0 125.385813 50.309013)">not to scale: Moon at 384,400 km; synchronous at 42,164 km</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="125.385813" y="31.471972" transform="rotate(-0 125.385813 31.471972)">Earth</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 413.288841 178.679424 
+C 418.002658 178.679424 422.524043 176.806605 425.857215 173.473433 
+C 429.190386 170.140262 431.063206 165.618876 431.063206 160.90506 
+C 431.063206 156.191243 429.190386 151.669858 425.857215 148.336686 
+C 422.524043 145.003514 418.002658 143.130695 413.288841 143.130695 
+C 408.575024 143.130695 404.053639 145.003514 400.720467 148.336686 
+C 397.387296 151.669858 395.514476 156.191243 395.514476 160.90506 
+C 395.514476 165.618876 397.387296 170.140262 400.720467 173.473433 
+C 404.053639 176.806605 408.575024 178.679424 413.288841 178.679424 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: #cfd8e3; stroke: #cfd8e3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 413.288841 222.127871 
+C 429.52532 222.127871 445.098981 215.677049 456.579906 204.196125 
+C 468.060831 192.7152 474.511652 177.141539 474.511652 160.90506 
+C 474.511652 144.66858 468.060831 129.094919 456.579906 117.613995 
+C 445.098981 106.13307 429.52532 99.682248 413.288841 99.682248 
+C 397.052362 99.682248 381.478701 106.13307 369.997776 117.613995 
+C 358.516851 129.094919 352.06603 144.66858 352.06603 160.90506 
+C 352.06603 177.141539 358.516851 192.7152 369.997776 204.196125 
+C 381.478701 215.677049 397.052362 222.127871 413.288841 222.127871 
+L 413.288841 222.127871 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 382.70653 137.334817 
+C 383.884984 137.334817 385.01533 136.866612 385.848623 136.033319 
+C 386.681916 135.200026 387.150121 134.06968 387.150121 132.891226 
+C 387.150121 131.712772 386.681916 130.582425 385.848623 129.749132 
+C 385.01533 128.915839 383.884984 128.447635 382.70653 128.447635 
+C 381.528076 128.447635 380.397729 128.915839 379.564437 129.749132 
+C 378.731144 130.582425 378.262939 131.712772 378.262939 132.891226 
+C 378.262939 134.06968 378.731144 135.200026 379.564437 136.033319 
+C 380.397729 136.866612 381.528076 137.334817 382.70653 137.334817 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: #c4620a; stroke: #c4620a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 384.182741 134.243456 
+Q 388.533351 138.228677 391.729758 141.156631 
+" clip-path="url(#p6c58e308e3)" style="fill: none; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 390.290974 137.397655 
+L 391.729758 141.156631 
+L 387.859307 140.052272 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: #c4620a; stroke: #c4620a; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 486.948294 125.108308 
+C 488.126748 125.108308 489.257095 124.640103 490.090387 123.806811 
+C 490.92368 122.973518 491.391885 121.843171 491.391885 120.664717 
+C 491.391885 119.486263 490.92368 118.355917 490.090387 117.522624 
+C 489.257095 116.689331 488.126748 116.221126 486.948294 116.221126 
+C 485.76984 116.221126 484.639493 116.689331 483.806201 117.522624 
+C 482.972908 118.355917 482.504703 119.486263 482.504703 120.664717 
+C 482.504703 121.843171 482.972908 122.973518 483.806201 123.806811 
+C 484.639493 124.640103 485.76984 125.108308 486.948294 125.108308 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: #2a78d6; stroke: #2a78d6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 488.705153 119.704941 
+Q 493.882875 116.876338 497.686963 114.798155 
+" clip-path="url(#p6c58e308e3)" style="fill: none; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 493.6647 114.944439 
+L 497.686963 114.798155 
+L 495.390632 118.103736 
+z
+" clip-path="url(#p6c58e308e3)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.8px; font-family: 'Inter'; text-anchor: middle; fill: #52514e" x="413.288841" y="231.015053" transform="rotate(-0 413.288841 231.015053)">synchronous distance</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(352.508929 116.763774)">Phobos</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(317.277492 124.991508)">spirals in ~2 cm/yr</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(492.873082 104.537265)">Deimos</text>
+    <text style="font-size: 6.8px; font-family: 'Inter'; fill: #0b0b0b" transform="translate(492.873082 112.764999)">drifts out, slowly</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="413.288841" y="50.309013" transform="rotate(-0 413.288841 50.309013)">not to scale: Phobos 9,376 km, Deimos 23,463 km; synchronous 20,428 km</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: middle; fill: #0b0b0b" x="413.288841" y="31.471972" transform="rotate(-0 413.288841 31.471972)">Mars</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 6.8px; font-family: 'Inter'; text-anchor: start; fill: #8a8984" x="11.5" y="12.3475" transform="rotate(-0 11.5 12.3475)">ESTABLISHED (measured drifts). Inside the synchronous distance a moon spirals in; outside, it moves out</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb91370ae2e">
+   <rect x="11.827373" y="37.471972" width="227.116881" height="236.991528"/>
+  </clipPath>
+  <clipPath id="p6c58e308e3">
+   <rect x="299.730401" y="37.471972" width="227.116881" height="236.991528"/>
+  </clipPath>
+ </defs>
+</svg>

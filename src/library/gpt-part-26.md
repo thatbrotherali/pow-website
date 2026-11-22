@@ -10,98 +10,100 @@ By Shareef Ali Rashada
 
 Newton’s laws and General Relativity describe planetary motion to great precision: where a planet will be, how fast its orbit turns, when a moon will lock its face toward its planet. They do not say what carries the motion or what holds it steady. This paper gives GPT’s account. A planet coasts through a medium that is itself flowing inward and accelerating toward the Sun. Its orbit closes because that acceleration weakens as the inverse square of distance, and fails to close by a measured amount because the medium’s pressure is lowered near the Sun. Its spin reaches out into the medium and is reached in return: by the tides that slow it, by the companions that steady its axis, by the resonances that sort whole systems into order over time.
 
-This is the second edition; the list at the end says what changed from the first and why. The field is in Part 16, the equations in Part 23, the numbers in Part 24.[^1][^2][^3] Claims are marked by their status, as the key shows.
+This is the second edition; the list at the end says what changed from the first and why. The field is in Part 16, the equations in Part 23, the numbers in Part 24.[^1][^2][^3] Claims are marked by their status, as the key shows.
 
 # An Orbit Is Coasting
 
 **\[Hypothesis: the passage that follows\]**
 
-The medium flows inward toward the Sun at $v=\sqrt{2GM/r}$, and accelerates as it comes, at $GM/r^2$ (Part 23). A planet in this flow is delivered momentum in every particle, in proportion to its mass, and so shares the medium’s acceleration, whatever it is made of (Part 14). Its motion across the flow is its own: once a body is moving, the motion persists at no cost, a path carved through the medium (Part 11).[^4] **An orbit is a body coasting sideways through a medium that is itself accelerating inward.** The sideways motion carries the planet past the Sun; the inward acceleration turns it; the two together make the closed path.
+The medium flows inward toward the Sun at $v=\sqrt{2GM/r}$, and accelerates as it comes, at $GM/r^2$ (Part 23). A planet in this flow is delivered momentum in every particle, in proportion to its mass, and so shares the medium’s acceleration, whatever it is made of (Part 14).[^4] Its motion across the flow is its own: once a body is moving, the motion persists at no cost, a path carved through the medium (Part 11).[^5] **An orbit is a body coasting sideways through a medium that is itself accelerating inward.** The sideways motion carries the planet past the Sun; the inward acceleration turns it; the two together make the closed path.
 
 **\[End of passage\]**
 
-Bodies small compared with what they orbit move at one speed at one distance, whatever they are made of. **\[Argued\]** Measurement shows it in orbit itself: the MICROSCOPE satellite carried test masses of platinum and titanium around the Earth together, and over many orbits they followed the same path to one part in $10^{15}$;[^5] the Earth and the Moon, one with a large iron core and the other mostly rock, are carried toward the Sun alike by its inflow, to a few parts in $10^{13}$, as lunar laser ranging shows;[^6] ring particles from centimetres to metres across orbit Saturn at one speed at each distance; and thousands of Trojan asteroids share Jupiter’s orbit and period. In GPT this follows from the delivery being proportional to mass: the medium accelerates a pebble and a planet at one distance alike, so they orbit alike. For bodies of comparable mass, both orbit their common centre, each carried by the other’s inflow (Part 7): a planet makes its star wobble, which is how many planets around other stars are found, and the period depends on the sum of the two masses.
+Bodies small compared with what they orbit move at one speed at one distance, whatever they are made of. **\[Argued\]** Measurement shows it in orbit itself: the MICROSCOPE satellite carried test masses of platinum and titanium around the Earth together, and over many orbits they followed the same path to one part in $10^{15}$;[^6] the Earth and the Moon, one with a large iron core and the other mostly rock, are carried toward the Sun alike by its inflow, to a few parts in $10^{13}$, as lunar laser ranging shows;[^7] ring particles from centimetres to metres across orbit Saturn at one speed at each distance; and thousands of Trojan asteroids share Jupiter’s orbit and period. In GPT this follows from the delivery being proportional to mass: the medium accelerates a pebble and a planet at one distance alike, so they orbit alike. For bodies of comparable mass, both orbit their common centre, each carried by the other’s inflow (Part 7): a planet makes its star wobble, which is how many planets around other stars are found, and the period depends on the sum of the two masses.
 
-Nothing is spent to keep a planet moving. **\[Argued\]** No energy input is needed to maintain pathing. A body moving steadily through the medium is not braked (Part 11); the planets have orbited the Sun for four and a half billion years without running down.
+Nothing is spent to keep a planet moving. **\[Argued\]** No energy input is needed to maintain pathing. A body moving steadily through the medium is not braked (Part 11); the planets have orbited the Sun for four and a half billion years without running down.
 
 # Why Orbits Close, and Why They Do Not Quite
 
-The closing of planetary orbits measures the inverse square. **\[Argued\]** In 1873 Joseph Bertrand proved that only two laws of central acceleration make every bound orbit close on itself: acceleration weakening as the inverse square of distance, and acceleration growing in proportion to distance, as on a spring.[^7] Any other law makes the orbit’s closest point creep round from one orbit to the next. So the fact that planetary orbits close, to high precision, measures that the medium’s acceleration weakens as $1/r^2$. Ellipses are pressure harmonics: an ellipse is the shape a coasting body traces through a medium whose acceleration falls as the inverse square.
+The closing of planetary orbits measures the inverse square. **\[Argued\]** In 1873 Joseph Bertrand proved that only two laws of central acceleration make every bound orbit close on itself: acceleration weakening as the inverse square of distance, and acceleration growing in proportion to distance, as on a spring.[^8] Any other law makes the orbit’s closest point creep round from one orbit to the next. So the fact that planetary orbits close, to high precision, measures that the medium’s acceleration weakens as $1/r^2$. Ellipses are pressure harmonics: an ellipse is the shape a coasting body traces through a medium whose acceleration falls as the inverse square.
 
 They do not quite close. **\[Argued\]** Mercury’s closest point to the Sun advances by 43 arcseconds per century more than the pull of the other planets accounts for; the advance has since been measured for Venus, Earth, Mars, the asteroid Icarus, a pair of orbiting neutron stars and a star orbiting the black hole at the centre of the Milky Way, each at the size General Relativity gives.
 
 **\[Hypothesis: the passage that follows\]**
 
 **The advance is the medium’s lowered pressure acting on the planet’s sideways motion.** In the river form of Part 23, the radial motion of an orbit obeys $$\left(\frac{dr}{d\tau}\right)^{2} = E^{2} - \frac{P}{P_0}\left(c^2 + \frac{L^2}{r^2}\right),
-\label{eq:radial}$$ where $L$ is the planet’s sideways motion (its angular momentum per unit mass), $E$ its energy, and $P/P_0 = 1 - 2GM/c^2r$ the medium’s active pressure compared with free space. The first term in the bracket, $(P/P_0)c^2$, is Newton’s gravity: the pressure lowered toward the Sun. The second, $(P/P_0)L^2/r^2$, is the outward hold that the sideways motion gives, which swings the planet back out after each close approach, and it is weakened by the same pressure ratio. Near the Sun the outward hold is weaker than in Newton’s account; the planet dips slightly deeper and swings back slightly later, so its closest point comes a little further round each orbit. All of the advance comes from this one coupling.
+
+\tag{1}$$ where $L$ is the planet’s sideways motion (its angular momentum per unit mass), $E$ its energy, and $P/P_0 = 1 - 2GM/c^2r$ the medium’s active pressure compared with free space. The first term in the bracket, $(P/P_0)c^2$, is Newton’s gravity: the pressure lowered toward the Sun. The second, $(P/P_0)L^2/r^2$, is the outward hold that the sideways motion gives, which swings the planet back out after each close approach, and it is weakened by the same pressure ratio. Near the Sun the outward hold is weaker than in Newton’s account; the planet dips slightly deeper and swings back slightly later, so its closest point comes a little further round each orbit. All of the advance comes from this one coupling.
 
 **\[End of passage\]**
 
 Per orbit, the closest point advances by $3\pi$ times the fraction by which the medium’s active pressure is lowered at the orbit, **\[Argued\]** taken at the semi-latus rectum $a(1-e^2)$: $$\Delta\varphi = 3\pi\,\frac{\Delta P}{P_0} = 3\pi\,\frac{2GM}{c^2a(1-e^2)}.
-\label{eq:precession}$$ At Mercury’s orbit the pressure is lower by 5.3 parts in a hundred million, which gives 43.0 arcseconds per century over its 415 orbits; at Earth’s, by 2.0 parts in a hundred million, which gives 3.8. The precession is a direct reading of how far the medium’s pressure has dropped where the planet orbits. Textbooks divide the advance into contributions from “space”, “time” and velocity; that division depends on the coordinates chosen and is a description. In the medium there is one cause.
+
+\tag{2}$$ At Mercury’s orbit the pressure is lower by 5.3 parts in a hundred million, which gives 43.0 arcseconds per century over its 415 orbits; at Earth’s, by 2.0 parts in a hundred million, which gives 3.8. The precession is a direct reading of how far the medium’s pressure has dropped where the planet orbits. Textbooks divide the advance into contributions from “space”, “time” and velocity; that division depends on the coordinates chosen and is a description. In the medium there is one cause.
 
 Why the outward hold of sideways motion is reduced by exactly the pressure ratio, in terms of what touches what, is owed. **\[Open\]** The likeliest reading is that it is the same factor that slows clocks and squashes bonds along the flow (Part 23): the planet’s sideways motion is carried by its exchanges with the medium, like all its other processes, and where the active pressure is lower those exchanges deliver less.
 
 # Escape Is the Inflow Run Backward
 
-At every distance, the medium’s inflow speed equals the escape speed. **\[Argued\]** Both are $\sqrt{2GM/r}$: 11.2 kilometres a second at the Earth’s surface, 618 at the Sun’s. The inflow speed at each distance is the speed the medium has gained on its way in from far away; a body carried in from rest far away would arrive at that same speed. **\[Hypothesis\]** A body launched outward at that speed is slowed by the medium’s acceleration exactly as the medium was sped up on its way in, and comes to rest only far away; a slower body is turned back. Escape is the inflow run backward. The river picture of the black hole uses the same fact: the medium flows in at the escape speed, and at the horizon that speed is $c$ (Part 24).[^8]
+At every distance, the medium’s inflow speed equals the escape speed. **\[Argued\]** Both are $\sqrt{2GM/r}$: 11.2 kilometres a second at the Earth’s surface, 618 at the Sun’s. The inflow speed at each distance is the speed the medium has gained on its way in from far away; a body carried in from rest far away would arrive at that same speed. **\[Hypothesis\]** A body launched outward at that speed is slowed by the medium’s acceleration exactly as the medium was sped up on its way in, and comes to rest only far away; a slower body is turned back. Escape is the inflow run backward. The river picture of the black hole uses the same fact: the medium flows in at the escape speed, and at the horizon that speed is $c$ (Part 24).[^9]
 
 # Spin Reaches Out
 
-A spinning body induces outward ripples in the surrounding graviton field, creating a counter-pressure shell that stabilises interaction with ambient flow. In GPT a spinning body winds the counterflow of its ejecta around its axis, turning most strongly toward its equator and not at all along its axis (Part 16). **\[Hypothesis\]** Measurement shows a spinning body reaching out:
+A spinning body induces outward ripples in the surrounding graviton field, creating a counter-pressure shell that stabilises interaction with ambient flow. In GPT a spinning body winds the counterflow of its ejecta around its axis, turning most strongly toward its equator and not at all along its axis (Part 16). **\[Hypothesis\]** Measurement shows a spinning body reaching out:
 
-- **The medium is dragged round.** Gyroscopes orbiting the Earth were turned by 37 milliarcseconds a year by the Earth’s rotation, as Gravity Probe B measured.[^9] The swirl weakens as the inverse cube of distance.
+- **The medium is dragged round.** Gyroscopes orbiting the Earth were turned by 37 milliarcseconds a year by the Earth’s rotation, as Gravity Probe B measured.[^10] The swirl weakens as the inverse cube of distance.
 
-- **A planet’s own rhythms are written into its rings.** Waves in Saturn’s innermost ring are driven by oscillations inside Saturn itself, so that the ring records the planet’s interior.[^10]
+- **A planet’s own rhythms are written into its rings.** Waves in Saturn’s innermost ring are driven by oscillations inside Saturn itself, so that the ring records the planet’s interior.[^11]
 
-- **Rings sit at resonances with the spin of what they circle.** The ring of the dwarf planet Haumea lies where its particles orbit once for every three turns of Haumea; Quaoar’s ring lies at a resonance with Quaoar’s spin, outside the distance where a ring would normally be torn apart into moons.[^11][^12]
+- **Rings sit at resonances with the spin of what they circle.** The ring of the dwarf planet Haumea lies where its particles orbit once for every three turns of Haumea; Quaoar’s ring lies at a resonance with Quaoar’s spin, outside the distance where a ring would normally be torn apart into moons.[^12][^13]
 
 # Spin and Orbit Lock Together
 
-Tides slow spin toward the orbital rate. **\[Argued\]** A planet raises a tide on its moon and the moon on its planet; the tide is the difference in the medium’s inflow across the body (Part 13).[^13] Friction inside the flexing body makes the bulge lag, and the medium’s pressure on the lagging bulge turns the spin toward the orbital rate. This is the graviton torque, $T=-\gamma(\Omega-\Omega_{\text{corr}})$, with $\Omega_{\text{corr}}$ the orbital rate (Part 24). The locks it produces are measured:
+Tides slow spin toward the orbital rate. **\[Argued\]** A planet raises a tide on its moon and the moon on its planet; the tide is the difference in the medium’s inflow across the body (Part 13).[^14] Friction inside the flexing body makes the bulge lag, and the medium’s pressure on the lagging bulge turns the spin toward the orbital rate. This is the graviton torque, $T=-\gamma(\Omega-\Omega_{\text{corr}})$, with $\Omega_{\text{corr}}$ the orbital rate (Part 24). The locks it produces are measured:
 
 - the Moon shows the Earth one face; Pluto and Charon show each other one face;
 
-- Mercury turns three times for every two orbits, a lock found by radar in 1965;[^14]
+- Mercury turns three times for every two orbits, a lock found by radar in 1965;[^15]
 
-- the Earth’s day has lengthened by about 1.8 milliseconds a century over the last 2,700 years, as recorded eclipses show; the Moon’s tide slows it by more than this, and changes inside the Earth offset part of it.[^15]
+- the Earth’s day has lengthened by about 1.8 milliseconds a century over the last 2,700 years, as recorded eclipses show; the Moon’s tide slows it by more than this, and changes inside the Earth offset part of it.[^16]
 
 <figure id="fig:sync">
 <img src="assets/figures/fig26-1-sync.svg" />
 <figcaption>The direction of tidal drift. A moon outside the distance at which an orbit keeps pace with the planet’s spin is pushed outward by the tide; a moon inside it is drawn in. The Moon recedes from the Earth by 3.8 cm a year; Phobos, inside Mars’s synchronous distance, spirals in, while Deimos, outside it, drifts slowly out.</figcaption>
 </figure>
 
-Whether a moon moves out or spirals in is decided by where it orbits, not by which way. **\[Argued\]** The rule is measured (Figure <a href="#fig:sync" data-reference-type="ref" data-reference="fig:sync">1</a>). Every planet has a synchronous distance, at which an orbit keeps pace with its spin; for the Earth it is 42,164 kilometres, where geostationary satellites hang. A moon outside it is carried forward by the planet’s tidal bulge and moves outward: lunar laser ranging measures the Moon receding by 3.8 centimetres a year.[^16] A moon inside it lags the bulge and spirals in: Phobos, orbiting Mars well inside its synchronous distance though in the same direction as Mars spins, is drawing inward by about 2 centimetres a year and will break apart or strike Mars within tens of millions of years.[^17] A retrograde moon is always on the losing side, which is why Neptune’s large retrograde moon Triton is expected to spiral in.[^18] But retrograde motion as such is not unstable: Jupiter and Saturn have dozens of small retrograde moons in distant, stable orbits.
+Whether a moon moves out or spirals in is decided by where it orbits, not by which way. **\[Argued\]** The rule is measured (Figure 26.1). Every planet has a synchronous distance, at which an orbit keeps pace with its spin; for the Earth it is 42,164 kilometres, where geostationary satellites hang. A moon outside it is carried forward by the planet’s tidal bulge and moves outward: lunar laser ranging measures the Moon receding by 3.8 centimetres a year.[^17] A moon inside it lags the bulge and spirals in: Phobos, orbiting Mars well inside its synchronous distance though in the same direction as Mars spins, is drawing inward by about 2 centimetres a year and will break apart or strike Mars within tens of millions of years.[^18] A retrograde moon is always on the losing side, which is why Neptune’s large retrograde moon Triton is expected to spiral in.[^19] But retrograde motion as such is not unstable: Jupiter and Saturn have dozens of small retrograde moons in distant, stable orbits.
 
-A companion steadies a planet’s axis. **\[Argued\]** The Earth’s axis is tilted by $23.4^\circ$ and varies only between about $22.1^\circ$ and $24.5^\circ$. Laskar’s calculations of 1993 found that without the Moon, the Earth’s tilt would wander widely and chaotically;[^19] later, longer calculations found a narrower but still large range for a moonless Earth.[^20] Mars, with no large moon, has swung between about $15^\circ$ and $45^\circ$ over the last ten million years. In GPT the Moon acts through the medium: **\[Hypothesis\]** its inflow across the Earth’s equatorial bulge turns the Earth’s axis slowly round, once in 25,772 years, fast enough to keep the axis away from the resonances with the other planets that would otherwise rock it. The Earth’s axial tilt is sustained by lateral graviton tension, not by its moment of inertia alone: by a companion, acting through the medium.
+A companion steadies a planet’s axis. **\[Argued\]** The Earth’s axis is tilted by $23.4^\circ$ and varies only between about $22.1^\circ$ and $24.5^\circ$. Laskar’s calculations of 1993 found that without the Moon, the Earth’s tilt would wander widely and chaotically;[^20] later, longer calculations found a narrower but still large range for a moonless Earth.[^21] Mars, with no large moon, has swung between about $15^\circ$ and $45^\circ$ over the last ten million years. In GPT the Moon acts through the medium: **\[Hypothesis\]** its inflow across the Earth’s equatorial bulge turns the Earth’s axis slowly round, once in 25,772 years, fast enough to keep the axis away from the resonances with the other planets that would otherwise rock it. The Earth’s axial tilt is sustained by lateral graviton tension, not by its moment of inertia alone: by a companion, acting through the medium.
 
 # Systems Build Their Own Structure
 
-At any instant an orbit is possible at any distance: **\[Argued\]** Jupiter’s large moons, for example, are spaced geometrically, their periods in the ratio 1:2:4. But the field remembers, and each body’s movement helps maintain the corridor that contains it. That is measured, as structure that systems build over time (Part 16):
+At any instant an orbit is possible at any distance: **\[Argued\]** Jupiter’s large moons, for example, are spaced geometrically, their periods in the ratio 1:2:4. But the field remembers, and each body’s movement helps maintain the corridor that contains it. That is measured, as structure that systems build over time (Part 16):
 
 - **Gaps cleared by resonance.** The Kirkwood gaps in the asteroid belt lie where an asteroid’s period would stand in a simple ratio to Jupiter’s, 3:1, 5:2, 2:1; the Cassini Division in Saturn’s rings begins where ring particles would orbit twice for each orbit of the moon Mimas.
 
-- **Chains.** Jupiter’s moons Io, Europa and Ganymede orbit in the ratio 1:2:4; the seven planets of TRAPPIST-1 form an unbroken resonant chain.[^21]
+- **Chains.** Jupiter’s moons Io, Europa and Ganymede orbit in the ratio 1:2:4; the seven planets of TRAPPIST-1 form an unbroken resonant chain.[^22]
 
-- **Regular spacing.** Among planetary systems found by the Kepler telescope, neighbouring planets tend to be similar in size and regularly spaced,[^22] and their period ratios gather just wide of 3:2 and 2:1.[^23]
+- **Regular spacing.** Among planetary systems found by the Kepler telescope, neighbouring planets tend to be similar in size and regularly spaced,[^23] and their period ratios gather just wide of 3:2 and 2:1.[^24]
 
-In GPT the carrier of this sorting is the medium: **\[Hypothesis\]** each body’s inflow, ejecta and rotational rhythm meet the others’ (Part 16), and where conjunctions recur at the same places, their effects add over millions of orbits. Planetary shells differ from an atom’s (Part 19): an atom’s shells form at once because the electron’s wave is the size of its orbit; a planet’s wavelength is about $10^{-63}$ metres, so its shells can form only by slow sorting.
+In GPT the carrier of this sorting is the medium: **\[Hypothesis\]** each body’s inflow, ejecta and rotational rhythm meet the others’ (Part 16), and where conjunctions recur at the same places, their effects add over millions of orbits. Planetary shells differ from an atom’s (Part 19):[^25] an atom’s shells form at once because the electron’s wave is the size of its orbit; a planet’s wavelength is about $10^{-63}$ metres, so its shells can form only by slow sorting.
 
 # Many Bodies
 
-Where two large bodies orbit each other, there are five places where a small body can keep pace with them, **\[Argued\]** the Lagrange points. Two of them, sixty degrees ahead of and behind the smaller body, are stable if the larger body has more than about 25 times the smaller’s mass, a threshold Routh found in 1875. Jupiter has thousands of Trojan asteroids at these points; the Earth has two known, the first found in 2011.[^24] In GPT they are places where the combined inflows of the two bodies give the same acceleration that keeps pace with their orbit: **\[Hypothesis\]** the pressures of the two flows combine (Part 7), and a body there coasts in step with both.[^25]
+Where two large bodies orbit each other, there are five places where a small body can keep pace with them, **\[Argued\]** the Lagrange points. Two of them, sixty degrees ahead of and behind the smaller body, are stable if the larger body has more than about 25 times the smaller’s mass, a threshold Routh found in 1875. Jupiter has thousands of Trojan asteroids at these points; the Earth has two known, the first found in 2011.[^26] In GPT they are places where the combined inflows of the two bodies give the same acceleration that keeps pace with their orbit: **\[Hypothesis\]** the pressures of the two flows combine (Part 7), and a body there coasts in step with both.[^27]
 
 # The Exceptions
 
 Venus’s backward spin and Uranus’s tilt both have measured or calculated accounts that GPT can carry.
 
-- Venus’s day is not steady. **\[Argued\]** Venus turns backward once in 243 Earth days, and the length of its day varies by about twenty minutes as its massive atmosphere trades spin with the solid planet.[^26] Its slow backward spin is understood as a balance between the Sun’s tide on the solid planet and a tide raised in its atmosphere by the Sun’s heating, which pushes the other way.[^27] Both torques act through the medium: **\[Hypothesis\]** the Sun’s inflow across the planet, and its pressure on the redistributed atmosphere.
+- Venus’s day is not steady. **\[Argued\]** Venus turns backward once in 243 Earth days, and the length of its day varies by about twenty minutes as its massive atmosphere trades spin with the solid planet.[^28] Its slow backward spin is understood as a balance between the Sun’s tide on the solid planet and a tide raised in its atmosphere by the Sun’s heating, which pushes the other way.[^29] Both torques act through the medium: **\[Hypothesis\]** the Sun’s inflow across the planet, and its pressure on the redistributed atmosphere.
 
-- Uranus’s tilt, $98^\circ$, is open. **\[Open\]** A giant impact early in its history is the traditional account; a slow tilting through a resonance between the spin of its axis and the orbits of the planets, driven by a migrating moon, is a recent alternative.[^28]
+- Uranus’s tilt, $98^\circ$, is open. **\[Open\]** A giant impact early in its history is the traditional account; a slow tilting through a resonance between the spin of its axis and the orbits of the planets, driven by a migrating moon, is a recent alternative.[^30]
 
 # Unexplained: The Flyby Anomaly
 
-Several spacecraft have gained or lost a few millimetres per second during flybys of the Earth that no known force accounts for. **\[Argued\]** The largest, NEAR in 1998, was 13 millimetres per second. In 2008 Anderson and colleagues fitted the changes with a formula in which the size depends on the spacecraft’s incoming and outgoing angles to the Earth’s equator, and the constant is set by the Earth’s rotation, $2\omega R/c$, where $\omega$ is the Earth’s spin rate and $R$ its radius.[^29] Later flybys reported no anomaly at the size the formula predicts. The anomaly is unexplained. **\[Open\]** A rotational imprint of the Earth on the medium around it, beyond its shape, is GPT’s prediction **\[Hypothesis\]** (Part 16), and the anomaly’s dependence on the Earth’s spin is the kind of signature it would leave; a medium account would have to give both the flybys that showed it and those that did not. This is the measured case nearest to GPT’s prediction of inertial anomalies in spacecraft.
+Several spacecraft have gained or lost a few millimetres per second during flybys of the Earth that no known force accounts for. **\[Argued\]** The largest, NEAR in 1998, was 13 millimetres per second. In 2008 Anderson and colleagues fitted the changes with a formula in which the size depends on the spacecraft’s incoming and outgoing angles to the Earth’s equator, and the constant is set by the Earth’s rotation, $2\omega R/c$, where $\omega$ is the Earth’s spin rate and $R$ its radius.[^31] Later flybys reported no anomaly at the size the formula predicts. The anomaly is unexplained. **\[Open\]** A rotational imprint of the Earth on the medium around it, beyond its shape, is GPT’s prediction **\[Hypothesis\]** (Part 16), and the anomaly’s dependence on the Earth’s spin is the kind of signature it would leave; a medium account would have to give both the flybys that showed it and those that did not. This is the measured case nearest to GPT’s prediction of inertial anomalies in spacecraft.
 
 # What Remains to Be Derived
 
@@ -165,19 +167,19 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-anderson2008" class="csl-entry">
 
-Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed During Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
+Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed during Spacecraft Flybys of Earth.” *Physical Review Letters* 100: 091102.
 
 </div>
 
 <div id="ref-bertrand1873" class="csl-entry">
 
-Bertrand, J. 1873. “Théor‘eme Relatif Au Mouvement d’un Point Attiré Vers Un Centre Fixe.” *Comptes Rendus de l’Académie Des Sciences* 77: 849–53.
+Bertrand, J. 1873. “Théorème relatif au mouvement d’un point attiré vers un centre fixe.” *Comptes Rendus de l’Académie Des Sciences* 77: 849–53.
 
 </div>
 
 <div id="ref-bills2005" class="csl-entry">
 
-Bills, Bruce G. et al. 2005. “Improved Estimate of Tidal Dissipation Within Mars from MOLA Observations of the Shadow of Phobos.” *Journal of Geophysical Research* 110: E07004.
+Bills, Bruce G. et al. 2005. “Improved Estimate of Tidal Dissipation within Mars from MOLA Observations of the Shadow of Phobos.” *Journal of Geophysical Research* 110: E07004.
 
 </div>
 
@@ -213,7 +215,7 @@ Everitt, C. W. F. et al. 2011. “Gravity Probe B: Final Results of a Space Expe
 
 <div id="ref-fabrycky2014" class="csl-entry">
 
-Fabrycky, Daniel C. et al. 2014. “Architecture of Kepler’s Multi-Transiting Systems. II. New Investigations with Twice as Many Candidates.” *Astrophysical Journal* 790: 146.
+Fabrycky, Daniel C. et al. 2014. “Architecture of Kepler’s Multi-transiting Systems. II. New Investigations with Twice as Many Candidates.” *Astrophysical Journal* 790: 146.
 
 </div>
 
@@ -255,7 +257,7 @@ Margot, Jean-Luc et al. 2021. “Spin State and Moment of Inertia of Venus.” *
 
 <div id="ref-morgado2023" class="csl-entry">
 
-Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar Outside Its Roche Limit.” *Nature* 614: 239–43.
+Morgado, B. E. et al. 2023. “A Dense Ring of the Trans-Neptunian Object Quaoar outside Its Roche Limit.” *Nature* 614: 239–43.
 
 </div>
 
@@ -271,39 +273,51 @@ Pettengill, G. H., and R. B. Dyce. 1965. “A Radar Determination of the Rotatio
 
 </div>
 
+<div id="ref-rashadaPart14" class="csl-entry">
+
+Rashada, Shareef Ali. 2026a. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+
+</div>
+
 <div id="ref-rashadaPart11" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Re-Examining the Four (Part 11, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
+———. 2026b. “Re-examining the Four (Part 11, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-11-re-examining-the-four/>.
 
 </div>
 
 <div id="ref-rashadaPart7" class="csl-entry">
 
-———. 2026b. “The Illusion of Pull (Part 7, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
+———. 2026c. “The Illusion of Pull (Part 7, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-07-the-illusion-of-pull/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026c. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026d. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026d. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026e. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+
+</div>
+
+<div id="ref-rashadaPart19" class="csl-entry">
+
+———. 2026f. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
 
 </div>
 
 <div id="ref-rashadaPart16" class="csl-entry">
 
-———. 2026e. “The Properties of Gravitational Fields (Part 16, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
+———. 2026g. “The Properties of Gravitational Fields (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
 <div id="ref-rashadaPart24" class="csl-entry">
 
-———. 2026f. “Units, Constants and Conversions: The Numbers of the Medium (Part 24, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/>.
+———. 2026h. “Units, Constants and Conversions: The Numbers of the Medium (Part 24, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-24-gpt-unit-system/>.
 
 </div>
 
@@ -327,7 +341,7 @@ Touboul, Pierre et al. 2022. “MICROSCOPE Mission: Final Results of the Test of
 
 <div id="ref-weiss2018" class="csl-entry">
 
-Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod: Planets in a Kepler Multi-Planet System Are Similar in Size and Regularly Spaced.” *Astronomical Journal* 155: 48.
+Weiss, Lauren M. et al. 2018. “The California-Kepler Survey. V. Peas in a Pod: Planets in a Kepler Multi-planet System Are Similar in Size and Regularly Spaced.” *Astronomical Journal* 155: 48.
 
 </div>
 
@@ -339,60 +353,64 @@ Williams, James G., Slava G. Turyshev, and Dale H. Boggs. 2012. “Lunar Laser R
 
 </div>
 
-[^1]: (Rashada 2026e).
+[^1]: (Rashada 2026g).
 
-[^2]: (Rashada 2026c).
+[^2]: (Rashada 2026d).
 
-[^3]: (Rashada 2026f).
+[^3]: (Rashada 2026h).
 
 [^4]: (Rashada 2026a).
 
-[^5]: (Touboul et al. 2022).
+[^5]: (Rashada 2026b).
 
-[^6]: (Williams, Turyshev, and Boggs 2012).
+[^6]: (Touboul et al. 2022).
 
-[^7]: (Bertrand 1873).
+[^7]: (Williams, Turyshev, and Boggs 2012).
 
-[^8]: (Hamilton and Lisle 2008).
+[^8]: (Bertrand 1873).
 
-[^9]: (Everitt et al. 2011).
+[^9]: (Hamilton and Lisle 2008).
 
-[^10]: (Hedman and Nicholson 2013).
+[^10]: (Everitt et al. 2011).
 
-[^11]: (Ortiz et al. 2017).
+[^11]: (Hedman and Nicholson 2013).
 
-[^12]: (Morgado et al. 2023).
+[^12]: (Ortiz et al. 2017).
 
-[^13]: (Rashada 2026d).
+[^13]: (Morgado et al. 2023).
 
-[^14]: (Pettengill and Dyce 1965).
+[^14]: (Rashada 2026e).
 
-[^15]: (Stephenson, Morrison, and Hohenkerk 2016).
+[^15]: (Pettengill and Dyce 1965).
 
-[^16]: (Dickey et al. 1994).
+[^16]: (Stephenson, Morrison, and Hohenkerk 2016).
 
-[^17]: (Bills et al. 2005).
+[^17]: (Dickey et al. 1994).
 
-[^18]: (Chyba, Jankowski, and Nicholson 1989).
+[^18]: (Bills et al. 2005).
 
-[^19]: (Laskar, Joutel, and Robutel 1993).
+[^19]: (Chyba, Jankowski, and Nicholson 1989).
 
-[^20]: (Lissauer, Barnes, and Chambers 2012).
+[^20]: (Laskar, Joutel, and Robutel 1993).
 
-[^21]: (Luger et al. 2017).
+[^21]: (Lissauer, Barnes, and Chambers 2012).
 
-[^22]: (Weiss et al. 2018).
+[^22]: (Luger et al. 2017).
 
-[^23]: (Fabrycky et al. 2014).
+[^23]: (Weiss et al. 2018).
 
-[^24]: (Connors, Wiegert, and Veillet 2011).
+[^24]: (Fabrycky et al. 2014).
 
-[^25]: (Rashada 2026b).
+[^25]: (Rashada 2026f).
 
-[^26]: (Margot et al. 2021).
+[^26]: (Connors, Wiegert, and Veillet 2011).
 
-[^27]: (Correia and Laskar 2001).
+[^27]: (Rashada 2026c).
 
-[^28]: (Saillenfest et al. 2022).
+[^28]: (Margot et al. 2021).
 
-[^29]: (Anderson et al. 2008).
+[^29]: (Correia and Laskar 2001).
+
+[^30]: (Saillenfest et al. 2022).
+
+[^31]: (Anderson et al. 2008).
