@@ -502,7 +502,7 @@ Beyond Earth’s neighbourhood, the same influence arranges an entire planetary 
 
 - The point of Mercury’s closest approach to the Sun advances slowly, by about 574 arcseconds per century relative to the stars.
 
-*Explained as:* About 531 arcseconds of this are computed as the Newtonian tugs of the other planets **\[N\]**; the remaining 43 are attributed to General Relativity **\[GR\]**.[^17] The agreement is celebrated as a triumph of GR—and it is a numerical triumph. But the total is a sum: most of it from a theory in which planets pull one another with real forces, and a small remainder from a theory in which there are no such forces. The causal picture of the first part is denied by the theory credited with the second. **\[Argued\]**
+*Explained as:* About 532 arcseconds of this are computed as the Newtonian tugs of the other planets **\[N\]**; the remaining 43 are attributed to General Relativity **\[GR\]**.[^17] The agreement is celebrated as a triumph of GR—and it is a numerical triumph. But the total is a sum: most of it from a theory in which planets pull one another with real forces, and a small remainder from a theory in which there are no such forces. The causal picture of the first part is denied by the theory credited with the second. **\[Argued\]**
 
 ## Asteroid Belt, Gaps and Trojans
 
@@ -835,7 +835,7 @@ This list records what changed from the first edition (12 June 2025) and why. Ch
 
 - Many phenomena added, all sourced: in the body, the environment, the built world and measurement, the planets, the solar system and the cosmos, and in light and time (among them MICROSCOPE, Gravity Probe B, LIGO, the Event Horizon Telescope, the Bullet Cluster and the GPS clock budget).
 
-- Sourced examples of contradictory explanations: Mercury’s 531 plus 43 arcseconds; Soldner’s half of the bending of light; the two readings of gravitational redshift; Michell’s escape-velocity argument for black holes; the Newtonian derivation of the Friedmann equations; the location of gravitational-wave energy.
+- Sourced examples of contradictory explanations: Mercury’s 532 plus 43 arcseconds; Soldner’s half of the bending of light; the two readings of gravitational redshift; Michell’s escape-velocity argument for black holes; the Newtonian derivation of the Friedmann equations; the location of gravitational-wave energy.
 
 - The long-term stability of the planets is now described as stable over billions of years but chaotic in detail. Pound and Rebka are cited to their 1960 result. “Philosophie” is corrected to “Philosophiæ”. The GR evaluation sections are now compact tables, and “GR has no torque model” is now “in practice not used”.
 
