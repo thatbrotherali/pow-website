@@ -359,7 +359,7 @@ Pelissetto, Andrea, and Ettore Vicari. 2002. “Critical Phenomena and Renormali
 
 <div id="ref-rashadaPart29" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Experimental Divergence: Where the Accounts Part Ways, and How to Tell Them Apart (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+Rashada, Shareef Ali. 2026a. “Experimental Divergence: Physical Phenomena vs Abstract Geometry (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 

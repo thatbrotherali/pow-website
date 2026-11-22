@@ -449,7 +449,7 @@ Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Pa
 
 <div id="ref-rashadaPart29" class="csl-entry">
 
-———. 2026b. “Experimental Divergence: Where the Accounts Part Ways, and How to Tell Them Apart (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
+———. 2026b. “Experimental Divergence: Physical Phenomena vs Abstract Geometry (Part 29, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-29-experimental-divergence/>.
 
 </div>
 
