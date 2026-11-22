@@ -19,6 +19,8 @@ TITLES = [
     "Über magnetische Manganlegierungen",
     "Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie",
     "Zeitschrift für Physik",
+    "Mémoires de l’Académie Royale des Sciences",
+    "Comptes Rendus de l’Académie des Sciences",
 ]
 UMLAUT = re.compile(r'<span>([ÄÖÜäöüß])</span>')  # bibtex accent braces become bare spans
 NOCASE = re.compile(r'<span class="nocase">([^<>]*)</span>')

@@ -173,7 +173,7 @@ Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed duri
 
 <div id="ref-bertrand1873" class="csl-entry">
 
-Bertrand, J. 1873. “Théorème relatif au mouvement d’un point attiré vers un centre fixe.” *Comptes Rendus de l’Académie Des Sciences* 77: 849–53.
+Bertrand, J. 1873. “Théorème relatif au mouvement d’un point attiré vers un centre fixe.” *Comptes Rendus de l’Académie des Sciences* 77: 849–53.
 
 </div>
 

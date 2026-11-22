@@ -387,7 +387,7 @@ Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the interpretation 
 
 <div id="ref-painleve1921" class="csl-entry">
 
-Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
+Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie des Sciences* 173: 677–80.
 
 </div>
 

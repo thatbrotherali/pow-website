@@ -13955,7 +13955,7 @@ Okun, L. B., K. G. Selivanov, and V. L. Telegdi. 2000. “On the interpretation 
 
 <div id="ref-painleve1921" class="csl-entry">
 
-Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
+Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie des Sciences* 173: 677–80.
 
 </div>
 
@@ -21506,7 +21506,7 @@ Nagel, Moritz et al. 2015. “Direct Terrestrial Test of Lorentz Symmetry in Ele
 
 <div id="ref-painleve1921" class="csl-entry">
 
-Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
+Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie des Sciences* 173: 677–80.
 
 </div>
 
@@ -22373,7 +22373,7 @@ Oppenheimer, J. R., and G. M. Volkoff. 1939. “On massive neutron cores.” *Ph
 
 <div id="ref-painleve1921" class="csl-entry">
 
-Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie Des Sciences* 173: 677–80.
+Painlevé, Paul. 1921. “La mécanique classique et la théorie de la relativité.” *Comptes Rendus de l’Académie des Sciences* 173: 677–80.
 
 </div>
 
@@ -22749,7 +22749,7 @@ Anderson, John D. et al. 2008. “Anomalous Orbital-Energy Changes Observed duri
 
 <div id="ref-bertrand1873" class="csl-entry">
 
-Bertrand, J. 1873. “Théorème relatif au mouvement d’un point attiré vers un centre fixe.” *Comptes Rendus de l’Académie Des Sciences* 77: 849–53.
+Bertrand, J. 1873. “Théorème relatif au mouvement d’un point attiré vers un centre fixe.” *Comptes Rendus de l’Académie des Sciences* 77: 849–53.
 
 </div>
 
@@ -23259,7 +23259,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-amontons1699" class="csl-entry">
 
-Amontons, Guillaume. 1699. “De la résistance causée dans les machines.” *Mémoires de l’Académie Royale Des Sciences*.
+Amontons, Guillaume. 1699. “De la résistance causée dans les machines.” *Mémoires de l’Académie Royale des Sciences*.
 
 </div>
 

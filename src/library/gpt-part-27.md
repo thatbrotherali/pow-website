@@ -261,7 +261,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 <div id="ref-amontons1699" class="csl-entry">
 
-Amontons, Guillaume. 1699. “De la résistance causée dans les machines.” *Mémoires de l’Académie Royale Des Sciences*.
+Amontons, Guillaume. 1699. “De la résistance causée dans les machines.” *Mémoires de l’Académie Royale des Sciences*.
 
 </div>
 
