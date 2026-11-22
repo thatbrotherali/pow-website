@@ -8,7 +8,7 @@ By Shareef Ali Rashada
 
 # About This Paper
 
-Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also gives GPT’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what is measured.
+Part 23 set out GPT’s equations.[^1] This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT’s quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also gives GPT’s derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what is measured.
 
 This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. The deep field, matter and medium under extreme compression, receives a short section here. Claims are marked by their status, as the key shows.
 
@@ -28,7 +28,7 @@ In GPT this is not a convenience. Mass is the rate at which a pattern turns over
 
 # The Constants of the Medium
 
-Table <a href="#tab:constants" data-reference-type="ref" data-reference="tab:constants">1</a> lists the constants GPT uses, with how each is known and what GPT reads it as.
+Table 24.1 lists the constants GPT uses, with how each is known and what GPT reads it as.
 
 <div id="tab:constants">
 
@@ -51,9 +51,9 @@ The constants GPT uses. The first seven are measured or fixed by the SI. Of the 
 
 Three of these deserve comment.
 
-- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The graviton impedance has a mechanical form from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
+- Empty space has a measured impedance, **\[Argued\]** 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. In GPT, $Z_0$ is the medium’s, measured in electrical units. **\[Hypothesis\]** The graviton impedance has a mechanical form from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
 
-- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23).
+- $P_0$ is GPT’s least certain constant. **\[Hypothesis\]** Only the inflow speed enters orbits, clocks and light; the medium’s pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23).
 
 - $G$ is the least precisely known constant of physics: **\[Argued\]** measurements by different methods disagree by more than their stated errors.[^6] The scatter is unexplained.
 
@@ -79,7 +79,7 @@ The pressure and the clock rate are one quantity read two ways. A clock that run
 
 # Worked Numbers
 
-Table <a href="#tab:worked" data-reference-type="ref" data-reference="tab:worked">2</a> applies the conversions from a GPS satellite to the horizon of a black hole. Every row is checked by a measurement **\[Argued\]** (Figure <a href="#fig:ladder" data-reference-type="ref" data-reference="fig:ladder">1</a>).
+Table 24.2 applies the conversions from a GPS satellite to the horizon of a black hole. Every row is checked by a measurement **\[Argued\]** (Figure 24.1).
 
 <div id="tab:worked">
 
@@ -92,7 +92,7 @@ Table <a href="#tab:worked" data-reference-type="ref" data-reference="tab:worke
 | Neutron star, 1.4 solar masses, 12 km | $0.59c$        | 0.35                | 0.19                            | $1.3\times10^{12}$ | radii of 12–13 km measured (NICER)                            |
 | Black hole horizon, $r=2GM/c^2$       | $c$            | 1                   | clocks stop, seen from far away | —                  | shadow sizes measured (EHT)                                   |
 
-Worked values. Inflow, pressure fall and clock slowing from the conversions of Section <a href="#sec:conversions" data-reference-type="ref" data-reference="sec:conversions">“Conversions”</a>; the checks are measurements.
+Worked values. Inflow, pressure fall and clock slowing from the conversions of Section <a href="#sec:conversions" data-reference-type="ref" data-reference="sec:conversions">3</a>; the checks are measurements.
 
 </div>
 
@@ -133,18 +133,19 @@ This rhythm is the structure’s temporal resolution rate, in s$^{-1}$.
 
 # Stiffness: The Second Pressure
 
-*Coherence resistance*, $C_{\text{res}}$, is how well a structure resists compression. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] $C_{\text{res}}$ is these measured moduli.
+*Coherence resistance*, $C_{\text{res}}$, is how well a structure resists compression. The measured quantity is the elastic modulus: **\[Argued\]** the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond’s is 443 gigapascals, iron’s 170, lead’s 46, water’s 2.2. Its scale is set by the energy of the bonds: iron’s cohesive energy is $5.8\times10^{10}$ joules per cubic metre. In GPT this is the second pressure, the energy of the medium organised into matter’s bonds, distinct from the medium’s free-space pressure **\[Hypothesis\]** (Part 20).[^13] $C_{\text{res}}$ is these measured moduli.
 
 # Spin and Orbit
 
 A graviton torque acts on a spinning body, $$T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
-\label{eq:torque}$$ driving its spin $\Omega$ toward a preferred rate $\Omega_{\text{corr}}$. This is the form of the tidal torque, **\[Argued\]** with $\Omega_{\text{corr}}$ the orbital rate and $\gamma$ set by the friction inside the body as it is flexed by the tide. It drives a spin toward lock, and the Moon, which always shows the Earth the same face, has reached it. In GPT the tide is the difference in the medium’s inflow across the body, and the torque is delivered through the medium **\[Hypothesis\]** (Part 13).[^14]
+
+\tag{1}$$ driving its spin $\Omega$ toward a preferred rate $\Omega_{\text{corr}}$. This is the form of the tidal torque, **\[Argued\]** with $\Omega_{\text{corr}}$ the orbital rate and $\gamma$ set by the friction inside the body as it is flexed by the tide. It drives a spin toward lock, and the Moon, which always shows the Earth the same face, has reached it. In GPT the tide is the difference in the medium’s inflow across the body, and the torque is delivered through the medium **\[Hypothesis\]** (Part 13).[^14]
 
 The coupling ratio of spin to orbital angular momentum, $\kappa = I\omega/mvr$, does not decide locking: it is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. What decides whether a body locks is the time it takes, **\[Argued\]** which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.[^15] The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
 
 # The Strong Field
 
-The deep field needs no nonlinear term for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
+The deep field needs no nonlinear term for the motion of the medium: Part 23’s inflow, $v^2=2GM/r$, holds at every strength, **\[Argued\]** and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé–Gullstrand form). What the strong field adds is two things.
 
 **\[Hypothesis: the passage that follows\]**
 
@@ -198,8 +199,6 @@ This list records what changed from the first edition and why. Changes to the ar
 
 - New: a table of constants with how each is known, including the measured impedance of free space; a table of worked values from a GPS orbit to a black hole’s horizon, each with its measured check.
 
-- The free-space pressure estimate of $10^{-6}$ to $10^{-4}$ pascals is retired; $P_0\approx4.5\times10^{-10}$ pascals passes the heat budget (Part 23).
-
 - Coherence resistance is replaced by the measured bulk modulus and the energy density of bonds. The graviton torque is kept as the tidal torque. The lock criterion $\kappa\approx1$ is replaced by the time to lock. The temporal resolution rate is the rhythm $E/h$. The graviton impedance is identified with the medium’s impedance.
 
 - The resonance feedback coefficient $R_{\text{field}}$, the coherence density, the graviton coupling coefficient $\kappa_g$ and the constants $\alpha$ and $\gamma$ are withdrawn: none was defined by a measurement. The estimated value ranges are retired; $P_0$ is about $4.5\times10^{-10}$ pascals (Part 23).
@@ -207,6 +206,8 @@ This list records what changed from the first edition and why. Changes to the ar
 - The deep-field equation with its nonlinear term is withdrawn: the inflow holds at every strength. The resonance-lock wave $P_0\cos(\ldots)e^{-\gamma t}$ is withdrawn: it makes the pressure negative half the time. New: the horizon as the surface where the active pressure reaches zero, and dense stars held by exclusion to measured limits.
 
 - Removed, as too far from the core: the calibration instruments (resonance-matched instruments, stratified field mapping, orbital corridor diagnostics), the resolvable pressure of $10^{-8}$ pascals, the multiscale claims for biology and galactic corridor bifurcation, and the closing on propulsion and shielding.
+
+- The free-space pressure estimate of $10^{-6}$ to $10^{-4}$ pascals is retired; $P_0\approx4.5\times10^{-10}$ pascals passes the heat budget (Part 23).
 
 ## Clarifications
 
@@ -226,7 +227,7 @@ Barstow, M. A. et al. 2005. “Hubble Space Telescope Spectroscopy of the Balmer
 
 <div id="ref-bipm2019" class="csl-entry">
 
-Bureau International des Poids et Mesures. 2019. *The International System of Units (SI)*. Ninth. S‘evres: BIPM.
+Bureau International des Poids et Mesures. 2019. *The International System of Units (SI)*. Ninth. Sèvres: BIPM.
 
 </div>
 
@@ -256,7 +257,7 @@ Gladman, Brett et al. 1996. “Synchronous Locking of Tidally Evolving Satellite
 
 <div id="ref-gonzalez2020" class="csl-entry">
 
-Hernández, J. I. González et al. 2020. “The Solar Gravitational Redshift from HARPS-LFC Moon Spectra.” *Astronomy & Astrophysics* 643: A146.
+González Hernández, J. I. et al. 2020. “The Solar Gravitational Redshift from HARPS-LFC Moon Spectra.” *Astronomy & Astrophysics* 643: A146.
 
 </div>
 
@@ -274,31 +275,61 @@ Pound, R. V., and G. A. Rebka. 1960. “Apparent Weight of Photons.” *Physical
 
 <div id="ref-rashadaPart20" class="csl-entry">
 
-Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+Rashada, Shareef Ali. 2026a. “Coherence: The Order and Structure of Matter (Part 20, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-20-graviton-coherence/>.
+
+</div>
+
+<div id="ref-rashadaPart14" class="csl-entry">
+
+———. 2026b. “From Revelation to Foundation: Graviton Pressure Theory, Stated in One Piece (Part 14, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-14-from-revelation-to-foundation/>.
+
+</div>
+
+<div id="ref-rashadaPart15" class="csl-entry">
+
+———. 2026c. “Gravitons: The Constituent of the Medium, and the Causal Engine Behind Gravity (Part 15, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-15-gravitons/>.
+
+</div>
+
+<div id="ref-rashadaPart22" class="csl-entry">
+
+———. 2026d. “Magnetism: External Pressure from Extended Graviton Corridors (Part 22, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-22-magnetism-as-gravimetric-resonance/>.
 
 </div>
 
 <div id="ref-rashadaPart17" class="csl-entry">
 
-———. 2026b. “The Definition of Mass (Part 17, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
+———. 2026e. “The Definition of Mass (Part 17, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-17-the-definition-of-mass/>.
 
 </div>
 
 <div id="ref-rashadaPart23" class="csl-entry">
 
-———. 2026c. “The Mathematical Foundation (Part 23, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
+———. 2026f. “The Mathematical Foundation (Part 23, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-23-the-mathematical-foundation/>.
 
 </div>
 
 <div id="ref-rashadaPart13" class="csl-entry">
 
-———. 2026d. “The Moon, the Tides and the Rhythms of Life (Part 13, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
+———. 2026g. “The Moon, the Tides and the Rhythms of Life (Part 13, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-13-the-moon-gravimetric-modulation-and-the-resonant-biology-of-/>.
 
 </div>
 
 <div id="ref-rashadaPart18" class="csl-entry">
 
-———. 2026e. “The Nature of Time (Part 18, Second Edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+———. 2026h. “The Nature of Time (Part 18, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-18-the-nature-of-time-in-gpt/>.
+
+</div>
+
+<div id="ref-rashadaPart19" class="csl-entry">
+
+———. 2026i. “The Pathway to Matter (Part 19, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-19-the-pathway-to-matter/>.
+
+</div>
+
+<div id="ref-rashadaPart16" class="csl-entry">
+
+———. 2026j. “The Properties of Gravitational Fields: Inflow, Counterflow, and the Shells That Rhythm Builds (Part 16, second edition).” <https://peopleoftheworld.net/graviton-pressure-theory/full-framework/part-16-the-properties-of-gravitational-fields/>.
 
 </div>
 
@@ -322,21 +353,21 @@ Rothleitner, C., and S. Schlamminger. 2017. “Measurements of the Newtonian Con
 
 </div>
 
-[^1]: (Rashada 2026c).
+[^1]: (Rashada 2026f).
 
 [^2]: (Bureau International des Poids et Mesures 2019).
 
-[^3]: (Rashada 2026e).
+[^3]: (Rashada 2026h).
 
 [^4]: (Lan et al. 2013).
 
-[^5]: (Rashada 2026b).
+[^5]: (Rashada 2026e).
 
 [^6]: (Rothleitner and Schlamminger 2017).
 
 [^7]: (Pound and Rebka 1960).
 
-[^8]: (Hernández et al. 2020).
+[^8]: (González Hernández et al. 2020).
 
 [^9]: (Barstow et al. 2005).
 
@@ -348,7 +379,7 @@ Rothleitner, C., and S. Schlamminger. 2017. “Measurements of the Newtonian Con
 
 [^13]: (Rashada 2026a).
 
-[^14]: (Rashada 2026d).
+[^14]: (Rashada 2026g).
 
 [^15]: (Gladman et al. 1996).
 

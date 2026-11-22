@@ -1,3 +1,7 @@
+% Part metadata for the publishing tool
+\newcommand{\gptpart}{24}
+\newcommand{\gpttitle}{Units, Constants and Conversions}
+\newcommand{\gptsubtitle}{The Numbers of the Medium}
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -24,7 +28,6 @@
 \renewcommand{\thesection}{24.\arabic{section}}
 
 % Footnote citation in the style of the first edition
-\newcommand{\fn}[1]{\footnote{\citealp{#1}.}}
 
 % Claim-status marks (underlines, margin bars and the key)
 \usepackage{gpt-status}
@@ -46,6 +49,7 @@
 \newcommand{\why}[1]{\par\textit{#1}\par}
 \usepackage{tocloft}
 \renewcommand{\cftsecfont}{\bfseries}\renewcommand{\cftsecpagefont}{\bfseries}\setlength{\cftsecnumwidth}{3.2em}
+\graphicspath{{figs/}}
 \begin{document}
 \renewcommand{\thetable}{24.\arabic{table}}
 \begin{titlepage}
@@ -71,7 +75,7 @@ This submission is part of the broader Graviton Pressure Theory (GPT) project, a
 {\large Author: Shareef Ali Rashada\par}
 {\normalsize shareef@peopleoftheworld.net\par}
 \vspace{0.3cm}
-{\normalsize Second edition, November 2026\par}
+{\normalsize Second edition, November 2026 \quad (first edition 12 June 2025)\par}
 \end{titlepage}
 
 \tableofcontents
@@ -80,16 +84,16 @@ This submission is part of the broader Graviton Pressure Theory (GPT) project, a
 \section*{About This Paper}
 \addcontentsline{toc}{section}{About This Paper}
 
-Part~23 set out GPT's equations.\fn{rashadaPart23} This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT's quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also restates the first edition's derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what has since been measured.
+Part 23 set out GPT's equations.\fn{rashadaPart23} This paper gathers its numbers: the units it uses, the constants of the medium with how each is known, the conversions between GPT's quantities and the quantities instruments read, and a table of worked values from a GPS satellite to the horizon of a black hole, each checked against a measurement. It also gives GPT's derived quantities, coherence resistance, the coupling ratio and the graviton torque, in terms of what is measured.
 
-This second edition merges the first edition's Part~24, \emph{GPT Unit System and Dimensional Foundations}, with the constants and conversions of its Part~25, \emph{Constants, Conversions and Deep Field Formalism}. The deep field, matter and medium under extreme compression, receives a short section here; a fuller treatment is under consideration. The list at the end says what changed and why. Claims are marked by their status, as the key shows.
+This is the second edition; it joins two parts of the first, and the list at the end says what changed and why. The deep field, matter and medium under extreme compression, receives a short section here. Claims are marked by their status, as the key shows.
 
 \statuskey
 
 \section{One System of Units}
 \label{sec:units}
 
-The first edition introduced the graviton pressure unit, \emph{gp}, as momentum delivered per unit area per unit time, and noted that it is dimensionally the pascal. \argm{It is the pascal}, and this edition uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium's pressure; a frequency in hertz is a structure's rhythm; a speed of $c$ is the speed of the medium's waves.
+The graviton pressure unit, \emph{gp}, is momentum delivered per unit area per unit time. \argm{It is the pascal}, and this paper uses SI units throughout. GPT does not need new units. It needs new readings of the quantities that instruments already measure: a pressure in pascals is the medium's pressure; a frequency in hertz is a structure's rhythm; a speed of $c$ is the speed of the medium's waves.
 
 \argm{The SI itself has been rebuilt on rhythm and on the medium's wave speed.} Since 2019 every SI unit has been defined by fixing the values of seven constants:\fn{bipm2019}
 \begin{itemize}
@@ -130,8 +134,8 @@ Boundary acceleration, $a_0$ & about $1.2\times10^{-10}$ m/s$^2$ & measured, fro
 
 Three of these deserve comment.
 \begin{itemize}
-\item \argm{Empty space has a measured impedance}, 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. \hypm{In GPT, $Z_0$ is the medium's, measured in electrical units.} The first edition's ``graviton impedance'', which it gave in N\,s/m$^3$, has a mechanical counterpart from Part~23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$\,s.
-\item \hypm{$P_0$ is GPT's least certain constant.} Only the inflow speed enters orbits, clocks and light; the medium's pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part~23). The first edition's estimate of $10^{-6}$ to $10^{-4}$ pascals is retired.
+\item \argm{Empty space has a measured impedance}, 376.73 ohms: the ratio of the electric to the magnetic part of a light wave travelling through it. An impedance is a property of a medium; for a string it is its tension and density, for air its density and the speed of sound. \hypm{In GPT, $Z_0$ is the medium's, measured in electrical units.} The graviton impedance has a mechanical form from Part 23: $\rho_g c \approx 3.0\times10^{-18}$ kg/m$^2$ s.
+\item \hypm{$P_0$ is GPT's least certain constant.} Only the inflow speed enters orbits, clocks and light; the medium's pressure and density cancel. $P_0$ is fixed by requiring the pressure and clock laws to agree, $P_0=\tfrac12\rho_g c^2$, and by the heat budget: at this value the Earth would absorb a ten-thousandth of its measured heat flow and the Sun a hundred-billionth of its output, if they kept the energy of what flows in (Part 23).
 \item \argm{$G$ is the least precisely known constant of physics}: measurements by different methods disagree by more than their stated errors.\fn{rothleitner2017} The scatter is unexplained.
 \end{itemize}
 
@@ -203,29 +207,29 @@ The relaxation boundary, from the same conversions: about 7,000 astronomical uni
 \item the hydrogen line, the most common radio signal in the universe, 1,420 megahertz;
 \item the strontium optical clock, 429 terahertz, stable to about a part in $10^{18}$.
 \end{itemize}
-The first edition's ``temporal resolution rate'', in s$^{-1}$, is this rhythm.
+This rhythm is the structure's temporal resolution rate, in s$^{-1}$.
 
 \section{Stiffness: The Second Pressure}
 \label{sec:stiffness}
 
-The first edition defined a \emph{coherence resistance}, $C_{\text{res}}$, as how well a structure resists compression, ``analogous to elastic modulus''. \argm{The measured quantity is the elastic modulus}: the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond's is 443 gigapascals, iron's 170, lead's 46, water's 2.2. Its scale is set by the energy of the bonds: iron's cohesive energy is $5.8\times10^{10}$ joules per cubic metre. \hypm{In GPT this is the second pressure, the energy of the medium organised into matter's bonds, distinct from the medium's free-space pressure} (Part~20).\fn{rashadaPart20} The first edition's $C_{\text{res}}$, with its units of pressure per volume, is replaced by these measured moduli.
+\emph{Coherence resistance}, $C_{\text{res}}$, is how well a structure resists compression. \argm{The measured quantity is the elastic modulus}: the bulk modulus, the pressure needed to compress a material by a given fraction. Diamond's is 443 gigapascals, iron's 170, lead's 46, water's 2.2. Its scale is set by the energy of the bonds: iron's cohesive energy is $5.8\times10^{10}$ joules per cubic metre. \hypm{In GPT this is the second pressure, the energy of the medium organised into matter's bonds, distinct from the medium's free-space pressure} (Part 20).\fn{rashadaPart20} $C_{\text{res}}$ is these measured moduli.
 
 \section{Spin and Orbit}
 \label{sec:spin}
 
-The first edition defined a graviton torque on a spinning body,
+A graviton torque acts on a spinning body,
 \begin{equation}
 T = -\gamma\,(\Omega - \Omega_{\text{corr}}),
 \label{eq:torque}
 \end{equation}
 driving its spin $\Omega$ toward a preferred rate $\Omega_{\text{corr}}$. \argm{This is the form of the tidal torque}, with $\Omega_{\text{corr}}$ the orbital rate and $\gamma$ set by the friction inside the body as it is flexed by the tide. It drives a spin toward lock, and the Moon, which always shows the Earth the same face, has reached it. \hypm{In GPT the tide is the difference in the medium's inflow across the body, and the torque is delivered through the medium} (Part~13).\fn{rashadaPart13}
 
-The first edition proposed that a body is locked when its spin and orbital angular momenta are equal, $\kappa = I\omega/mvr \approx 1$. The numbers do not bear this out as written: $\kappa$ is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. \argm{What decides whether a body locks is the time it takes}, which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.\fn{gladman1996} The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
+The coupling ratio of spin to orbital angular momentum, $\kappa = I\omega/mvr$, does not decide locking: it is about $2\times10^{-7}$ for the Earth and $8\times10^{-6}$ for the locked Moon. \argm{What decides whether a body locks is the time it takes}, which grows as the sixth power of its distance from what raises the tide and depends on its rigidity and internal friction.\fn{gladman1996} The measured pattern follows: the large moons close to their planets are locked, Pluto and Charon are locked to each other, and Mercury, close to the Sun, is held at three turns for every two orbits.
 
 \section{The Strong Field}
 \label{sec:strong}
 
-The first edition's Part~25 proposed a ``deep field'' equation with a nonlinear term, $\nabla^2P_g + \alpha(\nabla P_g)^2 = -\rho_g$, for dense stars. \argm{No such term is needed for the motion of the medium: Part~23's inflow, $v^2=2GM/r$, holds at every strength}, and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé--Gullstrand form). What the strong field adds is two things.
+\argm{The deep field needs no nonlinear term for the motion of the medium: Part 23's inflow, $v^2=2GM/r$, holds at every strength}, and in that form it reproduces the exact field of a non-rotating black hole (the Painlevé--Gullstrand form). What the strong field adds is two things.
 
 \begin{hypbar}
 \textbf{The horizon is where the medium's active pressure reaches zero.} The pressure falls as $P = P_0 - \tfrac12\rho_g v^2$, and $P_0 = \tfrac12\rho_g c^2$, so where the inflow reaches the speed of light, at $r = 2GM/c^2$, the active pressure is exactly zero. Inside, the medium flows inward faster than its own waves can travel, and nothing carried by those waves can get out. For ten solar masses the horizon is about 30 kilometres in radius; for the black hole in M87, about 130 astronomical units.
@@ -253,8 +257,9 @@ The first edition's Part~25 proposed a ``deep field'' equation with a nonlinear 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
 
-GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium's waves: the second is a count of a caesium atom's rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium's constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT's own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT's pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. The first edition's derived quantities become measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
+GPT uses the SI throughout, and the SI itself is now defined by rhythm and by the speed of the medium's waves: the second is a count of a caesium atom's rhythm, the metre is set by $c$, and the kilogram is measured as a frequency. The medium's constants are partly measured, its electrical constants and its impedance of 376.73 ohms, and partly GPT's own: a free-space pressure of about $4.5\times10^{-10}$ pascals and a density of about $10^{-26}$ kilograms per cubic metre. The conversions from GPT's pressure to the quantities instruments read take a single form, and they are checked from a GPS satellite, where the pressure falls by three parts in ten billion, to the horizon of a black hole, where it falls to zero. GPT's derived quantities are measured ones: stiffness, the tidal torque and the time it takes to lock, and the rhythm of each structure.
 
+\clearpage
 \section*{Changes in the Second Edition}
 \addcontentsline{toc}{section}{Changes in the Second Edition}
 
@@ -272,6 +277,7 @@ This list records what changed from the first edition and why. Changes to the ar
 \item The resonance feedback coefficient $R_{\text{field}}$, the coherence density, the graviton coupling coefficient $\kappa_g$ and the constants $\alpha$ and $\gamma$ are withdrawn: none was defined by a measurement. The estimated value ranges are retired; $P_0$ is about $4.5\times10^{-10}$ pascals (Part~23).
 \item The deep-field equation with its nonlinear term is withdrawn: the inflow holds at every strength. The resonance-lock wave $P_0\cos(\ldots)e^{-\gamma t}$ is withdrawn: it makes the pressure negative half the time. New: the horizon as the surface where the active pressure reaches zero, and dense stars held by exclusion to measured limits.
 \item Removed, as too far from the core: the calibration instruments (resonance-matched instruments, stratified field mapping, orbital corridor diagnostics), the resolvable pressure of $10^{-8}$ pascals, the multiscale claims for biology and galactic corridor bifurcation, and the closing on propulsion and shielding.
+\item The free-space pressure estimate of $10^{-6}$ to $10^{-4}$ pascals is retired; $P_0\approx4.5\times10^{-10}$ pascals passes the heat budget (Part~23).
 \end{itemize}
 
 \subsection*{Clarifications}
@@ -283,6 +289,7 @@ This list records what changed from the first edition and why. Changes to the ar
 
 \newpage
 \bibliographystyle{plainnat}
+\nocite{rashadaPart14,rashadaPart15,rashadaPart16,rashadaPart19,rashadaPart22}
 \bibliography{part24}
 
 \end{document}
