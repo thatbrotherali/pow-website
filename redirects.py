@@ -80,7 +80,7 @@ SITEMAP = {
     "free-framework-for-the-gpt": FW, "podcast": "videos.html", "ai-pathway-for-gpt": GPT, "the-portal-opens": "seekers.html",
     "the-new-morality": "new-morality/", "learning-centers": "easykey/centers/", "part-24-gpt-unit-system": FW + "part-24-gpt-unit-system/",
     "part-27-transitional-mechanics": PAPERS + "transitional-mechanics/", "what-you-can-do-now": "support.html", "part-5-gpt": FW + "part-05-graviton-pressure-theory/",
-    "planetary-mechanics": FW + "part-26-planetary-mechanics/", "the-portal-opens-pdf-and-audiobook": "read.html", "poverty-elimination": "builders.html",
+    "planetary-mechanics": FW + "part-26-planetary-mechanics/", "the-portal-opens-pdf-and-audiobook": "read.html", "poverty-elimination": "builders.html", "end-poverty": "builders.html", "end-poverty-by-design": "builders.html",
     "graviton-pressure-theory-gpt": FW + "part-05-graviton-pressure-theory/", "graviton-coherence": FW + "part-19-graviton-coherence/",
     "exposing-the-irreconcilable-contradictions": FW + "part-08-defining-the-break/", "meet-the-team": "about.html",
     "part-7-the-illusion-of-pull": FW + "part-07-the-illusion-of-pull/", "discover-the-truth": "seekers.html",
